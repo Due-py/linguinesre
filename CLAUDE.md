@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## State of the repo
 
-Next.js 16.4 (App Router, Turbopack, `src/` dir, `@/*` alias) + React 19 + TypeScript + Tailwind v4. Done: Phase 0 (scaffold, placeholder home page) and Phase 1a (latency lab). The full approved plan (Vietnamese) is at `C:\Users\duynd\.claude\plans\init-read-everything-in-majestic-boot.md`; read it before starting any phase.
+Next.js 16.4 (App Router, Turbopack, `src/` dir, `@/*` alias) + React 19 + TypeScript + Tailwind v4. Done: Phase 0 (scaffold), Phase 1a (latency lab), content pilot (Grade 8 Unit 1 draft) and Phase 1b (intro page, class-code auth; not yet tested against a real Supabase project). The full approved plan (Vietnamese) is at `C:\Users\duynd\.claude\plans\init-read-everything-in-majestic-boot.md`; read it before starting any phase.
 
 ```bash
 npm run dev                                       # http://localhost:3000
@@ -20,6 +20,14 @@ Tests cover pure logic only (`src/**/*.test.ts`, node environment). Browser audi
 ### Latency lab (`/lab/latency`, Phase 1a)
 
 `src/lib/latency/`: `onset.ts` (pure threshold/onset/silence trackers), `measure.ts` (classify trial, summary, CSV; `MIN_PLAUSIBLE_LATENCY_MS` = 150, faster onsets count as "early"), `voice-detector.ts` (browser: mic RMS meter, audio-clock prompt playback, Web Speech mode B), `questions.ts`. Latency is measured from the audio-clock end of the prompt, so prompt audio must have no trailing silence: `scripts/make-lab-audio.ps1` generates WAVs with the Windows voice and trims them with ffmpeg (run with `powershell -NoProfile -File scripts\make-lab-audio.ps1`). Spike procedure and results: `docs/latency-spike/`; write `RESULTS.md` there only from real device data.
+
+### Content (`src/content/`)
+
+`schema.ts` (zod) is the one shape for all 78 Units; `units/index.ts` registers each `units/g<grade>/u<nn>-<slug>.json` and parses it at import, so invalid content fails the build. Build-time rules: Speed Q&A / roleplay sample answers must satisfy their `keywords` (`match.ts`: groups of alternatives, all groups required, `*` wildcard inside a word), abbreviations (2+ capitals) need a `say` text for TTS, ids unique, pages inside the Unit range. `collectSpeakables()` is the list the future Kokoro script will voice. Unit text is rewritten from the SGK, never copied; sources per Unit go in `docs/content/<unit>-nguon.md`. Review pages: `/lab/content/[unitId]`. Only `teacher-approved` Units open to students.
+
+### Auth (Phase 1b)
+
+Class code + nickname + 6-digit PIN. Supabase Auth needs an email, so `hiddenEmail(classId, nicknameKey)` (sha256, `@students.example.com`) is used internally; no mail is ever sent. Accounts are created only by the `register` server action with the secret-key admin client after the class code is checked; public sign-up must stay disabled in Supabase. `src/lib/auth/identity.ts` holds the pure rules (tested); `src/app/(auth)/actions.ts` the register/login/logout actions; wrong PIN 5x locks 15 min (`login_attempts`, server-only). `src/proxy.ts` (Next 16 name for middleware) refreshes the session and redirects `/hoc` ↔ auth pages. Pages reading the session must sit inside `<Suspense>` (cacheComponents). Without env vars the app builds and shows a "not configured" notice. Env: see `.env.example`; DB schema + RLS: `supabase/migrations/`; setup steps: `docs/supabase-setup.md`. `src/lib/supabase/admin.ts` bypasses RLS — server only, after checking who is asking.
 
 ### Conventions
 
