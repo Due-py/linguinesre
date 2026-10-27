@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+/* Design tokens. Direction from files/Design Inspiration 1-4:
+   cream background, dark ink, one green accent, pastel tiles per level. */
+:root {
+  --background: #f7f3ea;
+  --surface: #ffffff;
+  --foreground: #1c1f1a;
+  --muted: #6b6f66;
+  --line: #e4ddcd;
+  --accent: #22c55e;
+  --accent-ink: #0f3d22;
+  --level-0: #fdf6c9;
+  --level-1: #dbe8fb;
+  --level-2: #fbe3d6;
+  --level-3: #dcefe0;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-level-0: var(--level-0);
+  --color-level-1: var(--level-1);
+  --color-level-2: var(--level-2);
+  --color-level-3: var(--level-3);
+  --font-sans: var(--font-manrope);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-manrope), system-ui, sans-serif;
+}
