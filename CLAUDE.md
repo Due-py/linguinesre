@@ -4,15 +4,24 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## State of the repo
 
-Phase 0 scaffold (2026-10-27): Next.js 16.4 (App Router, Turbopack, `src/` dir, `@/*` alias) + React 19 + TypeScript + Tailwind v4. Only a placeholder home page exists. The full approved plan (Vietnamese) is at `C:\Users\duynd\.claude\plans\init-read-everything-in-majestic-boot.md`; read it before starting any phase.
+Next.js 16.4 (App Router, Turbopack, `src/` dir, `@/*` alias) + React 19 + TypeScript + Tailwind v4. Done: Phase 0 (scaffold, placeholder home page) and Phase 1a (latency lab). The full approved plan (Vietnamese) is at `C:\Users\duynd\.claude\plans\init-read-everything-in-majestic-boot.md`; read it before starting any phase.
 
 ```bash
-npm run dev     # http://localhost:3000
-npm run lint    # eslint
-npm run build   # production build + type check
+npm run dev                                       # http://localhost:3000
+npm run lint                                      # eslint
+npm run build                                     # production build + type check
+npm test                                          # vitest run (all unit tests)
+npx vitest run src/lib/latency/measure.test.ts    # one test file
+npx vitest run -t "classifyTrial"                 # tests matching a name
 ```
 
-No test runner yet; Vitest is planned for Phase 1 (latency math). Add the single-test command here when it lands.
+Tests cover pure logic only (`src/**/*.test.ts`, node environment). Browser audio code is verified by driving the page in headless Chrome with `--use-fake-device-for-media-stream --use-file-for-fake-audio-capture=<wav>`. When starting `next start` in the background for such checks, stop it afterwards by the PID listening on its port; stopping only the shell leaves the server running.
+
+### Latency lab (`/lab/latency`, Phase 1a)
+
+`src/lib/latency/`: `onset.ts` (pure threshold/onset/silence trackers), `measure.ts` (classify trial, summary, CSV; `MIN_PLAUSIBLE_LATENCY_MS` = 150, faster onsets count as "early"), `voice-detector.ts` (browser: mic RMS meter, audio-clock prompt playback, Web Speech mode B), `questions.ts`. Latency is measured from the audio-clock end of the prompt, so prompt audio must have no trailing silence: `scripts/make-lab-audio.ps1` generates WAVs with the Windows voice and trims them with ffmpeg (run with `powershell -NoProfile -File scripts\make-lab-audio.ps1`). Spike procedure and results: `docs/latency-spike/`; write `RESULTS.md` there only from real device data.
+
+### Conventions
 
 Next.js 16 differs from older versions (see `AGENTS.md`): read the matching guide in `node_modules/next/dist/docs/` before writing Next.js code. `next.config.ts` has `cacheComponents` and `partialPrefetching` on.
 
