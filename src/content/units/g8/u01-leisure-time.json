@@ -1,0 +1,394 @@
+{
+  "id": "g8-u01",
+  "grade": 8,
+  "unit": 1,
+  "title": "Leisure Time",
+  "titleVi": "Thời gian rảnh rỗi",
+  "status": "draft",
+  "source": {
+    "book": "Tiếng Anh 8 – Global Success (Sách học sinh)",
+    "pages": [8, 17],
+    "glossaryPage": 136
+  },
+  "objectivesVi": [
+    "Dùng từ về hoạt động giải trí và cách nói thích / không thích.",
+    "Phát âm đúng âm /ʊ/ và /uː/ trong từ và câu.",
+    "Dùng động từ chỉ sự thích / ghét + V-ing hoặc to V.",
+    "Mời bạn và nhận lời mời (thêm: từ chối lịch sự).",
+    "Nói về hoạt động giải trí với gia đình và bạn bè."
+  ],
+  "vocabulary": [
+    { "id": "v-balance", "text": "balance", "ipa": "/ˈbæləns/", "pos": "n", "kind": "glossary", "meaningVi": "sự thăng bằng, sự cân bằng", "example": "Snowboarding improves my balance.", "page": 136 },
+    { "id": "v-bracelet", "text": "bracelet", "ipa": "/ˈbreɪslət/", "pos": "n", "kind": "glossary", "meaningVi": "vòng đeo tay", "example": "My sister makes bracelets in her free time.", "page": 136 },
+    { "id": "v-crazy", "text": "crazy", "ipa": "/ˈkreɪzi/", "pos": "adj", "kind": "glossary", "meaningVi": "rất thích, quá say mê", "example": "My brother is crazy about computer games.", "page": 136 },
+    { "id": "v-cruel", "text": "cruel", "ipa": "/ˈkruːəl/", "pos": "adj", "kind": "glossary", "meaningVi": "độc ác", "example": "I think it's cruel to harm animals.", "page": 136 },
+    { "id": "v-detest", "text": "detest", "ipa": "/dɪˈtest/", "pos": "v", "kind": "glossary", "meaningVi": "căm ghét", "example": "I detest getting up early on Sundays.", "page": 136 },
+    { "id": "v-diy", "text": "DIY", "say": "D I Y", "ipa": "/ˌdiː aɪ ˈwaɪ/", "pos": "n", "kind": "glossary", "meaningVi": "(do-it-yourself) tự làm, sửa chữa hoặc trang trí đồ vật tại nhà", "example": "I'm keen on doing DIY.", "exampleSay": "I'm keen on doing D I Y.", "page": 136 },
+    { "id": "v-fancy", "text": "fancy", "ipa": "/ˈfænsi/", "pos": "v", "kind": "glossary", "meaningVi": "mến, thích", "example": "Do you fancy going for a walk?", "page": 136 },
+    { "id": "v-fold", "text": "fold", "ipa": "/fəʊld/", "pos": "v", "kind": "glossary", "meaningVi": "gấp, gập", "example": "First, fold the paper in half.", "page": 136 },
+    { "id": "v-fond", "text": "fond", "ipa": "/fɒnd/", "pos": "adj", "kind": "glossary", "meaningVi": "mến, thích", "example": "Mai is fond of taking photos.", "page": 136 },
+    { "id": "v-keen", "text": "keen", "ipa": "/kiːn/", "pos": "adj", "kind": "glossary", "meaningVi": "say mê, ham thích", "example": "Lan is keen on playing badminton.", "page": 136 },
+    { "id": "v-keep-in-touch", "text": "keep in touch", "ipa": "/kiːp ɪn tʌtʃ/", "pos": "phrase", "kind": "glossary", "meaningVi": "giữ liên lạc (với ai)", "example": "I message my friends to keep in touch with them.", "page": 136 },
+    { "id": "v-kit", "text": "kit", "ipa": "/kɪt/", "pos": "n", "kind": "glossary", "meaningVi": "bộ đồ nghề", "example": "I'm looking for a knitting kit.", "page": 136 },
+    { "id": "v-leisure", "text": "leisure", "ipa": "/ˈleʒə/", "pos": "n", "kind": "glossary", "meaningVi": "thời gian rảnh rỗi", "example": "What do you do in your leisure time?", "page": 136 },
+    { "id": "v-message", "text": "message", "ipa": "/ˈmesɪdʒ/", "pos": "v", "kind": "glossary", "meaningVi": "gửi tin nhắn", "example": "I often message my friends after school.", "page": 136 },
+    { "id": "v-muscle", "text": "muscle", "ipa": "/ˈmʌsl/", "pos": "n", "kind": "glossary", "meaningVi": "cơ bắp", "example": "Swimming makes your muscles strong.", "page": 136 },
+    { "id": "v-origami", "text": "origami", "ipa": "/ˌɒrɪˈɡɑːmi/", "pos": "n", "kind": "glossary", "meaningVi": "nghệ thuật gấp giấy Nhật Bản", "example": "Origami is the art of paper folding.", "page": 136 },
+    { "id": "v-outdoors", "text": "outdoors", "ipa": "/ˌaʊtˈdɔːz/", "pos": "adv", "kind": "glossary", "meaningVi": "ngoài trời", "example": "We like playing outdoors at the weekend.", "page": 136 },
+    { "id": "v-prefer", "text": "prefer", "ipa": "/prɪˈfɜː/", "pos": "v", "kind": "glossary", "meaningVi": "thích hơn", "example": "I prefer reading books to watching films.", "page": 136 },
+    { "id": "v-puzzle", "text": "puzzle", "ipa": "/ˈpʌzl/", "pos": "n", "kind": "glossary", "meaningVi": "trò chơi câu đố / giải đố", "example": "Doing puzzles is good for the brain.", "page": 136 },
+    { "id": "v-resort", "text": "resort", "ipa": "/rɪˈzɔːt/", "pos": "n", "kind": "glossary", "meaningVi": "khu nghỉ dưỡng", "example": "His family goes to a ski resort every winter.", "page": 136 },
+    { "id": "v-snowboarding", "text": "snowboarding", "ipa": "/ˈsnəʊbɔːdɪŋ/", "pos": "n", "kind": "glossary", "meaningVi": "trượt tuyết bằng ván", "example": "Eric goes snowboarding with his parents.", "page": 136 },
+    { "id": "v-stay-in-shape", "text": "stay in shape", "ipa": "/steɪ ɪn ʃeɪp/", "pos": "phrase", "kind": "glossary", "meaningVi": "giữ dáng", "example": "I play sport to stay in shape.", "page": 136 },
+
+    { "id": "a-doing-diy", "text": "doing DIY", "say": "doing D I Y", "pos": "phrase", "kind": "activity", "meaningVi": "tự làm đồ (thủ công, sửa chữa)", "example": "Doing DIY helps me save money.", "exampleSay": "Doing D I Y helps me save money.", "page": 9 },
+    { "id": "a-cooking", "text": "cooking", "pos": "n", "kind": "activity", "meaningVi": "nấu ăn", "example": "My brother and I love cooking together.", "page": 9 },
+    { "id": "a-doing-puzzles", "text": "doing puzzles", "pos": "phrase", "kind": "activity", "meaningVi": "giải đố", "example": "Tom enjoys doing puzzles, especially Sudoku.", "page": 9 },
+    { "id": "a-playing-sport", "text": "playing sport", "pos": "phrase", "kind": "activity", "meaningVi": "chơi thể thao", "example": "We often play sport in the park after school.", "page": 9 },
+    { "id": "a-surfing-the-net", "text": "surfing the net", "pos": "phrase", "kind": "activity", "meaningVi": "lướt mạng", "example": "I spend an hour surfing the net every evening.", "page": 9 },
+    { "id": "a-messaging-friends", "text": "messaging friends", "pos": "phrase", "kind": "activity", "meaningVi": "nhắn tin với bạn bè", "example": "Messaging friends helps me keep in touch.", "page": 9 },
+    { "id": "a-knitting", "text": "knitting", "pos": "n", "kind": "activity", "meaningVi": "đan len", "example": "My grandma taught me knitting.", "page": 8 },
+    { "id": "a-making-paper-flowers", "text": "making paper flowers", "pos": "phrase", "kind": "activity", "meaningVi": "làm hoa giấy", "example": "Trang loves making paper flowers.", "page": 8 },
+    { "id": "a-hanging-out", "text": "hanging out with friends", "pos": "phrase", "kind": "activity", "meaningVi": "đi chơi với bạn bè", "example": "I usually hang out with my friends at the weekend.", "page": 8 },
+    { "id": "a-going-cycling", "text": "going cycling", "pos": "phrase", "kind": "activity", "meaningVi": "đi xe đạp (để giải trí)", "example": "We go cycling to the villages near our town.", "page": 8 },
+
+    { "id": "e-fond-of", "text": "be fond of", "pos": "phrase", "kind": "expression", "meaningVi": "thích, mến", "example": "I'm fond of taking photos.", "page": 10 },
+    { "id": "e-keen-on", "text": "be keen on", "pos": "phrase", "kind": "expression", "meaningVi": "say mê, hăng hái", "example": "She is keen on cooking.", "page": 10 },
+    { "id": "e-interested-in", "text": "be interested in", "pos": "phrase", "kind": "expression", "meaningVi": "quan tâm, thích thú", "example": "Mai is interested in history.", "page": 10 },
+    { "id": "e-crazy-about", "text": "be crazy about", "pos": "phrase", "kind": "expression", "meaningVi": "rất mê", "example": "I'm crazy about football.", "page": 10 },
+    { "id": "e-into", "text": "be into", "pos": "phrase", "kind": "expression", "meaningVi": "thích, mê (cách nói thân mật)", "example": "I'm not into surfing the net.", "page": 10 },
+
+    { "id": "g-love", "text": "love", "pos": "v", "kind": "verb", "meaningVi": "yêu thích", "example": "I love going to the cinema.", "page": 11 },
+    { "id": "g-like", "text": "like", "pos": "v", "kind": "verb", "meaningVi": "thích", "example": "I like reading comic books.", "page": 11 },
+    { "id": "g-enjoy", "text": "enjoy", "pos": "v", "kind": "verb", "meaningVi": "thích thú, tận hưởng", "example": "Tom enjoys doing puzzles.", "page": 11 },
+    { "id": "g-dislike", "text": "dislike", "pos": "v", "kind": "verb", "meaningVi": "không thích", "example": "They dislike surfing the net.", "page": 11 },
+    { "id": "g-hate", "text": "hate", "pos": "v", "kind": "verb", "meaningVi": "ghét", "example": "My father hates shopping.", "page": 11 }
+  ],
+  "pronunciation": {
+    "sounds": ["/ʊ/", "/uː/"],
+    "words": [
+      { "id": "p-cook", "text": "cook", "sound": "/ʊ/" },
+      { "id": "p-push", "text": "push", "sound": "/ʊ/" },
+      { "id": "p-would", "text": "would", "sound": "/ʊ/" },
+      { "id": "p-woman", "text": "woman", "sound": "/ʊ/" },
+      { "id": "p-book", "text": "book", "sound": "/ʊ/" },
+      { "id": "p-football", "text": "football", "sound": "/ʊ/" },
+      { "id": "p-group", "text": "group", "sound": "/uː/" },
+      { "id": "p-june", "text": "June", "sound": "/uː/" },
+      { "id": "p-school", "text": "school", "sound": "/uː/" },
+      { "id": "p-move", "text": "move", "sound": "/uː/" },
+      { "id": "p-pool", "text": "pool", "sound": "/uː/" },
+      { "id": "p-soup", "text": "soup", "sound": "/uː/" }
+    ],
+    "page": 10
+  },
+  "frames": [
+    { "id": "f-fond-of", "frame": "I'm fond of ___.", "meaningVi": "Tôi thích ___.", "slotOptions": ["cooking", "taking photos", "doing puzzles"], "model": "I'm fond of taking photos.", "page": 10 },
+    { "id": "f-keen-on", "frame": "I'm keen on ___.", "meaningVi": "Tôi say mê ___.", "slotOptions": ["playing sport", "knitting", "going cycling"], "model": "I'm keen on playing sport.", "page": 10 },
+    { "id": "f-interested-in", "frame": "I'm interested in ___.", "meaningVi": "Tôi thích thú với ___.", "slotOptions": ["doing DIY", "history", "making paper flowers"], "model": "I'm interested in making paper flowers.", "page": 10 },
+    { "id": "f-crazy-about", "frame": "I'm crazy about ___.", "meaningVi": "Tôi rất mê ___.", "slotOptions": ["football", "messaging my friends", "computer games"], "model": "I'm crazy about messaging my friends.", "page": 10 },
+    { "id": "f-not-into", "frame": "I'm not into ___.", "meaningVi": "Tôi không thích ___.", "slotOptions": ["surfing the net", "cooking", "doing puzzles"], "model": "I'm not into surfing the net.", "page": 10 },
+    { "id": "f-love", "frame": "In my free time, I love ___.", "meaningVi": "Lúc rảnh, tôi rất thích ___.", "slotOptions": ["reading books", "to go to the cinema", "hanging out with friends"], "model": "In my free time, I love hanging out with my friends.", "page": 11 },
+    { "id": "f-enjoy", "frame": "I enjoy ___ with my family.", "meaningVi": "Tôi thích ___ cùng gia đình.", "slotOptions": ["cooking", "going cycling", "watching films"], "model": "I enjoy cooking with my family.", "page": 11 },
+    { "id": "f-prefer", "frame": "I prefer ___ to ___.", "meaningVi": "Tôi thích ___ hơn ___.", "slotOptions": ["reading books / watching films", "playing sport / surfing the net"], "model": "I prefer playing sport to surfing the net.", "page": 11 },
+    { "id": "f-dislike", "frame": "I dislike ___.", "meaningVi": "Tôi không thích ___.", "slotOptions": ["doing puzzles", "getting up early", "shopping"], "model": "I dislike getting up early.", "page": 12 },
+    { "id": "f-hate", "frame": "I hate ___.", "meaningVi": "Tôi ghét ___.", "slotOptions": ["doing homework at the weekend", "waiting for the bus"], "model": "I hate waiting for the bus.", "page": 12 },
+    { "id": "f-would-you-like", "frame": "Would you like to ___ with me?", "meaningVi": "Bạn có muốn ___ cùng mình không?", "slotOptions": ["go to the cinema", "play badminton", "join the cooking club"], "model": "Would you like to play badminton with me?", "page": 12 },
+    { "id": "f-do-you-fancy", "frame": "Do you fancy ___?", "meaningVi": "Bạn có thích ___ không? (lời rủ)", "slotOptions": ["going for a walk", "making paper flowers", "trying my home-made pizza"], "model": "Do you fancy going for a walk?", "page": 12 }
+  ],
+  "extensions": [
+    { "id": "x-puzzles", "base": "I love doing puzzles.", "connector": "because", "promptVi": "Nói thêm: vì sao bạn thích giải đố?", "model": "I love doing puzzles because they improve my memory.", "page": 9 },
+    { "id": "x-diy", "base": "I enjoy doing DIY.", "connector": "because", "promptVi": "Nói thêm: tự làm đồ có lợi gì?", "model": "I enjoy doing DIY because it saves money and makes me more creative.", "modelSay": "I enjoy doing D I Y because it saves money and makes me more creative.", "page": 9 },
+    { "id": "x-sport", "base": "I'm keen on playing sport.", "connector": "because", "promptVi": "Nói thêm: chơi thể thao giúp bạn điều gì?", "model": "I'm keen on playing sport because it keeps me healthy and I can make new friends.", "page": 9 },
+    { "id": "x-messaging", "base": "I like messaging my friends.", "connector": "because", "promptVi": "Nói thêm: vì sao bạn nhắn tin với bạn bè?", "model": "I like messaging my friends because it helps me keep in touch with them.", "page": 9 },
+    { "id": "x-net", "base": "I'm into surfing the net.", "connector": "because", "promptVi": "Nói thêm: bạn học được gì khi lướt mạng?", "model": "I'm into surfing the net because I can learn new computer skills.", "page": 9 },
+    { "id": "x-origami", "base": "I love doing origami.", "connector": "because", "promptVi": "Nói thêm: gấp giấy giúp bạn cảm thấy thế nào?", "model": "I love doing origami because it helps me relax.", "page": 13 },
+    { "id": "x-snowboarding", "base": "I want to try snowboarding.", "connector": "because", "promptVi": "Nói thêm: vì sao bạn muốn thử trượt tuyết?", "model": "I want to try snowboarding because it improves my balance and it looks exciting.", "page": 13 },
+    { "id": "x-family", "base": "I like spending time with my family.", "connector": "because", "promptVi": "Nói thêm: vì sao thời gian với gia đình quan trọng?", "model": "I like spending time with my family because it's a great way to connect with them.", "page": 14 },
+    { "id": "x-cycling", "base": "We usually go cycling at the weekend.", "connector": "and", "promptVi": "Nói thêm: bạn còn làm gì trong lúc đi xe đạp?", "model": "We usually go cycling at the weekend, and we take photos of the villages.", "page": 14 },
+    { "id": "x-cooking", "base": "My brother and I love cooking.", "connector": "but", "promptVi": "Nói thêm một điều ngược lại: món ăn có luôn ngon không?", "model": "My brother and I love cooking, but sometimes the food isn't very good.", "page": 14 }
+  ],
+  "talks": [
+    {
+      "id": "t-family",
+      "prompt": "Talk about the leisure activities you do with your family.",
+      "promptVi": "Nói khoảng 30 giây về những hoạt động giải trí bạn làm cùng gia đình.",
+      "guide": [
+        "What leisure activities do you usually do with your family?",
+        "Which one do you like the most? Why?",
+        "How do you feel when you spend time with your family?"
+      ],
+      "usefulLanguage": ["My family and I usually ...", "The activity I like the most is ...", "because ...", "I feel happy / relaxed when ..."],
+      "targetSeconds": 30,
+      "model": "In my free time, my family and I usually go cycling to the villages near our town. We also cook together at the weekend. The activity I like the most is cooking, because we can talk and laugh a lot. Sometimes the food isn't very good, but we still enjoy it. I feel happy and relaxed when I spend time with my family.",
+      "page": 14
+    },
+    {
+      "id": "t-friends",
+      "prompt": "Talk about what you do with your friends in your free time.",
+      "promptVi": "Nói khoảng 30 giây về những gì bạn làm cùng bạn bè lúc rảnh.",
+      "guide": [
+        "When do you usually have free time?",
+        "What do you usually do with your friends?",
+        "Why do you do these activities?"
+      ],
+      "usefulLanguage": ["I usually have free time ...", "My friends and I often ...", "We do it because ...", "It's fun and ..."],
+      "targetSeconds": 30,
+      "model": "I usually have free time at the weekend. My friends and I often play badminton in the park, and sometimes we go to the cinema. We play badminton because it keeps us healthy, and it's a lot of fun. When it rains, we stay at home and play board games. I love spending time with my friends because we can relax together.",
+      "page": 15
+    },
+    {
+      "id": "t-try",
+      "prompt": "Talk about a leisure activity from another country that you want to try.",
+      "promptVi": "Nói khoảng 30 giây về một hoạt động giải trí ở nước khác mà bạn muốn thử.",
+      "guide": [
+        "Which activity do you want to try?",
+        "Why do you want to try it?",
+        "Who would you like to do it with?"
+      ],
+      "usefulLanguage": ["I'd like to try ...", "It looks ...", "because it helps ...", "I want to do it with ..."],
+      "targetSeconds": 30,
+      "model": "I'd like to try origami, the art of paper folding from Japan. It looks easy, but I think it needs a lot of patience. I want to try it because it helps people relax, and I can make flowers, birds, or fans as presents. I'd like to do it with my younger sister, because she loves making things with paper.",
+      "page": 13
+    }
+  ],
+  "speed": [
+    {
+      "id": "s-like-cooking", "question": "Do you like cooking?", "difficulty": 1,
+      "keywords": [["yes", "no", "i do", "i don't", "sure", "not really"]],
+      "samples": ["Yes, I do.", "No, I don't.", "Yes, I love cooking."],
+      "rescue": { "image": "🍳 Một bạn đang nấu ăn trong bếp", "starter": "Yes, I ... / No, I ...", "simpler": "Cooking: yes or no?", "keywordsVi": "có / không — Yes, I do. / No, I don't." },
+      "page": 11
+    },
+    {
+      "id": "s-love-net", "question": "Do you love surfing the net?", "difficulty": 1,
+      "keywords": [["yes", "no", "i do", "i don't", "sure", "not really"]],
+      "samples": ["Yes, I do.", "No, I don't. I prefer reading."],
+      "rescue": { "image": "💻 Một bạn đang dùng máy tính", "starter": "Yes, I ... / No, I ...", "simpler": "The internet: yes or no?", "keywordsVi": "lướt mạng — surfing the net" },
+      "page": 12
+    },
+    {
+      "id": "s-keen-puzzles", "question": "Are you keen on doing puzzles?", "difficulty": 1,
+      "keywords": [["yes", "no", "i am", "i'm not", "not really"]],
+      "samples": ["Yes, I am.", "No, I'm not."],
+      "rescue": { "image": "🧩 Một bàn cờ Sudoku", "starter": "Yes, I am. / No, I'm not.", "simpler": "Puzzles: yes or no?", "keywordsVi": "say mê giải đố — keen on doing puzzles" },
+      "page": 10
+    },
+    {
+      "id": "s-interested-diy", "question": "Are you interested in doing DIY?", "say": "Are you interested in doing D I Y?", "difficulty": 1,
+      "keywords": [["yes", "no", "i am", "i'm not", "not really"]],
+      "samples": ["Yes, I am.", "No, I'm not really interested."],
+      "rescue": { "image": "✂️ Đôi tay đang cắt giấy làm đồ thủ công", "starter": "Yes, I am. / No, I'm not.", "simpler": "Making things yourself: yes or no?", "keywordsVi": "tự làm đồ — doing DIY" },
+      "page": 10
+    },
+    {
+      "id": "s-what-like", "question": "What do you like doing in your free time?", "difficulty": 2,
+      "keywords": [["like", "love", "enjoy", "fond", "keen", "into", "interested", "crazy", "prefer"], ["*ing"]],
+      "samples": ["I like reading books.", "I love playing football in my free time."],
+      "rescue": { "image": "🚲📚⚽ Đạp xe, đọc sách, đá bóng", "starter": "In my free time, I like ...", "simpler": "Do you like reading or playing sport?", "keywordsVi": "thích + V-ing — I like + reading / playing ..." },
+      "page": 9
+    },
+    {
+      "id": "s-dislike", "question": "What leisure activity do you dislike?", "difficulty": 2,
+      "keywords": [["dislike", "hate", "detest", "don't like", "not into", "not interested", "not fond", "not keen"], ["*ing"]],
+      "samples": ["I dislike doing puzzles.", "I hate getting up early."],
+      "rescue": { "image": "😣 Một bạn đang nhăn mặt", "starter": "I dislike ...", "simpler": "Do you dislike cooking?", "keywordsVi": "không thích — I dislike / I hate + V-ing" },
+      "page": 12
+    },
+    {
+      "id": "s-weekend", "question": "What do you usually do at the weekend?", "difficulty": 2,
+      "keywords": [["*ing", "go", "play", "watch", "read", "visit", "cook", "ride", "help", "meet", "hang", "stay"]],
+      "samples": ["I usually go cycling with my dad.", "I often play badminton with my friends."],
+      "rescue": { "image": "📅 Thứ Bảy, Chủ Nhật", "starter": "At the weekend, I usually ...", "simpler": "Do you play sport at the weekend?", "keywordsVi": "thường làm — I usually go / play / watch ..." },
+      "page": 15
+    },
+    {
+      "id": "s-who", "question": "Who do you usually spend your free time with?", "difficulty": 2,
+      "keywords": [["family", "friend*", "parent*", "mum", "mom", "dad", "brother*", "sister*", "cousin*", "grandparent*", "grandma", "grandpa", "classmate*", "neighbour*", "myself", "alone", "on my own"]],
+      "samples": ["I usually spend it with my family.", "With my best friend."],
+      "rescue": { "image": "👨‍👩‍👧 Gia đình và 👫 bạn bè", "starter": "I usually spend my free time with ...", "simpler": "Your family or your friends?", "keywordsVi": "với gia đình / bạn bè — with my family / my friends" },
+      "page": 15
+    },
+    {
+      "id": "s-when", "question": "When do you usually have free time?", "difficulty": 2,
+      "keywords": [["weekend*", "sunday*", "saturday*", "evening*", "afternoon*", "morning*", "after school", "holiday*", "summer", "night"]],
+      "samples": ["I usually have free time at the weekend.", "After school, in the evening."],
+      "rescue": { "image": "🕔 Đồng hồ và lịch", "starter": "I usually have free time ...", "simpler": "At the weekend or after school?", "keywordsVi": "cuối tuần / sau giờ học — at the weekend / after school" },
+      "page": 15
+    },
+    {
+      "id": "s-prefer", "question": "Which do you prefer, cooking or doing puzzles?", "difficulty": 2,
+      "keywords": [["cooking", "cook", "puzzle*"]],
+      "samples": ["I prefer cooking.", "I prefer doing puzzles."],
+      "rescue": { "image": "🍳 hay 🧩", "starter": "I prefer ...", "simpler": "Cooking or puzzles?", "keywordsVi": "thích hơn — I prefer + V-ing" },
+      "page": 11
+    },
+    {
+      "id": "s-this-weekend", "question": "If you have some free time this weekend, what will you do?", "difficulty": 2,
+      "keywords": [["will", "i'll", "we'll", "going to", "want to", "would like", "i'd like", "*ing"]],
+      "samples": ["I will go to the cinema with my friends.", "I'll stay at home and read books."],
+      "rescue": { "image": "🎬 Rạp chiếu phim, 🏸 cầu lông", "starter": "This weekend, I will ...", "simpler": "Will you go to the cinema this weekend?", "keywordsVi": "sẽ làm — I will go / play / visit ..." },
+      "page": 9
+    },
+    {
+      "id": "s-why-favourite", "question": "Why do you like your favourite leisure activity?", "difficulty": 2,
+      "keywords": [["because", "it's", "it is", "it helps", "it makes", "it keeps"]],
+      "samples": ["Because it's fun and relaxing.", "Because it helps me relax."],
+      "rescue": { "image": "😊 Một bạn đang cười vui", "starter": "Because it ...", "simpler": "Is it fun?", "keywordsVi": "vì nó vui / giúp thư giãn — because it's fun / it helps me relax" },
+      "page": 9
+    },
+    {
+      "id": "s-family-activities", "question": "What leisure activities do you do with your family?", "difficulty": 2,
+      "keywords": [["*ing", "go", "play", "watch", "visit", "cook", "ride", "eat", "travel"]],
+      "samples": ["We often go cycling together.", "My family and I usually cook at the weekend."],
+      "rescue": { "image": "🚲 Cả nhà đạp xe cùng nhau", "starter": "My family and I usually ...", "simpler": "Do you cook with your family?", "keywordsVi": "cùng gia đình — my family and I + go / cook / watch ..." },
+      "page": 14
+    },
+    {
+      "id": "s-like-most", "question": "Which leisure activity do you like the most? Why?", "difficulty": 3,
+      "keywords": [["like", "love", "enjoy", "favourite", "favorite", "most", "keen", "fond", "into", "crazy"], ["because", "it's", "it is", "it helps", "it makes", "it keeps"]],
+      "samples": ["I like cooking the most because it's fun.", "My favourite activity is cycling because it keeps me healthy."],
+      "rescue": { "image": "🏆 Hoạt động yêu thích nhất", "starter": "I like ... the most because ...", "simpler": "What is your favourite activity?", "keywordsVi": "thích nhất ... vì ... — I like ... the most because ..." },
+      "page": 14
+    },
+    {
+      "id": "s-feel-family", "question": "How do you feel when you spend time with your family?", "difficulty": 3,
+      "keywords": [["feel", "happy", "relaxed", "glad", "great", "good", "comfortable", "excited", "close", "love"]],
+      "samples": ["I feel happy and relaxed.", "I feel great because we can talk a lot."],
+      "rescue": { "image": "🥰 Cả nhà quây quần", "starter": "I feel ...", "simpler": "Do you feel happy?", "keywordsVi": "cảm thấy vui / thoải mái — I feel happy / relaxed" },
+      "page": 14
+    },
+    {
+      "id": "s-try-abroad", "question": "Which leisure activity from another country do you want to try?", "difficulty": 3,
+      "keywords": [["want", "would like", "i'd like", "i'd", "try", "hope"], ["*ing", "origami", "badminton", "snowboard*", "ski*", "yoga", "judo"]],
+      "samples": ["I want to try snowboarding.", "I'd like to try origami because it looks relaxing."],
+      "rescue": { "image": "🏂 Trượt tuyết, 🦢 gấp giấy origami", "starter": "I'd like to try ...", "simpler": "Do you want to try snowboarding?", "keywordsVi": "muốn thử — I'd like to try + origami / snowboarding" },
+      "page": 13
+    },
+    {
+      "id": "s-why-friends", "question": "Why should we spend time with our friends?", "difficulty": 2,
+      "keywords": [["because", "we can", "it helps", "it's", "it is", "it makes", "to"]],
+      "samples": ["Because we can have fun together.", "It helps us keep in touch and relax."],
+      "rescue": { "image": "👫 Nhóm bạn đang cười đùa", "starter": "Because we can ...", "simpler": "Is it fun to be with friends?", "keywordsVi": "vì có thể vui chơi / giữ liên lạc — because we can have fun / keep in touch" },
+      "page": 15
+    },
+    {
+      "id": "s-family-or-friends", "question": "Do you prefer spending time with your family or your friends?", "difficulty": 2,
+      "keywords": [["family", "friend*", "both"]],
+      "samples": ["I prefer spending time with my friends.", "My family."],
+      "rescue": { "image": "👨‍👩‍👧 hay 👫", "starter": "I prefer spending time with ...", "simpler": "Family or friends?", "keywordsVi": "thích hơn — I prefer my family / my friends" },
+      "page": 14
+    },
+    {
+      "id": "s-invite-walk", "question": "Do you fancy going for a walk with me?", "difficulty": 1,
+      "keywords": [["yes", "sure", "love", "great", "okay", "ok", "sorry", "can't", "cannot", "no", "thanks", "thank"]],
+      "samples": ["I'd love to. Thanks.", "Sorry, I can't. I have homework."],
+      "rescue": { "image": "🚶 Hai bạn đi dạo", "starter": "I'd love to. / Sorry, I can't.", "simpler": "A walk with me: yes or no?", "keywordsVi": "nhận lời / từ chối — I'd love to. / Sorry, I can't." },
+      "page": 12
+    },
+    {
+      "id": "s-invite-cinema", "question": "Would you like to go to the cinema with me this Sunday?", "difficulty": 1,
+      "keywords": [["yes", "sure", "love", "great", "okay", "ok", "sorry", "can't", "cannot", "no", "thanks", "thank"]],
+      "samples": ["Yes, I'd love to.", "That's great. Thanks."],
+      "rescue": { "image": "🎬 Rạp chiếu phim", "starter": "I'd love to. / That's great. Thanks.", "simpler": "Cinema on Sunday: yes or no?", "keywordsVi": "nhận lời mời — I'd love to. Thanks." },
+      "page": 12
+    },
+    {
+      "id": "s-on-own", "question": "What leisure activities do you like doing on your own?", "difficulty": 3,
+      "keywords": [["like", "love", "enjoy", "fond", "keen", "into", "prefer"], ["*ing"]],
+      "samples": ["I like reading comics on my own.", "I enjoy doing puzzles alone."],
+      "rescue": { "image": "📖 Một bạn đọc sách một mình", "starter": "On my own, I like ...", "simpler": "Do you like reading alone?", "keywordsVi": "một mình — on my own; thích + V-ing" },
+      "page": 17
+    },
+    {
+      "id": "s-future", "question": "What leisure activity would you like to try in the future?", "difficulty": 3,
+      "keywords": [["would like", "i'd like", "i'd", "want", "try", "hope"], ["*ing", "origami", "badminton", "yoga", "judo", "snowboard*"]],
+      "samples": ["I'd like to try snowboarding.", "I want to learn knitting."],
+      "rescue": { "image": "🔮 Hoạt động mới trong tương lai", "starter": "In the future, I'd like to try ...", "simpler": "Do you want to try knitting?", "keywordsVi": "muốn thử — I'd like to try / I want to learn + V-ing" },
+      "page": 17
+    }
+  ],
+  "roleplays": [
+    {
+      "id": "r-invite-cinema",
+      "title": "Invite a friend to the cinema",
+      "titleVi": "Rủ bạn đi xem phim",
+      "goalVi": "Bạn rủ Mai đi xem phim cuối tuần, rồi cùng hẹn giờ và chỗ gặp.",
+      "partnerName": "Mai",
+      "aiBrief": "You are Mai, a friendly 13-year-old Vietnamese student. The learner will invite you to the cinema this weekend. Accept the invitation, then ask what time and where to meet, and ask if another friend, Lan, can join. Use only short, simple sentences with Grade 8 Unit 1 language (leisure activities, likes and dislikes, inviting and accepting). Never ask for personal information.",
+      "usefulLanguage": ["Would you like to go to the cinema with me?", "Do you fancy watching a film on Sunday?", "Let's meet at ...", "Sure. See you then!"],
+      "beyondBook": false,
+      "turns": [
+        {
+          "id": "t1", "partner": "Hi! What are you doing this weekend?", "expect": "invite",
+          "keywords": [["would you like", "do you fancy", "let's", "how about", "shall we", "want to", "do you want"]],
+          "samples": ["Would you like to go to the cinema with me on Sunday?", "Do you fancy watching a film this Sunday?"],
+          "starter": "Would you like to ...?"
+        },
+        {
+          "id": "t2", "partner": "I'd love to. Thanks! What time shall we meet?", "expect": "answer",
+          "keywords": [["at", "o'clock", "am", "pm", "morning", "afternoon", "evening", "noon"]],
+          "samples": ["Let's meet at nine o'clock.", "At two in the afternoon."],
+          "starter": "Let's meet at ..."
+        },
+        {
+          "id": "t3", "partner": "Great. Where shall we meet?", "expect": "answer",
+          "keywords": [["outside", "at", "in front of", "near", "cinema", "school", "house", "home", "park"]],
+          "samples": ["Let's meet outside the cinema.", "In front of my house."],
+          "starter": "Let's meet outside ..."
+        },
+        {
+          "id": "t4", "partner": "Can I ask Lan to join us?", "expect": "accept",
+          "keywords": [["sure", "yes", "of course", "okay", "ok", "great", "why not", "no problem"]],
+          "samples": ["Sure. That's a great idea.", "Of course!"],
+          "starter": "Sure. ..."
+        },
+        {
+          "id": "t5", "partner": "Cool. See you on Sunday. Bye!", "expect": "close",
+          "keywords": [["bye", "see you", "goodbye"]],
+          "samples": ["See you. Bye!", "Goodbye!"],
+          "starter": "See you ..."
+        }
+      ],
+      "page": 12
+    },
+    {
+      "id": "r-answer-invitations",
+      "title": "Answer your friend's invitations",
+      "titleVi": "Trả lời lời mời của bạn",
+      "goalVi": "Tom rủ bạn đi chơi. Với mỗi lời mời, bạn tự chọn nhận lời hoặc từ chối lịch sự (có nêu lý do).",
+      "partnerName": "Tom",
+      "aiBrief": "You are Tom, a friendly 13-year-old student. Invite the learner to some leisure activities one by one (badminton after school, trying your home-made pizza, making paper flowers). The learner may accept or politely decline; respond kindly either way. Use only short, simple sentences with Grade 8 Unit 1 language. Never ask for personal information.",
+      "usefulLanguage": ["I'd love to. Thanks.", "That's great. Thanks.", "Sorry, I can't. I have to ...", "I'm afraid I'm busy. Maybe next time."],
+      "beyondBook": true,
+      "beyondBookNoteVi": "SGK chỉ dạy nhận lời mời (trang 12). Cách từ chối lịch sự (Sorry, I can't... / I'm afraid...) là phần thêm để hội thoại tự nhiên hơn — nhờ cô kiểm tra.",
+      "turns": [
+        {
+          "id": "t1", "partner": "Hi! Do you fancy playing badminton in the park after school?", "expect": "accept-or-decline",
+          "keywords": [["love", "sure", "great", "yes", "okay", "ok", "sorry", "can't", "cannot", "afraid", "no"]],
+          "samples": ["I'd love to. Thanks.", "Sorry, I can't. I have to do my homework."],
+          "starter": "I'd love to. / Sorry, I can't. I have to ..."
+        },
+        {
+          "id": "t2", "partner": "Okay! And would you like to try my home-made pizza on Sunday?", "expect": "accept-or-decline",
+          "keywords": [["love", "sure", "great", "yes", "okay", "ok", "sorry", "can't", "cannot", "afraid", "no"]],
+          "samples": ["That's great. Thanks.", "I'm afraid I'm busy on Sunday. Maybe next time."],
+          "starter": "That's great. / I'm afraid ..."
+        },
+        {
+          "id": "t3", "partner": "By the way, do you like making things with paper?", "expect": "answer",
+          "keywords": [["yes", "no", "i do", "i don't", "love", "like", "not really", "into", "keen", "fond"]],
+          "samples": ["Yes, I love making paper flowers.", "Not really. I prefer playing sport."],
+          "starter": "Yes, I ... / Not really. I prefer ..."
+        },
+        {
+          "id": "t4", "partner": "Cool. Talk to you later!", "expect": "close",
+          "keywords": [["bye", "see you", "goodbye", "later"]],
+          "samples": ["See you later!", "Bye!"],
+          "starter": "See you ..."
+        }
+      ],
+      "page": 12
+    }
+  ]
+}
