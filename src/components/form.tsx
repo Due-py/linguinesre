@@ -6,7 +6,7 @@ import { CircleAlert, CircleCheck, LoaderCircle } from "lucide-react";
 import type { FormState } from "@/lib/form";
 
 export const inputClass =
-  "h-[52px] w-full rounded-xl border-2 border-line bg-surface px-4 text-base font-medium text-ink placeholder:text-muted/70 transition-colors hover:border-ink/40 focus:border-ink focus:outline-none aria-[invalid=true]:border-danger";
+  "h-[52px] w-full rounded-xl border border-line bg-surface px-4 text-base font-medium text-ink placeholder:text-muted/70 transition-colors hover:border-ink/40 focus:border-ink focus:outline-none aria-[invalid=true]:border-danger";
 
 /** Ô nhập có nhãn, gợi ý và lỗi gắn đúng bằng aria (trình đọc màn hình đọc được). */
 export function Field({
@@ -82,8 +82,8 @@ export function SubmitButton({
   const { pending } = useFormStatus();
   const styles =
     variant === "primary"
-      ? "bg-brand text-on-brand shadow-[0_3px_0_var(--brand-strong)] hover:bg-brand-strong"
-      : "border-2 border-ink/80 bg-surface text-ink hover:bg-sunken";
+      ? "bg-brand text-on-brand shadow-button hover:bg-brand-strong"
+      : "border border-line-strong bg-surface text-ink hover:bg-sunken";
   return (
     <button
       type="submit"

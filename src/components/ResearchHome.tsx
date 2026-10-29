@@ -11,7 +11,7 @@ export default function ResearchHome({ p, state }: { p: Participant; state: Test
   const inProgress = due ? state[due]?.status === "in_progress" : false;
   return (
     <div className="grid gap-10">
-      <section aria-labelledby="today" className="grid gap-4 rounded-[2rem] bg-forest px-6 py-8 text-on-forest sm:px-10 sm:py-12">
+      <section aria-labelledby="today" className="grid gap-4 rounded-2xl bg-forest px-6 py-8 text-on-forest sm:px-10 sm:py-12">
         <p className="text-on-forest-muted">Chào {p.code},</p>
         {due ? (
           <>

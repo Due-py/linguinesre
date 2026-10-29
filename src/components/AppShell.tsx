@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
-import { LogOut } from "lucide-react";
+import { LogOut, UserRound } from "lucide-react";
 import Logo from "@/components/Logo";
 import { signOut } from "@/app/(auth)/actions";
 
@@ -37,7 +37,7 @@ export default function AppShell({
       >
         Bỏ qua phần đầu trang
       </a>
-      <header className="border-b border-line bg-bg/90">
+      <header className="sticky top-0 z-40 border-b border-line bg-surface/85 backdrop-blur-md">
         <div className="mx-auto flex w-full max-w-5xl items-center justify-between gap-3 px-4 py-2 sm:px-6">
           <Logo href={homeHref} />
           <div className="flex items-center gap-1 sm:gap-3">
@@ -45,10 +45,17 @@ export default function AppShell({
               <span className="block font-bold">{name}</span>
               <span className="text-muted">{roleLabel}</span>
             </p>
+            <Link
+              href="/account"
+              className="inline-flex min-h-11 items-center gap-2 rounded-lg px-3 text-sm font-semibold text-muted transition-colors hover:bg-sunken hover:text-ink"
+            >
+              <UserRound className="size-4" aria-hidden />
+              <span className="sr-only sm:not-sr-only">Tài khoản</span>
+            </Link>
             <form action={signOut}>
               <button
                 type="submit"
-                className="inline-flex min-h-11 items-center gap-2 rounded-full px-3 text-sm font-bold text-muted transition-colors hover:bg-sunken hover:text-ink"
+                className="inline-flex min-h-11 items-center gap-2 rounded-lg px-3 text-sm font-semibold text-muted transition-colors hover:bg-sunken hover:text-ink"
               >
                 <LogOut className="size-4" aria-hidden />
                 <span>Đăng xuất</span>
@@ -64,7 +71,7 @@ export default function AppShell({
                   <Link
                     href={n.href}
                     aria-current={n.href === current ? "page" : undefined}
-                    className={`inline-flex min-h-11 items-center border-b-[3px] px-3 font-bold transition-colors ${
+                    className={`inline-flex min-h-11 items-center border-b-2 px-3 text-[0.95rem] font-semibold transition-colors ${
                       n.href === current ? "border-brand text-ink" : "border-transparent text-muted hover:text-ink"
                     }`}
                   >
@@ -79,6 +86,11 @@ export default function AppShell({
       <main id="main" className="mx-auto w-full max-w-5xl px-4 pb-20 pt-8 sm:px-6 sm:pt-12">
         {children}
       </main>
+      <footer className="mx-auto w-full max-w-5xl border-t border-line px-4 py-6 text-sm text-muted sm:px-6">
+        <Link href="/quyen-rieng-tu" className="underline-offset-4 hover:text-ink hover:underline">
+          Quyền riêng tư
+        </Link>
+      </footer>
     </div>
   );
 }

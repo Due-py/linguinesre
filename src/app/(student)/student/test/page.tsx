@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { redirect } from "next/navigation";
 import { CircleCheck } from "lucide-react";
-import AppShell, { STUDENT_NAV } from "@/components/AppShell";
+import AppShell from "@/components/AppShell";
 import TestRunner from "@/components/TestRunner";
 import { SubmitButton } from "@/components/form";
 import { requireRole } from "@/lib/auth";
@@ -27,7 +27,7 @@ export default async function TestPage() {
   }
 
   return (
-    <AppShell name={profile.displayName ?? ""} roleLabel="Học sinh" homeHref="/student" nav={STUDENT_NAV} current="/student">
+    <AppShell name={profile.displayName ?? ""} roleLabel="Học sinh" homeHref="/student">
       {state.due ? (
         <div className="grid max-w-prose gap-6">
           <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">{PHASE_LABEL[state.due]}</h1>

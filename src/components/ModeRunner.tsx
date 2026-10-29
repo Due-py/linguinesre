@@ -314,7 +314,7 @@ export default function ModeRunner({
         )}
 
         {phase.kind === "section" && (
-          <section className="grid gap-4 rounded-[2rem] bg-forest px-6 py-8 text-on-forest sm:px-10">
+          <section className="grid gap-4 rounded-2xl bg-forest px-6 py-8 text-on-forest sm:px-10">
             <h1 className="text-3xl font-extrabold tracking-tight">{SECTION[phase.layer].title}</h1>
             <p className="text-lg text-on-forest-muted">{SECTION[phase.layer].body}</p>
             <button type="button" onClick={() => setPhase({ kind: "ready" })} className="inline-flex min-h-12 w-fit items-center rounded-full bg-on-forest px-6 font-bold text-forest hover:bg-white">
@@ -341,7 +341,7 @@ export default function ModeRunner({
                   <p
                     key={i}
                     lang="en"
-                    className={`max-w-[85%] rounded-2xl px-4 py-3 text-lg ${m.who === "partner" ? "bg-surface font-bold shadow-[0_1px_0_var(--line)]" : "justify-self-end bg-forest text-on-forest"}`}
+                    className={`max-w-[85%] rounded-2xl px-4 py-3 text-lg ${m.who === "partner" ? "bg-surface font-bold shadow-card" : "justify-self-end bg-forest text-on-forest"}`}
                   >
                     {m.text}
                   </p>
@@ -349,7 +349,7 @@ export default function ModeRunner({
                 {chat.length === 0 && <p className="text-muted">Nghe người kia nói rồi trả lời.</p>}
               </section>
             ) : (
-              <section aria-live="polite" className="grid min-h-40 content-center gap-3 rounded-[2rem] bg-surface px-6 py-8 shadow-[0_1px_0_var(--line)] sm:px-10">
+              <section aria-live="polite" className="grid min-h-40 content-center gap-3 rounded-2xl bg-surface px-6 py-8 shadow-card sm:px-10">
                 <p className="text-sm font-bold text-muted">{stepLabel(st, attempt)}</p>
                 <p lang={st.activity === "vocab" ? "vi" : "en"} className="text-balance text-[1.6rem] font-extrabold leading-tight tracking-tight sm:text-3xl">
                   {st.prompt}
@@ -366,7 +366,7 @@ export default function ModeRunner({
             {hints.length > 0 && (
               <section aria-label="Gợi ý" className="grid gap-2">
                 {hints.map((h) => (
-                  <div key={h.level} className="rounded-2xl border-2 border-dashed border-line bg-surface px-4 py-3">
+                  <div key={h.level} className="rounded-2xl border border-dashed border-line bg-surface px-4 py-3">
                     <p className="text-sm font-bold text-muted">
                       Gợi ý {h.level} · {h.title}
                     </p>
@@ -388,7 +388,7 @@ export default function ModeRunner({
               {readyLabel(st, attempt)}
             </BigButton>
             {canHint && (
-              <button type="button" onClick={() => setHintLevel((h) => nextHint(st, h))} className="inline-flex min-h-12 items-center gap-2 rounded-full border-2 border-ink/80 bg-surface px-5 font-bold hover:bg-sunken">
+              <button type="button" onClick={() => setHintLevel((h) => nextHint(st, h))} className="inline-flex min-h-12 items-center gap-2 rounded-full border border-line-strong bg-surface px-5 font-bold hover:bg-sunken">
                 <Lightbulb className="size-5" aria-hidden />
                 Gợi ý
               </button>
@@ -404,7 +404,7 @@ export default function ModeRunner({
             {phase.limitMs !== null && <SpeedBar limitMs={phase.limitMs} elapsed={elapsed} onset={onset} />}
             <Status icon={<MicIcon className="size-8" aria-hidden />} label={onset === null ? "Nói đi, máy đang nghe" : "Đang ghi. Nói xong máy tự dừng"} live />
             <Meter level={level} />
-            <button type="button" onClick={() => (stopRef.current.current = true)} className="inline-flex min-h-12 items-center gap-2 rounded-full border-2 border-ink/80 bg-surface px-6 font-bold hover:bg-sunken">
+            <button type="button" onClick={() => (stopRef.current.current = true)} className="inline-flex min-h-12 items-center gap-2 rounded-full border border-line-strong bg-surface px-6 font-bold hover:bg-sunken">
               <Square className="size-4" aria-hidden />
               Xong
             </button>
@@ -421,7 +421,7 @@ export default function ModeRunner({
                 {feedback ? (
                   <FeedbackPanel view={feedback.view} loading={feedback.loading} error={feedback.error} onRetry={() => void askFeedback(phase.res)} level={2} />
                 ) : (
-                  <button type="button" onClick={() => void askFeedback(phase.res)} className="inline-flex min-h-12 w-fit items-center rounded-full border-2 border-ink/80 bg-surface px-5 font-bold hover:bg-sunken">
+                  <button type="button" onClick={() => void askFeedback(phase.res)} className="inline-flex min-h-12 w-fit items-center rounded-full border border-line-strong bg-surface px-5 font-bold hover:bg-sunken">
                     Xem AI nhận xét
                   </button>
                 )}
@@ -437,7 +437,7 @@ export default function ModeRunner({
                 <BigButton onClick={next}>{idx + 1 < steps.length ? "Tiếp" : "Kết thúc buổi luyện"}</BigButton>
               )}
               {st.activity !== "vocab" && attempt < 2 && (
-                <button type="button" onClick={retry} className="inline-flex min-h-12 items-center rounded-full border-2 border-ink/80 bg-surface px-5 font-bold hover:bg-sunken">
+                <button type="button" onClick={retry} className="inline-flex min-h-12 items-center rounded-full border border-line-strong bg-surface px-5 font-bold hover:bg-sunken">
                   Nói lại
                 </button>
               )}
@@ -452,7 +452,7 @@ export default function ModeRunner({
         {phase.kind === "error" && (
           <div className="grid gap-3">
             <Alert>{phase.message}</Alert>
-            <button type="button" onClick={phase.retry} className="inline-flex min-h-12 w-fit items-center rounded-full border-2 border-ink/80 bg-surface px-6 font-bold hover:bg-sunken">
+            <button type="button" onClick={phase.retry} className="inline-flex min-h-12 w-fit items-center rounded-full border border-line-strong bg-surface px-6 font-bold hover:bg-sunken">
               Thử lại
             </button>
           </div>
@@ -548,7 +548,7 @@ function Done({ stats, limit, minutes }: { stats: { speed: { inLimit: boolean | 
   const rl = median(stats.speed.map((s) => s.rlMs).filter((x): x is number => x !== null));
   const hits = stats.speed.filter((s) => s.inLimit).length;
   return (
-    <section className="grid gap-5 rounded-[2rem] bg-forest px-6 py-10 text-on-forest sm:px-10">
+    <section className="grid gap-5 rounded-2xl bg-forest px-6 py-10 text-on-forest sm:px-10">
       <CircleCheck className="size-10" aria-hidden />
       <h1 className="text-3xl font-extrabold tracking-tight">Xong buổi luyện hôm nay</h1>
       <ul className="grid gap-1 text-lg text-on-forest-muted">
@@ -569,7 +569,7 @@ function Done({ stats, limit, minutes }: { stats: { speed: { inLimit: boolean | 
 
 function BigButton({ onClick, children }: { onClick: () => void; children: React.ReactNode }) {
   return (
-    <button type="button" onClick={onClick} className="inline-flex min-h-14 w-fit items-center gap-2 rounded-full bg-brand px-8 text-lg font-bold text-on-brand shadow-[0_3px_0_var(--brand-strong)] hover:bg-brand-strong">
+    <button type="button" onClick={onClick} className="inline-flex min-h-14 w-fit items-center gap-2 rounded-full bg-brand px-8 text-lg font-bold text-on-brand shadow-button hover:bg-brand-strong">
       {children}
     </button>
   );

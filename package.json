@@ -26,7 +26,8 @@
     "research:rescore": "node scripts/research-rescore.mjs",
     "test:research": "node scripts/test-research.mjs",
     "test:e2e-test": "node scripts/e2e-test.mjs",
-    "test:e2e-modes": "node scripts/e2e-modes.mjs"
+    "test:e2e-modes": "node scripts/e2e-modes.mjs",
+    "test:e2e-account": "node scripts/e2e-account.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

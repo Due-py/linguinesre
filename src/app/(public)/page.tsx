@@ -1,4 +1,5 @@
 import { ChevronDown, ClipboardCheck, Lightbulb, MessageCircle, Mic, Repeat2, Users } from "lucide-react";
+import Link from "next/link";
 import ButtonLink from "@/components/ButtonLink";
 import Logo from "@/components/Logo";
 
@@ -69,10 +70,10 @@ export default function LandingPage() {
       <main id="main" className="flex-1">
         <section className="mx-auto grid w-full max-w-6xl gap-10 px-4 pb-16 pt-10 sm:px-6 md:grid-cols-[1.1fr_0.9fr] md:items-center md:pt-16">
           <div className="grid gap-6">
-            <p className="rise-in w-fit rounded-full bg-brand-soft px-4 py-1.5 text-sm font-bold text-brand-strong">
+            <p className="rise-in w-fit rounded-full border border-brand/20 bg-brand-soft px-3.5 py-1 text-sm font-semibold text-brand-strong">
               Bản thử nghiệm cho học sinh lớp 6–12
             </p>
-            <h1 className="rise-in rise-in-2 text-balance text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl">
+            <h1 className="rise-in rise-in-2 text-balance text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-6xl">
               Từ biết từ vựng đến dám nói tiếng Anh
             </h1>
             <p className="rise-in rise-in-3 max-w-xl text-lg text-muted">
@@ -87,15 +88,19 @@ export default function LandingPage() {
             </div>
           </div>
 
-          <div className="rise-in rise-in-2 grid gap-3 rounded-3xl border border-line bg-surface p-5 shadow-sm" aria-label="Ví dụ một câu hỏi luyện nói">
-            <p className="text-sm font-bold text-muted">Ví dụ một câu hỏi</p>
-            <p lang="en" className="text-balance rounded-2xl bg-sunken p-4 text-2xl font-extrabold leading-snug">
-              What do you usually do to stay healthy?
-            </p>
-            <p className="flex items-start gap-2 rounded-2xl bg-brand-soft p-4 text-sm font-semibold text-brand-strong">
-              <MessageCircle className="mt-0.5 size-4 shrink-0" aria-hidden />
-              Gợi ý mức 1: nghĩ về thói quen ăn uống, vận động hoặc giấc ngủ của bạn.
-            </p>
+          {/* Điểm nhấn duy nhất của trang: dải màu chuyển nghiêng phía sau thẻ ví dụ. */}
+          <div className="rise-in rise-in-2 relative py-6 sm:px-4">
+            <div aria-hidden className="stripe-gradient absolute inset-x-0 inset-y-0 -skew-y-6 rounded-2xl opacity-95" />
+            <div className="relative grid gap-3 rounded-2xl bg-surface p-5 shadow-card" aria-label="Ví dụ một câu hỏi luyện nói">
+              <p className="text-sm font-semibold text-muted">Ví dụ một câu hỏi</p>
+              <p lang="en" className="text-balance rounded-xl bg-sunken p-4 text-2xl font-extrabold leading-snug">
+                What do you usually do to stay healthy?
+              </p>
+              <p className="flex items-start gap-2 rounded-xl bg-brand-soft p-4 text-sm font-semibold text-brand-strong">
+                <MessageCircle className="mt-0.5 size-4 shrink-0" aria-hidden />
+                Gợi ý mức 1: nghĩ về thói quen ăn uống, vận động hoặc giấc ngủ của bạn.
+              </p>
+            </div>
           </div>
         </section>
 
@@ -109,8 +114,8 @@ export default function LandingPage() {
             </div>
             <ol className="grid gap-4 sm:grid-cols-2">
               {steps.map((s, i) => (
-                <li key={s.title} className="grid grid-cols-[auto_1fr] gap-4 rounded-3xl border border-line bg-bg p-5">
-                  <span className="grid size-12 place-items-center rounded-2xl bg-brand text-on-brand">
+                <li key={s.title} className="grid grid-cols-[auto_1fr] gap-4 rounded-2xl border border-line bg-bg p-5">
+                  <span className="grid size-11 place-items-center rounded-xl bg-brand-soft text-brand">
                     <s.icon className="size-6" aria-hidden />
                   </span>
                   <div className="grid gap-1">
@@ -130,7 +135,7 @@ export default function LandingPage() {
           <h2 id="benefit-title" className="sr-only">
             Lợi ích cho học sinh và giáo viên
           </h2>
-          <div className="grid content-start gap-3 rounded-3xl border border-line bg-surface p-6">
+          <div className="grid content-start gap-3 rounded-2xl border border-line bg-surface p-6">
             <h3 className="text-2xl font-extrabold">Dành cho học sinh</h3>
             <ul className="grid gap-2 text-muted">
               <li>Luyện nói đều đặn mà không cần bạn luyện cùng.</li>
@@ -139,7 +144,7 @@ export default function LandingPage() {
               <li>Bí ý tưởng thì có gợi ý từng bước, không ai chấm bạn là thất bại.</li>
             </ul>
           </div>
-          <div className="grid content-start gap-3 rounded-3xl border border-line bg-surface p-6">
+          <div className="grid content-start gap-3 rounded-2xl border border-line bg-surface p-6">
             <h3 className="flex items-center gap-2 text-2xl font-extrabold">
               <Users className="size-6" aria-hidden />
               Dành cho giáo viên
@@ -180,7 +185,12 @@ export default function LandingPage() {
       <footer className="border-t border-line">
         <div className="mx-auto flex w-full max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-6 text-sm text-muted sm:px-6">
           <Logo />
-          <p>Bản thử nghiệm. Nội dung luyện tập bám theo chủ đề sách Global Success.</p>
+          <p>
+            Bản thử nghiệm. Nội dung luyện tập bám theo chủ đề sách Global Success.{" "}
+            <Link href="/quyen-rieng-tu" className="font-semibold text-ink underline underline-offset-4">
+              Quyền riêng tư
+            </Link>
+          </p>
         </div>
       </footer>
     </div>

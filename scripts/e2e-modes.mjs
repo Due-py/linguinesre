@@ -14,6 +14,8 @@ const t = (n, ok, extra = "") => {
   if (!ok) fail++;
 };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+/** Trang có khung "đang tải" nên nội dung hiện sau một chút: chờ tối đa 15 giây. */
+const seen = (loc) => loc.waitFor({ timeout: 15_000 }).then(() => true, () => false);
 
 /** Người tham gia đã làm xong cả hai bài kiểm tra (để không còn bài nào đến hạn), đã chia nhóm. */
 async function participant(code, arm, pilot) {
@@ -91,15 +93,16 @@ async function main() {
   // ---- Chưa mở giai đoạn luyện ----
   if (open?.value !== true) {
     const page = await login(ctx, pw.code, pw.pin);
-    t("chưa mở giai đoạn luyện: chỉ thấy trang chờ", await page.getByText("Giai đoạn luyện tập chưa bắt đầu").isVisible());
+    t("chưa mở giai đoạn luyện: chỉ thấy trang chờ", await seen(page.getByText("Giai đoạn luyện tập chưa bắt đầu")));
     await page.goto(`${BASE}/student/practice`);
-    t("người tham gia không vào được trang luyện tự do", page.url() === `${BASE}/student`);
+    const back = await page.waitForURL(`${BASE}/student`, { timeout: 15_000 }).then(() => true, () => false);
+    t("người tham gia không vào được trang luyện tự do", back);
     await ctx.clearCookies();
   }
 
   // ---- Chế độ A ----
   let page = await login(ctx, pa.code, pa.pin);
-  t("trang chính hiện Chế độ A", await page.getByRole("heading", { name: "Chế độ A: luyện phản xạ nói" }).isVisible());
+  t("trang chính hiện Chế độ A", await seen(page.getByRole("heading", { name: "Chế độ A: luyện phản xạ nói" })));
   await checkin(page);
   await page.getByRole("button", { name: "Bắt đầu buổi 1" }).click();
   await page.waitForURL(/\/student\/luyen\//);
@@ -131,7 +134,7 @@ async function main() {
 
   // ---- Chế độ B ----
   page = await login(ctx, pb.code, pb.pin);
-  t("trang chính hiện Chế độ B", await page.getByRole("heading", { name: "Chế độ B: đọc to" }).isVisible());
+  t("trang chính hiện Chế độ B", await seen(page.getByRole("heading", { name: "Chế độ B: đọc to" })));
   await checkin(page);
   await page.getByRole("button", { name: "Bắt đầu buổi 1" }).click();
   await page.waitForURL(/\/student\/luyen\//);

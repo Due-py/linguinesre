@@ -215,7 +215,7 @@ export default function SessionRunner({
   if (phase === "done" || !q) {
     return (
       <Shell unitTitle={unitTitle} progress={`${questions.length}/${questions.length}`}>
-        <section className="grid gap-5 rounded-[2rem] bg-forest px-6 py-10 text-on-forest sm:px-10">
+        <section className="grid gap-5 rounded-2xl bg-forest px-6 py-10 text-on-forest sm:px-10">
           <h1 className="text-balance text-4xl font-extrabold tracking-tight">Bạn đã trả lời đủ {questions.length} câu</h1>
           <p className="max-w-prose text-on-forest-muted">
             Các câu trả lời và nhận xét đã được lưu. Xem lại cả buổi và mục tiêu cho buổi sau ở trang tổng kết.
@@ -239,7 +239,7 @@ export default function SessionRunner({
     <Shell unitTitle={unitTitle} progress={`Câu ${index + 1}/${questions.length}`} answered={answeredCount} total={questions.length}>
       <div className="grid gap-6">
         {/* Câu hỏi: chữ lớn nhất màn hình. Chưa bắt đầu thì chưa hiện để không tính sai thời gian suy nghĩ. */}
-        <section aria-live="polite" className="grid min-h-40 content-center gap-3 rounded-[2rem] bg-surface px-6 py-8 shadow-[0_1px_0_var(--line)] sm:px-10">
+        <section aria-live="polite" className="grid min-h-40 content-center gap-3 rounded-2xl bg-surface px-6 py-8 shadow-card sm:px-10">
           {phase === "ready" ? (
             <p className="text-lg text-muted">
               Bấm nút bên dưới để nghe câu hỏi. Máy bắt đầu nghe ngay sau khi đọc xong, bạn nói khi sẵn sàng.
@@ -288,7 +288,7 @@ export default function SessionRunner({
                 onChange={(e) => setDraft(e.target.value)}
                 rows={3}
                 maxLength={2000}
-                className="w-full rounded-xl border-2 border-line bg-surface px-4 py-3 text-lg font-medium focus:border-ink focus:outline-none"
+                className="w-full rounded-xl border border-line bg-surface px-4 py-3 text-lg font-medium focus:border-ink focus:outline-none"
               />
             </label>
             <dl className="grid grid-cols-3 divide-x divide-line rounded-2xl border border-line bg-surface text-center">
@@ -337,7 +337,7 @@ export default function SessionRunner({
           {phase === "processing" && <StateBadge icon={<LoaderCircle className="size-10 animate-spin" aria-hidden />} label="Đang chép lời" />}
           {phase === "review" && (
             <div className="flex flex-wrap justify-center gap-3">
-              <button type="button" onClick={retry} className="inline-flex min-h-12 items-center gap-2 rounded-full border-2 border-ink/80 bg-surface px-6 font-bold hover:bg-sunken">
+              <button type="button" onClick={retry} className="inline-flex min-h-12 items-center gap-2 rounded-full border border-line-strong bg-surface px-6 font-bold hover:bg-sunken">
                 <RotateCcw className="size-5" aria-hidden />
                 Nói lại
               </button>
@@ -346,7 +346,7 @@ export default function SessionRunner({
                   type="button"
                   onClick={save}
                   disabled={saving || draft.trim() === ""}
-                  className="inline-flex min-h-12 items-center gap-2 rounded-full bg-brand px-6 font-bold text-on-brand shadow-[0_3px_0_var(--brand-strong)] hover:bg-brand-strong disabled:opacity-60"
+                  className="inline-flex min-h-12 items-center gap-2 rounded-full bg-brand px-6 font-bold text-on-brand shadow-button hover:bg-brand-strong disabled:opacity-60"
                 >
                   {saving ? <LoaderCircle className="size-5 animate-spin" aria-hidden /> : <Check className="size-5" aria-hidden />}
                   {saving ? "Đang lưu…" : "Lưu câu trả lời"}
@@ -361,7 +361,7 @@ export default function SessionRunner({
                   type="button"
                   onClick={begin}
                   disabled={busy}
-                  className="inline-flex min-h-14 items-center gap-2 rounded-full border-2 border-ink/80 bg-surface px-6 font-bold hover:bg-sunken disabled:opacity-60"
+                  className="inline-flex min-h-14 items-center gap-2 rounded-full border border-line-strong bg-surface px-6 font-bold hover:bg-sunken disabled:opacity-60"
                 >
                   <RotateCcw className="size-5" aria-hidden />
                   Nói lại câu này (còn {MAX_ATTEMPTS - current.attemptNo} lần)
@@ -371,7 +371,7 @@ export default function SessionRunner({
                 type="button"
                 onClick={next}
                 disabled={busy}
-                className="inline-flex min-h-14 items-center gap-2 rounded-full bg-brand px-8 text-lg font-bold text-on-brand shadow-[0_3px_0_var(--brand-strong)] hover:bg-brand-strong disabled:opacity-60"
+                className="inline-flex min-h-14 items-center gap-2 rounded-full bg-brand px-8 text-lg font-bold text-on-brand shadow-button hover:bg-brand-strong disabled:opacity-60"
               >
                 {questions.some((x, k) => k > index && !x.answered) ? "Câu tiếp theo" : "Xem kết quả"}
                 <ArrowRight className="size-5" aria-hidden />
@@ -448,7 +448,7 @@ function Hints({ hints, level, onOpen }: { hints: RunnerQuestion["hints"]; level
         <button
           type="button"
           onClick={() => onOpen(nextHint.level)}
-          className="inline-flex min-h-11 w-fit items-center gap-2 rounded-full border-2 border-line bg-surface px-4 font-bold hover:border-ink/40"
+          className="inline-flex min-h-11 w-fit items-center gap-2 rounded-full border border-line bg-surface px-4 font-bold hover:border-ink/40"
         >
           <Lightbulb className="size-4" aria-hidden />
           {opened.length === 0 ? "Bí ý? Xem gợi ý" : `Thêm gợi ý: ${nextHint.title.toLowerCase()}`}
@@ -479,7 +479,7 @@ function RoundButton({
         disabled={busy}
         aria-label={label}
         className={`relative grid size-[104px] place-items-center rounded-full transition-transform active:scale-95 disabled:opacity-60 ${
-          tone === "listening" ? "bg-forest text-on-forest" : "bg-brand text-on-brand shadow-[0_4px_0_var(--brand-strong)]"
+          tone === "listening" ? "bg-forest text-on-forest" : "bg-brand text-on-brand shadow-button"
         }`}
       >
         {tone === "listening" && <span className="absolute inset-0 animate-ping rounded-full bg-forest/30 motion-reduce:hidden" aria-hidden />}
@@ -493,7 +493,7 @@ function RoundButton({
 function StateBadge({ icon, label, pulse }: { icon: React.ReactNode; label: string; pulse?: boolean }) {
   return (
     <div className="grid justify-items-center gap-2" role="status">
-      <span className={`grid size-[104px] place-items-center rounded-full border-2 border-dashed border-ink/40 bg-sunken ${pulse ? "animate-pulse" : ""}`}>
+      <span className={`grid size-[104px] place-items-center rounded-full border border-dashed border-ink/40 bg-sunken ${pulse ? "animate-pulse" : ""}`}>
         {icon}
       </span>
       <p className="font-bold">{label}</p>

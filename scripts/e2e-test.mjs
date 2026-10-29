@@ -11,6 +11,8 @@ import { admin, createParticipant, deleteParticipant, RESEARCH_DIR } from "./res
 const BASE = process.env.BASE_URL ?? "http://localhost:3126";
 const CODE = "ZZ903";
 let fail = 0;
+/** Trang có khung "đang tải" nên nội dung hiện sau một chút: chờ tối đa 15 giây. */
+const seen = (loc) => loc.waitFor({ timeout: 15_000 }).then(() => true, () => false);
 const t = (n, ok, extra = "") => {
   console.log((ok ? "ĐẠT " : "HỎNG ") + n + (extra ? ` (${extra})` : ""));
   if (!ok) fail++;
@@ -65,11 +67,12 @@ async function main() {
   await page.getByRole("button", { name: "Đăng nhập" }).click();
   await page.waitForURL(`${BASE}/student`);
   t("đăng nhập bằng mã (gõ chữ thường, có dấu cách) + PIN", true);
-  t("trang chính chỉ hiện bài kiểm tra lần 1", await page.getByRole("heading", { name: "Bài kiểm tra nói lần 1" }).isVisible());
-  t("trang chính gọi học sinh bằng mã, không có họ tên", await page.getByText(`Chào ${CODE},`).isVisible());
+  t("trang chính chỉ hiện bài kiểm tra lần 1", await seen(page.getByRole("heading", { name: "Bài kiểm tra nói lần 1" })));
+  t("trang chính gọi học sinh bằng mã, không có họ tên", await seen(page.getByText(`Chào ${CODE},`)));
 
   await page.goto(`${BASE}/student/practice`);
-  t("chưa chia nhóm thì chưa vào được trang luyện", page.url() === `${BASE}/student`);
+  const back = await page.waitForURL(`${BASE}/student`, { timeout: 15_000 }).then(() => true, () => false);
+  t("chưa chia nhóm thì chưa vào được trang luyện", back);
 
   await page.getByRole("link", { name: "Mở bài kiểm tra" }).click();
   await page.getByRole("button", { name: "Bắt đầu bài kiểm tra" }).click();

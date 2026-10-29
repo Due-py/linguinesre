@@ -3,7 +3,7 @@ import { NextResponse, type NextRequest } from "next/server";
 
 // Chuyển hướng cho tiện: chưa đăng nhập thì về /login, đã đăng nhập thì không vào lại trang đăng nhập.
 // Quyền thật do RLS và requireRole() ở máy chủ quyết định, không phải file này.
-const PROTECTED = ["/home", "/onboarding", "/student", "/teacher"];
+const PROTECTED = ["/home", "/onboarding", "/student", "/teacher", "/account"];
 const GUEST_ONLY = ["/login", "/signup", "/forgot-password"];
 
 const matches = (path: string, list: string[]) => list.some((p) => path === p || path.startsWith(`${p}/`));

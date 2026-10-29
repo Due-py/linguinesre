@@ -26,7 +26,7 @@ export default function OnboardingForm() {
           {ROLES.map((r) => (
             <label
               key={r.value}
-              className="group relative grid cursor-pointer gap-2 rounded-2xl border-2 border-line bg-surface p-5 transition-colors hover:border-ink/40 has-[:checked]:border-brand has-[:checked]:bg-brand-soft has-[:focus-visible]:outline has-[:focus-visible]:outline-[3px] has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-ink"
+              className="group relative grid cursor-pointer gap-2 rounded-2xl border border-line bg-surface p-5 transition-colors hover:border-ink/40 has-[:checked]:border-brand has-[:checked]:bg-brand-soft has-[:focus-visible]:outline has-[:focus-visible]:outline-[3px] has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-ink"
             >
               <input
                 type="radio"

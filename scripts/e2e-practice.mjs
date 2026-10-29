@@ -97,11 +97,13 @@ async function main() {
   await page.getByRole("button", { name: "Đăng nhập" }).click();
   await page.waitForURL(`${BASE}/student`);
   t("đăng nhập xong vào trang học sinh", true);
-  t("trang chính gợi ý Unit hôm nay", await page.getByText("Hôm nay: E2E Test Unit").isVisible());
+  // Lớp 9 đã có Unit thật được duyệt, nên "hôm nay" là Unit đầu tiên chưa học; bài thử luyện trên Unit thử (Unit 20).
+  const seen = (loc) => loc.waitFor({ timeout: 15_000 }).then(() => true, () => false);
+  t("trang chính gợi ý Unit hôm nay", await seen(page.getByText(/^Hôm nay: /).first()));
+  t("lộ trình có Unit thử", await seen(page.getByText("E2E Test Unit").first()));
   await shot("18-hoc-sinh-trang-chinh-co-bai-hom-nay");
 
-  await page.getByRole("link", { name: "Bắt đầu luyện tập" }).click();
-  await page.waitForURL(/\/student\/practice\/[0-9a-f-]{36}$/);
+  await page.goto(`${BASE}/student/practice/${unit.id}`);
   t("màn giới thiệu có phần khởi động", await page.getByRole("heading", { name: "Khởi động" }).isVisible());
   await shot("19-gioi-thieu-buoi-luyen");
   await page.getByRole("button", { name: "Bắt đầu luyện tập" }).click();
@@ -213,7 +215,9 @@ async function main() {
 
   // Học sinh không mở được trang giáo viên; giáo viên lớp khác không thấy buổi (RLS, xem test:sessions).
   await page.goto(`${BASE}${sessionPath}`);
-  t("học sinh vào trang giáo viên thì bị chuyển đi", !page.url().includes("/teacher/"));
+  // Có trang "đang tải" nên lệnh chuyển hướng chạy sau khi khung trang đã hiện: chờ đường dẫn đổi.
+  const moved = await page.waitForURL((u) => !u.pathname.startsWith("/teacher/"), { timeout: 15_000 }).then(() => true, () => false);
+  t("học sinh vào trang giáo viên thì bị chuyển đi", moved && (await page.getByText("Bạn Thử: E2E Test Unit").count()) === 0);
 
   const answers = await admin(`session_answers?select=id,attempt_no,hint_level,transcript_edited,transcript_final,audio_path&student_id=eq.${userId}&order=created_at`);
   t("có đúng 6 câu trả lời trong CSDL (5 câu, câu 1 nói 2 lần)", answers.length === 6, `${answers.length}`);

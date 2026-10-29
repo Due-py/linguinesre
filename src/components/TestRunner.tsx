@@ -151,7 +151,7 @@ export default function TestRunner({ attemptId, phaseLabel }: { attemptId: strin
               <li>Không biết trả lời thì cứ im lặng, máy sẽ tự sang câu sau.</li>
             </ol>
             {!micReady ? (
-              <button type="button" onClick={enableMic} className="inline-flex min-h-14 w-fit items-center gap-2 rounded-full bg-brand px-8 text-lg font-bold text-on-brand shadow-[0_3px_0_var(--brand-strong)] hover:bg-brand-strong">
+              <button type="button" onClick={enableMic} className="inline-flex min-h-14 w-fit items-center gap-2 rounded-full bg-brand px-8 text-lg font-bold text-on-brand shadow-button hover:bg-brand-strong">
                 <MicIcon className="size-5" aria-hidden />
                 Bật micro
               </button>
@@ -159,7 +159,7 @@ export default function TestRunner({ attemptId, phaseLabel }: { attemptId: strin
               <div className="grid gap-4">
                 <p className="text-lg">Nói thử “Hello” để kiểm tra: các vạch bên dưới phải nhảy lên.</p>
                 <Meter level={level} />
-                <button type="button" onClick={begin} className="inline-flex min-h-14 w-fit items-center gap-2 rounded-full bg-brand px-8 text-lg font-bold text-on-brand shadow-[0_3px_0_var(--brand-strong)] hover:bg-brand-strong">
+                <button type="button" onClick={begin} className="inline-flex min-h-14 w-fit items-center gap-2 rounded-full bg-brand px-8 text-lg font-bold text-on-brand shadow-button hover:bg-brand-strong">
                   Bắt đầu câu làm mẫu
                 </button>
               </div>
@@ -174,7 +174,7 @@ export default function TestRunner({ attemptId, phaseLabel }: { attemptId: strin
         )}
 
         {item && (
-          <section aria-live="polite" className="grid min-h-48 content-center gap-3 rounded-[2rem] bg-surface px-6 py-8 shadow-[0_1px_0_var(--line)] sm:px-10">
+          <section aria-live="polite" className="grid min-h-48 content-center gap-3 rounded-2xl bg-surface px-6 py-8 shadow-card sm:px-10">
             <p lang="en" className="text-balance text-[1.75rem] font-extrabold leading-tight tracking-tight sm:text-4xl">
               {item.text}
             </p>
@@ -195,7 +195,7 @@ export default function TestRunner({ attemptId, phaseLabel }: { attemptId: strin
           <section className="grid gap-5">
             <h1 className="text-3xl font-extrabold tracking-tight">Xong phần làm mẫu</h1>
             <p className="text-lg">Bây giờ là bài thật, gồm 15 câu. Làm giống hệt hai câu vừa rồi.</p>
-            <button type="button" onClick={() => void loop()} className="inline-flex min-h-14 w-fit items-center gap-2 rounded-full bg-brand px-8 text-lg font-bold text-on-brand shadow-[0_3px_0_var(--brand-strong)] hover:bg-brand-strong">
+            <button type="button" onClick={() => void loop()} className="inline-flex min-h-14 w-fit items-center gap-2 rounded-full bg-brand px-8 text-lg font-bold text-on-brand shadow-button hover:bg-brand-strong">
               Bắt đầu bài thật
             </button>
           </section>
@@ -204,7 +204,7 @@ export default function TestRunner({ attemptId, phaseLabel }: { attemptId: strin
         {step.kind === "finishing" && <Status icon={<LoaderCircle className="size-8 animate-spin" aria-hidden />} label="Đang lưu bài kiểm tra" />}
 
         {step.kind === "done" && (
-          <section className="grid gap-5 rounded-[2rem] bg-forest px-6 py-10 text-on-forest sm:px-10">
+          <section className="grid gap-5 rounded-2xl bg-forest px-6 py-10 text-on-forest sm:px-10">
             <CircleCheck className="size-10" aria-hidden />
             <h1 className="text-3xl font-extrabold tracking-tight">Bạn đã làm xong bài kiểm tra</h1>
             <p className="text-on-forest-muted">Các câu trả lời đã được lưu. Cảm ơn bạn. Bạn có thể đưa máy lại cho người coi thi.</p>
@@ -220,7 +220,7 @@ export default function TestRunner({ attemptId, phaseLabel }: { attemptId: strin
               <CircleAlert className="mt-0.5 size-5 shrink-0" aria-hidden />
               {step.message}
             </p>
-            <button type="button" onClick={step.retry} className="inline-flex min-h-12 w-fit items-center rounded-full border-2 border-ink/80 bg-surface px-6 font-bold hover:bg-sunken">
+            <button type="button" onClick={step.retry} className="inline-flex min-h-12 w-fit items-center rounded-full border border-line-strong bg-surface px-6 font-bold hover:bg-sunken">
               Thử lại
             </button>
           </div>
@@ -233,7 +233,7 @@ export default function TestRunner({ attemptId, phaseLabel }: { attemptId: strin
 export function Status({ icon, label, live }: { icon: React.ReactNode; label: string; live?: boolean }) {
   return (
     <div role="status" className="grid justify-items-center gap-2">
-      <span className={`grid size-20 place-items-center rounded-full ${live ? "bg-forest text-on-forest" : "border-2 border-dashed border-ink/40 bg-sunken"}`}>{icon}</span>
+      <span className={`grid size-20 place-items-center rounded-full ${live ? "bg-forest text-on-forest" : "border border-dashed border-ink/40 bg-sunken"}`}>{icon}</span>
       <p className="text-center font-bold">{label}</p>
     </div>
   );

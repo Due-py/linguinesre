@@ -41,7 +41,7 @@ export default function StudentHome({ name, grade, goal, classes, joinFailed, to
     <div className="grid gap-12">
       <section
         aria-labelledby="today"
-        className="relative isolate overflow-hidden rounded-[2rem] bg-forest px-6 py-8 text-on-forest sm:px-10 sm:py-12"
+        className="relative isolate overflow-hidden rounded-2xl bg-forest px-6 py-8 text-on-forest sm:px-10 sm:py-12"
       >
         <Waveform
           className="absolute -bottom-2 right-4 -z-10 hidden h-44 w-72 opacity-30 sm:flex"
@@ -112,7 +112,7 @@ export default function StudentHome({ name, grade, goal, classes, joinFailed, to
           )}
         </section>
 
-        <section aria-labelledby="focus" className="grid content-start gap-3 rounded-3xl bg-sunken px-6 py-6">
+        <section aria-labelledby="focus" className="grid content-start gap-3 rounded-2xl bg-sunken px-6 py-6">
           <h2 id="focus" className="flex items-center gap-2 text-2xl font-extrabold tracking-tight">
             <Flag className="size-6" aria-hidden />
             Điểm cần cải thiện

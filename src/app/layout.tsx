@@ -1,11 +1,10 @@
 import type { Metadata, Viewport } from "next";
-import { Be_Vietnam_Pro } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-const beVietnamPro = Be_Vietnam_Pro({
+const inter = Inter({
   subsets: ["latin", "vietnamese"],
-  weight: ["400", "500", "600", "700", "800"],
-  variable: "--font-be-vietnam-pro",
+  variable: "--font-inter",
   display: "swap",
 });
 
@@ -21,12 +20,12 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#faf6ec",
+  themeColor: "#f6f9fc",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="vi" className={beVietnamPro.variable}>
+    <html lang="vi" className={inter.variable} data-scroll-behavior="smooth">
       <body className="bg-bg font-sans text-ink">{children}</body>
     </html>
   );

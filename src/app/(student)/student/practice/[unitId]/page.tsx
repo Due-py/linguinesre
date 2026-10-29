@@ -113,7 +113,7 @@ export default async function UnitIntroPage({
           </ul>
         </section>
 
-        <section className="grid gap-4 rounded-[2rem] bg-sunken px-6 py-6 sm:px-8">
+        <section className="grid gap-4 rounded-2xl bg-sunken px-6 py-6 sm:px-8">
           <p className="max-w-prose">
             <strong>Mục tiêu:</strong> trả lời mỗi câu bằng một vài câu hoàn chỉnh, có thêm lý do hoặc ví dụ khi được hỏi “why”. Bí ý thì
             mở gợi ý từng bước; dùng gợi ý không bị trừ điểm.

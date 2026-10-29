@@ -47,7 +47,7 @@ export default function ModeHome({
 
   return (
     <div className="grid gap-10">
-      <section aria-labelledby="today" className="grid gap-4 rounded-[2rem] bg-forest px-6 py-8 text-on-forest sm:px-10 sm:py-12">
+      <section aria-labelledby="today" className="grid gap-4 rounded-2xl bg-forest px-6 py-8 text-on-forest sm:px-10 sm:py-12">
         <p className="text-on-forest-muted">Chào {code},</p>
         <h1 id="today" className="text-balance text-4xl font-extrabold leading-[1.08] tracking-tight sm:text-5xl">
           {NAME[mode].title}
@@ -72,7 +72,7 @@ export default function ModeHome({
       </section>
 
       {needsCheckin && !open && !doneToday && (
-        <section aria-labelledby="week" className="grid max-w-prose gap-4 rounded-2xl border-2 border-line bg-surface px-5 py-5">
+        <section aria-labelledby="week" className="grid max-w-prose gap-4 rounded-2xl border border-line bg-surface px-5 py-5">
           <h2 id="week" className="text-xl font-extrabold">
             Câu hỏi của tuần
           </h2>
@@ -88,7 +88,7 @@ export default function ModeHome({
             </fieldset>
             <label className="grid gap-1.5">
               <span className="font-bold">Nếu có: ở đâu? (ví dụ: trung tâm, ứng dụng khác, nói với người nước ngoài)</span>
-              <input name="detail" maxLength={300} className="min-h-12 rounded-xl border-2 border-line bg-surface px-4" />
+              <input name="detail" maxLength={300} className="min-h-12 rounded-xl border border-line bg-surface px-4" />
             </label>
             <SubmitButton pendingLabel="Đang lưu…" className="w-fit">
               Gửi câu trả lời

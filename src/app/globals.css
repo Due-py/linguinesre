@@ -1,24 +1,25 @@
 @import "tailwindcss";
 
-/* Token thiết kế của LINGUA-REFLEX. Quy tắc dùng: xem DESIGN.md. */
+/* Token thiết kế của LINGUA-REFLEX (sáng, gọn, kiểu Stripe/Linear). Quy tắc dùng: xem DESIGN.md. */
 :root {
-  --bg: #faf6ec; /* nền kem */
+  --bg: #f6f9fc; /* nền trắng xám-xanh rất nhạt */
   --surface: #ffffff;
-  --sunken: #f1ebdb; /* khối nhấn nhẹ trên nền kem */
-  --ink: #1b2b22;
-  --muted: #4f6256;
-  --line: #ddd5bf;
-  --brand: #1f7a4d; /* xanh lá: nút chính, liên kết. Chữ trắng trên nền này đạt 5.3:1 */
-  --brand-strong: #17603b;
-  --brand-soft: #e3f1e8;
+  --sunken: #eef2f7; /* khối nhấn nhẹ */
+  --ink: #0a2540; /* xanh navy đậm: chữ chính (14.7:1 trên bg) */
+  --muted: #425466; /* chữ phụ (7.4:1 trên bg) */
+  --line: #e3e8ee;
+  --line-strong: #c4ccd8; /* viền nút phụ, ô nhập */
+  --brand: #533afd; /* màu nhấn duy nhất: nút chính, liên kết. Chữ trắng trên nền này 6.2:1 */
+  --brand-strong: #3d26d6;
+  --brand-soft: #efedff;
   --on-brand: #ffffff;
   --warn: #7a4e00;
-  --warn-soft: #fff1d6;
+  --warn-soft: #fff4dc;
   --danger: #b3261e;
   --danger-soft: #fdecea;
-  --forest: #123d2b; /* mảng xanh rừng đậm: khối nhấn lớn */
-  --on-forest: #f3eedc;
-  --on-forest-muted: #b9cdbf; /* 7.2:1 trên forest */
+  --forest: #0a2540; /* mảng navy đậm: khối nhấn lớn (tên giữ nguyên để không phải đổi mã) */
+  --on-forest: #ffffff;
+  --on-forest-muted: #adbdcc; /* 8.1:1 trên navy */
 }
 
 @theme inline {
@@ -28,6 +29,7 @@
   --color-ink: var(--ink);
   --color-muted: var(--muted);
   --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
   --color-brand: var(--brand);
   --color-brand-strong: var(--brand-strong);
   --color-brand-soft: var(--brand-soft);
@@ -39,7 +41,36 @@
   --color-forest: var(--forest);
   --color-on-forest: var(--on-forest);
   --color-on-forest-muted: var(--on-forest-muted);
-  --font-sans: var(--font-be-vietnam-pro), system-ui, sans-serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+}
+
+/* Chữ đậm vừa phải như Stripe/Linear: tiêu đề 650, nhấn 600 (Inter là phông biến thiên nên dùng được mọi độ đậm). */
+@theme {
+  --font-weight-bold: 600;
+  --font-weight-extrabold: 650;
+}
+
+/* Bóng mỏng thay cho bóng đáy dày kiểu cũ. */
+@utility shadow-button {
+  box-shadow:
+    0 1px 2px rgb(10 37 64 / 0.12),
+    0 6px 16px -6px rgb(83 58 253 / 0.55);
+}
+@utility shadow-card {
+  box-shadow:
+    0 0 0 1px var(--line),
+    0 2px 8px -2px rgb(10 37 64 / 0.06),
+    0 12px 32px -12px rgb(10 37 64 / 0.1);
+}
+
+/* Điểm nhấn duy nhất: dải màu chuyển chéo kiểu Stripe, chỉ dùng ở đầu trang chủ và khung đăng nhập. */
+@utility stripe-gradient {
+  background:
+    radial-gradient(60% 80% at 15% 30%, #a960ee 0%, transparent 60%),
+    radial-gradient(50% 70% at 85% 20%, #ff6aa2 0%, transparent 60%),
+    radial-gradient(55% 80% at 60% 85%, #ffcb57 0%, transparent 55%),
+    radial-gradient(60% 90% at 30% 100%, #90e0ff 0%, transparent 60%),
+    linear-gradient(120deg, #533afd 0%, #7a5cff 45%, #ff6aa2 100%);
 }
 
 html {
@@ -54,11 +85,18 @@ body {
   font-size: 1rem;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  font-feature-settings: "cv11", "ss01";
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.02em;
 }
 
 /* Focus nhìn thấy rõ ở mọi thành phần tương tác (viền 3px màu chữ). */
 :where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
-  outline: 3px solid var(--ink);
+  outline: 3px solid var(--brand);
   outline-offset: 2px;
   border-radius: 0.5rem;
 }

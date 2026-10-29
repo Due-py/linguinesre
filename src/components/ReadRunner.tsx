@@ -181,7 +181,7 @@ export default function ReadRunner({
         )}
 
         {rd && ["ready", "recording", "sending"].includes(phase.kind) && (
-          <section className="grid gap-4 rounded-[2rem] bg-surface px-6 py-7 shadow-[0_1px_0_var(--line)] sm:px-10">
+          <section className="grid gap-4 rounded-2xl bg-surface px-6 py-7 shadow-card sm:px-10">
             <p className="text-sm font-bold text-muted">
               Bài {Math.floor(idx / 2) + 1}/{steps.length / 2} · Đọc lần {rd.round}
             </p>
@@ -222,7 +222,7 @@ export default function ReadRunner({
         {phase.kind === "finishing" && <Status icon={<LoaderCircle className="size-8 animate-spin" aria-hidden />} label="Đang lưu buổi luyện" />}
 
         {phase.kind === "done" && (
-          <section className="grid gap-5 rounded-[2rem] bg-forest px-6 py-10 text-on-forest sm:px-10">
+          <section className="grid gap-5 rounded-2xl bg-forest px-6 py-10 text-on-forest sm:px-10">
             <CircleCheck className="size-10" aria-hidden />
             <h1 className="text-3xl font-extrabold tracking-tight">Xong buổi luyện hôm nay</h1>
             <p className="text-lg text-on-forest-muted">Thời gian luyện: khoảng {Math.max(1, Math.round(active / 60000))} phút.</p>
@@ -235,7 +235,7 @@ export default function ReadRunner({
         {phase.kind === "error" && (
           <div className="grid gap-3">
             <Alert>{phase.message}</Alert>
-            <button type="button" onClick={phase.retry} className="inline-flex min-h-12 w-fit items-center rounded-full border-2 border-ink/80 bg-surface px-6 font-bold hover:bg-sunken">
+            <button type="button" onClick={phase.retry} className="inline-flex min-h-12 w-fit items-center rounded-full border border-line-strong bg-surface px-6 font-bold hover:bg-sunken">
               Thử lại
             </button>
           </div>
@@ -247,7 +247,7 @@ export default function ReadRunner({
 
 function BigButton({ onClick, children }: { onClick: () => void; children: React.ReactNode }) {
   return (
-    <button type="button" onClick={onClick} className="inline-flex min-h-14 w-fit items-center gap-2 rounded-full bg-brand px-8 text-lg font-bold text-on-brand shadow-[0_3px_0_var(--brand-strong)] hover:bg-brand-strong">
+    <button type="button" onClick={onClick} className="inline-flex min-h-14 w-fit items-center gap-2 rounded-full bg-brand px-8 text-lg font-bold text-on-brand shadow-button hover:bg-brand-strong">
       {children}
     </button>
   );

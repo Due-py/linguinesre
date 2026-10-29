@@ -61,7 +61,7 @@ function Measured({ view, level }: { view: FeedbackView; level: Level }) {
   const id = useId();
   const H = level === 2 ? "h2" : "h3";
   return (
-    <section aria-labelledby={id} className="grid gap-3 rounded-3xl border border-line bg-surface px-5 py-5">
+    <section aria-labelledby={id} className="grid gap-3 rounded-2xl border border-line bg-surface px-5 py-5">
       <div className="grid gap-0.5">
         <H id={id} className="flex items-center gap-2 text-xl font-extrabold">
           <Ruler className="size-5" aria-hidden />
@@ -108,7 +108,7 @@ function AiReview({ view, onRetry, level }: { view: FeedbackView; onRetry?: () =
   const H = level === 2 ? "h2" : "h3";
   const sub = level === 2 ? "h3" : "h4";
   return (
-    <section aria-labelledby={id} className="grid gap-4 rounded-3xl bg-brand-soft px-5 py-5">
+    <section aria-labelledby={id} className="grid gap-4 rounded-2xl bg-brand-soft px-5 py-5">
       <div className="grid gap-1">
         <H id={id} className="flex items-center gap-2 text-xl font-extrabold">
           <MessageSquareText className="size-5" aria-hidden />
@@ -208,7 +208,7 @@ function RetryButton({ onClick }: { onClick: () => void }) {
     <button
       type="button"
       onClick={onClick}
-      className="inline-flex min-h-11 w-fit items-center gap-2 rounded-full border-2 border-ink/80 bg-surface px-4 font-bold hover:bg-sunken"
+      className="inline-flex min-h-11 w-fit items-center gap-2 rounded-full border border-line-strong bg-surface px-4 font-bold hover:bg-sunken"
     >
       <RotateCcw className="size-4" aria-hidden />
       Thử lấy nhận xét lại
@@ -229,7 +229,7 @@ export function AttemptCompare({ before, after }: { before: FeedbackView; after:
     ["Lỗi ngữ pháp AI chỉ ra", issues(before), issues(after)],
   ];
   return (
-    <section aria-labelledby="compare-title" className="grid gap-3 rounded-3xl border border-line bg-surface px-5 py-5">
+    <section aria-labelledby="compare-title" className="grid gap-3 rounded-2xl border border-line bg-surface px-5 py-5">
       <h2 id="compare-title" className="text-xl font-extrabold">
         So sánh lần {before.attemptNo} và lần {after.attemptNo}
       </h2>

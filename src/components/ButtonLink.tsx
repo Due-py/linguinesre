@@ -2,10 +2,10 @@ import Link from "next/link";
 import type { ComponentProps } from "react";
 
 const base =
-  "inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 text-base font-bold transition-colors";
+  "inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 text-base font-semibold transition-[background-color,box-shadow,transform] active:translate-y-px";
 const variants = {
-  primary: "bg-brand text-on-brand shadow-[0_3px_0_var(--brand-strong)] hover:bg-brand-strong",
-  secondary: "border-2 border-ink/80 bg-surface text-ink hover:bg-sunken",
+  primary: "bg-brand text-on-brand shadow-button hover:bg-brand-strong",
+  secondary: "border border-line-strong bg-surface text-ink hover:border-ink/40 hover:bg-sunken",
 } as const;
 
 /** Liên kết trông như nút. Vùng chạm cao ≥ 48px. */

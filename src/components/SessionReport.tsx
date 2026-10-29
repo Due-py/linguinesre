@@ -58,7 +58,7 @@ export default function SessionReport({
         {!done && mode === "student" && (
           <Link
             href={`/student/practice/session/${report.id}`}
-            className="inline-flex min-h-12 w-fit items-center gap-2 rounded-full bg-brand px-6 font-bold text-on-brand shadow-[0_3px_0_var(--brand-strong)] hover:bg-brand-strong"
+            className="inline-flex min-h-12 w-fit items-center gap-2 rounded-full bg-brand px-6 font-bold text-on-brand shadow-button hover:bg-brand-strong"
           >
             Làm tiếp buổi này
             <ArrowRight className="size-5" aria-hidden />
@@ -82,7 +82,7 @@ export default function SessionReport({
           </section>
 
           {stats.goal && (
-            <section aria-labelledby="goal" className="grid content-start gap-3 rounded-3xl bg-forest px-6 py-6 text-on-forest">
+            <section aria-labelledby="goal" className="grid content-start gap-3 rounded-2xl bg-forest px-6 py-6 text-on-forest">
               <h2 id="goal" className="flex items-center gap-2 text-sm font-bold text-on-forest-muted">
                 <Flag className="size-4" aria-hidden />
                 {mode === "student" ? "Mục tiêu cho buổi sau" : "Mục tiêu gợi ý cho học sinh"}
@@ -161,7 +161,7 @@ function QuestionItem({ q, index, canRequest }: { q: ReportQuestion; index: numb
 
   return (
     <li>
-      <details className="group rounded-3xl border border-line bg-surface open:pb-5">
+      <details className="group rounded-2xl border border-line bg-surface open:pb-5">
         <summary className="flex min-h-14 cursor-pointer list-none items-start gap-3 px-5 py-4">
           <span className="grid size-8 shrink-0 place-items-center rounded-full bg-sunken text-sm font-extrabold tabular-nums">{index + 1}</span>
           <span className="grid flex-1 gap-0.5">

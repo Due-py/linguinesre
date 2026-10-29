@@ -27,7 +27,7 @@ export default function TeacherHome({ name, classes }: { name: string; classes: 
       </div>
 
       {active.length === 0 ? (
-        <section className="grid max-w-xl gap-4 rounded-[2rem] bg-sunken px-6 py-8 sm:px-8">
+        <section className="grid max-w-xl gap-4 rounded-2xl bg-sunken px-6 py-8 sm:px-8">
           <h2 className="text-2xl font-extrabold tracking-tight">Tạo lớp đầu tiên của bạn</h2>
           <p className="text-muted">
             Mỗi lớp có một mã gồm 6 ký tự. Bạn đưa mã cho học sinh, các bạn nhập mã ở trang chính để vào lớp.

@@ -20,7 +20,7 @@ export default async function HistoryPage() {
           <p className="max-w-prose text-muted">Mọi buổi luyện của bạn, mới nhất ở trên. Mở một buổi để xem lại câu trả lời, nghe lại bản ghi và nhận xét.</p>
         </div>
         {sessions.length === 0 ? (
-          <div className="grid max-w-prose gap-4 rounded-3xl bg-sunken px-6 py-6">
+          <div className="grid max-w-prose gap-4 rounded-2xl bg-sunken px-6 py-6">
             <p className="text-muted">Bạn chưa có buổi luyện nào. Sau buổi đầu tiên, câu trả lời và nhận xét sẽ được lưu ở đây.</p>
             <ButtonLink href="/student/practice">Chọn Unit để luyện</ButtonLink>
           </div>
