@@ -230,7 +230,7 @@ export default function TestRunner({ attemptId, phaseLabel }: { attemptId: strin
   );
 }
 
-function Status({ icon, label, live }: { icon: React.ReactNode; label: string; live?: boolean }) {
+export function Status({ icon, label, live }: { icon: React.ReactNode; label: string; live?: boolean }) {
   return (
     <div role="status" className="grid justify-items-center gap-2">
       <span className={`grid size-20 place-items-center rounded-full ${live ? "bg-forest text-on-forest" : "border-2 border-dashed border-ink/40 bg-sunken"}`}>{icon}</span>
@@ -239,7 +239,7 @@ function Status({ icon, label, live }: { icon: React.ReactNode; label: string; l
   );
 }
 
-function Meter({ level }: { level: number }) {
+export function Meter({ level }: { level: number }) {
   const bars = 12;
   const active = Math.min(bars, Math.round(Math.sqrt(level) * bars * 2.2));
   return (

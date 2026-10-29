@@ -3,6 +3,8 @@
 //       npm run research:export -- --audio      → tải thêm toàn bộ file ghi âm (để đo tay bằng Audacity, mục 3.7)
 //       npm run research:export -- --with-arm   → thêm cột chế độ A/B. CHỈ người giữ danh sách nhóm dùng; không gửi
 //                                                 file này cho người chấm (chấm mù, mục 3.6).
+//       npm run research:export -- --practice   → thêm 3 file của giai đoạn luyện (mục 3.8): từng lượt nói, từng buổi,
+//                                                 câu hỏi hằng tuần. Các file này CÓ chế độ A/B: không gửi cho người chấm.
 // RL của một học sinh = trung vị 15 câu, câu không trả lời tính 10 giây (mục 1.4). Không tính 2 câu làm mẫu.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
@@ -100,4 +102,96 @@ if (args.includes("--audio")) {
     n++;
   }
   console.log(`Đã tải ${n} file ghi âm vào ${join(RESEARCH_DIR, "ghi-am")}`);
+}
+
+if (args.includes("--practice")) {
+  const all = async (table, cols, order) => {
+    const out = [];
+    for (let from = 0; ; from += 1000) {
+      const { data, error } = await admin.from(table).select(cols).order(order).range(from, from + 999);
+      if (error) throw new Error(`${table}: ${error.message}`);
+      out.push(...(data ?? []));
+      if (!data || data.length < 1000) break;
+    }
+    return out;
+  };
+  const [sessions, turns, checkins] = await Promise.all([
+    all("mode_sessions", "id, student_id, mode, session_no, unit_no, day, status, active_ms, started_at, completed_at, user_agent", "started_at"),
+    all(
+      "mode_turns",
+      "session_id, student_id, mode, step, layer, activity, item_ref, prompt, attempt_no, time_limit_ms, rl_ms, rl_status, rl_client_ms, in_limit, hint_level, duration_ms, transcript, check_result, audio_path, created_at",
+      "created_at",
+    ),
+    all("weekly_checkins", "student_id, week_start, practised_elsewhere, detail, created_at", "week_start"),
+  ]);
+  const sess = new Map(sessions.map((x) => [x.id, x]));
+  const secs = (ms) => (ms === null || ms === undefined ? "" : (ms / 1000).toFixed(2));
+  const yn = (b) => (b === null || b === undefined ? "" : b ? 1 : 0);
+
+  // Một dòng mỗi lượt nói (mục 3.8). Lượt 2 của L0 là nói theo mẫu; lượt 2 của Speed Q&A là nói lại không giới hạn.
+  const turnRows = turns.map((t) => {
+    const s = sess.get(t.session_id);
+    return {
+      ma_hoc_sinh: person.get(t.student_id)?.code,
+      che_do: t.mode,
+      ngay: s?.day,
+      buoi_so: s?.session_no,
+      unit: s?.unit_no,
+      tang: t.layer ?? "",
+      hoat_dong: t.activity,
+      ma_noi_dung: t.item_ref,
+      luot: t.attempt_no,
+      gioi_han_giay: t.time_limit_ms ? (t.time_limit_ms / 1000).toString() : "khong_gioi_han",
+      rl_giay: secs(t.rl_ms),
+      trang_thai_rl: t.rl_status,
+      rl_trinh_duyet_giay: secs(t.rl_client_ms),
+      kip_gioi_han: yn(t.in_limit),
+      muc_goi_y: t.hint_level,
+      do_dai_luot_giay: secs(t.duration_ms),
+      so_tu: t.check_result?.words ?? "",
+      dung_muc_tieu: yn(t.check_result?.target),
+      co_ly_do: yn(t.check_result?.reason),
+      thoi_luong_buoi_phut: s ? (s.active_ms / 60000).toFixed(1) : "",
+      noi_dung: t.prompt,
+      chu_ghi_loi: t.transcript ?? "",
+      file_ghi_am: t.audio_path,
+      luc: t.created_at,
+    };
+  });
+  console.log(`Luyện tập, từng lượt: ${writeCsv(`luyen-tung-luot-${stamp()}.csv`, turnRows)}`);
+
+  const sessionRows = sessions.map((s) => {
+    const mine = turns.filter((t) => t.session_id === s.id);
+    const speed = mine.filter((t) => t.activity === "speed" && t.time_limit_ms);
+    const rl = median(speed.filter((t) => t.rl_status === "ok").map((t) => t.rl_ms));
+    return {
+      ma_hoc_sinh: person.get(s.student_id)?.code,
+      che_do: s.mode,
+      buoi_so: s.session_no,
+      ngay: s.day,
+      unit: s.unit_no,
+      trang_thai: s.status === "completed" ? "xong" : "chua_xong",
+      thoi_luong_phut: (s.active_ms / 60000).toFixed(1),
+      du_10_phut: s.active_ms >= 600000 ? 1 : 0,
+      so_luot: mine.length,
+      speed_so_cau: speed.length,
+      speed_kip_gio: speed.filter((t) => t.in_limit).length,
+      speed_rl_trung_vi_giay: rl === null ? "" : (rl / 1000).toFixed(2),
+      speed_gioi_han_cuoi_giay: speed.length ? (speed.at(-1).time_limit_ms / 1000).toString() : "",
+      so_luot_dung_goi_y: mine.filter((t) => t.hint_level > 0).length,
+      bat_dau: s.started_at,
+      xong_luc: s.completed_at ?? "",
+      trinh_duyet: s.user_agent ?? "",
+    };
+  });
+  console.log(`Luyện tập, từng buổi: ${writeCsv(`luyen-tung-buoi-${stamp()}.csv`, sessionRows)}`);
+
+  const checkinRows = checkins.map((c) => ({
+    ma_hoc_sinh: person.get(c.student_id)?.code,
+    tuan_bat_dau: c.week_start,
+    luyen_them_noi_khac: c.practised_elsewhere ? 1 : 0,
+    o_dau: c.detail ?? "",
+    luc: c.created_at,
+  }));
+  console.log(`Câu hỏi hằng tuần: ${writeCsv(`hoi-hang-tuan-${stamp()}.csv`, checkinRows)}`);
 }

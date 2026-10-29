@@ -1,0 +1,1166 @@
+{
+  "grade": 8,
+  "units": [
+    {
+      "unit": 1,
+      "reading": [
+        {
+          "id": "r1",
+          "kind": "dialogue",
+          "title": "Plans for Saturday",
+          "lines": [
+            { "speaker": "Mai", "text": "Hi Nick! Do you fancy doing something together on Saturday?" },
+            { "speaker": "Nick", "text": "Sure. What do you have in mind?" },
+            { "speaker": "Mai", "text": "I'm keen on going cycling around the lake. The air is fresh in the morning." },
+            { "speaker": "Nick", "text": "That sounds nice, but I don't enjoy getting up early at the weekend." },
+            { "speaker": "Mai", "text": "OK, what about the afternoon? We could hang out with friends at the park." },
+            { "speaker": "Nick", "text": "Good idea. I love playing games with Phong and Mi." },
+            { "speaker": "Mai", "text": "Phong is crazy about puzzles. He always brings a new one." },
+            { "speaker": "Nick", "text": "I know! Doing puzzles is great mental exercise, but he's much faster than me." },
+            { "speaker": "Mai", "text": "Don't worry. It's just for fun. I always feel relaxed when we laugh together." },
+            { "speaker": "Nick", "text": "Me too. After the park, do you fancy making something?" },
+            { "speaker": "Mai", "text": "Like what?" },
+            { "speaker": "Nick", "text": "My dad and I enjoy doing DIY. We can make a small bird house." },
+            { "speaker": "Mai", "text": "Wow, I'd love to try that. I hate sitting in front of a screen all day." },
+            { "speaker": "Nick", "text": "Great. See you at two o'clock on Saturday, then!" }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "passage",
+          "title": "My Grandad's Workshop",
+          "lines": [
+            { "speaker": null, "text": "My grandad is crazy about DIY. He has a small workshop behind his house, and he spends hours there every day." },
+            { "speaker": null, "text": "When I visit him at the weekend, I love helping him. We make shelves, toy cars and boxes for his plants." },
+            { "speaker": null, "text": "Grandad says DIY is good for creativity. You imagine something first, and then you build it with your own hands." },
+            { "speaker": null, "text": "I enjoy painting the things we make. Last month, I painted a bird house blue and yellow, and now two little birds live in it." },
+            { "speaker": null, "text": "Working with Grandad makes me feel relaxed. We don't surf the net or watch TV. We just talk, work and laugh." },
+            { "speaker": null, "text": "When I go back home, we keep in touch by phone. He always asks me, 'What shall we make next time?'" }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "dialogue",
+          "title": "A Video Call with Ann",
+          "lines": [
+            { "speaker": "Ann", "text": "Hi Phong! It's great to see you on video again." },
+            { "speaker": "Phong", "text": "Hi Ann! I love keeping in touch with you like this." },
+            { "speaker": "Ann", "text": "Me too. So, what have you been doing in your free time?" },
+            { "speaker": "Phong", "text": "I've been doing a lot of puzzles. I'm keen on number puzzles at the moment." },
+            { "speaker": "Ann", "text": "Really? I prefer word puzzles. They're good mental exercise, and I learn new words." },
+            { "speaker": "Phong", "text": "Do you still go cycling with your sister?" },
+            { "speaker": "Ann", "text": "Yes, every week. We love riding along the river near our house." },
+            { "speaker": "Phong", "text": "That sounds relaxing. I don't like cycling in the city centre because there's too much traffic." },
+            { "speaker": "Ann", "text": "What else do you enjoy doing?" },
+            { "speaker": "Phong", "text": "I enjoy surfing the net for videos about space. I'm crazy about planets and stars." },
+            { "speaker": "Ann", "text": "Cool! Maybe you can show me some of them next time." },
+            { "speaker": "Phong", "text": "Sure. Do you fancy doing a space quiz together next week?" },
+            { "speaker": "Ann", "text": "Yes, I'd love to. Same time next Saturday?" },
+            { "speaker": "Phong", "text": "Perfect. Bye for now!" }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "passage",
+          "title": "Free Time in Our Class",
+          "lines": [
+            { "speaker": null, "text": "Last week, our teacher asked us about our leisure activities, and the answers were very interesting." },
+            { "speaker": null, "text": "Most of my classmates love hanging out with friends after school. They often meet at the park or at a friend's house." },
+            { "speaker": null, "text": "Some students are keen on making things. Lan enjoys making paper flowers, and Minh likes doing DIY with his dad. They say these hobbies help their creativity." },
+            { "speaker": null, "text": "A few classmates are crazy about puzzles. They think puzzles are good mental exercise." },
+            { "speaker": null, "text": "Many of us like surfing the net, but most of us prefer doing activities with other people." },
+            { "speaker": null, "text": "Our teacher said there is no right or wrong hobby. The most important thing is to do something that makes you happy and relaxed." }
+          ]
+        }
+      ],
+      "roleplays": [
+        {
+          "id": "p1",
+          "titleVi": "Làm quen với bạn qua thư",
+          "situationVi": "Em gọi video lần đầu với Tom, bạn qua thư ở Anh. Tom muốn biết em thích làm gì lúc rảnh. Hãy trả lời và kể thêm để hai bạn hiểu nhau hơn.",
+          "partner": "Your pen pal Tom",
+          "turns": [
+            {
+              "prompt": "Hi! It's so nice to finally see you. Tell me about your hobbies. What are you keen on?",
+              "hintVi": "Kể một hai sở thích của em, dùng I'm keen on hoặc I enjoy + V-ing.",
+              "keywords": ["keen on", "enjoy", "and"],
+              "example": "I enjoy going cycling with my friends, and sometimes I do puzzles at home."
+            },
+            {
+              "prompt": "That sounds fun! Who do you usually spend your free time with?",
+              "hintVi": "Nói em hay dành thời gian rảnh với ai và cùng làm gì.",
+              "keywords": ["hang out with", "my family", "friends"],
+              "example": "I usually hang out with my best friend Lan. We live on the same street."
+            },
+            {
+              "prompt": "I'm crazy about drawing comics. Is there something you're crazy about?",
+              "hintVi": "Nêu một thứ em rất mê, dùng I'm crazy about + V-ing hoặc danh từ, rồi nói thêm một chi tiết.",
+              "keywords": ["crazy about", "keen on", "because"],
+              "example": "Yes, I'm crazy about making paper models. I can spend hours on them."
+            },
+            {
+              "prompt": "How can we keep in touch after today?",
+              "hintVi": "Gợi ý một cách giữ liên lạc và nói bao lâu một lần.",
+              "keywords": ["keep in touch", "email", "every week"],
+              "example": "Let's send emails every week, and we can have a video call once a month."
+            }
+          ]
+        },
+        {
+          "id": "p2",
+          "titleVi": "Đăng ký khóa học hè",
+          "situationVi": "Em đến trung tâm hoạt động hè của phường để đăng ký một khóa học. Nhân viên hỏi em vài câu để chọn lớp phù hợp. Hãy trả lời rõ ràng và hỏi thêm nếu cần.",
+          "partner": "A staff member at the centre",
+          "turns": [
+            {
+              "prompt": "Hello! Welcome to the summer activity centre. How can I help you?",
+              "hintVi": "Nói em muốn đăng ký một lớp học hè và hỏi trung tâm có những lớp nào.",
+              "keywords": ["sign up", "course", "summer"],
+              "example": "Hello. I'd like to sign up for a summer course. What courses do you have?"
+            },
+            {
+              "prompt": "We have DIY, photography and cycling tours. Which one do you fancy?",
+              "hintVi": "Chọn một lớp và nói ngắn gọn vì sao em thích lớp đó.",
+              "keywords": ["fancy", "I'd like", "because"],
+              "example": "I fancy the DIY course because I love making things with my hands."
+            },
+            {
+              "prompt": "Have you ever done anything like this before?",
+              "hintVi": "Nói em đã từng làm việc này chưa. Nếu rồi, kể một việc em đã làm.",
+              "keywords": ["never", "once", "last year"],
+              "example": "Yes, I made a small shelf with my dad last year, but I'm still a beginner."
+            },
+            {
+              "prompt": "Great. The course is on weekday mornings or weekend afternoons. Which time is better for you?",
+              "hintVi": "Chọn một thời gian và giải thích vì sao thời gian đó hợp với em.",
+              "keywords": ["better", "free", "on weekdays"],
+              "example": "Weekday mornings are better for me because I visit my grandparents at the weekend."
+            }
+          ]
+        },
+        {
+          "id": "p3",
+          "titleVi": "Lên kế hoạch ngày nghỉ cùng bố",
+          "situationVi": "Sắp đến ngày nghỉ lễ, bố muốn cả nhà làm một việc gì đó cùng nhau. Em trò chuyện với bố để chọn hoạt động và chuẩn bị cho ngày hôm đó.",
+          "partner": "Your dad",
+          "turns": [
+            {
+              "prompt": "We have a day off next Monday. What do you fancy doing together as a family?",
+              "hintVi": "Đề xuất một hoạt động cả nhà có thể làm cùng nhau, dùng How about + V-ing.",
+              "keywords": ["fancy", "How about", "together"],
+              "example": "How about going cycling around the lake? We can have a picnic there too."
+            },
+            {
+              "prompt": "Good idea, but your little sister doesn't like that very much. What else can we do?",
+              "hintVi": "Đưa ra một ý khác mà em gái cũng thích, nói vì sao em gái sẽ thích.",
+              "keywords": ["Maybe", "instead", "she likes"],
+              "example": "Maybe we can do a big puzzle at home instead. She likes puzzles, and it's relaxing."
+            },
+            {
+              "prompt": "OK. What do we need to prepare for it?",
+              "hintVi": "Kể hai ba thứ cần chuẩn bị và em sẽ lo phần nào.",
+              "keywords": ["need", "buy", "I can"],
+              "example": "We need to buy a new puzzle and some snacks. I can make lemon juice."
+            },
+            {
+              "prompt": "Sounds perfect. Why do you think family days like this are important?",
+              "hintVi": "Nêu một hai lý do, dùng because.",
+              "keywords": ["spend time", "talk", "relaxed"],
+              "example": "Because we're all busy on weekdays. On days like this, we can talk and laugh together."
+            }
+          ]
+        }
+      ],
+      "talks": [
+        {
+          "id": "t1",
+          "prompt": "Talk about an activity you enjoy doing with your family.",
+          "promptVi": "Hãy nói về một hoạt động em thích làm cùng gia đình.",
+          "points": ["what the activity is", "when and where you do it", "how it makes you feel"],
+          "example": "I enjoy doing DIY with my dad. We usually do it on Saturday afternoons in our small yard. Last month, we made a wooden shelf for my room, and I painted it green. I love working with my dad because we talk a lot and laugh together. When we finish something, I feel proud and relaxed."
+        },
+        {
+          "id": "t2",
+          "prompt": "Talk about how you keep in touch with a friend who lives far away.",
+          "promptVi": "Hãy nói về cách em giữ liên lạc với một người bạn sống ở xa.",
+          "points": ["who your friend is", "how you keep in touch", "what you talk about"],
+          "example": "My best friend, Lan, moved to Da Nang two years ago. We keep in touch by sending messages and having video calls every Saturday evening. We talk about school, our new friends and our hobbies. Sometimes we do online puzzles together. I miss her a lot, but keeping in touch makes me feel close to her."
+        },
+        {
+          "id": "t3",
+          "prompt": "Talk about something you made by yourself.",
+          "promptVi": "Hãy nói về một món đồ em tự tay làm.",
+          "points": ["what you made", "how you made it", "how you felt about it"],
+          "example": "Last summer, I made a bird house by myself. I used some old pieces of wood, glue and paint. It took me three afternoons, and I made a lot of mistakes at first. Finally, I painted it blue and put it in our garden. Now I'm keen on DIY because it helps my creativity."
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "reading": [
+        {
+          "id": "r1",
+          "kind": "dialogue",
+          "title": "A Week in the Village",
+          "lines": [
+            { "speaker": "Mai", "text": "Nick, how was your week in my grandparents' village?" },
+            { "speaker": "Nick", "text": "It was amazing! The paddy fields were so vast and green." },
+            { "speaker": "Mai", "text": "Did you get up early?" },
+            { "speaker": "Nick", "text": "Yes! People there get up earlier than people in the city. Your grandma was in the kitchen at five o'clock." },
+            { "speaker": "Mai", "text": "She always does that. What did you do during the day?" },
+            { "speaker": "Nick", "text": "I went with your cousin to herd the buffaloes. They walked more slowly than I expected." },
+            { "speaker": "Mai", "text": "Ha ha! Did you help in the orchard too?" },
+            { "speaker": "Nick", "text": "Yes, I picked some longans with your grandad. He worked much faster than me." },
+            { "speaker": "Mai", "text": "And the people? Were they friendly?" },
+            { "speaker": "Nick", "text": "Very! They were so hospitable. A neighbour invited me for lunch on my first day." },
+            { "speaker": "Mai", "text": "That's village life. People there treat visitors like family." },
+            { "speaker": "Nick", "text": "In the evening, we played traditional games with the children. They ran much faster than me too!" },
+            { "speaker": "Mai", "text": "So would you like to go back?" },
+            { "speaker": "Nick", "text": "Definitely. I slept better there than at home, too." }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "passage",
+          "title": "My Grandma's Farm",
+          "lines": [
+            { "speaker": null, "text": "My grandma lives in a small village about fifty kilometres from Ha Noi. Her house has a big yard, a vegetable garden and a small orchard." },
+            { "speaker": null, "text": "Every morning, she feeds the poultry before breakfast. She has twenty chickens and a few ducks, and they follow her everywhere." },
+            { "speaker": null, "text": "Grandma grows many crops, such as corn, sweet potatoes and beans. She works more carefully than anyone I know, and her plants always look healthy." },
+            { "speaker": null, "text": "In the middle of her orchard, there is a big old mango tree. I like sitting under it and listening to the birds." },
+            { "speaker": null, "text": "The village is peaceful and picturesque. At sunset, the sky turns pink above the paddy fields." },
+            { "speaker": null, "text": "When I leave, Grandma always fills my bag with vegetables from her garden and says, 'Come back soon!'" }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "dialogue",
+          "title": "A Photo from Nam Dinh",
+          "lines": [
+            { "speaker": "Ann", "text": "What a beautiful photo, Mi! Where did you take it?" },
+            { "speaker": "Mi", "text": "In my uncle's village in Nam Dinh. I visited him last month." },
+            { "speaker": "Ann", "text": "The fields look so vast. What are they?" },
+            { "speaker": "Mi", "text": "They're paddy fields. My uncle grows rice there." },
+            { "speaker": "Ann", "text": "And who is that boy on the buffalo?" },
+            { "speaker": "Mi", "text": "That's my cousin, Tuan. He herds the buffaloes after school." },
+            { "speaker": "Ann", "text": "Is it difficult?" },
+            { "speaker": "Mi", "text": "Not for him! He rides more confidently than anyone in the village." },
+            { "speaker": "Ann", "text": "The place looks really picturesque. What do people do there in the evening?" },
+            { "speaker": "Mi", "text": "The children play traditional games, like tug of war and hide-and-seek, and the adults sit and chat." },
+            { "speaker": "Ann", "text": "It sounds like a friendly place." },
+            { "speaker": "Mi", "text": "It is. The people are very hospitable. They always invite visitors in for tea." },
+            { "speaker": "Ann", "text": "I'd love to see it one day." },
+            { "speaker": "Mi", "text": "Then come with me next summer!" }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "passage",
+          "title": "Then and Now",
+          "lines": [
+            { "speaker": null, "text": "Twenty years ago, life in my father's village was very different from life there today." },
+            { "speaker": null, "text": "Farmers did all the work by hand, and they worked much harder than farmers do now. Today, many families use machines, so they finish their work more quickly." },
+            { "speaker": null, "text": "The roads were narrow and muddy. Now they are wider, and buses come to the village more often." },
+            { "speaker": null, "text": "Some things haven't changed, though. People still grow crops and raise poultry, and the paddy fields are still vast and green." },
+            { "speaker": null, "text": "The villagers are still hospitable. When visitors come, they welcome them warmly and offer them tea." },
+            { "speaker": null, "text": "My father says the village is more modern now, but it is still the most peaceful place he knows." }
+          ]
+        }
+      ],
+      "roleplays": [
+        {
+          "id": "p1",
+          "titleVi": "Kể về chuyến về quê",
+          "situationVi": "Kỳ nghỉ hè vừa rồi em về thăm làng quê của ông bà. Bạn cùng lớp là Phong hỏi em về chuyến đi. Hãy kể cho Phong nghe.",
+          "partner": "Your classmate Phong",
+          "turns": [
+            {
+              "prompt": "Hi! I heard you went to your grandparents' village last summer. What was it like?",
+              "hintVi": "Tả ngắn gọn ngôi làng: rộng hay nhỏ, yên bình, đẹp như tranh, có gì nổi bật.",
+              "keywords": ["peaceful", "picturesque", "paddy fields"],
+              "example": "It was lovely. The village was peaceful, and there were vast paddy fields everywhere."
+            },
+            {
+              "prompt": "What did you do there during the day?",
+              "hintVi": "Kể hai việc em đã làm, dùng thì quá khứ đơn.",
+              "keywords": ["helped", "went", "played"],
+              "example": "I helped my grandma feed the poultry, and I went to the orchard with my cousin."
+            },
+            {
+              "prompt": "Did you make any new friends in the village?",
+              "hintVi": "Trả lời Yes hoặc No, rồi kể thêm một chi tiết về người em gặp.",
+              "keywords": ["hospitable", "neighbour", "traditional games"],
+              "example": "Yes, I did. The children next door taught me some traditional games, like tug of war."
+            },
+            {
+              "prompt": "What did you miss most when you came back home?",
+              "hintVi": "Nói một điều em nhớ nhất ở quê và giải thích vì sao.",
+              "keywords": ["miss", "most", "because"],
+              "example": "I missed the people most. Everyone was so friendly and always smiled at me."
+            }
+          ]
+        },
+        {
+          "id": "p2",
+          "titleVi": "Chọn ảnh cho triển lãm của lớp",
+          "situationVi": "Lớp em làm triển lãm ảnh về làng quê Việt Nam. Cô Hoa hỏi em chọn bức ảnh nào và vì sao. Hãy tả bức ảnh và thuyết phục cô.",
+          "partner": "Your teacher, Ms Hoa",
+          "turns": [
+            {
+              "prompt": "Our exhibition is about the countryside. Which photo would you like to show?",
+              "hintVi": "Nói em chọn ảnh gì: cánh đồng, đàn trâu, vườn cây, chợ quê...",
+              "keywords": ["a photo of", "I'd like", "show"],
+              "example": "I'd like to show a photo of a boy herding the buffaloes near a paddy field."
+            },
+            {
+              "prompt": "What can people see in your photo?",
+              "hintVi": "Tả ba thứ có trong ảnh: người, con vật, cảnh vật hoặc màu sắc.",
+              "keywords": ["in the front", "behind", "sky"],
+              "example": "In the front, there's a boy on a buffalo. Behind him, there's a vast green field."
+            },
+            {
+              "prompt": "Why do you think visitors will like it?",
+              "hintVi": "Nêu lý do bức ảnh đẹp hoặc có ý nghĩa, dùng because.",
+              "keywords": ["picturesque", "simple life", "because"],
+              "example": "Because it looks picturesque. It shows the simple life in a Vietnamese village."
+            },
+            {
+              "prompt": "Good choice! What title should we give it?",
+              "hintVi": "Đặt một tiêu đề ngắn cho bức ảnh và giải thích một chút.",
+              "keywords": ["call it", "title", "means"],
+              "example": "Let's call it Going Home. The boy is taking the buffalo home at sunset."
+            }
+          ]
+        },
+        {
+          "id": "p3",
+          "titleVi": "Nói chuyện điện thoại với bà",
+          "situationVi": "Bà ở quê gọi điện cho em. Bà hỏi thăm em và bàn chuyện em về quê chơi trong kỳ nghỉ sắp tới. Hãy trả lời bà thật tự nhiên.",
+          "partner": "Your grandma",
+          "turns": [
+            {
+              "prompt": "Hello, sweetheart! It's Grandma. What have you been busy with this week?",
+              "hintVi": "Chào bà, kể một hai việc em bận tuần này, rồi hỏi thăm lại bà.",
+              "keywords": ["busy with", "homework", "How about you"],
+              "example": "Hi, Grandma! I've been busy with homework and a class project. How about you?"
+            },
+            {
+              "prompt": "The holiday is coming soon. When can you come and stay with us?",
+              "hintVi": "Nói thời gian em có thể về quê và ở lại bao lâu.",
+              "keywords": ["next month", "for a week", "after"],
+              "example": "I can come at the end of next month. I'd like to stay for two weeks."
+            },
+            {
+              "prompt": "Wonderful! What would you like to do in the village this time?",
+              "hintVi": "Kể một hai việc em muốn làm ở quê, dùng I'd like to.",
+              "keywords": ["I'd like to", "help", "learn"],
+              "example": "I'd like to help Grandpa in the orchard, and I want to learn to catch fish."
+            },
+            {
+              "prompt": "Your little cousins are very excited. What will you bring for them?",
+              "hintVi": "Nói em sẽ mang quà gì cho các em và vì sao.",
+              "keywords": ["bring", "some", "they love"],
+              "example": "I'll bring some colouring pencils and a puzzle. They love doing puzzles with me."
+            }
+          ]
+        }
+      ],
+      "talks": [
+        {
+          "id": "t1",
+          "prompt": "Describe a picturesque place in the countryside that you know.",
+          "promptVi": "Hãy tả một nơi ở nông thôn có cảnh đẹp mà em biết (em đã đến hoặc xem qua ảnh).",
+          "points": ["where it is", "what you can see there", "how you feel about it"],
+          "example": "Tam Coc in Ninh Binh is a picturesque place in the countryside. There are vast rice fields between high mountains, and a river runs through them. In early summer, the fields turn golden, and people row small boats along the river. I visited it with my family last year. I felt calm and happy there."
+        },
+        {
+          "id": "t2",
+          "prompt": "Talk about a traditional game that children play in the countryside.",
+          "promptVi": "Hãy nói về một trò chơi dân gian mà trẻ em ở nông thôn hay chơi.",
+          "points": ["the name of the game", "how to play it", "why children enjoy it"],
+          "example": "Tug of war is a traditional game that children often play in the countryside. Two teams hold a long rope and pull it as hard as they can. The team that pulls the other team over a line wins. Children enjoy it because it is exciting and everyone can join. It also teaches them to work together."
+        },
+        {
+          "id": "t3",
+          "prompt": "Talk about a person you know who lives in the countryside.",
+          "promptVi": "Hãy nói về một người em biết đang sống ở nông thôn.",
+          "points": ["who the person is", "what they do every day", "what you like about them"],
+          "example": "My uncle lives in a small village in Thai Binh. He is a farmer, and he grows rice and vegetables. Every day, he gets up earlier than anyone in the family and works in the fields until noon. In the afternoon, he feeds his poultry. I like him because he is hard-working, hospitable and always tells funny stories."
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "reading": [
+        {
+          "id": "r1",
+          "kind": "dialogue",
+          "title": "The Photography Club",
+          "lines": [
+            { "speaker": "Phong", "text": "Hi Mai. What are you doing with that camera?" },
+            { "speaker": "Mai", "text": "I'm taking photos for my school club. I'm in the photography club now." },
+            { "speaker": "Phong", "text": "Cool! What do you do there?" },
+            { "speaker": "Mai", "text": "We meet every Thursday, and we learn how to take good pictures." },
+            { "speaker": "Phong", "text": "Do you only take photos at school?" },
+            { "speaker": "Mai", "text": "No, we go out sometimes. Last week we visited the old market, and I took photos of the stalls." },
+            { "speaker": "Phong", "text": "Where do you share them?" },
+            { "speaker": "Mai", "text": "Our teacher uploads the best photos to the school website and our club's social media page. Mine was there yesterday!" },
+            { "speaker": "Phong", "text": "Well done! Can I see it?" },
+            { "speaker": "Mai", "text": "Sure. Browse the school website and click on Clubs." },
+            { "speaker": "Phong", "text": "I'll look at it tonight. Is photography difficult?" },
+            { "speaker": "Mai", "text": "Not really, but you need to concentrate and be patient. There's no pressure." },
+            { "speaker": "Phong", "text": "I'm interested in photography too, but I don't have a camera." },
+            { "speaker": "Mai", "text": "Don't worry. You can use the club's cameras. Come with me on Thursday!" }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "passage",
+          "title": "Learning to Say No",
+          "lines": [
+            { "speaker": null, "text": "Last year, I had a problem with peer pressure. Some boys in my class wanted me to skip my English lessons and go to a game shop with them." },
+            { "speaker": null, "text": "I didn't want to go, but I didn't want to look boring either. I couldn't concentrate in class, and it was a stressful time for me." },
+            { "speaker": null, "text": "One day, I was browsing a website for teenagers, and I found an article about peer pressure. It gave me some good advice." },
+            { "speaker": null, "text": "The article said, 'Real friends respect your choices. You don't have to meet everyone's expectations.' I thought about it for a long time." },
+            { "speaker": null, "text": "The next time the boys asked me, I said no politely. I also invited them to play football with me at the weekend." },
+            { "speaker": null, "text": "Some of them laughed at first, but now we are good friends. Saying no is not easy, but it is often the right thing to do." }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "dialogue",
+          "title": "The New Classmate",
+          "lines": [
+            { "speaker": "Mai", "text": "Nick, have you met the new boy, Long?" },
+            { "speaker": "Nick", "text": "Yes, he sits next to me in maths. He's quiet, but he's friendly." },
+            { "speaker": "Mai", "text": "I saw some older students laughing at him in the canteen today." },
+            { "speaker": "Nick", "text": "Really? That's not nice. What did they say?" },
+            { "speaker": "Mai", "text": "They made fun of his accent, and one of them uploaded a photo of him to social media." },
+            { "speaker": "Nick", "text": "That's bullying, and we shouldn't ignore it. It must be really stressful for him." },
+            { "speaker": "Mai", "text": "I agree. But what can we do?" },
+            { "speaker": "Nick", "text": "First, we can sit with him at lunch, so he doesn't feel alone." },
+            { "speaker": "Mai", "text": "Good idea. We can also tell our form teacher about it." },
+            { "speaker": "Nick", "text": "Yes. Teachers know how to deal with problems like this." },
+            { "speaker": "Mai", "text": "Let's invite him to our school club too. He likes drawing, and the art club needs new members." },
+            { "speaker": "Nick", "text": "Great. I'll talk to him after class today." },
+            { "speaker": "Mai", "text": "Thanks, Nick. Everyone should feel safe at school." }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "passage",
+          "title": "Lan's Busy Year",
+          "lines": [
+            { "speaker": null, "text": "My name is Lan, and I'm in grade 8. This year is much busier than last year." },
+            { "speaker": null, "text": "From Monday to Friday, I have lessons all day, and I go to an extra maths class twice a week. On Saturday mornings, I go to my school's English club." },
+            { "speaker": null, "text": "Sometimes I feel pressure. My parents have high expectations, and I want to make them proud." },
+            { "speaker": null, "text": "To make things less stressful, I plan my week every Sunday evening. I write all my tasks in a notebook." },
+            { "speaker": null, "text": "When I study, I keep my desk tidy and work for thirty minutes at a time. That way, I can concentrate better." },
+            { "speaker": null, "text": "In the evening, I log on to our class group for a short time and chat with my friends." },
+            { "speaker": null, "text": "I still have a lot to do, but now I feel more in control of my time." }
+          ]
+        }
+      ],
+      "roleplays": [
+        {
+          "id": "p1",
+          "titleVi": "Giới thiệu câu lạc bộ cho bạn mới",
+          "situationVi": "Em là thành viên một câu lạc bộ ở trường. Tom, một bạn mới chuyển đến, hỏi em về câu lạc bộ. Hãy giới thiệu để Tom hiểu câu lạc bộ làm gì.",
+          "partner": "A new student, Tom",
+          "turns": [
+            {
+              "prompt": "Hi! I'm new here. Which club are you in?",
+              "hintVi": "Nói tên câu lạc bộ của em (có thể là câu lạc bộ em tưởng tượng) và em vào từ khi nào.",
+              "keywords": ["I'm in", "club", "member"],
+              "example": "I'm in the science club. I joined it at the beginning of the year."
+            },
+            {
+              "prompt": "What do members do at the club?",
+              "hintVi": "Kể hai hoạt động, nối bằng and hoặc but để thành câu ghép.",
+              "keywords": ["we do", "we make", "and"],
+              "example": "We do simple experiments, and sometimes we make small robots from old things."
+            },
+            {
+              "prompt": "When and where do you meet?",
+              "hintVi": "Nói ngày, giờ và địa điểm câu lạc bộ sinh hoạt.",
+              "keywords": ["every", "after school", "room"],
+              "example": "We meet every Wednesday after school in Room 12 on the second floor."
+            },
+            {
+              "prompt": "Can I come and see one of your meetings first?",
+              "hintVi": "Đồng ý và hẹn bạn gặp ở đâu, lúc nào để đi cùng.",
+              "keywords": ["Of course", "meet", "take you"],
+              "example": "Of course! Meet me at the school gate on Wednesday, and I'll take you there."
+            }
+          ]
+        },
+        {
+          "id": "p2",
+          "titleVi": "Hướng dẫn bà dùng mạng xã hội",
+          "situationVi": "Bà muốn dùng mạng xã hội để xem ảnh của con cháu. Em ngồi cạnh và hướng dẫn bà từng bước. Hãy giải thích thật đơn giản.",
+          "partner": "Your grandma",
+          "turns": [
+            {
+              "prompt": "I've got this new app on my phone, but how do I log on?",
+              "hintVi": "Hướng dẫn bà các bước đầu tiên, dùng First, ... and then ...",
+              "keywords": ["First", "type", "password"],
+              "example": "First, type your phone number here, and then enter your password."
+            },
+            {
+              "prompt": "Now I want to upload a photo of my garden. What should I do?",
+              "hintVi": "Chỉ bà cách đăng một bức ảnh bằng vài bước ngắn.",
+              "keywords": ["tap", "choose", "upload"],
+              "example": "Tap this button and choose the photo. Then tap Post. That's all!"
+            },
+            {
+              "prompt": "Oh, what are these little red numbers at the top?",
+              "hintVi": "Giải thích đó là thông báo và bà có thể làm gì với chúng.",
+              "keywords": ["notifications", "new messages", "check"],
+              "example": "Those are notifications. They tell you about new messages and comments on your photos."
+            },
+            {
+              "prompt": "Should I share my photos with everyone on the app?",
+              "hintVi": "Khuyên bà nên chia sẻ với ai và vì sao, dùng should.",
+              "keywords": ["should", "only", "safe"],
+              "example": "No, you should only share them with family and friends. It's safer that way."
+            }
+          ]
+        },
+        {
+          "id": "p3",
+          "titleVi": "Từ chối khéo khi bạn muốn chép bài",
+          "situationVi": "Đức, một bạn cùng lớp, muốn chép bài tập toán của em. Em không muốn cho chép nhưng vẫn muốn giúp bạn. Hãy từ chối lịch sự và đề nghị cách giúp khác.",
+          "partner": "Your classmate Duc",
+          "turns": [
+            {
+              "prompt": "Hey, can I copy your maths homework? I didn't have time to do it.",
+              "hintVi": "Từ chối lịch sự và nêu lý do ngắn gọn.",
+              "keywords": ["Sorry", "I don't think", "fair"],
+              "example": "Sorry, Duc, I don't think that's a good idea. It isn't fair."
+            },
+            {
+              "prompt": "Come on! Lots of people do it. Why not?",
+              "hintVi": "Giữ ý kiến của em, giải thích vì sao chép bài không giúp bạn.",
+              "keywords": ["learn", "understand", "won't help"],
+              "example": "Because copying won't help you. You need to understand the lessons yourself."
+            },
+            {
+              "prompt": "But I really don't understand these exercises. What can I do?",
+              "hintVi": "Gợi ý một hai cách để bạn hiểu bài.",
+              "keywords": ["ask", "teacher", "explain"],
+              "example": "You can ask the teacher after class, or I can explain the exercises to you."
+            },
+            {
+              "prompt": "Thanks! Could you help me today? When are you free?",
+              "hintVi": "Hẹn một thời gian và địa điểm cụ thể để giúp bạn.",
+              "keywords": ["free", "at", "library"],
+              "example": "I'm free at four. Let's meet in the school library and do them together."
+            }
+          ]
+        }
+      ],
+      "talks": [
+        {
+          "id": "t1",
+          "prompt": "Talk about how you use the Internet for your schoolwork.",
+          "promptVi": "Hãy nói về cách em dùng Internet cho việc học.",
+          "points": ["which websites or apps you use", "what you do with them", "how they help you"],
+          "example": "I often use the Internet for my schoolwork. I browse a dictionary website to check new English words, and I watch short videos when I don't understand a maths lesson. I also log on to our class group to see the homework. The Internet helps me learn faster, but I try not to open games when I study."
+        },
+        {
+          "id": "t2",
+          "prompt": "Talk about a busy week and how you managed your time.",
+          "promptVi": "Hãy kể về một tuần bận rộn và cách em sắp xếp thời gian.",
+          "points": ["what you had to do", "how you planned your time", "how you felt at the end"],
+          "example": "Last week was very busy for me. I had two group projects, an English club meeting and my cousin's birthday party. On Sunday evening, I wrote all my tasks in a notebook, and I did the most important things first. I also went to bed early every night. At the end of the week, I felt tired, but I was proud of myself."
+        },
+        {
+          "id": "t3",
+          "prompt": "Talk about a good way to make friends at a new school.",
+          "promptVi": "Hãy nói về một cách hay để kết bạn khi chuyển đến trường mới.",
+          "points": ["what you can do", "what you can say", "why it works"],
+          "example": "A good way to make friends at a new school is to help other people. For example, you can lend someone a pen, share your notes or help a classmate carry books. You can also smile, say hello and ask simple questions, like 'Where do you live?' People like kind classmates, so they will want to talk to you more."
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "reading": [
+        {
+          "id": "r1",
+          "kind": "dialogue",
+          "title": "At the Museum of Ethnology",
+          "lines": [
+            { "speaker": "Tom", "text": "Mai, what's this big building with a tall roof?" },
+            { "speaker": "Mai", "text": "It's a communal house of the Bahnar people. They hold meetings and festivals there." },
+            { "speaker": "Tom", "text": "Why is the roof so tall?" },
+            { "speaker": "Mai", "text": "People say a tall roof shows the strength of the village." },
+            { "speaker": "Tom", "text": "Interesting. And what's that house over there?" },
+            { "speaker": "Mai", "text": "That's a stilt house. Many ethnic groups in the highlands live in houses like this." },
+            { "speaker": "Tom", "text": "Do people keep anything under the house?" },
+            { "speaker": "Mai", "text": "Yes, they do. They often keep tools and wood there, and some families raise livestock under it." },
+            { "speaker": "Tom", "text": "How many ethnic groups are there in Viet Nam?" },
+            { "speaker": "Mai", "text": "There are fifty-four. The Kinh is the largest group, and the others are ethnic minority groups." },
+            { "speaker": "Tom", "text": "Can we see their costumes here?" },
+            { "speaker": "Mai", "text": "Yes, we can. There's a room with costumes and folk musical instruments, like gongs." },
+            { "speaker": "Tom", "text": "Great! Let's go there next." }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "passage",
+          "title": "Terraced Fields in the Highlands",
+          "lines": [
+            { "speaker": null, "text": "In the highland areas of northern Viet Nam, you can see beautiful terraced fields on the sides of the mountains." },
+            { "speaker": null, "text": "Ethnic groups such as the H'Mong and the Dao have built these fields for hundreds of years. They grow rice on them." },
+            { "speaker": null, "text": "Life in the highlands isn't easy. People get up early and work hard in the fields. Many families also raise livestock, such as pigs, chickens and buffaloes." },
+            { "speaker": null, "text": "In the evening, some women weave cloth on wooden looms. They make colourful costumes for their families." },
+            { "speaker": null, "text": "Every year, a lot of tourists visit the area. They come to see the fields, taste local food and learn about the culture." },
+            { "speaker": null, "text": "In September, the rice turns golden, and the whole valley looks like a painting." }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "dialogue",
+          "title": "A Trip to Ha Giang",
+          "lines": [
+            { "speaker": "Ann", "text": "Phong, where did you go last holiday?" },
+            { "speaker": "Phong", "text": "I went to a village in the highlands of Ha Giang with my class." },
+            { "speaker": "Ann", "text": "Did you stay in a hotel?" },
+            { "speaker": "Phong", "text": "No, we didn't. We stayed in a stilt house with a family from the Dao ethnic group." },
+            { "speaker": "Ann", "text": "What was it like?" },
+            { "speaker": "Phong", "text": "It was cool and comfortable. We slept on the wooden floor, and we could see terraced fields from the window." },
+            { "speaker": "Ann", "text": "What did you eat there?" },
+            { "speaker": "Phong", "text": "We ate sticky rice, vegetables from their garden and some meat. They don't use much oil in their cooking." },
+            { "speaker": "Ann", "text": "Did you learn anything new?" },
+            { "speaker": "Phong", "text": "Yes, I did. The grandmother showed us how to weave. It was much harder than I thought!" },
+            { "speaker": "Ann", "text": "Was there any music?" },
+            { "speaker": "Phong", "text": "Yes! On the last night, the villagers played gongs and sang folk songs." },
+            { "speaker": "Ann", "text": "That sounds wonderful. I'd love to go there one day." }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "passage",
+          "title": "Our Class Culture Day",
+          "lines": [
+            { "speaker": null, "text": "Last month, our class held a Culture Day about the ethnic groups of Viet Nam." },
+            { "speaker": null, "text": "Each group of students chose one ethnic group. My group chose the Ede people from the Central Highlands." },
+            { "speaker": null, "text": "We found information in books and on websites. We learnt that the Ede live in long houses, and some of their houses are big enough for several families." },
+            { "speaker": null, "text": "On the day, we wore costumes, showed photos and cooked a simple dish with rice and bamboo shoots." },
+            { "speaker": null, "text": "Other groups brought folk games, a small gong and some beautiful woven bags." },
+            { "speaker": null, "text": "Our teacher asked us a lot of questions about where the Ede live, what they eat and how they celebrate their festivals. We answered all of them!" },
+            { "speaker": null, "text": "It was a fun day, and I learnt a lot about the ethnic minority groups in our country." }
+          ]
+        }
+      ],
+      "roleplays": [
+        {
+          "id": "p1",
+          "titleVi": "Tham quan Bảo tàng Dân tộc học",
+          "situationVi": "Em đi tham quan Bảo tàng Dân tộc học. Một hướng dẫn viên trò chuyện với em về các ngôi nhà truyền thống. Hãy trả lời và đặt câu hỏi để tìm hiểu thêm.",
+          "partner": "A museum guide",
+          "turns": [
+            {
+              "prompt": "Welcome to the museum! Is this your first visit here?",
+              "hintVi": "Trả lời Yes, it is hoặc No, it isn't, rồi nói thêm em đến cùng ai.",
+              "keywords": ["Yes, it is", "No, it isn't", "with my class"],
+              "example": "Yes, it is. I came with my class, and we're doing a project on ethnic groups."
+            },
+            {
+              "prompt": "This is a stilt house. Why do you think people build houses on stilts?",
+              "hintVi": "Đoán một hai lý do, dùng I think + because hoặc to.",
+              "keywords": ["I think", "dry", "wild animals"],
+              "example": "I think they build them to stay dry and safe from wild animals."
+            },
+            {
+              "prompt": "People also keep things under the house. What do you think they keep there?",
+              "hintVi": "Đoán vài thứ. Chú ý danh từ đếm được (tools) và không đếm được (wood, rice).",
+              "keywords": ["tools", "wood", "livestock"],
+              "example": "Maybe they keep tools and some wood there. Some families might keep their livestock there too."
+            },
+            {
+              "prompt": "Do you have any questions about the people who live in these houses?",
+              "hintVi": "Đặt một câu hỏi Wh- về cuộc sống của họ: ăn gì, làm gì, học ở đâu...",
+              "keywords": ["What", "How", "Where"],
+              "example": "Yes, I do. What do the children in these villages do after school?"
+            }
+          ]
+        },
+        {
+          "id": "p2",
+          "titleVi": "Ở nhà dân vùng cao",
+          "situationVi": "Em đi trải nghiệm ở một bản làng vùng cao và ở nhà dân (homestay). Cô Lan, chủ nhà, trò chuyện với em vào buổi tối đầu tiên.",
+          "partner": "Your homestay host, Mrs Lan",
+          "turns": [
+            {
+              "prompt": "Welcome to our village! How was your journey up the mountain?",
+              "hintVi": "Kể ngắn về chuyến đi: dài hay ngắn, mệt hay vui, thấy gì trên đường.",
+              "keywords": ["long", "view", "terraced fields"],
+              "example": "It was long, but the view was amazing. I saw terraced fields everywhere."
+            },
+            {
+              "prompt": "Tomorrow you can work in the fields or learn to weave. Which would you like to do?",
+              "hintVi": "Chọn một hoạt động và nói lý do.",
+              "keywords": ["I'd like to", "weave", "because"],
+              "example": "I'd like to learn to weave because I want to make a small bag for my mum."
+            },
+            {
+              "prompt": "Tonight there's a gong performance at the communal house. Would you like to come?",
+              "hintVi": "Nhận lời và hỏi thêm một điều về buổi biểu diễn.",
+              "keywords": ["I'd love to", "What time", "wear"],
+              "example": "Yes, I'd love to! What time does it start, and should I wear anything special?"
+            },
+            {
+              "prompt": "Is there anything you'd like to ask me about our village?",
+              "hintVi": "Đặt một hai câu hỏi về cuộc sống ở bản, dùng How many, What hoặc Do people...",
+              "keywords": ["How many", "What", "Do people"],
+              "example": "Yes. How many families live here, and what do people usually grow?"
+            }
+          ]
+        },
+        {
+          "id": "p3",
+          "titleVi": "Giúp bạn nước ngoài làm dự án",
+          "situationVi": "Ann, bạn qua thư ở Úc, đang làm dự án về Việt Nam. Ann hỏi em về các dân tộc ở Việt Nam. Hãy trả lời ngắn gọn, rõ ràng.",
+          "partner": "Your pen pal Ann",
+          "turns": [
+            {
+              "prompt": "My class is doing a project on Viet Nam. How many ethnic groups are there?",
+              "hintVi": "Nêu con số và nói dân tộc nào đông người nhất.",
+              "keywords": ["fifty-four", "the Kinh", "largest"],
+              "example": "There are fifty-four ethnic groups, and the Kinh is the largest one."
+            },
+            {
+              "prompt": "Which group would you like to tell me about?",
+              "hintVi": "Chọn một dân tộc em biết và nói họ sống chủ yếu ở đâu.",
+              "keywords": ["the H'Mong", "live in", "the highlands"],
+              "example": "I'll tell you about the H'Mong. Most of them live in the mountains in the north."
+            },
+            {
+              "prompt": "What do people in that group wear on special days?",
+              "hintVi": "Tả trang phục: màu sắc, chất liệu, chi tiết nổi bật.",
+              "keywords": ["costume", "colourful", "skirt"],
+              "example": "They wear colourful costumes. The women often wear long skirts with beautiful patterns."
+            },
+            {
+              "prompt": "If I visit Viet Nam, where can I learn more about their culture?",
+              "hintVi": "Gợi ý một nơi và nói ở đó bạn có thể làm gì.",
+              "keywords": ["museum", "market", "you can"],
+              "example": "You can visit the Museum of Ethnology in Ha Noi or a local market in Sa Pa."
+            }
+          ]
+        }
+      ],
+      "talks": [
+        {
+          "id": "t1",
+          "prompt": "Compare a stilt house with your home.",
+          "promptVi": "Hãy so sánh nhà sàn với ngôi nhà của em.",
+          "points": ["what a stilt house is like", "what your home is like", "which one you prefer and why"],
+          "example": "A stilt house is made of wood and bamboo, and it stands on tall posts. People live upstairs and keep tools under the house. My home is a small flat on the fifth floor of a building. It has two bedrooms and a balcony. I prefer my flat because it's near my school, but I'd love to sleep in a stilt house one day."
+        },
+        {
+          "id": "t2",
+          "prompt": "Talk about a traditional costume of an ethnic group in Viet Nam.",
+          "promptVi": "Hãy nói về trang phục truyền thống của một dân tộc ở Việt Nam.",
+          "points": ["which group wears it", "what it looks like", "when people wear it"],
+          "example": "Thai women in the north-west of Viet Nam wear a beautiful traditional costume. It has a short, tight blouse with silver buttons and a long black skirt. They often wear a colourful scarf on their head too. Today, many women wear it at festivals, weddings and other special events. I think the costume looks simple but elegant."
+        },
+        {
+          "id": "t3",
+          "prompt": "Talk about a special dish from an ethnic group in Viet Nam.",
+          "promptVi": "Hãy nói về một món ăn đặc biệt của một dân tộc ở Việt Nam.",
+          "points": ["what the dish is and who makes it", "what people use to make it", "why you like it or want to try it"],
+          "example": "Five-colour sticky rice is a special dish of the Tay and Thai people in the north. People cook sticky rice with juice from different leaves and plants, so the rice turns red, yellow, purple, green and white. They often make it for festivals. I tried it once at a market, and I loved its colours and its sweet smell."
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "reading": [
+        {
+          "id": "r1",
+          "kind": "dialogue",
+          "title": "Getting Ready for Tet",
+          "lines": [
+            { "speaker": "Nick", "text": "Mi, why is everyone so busy this week?" },
+            { "speaker": "Mi", "text": "Because Tet is coming! It's the most important holiday in Viet Nam." },
+            { "speaker": "Nick", "text": "What does your family do to get ready?" },
+            { "speaker": "Mi", "text": "We clean the house, and then we decorate it with flowers, decorative lanterns and an ornamental tree." },
+            { "speaker": "Nick", "text": "What kind of tree?" },
+            { "speaker": "Mi", "text": "In the north, people usually buy a peach tree. In the south, they prefer apricot blossoms. Visitors always stop to admire them." },
+            { "speaker": "Nick", "text": "They sound beautiful. Do you cook special food too?" },
+            { "speaker": "Mi", "text": "Yes. My grandma makes banh chung with my mum, and I help them wrap the cakes." },
+            { "speaker": "Nick", "text": "Is Tet a time for family reunions?" },
+            { "speaker": "Mi", "text": "Exactly. My uncles come home from far away, and we all have dinner together on New Year's Eve." },
+            { "speaker": "Nick", "text": "That's lovely. My family does the same at Christmas." },
+            { "speaker": "Mi", "text": "Family bonding is important at Tet. We talk, laugh and share wishes for the new year." },
+            { "speaker": "Nick", "text": "I'd love to see a real Vietnamese Tet one day." },
+            { "speaker": "Mi", "text": "Then come to my house at Tet! You're always welcome." }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "passage",
+          "title": "The Mid-Autumn Festival",
+          "lines": [
+            { "speaker": null, "text": "The Mid-Autumn Festival takes place on the fifteenth day of the eighth lunar month. It is a special time for children in Viet Nam." },
+            { "speaker": null, "text": "Weeks before the festival, the streets are full of decorative lanterns. Some are shaped like stars, and others look like fish or rabbits." },
+            { "speaker": null, "text": "On the night of the festival, children carry lanterns and walk around the neighbourhood. They sing songs, watch lion dances and cheer for the contestants in lantern contests." },
+            { "speaker": null, "text": "Families sit together under the full moon, like a small family reunion. They eat mooncakes, drink tea and admire the moon." },
+            { "speaker": null, "text": "In the past, children made their own lanterns from paper and bamboo. Today, many families still keep this custom, and parents enjoy making lanterns with their children." },
+            { "speaker": null, "text": "For me, the festival is not only fun. It is also a wonderful time for family bonding." }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "dialogue",
+          "title": "Dinner at Grandpa's House",
+          "lines": [
+            { "speaker": "Tom", "text": "Phong, I'm a bit nervous about the family reunion at your grandparents' house tonight." },
+            { "speaker": "Phong", "text": "Don't worry. They're very kind. I'll tell you a few things about our table manners." },
+            { "speaker": "Tom", "text": "Great. What should I do first?" },
+            { "speaker": "Phong", "text": "Before we eat, the children invite the older people to start. You can say, 'Please enjoy your meal, Grandpa and Grandma.'" },
+            { "speaker": "Tom", "text": "That's nice. Do you use chopsticks for everything?" },
+            { "speaker": "Phong", "text": "Mostly, yes. But don't stick your chopsticks straight up in your rice bowl." },
+            { "speaker": "Tom", "text": "Why not?" },
+            { "speaker": "Phong", "text": "Many people think it brings bad luck. It's an old custom." },
+            { "speaker": "Tom", "text": "OK. Anything else?" },
+            { "speaker": "Phong", "text": "If someone gives you food, say thank you. And try a little of every dish." },
+            { "speaker": "Tom", "text": "That's easy. I love Vietnamese food!" },
+            { "speaker": "Phong", "text": "After dinner, we usually sit together, drink tea and talk. It's a great time for family bonding." },
+            { "speaker": "Tom", "text": "It sounds like a lovely way to end the day." },
+            { "speaker": "Phong", "text": "Oh, and Grandpa has a beautiful ornamental tree in the yard. He'll be happy if you admire it!" }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "passage",
+          "title": "The Rice Cooking Contest",
+          "lines": [
+            { "speaker": null, "text": "Every spring, my village holds a festival with a rice cooking contest." },
+            { "speaker": null, "text": "Before the contest, the village elders hold a short ceremony to open the festival. Then the fun begins." },
+            { "speaker": null, "text": "The contestants work in teams of four. They have to make a fire, fetch water and cook rice in clay pots in just one hour." },
+            { "speaker": null, "text": "It isn't easy, because they have to cook while they walk around the yard. Festival goers cheer loudly for their favourite teams." },
+            { "speaker": null, "text": "At the end, the judges taste the rice and choose the winner. Good rice must be soft and white, and it must not be burnt." },
+            { "speaker": null, "text": "My favourite part is the market after the contest. People sell decorative crafts, and children can try sweet cakes made from young rice." }
+          ]
+        }
+      ],
+      "roleplays": [
+        {
+          "id": "p1",
+          "titleVi": "Trả lời phỏng vấn ở lễ hội",
+          "situationVi": "Em đang đi chơi ở một lễ hội địa phương. Một phóng viên truyền hình muốn phỏng vấn em về lễ hội. Hãy trả lời tự nhiên và kể cảm nhận của em.",
+          "partner": "A TV reporter",
+          "turns": [
+            {
+              "prompt": "Hello! I'm from the local TV station. Can I ask you a few questions about the festival?",
+              "hintVi": "Đồng ý lịch sự và giới thiệu ngắn em là ai.",
+              "keywords": ["Sure", "my name is", "a student"],
+              "example": "Sure! My name is Linh, and I'm a student at a school near here."
+            },
+            {
+              "prompt": "What have you seen at the festival so far?",
+              "hintVi": "Kể hai thứ em đã xem, dùng I've seen... hoặc I watched...",
+              "keywords": ["I've seen", "contest", "lion dance"],
+              "example": "I've seen a lion dance and a cooking contest. The contestants were really fast."
+            },
+            {
+              "prompt": "What is your favourite part of the festival, and why?",
+              "hintVi": "Chọn một phần em thích nhất và nêu lý do.",
+              "keywords": ["favourite part", "because", "lively"],
+              "example": "My favourite part is the parade because the costumes are colourful and the music is lively."
+            },
+            {
+              "prompt": "Why do you think festivals like this are important for young people?",
+              "hintVi": "Nêu một hai lý do, nghĩ về truyền thống, quê hương và gia đình.",
+              "keywords": ["learn about", "traditions", "together"],
+              "example": "They help us learn about our traditions, and families can enjoy them together."
+            }
+          ]
+        },
+        {
+          "id": "p2",
+          "titleVi": "Chuẩn bị đón Tết cùng mẹ",
+          "situationVi": "Còn một tuần nữa là Tết. Mẹ cần em giúp trang trí nhà và chuẩn bị đồ. Hãy cùng mẹ lên kế hoạch.",
+          "partner": "Your mum",
+          "turns": [
+            {
+              "prompt": "Tet is next week! Can you help me decorate the house this afternoon?",
+              "hintVi": "Nhận lời và hỏi mẹ nên bắt đầu từ đâu.",
+              "keywords": ["Of course", "Where", "start"],
+              "example": "Of course, Mum. Where should we start, the living room or the kitchen?"
+            },
+            {
+              "prompt": "Let's do the living room first. Where should we put the ornamental tree?",
+              "hintVi": "Chọn một chỗ đặt cây và nói vì sao chỗ đó hợp.",
+              "keywords": ["next to", "near the window", "everyone can see"],
+              "example": "Let's put it next to the window, so everyone can see it when they come in."
+            },
+            {
+              "prompt": "What else do we need to buy at the flower market?",
+              "hintVi": "Kể hai ba thứ cần mua để trang trí nhà.",
+              "keywords": ["flowers", "lanterns", "decorations"],
+              "example": "We need some yellow flowers, a box of candied fruit and a few decorative lanterns."
+            },
+            {
+              "prompt": "Great. Who would you like to visit during Tet this year?",
+              "hintVi": "Nói em muốn đi thăm ai và vì sao.",
+              "keywords": ["visit", "grandparents", "because"],
+              "example": "I'd like to visit my grandparents first because we don't see them very often."
+            }
+          ]
+        },
+        {
+          "id": "p3",
+          "titleVi": "Đêm rằm ở phố cổ Hội An",
+          "situationVi": "Em đưa Tom, bạn trao đổi người Anh, đi dạo phố cổ Hội An vào đêm rằm. Tom tò mò về những gì cậu ấy thấy. Hãy giải thích cho Tom.",
+          "partner": "Your exchange friend Tom",
+          "turns": [
+            {
+              "prompt": "Wow, there are lanterns everywhere! Why does the town look like this tonight?",
+              "hintVi": "Giải thích hôm nay là đêm rằm và người ta thắp đèn lồng khắp phố.",
+              "keywords": ["full moon", "every month", "lanterns"],
+              "example": "It's a full moon night. Every month on this night, people light lanterns all over the old town."
+            },
+            {
+              "prompt": "What are those people doing by the river?",
+              "hintVi": "Giải thích họ đang thả đèn hoa đăng xuống sông và vì sao.",
+              "keywords": ["release", "paper lanterns", "make a wish"],
+              "example": "They're releasing paper lanterns on the river. People often make a wish when they do it."
+            },
+            {
+              "prompt": "Can we do it too? What do we need?",
+              "hintVi": "Nói có thể làm được và cần những gì, mua ở đâu.",
+              "keywords": ["buy", "candle", "from"],
+              "example": "Yes, we can. We just need to buy a lantern and a candle from that lady."
+            },
+            {
+              "prompt": "This is amazing. What other customs do you enjoy in Viet Nam?",
+              "hintVi": "Kể một phong tục khác em thích và vì sao.",
+              "keywords": ["at Tet", "Mid-Autumn", "enjoy"],
+              "example": "I enjoy the Mid-Autumn Festival. Children carry lanterns and eat mooncakes with their families."
+            }
+          ]
+        }
+      ],
+      "talks": [
+        {
+          "id": "t1",
+          "prompt": "Talk about a festival in your area.",
+          "promptVi": "Hãy nói về một lễ hội ở địa phương em.",
+          "points": ["what it is and when it happens", "what people do there", "why you like it"],
+          "example": "Every spring, my town holds a flower festival in the park. It usually lasts for three days. People come to admire thousands of flowers and ornamental trees. There are also music shows, food stalls and a flower-arranging contest. I love this festival because the park looks beautiful, and I can enjoy it with my family and friends."
+        },
+        {
+          "id": "t2",
+          "prompt": "Talk about the table manners children should learn at family meals.",
+          "promptVi": "Hãy nói về những phép lịch sự trong bữa ăn gia đình mà trẻ em nên học.",
+          "points": ["before the meal", "during the meal", "after the meal"],
+          "example": "In my family, children learn table manners from a young age. Before dinner, we help to set the table and invite the older people to eat first. During the meal, we sit properly and don't talk with food in our mouths. After dinner, we help to clear the table and wash the dishes. Good table manners show respect for others."
+        },
+        {
+          "id": "t3",
+          "prompt": "Describe a family reunion you remember.",
+          "promptVi": "Hãy kể về một lần gia đình em sum họp mà em còn nhớ.",
+          "points": ["when and where it was", "who was there", "what you did together"],
+          "example": "Last Tet, we had a big family reunion at my grandparents' house in Hai Duong. All my uncles, aunts and cousins came home. We cooked a huge meal together and ate in the yard. After lunch, the adults chatted, and the children played games. It was noisy but warm. I think family reunions are great for family bonding."
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "reading": [
+        {
+          "id": "r1",
+          "kind": "dialogue",
+          "title": "New Habits",
+          "lines": [
+            { "speaker": "Mai", "text": "Phong, you always look so cheerful and awake these days." },
+            { "speaker": "Phong", "text": "Thanks! I've changed some of my habits." },
+            { "speaker": "Mai", "text": "Really? What did you change?" },
+            { "speaker": "Phong", "text": "I'm now in the habit of going to bed before half past ten. I used to stay up very late." },
+            { "speaker": "Mai", "text": "Wow. Do you get up earlier too?" },
+            { "speaker": "Phong", "text": "Yes. I'm never in a hurry in the morning now. I have time for a proper breakfast." },
+            { "speaker": "Mai", "text": "I'm always in a hurry. I often forget my books!" },
+            { "speaker": "Phong", "text": "If you get your bag ready the night before, you won't forget anything." },
+            { "speaker": "Mai", "text": "That's a good idea. I'll try it tonight." },
+            { "speaker": "Phong", "text": "I also walk to school now. My dad doesn't need to take me." },
+            { "speaker": "Mai", "text": "That's great. It will make you more independent too." },
+            { "speaker": "Phong", "text": "Exactly. And I greet lots of neighbours on the way." },
+            { "speaker": "Mai", "text": "I think I'll start walking to school with you next week!" },
+            { "speaker": "Phong", "text": "Great. If you come at a quarter to seven, we'll have plenty of time." }
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "passage",
+          "title": "Street Food in Ha Noi",
+          "lines": [
+            { "speaker": null, "text": "Street food is an important part of the lifestyle in Ha Noi. People eat it for breakfast, lunch and even late at night." },
+            { "speaker": null, "text": "In the morning, you will see people sitting on small plastic stools and eating bowls of pho or sticky rice. Many of them are in a hurry, but they still stop for a hot breakfast." },
+            { "speaker": null, "text": "Street food is tasty and quick. It also helps people interact. Customers often chat with the cooks and with each other." },
+            { "speaker": null, "text": "Some people worry that street food will disappear as the city becomes more modern." },
+            { "speaker": null, "text": "However, many young people still love it, and some cooks are trying to maintain old recipes from their grandparents." },
+            { "speaker": null, "text": "If we support small food stalls, this special part of city life will continue for many years." }
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "dialogue",
+          "title": "Lessons on a Screen",
+          "lines": [
+            { "speaker": "Tom", "text": "Ann, did you have online learning when you were in grade 6?" },
+            { "speaker": "Ann", "text": "Yes, for a few months. We had lessons on the computer every day." },
+            { "speaker": "Tom", "text": "Did you like it?" },
+            { "speaker": "Ann", "text": "At first, I did. I didn't have to get up early or travel to school. But after a while, I missed my friends. It was hard to interact with them through a screen." },
+            { "speaker": "Tom", "text": "I understand. I think lessons in the classroom are more fun." },
+            { "speaker": "Ann", "text": "Me too. But online learning made me more independent. I got into the habit of planning my own time." },
+            { "speaker": "Tom", "text": "Do you think schools will use online learning more in the future?" },
+            { "speaker": "Ann", "text": "I think they will. It will have a big impact on the way we study." },
+            { "speaker": "Tom", "text": "If students learn online every day, they won't play together as often." },
+            { "speaker": "Ann", "text": "That's true. Maybe schools will mix both kinds of lessons." },
+            { "speaker": "Tom", "text": "Good idea. Then we can still maintain a healthy lifestyle." }
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "passage",
+          "title": "Reviving a Village Craft",
+          "lines": [
+            { "speaker": null, "text": "My aunt lives in a village that was once famous for making conical hats." },
+            { "speaker": null, "text": "Twenty years ago, almost every family made hats. Then many young people moved to the city, and the craft nearly disappeared." },
+            { "speaker": null, "text": "Last year, a group of young people in the village decided to revive it. They opened a small workshop and invited the older craftspeople to teach them." },
+            { "speaker": null, "text": "Now tourists visit the workshop, interact with the craftspeople and try making hats. The young people also sell the hats online, so they can be independent and stay in the village." },
+            { "speaker": null, "text": "My aunt says this will have a positive impact on the village. If more visitors come, local people will have more jobs." },
+            { "speaker": null, "text": "I think it is important to maintain traditional crafts. They are part of our lifestyle and our history." },
+            { "speaker": null, "text": "Next summer, I will visit the workshop and make my own hat." }
+          ]
+        }
+      ],
+      "roleplays": [
+        {
+          "id": "p1",
+          "titleVi": "Tham gia nhóm học trực tuyến",
+          "situationVi": "Bạn Mi đang lập một nhóm học trực tuyến của lớp và rủ em tham gia. Hãy trao đổi với Mi về kế hoạch của nhóm.",
+          "partner": "Your classmate Mi",
+          "turns": [
+            {
+              "prompt": "We're starting an online study group for our class. Will you join us?",
+              "hintVi": "Nhận lời và nói vì sao em thấy nhóm này có ích, dùng will.",
+              "keywords": ["I will", "sounds", "because"],
+              "example": "Yes, I will. It sounds useful because I need some help with physics."
+            },
+            {
+              "prompt": "When will you be free to meet online?",
+              "hintVi": "Nêu ngày và giờ em rảnh.",
+              "keywords": ["free", "on", "evenings"],
+              "example": "I'll be free on Tuesday and Thursday evenings, after eight o'clock."
+            },
+            {
+              "prompt": "If we meet online, how will we stay focused?",
+              "hintVi": "Gợi ý một hai quy tắc cho nhóm, dùng If ..., we will ...",
+              "keywords": ["If", "close", "time limit"],
+              "example": "If we close other apps and set a time limit, we will concentrate better."
+            },
+            {
+              "prompt": "What will you help the group with?",
+              "hintVi": "Nói môn học hoặc việc em có thể giúp cả nhóm.",
+              "keywords": ["help with", "good at", "explain"],
+              "example": "I'm good at English, so I'll help with grammar and new words."
+            }
+          ]
+        },
+        {
+          "id": "p2",
+          "titleVi": "Thay đổi thói quen buổi sáng",
+          "situationVi": "Sáng nào em cũng vội vàng đi học. Chị Linh của em muốn giúp em có thói quen buổi sáng tốt hơn. Hãy trò chuyện với chị.",
+          "partner": "Your sister Linh",
+          "turns": [
+            {
+              "prompt": "You're always in a hurry in the morning! What time do you usually get up?",
+              "hintVi": "Nói giờ em thường dậy và vì sao em hay bị vội.",
+              "keywords": ["get up", "usually", "stay in bed"],
+              "example": "I usually get up at half past six, but I often stay in bed for ten more minutes."
+            },
+            {
+              "prompt": "If you get up fifteen minutes earlier, what will you do with that time?",
+              "hintVi": "Trả lời bằng câu điều kiện loại 1: If I ..., I will ...",
+              "keywords": ["If I", "I will", "breakfast"],
+              "example": "If I get up earlier, I will eat breakfast slowly and check my school bag."
+            },
+            {
+              "prompt": "What good habit would you like to start this week?",
+              "hintVi": "Nêu một thói quen tốt cụ thể mà em muốn bắt đầu.",
+              "keywords": ["habit", "every night", "start"],
+              "example": "I'd like to get in the habit of packing my bag every night before bed."
+            },
+            {
+              "prompt": "How will you remember to keep your new habit?",
+              "hintVi": "Nêu một cách cụ thể giúp em nhớ, ví dụ đặt báo thức hoặc dán ghi chú.",
+              "keywords": ["alarm", "note", "remind"],
+              "example": "I'll put a note on my desk, and I'll ask you to remind me."
+            }
+          ]
+        },
+        {
+          "id": "p3",
+          "titleVi": "Trả lời phỏng vấn bản tin của trường",
+          "situationVi": "Phong, phóng viên bản tin của trường, đang viết bài về lối sống ở khu phố em. Phong hỏi em vài câu. Hãy trả lời và nêu ý kiến của em.",
+          "partner": "A student reporter, Phong",
+          "turns": [
+            {
+              "prompt": "We're writing about lifestyles in our town. How has your neighbourhood changed recently?",
+              "hintVi": "Kể một hai thay đổi em thấy: nhà cửa, cửa hàng, đường sá, giao thông...",
+              "keywords": ["more", "new", "than before"],
+              "example": "There are more cafés and shops now, and the streets are busier than before."
+            },
+            {
+              "prompt": "How has technology changed the way your family lives?",
+              "hintVi": "Nêu một ảnh hưởng của công nghệ đến sinh hoạt của gia đình em.",
+              "keywords": ["impact", "online", "video call"],
+              "example": "It has a big impact. My parents shop online, and we video-call our relatives every weekend."
+            },
+            {
+              "prompt": "Which tradition in our town should we maintain?",
+              "hintVi": "Chọn một nét truyền thống ở nơi em sống và nói vì sao nên giữ.",
+              "keywords": ["maintain", "market", "greet"],
+              "example": "We should maintain our old market because people meet, chat and greet each other there."
+            },
+            {
+              "prompt": "If our school holds a traditional craft day, what will you do?",
+              "hintVi": "Trả lời bằng If ..., I will ... và nói việc em sẽ làm.",
+              "keywords": ["I will", "make", "learn"],
+              "example": "If our school holds a craft day, I will learn to make paper lanterns."
+            }
+          ]
+        }
+      ],
+      "talks": [
+        {
+          "id": "t1",
+          "prompt": "Talk about a good habit you have.",
+          "promptVi": "Hãy nói về một thói quen tốt của em.",
+          "points": ["what the habit is", "when you started it", "how it helps you"],
+          "example": "I'm in the habit of writing a short to-do list every evening. I started it last year because I often forgot my homework. Now I write three or four things on a small card before bed. In the morning, I'm never in a hurry because I know what to do. This habit makes me more organised and independent."
+        },
+        {
+          "id": "t2",
+          "prompt": "Talk about how your life will be different in ten years.",
+          "promptVi": "Hãy nói cuộc sống của em sẽ khác thế nào sau mười năm nữa.",
+          "points": ["where you will live", "what you will do every day", "what technology you will use"],
+          "example": "In ten years, I will be twenty-four years old. I think I will live in a small flat in Da Nang. I will work as a designer, and I will probably work from home on some days. Smart machines will do a lot of housework, so I will have more free time. If I have enough time, I will travel a lot."
+        },
+        {
+          "id": "t3",
+          "prompt": "Talk about how teenagers can become more independent.",
+          "promptVi": "Hãy nói về cách tuổi thiếu niên có thể trở nên tự lập hơn.",
+          "points": ["things you can do by yourself", "something new you will learn", "why it is important"],
+          "example": "Teenagers can become more independent in many small ways. I already wash my clothes and get my school bag ready by myself. This summer, I will learn to cook simple meals for my family. If we do things by ourselves, we will feel more confident. We will also be ready for adult life when we grow up."
+        }
+      ]
+    }
+  ]
+}

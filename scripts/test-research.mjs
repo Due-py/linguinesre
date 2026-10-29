@@ -60,6 +60,33 @@ async function main() {
   const del = await sb.storage.from("test-recordings").remove([`${b.code}/pre-B/01-test.webm`]);
   const still = await admin.storage.from("test-recordings").download(`${b.code}/pre-B/01-test.webm`);
   t("học sinh không xóa được bản ghi bài kiểm tra", !!still.data, del.error?.message ?? "");
+
+  // ---- Hai chế độ luyện (0008) ----
+  const modeProbe = await admin.from("mode_sessions").select("id").limit(1);
+  if (modeProbe.error) {
+    console.log("BỎ QUA phần chế độ luyện: chưa chạy 0008_modes.sql");
+    return;
+  }
+  const plan = { mode: "A", unitNo: 1, unitTitle: "x", steps: [] };
+  const fakeSess = await sa.from("mode_sessions").insert({ student_id: a.id, mode: "A", session_no: 1, grade: 8, unit_no: 1, day: "2026-11-09", plan }).select();
+  t("học sinh không tự mở buổi luyện (không tự chọn chế độ hay buổi số)", !!fakeSess.error);
+  const { data: sessB } = await admin
+    .from("mode_sessions")
+    .insert({ student_id: b.id, mode: "B", session_no: 1, grade: 8, unit_no: 1, day: "2026-11-09", plan })
+    .select("id")
+    .single();
+  t("học sinh không đọc được buổi luyện của bạn khác", ((await sa.from("mode_sessions").select("id").eq("id", sessB.id)).data ?? []).length === 0);
+  const longer = await sb.from("mode_sessions").update({ active_ms: 9_000_000, status: "completed" }).eq("id", sessB.id).select();
+  t("học sinh không tự sửa thời gian luyện hay đánh dấu xong", (longer.data?.length ?? 0) === 0);
+  const fakeTurn = await sb
+    .from("mode_turns")
+    .insert({ session_id: sessB.id, student_id: b.id, mode: "B", step: 0, activity: "read_aloud", item_ref: "r1#1", prompt: "x", duration_ms: 1000, audio_path: "x" })
+    .select();
+  t("học sinh không tự ghi lượt luyện", !!fakeTurn.error);
+  const fakeCheck = await sb.from("weekly_checkins").insert({ student_id: b.id, week_start: "2026-11-09", practised_elsewhere: false }).select();
+  t("học sinh không ghi thẳng câu trả lời hằng tuần (chỉ qua máy chủ)", !!fakeCheck.error);
+  const upMode = await sb.storage.from("mode-recordings").upload(`${b.code}/buoi-01/x.webm`, new Uint8Array(500), { contentType: "audio/webm" });
+  t("học sinh không tải file thẳng vào kho chế độ luyện", !!upMode.error);
 }
 
 try {

@@ -28,7 +28,7 @@ Kiểm tra giao diện: build + `npx next start -p 3124`, rồi `node scripts/ui
 | M6 Tổng kết buổi, lịch sử, dashboard học sinh thật, giáo viên xem buổi luyện của học sinh | **Đã viết.** Quy tắc tổng kết có test (`tests/summary.test.ts`). Giao diện đã xem bằng Edge ở 375px/1280px qua `/dev-preview/session-report`, `/dev-preview/student-new`, `/dev-preview/student-in-class`. **Đã kiểm tra trên Supabase thật**: `npm run test:sessions` 41/41 (gồm `complete_session`), `npm run test:e2e` 42/42 (tổng kết, lịch sử, dashboard, giáo viên xem buổi của học sinh trong lớp). **Chưa thử bằng tay trên điện thoại thật**; "điểm cần cải thiện" (cần ≥ 3 buổi) mới có test thuần, chưa có test trình duyệt |
 | M7 Quyền riêng tư, xóa dữ liệu, hoàn thiện | Chưa làm |
 | NC1 Nghiên cứu: đăng nhập mã HS + PIN, chế độ Kiểm tra (mục 3.5), đo RL tự động (mục 3.7), lệnh cho nhóm | **Đã kiểm tra trên Supabase thật** (29/10): `npm run test:research` 15/15 (quyền), `npm run test:e2e-test` 19/19 (cả bài bằng Edge, micro giả im lặng, `MOCK_AI=1`: đăng nhập mã + PIN, 2 câu mẫu + 15 câu, tự dừng sau 10 giây im lặng, file ghi âm, đo RL). Đề đã nạp kèm giọng đọc (giọng `cedar`, mô hình `gpt-4o-mini-tts-2025-12-15`, 32 file, Deepgram nghe lại đúng từng chữ). **Không đổi giọng cho tới hết bài kiểm tra lần 2.** **Chưa thử trên điện thoại thật, chưa thử Deepgram thật cho RL.** Giữa hai câu có khoảng 4–5 giây chờ máy chủ |
-| NC2 Chế độ A (Pyramid, Speed Q&A, Micro-Roleplay), Chế độ B (đọc to SGK), log từng lượt + CSV, câu hỏi hằng tuần | Chưa làm (hạn 06/11) |
+| NC2 Chế độ A (Pyramid L0–L3, Speed Q&A 5 → 3 → 1,5 giây, Rescue Cascade, Micro-Roleplay), Chế độ B (đọc to), log từng lượt + CSV, câu hỏi hằng tuần | **Đã viết.** Quy tắc có test (`tests/modes.test.ts`: lập buổi, mức Speed Q&A, chấm nhanh, ngày/tuần giờ VN, nội dung không gần đề kiểm tra). Nội dung bài đọc, hội thoại, đề nói: lớp 8 Unit 1–6 (`content/research/grade-8-modes.json`, nhóm tự viết). **Chưa chạy trên Supabase thật**: cần chạy `0008_modes.sql`, rồi `npm run test:research` và `npm run test:e2e-modes`. Chưa thử trên điện thoại thật |
 
 Kiểm tra: `npm run lint && npm run typecheck && npm run test && npm run build`. Test thuần gồm mã lớp, biểu mẫu, chọn câu, gợi ý, phát hiện bắt đầu nói, số đo và kiểm chứng phản hồi AI.
 
@@ -47,6 +47,7 @@ Kiểm tra: `npm run lint && npm run typecheck && npm run test && npm run build`
 4. `npm run test:rls` để kiểm tra phân quyền (tạo và xóa tài khoản thử `@example.test`).
 5. Chạy `supabase/migrations/0002_content.sql`, rồi `npm run content:seed` để nạp nội dung (trạng thái nháp).
 5b. Chạy `supabase/migrations/0007_grades_6_12.sql` để nhận học sinh, lớp và Unit lớp 10–12 (trước đây chỉ 6–9).
+5c. Chạy `supabase/migrations/0008_modes.sql` (hai chế độ luyện của nghiên cứu, sau 0006).
 6. Chạy `supabase/migrations/0003_sessions.sql`, `0004_feedback.sql` và `0005_complete_session.sql`, rồi `npm run test:sessions` (quyền buổi luyện và phản hồi) và `npm run test:e2e` (cả luồng bằng trình duyệt, cần web chạy với `MOCK_AI=1` ở cổng 3126).
 7. Sau khi thầy cô đọc kỹ một Unit: `npm run content:approve -- 8 1 "Tên người duyệt"`. Chỉ Unit đã duyệt mới hiện cho học sinh. Sửa file JSON rồi nạp lại thì Unit tự về nháp.
 
@@ -73,13 +74,25 @@ Lệnh cho nhóm nghiên cứu. Mọi file xuất ra nằm trong `files/research
 | 04–06/11 đo RL và kiểm chứng tay | `npm run research:export -- --audio` (CSV từng câu + tóm tắt trung vị RL mỗi học sinh + file ghi âm) |
 | Có câu "chưa đo được" | `npm run research:rescore` |
 | 06/11 sau khi bốc thăm nhóm | `npm run research:arms -- files/research/chia-nhom.csv` (cột `code,arm`) |
+| 09/11 bắt đầu giai đoạn luyện | `npm run research:settings -- practice_open true` (Unit luyện: `practice_units`, mặc định 1,2,3; mỗi Unit 5 buổi) |
+| Hằng tuần, theo dõi luyện tập | `npm run research:export -- --practice` (thêm CSV từng lượt nói theo mục 3.8, từng buổi, câu hỏi hằng tuần; CÓ chế độ A/B, không gửi người chấm) |
 | 30/11 mở bài kiểm tra lần 2 | `npm run research:settings -- post_test_open true` |
-| Sau 15/12 | `npm run research:arms -- --all-A` |
+| Sau 15/12 | `npm run research:settings -- study_over true` (mọi người dùng chế độ A và trang luyện tự do) |
 
 - Học sinh đăng nhập ở `/login` bằng mã + PIN; giáo viên dùng `/login?as=email`. Không lưu họ tên học sinh.
 - Bài kiểm tra: câu hỏi (chữ + giọng đọc tạo sẵn, cùng giọng cho mọi câu) → tiếng bíp → ghi âm, tự sang câu sau khi im lặng 10 giây hoặc sau 20 giây. Không đồng hồ, không nhận xét. Tiếng bíp được trộn thẳng vào file ghi âm (880 Hz, 150 ms, bắt đầu ở giây 0,30 của file) để đo tay bằng Audacity.
 - RL máy đo = từ lúc hết tiếng bíp tới đầu từ có nghĩa đầu tiên theo Deepgram (`src/lib/research/latency.ts`), bỏ uh/um/er/ah/hmm; quá 10 giây ghi 10 giây và "không trả lời".
-- Học sinh tham gia chỉ vào được chế độ luyện khi đã được chia chế độ A và không có bài kiểm tra đến hạn. Học sinh không đọc được đề, bài làm hay file ghi âm kiểm tra (kiểm tra bằng `npm run test:research`).
+- Trong thực nghiệm, người tham gia chỉ luyện qua chế độ được gán (A hoặc B), **mỗi ngày một buổi**, sau khi đã làm bài kiểm tra lần 1, đã chia nhóm và nhóm đã bật `practice_open`. Trang luyện tự do chỉ mở sau `study_over`. Đầu mỗi tuần phải trả lời câu hỏi "có luyện nói thêm ở đâu khác không" trước khi luyện.
+- **Chế độ A** (`src/components/ModeRunner.tsx`, quy tắc trong `src/lib/research/modes.ts`), khoảng 12–15 phút, 29 lượt nói:
+  - L0: 6 từ vựng. Nhìn nghĩa tiếng Việt, nói từ, nghe mẫu, nói theo.
+  - L1: 3 khung câu, rồi 6 câu Speed Q&A.
+  - L2: 3 câu mở rộng có lý do, có AI nhận xét khi bấm.
+  - L3: Micro-Roleplay 4 lượt, rồi nói một đoạn.
+  - Speed Q&A: máy chủ tính mức giới hạn từ lịch sử. Kịp giờ 3 lượt liền thì nhanh hơn, trễ 2 lượt liền thì chậm lại. Kịp giờ tính theo RL đo bằng Deepgram (cùng cách đo với bài kiểm tra: từ hết tiếng bíp, bỏ uh/um).
+  - Rescue Cascade: gợi ý mở từng mức. Lượt đầu chưa được thì tự mở thêm một mức và cho nói lại.
+- **Chế độ B** (`src/components/ReadRunner.tsx`): đọc to 4 bài (2 hội thoại, 2 đoạn văn) của Unit, mỗi bài 2 lần, có ghi âm, đếm thời gian luyện. Không gợi ý, không AI.
+- Mỗi lượt nói là một dòng `mode_turns`, file ghi âm trong kho riêng `mode-recordings` (24 kbps). Thời gian luyện chỉ tính khi trang luyện đang mở trên màn hình. Buổi "hoàn thành ≥ 10 phút" dùng cột `du_10_phut` khi xuất.
+- Học sinh không đọc được đề, bài làm hay file ghi âm; không tự ghi lượt luyện, thời gian hay chế độ (kiểm tra bằng `npm run test:research`).
 - `--with-arm` khi xuất dữ liệu chỉ dành cho người giữ danh sách nhóm; không gửi file đó cho người chấm.
 
 ## Xem giao diện khi chưa đăng nhập

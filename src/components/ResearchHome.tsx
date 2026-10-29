@@ -38,37 +38,46 @@ export default function ResearchHome({ p, state }: { p: Participant; state: Test
         ) : (
           <>
             <h1 id="today" className="text-balance text-4xl font-extrabold leading-[1.08] tracking-tight sm:text-5xl">
-              Chế độ B: đọc to bài hội thoại
+              {p.arm === "A" ? "Chế độ A: luyện phản xạ nói" : "Chế độ B: đọc to"}
             </h1>
-            <p className="max-w-md text-on-forest-muted">Chế độ này đang được hoàn thiện và sẽ mở trước buổi luyện đầu tiên.</p>
+            <p className="max-w-md text-on-forest-muted">
+              Giai đoạn luyện tập chưa bắt đầu. Khi bắt đầu, buổi luyện mỗi ngày sẽ hiện ở đây. Nhóm nghiên cứu sẽ thông báo trên lớp.
+            </p>
           </>
         )}
       </section>
 
-      <section aria-labelledby="tests" className="grid max-w-prose gap-3">
-        <h2 id="tests" className="text-2xl font-extrabold tracking-tight">
-          Bài kiểm tra
-        </h2>
-        <ul className="divide-y divide-line border-y border-line">
-          {(["pre", "post"] as const).map((ph) => (
-            <li key={ph} className="flex items-center justify-between gap-3 py-3">
-              <span>{ph === "pre" ? "Lần 1 (trước khi luyện)" : "Lần 2 (sau 3 tuần luyện)"}</span>
-              <span className="inline-flex items-center gap-1.5 font-bold">
-                {state[ph]?.status === "completed" ? (
-                  <>
-                    <CircleCheck className="size-4 text-brand-strong" aria-hidden />
-                    Đã làm
-                  </>
-                ) : state[ph] ? (
-                  "Đang làm dở"
-                ) : (
-                  <span className="text-muted">Chưa làm</span>
-                )}
-              </span>
-            </li>
-          ))}
-        </ul>
-      </section>
+      <TestStatusList state={state} />
     </div>
+  );
+}
+
+/** Trạng thái hai lần kiểm tra (dùng ở trang chính khi chờ và khi đang luyện). */
+export function TestStatusList({ state }: { state: TestState }) {
+  return (
+    <section aria-labelledby="tests" className="grid max-w-prose gap-3">
+      <h2 id="tests" className="text-2xl font-extrabold tracking-tight">
+        Bài kiểm tra
+      </h2>
+      <ul className="divide-y divide-line border-y border-line">
+        {(["pre", "post"] as const).map((ph) => (
+          <li key={ph} className="flex items-center justify-between gap-3 py-3">
+            <span>{ph === "pre" ? "Lần 1 (trước khi luyện)" : "Lần 2 (sau 3 tuần luyện)"}</span>
+            <span className="inline-flex items-center gap-1.5 font-bold">
+              {state[ph]?.status === "completed" ? (
+                <>
+                  <CircleCheck className="size-4 text-brand-strong" aria-hidden />
+                  Đã làm
+                </>
+              ) : state[ph] ? (
+                "Đang làm dở"
+              ) : (
+                <span className="text-muted">Chưa làm</span>
+              )}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }

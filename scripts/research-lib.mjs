@@ -68,11 +68,13 @@ export async function createParticipant({ code, grade, formOrder, pilot = false 
 export async function deleteParticipant(code) {
   const { data } = await admin.from("research_participants").select("student_id").eq("code", code).maybeSingle();
   const id = data?.student_id;
-  const { data: list } = await admin.storage.from("test-recordings").list(code, { limit: 100 });
-  for (const folder of list ?? []) {
-    const { data: files } = await admin.storage.from("test-recordings").list(`${code}/${folder.name}`, { limit: 100 });
-    const paths = (files ?? []).map((f) => `${code}/${folder.name}/${f.name}`);
-    if (paths.length) await admin.storage.from("test-recordings").remove(paths);
+  for (const bucket of ["test-recordings", "mode-recordings"]) {
+    const { data: list } = await admin.storage.from(bucket).list(code, { limit: 100 });
+    for (const folder of list ?? []) {
+      const { data: files } = await admin.storage.from(bucket).list(`${code}/${folder.name}`, { limit: 200 });
+      const paths = (files ?? []).map((f) => `${code}/${folder.name}/${f.name}`);
+      if (paths.length) await admin.storage.from(bucket).remove(paths);
+    }
   }
   if (id) await admin.auth.admin.deleteUser(id);
   else {

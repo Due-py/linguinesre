@@ -6,20 +6,32 @@ import { createClient } from "@/lib/supabase/server";
 import { listUnitsForGrade, todayTask } from "@/lib/practice";
 import { improvementFocus, listSessions } from "@/lib/sessions";
 import ResearchHome from "@/components/ResearchHome";
+import ModeHome from "@/components/ModeHome";
 import { getParticipant, testState } from "@/lib/research/server";
+import { hasCheckin, listModeSessions, modeAccess, researchSettings, today as vnToday } from "@/lib/research/modeServer";
 
 export const metadata: Metadata = { title: "Tổng quan" };
 export const dynamic = "force-dynamic";
 
-export default async function StudentPage({ searchParams }: { searchParams: Promise<{ join?: string }> }) {
+export default async function StudentPage({ searchParams }: { searchParams: Promise<{ join?: string; luyen?: string }> }) {
   const profile = await requireRole("student");
-  const { join } = await searchParams;
+  const { join, luyen } = await searchParams;
 
-  // Học sinh tham gia nghiên cứu: chỉ thấy trang chính đầy đủ khi đã thuộc chế độ A và không có bài kiểm tra đến hạn.
+  // Học sinh tham gia nghiên cứu: bài kiểm tra đến hạn → làm bài; giai đoạn luyện → chế độ A hoặc B được gán;
+  // còn lại (chưa chia nhóm, chưa mở) → trang chờ. Trang chính đầy đủ chỉ mở sau khi nghiên cứu kết thúc (study_over).
   const participant = await getParticipant(profile.id);
   if (participant) {
-    const state = await testState(profile.id, participant);
-    if (state.due || participant.arm !== "A") {
+    const settings = await researchSettings();
+    const [state, access] = await Promise.all([testState(profile.id, participant), modeAccess(profile.id, participant, settings)]);
+    if (access.ok && !settings.studyOver) {
+      const [sessions, checked] = await Promise.all([listModeSessions(profile.id), hasCheckin(profile.id)]);
+      return (
+        <AppShell name={participant.code} roleLabel="Học sinh" homeHref="/student">
+          <ModeHome code={participant.code} mode={access.mode} sessions={sessions} today={vnToday()} needsCheckin={!checked} notice={luyen} tests={state} />
+        </AppShell>
+      );
+    }
+    if (!access.ok) {
       return (
         <AppShell name={participant.code} roleLabel="Học sinh" homeHref="/student">
           <ResearchHome p={participant} state={state} />

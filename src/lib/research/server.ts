@@ -63,13 +63,15 @@ export async function openAttempt(userId: string, p: Participant, phase: Phase, 
 }
 
 /**
- * Ai được vào chế độ luyện nói (LINGUA-REFLEX): học sinh không tham gia nghiên cứu, hoặc người tham gia thuộc chế độ A
- * và không có bài kiểm tra đang đến hạn. Chưa chia nhóm thì chưa luyện (luyện trước bài đầu vào làm sai số đo).
+ * Ai được vào trang luyện tự do (/student/practice): học sinh không tham gia nghiên cứu; người tham gia chỉ khi nghiên cứu
+ * đã kết thúc (study_over) và không có bài kiểm tra đến hạn. Trong lúc thực nghiệm, người tham gia chỉ luyện qua chế độ
+ * A/B được gán (một buổi mỗi ngày), để "liều" luyện của hai nhóm như nhau.
  */
 export async function canPractice(userId: string): Promise<boolean> {
   const p = await getParticipant(userId);
   if (!p) return true;
-  if (p.arm !== "A") return false;
+  const { data } = await createAdminClient().from("research_settings").select("value").eq("key", "study_over").maybeSingle();
+  if (data?.value !== true) return false;
   return (await testState(userId, p)).due === null;
 }
 
