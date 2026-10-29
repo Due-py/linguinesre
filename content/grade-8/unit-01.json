@@ -1,0 +1,172 @@
+{
+  "grade": 8,
+  "unit": 1,
+  "title": "Leisure Time",
+  "titleVi": "Thời gian rảnh rỗi",
+  "topic": "Nói về những việc em làm khi rảnh, với gia đình, với bạn bè hoặc một mình, và vì sao em thích hay không thích chúng.",
+  "source": "Global Success 8, Unit 1 (chủ đề, từ vựng, ngữ pháp động từ chỉ sở thích)",
+  "vocab": [
+    { "id": "v01", "en": "hang out with friends", "vi": "đi chơi với bạn bè", "example": "On Saturdays I often hang out with friends at the park." },
+    { "id": "v02", "en": "do DIY", "vi": "tự làm đồ thủ công", "example": "My dad and I do DIY to fix small things at home." },
+    { "id": "v03", "en": "do puzzles", "vi": "giải câu đố, ghép hình", "example": "Doing puzzles helps me think more carefully." },
+    { "id": "v04", "en": "surf the net", "vi": "lướt mạng", "example": "I surf the net to find new recipes." },
+    { "id": "v05", "en": "go cycling", "vi": "đi xe đạp dạo", "example": "We go cycling around the lake every Sunday morning." },
+    { "id": "v06", "en": "keep in touch", "vi": "giữ liên lạc", "example": "I message my cousin to keep in touch with her." },
+    { "id": "v07", "en": "be keen on", "vi": "rất thích", "example": "My sister is keen on making paper flowers." },
+    { "id": "v08", "en": "be crazy about", "vi": "mê, cuồng", "example": "My brother is crazy about football." },
+    { "id": "v09", "en": "relaxed", "vi": "thư giãn, thoải mái", "example": "Listening to music makes me feel relaxed." },
+    { "id": "v10", "en": "creativity", "vi": "sự sáng tạo", "example": "Drawing comics improves my creativity." },
+    { "id": "v11", "en": "mental exercise", "vi": "rèn luyện trí óc", "example": "Chess is a good mental exercise." },
+    { "id": "v12", "en": "fancy", "vi": "muốn, thích (làm gì)", "example": "Do you fancy going to the bookshop with me?" }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "In my free time, I like ___ because ___.",
+      "vi": "Lúc rảnh mình thích ... vì ...",
+      "grammarNote": "Sau like / love / enjoy dùng V-ing: I like reading.",
+      "examples": ["In my free time, I like doing puzzles because they are fun and good for my brain."]
+    },
+    {
+      "id": "f02",
+      "text": "I'm keen on ___, but I don't really enjoy ___.",
+      "vi": "Mình rất thích ..., nhưng không thích ... lắm.",
+      "grammarNote": "Sau be keen on / be fond of dùng V-ing. Nối hai ý trái ngược bằng but.",
+      "examples": ["I'm keen on cycling, but I don't really enjoy swimming."]
+    },
+    {
+      "id": "f03",
+      "text": "I usually ___ with my family at the weekend. It makes me feel ___.",
+      "vi": "Cuối tuần mình thường ... cùng gia đình. Việc đó làm mình thấy ...",
+      "grammarNote": "Thì hiện tại đơn cho thói quen; make + somebody + feel + tính từ.",
+      "examples": ["I usually cook dinner with my family at the weekend. It makes me feel happy."]
+    },
+    {
+      "id": "f04",
+      "text": "I prefer ___ to ___ because ___.",
+      "vi": "Mình thích ... hơn ... vì ...",
+      "grammarNote": "prefer + V-ing + to + V-ing để so sánh hai hoạt động.",
+      "examples": ["I prefer going out to staying at home because I can meet my friends."]
+    },
+    {
+      "id": "f05",
+      "text": "Would you like to ___ with me this ___?",
+      "vi": "Bạn có muốn ... với mình vào ... này không?",
+      "grammarNote": "Mời ai đó: Would you like to + động từ nguyên mẫu? / Do you fancy + V-ing?",
+      "examples": ["Would you like to go cycling with me this Sunday?"]
+    },
+    {
+      "id": "f06",
+      "text": "One activity I'd love to try is ___ because ___.",
+      "vi": "Một hoạt động mình rất muốn thử là ... vì ...",
+      "grammarNote": "I'd love to + động từ nguyên mẫu để nói mong muốn.",
+      "examples": ["One activity I'd love to try is rock climbing because it looks exciting."]
+    },
+    {
+      "id": "f07",
+      "text": "I keep in touch with my friends by ___.",
+      "vi": "Mình giữ liên lạc với bạn bè bằng cách ...",
+      "grammarNote": "Sau giới từ by dùng động từ thêm -ing: by messaging, by meeting.",
+      "examples": ["I keep in touch with my friends by chatting online and meeting them at the weekend."]
+    },
+    {
+      "id": "f08",
+      "text": "I think teenagers ___ because ___.",
+      "vi": "Mình nghĩ tuổi teen ... vì ...",
+      "grammarNote": "Teenagers là danh từ số nhiều: teenagers have, teenagers need. Nêu lý do bằng because.",
+      "examples": ["I think teenagers need time to relax because school is very busy."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What do you usually do in your free time?", "difficulty": 1, "kind": "personal",
+      "keywords": ["hang out", "surf the net", "do puzzles"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một việc em làm nhiều nhất khi không phải học: ở nhà, ra ngoài hay với bạn bè.",
+      "exampleAnswer": "In my free time, I usually read comics and play badminton with my brother.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Who do you often spend your free time with?", "difficulty": 1, "kind": "personal",
+      "keywords": ["family", "friends", "hang out"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem em hay ở cùng ai lúc rảnh: bố mẹ, anh chị em, hay bạn cùng lớp. Em làm gì với họ?",
+      "exampleAnswer": "I often spend my free time with my best friend. We play games and talk a lot.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What do you like doing at the weekend?", "difficulty": 1, "kind": "personal",
+      "keywords": ["go cycling", "relaxed", "like"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại cuối tuần vừa rồi em đã làm gì và việc nào em thích nhất.",
+      "exampleAnswer": "At the weekend, I like going cycling in the morning and watching films in the evening.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What activity do you do with your family?", "difficulty": 1, "kind": "personal",
+      "keywords": ["do DIY", "cook", "family"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một việc cả nhà em hay làm cùng nhau, ví dụ nấu ăn, dọn nhà hay đi chơi.",
+      "exampleAnswer": "My family and I often cook dinner together on Sunday. It makes me feel happy.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do you enjoy your favourite leisure activity?", "difficulty": 2, "kind": "reason",
+      "keywords": ["relaxed", "creativity", "because"], "frameId": "f01",
+      "hintDirectionVi": "Nói tên hoạt động em thích nhất, rồi nghĩ nó giúp em điều gì: vui hơn, khỏe hơn hay thông minh hơn.",
+      "exampleAnswer": "I enjoy drawing because it helps me relax after school. It also improves my creativity.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Do you prefer staying at home or going out at the weekend? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["prefer", "go out", "stay at home"], "frameId": "f04",
+      "hintDirectionVi": "Chọn một bên trước, rồi nêu một lý do: ở nhà thì yên tĩnh, ra ngoài thì gặp bạn bè.",
+      "exampleAnswer": "I prefer going out to staying at home because I can meet my friends and get some fresh air.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Why do you think doing puzzles is good for teenagers?", "difficulty": 2, "kind": "reason",
+      "keywords": ["mental exercise", "improve", "memory"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem giải câu đố tác động đến não và sự tập trung thế nào.",
+      "exampleAnswer": "Doing puzzles is a good mental exercise. It helps teenagers improve their memory and think carefully.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Invite a friend to do an activity with you this Sunday.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Would you like to", "fancy", "Sunday"], "frameId": "f05",
+      "hintDirectionVi": "Chọn một hoạt động, rồi mời bạn bằng câu hỏi lịch sự. Có thể nói thêm thời gian hoặc địa điểm.",
+      "exampleAnswer": "Would you like to go cycling with me this Sunday? We can ride around the lake at seven.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "How do you keep in touch with your friends after school?", "difficulty": 2, "kind": "personal",
+      "keywords": ["keep in touch", "message", "meet"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về cách em liên lạc với bạn: nhắn tin, gọi điện hay gặp nhau. Em làm vậy bao lâu một lần?",
+      "exampleAnswer": "I message my friends every evening, and we sometimes meet at the park on Saturdays.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Is it a good idea to spend a lot of free time surfing the net? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["surf the net", "eyes", "useful"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ về một điều tốt và một điều chưa tốt khi lướt mạng quá nhiều, rồi nói em đồng ý hay không.",
+      "exampleAnswer": "I don't think it is a good idea. Surfing the net is useful, but too much screen time is bad for our eyes.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "What is something you don't enjoy doing in your free time?", "difficulty": 2, "kind": "personal",
+      "keywords": ["don't enjoy", "boring", "but"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về một hoạt động em thấy chán hoặc không hợp với mình, và so sánh với việc em thích.",
+      "exampleAnswer": "I'm keen on sports, but I don't really enjoy shopping because it takes too long.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "What are the benefits of doing activities with your family?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["connect", "relaxed", "understand"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem làm việc cùng gia đình giúp mọi người gần nhau hơn thế nào. Nêu ít nhất hai lợi ích.",
+      "exampleAnswer": "Doing activities together helps family members talk more and understand each other. We also feel relaxed and happy.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "A new classmate doesn't know what to do in their free time. What would you suggest, and why?", "difficulty": 3, "kind": "situation",
+      "keywords": ["suggest", "join", "fun"], "frameId": "f05",
+      "hintDirectionVi": "Chọn một hoạt động dễ bắt đầu, nói cách làm và vì sao nó hợp với một bạn mới.",
+      "exampleAnswer": "I would suggest joining our badminton group after school. It is fun, and they can make new friends quickly.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Which leisure activity would you like to try in the future, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["I'd love to", "try", "exciting"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về một hoạt động em chưa từng làm nhưng tò mò. Vì sao nó hấp dẫn em?",
+      "exampleAnswer": "One activity I'd love to try is snowboarding because it looks exciting. I have never seen real snow.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Do teenagers today have enough free time? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["homework", "extra classes", "however"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ về một ngày của học sinh: giờ học, bài tập, học thêm. Còn lại bao nhiêu thời gian rảnh?",
+      "exampleAnswer": "I don't think so. Many teenagers have homework and extra classes, so they only have a little free time at the weekend.", "expectsReason": true
+    }
+  ]
+}

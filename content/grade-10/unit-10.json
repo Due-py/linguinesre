@@ -1,0 +1,165 @@
+{
+  "grade": 10,
+  "unit": 10,
+  "title": "Ecotourism",
+  "titleVi": "Du lịch sinh thái",
+  "topic": "Nói về những chuyến đi của em, cách du lịch có trách nhiệm, du lịch sinh thái và những nơi em muốn khám phá mà không làm hại thiên nhiên và văn hóa địa phương.",
+  "source": "Global Success 10, Unit 10 (chủ đề, từ vựng, ngữ pháp câu điều kiện loại 1 và loại 2)",
+  "vocab": [
+    { "id": "v01", "en": "ecotourism", "vi": "du lịch sinh thái", "example": "Ecotourism helps protect nature and supports local communities." },
+    { "id": "v02", "en": "mass tourism", "vi": "du lịch đại trà (theo số đông)", "example": "Mass tourism can make beaches crowded and dirty." },
+    { "id": "v03", "en": "explore", "vi": "khám phá", "example": "We explored a huge cave full of stalactites." },
+    { "id": "v04", "en": "local", "vi": "(thuộc) địa phương", "example": "We stayed with a local family and ate home-cooked meals." },
+    { "id": "v05", "en": "culture", "vi": "văn hóa", "example": "Travelling helps me learn about different cultures." },
+    { "id": "v06", "en": "souvenir", "vi": "quà lưu niệm", "example": "I bought a handmade souvenir for my best friend." },
+    { "id": "v07", "en": "craft", "vi": "đồ thủ công", "example": "The village is famous for its bamboo crafts." },
+    { "id": "v08", "en": "trail", "vi": "đường mòn", "example": "Please stay on the trail so you don't damage the plants." },
+    { "id": "v09", "en": "floating market", "vi": "chợ nổi", "example": "We visited a floating market early in the morning." },
+    { "id": "v10", "en": "impact", "vi": "tác động", "example": "Too many tourists can have a big impact on a small village." },
+    { "id": "v11", "en": "responsible", "vi": "có trách nhiệm", "example": "Responsible travellers always take their rubbish home." },
+    { "id": "v12", "en": "damage", "vi": "làm hư hại", "example": "Touching the coral can damage it." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "If I go to ___, I will ___.",
+      "vi": "Nếu mình đi ..., mình sẽ ...",
+      "grammarNote": "Câu điều kiện loại 1: If + hiện tại đơn, will + động từ nguyên mẫu, cho điều có thể xảy ra ở hiện tại hoặc tương lai.",
+      "examples": ["If I go to Da Lat this summer, I will visit a flower farm."]
+    },
+    {
+      "id": "f02",
+      "text": "If I could ___, I would ___.",
+      "vi": "Nếu mình có thể ..., mình sẽ ...",
+      "grammarNote": "Câu điều kiện loại 2: If + quá khứ đơn (could, had), would + động từ nguyên mẫu, cho điều không có thật ở hiện tại.",
+      "examples": ["If I could travel anywhere, I would explore the caves in Phong Nha."]
+    },
+    {
+      "id": "f03",
+      "text": "If tourists ___, ___ will ___.",
+      "vi": "Nếu khách du lịch ..., thì ... sẽ ...",
+      "grammarNote": "Dùng câu điều kiện loại 1 để nói kết quả có thể xảy ra: If + hiện tại đơn, will / won't + động từ nguyên mẫu.",
+      "examples": ["If tourists leave rubbish, the beach will become dirty."]
+    },
+    {
+      "id": "f04",
+      "text": "If I were a tour guide, I would ___.",
+      "vi": "Nếu mình là hướng dẫn viên, mình sẽ ...",
+      "grammarNote": "Câu điều kiện loại 2 với be: dùng were cho mọi ngôi (If I were ...).",
+      "examples": ["If I were a tour guide, I would teach visitors about local culture."]
+    },
+    {
+      "id": "f05",
+      "text": "___ is good for ___ because ___.",
+      "vi": "... có lợi cho ... vì ...",
+      "grammarNote": "good for + danh từ / V-ing; because + mệnh đề để giải thích. Có thể thêm If ..., ... will ... để nói kết quả.",
+      "examples": ["Ecotourism is good for local people because tourists buy their crafts and food."]
+    },
+    {
+      "id": "f06",
+      "text": "Please don't ___. If you ___, ___.",
+      "vi": "Xin đừng ... Nếu bạn ..., thì ...",
+      "grammarNote": "Please don't + động từ nguyên mẫu để nhắc nhở lịch sự; sau đó dùng câu điều kiện loại 1 để nói hậu quả.",
+      "examples": ["Please don't feed the monkeys. If you feed them, they will get sick."]
+    },
+    {
+      "id": "f07",
+      "text": "The most beautiful place I've visited is ___. There, I ___.",
+      "vi": "Nơi đẹp nhất em từng đến là ... Ở đó, em đã ...",
+      "grammarNote": "the most + tính từ: so sánh nhất; I've visited (hiện tại hoàn thành) để nói trải nghiệm từng có.",
+      "examples": ["The most beautiful place I've visited is Phong Nha. There, I took a boat into a huge cave."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What is the most beautiful natural place you have visited?", "difficulty": 1, "kind": "personal",
+      "keywords": ["explore", "beach", "mountains"], "frameId": "f07",
+      "hintDirectionVi": "Nhớ lại một chuyến đi đến biển, núi, hang động hay vùng quê, và cảnh nào khiến em nhớ nhất.",
+      "exampleAnswer": "The most beautiful place I've visited is Ha Long Bay. We took a boat and explored a cave with amazing stalactites.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What kind of souvenirs do you like to buy when you travel?", "difficulty": 1, "kind": "personal",
+      "keywords": ["souvenir", "handmade", "craft"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về món quà nhỏ em từng mua khi đi chơi: nó làm bằng gì, em mua cho ai?",
+      "exampleAnswer": "I like buying small handmade crafts, like woven bags or bamboo keyrings. They remind me of the trip.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Where will you go if you have a holiday this summer?", "difficulty": 1, "kind": "personal",
+      "keywords": ["If I", "will", "explore"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một nơi em có thể đi thật trong hè này, rồi nói em sẽ làm gì ở đó.",
+      "exampleAnswer": "If I have a holiday this summer, I will go to Sa Pa with my family and walk along the mountain trails.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Would you prefer a beach holiday or a trip to the forest?", "difficulty": 1, "kind": "personal",
+      "keywords": ["beach", "forest", "prefer"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về những hoạt động em thích làm khi đi chơi: bơi lội, đi bộ, ngắm cảnh... Nơi nào hợp với em hơn?",
+      "exampleAnswer": "I'd prefer a trip to the forest. I love hiking, and the air there is fresh and cool.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do you think ecotourism is becoming popular with young people?", "difficulty": 2, "kind": "reason",
+      "keywords": ["ecotourism", "nature", "experience"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem người trẻ muốn gì ở một chuyến đi ngoài việc chụp ảnh, và du lịch sinh thái đáp ứng điều đó ra sao.",
+      "exampleAnswer": "Young people want real experiences, not just photos. Ecotourism lets them explore nature and learn about local culture at the same time.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Tell me about a trip where you learnt something about local culture.", "difficulty": 2, "kind": "personal",
+      "keywords": ["local", "culture", "learnt"], "frameId": "f05",
+      "hintDirectionVi": "Nhớ lại một chuyến đi em được xem người dân địa phương sống, làm việc, nấu ăn hay buôn bán thế nào.",
+      "exampleAnswer": "Last year, I visited a floating market in Can Tho. I learnt how local people buy and sell fruit from their boats.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Is mass tourism good or bad for a small village? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["mass tourism", "crowded", "income"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một điều tốt và một điều xấu khi quá nhiều khách kéo đến một làng nhỏ, rồi nêu ý kiến.",
+      "exampleAnswer": "It can be bad. If too many tourists come, the village will get crowded and dirty, although local people may earn more.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Should tourists be allowed to touch or feed wild animals? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["feed", "wild", "depend on"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem chuyện gì xảy ra với con vật và với du khách nếu việc cho ăn, sờ vào diễn ra mỗi ngày.",
+      "exampleAnswer": "No, they shouldn't. If tourists feed wild animals, the animals will depend on humans and may become sick or aggressive.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "A tourist is about to leave the trail to take photos. Remind them politely.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Please don't", "trail", "damage"], "frameId": "f06",
+      "hintDirectionVi": "Mở lời lịch sự, nhắc điều không nên làm, nói hậu quả, rồi gợi ý một cách khác để họ vẫn chụp ảnh được.",
+      "exampleAnswer": "Excuse me, please don't leave the trail. If you walk on the plants, you'll damage them. You can take great photos from here.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Why is it better to buy souvenirs made by local people?", "difficulty": 2, "kind": "reason",
+      "keywords": ["local", "craft", "support"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem đồ thủ công địa phương khác hàng sản xuất hàng loạt ở điểm nào, và ai được lợi khi em mua.",
+      "exampleAnswer": "Local crafts are special and handmade. If we buy them, we support local workers, and they can keep their traditions alive.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "You are a tour guide in a cave. Give visitors some rules before you start.", "difficulty": 2, "kind": "situation",
+      "keywords": ["don't touch", "stay together", "rubbish"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về những điều du khách có thể làm hỏng hoặc gây nguy hiểm trong hang, rồi nói hai hoặc ba quy định.",
+      "exampleAnswer": "Please don't touch the stalactites. Stay on the path and keep together. If you bring snacks, please take your rubbish home.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Can tourism and nature protection go together? Explain your view.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["responsible", "rules", "limit"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem cần những điều kiện gì để khách vẫn đến tham quan mà thiên nhiên không bị hư hại.",
+      "exampleAnswer": "Yes, if tourism is well managed. If tourists follow the rules and visitor numbers are limited, nature will stay protected.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Why should tourists learn about local customs before they visit a place?", "difficulty": 3, "kind": "reason",
+      "keywords": ["respect", "customs", "upset"], "frameId": "f03",
+      "hintDirectionVi": "Tưởng tượng một vị khách vô tình làm điều mà người địa phương cho là bất lịch sự. Chuyện gì sẽ xảy ra?",
+      "exampleAnswer": "Learning about customs shows respect. If tourists know the rules, they won't upset local people, and they'll enjoy a deeper experience.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "If you could change one thing about tourism in Viet Nam, what would you change and why?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["If I could", "would", "waste"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về một điều em không thích ở các điểm du lịch em từng đến, rồi nói em sẽ thay đổi nó thế nào.",
+      "exampleAnswer": "If I could change one thing, I would reduce plastic waste at tourist sites. Many beautiful places are full of rubbish.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "You are planning an eco-friendly tour of your area for foreign visitors. Describe it.", "difficulty": 3, "kind": "situation",
+      "keywords": ["ecotour", "local", "explore"], "frameId": "f04",
+      "hintDirectionVi": "Chọn hai hoặc ba điểm đẹp hoặc đặc sắc ở nơi em sống, và nghĩ cách đi thăm chúng mà không gây hại.",
+      "exampleAnswer": "If I were your guide, I would take you cycling through the rice fields. Then we would have lunch with a local family and learn to weave baskets.", "expectsReason": false
+    }
+  ]
+}

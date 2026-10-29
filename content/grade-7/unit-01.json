@@ -1,0 +1,165 @@
+{
+  "grade": 7,
+  "unit": 1,
+  "title": "Hobbies",
+  "titleVi": "Sở thích",
+  "topic": "Nói về sở thích của em và của bạn bè: em làm gì, bao lâu một lần, với ai, và sở thích đó mang lại lợi ích gì.",
+  "source": "Global Success 7, Unit 1 (chủ đề, từ vựng, ngữ pháp thì hiện tại đơn, động từ chỉ sự thích và không thích)",
+  "vocab": [
+    { "id": "v01", "en": "gardening", "vi": "làm vườn", "example": "My grandma and I do some gardening every Sunday morning." },
+    { "id": "v02", "en": "horse riding", "vi": "cưỡi ngựa", "example": "Horse riding looks exciting, but you need a good teacher." },
+    { "id": "v03", "en": "jogging", "vi": "chạy bộ thư giãn", "example": "My dad goes jogging around the lake before work." },
+    { "id": "v04", "en": "making models", "vi": "làm mô hình", "example": "Making models of ships is my brother's favourite hobby." },
+    { "id": "v05", "en": "cardboard", "vi": "bìa các-tông", "example": "I use old cardboard boxes to make a small house." },
+    { "id": "v06", "en": "glue", "vi": "keo dán, hồ dán", "example": "Put some glue on the paper and wait for it to dry." },
+    { "id": "v07", "en": "popular", "vi": "được nhiều người ưa thích", "example": "Football is a popular hobby in my class." },
+    { "id": "v08", "en": "unusual", "vi": "khác thường, lạ", "example": "Collecting old bus tickets is an unusual hobby." },
+    { "id": "v09", "en": "patient", "vi": "kiên nhẫn", "example": "You need to be patient when you build a model plane." },
+    { "id": "v10", "en": "benefit", "vi": "lợi ích", "example": "One benefit of jogging is that it keeps you fit." },
+    { "id": "v11", "en": "stress", "vi": "sự căng thẳng", "example": "Listening to music helps me forget stress after a long day." },
+    { "id": "v12", "en": "responsibility", "vi": "tinh thần trách nhiệm", "example": "Looking after my plants teaches me responsibility." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "My hobby is ___. I do it ___ a week.",
+      "vi": "Sở thích của mình là ... Mình làm việc đó ... lần một tuần.",
+      "grammarNote": "Thì hiện tại đơn cho thói quen: I play, they play. Nói tần suất: once / twice / three times a week.",
+      "examples": ["My hobby is jogging. I do it three times a week."]
+    },
+    {
+      "id": "f02",
+      "text": "I love ___, but I don't like ___.",
+      "vi": "Mình rất thích ..., nhưng không thích ...",
+      "grammarNote": "Sau love / like / enjoy / hate dùng V-ing: I enjoy reading. Phủ định hiện tại đơn: don't / doesn't + V.",
+      "examples": ["I love making models, but I don't like jogging."]
+    },
+    {
+      "id": "f03",
+      "text": "My best friend enjoys ___. He / She ___ every ___.",
+      "vi": "Bạn thân mình thích ... Bạn ấy ... mỗi ...",
+      "grammarNote": "Với he / she / it, động từ hiện tại đơn thêm -s hoặc -es: she plays, he watches.",
+      "examples": ["My best friend enjoys gardening. She waters her plants every morning."]
+    },
+    {
+      "id": "f04",
+      "text": "___ helps me ___ because ___.",
+      "vi": "... giúp mình ... vì ...",
+      "grammarNote": "help + người + động từ nguyên mẫu: It helps me relax. Dùng because để nêu lý do.",
+      "examples": ["Drawing helps me forget stress because I only think about colours and shapes."]
+    },
+    {
+      "id": "f05",
+      "text": "Do you like ___? Let's ___ together this ___.",
+      "vi": "Bạn có thích ... không? Cùng ... vào ... này nhé.",
+      "grammarNote": "Câu hỏi hiện tại đơn: Do / Does + chủ ngữ + V? Rủ bạn: Let's + động từ nguyên mẫu.",
+      "examples": ["Do you like gardening? Let's plant some flowers together this Sunday."]
+    },
+    {
+      "id": "f06",
+      "text": "I think ___ is a good hobby for teenagers because ___.",
+      "vi": "Mình nghĩ ... là một sở thích tốt cho tuổi teen vì ...",
+      "grammarNote": "I think + mệnh đề ở hiện tại đơn để nêu ý kiến; I don't think ... để nói ý ngược lại.",
+      "examples": ["I think jogging is a good hobby for teenagers because it keeps them fit."]
+    },
+    {
+      "id": "f07",
+      "text": "I think teenagers should ___ because ___.",
+      "vi": "Mình nghĩ tuổi teen nên ... vì ...",
+      "grammarNote": "should + động từ nguyên mẫu để nêu ý kiến hoặc lời khuyên. Dùng because để nêu lý do.",
+      "examples": ["I think teenagers should try a sport because it keeps them active."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What is your favourite hobby?", "difficulty": 1, "kind": "personal",
+      "keywords": ["my hobby", "enjoy", "love"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về việc em thích làm nhất khi rảnh, rồi nói thêm em thường làm nó ở đâu.",
+      "exampleAnswer": "My favourite hobby is drawing. I draw comics in my notebook after school.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "How often do you do your hobby?", "difficulty": 1, "kind": "personal",
+      "keywords": ["once a week", "every day", "usually"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem em làm sở thích đó mỗi ngày, mỗi tuần hay chỉ vào cuối tuần.",
+      "exampleAnswer": "I play badminton three times a week, usually in the evening.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What does your best friend like doing?", "difficulty": 1, "kind": "personal",
+      "keywords": ["enjoys", "likes", "every"], "frameId": "f03",
+      "hintDirectionVi": "Nhớ lại bạn thân của em hay làm gì lúc rảnh. Khi nói về bạn ấy, nhớ thêm -s vào động từ.",
+      "exampleAnswer": "My best friend likes making models. He builds a new car model every month.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Is there a hobby you don't like? What is it?", "difficulty": 1, "kind": "personal",
+      "keywords": ["don't like", "hate", "boring"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về một sở thích của người khác mà em thấy không hợp với mình.",
+      "exampleAnswer": "Yes. I don't like fishing because I have to sit still for a long time.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do you enjoy your hobby?", "difficulty": 2, "kind": "reason",
+      "keywords": ["relax", "benefit", "because"], "frameId": "f04",
+      "hintDirectionVi": "Nói tên sở thích, rồi nghĩ nó mang lại cho em điều gì: vui hơn, khỏe hơn hay bớt căng thẳng.",
+      "exampleAnswer": "I enjoy gardening because it helps me relax. I also feel happy when my plants grow.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Who do you usually share your hobby with?", "difficulty": 2, "kind": "personal",
+      "keywords": ["with my", "together", "sometimes"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem em làm sở thích một mình hay cùng ai đó trong nhà hoặc trong lớp.",
+      "exampleAnswer": "I usually go jogging with my dad. We run around the park on Sunday mornings.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Is gardening a good hobby for teenagers? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["gardening", "patient", "responsibility"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem làm vườn rèn cho người trẻ điều gì, và có điều gì khó với tuổi teen không.",
+      "exampleAnswer": "I think gardening is a good hobby because it teaches us to be patient and responsible.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Invite a classmate to try your hobby with you.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Do you like", "Let's", "together"], "frameId": "f05",
+      "hintDirectionVi": "Hỏi bạn có thích hoạt động đó không, rồi rủ bạn làm cùng và nói thời gian.",
+      "exampleAnswer": "Do you like making models? Let's make a cardboard house together this Saturday afternoon.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "Why can hobbies help people reduce stress?", "difficulty": 2, "kind": "reason",
+      "keywords": ["stress", "relax", "forget"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về cảm giác của em khi được làm điều mình thích sau một ngày học mệt.",
+      "exampleAnswer": "Hobbies help people reduce stress because they forget their problems and do something fun.", "expectsReason": true
+    },
+    {
+      "id": "q10", "text": "Do you prefer indoor or outdoor hobbies? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["indoor", "outdoor", "fresh air"], "frameId": "f02",
+      "hintDirectionVi": "Chọn một loại trước, rồi nêu một lý do: thời tiết, sức khỏe hay sự yên tĩnh.",
+      "exampleAnswer": "I prefer outdoor hobbies like jogging because I can get fresh air and exercise.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Is it better to have a popular hobby or an unusual one?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["popular", "unusual", "friends"], "frameId": "f06",
+      "hintDirectionVi": "So sánh: sở thích phổ biến thì dễ có bạn cùng chơi, sở thích lạ thì thú vị và khác biệt. Em chọn bên nào?",
+      "exampleAnswer": "I think a popular hobby is better because it is easy to find friends to share it with.", "expectsReason": true
+    },
+    {
+      "id": "q12", "text": "Should parents choose hobbies for their children? Why?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["choose", "interest", "enjoy"], "frameId": "f07",
+      "hintDirectionVi": "Tưởng tượng em tự chọn sở thích và khi bố mẹ chọn giúp. Trường hợp nào em làm vui hơn?",
+      "exampleAnswer": "I don't think so. Children should choose their own hobbies because they enjoy them more.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Your friend feels stressed before exams. Suggest a hobby and explain why.", "difficulty": 3, "kind": "situation",
+      "keywords": ["stress", "jogging", "helps"], "frameId": "f04",
+      "hintDirectionVi": "Chọn một hoạt động nhẹ nhàng, làm được trong thời gian ngắn, rồi nói nó giúp bạn thế nào.",
+      "exampleAnswer": "You should try jogging for twenty minutes a day. It helps you forget stress and sleep better.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "What can a hobby teach you? Explain with an example.", "difficulty": 3, "kind": "reason",
+      "keywords": ["patient", "responsibility", "teach"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về sở thích của em: nó giúp em kiên nhẫn, cẩn thận hay biết chịu trách nhiệm hơn?",
+      "exampleAnswer": "Making models teaches me to be patient. I have to glue small parts carefully for hours.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Your school is starting a hobby club. Tell students why they should join.", "difficulty": 3, "kind": "situation",
+      "keywords": ["join", "benefit", "make friends"], "frameId": "f05",
+      "hintDirectionVi": "Nói câu lạc bộ sẽ làm gì, rồi nêu hai lợi ích để các bạn muốn tham gia.",
+      "exampleAnswer": "Do you like making things? Join our club! You can learn new skills and make new friends.", "expectsReason": true
+    }
+  ]
+}

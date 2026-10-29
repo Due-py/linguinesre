@@ -1,0 +1,158 @@
+{
+  "grade": 6,
+  "unit": 12,
+  "title": "Robots",
+  "titleVi": "Người máy",
+  "topic": "Nói về những việc người máy có thể và không thể làm, người máy em muốn có và ý kiến của em về người máy.",
+  "source": "Global Success 6, Unit 12 (chủ đề, từ vựng, ngữ pháp so sánh nhất của tính từ ngắn)",
+  "vocab": [
+    { "id": "v01", "en": "robot", "vi": "người máy", "example": "The robot can carry heavy boxes." },
+    { "id": "v02", "en": "do the dishes", "vi": "rửa bát, đĩa", "example": "I do the dishes after dinner every evening." },
+    { "id": "v03", "en": "do the washing", "vi": "giặt giũ quần áo", "example": "My mum does the washing on Sunday morning." },
+    { "id": "v04", "en": "iron", "vi": "là, ủi (quần áo)", "example": "Can your robot iron my school shirt?" },
+    { "id": "v05", "en": "put away", "vi": "cất, dọn", "example": "Please put away your toys before bedtime." },
+    { "id": "v06", "en": "repair", "vi": "sửa chữa", "example": "My uncle can repair old bikes." },
+    { "id": "v07", "en": "water", "vi": "tưới nước", "example": "I water the plants on the balcony every day." },
+    { "id": "v08", "en": "guard", "vi": "bảo vệ, canh gác", "example": "A robot dog can guard the house at night." },
+    { "id": "v09", "en": "pick", "vi": "hái, thu hoạch", "example": "This robot can pick oranges from the trees." },
+    { "id": "v10", "en": "useful", "vi": "hữu ích", "example": "A calculator is useful in maths lessons." },
+    { "id": "v11", "en": "feelings", "vi": "cảm xúc, tình cảm", "example": "My best friend understands my feelings." },
+    { "id": "v12", "en": "space station", "vi": "trạm vũ trụ", "example": "Some robots work on the space station." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I can ___, but I can't ___.",
+      "vi": "Mình có thể ..., nhưng mình không thể ...",
+      "grammarNote": "can / can't + động từ nguyên mẫu để nói khả năng; không thêm -s sau can.",
+      "examples": ["I can ride a bike, but I can't swim.", "My robot can dance, but it can't sing."]
+    },
+    {
+      "id": "f02",
+      "text": "I'd like a robot that can ___.",
+      "vi": "Mình muốn có một người máy có thể ...",
+      "grammarNote": "that + can + động từ để nói người máy làm được gì: a robot that can cook.",
+      "examples": ["I'd like a robot that can do my homework with me."]
+    },
+    {
+      "id": "f03",
+      "text": "I think ___ is the ___ robot because ___.",
+      "vi": "Mình nghĩ ... là người máy ... nhất vì ...",
+      "grammarNote": "So sánh nhất của tính từ ngắn: the + tính từ + -est (the fastest, the biggest). Bất quy tắc: good → the best.",
+      "examples": ["I think the red one is the best robot because it can do many things."]
+    },
+    {
+      "id": "f04",
+      "text": "Can your robot ___?",
+      "vi": "Người máy của bạn có thể ... không?",
+      "grammarNote": "Câu hỏi với can: Can + chủ ngữ + động từ nguyên mẫu? Trả lời: Yes, it can. / No, it can't.",
+      "examples": ["Can your robot play chess? Yes, it can."]
+    },
+    {
+      "id": "f05",
+      "text": "In the future, robots will ___, but people ___.",
+      "vi": "Trong tương lai, người máy sẽ ..., nhưng con người ...",
+      "grammarNote": "will + động từ để dự đoán; but nối hai ý trái ngược.",
+      "examples": ["In the future, robots will do more jobs, but people will still need friends."]
+    },
+    {
+      "id": "f06",
+      "text": "I think robots are useful because ___, but ___.",
+      "vi": "Mình nghĩ người máy hữu ích vì ..., nhưng ...",
+      "grammarNote": "Nêu ý kiến bằng I think; because nêu lý do, but nêu điểm trái ngược.",
+      "examples": ["I think robots are useful because they work hard, but they can't feel."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What can you do well?", "difficulty": 1, "kind": "personal",
+      "keywords": ["can", "can't", "well"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một việc em làm giỏi và một việc em chưa làm được.",
+      "exampleAnswer": "I can swim well, but I can't play the piano.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What is the hardest housework for you?", "difficulty": 1, "kind": "personal",
+      "keywords": ["iron", "hardest", "can't"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về việc nhà em thấy khó hoặc mệt nhất, rồi nói em làm được hay chưa.",
+      "exampleAnswer": "Ironing is the hardest for me. I can't do it well.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Do you have any robot toys?", "difficulty": 1, "kind": "personal",
+      "keywords": ["robot", "walk", "talk"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về đồ chơi người máy em có hoặc từng thấy. Nó làm được gì?",
+      "exampleAnswer": "Yes, I have a small robot. It can walk and talk.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Are robots useful?", "difficulty": 1, "kind": "opinion",
+      "keywords": ["useful", "help", "work"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về một việc người máy giúp con người ở nhà, ở nhà máy hoặc ở bệnh viện.",
+      "exampleAnswer": "Yes, they are. They can help people do hard work.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "What would you like a robot to do for you?", "difficulty": 2, "kind": "personal",
+      "keywords": ["do the washing", "put away", "tidy"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về việc em ngại làm nhất mỗi ngày. Nếu có người máy, em nhờ nó làm gì?",
+      "exampleAnswer": "I'd like a robot that can do the washing and put away my clothes.", "expectsReason": false
+    },
+    {
+      "id": "q06", "text": "What would you call your robot, and what can it do?", "difficulty": 2, "kind": "personal",
+      "keywords": ["call", "repair", "water"], "frameId": "f01",
+      "hintDirectionVi": "Tưởng tượng em có một người máy riêng. Đặt cho nó một cái tên, rồi kể hai việc nó làm được.",
+      "exampleAnswer": "I'd call it Bob. It can repair bikes and water the plants.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Would you like a robot teacher? Why?", "difficulty": 2, "kind": "reason",
+      "keywords": ["robot teacher", "questions", "fun"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem người máy dạy học có thể làm tốt điều gì và thiếu điều gì so với thầy cô thật.",
+      "exampleAnswer": "Yes! A robot teacher can answer all my questions, and it never gets tired.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "What is the best robot for your family? Why?", "difficulty": 2, "kind": "reason",
+      "keywords": ["the best", "cooking", "because"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem gia đình em bận nhất với việc gì. Người máy nào sẽ giúp được nhiều nhất?",
+      "exampleAnswer": "I think a cooking robot is the best because my parents are always busy.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Can robots be our friends? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["feelings", "talk", "play"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem một người bạn thật làm gì cho em. Người máy có làm được những điều đó không?",
+      "exampleAnswer": "I don't think so. Robots can talk and play, but they can't understand feelings.", "expectsReason": true
+    },
+    {
+      "id": "q10", "text": "Should robots look after small children? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["look after", "safe", "love"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem trẻ nhỏ cần gì: an toàn, đồ ăn, tình thương. Người máy lo được điều nào?",
+      "exampleAnswer": "I don't think so. Small children need people who love them.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Ask your friend what his or her robot can do.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Can your robot", "Yes, it can", "No, it can't"], "frameId": "f04",
+      "hintDirectionVi": "Đặt hai câu hỏi bắt đầu bằng Can your robot ...? về những việc em tò mò.",
+      "exampleAnswer": "Can your robot dance? Can it make breakfast?", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Which job can a robot do better than people? Why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["guard", "never sleeps", "dangerous"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về việc lặp đi lặp lại, nặng nhọc hoặc nguy hiểm. Người máy có điểm gì hơn con người?",
+      "exampleAnswer": "A robot can guard houses better because it never sleeps.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Will robots make our lives better or worse?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["better", "lazy", "help"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về một điều tốt và một điều đáng lo khi người máy làm nhiều việc thay ta.",
+      "exampleAnswer": "Better, I think. But people might become lazy if robots do everything.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "You are at a robot show. Tell your friend about the best robot.", "difficulty": 3, "kind": "situation",
+      "keywords": ["the best", "the fastest", "can"], "frameId": "f03",
+      "hintDirectionVi": "Chỉ cho bạn người máy em thấy ấn tượng nhất, rồi kể hai việc nó làm được.",
+      "exampleAnswer": "Look! That's the best robot here. It can pick fruit and play football!", "expectsReason": false
+    },
+    {
+      "id": "q15", "text": "Your robot is broken. Ask a shop to repair it.", "difficulty": 3, "kind": "situation",
+      "keywords": ["broken", "repair", "can't"], "frameId": "f04",
+      "hintDirectionVi": "Chào người bán hàng, nói người máy bị làm sao, rồi nhờ họ sửa một cách lịch sự.",
+      "exampleAnswer": "Hello. My robot is broken. It can't walk. Can you repair it, please?", "expectsReason": false
+    }
+  ]
+}

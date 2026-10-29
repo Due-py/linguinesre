@@ -1,0 +1,158 @@
+{
+  "grade": 11,
+  "unit": 2,
+  "title": "The Generation Gap",
+  "titleVi": "Khoảng cách thế hệ",
+  "topic": "Nói về gia đình em, những quy định ở nhà, điểm giống và khác giữa em với bố mẹ, ông bà, và cách các thế hệ hiểu nhau hơn.",
+  "source": "Global Success 11, Unit 2 (chủ đề, từ vựng, ngữ pháp động từ khuyết thiếu must, have to, should)",
+  "vocab": [
+    { "id": "v01", "en": "generation gap", "vi": "khoảng cách thế hệ", "example": "The generation gap in my family is small because we talk a lot." },
+    { "id": "v02", "en": "nuclear family", "vi": "gia đình hạt nhân (1–2 thế hệ)", "example": "I live in a nuclear family with my parents and my sister." },
+    { "id": "v03", "en": "extended family", "vi": "đại gia đình, gia đình nhiều thế hệ", "example": "During Tet, my extended family gathers at my grandparents' house." },
+    { "id": "v04", "en": "digital native", "vi": "người lớn lên cùng công nghệ số", "example": "As a digital native, my little sister could use a tablet before she could read." },
+    { "id": "v05", "en": "screen time", "vi": "thời gian dùng thiết bị điện tử", "example": "My parents want me to reduce my screen time at night." },
+    { "id": "v06", "en": "conflict", "vi": "sự xung đột, va chạm", "example": "Small conflicts between brothers and sisters are quite normal." },
+    { "id": "v07", "en": "argument", "vi": "cuộc tranh cãi", "example": "We had an argument about whose turn it was to do the washing-up." },
+    { "id": "v08", "en": "adapt", "vi": "thích nghi", "example": "My grandma has adapted to video calls very quickly." },
+    { "id": "v09", "en": "value", "vi": "giá trị; coi trọng", "example": "My family values honesty more than anything else." },
+    { "id": "v10", "en": "view", "vi": "quan điểm", "example": "My dad and I have very different views on music." },
+    { "id": "v11", "en": "freedom", "vi": "sự tự do", "example": "Teenagers want more freedom to make their own choices." },
+    { "id": "v12", "en": "influence", "vi": "gây ảnh hưởng", "example": "My older cousin has influenced my taste in books." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "At home, I have to ___ because ___.",
+      "vi": "Ở nhà, mình phải ... vì ...",
+      "grammarNote": "have to + V: phải làm vì quy định hoặc hoàn cảnh bên ngoài (bố mẹ, nhà trường yêu cầu).",
+      "examples": ["At home, I have to wash the dishes after dinner because everyone shares the housework."]
+    },
+    {
+      "id": "f02",
+      "text": "You must ___, and you mustn't ___.",
+      "vi": "Bạn phải ..., và bạn không được ...",
+      "grammarNote": "must + V: bắt buộc, thường do người nói đặt ra; mustn't + V: cấm, không được làm.",
+      "examples": ["You must knock before you come into my room, and you mustn't read my diary."]
+    },
+    {
+      "id": "f03",
+      "text": "I don't have to ___ anymore, but I still have to ___.",
+      "vi": "Mình không cần ... nữa, nhưng vẫn phải ...",
+      "grammarNote": "don't have to = không cần, không bắt buộc. Khác với mustn't = bị cấm.",
+      "examples": ["I don't have to go to bed at eight anymore, but I still have to switch off my phone at ten."]
+    },
+    {
+      "id": "f04",
+      "text": "I think ___ should ___ because ___.",
+      "vi": "Mình nghĩ ... nên ... vì ...",
+      "grammarNote": "should + V để khuyên hoặc nêu ý kiến rằng việc gì là nên làm.",
+      "examples": ["I think parents should listen to their children more because it helps avoid conflicts."]
+    },
+    {
+      "id": "f05",
+      "text": "My ___ and I both ___, but we disagree about ___.",
+      "vi": "Mình và ... đều ..., nhưng bất đồng về ...",
+      "grammarNote": "both đứng trước động từ thường để nói điểm chung; nối ý trái ngược bằng but.",
+      "examples": ["My grandma and I both love cooking, but we disagree about music."]
+    },
+    {
+      "id": "f06",
+      "text": "Teenagers shouldn't ___, but they should ___.",
+      "vi": "Tuổi teen không nên ..., nhưng nên ...",
+      "grammarNote": "shouldn't + V: khuyên không nên làm; should + V: khuyên nên làm.",
+      "examples": ["Teenagers shouldn't play games all night, but they should be allowed to relax at the weekend."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What household rules do you have to follow at home?", "difficulty": 1, "kind": "personal",
+      "keywords": ["have to", "housework", "be home"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về những việc bố mẹ yêu cầu em làm mỗi ngày, hoặc giờ giấc em phải tuân theo.",
+      "exampleAnswer": "I have to make my bed every morning and wash the dishes after dinner. I also have to be home before nine in the evening.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What is one thing you have to do every day, even when you are tired?", "difficulty": 1, "kind": "personal",
+      "keywords": ["have to", "homework", "every day"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một việc em không thể bỏ qua dù mệt. Ai yêu cầu, hay do chính em đặt ra?",
+      "exampleAnswer": "I have to finish my homework before I go to bed, even when I am tired. Otherwise, I will get behind in class.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What do you and your grandparents have in common?", "difficulty": 1, "kind": "personal",
+      "keywords": ["both", "in common", "disagree"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về sở thích, món ăn, thói quen em và ông bà cùng thích. Có điều gì hai bên khác nhau không?",
+      "exampleAnswer": "My grandma and I both love cooking. We disagree about music, but we often make spring rolls together at the weekend.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Should teenagers help with housework? Why?", "difficulty": 1, "kind": "opinion",
+      "keywords": ["should", "life skills", "share"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem làm việc nhà mang lại gì cho bản thân em và cho cả nhà.",
+      "exampleAnswer": "Yes, I think teenagers should help with housework because they live in the house too. It also teaches them useful life skills.", "expectsReason": true
+    },
+    {
+      "id": "q05", "text": "Why do parents and teenagers sometimes have arguments?", "difficulty": 2, "kind": "reason",
+      "keywords": ["argument", "view", "freedom"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về những chủ đề hay gây tranh cãi trong nhà: điện thoại, giờ về, bạn bè. Mỗi bên lo lắng hay mong muốn điều gì?",
+      "exampleAnswer": "They often have different views about screen time and going out. Parents worry about safety, but teenagers want more freedom.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Should parents limit their children's screen time? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["limit", "screen time", "responsible"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem trẻ nhỏ và tuổi teen có khác nhau không. Ai nên quyết định thời gian dùng điện thoại?",
+      "exampleAnswer": "I think parents should limit it for young children. But teenagers should also learn to manage their own screen time responsibly.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Why is it important to respect the values of older people?", "difficulty": 2, "kind": "reason",
+      "keywords": ["value", "experience", "respect"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về những điều ông bà, bố mẹ coi trọng và những gì họ đã trải qua. Em học được gì từ đó?",
+      "exampleAnswer": "Older people have a lot of experience. Their values, like honesty and hard work, can guide us, even if we don't always agree with them.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Your younger cousin keeps using your laptop without asking. Tell them your rules.", "difficulty": 2, "kind": "situation",
+      "keywords": ["must", "mustn't", "ask first"], "frameId": "f02",
+      "hintDirectionVi": "Nói rõ một việc em bắt buộc em họ phải làm và một việc tuyệt đối không được làm, giọng nhẹ nhàng.",
+      "exampleAnswer": "You must ask me before you use my laptop, and you mustn't open my school files. If you follow these rules, you can play games on it.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "What is something you had to do as a child but don't have to do now?", "difficulty": 2, "kind": "personal",
+      "keywords": ["had to", "don't have to", "anymore"], "frameId": "f03",
+      "hintDirectionVi": "Nhớ lại các quy định hồi em học tiểu học. Quy định nào giờ đã được bỏ, quy định nào vẫn còn?",
+      "exampleAnswer": "As a child, I had to go to bed at eight. I don't have to do that anymore, but I still have to switch off my phone at ten.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Is living with an extended family a good idea? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["extended family", "support", "privacy"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một lợi ích và một khó khăn khi ông bà, bố mẹ, con cháu sống chung một nhà.",
+      "exampleAnswer": "I think it is a good idea. Grandparents can help look after the children, and everyone supports each other. However, it can be hard to have privacy.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "How do you usually spend time with older members of your family?", "difficulty": 2, "kind": "personal",
+      "keywords": ["grandparents", "stories", "together"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về những lúc em ở cùng ông bà, cô chú: ăn cơm, đi chợ, nghe kể chuyện. Em thích nhất lúc nào?",
+      "exampleAnswer": "I often visit my grandparents on Sundays. We have lunch together, and my grandpa tells me stories about his childhood.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Is technology making the generation gap bigger? Explain your view.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["generation gap", "social media", "keep in touch"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ cả hai mặt: công nghệ làm các thế hệ xa nhau ở điểm nào, và giúp họ gần nhau ở điểm nào.",
+      "exampleAnswer": "Partly, yes. Teenagers spend hours on social media, while older people prefer talking face to face. But technology can also help families keep in touch.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "You want to go on a two-day trip with friends, but your parents disagree. Persuade them politely.", "difficulty": 3, "kind": "situation",
+      "keywords": ["promise", "safe", "responsible"], "frameId": "f04",
+      "hintDirectionVi": "Hiểu nỗi lo của bố mẹ trước, rồi đưa ra lời hứa cụ thể giúp bố mẹ yên tâm hơn.",
+      "exampleAnswer": "I know you worry about me. I promise to call you every evening, and our teacher will come with us. This trip will help me become more responsible.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "Which value from your parents' generation do you want to keep, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["value", "honesty", "hard work"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một đức tính em thấy ở bố mẹ hoặc ông bà mà em ngưỡng mộ. Nó giúp họ thế nào trong cuộc sống?",
+      "exampleAnswer": "I want to keep their honesty. My parents always tell the truth, even when it is difficult, and people trust them because of that.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Your parent thinks gaming is a waste of time. Explain your view and suggest a compromise.", "difficulty": 3, "kind": "situation",
+      "keywords": ["shouldn't", "limit", "agree"], "frameId": "f06",
+      "hintDirectionVi": "Đồng ý một phần với bố mẹ, nói một điểm tốt của trò chơi, rồi đề xuất một giới hạn cả hai cùng chấp nhận được.",
+      "exampleAnswer": "I agree that I shouldn't play for hours. But some games teach teamwork. Maybe I could play for one hour after finishing my homework?", "expectsReason": true
+    }
+  ]
+}

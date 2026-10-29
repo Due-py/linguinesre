@@ -1,0 +1,172 @@
+{
+  "grade": 9,
+  "unit": 5,
+  "title": "Our Experiences",
+  "titleVi": "Những trải nghiệm của chúng ta",
+  "topic": "Nói về những trải nghiệm em đã có: chuyến đi, khóa học, khoảnh khắc đáng nhớ hay đáng xấu hổ, và điều em học được từ chúng.",
+  "source": "Global Success 9, Unit 5 (chủ đề, từ vựng, ngữ pháp thì hiện tại hoàn thành)",
+  "vocab": [
+    { "id": "v01", "en": "experience", "vi": "sự trải nghiệm", "example": "Camping in the forest was a new experience for me." },
+    { "id": "v02", "en": "memorable", "vi": "đáng nhớ", "example": "Our class trip to the beach was really memorable." },
+    { "id": "v03", "en": "embarrassing", "vi": "làm ai bối rối, ngượng ngùng", "example": "It was embarrassing when I called my teacher 'Mum'." },
+    { "id": "v04", "en": "exhilarating", "vi": "đầy phấn khích", "example": "Riding the zip line was an exhilarating experience." },
+    { "id": "v05", "en": "thrilling", "vi": "rất phấn khích và rất vui", "example": "The football final was thrilling from start to finish." },
+    { "id": "v06", "en": "touching", "vi": "gây xúc động", "example": "The film about the old dog was very touching." },
+    { "id": "v07", "en": "unpleasant", "vi": "không thoải mái, không vui vẻ", "example": "Getting lost in the rain was an unpleasant experience." },
+    { "id": "v08", "en": "confidence", "vi": "sự tự tin", "example": "Speaking in front of the class gave me more confidence." },
+    { "id": "v09", "en": "explore", "vi": "khám phá, tìm tòi", "example": "We spent the afternoon exploring the old streets." },
+    { "id": "v10", "en": "eco-tour", "vi": "du lịch sinh thái", "example": "On the eco-tour, we learnt how to protect the mangrove forest." },
+    { "id": "v11", "en": "performance", "vi": "buổi biểu diễn", "example": "Our class gave a dance performance at the school festival." },
+    { "id": "v12", "en": "snorkelling", "vi": "bơi lặn với ống thở", "example": "I'd love to try snorkelling to see the colourful fish." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I've ___ before. It was really ___.",
+      "vi": "Mình đã từng ... rồi. Nó thật sự ...",
+      "grammarNote": "Hiện tại hoàn thành (have / has + V3) nói về trải nghiệm, không nói rõ thời gian.",
+      "examples": ["I've tried rock climbing before. It was really thrilling."]
+    },
+    {
+      "id": "f02",
+      "text": "I have never ___, but I'd love to ___ one day.",
+      "vi": "Mình chưa bao giờ ..., nhưng mình rất muốn ... một ngày nào đó.",
+      "grammarNote": "have never + V3: chưa bao giờ làm gì. I'd love to + V nguyên mẫu để nói mong muốn.",
+      "examples": ["I have never been on a plane, but I'd love to fly to Japan one day."]
+    },
+    {
+      "id": "f03",
+      "text": "The most ___ experience I've ever had was ___.",
+      "vi": "Trải nghiệm ... nhất mà mình từng có là ...",
+      "grammarNote": "So sánh nhất + hiện tại hoàn thành với ever: the most memorable trip I've ever had.",
+      "examples": ["The most memorable experience I've ever had was sleeping in a tent on the beach."]
+    },
+    {
+      "id": "f04",
+      "text": "I've ___ for ___ / since ___.",
+      "vi": "Mình đã ... được ... (khoảng thời gian) / từ ... (mốc thời gian).",
+      "grammarNote": "Hiện tại hoàn thành với for + khoảng thời gian (for two years) và since + mốc thời gian (since 2022).",
+      "examples": ["I've played the guitar for three years.", "I've known my best friend since Grade 6."]
+    },
+    {
+      "id": "f05",
+      "text": "It was ___ because ___. After that, I felt ___.",
+      "vi": "Chuyện đó thật ... vì ... Sau đó mình thấy ...",
+      "grammarNote": "Tính từ đuôi -ing tả sự việc (embarrassing); tính từ đuôi -ed tả cảm xúc của người (embarrassed).",
+      "examples": ["It was exciting because I scored a goal. After that, I felt proud of myself."]
+    },
+    {
+      "id": "f06",
+      "text": "That experience has helped me ___.",
+      "vi": "Trải nghiệm đó đã giúp mình ...",
+      "grammarNote": "Hiện tại hoàn thành nói về kết quả còn ảnh hưởng đến hiện tại. help + somebody + V nguyên mẫu.",
+      "examples": ["That experience has helped me become more patient."]
+    },
+    {
+      "id": "f07",
+      "text": "I think ___ is better because ___.",
+      "vi": "Em nghĩ ... tốt hơn vì ...",
+      "grammarNote": "better là dạng so sánh hơn của good; because + mệnh đề để nêu lý do.",
+      "examples": ["I think learning by doing is better because we remember things for longer."]
+    },
+    {
+      "id": "f08",
+      "text": "Welcome back! How was ___? Have you ___?",
+      "vi": "Mừng bạn về! ... thế nào? Bạn đã ... chưa?",
+      "grammarNote": "Have you + V3 / V-ed ...?: hỏi về trải nghiệm bằng thì hiện tại hoàn thành.",
+      "examples": ["Welcome back! How was the trip? Have you made any new friends?"]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Have you ever tried a new sport? What was it like?", "difficulty": 1, "kind": "personal",
+      "keywords": ["have tried", "before", "exciting"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại một môn thể thao em mới thử lần đầu. Lúc đó em thấy dễ, khó, vui hay sợ?",
+      "exampleAnswer": "Yes, I have. I've tried rock climbing once. It was really thrilling, and my legs were shaking at the top.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What is something you have never done but want to do?", "difficulty": 1, "kind": "personal",
+      "keywords": ["never", "snorkelling", "one day"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về một việc em hay thấy người khác làm mà em chưa có dịp thử.",
+      "exampleAnswer": "I have never seen the sea, but I'd love to go snorkelling and explore a coral reef one day.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "How long have you studied English?", "difficulty": 1, "kind": "personal",
+      "keywords": ["for", "since", "years"], "frameId": "f04",
+      "hintDirectionVi": "Nhớ lại em bắt đầu học tiếng Anh từ lớp mấy, rồi dùng for hoặc since để trả lời.",
+      "exampleAnswer": "I've studied English for about six years, since I was in Grade 3. I enjoy speaking more than grammar.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What is the most memorable trip you have ever taken?", "difficulty": 1, "kind": "personal",
+      "keywords": ["memorable", "ever", "with my class"], "frameId": "f03",
+      "hintDirectionVi": "Chọn một chuyến đi em vẫn nhớ rõ. Em đi đâu, với ai, và điều gì làm em nhớ mãi?",
+      "exampleAnswer": "The most memorable trip I've ever taken was to Da Lat with my class. We camped and sang around a fire.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do people say that bad experiences can also be useful?", "difficulty": 2, "kind": "reason",
+      "keywords": ["learn", "mistake", "stronger"], "frameId": "f06",
+      "hintDirectionVi": "Nhớ lại một lần em gặp chuyện không vui. Sau lần đó em đã thay đổi hay rút ra điều gì?",
+      "exampleAnswer": "Bad experiences teach us lessons. When I failed a test, it helped me learn to plan my revision better.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Why can summer courses help students gain confidence?", "difficulty": 2, "kind": "reason",
+      "keywords": ["confidence", "new friends", "on their own"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về những gì học sinh phải tự làm ở một khóa học xa nhà: làm quen, tự lo cho mình.",
+      "exampleAnswer": "Students meet new people and try new things on their own. Each small success makes them feel more confident.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Is it better to learn by rote or to learn by doing? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["learn by rote", "practise", "remember"], "frameId": "f07",
+      "hintDirectionVi": "So sánh học thuộc lòng với tự tay làm. Cách nào giúp em nhớ lâu và hiểu sâu hơn?",
+      "exampleAnswer": "Learning by doing is better. When we try things ourselves, we remember them longer and understand them more deeply.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Should students go on eco-tours instead of normal school trips? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["eco-tour", "nature", "protect"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ xem một chuyến du lịch sinh thái dạy học sinh điều gì mà chuyến đi chơi bình thường không có.",
+      "exampleAnswer": "Yes, sometimes. Eco-tours are exciting, and they teach us how to explore nature without harming it.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Tell me about an embarrassing moment you have had at school.", "difficulty": 2, "kind": "personal",
+      "keywords": ["embarrassing", "laughed", "felt"], "frameId": "f05",
+      "hintDirectionVi": "Chọn một chuyện nhỏ, buồn cười mà em không ngại kể. Chuyện gì xảy ra và sau đó em cảm thấy thế nào?",
+      "exampleAnswer": "Once I fell over on stage during a performance. It was so embarrassing, but everyone clapped and I felt better.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Your friend has just come back from a summer camp. Ask them about it.", "difficulty": 2, "kind": "situation",
+      "keywords": ["How was", "What did you do", "Have you"], "frameId": "f08",
+      "hintDirectionVi": "Chào đón bạn, rồi hỏi hai ba câu về hoạt động, bạn mới và cảm nhận của bạn.",
+      "exampleAnswer": "Welcome back! How was the camp? What activities did you do, and did you make any new friends?", "expectsReason": false
+    },
+    {
+      "id": "q11", "text": "Your teacher asks you to share a touching experience with the class. Start your talk.", "difficulty": 2, "kind": "situation",
+      "keywords": ["touching", "the most", "ever"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một lần em thấy cảm động vì ai đó đối xử tốt với em hoặc người khác. Mở đầu bằng câu so sánh nhất.",
+      "exampleAnswer": "The most touching experience I've ever had was when my classmates secretly made a big birthday card for me.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Do experiences teach us more than books do? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["experience", "lesson", "knowledge"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem sách cho em điều gì và trải nghiệm thật cho em điều gì. Cái nào khó học từ sách?",
+      "exampleAnswer": "I think experiences teach us more. Books give us knowledge, but real experiences have helped me learn patience and teamwork.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Which experience has changed you the most so far, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["has changed", "since then", "confident"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về một sự kiện mà sau đó em thấy mình khác đi: tự tin hơn, kiên nhẫn hơn, trưởng thành hơn.",
+      "exampleAnswer": "Joining the school debate club has changed me the most. Since then, I've become more confident when I speak in public.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "A friend is nervous about joining a camp far from home. Encourage them to go.", "difficulty": 3, "kind": "situation",
+      "keywords": ["never", "exhilarating", "confidence"], "frameId": "f02",
+      "hintDirectionVi": "Hiểu nỗi lo của bạn trước, rồi nêu những điều thú vị bạn sẽ có được nếu tham gia.",
+      "exampleAnswer": "I know you've never been away alone, but this camp will be exhilarating! You'll make new friends and gain lots of confidence.", "expectsReason": false
+    },
+    {
+      "id": "q15", "text": "Should teenagers try things that scare them a little? Why?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["challenge", "brave", "thrilling"], "frameId": "f03",
+      "hintDirectionVi": "Nhớ lại một lần em vượt qua nỗi sợ nhỏ. Sau đó em có thay đổi gì không?",
+      "exampleAnswer": "Yes, they should. Facing small fears helps us grow. The most thrilling thing I've ever done was speaking on stage, and now I'm braver.", "expectsReason": true
+    }
+  ]
+}

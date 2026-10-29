@@ -1,153 +1,144 @@
 "use server";
 
 import { redirect } from "next/navigation";
-import {
-  applyFailedLogin,
-  cleanNickname,
-  hiddenEmail,
-  isLocked,
-  isValidClassCode,
-  isValidPin,
-  MAX_FAILED_LOGINS,
-  minutesLeft,
-  nicknameError,
-  nicknameKey,
-  normalizeClassCode,
-  PIN_LENGTH,
-  type LoginAttemptState,
-} from "@/lib/auth/identity";
-import { createSupabaseAdminClient } from "@/lib/supabase/admin";
-import { isSupabaseConfigured, NOT_CONFIGURED_MESSAGE } from "@/lib/supabase/env";
-import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { createClient } from "@/lib/supabase/server";
+import { isSupabaseConfigured, siteUrl } from "@/lib/supabase/env";
+import { fieldErrors, forgotSchema, loginSchema, resetSchema, signupSchema } from "@/lib/validation";
+import { formValues, NOT_CONFIGURED, type FormState } from "@/lib/form";
+import { codeEmail, normalizeCode, PIN_PATTERN } from "@/lib/research/code";
 
-export interface AuthFormState {
-  error?: string;
-  /** Echoed back so the form keeps what the student typed (never the PIN). */
-  fields?: { classCode: string; nickname: string };
+/** Giá trị điền lại ô nhập khi có lỗi: chỉ giữ email, không bao giờ trả mật khẩu về trình duyệt. */
+const keepEmail = (raw: Record<string, string>) => ({ email: raw.email ?? "" });
+
+export async function signIn(_prev: FormState, formData: FormData): Promise<FormState> {
+  const raw = formValues(formData);
+  const parsed = loginSchema.safeParse(raw);
+  if (!parsed.success) return { fields: fieldErrors(parsed.error), values: keepEmail(raw) };
+  if (!isSupabaseConfigured()) return { error: NOT_CONFIGURED, values: keepEmail(raw) };
+
+  const supabase = await createClient();
+  const { error } = await supabase.auth.signInWithPassword(parsed.data);
+  if (error) {
+    const unconfirmed = error.code === "email_not_confirmed";
+    return {
+      // Cùng một thông báo cho "sai email" và "sai mật khẩu" để không lộ email nào đã đăng ký.
+      error: unconfirmed
+        ? "Email này chưa được xác nhận. Hãy mở thư xác nhận trong hộp thư của bạn."
+        : "Email hoặc mật khẩu chưa đúng. Hãy kiểm tra lại.",
+      values: keepEmail(raw),
+    };
+  }
+  redirect("/home");
 }
 
-const CONNECTION_ERROR = "Có lỗi kết nối. Bạn thử lại sau ít phút nhé.";
-const WRONG_LOGIN = "Mã lớp, biệt danh hoặc PIN chưa đúng.";
+/**
+ * Học sinh tham gia nghiên cứu: mã HS + PIN 6 số (nhóm nghiên cứu phát phiếu). Không có đăng ký hay quên PIN trên web:
+ * quên PIN thì báo nhóm nghiên cứu cấp lại (scripts/research-students.mjs --reset).
+ */
+export async function signInWithCode(_prev: FormState, formData: FormData): Promise<FormState> {
+  const raw = formValues(formData);
+  const code = normalizeCode(raw.code ?? "");
+  const keep = { code: raw.code ?? "" };
+  const fields: Record<string, string> = {};
+  if (!code) fields.code = "Mã học sinh có dạng HS008 (2 chữ cái và 2–4 chữ số).";
+  if (!PIN_PATTERN.test(raw.pin ?? "")) fields.pin = "PIN gồm đúng 6 chữ số.";
+  if (Object.keys(fields).length) return { fields, values: keep };
+  if (!isSupabaseConfigured()) return { error: NOT_CONFIGURED, values: keep };
 
-function readForm(formData: FormData) {
+  const supabase = await createClient();
+  const { error } = await supabase.auth.signInWithPassword({ email: codeEmail(code!), password: raw.pin });
+  if (error) {
+    return {
+      error:
+        error.status === 429
+          ? "Nhập sai nhiều lần. Hãy đợi vài phút rồi thử lại."
+          : "Mã học sinh hoặc PIN chưa đúng. Kiểm tra lại phiếu đăng nhập của bạn.",
+      values: keep,
+    };
+  }
+  redirect("/home");
+}
+
+export async function signUp(_prev: FormState, formData: FormData): Promise<FormState> {
+  const raw = formValues(formData);
+  const parsed = signupSchema.safeParse(raw);
+  if (!parsed.success) return { fields: fieldErrors(parsed.error), values: keepEmail(raw) };
+  if (!isSupabaseConfigured()) return { error: NOT_CONFIGURED, values: keepEmail(raw) };
+
+  const supabase = await createClient();
+  const { data, error } = await supabase.auth.signUp({
+    email: parsed.data.email,
+    password: parsed.data.password,
+    options: { emailRedirectTo: `${siteUrl()}/auth/callback?next=/home` },
+  });
+  if (error) {
+    const weak = error.code === "weak_password";
+    return {
+      error: weak
+        ? "Mật khẩu quá dễ đoán. Hãy dùng mật khẩu dài hơn hoặc thêm chữ số."
+        : error.code === "over_email_send_rate_limit"
+          ? "Đã gửi quá nhiều email trong một thời gian ngắn. Hãy thử lại sau ít phút."
+          : "Chưa tạo được tài khoản. Hãy thử lại sau.",
+      values: keepEmail(raw),
+    };
+  }
+  // Có phiên ngay = Supabase đang tắt "Confirm email" → sang onboarding.
+  if (data.session) redirect("/onboarding");
+  // Email đã đăng ký: Supabase trả user không có identity để không lộ email tồn tại. Vẫn hướng dẫn như nhau.
   return {
-    classCode: normalizeClassCode(String(formData.get("classCode") ?? "")),
-    nickname: cleanNickname(String(formData.get("nickname") ?? "")),
-    pin: String(formData.get("pin") ?? ""),
+    notice: `Chúng tôi đã gửi thư xác nhận tới ${parsed.data.email}. Mở thư và bấm vào liên kết để tiếp tục.`,
+    values: keepEmail(raw),
   };
 }
 
-export async function register(_prev: AuthFormState, formData: FormData): Promise<AuthFormState> {
-  if (!isSupabaseConfigured()) return { error: NOT_CONFIGURED_MESSAGE };
-  const { classCode, nickname, pin } = readForm(formData);
-  const fields = { classCode, nickname };
-
-  if (!isValidClassCode(classCode)) return { error: "Mã lớp chưa đúng dạng. Hỏi lại thầy cô nhé.", fields };
-  const badNickname = nicknameError(nickname);
-  if (badNickname) return { error: badNickname, fields };
-  if (!isValidPin(pin)) return { error: `PIN phải gồm đúng ${PIN_LENGTH} chữ số.`, fields };
-  if (pin !== String(formData.get("pinConfirm") ?? "")) return { error: "Hai lần nhập PIN không giống nhau.", fields };
-
-  const admin = createSupabaseAdminClient();
-  const { data: klass, error: classError } = await admin
-    .from("classes")
-    .select("id, is_open")
-    .eq("code", classCode)
-    .maybeSingle();
-  if (classError) return { error: CONNECTION_ERROR, fields };
-  if (!klass || !klass.is_open) {
-    return { error: "Mã lớp không tồn tại hoặc đã đóng đăng ký. Hỏi lại thầy cô nhé.", fields };
-  }
-
-  const key = nicknameKey(nickname);
-  const takenMessage = "Biệt danh này đã có bạn trong lớp dùng rồi. Chọn biệt danh khác nhé.";
-  const { data: taken } = await admin
-    .from("students")
-    .select("id")
-    .eq("class_id", klass.id)
-    .eq("nickname_key", key)
-    .maybeSingle();
-  if (taken) return { error: takenMessage, fields };
-
-  const email = hiddenEmail(klass.id, key);
-  const { data: created, error: createError } = await admin.auth.admin.createUser({
-    email,
-    password: pin,
-    email_confirm: true,
-  });
-  if (createError || !created.user) {
-    console.error("register: createUser failed", createError?.message);
-    return { error: CONNECTION_ERROR, fields };
-  }
-
-  const { error: insertError } = await admin
-    .from("students")
-    .insert({ id: created.user.id, class_id: klass.id, nickname, nickname_key: key });
-  if (insertError) {
-    // Undo the auth account so the nickname can be tried again.
-    await admin.auth.admin.deleteUser(created.user.id);
-    return { error: insertError.code === "23505" ? takenMessage : CONNECTION_ERROR, fields };
-  }
-
-  const supabase = await createSupabaseServerClient();
-  const { error: signInError } = await supabase.auth.signInWithPassword({ email, password: pin });
-  if (signInError) return { error: "Đã tạo tài khoản nhưng chưa đăng nhập được. Bạn đăng nhập lại nhé.", fields };
-
-  redirect("/hoc");
-}
-
-export async function login(_prev: AuthFormState, formData: FormData): Promise<AuthFormState> {
-  if (!isSupabaseConfigured()) return { error: NOT_CONFIGURED_MESSAGE };
-  const { classCode, nickname, pin } = readForm(formData);
-  const fields = { classCode, nickname };
-  if (!isValidClassCode(classCode) || nicknameError(nickname) || !isValidPin(pin)) {
-    return { error: WRONG_LOGIN, fields };
-  }
-
-  const admin = createSupabaseAdminClient();
-  const { data: klass, error: classError } = await admin.from("classes").select("id").eq("code", classCode).maybeSingle();
-  if (classError) return { error: CONNECTION_ERROR, fields };
-  if (!klass) return { error: WRONG_LOGIN, fields };
-
-  const key = nicknameKey(nickname);
-  const attemptKey = { class_id: klass.id, nickname_key: key };
-  const { data: attempt } = await admin
-    .from("login_attempts")
-    .select("failed_count, locked_until")
-    .match(attemptKey)
-    .maybeSingle();
-  const state: LoginAttemptState | null = attempt
-    ? { failedCount: attempt.failed_count, lockedUntil: attempt.locked_until ? new Date(attempt.locked_until) : null }
-    : null;
-  const now = new Date();
-  const lockedMessage = (s: LoginAttemptState) =>
-    `Bạn đã nhập sai quá nhiều lần. Thử lại sau ${minutesLeft(s, now)} phút nhé.`;
-  if (state && isLocked(state, now)) return { error: lockedMessage(state), fields };
-
-  const supabase = await createSupabaseServerClient();
-  const { error } = await supabase.auth.signInWithPassword({ email: hiddenEmail(klass.id, key), password: pin });
-  if (error) {
-    if (error.code !== "invalid_credentials") return { error: CONNECTION_ERROR, fields };
-    const next = applyFailedLogin(state, now);
-    await admin.from("login_attempts").upsert({
-      ...attemptKey,
-      failed_count: next.failedCount,
-      locked_until: next.lockedUntil?.toISOString() ?? null,
-      updated_at: now.toISOString(),
-    });
-    if (isLocked(next, now)) return { error: lockedMessage(next), fields };
-    const left = MAX_FAILED_LOGINS - next.failedCount;
-    return { error: `${WRONG_LOGIN} Bạn còn ${left} lần thử.`, fields };
-  }
-
-  await admin.from("login_attempts").delete().match(attemptKey);
-  redirect("/hoc");
-}
-
-export async function logout(): Promise<void> {
+export async function signOut() {
   if (isSupabaseConfigured()) {
-    const supabase = await createSupabaseServerClient();
+    const supabase = await createClient();
     await supabase.auth.signOut();
   }
   redirect("/");
+}
+
+export async function requestPasswordReset(_prev: FormState, formData: FormData): Promise<FormState> {
+  const raw = formValues(formData);
+  const parsed = forgotSchema.safeParse(raw);
+  if (!parsed.success) return { fields: fieldErrors(parsed.error), values: keepEmail(raw) };
+  if (!isSupabaseConfigured()) return { error: NOT_CONFIGURED, values: keepEmail(raw) };
+
+  const supabase = await createClient();
+  const { error } = await supabase.auth.resetPasswordForEmail(parsed.data.email, {
+    redirectTo: `${siteUrl()}/auth/callback?next=/reset-password`,
+  });
+  if (error?.code === "over_email_send_rate_limit")
+    return { error: "Đã gửi quá nhiều email trong một thời gian ngắn. Hãy thử lại sau ít phút.", values: keepEmail(raw) };
+  // Luôn trả cùng một thông báo, dù email có tồn tại hay không.
+  return {
+    notice: `Nếu ${parsed.data.email} đã có tài khoản, chúng tôi vừa gửi liên kết đặt lại mật khẩu tới đó.`,
+    values: keepEmail(raw),
+  };
+}
+
+export async function updatePassword(_prev: FormState, formData: FormData): Promise<FormState> {
+  const parsed = resetSchema.safeParse(formValues(formData));
+  if (!parsed.success) return { fields: fieldErrors(parsed.error) };
+  if (!isSupabaseConfigured()) return { error: NOT_CONFIGURED };
+
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) return { error: "Liên kết đặt lại mật khẩu đã hết hạn. Hãy yêu cầu liên kết mới." };
+
+  const { error } = await supabase.auth.updateUser({ password: parsed.data.password });
+  if (error) {
+    return {
+      error:
+        error.code === "same_password"
+          ? "Mật khẩu mới phải khác mật khẩu cũ."
+          : error.code === "weak_password"
+            ? "Mật khẩu quá dễ đoán. Hãy dùng mật khẩu dài hơn hoặc thêm chữ số."
+            : "Chưa đổi được mật khẩu. Hãy thử lại.",
+    };
+  }
+  redirect("/home");
 }

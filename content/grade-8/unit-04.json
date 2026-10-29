@@ -1,0 +1,172 @@
+{
+  "grade": 8,
+  "unit": 4,
+  "title": "Ethnic Groups of Viet Nam",
+  "titleVi": "Các dân tộc ở Việt Nam",
+  "topic": "Nói về nhà ở, trang phục, món ăn và nếp sống của các dân tộc ở Việt Nam, so sánh với ngôi nhà và cuộc sống hằng ngày của chính em.",
+  "source": "Global Success 8, Unit 4 (chủ đề, từ vựng, câu hỏi Yes/No và Wh-, danh từ đếm được và không đếm được)",
+  "vocab": [
+    { "id": "v01", "en": "ethnic group", "vi": "nhóm dân tộc", "example": "Each ethnic group in Viet Nam has its own songs and festivals." },
+    { "id": "v02", "en": "stilt house", "vi": "nhà sàn", "example": "We slept in a stilt house during our school trip to the mountains." },
+    { "id": "v03", "en": "communal house", "vi": "nhà rông, nhà sinh hoạt cộng đồng", "example": "The villagers gather in the communal house for important meetings." },
+    { "id": "v04", "en": "costume", "vi": "trang phục", "example": "The dancers wore colourful costumes at the school show." },
+    { "id": "v05", "en": "folk", "vi": "thuộc về dân gian, truyền thống", "example": "My grandmother taught me an old folk song." },
+    { "id": "v06", "en": "highland", "vi": "vùng cao nguyên", "example": "The air in the highlands is cool even in summer." },
+    { "id": "v07", "en": "terraced fields", "vi": "ruộng bậc thang", "example": "The terraced fields look golden in September." },
+    { "id": "v08", "en": "livestock", "vi": "gia súc", "example": "Many families in the mountains keep livestock such as buffaloes and pigs." },
+    { "id": "v09", "en": "minority", "vi": "dân tộc thiểu số", "example": "Our class learnt about the dances of some minority groups." },
+    { "id": "v10", "en": "weave", "vi": "dệt, đan", "example": "My aunt can weave beautiful scarves by hand." },
+    { "id": "v11", "en": "gong", "vi": "cái cồng, cái chiêng", "example": "We could hear the gongs from far away during the festival." },
+    { "id": "v12", "en": "raise", "vi": "chăn nuôi", "example": "My uncle raises chickens and ducks behind his house." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "My favourite place at home is ___ because ___.",
+      "vi": "Chỗ mình thích nhất ở nhà là ... vì ...",
+      "grammarNote": "Dùng a/an trước danh từ đếm được số ít: a balcony, an armchair. because + mệnh đề để nêu lý do.",
+      "examples": ["My favourite place at home is the balcony because I can read and look at the plants there."]
+    },
+    {
+      "id": "f02",
+      "text": "What do people in ___ usually ___?",
+      "vi": "Người ở ... thường ... gì?",
+      "grammarNote": "Câu hỏi Wh-: từ để hỏi + do/does + chủ ngữ + động từ nguyên mẫu: What do they eat? Where does she live?",
+      "examples": ["What do people in your village usually grow?", "Where do the children in this village go to school?"]
+    },
+    {
+      "id": "f03",
+      "text": "Do you ___? Yes, I do. I ___.",
+      "vi": "Bạn có ... không? Có. Mình ...",
+      "grammarNote": "Câu hỏi Yes/No bắt đầu bằng Do/Does/Is/Are. Trả lời ngắn Yes, I do / No, I don't rồi nói thêm một ý.",
+      "examples": ["Do you know any folk games? Yes, I do. I often play tug of war with my classmates."]
+    },
+    {
+      "id": "f04",
+      "text": "There is a lot of ___, but there aren't many ___.",
+      "vi": "Có nhiều ..., nhưng không có nhiều ...",
+      "grammarNote": "Danh từ không đếm được (rice, water) không thêm -s, đi với is. Danh từ đếm được số nhiều đi với many, are.",
+      "examples": ["There is a lot of rice in the fridge, but there aren't many eggs."]
+    },
+    {
+      "id": "f05",
+      "text": "How many ___ / How much ___ do we need for ___?",
+      "vi": "Chúng ta cần bao nhiêu ... cho ...?",
+      "grammarNote": "How many + danh từ đếm được số nhiều; How much + danh từ không đếm được.",
+      "examples": ["How many blankets do we need for the trip?", "How much water do we need for two days?"]
+    },
+    {
+      "id": "f06",
+      "text": "Their ___ is ___, and their ___ are ___.",
+      "vi": "... của họ thì ..., còn ... của họ thì ...",
+      "grammarNote": "Danh từ không đếm được (food, music) đi với is; danh từ đếm được số nhiều (houses, costumes) đi với are.",
+      "examples": ["Their music is lively, and their costumes are very colourful."]
+    },
+    {
+      "id": "f07",
+      "text": "I think ___ should ___ because ___.",
+      "vi": "Mình nghĩ ... nên ... vì ...",
+      "grammarNote": "should + động từ nguyên mẫu để nêu ý kiến; because để nêu lý do.",
+      "examples": ["I think tourists should respect local customs because each group has its own way of life."]
+    },
+    {
+      "id": "f08",
+      "text": "For breakfast, my family usually has ___ and some ___.",
+      "vi": "Bữa sáng, gia đình mình thường ăn ... và một ít ...",
+      "grammarNote": "some dùng với danh từ không đếm được (milk, bread) và danh từ đếm được số nhiều (eggs).",
+      "examples": ["For breakfast, my family usually has sticky rice and some fruit."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What is your favourite place in your home, and what do you do there?", "difficulty": 1, "kind": "personal",
+      "keywords": ["bedroom", "balcony", "relax"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về góc nào trong nhà em hay ngồi nhất. Em thường làm gì ở đó: đọc sách, học bài hay nghỉ ngơi?",
+      "exampleAnswer": "My favourite place is my bedroom. I read comics and listen to music there after school.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Have you ever seen a stilt house? Where did you see it?", "difficulty": 1, "kind": "personal",
+      "keywords": ["stilt house", "wooden", "trip"], "frameId": "f03",
+      "hintDirectionVi": "Em đã thấy nhà sàn ở đâu chưa: trong chuyến đi, trên ti vi hay trong bảo tàng? Nhớ lại một chi tiết em thấy.",
+      "exampleAnswer": "Yes, I have. I saw a stilt house on a school trip. It was wooden and quite big.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Have you ever worn a traditional costume? When did you wear it?", "difficulty": 1, "kind": "personal",
+      "keywords": ["costume", "ao dai", "school event"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một dịp đặc biệt như lễ khai giảng, văn nghệ hay ngày Tết. Em đã mặc trang phục gì?",
+      "exampleAnswer": "Yes, I wore an ao dai at the school festival last year. I felt proud and happy.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What folk game do you know how to play?", "difficulty": 1, "kind": "personal",
+      "keywords": ["folk game", "tug of war", "play"], "frameId": "f03",
+      "hintDirectionVi": "Nhớ lại các trò chơi dân gian em chơi ở trường hoặc ở quê. Em chơi cùng ai?",
+      "exampleAnswer": "I know how to play tug of war. We play it with our classmates at school festivals.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Which ethnic group's culture would you like to learn more about, and why?", "difficulty": 2, "kind": "reason",
+      "keywords": ["ethnic group", "festival", "costume"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về một dân tộc em từng nghe nói hoặc thấy trên ti vi. Điều gì ở họ làm em tò mò: nhà ở, món ăn hay lễ hội?",
+      "exampleAnswer": "I'd like to learn more about the Ede people because their long houses and gong music look very interesting.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Should students learn about the cultures of different ethnic groups at school? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["culture", "understand", "respect"], "frameId": "f07",
+      "hintDirectionVi": "Chọn có hay không trước. Rồi nghĩ xem việc hiểu về văn hóa khác giúp học sinh điều gì khi gặp người mới.",
+      "exampleAnswer": "Yes, they should. When we learn about other cultures, we understand and respect people from different places.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Why do you think traditional costumes are important to many ethnic groups?", "difficulty": 2, "kind": "reason",
+      "keywords": ["costume", "identity", "proud"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem bộ trang phục cho người khác biết điều gì về người mặc, và vì sao người ta muốn giữ gìn nó.",
+      "exampleAnswer": "Traditional costumes show who they are and where they come from. People feel proud when they wear them.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "You are visiting a village in the highlands. Ask a local person three questions about their daily life.", "difficulty": 2, "kind": "situation",
+      "keywords": ["What do", "Where do", "Do you"], "frameId": "f02",
+      "hintDirectionVi": "Dùng các từ để hỏi khác nhau: What, Where, How. Em có thể hỏi về công việc, món ăn hoặc trường học của trẻ em.",
+      "exampleAnswer": "What do you usually grow? Where do the children go to school? Do you raise livestock?", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "What does your family usually have for breakfast?", "difficulty": 2, "kind": "personal",
+      "keywords": ["rice", "noodles", "bread", "eggs"], "frameId": "f08",
+      "hintDirectionVi": "Kể vài món em hay ăn buổi sáng. Chú ý món nào đếm được (eggs) và món nào không đếm được (rice, milk).",
+      "exampleAnswer": "We usually have noodles or bread with two eggs. I also drink some milk before school.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Is it more comfortable to live in a stilt house or in a flat? Why do you think so?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["stilt house", "flat", "cool", "safe"], "frameId": "f01",
+      "hintDirectionVi": "Chọn một bên, rồi nghĩ về một điểm tiện lợi của nó: mát mẻ, gần thiên nhiên hay gần trường, chợ.",
+      "exampleAnswer": "I think a stilt house is more comfortable because it is cool and close to nature. It is also quiet.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Your class is planning a trip to a mountain village. What should you bring, and what would you like to do there?", "difficulty": 2, "kind": "situation",
+      "keywords": ["warm clothes", "How many", "visit"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về thời tiết và đường đi ở vùng núi để chọn đồ mang theo. Sau đó chọn một hoạt động em muốn thử.",
+      "exampleAnswer": "We should bring warm clothes and a lot of water. I'd like to visit the terraced fields and try local food.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "How can young people help to keep the traditions of ethnic groups alive?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["folk song", "learn", "share online"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về những việc học sinh có thể làm: học, giới thiệu với bạn bè, hay chia sẻ lên mạng. Nêu ít nhất hai cách.",
+      "exampleAnswer": "Young people can learn folk songs and traditional crafts. They can also share videos about them online.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Imagine your class is making a short video about life in a highland village. What would you show, and why?", "difficulty": 3, "kind": "situation",
+      "keywords": ["terraced fields", "weave", "market"], "frameId": "f04",
+      "hintDirectionVi": "Chọn hai hoặc ba cảnh em thấy đặc biệt nhất về cuộc sống ở đó. Vì sao người xem sẽ thấy chúng thú vị?",
+      "exampleAnswer": "I would show the terraced fields and women weaving cloth. They are beautiful and show how people really live.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "What can people in big cities learn from the way of life in mountain villages? Explain your answer.", "difficulty": 3, "kind": "reason",
+      "keywords": ["simple", "help each other", "nature"], "frameId": "f07",
+      "hintDirectionVi": "So sánh cách sống ở thành phố và ở bản làng: cách mọi người đối xử với nhau, với thiên nhiên. Điều gì đáng học?",
+      "exampleAnswer": "City people can learn to live simply. In villages, neighbours help each other and take care of nature.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Is it important for ethnic groups to keep their own languages? Give your reasons.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["language", "culture", "lose"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ xem ngôn ngữ giữ lại những gì: bài hát, câu chuyện, cách nghĩ. Nếu mất ngôn ngữ thì điều gì sẽ mất theo?",
+      "exampleAnswer": "Yes, it is. Their language keeps their songs and stories. If they lose it, they may lose part of their culture.", "expectsReason": true
+    }
+  ]
+}

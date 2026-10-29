@@ -1,0 +1,165 @@
+{
+  "grade": 7,
+  "unit": 11,
+  "title": "Travelling in the Future",
+  "titleVi": "Đi lại trong tương lai",
+  "topic": "Nói về các phương tiện đi lại em tưởng tượng trong tương lai, phương tiện nào sẽ phổ biến hay không, và so sánh đồ của mình với của bạn.",
+  "source": "Global Success 7, Unit 11 (chủ đề, từ vựng, thì tương lai đơn, đại từ sở hữu)",
+  "vocab": [
+    { "id": "v01", "en": "mode of travel", "vi": "phương thức đi lại", "example": "Walking is the cheapest mode of travel." },
+    { "id": "v02", "en": "driverless", "vi": "không người lái", "example": "Driverless cars will take us to school one day." },
+    { "id": "v03", "en": "eco-friendly", "vi": "thân thiện với môi trường", "example": "Bicycles are eco-friendly because they don't need fuel." },
+    { "id": "v04", "en": "convenient", "vi": "tiện lợi", "example": "The new bus stop near my house is very convenient." },
+    { "id": "v05", "en": "comfortable", "vi": "thoải mái, dễ chịu", "example": "Trains are more comfortable than buses on long trips." },
+    { "id": "v06", "en": "fumes", "vi": "khói (xe, nhà máy)", "example": "The fumes from old trucks make the air dirty." },
+    { "id": "v07", "en": "run on", "vi": "chạy bằng (nhiên liệu gì)", "example": "Future cars will run on electricity or water." },
+    { "id": "v08", "en": "solar-powered", "vi": "chạy bằng năng lượng mặt trời", "example": "I'd love to ride in a solar-powered boat." },
+    { "id": "v09", "en": "bamboo-copter", "vi": "chong chóng tre", "example": "With a bamboo-copter on my head, I could fly over traffic jams." },
+    { "id": "v10", "en": "hyperloop", "vi": "hệ thống tàu siêu tốc trong ống", "example": "A hyperloop will carry people between cities very quickly." },
+    { "id": "v11", "en": "teleporter", "vi": "máy dịch chuyển tức thời", "example": "A teleporter could send you to Paris in one second." },
+    { "id": "v12", "en": "autopilot", "vi": "chế độ lái tự động", "example": "The plane flew on autopilot for most of the trip." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "In the future, people will travel by ___ because ___.",
+      "vi": "Trong tương lai, mọi người sẽ đi lại bằng ... vì ...",
+      "grammarNote": "Tương lai đơn: will + V nguyên mẫu để dự đoán. Phủ định: won't (will not) + V.",
+      "examples": ["In the future, people will travel by flying car because the roads will be too crowded."]
+    },
+    {
+      "id": "f02",
+      "text": "I think ___ will / won't be popular because ___.",
+      "vi": "Mình nghĩ ... sẽ / sẽ không phổ biến vì ...",
+      "grammarNote": "I think + will để nêu dự đoán của mình; I don't think ... will ... để nói ý ngược lại.",
+      "examples": ["I think teleporters won't be popular because people will feel scared to use them."]
+    },
+    {
+      "id": "f03",
+      "text": "My dream vehicle will ___, and it will run on ___.",
+      "vi": "Phương tiện mơ ước của mình sẽ ..., và nó sẽ chạy bằng ...",
+      "grammarNote": "Nối hai câu tương lai đơn bằng and. run on + nhiên liệu: run on electricity, run on solar energy.",
+      "examples": ["My dream vehicle will fly and swim, and it will run on solar energy."]
+    },
+    {
+      "id": "f04",
+      "text": "This ___ is mine, and that one is ___.",
+      "vi": "... này là của mình, còn cái kia là của ...",
+      "grammarNote": "Đại từ sở hữu thay cho tính từ sở hữu + danh từ: mine, yours, his, hers, ours, theirs. my bag = mine.",
+      "examples": ["This blue helmet is mine, and that red one is yours."]
+    },
+    {
+      "id": "f05",
+      "text": "Will you ___ in the future? Yes, I will. / No, I won't.",
+      "vi": "Trong tương lai bạn có ... không? Có. / Không.",
+      "grammarNote": "Câu hỏi tương lai đơn: Will + chủ ngữ + V nguyên mẫu? Trả lời: Yes, I will / No, I won't.",
+      "examples": ["Will you ride a driverless car in the future? Yes, I will. It sounds exciting."]
+    },
+    {
+      "id": "f06",
+      "text": "___ won't produce fumes, so it will be good for ___.",
+      "vi": "... sẽ không thải ra khói, nên nó sẽ tốt cho ...",
+      "grammarNote": "won't + V để nói điều sẽ không xảy ra; so + kết quả.",
+      "examples": ["A solar-powered bus won't produce fumes, so it will be good for the environment."]
+    },
+    {
+      "id": "f07",
+      "text": "I usually travel by ___ because ___.",
+      "vi": "Mình thường đi lại bằng ... vì ...",
+      "grammarNote": "by + phương tiện (by bike, by bus). Hiện tại đơn với usually cho thói quen bây giờ.",
+      "examples": ["I usually travel by bus because it is cheap and safe."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "How do you think people will travel in 2050?", "difficulty": 1, "kind": "personal",
+      "keywords": ["will travel", "flying car", "hyperloop"], "frameId": "f01",
+      "hintDirectionVi": "Tưởng tượng thành phố của em vào năm 2050: trên đường và trên trời sẽ có những phương tiện gì?",
+      "exampleAnswer": "I think people will travel by flying cars and driverless buses.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Which mode of travel do you use most now?", "difficulty": 1, "kind": "personal",
+      "keywords": ["mode of travel", "bike", "bus"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về cách em đi lại hằng ngày: đi học, đi chơi, về quê.",
+      "exampleAnswer": "I use my bike most. I ride it to school and to my friend's house.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Will you try a driverless car one day?", "difficulty": 1, "kind": "personal",
+      "keywords": ["Yes, I will", "driverless", "exciting"], "frameId": "f05",
+      "hintDirectionVi": "Trả lời Yes, I will hoặc No, I won't, rồi nói thêm cảm giác của em về chiếc xe không người lái.",
+      "exampleAnswer": "Yes, I will. It will be exciting to sit in a car with no driver.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What will your dream vehicle be like?", "difficulty": 1, "kind": "personal",
+      "keywords": ["will fly", "run on", "comfortable"], "frameId": "f03",
+      "hintDirectionVi": "Tưởng tượng phương tiện của riêng em: nó làm được gì đặc biệt và chạy bằng gì?",
+      "exampleAnswer": "My dream vehicle will be small and fast. It will fly and run on solar energy.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why will eco-friendly vehicles become popular?", "difficulty": 2, "kind": "reason",
+      "keywords": ["eco-friendly", "fumes", "clean air"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về vấn đề không khí ở các thành phố lớn, và vì sao mọi người muốn thay đổi.",
+      "exampleAnswer": "They won't produce fumes, so the air will be cleaner. People care more about the environment now.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Will you learn to drive when you grow up? Why?", "difficulty": 2, "kind": "personal",
+      "keywords": ["Yes, I will", "No, I won't", "driverless"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem khi em lớn, xe tự lái có phổ biến không, và em có cần biết lái xe không.",
+      "exampleAnswer": "Yes, I will. Driving is a useful skill, and I want to take my family on trips.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Will flying cars make traffic better or worse? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["traffic jam", "sky", "dangerous"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về con đường bớt đông xe, nhưng bầu trời thì sao? Chọn một ý và giải thích.",
+      "exampleAnswer": "I think they will make traffic better. There will be fewer cars, so we won't have traffic jams.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "After a trip, say which bags are yours and which are your friend's.", "difficulty": 2, "kind": "situation",
+      "keywords": ["mine", "yours", "theirs"], "frameId": "f04",
+      "hintDirectionVi": "Chỉ từng chiếc túi và nói nó của ai bằng mine, yours, his, hers. Có thể tả màu túi.",
+      "exampleAnswer": "This green bag is mine, and the black one is yours. The two red ones are theirs.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "Why do people want vehicles that don't produce fumes?", "difficulty": 2, "kind": "reason",
+      "keywords": ["fumes", "health", "pollution"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem khói xe ảnh hưởng thế nào đến không khí em hít thở hằng ngày.",
+      "exampleAnswer": "Fumes make the air dirty and bad for our lungs. Clean vehicles will keep cities healthy.", "expectsReason": true
+    },
+    {
+      "id": "q10", "text": "Will people still ride bicycles in the future? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["bicycle", "eco-friendly", "exercise"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về điểm mạnh của xe đạp mà công nghệ mới khó thay thế được.",
+      "exampleAnswer": "Yes, they will. Bicycles are cheap, eco-friendly and good exercise.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Is a teleporter a good idea or a dangerous one?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["teleporter", "convenient", "dangerous"], "frameId": "f02",
+      "hintDirectionVi": "Tưởng tượng em dùng máy dịch chuyển: điều gì tuyệt vời, điều gì có thể làm em lo lắng?",
+      "exampleAnswer": "It will be very convenient. However, I think it will be dangerous if the machine breaks down.", "expectsReason": true
+    },
+    {
+      "id": "q12", "text": "Which future vehicle would you like to invent, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["invent", "will", "because"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một vấn đề đi lại em gặp hằng ngày, rồi tưởng tượng một phương tiện giải quyết nó.",
+      "exampleAnswer": "I'd like to invent a flying bike. It will fly over traffic jams, so I won't be late for school.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Compare your dream vehicle with your friend's dream vehicle.", "difficulty": 3, "kind": "situation",
+      "keywords": ["mine", "his", "hers"], "frameId": "f04",
+      "hintDirectionVi": "Tả phương tiện của em và của bạn, nói điểm khác nhau bằng mine và his / hers.",
+      "exampleAnswer": "Mine will fly, but hers will travel under the sea. Mine will be faster, but hers will be bigger.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "Will driverless cars be safer than cars with drivers? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["driverless", "mistakes", "safer"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về những lỗi người lái hay mắc, và những lỗi máy móc có thể gặp.",
+      "exampleAnswer": "I think they will be safer. Computers don't get tired or use phones while driving.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Your city wants a new mode of travel. Suggest one and explain.", "difficulty": 3, "kind": "situation",
+      "keywords": ["skyTran", "will", "convenient"], "frameId": "f01",
+      "hintDirectionVi": "Chọn một phương tiện phù hợp với thành phố em, rồi nói nó sẽ giúp người dân thế nào.",
+      "exampleAnswer": "We should build a solar-powered skyTran. It won't produce fumes, and it will carry people quickly.", "expectsReason": true
+    }
+  ]
+}

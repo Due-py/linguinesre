@@ -1,0 +1,165 @@
+{
+  "grade": 6,
+  "unit": 5,
+  "title": "Natural Wonders of Viet Nam",
+  "titleVi": "Kì quan thiên nhiên Việt Nam",
+  "topic": "Nói về cảnh đẹp thiên nhiên, đồ cần mang khi đi du lịch và những điều phải làm hoặc không được làm ở đó.",
+  "source": "Global Success 6, Unit 5 (chủ đề, từ vựng, ngữ pháp danh từ đếm được / không đếm được, must / mustn't)",
+  "vocab": [
+    { "id": "v01", "en": "natural wonder", "vi": "kì quan thiên nhiên", "example": "Ha Long Bay is a natural wonder in Viet Nam." },
+    { "id": "v02", "en": "waterfall", "vi": "thác nước", "example": "The water in the waterfall is very cold." },
+    { "id": "v03", "en": "island", "vi": "đảo, hòn đảo", "example": "We went to the island by boat." },
+    { "id": "v04", "en": "mountain", "vi": "núi", "example": "It's cool at the top of the mountain." },
+    { "id": "v05", "en": "landscape", "vi": "phong cảnh", "example": "I love taking photos of the green landscape." },
+    { "id": "v06", "en": "amazing", "vi": "tuyệt vời", "example": "The view from the hill is amazing." },
+    { "id": "v07", "en": "backpack", "vi": "ba lô", "example": "I put my water bottle in my backpack." },
+    { "id": "v08", "en": "suncream", "vi": "kem chống nắng", "example": "Put on some suncream before you go to the beach." },
+    { "id": "v09", "en": "plaster", "vi": "băng dán, gạc y tế", "example": "I always carry a plaster in case I cut my finger." },
+    { "id": "v10", "en": "compass", "vi": "la bàn", "example": "A compass helps you find the right way in the forest." },
+    { "id": "v11", "en": "boat", "vi": "con thuyền", "example": "We sat in a small boat and looked at the rocks." },
+    { "id": "v12", "en": "litter", "vi": "vứt rác (bừa bãi)", "example": "Please don't litter on the beach." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I'd like to visit ___ because ___.",
+      "vi": "Mình muốn đến thăm ... vì ...",
+      "grammarNote": "I'd like to + động từ nguyên mẫu để nói mong muốn; because để nêu lý do.",
+      "examples": ["I'd like to visit Phong Nha Cave because it is huge and beautiful."]
+    },
+    {
+      "id": "f02",
+      "text": "You must ___ when you visit ___.",
+      "vi": "Bạn phải ... khi đến thăm ...",
+      "grammarNote": "must + động từ nguyên mẫu: việc bắt buộc, cần làm. Không thêm -s sau must.",
+      "examples": ["You must wear a hat when you visit the beach."]
+    },
+    {
+      "id": "f03",
+      "text": "You mustn't ___ there because ___.",
+      "vi": "Bạn không được ... ở đó vì ...",
+      "grammarNote": "mustn't + động từ nguyên mẫu: việc bị cấm, không được làm.",
+      "examples": ["You mustn't swim there because the water is too deep."]
+    },
+    {
+      "id": "f04",
+      "text": "For the trip, I need a ___ and some ___.",
+      "vi": "Cho chuyến đi, mình cần một ... và một ít ...",
+      "grammarNote": "Danh từ đếm được số ít dùng a / an (a hat); danh từ không đếm được (water, food, suncream) dùng some, không thêm -s.",
+      "examples": ["For the trip, I need a backpack and some water."]
+    },
+    {
+      "id": "f05",
+      "text": "___ is amazing because it has ___.",
+      "vi": "... thật tuyệt vì ở đó có ...",
+      "grammarNote": "Hiện tại đơn để mô tả nơi chốn: it is, it has.",
+      "examples": ["Ban Gioc Waterfall is amazing because it has lots of white water."]
+    },
+    {
+      "id": "f06",
+      "text": "I think we must ___ to protect ___.",
+      "vi": "Mình nghĩ chúng ta phải ... để bảo vệ ...",
+      "grammarNote": "must + động từ nguyên mẫu; to + động từ để nói mục đích.",
+      "examples": ["I think we must take our rubbish home to protect the beaches."]
+    },
+    {
+      "id": "f07",
+      "text": "I like ___ because I can ___.",
+      "vi": "Mình thích ... vì mình có thể ...",
+      "grammarNote": "I like + động từ thêm -ing. Sau can dùng động từ nguyên mẫu.",
+      "examples": ["I like walking in the forest because I can hear the birds."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Do you live near a river, a hill or the sea?", "difficulty": 1, "kind": "personal",
+      "keywords": ["river", "hill", "near"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về cảnh thiên nhiên gần nhà em nhất, rồi nói nó trông thế nào.",
+      "exampleAnswer": "I live near a river. It is small but very beautiful.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What do you take in your backpack for a trip?", "difficulty": 1, "kind": "personal",
+      "keywords": ["backpack", "water", "suncream"], "frameId": "f04",
+      "hintDirectionVi": "Nhớ lại chuyến đi gần nhất và những thứ em cho vào ba lô. Dùng a hoặc some cho đúng.",
+      "exampleAnswer": "I take a hat, some water and some suncream in my backpack.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What do you like doing in nature?", "difficulty": 1, "kind": "personal",
+      "keywords": ["climb", "swim", "take photos"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về một hoạt động ngoài trời em thích: leo đồi, bơi, đi dạo hay chụp ảnh.",
+      "exampleAnswer": "I like climbing hills and taking photos of the landscape.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Is it fun to travel by boat?", "difficulty": 1, "kind": "opinion",
+      "keywords": ["boat", "island", "fun"], "frameId": "f07",
+      "hintDirectionVi": "Tưởng tượng em ngồi trên thuyền giữa biển. Em thấy vui, sợ hay say sóng?",
+      "exampleAnswer": "Yes, it is. I can see the sea and the islands around me.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Which natural wonder would you like to visit?", "difficulty": 2, "kind": "personal",
+      "keywords": ["Ha Long Bay", "amazing", "because"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một cảnh đẹp ở Việt Nam em từng thấy trên tivi hoặc trong sách và muốn đến tận nơi.",
+      "exampleAnswer": "I'd like to visit Ha Long Bay because it has many beautiful islands.", "expectsReason": false
+    },
+    {
+      "id": "q06", "text": "What food and drink do you bring on a picnic?", "difficulty": 2, "kind": "personal",
+      "keywords": ["some bread", "some fruit", "a bottle of water"], "frameId": "f04",
+      "hintDirectionVi": "Kể vài món ăn và đồ uống. Nhớ: đồ không đếm được như water, bread thì dùng some.",
+      "exampleAnswer": "I usually bring some bread, some fruit and a bottle of water.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Do you like the mountains or the sea more? Why?", "difficulty": 2, "kind": "reason",
+      "keywords": ["fresh air", "cool", "swim"], "frameId": "f05",
+      "hintDirectionVi": "Chọn một nơi, rồi nghĩ về điều em có thể làm hoặc cảm thấy khi ở đó.",
+      "exampleAnswer": "I like the sea more because I can swim and play on the sand.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Why mustn't we litter at the beach?", "difficulty": 2, "kind": "reason",
+      "keywords": ["litter", "dirty", "sea animals"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem rác trên bãi biển sẽ đi đâu và ảnh hưởng đến ai.",
+      "exampleAnswer": "We mustn't litter because rubbish makes the beach dirty and hurts sea animals.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Is Viet Nam a good place for nature lovers? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["mountains", "beaches", "amazing"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về các cảnh đẹp ở Việt Nam: núi, biển, đảo, hang động. Người yêu thiên nhiên sẽ thích gì?",
+      "exampleAnswer": "Yes, it is. Viet Nam has amazing mountains, caves and beaches.", "expectsReason": true
+    },
+    {
+      "id": "q10", "text": "Is it a good idea to climb mountains alone? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["dangerous", "get lost", "must"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem nếu có chuyện xảy ra trên núi khi em đi một mình thì sao.",
+      "exampleAnswer": "No, it isn't. It can be dangerous, so you must go with an adult.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Your friend is going to the beach. Give two rules.", "difficulty": 2, "kind": "situation",
+      "keywords": ["must", "mustn't", "suncream"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ một việc bạn phải làm và một việc bạn không được làm để an toàn ở biển.",
+      "exampleAnswer": "You must wear suncream. You mustn't swim far from the beach.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Which two things must you take on a mountain trip? Why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["compass", "plaster", "warm clothes"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem trên núi có thể gặp chuyện gì: lạc đường, trời lạnh, bị trầy xước. Em cần gì để xử lý?",
+      "exampleAnswer": "I must take a compass and some plasters. They help me stay safe.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "How can we keep natural wonders clean and beautiful?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["litter", "rubbish", "protect"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về hai việc khách du lịch nên làm hoặc không nên làm khi đến thăm cảnh đẹp.",
+      "exampleAnswer": "I think we must take our rubbish home and never litter there.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "You are a tour guide at a waterfall. Tell visitors the rules.", "difficulty": 3, "kind": "situation",
+      "keywords": ["must", "mustn't", "rocks"], "frameId": "f02",
+      "hintDirectionVi": "Chào khách trước, rồi nói một việc phải làm và một việc không được làm ở thác nước.",
+      "exampleAnswer": "Welcome! You must stay on the path. You mustn't climb the wet rocks.", "expectsReason": false
+    },
+    {
+      "id": "q15", "text": "Your family is planning a trip. Suggest a place and say why.", "difficulty": 3, "kind": "situation",
+      "keywords": ["Let's", "island", "beautiful"], "frameId": "f01",
+      "hintDirectionVi": "Chọn một nơi cả nhà đều có thể thích, rồi nêu một hai điều hấp dẫn ở đó.",
+      "exampleAnswer": "Let's visit Phu Quoc Island. It has beautiful beaches, and the water is clear.", "expectsReason": true
+    }
+  ]
+}

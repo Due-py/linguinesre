@@ -1,0 +1,172 @@
+{
+  "grade": 6,
+  "unit": 3,
+  "title": "My Friends",
+  "titleVi": "Bạn bè của em",
+  "topic": "Nói về bạn bè, tính cách của họ, những việc các em đang làm và kế hoạch đi trại hè.",
+  "source": "Global Success 6, Unit 3 (chủ đề, từ vựng, ngữ pháp thì hiện tại tiếp diễn)",
+  "vocab": [
+    { "id": "v01", "en": "personality", "vi": "tính cách", "example": "My friend has a great personality." },
+    { "id": "v02", "en": "kind", "vi": "tốt bụng", "example": "Mai is kind to everyone in our class." },
+    { "id": "v03", "en": "friendly", "vi": "thân thiện", "example": "The new boy is very friendly and smiles a lot." },
+    { "id": "v04", "en": "funny", "vi": "ngộ nghĩnh, khôi hài", "example": "Nam is funny, so we always laugh with him." },
+    { "id": "v05", "en": "clever", "vi": "lanh lợi, thông minh", "example": "My friend is clever, and she solves puzzles quickly." },
+    { "id": "v06", "en": "caring", "vi": "chu đáo, biết quan tâm", "example": "My best friend is caring and asks me when I feel sad." },
+    { "id": "v07", "en": "creative", "vi": "sáng tạo", "example": "Lan is creative and makes beautiful cards." },
+    { "id": "v08", "en": "hard-working", "vi": "chăm chỉ", "example": "Minh is hard-working and always does his homework." },
+    { "id": "v09", "en": "active", "vi": "hăng hái, năng động", "example": "My active friends love sports and outdoor games." },
+    { "id": "v10", "en": "confident", "vi": "tự tin", "example": "She feels confident when she speaks in front of the class." },
+    { "id": "v11", "en": "shy", "vi": "xấu hổ, nhút nhát", "example": "I was shy on my first day, but now I talk a lot." },
+    { "id": "v12", "en": "summer camp", "vi": "trại hè", "example": "We play games and sing songs at summer camp." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "My best friend is ___. He / She is very ___.",
+      "vi": "Bạn thân nhất của mình là ... Bạn ấy rất ...",
+      "grammarNote": "be + tính từ chỉ tính cách: She is kind. He is very funny.",
+      "examples": ["My best friend is Hung. He is very clever."]
+    },
+    {
+      "id": "f02",
+      "text": "I think I am ___ because I ___.",
+      "vi": "Mình nghĩ mình ... vì mình ...",
+      "grammarNote": "Hiện tại đơn để nói về tính cách và thói quen; because nêu lý do.",
+      "examples": ["I think I am active because I play sports every day."]
+    },
+    {
+      "id": "f03",
+      "text": "Right now, my friend is probably ___.",
+      "vi": "Ngay lúc này, chắc là bạn mình đang ...",
+      "grammarNote": "Hiện tại tiếp diễn: am / is / are + V-ing cho việc đang xảy ra lúc nói (now, right now).",
+      "examples": ["Right now, my friend is probably having lunch with her family."]
+    },
+    {
+      "id": "f04",
+      "text": "This weekend, I'm ___ with ___.",
+      "vi": "Cuối tuần này, mình sẽ ... với ...",
+      "grammarNote": "Hiện tại tiếp diễn cũng dùng cho kế hoạch đã sắp xếp: I'm visiting my aunt on Sunday.",
+      "examples": ["This weekend, I'm going to the cinema with my cousin."]
+    },
+    {
+      "id": "f05",
+      "text": "A good friend is ___ and always ___.",
+      "vi": "Một người bạn tốt thì ... và luôn ...",
+      "grammarNote": "Hiện tại đơn nói điều luôn đúng; always đứng trước động từ thường.",
+      "examples": ["A good friend is caring and always listens to you."]
+    },
+    {
+      "id": "f06",
+      "text": "At summer camp, I'd like to ___ because ___.",
+      "vi": "Ở trại hè, mình muốn ... vì ...",
+      "grammarNote": "I'd like to + động từ nguyên mẫu để nói mong muốn.",
+      "examples": ["At summer camp, I'd like to go camping because I love the stars at night."]
+    },
+    {
+      "id": "f07",
+      "text": "My friends and I often ___ together.",
+      "vi": "Mình và các bạn thường ... cùng nhau.",
+      "grammarNote": "Hiện tại đơn với often để nói việc hay làm. My friends and I đi với động từ không thêm -s.",
+      "examples": ["My friends and I often ride our bikes together."]
+    },
+    {
+      "id": "f08",
+      "text": "I think ___ is better / good because ___.",
+      "vi": "Mình nghĩ ... tốt hơn / tốt vì ...",
+      "grammarNote": "Nêu ý kiến bằng I think, nêu lý do bằng because. So sánh: good → better.",
+      "examples": ["I think having a kind friend is good because he or she listens to you."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Do you have a best friend at school?", "difficulty": 1, "kind": "personal",
+      "keywords": ["best friend", "name", "sits next to"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về người bạn em hay chơi cùng nhất ở trường. Nói tên và một điều về bạn ấy.",
+      "exampleAnswer": "Yes. Her name is Mai, and she sits next to me.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What are you doing this weekend?", "difficulty": 1, "kind": "personal",
+      "keywords": ["I'm going", "visiting", "playing"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một việc em đã định làm vào thứ Bảy hoặc Chủ nhật này, và làm cùng ai.",
+      "exampleAnswer": "This weekend, I'm visiting my grandparents with my parents.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What do you and your friends do together?", "difficulty": 1, "kind": "personal",
+      "keywords": ["play", "talk", "read comics"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về một hai việc em và bạn bè hay làm cùng nhau ở trường hoặc sau giờ học.",
+      "exampleAnswer": "We play badminton and read comics together after school.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Do you like making new friends?", "difficulty": 1, "kind": "opinion",
+      "keywords": ["fun", "friendly", "new people"], "frameId": "f08",
+      "hintDirectionVi": "Nhớ lại lúc em gặp một bạn mới. Em thấy vui, hồi hộp hay ngại?",
+      "exampleAnswer": "Yes, I do. It's fun to meet new people.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "What is your best friend like?", "difficulty": 2, "kind": "personal",
+      "keywords": ["personality", "clever", "caring"], "frameId": "f01",
+      "hintDirectionVi": "Chọn một hai từ chỉ tính cách hợp với bạn ấy, rồi kể một việc bạn ấy hay làm.",
+      "exampleAnswer": "My best friend is very caring. She always helps me with maths.", "expectsReason": false
+    },
+    {
+      "id": "q06", "text": "What do you think your best friend is doing now?", "difficulty": 2, "kind": "personal",
+      "keywords": ["probably", "is doing", "now"], "frameId": "f03",
+      "hintDirectionVi": "Nhìn đồng hồ và đoán: giờ này bạn em đang ở đâu, đang làm gì?",
+      "exampleAnswer": "Right now, my friend is probably doing her homework at home.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Why do you like your best friend?", "difficulty": 2, "kind": "reason",
+      "keywords": ["because", "kind", "listen"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về một lần bạn ấy làm em thấy vui hoặc giúp em. Điều đó cho thấy bạn ấy thế nào?",
+      "exampleAnswer": "I like her because she is kind and always listens to me.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Are you shy or confident? Why?", "difficulty": 2, "kind": "reason",
+      "keywords": ["shy", "confident", "because"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ xem em cảm thấy thế nào khi phải nói trước lớp hoặc gặp người lạ.",
+      "exampleAnswer": "I think I am a bit shy because I don't talk much in class.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Is it good to have friends who are different from you? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["different", "learn", "new ideas"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ về một bạn có sở thích khác em. Em học được gì từ bạn ấy?",
+      "exampleAnswer": "Yes, I think so. We can learn new things from each other.", "expectsReason": true
+    },
+    {
+      "id": "q10", "text": "Which is more important in a friend: being funny or kind?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["kind", "funny", "more important"], "frameId": "f05",
+      "hintDirectionVi": "Chọn một bên, rồi nghĩ lúc em buồn thì em cần một người bạn như thế nào.",
+      "exampleAnswer": "I think being kind is more important. Kind friends help you when you are sad.", "expectsReason": false
+    },
+    {
+      "id": "q11", "text": "Call a friend and ask what he or she is doing now.", "difficulty": 2, "kind": "situation",
+      "keywords": ["What are you doing", "now", "Are you"], "frameId": "f03",
+      "hintDirectionVi": "Chào bạn trước, rồi hỏi bạn đang làm gì. Có thể đoán thử một việc bằng Are you ...?",
+      "exampleAnswer": "Hi, Lan! What are you doing now? Are you watching TV?", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Would you like to go to a summer camp? Why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["summer camp", "make friends", "outdoor"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem ở trại hè có những hoạt động gì. Điều gì làm em thấy hấp dẫn hoặc lo lắng?",
+      "exampleAnswer": "Yes, I would. I'd like to make new friends and do outdoor activities.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Is it better to have many friends or one close friend? Why?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["close friend", "many friends", "share"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ về điều hay khi có nhiều bạn và điều hay khi có một bạn thật thân. Em chọn bên nào?",
+      "exampleAnswer": "I think one close friend is better. You can share everything with him or her.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Your friend is sad today. What do you say and do?", "difficulty": 3, "kind": "situation",
+      "keywords": ["What's wrong", "listen", "cheer up"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem em hỏi bạn câu gì trước, rồi em làm gì để bạn thấy khá hơn.",
+      "exampleAnswer": "I ask, 'What's wrong?' Then I listen and tell her a funny story.", "expectsReason": false
+    },
+    {
+      "id": "q15", "text": "You are at a summer camp. Tell your mum what you are doing.", "difficulty": 3, "kind": "situation",
+      "keywords": ["I'm having", "right now", "we're playing"], "frameId": "f03",
+      "hintDirectionVi": "Tưởng tượng em đang gọi điện cho mẹ từ trại hè. Kể em đang làm gì và cảm thấy thế nào.",
+      "exampleAnswer": "Hi, Mum! I'm having a great time. Right now, we're playing games by the lake.", "expectsReason": false
+    }
+  ]
+}

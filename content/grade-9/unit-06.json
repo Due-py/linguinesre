@@ -1,0 +1,165 @@
+{
+  "grade": 9,
+  "unit": 6,
+  "title": "Vietnamese Lifestyle: Then and Now",
+  "titleVi": "Lối sống của người Việt: xưa và nay",
+  "topic": "Nói về những thay đổi trong lối sống, gia đình và cách học của người Việt từ xưa đến nay, và em nghĩ gì về những thay đổi đó.",
+  "source": "Global Success 9, Unit 6 (chủ đề, từ vựng, ngữ pháp động từ + to V, động từ + V-ing)",
+  "vocab": [
+    { "id": "v01", "en": "lifestyle", "vi": "lối sống", "example": "City people have a busier lifestyle than people in the countryside." },
+    { "id": "v02", "en": "extended family", "vi": "gia đình nhiều thế hệ", "example": "In an extended family, grandparents often help look after the children." },
+    { "id": "v03", "en": "nuclear family", "vi": "gia đình hai thế hệ", "example": "Most of my friends live in nuclear families." },
+    { "id": "v04", "en": "generation gap", "vi": "khoảng cách thế hệ", "example": "Music is one area where there is a big generation gap." },
+    { "id": "v05", "en": "family-oriented", "vi": "coi trọng gia đình", "example": "Vietnamese people are very family-oriented." },
+    { "id": "v06", "en": "privacy", "vi": "sự riêng tư", "example": "Teenagers often want more privacy in their rooms." },
+    { "id": "v07", "en": "opportunity", "vi": "cơ hội", "example": "Young people today have more opportunities to study abroad." },
+    { "id": "v08", "en": "memorise", "vi": "ghi nhớ", "example": "I memorise new words by writing them on small cards." },
+    { "id": "v09", "en": "take notes", "vi": "ghi chép", "example": "I take notes in different colours to remember them better." },
+    { "id": "v10", "en": "trend", "vi": "xu hướng", "example": "Wearing white trainers is a popular trend at my school." },
+    { "id": "v11", "en": "replace", "vi": "thay thế", "example": "Online shopping has replaced many small shops." },
+    { "id": "v12", "en": "pursue", "vi": "theo đuổi", "example": "My cousin wants to pursue a career in design." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "This year I've decided to ___ because ___.",
+      "vi": "Năm nay mình đã quyết định ... vì ...",
+      "grammarNote": "Một số động từ + to V: decide, plan, hope, want, learn, promise (decide to learn).",
+      "examples": ["This year I've decided to learn to cook because I want to help my parents."]
+    },
+    {
+      "id": "f02",
+      "text": "I enjoy ___, but I avoid ___.",
+      "vi": "Mình thích ..., nhưng mình tránh ...",
+      "grammarNote": "Một số động từ + V-ing: enjoy, avoid, mind, keep, practise, finish (avoid eating late).",
+      "examples": ["I enjoy drawing mind maps, but I avoid copying long notes."]
+    },
+    {
+      "id": "f03",
+      "text": "In the past, people ___, but nowadays they ___.",
+      "vi": "Ngày trước người ta ..., còn ngày nay họ ...",
+      "grammarNote": "Quá khứ đơn cho điều đã qua, hiện tại đơn cho điều bây giờ; nối hai ý trái ngược bằng but.",
+      "examples": ["In the past, people lived with their grandparents, but nowadays they often live in nuclear families."]
+    },
+    {
+      "id": "f04",
+      "text": "I hope to ___ when I ___.",
+      "vi": "Mình hy vọng sẽ ... khi mình ...",
+      "grammarNote": "hope + to V: hy vọng làm gì. Mệnh đề when nói về tương lai dùng hiện tại đơn (when I grow up).",
+      "examples": ["I hope to travel around Viet Nam when I finish school."]
+    },
+    {
+      "id": "f05",
+      "text": "I don't mind ___, but I can't stand ___.",
+      "vi": "Mình không ngại ..., nhưng mình không chịu nổi ...",
+      "grammarNote": "don't mind + V-ing: không ngại; can't stand + V-ing: không chịu nổi.",
+      "examples": ["I don't mind cleaning my room, but I can't stand washing the dishes."]
+    },
+    {
+      "id": "f06",
+      "text": "My parents want me to ___, and I promise to ___.",
+      "vi": "Bố mẹ muốn mình ..., và mình hứa sẽ ...",
+      "grammarNote": "want + somebody + to V: muốn ai làm gì; promise + to V: hứa làm gì.",
+      "examples": ["My parents want me to study hard, and I promise to do my best."]
+    },
+    {
+      "id": "f07",
+      "text": "___ generations live in my home: ___.",
+      "vi": "Có ... thế hệ sống trong nhà em: ...",
+      "grammarNote": "Chủ ngữ số nhiều (generations) đi với động từ nguyên mẫu live, không thêm -s.",
+      "examples": ["Two generations live in my home: my parents and my brother and me."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "How many generations live in your home?", "difficulty": 1, "kind": "personal",
+      "keywords": ["generation", "nuclear family", "extended family"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về những người cùng sống dưới một mái nhà với em: chỉ bố mẹ và anh chị em, hay có cả ông bà?",
+      "exampleAnswer": "Three generations live in my home: my grandparents, my parents and us children. It's an extended family.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "How do you usually take notes in class?", "difficulty": 1, "kind": "personal",
+      "keywords": ["take notes", "notebook", "colours"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về vở ghi của em: em viết đầy đủ, vẽ sơ đồ hay dùng bút màu? Cách nào em thích?",
+      "exampleAnswer": "I take notes in my notebook with different colours. I enjoy drawing small mind maps, but I avoid writing long sentences.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What new skill have you decided to learn this year?", "difficulty": 1, "kind": "personal",
+      "keywords": ["decide to", "learn to", "practise"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một kỹ năng em muốn có năm nay: bơi, nấu ăn, chơi nhạc cụ. Vì sao em chọn nó?",
+      "exampleAnswer": "This year I've decided to learn to swim because it's a useful life skill and good exercise.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Which household chores don't you mind doing?", "difficulty": 1, "kind": "personal",
+      "keywords": ["don't mind", "wash the dishes", "can't stand"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về các việc nhà em hay làm. Việc nào em làm thoải mái, việc nào em ngại nhất?",
+      "exampleAnswer": "I don't mind washing the dishes, but I can't stand ironing clothes. It takes too long.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do some teenagers want more privacy than before?", "difficulty": 2, "kind": "reason",
+      "keywords": ["privacy", "grow up", "own space"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về sự thay đổi khi em lớn lên: em cần không gian riêng để làm những việc gì?",
+      "exampleAnswer": "As they grow up, they need their own space to think and relax. They also want to keep some things to themselves.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Why has the way students learn changed so much?", "difficulty": 2, "kind": "reason",
+      "keywords": ["technology", "memorise", "online"], "frameId": "f03",
+      "hintDirectionVi": "So sánh cách bố mẹ em đi học ngày trước với cách em học bây giờ. Điều gì tạo ra sự khác biệt?",
+      "exampleAnswer": "Technology has changed everything. In the past, students memorised books, but nowadays they search online and watch videos.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Is living in an extended family better than living in a nuclear family? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["extended family", "privacy", "look after"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một điểm hay và một điểm khó khi sống cùng ông bà, rồi đưa ra lựa chọn của em.",
+      "exampleAnswer": "I think an extended family is warmer because grandparents can share their experience. However, there is less privacy.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Should students memorise lessons or try to understand them? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["memorise", "understand", "apply"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem khi nào học thuộc là cần, và khi nào hiểu bài quan trọng hơn. Em nghiêng về bên nào?",
+      "exampleAnswer": "Understanding is more important. I don't mind memorising new words, but I can't stand learning long texts by heart without understanding them.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "How has your way of learning changed since primary school?", "difficulty": 2, "kind": "personal",
+      "keywords": ["used to", "now", "on my own"], "frameId": "f03",
+      "hintDirectionVi": "Nhớ lại em học thế nào hồi tiểu học, rồi so với cách em tự học bây giờ.",
+      "exampleAnswer": "In primary school, I just copied what the teacher wrote. Now I search for information myself and take notes in my own words.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Your grandparents think you spend too much time on your phone. Explain how you use it.", "difficulty": 2, "kind": "situation",
+      "keywords": ["look up", "practise", "promise"], "frameId": "f06",
+      "hintDirectionVi": "Nói nhẹ nhàng những việc có ích em làm với điện thoại, rồi hứa một điều để ông bà yên tâm.",
+      "exampleAnswer": "I use my phone to look up words and practise English. But I promise to put it away during family meals.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Your younger cousin wants to follow every new fashion trend. Give them some advice.", "difficulty": 2, "kind": "situation",
+      "keywords": ["trend", "avoid", "suit"], "frameId": "f02",
+      "hintDirectionVi": "Không chê em họ, mà gợi ý một cách chọn đồ hợp lý: hợp với mình, không quá tốn kém.",
+      "exampleAnswer": "It's fine to try new trends, but you should avoid spending too much money. Choose clothes that really suit you.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Is the generation gap getting bigger in Vietnamese families? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["generation gap", "technology", "values"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về những điều người trẻ và người lớn tuổi hay nghĩ khác nhau. Có cách nào thu hẹp khoảng cách không?",
+      "exampleAnswer": "In some ways, yes. Young people grow up with technology, but older people still value traditional ways. Talking more can make the gap smaller.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Which family tradition do you hope to keep when you grow up, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["hope to", "family-oriented", "together"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một thói quen của gia đình em mà em thấy ấm áp nhất. Vì sao em muốn giữ nó?",
+      "exampleAnswer": "I hope to keep our custom of having family meals together because it keeps everyone close, even when they are busy.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Your parents want you to join an extra class, but you want to join a sports club. Talk to them politely.", "difficulty": 3, "kind": "situation",
+      "keywords": ["want me to", "promise to", "balance"], "frameId": "f06",
+      "hintDirectionVi": "Thể hiện em hiểu mong muốn của bố mẹ, nêu lý do của em, rồi đưa ra một lời hứa.",
+      "exampleAnswer": "I know you want me to study more, but sport helps me relax. I promise to keep my marks up if I join the club.", "expectsReason": false
+    },
+    {
+      "id": "q15", "text": "Are Western lifestyles replacing traditional Vietnamese ones? What do you think?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["Western", "replace", "trend"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về đồ ăn, quần áo, cách ăn mừng lễ hội quanh em. Cái gì đã thay đổi, cái gì vẫn giữ nguyên?",
+      "exampleAnswer": "Only partly. Many young people follow Western trends in food and fashion, but most families are still family-oriented and celebrate Tet.", "expectsReason": true
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "grade": 12,
+  "unit": 1,
+  "title": "Life Stories We Admire",
+  "titleVi": "Những câu chuyện cuộc đời đáng ngưỡng mộ",
+  "topic": "Kể về những người em ngưỡng mộ, những sự kiện và thành tựu trong cuộc đời họ, cùng những kỷ niệm và trải nghiệm của chính em.",
+  "source": "Global Success 12, Unit 1 (chủ đề, từ vựng, ngữ pháp quá khứ đơn và quá khứ tiếp diễn)",
+  "vocab": [
+    { "id": "v01", "en": "admire", "vi": "ngưỡng mộ", "example": "I admire my grandmother because she never gives up." },
+    { "id": "v02", "en": "achievement", "vi": "thành tích, thành tựu", "example": "Winning the school science fair was a big achievement for our team." },
+    { "id": "v03", "en": "biography", "vi": "tiểu sử", "example": "I am reading a biography of a famous Vietnamese scientist." },
+    { "id": "v04", "en": "hero", "vi": "anh hùng", "example": "To me, firefighters are everyday heroes." },
+    { "id": "v05", "en": "devote to", "vi": "cống hiến (cho)", "example": "She devoted her life to teaching children in the mountains." },
+    { "id": "v06", "en": "childhood", "vi": "tuổi thơ", "example": "I spent most of my childhood in a small village by the sea." },
+    { "id": "v07", "en": "genius", "vi": "thiên tài", "example": "Many people call Mozart a musical genius." },
+    { "id": "v08", "en": "drop out of", "vi": "bỏ học", "example": "He dropped out of college to start his own company." },
+    { "id": "v09", "en": "attend college", "vi": "học cao đẳng, đại học", "example": "My cousin attends college in Da Nang." },
+    { "id": "v10", "en": "carry out", "vi": "tiến hành", "example": "The scientists carried out many experiments before they succeeded." },
+    { "id": "v11", "en": "on top of the world", "vi": "rất vui sướng, hạnh phúc", "example": "I felt on top of the world when I passed the exam." },
+    { "id": "v12", "en": "youth", "vi": "tuổi trẻ", "example": "In his youth, my grandfather worked on a fishing boat." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "When I was ___, I often ___.",
+      "vi": "Khi còn ..., mình thường ...",
+      "grammarNote": "Quá khứ đơn (V2/V-ed) kể việc đã xảy ra và kết thúc trong quá khứ: When I was ten, I lived in Hue.",
+      "examples": ["When I was a child, I often played football with my neighbours."]
+    },
+    {
+      "id": "f02",
+      "text": "At ___ last night, I was ___.",
+      "vi": "Lúc ... tối qua, mình đang ...",
+      "grammarNote": "Quá khứ tiếp diễn (was/were + V-ing) diễn tả việc đang xảy ra tại một thời điểm trong quá khứ.",
+      "examples": ["At nine o'clock last night, I was doing my maths homework."]
+    },
+    {
+      "id": "f03",
+      "text": "I was ___ when ___ suddenly ___.",
+      "vi": "Mình đang ... thì ... bỗng ...",
+      "grammarNote": "Việc dài đang diễn ra dùng quá khứ tiếp diễn; việc ngắn xen vào dùng quá khứ đơn, nối bằng when.",
+      "examples": ["I was walking home when it suddenly started to rain."]
+    },
+    {
+      "id": "f04",
+      "text": "I really admire ___ because he/she ___.",
+      "vi": "Mình rất ngưỡng mộ ... vì người đó ...",
+      "grammarNote": "Dùng quá khứ đơn để kể việc người đó đã làm: because she opened a school for poor children.",
+      "examples": ["I really admire my uncle because he worked hard and built his own business."]
+    },
+    {
+      "id": "f05",
+      "text": "One of the greatest achievements of ___ was ___.",
+      "vi": "Một trong những thành tựu lớn nhất của ... là ...",
+      "grammarNote": "Thành tựu đã qua dùng was + danh từ hoặc V-ing: was winning the gold medal.",
+      "examples": ["One of the greatest achievements of my coach was taking our team to the national finals."]
+    },
+    {
+      "id": "f06",
+      "text": "While I was ___, I ___ and felt ___.",
+      "vi": "Trong lúc mình đang ..., mình đã ... và cảm thấy ...",
+      "grammarNote": "While + quá khứ tiếp diễn làm bối cảnh; mệnh đề chính dùng quá khứ đơn cho sự việc chính.",
+      "examples": ["While I was travelling to Sa Pa, I met a kind old man and felt very welcome."]
+    },
+    {
+      "id": "f07",
+      "text": "I would ask, 'What were you doing when ___?' because I want to know ___.",
+      "vi": "Em sẽ hỏi: 'Ông / bà đang làm gì khi ...?' vì em muốn biết ...",
+      "grammarNote": "Câu hỏi quá khứ tiếp diễn: What were you doing when + quá khứ đơn? để hỏi bối cảnh một sự kiện.",
+      "examples": ["I would ask, 'What were you doing when the war ended?' because I want to know how people felt then."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Who is someone you admire in your own life?", "difficulty": 1, "kind": "personal",
+      "keywords": ["admire", "hard-working", "kind"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một người thật mà em biết: người thân, thầy cô hay hàng xóm. Họ đã làm gì khiến em nể phục?",
+      "exampleAnswer": "I really admire my mother because she learned English by herself when she was forty.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What did you love doing most in your childhood?", "difficulty": 1, "kind": "personal",
+      "keywords": ["childhood", "often", "played"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại khi em khoảng 6–10 tuổi: em hay chơi gì, ở đâu và với ai?",
+      "exampleAnswer": "When I was little, I often flew kites with my cousins in the rice fields near my grandparents' house.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What were you doing at eight o'clock last night?", "difficulty": 1, "kind": "personal",
+      "keywords": ["was doing", "homework", "at that time"], "frameId": "f02",
+      "hintDirectionVi": "Nhớ lại tối qua lúc 8 giờ em đang ở đâu, đang làm gì. Nói bằng was + V-ing.",
+      "exampleAnswer": "At eight o'clock last night, I was revising for my English test while my brother was watching TV.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Tell me about an achievement that made you feel proud.", "difficulty": 1, "kind": "personal",
+      "keywords": ["achievement", "proud", "on top of the world"], "frameId": "f05",
+      "hintDirectionVi": "Không cần là giải thưởng lớn. Nghĩ về một việc em đã cố gắng và làm được, dù ở trường hay ở nhà.",
+      "exampleAnswer": "One of the greatest achievements of my life was finishing a five-kilometre run last year. I felt on top of the world.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do you admire someone special to you? Mention one thing they did.", "difficulty": 2, "kind": "reason",
+      "keywords": ["because", "devoted", "achievement"], "frameId": "f04",
+      "hintDirectionVi": "Chọn một việc cụ thể người đó đã làm, rồi giải thích việc đó cho em thấy họ có phẩm chất gì.",
+      "exampleAnswer": "I admire my teacher because she devoted many weekends to helping weak students. She never asked for anything in return.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Why do you think many young people like reading biographies?", "difficulty": 2, "kind": "reason",
+      "keywords": ["biography", "learn from", "inspire"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem đọc về cuộc đời người khác mang lại cho người đọc điều gì: bài học, cảm hứng hay sự tò mò?",
+      "exampleAnswer": "I think young people like biographies because they can learn from other people's mistakes and achievements. These stories inspire them to work harder.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Should we admire ordinary people as much as famous heroes? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["hero", "ordinary", "every day"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về những người bình thường quanh em đã làm việc tốt. Họ có đáng được tôn trọng như người nổi tiếng không?",
+      "exampleAnswer": "Yes, I think so. Ordinary people like nurses and bus drivers help us every day, even though nobody writes biographies about them.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Tell a friend about something funny that happened while you were on a trip.", "difficulty": 2, "kind": "situation",
+      "keywords": ["while", "suddenly", "laughed"], "frameId": "f06",
+      "hintDirectionVi": "Chọn một chuyến đi, nhớ xem em đang làm gì thì chuyện vui xảy ra, rồi kể theo thứ tự trước sau.",
+      "exampleAnswer": "While we were having a picnic in Da Lat, a goat suddenly ran over and ate my sandwich. Everyone laughed for ages.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "Describe a moment when something unexpected interrupted your studying.", "difficulty": 2, "kind": "personal",
+      "keywords": ["was studying", "when", "power cut"], "frameId": "f03",
+      "hintDirectionVi": "Nhớ một lần em đang học thì có chuyện bất ngờ: mất điện, có khách, có tiếng ồn... Lúc đó em đã làm gì?",
+      "exampleAnswer": "I was studying for my exam when the power suddenly went off. I had to finish my notes by torchlight.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Can someone be a hero without being famous? Explain your view.", "difficulty": 2, "kind": "opinion",
+      "keywords": ["hero", "brave", "help others"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem điều gì làm nên một anh hùng: sự nổi tiếng hay chính hành động của họ?",
+      "exampleAnswer": "Yes, definitely. A hero is someone who helps others bravely. Last year, a man in my street saved a child from a fire, but few people know his name.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Your class is making a video about a local hero. Suggest someone and explain why.", "difficulty": 2, "kind": "situation",
+      "keywords": ["suggest", "local", "devote"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về một người ở nơi em sống đóng góp thầm lặng. Nói họ là ai và họ đã làm được gì cho mọi người.",
+      "exampleAnswer": "I suggest Mr Nam, the old librarian. He devoted thirty years to running a free reading room for village children.", "expectsReason": true
+    },
+    {
+      "id": "q12", "text": "Some famous people dropped out of college. Why isn't this a good path for most students?", "difficulty": 3, "kind": "reason",
+      "keywords": ["drop out of", "risk", "qualifications"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem những người nổi tiếng đó có gì đặc biệt mà phần lớn học sinh không có, và bỏ học có thể khiến mình mất gì.",
+      "exampleAnswer": "Most students don't have a rare talent or a ready business idea. If they drop out of college, they may lose important qualifications and struggle to find jobs.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "What qualities does a person need to achieve something great in life?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["determination", "patience", "devote"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một người thành công mà em biết. Tính cách nào đã giúp họ vượt qua khó khăn? Nêu một ví dụ.",
+      "exampleAnswer": "I think they need determination and patience. For example, my aunt failed her driving test three times, but she kept practising and finally passed.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Do you think a genius is born or made? Explain your view.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["genius", "talent", "practice"], "frameId": "f05",
+      "hintDirectionVi": "Cân nhắc vai trò của năng khiếu bẩm sinh và của sự luyện tập. Theo em, bên nào quan trọng hơn?",
+      "exampleAnswer": "I believe a genius is mostly made. Some people are born with talent, but they still need years of practice to achieve something special.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "You are interviewing a grandparent about their youth. What would you ask, and why?", "difficulty": 3, "kind": "situation",
+      "keywords": ["youth", "what were you doing", "when you were"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ hai, ba câu hỏi về tuổi trẻ của ông bà: học hành, công việc, giải trí. Vì sao em muốn biết những điều đó?",
+      "exampleAnswer": "I would ask, 'What were you doing when you were my age?' I want to know how life was different and what they learned from it.", "expectsReason": true
+    }
+  ]
+}

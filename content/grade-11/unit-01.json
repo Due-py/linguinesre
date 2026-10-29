@@ -1,0 +1,165 @@
+{
+  "grade": 11,
+  "unit": 1,
+  "title": "A Long and Healthy Life",
+  "titleVi": "Cuộc sống khỏe mạnh và trường thọ",
+  "topic": "Nói về thói quen ăn uống, tập luyện của em, những thay đổi em đã thực hiện, và quan điểm của em về cách sống khỏe, sống lâu.",
+  "source": "Global Success 11, Unit 1 (chủ đề, từ vựng, ngữ pháp quá khứ đơn và hiện tại hoàn thành)",
+  "vocab": [
+    { "id": "v01", "en": "balanced diet", "vi": "chế độ ăn cân đối", "example": "A balanced diet includes rice, meat, vegetables and fruit." },
+    { "id": "v02", "en": "fitness", "vi": "sự khỏe khoắn, thể lực", "example": "Swimming twice a week has improved my fitness." },
+    { "id": "v03", "en": "work out", "vi": "tập thể dục", "example": "My brother works out in the park every morning." },
+    { "id": "v04", "en": "cut down on", "vi": "cắt giảm", "example": "I'm trying to cut down on fizzy drinks this month." },
+    { "id": "v05", "en": "give up", "vi": "từ bỏ", "example": "I gave up eating instant noodles for breakfast last year." },
+    { "id": "v06", "en": "life expectancy", "vi": "tuổi thọ", "example": "Life expectancy has risen in many countries over the last fifty years." },
+    { "id": "v07", "en": "nutrient", "vi": "chất dinh dưỡng", "example": "Green vegetables are full of nutrients." },
+    { "id": "v08", "en": "muscle", "vi": "cơ bắp", "example": "Doing press-ups makes your arm muscles stronger." },
+    { "id": "v09", "en": "strength", "vi": "sức mạnh", "example": "Climbing stairs every day builds strength in your legs." },
+    { "id": "v10", "en": "regular", "vi": "đều đặn, thường xuyên", "example": "Regular sleep helps me concentrate in class." },
+    { "id": "v11", "en": "properly", "vi": "một cách đúng đắn, hợp lí", "example": "You should warm up properly before you go running." },
+    { "id": "v12", "en": "ingredient", "vi": "thành phần, nguyên liệu", "example": "Fresh ingredients make a meal tasty and healthy." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I have ___ since ___.",
+      "vi": "Mình đã ... từ ...",
+      "grammarNote": "Hiện tại hoàn thành (have/has + V3) cho việc bắt đầu trong quá khứ, còn kéo dài đến nay; since + mốc thời gian, for + khoảng thời gian.",
+      "examples": ["I have played badminton since I was ten.", "I have eaten breakfast at home every day for two years."]
+    },
+    {
+      "id": "f02",
+      "text": "Last ___, I ___, and it made me feel ___.",
+      "vi": "... vừa rồi, mình đã ..., và việc đó làm mình thấy ...",
+      "grammarNote": "Quá khứ đơn (V2/V-ed) cho việc đã xong ở thời điểm xác định: last week, yesterday, two days ago.",
+      "examples": ["Last weekend, I went swimming with my cousin, and it made me feel fresh."]
+    },
+    {
+      "id": "f03",
+      "text": "Have you ever ___? I ___ it ___ ago.",
+      "vi": "Bạn đã bao giờ ... chưa? Mình đã ... cách đây ...",
+      "grammarNote": "Hỏi trải nghiệm bằng Have you ever + V3?; khi kể rõ lúc nào thì chuyển sang quá khứ đơn + ago.",
+      "examples": ["Have you ever tried yoga? I tried it two months ago."]
+    },
+    {
+      "id": "f04",
+      "text": "It has been hard for me to ___ because ___.",
+      "vi": "Với mình, việc ... rất khó vì ...",
+      "grammarNote": "It has been + tính từ + to V: hiện tại hoàn thành nói về trải nghiệm kéo dài đến bây giờ.",
+      "examples": ["It has been hard for me to sleep early because I have so much homework."]
+    },
+    {
+      "id": "f05",
+      "text": "In the past, people ___, but now they have ___.",
+      "vi": "Ngày trước, mọi người ..., nhưng bây giờ họ đã ...",
+      "grammarNote": "So sánh: quá khứ đơn cho chuyện ngày trước, hiện tại hoàn thành cho thay đổi có kết quả đến nay.",
+      "examples": ["In the past, people walked everywhere, but now they have become less active."]
+    },
+    {
+      "id": "f06",
+      "text": "If you want to ___, you should try ___ because ___.",
+      "vi": "Nếu bạn muốn ..., bạn nên thử ... vì ...",
+      "grammarNote": "should + động từ nguyên mẫu để khuyên; try + V-ing nghĩa là thử làm một việc gì đó.",
+      "examples": ["If you want to get fit, you should try cycling to school because it is easy and free."]
+    },
+    {
+      "id": "f07",
+      "text": "I think ___ matters most for a long life because ___.",
+      "vi": "Em nghĩ ... quan trọng nhất cho một cuộc sống khỏe và lâu dài vì ...",
+      "grammarNote": "matter (động từ): quan trọng. Chủ ngữ số ít ở hiện tại đơn thì thêm -s: matters.",
+      "examples": ["I think a positive attitude matters most for a long life because stress can make us ill."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What do you usually do to stay fit?", "difficulty": 1, "kind": "personal",
+      "keywords": ["work out", "regular", "fitness"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một môn thể thao hay thói quen vận động em đang có, em làm nó bao lâu một lần và bắt đầu từ khi nào.",
+      "exampleAnswer": "I usually go jogging in the park three times a week. I have also played badminton since I was ten.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What healthy food did you eat yesterday?", "difficulty": 1, "kind": "personal",
+      "keywords": ["vegetables", "fruit", "nutrient"], "frameId": "f02",
+      "hintDirectionVi": "Nhớ lại các bữa ăn hôm qua của em, chọn những món có rau, cá, trái cây hay đồ ăn ít dầu mỡ.",
+      "exampleAnswer": "Yesterday I ate rice with fish and lots of vegetables. I also had a banana after school, so I felt full of energy.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Have you ever tried a new sport? What was it like?", "difficulty": 1, "kind": "personal",
+      "keywords": ["have tried", "last summer", "fun"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một môn em từng thử lần đầu. Em thử khi nào, với ai, và cảm giác lúc đó thế nào?",
+      "exampleAnswer": "Yes, I have. I tried table tennis with my uncle last summer. It was harder than I expected, but it was really fun.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Is it easy for teenagers to eat a balanced diet? Why or why not?", "difficulty": 1, "kind": "opinion",
+      "keywords": ["balanced diet", "fast food", "busy"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về lịch học của học sinh và những món ăn bán quanh trường. Điều gì làm việc ăn uống cân đối dễ hay khó?",
+      "exampleAnswer": "Not really. Many teenagers are busy with school, so they often eat fast food. But it is possible if families cook simple meals at home.", "expectsReason": true
+    },
+    {
+      "id": "q05", "text": "Why is regular exercise important for students like you?", "difficulty": 2, "kind": "reason",
+      "keywords": ["regular", "energy", "concentrate"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem sau khi vận động, cơ thể và đầu óc em thay đổi thế nào khi ngồi học trên lớp.",
+      "exampleAnswer": "Regular exercise gives me more energy and helps me concentrate in class. Since I started jogging, I have felt less tired in the afternoon.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Do people today live healthier lives than people in the past? Why do you think so?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["life expectancy", "medicine", "in the past"], "frameId": "f05",
+      "hintDirectionVi": "So sánh hai mặt: điều gì đã tốt lên (y tế, thức ăn) và điều gì đã kém đi (vận động, đồ ăn nhanh) so với ngày xưa.",
+      "exampleAnswer": "In some ways, yes. Life expectancy has increased because medicine has improved. However, people in the past walked more and ate less junk food.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Why do many people find it hard to give up unhealthy habits?", "difficulty": 2, "kind": "reason",
+      "keywords": ["give up", "habit", "cut down on"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một thói quen chưa tốt mà em hoặc người quen muốn bỏ. Vì sao nó cứ quay lại?",
+      "exampleAnswer": "These habits are comfortable and quick. For example, I have tried to cut down on sweets many times, but it has been hard to stop.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Your friend wants to get fit but hates going to the gym. Give them some advice.", "difficulty": 2, "kind": "situation",
+      "keywords": ["work out", "at home", "press-ups"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về cách tập không cần phòng gym: ở nhà, ngoài công viên, hoặc lồng vào việc đi lại hằng ngày.",
+      "exampleAnswer": "If you want to get fit, you should try working out at home. Press-ups and star jumps only take fifteen minutes, and you don't need a gym.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "How has your daily routine changed since you started grade 11?", "difficulty": 2, "kind": "personal",
+      "keywords": ["since", "have started", "sleep"], "frameId": "f01",
+      "hintDirectionVi": "So sánh một ngày của em bây giờ với năm lớp 10: giờ ngủ, giờ học, giờ chơi có gì khác?",
+      "exampleAnswer": "Since I started grade 11, I have gone to bed later because I have more homework. I have also stopped playing football after school.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Should schools stop selling sugary drinks? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["cut down on", "sugar", "choice"], "frameId": "f06",
+      "hintDirectionVi": "Chọn đồng ý hay không trước. Rồi nghĩ đến sức khỏe học sinh và quyền tự chọn đồ uống của mỗi người.",
+      "exampleAnswer": "I think they should. Many students drink too much sugar, which is bad for their teeth. Schools could sell water and fresh juice instead.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "What is one healthy habit you have kept for a long time?", "difficulty": 2, "kind": "personal",
+      "keywords": ["for years", "properly", "regular"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một việc tốt cho sức khỏe em làm đều đặn. Ai dạy em thói quen đó và em giữ nó bao lâu rồi?",
+      "exampleAnswer": "I have eaten a proper breakfast every morning for about five years. My mum taught me this, and now I can't start the day without it.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "What matters most for a long life: diet, exercise or a positive attitude? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["balanced diet", "exercise", "stress"], "frameId": "f07",
+      "hintDirectionVi": "Chọn một yếu tố em thấy quan trọng nhất, nêu lý do, rồi nói thêm vì sao hai yếu tố còn lại vẫn cần.",
+      "exampleAnswer": "I think diet matters most because our body needs nutrients every day. Exercise and a positive attitude also help, but bad food can cause many diseases.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "You are planning a healthy menu for a class trip. Describe your plan and explain it.", "difficulty": 3, "kind": "situation",
+      "keywords": ["ingredient", "nutrient", "energy"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về món dễ mang theo, không nhanh hỏng, đủ chất cho một ngày đi bộ nhiều. Giải thích vì sao em chọn chúng.",
+      "exampleAnswer": "I would bring rice, grilled chicken and lots of fruit. These ingredients are cheap and easy to carry, and they give us enough energy for a long day.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Why do you think life expectancy in Viet Nam has increased in recent decades?", "difficulty": 3, "kind": "reason",
+      "keywords": ["life expectancy", "treatment", "hygiene"], "frameId": "f05",
+      "hintDirectionVi": "So sánh cuộc sống thời ông bà em còn trẻ với bây giờ: thức ăn, nước sạch, bệnh viện, thuốc men.",
+      "exampleAnswer": "I think people have had better food and hospitals. Clean water and vaccines have also stopped many infections that killed people in the past.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Your grandparent says young people today are less healthy. Respond politely with your opinion.", "difficulty": 3, "kind": "situation",
+      "keywords": ["I see your point", "however", "work out"], "frameId": "f05",
+      "hintDirectionVi": "Bắt đầu bằng việc công nhận một phần ý của ông bà, rồi đưa ra một điều em thấy giới trẻ đang làm tốt hơn.",
+      "exampleAnswer": "I see your point. We sit more than you did when you were young. However, many of us have started working out and eating more vegetables.", "expectsReason": false
+    }
+  ]
+}

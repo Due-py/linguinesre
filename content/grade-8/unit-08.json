@@ -1,0 +1,172 @@
+{
+  "grade": 8,
+  "unit": 8,
+  "title": "Shopping",
+  "titleVi": "Mua sắm",
+  "topic": "Nói về những nơi em hay đi mua sắm, thói quen mua sắm, mua hàng trực tuyến và cách mua sắm thông minh, có trách nhiệm.",
+  "source": "Global Success 8, Unit 8 (chủ đề, từ vựng, trạng từ chỉ tần suất, hiện tại đơn cho sự kiện tương lai)",
+  "vocab": [
+    { "id": "v01", "en": "shopping centre", "vi": "trung tâm mua sắm", "example": "The new shopping centre has a cinema on the top floor." },
+    { "id": "v02", "en": "open-air market", "vi": "chợ họp ngoài trời", "example": "We buy fresh vegetables at the open-air market." },
+    { "id": "v03", "en": "convenience store", "vi": "cửa hàng tiện ích", "example": "The convenience store near my house is open 24 hours." },
+    { "id": "v04", "en": "bargain", "vi": "mặc cả", "example": "At the market, my aunt always bargains for a better price." },
+    { "id": "v05", "en": "discount shop", "vi": "cửa hàng hạ giá", "example": "I bought my school bag at a discount shop." },
+    { "id": "v06", "en": "on sale", "vi": "đang được bán hạ giá", "example": "These trainers are on sale this week." },
+    { "id": "v07", "en": "price tag", "vi": "nhãn ghi giá", "example": "Always check the price tag before you go to the counter." },
+    { "id": "v08", "en": "customer", "vi": "khách hàng", "example": "The shop gives every customer a free bag." },
+    { "id": "v09", "en": "shopaholic", "vi": "người nghiện mua sắm", "example": "He buys new clothes every week. He is a real shopaholic." },
+    { "id": "v10", "en": "home-grown", "vi": "tự trồng", "example": "The farmers' market sells home-grown fruit." },
+    { "id": "v11", "en": "addicted to", "vi": "say mê, nghiện", "example": "Some people are addicted to online shopping." },
+    { "id": "v12", "en": "advertisement", "vi": "quảng cáo", "example": "I saw an advertisement for a new phone on the bus." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I ___ go to ___ with ___.",
+      "vi": "Mình ... đi ... cùng ...",
+      "grammarNote": "Trạng từ tần suất (always, usually, often, sometimes, rarely, never) đứng trước động từ thường.",
+      "examples": ["I sometimes go to the open-air market with my grandma."]
+    },
+    {
+      "id": "f02",
+      "text": "___ is always ___ at the weekend.",
+      "vi": "... lúc nào cũng ... vào cuối tuần.",
+      "grammarNote": "Với động từ to be, trạng từ tần suất đứng sau is/are: It is always busy.",
+      "examples": ["The shopping centre is always crowded at the weekend."]
+    },
+    {
+      "id": "f03",
+      "text": "The ___ opens at ___ on ___.",
+      "vi": "... mở cửa lúc ... vào ...",
+      "grammarNote": "Dùng hiện tại đơn cho lịch trình, giờ mở cửa trong tương lai: The market opens at 6 a.m. tomorrow.",
+      "examples": ["The bookshop opens at nine on Saturday."]
+    },
+    {
+      "id": "f04",
+      "text": "Shopping at ___ is ___, but ___.",
+      "vi": "Mua sắm ở ... thì ..., nhưng ...",
+      "grammarNote": "Shopping (V-ing) làm chủ ngữ thì đi với is. Nối hai ý trái ngược bằng but.",
+      "examples": ["Shopping at a supermarket is convenient, but it is not as cheap as the market."]
+    },
+    {
+      "id": "f05",
+      "text": "Excuse me, is this ___ on sale? Could you ___?",
+      "vi": "Xin lỗi, cái ... này có giảm giá không? Bạn có thể ... không?",
+      "grammarNote": "Hỏi lịch sự trong cửa hàng: Excuse me, ...? Could you + động từ nguyên mẫu?",
+      "examples": ["Excuse me, is this jacket on sale? Could you tell me the price?"]
+    },
+    {
+      "id": "f06",
+      "text": "The sale starts on ___, so let's ___.",
+      "vi": "Đợt giảm giá bắt đầu vào ..., vậy chúng mình ... nhé.",
+      "grammarNote": "Hiện tại đơn cho sự kiện đã có lịch: The sale starts on Friday. Let's + động từ nguyên mẫu để rủ.",
+      "examples": ["The sale starts on Friday, so let's go after school."]
+    },
+    {
+      "id": "f07",
+      "text": "Before I buy something, I always check ___.",
+      "vi": "Trước khi mua gì đó, mình luôn kiểm tra ...",
+      "grammarNote": "Trạng từ tần suất always đứng trước động từ thường.",
+      "examples": ["Before I buy something, I always check the size and the price."]
+    },
+    {
+      "id": "f08",
+      "text": "To avoid ___, teenagers should ___.",
+      "vi": "Để tránh ..., tuổi teen nên ...",
+      "grammarNote": "To avoid + động từ thêm -ing; should + động từ nguyên mẫu để khuyên.",
+      "examples": ["To avoid wasting money, teenagers should save a little every week."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Where do you usually go shopping?", "difficulty": 1, "kind": "personal",
+      "keywords": ["usually", "market", "shopping centre"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về nơi em hay đi mua đồ nhất: chợ, siêu thị, cửa hàng tiện ích hay trên mạng.",
+      "exampleAnswer": "I usually go to the supermarket near my house. Sometimes I go to the market with my mum.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "How often do you go shopping with your friends?", "difficulty": 1, "kind": "personal",
+      "keywords": ["sometimes", "rarely", "once a month"], "frameId": "f01",
+      "hintDirectionVi": "Dùng một trạng từ chỉ tần suất (often, sometimes, rarely, never) và nói em thường mua gì.",
+      "exampleAnswer": "I rarely go shopping with my friends. We sometimes buy books or stationery together.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What is your favourite shop in your neighbourhood?", "difficulty": 1, "kind": "personal",
+      "keywords": ["bookshop", "friendly", "near"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về một cửa hàng gần nhà em hay ghé. Ở đó bán gì? Vì sao em thích nó?",
+      "exampleAnswer": "My favourite shop is a small bookshop. The owner is friendly, and it is always quiet.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What do you usually buy at a convenience store?", "difficulty": 1, "kind": "personal",
+      "keywords": ["convenience store", "snacks", "drinks"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về những thứ nhỏ em hay mua nhanh: đồ ăn vặt, nước uống, đồ dùng học tập.",
+      "exampleAnswer": "I usually buy drinks and snacks there. Sometimes I buy a pen when I forget mine.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do many teenagers like spending time at shopping centres?", "difficulty": 2, "kind": "reason",
+      "keywords": ["cinema", "air-conditioned", "meet friends"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về những thứ có ở trung tâm mua sắm ngoài cửa hàng: rạp phim, khu ăn uống, khu trò chơi.",
+      "exampleAnswer": "Shopping centres have cinemas, games and food courts. They are cool inside, so teenagers can meet friends there.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Is online shopping better than shopping in real shops? Why do you think so?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["convenient", "try on", "delivery"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một điểm tiện của mua online và một điểm tiện của cửa hàng thật, rồi chọn bên em thích hơn.",
+      "exampleAnswer": "I don't think so. Online shopping is convenient, but in real shops you can try things on and check them.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Why do some people like buying home-grown food at farmers' markets?", "difficulty": 2, "kind": "reason",
+      "keywords": ["home-grown", "fresh", "safe"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem rau quả ở chợ nông sản khác gì rau quả ở siêu thị: độ tươi, nguồn gốc, người bán.",
+      "exampleAnswer": "Home-grown food is fresh and safe. People also like to support local farmers.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "You want to buy a T-shirt, but it has no price tag. Ask the shop assistant about it.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Excuse me", "price tag", "on sale"], "frameId": "f05",
+      "hintDirectionVi": "Mở đầu lịch sự, hỏi giá, và có thể hỏi thêm về cỡ áo hoặc giảm giá.",
+      "exampleAnswer": "Excuse me, this T-shirt has no price tag. Could you tell me how much it is? Is it on sale?", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "What do you always check before you buy something?", "difficulty": 2, "kind": "personal",
+      "keywords": ["always", "price tag", "quality"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về những điều em để ý trước khi trả tiền: giá, chất lượng, hạn sử dụng, kích cỡ.",
+      "exampleAnswer": "I always check the price and the quality. For food, I also check the date on the package.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Do advertisements make people buy things they don't need? Explain your answer.", "difficulty": 2, "kind": "opinion",
+      "keywords": ["advertisement", "attractive", "need"], "frameId": "f04",
+      "hintDirectionVi": "Nhớ lại một quảng cáo làm em muốn mua thứ gì đó. Em có thật sự cần món đó không?",
+      "exampleAnswer": "Yes, sometimes. Advertisements make things look attractive, so people buy them even when they don't need them.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Your friend wants to buy a birthday present for a classmate. Suggest a good place to shop.", "difficulty": 2, "kind": "situation",
+      "keywords": ["You could", "gift shop", "opens"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một nơi có nhiều món quà đẹp, nói tên nơi đó, có gì ở đó và giờ mở cửa.",
+      "exampleAnswer": "You could go to the gift shop next to our school. It opens at eight, and it has lovely cups and notebooks.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "What can teenagers do to avoid becoming shopaholics?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["shopping list", "need", "save"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ về những thói quen giúp mua sắm hợp lý: lập danh sách, chờ vài ngày, tự hỏi có thật cần không.",
+      "exampleAnswer": "They should make a shopping list and only buy what they need. They can also wait a few days before buying.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "You bought a pair of shoes online, but they are too small. Call the shop and describe the problem.", "difficulty": 3, "kind": "situation",
+      "keywords": ["too small", "change", "Could you"], "frameId": "f05",
+      "hintDirectionVi": "Chào, nói em đã mua gì và khi nào, nói vấn đề, rồi đề nghị đổi hàng một cách lịch sự.",
+      "exampleAnswer": "Hello, I bought some trainers from your website last week, but they are too small. Could you change them for a bigger size?", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "Would you rather shop at a big shopping centre or a small local market? Explain why.", "difficulty": 3, "kind": "reason",
+      "keywords": ["choice", "bargain", "friendly"], "frameId": "f04",
+      "hintDirectionVi": "So sánh hai nơi: nhiều lựa chọn, giá cả, không khí, người bán. Chọn một nơi và nêu hai lý do.",
+      "exampleAnswer": "I'd rather shop at a local market. Things are cheaper, I can bargain, and the sellers are very friendly.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Will people still go to shops in the future, or will they buy everything online? Give your opinion.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["online", "still", "experience"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem có điều gì mua online không thay thế được: cầm thử, đi chơi cùng bạn, mua ngay.",
+      "exampleAnswer": "I think people will still go to shops. Online shopping is easy, but shopping with friends is a fun experience.", "expectsReason": true
+    }
+  ]
+}

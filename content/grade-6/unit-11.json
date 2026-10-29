@@ -1,0 +1,158 @@
+{
+  "grade": 6,
+  "unit": 11,
+  "title": "Our Greener World",
+  "titleVi": "Thế giới xanh hơn của chúng ta",
+  "topic": "Nói về cách em giảm rác, tái sử dụng, tái chế và những việc nhỏ giúp trường, nhà và khu phố xanh hơn.",
+  "source": "Global Success 6, Unit 11 (chủ đề, từ vựng, ngữ pháp mạo từ, câu điều kiện loại 1)",
+  "vocab": [
+    { "id": "v01", "en": "reduce", "vi": "giảm", "example": "We can reduce rubbish by using cloth bags." },
+    { "id": "v02", "en": "reuse", "vi": "tái sử dụng", "example": "I reuse old jars to keep my pens." },
+    { "id": "v03", "en": "recycle", "vi": "tái chế", "example": "Our class recycles paper every month." },
+    { "id": "v04", "en": "rubbish", "vi": "rác", "example": "Please put your rubbish in the bin." },
+    { "id": "v05", "en": "recycling bin", "vi": "thùng đựng rác tái chế", "example": "The recycling bin is next to the classroom door." },
+    { "id": "v06", "en": "reusable", "vi": "có thể dùng lại", "example": "I bring a reusable water bottle to school." },
+    { "id": "v07", "en": "go green", "vi": "sống xanh, thân thiện với môi trường", "example": "Our school wants to go green this year." },
+    { "id": "v08", "en": "environment", "vi": "môi trường", "example": "Trees are very important for the environment." },
+    { "id": "v09", "en": "pick up", "vi": "nhặt (rác)", "example": "We pick up litter in the park on Sundays." },
+    { "id": "v10", "en": "instead of", "vi": "thay cho, thay vì", "example": "I walk to school instead of going by motorbike." },
+    { "id": "v11", "en": "container", "vi": "đồ đựng, hộp đựng", "example": "Mum puts my lunch in a glass container." },
+    { "id": "v12", "en": "exchange", "vi": "trao đổi", "example": "We exchange old books with our friends." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "If we ___, we will ___.",
+      "vi": "Nếu chúng ta ..., chúng ta sẽ ...",
+      "grammarNote": "Câu điều kiện loại 1: If + hiện tại đơn, will + động từ nguyên mẫu. Nói điều có thể xảy ra.",
+      "examples": ["If we plant more trees, we will have cleaner air."]
+    },
+    {
+      "id": "f02",
+      "text": "I ___ instead of ___.",
+      "vi": "Mình ... thay vì ...",
+      "grammarNote": "instead of + danh từ hoặc V-ing: instead of plastic bags, instead of driving.",
+      "examples": ["I use a cloth bag instead of a plastic bag."]
+    },
+    {
+      "id": "f03",
+      "text": "We can reuse ___ to ___.",
+      "vi": "Chúng ta có thể dùng lại ... để ...",
+      "grammarNote": "can + động từ nguyên mẫu; to + động từ để nói mục đích.",
+      "examples": ["We can reuse old boxes to keep toys."]
+    },
+    {
+      "id": "f04",
+      "text": "There is a ___ in our classroom. The ___ is for ___.",
+      "vi": "Trong lớp mình có một ... Cái ... đó dùng để ...",
+      "grammarNote": "Mạo từ: lần đầu nhắc đến dùng a / an; khi đã biết là vật nào thì dùng the.",
+      "examples": ["There is a bin in our classroom. The bin is for paper only."]
+    },
+    {
+      "id": "f05",
+      "text": "I think ___ is important because ___.",
+      "vi": "Mình nghĩ ... là quan trọng vì ...",
+      "grammarNote": "Nêu ý kiến bằng I think; V-ing có thể làm chủ ngữ: Recycling is important.",
+      "examples": ["I think saving water is important because clean water is limited."]
+    },
+    {
+      "id": "f06",
+      "text": "If you ___, you will help the environment.",
+      "vi": "Nếu bạn ..., bạn sẽ giúp ích cho môi trường.",
+      "grammarNote": "Câu điều kiện loại 1: mệnh đề If dùng hiện tại đơn, mệnh đề chính dùng will.",
+      "examples": ["If you turn off the lights, you will help the environment."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Do you recycle at home?", "difficulty": 1, "kind": "personal",
+      "keywords": ["recycle", "paper", "bottles"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem nhà em có để riêng giấy, chai nhựa hay lon để bán hoặc tái chế không.",
+      "exampleAnswer": "Yes, I do. We recycle paper and plastic bottles every week.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What do you do with your old books?", "difficulty": 1, "kind": "personal",
+      "keywords": ["give", "reuse", "exchange"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem sau mỗi năm học, sách cũ của em đi đâu: cho, đổi hay giữ lại.",
+      "exampleAnswer": "I give them to my cousins, or I exchange them with friends.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "How do you go green at school?", "difficulty": 1, "kind": "personal",
+      "keywords": ["reusable bottle", "turn off", "pick up"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về một việc nhỏ em làm ở trường để bớt rác hoặc tiết kiệm điện, nước.",
+      "exampleAnswer": "I use a reusable bottle instead of plastic bottles.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Is your school clean and green?", "difficulty": 1, "kind": "opinion",
+      "keywords": ["clean", "trees", "rubbish"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về sân trường và lớp học: có nhiều cây không, có rác không.",
+      "exampleAnswer": "Yes, it is. There are many trees, and students don't litter.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "What can you reuse at home?", "difficulty": 2, "kind": "personal",
+      "keywords": ["jars", "boxes", "bags"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về hộp, lọ, túi hay chai sau khi dùng xong. Em có thể dùng chúng vào việc gì khác?",
+      "exampleAnswer": "We can reuse glass jars to keep sweets and pens.", "expectsReason": false
+    },
+    {
+      "id": "q06", "text": "How do you help to reduce rubbish?", "difficulty": 2, "kind": "personal",
+      "keywords": ["reduce", "cloth bag", "instead of"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về một thói quen giúp nhà em vứt ít rác hơn, nhất là đồ nhựa.",
+      "exampleAnswer": "I take a cloth bag to the market instead of using plastic bags.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Why should we use reusable bags?", "difficulty": 2, "kind": "reason",
+      "keywords": ["plastic", "rubbish", "environment"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem mỗi ngày có bao nhiêu túi nhựa bị vứt đi. Nếu dùng túi dùng lại thì sao?",
+      "exampleAnswer": "If we use reusable bags, we will have less plastic rubbish.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Why is it important to pick up rubbish?", "difficulty": 2, "kind": "reason",
+      "keywords": ["pick up", "clean", "animals"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem rác bị bỏ lại trên đường hay trong công viên sẽ gây hại cho ai.",
+      "exampleAnswer": "If we pick up rubbish, our streets will be clean, and animals will be safe.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Is it easy to go green? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["easy", "small things", "every day"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về vài việc nhỏ ai cũng làm được hằng ngày, rồi quyết định là dễ hay khó.",
+      "exampleAnswer": "Yes. We can do small things, like turning off lights when we leave.", "expectsReason": true
+    },
+    {
+      "id": "q10", "text": "Should every classroom have a recycling bin?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["recycling bin", "sort", "easy"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem nếu thùng rác tái chế ở ngay trong lớp thì học sinh có dễ phân loại rác hơn không.",
+      "exampleAnswer": "Yes. Students will sort rubbish more easily if the bin is near them.", "expectsReason": false
+    },
+    {
+      "id": "q11", "text": "Your friend throws a bottle on the ground. What do you say?", "difficulty": 2, "kind": "situation",
+      "keywords": ["Please", "recycling bin", "environment"], "frameId": "f06",
+      "hintDirectionVi": "Nhắc bạn một cách lịch sự, rồi nói việc đúng sẽ giúp ích thế nào.",
+      "exampleAnswer": "Please put it in the recycling bin. If you do, you'll help the environment.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Which green habit is the most important to you? Why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["save water", "recycle", "because"], "frameId": "f05",
+      "hintDirectionVi": "Chọn một thói quen sống xanh, rồi nghĩ xem nếu ai cũng làm thì thế giới sẽ thay đổi gì.",
+      "exampleAnswer": "I think saving water is important because many places don't have enough clean water.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "What will happen if people don't stop using plastic bags?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["if", "rivers", "sea animals"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về sông, biển và động vật. Túi nhựa sẽ ảnh hưởng đến chúng thế nào?",
+      "exampleAnswer": "If people don't stop, rivers will be dirty, and sea animals will die.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "You start a green club. Give your members two tips.", "difficulty": 3, "kind": "situation",
+      "keywords": ["reduce", "reuse", "recycle"], "frameId": "f06",
+      "hintDirectionVi": "Chọn hai việc đơn giản các bạn làm được ngay ở trường, rồi nói chúng giúp gì.",
+      "exampleAnswer": "Bring a reusable bottle and recycle paper. You will help the environment!", "expectsReason": false
+    },
+    {
+      "id": "q15", "text": "Your family is having a party. How can it be greener?", "difficulty": 3, "kind": "situation",
+      "keywords": ["reusable", "instead of", "plates"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về đồ dùng một lần trong bữa tiệc: cốc, đĩa, túi. Có thể thay bằng gì?",
+      "exampleAnswer": "We can use real plates instead of plastic ones and recycle the cans.", "expectsReason": false
+    }
+  ]
+}

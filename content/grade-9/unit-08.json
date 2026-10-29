@@ -1,0 +1,172 @@
+{
+  "grade": 9,
+  "unit": 8,
+  "title": "Tourism",
+  "titleVi": "Du lịch",
+  "topic": "Nói về những chuyến đi của em, các kiểu du lịch, cách lên kế hoạch cho chuyến đi và lời khuyên cho du khách.",
+  "source": "Global Success 9, Unit 8 (chủ đề, từ vựng, ngữ pháp đại từ quan hệ)",
+  "vocab": [
+    { "id": "v01", "en": "package holiday", "vi": "kì nghỉ trọn gói", "example": "A package holiday includes flights, hotels and some meals." },
+    { "id": "v02", "en": "self-guided", "vi": "tự tổ chức", "example": "We went on a self-guided walk around the old town." },
+    { "id": "v03", "en": "itinerary", "vi": "lịch trình", "example": "Our itinerary includes a boat trip on the second day." },
+    { "id": "v04", "en": "homestay", "vi": "nhà trọ (ở cùng nhà dân)", "example": "We stayed at a homestay and ate dinner with the host family." },
+    { "id": "v05", "en": "domestic tourism", "vi": "du lịch trong nước", "example": "Domestic tourism is growing fast in Viet Nam." },
+    { "id": "v06", "en": "food tourism", "vi": "du lịch ẩm thực", "example": "Food tourism is popular in Hoi An because of its delicious dishes." },
+    { "id": "v07", "en": "agency", "vi": "hãng (du lịch)", "example": "My parents booked our trip through a travel agency." },
+    { "id": "v08", "en": "brochure", "vi": "quyển quảng cáo (du lịch)", "example": "The brochure shows photos of every hotel on the tour." },
+    { "id": "v09", "en": "holidaymaker", "vi": "người đi nghỉ", "example": "The beach was full of holidaymakers in July." },
+    { "id": "v10", "en": "low season", "vi": "mùa (du lịch) vắng khách", "example": "Hotels are much cheaper in the low season." },
+    { "id": "v11", "en": "wander", "vi": "dạo chơi", "example": "We wandered around the night market for hours." },
+    { "id": "v12", "en": "work out", "vi": "lên (kế hoạch), soạn thảo", "example": "Let's work out a plan for our summer trip." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "A good travel companion is someone who ___.",
+      "vi": "Một người bạn đồng hành tốt là người ...",
+      "grammarNote": "Đại từ quan hệ who thay cho người, đứng ngay sau danh từ chỉ người và làm chủ ngữ cho mệnh đề sau.",
+      "examples": ["A good travel companion is someone who is patient and loves trying new food."]
+    },
+    {
+      "id": "f02",
+      "text": "I'd like to visit a place which ___.",
+      "vi": "Mình muốn đến một nơi mà ...",
+      "grammarNote": "Đại từ quan hệ which thay cho vật hoặc nơi chốn; that có thể thay cho cả who và which.",
+      "examples": ["I'd like to visit a place which has beautiful beaches and fresh seafood."]
+    },
+    {
+      "id": "f03",
+      "text": "The best trip that I've ever had was to ___.",
+      "vi": "Chuyến đi tuyệt nhất mà mình từng có là chuyến đến ...",
+      "grammarNote": "that / which làm tân ngữ trong mệnh đề quan hệ có thể lược bỏ: the best trip (that) I've ever had.",
+      "examples": ["The best trip that I've ever had was to Phu Quoc with my cousins."]
+    },
+    {
+      "id": "f04",
+      "text": "I'd rather go on a ___ because ___.",
+      "vi": "Mình thích đi ... hơn vì ...",
+      "grammarNote": "I'd rather + V nguyên mẫu: mình thích làm gì hơn. because + mệnh đề để nêu lý do.",
+      "examples": ["I'd rather go on a self-guided tour because I can choose where to stop."]
+    },
+    {
+      "id": "f05",
+      "text": "Before a trip, we usually work out ___ and ___.",
+      "vi": "Trước chuyến đi, nhà mình thường lên kế hoạch ... và ...",
+      "grammarNote": "Cụm động từ work out: lên kế hoạch, tính toán. Tân ngữ là danh từ có thể đặt sau out.",
+      "examples": ["Before a trip, we usually work out the itinerary and the budget."]
+    },
+    {
+      "id": "f06",
+      "text": "Try ___. It's a place whose ___ is really ___.",
+      "vi": "Hãy thử ... Đó là nơi có ... rất ...",
+      "grammarNote": "whose + danh từ: chỉ sở hữu của người hoặc vật đứng trước (a café whose coffee is famous).",
+      "examples": ["Try the corner café. It's a place whose egg coffee is really famous."]
+    },
+    {
+      "id": "f07",
+      "text": "When I travel, I like to ___ which ___.",
+      "vi": "Khi đi du lịch, em thích ... mà ...",
+      "grammarNote": "which + mệnh đề quan hệ: nói rõ thêm về vật đứng ngay trước nó.",
+      "examples": ["When I travel, I like to buy small gifts which are made by local people."]
+    },
+    {
+      "id": "f08",
+      "text": "Excuse me, could you tell me ___? How much does ___ cost?",
+      "vi": "Xin lỗi, anh / chị cho em hỏi ... được không ạ? ... giá bao nhiêu ạ?",
+      "grammarNote": "Could you tell me + từ để hỏi + S + V: câu hỏi gián tiếp, lịch sự hơn câu hỏi trực tiếp.",
+      "examples": ["Excuse me, could you tell me what the tour includes? How much does the two-day tour cost?"]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Where did you go on your last holiday?", "difficulty": 1, "kind": "personal",
+      "keywords": ["went to", "stayed", "which"], "frameId": "f03",
+      "hintDirectionVi": "Nhớ lại kỳ nghỉ gần nhất của em, dù chỉ là về quê. Em đi đâu, ở đâu, làm gì?",
+      "exampleAnswer": "I went to Nha Trang with my family last summer. We stayed in a hotel which was right next to the beach.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Who do you usually travel with, and who plans the trip?", "difficulty": 1, "kind": "personal",
+      "keywords": ["family", "the person who", "plan"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về những chuyến đi của em. Ai thường đi cùng, và ai là người lo mọi việc?",
+      "exampleAnswer": "I usually travel with my family. My dad is the person who plans everything, from hotels to food.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What do you like to buy as souvenirs when you travel?", "difficulty": 1, "kind": "personal",
+      "keywords": ["souvenir", "local", "handmade"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về một món quà em từng mua khi đi chơi. Em mua cho ai và vì sao chọn món đó?",
+      "exampleAnswer": "I like to buy small things which are made by local people, like keyrings or postcards.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What kind of food do you like to try when you travel?", "difficulty": 1, "kind": "personal",
+      "keywords": ["food tourism", "street food", "local"], "frameId": "f07",
+      "hintDirectionVi": "Nhớ lại một món ăn lạ em từng thử ở nơi khác. Nó có gì đặc biệt so với món ở nhà?",
+      "exampleAnswer": "I love trying local street food that I can't find at home, like a special noodle soup.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do some people choose package holidays?", "difficulty": 2, "kind": "reason",
+      "keywords": ["package holiday", "convenient", "agency"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về những việc phải chuẩn bị cho một chuyến đi. Kỳ nghỉ trọn gói giúp người ta bớt việc gì?",
+      "exampleAnswer": "Package holidays are convenient because the agency books everything, such as flights, hotels and meals. You don't have to worry.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Why is the low season a good time to travel?", "difficulty": 2, "kind": "reason",
+      "keywords": ["low season", "cheaper", "crowded"], "frameId": "f04",
+      "hintDirectionVi": "So sánh giá cả và lượng khách ở mùa đông khách với mùa vắng khách.",
+      "exampleAnswer": "Hotels and tickets are cheaper, and places are less crowded. You can wander around and take photos without long queues.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Is a self-guided tour better than a tour with a guide? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["self-guided", "freedom", "guide"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về sự tự do khi tự đi và những điều hay mà hướng dẫn viên kể cho em. Em chọn bên nào?",
+      "exampleAnswer": "I'd rather go on a self-guided tour because I can choose where to go. But a guide who knows the history is also useful.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Should Vietnamese families choose domestic tourism over travelling abroad? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["domestic tourism", "cheaper", "discover"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về chi phí, sự tiện lợi và những nơi đẹp trong nước mà em chưa đến.",
+      "exampleAnswer": "I think so. Domestic tourism is cheaper, and there are many beautiful places which we haven't discovered yet in our own country.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "How do you or your family usually plan a trip?", "difficulty": 2, "kind": "personal",
+      "keywords": ["work out", "itinerary", "book"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về các bước trước một chuyến đi: chọn nơi, đặt chỗ ở, lên lịch trình. Ai làm việc gì?",
+      "exampleAnswer": "We work out the itinerary together, and my sister books a homestay online a few weeks before.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "You are at a travel agency. Ask the agent about a tour to Hue.", "difficulty": 2, "kind": "situation",
+      "keywords": ["brochure", "itinerary", "how much"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ xem em cần biết gì trước khi đặt tour: lịch trình, giá cả, thời gian. Hỏi lịch sự từng ý.",
+      "exampleAnswer": "Excuse me, do you have a brochure for the Hue tour? What's on the itinerary, and how much does it cost?", "expectsReason": false
+    },
+    {
+      "id": "q11", "text": "A foreign holidaymaker asks you to recommend a place to eat in your area. Answer them.", "difficulty": 2, "kind": "situation",
+      "keywords": ["try", "whose", "famous for"], "frameId": "f06",
+      "hintDirectionVi": "Chọn một quán em biết, nói nó ở đâu và món nào ở đó ngon nhất.",
+      "exampleAnswer": "Try the small restaurant near the market. It's a family business whose noodle soup is the best in town.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Should tourists learn some of the local language before they travel? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["respect", "communicate", "local people"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem người dân địa phương cảm thấy thế nào khi khách nói được vài câu tiếng của họ.",
+      "exampleAnswer": "Yes. Holidaymakers who learn a few words show respect, and local people are usually friendlier to them.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "What kind of holiday would you like to go on in the future, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["I'd rather", "food tour", "adventure"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về kiểu đi chơi hợp với em: khám phá thiên nhiên, ăn uống, mua sắm hay tìm hiểu lịch sử.",
+      "exampleAnswer": "I'd love a food tour of Japan because I want to try sushi and ramen that are made by real Japanese chefs.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Your class has three days for a school trip. Work out a short itinerary and explain it.", "difficulty": 3, "kind": "situation",
+      "keywords": ["itinerary", "day one", "work out"], "frameId": "f05",
+      "hintDirectionVi": "Chia ba ngày thành ba hoạt động khác nhau: học hỏi, vận động, nghỉ ngơi. Mỗi ngày nói một câu.",
+      "exampleAnswer": "On day one we visit a museum which shows local history. On day two we go hiking, and on day three we relax at the beach.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Will online apps replace travel agencies in the future? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["online app", "agency", "advice"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ xem ứng dụng làm tốt việc gì, và còn việc gì người ta vẫn cần nhân viên du lịch giúp.",
+      "exampleAnswer": "Mostly, yes. Apps are fast and cheap, but some people who want personal advice will still go to travel agencies.", "expectsReason": true
+    }
+  ]
+}

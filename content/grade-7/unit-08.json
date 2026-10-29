@@ -1,0 +1,165 @@
+{
+  "grade": 7,
+  "unit": 8,
+  "title": "Films",
+  "titleVi": "Phim ảnh",
+  "topic": "Nói về thể loại phim em thích, một bộ phim em đã xem, cảm nhận của em về nó và cách rủ bạn đi xem phim.",
+  "source": "Global Success 7, Unit 8 (chủ đề, từ vựng, liên từ although / though và however)",
+  "vocab": [
+    { "id": "v01", "en": "comedy", "vi": "phim hài", "example": "We laughed a lot at the comedy last night." },
+    { "id": "v02", "en": "documentary", "vi": "phim tài liệu", "example": "I watched a documentary about sea turtles." },
+    { "id": "v03", "en": "horror film", "vi": "phim kinh dị", "example": "My sister never watches horror films alone." },
+    { "id": "v04", "en": "science fiction", "vi": "phim khoa học viễn tưởng", "example": "Science fiction films often show life in the future." },
+    { "id": "v05", "en": "fantasy", "vi": "phim giả tưởng", "example": "This fantasy film has dragons and a magic forest." },
+    { "id": "v06", "en": "acting", "vi": "diễn xuất", "example": "The story was simple, but the acting was excellent." },
+    { "id": "v07", "en": "star", "vi": "đóng vai chính", "example": "The film stars a young actor from Ha Noi." },
+    { "id": "v08", "en": "gripping", "vi": "hấp dẫn, lôi cuốn", "example": "The ending was so gripping that nobody left their seats." },
+    { "id": "v09", "en": "moving", "vi": "cảm động", "example": "It is a moving film about a boy and his dog." },
+    { "id": "v10", "en": "dull", "vi": "buồn tẻ, chán", "example": "The first half of the film was a bit dull." },
+    { "id": "v11", "en": "confusing", "vi": "khó hiểu, gây rối", "example": "The story was confusing because it jumped between times." },
+    { "id": "v12", "en": "must-see", "vi": "phim nhất định phải xem", "example": "Everyone in my class says this cartoon is a must-see." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "My favourite type of film is ___ because ___.",
+      "vi": "Thể loại phim mình thích nhất là ... vì ...",
+      "grammarNote": "because + mệnh đề để nêu lý do. Tính từ tả phim: gripping, moving, enjoyable, dull, confusing.",
+      "examples": ["My favourite type of film is comedy because it makes me laugh."]
+    },
+    {
+      "id": "f02",
+      "text": "Although the film was ___, I ___.",
+      "vi": "Mặc dù bộ phim ..., mình vẫn ...",
+      "grammarNote": "Although + mệnh đề, mệnh đề chính: nối hai ý trái ngược nhau. Có dấu phẩy khi although đứng đầu câu.",
+      "examples": ["Although the film was long, I enjoyed every minute of it."]
+    },
+    {
+      "id": "f03",
+      "text": "I really liked ___, though ___.",
+      "vi": "Mình rất thích ..., dù rằng ...",
+      "grammarNote": "though nghĩa như although, thường dùng trong văn nói và có thể đứng giữa câu.",
+      "examples": ["I really liked the film, though the ending was a bit sad."]
+    },
+    {
+      "id": "f04",
+      "text": "The story was ___. However, the ___ was ___.",
+      "vi": "Cốt truyện thì ... Tuy nhiên, ... lại ...",
+      "grammarNote": "However đứng đầu câu thứ hai, sau nó có dấu phẩy, để nêu ý trái ngược với câu trước.",
+      "examples": ["The story was a bit dull. However, the acting was very good."]
+    },
+    {
+      "id": "f05",
+      "text": "Let's watch ___. It's a ___ film starring ___.",
+      "vi": "Mình cùng xem ... nhé. Đó là một phim ... do ... đóng chính.",
+      "grammarNote": "Let's + V nguyên mẫu để rủ. starring + tên diễn viên: do ai đóng vai chính.",
+      "examples": ["Let's watch Toy Story. It's a funny animated film starring Woody and Buzz."]
+    },
+    {
+      "id": "f06",
+      "text": "I think ___ films are ___ for teenagers because ___.",
+      "vi": "Mình nghĩ phim ... thì ... đối với tuổi teen vì ...",
+      "grammarNote": "I think + mệnh đề để nêu ý kiến. Dùng tính từ: good, useful, too scary, not suitable.",
+      "examples": ["I think documentary films are useful for teenagers because they teach us about the world."]
+    },
+    {
+      "id": "f07",
+      "text": "I usually watch films ___ with ___.",
+      "vi": "Mình thường xem phim ở ... cùng ...",
+      "grammarNote": "Hiện tại đơn với usually cho thói quen; at home / at the cinema chỉ nơi chốn.",
+      "examples": ["I usually watch films at the cinema with my cousins."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What kind of films do you like?", "difficulty": 1, "kind": "personal",
+      "keywords": ["comedy", "fantasy", "science fiction"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về vài bộ phim em đã xem và thích. Chúng thuộc thể loại nào?",
+      "exampleAnswer": "I like fantasy films. I love stories with magic and strange animals.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Who do you usually watch films with?", "difficulty": 1, "kind": "personal",
+      "keywords": ["family", "friends", "at the weekend"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ xem em hay xem phim cùng ai, ở đâu và vào lúc nào.",
+      "exampleAnswer": "I usually watch films with my family on Saturday evenings.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Do you watch films at home or at the cinema?", "difficulty": 1, "kind": "personal",
+      "keywords": ["at home", "at the cinema", "sometimes"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ xem em xem phim ở đâu nhiều hơn, và bao lâu một lần.",
+      "exampleAnswer": "I mostly watch films at home. I go to the cinema about once a month.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What was the last film you watched?", "difficulty": 1, "kind": "personal",
+      "keywords": ["last week", "it was", "about"], "frameId": "f04",
+      "hintDirectionVi": "Nhớ tên bộ phim gần nhất em xem, rồi nói nó kể về điều gì trong một câu.",
+      "exampleAnswer": "The last film I watched was a cartoon about a brave girl and her friends.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do some people love horror films?", "difficulty": 2, "kind": "reason",
+      "keywords": ["horror film", "exciting", "scary"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về cảm giác khi xem phim kinh dị: sợ nhưng vì sao người ta vẫn muốn xem?",
+      "exampleAnswer": "Although horror films are scary, they are exciting. Some people enjoy that strong feeling.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Tell me about a film that made you feel sad.", "difficulty": 2, "kind": "personal",
+      "keywords": ["moving", "cried", "ending"], "frameId": "f03",
+      "hintDirectionVi": "Nhớ một bộ phim cảm động em đã xem. Chi tiết nào làm em xúc động nhất?",
+      "exampleAnswer": "I watched a moving film about an old dog. I cried at the end, though it was a happy ending.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Are documentaries as enjoyable as comedies?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["documentary", "however", "learn"], "frameId": "f04",
+      "hintDirectionVi": "So sánh hai thể loại: một loại giúp vui, một loại giúp học hỏi. Em thấy loại nào hay hơn?",
+      "exampleAnswer": "Comedies are more fun. However, documentaries are enjoyable too because I learn new things.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Invite your friend to watch a new film this Saturday.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Let's watch", "starring", "must-see"], "frameId": "f05",
+      "hintDirectionVi": "Nói tên phim, thể loại, một điều hấp dẫn của phim, rồi hẹn giờ và địa điểm.",
+      "exampleAnswer": "Let's watch the new superhero film this Saturday. Everyone says it's a must-see!", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "Why do you think science fiction films are popular?", "difficulty": 2, "kind": "reason",
+      "keywords": ["science fiction", "future", "imagine"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về những thứ phim khoa học viễn tưởng cho người xem thấy mà đời thật chưa có.",
+      "exampleAnswer": "They show amazing things about the future. People like to imagine new worlds and robots.", "expectsReason": true
+    },
+    {
+      "id": "q10", "text": "Should you read reviews before you watch a film?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["review", "choose", "surprise"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về lợi ích (chọn được phim hay) và điều bất lợi (biết trước nội dung) của việc đọc bài nhận xét.",
+      "exampleAnswer": "I think so. Reviews help me choose good films. However, I don't read the whole story.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Should teenagers watch violent films? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["violent", "not suitable", "behaviour"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem những cảnh bạo lực có thể ảnh hưởng thế nào đến suy nghĩ và hành động của người trẻ.",
+      "exampleAnswer": "I don't think so. Violent films are not suitable for teenagers because they can copy bad behaviour.", "expectsReason": true
+    },
+    {
+      "id": "q12", "text": "Which film would you recommend to your class, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["recommend", "gripping", "moving"], "frameId": "f03",
+      "hintDirectionVi": "Chọn một phim cả lớp đều có thể thích, rồi nêu hai điểm hay của nó (nội dung, diễn xuất, bài học).",
+      "exampleAnswer": "I'd recommend Coco. It is moving and colourful, though some parts are a little sad.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Your friend says a film was dull, but you loved it. Reply politely.", "difficulty": 3, "kind": "situation",
+      "keywords": ["although", "I see", "however"], "frameId": "f02",
+      "hintDirectionVi": "Công nhận ý kiến của bạn trước, rồi nói nhẹ nhàng điều em thấy hay bằng although hoặc however.",
+      "exampleAnswer": "I see your point. Although the start was slow, I loved the ending. It was really gripping.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "Is a film usually better or worse than the book? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["book", "however", "imagine"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một truyện em đã đọc và cũng đã xem phim. Mỗi cách có điểm gì hay hơn?",
+      "exampleAnswer": "Books have more details. However, films are easier to enjoy because we can see and hear everything.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Your family wants to watch a film tonight. Choose one and persuade them.", "difficulty": 3, "kind": "situation",
+      "keywords": ["Let's watch", "everyone", "enjoyable"], "frameId": "f05",
+      "hintDirectionVi": "Chọn phim hợp với mọi người trong nhà, rồi nêu lý do để cả nhà đồng ý.",
+      "exampleAnswer": "Let's watch a comedy tonight. It's enjoyable for everyone, and Grandma loves funny films.", "expectsReason": true
+    }
+  ]
+}

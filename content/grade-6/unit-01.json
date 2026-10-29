@@ -1,0 +1,172 @@
+{
+  "grade": 6,
+  "unit": 1,
+  "title": "My New School",
+  "titleVi": "Trường mới của em",
+  "topic": "Nói về trường mới, môn học, bạn cùng lớp và những việc em thường làm ở trường mỗi ngày.",
+  "source": "Global Success 6, Unit 1 (chủ đề, từ vựng, ngữ pháp thì hiện tại đơn, trạng từ chỉ tần suất)",
+  "vocab": [
+    { "id": "v01", "en": "classmate", "vi": "bạn cùng lớp", "example": "My classmate sits next to me in every lesson." },
+    { "id": "v02", "en": "favourite", "vi": "được yêu thích nhất", "example": "Music is my favourite subject this year." },
+    { "id": "v03", "en": "activity", "vi": "hoạt động", "example": "Our school has a lot of fun activities after class." },
+    { "id": "v04", "en": "art", "vi": "môn mĩ thuật, nghệ thuật", "example": "We draw animals in our art lessons." },
+    { "id": "v05", "en": "boarding school", "vi": "trường nội trú", "example": "Students at a boarding school live and study there." },
+    { "id": "v06", "en": "calculator", "vi": "máy tính cầm tay", "example": "I use a calculator to check my maths answers." },
+    { "id": "v07", "en": "compass", "vi": "com-pa", "example": "I need a compass to draw a circle." },
+    { "id": "v08", "en": "smart", "vi": "bảnh bao, gọn gàng", "example": "We look smart in our new school uniforms." },
+    { "id": "v09", "en": "share", "vi": "chia sẻ", "example": "I share my coloured pencils with my friend." },
+    { "id": "v10", "en": "play football", "vi": "chơi bóng đá", "example": "The boys play football in the schoolyard at break time." },
+    { "id": "v11", "en": "do homework", "vi": "làm bài tập về nhà", "example": "I always do homework before dinner." },
+    { "id": "v12", "en": "have lunch", "vi": "ăn trưa", "example": "We have lunch at school at half past eleven." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I like ___ best because ___.",
+      "vi": "Mình thích ... nhất vì ...",
+      "grammarNote": "Thì hiện tại đơn nói điều em thích: I like + danh từ. Dùng because để nêu lý do.",
+      "examples": ["I like English best because I can sing English songs."]
+    },
+    {
+      "id": "f02",
+      "text": "At school, I usually ___, and I sometimes ___.",
+      "vi": "Ở trường, mình thường ..., và thỉnh thoảng mình ...",
+      "grammarNote": "Trạng từ tần suất (always, usually, often, sometimes, never) đứng trước động từ thường, sau động từ be.",
+      "examples": ["At school, I usually read books, and I sometimes play chess."]
+    },
+    {
+      "id": "f03",
+      "text": "I often ___ after school, but I never ___.",
+      "vi": "Sau giờ học mình hay ..., nhưng mình không bao giờ ...",
+      "grammarNote": "Hiện tại đơn cho thói quen. Nối hai ý trái ngược bằng but.",
+      "examples": ["I often ride my bike after school, but I never go out alone at night."]
+    },
+    {
+      "id": "f04",
+      "text": "I think ___ is ___ because ___.",
+      "vi": "Mình nghĩ ... thì ... vì ...",
+      "grammarNote": "Hiện tại đơn với be: I am, he / she / it is, we / they are. Nêu ý kiến bằng I think.",
+      "examples": ["I think my school is great because it has a big library."]
+    },
+    {
+      "id": "f05",
+      "text": "This is ___, my new classmate. He / She likes ___.",
+      "vi": "Đây là ..., bạn cùng lớp mới của mình. Bạn ấy thích ...",
+      "grammarNote": "Giới thiệu ai đó: This is + tên. Với he / she, động từ hiện tại đơn thêm -s / -es: likes, plays, watches.",
+      "examples": ["This is Hoa, my new classmate. She likes reading comics."]
+    },
+    {
+      "id": "f06",
+      "text": "I'd like to go to a school with ___ because ___.",
+      "vi": "Mình muốn học ở một trường có ... vì ...",
+      "grammarNote": "I'd like to + động từ nguyên mẫu để nói mong muốn.",
+      "examples": ["I'd like to go to a school with a swimming pool because I love swimming."]
+    },
+    {
+      "id": "f07",
+      "text": "I usually go to school ___.",
+      "vi": "Mình thường đi học ...",
+      "grammarNote": "Trạng từ tần suất usually đứng trước động từ thường. Phương tiện: by bike, by bus; đi bộ: on foot.",
+      "examples": ["I usually go to school on foot with my sister."]
+    },
+    {
+      "id": "f08",
+      "text": "Hi, I'm ___. Do you want to ___ with us?",
+      "vi": "Chào bạn, mình là ... Bạn có muốn ... cùng bọn mình không?",
+      "grammarNote": "Câu hỏi hiện tại đơn với do: Do you want to + động từ nguyên mẫu?",
+      "examples": ["Hi, I'm Nam. Do you want to play football with us?"]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What is your favourite subject?", "difficulty": 1, "kind": "personal",
+      "keywords": ["favourite", "art", "maths"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về giờ học làm em thấy vui nhất trong tuần và em thường làm gì trong giờ đó.",
+      "exampleAnswer": "I like art best because I love drawing and painting.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "How do you usually go to school?", "difficulty": 1, "kind": "personal",
+      "keywords": ["walk", "by bike", "usually"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về cách em đến trường mỗi sáng: đi bộ, đi xe đạp hay có người đưa đi.",
+      "exampleAnswer": "I usually go to school by bike. Sometimes my dad takes me.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What do you do at break time?", "difficulty": 1, "kind": "personal",
+      "keywords": ["play football", "chat", "classmates"], "frameId": "f02",
+      "hintDirectionVi": "Nhớ lại giờ ra chơi hôm qua: em ở trong lớp hay ra sân, và chơi cùng ai?",
+      "exampleAnswer": "At school, I usually chat with my classmates, and I sometimes play football.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Do you like your new school?", "difficulty": 1, "kind": "opinion",
+      "keywords": ["big", "friendly", "library"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một điều em thấy hay ở trường: thầy cô, bạn bè, sân trường hay thư viện.",
+      "exampleAnswer": "Yes, I do. I think my school is great because it has a big library.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "What do you often do after school?", "difficulty": 2, "kind": "personal",
+      "keywords": ["do homework", "often", "never"], "frameId": "f03",
+      "hintDirectionVi": "Kể một việc em hay làm sau giờ học và một việc em không bao giờ làm.",
+      "exampleAnswer": "I often do homework after school, but I never play games before dinner.", "expectsReason": false
+    },
+    {
+      "id": "q06", "text": "How often do you use a calculator at school?", "difficulty": 2, "kind": "personal",
+      "keywords": ["calculator", "sometimes", "maths"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ xem em dùng máy tính trong môn nào, mấy lần một tuần. Chọn always, often, sometimes hoặc never.",
+      "exampleAnswer": "I sometimes use a calculator in maths lessons, but not every day.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Which school activity do you enjoy most? Why?", "difficulty": 2, "kind": "reason",
+      "keywords": ["activity", "fun", "because"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về các hoạt động ở trường ngoài giờ học: câu lạc bộ, thể thao, văn nghệ. Hoạt động nào làm em vui nhất?",
+      "exampleAnswer": "I like the art club best because I can draw with my friends.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Why is it good to share things with classmates?", "difficulty": 2, "kind": "reason",
+      "keywords": ["share", "help", "friends"], "frameId": "f04",
+      "hintDirectionVi": "Nhớ lại lúc em quên đồ và có bạn cho mượn. Em thấy thế nào với bạn ấy?",
+      "exampleAnswer": "I think sharing is good because it helps us make friends.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Is a school uniform a good idea? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["uniform", "smart", "the same"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về việc mặc đồng phục: có tiện không, cả lớp trông thế nào. Rồi chọn đồng ý hay không.",
+      "exampleAnswer": "Yes, I think so. We look smart, and we don't need to choose clothes.", "expectsReason": true
+    },
+    {
+      "id": "q10", "text": "Is homework every day good for students? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["do homework", "remember", "tired"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một điều có ích và một điều chưa tốt khi ngày nào cũng có bài tập, rồi nói ý của em.",
+      "exampleAnswer": "I think homework helps me remember lessons, but too much makes me tired.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Introduce your new classmate to your friend.", "difficulty": 2, "kind": "situation",
+      "keywords": ["This is", "classmate", "likes"], "frameId": "f05",
+      "hintDirectionVi": "Nói tên bạn mới, rồi thêm một điều bạn ấy thích để hai người dễ làm quen.",
+      "exampleAnswer": "This is Lan, my new classmate. She likes reading and playing badminton.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Would you like to study at a boarding school? Why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["boarding school", "family", "miss"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem ở trường nội trú em được gì và thiếu gì, ví dụ có nhiều bạn mới nhưng xa nhà.",
+      "exampleAnswer": "No, I wouldn't. I'd miss my family and my own bedroom.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "What makes a good classmate? Give two ideas.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["friendly", "helpful", "share"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về người bạn cùng lớp em quý nhất. Bạn ấy thường làm gì cho mọi người?",
+      "exampleAnswer": "A good classmate is friendly, and he or she always helps others.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "A new student feels shy on the first day. What do you say?", "difficulty": 3, "kind": "situation",
+      "keywords": ["Hi", "Nice to meet you", "join"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ xem em chào bạn thế nào, rồi rủ bạn làm gì cùng để bạn bớt ngại.",
+      "exampleAnswer": "Hi, I'm Minh. Nice to meet you! Do you want to play with us?", "expectsReason": false
+    },
+    {
+      "id": "q15", "text": "Tell a friend from another school about your school day.", "difficulty": 3, "kind": "situation",
+      "keywords": ["start", "lessons", "after school"], "frameId": "f02",
+      "hintDirectionVi": "Kể theo thứ tự một ngày: mấy giờ vào học, học mấy tiết, sau giờ học em làm gì.",
+      "exampleAnswer": "School starts at seven. I usually have five lessons and play football after school.", "expectsReason": false
+    }
+  ]
+}

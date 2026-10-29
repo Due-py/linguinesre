@@ -1,0 +1,158 @@
+{
+  "grade": 12,
+  "unit": 7,
+  "title": "The World of Mass Media",
+  "titleVi": "Thế giới truyền thông đại chúng",
+  "topic": "Nói về cách em tiếp nhận tin tức, chương trình và quảng cáo, so sánh các loại phương tiện truyền thông và cách nhận ra tin giả.",
+  "source": "Global Success 12, Unit 7 (chủ đề, từ vựng, ngữ pháp mệnh đề trạng ngữ chỉ cách thức và kết quả)",
+  "vocab": [
+    { "id": "v01", "en": "mass media", "vi": "phương tiện truyền thông đại chúng", "example": "The mass media can change how people think about an issue." },
+    { "id": "v02", "en": "the press", "vi": "báo chí", "example": "The press reported the story on the front page." },
+    { "id": "v03", "en": "broadcast", "vi": "phát sóng; chương trình phát sóng", "example": "The match will be broadcast live at eight o'clock." },
+    { "id": "v04", "en": "fake news", "vi": "tin giả", "example": "Fake news about the exam spread quickly on social media." },
+    { "id": "v05", "en": "fact-check", "vi": "kiểm chứng thông tin", "example": "I always fact-check surprising stories before I share them." },
+    { "id": "v06", "en": "credible", "vi": "đáng tin cậy", "example": "This newspaper is credible because it names its sources." },
+    { "id": "v07", "en": "source", "vi": "nguồn tin", "example": "A good report uses more than one source." },
+    { "id": "v08", "en": "bias", "vi": "thiên kiến, thiên vị", "example": "The article showed bias because it only gave one side." },
+    { "id": "v09", "en": "advert", "vi": "quảng cáo", "example": "That shampoo advert plays before every video I watch." },
+    { "id": "v10", "en": "interactive", "vi": "có thể tương tác được", "example": "The online news page has an interactive map." },
+    { "id": "v11", "en": "spread", "vi": "lan truyền", "example": "Rumours spread faster than true stories." },
+    { "id": "v12", "en": "viewer", "vi": "người xem", "example": "The channel has over a million viewers." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "The ___ was so ___ that ___.",
+      "vi": "... quá ... đến nỗi ...",
+      "grammarNote": "Mệnh đề chỉ kết quả: so + tính từ/trạng từ + that + mệnh đề (quá ... đến nỗi ...).",
+      "examples": ["The video was so funny that I watched it three times."]
+    },
+    {
+      "id": "f02",
+      "text": "It was such a/an ___ ___ that ___.",
+      "vi": "Đó là một ... đến nỗi ...",
+      "grammarNote": "Mệnh đề chỉ kết quả: such + a/an + tính từ + danh từ + that + mệnh đề.",
+      "examples": ["It was such an interesting documentary that I told all my friends about it."]
+    },
+    {
+      "id": "f03",
+      "text": "It sounded as if ___, but ___.",
+      "vi": "Nghe như thể là ..., nhưng ...",
+      "grammarNote": "Mệnh đề chỉ cách thức: as if / as though + mệnh đề (như thể là). Dùng sau look, sound, act, talk.",
+      "examples": ["It sounded as if the news came from a doctor, but it was just a random post."]
+    },
+    {
+      "id": "f04",
+      "text": "I get my news ___, just as ___ do/does.",
+      "vi": "Mình đọc tin tức ..., giống như ... vẫn làm.",
+      "grammarNote": "Mệnh đề chỉ cách thức với as: làm theo cách mà ai đó làm (just as my parents do).",
+      "examples": ["I get my news from the radio in the morning, just as my grandfather does."]
+    },
+    {
+      "id": "f05",
+      "text": "I think ___ is more reliable than ___ because ___.",
+      "vi": "Mình nghĩ ... đáng tin hơn ... vì ...",
+      "grammarNote": "So sánh hơn với tính từ dài: more + tính từ + than; dùng because để nêu lý do.",
+      "examples": ["I think TV news is more reliable than social media because journalists check the facts."]
+    },
+    {
+      "id": "f06",
+      "text": "The advert made ___ look as though ___.",
+      "vi": "Quảng cáo làm cho ... trông như thể ...",
+      "grammarNote": "make + vật + look as though + mệnh đề: làm cho cái gì trông như thể ...",
+      "examples": ["The advert made the shoes look as though they could help you fly."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Where do you usually get your news?", "difficulty": 1, "kind": "personal",
+      "keywords": ["social media", "online newspaper", "TV"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem em biết tin mới qua đâu: mạng xã hội, báo điện tử, ti vi hay người nhà kể lại.",
+      "exampleAnswer": "I usually get my news from online newspapers, just as my parents do. Sometimes I watch the evening broadcast too.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What kind of TV programme or video channel do you enjoy most?", "difficulty": 1, "kind": "personal",
+      "keywords": ["programme", "channel", "viewer"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về chương trình hay kênh em xem thường xuyên nhất và một nội dung em nhớ gần đây.",
+      "exampleAnswer": "I enjoy science channels. Last week I watched such an interesting video about the ocean that I shared it with my class.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "How much time do you spend on social media every day?", "difficulty": 1, "kind": "personal",
+      "keywords": ["social media", "hours", "scroll"], "frameId": "f01",
+      "hintDirectionVi": "Ước lượng thời gian em dùng mạng xã hội mỗi ngày, và nghĩ xem có lúc nào em quên cả giờ không.",
+      "exampleAnswer": "I spend about two hours a day on social media. Sometimes the videos are so funny that I forget the time.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Describe an advert that you remember well.", "difficulty": 1, "kind": "personal",
+      "keywords": ["advert", "catchy", "product"], "frameId": "f06",
+      "hintDirectionVi": "Nhớ một quảng cáo có bài hát, hình ảnh hay câu nói đặc biệt. Nó quảng cáo gì và làm em thấy thế nào?",
+      "exampleAnswer": "I remember a drink advert with a catchy song. It made the drink look as though it could give you superpowers.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do you think fake news spreads so quickly online?", "difficulty": 2, "kind": "reason",
+      "keywords": ["fake news", "spread", "share"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem tin giả thường có đặc điểm gì khiến người đọc muốn chia sẻ ngay.",
+      "exampleAnswer": "Fake news is often so shocking that people share it immediately. They don't stop to fact-check the source first.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Why do many teenagers prefer online media to printed newspapers?", "difficulty": 2, "kind": "reason",
+      "keywords": ["instant", "interactive", "convenient"], "frameId": "f01",
+      "hintDirectionVi": "So sánh cách em đọc tin trên điện thoại với đọc báo giấy: tốc độ, hình thức, sự tiện lợi.",
+      "exampleAnswer": "Online media is so instant and interactive that teenagers find it more exciting. They can watch videos, leave comments and read news anywhere.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Should schools teach students how to judge the news they read? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["judge", "fake news", "skills"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem học sinh đọc bao nhiêu thông tin mỗi ngày và có dễ bị lừa không.",
+      "exampleAnswer": "Yes. Students read so much online that they need skills to judge it. Lessons on fact-checking would help them avoid fake news.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Your friend shares a shocking story online. Tell them how to check it.", "difficulty": 2, "kind": "situation",
+      "keywords": ["fact-check", "source", "credible"], "frameId": "f05",
+      "hintDirectionVi": "Gợi ý cho bạn hai, ba bước kiểm tra: nguồn tin, ngày đăng, báo khác có đưa tin không.",
+      "exampleAnswer": "Before you share it, check the source. See if credible newspapers report the same story, and look at the date. It might be fake news.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "Have you ever believed something online that later turned out to be false?", "difficulty": 2, "kind": "personal",
+      "keywords": ["believed", "turned out", "fake"], "frameId": "f03",
+      "hintDirectionVi": "Nhớ một lần em tin một tin trên mạng rồi sau đó phát hiện là sai. Vì sao lúc đầu em lại tin?",
+      "exampleAnswer": "Yes. A post said our school would close for a week. It sounded as if it came from the principal, but it was fake.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Should there be stricter rules for adverts aimed at teenagers? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["advert", "influence", "rules"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về những quảng cáo làm sản phẩm trông tốt hơn thực tế, và tuổi teen dễ bị ảnh hưởng thế nào.",
+      "exampleAnswer": "Yes. Some adverts make unhealthy snacks look as though they are good for you. Teenagers are easily influenced, so stricter rules would protect them.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "You are a presenter on the school news channel. Give a short update about a school event.", "difficulty": 2, "kind": "situation",
+      "keywords": ["good evening", "update", "so ... that"], "frameId": "f01",
+      "hintDirectionVi": "Chọn một sự kiện ở trường gần đây. Chào khán giả, nói chuyện gì đã xảy ra và kết quả ra sao.",
+      "exampleAnswer": "Good evening. Here is today's school update. The football final was so exciting that the whole school stayed to watch. Our class won two-one!", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Why can media bias be dangerous for society?", "difficulty": 3, "kind": "reason",
+      "keywords": ["bias", "one side", "opinion"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem nếu người đọc chỉ được nghe một phía của câu chuyện thì họ sẽ nghĩ và cư xử thế nào.",
+      "exampleAnswer": "When the media shows only one side, people may form wrong opinions. Sometimes the bias is so strong that it divides communities.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Which is more reliable, traditional media or digital media? Explain your choice.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["traditional", "digital", "reliable"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem ai kiểm duyệt tin trước khi đăng ở mỗi loại, và loại nào ai cũng có thể đăng bài.",
+      "exampleAnswer": "I think traditional media is more reliable because editors check stories before publishing. Digital media is faster, but anyone can post anything.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "How does social media influence the way young people see their own lives?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["influence", "compare", "confidence"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem những bài đăng trên mạng thường chỉ cho thấy phần nào của cuộc sống người khác, và người xem cảm thấy gì.",
+      "exampleAnswer": "Many teenagers compare themselves with perfect online posts. They may feel as if their own lives are boring, which can lower their confidence.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Your class is starting a school news channel. Suggest what it should include, and why.", "difficulty": 3, "kind": "situation",
+      "keywords": ["broadcast", "interview", "interactive"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về nội dung học sinh muốn xem: phỏng vấn, tin thể thao, đố vui... Mỗi nội dung thu hút người xem thế nào?",
+      "exampleAnswer": "It should include short interviews with teachers and students, and a weekly quiz. That would make it such an interactive channel that everyone would want to watch.", "expectsReason": true
+    }
+  ]
+}

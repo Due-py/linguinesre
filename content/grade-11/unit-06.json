@@ -1,0 +1,158 @@
+{
+  "grade": 11,
+  "unit": 6,
+  "title": "Preserving Our Heritage",
+  "titleVi": "Bảo tồn di sản",
+  "topic": "Nói về di tích, lễ hội, nghệ thuật dân gian ở nơi em sống, và ý kiến của em về cách người trẻ giữ gìn, quảng bá di sản.",
+  "source": "Global Success 11, Unit 6 (chủ đề, từ vựng, ngữ pháp mệnh đề với động từ nguyên mẫu có to)",
+  "vocab": [
+    { "id": "v01", "en": "heritage", "vi": "di sản", "example": "Ha Long Bay is an important part of our natural heritage." },
+    { "id": "v02", "en": "preserve", "vi": "bảo tồn", "example": "We need to preserve old traditions for future generations." },
+    { "id": "v03", "en": "restore", "vi": "khôi phục, tu sửa", "example": "Workers are restoring the roof of the old communal house." },
+    { "id": "v04", "en": "ancient", "vi": "cổ kính, cổ xưa", "example": "The ancient town of Hoi An attracts many visitors." },
+    { "id": "v05", "en": "historic", "vi": "có giá trị lịch sử", "example": "This old bridge is a historic site in our town." },
+    { "id": "v06", "en": "monument", "vi": "đài kỉ niệm, công trình kiến trúc", "example": "There is a monument to local heroes in the central square." },
+    { "id": "v07", "en": "citadel", "vi": "thành trì", "example": "We walked along the walls of the old citadel." },
+    { "id": "v08", "en": "folk", "vi": "thuộc về dân gian", "example": "My grandma can sing many folk songs from her village." },
+    { "id": "v09", "en": "performing arts", "vi": "nghệ thuật biểu diễn", "example": "Cheo and water puppetry are traditional performing arts." },
+    { "id": "v10", "en": "appreciate", "vi": "hiểu rõ giá trị, trân trọng", "example": "I didn't appreciate traditional music until I saw a live show." },
+    { "id": "v11", "en": "crowdfunding", "vi": "huy động vốn từ cộng đồng", "example": "The village used crowdfunding to repair its old well." },
+    { "id": "v12", "en": "landscape", "vi": "phong cảnh", "example": "The limestone landscape of Trang An is breathtaking." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "The best way to ___ is ___.",
+      "vi": "Cách tốt nhất để ... là ...",
+      "grammarNote": "Danh từ + to V để bổ nghĩa cho danh từ: the best way to preserve = cách tốt nhất để bảo tồn.",
+      "examples": ["The best way to preserve folk songs is to teach them at school."]
+    },
+    {
+      "id": "f02",
+      "text": "I was the first ___ to ___.",
+      "vi": "Mình là ... đầu tiên ...",
+      "grammarNote": "Sau the first / the last / the only / so sánh nhất, dùng to V thay cho mệnh đề quan hệ: the first person to arrive.",
+      "examples": ["I was the first person in my class to try playing the dan bau."]
+    },
+    {
+      "id": "f03",
+      "text": "There are lots of things to ___ in ___.",
+      "vi": "Ở ... có rất nhiều thứ để ...",
+      "grammarNote": "things / places / something + to V: những thứ để làm. To V đứng ngay sau danh từ nó bổ nghĩa.",
+      "examples": ["There are lots of things to see in Hue, such as the citadel and the royal tombs."]
+    },
+    {
+      "id": "f04",
+      "text": "I'd like to learn ___ because it is a good way to ___.",
+      "vi": "Mình muốn học ... vì đó là một cách hay để ...",
+      "grammarNote": "a good way / a chance / the time + to V: chỉ mục đích hoặc ý nghĩa của danh từ đứng trước.",
+      "examples": ["I'd like to learn calligraphy because it is a good way to understand old traditions."]
+    },
+    {
+      "id": "f05",
+      "text": "___ is the most interesting place to visit in ___ because ___.",
+      "vi": "... là nơi thú vị nhất để tham quan ở ... vì ...",
+      "grammarNote": "So sánh nhất + danh từ + to V: the most interesting place to visit.",
+      "examples": ["The old citadel is the most interesting place to visit in my town because it is full of stories."]
+    },
+    {
+      "id": "f06",
+      "text": "A good project for our class to do would be ___.",
+      "vi": "Một dự án hay cho lớp mình làm sẽ là ...",
+      "grammarNote": "for + người + to V: việc để ai đó làm. Ví dụ: a book for children to read.",
+      "examples": ["A good project for our class to do would be a photo exhibition of old houses in our town."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Which historic place in your hometown do you like most?", "difficulty": 1, "kind": "personal",
+      "keywords": ["historic", "visit", "peaceful"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về một ngôi đình, cây cầu, khu phố cổ hay đài tưởng niệm gần nơi em sống. Nơi đó có gì đặc biệt?",
+      "exampleAnswer": "I like the old citadel most. It is the most peaceful place to visit at the weekend, with thick walls and big old trees.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Have you ever watched a folk performance, such as water puppets or Quan ho singing?", "difficulty": 1, "kind": "personal",
+      "keywords": ["folk", "performing arts", "traditional"], "frameId": "f03",
+      "hintDirectionVi": "Nhớ lại một lần em xem biểu diễn truyền thống, ngoài đời hoặc trên mạng. Em nhớ nhất điều gì?",
+      "exampleAnswer": "Yes, I watched a water puppet show in Ha Noi last year. The puppets moved so quickly, and the music was really beautiful.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What are some interesting things to do in your town during a festival?", "difficulty": 1, "kind": "personal",
+      "keywords": ["things to do", "festive", "lanterns"], "frameId": "f03",
+      "hintDirectionVi": "Chọn một lễ hội ở nơi em sống. Mọi người thường xem gì, ăn gì, chơi gì trong dịp đó?",
+      "exampleAnswer": "During the Mid-Autumn Festival, there are lots of things to do. We watch lion dances, make lanterns and share mooncakes with our neighbours.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Is it important for young people to learn about heritage? Why?", "difficulty": 1, "kind": "opinion",
+      "keywords": ["heritage", "identity", "traditions"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem nếu không ai trong thế hệ em biết về di sản thì 50 năm nữa điều gì sẽ xảy ra.",
+      "exampleAnswer": "Yes. Heritage shows us where we come from. If young people don't learn about it, our traditions could disappear in the future.", "expectsReason": true
+    },
+    {
+      "id": "q05", "text": "Why do some young people find traditional performing arts boring?", "difficulty": 2, "kind": "reason",
+      "keywords": ["performing arts", "old-fashioned", "chance"], "frameId": "f04",
+      "hintDirectionVi": "So sánh nhạc truyền thống với nhạc trẻ: tốc độ, lời bài hát, cơ hội được xem trực tiếp.",
+      "exampleAnswer": "They think traditional music is slow and old-fashioned. They also rarely get the chance to see live shows, so pop music seems more exciting.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Should tourists pay a fee to visit heritage sites? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["fee", "restore", "preserve"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem tiền vé có thể dùng vào việc gì, và nếu thu phí thì có ai bị thiệt không.",
+      "exampleAnswer": "I think they should. The money can be used to restore old buildings and keep the sites clean. A small fee is the easiest way to help.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Why do you think trending videos can help preserve traditional culture?", "difficulty": 2, "kind": "reason",
+      "keywords": ["trending", "share", "appreciate"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một bài hát dân ca hay trang phục truyền thống từng nổi trên mạng. Nó khiến giới trẻ làm gì?",
+      "exampleAnswer": "Short videos reach millions of young viewers quickly. When a folk song becomes trending, many teenagers want to learn more about it and appreciate it.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "A foreign friend asks what to see in Viet Nam. Recommend one heritage site.", "difficulty": 2, "kind": "situation",
+      "keywords": ["ancient", "landscape", "worth visiting"], "frameId": "f05",
+      "hintDirectionVi": "Chọn một di sản em biết rõ, nói nó ở đâu và vì sao người nước ngoài nên đến xem.",
+      "exampleAnswer": "You should visit Hoi An Ancient Town. It is the most charming place to visit in central Viet Nam because of its old houses and colourful lanterns.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "Which traditional skill would you like to learn from older people?", "difficulty": 2, "kind": "personal",
+      "keywords": ["folk", "craft", "learn"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một nghề thủ công, món ăn, nhạc cụ hay trò chơi dân gian mà ông bà hoặc người trong làng biết làm.",
+      "exampleAnswer": "I'd like to learn how to make conical hats from my grandma. It is a good way to keep our family tradition alive.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Should old buildings be replaced with modern ones to develop a city? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["restore", "historic", "development"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về cả nhu cầu phát triển và giá trị của những ngôi nhà cũ. Có cách nào giữ được cả hai không?",
+      "exampleAnswer": "Not always. Some old buildings are historic and should be restored instead. Cities can develop new areas but still keep their heritage.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Have you ever visited a museum or monument on a school trip? Describe it.", "difficulty": 2, "kind": "personal",
+      "keywords": ["monument", "school trip", "guide"], "frameId": "f02",
+      "hintDirectionVi": "Nhớ lại một chuyến tham quan: em đi đâu, thấy gì, và có khoảnh khắc nào em nhớ mãi.",
+      "exampleAnswer": "Yes. Last year our class visited the Temple of Literature. I was the first student to find the stone turtles, and our guide told us their history.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Is crowdfunding a good way to restore heritage sites? Explain your view.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["crowdfunding", "community", "responsibility"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem khi mọi người cùng góp tiền thì họ cảm thấy thế nào, và những dự án rất lớn thì ai nên lo.",
+      "exampleAnswer": "I think it is a good idea. Crowdfunding lets ordinary people help and feel proud of their heritage. However, the government should still pay for large projects.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Your class is planning a project to promote a local heritage site. Suggest your idea.", "difficulty": 3, "kind": "situation",
+      "keywords": ["promote", "video", "interview"], "frameId": "f06",
+      "hintDirectionVi": "Chọn một di tích gần trường và một cách quảng bá hợp với học sinh: video, triển lãm ảnh, tour hướng dẫn.",
+      "exampleAnswer": "A good project for our class to do would be a short video tour of the old market. We could interview the sellers and share it online.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "Which is harder to preserve, buildings or traditions? Why do you think so?", "difficulty": 3, "kind": "reason",
+      "keywords": ["traditions", "buildings", "generation"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem cần gì để giữ một ngôi nhà cổ và cần gì để giữ một làn điệu dân ca. Cái nào phụ thuộc vào con người nhiều hơn?",
+      "exampleAnswer": "Traditions are harder to preserve. A building can be restored with money, but a tradition dies if no young person wants to learn it.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Some tourists are writing their names on an ancient wall. Politely ask them to stop and explain why.", "difficulty": 3, "kind": "situation",
+      "keywords": ["excuse me", "damage", "heritage"], "frameId": "f01",
+      "hintDirectionVi": "Mở đầu lịch sự, nói rõ việc họ làm gây hại gì, rồi gợi ý một cách khác để họ lưu lại kỉ niệm.",
+      "exampleAnswer": "Excuse me, please don't write on the wall. It is hundreds of years old, and every mark damages it. You could take a photo instead.", "expectsReason": true
+    }
+  ]
+}

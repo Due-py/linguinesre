@@ -1,0 +1,158 @@
+{
+  "grade": 8,
+  "unit": 2,
+  "title": "Life in the Countryside",
+  "titleVi": "Cuộc sống ở nông thôn",
+  "topic": "Nói về cuộc sống ở làng quê: công việc đồng áng, cảnh vật, con người, và so sánh với cuộc sống ở thành phố.",
+  "source": "Global Success 8, Unit 2 (chủ đề, từ vựng, so sánh hơn của trạng từ, khen ngợi)",
+  "vocab": [
+    { "id": "v01", "en": "paddy field", "vi": "ruộng lúa", "example": "There are green paddy fields around my grandparents' house." },
+    { "id": "v02", "en": "harvest time", "vi": "mùa gặt", "example": "Everyone in the village is busy at harvest time." },
+    { "id": "v03", "en": "herd the buffaloes", "vi": "chăn trâu", "example": "When my dad was young, he herded the buffaloes after school." },
+    { "id": "v04", "en": "fly kites", "vi": "thả diều", "example": "Children fly kites on the dyke in summer." },
+    { "id": "v05", "en": "traditional games", "vi": "trò chơi dân gian", "example": "We played traditional games at the village festival." },
+    { "id": "v06", "en": "orchard", "vi": "vườn cây ăn quả", "example": "My aunt grows longans in her orchard." },
+    { "id": "v07", "en": "poultry", "vi": "gia cầm", "example": "Many families keep poultry such as chickens and ducks." },
+    { "id": "v08", "en": "crops", "vi": "cây trồng, vụ mùa", "example": "The farmers water their crops every morning." },
+    { "id": "v09", "en": "peaceful", "vi": "yên bình", "example": "The village is very peaceful in the evening." },
+    { "id": "v10", "en": "hospitable", "vi": "hiếu khách", "example": "The people there are friendly and hospitable." },
+    { "id": "v11", "en": "picturesque", "vi": "đẹp như tranh", "example": "We took photos of the picturesque river." },
+    { "id": "v12", "en": "vast", "vi": "rộng lớn, bao la", "example": "The vast fields stretch to the mountains." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I think life in the countryside is ___ because ___.",
+      "vi": "Mình nghĩ cuộc sống ở nông thôn ... vì ...",
+      "grammarNote": "I think + mệnh đề để nêu ý kiến; because + mệnh đề để nêu lý do.",
+      "examples": ["I think life in the countryside is peaceful because there is less traffic and noise."]
+    },
+    {
+      "id": "f02",
+      "text": "People in the countryside ___ more ___ than people in the city.",
+      "vi": "Người ở nông thôn ... hơn người ở thành phố.",
+      "grammarNote": "So sánh hơn của trạng từ dài: more + trạng từ + than (more slowly than). Trạng từ ngắn thêm -er: harder, earlier.",
+      "examples": ["People in the countryside live more slowly than people in the city.", "Farmers get up earlier than office workers."]
+    },
+    {
+      "id": "f03",
+      "text": "In my village, people usually ___, and children ___.",
+      "vi": "Ở làng mình, mọi người thường ..., còn trẻ con thì ...",
+      "grammarNote": "Thì hiện tại đơn cho việc thường ngày; nối hai ý bằng and.",
+      "examples": ["In my village, people usually grow rice, and children fly kites after school."]
+    },
+    {
+      "id": "f04",
+      "text": "I'd like to ___ in the countryside because ___.",
+      "vi": "Mình muốn ... ở nông thôn vì ...",
+      "grammarNote": "I'd like to + động từ nguyên mẫu để nói mong muốn.",
+      "examples": ["I'd like to spend a summer in the countryside because I want to learn how to grow vegetables."]
+    },
+    {
+      "id": "f05",
+      "text": "What a ___ ___ you have! I really like ___.",
+      "vi": "Bạn có ... thật ...! Mình rất thích ...",
+      "grammarNote": "Khen ngợi: What a + tính từ + danh từ + you have! Đáp lại: Thank you. / I'm glad you like it.",
+      "examples": ["What a beautiful orchard you have! I really like the green trees."]
+    },
+    {
+      "id": "f06",
+      "text": "One thing I don't like about the countryside is ___; however, ___.",
+      "vi": "Một điều mình không thích ở nông thôn là ...; tuy vậy, ...",
+      "grammarNote": "however nối hai ý trái ngược, đứng sau dấu chấm phẩy và trước dấu phẩy.",
+      "examples": ["One thing I don't like about the countryside is the lack of entertainment; however, the air is very fresh."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Do you live in a city or in the countryside?", "difficulty": 1, "kind": "personal",
+      "keywords": ["live", "city", "countryside"], "frameId": "f03",
+      "hintDirectionVi": "Nói em sống ở đâu, rồi thêm một chi tiết về nơi đó, ví dụ có nhiều xe cộ hay nhiều ruộng.",
+      "exampleAnswer": "I live in a small town. It is not as busy as a city, and there are some paddy fields nearby.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Have you ever visited the countryside? What did you do there?", "difficulty": 1, "kind": "personal",
+      "keywords": ["visit", "grandparents", "fly kites"], "frameId": "f03",
+      "hintDirectionVi": "Nhớ lại một lần về quê hoặc đi chơi xa thành phố. Em đã làm gì và thấy gì?",
+      "exampleAnswer": "Yes, I visited my grandparents last summer. I fed the chickens and flew kites with my cousins.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What can children do for fun in the countryside?", "difficulty": 1, "kind": "personal",
+      "keywords": ["fly kites", "traditional games", "swim"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về trò chơi ngoài trời mà ở thành phố khó chơi hơn.",
+      "exampleAnswer": "Children can fly kites, play traditional games and catch fish in the river.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What do farmers do at harvest time?", "difficulty": 1, "kind": "personal",
+      "keywords": ["harvest time", "rice", "dry"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về các công việc khi lúa chín: cắt lúa, chở lúa, phơi lúa.",
+      "exampleAnswer": "At harvest time, farmers cut the rice, carry it home and dry it in the sun.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "What do you like most about life in the countryside? Why?", "difficulty": 2, "kind": "reason",
+      "keywords": ["peaceful", "fresh air", "hospitable"], "frameId": "f01",
+      "hintDirectionVi": "Chọn một điều em thích nhất: không khí, cảnh vật hay con người. Rồi nói vì sao.",
+      "exampleAnswer": "I like the fresh air most because I can breathe more easily there. The people are also very hospitable.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Do people in the countryside live more slowly than people in the city? Why do you think so?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["more slowly", "than", "traffic"], "frameId": "f02",
+      "hintDirectionVi": "So sánh nhịp sống hai nơi: giờ giấc, xe cộ, công việc. Dùng more slowly than hoặc faster than.",
+      "exampleAnswer": "Yes, I think so. People in the countryside live more slowly than people in the city because there is less traffic and less pressure.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Describe a village or a small town that you know.", "difficulty": 2, "kind": "situation",
+      "keywords": ["located", "picturesque", "people"], "frameId": "f03",
+      "hintDirectionVi": "Nói lần lượt: nơi đó ở đâu, cảnh vật thế nào, người dân làm gì.",
+      "exampleAnswer": "My grandparents' village is near a river. It is picturesque, with vast paddy fields, and the people grow rice and vegetables.", "expectsReason": false
+    },
+    {
+      "id": "q08", "text": "Why do many city people like to visit the countryside at the weekend?", "difficulty": 2, "kind": "reason",
+      "keywords": ["relax", "noise", "nature"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem người thành phố thiếu gì mà nông thôn có.",
+      "exampleAnswer": "They want to relax and escape the noise of the city. They can enjoy nature and eat fresh food.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Your friend shows you a photo of their family's orchard. Say something nice about it.", "difficulty": 2, "kind": "situation",
+      "keywords": ["What a", "beautiful", "orchard"], "frameId": "f05",
+      "hintDirectionVi": "Khen bằng câu cảm thán, rồi nói thêm một chi tiết em thích trong ảnh.",
+      "exampleAnswer": "What a beautiful orchard you have! I really like the mango trees. They look delicious.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Would you like to live in the countryside? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["I'd like to", "because", "but"], "frameId": "f04",
+      "hintDirectionVi": "Trả lời có hay không trước, rồi nêu một lý do rõ ràng.",
+      "exampleAnswer": "I'd like to live there for a short time because it is peaceful, but I would miss my friends in the city.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Who works harder, farmers or office workers? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["harder", "earlier", "outdoors"], "frameId": "f02",
+      "hintDirectionVi": "So sánh giờ dậy, thời tiết, sức lực của hai công việc. Dùng harder than, earlier than.",
+      "exampleAnswer": "I think farmers work harder than office workers. They get up earlier and work outdoors in hot or rainy weather.", "expectsReason": true
+    },
+    {
+      "id": "q12", "text": "What are the good and bad points of living in the countryside?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["peaceful", "however", "fewer"], "frameId": "f06",
+      "hintDirectionVi": "Nêu ít nhất một điểm tốt và một điểm chưa tốt, rồi nối bằng however hoặc but.",
+      "exampleAnswer": "Living in the countryside is peaceful and the air is fresh; however, there are fewer hospitals and entertainment places.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "How has life in the countryside changed in recent years?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["machines", "roads", "internet"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về đường sá, máy móc làm nông, điện thoại và internet ở quê bây giờ so với trước.",
+      "exampleAnswer": "Life there has changed a lot. Farmers use machines to harvest rice, the roads are better, and most families have the internet.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "A foreign visitor asks which Vietnamese village they should visit. What would you recommend, and why?", "difficulty": 3, "kind": "situation",
+      "keywords": ["recommend", "ancient", "special"], "frameId": "f04",
+      "hintDirectionVi": "Chọn một làng em biết hoặc từng nghe kể, nói tên và một điều đặc biệt ở đó.",
+      "exampleAnswer": "I would recommend Duong Lam ancient village because it has old houses and traditional food. Visitors can learn about Vietnamese culture.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Should young people stay in their villages or move to big cities? Give your opinion.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["jobs", "develop", "therefore"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về việc làm, học hành ở thành phố và việc giúp quê hương phát triển. Chọn một bên và nêu lý do.",
+      "exampleAnswer": "I think some young people should stay because villages need them to develop. However, others can move to cities to study and find good jobs.", "expectsReason": true
+    }
+  ]
+}

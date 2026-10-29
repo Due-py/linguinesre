@@ -1,0 +1,165 @@
+{
+  "grade": 12,
+  "unit": 5,
+  "title": "The World of Work",
+  "titleVi": "Thế giới việc làm",
+  "topic": "Nói về những công việc em quan tâm, điều kiện làm việc, việc làm thêm và những gì em mong muốn ở một công việc trong tương lai.",
+  "source": "Global Success 12, Unit 5 (chủ đề, từ vựng, ngữ pháp câu đơn, câu ghép và câu phức)",
+  "vocab": [
+    { "id": "v01", "en": "part-time", "vi": "bán thời gian", "example": "My cousin has a part-time job at a bookshop at weekends." },
+    { "id": "v02", "en": "well-paid", "vi": "được trả lương cao", "example": "Pilots usually have well-paid jobs." },
+    { "id": "v03", "en": "rewarding", "vi": "xứng đáng, đem lại sự hài lòng", "example": "Teaching young children is tiring but rewarding." },
+    { "id": "v04", "en": "challenging", "vi": "thách thức", "example": "Working as a translator is challenging because you must be very accurate." },
+    { "id": "v05", "en": "stressful", "vi": "áp lực, căng thẳng", "example": "Working in a busy hospital can be very stressful." },
+    { "id": "v06", "en": "repetitive", "vi": "lặp đi lặp lại", "example": "Checking tickets all day is quite repetitive." },
+    { "id": "v07", "en": "flexible", "vi": "linh hoạt", "example": "Freelance designers often have flexible working hours." },
+    { "id": "v08", "en": "nine-to-five", "vi": "giờ hành chính", "example": "My aunt has a nine-to-five office job." },
+    { "id": "v09", "en": "work overtime", "vi": "làm thêm giờ", "example": "Many workers work overtime before Tet." },
+    { "id": "v10", "en": "shift", "vi": "ca làm việc", "example": "Nurses sometimes work the night shift." },
+    { "id": "v11", "en": "vacancy", "vi": "vị trí công việc còn trống", "example": "The café near my school has a vacancy for a waiter." },
+    { "id": "v12", "en": "application letter", "vi": "thư xin việc", "example": "She wrote an application letter for a summer job at the museum." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I would like a job that ___ because ___.",
+      "vi": "Mình muốn một công việc mà ... vì ...",
+      "grammarNote": "Câu phức: một mệnh đề chính và ít nhất một mệnh đề phụ bắt đầu bằng that, because, although, when...",
+      "examples": ["I would like a job that lets me travel because I enjoy meeting new people."]
+    },
+    {
+      "id": "f02",
+      "text": "___ is ___, but it is also ___.",
+      "vi": "... thì ..., nhưng nó cũng ...",
+      "grammarNote": "Câu ghép: hai mệnh đề độc lập nối bằng and, but, so, or; thường có dấu phẩy trước liên từ.",
+      "examples": ["Being a firefighter is exciting, but it is also very dangerous."]
+    },
+    {
+      "id": "f03",
+      "text": "Although ___, ___.",
+      "vi": "Mặc dù ..., ...",
+      "grammarNote": "Câu phức với although: mệnh đề phụ chỉ sự tương phản, mệnh đề chính đứng sau dấu phẩy. Không dùng thêm but.",
+      "examples": ["Although the job is well-paid, I wouldn't choose it because the hours are too long."]
+    },
+    {
+      "id": "f04",
+      "text": "I think being a ___ is ___, so ___.",
+      "vi": "Mình nghĩ làm ... thì ..., nên ...",
+      "grammarNote": "Câu ghép với so để nối nguyên nhân và kết quả; being + nghề nghiệp làm chủ ngữ.",
+      "examples": ["I think being a chef is creative, so I might try it one day."]
+    },
+    {
+      "id": "f05",
+      "text": "When you ___, you should ___.",
+      "vi": "Khi bạn ..., bạn nên ...",
+      "grammarNote": "Câu phức với when: mệnh đề thời gian + mệnh đề chính; dùng should + V nguyên mẫu để khuyên.",
+      "examples": ["When you go to a job interview, you should arrive ten minutes early."]
+    },
+    {
+      "id": "f06",
+      "text": "I am interested in this position because ___, and I ___.",
+      "vi": "Tôi quan tâm đến vị trí này vì ..., và tôi ...",
+      "grammarNote": "Kết hợp câu phức (because) và câu ghép (and) để nêu lý do và kinh nghiệm của mình.",
+      "examples": ["I am interested in this position because I love books, and I have volunteered at our school library."]
+    },
+    {
+      "id": "f07",
+      "text": "Last ___, I worked as ___, and I learned how to ___.",
+      "vi": "... vừa rồi, em đã làm ..., và em học được cách ...",
+      "grammarNote": "Câu ghép nối bằng and; learn how to + động từ nguyên mẫu: học cách làm gì.",
+      "examples": ["Last summer, I worked as a volunteer at a library, and I learned how to sort books quickly."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What job would you like to do in the future?", "difficulty": 1, "kind": "personal",
+      "keywords": ["rewarding", "creative", "because"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về việc em làm giỏi hoặc thích làm, rồi tìm một nghề gần với điều đó.",
+      "exampleAnswer": "I would like a job that lets me help people because it feels rewarding. Maybe I will become a nurse.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Which job in your community do you find interesting?", "difficulty": 1, "kind": "personal",
+      "keywords": ["interesting", "exciting", "but"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về những người em gặp hằng ngày: người bán hàng, bác sĩ, thợ sửa xe... Công việc nào làm em tò mò?",
+      "exampleAnswer": "I find the job of a firefighter interesting. It is exciting, but it is also very dangerous.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Have you ever done any part-time or volunteer work?", "difficulty": 1, "kind": "personal",
+      "keywords": ["part-time", "volunteer", "learned"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ cả những việc nhỏ: phụ giúp cửa hàng người quen, tình nguyện ở trường. Em học được gì?",
+      "exampleAnswer": "Last summer, I helped at my aunt's café, and I learned how to serve customers politely.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Would you prefer a nine-to-five job or flexible hours?", "difficulty": 1, "kind": "personal",
+      "keywords": ["nine-to-five", "flexible", "prefer"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem em làm việc tốt nhất vào lúc nào và em thích nếp sinh hoạt cố định hay tự do.",
+      "exampleAnswer": "I would prefer flexible hours. I am more creative at night, so a nine-to-five job may not suit me.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do some people choose a rewarding job over a well-paid one?", "difficulty": 2, "kind": "reason",
+      "keywords": ["rewarding", "well-paid", "satisfaction"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem ngoài tiền lương, một công việc còn có thể mang lại cho con người điều gì.",
+      "exampleAnswer": "Although a well-paid job gives you more money, a rewarding job makes you feel useful and happy every day.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Why do you think some jobs are very stressful?", "difficulty": 2, "kind": "reason",
+      "keywords": ["stressful", "pressure", "deadlines"], "frameId": "f02",
+      "hintDirectionVi": "Chọn một nghề cụ thể, rồi nghĩ về giờ làm, trách nhiệm và hạn chót của nghề đó.",
+      "exampleAnswer": "Some jobs have strict deadlines and long hours, so workers are under a lot of pressure. Doctors, for example, must make quick and serious decisions.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Should high school students have a part-time job? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["part-time", "experience", "study time"], "frameId": "f03",
+      "hintDirectionVi": "Cân nhắc một điều được (kinh nghiệm, kỹ năng) và một điều mất (thời gian học, sức khoẻ) rồi chọn bên.",
+      "exampleAnswer": "Although a part-time job gives useful experience, I think high school students should focus on their studies. A holiday job is fine, though.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "You see a vacancy at a bookshop. Phone the shop and ask about the job.", "difficulty": 2, "kind": "situation",
+      "keywords": ["vacancy", "working hours", "could you tell me"], "frameId": "f06",
+      "hintDirectionVi": "Chào hỏi, nói em thấy tin tuyển dụng, rồi hỏi một hai điều em cần biết như giờ làm hay yêu cầu.",
+      "exampleAnswer": "Hello, I saw your vacancy for a shop assistant. Could you tell me what the working hours are and whether I need any experience?", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "What kind of work would you find too repetitive?", "difficulty": 2, "kind": "personal",
+      "keywords": ["repetitive", "boring", "the same"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem em có dễ chán khi làm một việc giống nhau nhiều lần không. Công việc nào như vậy?",
+      "exampleAnswer": "I think being a data entry clerk is too repetitive for me. I like variety, so I would get bored doing the same task all day.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Is it a good idea to work overtime regularly? Explain your view.", "difficulty": 2, "kind": "opinion",
+      "keywords": ["work overtime", "rest", "balance"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem làm thêm giờ thường xuyên ảnh hưởng thế nào đến thời gian nghỉ ngơi và người thân.",
+      "exampleAnswer": "Although working overtime brings extra income, doing it regularly is not a good idea. People need time to rest and be with their families.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "A friend is nervous about a job interview. Give them some advice.", "difficulty": 2, "kind": "situation",
+      "keywords": ["prepare", "confident", "research"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về việc nên làm trước buổi phỏng vấn và trong lúc phỏng vấn để bạn tự tin hơn.",
+      "exampleAnswer": "Don't worry! Before the interview, research the company and practise common questions. When you arrive, you should smile and speak clearly.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Why do employers often prefer candidates with work experience?", "difficulty": 3, "kind": "reason",
+      "keywords": ["experience", "on-the-job training", "trust"], "frameId": "f03",
+      "hintDirectionVi": "Đặt mình vào vị trí người chủ: người có kinh nghiệm giúp tiết kiệm được gì?",
+      "exampleAnswer": "Experienced candidates need less on-the-job training. Although young people learn quickly, experienced workers can do the job well from the first day.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "What makes a good job: money, interest or helping others?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["well-paid", "rewarding", "interest"], "frameId": "f02",
+      "hintDirectionVi": "Chọn yếu tố em coi trọng nhất, rồi giải thích vì sao thiếu nó thì khó gắn bó lâu với công việc.",
+      "exampleAnswer": "I think interest is most important. A well-paid job is nice, but you won't stay long if you find it boring.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Is working from home better than working in an office? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["flexible", "colleagues", "distractions"], "frameId": "f03",
+      "hintDirectionVi": "So sánh sự tự do khi ở nhà với việc gặp đồng nghiệp ở văn phòng. Em hợp với kiểu nào hơn?",
+      "exampleAnswer": "Although working from home is flexible, I prefer an office. I can talk to colleagues face to face and avoid distractions at home.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "You are applying for a summer job at a café. Introduce yourself and explain why you suit it.", "difficulty": 3, "kind": "situation",
+      "keywords": ["application", "hard-working", "experience"], "frameId": "f06",
+      "hintDirectionVi": "Nói ngắn về bản thân, rồi nêu hai điểm mạnh liên quan đến công việc ở quán cà phê.",
+      "exampleAnswer": "I am interested in this position because I enjoy working with people. I am hard-working and friendly, and I have helped at my aunt's café before.", "expectsReason": true
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "grade": 11,
+  "unit": 5,
+  "title": "Global Warming",
+  "titleVi": "Sự nóng lên toàn cầu",
+  "topic": "Nói về những thay đổi thời tiết em thấy, việc em làm để tiết kiệm năng lượng, và ý kiến của em về cách chống lại sự nóng lên toàn cầu.",
+  "source": "Global Success 11, Unit 5 (chủ đề, từ vựng, ngữ pháp mệnh đề hiện tại phân từ và quá khứ phân từ)",
+  "vocab": [
+    { "id": "v01", "en": "global warming", "vi": "sự nóng lên toàn cầu", "example": "Global warming is making our summers longer and hotter." },
+    { "id": "v02", "en": "fossil fuel", "vi": "nhiên liệu hóa thạch", "example": "Coal, oil and gas are fossil fuels." },
+    { "id": "v03", "en": "emission", "vi": "sự phát thải", "example": "Electric buses help cut emissions in the city." },
+    { "id": "v04", "en": "carbon dioxide", "vi": "khí cácbonic (CO2)", "example": "Trees take in carbon dioxide from the air." },
+    { "id": "v05", "en": "deforestation", "vi": "sự phá rừng", "example": "Deforestation destroys the homes of many animals." },
+    { "id": "v06", "en": "renewable", "vi": "tái tạo", "example": "Wind and solar power are renewable sources of energy." },
+    { "id": "v07", "en": "sea level", "vi": "mực nước biển", "example": "Rising sea levels are a danger to towns along the coast." },
+    { "id": "v08", "en": "temperature", "vi": "nhiệt độ", "example": "The temperature reached 39 degrees last week." },
+    { "id": "v09", "en": "consequence", "vi": "hậu quả", "example": "Floods are one consequence of heavier storms." },
+    { "id": "v10", "en": "human activity", "vi": "hoạt động của con người", "example": "Scientists agree that human activity is the main cause of global warming." },
+    { "id": "v11", "en": "impact", "vi": "tác động, ảnh hưởng", "example": "Plastic waste has a big impact on sea animals." },
+    { "id": "v12", "en": "leaflet", "vi": "tờ rơi", "example": "We handed out leaflets about saving electricity at the market." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "People living in ___ may ___.",
+      "vi": "Những người sống ở ... có thể ...",
+      "grammarNote": "Hiện tại phân từ (V-ing) rút gọn mệnh đề quan hệ chủ động: people who live there → people living there.",
+      "examples": ["People living near the coast may lose their homes because of rising sea levels."]
+    },
+    {
+      "id": "f02",
+      "text": "Things made from ___ can ___.",
+      "vi": "Những thứ làm từ ... có thể ...",
+      "grammarNote": "Quá khứ phân từ (V3) rút gọn mệnh đề quan hệ bị động: bags which are made from plastic → bags made from plastic.",
+      "examples": ["Things made from plastic can stay in the ocean for hundreds of years."]
+    },
+    {
+      "id": "f03",
+      "text": "Feeling ___ about ___, I decided to ___.",
+      "vi": "Vì cảm thấy ... về ..., mình đã quyết định ...",
+      "grammarNote": "V-ing đầu câu thay cho mệnh đề chỉ lý do khi hai vế cùng chủ ngữ: Because I felt worried → Feeling worried.",
+      "examples": ["Feeling worried about plastic waste, I decided to bring my own bottle to school."]
+    },
+    {
+      "id": "f04",
+      "text": "One thing I do to reduce ___ is ___.",
+      "vi": "Một việc mình làm để giảm ... là ...",
+      "grammarNote": "Sau One thing I do ... is dùng động từ nguyên mẫu, có hoặc không có to: One thing I do is (to) turn off the lights.",
+      "examples": ["One thing I do to reduce waste is bring a lunch box instead of using plastic bags."]
+    },
+    {
+      "id": "f05",
+      "text": "Energy produced from ___ is better because ___.",
+      "vi": "Năng lượng tạo ra từ ... tốt hơn vì ...",
+      "grammarNote": "Quá khứ phân từ (produced) đứng sau danh từ, mang nghĩa bị động: năng lượng được tạo ra từ ...",
+      "examples": ["Energy produced from the sun is better because it doesn't release carbon dioxide."]
+    },
+    {
+      "id": "f06",
+      "text": "Young people wanting to help the planet can ___.",
+      "vi": "Những bạn trẻ muốn giúp hành tinh có thể ...",
+      "grammarNote": "Cụm V-ing đứng sau danh từ để bổ nghĩa: young people wanting to help = young people who want to help.",
+      "examples": ["Young people wanting to help the planet can start by cycling to school."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What do you do at home to save energy?", "difficulty": 1, "kind": "personal",
+      "keywords": ["turn off", "electricity", "save energy"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về đèn, quạt, điều hòa, tủ lạnh trong nhà em. Em có thói quen nhỏ nào để dùng ít điện hơn?",
+      "exampleAnswer": "I turn off the lights and the fan when I leave my room. One thing I also do is take the stairs instead of the lift.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Which of your daily habits uses the most energy?", "difficulty": 1, "kind": "personal",
+      "keywords": ["air conditioner", "electricity", "cut down on"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về các thiết bị em dùng mỗi ngày: điều hòa, máy tính, điện thoại, máy sấy tóc. Cái nào tốn điện nhất?",
+      "exampleAnswer": "I think the air conditioner uses the most energy in my home. Now I only turn it on at night and use a fan during the day.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Have you noticed any changes in the weather where you live recently?", "difficulty": 1, "kind": "personal",
+      "keywords": ["temperature", "hotter", "storms"], "frameId": "f01",
+      "hintDirectionVi": "So sánh mùa hè, mùa mưa năm nay với vài năm trước. Người lớn quanh em có nói gì về thời tiết không?",
+      "exampleAnswer": "Yes. Summers have become hotter, and there are more sudden storms. Farmers living near my town say the rainy season is harder to predict now.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Is global warming a serious problem for Viet Nam? Why?", "difficulty": 1, "kind": "opinion",
+      "keywords": ["sea level", "flood", "coast"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về hình dạng đất nước mình: bờ biển dài, đồng bằng thấp. Nước biển dâng sẽ ảnh hưởng đến ai?",
+      "exampleAnswer": "Yes. Viet Nam has a long coast, so rising sea levels are dangerous. People living in the Mekong Delta may lose their farmland.", "expectsReason": true
+    },
+    {
+      "id": "q05", "text": "Why do many people still use fossil fuels even though they know the risks?", "difficulty": 2, "kind": "reason",
+      "keywords": ["fossil fuel", "cheap", "convenient"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về giá cả, sự tiện lợi và những xe cộ, nhà máy đang có sẵn. Chuyển sang năng lượng sạch khó ở đâu?",
+      "exampleAnswer": "Fossil fuels are still cheap and convenient. Most cars and factories were built to use them, so changing to clean energy takes time and money.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Should cities ban old motorbikes to cut emissions? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["emission", "ban", "public transport"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ đến lợi ích cho không khí, nhưng cũng nghĩ đến những người cần xe máy để đi làm hằng ngày.",
+      "exampleAnswer": "I partly agree. Old motorbikes release a lot of pollutants. But many people need them for work, so the city should improve public transport first.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Why are leaflets and posters sometimes not enough to change people's habits?", "difficulty": 2, "kind": "reason",
+      "keywords": ["leaflet", "awareness", "action"], "frameId": "f02",
+      "hintDirectionVi": "Nhớ lại lần gần nhất em nhận một tờ rơi. Em làm gì với nó? Điều gì mới thực sự khiến người ta thay đổi?",
+      "exampleAnswer": "People read leaflets quickly and forget them. Seeing real examples, like a clean-up day organised by their neighbours, encourages them to act much more.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Your friend says one person can't stop global warming. What would you tell them?", "difficulty": 2, "kind": "situation",
+      "keywords": ["small actions", "together", "impact"], "frameId": "f06",
+      "hintDirectionVi": "Đồng ý một phần, rồi nghĩ xem hàng triệu việc nhỏ cộng lại sẽ tạo ra tác động thế nào.",
+      "exampleAnswer": "One person can't stop it alone, but millions of small actions make a big impact. Students cycling to school and saving electricity can really help.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "What is one item in your home made from plastic that you could replace?", "difficulty": 2, "kind": "personal",
+      "keywords": ["plastic", "reusable", "replace"], "frameId": "f02",
+      "hintDirectionVi": "Nhìn quanh phòng em hoặc căn bếp: chai, túi, hộp, ống hút. Có thể đổi chúng bằng đồ dùng nhiều lần nào?",
+      "exampleAnswer": "My water bottle is made from plastic. I could replace it with a metal bottle, which lasts longer and creates less waste.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Is renewable energy the best answer to global warming? Explain.", "difficulty": 2, "kind": "opinion",
+      "keywords": ["renewable", "solar", "wind"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về điểm mạnh của năng lượng mặt trời, gió, rồi nghĩ xem còn cần thêm giải pháp nào khác không.",
+      "exampleAnswer": "I think it is one of the best answers. Energy produced from the sun and wind doesn't release carbon dioxide. We also need to plant more trees.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "What do you usually do with your rubbish at home or at school?", "difficulty": 2, "kind": "personal",
+      "keywords": ["waste", "recycle", "sort"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem nhà em và trường em có phân loại rác không, và em có mẹo nào để tạo ít rác hơn.",
+      "exampleAnswer": "At home, we sort our waste into plastic, paper and food. At school, I bring a lunch box instead of using plastic bags.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Who should do more to fight global warming: governments, companies or individuals? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["government", "companies", "responsibility"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem mỗi bên có sức mạnh gì: ra luật, thay đổi cách sản xuất, hay thay đổi thói quen hằng ngày.",
+      "exampleAnswer": "Governments should do the most because they can make laws. Companies releasing lots of emissions must change too, but individuals can still help with daily choices.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "You are giving a short talk to younger students about global warming. Start your talk.", "difficulty": 3, "kind": "situation",
+      "keywords": ["temperature", "fossil fuels", "we can"], "frameId": "f03",
+      "hintDirectionVi": "Mở đầu bằng một câu hỏi gần gũi với các em nhỏ, giải thích đơn giản nguyên nhân, rồi hứa hẹn cách giúp đỡ.",
+      "exampleAnswer": "Good morning, everyone! Have you noticed that summers are getting hotter? This is global warming, caused mainly by burning fossil fuels. Today I'll show you three easy ways to help.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "Which consequence of global warming worries you most, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["consequence", "sea level", "heatwave"], "frameId": "f01",
+      "hintDirectionVi": "Chọn một hậu quả: nắng nóng, bão lũ, nước biển dâng, hạn hán. Nó ảnh hưởng đến cuộc sống của ai và thế nào?",
+      "exampleAnswer": "Rising sea levels worry me most. Families living along the coast could lose their homes, and salty water could destroy rice fields in the delta.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Your class has a small budget for a green project. Propose one idea and explain it.", "difficulty": 3, "kind": "situation",
+      "keywords": ["plant trees", "shade", "carbon dioxide"], "frameId": "f02",
+      "hintDirectionVi": "Chọn một dự án nhỏ, rẻ, cả lớp làm được. Giải thích nó giúp trường và môi trường như thế nào.",
+      "exampleAnswer": "I propose planting trees around the schoolyard. Trees planted now will give us shade in a few years, lower the temperature and take in carbon dioxide.", "expectsReason": true
+    }
+  ]
+}

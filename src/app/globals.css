@@ -1,38 +1,114 @@
 @import "tailwindcss";
 
-/* Design tokens. Direction from files/Design Inspiration 1-4:
-   cream background, dark ink, one green accent, pastel tiles per level. */
+/* Token thiết kế của LINGUA-REFLEX. Quy tắc dùng: xem DESIGN.md. */
 :root {
-  --background: #f7f3ea;
+  --bg: #faf6ec; /* nền kem */
   --surface: #ffffff;
-  --foreground: #1c1f1a;
-  --muted: #6b6f66;
-  --line: #e4ddcd;
-  --accent: #22c55e;
-  --accent-ink: #0f3d22;
-  --level-0: #fdf6c9;
-  --level-1: #dbe8fb;
-  --level-2: #fbe3d6;
-  --level-3: #dcefe0;
+  --sunken: #f1ebdb; /* khối nhấn nhẹ trên nền kem */
+  --ink: #1b2b22;
+  --muted: #4f6256;
+  --line: #ddd5bf;
+  --brand: #1f7a4d; /* xanh lá: nút chính, liên kết. Chữ trắng trên nền này đạt 5.3:1 */
+  --brand-strong: #17603b;
+  --brand-soft: #e3f1e8;
+  --on-brand: #ffffff;
+  --warn: #7a4e00;
+  --warn-soft: #fff1d6;
+  --danger: #b3261e;
+  --danger-soft: #fdecea;
+  --forest: #123d2b; /* mảng xanh rừng đậm: khối nhấn lớn */
+  --on-forest: #f3eedc;
+  --on-forest-muted: #b9cdbf; /* 7.2:1 trên forest */
 }
 
 @theme inline {
-  --color-background: var(--background);
+  --color-bg: var(--bg);
   --color-surface: var(--surface);
-  --color-foreground: var(--foreground);
+  --color-sunken: var(--sunken);
+  --color-ink: var(--ink);
   --color-muted: var(--muted);
   --color-line: var(--line);
-  --color-accent: var(--accent);
-  --color-accent-ink: var(--accent-ink);
-  --color-level-0: var(--level-0);
-  --color-level-1: var(--level-1);
-  --color-level-2: var(--level-2);
-  --color-level-3: var(--level-3);
-  --font-sans: var(--font-manrope);
+  --color-brand: var(--brand);
+  --color-brand-strong: var(--brand-strong);
+  --color-brand-soft: var(--brand-soft);
+  --color-on-brand: var(--on-brand);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-forest: var(--forest);
+  --color-on-forest: var(--on-forest);
+  --color-on-forest-muted: var(--on-forest-muted);
+  --font-sans: var(--font-be-vietnam-pro), system-ui, sans-serif;
+}
+
+html {
+  background: var(--bg);
+  color: var(--ink);
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-manrope), system-ui, sans-serif;
+  min-height: 100dvh;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Focus nhìn thấy rõ ở mọi thành phần tương tác (viền 3px màu chữ). */
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 2px;
+  border-radius: 0.5rem;
+}
+
+/* Chuyển động nhẹ: hiện dần khi vào trang. Tắt hoàn toàn khi người dùng chọn giảm chuyển động. */
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.rise-in {
+  animation: rise-in 0.5s ease-out both;
+}
+.rise-in-2 {
+  animation-delay: 0.08s;
+}
+.rise-in-3 {
+  animation-delay: 0.16s;
+}
+
+.wave-bar {
+  transform-origin: bottom;
+  animation: wave-rise 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  animation-delay: calc(var(--i) * 55ms);
+}
+@keyframes wave-rise {
+  from {
+    transform: scaleY(0.08);
+    opacity: 0;
+  }
+  to {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
 }

@@ -1,0 +1,172 @@
+{
+  "grade": 7,
+  "unit": 4,
+  "title": "Music and Arts",
+  "titleVi": "Âm nhạc và nghệ thuật",
+  "topic": "Nói về loại nhạc, nhạc cụ và môn nghệ thuật em thích, so sánh chúng với nhau và kể về các buổi biểu diễn ở trường.",
+  "source": "Global Success 7, Unit 4 (chủ đề, từ vựng, so sánh với like, different from, (not) as ... as)",
+  "vocab": [
+    { "id": "v01", "en": "musical instrument", "vi": "nhạc cụ", "example": "The guitar is the musical instrument I want to learn." },
+    { "id": "v02", "en": "folk music", "vi": "nhạc dân gian", "example": "My grandparents love listening to folk music in the evening." },
+    { "id": "v03", "en": "concert", "vi": "buổi hòa nhạc", "example": "Our school holds a concert at the end of every year." },
+    { "id": "v04", "en": "perform", "vi": "biểu diễn", "example": "Our class will perform a song on Teachers' Day." },
+    { "id": "v05", "en": "performance", "vi": "buổi biểu diễn, tiết mục", "example": "The dance performance was colourful and full of energy." },
+    { "id": "v06", "en": "exhibition", "vi": "cuộc triển lãm", "example": "We saw an exhibition of old photos at the museum." },
+    { "id": "v07", "en": "gallery", "vi": "phòng trưng bày tranh", "example": "There are many beautiful paintings in the art gallery." },
+    { "id": "v08", "en": "photography", "vi": "nhiếp ảnh", "example": "My uncle's hobby is photography, so he always carries a camera." },
+    { "id": "v09", "en": "portrait", "vi": "bức chân dung", "example": "I drew a portrait of my best friend for her birthday." },
+    { "id": "v10", "en": "puppet", "vi": "con rối", "example": "The children made puppets from old socks." },
+    { "id": "v11", "en": "water puppetry", "vi": "múa rối nước", "example": "Water puppetry is a traditional art form in Viet Nam." },
+    { "id": "v12", "en": "prefer", "vi": "thích hơn", "example": "I prefer pop music to rock music." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "___ is as ___ as ___.",
+      "vi": "... thì ... như ...",
+      "grammarNote": "as + tính từ + as để nói hai thứ ngang nhau: Drawing is as relaxing as singing.",
+      "examples": ["Photography is as creative as painting."]
+    },
+    {
+      "id": "f02",
+      "text": "___ is not as ___ as ___ because ___.",
+      "vi": "... không ... bằng ... vì ...",
+      "grammarNote": "not as + tính từ + as để nói thứ nhất kém hơn thứ hai.",
+      "examples": ["Rock music is not as relaxing as folk music because it is very loud."]
+    },
+    {
+      "id": "f03",
+      "text": "My taste in music is different from ___. I like ___, but ___.",
+      "vi": "Gu âm nhạc của mình khác với ... Mình thích ..., nhưng ...",
+      "grammarNote": "different from + danh từ / đại từ: khác với. Dùng but để nêu điểm khác nhau.",
+      "examples": ["My taste in music is different from my dad's. I like pop, but he likes country music."]
+    },
+    {
+      "id": "f04",
+      "text": "___ is like ___, but it ___.",
+      "vi": "... giống như ..., nhưng nó ...",
+      "grammarNote": "be like + danh từ: giống như. Sau đó dùng but để chỉ ra điểm khác.",
+      "examples": ["Water puppetry is like a puppet show, but the puppets move on water."]
+    },
+    {
+      "id": "f05",
+      "text": "I prefer ___ to ___ because ___.",
+      "vi": "Mình thích ... hơn ... vì ...",
+      "grammarNote": "prefer + danh từ / V-ing + to + danh từ / V-ing: thích cái này hơn cái kia.",
+      "examples": ["I prefer drawing to singing because I can do it quietly at home."]
+    },
+    {
+      "id": "f06",
+      "text": "Would you like to come to ___ with me on ___?",
+      "vi": "Bạn có muốn đi ... với mình vào ... không?",
+      "grammarNote": "Mời ai đó: Would you like to + V nguyên mẫu? Đáp lại: I'd love to / Sorry, I can't.",
+      "examples": ["Would you like to come to the school concert with me on Friday evening?"]
+    },
+    {
+      "id": "f07",
+      "text": "I can / can't play the ___, but I'd like to ___.",
+      "vi": "Mình biết / không biết chơi ..., nhưng mình muốn ...",
+      "grammarNote": "can / can't + động từ nguyên mẫu để nói khả năng; I'd like to + động từ nguyên mẫu để nói mong muốn.",
+      "examples": ["I can't play the piano, but I'd like to learn it next year."]
+    },
+    {
+      "id": "f08",
+      "text": "My favourite singer / artist is ___ because ___.",
+      "vi": "Ca sĩ / nghệ sĩ mình thích nhất là ... vì ...",
+      "grammarNote": "Dùng because để nêu lý do. Có thể so sánh thêm bằng as + tính từ + as.",
+      "examples": ["My favourite artist is Van Gogh because his paintings are bright and full of life."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What kind of music do you like?", "difficulty": 1, "kind": "personal",
+      "keywords": ["pop music", "folk music", "prefer"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về bài hát em hay nghe nhất. Nó thuộc loại nhạc nào: nhạc pop, nhạc dân gian hay nhạc phim?",
+      "exampleAnswer": "I like pop music. I listen to it on my way to school.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Can you play a musical instrument?", "difficulty": 1, "kind": "personal",
+      "keywords": ["musical instrument", "guitar", "learn"], "frameId": "f07",
+      "hintDirectionVi": "Trả lời có hoặc không, rồi nói thêm nhạc cụ em biết chơi hoặc muốn học.",
+      "exampleAnswer": "Not yet, but I want to learn the guitar. My cousin can teach me.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Who is your favourite singer or artist?", "difficulty": 1, "kind": "personal",
+      "keywords": ["singer", "songs", "paintings"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ về một ca sĩ, họa sĩ hoặc nhóm nhạc em thích, rồi nói một điều em thích ở họ.",
+      "exampleAnswer": "My favourite singer is My Tam. Her songs are beautiful and easy to sing.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Do you prefer drawing or taking photos?", "difficulty": 1, "kind": "personal",
+      "keywords": ["drawing", "photography", "prefer"], "frameId": "f05",
+      "hintDirectionVi": "Chọn một trong hai, rồi nói em thường vẽ hoặc chụp cái gì.",
+      "exampleAnswer": "I prefer taking photos. I often take photos of trees and animals near my house.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do you think people enjoy live concerts?", "difficulty": 2, "kind": "reason",
+      "keywords": ["concert", "exciting", "atmosphere"], "frameId": "f02",
+      "hintDirectionVi": "So sánh nghe nhạc trực tiếp với nghe qua điện thoại: cảm giác khác nhau thế nào?",
+      "exampleAnswer": "Listening at home is not as exciting as a live concert. People can sing and dance together.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Is your taste in music like your parents' taste?", "difficulty": 2, "kind": "personal",
+      "keywords": ["different from", "like", "but"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem bố mẹ em hay nghe loại nhạc gì, rồi so sánh với loại nhạc em thích.",
+      "exampleAnswer": "No, it's different from theirs. I like K-pop, but my parents like old love songs.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Is water puppetry as interesting as cartoons? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["water puppetry", "as interesting as", "traditional"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về điểm hấp dẫn của mỗi loại: múa rối nước có gì đặc biệt, phim hoạt hình có gì hay?",
+      "exampleAnswer": "I think water puppetry is as interesting as cartoons. The puppets move on water, which is amazing.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Invite a friend to a school art exhibition this Saturday.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Would you like to", "exhibition", "Saturday"], "frameId": "f06",
+      "hintDirectionVi": "Mời bạn bằng câu hỏi lịch sự, nói thời gian, địa điểm và một điều thú vị ở triển lãm.",
+      "exampleAnswer": "Would you like to come to the art exhibition with me on Saturday? Our class paintings are there.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "Why should young people learn about folk music?", "difficulty": 2, "kind": "reason",
+      "keywords": ["folk music", "culture", "proud"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem nhạc dân gian kể gì về quê hương và ông bà mình, và vì sao điều đó quan trọng.",
+      "exampleAnswer": "Folk music is like a story about our culture. It helps young people understand their country.", "expectsReason": true
+    },
+    {
+      "id": "q10", "text": "Is photography as creative as painting? What do you think?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["photography", "creative", "as ... as"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về việc người chụp ảnh và người vẽ tranh phải sáng tạo những gì. Họ giống và khác nhau ra sao?",
+      "exampleAnswer": "I think photography is as creative as painting. Photographers must find interesting ideas and good light.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Are music lessons as important as maths lessons? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["music lessons", "not as ... as", "relax"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ xem mỗi môn giúp em điều gì. Em có cần cả hai không?",
+      "exampleAnswer": "Music lessons are as important as maths lessons. Music helps us relax and be creative.", "expectsReason": true
+    },
+    {
+      "id": "q12", "text": "Which art form would you like to learn, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["would like to", "portrait", "because"], "frameId": "f05",
+      "hintDirectionVi": "Chọn một môn: vẽ, nhiếp ảnh, múa, điêu khắc... Vì sao em thấy hứng thú với nó?",
+      "exampleAnswer": "I'd like to learn portrait drawing because I want to draw my family. It looks difficult but fun.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Your class will perform at the school festival. Suggest an act and explain.", "difficulty": 3, "kind": "situation",
+      "keywords": ["perform", "performance", "everyone"], "frameId": "f05",
+      "hintDirectionVi": "Đề xuất một tiết mục (hát, múa, kịch...) và nói vì sao nó hợp với cả lớp.",
+      "exampleAnswer": "Let's perform a folk dance. Everyone can join, and it is not as hard as a play.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Is modern music very different from traditional music? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["different from", "instruments", "however"], "frameId": "f04",
+      "hintDirectionVi": "So sánh nhạc cụ, nhịp điệu và nội dung bài hát của hai loại. Chúng có điểm nào giống nhau không?",
+      "exampleAnswer": "Yes. Modern music uses electronic sounds, but traditional music uses old instruments. Both tell stories.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "A foreign friend visits Viet Nam. Recommend a traditional art show.", "difficulty": 3, "kind": "situation",
+      "keywords": ["water puppetry", "like", "traditional"], "frameId": "f04",
+      "hintDirectionVi": "Chọn một loại hình nghệ thuật truyền thống, so sánh nó với thứ bạn ấy đã biết để bạn dễ hình dung.",
+      "exampleAnswer": "You should see water puppetry. It's like a puppet show, but the stage is a pool of water.", "expectsReason": false
+    }
+  ]
+}

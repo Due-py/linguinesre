@@ -20,9 +20,6 @@
 # production
 /build
 
-# reference material: copyrighted textbook PDFs, design videos, contest docs
-/files/
-
 # misc
 .DS_Store
 *.pem
@@ -35,7 +32,6 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
-!.env.example
 
 # vercel
 .vercel
@@ -43,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# giữ file mẫu biến môi trường
+!.env.example
+
+# tài liệu nặng chỉ để trên máy: SGK, video, đề cương cuộc thi
+/files/

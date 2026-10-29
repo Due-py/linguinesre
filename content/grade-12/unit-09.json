@@ -1,0 +1,158 @@
+{
+  "grade": 12,
+  "unit": 9,
+  "title": "Career Paths",
+  "titleVi": "Con đường sự nghiệp",
+  "topic": "Nói về nghề nghiệp em quan tâm, những điều cần cân nhắc khi chọn hướng đi sau khi ra trường và cách chuẩn bị cho tương lai.",
+  "source": "Global Success 12, Unit 9 (chủ đề, từ vựng, ngữ pháp cụm động từ ba từ)",
+  "vocab": [
+    { "id": "v01", "en": "pursue", "vi": "theo đuổi", "example": "My sister wants to pursue a career in architecture." },
+    { "id": "v02", "en": "passion", "vi": "niềm đam mê", "example": "Cooking is his real passion." },
+    { "id": "v03", "en": "in demand", "vi": "có nhu cầu cao", "example": "IT workers are in demand in many countries." },
+    { "id": "v04", "en": "soft skills", "vi": "các kỹ năng mềm", "example": "Teamwork and communication are important soft skills." },
+    { "id": "v05", "en": "work experience", "vi": "kinh nghiệm làm việc", "example": "A summer internship gave me some useful work experience." },
+    { "id": "v06", "en": "take into account", "vi": "cân nhắc, xem xét", "example": "You should take your strengths into account when choosing a career." },
+    { "id": "v07", "en": "adapt", "vi": "thích nghi", "example": "Workers must adapt to new technology quickly." },
+    { "id": "v08", "en": "obsolete", "vi": "lỗi thời", "example": "Typewriters became obsolete when computers appeared." },
+    { "id": "v09", "en": "CV (curriculum vitae)", "vi": "sơ yếu lý lịch", "example": "I listed my volunteer work on my CV." },
+    { "id": "v10", "en": "go in for", "vi": "theo đuổi, chọn làm (một nghề, sở thích)", "example": "He decided to go in for teaching after university." },
+    { "id": "v11", "en": "live up to", "vi": "đáp ứng (kỳ vọng)", "example": "I hope I can live up to my teachers' expectations." },
+    { "id": "v12", "en": "put up with", "vi": "chịu đựng", "example": "Doctors often have to put up with long night shifts." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I'm looking forward to ___ after I leave school.",
+      "vi": "Mình rất mong chờ ... sau khi ra trường.",
+      "grammarNote": "Cụm động từ ba từ look forward to + V-ing hoặc danh từ (mong chờ). to ở đây là giới từ.",
+      "examples": ["I'm looking forward to studying abroad after I leave school."]
+    },
+    {
+      "id": "f02",
+      "text": "I think I would go in for ___ because ___.",
+      "vi": "Mình nghĩ mình sẽ theo nghề ... vì ...",
+      "grammarNote": "go in for + danh từ/V-ing: chọn theo đuổi một nghề hoặc lĩnh vực. Cụm ba từ không tách rời.",
+      "examples": ["I think I would go in for nursing because I like taking care of people."]
+    },
+    {
+      "id": "f03",
+      "text": "I want to live up to ___ by ___.",
+      "vi": "Mình muốn đáp ứng ... bằng cách ...",
+      "grammarNote": "live up to + kỳ vọng/tiêu chuẩn (expectations, standards); by + V-ing chỉ cách làm.",
+      "examples": ["I want to live up to my coach's expectations by training every day."]
+    },
+    {
+      "id": "f04",
+      "text": "I can't put up with ___, so I wouldn't choose ___.",
+      "vi": "Mình không chịu được ..., nên mình sẽ không chọn ...",
+      "grammarNote": "put up with + danh từ/V-ing: chịu đựng điều gì khó chịu.",
+      "examples": ["I can't put up with working at night, so I wouldn't choose to be a security guard."]
+    },
+    {
+      "id": "f05",
+      "text": "To be a good ___, you need to get on with ___.",
+      "vi": "Để làm một ... giỏi, bạn cần hoà hợp với ...",
+      "grammarNote": "get on with + người: hoà hợp, có quan hệ tốt với ai.",
+      "examples": ["To be a good waiter, you need to get on with customers and colleagues."]
+    },
+    {
+      "id": "f06",
+      "text": "Workers need to keep up with ___, or they may ___.",
+      "vi": "Người lao động cần theo kịp ..., nếu không họ có thể ...",
+      "grammarNote": "keep up with + danh từ: theo kịp. or (nếu không thì) nối với hậu quả có thể xảy ra.",
+      "examples": ["Workers need to keep up with new software, or they may fall behind their colleagues."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What career are you interested in at the moment?", "difficulty": 1, "kind": "personal",
+      "keywords": ["go in for", "interested in", "career"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về môn học hoặc hoạt động em làm tốt và thấy vui, rồi nối nó với một nghề.",
+      "exampleAnswer": "I think I would go in for graphic design because I love drawing and working on computers.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What are you looking forward to after you leave school?", "difficulty": 1, "kind": "personal",
+      "keywords": ["looking forward to", "university", "independent"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một điều mới em sắp được trải nghiệm: học tiếp, đi làm, tự lập, đi xa...",
+      "exampleAnswer": "I'm looking forward to studying at university and living more independently after I leave school.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What subject are you most passionate about?", "difficulty": 1, "kind": "personal",
+      "keywords": ["passionate", "subject", "enjoy"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về môn học khiến em quên cả thời gian khi học. Em thích điều gì ở nó?",
+      "exampleAnswer": "I'm most passionate about biology. I love learning how the human body works, so I might go in for medicine.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What kind of working conditions could you not put up with?", "difficulty": 1, "kind": "personal",
+      "keywords": ["put up with", "noisy", "pressure"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về điều khiến em khó chịu nhất: ồn ào, làm đêm, áp lực, ngồi một chỗ lâu...",
+      "exampleAnswer": "I can't put up with noisy places, so I wouldn't choose to work in a busy factory or a crowded market.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why is it important to take your personality into account when choosing a career?", "difficulty": 2, "kind": "reason",
+      "keywords": ["take into account", "character", "suit"], "frameId": "f02",
+      "hintDirectionVi": "Hình dung một người có tính cách không hợp với công việc của mình. Họ sẽ cảm thấy thế nào?",
+      "exampleAnswer": "If a job doesn't suit your character, you won't enjoy it. For example, a shy person may find a sales job very stressful.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Why do employers value soft skills such as teamwork and communication?", "difficulty": 2, "kind": "reason",
+      "keywords": ["soft skills", "get on with", "colleagues"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem trong hầu hết công việc, người ta phải làm việc với ai và cần làm gì cùng nhau.",
+      "exampleAnswer": "Most jobs need teamwork. Workers with good soft skills get on with their colleagues, solve problems together and serve customers better.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Should students follow their passion or choose a job that is in demand? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["passion", "in demand", "balance"], "frameId": "f02",
+      "hintDirectionVi": "Cân nhắc sự an toàn của nghề có nhu cầu cao và niềm vui của nghề mình đam mê. Có cách nào kết hợp không?",
+      "exampleAnswer": "I think we should find a balance. A job in demand gives security, but without passion, it's hard to work well for many years.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Your friend can't decide between two careers. Give them some advice.", "difficulty": 2, "kind": "situation",
+      "keywords": ["work experience", "talk to", "try out"], "frameId": "f05",
+      "hintDirectionVi": "Gợi ý cho bạn một cách tìm hiểu thực tế về hai nghề trước khi quyết định.",
+      "exampleAnswer": "Try to get some work experience in both fields, maybe during the summer. Then you will see which one you really enjoy.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "How do the people around you influence your career plans?", "difficulty": 2, "kind": "personal",
+      "keywords": ["live up to", "expectations", "support"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về gia đình, thầy cô, bạn bè: ai đã gợi ý hay động viên em về nghề nghiệp? Em nghĩ gì về điều đó?",
+      "exampleAnswer": "My parents hope I will become a teacher. I want to live up to their expectations by studying hard, but I also want to follow my own interests.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Is it a good idea to take a gap year before university? Explain.", "difficulty": 2, "kind": "opinion",
+      "keywords": ["gap year", "experience", "fall behind"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem một năm nghỉ để đi làm hay trải nghiệm mang lại gì, và có rủi ro gì không.",
+      "exampleAnswer": "I think it can be a good idea. A gap year gives you time to work, travel and discover yourself, although some students may fall behind.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "You are meeting a career adviser. Ask three questions about a job you like.", "difficulty": 2, "kind": "situation",
+      "keywords": ["qualifications", "skills", "training"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về ba điều em cần biết: cần học gì, cần kỹ năng gì, và bắt đầu chuẩn bị từ đâu.",
+      "exampleAnswer": "What qualifications do I need to become a pilot? What skills are most important? And how can I get some experience while I'm still at school?", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Why might some jobs become obsolete in the next twenty years?", "difficulty": 3, "kind": "reason",
+      "keywords": ["obsolete", "automate", "technology"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về những việc lặp lại mà máy móc đã bắt đầu làm thay con người.",
+      "exampleAnswer": "Machines can now automate simple tasks like typing data or checking tickets. Workers need to keep up with technology, or their jobs may become obsolete.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Is it better to stay in one job for life or to change jobs several times? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["keep up with", "adapt", "experience"], "frameId": "f06",
+      "hintDirectionVi": "So sánh sự ổn định khi gắn bó một nơi với cơ hội học hỏi khi thay đổi. Em hợp với cách nào?",
+      "exampleAnswer": "I think changing jobs can be good. Workers need to keep up with new trends, or they may fall behind. New jobs also bring new experience.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Is a university degree necessary for a successful career today? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["degree", "skills", "work experience"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về những nghề bắt buộc phải có bằng và những nghề có thể học qua thực hành hay khoá học ngắn.",
+      "exampleAnswer": "Not always. A degree is necessary in fields like medicine or law, but many people learn useful skills through online courses and work experience.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "You are writing your first CV. Tell a friend what you would include and why.", "difficulty": 3, "kind": "situation",
+      "keywords": ["CV", "soft skills", "volunteer work"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về hai, ba điều cho thấy em có năng lực và chăm chỉ, kể cả hoạt động ngoài giờ học.",
+      "exampleAnswer": "I would include my English certificate, my volunteer work and my soft skills, because they show that I get on with people and work hard.", "expectsReason": true
+    }
+  ]
+}

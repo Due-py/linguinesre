@@ -1,0 +1,172 @@
+{
+  "grade": 7,
+  "unit": 12,
+  "title": "English-Speaking Countries",
+  "titleVi": "Các nước nói tiếng Anh",
+  "topic": "Nói về những nước nói tiếng Anh em muốn đến thăm, những điều em muốn xem và trải nghiệm ở đó, và giới thiệu nơi em sống cho du khách.",
+  "source": "Global Success 7, Unit 12 (chủ đề, từ vựng, ngữ pháp mạo từ a, an, the)",
+  "vocab": [
+    { "id": "v01", "en": "capital", "vi": "thủ đô", "example": "Ha Noi is the capital of Viet Nam." },
+    { "id": "v02", "en": "castle", "vi": "lâu đài, pháo đài", "example": "We visited an old castle on a hill in Scotland." },
+    { "id": "v03", "en": "culture", "vi": "văn hóa", "example": "I want to learn more about the culture of Australia." },
+    { "id": "v04", "en": "landscape", "vi": "phong cảnh", "example": "New Zealand has beautiful landscapes with lakes and mountains." },
+    { "id": "v05", "en": "local", "vi": "thuộc về địa phương", "example": "We tried some local food at the night market." },
+    { "id": "v06", "en": "native", "vi": "bản địa, bản xứ", "example": "The kangaroo is native to Australia." },
+    { "id": "v07", "en": "island country", "vi": "đảo quốc", "example": "New Zealand is an island country in the Pacific Ocean." },
+    { "id": "v08", "en": "symbol", "vi": "biểu tượng", "example": "The maple leaf is a symbol of Canada." },
+    { "id": "v09", "en": "historic", "vi": "có tính lịch sử", "example": "Hoi An is a historic town with old yellow houses." },
+    { "id": "v10", "en": "ancient", "vi": "cổ, cổ xưa", "example": "There is an ancient temple near my grandparents' village." },
+    { "id": "v11", "en": "tower", "vi": "tòa tháp", "example": "You can see the whole city from the top of the tower." },
+    { "id": "v12", "en": "amazing", "vi": "tuyệt vời, đáng kinh ngạc", "example": "The view of the coastline was amazing." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I'd like to visit ___ because it has a / an ___.",
+      "vi": "Mình muốn đến ... vì ở đó có một ...",
+      "grammarNote": "a / an + danh từ số ít đếm được, khi nhắc lần đầu. an đứng trước âm nguyên âm: an island, an old castle.",
+      "examples": ["I'd like to visit Scotland because it has an amazing castle on a hill."]
+    },
+    {
+      "id": "f02",
+      "text": "The most famous ___ in my town is the ___.",
+      "vi": "... nổi tiếng nhất ở thị trấn / thành phố mình là ...",
+      "grammarNote": "the dùng với so sánh nhất (the most famous) và với vật duy nhất mà người nghe biết là cái nào.",
+      "examples": ["The most famous place in my town is the old bridge."]
+    },
+    {
+      "id": "f03",
+      "text": "There is a / an ___ in my town. The ___ is ___.",
+      "vi": "Ở thị trấn mình có một ... Cái ... đó thì ...",
+      "grammarNote": "Nhắc lần đầu dùng a / an; nhắc lại lần sau dùng the: There is a market. The market is very busy.",
+      "examples": ["There is an ancient temple in my town. The temple is about three hundred years old."]
+    },
+    {
+      "id": "f04",
+      "text": "In ___, you can see the ___ and try ___.",
+      "vi": "Ở ..., bạn có thể ngắm ... và thử ...",
+      "grammarNote": "the dùng trước tên một số công trình, sông, biển nổi tiếng: the London Eye, the Thames. Tên thành phố, nước thường không có the.",
+      "examples": ["In London, you can see the Tower of London and try fish and chips."]
+    },
+    {
+      "id": "f05",
+      "text": "I want to learn about the ___ of ___ because ___.",
+      "vi": "Mình muốn tìm hiểu về ... của ... vì ...",
+      "grammarNote": "the + danh từ + of + nơi chốn khi nói về một thứ cụ thể: the culture of Canada, the history of the UK.",
+      "examples": ["I want to learn about the culture of Australia because it is very different from ours."]
+    },
+    {
+      "id": "f06",
+      "text": "___ is a / an ___ country. People there ___.",
+      "vi": "... là một đất nước ... Người dân ở đó ...",
+      "grammarNote": "a / an phụ thuộc vào âm đầu của từ ngay sau nó: a beautiful country, an amazing country, an island country.",
+      "examples": ["Canada is a huge country. People there love ice hockey."]
+    },
+    {
+      "id": "f07",
+      "text": "I watch ___ in English every ___.",
+      "vi": "Mình xem ... bằng tiếng Anh mỗi ...",
+      "grammarNote": "Hiện tại đơn với every day / every week để nói thói quen.",
+      "examples": ["I watch a cooking show in English every weekend."]
+    },
+    {
+      "id": "f08",
+      "text": "I think ___ is a good ___ because ___.",
+      "vi": "Mình nghĩ ... là một ... tốt vì ...",
+      "grammarNote": "a đứng trước good + danh từ số ít. Dùng because để nêu lý do.",
+      "examples": ["I think the kangaroo is a good symbol of Australia because it lives only there."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Which English-speaking country would you like to visit?", "difficulty": 1, "kind": "personal",
+      "keywords": ["the UK", "Australia", "New Zealand"], "frameId": "f01",
+      "hintDirectionVi": "Chọn một nước nói tiếng Anh em tò mò nhất, rồi nói một thứ em muốn xem ở đó.",
+      "exampleAnswer": "I'd like to visit Australia. I want to see a kangaroo in real life.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Do you watch any films or shows in English?", "difficulty": 1, "kind": "personal",
+      "keywords": ["cartoons", "subtitles", "a show"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về phim, video hay chương trình bằng tiếng Anh em từng xem. Em xem chúng khi nào?",
+      "exampleAnswer": "Yes, I do. I watch an English cartoon every evening with Vietnamese subtitles.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What is the most famous place in your town?", "difficulty": 1, "kind": "personal",
+      "keywords": ["the most famous", "historic", "market"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về nơi mà khách đến thăm thị trấn hay thành phố của em thường muốn ghé qua.",
+      "exampleAnswer": "The most famous place in my town is the old market. It is about one hundred years old.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What local food would you like to try abroad?", "difficulty": 1, "kind": "personal",
+      "keywords": ["local food", "fish and chips", "try"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một món ăn nước ngoài em từng nghe hoặc thấy trên phim mà em muốn ăn thử.",
+      "exampleAnswer": "I'd like to try fish and chips in the UK. My English teacher says they are delicious.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do many students want to study in English-speaking countries?", "difficulty": 2, "kind": "reason",
+      "keywords": ["practise English", "culture", "opportunity"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về những gì học sinh có thể học được ở đó ngoài sách vở: ngôn ngữ, con người, cách sống.",
+      "exampleAnswer": "They can practise English every day and learn about a new culture. It is a great opportunity.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Tell me about a historic place you have visited.", "difficulty": 2, "kind": "personal",
+      "keywords": ["historic", "ancient", "the"], "frameId": "f03",
+      "hintDirectionVi": "Nhớ lại một chuyến đi tới đền, chùa, phố cổ hay bảo tàng. Ở đó có gì đặc biệt?",
+      "exampleAnswer": "I visited Hue with my family. There is an ancient citadel there. The citadel is huge and beautiful.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Is it better to visit cities or the countryside abroad? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["landscape", "museums", "quiet"], "frameId": "f04",
+      "hintDirectionVi": "So sánh: thành phố có công trình, bảo tàng; vùng quê có phong cảnh, sự yên tĩnh. Em chọn gì?",
+      "exampleAnswer": "I prefer the countryside. The landscapes are beautiful, and I can see how local people live.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "A tourist from New Zealand visits your city. Suggest a place to go.", "difficulty": 2, "kind": "situation",
+      "keywords": ["You should visit", "the", "amazing"], "frameId": "f02",
+      "hintDirectionVi": "Chọn một nơi đặc trưng của thành phố em, nói ở đó có gì và vì sao du khách sẽ thích.",
+      "exampleAnswer": "You should visit the Old Quarter. There are many small shops and amazing street food.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "Why is it useful to learn about other cultures?", "difficulty": 2, "kind": "reason",
+      "keywords": ["culture", "understand", "friends"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem hiểu thêm về cách sống của người nước khác giúp em thế nào khi gặp bạn bè quốc tế.",
+      "exampleAnswer": "It helps us understand people from other countries. Then we can make friends more easily.", "expectsReason": true
+    },
+    {
+      "id": "q10", "text": "Should tourists try local food when they travel? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["local food", "culture", "experience"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem món ăn địa phương cho du khách biết điều gì về một nơi.",
+      "exampleAnswer": "Yes. Local food is part of the culture. It is the best way to know a new place.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Is English the most useful language to learn? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["the most useful", "the Internet", "travel"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ về những lúc em cần dùng tiếng Anh: học tập, du lịch, đọc trên mạng.",
+      "exampleAnswer": "I think so. People use English all over the world, on the Internet and when they travel.", "expectsReason": true
+    },
+    {
+      "id": "q12", "text": "What would be a good symbol of Viet Nam, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["symbol", "the lotus", "because"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ về một loài hoa, con vật, món ăn hay công trình khiến người ta nghĩ ngay đến Việt Nam.",
+      "exampleAnswer": "The lotus is a good symbol of Viet Nam. It is beautiful and grows in many parts of the country.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "You are a tour guide in your town. Welcome visitors from Canada.", "difficulty": 3, "kind": "situation",
+      "keywords": ["Welcome to", "There is a", "The"], "frameId": "f03",
+      "hintDirectionVi": "Chào khách, giới thiệu một hai địa điểm (lần đầu dùng a / an, nhắc lại dùng the) và một món ăn nên thử.",
+      "exampleAnswer": "Welcome to my town! There is a lovely lake near here. The lake is perfect for an evening walk.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "Do you need to live abroad to learn English well? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["practise", "the Internet", "every day"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về những cách học tiếng Anh ngay tại Việt Nam, và điểm mạnh khi sống ở nước ngoài.",
+      "exampleAnswer": "No, you don't. You can practise every day with films, songs and apps. Living abroad just makes it faster.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "You have one day in London. Tell a friend your plan.", "difficulty": 3, "kind": "situation",
+      "keywords": ["In the morning", "the London Eye", "the Thames"], "frameId": "f04",
+      "hintDirectionVi": "Sắp xếp buổi sáng, chiều, tối: đi đâu, xem gì, ăn gì. Chú ý dùng the trước tên công trình nổi tiếng.",
+      "exampleAnswer": "In the morning, I'll visit the Tower of London. In the afternoon, I'll ride the London Eye.", "expectsReason": false
+    }
+  ]
+}

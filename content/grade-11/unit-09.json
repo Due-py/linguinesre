@@ -1,0 +1,158 @@
+{
+  "grade": 11,
+  "unit": 9,
+  "title": "Social Issues",
+  "titleVi": "Các vấn đề xã hội",
+  "topic": "Nói về những vấn đề xã hội em thấy quanh mình như áp lực bạn bè, bắt nạt trên mạng, và ý kiến của em về cách giải quyết chúng.",
+  "source": "Global Success 11, Unit 9 (chủ đề, từ vựng, ngữ pháp từ và cụm từ nối)",
+  "vocab": [
+    { "id": "v01", "en": "peer pressure", "vi": "áp lực từ bạn bè", "example": "Peer pressure can make teenagers do things they don't really want to do." },
+    { "id": "v02", "en": "cyberbullying", "vi": "bắt nạt trên mạng", "example": "Cyberbullying can happen at any time of the day." },
+    { "id": "v03", "en": "bully", "vi": "bắt nạt", "example": "Nobody has the right to bully other students." },
+    { "id": "v04", "en": "victim", "vi": "nạn nhân", "example": "We should support victims instead of ignoring them." },
+    { "id": "v05", "en": "make fun of", "vi": "trêu chọc, chế giễu", "example": "It isn't kind to make fun of someone's accent." },
+    { "id": "v06", "en": "stand up to", "vi": "đứng lên chống lại", "example": "She stood up to the older boys and told them to stop." },
+    { "id": "v07", "en": "the odd one out", "vi": "người khác biệt, lạc lõng", "example": "Nobody wants to feel like the odd one out in a group." },
+    { "id": "v08", "en": "awareness", "vi": "nhận thức", "example": "The talk raised awareness about staying safe online." },
+    { "id": "v09", "en": "campaign", "vi": "chiến dịch", "example": "Our school started a campaign against littering." },
+    { "id": "v10", "en": "self-confidence", "vi": "sự tự tin vào bản thân", "example": "Joining the drama club boosted my self-confidence." },
+    { "id": "v11", "en": "offensive", "vi": "gây xúc phạm", "example": "Please delete that offensive comment." },
+    { "id": "v12", "en": "overpopulation", "vi": "sự quá tải dân số", "example": "Overpopulation leads to traffic jams in big cities." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "___ is a serious problem. As a result, ___.",
+      "vi": "... là một vấn đề nghiêm trọng. Kết quả là ...",
+      "grammarNote": "As a result / Therefore nối nguyên nhân với kết quả; đứng đầu câu sau và có dấu phẩy theo sau.",
+      "examples": ["Traffic is a serious problem in my city. As a result, people waste hours on the road."]
+    },
+    {
+      "id": "f02",
+      "text": "Although ___, ___.",
+      "vi": "Mặc dù ..., nhưng ...",
+      "grammarNote": "Although + mệnh đề: mặc dù (không dùng thêm but). Despite / In spite of + danh từ hoặc V-ing.",
+      "examples": ["Although it was awkward, I said no to my friends' plan."]
+    },
+    {
+      "id": "f03",
+      "text": "Social media can be useful. However, ___.",
+      "vi": "Mạng xã hội có thể hữu ích. Tuy nhiên, ...",
+      "grammarNote": "However: tuy nhiên, nối hai ý trái ngược; đứng đầu câu sau và có dấu phẩy.",
+      "examples": ["Social media can be useful. However, it can also make people compare themselves with others."]
+    },
+    {
+      "id": "f04",
+      "text": "Schools should ___. In addition, they could ___.",
+      "vi": "Nhà trường nên ... Ngoài ra, họ có thể ...",
+      "grammarNote": "In addition / Moreover: thêm một ý cùng chiều với ý trước, có dấu phẩy theo sau.",
+      "examples": ["Schools should teach online safety. In addition, they could invite experts to give talks."]
+    },
+    {
+      "id": "f05",
+      "text": "Because of ___, many teenagers ___.",
+      "vi": "Vì ..., nhiều bạn tuổi teen ...",
+      "grammarNote": "Because of + danh từ hoặc V-ing; because + mệnh đề (chủ ngữ + động từ).",
+      "examples": ["Because of peer pressure, many teenagers follow trends they don't really like."]
+    },
+    {
+      "id": "f06",
+      "text": "If I saw ___, I would ___ because ___.",
+      "vi": "Nếu mình thấy ..., mình sẽ ... vì ...",
+      "grammarNote": "Câu điều kiện loại 2 (If + quá khứ đơn, would + V) cho tình huống giả định; because nêu lý do.",
+      "examples": ["If I saw someone being bullied, I would tell a teacher because the victim needs help."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What social issue do you often see in the news?", "difficulty": 1, "kind": "personal",
+      "keywords": ["traffic", "pollution", "as a result"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một vấn đề em hay đọc hoặc xem trên tin tức gần đây, và nó ảnh hưởng đến mọi người thế nào.",
+      "exampleAnswer": "I often see news about traffic jams in big cities. People spend hours on the road. As a result, they feel tired before work even starts.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "How much time do you spend on social media each day?", "difficulty": 1, "kind": "personal",
+      "keywords": ["social media", "an hour", "however"], "frameId": "f03",
+      "hintDirectionVi": "Ước lượng thời gian em dùng mạng xã hội mỗi ngày, em dùng nó để làm gì, và em có tự giới hạn không.",
+      "exampleAnswer": "I spend about an hour a day on social media. It helps me keep up with my friends. However, I try not to use it before bed.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What do you do when friends want you to do something you don't want to do?", "difficulty": 1, "kind": "personal",
+      "keywords": ["say no", "peer pressure", "although"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ xem em từ chối thế nào cho khéo mà vẫn giữ được tình bạn.",
+      "exampleAnswer": "I usually say no politely and suggest something else. Although it is a bit awkward, real friends will understand and respect my choice.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Is cyberbullying more harmful than bullying at school? Why?", "difficulty": 1, "kind": "opinion",
+      "keywords": ["cyberbullying", "spread", "anonymous"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về tốc độ lan truyền trên mạng và việc người bắt nạt có thể giấu tên.",
+      "exampleAnswer": "I think so. Because of the internet, offensive messages spread very fast and stay online. Moreover, bullies can hide their names.", "expectsReason": true
+    },
+    {
+      "id": "q05", "text": "Why do some teenagers give in to peer pressure?", "difficulty": 2, "kind": "reason",
+      "keywords": ["peer pressure", "fit in", "the odd one out"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem tuổi teen sợ điều gì nhất khi ở trong một nhóm bạn.",
+      "exampleAnswer": "They want to fit in with the group. Because of this, they do things they don't like, so they won't be the odd one out.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Should schools ban phones to reduce cyberbullying? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["ban", "online safety", "in addition"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem cấm điện thoại ở trường có ngăn được bắt nạt trên mạng ở nhà không. Có cách nào hiệu quả hơn?",
+      "exampleAnswer": "I don't think a ban is the answer. Students can still go online at home. Schools should teach online safety. In addition, they could set clear rules.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Why is it important to stand up to people who make fun of others?", "difficulty": 2, "kind": "reason",
+      "keywords": ["stand up to", "make fun of", "therefore"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem nếu cả lớp im lặng thì người trêu chọc sẽ nghĩ gì, và người bị trêu sẽ cảm thấy thế nào.",
+      "exampleAnswer": "If nobody says anything, bullies think their behaviour is acceptable. Therefore, standing up to them protects the victim and makes our class safer.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "A classmate has posted an offensive comment about someone. What would you say to them?", "difficulty": 2, "kind": "situation",
+      "keywords": ["offensive", "delete", "feelings"], "frameId": "f06",
+      "hintDirectionVi": "Nói thẳng nhưng không gay gắt: chỉ ra vấn đề, nhắc đến cảm xúc của người kia, rồi đề nghị một việc cụ thể.",
+      "exampleAnswer": "Hey, that comment is quite offensive. I know you were joking, but it could really hurt her feelings. Could you delete it, please?", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "What helps you feel more self-confident at school?", "difficulty": 2, "kind": "personal",
+      "keywords": ["self-confidence", "prepare", "because"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về những lúc em thấy tự tin ở trường: trước đó em đã làm gì, hay ai đã giúp em?",
+      "exampleAnswer": "Good preparation helps me most. Because I practise my presentations at home, I feel calmer and more confident in front of the class.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Do awareness campaigns really change people's behaviour? Explain your opinion.", "difficulty": 2, "kind": "opinion",
+      "keywords": ["awareness", "campaign", "although"], "frameId": "f02",
+      "hintDirectionVi": "Nhớ lại một chiến dịch em từng thấy ở trường hoặc trên mạng. Mọi người có thay đổi thật không, và vì sao?",
+      "exampleAnswer": "They can help a little. Although posters raise awareness, people only change when they see real examples. Therefore, campaigns need activities, not just slogans.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Which social issue would you like to help solve, and how?", "difficulty": 2, "kind": "personal",
+      "keywords": ["volunteer", "collect", "in addition"], "frameId": "f04",
+      "hintDirectionVi": "Chọn một vấn đề em quan tâm thật sự, rồi nghĩ một hai việc nhỏ mà học sinh như em làm được.",
+      "exampleAnswer": "I'd like to help children in remote areas get more books. I could collect old books at school. In addition, I could organise a reading day for them.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Is overpopulation in big cities a serious problem? Explain with examples.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["overpopulation", "traffic", "as a result"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về đường sá, trường học, bệnh viện, nhà ở ở thành phố lớn. Quá đông người thì chúng ra sao?",
+      "exampleAnswer": "Yes, it is. Too many people live in a small area. As a result, there are traffic jams, crowded hospitals and very expensive housing.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Your school is starting an anti-bullying campaign. Suggest two activities for it.", "difficulty": 3, "kind": "situation",
+      "keywords": ["campaign", "workshop", "in addition"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ một hoạt động giúp học sinh hiểu vấn đề, và một hoạt động giúp nạn nhân dễ lên tiếng hơn.",
+      "exampleAnswer": "First, we could hold a workshop where students act out bullying situations and practise responses. In addition, we could put an anonymous help box in every class.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "Why do you think some victims of bullying don't tell adults about it?", "difficulty": 3, "kind": "reason",
+      "keywords": ["afraid", "ashamed", "although"], "frameId": "f02",
+      "hintDirectionVi": "Đặt mình vào vị trí người bị bắt nạt: họ lo điều gì sẽ xảy ra nếu kể với thầy cô hay bố mẹ?",
+      "exampleAnswer": "Many victims feel ashamed or afraid that telling will make things worse. Although adults want to help, students sometimes think adults won't understand.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "A new student is often left out by your group. Explain how you would include them.", "difficulty": 3, "kind": "situation",
+      "keywords": ["invite", "welcome", "the odd one out"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về một hai việc nhỏ hằng ngày giúp bạn mới thấy được chào đón, và vì sao điều đó quan trọng.",
+      "exampleAnswer": "I would invite her to sit with us at lunch and join our project group. Nobody likes being the odd one out, so a small gesture can mean a lot.", "expectsReason": true
+    }
+  ]
+}

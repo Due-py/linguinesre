@@ -1,0 +1,168 @@
+{
+  "grade": 10,
+  "unit": 1,
+  "title": "Family Life",
+  "titleVi": "Cuộc sống gia đình",
+  "topic": "Nói về việc nhà, cách các thành viên trong gia đình chia sẻ công việc, thói quen hằng ngày và những việc em đang làm để giúp đỡ gia đình.",
+  "source": "Global Success 10, Unit 1 (chủ đề, từ vựng, ngữ pháp hiện tại đơn và hiện tại tiếp diễn)",
+  "vocab": [
+    { "id": "v01", "en": "do the laundry", "vi": "giặt giũ quần áo", "example": "I do the laundry every Sunday morning before breakfast." },
+    { "id": "v02", "en": "washing-up", "vi": "việc rửa chén bát", "example": "My brother and I take turns doing the washing-up after dinner." },
+    { "id": "v03", "en": "put out the rubbish", "vi": "đổ rác, mang rác ra ngoài", "example": "It's my job to put out the rubbish every evening." },
+    { "id": "v04", "en": "grocery shopping", "vi": "việc đi chợ, mua thực phẩm", "example": "My mum and I do the grocery shopping on Saturday mornings." },
+    { "id": "v05", "en": "heavy lifting", "vi": "việc mang vác nặng", "example": "My uncle does the heavy lifting when we move furniture." },
+    { "id": "v06", "en": "breadwinner", "vi": "người trụ cột đi làm nuôi gia đình", "example": "In many modern families, both parents are breadwinners." },
+    { "id": "v07", "en": "responsibility", "vi": "trách nhiệm", "example": "Feeding the cat is my responsibility." },
+    { "id": "v08", "en": "routine", "vi": "lệ thường, công việc hằng ngày", "example": "My morning routine starts with a glass of water." },
+    { "id": "v09", "en": "strengthen", "vi": "củng cố, làm mạnh thêm", "example": "Cooking together strengthens the bond between us." },
+    { "id": "v10", "en": "bond", "vi": "sự gắn bó, kết nối", "example": "There is a strong bond between my grandma and me." },
+    { "id": "v11", "en": "gratitude", "vi": "lòng biết ơn", "example": "I show my gratitude to my parents by helping at home." },
+    { "id": "v12", "en": "benefit", "vi": "lợi ích", "example": "Doing chores has many benefits for teenagers." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "In my family, ___ usually ___, and I ___.",
+      "vi": "Trong nhà mình, ... thường ..., còn mình ...",
+      "grammarNote": "Hiện tại đơn cho thói quen, việc lặp lại (usually, often, every day). Ngôi thứ ba số ít thêm -s/-es: my dad cooks.",
+      "examples": ["In my family, my dad usually cooks dinner, and I do the washing-up."]
+    },
+    {
+      "id": "f02",
+      "text": "These days, ___ because ___.",
+      "vi": "Dạo này, ... vì ...",
+      "grammarNote": "Hiện tại tiếp diễn (am/is/are + V-ing) cho việc đang diễn ra quanh thời điểm nói hoặc đang thay đổi: these days, now.",
+      "examples": [
+        "These days, I'm learning to cook because I want to help my mum.",
+        "These days, more fathers are doing housework because both parents work."
+      ]
+    },
+    {
+      "id": "f03",
+      "text": "I usually ___, but this week I'm ___.",
+      "vi": "Mình thường ..., nhưng tuần này mình đang ...",
+      "grammarNote": "So sánh thói quen (hiện tại đơn) với việc tạm thời (hiện tại tiếp diễn) trong cùng một câu, nối bằng but.",
+      "examples": ["I usually put out the rubbish, but this week I'm doing the laundry because my sister is away."]
+    },
+    {
+      "id": "f04",
+      "text": "In my opinion, ___ should ___ because ___.",
+      "vi": "Theo mình, ... nên ... vì ...",
+      "grammarNote": "should + động từ nguyên mẫu để nêu ý kiến, lời khuyên; dùng because để đưa ra lý do.",
+      "examples": ["In my opinion, children should do housework because it teaches them responsibility."]
+    },
+    {
+      "id": "f05",
+      "text": "Doing housework together helps ___ and ___.",
+      "vi": "Cùng nhau làm việc nhà giúp ... và ...",
+      "grammarNote": "Hiện tại đơn để nói sự thật chung. help + (người) + động từ nguyên mẫu: helps us talk more.",
+      "examples": ["Doing housework together helps us talk more and strengthens our bond."]
+    },
+    {
+      "id": "f06",
+      "text": "Don't worry, I'll ___ while you're ___.",
+      "vi": "Đừng lo, con/mình sẽ ... trong lúc mẹ/bạn đang ...",
+      "grammarNote": "Đề nghị giúp đỡ: I'll + động từ nguyên mẫu. while + hiện tại tiếp diễn chỉ việc người kia đang làm.",
+      "examples": ["Don't worry, I'll cook dinner while you're resting."]
+    },
+    {
+      "id": "f07",
+      "text": "The chore I dislike most is ___ because ___. It makes me feel ___.",
+      "vi": "Việc nhà em không thích nhất là ... vì ... Nó làm em cảm thấy ...",
+      "grammarNote": "Hiện tại đơn cho cảm nhận chung; make + tân ngữ + feel + tính từ: làm ai cảm thấy thế nào.",
+      "examples": ["The chore I dislike most is ironing because it takes ages. It makes me feel bored."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What household chores do you do every week?", "difficulty": 1, "kind": "personal",
+      "keywords": ["do the laundry", "washing-up", "put out the rubbish"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về những việc nhà em làm đều đặn: trong bếp, quanh nhà hay với quần áo. Em làm vào lúc nào?",
+      "exampleAnswer": "Every week, I do the washing-up after dinner and put out the rubbish on Mondays and Thursdays.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Who usually cooks the meals in your family?", "difficulty": 1, "kind": "personal",
+      "keywords": ["usually", "cook", "help"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem ai hay vào bếp nhất trong nhà em, và em có phụ giúp việc gì không.",
+      "exampleAnswer": "My grandmother usually cooks the meals, and I sometimes help her wash the vegetables.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What does your morning routine look like on school days?", "difficulty": 1, "kind": "personal",
+      "keywords": ["routine", "get up", "have breakfast"], "frameId": "f01",
+      "hintDirectionVi": "Kể lần lượt các việc em làm từ lúc thức dậy đến lúc ra khỏi nhà đi học.",
+      "exampleAnswer": "I get up at six, make my bed and have breakfast with my family. Then my dad takes me to school.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What are you doing to help your family these days?", "difficulty": 1, "kind": "personal",
+      "keywords": ["these days", "help out", "grocery shopping"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về một việc em mới bắt đầu làm, hoặc đang làm nhiều hơn dạo gần đây để đỡ đần người lớn trong nhà.",
+      "exampleAnswer": "These days, I'm helping my mum with the grocery shopping because she is very busy at work.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why is it important for teenagers to help with housework?", "difficulty": 2, "kind": "reason",
+      "keywords": ["responsibility", "life skills", "benefit"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem làm việc nhà dạy em những kỹ năng hay đức tính gì mà sau này em sẽ cần khi sống tự lập.",
+      "exampleAnswer": "It is important because teenagers learn responsibility and useful life skills. They will need these skills when they live alone.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Which household chore do you dislike most? How do you feel when you do it?", "difficulty": 2, "kind": "personal",
+      "keywords": ["dislike", "boring", "tiring"], "frameId": "f07",
+      "hintDirectionVi": "Chọn một việc nhà em ngại làm nhất, rồi tả cảm giác của em lúc làm: chán, mệt hay khó chịu.",
+      "exampleAnswer": "I dislike doing the washing-up most. It takes a long time, and my hands feel cold and dry afterwards.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Should household chores be shared equally between men and women? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["share", "equally", "heavy lifting"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem nếu chỉ một người làm hết việc nhà thì người đó sẽ thấy thế nào, rồi nêu ý kiến của em.",
+      "exampleAnswer": "Yes, I think so. Both men and women live in the house, so they should share the chores and the heavy lifting fairly.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Is it a good idea for a family to have a chore schedule? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["schedule", "fair", "take turns"], "frameId": "f04",
+      "hintDirectionVi": "So sánh hai trường hợp: nhà có bảng phân công rõ ràng và nhà không có. Trường hợp nào mọi người làm việc vui vẻ hơn?",
+      "exampleAnswer": "Yes, it is. With a schedule, everyone knows their tasks and takes turns, so nobody has to do everything.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Your mum is very busy this week. Offer to take over some of her chores.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Don't worry", "I'll", "grocery shopping"], "frameId": "f06",
+      "hintDirectionVi": "Mở đầu bằng một câu quan tâm, rồi nói rõ em sẽ nhận làm việc nào để mẹ đỡ mệt.",
+      "exampleAnswer": "Mum, you look tired. Don't worry, I'll do the grocery shopping and the washing-up while you're resting.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Why do you think some teenagers don't like doing housework?", "difficulty": 2, "kind": "reason",
+      "keywords": ["tired", "homework", "boring"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về một ngày bận rộn của học sinh và cảm giác khi về nhà còn phải làm thêm việc nhà.",
+      "exampleAnswer": "I think they are often tired after school and extra classes. Also, some chores are boring, so they prefer to relax.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Your younger brother never helps at home. Persuade him to do one chore.", "difficulty": 2, "kind": "situation",
+      "keywords": ["should", "easy", "help out"], "frameId": "f04",
+      "hintDirectionVi": "Chọn một việc nhỏ, dễ làm cho em trai, rồi nói một điều tốt mà em ấy nhận được khi giúp đỡ.",
+      "exampleAnswer": "Come on, you should help too. Folding the laundry is easy, and Mum will be really happy.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "How does sharing housework strengthen the bond between family members?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["strengthen", "bond", "spend time"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem khi cả nhà cùng làm một việc thì mọi người nói chuyện, giúp nhau và hiểu nhau thế nào.",
+      "exampleAnswer": "When we cook or clean together, we talk and laugh a lot. We also understand how hard each person works, so we feel closer.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Why do you think the roles of men and women at home are changing these days?", "difficulty": 3, "kind": "reason",
+      "keywords": ["breadwinner", "both parents", "these days"], "frameId": "f02",
+      "hintDirectionVi": "So sánh gia đình ông bà ngày xưa với nhiều gia đình bây giờ: ai đi làm, ai làm việc nhà? Điều gì đã thay đổi?",
+      "exampleAnswer": "I think roles are changing because both parents are working these days. So fathers are doing more cooking and cleaning than before.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Some people say teenagers are too busy studying to do chores. Do you agree?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["agree", "balance", "responsibility"], "frameId": "f04",
+      "hintDirectionVi": "Nhìn vào thời gian biểu của em: có dành được vài phút mỗi ngày cho việc nhà không? Rồi nói em đồng ý hay không.",
+      "exampleAnswer": "I don't agree. Studying is important, but most chores only take a few minutes. Teenagers can balance both and learn responsibility.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Your family wants to make a fair chore plan. Suggest who does what and explain why.", "difficulty": 3, "kind": "situation",
+      "keywords": ["take turns", "heavy lifting", "fair"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem mỗi người trong nhà giỏi việc gì hoặc rảnh lúc nào, rồi chia việc sao cho không ai phải làm quá nhiều.",
+      "exampleAnswer": "Dad can do the heavy lifting, Mum and I can cook, and my brother can do the laundry. We take turns with the washing-up, so it's fair.", "expectsReason": true
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "grade": 9,
+  "unit": 12,
+  "title": "Career Choices",
+  "titleVi": "Lựa chọn nghề nghiệp",
+  "topic": "Nói về công việc em muốn làm trong tương lai, điểm mạnh của bản thân, các con đường học nghề và điều làm nên một công việc tốt.",
+  "source": "Global Success 9, Unit 12 (chủ đề, từ vựng, ngữ pháp mệnh đề trạng ngữ chỉ nhượng bộ, kết quả, lý do)",
+  "vocab": [
+    { "id": "v01", "en": "career", "vi": "sự nghiệp", "example": "She wants a career in medicine." },
+    { "id": "v02", "en": "vocational", "vi": "thuộc về nghề nghiệp, hướng nghiệp", "example": "My cousin goes to a vocational school to become a chef." },
+    { "id": "v03", "en": "demanding", "vi": "(yêu cầu) khắt khe, phức tạp", "example": "Being a nurse is a demanding job with long hours." },
+    { "id": "v04", "en": "rewarding", "vi": "bổ ích, xứng đáng", "example": "Teaching young children is very rewarding." },
+    { "id": "v05", "en": "repetitive", "vi": "lặp đi lặp lại", "example": "Some factory jobs are repetitive, so workers can get bored." },
+    { "id": "v06", "en": "well-paid", "vi": "được trả lương cao", "example": "Software engineers are usually well-paid." },
+    { "id": "v07", "en": "hands-on", "vi": "có tính thực tiễn, thực hành", "example": "I prefer hands-on lessons where we build things." },
+    { "id": "v08", "en": "knowledgeable", "vi": "am hiểu, thông thạo", "example": "Our tour guide was very knowledgeable about history." },
+    { "id": "v09", "en": "decisive", "vi": "quyết đoán", "example": "A good team leader needs to be decisive." },
+    { "id": "v10", "en": "mechanic", "vi": "thợ sửa chữa", "example": "The mechanic fixed my dad's motorbike in ten minutes." },
+    { "id": "v11", "en": "software engineer", "vi": "kĩ sư phần mềm", "example": "A software engineer designs apps and computer programs." },
+    { "id": "v12", "en": "orientation", "vi": "sự định hướng", "example": "Our school runs career orientation talks for Grade 9 students." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I'd like to be a ___ because ___.",
+      "vi": "Mình muốn trở thành ... vì ...",
+      "grammarNote": "Mệnh đề chỉ lý do: because / since / as + S + V. Since và as thường dùng khi lý do đã rõ.",
+      "examples": ["I'd like to be a vet because I love animals and want to help them."]
+    },
+    {
+      "id": "f02",
+      "text": "Although ___, I still want to ___.",
+      "vi": "Mặc dù ..., mình vẫn muốn ...",
+      "grammarNote": "Mệnh đề nhượng bộ: Although / Though / Even though + S + V. Không dùng thêm but trong cùng câu.",
+      "examples": ["Although being a doctor is demanding, I still want to try."]
+    },
+    {
+      "id": "f03",
+      "text": "The job is so ___ that ___.",
+      "vi": "Công việc đó ... đến mức ...",
+      "grammarNote": "Mệnh đề chỉ kết quả: so + tính từ / trạng từ + that + S + V (quá ... đến nỗi ...).",
+      "examples": ["The job is so repetitive that many workers get bored quickly."]
+    },
+    {
+      "id": "f04",
+      "text": "To become a ___, you need to be ___ and good at ___.",
+      "vi": "Để trở thành ..., bạn cần ... và giỏi ...",
+      "grammarNote": "need to + V nguyên mẫu; good at + danh từ hoặc V-ing.",
+      "examples": ["To become a mechanic, you need to be patient and good at fixing things."]
+    },
+    {
+      "id": "f05",
+      "text": "Since I enjoy ___, I think a job in ___ would suit me.",
+      "vi": "Vì mình thích ..., mình nghĩ một công việc trong lĩnh vực ... sẽ hợp với mình.",
+      "grammarNote": "Since + mệnh đề ở đầu câu chỉ lý do, có dấu phẩy sau mệnh đề. enjoy + V-ing.",
+      "examples": ["Since I enjoy drawing, I think a job in design would suit me."]
+    },
+    {
+      "id": "f06",
+      "text": "It's such a ___ job that ___.",
+      "vi": "Đó là một công việc ... đến mức ...",
+      "grammarNote": "Mệnh đề chỉ kết quả: such + a / an + tính từ + danh từ + that + S + V.",
+      "examples": ["It's such a rewarding job that she never wants to change it."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What job would you like to do in the future?", "difficulty": 1, "kind": "personal",
+      "keywords": ["I'd like to be", "because", "enjoy"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về điều em thích làm nhất và một nghề có liên quan đến điều đó.",
+      "exampleAnswer": "I'd like to be a software engineer because I love computers and solving problems.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Which school subjects are you best at?", "difficulty": 1, "kind": "personal",
+      "keywords": ["good at", "since", "suit"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về môn em học tốt hoặc thích nhất. Môn đó có thể dẫn em đến lĩnh vực nghề nào?",
+      "exampleAnswer": "I'm best at maths and science. Since I enjoy experiments, I think a job in research would suit me.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What job does someone you admire do?", "difficulty": 1, "kind": "personal",
+      "keywords": ["admire", "such", "help people"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về một người em ngưỡng mộ: thầy cô, người thân hay người nổi tiếng. Công việc của họ có gì đặc biệt?",
+      "exampleAnswer": "My aunt is a nurse. It's such a demanding job that she often works at night, but she loves helping people.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Would you prefer to work indoors or outdoors?", "difficulty": 1, "kind": "personal",
+      "keywords": ["indoors", "outdoors", "office"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem em thấy thoải mái khi ngồi một chỗ hay khi được đi lại, ở ngoài trời.",
+      "exampleAnswer": "I'd prefer to work outdoors. Since I hate sitting still all day, an office job wouldn't suit me.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do some students choose vocational schools after Grade 9?", "difficulty": 2, "kind": "reason",
+      "keywords": ["vocational", "hands-on", "skills"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về điểm khác giữa trường nghề và trường THPT: cách học, thời gian, cơ hội việc làm.",
+      "exampleAnswer": "Some students prefer hands-on learning. Since vocational schools teach practical skills, they can get a job sooner.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Why is it important to choose a job you enjoy?", "difficulty": 2, "kind": "reason",
+      "keywords": ["rewarding", "motivated", "even though"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ xem một người làm việc mình thích và một người làm việc mình ghét sẽ cảm thấy thế nào mỗi ngày.",
+      "exampleAnswer": "We spend most of our lives at work. If we enjoy our job, it feels rewarding even though it is sometimes demanding.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Is a well-paid job always a good job? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["well-paid", "stressful", "free time"], "frameId": "f03",
+      "hintDirectionVi": "Ngoài tiền lương, một công việc tốt còn cần những gì? Nghĩ về thời gian, sức khỏe, niềm vui.",
+      "exampleAnswer": "Not always. Although some jobs are well-paid, they can be so stressful that people have no time for their families.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Should parents choose careers for their children? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["decide", "advice", "interests"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về vai trò của bố mẹ khi con chọn nghề: quyết định thay hay góp ý? Ai hiểu sở thích của em nhất?",
+      "exampleAnswer": "No, they shouldn't. Parents can give advice, but children should decide because they know their own interests best.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "What personal qualities do you have that would help you in a job?", "difficulty": 2, "kind": "personal",
+      "keywords": ["decisive", "patient", "creative"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về hai ba điểm mạnh trong tính cách của em mà bạn bè hay thầy cô từng khen.",
+      "exampleAnswer": "I'm patient and creative, and I work well in a team. These qualities would help me become a good designer.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "A career counsellor asks about your plans after Grade 9. Answer her.", "difficulty": 2, "kind": "situation",
+      "keywords": ["plan to", "high school", "because"], "frameId": "f01",
+      "hintDirectionVi": "Nói em định học tiếp ở đâu, rồi nói em muốn theo ngành nào và vì sao.",
+      "exampleAnswer": "After Grade 9, I plan to go to high school. Then I'd like to study engineering because I enjoy building things.", "expectsReason": false
+    },
+    {
+      "id": "q11", "text": "Your friend says that repetitive jobs are boring and useless. Give a different point of view.", "difficulty": 2, "kind": "situation",
+      "keywords": ["repetitive", "although", "important"], "frameId": "f02",
+      "hintDirectionVi": "Đồng ý một phần với bạn, rồi nêu một ví dụ cho thấy những công việc đó vẫn rất cần thiết.",
+      "exampleAnswer": "Although some jobs are repetitive, they are important. For example, assembly workers make the products we use every day.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Should students get some work experience before choosing a career? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["work experience", "real", "choose"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem học sinh hiểu về một nghề qua sách báo khác với khi được làm thử thật như thế nào.",
+      "exampleAnswer": "Yes. A short work experience shows students what a job is really like, so they can choose their careers more wisely.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Which job do you think is the most rewarding, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["rewarding", "such", "change lives"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về một nghề giúp ích cho người khác nhiều nhất theo em. Nó thay đổi cuộc sống của ai?",
+      "exampleAnswer": "I think teaching is the most rewarding. It's such an important job that it can change a child's whole future.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Imagine it is ten years from now and you are at a job interview. Introduce yourself.", "difficulty": 3, "kind": "situation",
+      "keywords": ["experience", "good at", "knowledgeable"], "frameId": "f04",
+      "hintDirectionVi": "Tưởng tượng em đã học xong và đi làm. Nói tên, công việc, kinh nghiệm và một điểm mạnh của em.",
+      "exampleAnswer": "Good morning. My name is Linh. I'm a software engineer with three years' experience, and I'm good at working under pressure.", "expectsReason": false
+    },
+    {
+      "id": "q15", "text": "Which jobs will be popular in the future, and why?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["technology", "green energy", "so ... that"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về những thay đổi lớn của thế giới: công nghệ, môi trường, dân số già. Nghề nào sẽ được cần đến?",
+      "exampleAnswer": "I think jobs in technology and green energy will be popular. The world is changing so fast that we'll need many new skills.", "expectsReason": true
+    }
+  ]
+}

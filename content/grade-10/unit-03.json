@@ -1,0 +1,158 @@
+{
+  "grade": 10,
+  "unit": 3,
+  "title": "Music",
+  "titleVi": "Âm nhạc",
+  "topic": "Nói về thể loại nhạc em thích, nhạc cụ, các buổi biểu diễn, cuộc thi âm nhạc trên truyền hình và vai trò của âm nhạc trong cuộc sống của em.",
+  "source": "Global Success 10, Unit 3 (chủ đề, từ vựng, ngữ pháp câu ghép, to-infinitive và động từ nguyên mẫu)",
+  "vocab": [
+    { "id": "v01", "en": "musical instrument", "vi": "nhạc cụ", "example": "The guitar is the most popular musical instrument in my class." },
+    { "id": "v02", "en": "moon-shaped lute", "vi": "đàn nguyệt", "example": "My grandfather can play the moon-shaped lute beautifully." },
+    { "id": "v03", "en": "concert", "vi": "buổi hòa nhạc", "example": "We bought tickets for a concert in the city centre." },
+    { "id": "v04", "en": "performance", "vi": "buổi biểu diễn, phần trình diễn", "example": "Her performance at the school festival was amazing." },
+    { "id": "v05", "en": "live", "vi": "trực tiếp", "example": "Hearing a band play live is more exciting than listening at home." },
+    { "id": "v06", "en": "talented", "vi": "tài năng", "example": "Our class has a talented singer who writes her own songs." },
+    { "id": "v07", "en": "competition", "vi": "cuộc thi", "example": "He entered a singing competition on TV last year." },
+    { "id": "v08", "en": "judge", "vi": "giám khảo", "example": "The judges gave him useful advice after his song." },
+    { "id": "v09", "en": "participant", "vi": "người tham dự, thí sinh", "example": "Each participant has three minutes to perform." },
+    { "id": "v10", "en": "single", "vi": "đĩa đơn", "example": "The band released a new single last Friday." },
+    { "id": "v11", "en": "upload", "vi": "tải lên", "example": "My cousin uploads videos of herself playing the piano." },
+    { "id": "v12", "en": "social media", "vi": "mạng xã hội", "example": "Young singers can become famous quickly through social media." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I like ___, and I often listen to it when ___.",
+      "vi": "Mình thích ..., và mình hay nghe nó khi ...",
+      "grammarNote": "Câu ghép: nối hai mệnh đề độc lập bằng and, but, or, so; thường có dấu phẩy trước từ nối.",
+      "examples": ["I like pop music, and I often listen to it when I do my homework."]
+    },
+    {
+      "id": "f02",
+      "text": "I wanted to ___, but ___.",
+      "vi": "Mình đã muốn ..., nhưng ...",
+      "grammarNote": "but nối hai ý trái ngược. Sau want, hope, decide, plan dùng to + động từ nguyên mẫu.",
+      "examples": ["I wanted to learn the piano, but there was no music class near my house."]
+    },
+    {
+      "id": "f03",
+      "text": "___, so I ___.",
+      "vi": "..., nên mình ...",
+      "grammarNote": "so nối nguyên nhân (vế trước) với kết quả (vế sau) trong câu ghép.",
+      "examples": ["The concert was on a school night, so I watched it online."]
+    },
+    {
+      "id": "f04",
+      "text": "I'd like to learn to play ___ because ___.",
+      "vi": "Mình muốn học chơi ... vì ...",
+      "grammarNote": "would like, want, learn, decide + to + động từ nguyên mẫu (to-infinitive).",
+      "examples": ["I'd like to learn to play the drums because they sound powerful."]
+    },
+    {
+      "id": "f05",
+      "text": "Music makes me ___, and it helps me ___.",
+      "vi": "Âm nhạc làm mình ..., và giúp mình ...",
+      "grammarNote": "make + người + động từ nguyên mẫu không to (makes me smile); help + người + V (helps me relax).",
+      "examples": ["Music makes me smile, and it helps me forget about stress."]
+    },
+    {
+      "id": "f06",
+      "text": "Let's ___, or we could ___.",
+      "vi": "Mình cùng ... nhé, hoặc mình có thể ...",
+      "grammarNote": "Sau let's và could dùng động từ nguyên mẫu không to; or nối hai lựa chọn.",
+      "examples": ["Let's go to the concert on Saturday, or we could watch it live online."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What kind of music do you enjoy listening to?", "difficulty": 1, "kind": "personal",
+      "keywords": ["pop", "ballad", "relaxing"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về những bài hát em nghe nhiều nhất gần đây. Chúng thuộc thể loại nào: nhạc vui, nhạc nhẹ hay nhạc truyền thống?",
+      "exampleAnswer": "I enjoy K-pop and ballads, and I often listen to them on my way to school.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Can you play any musical instruments?", "difficulty": 1, "kind": "personal",
+      "keywords": ["musical instrument", "guitar", "learn"], "frameId": "f02",
+      "hintDirectionVi": "Nếu em biết chơi, kể em học từ khi nào và học ở đâu. Nếu chưa, nói nhạc cụ em từng muốn thử.",
+      "exampleAnswer": "I can play the guitar a little. I wanted to take lessons, but I was too busy, so I learnt from online videos.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Who is your favourite singer or band?", "difficulty": 1, "kind": "personal",
+      "keywords": ["talented", "voice", "single"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về ca sĩ hoặc nhóm nhạc em hay nghe, rồi kể thêm một điều em thích ở họ: giọng hát, bài hát hay phong cách.",
+      "exampleAnswer": "My favourite band is a Vietnamese indie group. Their songs are calm, and the lead singer has a beautiful voice.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "When do you usually listen to music?", "difficulty": 1, "kind": "personal",
+      "keywords": ["when", "on the way", "relax"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một ngày bình thường của em: lúc nào em hay bật nhạc lên nghe?",
+      "exampleAnswer": "I usually listen to music when I study or on the way to school. It helps me feel calm.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do you think music is important in teenagers' lives?", "difficulty": 2, "kind": "reason",
+      "keywords": ["relax", "express feelings", "connect"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem âm nhạc giúp em và bạn bè thế nào khi buồn, khi mệt hay khi ở bên nhau.",
+      "exampleAnswer": "Music helps teenagers relax after studying, and it lets them express their feelings. It also connects friends with the same taste.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Describe a music performance you watched, live or online.", "difficulty": 2, "kind": "personal",
+      "keywords": ["performance", "audience", "amazing"], "frameId": "f03",
+      "hintDirectionVi": "Chọn một buổi biểu diễn em nhớ nhất: ở đâu, ai biểu diễn, và điều gì làm em ấn tượng.",
+      "exampleAnswer": "Last year, I watched my school's music show. Some students played traditional instruments, and the audience clapped loudly.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Do you prefer watching music performances live or online? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["live", "atmosphere", "convenient"], "frameId": "f03",
+      "hintDirectionVi": "So sánh không khí, chi phí và sự tiện lợi của hai cách xem, rồi chọn một bên.",
+      "exampleAnswer": "I prefer watching live because the atmosphere is exciting, but tickets are expensive, so I usually watch online.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Are TV music competitions a good way to find new talented singers? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["competition", "talented", "chance"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ xem nếu không có các cuộc thi này, một người hát hay ở vùng quê sẽ khó hay dễ được biết đến.",
+      "exampleAnswer": "Yes, they are. Many participants come from small towns, and the shows give them a chance to perform for millions of people.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Invite a friend to go to a music event with you this weekend.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Let's", "concert", "or we could"], "frameId": "f06",
+      "hintDirectionVi": "Nói sự kiện là gì, diễn ra khi nào, rồi rủ bạn và đưa thêm một lựa chọn khác nếu bạn bận.",
+      "exampleAnswer": "There's a free concert in the park on Saturday. Let's go together, or we could watch the traditional music show at the theatre.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Why do many young people upload their music videos to social media?", "difficulty": 2, "kind": "reason",
+      "keywords": ["upload", "social media", "famous"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem người trẻ muốn điều gì khi đăng video lên mạng, và mạng xã hội tiện lợi ở điểm nào.",
+      "exampleAnswer": "They want to share their talent, and they hope to become famous. Social media is free, so anyone can try.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Your friend is too nervous to sing at the school festival. Encourage them.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Don't worry", "talented", "practise"], "frameId": "f06",
+      "hintDirectionVi": "Khen một điểm mạnh của bạn, rồi gợi ý một việc cụ thể giúp bạn bớt run.",
+      "exampleAnswer": "Don't worry, you're really talented. Let's practise together tonight, and you'll feel more confident on stage.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Should young Vietnamese people learn traditional musical instruments? Explain your view.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["traditional", "culture", "moon-shaped lute"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem nếu không ai học các nhạc cụ dân tộc thì sau này chuyện gì sẽ xảy ra với chúng.",
+      "exampleAnswer": "Yes, they should. Instruments like the moon-shaped lute are part of our culture, so young people should learn them to keep them alive.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Why do some songs become popular very quickly while others don't?", "difficulty": 3, "kind": "reason",
+      "keywords": ["catchy", "lyrics", "share"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một bài hát vừa ra đã nổi tiếng: giai điệu, lời bài hát hay cách nó được lan truyền?",
+      "exampleAnswer": "Some songs are catchy and easy to sing, so people share them on social media. Other songs may be good, but nobody notices them.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Is it fair for judges to eliminate a singer after just one performance?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["eliminate", "judge", "nervous"], "frameId": "f02",
+      "hintDirectionVi": "Đặt mình vào vị trí thí sinh: một lần hát có thể hiện hết khả năng của họ không? Rồi nêu ý kiến của em.",
+      "exampleAnswer": "I don't think it's fair. A singer may feel nervous and make mistakes, but they could perform much better next time.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Your class is planning a music show for Teachers' Day. Suggest a programme and explain your ideas.", "difficulty": 3, "kind": "situation",
+      "keywords": ["performance", "decoration", "participant"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ ra hai hoặc ba tiết mục phù hợp với lớp em, thêm một ý về trang trí, và nói vì sao em chọn như vậy.",
+      "exampleAnswer": "Let's start with a group song, and then some students could play the guitar. We need simple decorations, so let's make paper flowers.", "expectsReason": true
+    }
+  ]
+}

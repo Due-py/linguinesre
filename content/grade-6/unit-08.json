@@ -1,0 +1,165 @@
+{
+  "grade": 6,
+  "unit": 8,
+  "title": "Sports and Games",
+  "titleVi": "Thể thao và trò chơi",
+  "topic": "Nói về môn thể thao, trò chơi em thích, một trận đấu đã qua và cách hướng dẫn người khác chơi.",
+  "source": "Global Success 6, Unit 8 (chủ đề, từ vựng, ngữ pháp thì quá khứ đơn, câu mệnh lệnh)",
+  "vocab": [
+    { "id": "v01", "en": "sporty", "vi": "khỏe mạnh, dáng thể thao", "example": "My sporty cousin runs every morning." },
+    { "id": "v02", "en": "fit", "vi": "mạnh khỏe, cân đối", "example": "Swimming helps me stay fit." },
+    { "id": "v03", "en": "gym", "vi": "trung tâm thể dục thể thao", "example": "My uncle goes to the gym after work." },
+    { "id": "v04", "en": "karate", "vi": "môn võ ka-ra-tê", "example": "She does karate twice a week." },
+    { "id": "v05", "en": "aerobics", "vi": "thể dục nhịp điệu", "example": "My mum does aerobics in the park." },
+    { "id": "v06", "en": "racket", "vi": "cái vợt", "example": "I need a new racket for badminton." },
+    { "id": "v07", "en": "goggles", "vi": "kính bơi", "example": "Wear your goggles so the water doesn't hurt your eyes." },
+    { "id": "v08", "en": "equipment", "vi": "thiết bị, dụng cụ", "example": "Football doesn't need much equipment, just a ball." },
+    { "id": "v09", "en": "competition", "vi": "cuộc đua, cuộc thi", "example": "Our class joined a running competition last month." },
+    { "id": "v10", "en": "score", "vi": "ghi bàn, ghi điểm", "example": "Nam scored two goals in the match." },
+    { "id": "v11", "en": "tournament", "vi": "giải đấu", "example": "Our school has a chess tournament every year." },
+    { "id": "v12", "en": "take place", "vi": "diễn ra, được tổ chức", "example": "The match takes place on Sunday afternoon." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I play / do ___ every ___.",
+      "vi": "Mình chơi / tập ... mỗi ...",
+      "grammarNote": "play + môn có bóng hoặc đối thủ (play football); do + môn võ, môn tập (do karate); go + V-ing (go swimming).",
+      "examples": ["I play badminton every Sunday.", "I do karate every Tuesday."]
+    },
+    {
+      "id": "f02",
+      "text": "Last ___, I ___ with ___.",
+      "vi": "... vừa rồi, mình đã ... cùng ...",
+      "grammarNote": "Quá khứ đơn: động từ thêm -ed (played, watched) hoặc dạng bất quy tắc (went, did, won).",
+      "examples": ["Last Saturday, I played table tennis with my dad."]
+    },
+    {
+      "id": "f03",
+      "text": "My favourite sport is ___ because it ___.",
+      "vi": "Môn thể thao mình thích nhất là ... vì nó ...",
+      "grammarNote": "Hiện tại đơn; với it, động từ thêm -s: it keeps, it makes.",
+      "examples": ["My favourite sport is football because it makes me happy."]
+    },
+    {
+      "id": "f04",
+      "text": "___ the ball. Don't ___!",
+      "vi": "Hãy ... quả bóng. Đừng ...!",
+      "grammarNote": "Câu mệnh lệnh bắt đầu bằng động từ nguyên mẫu (Kick, Wear, Listen); phủ định: Don't + động từ.",
+      "examples": ["Throw the ball to me. Don't run with it!"]
+    },
+    {
+      "id": "f05",
+      "text": "To play ___, you need ___.",
+      "vi": "Để chơi ..., bạn cần ...",
+      "grammarNote": "to + động từ để nói mục đích; liệt kê dụng cụ bằng dấu phẩy và and.",
+      "examples": ["To play tennis, you need a racket, some balls and a court."]
+    },
+    {
+      "id": "f06",
+      "text": "I think ___ is a great sportsperson because ___.",
+      "vi": "Mình nghĩ ... là một vận động viên giỏi vì ...",
+      "grammarNote": "Nêu ý kiến bằng I think; because + chủ ngữ + động từ để nêu lý do.",
+      "examples": ["I think my PE teacher is a great sportsperson because he never gives up."]
+    },
+    {
+      "id": "f07",
+      "text": "Congratulations, everyone! We ___ really well today.",
+      "vi": "Chúc mừng mọi người! Hôm nay chúng ta đã ... rất tốt.",
+      "grammarNote": "Quá khứ đơn: động từ có quy tắc thêm -ed (play → played, work → worked).",
+      "examples": ["Congratulations, everyone! We worked really well today."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What sport do you play?", "difficulty": 1, "kind": "personal",
+      "keywords": ["badminton", "football", "play"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về môn thể thao em chơi nhiều nhất, rồi nói em chơi khi nào.",
+      "exampleAnswer": "I play badminton every Sunday with my dad.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Do you like watching sports on TV?", "difficulty": 1, "kind": "personal",
+      "keywords": ["football match", "watch", "exciting"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem em có hay xem trận đấu nào trên tivi không, và xem cùng ai.",
+      "exampleAnswer": "Yes, I do. I often watch football matches with my brother.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What sport did you play last week?", "difficulty": 1, "kind": "personal",
+      "keywords": ["played", "last week", "with"], "frameId": "f02",
+      "hintDirectionVi": "Nhớ lại tuần trước, trong giờ thể dục hoặc lúc rảnh. Nhớ dùng động từ quá khứ.",
+      "exampleAnswer": "Last week, I played football with my classmates after school.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Are you a sporty person?", "difficulty": 1, "kind": "opinion",
+      "keywords": ["sporty", "active", "like"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem em có hay vận động, chạy nhảy hay thích ngồi một chỗ hơn.",
+      "exampleAnswer": "Yes, I am. I love running and playing football.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "What equipment do you need for your favourite sport?", "difficulty": 2, "kind": "personal",
+      "keywords": ["racket", "shuttlecock", "shoes"], "frameId": "f05",
+      "hintDirectionVi": "Hình dung em chuẩn bị đi chơi môn đó. Em phải mang theo những gì?",
+      "exampleAnswer": "To play badminton, you need a racket, a shuttlecock and good shoes.", "expectsReason": false
+    },
+    {
+      "id": "q06", "text": "What games do you play with your friends?", "difficulty": 2, "kind": "personal",
+      "keywords": ["chess", "hide and seek", "break time"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về trò chơi em và bạn hay chơi lúc ra chơi hoặc sau giờ học, trong nhà hay ngoài trời.",
+      "exampleAnswer": "We often play chess or hide and seek at break time.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "What is your favourite sport? Why?", "difficulty": 2, "kind": "reason",
+      "keywords": ["fit", "fun", "team"], "frameId": "f03",
+      "hintDirectionVi": "Chọn một môn, rồi nghĩ xem nó làm cơ thể và tâm trạng em thế nào.",
+      "exampleAnswer": "My favourite sport is swimming because it keeps me fit and cool.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Why is doing sport good for students?", "difficulty": 2, "kind": "reason",
+      "keywords": ["fit", "healthy", "relax"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem sau giờ học căng thẳng, chơi thể thao giúp em về sức khỏe và tinh thần thế nào.",
+      "exampleAnswer": "Sport keeps us fit and healthy, and it helps us relax after class.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Who is a sportsperson you like? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["great", "hard-working", "never gives up"], "frameId": "f06",
+      "hintDirectionVi": "Có thể là vận động viên nổi tiếng hoặc một người em biết. Điều gì ở họ làm em khâm phục?",
+      "exampleAnswer": "I like my cousin. She is a great runner, and she never gives up.", "expectsReason": true
+    },
+    {
+      "id": "q10", "text": "Is it better to play sport in a team or alone?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["team", "friends", "alone"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một môn chơi theo đội và một môn chơi một mình. Em thấy vui hơn khi nào?",
+      "exampleAnswer": "I think playing in a team is better. It's more fun with friends.", "expectsReason": false
+    },
+    {
+      "id": "q11", "text": "Teach a friend two rules for playing football.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Don't", "kick", "touch the ball"], "frameId": "f04",
+      "hintDirectionVi": "Nói một việc bạn phải làm và một việc bạn không được làm. Bắt đầu câu bằng động từ.",
+      "exampleAnswer": "Kick the ball with your feet. Don't touch it with your hands!", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Tell me about a game you enjoyed. Why was it fun?", "difficulty": 3, "kind": "reason",
+      "keywords": ["played", "won", "exciting"], "frameId": "f02",
+      "hintDirectionVi": "Nhớ lại một trận đấu hay trò chơi đáng nhớ: khi nào, với ai, chuyện gì đã xảy ra.",
+      "exampleAnswer": "Last month, our class played football against 6B. We won, so it was exciting!", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Should all students learn to swim? Why?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["safe", "water", "exercise"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về hai lợi ích của việc biết bơi: cho sức khỏe và cho sự an toàn.",
+      "exampleAnswer": "Yes. Swimming is good exercise, and it helps us stay safe near water.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Your friend wants to try karate. Give him some advice.", "difficulty": 3, "kind": "situation",
+      "keywords": ["Wear", "Listen to", "Don't give up"], "frameId": "f04",
+      "hintDirectionVi": "Đưa ra hai ba lời khuyên ngắn bằng câu mệnh lệnh: nên mặc gì, nên làm gì, đừng làm gì.",
+      "exampleAnswer": "Wear comfortable clothes and listen to your teacher. Don't give up!", "expectsReason": false
+    },
+    {
+      "id": "q15", "text": "Your class won a tournament. Congratulate your team.", "difficulty": 3, "kind": "situation",
+      "keywords": ["Congratulations", "played", "well done"], "frameId": "f07",
+      "hintDirectionVi": "Bắt đầu bằng lời chúc mừng, rồi khen đội đã chơi thế nào, và rủ mọi người ăn mừng.",
+      "exampleAnswer": "Congratulations, everyone! We played really well. Let's celebrate together!", "expectsReason": false
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "grade": 10,
+  "unit": 6,
+  "title": "Gender Equality",
+  "titleVi": "Bình đẳng giới",
+  "topic": "Nói về bình đẳng giới ở trường, trong các hoạt động và nghề nghiệp, những công việc em nghĩ ai cũng có thể làm, và cách đối xử công bằng với mọi người.",
+  "source": "Global Success 10, Unit 6 (chủ đề, từ vựng, ngữ pháp câu bị động với động từ khuyết thiếu)",
+  "vocab": [
+    { "id": "v01", "en": "equal", "vi": "bằng nhau, bình đẳng", "example": "Boys and girls should have equal chances to play sport." },
+    { "id": "v02", "en": "equality", "vi": "sự bình đẳng", "example": "Our school supports gender equality in all its clubs." },
+    { "id": "v03", "en": "pilot", "vi": "phi công", "example": "My cousin dreams of becoming a pilot one day." },
+    { "id": "v04", "en": "surgeon", "vi": "bác sĩ phẫu thuật", "example": "The surgeon spent five hours on the operation." },
+    { "id": "v05", "en": "firefighter", "vi": "lính cứu hỏa", "example": "Firefighters need to be strong, calm and brave." },
+    { "id": "v06", "en": "kindergarten", "vi": "trường mẫu giáo", "example": "More men are working as kindergarten teachers now." },
+    { "id": "v07", "en": "shop assistant", "vi": "nhân viên bán hàng", "example": "The shop assistant helped me find the right size." },
+    { "id": "v08", "en": "secretary", "vi": "thư kí", "example": "The secretary keeps a record of every meeting." },
+    { "id": "v09", "en": "skilful", "vi": "lành nghề, khéo léo", "example": "She is a skilful mechanic who can fix any motorbike." },
+    { "id": "v10", "en": "physical", "vi": "(thuộc) thể chất", "example": "Some jobs need a lot of physical strength." },
+    { "id": "v11", "en": "mental", "vi": "(thuộc) tinh thần, trí óc", "example": "Mental strength is as important as physical strength." },
+    { "id": "v12", "en": "officer", "vi": "sĩ quan; nhân viên (police officer: cảnh sát)", "example": "A police officer helped the children cross the road." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "___ should be given ___.",
+      "vi": "... nên được trao/cho ...",
+      "grammarNote": "Bị động với động từ khuyết thiếu: should/can/must + be + V3/V-ed.",
+      "examples": ["Girls and boys should be given the same chances in sport."]
+    },
+    {
+      "id": "f02",
+      "text": "___ can be done by ___.",
+      "vi": "... có thể được làm bởi ...",
+      "grammarNote": "can be + V3/V-ed; thêm by + người làm khi muốn nói rõ ai làm việc đó.",
+      "examples": ["Cooking can be done by anyone in the family."]
+    },
+    {
+      "id": "f03",
+      "text": "I think ___ can work as ___ because ___.",
+      "vi": "Mình nghĩ ... có thể làm nghề ... vì ...",
+      "grammarNote": "can + động từ nguyên mẫu để nói khả năng; because + mệnh đề để nêu lý do.",
+      "examples": ["I think women can work as pilots because the job needs skills, not muscles."]
+    },
+    {
+      "id": "f04",
+      "text": "Nobody should be ___ because of ___.",
+      "vi": "Không ai nên bị ... chỉ vì ...",
+      "grammarNote": "Bị động với should: should be + V3 (stopped, judged, treated); because of + danh từ.",
+      "examples": ["Nobody should be stopped from playing football because of their gender."]
+    },
+    {
+      "id": "f05",
+      "text": "In my class, ___ are treated ___.",
+      "vi": "Ở lớp mình, ... được đối xử ...",
+      "grammarNote": "Bị động hiện tại đơn: am/is/are + V3 (treated, chosen, asked).",
+      "examples": ["In my class, boys and girls are treated equally by our teachers."]
+    },
+    {
+      "id": "f06",
+      "text": "In my opinion, ___ must be ___ so that ___.",
+      "vi": "Theo mình, ... phải được ... để ...",
+      "grammarNote": "must be + V3 cho điều bắt buộc; so that + mệnh đề chỉ mục đích.",
+      "examples": ["In my opinion, class jobs must be shared fairly so that everyone feels respected."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What job would you like to do in the future?", "difficulty": 1, "kind": "personal",
+      "keywords": ["pilot", "surgeon", "skilful"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một nghề em thấy hấp dẫn, rồi nói thêm một điều em thích ở công việc đó.",
+      "exampleAnswer": "I'd like to be a pilot. I love travelling, and I want to see the world from the sky.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Are boys and girls treated equally in your class?", "difficulty": 1, "kind": "personal",
+      "keywords": ["treated", "equally", "teachers"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về cách thầy cô giao việc, chọn người phát biểu hay chọn cán bộ lớp: có công bằng không?",
+      "exampleAnswer": "Yes, they are. In my class, boys and girls are treated equally, and everyone can join any club.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What sports or games do boys and girls play together at your school?", "difficulty": 1, "kind": "personal",
+      "keywords": ["badminton", "volleyball", "together"], "frameId": "f02",
+      "hintDirectionVi": "Nhớ lại giờ ra chơi hoặc giờ thể dục: có môn nào cả bạn nam và bạn nữ cùng chơi không?",
+      "exampleAnswer": "At my school, boys and girls often play badminton and volleyball together at break time.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Which job would you never like to do? Why not?", "difficulty": 1, "kind": "personal",
+      "keywords": ["physical", "stressful", "afraid of"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một nghề em thấy không hợp với mình, rồi nói một lý do về sức khỏe, tính cách hay sở thích.",
+      "exampleAnswer": "I'd never like to be a firefighter. It needs a lot of physical strength, and I'm afraid of fire.", "expectsReason": true
+    },
+    {
+      "id": "q05", "text": "Why should girls and boys have the same chances in education?", "difficulty": 2, "kind": "reason",
+      "keywords": ["equal", "talented", "develop"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem nếu một bạn giỏi nhưng không được đi học thì bạn ấy và xã hội sẽ mất đi điều gì.",
+      "exampleAnswer": "Girls and boys can be equally talented. If they are given the same chances, they can develop their skills and help society.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Has anyone ever said an activity was only for boys or only for girls? What happened?", "difficulty": 2, "kind": "personal",
+      "keywords": ["only for", "joined", "anyway"], "frameId": "f04",
+      "hintDirectionVi": "Nhớ lại một lần em hoặc bạn em nghe câu kiểu \"con trai/con gái không nên làm việc đó\". Sau đó thế nào?",
+      "exampleAnswer": "Yes. Someone said dancing was only for girls, but my friend Minh joined the dance club anyway, and now he is the best dancer.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Can women be good firefighters or pilots? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["training", "courage", "skilful"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem những nghề này thật sự cần những phẩm chất gì, rồi xem phụ nữ có thể có những phẩm chất đó không.",
+      "exampleAnswer": "Yes, they can. These jobs need training, courage and quick thinking, and women can have all of these qualities.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Should more men work as kindergarten teachers? What do you think?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["kindergarten", "patient", "caring"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ xem dạy trẻ nhỏ cần những đức tính gì, và đàn ông có thể có những đức tính đó không.",
+      "exampleAnswer": "Yes, I think so. Teaching small children can be done by anyone who is patient and caring, man or woman.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "A classmate says girls are not good at maths. Respond politely.", "difficulty": 2, "kind": "situation",
+      "keywords": ["I don't agree", "top marks", "judged"], "frameId": "f04",
+      "hintDirectionVi": "Nói nhẹ nhàng rằng em không đồng ý, rồi đưa ra một ví dụ thật mà em biết để bạn suy nghĩ lại.",
+      "exampleAnswer": "I don't agree. Many girls in our class get top marks in maths. Nobody should be judged because of their gender.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Why do you think some jobs are still seen as men's jobs or women's jobs?", "difficulty": 2, "kind": "reason",
+      "keywords": ["old ideas", "in the past", "tradition"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về cách người ta phân chia công việc ngày xưa và vì sao suy nghĩ đó vẫn còn đến bây giờ.",
+      "exampleAnswer": "I think old ideas are still common. In the past, heavy jobs were done by men, and some people haven't changed their minds yet.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Your group is choosing a leader for a project. Suggest a fair way to choose.", "difficulty": 2, "kind": "situation",
+      "keywords": ["fair", "vote", "ideas"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về một cách chọn mà ai cũng có cơ hội như nhau, và tiêu chí chọn nên là gì.",
+      "exampleAnswer": "Let's vote after everyone shares an idea. The leader must be chosen by the whole group so that it's fair for everyone.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "What can schools do to support gender equality? Give some examples.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["equality", "clubs", "encourage"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về câu lạc bộ, việc phân công trong lớp và các môn học. Trường có thể thay đổi gì cho công bằng hơn?",
+      "exampleAnswer": "Schools can let all students join any club. Class jobs should be shared fairly, and girls should be encouraged to try science and sport.", "expectsReason": false
+    },
+    {
+      "id": "q13", "text": "Why is mental strength as important as physical strength in many jobs?", "difficulty": 3, "kind": "reason",
+      "keywords": ["mental", "stressful", "stay calm"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về những lúc căng thẳng trong công việc như bác sĩ hay phi công: điều gì giúp họ làm đúng?",
+      "exampleAnswer": "Many jobs, like surgeon or pilot, are very stressful. People must stay calm and make quick decisions, so mental strength really matters.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Should men and women be paid the same for the same job? Explain your view.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["equal", "paid", "fair"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem nếu hai người làm cùng một việc tốt như nhau nhưng nhận khác nhau thì có công bằng không.",
+      "exampleAnswer": "Yes, definitely. If they do the same work equally well, they should be paid the same. Anything else is unfair.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "You are giving a short talk about a job that anyone can do well. What would you say?", "difficulty": 3, "kind": "situation",
+      "keywords": ["skill", "can be done by", "equality"], "frameId": "f02",
+      "hintDirectionVi": "Chọn một nghề, nói nó cần kỹ năng gì, rồi giải thích vì sao cả nam và nữ đều làm tốt được.",
+      "exampleAnswer": "Today I'd like to talk about cooking as a job. Top chefs can be men or women, because what matters is skill and creativity.", "expectsReason": false
+    }
+  ]
+}

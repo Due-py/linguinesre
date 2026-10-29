@@ -1,0 +1,172 @@
+{
+  "grade": 9,
+  "unit": 9,
+  "title": "World Englishes",
+  "titleVi": "Tiếng Anh trên thế giới",
+  "topic": "Nói về việc học tiếng Anh của em, vai trò của tiếng Anh trên thế giới, từ mượn và những cách giúp em tiến bộ.",
+  "source": "Global Success 9, Unit 9 (chủ đề, từ vựng, ngữ pháp mệnh đề quan hệ xác định)",
+  "vocab": [
+    { "id": "v01", "en": "bilingual", "vi": "sử dụng được hai ngôn ngữ", "example": "My cousin is bilingual because her mother is Australian." },
+    { "id": "v02", "en": "borrowed word", "vi": "từ mượn", "example": "'Ti vi' is a borrowed word in Vietnamese." },
+    { "id": "v03", "en": "first language", "vi": "ngôn ngữ thứ nhất", "example": "Vietnamese is my first language." },
+    { "id": "v04", "en": "second language", "vi": "ngôn ngữ thứ hai", "example": "Many people in Singapore speak English as a second language." },
+    { "id": "v05", "en": "official language", "vi": "ngôn ngữ chính thức", "example": "Canada has two official languages: English and French." },
+    { "id": "v06", "en": "fluent", "vi": "trôi chảy, thành thạo", "example": "I want to become fluent in English before I finish school." },
+    { "id": "v07", "en": "exchange student", "vi": "học sinh trao đổi", "example": "An exchange student from Japan joined our class for a month." },
+    { "id": "v08", "en": "look up", "vi": "tra (từ điển)", "example": "I look up new words in an online dictionary." },
+    { "id": "v09", "en": "go over", "vi": "ôn tập lại", "example": "I go over my vocabulary notes every Sunday." },
+    { "id": "v10", "en": "pick up", "vi": "học (ngôn ngữ) một cách tự nhiên", "example": "I picked up a lot of English from cartoons." },
+    { "id": "v11", "en": "translate", "vi": "dịch", "example": "Can you translate this sentence into Vietnamese?" },
+    { "id": "v12", "en": "variety", "vi": "biến thể", "example": "Australian English is a variety of English with its own words." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "___ is a word that comes from ___.",
+      "vi": "... là một từ bắt nguồn từ ...",
+      "grammarNote": "Mệnh đề quan hệ xác định (who / which / that) bổ nghĩa cho danh từ đứng trước, không có dấu phẩy.",
+      "examples": ["'Ti vi' is a word that comes from the English 'TV'."]
+    },
+    {
+      "id": "f02",
+      "text": "Someone who is fluent in English can ___.",
+      "vi": "Người nói tiếng Anh thành thạo có thể ...",
+      "grammarNote": "who thay cho người và làm chủ ngữ của mệnh đề quan hệ: someone who speaks two languages.",
+      "examples": ["Someone who is fluent in English can make friends from many countries."]
+    },
+    {
+      "id": "f03",
+      "text": "I look up words that ___ when I ___.",
+      "vi": "Mình tra những từ mà ... khi mình ...",
+      "grammarNote": "that / which thay cho vật. Cụm động từ look up: tra từ điển, tìm thông tin.",
+      "examples": ["I look up words that I don't know when I read English stories."]
+    },
+    {
+      "id": "f04",
+      "text": "One thing that helps me improve my English is ___.",
+      "vi": "Một điều giúp mình tiến bộ tiếng Anh là ...",
+      "grammarNote": "that thay cho thing và làm chủ ngữ trong mệnh đề quan hệ; sau is có thể dùng danh từ hoặc V-ing.",
+      "examples": ["One thing that helps me improve my English is singing along to songs."]
+    },
+    {
+      "id": "f05",
+      "text": "I'd like to visit a country where ___.",
+      "vi": "Mình muốn đến một đất nước nơi mà ...",
+      "grammarNote": "where thay cho nơi chốn trong mệnh đề quan hệ: a country where people speak English.",
+      "examples": ["I'd like to visit a country where English is the first language."]
+    },
+    {
+      "id": "f06",
+      "text": "I think everyone should learn ___ because ___.",
+      "vi": "Mình nghĩ ai cũng nên học ... vì ...",
+      "grammarNote": "should + V nguyên mẫu để nêu ý kiến, lời khuyên; because + mệnh đề để giải thích.",
+      "examples": ["I think everyone should learn a second language because it opens many doors."]
+    },
+    {
+      "id": "f07",
+      "text": "The skill that I find the most difficult is ___ because ___.",
+      "vi": "Kỹ năng mà em thấy khó nhất là ... vì ...",
+      "grammarNote": "that + mệnh đề quan hệ bổ nghĩa cho the skill; find + tân ngữ + tính từ: thấy cái gì thế nào.",
+      "examples": ["The skill that I find the most difficult is writing because I make lots of grammar mistakes."]
+    },
+    {
+      "id": "f08",
+      "text": "Hi, I'm ___. If you need someone who can ___, just ask me.",
+      "vi": "Chào bạn, mình là ... Nếu bạn cần ai đó có thể ..., cứ hỏi mình nhé.",
+      "grammarNote": "someone who + động từ: người mà... (mệnh đề quan hệ chỉ người).",
+      "examples": ["Hi, I'm Lan. If you need someone who can help you with Vietnamese, just ask me."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "How much time do you spend practising English every day?", "difficulty": 1, "kind": "personal",
+      "keywords": ["minutes", "practise", "app"], "frameId": "f04",
+      "hintDirectionVi": "Tính cả thời gian học trên lớp, làm bài và tự học. Em thường luyện bằng cách nào?",
+      "exampleAnswer": "I spend about thirty minutes a day. One thing that helps me a lot is a vocabulary app on my phone.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What do you do when you meet a new English word?", "difficulty": 1, "kind": "personal",
+      "keywords": ["look up", "dictionary", "write down"], "frameId": "f03",
+      "hintDirectionVi": "Nhớ lại lần gần nhất em gặp từ mới. Em đoán nghĩa, tra từ điển hay hỏi ai đó?",
+      "exampleAnswer": "I look it up in an online dictionary and write it in my notebook with an example sentence.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Which English skill do you find the most difficult?", "difficulty": 1, "kind": "personal",
+      "keywords": ["listening", "speaking", "difficult"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về bốn kỹ năng nghe, nói, đọc, viết. Kỹ năng nào làm em lúng túng nhất và vì sao?",
+      "exampleAnswer": "Listening is the most difficult for me. People who speak very fast are hard to understand.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Do you know any English words that people use in Vietnamese?", "difficulty": 1, "kind": "personal",
+      "keywords": ["borrowed word", "comes from", "use"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về những từ em và bạn bè hay nói chen vào khi trò chuyện hoặc thấy trên đồ dùng hằng ngày.",
+      "exampleAnswer": "Yes. 'Ti vi' is a word that comes from 'TV'. My friends also say 'OK' and 'hot' a lot when they chat.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do so many people around the world learn English?", "difficulty": 2, "kind": "reason",
+      "keywords": ["communicate", "jobs", "study abroad"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem tiếng Anh giúp được gì khi đi học, đi làm, đi du lịch hay dùng internet.",
+      "exampleAnswer": "English is a language that people from many countries share. It helps them study abroad, find good jobs and travel easily.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Why is it useful to be bilingual?", "difficulty": 2, "kind": "reason",
+      "keywords": ["bilingual", "opportunities", "culture"], "frameId": "f02",
+      "hintDirectionVi": "Tưởng tượng em nói giỏi hai thứ tiếng. Em có thể làm được những gì mà bây giờ chưa làm được?",
+      "exampleAnswer": "Someone who is bilingual can talk to more people and understand more cultures. They also have more job opportunities.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Should English become a second official language in Viet Nam? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["official language", "second language", "identity"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về lợi ích khi tiếng Anh được dùng rộng rãi, và điều cần giữ gìn với tiếng Việt.",
+      "exampleAnswer": "I don't think so. English is important, but Vietnamese is part of our identity. Everyone should still learn English as a second language.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Is it necessary to speak English with a British or American accent? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["accent", "clearly", "understand"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ xem khi nói chuyện, điều gì quan trọng hơn: giọng giống người bản xứ hay người nghe hiểu được em?",
+      "exampleAnswer": "No, it isn't. What matters is speaking clearly so that people who listen to you can understand.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "How do you pick up new English words outside the classroom?", "difficulty": 2, "kind": "personal",
+      "keywords": ["pick up", "songs", "films"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về những lúc em gặp tiếng Anh ngoài giờ học: bài hát, phim, trò chơi, mạng xã hội.",
+      "exampleAnswer": "I pick up a lot of words from songs and films. One thing that really helps is watching cartoons with English subtitles.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "An exchange student from Australia has joined your class. Introduce yourself and offer to help.", "difficulty": 2, "kind": "situation",
+      "keywords": ["welcome", "show you around", "if you need"], "frameId": "f08",
+      "hintDirectionVi": "Chào bạn, giới thiệu tên em, rồi đề nghị một việc cụ thể em có thể giúp bạn mới.",
+      "exampleAnswer": "Hi, I'm Nam. Welcome to our class! If you need someone who can show you around the school, just ask me.", "expectsReason": false
+    },
+    {
+      "id": "q11", "text": "Your friend wants to translate a whole essay with an app. What do you say?", "difficulty": 2, "kind": "situation",
+      "keywords": ["translate", "mistakes", "look up"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về điểm yếu của việc dịch cả bài bằng máy, rồi gợi ý cho bạn một cách dùng app hợp lý hơn.",
+      "exampleAnswer": "Apps that translate whole essays often make mistakes. You should write it yourself and only look up words that you don't know.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "What is the best way to become fluent in English? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["fluent", "every day", "practise"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về người em biết nói tiếng Anh giỏi. Họ đã luyện tập thế nào? Cách nào hợp với em?",
+      "exampleAnswer": "I think the best way is to use English every day. Talking with people who speak it well helps you become fluent faster.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Which English-speaking country would you like to visit, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["a country where", "culture", "practise"], "frameId": "f05",
+      "hintDirectionVi": "Chọn một nước dùng tiếng Anh mà em tò mò. Em muốn thấy gì ở đó, và chuyến đi giúp gì cho tiếng Anh của em?",
+      "exampleAnswer": "I'd like to visit New Zealand, a country where people are friendly and nature is beautiful. I could practise English every day.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Your teacher asks you to give a tip to classmates who want to learn more vocabulary. What do you say?", "difficulty": 3, "kind": "situation",
+      "keywords": ["go over", "notebook", "every week"], "frameId": "f03",
+      "hintDirectionVi": "Chia sẻ một cách học từ vựng em thấy hiệu quả nhất, nói rõ cách làm và mức độ thường xuyên.",
+      "exampleAnswer": "Keep a notebook for words that you learn each day, and go over them every weekend. It really works for me.", "expectsReason": false
+    },
+    {
+      "id": "q15", "text": "Do borrowed words make Vietnamese richer or weaker? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["borrowed word", "richer", "too many"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem từ mượn giúp ta gọi tên những thứ mới thế nào, và khi nào dùng quá nhiều lại không hay.",
+      "exampleAnswer": "I think they make it richer because they name new things. However, people who mix too many English words into Vietnamese can sound unnatural.", "expectsReason": true
+    }
+  ]
+}

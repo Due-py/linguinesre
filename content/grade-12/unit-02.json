@@ -1,0 +1,158 @@
+{
+  "grade": 12,
+  "unit": 2,
+  "title": "A Multicultural World",
+  "titleVi": "Một thế giới đa văn hoá",
+  "topic": "Nói về lễ hội, ẩm thực, phong tục của Việt Nam và các nước khác, về sự đa dạng văn hoá và cách giữ bản sắc trong thời toàn cầu hoá.",
+  "source": "Global Success 12, Unit 2 (chủ đề, từ vựng, ngữ pháp mạo từ a/an/the và không dùng mạo từ)",
+  "vocab": [
+    { "id": "v01", "en": "multicultural", "vi": "đa văn hoá", "example": "Our English club is multicultural because it has members from four countries." },
+    { "id": "v02", "en": "diversity", "vi": "sự đa dạng", "example": "I love the diversity of food in a big city." },
+    { "id": "v03", "en": "globalisation", "vi": "sự toàn cầu hoá", "example": "Thanks to globalisation, we can buy Korean snacks in our local shop." },
+    { "id": "v04", "en": "culture shock", "vi": "sốc văn hoá", "example": "My cousin had culture shock when she first moved to Canada." },
+    { "id": "v05", "en": "custom", "vi": "phong tục", "example": "Giving lucky money at Tet is a lovely custom." },
+    { "id": "v06", "en": "cuisine", "vi": "ẩm thực", "example": "Thai cuisine is famous for its spicy and sour flavours." },
+    { "id": "v07", "en": "identity", "vi": "bản sắc", "example": "Our language is an important part of our identity." },
+    { "id": "v08", "en": "keep up with", "vi": "bắt kịp, theo kịp", "example": "I read the news every day to keep up with world events." },
+    { "id": "v09", "en": "traditional", "vi": "truyền thống", "example": "My grandmother still wears a traditional ao dai at Tet." },
+    { "id": "v10", "en": "staple", "vi": "cơ bản, chủ yếu", "example": "Rice is the staple food in most Vietnamese homes." },
+    { "id": "v11", "en": "speciality", "vi": "đặc sản", "example": "Cao lau is a speciality of Hoi An." },
+    { "id": "v12", "en": "appreciate", "vi": "trân trọng, thưởng thức", "example": "Travelling helps me appreciate other people's way of life." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "The ___ I like best is ___ because ___.",
+      "vi": "... mà mình thích nhất là ... vì ...",
+      "grammarNote": "Dùng the khi danh từ đã được xác định rõ, ví dụ bằng mệnh đề phía sau: the festival I like best.",
+      "examples": ["The festival I like best is Tet because my whole family gets together."]
+    },
+    {
+      "id": "f02",
+      "text": "In my area, there is a/an ___ where ___.",
+      "vi": "Ở khu mình có một ... nơi mà ...",
+      "grammarNote": "a/an dùng với danh từ đếm được số ít khi nhắc lần đầu; an đứng trước âm nguyên âm: an Indian restaurant.",
+      "examples": ["In my area, there is an Indian restaurant where you can eat delicious curry."]
+    },
+    {
+      "id": "f03",
+      "text": "___ is a speciality of ___. It is made from ___.",
+      "vi": "... là đặc sản của ... Món này được làm từ ...",
+      "grammarNote": "Không dùng mạo từ trước danh từ không đếm được nói chung (rice, beef) và trước tên thành phố, tỉnh.",
+      "examples": ["Banh xeo is a speciality of the south. It is made from rice flour, shrimp and pork."]
+    },
+    {
+      "id": "f04",
+      "text": "I think ___ is important because ___.",
+      "vi": "Mình nghĩ ... quan trọng vì ...",
+      "grammarNote": "Danh từ trừu tượng nói chung không cần mạo từ: culture, diversity, globalisation, identity.",
+      "examples": ["I think cultural diversity is important because it makes life more interesting."]
+    },
+    {
+      "id": "f05",
+      "text": "You should try ___ when you visit ___.",
+      "vi": "Bạn nên thử ... khi đến ...",
+      "grammarNote": "Không dùng mạo từ trước đa số tên nước, thành phố (Japan, Hue); dùng the với the UK, the USA.",
+      "examples": ["You should try bun bo when you visit Hue."]
+    },
+    {
+      "id": "f06",
+      "text": "The first time I ___, I felt ___ because ___.",
+      "vi": "Lần đầu tiên mình ..., mình thấy ... vì ...",
+      "grammarNote": "Dùng the với số thứ tự (the first time) và với điều cả hai người đều biết (the local people).",
+      "examples": ["The first time I ate with chopsticks abroad, I felt proud because the local people praised me."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What is your favourite traditional festival?", "difficulty": 1, "kind": "personal",
+      "keywords": ["festival", "traditional", "celebrate"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một lễ hội em mong chờ nhất trong năm. Em thường làm gì và đi cùng ai vào dịp đó?",
+      "exampleAnswer": "The festival I like best is Tet because my whole family gets together and we make banh chung.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What foreign food have you tried?", "difficulty": 1, "kind": "personal",
+      "keywords": ["cuisine", "restaurant", "tasty"], "frameId": "f02",
+      "hintDirectionVi": "Nhớ một món nước ngoài em từng ăn, ở nhà hàng hay do người nhà nấu. Em thấy vị của nó thế nào?",
+      "exampleAnswer": "I have tried Korean food. In my area, there is a Korean restaurant where people can eat kimchi and fried chicken.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What is a speciality of your hometown?", "difficulty": 1, "kind": "personal",
+      "keywords": ["speciality", "made from", "famous"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một món ăn hay sản vật mà khách đến quê em thường muốn thử. Nó được làm từ gì?",
+      "exampleAnswer": "Bun cha is a speciality of Ha Noi. It is made from grilled pork, rice noodles and fresh herbs.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Which foreign culture do you like best?", "difficulty": 1, "kind": "personal",
+      "keywords": ["culture", "music", "customs"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một nước có âm nhạc, phim, món ăn hoặc phong tục khiến em tò mò. Em biết đến nó qua đâu?",
+      "exampleAnswer": "The foreign culture I like best is Japanese culture because I enjoy its food, its animated films and its polite customs.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why is it important to keep our cultural identity in a global world?", "difficulty": 2, "kind": "reason",
+      "keywords": ["identity", "traditions", "proud"], "frameId": "f04",
+      "hintDirectionVi": "Hình dung nếu mọi nước đều giống hệt nhau thì sao. Bản sắc giúp chúng ta điều gì?",
+      "exampleAnswer": "I think cultural identity is important because it shows who we are. Without our own traditions, every country would become the same.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Why do you think foreign food is so popular among Vietnamese teenagers?", "difficulty": 2, "kind": "reason",
+      "keywords": ["popular", "social media", "new flavours"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem bạn bè em biết đến món nước ngoài từ đâu, và vì sao họ muốn thử.",
+      "exampleAnswer": "I think foreign food is popular because teenagers see it on social media. They want to try new flavours and share photos with friends.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Does globalisation make young people forget their own traditions? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["globalisation", "traditions", "balance"], "frameId": "f04",
+      "hintDirectionVi": "So sánh các lễ hội nước ngoài và lễ hội truyền thống mà bạn bè em quan tâm. Hai thứ có thể cùng tồn tại không?",
+      "exampleAnswer": "Partly, yes. Many teenagers prefer Halloween to the Mid-Autumn Festival. However, they can enjoy both if families keep celebrating traditional festivals.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "A foreign student is joining your class. Introduce one Vietnamese custom to them.", "difficulty": 2, "kind": "situation",
+      "keywords": ["custom", "for example", "respect"], "frameId": "f02",
+      "hintDirectionVi": "Chọn một phong tục đơn giản trong đời sống hằng ngày, nói cách làm và ý nghĩa của nó.",
+      "exampleAnswer": "Welcome to our class! In Viet Nam, we use both hands when we give something to an older person. It shows respect.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "Have you ever felt confused by a different custom or way of life?", "difficulty": 2, "kind": "personal",
+      "keywords": ["culture shock", "confused", "strange"], "frameId": "f06",
+      "hintDirectionVi": "Không cần đi nước ngoài: đến vùng khác hay nhà một người bạn cũng có thể khác lạ. Điều gì làm em bất ngờ?",
+      "exampleAnswer": "The first time I stayed with my friend's family in the city, I felt confused because everyone ate dinner very late.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Should teenagers learn about other cultures at school? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["diversity", "understand", "open-minded"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem hiểu về văn hoá khác giúp em thế nào khi gặp, học hay làm việc với người nước ngoài.",
+      "exampleAnswer": "Yes, they should. Learning about other cultures helps teenagers understand people from different backgrounds and become more open-minded.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Your foreign pen pal asks what to eat in Viet Nam. Give them some advice.", "difficulty": 2, "kind": "situation",
+      "keywords": ["you should try", "speciality", "staple"], "frameId": "f05",
+      "hintDirectionVi": "Chọn một hai món em tự hào nhất, gắn với một nơi cụ thể để bạn dễ tìm.",
+      "exampleAnswer": "You should try pho when you visit Ha Noi. Rice is our staple food, so you should also try com tam in Ho Chi Minh City.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Why can moving to a new country be difficult for young people?", "difficulty": 3, "kind": "reason",
+      "keywords": ["culture shock", "language", "homesick"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về những thứ phải làm quen lại từ đầu: ngôn ngữ, đồ ăn, bạn bè, cách cư xử.",
+      "exampleAnswer": "It can be difficult because of culture shock. Young people must learn a new language and new customs, and they often feel homesick at first.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "What are the advantages and disadvantages of living in a multicultural society?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["multicultural", "diversity", "misunderstanding"], "frameId": "f04",
+      "hintDirectionVi": "Nêu một điều được (đồ ăn, ý tưởng, lễ hội) và một điều khó (hiểu lầm, khác biệt) rồi nói em nghiêng về bên nào.",
+      "exampleAnswer": "A multicultural society has more diversity in food, ideas and festivals. However, people may sometimes misunderstand each other because of different customs.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "How can young Vietnamese people keep up with the world but still keep their identity?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["keep up with", "identity", "appreciate"], "frameId": "f04",
+      "hintDirectionVi": "Chia thành hai phần: học gì từ thế giới, và giữ gì của mình. Cho mỗi phần một ví dụ.",
+      "exampleAnswer": "We can learn English and use technology to keep up with the world. At the same time, we should appreciate our own language, music and festivals.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "You are planning a culture day at school. What activities would you include, and why?", "difficulty": 3, "kind": "situation",
+      "keywords": ["cuisine", "costume", "performance"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ hai hoạt động vừa vui vừa giúp học sinh hiểu thêm văn hoá: ăn, mặc, nghe, chơi... Mỗi hoạt động mang lại gì?",
+      "exampleAnswer": "I would include a food fair with dishes from different countries and a costume show. Students can taste new cuisines and learn about traditions in a fun way.", "expectsReason": true
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "grade": 11,
+  "unit": 4,
+  "title": "ASEAN and Viet Nam",
+  "titleVi": "ASEAN và Việt Nam",
+  "topic": "Nói về các nước ASEAN em quan tâm, hoạt động tình nguyện và giao lưu văn hóa, và vai trò của người trẻ trong cộng đồng khu vực.",
+  "source": "Global Success 11, Unit 4 (chủ đề, từ vựng, ngữ pháp danh động từ làm chủ ngữ và tân ngữ)",
+  "vocab": [
+    { "id": "v01", "en": "community", "vi": "cộng đồng", "example": "Our school often organises activities for the local community." },
+    { "id": "v02", "en": "cultural exchange", "vi": "sự trao đổi văn hóa", "example": "The cultural exchange helped us learn some Thai songs and dances." },
+    { "id": "v03", "en": "leadership skills", "vi": "kĩ năng lãnh đạo", "example": "Being class monitor has improved my leadership skills." },
+    { "id": "v04", "en": "take part in", "vi": "tham gia", "example": "Over two hundred students took part in the English festival." },
+    { "id": "v05", "en": "volunteer", "vi": "tình nguyện; tình nguyện viên", "example": "She volunteers at the children's library every Sunday." },
+    { "id": "v06", "en": "represent", "vi": "đại diện", "example": "Two students will represent our school at the youth forum." },
+    { "id": "v07", "en": "promote", "vi": "thúc đẩy, quảng bá", "example": "The festival promotes friendship between young people in the region." },
+    { "id": "v08", "en": "proposal", "vi": "bản đề xuất", "example": "Our group wrote a proposal for a school recycling project." },
+    { "id": "v09", "en": "youth", "vi": "tuổi trẻ, thanh niên", "example": "The youth of ASEAN can work together on many projects." },
+    { "id": "v10", "en": "eye-opening", "vi": "mở mang tầm mắt", "example": "Visiting another country was an eye-opening experience for me." },
+    { "id": "v11", "en": "region", "vi": "vùng, khu vực", "example": "Southeast Asia is a region with many different cultures." },
+    { "id": "v12", "en": "contribution", "vi": "sự đóng góp", "example": "Every member made a contribution to our group project." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "___ is a great way to ___.",
+      "vi": "... là một cách tuyệt vời để ...",
+      "grammarNote": "Danh động từ (V-ing) làm chủ ngữ: Volunteering is fun. Động từ theo sau chia ở số ít.",
+      "examples": ["Learning a new language is a great way to make friends from other countries."]
+    },
+    {
+      "id": "f02",
+      "text": "I enjoy ___ because ___.",
+      "vi": "Mình thích ... vì ...",
+      "grammarNote": "Sau enjoy, avoid, mind, consider, suggest dùng V-ing (danh động từ làm tân ngữ).",
+      "examples": ["I enjoy meeting people from other cultures because I always learn something new."]
+    },
+    {
+      "id": "f03",
+      "text": "I'm interested in ___, so I'd like to ___.",
+      "vi": "Mình quan tâm đến ..., nên mình muốn ...",
+      "grammarNote": "Sau giới từ (in, at, about, of) dùng V-ing: interested in learning, good at cooking.",
+      "examples": ["I'm interested in trying new food, so I'd like to visit the night markets in Bangkok."]
+    },
+    {
+      "id": "f04",
+      "text": "I suggest ___ to promote ___.",
+      "vi": "Mình đề xuất ... để quảng bá ...",
+      "grammarNote": "suggest + V-ing để đưa ra đề xuất: I suggest organising a festival.",
+      "examples": ["I suggest organising a food fair to promote ASEAN cultures at our school."]
+    },
+    {
+      "id": "f05",
+      "text": "Taking part in ___ helps young people ___.",
+      "vi": "Tham gia ... giúp người trẻ ...",
+      "grammarNote": "Cụm V-ing (Taking part in ...) làm chủ ngữ; help + somebody + V nguyên mẫu.",
+      "examples": ["Taking part in volunteer work helps young people become more confident."]
+    },
+    {
+      "id": "f06",
+      "text": "I'd consider ___ because it would be ___.",
+      "vi": "Mình sẽ cân nhắc ... vì việc đó sẽ ...",
+      "grammarNote": "consider + V-ing: cân nhắc làm gì; would + V để nói về tình huống giả định.",
+      "examples": ["I'd consider teaching English to young children because it would be useful for them."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Which ASEAN country would you most like to visit?", "difficulty": 1, "kind": "personal",
+      "keywords": ["interested in", "culture", "food"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một nước Đông Nam Á em từng nghe hay xem trên mạng. Em tò mò về món ăn, cảnh đẹp hay con người nơi đó?",
+      "exampleAnswer": "I'd most like to visit Thailand. I'm interested in trying real Thai food and seeing the old temples in Chiang Mai.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Have you ever taken part in a volunteer activity? What did you do?", "difficulty": 1, "kind": "personal",
+      "keywords": ["take part in", "volunteer", "community"], "frameId": "f05",
+      "hintDirectionVi": "Nhớ lại một lần em giúp đỡ người khác cùng trường hay khu phố. Nếu chưa từng, nói về hoạt động em muốn thử.",
+      "exampleAnswer": "Yes. Last summer I took part in a book collection for a village school. We collected over three hundred books, and it felt great.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What do you enjoy doing in your school clubs or after-school activities?", "difficulty": 1, "kind": "personal",
+      "keywords": ["enjoy", "club", "practising"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về một câu lạc bộ hay hoạt động ngoài giờ em tham gia. Phần nào em mong chờ nhất?",
+      "exampleAnswer": "I enjoy playing in the school band because I can make music with my friends. Practising together on Fridays is the best part of my week.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Is learning about other ASEAN cultures useful for students? Why?", "difficulty": 1, "kind": "opinion",
+      "keywords": ["learning", "culture", "understand"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem hiểu văn hóa nước bạn giúp em gì: khi kết bạn, khi du lịch, hay khi đi học, đi làm sau này.",
+      "exampleAnswer": "Yes. Learning about other cultures helps us understand our neighbours better. It is also useful if we want to study or work in the region later.", "expectsReason": true
+    },
+    {
+      "id": "q05", "text": "Why do you think cultural exchange programmes are eye-opening for young people?", "difficulty": 2, "kind": "reason",
+      "keywords": ["cultural exchange", "eye-opening", "customs"], "frameId": "f05",
+      "hintDirectionVi": "Hình dung em sống vài tuần ở một nước khác. Em sẽ thấy những điều gì mới và mình thay đổi ra sao?",
+      "exampleAnswer": "Living in another country shows you different customs and ways of thinking. Meeting people from other cultures makes you more open-minded and confident.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Which matters more for a young leader: speaking well or listening well? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["leadership skills", "listening", "team"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một bạn lớp trưởng hay đội trưởng em quý. Bạn ấy giỏi nói hay giỏi lắng nghe hơn?",
+      "exampleAnswer": "I think listening well matters more. Listening to team members helps a leader understand problems and make fair decisions.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Why is speaking English important when working with young people from other ASEAN countries?", "difficulty": 2, "kind": "reason",
+      "keywords": ["communicate", "common language", "share ideas"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem bạn Việt Nam và bạn Indonesia sẽ nói chuyện với nhau bằng ngôn ngữ nào, và điều đó giúp gì khi làm dự án chung.",
+      "exampleAnswer": "English is the common working language of ASEAN. Speaking it well helps us share ideas, make friends and work on projects across the region.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "You are applying for an ASEAN youth programme. Introduce yourself and say why you want to join.", "difficulty": 2, "kind": "situation",
+      "keywords": ["apply for", "enjoy", "eye-opening"], "frameId": "f02",
+      "hintDirectionVi": "Giới thiệu ngắn tên, lớp, nơi ở, một điều em thích làm, rồi nói chương trình sẽ giúp em điều gì.",
+      "exampleAnswer": "Hello, I'm Minh, a grade 11 student from Hue. I enjoy volunteering and meeting new people, so joining this programme would be eye-opening for me.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "What kind of volunteer work would you consider doing in your community?", "difficulty": 2, "kind": "personal",
+      "keywords": ["consider", "teaching", "community"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về một nhóm người quanh em cần giúp đỡ và một việc em làm được bằng khả năng của mình.",
+      "exampleAnswer": "I'd consider teaching English to young children in my neighbourhood because it would be useful for them and fun for me.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Should all high school students do some community service? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["community", "responsible", "contribution"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về lợi ích cho học sinh và cho cộng đồng, rồi cân nhắc chuyện bắt buộc có hợp lý không.",
+      "exampleAnswer": "I think so. Doing community service teaches students to care about others. It is also a small contribution to making our town a better place.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "What are you good at that you could share with students from other countries?", "difficulty": 2, "kind": "personal",
+      "keywords": ["good at", "share", "teach"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một món ăn, trò chơi dân gian, bài hát hay kĩ năng em làm tốt và có thể dạy cho bạn nước ngoài.",
+      "exampleAnswer": "I'm good at cooking simple Vietnamese dishes. I could teach them how to make spring rolls, and I think they would enjoy rolling them together.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Do ASEAN countries have more in common than differences? Explain your view.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["region", "in common", "traditions"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về món ăn, lễ hội, cách cư xử với người lớn tuổi ở các nước ASEAN. Điểm nào giống, điểm nào khác?",
+      "exampleAnswer": "I think they have a lot in common. Many countries grow rice, respect older people and celebrate the new year in spring. But their languages are very different.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "You are hosting a student from Malaysia for a week. Plan some activities for them.", "difficulty": 3, "kind": "situation",
+      "keywords": ["suggest", "visit", "street food"], "frameId": "f04",
+      "hintDirectionVi": "Chọn vài hoạt động giúp bạn hiểu văn hóa nơi em sống: ăn gì, đi đâu, chơi gì cùng bạn bè em.",
+      "exampleAnswer": "First, I suggest visiting the Old Quarter and trying street food. Then we could watch a water puppet show and play football with my classmates.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "Why is it important for Viet Nam to work closely with other ASEAN members?", "difficulty": 3, "kind": "reason",
+      "keywords": ["trade", "development", "solve problems"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về những việc một nước làm một mình thì khó: buôn bán, phòng chống thiên tai, bảo vệ môi trường.",
+      "exampleAnswer": "Working together helps the whole region develop. Countries can trade more easily, share ideas and solve problems like pollution or natural disasters.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Your school wants a project to promote ASEAN friendship. Propose an idea to your teacher.", "difficulty": 3, "kind": "situation",
+      "keywords": ["propose", "promote", "represent"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một sự kiện cả trường cùng tham gia được, mỗi lớp có một nhiệm vụ rõ ràng.",
+      "exampleAnswer": "I suggest organising an ASEAN culture day. Each class could represent one country, cook its food and teach a traditional game. It would be fun and eye-opening.", "expectsReason": false
+    }
+  ]
+}

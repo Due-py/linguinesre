@@ -1,0 +1,172 @@
+{
+  "grade": 10,
+  "unit": 7,
+  "title": "Viet Nam and International Organisations",
+  "titleVi": "Việt Nam và các tổ chức quốc tế",
+  "topic": "Nói về sự hội nhập của Việt Nam với thế giới qua những gì em thấy trong đời sống: hàng hóa, du khách, ngoại ngữ, và ý kiến của em về hợp tác quốc tế.",
+  "source": "Global Success 10, Unit 7 (chủ đề, từ vựng, ngữ pháp so sánh hơn và so sánh nhất của tính từ)",
+  "vocab": [
+    { "id": "v01", "en": "aim", "vi": "mục tiêu; đặt ra mục tiêu", "example": "Our English club aims to help younger pupils speak more confidently." },
+    { "id": "v02", "en": "promote", "vi": "quảng bá, khuếch trương", "example": "The food festival promotes Vietnamese dishes to foreign visitors." },
+    { "id": "v03", "en": "trade", "vi": "thương mại", "example": "Trade between Viet Nam and other countries is growing fast." },
+    { "id": "v04", "en": "economy", "vi": "nền kinh tế", "example": "Tourism is important for the local economy." },
+    { "id": "v05", "en": "invest", "vi": "đầu tư", "example": "Many foreign companies invest in factories in Viet Nam." },
+    { "id": "v06", "en": "competitive", "vi": "cạnh tranh", "example": "The job market is becoming more competitive every year." },
+    { "id": "v07", "en": "quality", "vi": "chất lượng", "example": "People want high-quality products at fair prices." },
+    { "id": "v08", "en": "essential", "vi": "cần thiết, cấp thiết", "example": "English is an essential skill for working with foreign partners." },
+    { "id": "v09", "en": "respect", "vi": "tôn trọng", "example": "We should respect the cultures of other countries." },
+    { "id": "v10", "en": "welcome", "vi": "đón chào, hoan nghênh", "example": "Our school welcomed a group of students from Japan." },
+    { "id": "v11", "en": "vaccinate", "vi": "tiêm vắc-xin", "example": "Children in my area were vaccinated against measles." },
+    { "id": "v12", "en": "expert", "vi": "chuyên gia; (thuộc về) chuyên môn", "example": "Foreign experts helped to train doctors at the local hospital." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "___ is more ___ / ___er than ___.",
+      "vi": "... thì ... hơn ...",
+      "grammarNote": "So sánh hơn: tính từ ngắn thêm -er + than (cheaper than); tính từ dài dùng more + tính từ + than.",
+      "examples": ["Local fruit is cheaper and fresher than imported fruit.", "Online shopping is more convenient than going to the market."]
+    },
+    {
+      "id": "f02",
+      "text": "I think ___ is the most ___ because ___.",
+      "vi": "Mình nghĩ ... là ... nhất vì ...",
+      "grammarNote": "So sánh nhất: the + tính từ-est (ngắn) hoặc the most + tính từ (dài). Bất quy tắc: good → the best.",
+      "examples": ["I think English is the most useful subject because I can use it everywhere."]
+    },
+    {
+      "id": "f03",
+      "text": "My town is ___ now than it was ___.",
+      "vi": "Thị trấn/thành phố của mình bây giờ ... hơn so với ...",
+      "grammarNote": "Dùng so sánh hơn để nói về thay đổi theo thời gian: busier / more modern than before.",
+      "examples": ["My town is more modern now than it was ten years ago."]
+    },
+    {
+      "id": "f04",
+      "text": "The ___ we ___, the ___ we ___.",
+      "vi": "Chúng ta càng ..., thì chúng ta càng ...",
+      "grammarNote": "Cấu trúc the + so sánh hơn ..., the + so sánh hơn ...: càng ... càng ...",
+      "examples": ["The more we work together, the stronger we become."]
+    },
+    {
+      "id": "f05",
+      "text": "___ is not as ___ as ___.",
+      "vi": "... không ... bằng ...",
+      "grammarNote": "So sánh không bằng: not as + tính từ + as.",
+      "examples": ["Our local market is not as busy as the new shopping centre."]
+    },
+    {
+      "id": "f06",
+      "text": "Welcome to ___! The best thing to ___ here is ___.",
+      "vi": "Chào mừng bạn đến ...! Điều tuyệt nhất để ... ở đây là ...",
+      "grammarNote": "the best là so sánh nhất của good; the best thing to + động từ nguyên mẫu.",
+      "examples": ["Welcome to Ha Noi! The best thing to try here is egg coffee."]
+    },
+    {
+      "id": "f07",
+      "text": "Last ___, I met a visitor from ___, and I ___.",
+      "vi": "... vừa rồi, em đã gặp một vị khách đến từ ..., và em đã ...",
+      "grammarNote": "Quá khứ đơn (met, helped, talked) để kể lại một việc đã xảy ra.",
+      "examples": ["Last month, I met a visitor from Korea, and I showed him the way to the museum."]
+    },
+    {
+      "id": "f08",
+      "text": "I'm learning ___, and I practise it by ___.",
+      "vi": "Em đang học ..., và em luyện tập bằng cách ...",
+      "grammarNote": "Hiện tại tiếp diễn cho việc đang làm trong giai đoạn này; by + V-ing: bằng cách làm gì.",
+      "examples": ["I'm learning Korean, and I practise it by singing K-pop songs."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Have you ever met or talked with a foreign visitor? Tell me about it.", "difficulty": 1, "kind": "personal",
+      "keywords": ["tourist", "friendly", "help"], "frameId": "f07",
+      "hintDirectionVi": "Nhớ lại một lần em gặp người nước ngoài ở trường, trên phố hay khi đi chơi. Hai bên đã nói gì?",
+      "exampleAnswer": "Yes. Last summer, I helped a tourist from Australia find a bus stop. She was very friendly and thanked me in Vietnamese.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What foreign products do you or your family often use?", "difficulty": 1, "kind": "personal",
+      "keywords": ["made in", "quality", "popular"], "frameId": "f01",
+      "hintDirectionVi": "Nhìn quanh nhà em: đồ điện, đồ ăn, quần áo... Món nào được làm ở nước ngoài?",
+      "exampleAnswer": "We often use a Japanese rice cooker and Korean snacks. Some foreign products have good quality, but they are more expensive.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Which country would you most like to visit, and why?", "difficulty": 1, "kind": "personal",
+      "keywords": ["the most", "culture", "interesting"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về một đất nước em hay thấy trên phim, sách hoặc mạng xã hội. Điều gì ở đó cuốn hút em nhất?",
+      "exampleAnswer": "I'd most like to visit Japan because it has the most beautiful cherry blossoms, and the people are very polite.", "expectsReason": true
+    },
+    {
+      "id": "q04", "text": "What foreign language are you learning, and how do you practise it?", "difficulty": 1, "kind": "personal",
+      "keywords": ["English", "practise", "apps"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ về những cách em luyện ngoại ngữ ngoài giờ học: xem phim, nghe nhạc, dùng ứng dụng hay nói chuyện với bạn.",
+      "exampleAnswer": "I'm learning English. I practise by watching cartoons, and I talk with a foreign volunteer at my English club.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why is it important for young Vietnamese people to speak foreign languages well?", "difficulty": 2, "kind": "reason",
+      "keywords": ["essential", "communicate", "chances"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về việc học tập, công việc và giao lưu sau này: ngoại ngữ mở ra cho em những cơ hội nào?",
+      "exampleAnswer": "Foreign languages are essential for good jobs. The better our language skills are, the more chances we have to work with the world.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "How is your town or city different now compared to five years ago?", "difficulty": 2, "kind": "personal",
+      "keywords": ["more modern", "busier", "than"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về đường sá, cửa hàng, nhà cửa ở nơi em sống. Cái gì đã mới hơn, đông hơn hay đẹp hơn?",
+      "exampleAnswer": "My town is busier and more modern now than it was five years ago. There are new shopping centres and wider roads.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Is it better to buy local products or imported products? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["local", "cheaper", "economy"], "frameId": "f01",
+      "hintDirectionVi": "So sánh hai loại hàng về giá, độ tươi, chất lượng, và nghĩ xem mua loại nào giúp ích cho người địa phương.",
+      "exampleAnswer": "I prefer local products because they are usually cheaper and fresher. Buying them also helps the local economy grow.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Do international events in Viet Nam help promote our culture? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["promote", "visitors", "traditions"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về những sự kiện thể thao, hội nghị hay lễ hội quốc tế: khách nước ngoài đến đây sẽ thấy và kể lại điều gì?",
+      "exampleAnswer": "Yes, they do. When visitors come for big events, they try our food and see our traditions, so they tell others about Viet Nam.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "A foreign student is visiting your school. Welcome them and suggest something to try.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Welcome to", "the best", "try"], "frameId": "f06",
+      "hintDirectionVi": "Chào đón bạn thật thân thiện, rồi giới thiệu một món ăn hay hoạt động đặc biệt ở trường hoặc nơi em sống.",
+      "exampleAnswer": "Welcome to our school! The best thing to try here is the sticky rice at the canteen. It's tastier than any fast food.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Why do you think many foreign companies want to invest in Viet Nam?", "difficulty": 2, "kind": "reason",
+      "keywords": ["invest", "young workers", "growing"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về con người và sự phát triển của Việt Nam mà em thấy: điều gì làm công ty nước ngoài thấy hấp dẫn?",
+      "exampleAnswer": "I think Viet Nam has many young, hard-working people. Our economy is also growing faster than many others, so it attracts investors.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Your class wants to collect gifts for children in a remote area. Suggest the best way to do it.", "difficulty": 2, "kind": "situation",
+      "keywords": ["the best way", "collect", "easier"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về một cách đơn giản để cả lớp cùng góp sức, rồi nói vì sao cách đó dễ hoặc hiệu quả hơn.",
+      "exampleAnswer": "I think the best way is to hold a small book and toy fair. It's easier than buying new things, and everyone can join.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Does joining international organisations bring Viet Nam more benefits or more challenges?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["benefits", "competitive", "learn from"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một lợi ích (buôn bán, học hỏi) và một thử thách (cạnh tranh), rồi cân xem bên nào lớn hơn.",
+      "exampleAnswer": "I think it brings more benefits. Trade is easier, and we learn from experts, although local companies face a more competitive market.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Why should countries work together to solve problems like disease and poverty?", "difficulty": 3, "kind": "reason",
+      "keywords": ["work together", "borders", "faster"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem dịch bệnh hay đói nghèo có dừng lại ở biên giới một nước không, và một nước tự làm thì có đủ không.",
+      "exampleAnswer": "Diseases and poverty don't stop at borders. The more countries help each other, the faster these problems can be solved.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Is it more important to keep our traditions or to follow global trends? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["respect", "traditions", "global"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về một truyền thống em yêu quý và một xu hướng thế giới em thích. Có thể giữ cả hai không?",
+      "exampleAnswer": "Both matter, but traditions are more important to me. We can follow global trends and still respect our own culture and language.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "You are representing Viet Nam at a youth meeting abroad. Introduce your country briefly.", "difficulty": 3, "kind": "situation",
+      "keywords": ["the most", "friendly", "delicious"], "frameId": "f02",
+      "hintDirectionVi": "Chọn hai hoặc ba điều em tự hào nhất về Việt Nam: con người, món ăn, cảnh đẹp, rồi giới thiệu ngắn gọn.",
+      "exampleAnswer": "Hello, I'm from Viet Nam. It's a beautiful country with friendly people and delicious food. Ha Long Bay is one of the most amazing places to visit.", "expectsReason": false
+    }
+  ]
+}

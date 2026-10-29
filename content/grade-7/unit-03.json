@@ -1,0 +1,158 @@
+{
+  "grade": 7,
+  "unit": 3,
+  "title": "Community Service",
+  "titleVi": "Hoạt động vì cộng đồng",
+  "topic": "Nói về những việc tốt em và lớp em đã làm để giúp người khác và nơi mình sống, cùng cảm nghĩ của em về các hoạt động đó.",
+  "source": "Global Success 7, Unit 3 (chủ đề, từ vựng, ngữ pháp thì quá khứ đơn)",
+  "vocab": [
+    { "id": "v01", "en": "community service", "vi": "hoạt động phục vụ cộng đồng", "example": "Our class did community service in the park last month." },
+    { "id": "v02", "en": "volunteer", "vi": "tình nguyện; tình nguyện viên", "example": "My cousin volunteers at the local library every Sunday." },
+    { "id": "v03", "en": "donate", "vi": "cho, tặng, quyên góp", "example": "We donated old books to a school in the mountains." },
+    { "id": "v04", "en": "elderly", "vi": "lớn tuổi, cao tuổi", "example": "We visited some elderly people and sang songs for them." },
+    { "id": "v05", "en": "homeless", "vi": "vô gia cư", "example": "The youth club cooked hot meals for homeless people." },
+    { "id": "v06", "en": "nursing home", "vi": "viện dưỡng lão", "example": "Students made birthday cards for people at the nursing home." },
+    { "id": "v07", "en": "clean-up activity", "vi": "hoạt động dọn dẹp", "example": "Our school had a clean-up activity on the beach." },
+    { "id": "v08", "en": "plant", "vi": "trồng (cây)", "example": "We planted fifty trees near the river last spring." },
+    { "id": "v09", "en": "tutor", "vi": "dạy kèm, phụ đạo", "example": "Lan tutors younger children in maths after school." },
+    { "id": "v10", "en": "collect", "vi": "thu gom, sưu tầm", "example": "We collected plastic bottles for recycling." },
+    { "id": "v11", "en": "proud", "vi": "tự hào", "example": "I felt proud after I helped an old man carry his bags." },
+    { "id": "v12", "en": "rural area", "vi": "vùng nông thôn", "example": "Some schools in rural areas need more books and computers." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "Last ___, I ___ with my class.",
+      "vi": "... trước, mình đã ... cùng lớp.",
+      "grammarNote": "Quá khứ đơn cho việc đã xong: V-ed (cleaned, planted) hoặc động từ bất quy tắc (went, gave, made).",
+      "examples": ["Last summer, I cleaned the beach with my class."]
+    },
+    {
+      "id": "f02",
+      "text": "We ___ to help ___.",
+      "vi": "Chúng mình đã ... để giúp ...",
+      "grammarNote": "Động từ ở quá khứ đơn + to + V nguyên mẫu để nói mục đích: We collected books to help poor students.",
+      "examples": ["We collected old clothes to help children in a flooded village."]
+    },
+    {
+      "id": "f03",
+      "text": "Did you ___ last ___? Yes, I did. I ___.",
+      "vi": "Bạn có ... vào ... trước không? Có. Mình đã ...",
+      "grammarNote": "Câu hỏi quá khứ đơn: Did + chủ ngữ + V nguyên mẫu? Trả lời ngắn: Yes, I did / No, I didn't.",
+      "examples": ["Did you do any volunteer work last year? Yes, I did. I tutored my neighbour in English."]
+    },
+    {
+      "id": "f04",
+      "text": "I felt ___ when I ___.",
+      "vi": "Mình cảm thấy ... khi mình đã ...",
+      "grammarNote": "feel → felt (bất quy tắc). when + mệnh đề quá khứ đơn để nói thời điểm.",
+      "examples": ["I felt proud when I gave my old books to the library."]
+    },
+    {
+      "id": "f05",
+      "text": "I think students should ___ because ___.",
+      "vi": "Mình nghĩ học sinh nên ... vì ...",
+      "grammarNote": "should + V nguyên mẫu để khuyên. because + mệnh đề để nêu lý do.",
+      "examples": ["I think students should volunteer because they can learn new skills."]
+    },
+    {
+      "id": "f06",
+      "text": "Let's ___ for ___ this weekend.",
+      "vi": "Cuối tuần này mình cùng ... cho ... nhé.",
+      "grammarNote": "Let's + V nguyên mẫu để rủ bạn cùng làm một việc.",
+      "examples": ["Let's collect old books for the children in the rural area this weekend."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Did you do any volunteer work last year?", "difficulty": 1, "kind": "personal",
+      "keywords": ["volunteer", "Yes, I did", "last year"], "frameId": "f03",
+      "hintDirectionVi": "Trả lời ngắn Yes, I did hoặc No, I didn't, rồi kể thêm một việc em đã làm hoặc muốn làm.",
+      "exampleAnswer": "Yes, I did. I helped my teacher clean the school garden.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What did you do to help your neighbourhood last summer?", "difficulty": 1, "kind": "personal",
+      "keywords": ["clean", "collect", "help"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại hè vừa rồi: em có dọn dẹp, trồng cây hay giúp hàng xóm việc gì không? Dùng động từ quá khứ.",
+      "exampleAnswer": "Last summer, I picked up rubbish in my street with some friends.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Who did you help last week, and how?", "difficulty": 1, "kind": "personal",
+      "keywords": ["helped", "carried", "taught"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một người em đã giúp gần đây: bạn bè, người thân hay hàng xóm. Em đã làm gì?",
+      "exampleAnswer": "I helped my grandma last week. I carried her shopping bags home.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Did you give any old books or clothes to others last year?", "difficulty": 1, "kind": "personal",
+      "keywords": ["donate", "books", "clothes"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem em đã từng tặng đồ cũ cho ai chưa. Đó là đồ gì và em tặng cho ai?",
+      "exampleAnswer": "Yes, I did. I donated my old storybooks to a library last year.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do you think young people volunteer?", "difficulty": 2, "kind": "reason",
+      "keywords": ["help others", "skills", "proud"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về hai phía: người được giúp nhận được gì, và người đi giúp học được gì.",
+      "exampleAnswer": "They volunteer because they want to help others. They also learn new skills and make friends.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "How did you feel after you helped someone?", "difficulty": 2, "kind": "personal",
+      "keywords": ["felt", "proud", "happy"], "frameId": "f04",
+      "hintDirectionVi": "Nhớ lại một lần em giúp ai đó, rồi tả cảm xúc của em lúc ấy và vì sao.",
+      "exampleAnswer": "I felt really happy when I helped a little boy find his mum at the market.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Is picking up rubbish a useful activity for students? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["clean-up activity", "environment", "useful"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem nơi em sống thay đổi thế nào sau khi được dọn sạch, và học sinh học được điều gì.",
+      "exampleAnswer": "Yes, it is. It makes our streets clean, and students learn to protect the environment.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Ask a friend to join a clean-up activity with you this weekend.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Let's", "clean up", "this weekend"], "frameId": "f06",
+      "hintDirectionVi": "Rủ bạn bằng Let's, nói rõ làm ở đâu, lúc nào, và cần mang theo gì.",
+      "exampleAnswer": "Let's clean up the park this weekend. We can meet at eight and bring some bags.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "Why is planting trees a good community activity?", "difficulty": 2, "kind": "reason",
+      "keywords": ["plant", "fresh air", "shade"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem cây xanh mang lại gì cho khu phố em, và trồng cây cùng nhau có gì vui.",
+      "exampleAnswer": "Trees give us fresh air and shade. Planting them together also brings people closer.", "expectsReason": true
+    },
+    {
+      "id": "q10", "text": "Is it better to donate things or to give your time? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["donate", "time", "both"], "frameId": "f05",
+      "hintDirectionVi": "So sánh hai cách giúp đỡ: tặng đồ vật và trực tiếp đến giúp. Cách nào hợp với học sinh hơn?",
+      "exampleAnswer": "I think giving your time is better. You can talk to people and understand their lives.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Should older students tutor younger children? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["tutor", "younger children", "learn"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem cả người dạy và người học nhận được lợi ích gì, và có điều gì cần lưu ý.",
+      "exampleAnswer": "Yes, they should. Younger children get help, and older students remember their lessons better.", "expectsReason": true
+    },
+    {
+      "id": "q12", "text": "What community activity would you like to do, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["would like to", "nursing home", "because"], "frameId": "f05",
+      "hintDirectionVi": "Chọn một hoạt động em chưa làm nhưng muốn thử, rồi giải thích nó giúp ai và vì sao em quan tâm.",
+      "exampleAnswer": "I'd like to visit a nursing home because elderly people often feel lonely. I can sing for them.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "A village near you was flooded. How can your class help?", "difficulty": 3, "kind": "situation",
+      "keywords": ["flooded", "collect", "donate"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem người dân vùng lũ cần gì nhất, và một lớp học sinh có thể làm gì trong khả năng của mình.",
+      "exampleAnswer": "Let's collect clothes, books and clean water for them. We can also write cards to the children.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "Should community service be part of every school's programme? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["community service", "skills", "responsibility"], "frameId": "f05",
+      "hintDirectionVi": "Nêu ý kiến đồng ý hay không, rồi nghĩ về lợi ích cho học sinh và cho cộng đồng.",
+      "exampleAnswer": "Yes. It teaches students responsibility, and it helps the community. Every student can do something small.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Tell a new classmate about a project your class did last year.", "difficulty": 3, "kind": "situation",
+      "keywords": ["last year", "we planted", "proud"], "frameId": "f01",
+      "hintDirectionVi": "Kể lại: lớp em đã làm gì, ở đâu, giúp được ai, và cả lớp cảm thấy thế nào sau đó.",
+      "exampleAnswer": "Last year, we planted trees around our school. Now there is more shade, and we feel proud.", "expectsReason": false
+    }
+  ]
+}

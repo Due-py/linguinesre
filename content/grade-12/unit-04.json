@@ -1,0 +1,158 @@
+{
+  "grade": 12,
+  "unit": 4,
+  "title": "Urbanisation",
+  "titleVi": "Đô thị hoá",
+  "topic": "Nói về những thay đổi ở nơi em sống, cuộc sống thành thị và nông thôn, cùng những lợi ích và vấn đề mà đô thị hoá mang lại.",
+  "source": "Global Success 12, Unit 4 (chủ đề, từ vựng, ngữ pháp thì hiện tại hoàn thành, so sánh kép)",
+  "vocab": [
+    { "id": "v01", "en": "urbanisation", "vi": "đô thị hoá", "example": "Urbanisation has turned many rice fields near my town into housing areas." },
+    { "id": "v02", "en": "urban", "vi": "thuộc về đô thị", "example": "Urban areas usually have better hospitals and schools." },
+    { "id": "v03", "en": "resident", "vi": "người dân, cư dân", "example": "Local residents asked for more trees along the main road." },
+    { "id": "v04", "en": "housing", "vi": "nhà ở", "example": "The city needs more cheap housing for young workers." },
+    { "id": "v05", "en": "rush hour", "vi": "giờ cao điểm", "example": "I leave home early to avoid the rush hour." },
+    { "id": "v06", "en": "afford", "vi": "có đủ khả năng chi trả", "example": "Many young couples cannot afford a flat in the city centre." },
+    { "id": "v07", "en": "expand", "vi": "mở rộng (về diện tích)", "example": "Our town has expanded towards the river in the last ten years." },
+    { "id": "v08", "en": "gradually", "vi": "dần dần, từ từ", "example": "The village is gradually becoming a small town." },
+    { "id": "v09", "en": "rapidly", "vi": "rất nhanh, với tốc độ cao", "example": "The number of cars in my city has grown rapidly." },
+    { "id": "v10", "en": "seek", "vi": "tìm kiếm", "example": "Many young people move to cities to seek better jobs." },
+    { "id": "v11", "en": "leisure", "vi": "sự giải trí, thư giãn", "example": "The new park gives residents more space for leisure." },
+    { "id": "v12", "en": "unemployment", "vi": "tình trạng thất nghiệp", "example": "Unemployment can rise when too many people arrive in a city at once." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "My town has changed a lot since ___. ___ has/have ___.",
+      "vi": "Thị trấn của mình đã thay đổi nhiều kể từ ... ... đã ...",
+      "grammarNote": "Hiện tại hoàn thành (have/has + V3) nói thay đổi bắt đầu trong quá khứ, còn đến nay; since + mốc, for + khoảng thời gian.",
+      "examples": ["My town has changed a lot since 2015. The old market has become a shopping centre."]
+    },
+    {
+      "id": "f02",
+      "text": "Over the past few years, ___ has/have ___.",
+      "vi": "Vài năm qua, ... đã ...",
+      "grammarNote": "Over the past few years / recently / so far thường đi với thì hiện tại hoàn thành.",
+      "examples": ["Over the past few years, three new apartment blocks have appeared near my school."]
+    },
+    {
+      "id": "f03",
+      "text": "The roads are getting ___ and ___.",
+      "vi": "Đường sá ngày càng ...",
+      "grammarNote": "So sánh kép chỉ sự thay đổi dần: tính từ ngắn-er and -er (busier and busier); more and more + tính từ dài.",
+      "examples": ["The roads are getting busier and busier, and the air is getting more and more polluted."]
+    },
+    {
+      "id": "f04",
+      "text": "The more ___, the more ___.",
+      "vi": "Càng ..., càng ...",
+      "grammarNote": "The + so sánh hơn + mệnh đề, the + so sánh hơn + mệnh đề: càng ... càng ... (The bigger the city, the higher the prices).",
+      "examples": ["The more people move to the city, the more crowded the buses become."]
+    },
+    {
+      "id": "f05",
+      "text": "I have lived in ___ for ___, and I have noticed that ___.",
+      "vi": "Mình đã sống ở ... được ..., và mình nhận thấy rằng ...",
+      "grammarNote": "Dùng hiện tại hoàn thành với for + khoảng thời gian để nói việc kéo dài đến bây giờ.",
+      "examples": ["I have lived in Bien Hoa for ten years, and I have noticed that the streets have become much busier."]
+    },
+    {
+      "id": "f06",
+      "text": "One problem that has become worse is ___ because ___.",
+      "vi": "Một vấn đề đã trở nên tệ hơn là ... vì ...",
+      "grammarNote": "has become + so sánh hơn (worse, more serious) để nói sự thay đổi đến hiện tại.",
+      "examples": ["One problem that has become worse is noise because more and more bars have opened."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "How long have you lived in your neighbourhood?", "difficulty": 1, "kind": "personal",
+      "keywords": ["have lived", "since", "for"], "frameId": "f05",
+      "hintDirectionVi": "Nói em đã sống ở đó bao lâu (for/since), rồi thêm một điều em nhận thấy đã thay đổi.",
+      "exampleAnswer": "I have lived in my neighbourhood for twelve years, and I have noticed that it has become much busier.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What new buildings have appeared in your area recently?", "difficulty": 1, "kind": "personal",
+      "keywords": ["has opened", "shopping mall", "apartment block"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về con đường em hay đi: có quán, siêu thị, chung cư hay trường mới nào mọc lên không?",
+      "exampleAnswer": "Over the past few years, a big supermarket and two apartment blocks have appeared near my house.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Would you rather live in a city or in the countryside?", "difficulty": 1, "kind": "personal",
+      "keywords": ["urban", "peaceful", "convenient"], "frameId": "f04",
+      "hintDirectionVi": "Chọn một nơi, rồi nghĩ về một điều em thích nhất ở đó: tiện nghi, yên tĩnh, không khí...",
+      "exampleAnswer": "I would rather live in the city. The busier it is, the more exciting I find it, although it is sometimes noisy.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What is the traffic like near your home during rush hour?", "difficulty": 1, "kind": "personal",
+      "keywords": ["rush hour", "traffic jam", "crowded"], "frameId": "f03",
+      "hintDirectionVi": "Hình dung con đường gần nhà em lúc tan học, tan làm. So với trước đây nó thế nào?",
+      "exampleAnswer": "During rush hour, the roads near my home are getting more and more crowded. It now takes me twice as long to get to school.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do many young people move from the countryside to big cities?", "difficulty": 2, "kind": "reason",
+      "keywords": ["seek", "job opportunities", "education"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem thành phố có những gì mà nông thôn còn thiếu: việc làm, trường học, dịch vụ...",
+      "exampleAnswer": "Many young people move to cities to seek better jobs and education. The more a city grows, the more opportunities it offers.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Why has housing become harder to afford in big cities?", "difficulty": 2, "kind": "reason",
+      "keywords": ["afford", "housing", "demand"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về mối liên hệ giữa số người muốn mua hoặc thuê nhà và giá nhà.",
+      "exampleAnswer": "More and more people have moved to big cities, so the demand for housing has increased. The higher the demand, the higher the prices.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Has urbanisation made life better or worse in your area? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["urbanisation", "facilities", "pollution"], "frameId": "f02",
+      "hintDirectionVi": "Nêu một thay đổi tốt và một thay đổi chưa tốt ở nơi em sống, rồi kết luận nhìn chung là tốt hơn hay tệ hơn.",
+      "exampleAnswer": "Overall, it has made life better. We have got new schools and a hospital, but the air has become more polluted.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "A visitor asks how your town has changed. Describe two changes to them.", "difficulty": 2, "kind": "situation",
+      "keywords": ["has changed", "wider", "have turned into"], "frameId": "f01",
+      "hintDirectionVi": "Chọn hai thay đổi dễ thấy nhất: đường sá, nhà cửa, cửa hàng, cây xanh. Dùng has/have + V3.",
+      "exampleAnswer": "My town has changed a lot since I was a child. The roads have become wider, and many old houses have turned into cafés.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "Which leisure facilities in your area have you used this year?", "difficulty": 2, "kind": "personal",
+      "keywords": ["leisure", "park", "sports centre"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về công viên, nhà văn hoá, sân thể thao, thư viện gần nhà. Em đã đến đâu và làm gì ở đó?",
+      "exampleAnswer": "This year, I have used the new sports centre twice a week. I have also visited the riverside park with my friends several times.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Should a city build more roads or more public transport? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["public transport", "reliable", "traffic"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem làm thêm đường thì có hết kẹt xe lâu dài không, còn xe buýt, tàu điện thì giúp gì.",
+      "exampleAnswer": "I think more public transport is better. The more reliable buses and trains are, the fewer people will drive cars.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Your family is choosing a new home. Persuade them to pick a quiet suburb.", "difficulty": 2, "kind": "situation",
+      "keywords": ["suburb", "peaceful", "fresh air"], "frameId": "f04",
+      "hintDirectionVi": "Đưa ra một hai lợi ích của vùng ven mà cả nhà đều quan tâm, như không khí, yên tĩnh, chỗ chơi.",
+      "exampleAnswer": "Let's choose a suburb! The further we live from the centre, the cleaner the air is. It's also more peaceful for studying.", "expectsReason": true
+    },
+    {
+      "id": "q12", "text": "Why do you think unemployment can rise when cities grow too quickly?", "difficulty": 3, "kind": "reason",
+      "keywords": ["unemployment", "rapidly", "competition"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem nếu số người đến thành phố tăng nhanh hơn số việc làm mới thì chuyện gì xảy ra.",
+      "exampleAnswer": "When cities grow rapidly, too many people arrive at the same time. The more people look for work, the harder it is for everyone to find a job.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "How should cities expand without harming the environment?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["expand", "green spaces", "plan"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về những thứ cần giữ lại hoặc thêm vào khi xây dựng: cây xanh, hồ, giao thông công cộng.",
+      "exampleAnswer": "Cities should keep parks and trees when they expand. As cities get bigger and bigger, green spaces become more and more important for residents.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Will people in the future prefer to live in cities or in rural areas? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["work from home", "rural", "technology"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem công nghệ và việc làm từ xa có thể thay đổi lựa chọn nơi sống của mọi người thế nào.",
+      "exampleAnswer": "I think more people will choose rural areas. As technology improves, people can work from home, and the more crowded cities get, the more attractive the countryside becomes.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "You are a city leader for a day. Which problem would you fix first, and why?", "difficulty": 3, "kind": "situation",
+      "keywords": ["problem", "has become", "rush hour"], "frameId": "f06",
+      "hintDirectionVi": "Chọn vấn đề ảnh hưởng đến nhiều người nhất ở nơi em sống, nói vì sao nó ngày càng nặng và em sẽ bắt đầu thế nào.",
+      "exampleAnswer": "I would fix traffic first. One problem that has become worse is rush-hour congestion because the number of motorbikes has grown rapidly.", "expectsReason": true
+    }
+  ]
+}

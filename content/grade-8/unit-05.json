@@ -1,0 +1,165 @@
+{
+  "grade": 8,
+  "unit": 5,
+  "title": "Our Customs and Traditions",
+  "titleVi": "Phong tục và truyền thống của chúng ta",
+  "topic": "Nói về phong tục trong gia đình, các lễ hội ở địa phương, cách cư xử trong bữa ăn và vì sao những truyền thống ấy có ý nghĩa với em.",
+  "source": "Global Success 8, Unit 5 (chủ đề, từ vựng, ngữ pháp không dùng mạo từ - zero article)",
+  "vocab": [
+    { "id": "v01", "en": "family reunion", "vi": "cuộc sum họp gia đình", "example": "We have a big family reunion at my grandparents' house every Tet." },
+    { "id": "v02", "en": "family bonding", "vi": "sự gắn kết tình cảm gia đình", "example": "Cooking together is good for family bonding." },
+    { "id": "v03", "en": "ceremony", "vi": "nghi thức, nghi lễ", "example": "The opening ceremony of the festival starts at eight." },
+    { "id": "v04", "en": "festival goer", "vi": "người đi xem lễ hội", "example": "Thousands of festival goers came to watch the boat race." },
+    { "id": "v05", "en": "contestant", "vi": "thí sinh, người thi đấu", "example": "Each contestant had ten minutes to cook rice." },
+    { "id": "v06", "en": "decorative", "vi": "để trang trí", "example": "We hung decorative lights in the living room." },
+    { "id": "v07", "en": "ornamental tree", "vi": "cây cảnh", "example": "My dad bought a small ornamental tree before Tet." },
+    { "id": "v08", "en": "lantern", "vi": "đèn lồng", "example": "Children carry star lanterns at the Mid-Autumn Festival." },
+    { "id": "v09", "en": "table manners", "vi": "phép tắc ăn uống", "example": "Good table manners are important when you eat with older people." },
+    { "id": "v10", "en": "young rice", "vi": "cốm", "example": "Young rice wrapped in a lotus leaf smells wonderful." },
+    { "id": "v11", "en": "admire", "vi": "khâm phục, ngưỡng mộ", "example": "I admire the dancers because they practise very hard." },
+    { "id": "v12", "en": "release", "vi": "thả", "example": "On the full moon night, people release paper lanterns on the river." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "At Tet, my family always ___ because ___.",
+      "vi": "Vào dịp Tết, gia đình mình luôn ... vì ...",
+      "grammarNote": "Không dùng a/an/the trước tên dịp lễ như Tet, Christmas: at Tet, at Christmas.",
+      "examples": ["At Tet, my family always visits my grandparents because they live far away."]
+    },
+    {
+      "id": "f02",
+      "text": "At dinner, children in my family usually ___ before ___.",
+      "vi": "Trong bữa tối, trẻ con nhà mình thường ... trước khi ...",
+      "grammarNote": "Không dùng mạo từ trước tên bữa ăn: have breakfast, at lunch, after dinner.",
+      "examples": ["At dinner, children in my family usually invite the older people to eat before we start."]
+    },
+    {
+      "id": "f03",
+      "text": "I think ___ is a good custom because it helps ___.",
+      "vi": "Mình nghĩ ... là một phong tục hay vì nó giúp ...",
+      "grammarNote": "Nói chung chung về danh từ không đếm được hoặc số nhiều thì không dùng the: Music makes people happy.",
+      "examples": ["I think giving lucky money is a good custom because it helps children feel loved."]
+    },
+    {
+      "id": "f04",
+      "text": "My favourite festival is ___. People usually ___ there.",
+      "vi": "Lễ hội mình thích nhất là ... Mọi người thường ... ở đó.",
+      "grammarNote": "Danh từ số nhiều nói chung không có mạo từ: People buy flowers. Children carry lanterns.",
+      "examples": ["My favourite festival is the Mid-Autumn Festival. People usually eat mooncakes and watch lion dances there."]
+    },
+    {
+      "id": "f05",
+      "text": "In our family, we have a custom of ___. It makes us ___.",
+      "vi": "Nhà mình có phong tục ... Điều đó làm chúng mình thấy ...",
+      "grammarNote": "Sau giới từ of dùng V-ing: a custom of visiting relatives. make + somebody + tính từ.",
+      "examples": ["In our family, we have a custom of eating together on Sunday evenings. It makes us closer."]
+    },
+    {
+      "id": "f06",
+      "text": "You should ___ when you ___ because ___.",
+      "vi": "Bạn nên ... khi bạn ... vì ...",
+      "grammarNote": "should + động từ nguyên mẫu để khuyên. Danh từ số nhiều nói chung không cần mạo từ: bring snacks.",
+      "examples": ["You should wear comfortable shoes when you go to a festival because you will walk a lot."]
+    },
+    {
+      "id": "f07",
+      "text": "I agree / don't agree that ___ because ___.",
+      "vi": "Mình đồng ý / không đồng ý rằng ... vì ...",
+      "grammarNote": "Nêu quan điểm bằng I agree / I don't agree; dùng because để nêu lý do.",
+      "examples": ["I don't agree that Tet is boring because we have many fun activities."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What does your family do to get ready for Tet?", "difficulty": 1, "kind": "personal",
+      "keywords": ["clean the house", "decorate", "cook"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại những ngày trước Tết năm ngoái: nhà em dọn dẹp, trang trí hay nấu món gì?",
+      "exampleAnswer": "We clean the house and buy flowers. My mum and I also decorate the living room with red lights.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Which festival in your area do you enjoy most?", "difficulty": 1, "kind": "personal",
+      "keywords": ["festival", "lantern", "festival goer"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một lễ hội ở khu em sống hoặc ở trường. Ở đó có hoạt động gì em thích?",
+      "exampleAnswer": "I enjoy the Mid-Autumn Festival most. There are lanterns, lion dances and lots of mooncakes.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What special food does your family eat at Tet?", "difficulty": 1, "kind": "personal",
+      "keywords": ["sticky rice cake", "spring rolls", "together"], "frameId": "f01",
+      "hintDirectionVi": "Kể tên một hoặc hai món em hay thấy trên mâm cơm ngày Tết ở nhà em.",
+      "exampleAnswer": "We eat sticky rice cakes and spring rolls. My grandma makes the best spring rolls.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Have you ever been to a traditional festival? What did you see there?", "difficulty": 1, "kind": "personal",
+      "keywords": ["boat race", "contestant", "crowded"], "frameId": "f04",
+      "hintDirectionVi": "Nhớ lại một lễ hội em từng đi, dù lớn hay nhỏ. Em thấy những hoạt động hay trò chơi nào?",
+      "exampleAnswer": "Yes, I went to a village festival last spring. I saw a boat race and many people cheering for the contestants.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why are family reunions important to many Vietnamese people?", "difficulty": 2, "kind": "reason",
+      "keywords": ["family reunion", "family bonding", "far away"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem vì sao nhiều người đi xa vẫn cố về nhà vào dịp lễ. Họ mong được làm gì?",
+      "exampleAnswer": "Many people work far from home, so reunions are a chance to see relatives, share news and feel close again.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Is it important to have good table manners at family meals? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["table manners", "respect", "older people"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về cách cư xử trong bữa ăn ở nhà em, rồi nói xem nó thể hiện điều gì với người lớn.",
+      "exampleAnswer": "Yes, it is. Good table manners show respect to older people, and they make meals more pleasant.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Why do you think many people enjoy going to local festivals?", "difficulty": 2, "kind": "reason",
+      "keywords": ["fun", "meet", "traditional games"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về không khí ở lễ hội: âm nhạc, trò chơi, đồ ăn, gặp gỡ. Điều gì làm mọi người muốn đến?",
+      "exampleAnswer": "People enjoy local festivals because they can play traditional games, eat special food and meet their neighbours.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Your foreign friend is going to have dinner with your family. Tell them about the table manners they should know.", "difficulty": 2, "kind": "situation",
+      "keywords": ["You should", "invite", "chopsticks"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về hai hoặc ba quy tắc trong bữa ăn ở nhà em mà một người nước ngoài có thể chưa biết.",
+      "exampleAnswer": "You should invite older people to eat first. Pass dishes to them with both hands.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "What does your family do together on special days?", "difficulty": 2, "kind": "personal",
+      "keywords": ["family bonding", "go out", "cook"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về sinh nhật, ngày nghỉ lễ hay ngày giỗ ông bà. Cả nhà em thường cùng nhau làm gì?",
+      "exampleAnswer": "On birthdays, we have dinner together and give each other small presents. It makes us happy.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Should children help to decorate the house before Tet? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["decorative", "learn", "responsible"], "frameId": "f03",
+      "hintDirectionVi": "Chọn có hay không. Nghĩ xem trẻ em học được gì và cảm thấy thế nào khi cùng trang trí nhà.",
+      "exampleAnswer": "Yes, they should. They learn to be responsible, and decorating together is fun for everyone.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Invite a classmate to a festival in your neighbourhood and tell them what you can do there.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Would you like to", "lanterns", "games"], "frameId": "f04",
+      "hintDirectionVi": "Mời bạn bằng một câu lịch sự, nói thời gian, rồi kể một hai hoạt động hấp dẫn ở lễ hội.",
+      "exampleAnswer": "Would you like to come to our street festival on Saturday? We can make lanterns and watch the lion dance.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Are traditional customs less important to young people today than to their grandparents? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["modern", "still", "however"], "frameId": "f03",
+      "hintDirectionVi": "So sánh cách ông bà và các bạn trẻ đón Tết hoặc lễ hội. Có điều gì thay đổi, có điều gì vẫn giữ?",
+      "exampleAnswer": "In some ways, yes. Young people are busier and use phones more. However, most of us still love Tet and family reunions.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Your school wants to start a new tradition. What would you suggest, and why?", "difficulty": 3, "kind": "situation",
+      "keywords": ["every year", "students", "together"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một hoạt động có thể làm mỗi năm và giúp học sinh, thầy cô gắn bó hơn.",
+      "exampleAnswer": "I would suggest a food fair every spring. Each class cooks a traditional dish, and everyone shares it together.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Which custom in your family would you like to keep when you grow up, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["custom", "keep", "children"], "frameId": "f05",
+      "hintDirectionVi": "Chọn một thói quen hay phong tục nhỏ trong nhà em. Vì sao em muốn sau này con cháu em cũng làm vậy?",
+      "exampleAnswer": "I'd like to keep our custom of eating dinner together every Sunday. It helps family members talk and stay close.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Some people say festivals today are too crowded and noisy. Do you agree? Why or why not?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["crowded", "festival goers", "atmosphere"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về một mặt chưa tốt và một mặt vui của lễ hội đông người, rồi nói em đồng ý đến mức nào.",
+      "exampleAnswer": "I partly agree. Some festivals are very crowded, but the noise and music are part of the happy atmosphere.", "expectsReason": true
+    }
+  ]
+}

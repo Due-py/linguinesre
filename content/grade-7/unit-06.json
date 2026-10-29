@@ -1,0 +1,172 @@
+{
+  "grade": 7,
+  "unit": 6,
+  "title": "A Visit to a School",
+  "titleVi": "Thăm một ngôi trường",
+  "topic": "Nói về ngôi trường của em: vị trí, các phòng học và tiện nghi, thời gian biểu và các hoạt động ngoài trời.",
+  "source": "Global Success 7, Unit 6 (chủ đề, từ vựng, ngữ pháp giới từ chỉ thời gian và nơi chốn)",
+  "vocab": [
+    { "id": "v01", "en": "lower secondary school", "vi": "trường trung học cơ sở", "example": "My lower secondary school has about nine hundred students." },
+    { "id": "v02", "en": "facility", "vi": "cơ sở vật chất, tiện nghi", "example": "Our school has good facilities, like a library and a sports hall." },
+    { "id": "v03", "en": "laboratory", "vi": "phòng thí nghiệm", "example": "We do science experiments in the laboratory on Thursdays." },
+    { "id": "v04", "en": "projector", "vi": "máy chiếu", "example": "Our teacher uses a projector to show us short videos." },
+    { "id": "v05", "en": "equipment", "vi": "thiết bị, dụng cụ", "example": "The music room has new equipment, like drums and speakers." },
+    { "id": "v06", "en": "outdoor", "vi": "ngoài trời", "example": "We have outdoor activities in the schoolyard every Friday." },
+    { "id": "v07", "en": "entrance exam", "vi": "kỳ thi đầu vào", "example": "My cousin is studying hard for the entrance exam." },
+    { "id": "v08", "en": "midterm", "vi": "giữa kỳ", "example": "Our midterm tests start in the second week of November." },
+    { "id": "v09", "en": "gifted", "vi": "có năng khiếu", "example": "There is a class for students gifted in maths at my school." },
+    { "id": "v10", "en": "talented", "vi": "tài năng", "example": "Nam is a talented singer, and he often performs at school." },
+    { "id": "v11", "en": "well-known", "vi": "nổi tiếng", "example": "This is a well-known school with a long history." },
+    { "id": "v12", "en": "opportunity", "vi": "cơ hội", "example": "School clubs give us the opportunity to try new things." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "My school is on ___ Street, near ___.",
+      "vi": "Trường mình ở trên đường ..., gần ...",
+      "grammarNote": "Giới từ nơi chốn: in + thành phố / khu vực, on + tên đường, near (gần), next to (bên cạnh).",
+      "examples": ["My school is on Le Loi Street, near a big supermarket."]
+    },
+    {
+      "id": "f02",
+      "text": "The ___ is next to / opposite / behind the ___.",
+      "vi": "... ở bên cạnh / đối diện / phía sau ...",
+      "grammarNote": "next to: bên cạnh; opposite: đối diện; behind: phía sau; in front of: phía trước; between A and B: giữa A và B.",
+      "examples": ["The library is opposite the computer room."]
+    },
+    {
+      "id": "f03",
+      "text": "School starts at ___ and finishes at ___.",
+      "vi": "Trường bắt đầu học lúc ... và tan học lúc ...",
+      "grammarNote": "Giới từ thời gian: at + giờ (at 7 o'clock); on + thứ / ngày (on Monday); in + tháng / năm / buổi (in the morning).",
+      "examples": ["School starts at seven o'clock and finishes at half past eleven."]
+    },
+    {
+      "id": "f04",
+      "text": "On ___, we have ___ in the ___.",
+      "vi": "Vào ..., chúng mình có ... ở ...",
+      "grammarNote": "on + thứ trong tuần; in + phòng hoặc nơi có ranh giới: in the lab, in the schoolyard.",
+      "examples": ["On Wednesdays, we have PE in the sports hall."]
+    },
+    {
+      "id": "f05",
+      "text": "My favourite place at school is the ___ because ___.",
+      "vi": "Nơi mình thích nhất ở trường là ... vì ...",
+      "grammarNote": "Dùng the trước tên phòng cụ thể trong trường: the library, the lab. because + lý do.",
+      "examples": ["My favourite place at school is the library because it is quiet and full of books."]
+    },
+    {
+      "id": "f06",
+      "text": "The ___ is on the ___ floor, next to the ___.",
+      "vi": "... ở tầng ..., bên cạnh ...",
+      "grammarNote": "on + tầng: on the ground floor, on the second floor. Thêm next to / opposite để chỉ đường rõ hơn.",
+      "examples": ["The music room is on the second floor, next to the art room."]
+    },
+    {
+      "id": "f07",
+      "text": "I think our school needs ___ because ___.",
+      "vi": "Mình nghĩ trường mình cần ... vì ...",
+      "grammarNote": "Chủ ngữ số ít (our school) đi với động từ thêm -s: needs. Dùng because để nêu lý do.",
+      "examples": ["I think our school needs more bins because there is rubbish in the yard."]
+    },
+    {
+      "id": "f08",
+      "text": "I think ___ is / are important for students because ___.",
+      "vi": "Mình nghĩ ... quan trọng với học sinh vì ...",
+      "grammarNote": "Dùng is với danh từ số ít, are với danh từ số nhiều. Nêu lý do bằng because.",
+      "examples": ["I think a school library is important for students because they can read there quietly."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Where is your school?", "difficulty": 1, "kind": "personal",
+      "keywords": ["on ... Street", "near", "in"], "frameId": "f01",
+      "hintDirectionVi": "Nói trường em ở đường nào hoặc khu nào, và gần chỗ nào dễ nhận ra (chợ, công viên, sông...).",
+      "exampleAnswer": "My school is on Nguyen Trai Street, near a small park.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What time does your school day start?", "difficulty": 1, "kind": "personal",
+      "keywords": ["at", "o'clock", "finishes"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về giờ vào học và giờ tan học của em. Nhớ dùng at trước giờ.",
+      "exampleAnswer": "My school day starts at seven o'clock and finishes at half past four.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What is your favourite place at school?", "difficulty": 1, "kind": "personal",
+      "keywords": ["library", "schoolyard", "favourite"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về nơi trong trường em thấy vui hoặc thoải mái nhất, và em hay làm gì ở đó.",
+      "exampleAnswer": "My favourite place is the schoolyard. I play football there with my friends.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What outdoor activities does your school have?", "difficulty": 1, "kind": "personal",
+      "keywords": ["outdoor", "sports day", "on Fridays"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về các hoạt động ngoài lớp học: thể thao, trồng cây, sinh hoạt dưới cờ...",
+      "exampleAnswer": "We have a sports day in March. On Fridays, we also clean the school garden.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why is the library a useful place for students?", "difficulty": 2, "kind": "reason",
+      "keywords": ["read", "quiet", "find information"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem học sinh có thể làm gì ở thư viện mà ở lớp hay ở nhà khó làm.",
+      "exampleAnswer": "Students can read and find information there. It is also a quiet place to do homework.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "What do you usually do at break time, and where?", "difficulty": 2, "kind": "personal",
+      "keywords": ["break time", "in the schoolyard", "in the canteen"], "frameId": "f04",
+      "hintDirectionVi": "Nhớ lại giờ ra chơi hôm qua: em ở đâu, với ai và làm gì?",
+      "exampleAnswer": "At break time, I usually chat with my friends in the schoolyard or buy a drink in the canteen.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Does your school need more facilities? Which ones?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["facilities", "swimming pool", "need"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về một phòng hay thiết bị mà trường em chưa có hoặc chưa đủ, và nó sẽ giúp học sinh ra sao.",
+      "exampleAnswer": "Yes, I think we need a swimming pool. Many students can't swim, and it is a useful skill.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "A visitor is lost at your school. Tell them where the library is.", "difficulty": 2, "kind": "situation",
+      "keywords": ["on the ... floor", "next to", "opposite"], "frameId": "f06",
+      "hintDirectionVi": "Chỉ đường bằng tầng và một phòng ở gần đó để người khách dễ tìm.",
+      "exampleAnswer": "The library is on the first floor, next to the computer room. Go up these stairs.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "Why do students need a science lab at school?", "difficulty": 2, "kind": "reason",
+      "keywords": ["laboratory", "experiments", "equipment"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ xem học bằng cách làm thí nghiệm khác gì so với chỉ đọc sách.",
+      "exampleAnswer": "In the lab, students can do experiments with real equipment. They understand lessons better.", "expectsReason": true
+    },
+    {
+      "id": "q10", "text": "Is it a good idea to use projectors in every class? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["projector", "videos", "interesting"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một tiết học có máy chiếu và một tiết không có. Có điểm gì hay, có điểm gì bất tiện?",
+      "exampleAnswer": "Yes. Teachers can show videos and pictures, so lessons are more interesting.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Are outdoor activities as important as classroom lessons?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["outdoor activities", "teamwork", "healthy"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ xem hoạt động ngoài trời dạy em những gì mà trong lớp khó học được.",
+      "exampleAnswer": "I think they are. Outdoor activities keep us healthy and teach us teamwork.", "expectsReason": true
+    },
+    {
+      "id": "q12", "text": "What would make your school a better place, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["more trees", "clubs", "because"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về một thay đổi nhỏ nhưng có ích: thêm cây xanh, câu lạc bộ, chỗ ngồi đọc sách...",
+      "exampleAnswer": "More trees in the schoolyard would be great. We could sit in the shade at break time.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Show a new student around your school. Describe three places.", "difficulty": 3, "kind": "situation",
+      "keywords": ["next to", "opposite", "behind"], "frameId": "f02",
+      "hintDirectionVi": "Chọn ba nơi quan trọng, nói mỗi nơi ở đâu (dùng next to, opposite, behind) và dùng để làm gì.",
+      "exampleAnswer": "This is our classroom. The canteen is behind it, and the library is opposite the canteen.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "Should schools have special classes for gifted students? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["gifted", "opportunity", "all students"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ về cả hai phía: lợi ích cho học sinh có năng khiếu và cảm nhận của các bạn khác.",
+      "exampleAnswer": "Yes, but not too many. Gifted students get more opportunities, but all students need good teachers too.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Your class is visiting another school next week. Plan the day.", "difficulty": 3, "kind": "situation",
+      "keywords": ["at", "in the morning", "in the afternoon"], "frameId": "f03",
+      "hintDirectionVi": "Sắp xếp các việc theo thời gian: đến lúc mấy giờ, buổi sáng làm gì, buổi chiều làm gì, ở đâu.",
+      "exampleAnswer": "We arrive at eight and visit the lab in the morning. In the afternoon, we play games in the yard.", "expectsReason": false
+    }
+  ]
+}

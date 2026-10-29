@@ -1,0 +1,158 @@
+{
+  "grade": 7,
+  "unit": 2,
+  "title": "Healthy Living",
+  "titleVi": "Sống khỏe",
+  "topic": "Nói về thói quen ăn uống, ngủ nghỉ, vận động của em và cách giữ cơ thể khỏe mạnh trong cuộc sống hằng ngày.",
+  "source": "Global Success 7, Unit 2 (chủ đề, từ vựng, ngữ pháp câu đơn)",
+  "vocab": [
+    { "id": "v01", "en": "healthy", "vi": "khỏe mạnh, lành mạnh", "example": "Fresh fruit is a healthy snack after school." },
+    { "id": "v02", "en": "fit", "vi": "khỏe khoắn, cân đối", "example": "My uncle swims every morning to keep fit." },
+    { "id": "v03", "en": "avoid", "vi": "tránh", "example": "I try to avoid eating too many sweets." },
+    { "id": "v04", "en": "affect", "vi": "ảnh hưởng đến", "example": "Staying up late can affect your mood the next day." },
+    { "id": "v05", "en": "vitamin", "vi": "vitamin", "example": "Oranges have a lot of vitamin C." },
+    { "id": "v06", "en": "protein", "vi": "chất đạm", "example": "Eggs and fish give us protein." },
+    { "id": "v07", "en": "tofu", "vi": "đậu phụ", "example": "My mum often cooks tofu with tomato sauce." },
+    { "id": "v08", "en": "sunburn", "vi": "sự cháy nắng", "example": "Wear a hat to avoid sunburn at the beach." },
+    { "id": "v09", "en": "chapped lips", "vi": "môi nứt nẻ", "example": "Many people get chapped lips in cold, dry weather." },
+    { "id": "v10", "en": "lip balm", "vi": "son dưỡng môi", "example": "I put on lip balm when the weather is dry." },
+    { "id": "v11", "en": "dim", "vi": "mờ, không đủ sáng", "example": "Reading in dim light is bad for your eyes." },
+    { "id": "v12", "en": "virus", "vi": "vi-rút", "example": "Washing your hands helps stop viruses from spreading." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I ___ every day to stay healthy.",
+      "vi": "Mình ... mỗi ngày để giữ sức khỏe.",
+      "grammarNote": "Câu đơn có một chủ ngữ và một động từ chính: I drink milk. to + V nêu mục đích.",
+      "examples": ["I walk to school every day to stay healthy."]
+    },
+    {
+      "id": "f02",
+      "text": "To stay healthy, you should ___ and avoid ___.",
+      "vi": "Để khỏe mạnh, bạn nên ... và tránh ...",
+      "grammarNote": "Câu đơn có thể có hai động từ chung một chủ ngữ, nối bằng and. Sau avoid dùng V-ing hoặc danh từ.",
+      "examples": ["To stay healthy, you should sleep early and avoid eating fast food."]
+    },
+    {
+      "id": "f03",
+      "text": "My favourite healthy food is ___. It has a lot of ___.",
+      "vi": "Món ăn lành mạnh mình thích nhất là ... Nó có nhiều ...",
+      "grammarNote": "Mỗi câu đơn nói một ý trọn vẹn. Ý dài thì tách thành hai câu đơn ngắn.",
+      "examples": ["My favourite healthy food is tofu. It has a lot of protein."]
+    },
+    {
+      "id": "f04",
+      "text": "___ is good for our health. It helps us ___.",
+      "vi": "... tốt cho sức khỏe. Nó giúp chúng ta ...",
+      "grammarNote": "Chủ ngữ của câu đơn có thể là V-ing: Swimming is good for us. help + người + V nguyên mẫu.",
+      "examples": ["Cycling is good for our health. It helps us keep fit."]
+    },
+    {
+      "id": "f05",
+      "text": "On sunny days, I ___ to protect my ___.",
+      "vi": "Vào những ngày nắng, mình ... để bảo vệ ...",
+      "grammarNote": "Câu đơn có thể bắt đầu bằng cụm chỉ thời gian: In winter, I wear a scarf.",
+      "examples": ["On sunny days, I wear a hat to protect my skin."]
+    },
+    {
+      "id": "f06",
+      "text": "Too much ___ can affect our ___.",
+      "vi": "Quá nhiều ... có thể ảnh hưởng đến ... của chúng ta.",
+      "grammarNote": "Câu đơn với can + V nguyên mẫu để nói khả năng. affect + danh từ: ảnh hưởng đến cái gì.",
+      "examples": ["Too much screen time can affect our eyes and our sleep."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What do you do every day to stay healthy?", "difficulty": 1, "kind": "personal",
+      "keywords": ["exercise", "drink water", "sleep"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một thói quen tốt em làm hằng ngày: ăn uống, vận động hay ngủ nghỉ.",
+      "exampleAnswer": "I drink a lot of water and walk to school every day.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What healthy food do you like?", "difficulty": 1, "kind": "personal",
+      "keywords": ["vegetables", "tofu", "vitamin"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một món rau, quả hoặc món ăn tốt cho cơ thể mà em thích ăn.",
+      "exampleAnswer": "I like fish and green vegetables. My mum cooks them for dinner.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What time do you usually go to bed?", "difficulty": 1, "kind": "personal",
+      "keywords": ["go to bed", "o'clock", "early"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại tối hôm qua em đi ngủ lúc mấy giờ, rồi nói em có ngủ đủ không.",
+      "exampleAnswer": "I usually go to bed at ten o'clock. I sleep for about eight hours.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What exercise do you do to keep fit?", "difficulty": 1, "kind": "personal",
+      "keywords": ["keep fit", "jogging", "swimming"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một môn thể thao hoặc hoạt động em hay làm để vận động cơ thể.",
+      "exampleAnswer": "I play football with my friends twice a week to keep fit.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do you think teenagers need enough sleep?", "difficulty": 2, "kind": "reason",
+      "keywords": ["tired", "focus", "grow"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem hôm nào em ngủ ít thì ngày hôm sau em học và cảm thấy thế nào.",
+      "exampleAnswer": "Teenagers need enough sleep to grow well. Without it, they feel tired and can't focus in class.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Is it healthier to play outside or stay indoors? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["outside", "indoors", "fresh air"], "frameId": "f04",
+      "hintDirectionVi": "Chọn một bên, rồi nghĩ về cơ thể và đôi mắt của em ở mỗi nơi.",
+      "exampleAnswer": "Playing outside is healthier. We can run, get fresh air and rest our eyes.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Your friend often reads in dim light. Give him some advice.", "difficulty": 2, "kind": "situation",
+      "keywords": ["dim", "eyes", "should"], "frameId": "f02",
+      "hintDirectionVi": "Nói cho bạn biết việc đó có hại gì, rồi khuyên bạn một việc nên làm thay thế.",
+      "exampleAnswer": "You shouldn't read in dim light. It is bad for your eyes. Turn on the desk lamp.", "expectsReason": false
+    },
+    {
+      "id": "q08", "text": "How do you protect your skin on sunny days?", "difficulty": 2, "kind": "personal",
+      "keywords": ["sunburn", "hat", "sun cream"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về những thứ em mặc hoặc mang theo khi ra ngoài trời nắng.",
+      "exampleAnswer": "On sunny days, I wear a hat and a long-sleeved shirt to avoid sunburn.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "Why is washing your hands a good habit?", "difficulty": 2, "kind": "reason",
+      "keywords": ["virus", "germs", "before meals"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem tay em chạm vào những gì trong ngày, và điều gì xảy ra nếu không rửa tay trước khi ăn.",
+      "exampleAnswer": "Washing your hands removes germs and viruses. It helps us avoid getting ill.", "expectsReason": true
+    },
+    {
+      "id": "q10", "text": "Is fast food bad for teenagers? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["fast food", "fat", "sometimes"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về món ăn nhanh em biết: nó có gì không tốt? Ăn bao nhiêu thì vẫn ổn?",
+      "exampleAnswer": "Fast food is OK sometimes, but too much of it can affect our health. It has lots of fat.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "How does using a phone late at night affect students?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["affect", "sleep", "tired"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về giấc ngủ và buổi học sáng hôm sau nếu tối đó em dùng điện thoại quá khuya.",
+      "exampleAnswer": "It affects their sleep. They feel tired in class the next morning.", "expectsReason": true
+    },
+    {
+      "id": "q12", "text": "Which healthy habit is the hardest for you to keep, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["hard", "habit", "because"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về một thói quen tốt em biết là nên làm nhưng hay quên hoặc ngại làm. Điều gì cản trở em?",
+      "exampleAnswer": "Going to bed early is the hardest for me. I often have a lot of homework in the evening.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Your little brother doesn't want to eat vegetables. What would you say?", "difficulty": 3, "kind": "situation",
+      "keywords": ["vitamin", "strong", "healthy"], "frameId": "f03",
+      "hintDirectionVi": "Nói với em nhỏ bằng câu ngắn, vui: rau giúp gì cho cơ thể? Có cách nào làm rau ngon hơn không?",
+      "exampleAnswer": "Vegetables have lots of vitamins. They make you strong. Let's try them with some tasty sauce!", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "Should schools teach students how to cook healthy meals? Why?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["cook", "healthy meals", "useful"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem kỹ năng nấu ăn giúp ích gì cho học sinh bây giờ và khi lớn lên.",
+      "exampleAnswer": "Yes, they should. Cooking is a useful skill. Students can make healthy food for themselves.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Plan a healthy weekend for your family. Tell us about it.", "difficulty": 3, "kind": "situation",
+      "keywords": ["go cycling", "cook", "fresh fruit"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một hoạt động vận động, một bữa ăn lành mạnh và một cách nghỉ ngơi cho cả nhà.",
+      "exampleAnswer": "On Saturday, we go cycling in the park. On Sunday, we cook vegetable soup together.", "expectsReason": false
+    }
+  ]
+}

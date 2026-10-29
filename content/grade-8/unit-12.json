@@ -1,0 +1,172 @@
+{
+  "grade": 8,
+  "unit": 12,
+  "title": "Life on Other Planets",
+  "titleVi": "Cuộc sống trên các hành tinh khác",
+  "topic": "Nói về vũ trụ và các hành tinh, sinh vật ngoài hành tinh trong trí tưởng tượng của em, điều kiện để con người sống ở nơi khác, và kể lại câu hỏi của người khác.",
+  "source": "Global Success 8, Unit 12 (chủ đề, từ vựng, câu tường thuật dạng câu hỏi)",
+  "vocab": [
+    { "id": "v01", "en": "alien", "vi": "người ngoài hành tinh", "example": "In my favourite film, a friendly alien lands in a small village." },
+    { "id": "v02", "en": "UFO", "vi": "vật thể bay không xác định", "example": "My cousin said he saw a UFO, but it was only a kite." },
+    { "id": "v03", "en": "galaxy", "vi": "thiên hà", "example": "There are billions of stars in our galaxy." },
+    { "id": "v04", "en": "gravity", "vi": "trọng lực, lực hút trái đất", "example": "Because of gravity, the ball falls back to the ground." },
+    { "id": "v05", "en": "habitable", "vi": "có thể ở được, phù hợp để ở", "example": "Scientists are looking for habitable planets far away." },
+    { "id": "v06", "en": "rocket", "vi": "tàu vũ trụ, tên lửa", "example": "We watched a video of a rocket going into space." },
+    { "id": "v07", "en": "telescope", "vi": "kính thiên văn", "example": "We looked at the moon through a telescope at the science club." },
+    { "id": "v08", "en": "creature", "vi": "sinh vật", "example": "I drew a strange creature with six legs and blue skin." },
+    { "id": "v09", "en": "possibility", "vi": "khả năng, sự có thể", "example": "Is there any possibility of life on Mars?" },
+    { "id": "v10", "en": "promising", "vi": "đầy hứa hẹn", "example": "This planet looks promising because it may have water." },
+    { "id": "v11", "en": "trace", "vi": "dấu vết", "example": "The robot found traces of ice under the ground." },
+    { "id": "v12", "en": "Mars", "vi": "sao Hỏa", "example": "Mars is called the red planet." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "___ asked me if ___.",
+      "vi": "... hỏi mình liệu ... không.",
+      "grammarNote": "Tường thuật câu hỏi Yes/No: asked + if/whether + chủ ngữ + động từ (lùi thì). Không đảo trợ động từ lên trước.",
+      "examples": ["My brother asked me if I believed in aliens."]
+    },
+    {
+      "id": "f02",
+      "text": "___ asked me what / where / why ___.",
+      "vi": "... hỏi mình cái gì / ở đâu / tại sao ...",
+      "grammarNote": "Tường thuật câu hỏi Wh-: asked + từ để hỏi + chủ ngữ + động từ (lùi thì). Bỏ do/does/did.",
+      "examples": ["My friend asked me what I would take to Mars."]
+    },
+    {
+      "id": "f03",
+      "text": "I'd like to know whether ___.",
+      "vi": "Mình muốn biết liệu ... hay không.",
+      "grammarNote": "I'd like to know + if/whether/từ để hỏi + chủ ngữ + động từ. Đây là câu hỏi gián tiếp, không đảo ngữ.",
+      "examples": ["I'd like to know whether people can grow vegetables on Mars."]
+    },
+    {
+      "id": "f04",
+      "text": "To live on another planet, people need ___ and ___.",
+      "vi": "Để sống trên hành tinh khác, con người cần ... và ...",
+      "grammarNote": "To + động từ nguyên mẫu ở đầu câu để nói mục đích. need + danh từ.",
+      "examples": ["To live on another planet, people need water and air to breathe."]
+    },
+    {
+      "id": "f05",
+      "text": "The alien in my imagination has ___, and it can ___.",
+      "vi": "Người ngoài hành tinh trong trí tưởng tượng của mình có ..., và nó có thể ...",
+      "grammarNote": "has + danh từ để tả hình dáng; can + động từ nguyên mẫu để tả khả năng.",
+      "examples": ["The alien in my imagination has three eyes and long arms, and it can fly."]
+    },
+    {
+      "id": "f06",
+      "text": "I think there is / isn't life on ___ because ___.",
+      "vi": "Mình nghĩ có / không có sự sống trên ... vì ...",
+      "grammarNote": "There is / There isn't + danh từ không đếm được (life, water, air).",
+      "examples": ["I think there isn't life on the moon because there isn't any air or water."]
+    },
+    {
+      "id": "f07",
+      "text": "I'd love to ___ one day because ___.",
+      "vi": "Một ngày nào đó mình rất muốn ... vì ...",
+      "grammarNote": "I'd love to + động từ nguyên mẫu để nói mong muốn mạnh; because để nêu lý do.",
+      "examples": ["I'd love to visit a space centre one day because I want to meet real astronauts."]
+    },
+    {
+      "id": "f08",
+      "text": "In my opinion, ___ because ___.",
+      "vi": "Theo mình, ... vì ...",
+      "grammarNote": "Mở đầu ý kiến bằng In my opinion; dùng because để nêu lý do.",
+      "examples": ["In my opinion, space films are exciting because they show places we can't visit."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Have you ever looked at the stars through a telescope?", "difficulty": 1, "kind": "personal",
+      "keywords": ["telescope", "stars", "moon"], "frameId": "f07",
+      "hintDirectionVi": "Nhớ lại một lần em ngắm sao hoặc mặt trăng, bằng kính thiên văn hay bằng mắt thường. Em thấy gì?",
+      "exampleAnswer": "No, I haven't, but I often look at the stars from my balcony. I'd love to use a real telescope.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Which planet do you find the most interesting?", "difficulty": 1, "kind": "personal",
+      "keywords": ["Mars", "Saturn", "rings"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về một hành tinh em từng đọc hoặc xem: màu sắc, vành đai, kích thước. Điều gì làm em nhớ đến nó?",
+      "exampleAnswer": "I find Saturn the most interesting. Its rings are beautiful, and it is very big.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Do you like films about aliens? What is your favourite one?", "difficulty": 1, "kind": "personal",
+      "keywords": ["alien", "film", "funny"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về một bộ phim hoặc phim hoạt hình có người ngoài hành tinh. Em nhớ nhân vật hay cảnh nào?",
+      "exampleAnswer": "Yes, I do. My favourite is a cartoon about a small alien who lives with a family. It is very funny.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Describe what an alien looks like in your imagination.", "difficulty": 1, "kind": "personal",
+      "keywords": ["has", "eyes", "can"], "frameId": "f05",
+      "hintDirectionVi": "Tưởng tượng màu da, số mắt, số chân tay và một khả năng đặc biệt của nó.",
+      "exampleAnswer": "The alien in my imagination is green and has four eyes. It can talk to animals.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Is travelling to Mars something you want to do one day? Explain why.", "difficulty": 2, "kind": "reason",
+      "keywords": ["Mars", "adventure", "dangerous"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về điều hấp dẫn của chuyến đi (khám phá, nhìn Trái Đất từ xa) và điều đáng sợ (xa nhà, nguy hiểm).",
+      "exampleAnswer": "Yes, it is. It would be a great adventure, and I want to see the Earth from space.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Do you think aliens really exist? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["galaxy", "possibility", "no proof"], "frameId": "f06",
+      "hintDirectionVi": "Chọn tin hay không tin. Nghĩ về số lượng sao rất lớn trong vũ trụ, hoặc việc chưa ai có bằng chứng.",
+      "exampleAnswer": "Yes, I think so. There are billions of stars in our galaxy, so there is a possibility of life somewhere.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Why do you think people enjoy stories about aliens and space?", "difficulty": 2, "kind": "reason",
+      "keywords": ["imagination", "mystery", "exciting"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ về cảm giác khi xem phim hoặc đọc truyện về vũ trụ: tò mò, hồi hộp, được tưởng tượng.",
+      "exampleAnswer": "Space is full of mysteries. Alien stories are exciting, and they let us use our imagination.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Yesterday your little cousin asked you three questions about space. Tell your teacher what he asked.", "difficulty": 2, "kind": "situation",
+      "keywords": ["asked me if", "asked me why", "asked me what"], "frameId": "f02",
+      "hintDirectionVi": "Tự nghĩ ra ba câu hỏi một em nhỏ hay hỏi về vũ trụ, rồi kể lại bằng asked me if / what / why và lùi thì.",
+      "exampleAnswer": "He asked me why the sky was dark at night. He also asked me if aliens were real and what stars were made of.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "What would you take with you on a long trip into space?", "difficulty": 2, "kind": "personal",
+      "keywords": ["photos", "books", "food"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về những thứ giúp em sống, học và bớt nhớ nhà trong nhiều tháng trên tàu vũ trụ.",
+      "exampleAnswer": "I would take some photos of my family, a few books and my favourite snacks.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Should countries spend money exploring space? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["explore", "discover", "problems on Earth"], "frameId": "f08",
+      "hintDirectionVi": "Cân nhắc điều con người học được từ vũ trụ và những vấn đề trên Trái Đất cũng cần tiền giải quyết.",
+      "exampleAnswer": "Yes, but not too much. Space research helps us discover new things, but we also need to solve problems on Earth.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "You meet a friendly alien in the park. Ask it some questions about its planet.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Where", "What do you eat", "Is there"], "frameId": "f03",
+      "hintDirectionVi": "Dùng các từ để hỏi khác nhau: Where, What, How. Em tò mò điều gì về nơi nó sống?",
+      "exampleAnswer": "Where is your planet? What do you eat there? Is there water? I'd like to know whether you have schools.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "What would people need to live on another planet? Give your ideas.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["water", "oxygen", "gravity", "habitable"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về những thứ trên Trái Đất giúp con người sống: không khí, nước, nhiệt độ, thức ăn.",
+      "exampleAnswer": "People would need water, oxygen and food. The planet should not be too hot or too cold, and it should have gravity.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Imagine you interviewed an astronaut. Tell your class what you asked and what the astronaut said.", "difficulty": 3, "kind": "situation",
+      "keywords": ["I asked her", "she said that", "whether"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ ra hai câu em hỏi và câu trả lời của phi hành gia, rồi kể lại bằng I asked ... và She said that ...",
+      "exampleAnswer": "I asked her if she felt scared in space. She said that she was nervous at first, but the view was amazing.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "Which is more important: exploring space or protecting the Earth? Explain why.", "difficulty": 3, "kind": "reason",
+      "keywords": ["protect", "explore", "home"], "frameId": "f08",
+      "hintDirectionVi": "Chọn một bên, rồi nghĩ xem vì sao nó cần đi trước. Có thể nói thêm hai việc liên quan nhau thế nào.",
+      "exampleAnswer": "I think protecting the Earth is more important. It is our only home now, and we can't move to Mars yet.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "How will people feel if scientists find aliens one day? Give your opinion.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["excited", "worried", "will"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ về những cảm xúc khác nhau: háo hức, tò mò, lo lắng. Vì sao mỗi nhóm người có thể cảm thấy như vậy?",
+      "exampleAnswer": "Some people will feel excited and curious. Others will feel worried because they don't know if aliens are friendly.", "expectsReason": true
+    }
+  ]
+}

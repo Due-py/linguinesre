@@ -1,0 +1,172 @@
+{
+  "grade": 10,
+  "unit": 2,
+  "title": "Humans and the Environment",
+  "titleVi": "Con người và môi trường",
+  "topic": "Nói về thói quen sống xanh của em và gia đình, kế hoạch tiết kiệm năng lượng, giảm rác thải và ý kiến của em về cách con người tác động đến môi trường.",
+  "source": "Global Success 10, Unit 2 (chủ đề, từ vựng, ngữ pháp will, be going to và câu bị động)",
+  "vocab": [
+    { "id": "v01", "en": "carbon footprint", "vi": "dấu chân cacbon (lượng khí thải cacbon)", "example": "Cycling to school is a simple way to reduce my carbon footprint." },
+    { "id": "v02", "en": "eco-friendly", "vi": "thân thiện với môi trường", "example": "We take eco-friendly bags with us when we go shopping." },
+    { "id": "v03", "en": "public transport", "vi": "giao thông công cộng", "example": "Taking public transport is cheaper and greener than going by car." },
+    { "id": "v04", "en": "refillable", "vi": "có thể làm đầy lại", "example": "I carry a refillable water bottle to school every day." },
+    { "id": "v05", "en": "organic", "vi": "hữu cơ", "example": "My aunt grows organic vegetables in her small garden." },
+    { "id": "v06", "en": "appliance", "vi": "thiết bị (điện) gia dụng", "example": "Please turn off electrical appliances when you leave the room." },
+    { "id": "v07", "en": "energy", "vi": "năng lượng", "example": "Our school is trying to save energy by using LED lights." },
+    { "id": "v08", "en": "litter", "vi": "rác thải (vứt bừa bãi)", "example": "There was a lot of litter on the beach after the holiday." },
+    { "id": "v09", "en": "lifestyle", "vi": "lối sống", "example": "A green lifestyle starts with small daily habits." },
+    { "id": "v10", "en": "awareness", "vi": "nhận thức", "example": "The poster campaign raised students' awareness of plastic waste." },
+    { "id": "v11", "en": "adopt", "vi": "theo, chọn theo (thói quen, lối sống)", "example": "My family has adopted a few green habits this year." },
+    { "id": "v12", "en": "encourage", "vi": "khuyến khích", "example": "Our teacher encourages us to walk or cycle to school." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I'm going to ___ because ___.",
+      "vi": "Mình định ... vì ...",
+      "grammarNote": "be going to + động từ nguyên mẫu: kế hoạch, dự định đã có từ trước khi nói.",
+      "examples": ["I'm going to bring a refillable bottle to school because I want to use less plastic."]
+    },
+    {
+      "id": "f02",
+      "text": "Oh, you're right! I'll ___ now.",
+      "vi": "À, bạn nói đúng! Mình sẽ ... ngay.",
+      "grammarNote": "will + động từ nguyên mẫu: quyết định ngay lúc nói, lời hứa hoặc lời đề nghị giúp đỡ.",
+      "examples": ["Oh, you're right! I'll turn off the fan now."]
+    },
+    {
+      "id": "f03",
+      "text": "I think ___ will ___ in the future because ___.",
+      "vi": "Mình nghĩ trong tương lai ... sẽ ... vì ...",
+      "grammarNote": "will + động từ nguyên mẫu để dự đoán theo ý kiến cá nhân: I think / I believe ... will ...",
+      "examples": ["I think more people will use public transport in the future because the roads are too crowded."]
+    },
+    {
+      "id": "f04",
+      "text": "In my area, ___ is / are ___.",
+      "vi": "Ở khu mình, ... được ...",
+      "grammarNote": "Bị động hiện tại đơn: is/are + V3/V-ed. Dùng khi việc được làm quan trọng hơn người làm.",
+      "examples": ["In my area, rubbish is collected every evening, and plastic bottles are sorted for recycling."]
+    },
+    {
+      "id": "f05",
+      "text": "Last ___, ___ was / were ___ at my school.",
+      "vi": "... vừa rồi, ở trường mình ... đã được ...",
+      "grammarNote": "Bị động quá khứ đơn: was/were + V3/V-ed, cho việc đã được làm trong quá khứ.",
+      "examples": ["Last month, fifty trees were planted at my school."]
+    },
+    {
+      "id": "f06",
+      "text": "Let's ___. It will help ___.",
+      "vi": "Mình cùng ... nhé. Việc đó sẽ giúp ...",
+      "grammarNote": "Let's + động từ nguyên mẫu để rủ, gợi ý; will + động từ nguyên mẫu để nói kết quả dự đoán.",
+      "examples": ["Let's take the bus this weekend. It will help reduce air pollution."]
+    },
+    {
+      "id": "f07",
+      "text": "At home, I always ___ and ___.",
+      "vi": "Ở nhà, em luôn ... và ...",
+      "grammarNote": "always + động từ ở hiện tại đơn để nói thói quen hằng ngày.",
+      "examples": ["At home, I always unplug my charger and sort plastic bottles for recycling."]
+    },
+    {
+      "id": "f08",
+      "text": "I usually ___ to school. It takes about ___.",
+      "vi": "Em thường ... đến trường. Mất khoảng ...",
+      "grammarNote": "Hiện tại đơn cho thói quen; It takes + khoảng thời gian: mất bao lâu.",
+      "examples": ["I usually walk to school. It takes about ten minutes."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What green habits do you already have at home?", "difficulty": 1, "kind": "personal",
+      "keywords": ["turn off", "refillable", "recycle"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về những việc nhỏ em làm mỗi ngày để tiết kiệm điện, nước hoặc giảm đồ nhựa.",
+      "exampleAnswer": "I always turn off the lights when I leave a room, and I use a refillable water bottle.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "How do you usually get to school?", "difficulty": 1, "kind": "personal",
+      "keywords": ["cycle", "walk", "public transport"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ về phương tiện em dùng mỗi ngày, quãng đường từ nhà đến trường và thời gian đi.",
+      "exampleAnswer": "I usually cycle to school. It takes about fifteen minutes, and it is good for my health.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What are you going to do this week to save energy?", "difficulty": 1, "kind": "personal",
+      "keywords": ["going to", "save energy", "unplug"], "frameId": "f01",
+      "hintDirectionVi": "Chọn một thiết bị điện em dùng nhiều mỗi ngày và nghĩ cách dùng nó ít đi.",
+      "exampleAnswer": "I'm going to unplug my phone charger when I'm not using it and turn off the fan when I go out.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "How is rubbish collected in your neighbourhood?", "difficulty": 1, "kind": "personal",
+      "keywords": ["collected", "every evening", "sorted"], "frameId": "f04",
+      "hintDirectionVi": "Nhớ lại cảnh thu gom rác ở khu em sống: vào giờ nào, bằng xe gì, rác có được phân loại không.",
+      "exampleAnswer": "In my area, rubbish is collected every evening by a truck. Plastic and paper are sometimes sorted for recycling.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why should people bring their own bags when they go shopping?", "difficulty": 2, "kind": "reason",
+      "keywords": ["plastic bags", "eco-friendly", "waste"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem một chiếc túi nilon được dùng bao lâu rồi đi đâu, và túi mang theo thì khác ở điểm nào.",
+      "exampleAnswer": "Plastic bags are thrown away after one use, and they take years to break down. Our own bags can be used again and again.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "What has your class or school done for the environment recently?", "difficulty": 2, "kind": "personal",
+      "keywords": ["planted", "collected", "cleaned"], "frameId": "f05",
+      "hintDirectionVi": "Nhớ lại một hoạt động gần đây của lớp hoặc trường: trồng cây, dọn vệ sinh, thu gom giấy cũ...",
+      "exampleAnswer": "Last month, some trees were planted around our school yard, and old paper was collected from every class for recycling.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Is it easy for teenagers to live a green lifestyle? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["lifestyle", "habits", "convenient"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một việc xanh dễ làm và một việc khó làm với học sinh, rồi nêu ý kiến chung của em.",
+      "exampleAnswer": "Some things are easy, like saving water. But plastic is everywhere, so it's hard to avoid it completely.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Will more people in your town use public transport in the future? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["public transport", "traffic jams", "will"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về giao thông ở nơi em sống bây giờ: kẹt xe, xe buýt, đường sá. Điều đó sẽ khiến người ta chọn gì?",
+      "exampleAnswer": "I think they will. Traffic jams are getting worse, and buses are becoming more comfortable, so more people will take them.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Your friend reminds you that you left the classroom fan on. Respond and promise to change.", "difficulty": 2, "kind": "situation",
+      "keywords": ["You're right", "I'll", "turn off"], "frameId": "f02",
+      "hintDirectionVi": "Cảm ơn bạn đã nhắc, nói em sẽ làm gì ngay, rồi hứa một điều cho lần sau.",
+      "exampleAnswer": "Oh, you're right! I'll turn it off now. Thanks for reminding me. I'll check the fans and lights every afternoon from now on.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Why do you think some people still drop litter in public places?", "difficulty": 2, "kind": "reason",
+      "keywords": ["litter", "awareness", "bins"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về hai phía: ý thức của người vứt rác và điều kiện ở nơi công cộng như thùng rác.",
+      "exampleAnswer": "I think some people lack awareness. They don't see the harm, and there aren't enough bins in some places.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Your family is planning a weekend trip. Suggest a greener way to travel.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Let's", "public transport", "carbon footprint"], "frameId": "f06",
+      "hintDirectionVi": "Chọn một phương tiện ít khói thải hơn, rồi nói thêm một điều hay của nó để cả nhà dễ đồng ý.",
+      "exampleAnswer": "Let's take the train instead of the car. It will reduce our carbon footprint, and we can relax and enjoy the view.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "What will our planet be like in 2050 if people don't change their lifestyles?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["hotter", "resources", "run out"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về thời tiết, rác thải và tài nguyên hiện nay, rồi tưởng tượng chúng sẽ ra sao nếu không ai thay đổi.",
+      "exampleAnswer": "I think the planet will be much hotter, and many natural resources will run out. There will also be more floods and storms.", "expectsReason": false
+    },
+    {
+      "id": "q13", "text": "Why is it important to raise young people's awareness of environmental issues?", "difficulty": 3, "kind": "reason",
+      "keywords": ["awareness", "future", "habits"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem người trẻ sẽ sống trên Trái Đất bao lâu nữa và thói quen hình thành từ nhỏ ảnh hưởng thế nào.",
+      "exampleAnswer": "Young people will live on this planet the longest. If they understand the issues now, they will build green habits and teach others.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Should single-use plastic be banned at schools? Explain your view.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["single-use", "refillable", "get used to"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem học sinh dùng những đồ nhựa nào ở trường và có thể thay bằng gì. Việc cấm có khó không?",
+      "exampleAnswer": "Yes, I think so. Students can bring refillable bottles and lunch boxes. It will be hard at first, but people will get used to it.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "You are going to start a green club at school. Tell your classmates about your plans.", "difficulty": 3, "kind": "situation",
+      "keywords": ["going to", "plant trees", "collect"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ ra hai hoặc ba hoạt động cụ thể cho câu lạc bộ và nói chúng sẽ diễn ra khi nào.",
+      "exampleAnswer": "I'm going to start a green club. We're going to collect old paper every month and plant trees, and we'll hold a no-plastic day.", "expectsReason": false
+    }
+  ]
+}

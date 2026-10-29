@@ -1,0 +1,172 @@
+{
+  "grade": 7,
+  "unit": 9,
+  "title": "Festivals Around the World",
+  "titleVi": "Lễ hội trên thế giới",
+  "topic": "Nói về các lễ hội em biết hoặc đã tham gia, mọi người làm gì trong lễ hội, và hỏi bạn bè về lễ hội bằng câu hỏi Yes/No.",
+  "source": "Global Success 7, Unit 9 (chủ đề, từ vựng, ngữ pháp câu hỏi Yes / No)",
+  "vocab": [
+    { "id": "v01", "en": "celebrate", "vi": "kỷ niệm, tổ chức lễ", "example": "We celebrate Tet with our grandparents every year." },
+    { "id": "v02", "en": "costume", "vi": "trang phục (hóa trang, biểu diễn)", "example": "The children wore animal costumes in the parade." },
+    { "id": "v03", "en": "decorate", "vi": "trang trí", "example": "We decorate our house with flowers before Tet." },
+    { "id": "v04", "en": "feast", "vi": "bữa tiệc, bữa cỗ", "example": "My family has a big feast on the first day of the new year." },
+    { "id": "v05", "en": "fireworks display", "vi": "màn bắn pháo hoa", "example": "Thousands of people watched the fireworks display by the river." },
+    { "id": "v06", "en": "folk dance", "vi": "điệu múa dân gian", "example": "Girls in long dresses performed a folk dance on the stage." },
+    { "id": "v07", "en": "parade", "vi": "cuộc diễu hành", "example": "There was a colourful parade through the town centre." },
+    { "id": "v08", "en": "perform", "vi": "biểu diễn", "example": "Our school band performed at the festival." },
+    { "id": "v09", "en": "take part in", "vi": "tham gia", "example": "I took part in a lantern parade last autumn." },
+    { "id": "v10", "en": "symbol", "vi": "biểu tượng", "example": "The peach blossom is a symbol of Tet in the north." },
+    { "id": "v11", "en": "Mid-Autumn Festival", "vi": "Tết Trung thu", "example": "Children carry star lanterns at the Mid-Autumn Festival." },
+    { "id": "v12", "en": "disappointing", "vi": "đáng thất vọng", "example": "The rain made the outdoor show a bit disappointing." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "Did you ___ at the festival? Yes, I did. / No, I didn't.",
+      "vi": "Bạn có ... ở lễ hội không? Có. / Không.",
+      "grammarNote": "Câu hỏi Yes / No ở quá khứ: Did + chủ ngữ + V nguyên mẫu? Trả lời ngắn: Yes, I did / No, I didn't.",
+      "examples": ["Did you watch the parade at the festival? Yes, I did. It was fantastic."]
+    },
+    {
+      "id": "f02",
+      "text": "Do you ___ at Tet? Yes, we do. We ___.",
+      "vi": "Nhà bạn có ... vào dịp Tết không? Có. Nhà mình ...",
+      "grammarNote": "Câu hỏi Yes / No ở hiện tại: Do / Does + chủ ngữ + V? Trả lời ngắn rồi nói thêm một câu.",
+      "examples": ["Do you make banh chung at Tet? Yes, we do. We make it with my grandparents."]
+    },
+    {
+      "id": "f03",
+      "text": "Is ___ popular in ___? Yes, it is. People ___.",
+      "vi": "... có phổ biến ở ... không? Có. Mọi người ...",
+      "grammarNote": "Câu hỏi với be: Is / Are + chủ ngữ + ...? Trả lời: Yes, it is / No, it isn't.",
+      "examples": ["Is the Mid-Autumn Festival popular in Viet Nam? Yes, it is. People eat mooncakes and watch the moon."]
+    },
+    {
+      "id": "f04",
+      "text": "My favourite festival is ___. People celebrate it by ___.",
+      "vi": "Lễ hội mình thích nhất là ... Mọi người đón lễ bằng cách ...",
+      "grammarNote": "celebrate + by + V-ing: kỷ niệm bằng cách làm gì. People celebrate it by dancing.",
+      "examples": ["My favourite festival is Tet. People celebrate it by visiting relatives and giving lucky money."]
+    },
+    {
+      "id": "f05",
+      "text": "Last ___, I took part in ___ and I ___.",
+      "vi": "... trước, mình đã tham gia ... và mình ...",
+      "grammarNote": "take part in → took part in (quá khứ). Kể lại sự việc đã xong bằng thì quá khứ đơn.",
+      "examples": ["Last year, I took part in a lantern parade and I carried a fish lantern."]
+    },
+    {
+      "id": "f06",
+      "text": "Can we ___ at the festival? Yes, we can. We can also ___.",
+      "vi": "Ở lễ hội chúng ta có thể ... không? Có. Chúng ta còn có thể ...",
+      "grammarNote": "Câu hỏi Yes / No với can: Can + chủ ngữ + V nguyên mẫu? Trả lời: Yes, we can / No, we can't.",
+      "examples": ["Can we wear costumes at the festival? Yes, we can. We can also join the folk dance."]
+    },
+    {
+      "id": "f07",
+      "text": "I think ___ is / are ___ because ___.",
+      "vi": "Mình nghĩ ... thì ... vì ...",
+      "grammarNote": "Nêu ý kiến bằng I think. Dùng is với danh từ số ít, are với danh từ số nhiều; because để nêu lý do.",
+      "examples": ["I think festivals are fun because people can dance and sing together."]
+    },
+    {
+      "id": "f08",
+      "text": "I think we should ___ because ___.",
+      "vi": "Mình nghĩ chúng ta nên ... vì ...",
+      "grammarNote": "should + động từ nguyên mẫu để nêu ý kiến hoặc lời khuyên.",
+      "examples": ["I think we should teach children folk games because they are part of our culture."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What is your favourite festival?", "difficulty": 1, "kind": "personal",
+      "keywords": ["Tet", "Mid-Autumn Festival", "celebrate"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về lễ hội hoặc ngày lễ em mong chờ nhất trong năm, rồi nói một việc mọi người làm vào dịp đó.",
+      "exampleAnswer": "My favourite festival is the Mid-Autumn Festival. I love the lanterns and the mooncakes.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Do you decorate your house for Tet?", "difficulty": 1, "kind": "personal",
+      "keywords": ["Yes, we do", "decorate", "flowers"], "frameId": "f02",
+      "hintDirectionVi": "Trả lời ngắn Yes, we do hoặc No, we don't, rồi kể nhà em trang trí bằng gì.",
+      "exampleAnswer": "Yes, we do. We decorate the house with peach blossoms and red lanterns.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Did you watch a fireworks display last year?", "difficulty": 1, "kind": "personal",
+      "keywords": ["Yes, I did", "fireworks display", "beautiful"], "frameId": "f01",
+      "hintDirectionVi": "Trả lời ngắn bằng Yes, I did hoặc No, I didn't, rồi nói thêm em xem ở đâu hoặc cảm thấy thế nào.",
+      "exampleAnswer": "Yes, I did. I watched it on TV with my family on New Year's Eve.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What do you eat during the Mid-Autumn Festival?", "difficulty": 1, "kind": "personal",
+      "keywords": ["mooncakes", "fruit", "tea"], "frameId": "f04",
+      "hintDirectionVi": "Nhớ lại đêm Trung thu năm ngoái: trên mâm cỗ có những gì?",
+      "exampleAnswer": "We eat mooncakes and lots of fruit. My grandpa also drinks green tea with them.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do people around the world celebrate festivals?", "difficulty": 2, "kind": "reason",
+      "keywords": ["celebrate", "together", "tradition"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ xem lễ hội mang lại gì cho mọi người: niềm vui, sự gắn kết hay việc nhớ về truyền thống.",
+      "exampleAnswer": "Festivals bring people together. They also help people remember their history and traditions.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Tell me about a festival you took part in.", "difficulty": 2, "kind": "personal",
+      "keywords": ["took part in", "parade", "performed"], "frameId": "f05",
+      "hintDirectionVi": "Kể tên lễ hội, thời gian, và một việc em đã làm ở đó. Dùng động từ quá khứ.",
+      "exampleAnswer": "Last year, I took part in a flower festival in my town. I performed a folk dance with my class.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Are festivals important for children? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["fun", "learn", "culture"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về những điều trẻ em học được và cảm nhận được khi tham gia lễ hội.",
+      "exampleAnswer": "Yes, they are. Children have fun and learn about their culture at festivals.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Your friend went to a festival. Ask them two Yes/No questions.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Did you", "Was it", "Were there"], "frameId": "f01",
+      "hintDirectionVi": "Đặt hai câu hỏi bắt đầu bằng Did, Was hoặc Were về những gì bạn đã xem, đã làm hoặc cảm thấy.",
+      "exampleAnswer": "Did you watch the parade? Did you wear a costume?", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "Why do people wear costumes at some festivals?", "difficulty": 2, "kind": "reason",
+      "keywords": ["costume", "fun", "symbol"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem trang phục đặc biệt làm lễ hội trở nên thế nào, và nó có ý nghĩa gì.",
+      "exampleAnswer": "Costumes make festivals colourful and fun. Some costumes are also symbols of old stories.", "expectsReason": true
+    },
+    {
+      "id": "q10", "text": "Is it more fun to celebrate at home or in a crowd?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["at home", "crowded", "exciting"], "frameId": "f07",
+      "hintDirectionVi": "So sánh không khí ấm cúng ở nhà và sự náo nhiệt ở nơi đông người. Em thích bên nào hơn?",
+      "exampleAnswer": "I think celebrating in a crowd is more exciting. However, it is noisy, so I sometimes prefer home.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Should schools hold more festival activities? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["school festival", "students", "culture"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ về lợi ích cho học sinh và những điều cần cân nhắc như thời gian học.",
+      "exampleAnswer": "Yes. Students can learn about culture and work together. But it shouldn't take too much study time.", "expectsReason": true
+    },
+    {
+      "id": "q12", "text": "Which festival abroad would you like to join, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["would like to", "parade", "because"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một lễ hội nước ngoài em từng xem qua phim, ảnh hay sách. Điều gì ở đó thu hút em?",
+      "exampleAnswer": "I'd like to join a Halloween party because I want to wear a funny costume and carve a pumpkin.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "A foreign student asks about the Mid-Autumn Festival. Describe it.", "difficulty": 3, "kind": "situation",
+      "keywords": ["lanterns", "mooncakes", "lion dance"], "frameId": "f03",
+      "hintDirectionVi": "Nói lễ hội diễn ra khi nào, mọi người làm gì, ăn gì và vì sao trẻ em thích nó.",
+      "exampleAnswer": "It is in autumn. Children carry lanterns, watch lion dances and eat mooncakes under the full moon.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "Should we keep old festival traditions or change them? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["tradition", "keep", "modern"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ về một phong tục lễ hội vẫn rất hay và một phong tục có thể thay đổi cho hợp với ngày nay.",
+      "exampleAnswer": "We should keep the main traditions because they are part of our culture. Small changes are OK.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Your class is planning a festival. Ask your teacher some Yes/No questions.", "difficulty": 3, "kind": "situation",
+      "keywords": ["Can we", "Is it", "Do we"], "frameId": "f06",
+      "hintDirectionVi": "Đặt câu hỏi lịch sự với Can we, Do we hoặc Is it về thời gian, địa điểm và hoạt động.",
+      "exampleAnswer": "Can we have the festival in the schoolyard? Do we need to wear costumes?", "expectsReason": false
+    }
+  ]
+}

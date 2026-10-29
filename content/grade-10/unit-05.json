@@ -1,0 +1,172 @@
+{
+  "grade": 10,
+  "unit": 5,
+  "title": "Inventions",
+  "titleVi": "Các phát minh",
+  "topic": "Nói về các phát minh và thiết bị công nghệ em dùng hằng ngày, chúng giúp ích cho em ra sao và em mong có phát minh mới nào.",
+  "source": "Global Success 10, Unit 5 (chủ đề, từ vựng, ngữ pháp hiện tại hoàn thành, danh động từ và to-infinitive)",
+  "vocab": [
+    { "id": "v01", "en": "invention", "vi": "phát minh", "example": "The washing machine is a very useful invention." },
+    { "id": "v02", "en": "device", "vi": "thiết bị", "example": "A smartwatch is a small device that counts your steps." },
+    { "id": "v03", "en": "smartphone", "vi": "điện thoại thông minh", "example": "I use my smartphone to check my timetable." },
+    { "id": "v04", "en": "app", "vi": "ứng dụng (trên điện thoại)", "example": "This dictionary app helps me learn new words." },
+    { "id": "v05", "en": "laptop", "vi": "máy tính xách tay", "example": "I take my laptop to the library to work on my projects." },
+    { "id": "v06", "en": "install", "vi": "cài (phần mềm, ứng dụng)", "example": "I've just installed a new app for learning maths." },
+    { "id": "v07", "en": "charge", "vi": "sạc pin", "example": "Don't forget to charge your phone before the trip." },
+    { "id": "v08", "en": "e-reader", "vi": "thiết bị đọc sách điện tử", "example": "An e-reader can store hundreds of books." },
+    { "id": "v09", "en": "driverless", "vi": "không người lái", "example": "Driverless cars may be common in big cities one day." },
+    { "id": "v10", "en": "artificial intelligence (AI)", "vi": "trí tuệ nhân tạo", "example": "Some apps use artificial intelligence to check your pronunciation." },
+    { "id": "v11", "en": "3D printing", "vi": "in ba chiều", "example": "Our science teacher showed us how 3D printing works." },
+    { "id": "v12", "en": "storage space", "vi": "dung lượng lưu trữ", "example": "My phone has no storage space left for new photos." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I've ___ for / since ___.",
+      "vi": "Mình đã ... được ... / từ ...",
+      "grammarNote": "Hiện tại hoàn thành (have/has + V3) với for/since: việc bắt đầu trong quá khứ và vẫn còn đến nay. Cũng dùng cho thay đổi: has changed.",
+      "examples": ["I've used this laptop for two years.", "The Internet has changed the way we study."]
+    },
+    {
+      "id": "f02",
+      "text": "I've never ___, but I'd like to ___.",
+      "vi": "Mình chưa bao giờ ..., nhưng mình muốn ...",
+      "grammarNote": "Hiện tại hoàn thành với ever/never để nói về trải nghiệm; would like + to + động từ nguyên mẫu.",
+      "examples": ["I've never ridden in a driverless car, but I'd like to try it one day."]
+    },
+    {
+      "id": "f03",
+      "text": "___ is useful for ___.",
+      "vi": "... rất hữu ích cho việc ...",
+      "grammarNote": "Sau giới từ (for, by, without, at) dùng danh động từ V-ing: useful for reading.",
+      "examples": ["My e-reader is useful for reading at night without a light."]
+    },
+    {
+      "id": "f04",
+      "text": "I use ___ to ___.",
+      "vi": "Mình dùng ... để ...",
+      "grammarNote": "to + động từ nguyên mẫu chỉ mục đích: I use my phone to set alarms.",
+      "examples": ["I use a translation app to check new words."]
+    },
+    {
+      "id": "f05",
+      "text": "I want to invent ___ because I hate ___.",
+      "vi": "Mình muốn phát minh ra ... vì mình ghét ...",
+      "grammarNote": "want, hope, decide + to V; enjoy, avoid, hate, mind + V-ing.",
+      "examples": ["I want to invent a robot that folds clothes because I hate doing it myself."]
+    },
+    {
+      "id": "f06",
+      "text": "Have you tried ___? It's great for ___.",
+      "vi": "Bạn đã thử ... chưa? Nó rất hợp để ...",
+      "grammarNote": "Have you (ever) tried + danh từ/V-ing? hỏi về trải nghiệm bằng hiện tại hoàn thành; great for + V-ing.",
+      "examples": ["Have you tried this note-taking app? It's great for organising homework."]
+    },
+    {
+      "id": "f07",
+      "text": "I think ___ will ___ because ___.",
+      "vi": "Em nghĩ ... sẽ ... vì ...",
+      "grammarNote": "will + động từ nguyên mẫu để dự đoán tương lai; because + mệnh đề để nêu lý do.",
+      "examples": ["I think robots will do more housework because they are getting cheaper."]
+    },
+    {
+      "id": "f08",
+      "text": "Some people avoid ___ because ___.",
+      "vi": "Một số người tránh ... vì ...",
+      "grammarNote": "avoid + V-ing: tránh làm gì.",
+      "examples": ["Some people avoid using online banking because they are afraid of losing money."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What devices do you use every day?", "difficulty": 1, "kind": "personal",
+      "keywords": ["smartphone", "laptop", "device"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về những máy móc, thiết bị em chạm vào từ sáng đến tối, và em dùng mỗi thứ để làm gì.",
+      "exampleAnswer": "I use my smartphone to call my parents and a laptop to do my homework. I also use an alarm clock.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "How long have you had your phone or computer?", "difficulty": 1, "kind": "personal",
+      "keywords": ["for", "since", "have had"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại em bắt đầu dùng thiết bị đó từ khi nào, rồi nói bằng for hoặc since.",
+      "exampleAnswer": "I've had my laptop for three years. My dad gave it to me when I started secondary school.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What is your favourite app, and what do you use it for?", "difficulty": 1, "kind": "personal",
+      "keywords": ["app", "install", "use it to"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về ứng dụng em mở nhiều nhất trong tuần, và nó giúp em làm việc gì.",
+      "exampleAnswer": "My favourite app is a dictionary app. I use it to look up new words and practise pronunciation.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Have you tried any new technology recently?", "difficulty": 1, "kind": "personal",
+      "keywords": ["tried", "recently", "amazing"], "frameId": "f02",
+      "hintDirectionVi": "Nhớ lại một thiết bị hoặc ứng dụng mới em vừa thử ở nhà, ở trường hay ở hội chợ. Cảm giác thế nào?",
+      "exampleAnswer": "Yes, I have. I've tried a VR headset at a science fair. It felt like I was inside a game.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do you think smartphones have become so popular among teenagers?", "difficulty": 2, "kind": "reason",
+      "keywords": ["communicate", "useful for", "apps"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem một chiếc điện thoại giúp người trẻ làm được bao nhiêu việc khác nhau mỗi ngày.",
+      "exampleAnswer": "They have become popular because they are useful for almost everything: chatting, studying, taking photos and listening to music.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Which invention in your home would be hardest for you to live without?", "difficulty": 2, "kind": "personal",
+      "keywords": ["invention", "live without", "useful for"], "frameId": "f03",
+      "hintDirectionVi": "Tưởng tượng một ngày trong nhà mất đi một thiết bị. Thiếu thứ nào em sẽ thấy khó khăn nhất?",
+      "exampleAnswer": "The fridge would be hardest to live without. It's useful for keeping food fresh, especially in hot weather.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Are e-readers better than paper books? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["e-reader", "store", "eyes"], "frameId": "f03",
+      "hintDirectionVi": "So sánh hai cách đọc về sự tiện lợi, cảm giác khi đọc và ảnh hưởng đến mắt, rồi chọn một bên.",
+      "exampleAnswer": "I prefer paper books. E-readers are useful for storing many books, but reading on paper is more relaxing for my eyes.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Should students be allowed to use AI apps for homework? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["artificial intelligence", "check ideas", "learn"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về cách dùng AI có ích cho việc học và cách dùng khiến học sinh không tự học được gì.",
+      "exampleAnswer": "Yes, but only to check ideas. If students use AI to write everything, they won't learn anything themselves.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Recommend a useful app to a friend who wants to learn English.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Have you tried", "great for", "free"], "frameId": "f06",
+      "hintDirectionVi": "Chọn một ứng dụng em biết, rồi nói một hoặc hai điểm hay của nó cho việc học tiếng Anh.",
+      "exampleAnswer": "Have you tried this vocabulary app? It's great for learning new words, and it's free to install.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Why is it important to read the instructions before using a new device?", "difficulty": 2, "kind": "reason",
+      "keywords": ["instructions", "safely", "damage"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem chuyện gì có thể xảy ra nếu em bấm thử lung tung một thiết bị mới.",
+      "exampleAnswer": "Reading the instructions helps us use the device safely. Without reading them, we might press the wrong button and damage it.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "An older relative wants to make a video call. Tell them the first steps.", "difficulty": 2, "kind": "situation",
+      "keywords": ["install", "press", "button"], "frameId": "f04",
+      "hintDirectionVi": "Chia việc thành các bước ngắn, dùng first, then, finally, và nói chậm, rõ như đang hướng dẫn thật.",
+      "exampleAnswer": "First, install the app on your phone. Then open it, choose my name, and press the green button to start the call.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Will driverless cars make roads safer in the future? Explain your view.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["driverless", "accidents", "mistakes"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về nguyên nhân gây tai nạn giao thông hiện nay, rồi xem máy tính có tránh được những lỗi đó không.",
+      "exampleAnswer": "I think they will. Computers don't get tired or use their phones while driving, so there may be fewer accidents.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Why do some people avoid using new technology?", "difficulty": 3, "kind": "reason",
+      "keywords": ["avoid", "difficult", "worried"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ về những người lớn tuổi em biết: điều gì làm họ ngại dùng điện thoại hay ứng dụng mới?",
+      "exampleAnswer": "Some people avoid using new technology because it seems difficult to learn. Others are worried about losing their personal information.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "In your opinion, what is the most important invention of the last 100 years, and why?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["has changed", "communicate", "information"], "frameId": "f03",
+      "hintDirectionVi": "Chọn một phát minh mà em thấy cuộc sống sẽ rất khác nếu không có nó, rồi nói nó đã thay đổi điều gì.",
+      "exampleAnswer": "I think it's the Internet. It has changed how we study, work and communicate, and it has made information easy to find.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "You are presenting your own invention idea to the class. Describe what it does and why it's useful.", "difficulty": 3, "kind": "situation",
+      "keywords": ["want to invent", "useful for", "save time"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về một việc em thấy phiền mỗi ngày, rồi tưởng tượng một máy móc làm việc đó thay em.",
+      "exampleAnswer": "I want to invent a smart schoolbag that follows you. It's useful for students who carry heavy books and walk a long way.", "expectsReason": true
+    }
+  ]
+}

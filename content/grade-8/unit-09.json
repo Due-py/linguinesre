@@ -1,0 +1,172 @@
+{
+  "grade": 8,
+  "unit": 9,
+  "title": "Natural Disasters",
+  "titleVi": "Thiên tai",
+  "topic": "Nói về các loại thiên tai, việc cần làm trước, trong và sau thiên tai để giữ an toàn, và cách giúp đỡ những người bị ảnh hưởng.",
+  "source": "Global Success 8, Unit 9 (chủ đề, từ vựng, thì quá khứ tiếp diễn)",
+  "vocab": [
+    { "id": "v01", "en": "natural disaster", "vi": "thiên tai", "example": "Floods are a common natural disaster in central Viet Nam." },
+    { "id": "v02", "en": "storm", "vi": "cơn bão", "example": "The storm brought strong winds and heavy rain." },
+    { "id": "v03", "en": "earthquake", "vi": "trận động đất", "example": "During an earthquake, you should get under a strong table." },
+    { "id": "v04", "en": "landslide", "vi": "vụ sạt lở đất", "example": "The road to the village was closed because of a landslide." },
+    { "id": "v05", "en": "emergency kit", "vi": "bộ dụng cụ dùng khi khẩn cấp", "example": "Our emergency kit has a torch, water and some bandages." },
+    { "id": "v06", "en": "rescue worker", "vi": "nhân viên cứu hộ", "example": "Rescue workers helped people move to a safe place." },
+    { "id": "v07", "en": "damage", "vi": "thiệt hại, gây hư hại", "example": "The strong wind damaged many trees in our street." },
+    { "id": "v08", "en": "destroy", "vi": "phá hủy", "example": "The flood destroyed the bridge near the river." },
+    { "id": "v09", "en": "warn", "vi": "cảnh báo", "example": "The radio warned people to stay at home." },
+    { "id": "v10", "en": "predict", "vi": "dự đoán", "example": "Scientists can predict storms a few days before they come." },
+    { "id": "v11", "en": "shake", "vi": "rung, lắc", "example": "The windows started to shake in the strong wind." },
+    { "id": "v12", "en": "victim", "vi": "nạn nhân", "example": "Our school sent books and clothes to flood victims." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "When the rain started, I was ___ and my friends were ___.",
+      "vi": "Khi trời bắt đầu mưa, mình đang ... còn các bạn mình đang ...",
+      "grammarNote": "Quá khứ tiếp diễn (was/were + V-ing) cho việc đang diễn ra; quá khứ đơn cho việc xảy ra xen vào.",
+      "examples": ["When the rain started, I was walking home and my friends were playing football."]
+    },
+    {
+      "id": "f02",
+      "text": "At ___ yesterday, I was ___.",
+      "vi": "Vào lúc ... hôm qua, mình đang ...",
+      "grammarNote": "Quá khứ tiếp diễn diễn tả việc đang xảy ra tại một thời điểm cụ thể trong quá khứ.",
+      "examples": ["At seven o'clock yesterday, I was having dinner with my family."]
+    },
+    {
+      "id": "f03",
+      "text": "While I was ___, I heard ___.",
+      "vi": "Trong lúc mình đang ..., mình nghe thấy ...",
+      "grammarNote": "While + quá khứ tiếp diễn cho việc đang kéo dài; mệnh đề kia dùng quá khứ đơn cho việc xen vào.",
+      "examples": ["While I was doing my homework, I heard loud thunder outside."]
+    },
+    {
+      "id": "f04",
+      "text": "Before a storm, people should ___ because ___.",
+      "vi": "Trước một cơn bão, mọi người nên ... vì ...",
+      "grammarNote": "should + động từ nguyên mẫu để khuyên; because + mệnh đề để nêu lý do.",
+      "examples": ["Before a storm, people should buy enough food and water because the shops may close."]
+    },
+    {
+      "id": "f05",
+      "text": "An emergency kit should have ___, ___ and ___.",
+      "vi": "Một bộ đồ dùng khẩn cấp nên có ..., ... và ...",
+      "grammarNote": "Liệt kê nhiều thứ: dùng dấu phẩy giữa các thứ và and trước thứ cuối cùng.",
+      "examples": ["An emergency kit should have a torch, bottled water and a first-aid box."]
+    },
+    {
+      "id": "f06",
+      "text": "I think ___ is the most dangerous disaster because it can ___.",
+      "vi": "Mình nghĩ ... là thiên tai nguy hiểm nhất vì nó có thể ...",
+      "grammarNote": "the most + tính từ dài để so sánh nhất; can + động từ nguyên mẫu để nói khả năng.",
+      "examples": ["I think a landslide is the most dangerous disaster because it can happen very suddenly."]
+    },
+    {
+      "id": "f07",
+      "text": "Where I live, we often have ___ in ___.",
+      "vi": "Ở nơi mình sống, chúng mình thường có ... vào ...",
+      "grammarNote": "Hiện tại đơn với often để nói điều hay xảy ra; in + mùa / tháng.",
+      "examples": ["Where I live, we often have strong winds in October."]
+    },
+    {
+      "id": "f08",
+      "text": "Young people can help victims by ___ and ___.",
+      "vi": "Người trẻ có thể giúp nạn nhân bằng cách ... và ...",
+      "grammarNote": "Sau giới từ by dùng động từ thêm -ing: by collecting, by sending.",
+      "examples": ["Young people can help victims by raising money and sending food."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What were you doing at eight o'clock last night?", "difficulty": 1, "kind": "personal",
+      "keywords": ["I was", "doing homework", "watching"], "frameId": "f02",
+      "hintDirectionVi": "Nhớ lại tối qua lúc tám giờ em đang ở đâu và làm gì. Dùng I was + V-ing.",
+      "exampleAnswer": "At eight o'clock last night, I was doing my maths homework in my room.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What kind of bad weather often happens where you live?", "difficulty": 1, "kind": "personal",
+      "keywords": ["storm", "heavy rain", "flood"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về thời tiết xấu hay gặp ở chỗ em: mưa lớn, bão, ngập, nắng nóng. Nó thường đến vào mùa nào?",
+      "exampleAnswer": "We often have heavy rain and storms in autumn. Sometimes the streets are flooded.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What were you doing when it last rained heavily?", "difficulty": 1, "kind": "personal",
+      "keywords": ["I was", "when", "rain"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại trận mưa to gần đây nhất. Lúc mưa bắt đầu, em đang ở đâu, đang làm gì?",
+      "exampleAnswer": "I was walking home from school when it started to rain heavily. I got very wet.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "How do you know when a storm is coming?", "difficulty": 1, "kind": "personal",
+      "keywords": ["weather forecast", "warn", "dark clouds"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về nơi em nhận tin thời tiết: ti vi, điện thoại, loa phường, hoặc dấu hiệu trên trời.",
+      "exampleAnswer": "I watch the weather forecast on TV. The news usually warns people a few days before.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why should every family have an emergency kit?", "difficulty": 2, "kind": "reason",
+      "keywords": ["emergency kit", "power cut", "ready"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem khi mất điện, mất nước hay đường bị ngập thì gia đình cần những gì ngay lập tức.",
+      "exampleAnswer": "Disasters can happen suddenly. With an emergency kit, families have light, water and medicine when they need them.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Which natural disaster do you think is the most dangerous? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["the most dangerous", "suddenly", "destroy"], "frameId": "f06",
+      "hintDirectionVi": "Chọn một loại thiên tai, rồi nghĩ xem nó gây hại thế nào: bất ngờ, phá nhà cửa hay khó chạy thoát.",
+      "exampleAnswer": "I think an earthquake is the most dangerous because nobody can predict it, and it can destroy whole buildings.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Why is it important to listen to weather warnings?", "difficulty": 2, "kind": "reason",
+      "keywords": ["warn", "prepare", "safe"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem nếu biết trước có bão, mọi người có thể chuẩn bị những gì để giữ an toàn.",
+      "exampleAnswer": "Warnings tell us what is coming, so we have time to prepare food, protect our homes and stay safe.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "A big storm is coming to your town tonight. Tell your family three things to do to stay safe.", "difficulty": 2, "kind": "situation",
+      "keywords": ["close the windows", "charge", "stay inside"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về cửa sổ, đồ vật ngoài sân, điện thoại, đèn pin, đồ ăn. Chọn ba việc quan trọng nhất.",
+      "exampleAnswer": "Let's close all the windows, bring the plants inside and charge our phones. We should stay at home tonight.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "What were you doing the last time you heard loud thunder?", "difficulty": 2, "kind": "personal",
+      "keywords": ["While I was", "heard", "scared"], "frameId": "f03",
+      "hintDirectionVi": "Nhớ lại lần gần nhất có sấm to. Em đang làm gì và em cảm thấy thế nào?",
+      "exampleAnswer": "While I was reading in bed, I heard loud thunder. My little cat ran under the table.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Should schools teach students what to do in a natural disaster? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["practise", "protect", "calm"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem học sinh sẽ bình tĩnh hơn thế nào nếu đã được học và tập trước.",
+      "exampleAnswer": "Yes, they should. If students practise at school, they will stay calm and know how to protect themselves.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "You are in class when the floor starts to shake. Tell your classmates what to do.", "difficulty": 2, "kind": "situation",
+      "keywords": ["get under", "desk", "stay calm"], "frameId": "f04",
+      "hintDirectionVi": "Nói những việc cần làm ngay lúc rung lắc và sau khi hết rung. Câu ngắn, rõ ràng.",
+      "exampleAnswer": "Stay calm! Get under your desks and hold on. When the shaking stops, we'll walk out slowly.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "How can young people help the victims of natural disasters?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["victim", "collect", "send"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ về những gì học sinh có thể quyên góp hoặc làm: quần áo, sách vở, viết thư động viên.",
+      "exampleAnswer": "Young people can collect clothes, books and school bags for the victims. They can also send letters to cheer them up.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "A rescue worker is visiting your school. Ask them some questions about their job.", "difficulty": 3, "kind": "situation",
+      "keywords": ["rescue worker", "What do you", "dangerous"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem em tò mò điều gì về công việc cứu hộ: khó khăn, cảm xúc, cách họ chuẩn bị.",
+      "exampleAnswer": "What do you do when a storm comes? Is your job dangerous? What were you doing during the last flood?", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "Do you think natural disasters are happening more often now? Explain why.", "difficulty": 3, "kind": "reason",
+      "keywords": ["climate change", "forests", "more often"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về thời tiết ngày càng thất thường và việc con người chặt rừng, xả khói. Chúng liên quan gì đến thiên tai?",
+      "exampleAnswer": "Yes, I think so. The climate is getting warmer, and people cut down forests, so we have more floods and landslides.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "What should local leaders do to protect people from floods and landslides?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["plant trees", "warn", "safe places"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về việc làm trước khi có thiên tai (trồng rừng, cảnh báo) và trong khi có thiên tai (nơi trú ẩn).",
+      "exampleAnswer": "They should plant more trees on hills and warn people early. They should also prepare safe places for families.", "expectsReason": true
+    }
+  ]
+}

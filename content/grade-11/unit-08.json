@@ -1,0 +1,158 @@
+{
+  "grade": 11,
+  "unit": 8,
+  "title": "Becoming Independent",
+  "titleVi": "Trở nên tự lập",
+  "topic": "Nói về những việc em đã tự làm được, kĩ năng sống em đang rèn luyện, và ý kiến của em về việc tuổi teen trở nên tự lập.",
+  "source": "Global Success 11, Unit 8 (chủ đề, từ vựng, ngữ pháp câu chẻ It is/was ... that/who)",
+  "vocab": [
+    { "id": "v01", "en": "independent", "vi": "độc lập, không lệ thuộc", "example": "Living in a dormitory helped my brother become more independent." },
+    { "id": "v02", "en": "self-motivated", "vi": "có động lực, tự giác", "example": "Self-motivated students don't need reminders to do their homework." },
+    { "id": "v03", "en": "time-management skills", "vi": "kĩ năng quản lí thời gian", "example": "Good time-management skills help me finish my work on time." },
+    { "id": "v04", "en": "decision-making skills", "vi": "kĩ năng ra quyết định", "example": "Team games can improve your decision-making skills." },
+    { "id": "v05", "en": "life skill", "vi": "kĩ năng sống", "example": "Cooking is a useful life skill for everyone." },
+    { "id": "v06", "en": "responsibility", "vi": "trách nhiệm", "example": "Feeding our cat every morning is my responsibility." },
+    { "id": "v07", "en": "deal with", "vi": "giải quyết, đối phó", "example": "I'm learning to deal with small problems on my own." },
+    { "id": "v08", "en": "get around", "vi": "đi lại", "example": "I can get around the city by bus without any help." },
+    { "id": "v09", "en": "make use of", "vi": "tận dụng", "example": "I make use of my bus journey to review new words." },
+    { "id": "v10", "en": "achieve", "vi": "đạt được", "example": "She achieved her goal of reading twenty books this year." },
+    { "id": "v11", "en": "learning goal", "vi": "mục tiêu học tập", "example": "My learning goal this term is to improve my writing." },
+    { "id": "v12", "en": "confidence", "vi": "sự tự tin", "example": "Speaking in front of the class has given me more confidence." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "It was my ___ who taught me how to ___.",
+      "vi": "Chính ... của mình là người đã dạy mình cách ...",
+      "grammarNote": "Câu chẻ It was + người + who ...: nhấn mạnh chính người đó đã làm việc này.",
+      "examples": ["It was my grandpa who taught me how to ride a bike."]
+    },
+    {
+      "id": "f02",
+      "text": "I think it is ___ that teenagers need most because ___.",
+      "vi": "Mình nghĩ chính ... là điều tuổi teen cần nhất vì ...",
+      "grammarNote": "Câu chẻ It is + cụm cần nhấn mạnh + that ...: làm nổi bật một sự vật, sự việc.",
+      "examples": ["I think it is time-management skills that teenagers need most because they are always busy."]
+    },
+    {
+      "id": "f03",
+      "text": "It was when I ___ that I realised ___.",
+      "vi": "Chính lúc mình ... thì mình mới nhận ra ...",
+      "grammarNote": "Câu chẻ nhấn mạnh thời điểm: It was when / in + thời gian + that ...",
+      "examples": ["It was when I cooked dinner for my family that I realised how hard my mum works."]
+    },
+    {
+      "id": "f04",
+      "text": "To become more independent, I need to ___.",
+      "vi": "Để tự lập hơn, mình cần ...",
+      "grammarNote": "To + V đầu câu chỉ mục đích; need to + V: cần làm gì.",
+      "examples": ["To become more independent, I need to wake up without my mum's help."]
+    },
+    {
+      "id": "f05",
+      "text": "It was ___ that made me ___.",
+      "vi": "Chính ... đã làm mình ...",
+      "grammarNote": "Câu chẻ It was + sự việc + that ...: nhấn mạnh nguyên nhân dẫn đến thay đổi.",
+      "examples": ["It was the school camping trip that made me more confident."]
+    },
+    {
+      "id": "f06",
+      "text": "If I were you, I would ___.",
+      "vi": "Nếu mình là bạn, mình sẽ ...",
+      "grammarNote": "Khuyên nhủ: If I were you, I would + V nguyên mẫu (dùng were cho mọi ngôi).",
+      "examples": ["If I were you, I would write a to-do list every evening."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What household tasks can you do by yourself?", "difficulty": 1, "kind": "personal",
+      "keywords": ["cook", "do the laundry", "by myself"], "frameId": "f04",
+      "hintDirectionVi": "Kể những việc nhà em tự làm được mà không cần ai nhắc, và một việc em đang tập làm.",
+      "exampleAnswer": "I can cook simple meals, do the laundry and clean my room by myself. I'm also learning to iron my school uniform.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Who taught you an important life skill?", "difficulty": 1, "kind": "personal",
+      "keywords": ["life skill", "taught", "how to"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một kĩ năng như bơi, nấu ăn, đi xe, sửa đồ. Ai đã dạy em và họ dạy thế nào?",
+      "exampleAnswer": "It was my grandpa who taught me how to ride a bike. He was very patient and never laughed when I fell off.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "How do you usually manage your time on a school day?", "difficulty": 1, "kind": "personal",
+      "keywords": ["timetable", "plan", "time-management skills"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về cách em chia thời gian cho học bài, nghỉ ngơi và dùng điện thoại sau giờ học.",
+      "exampleAnswer": "I write a simple plan every evening. I study after dinner, and I only check my phone after finishing my homework.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Should teenagers have a part-time job? Why or why not?", "difficulty": 1, "kind": "opinion",
+      "keywords": ["part-time job", "responsibility", "study"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về một điều đi làm thêm dạy cho tuổi teen, và một điều nó có thể ảnh hưởng đến việc học.",
+      "exampleAnswer": "I think a weekend job is fine. It teaches responsibility and how to manage money, but it shouldn't affect your studies.", "expectsReason": true
+    },
+    {
+      "id": "q05", "text": "Why are time-management skills important for high school students?", "difficulty": 2, "kind": "reason",
+      "keywords": ["time-management skills", "deadline", "balance"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về số môn học, bài tập, học thêm và hoạt động của em mỗi tuần. Nếu không biết sắp xếp thì sao?",
+      "exampleAnswer": "We have many subjects, extra classes and activities. Good time-management skills help us meet deadlines and still have time to relax.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "At what age should teenagers be allowed to travel alone? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["independent", "get around", "keep in touch"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ xem một bạn cần những kĩ năng gì để đi xa một mình an toàn, và tuổi nào thường có đủ những kĩ năng đó.",
+      "exampleAnswer": "I think sixteen is a good age for short trips. By then, most teenagers can get around, deal with small problems and keep in touch with their parents.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Why do some teenagers find it hard to make decisions by themselves?", "difficulty": 2, "kind": "reason",
+      "keywords": ["decision-making skills", "mistakes", "practise"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về nỗi sợ khi phải tự chọn, và việc người lớn có thường quyết định thay tuổi teen không.",
+      "exampleAnswer": "They are afraid of making mistakes. Also, if parents always decide for them, they never get the chance to practise their decision-making skills.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Your friend always leaves homework until the last minute. Give them some advice.", "difficulty": 2, "kind": "situation",
+      "keywords": ["If I were you", "plan", "deadline"], "frameId": "f06",
+      "hintDirectionVi": "Đưa ra một hai cách cụ thể giúp bạn bắt đầu sớm hơn, và nói lợi ích bạn sẽ thấy ngay.",
+      "exampleAnswer": "If I were you, I would make a weekly plan and do a little homework every day. Then you won't have to stay up late before deadlines.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "When did you first feel really independent?", "difficulty": 2, "kind": "personal",
+      "keywords": ["first time", "by myself", "realised"], "frameId": "f03",
+      "hintDirectionVi": "Nhớ lại lần đầu em tự làm một việc lớn: tự đi xe buýt, tự nấu bữa, tự lo một chuyến đi.",
+      "exampleAnswer": "It was when I took the bus to my aunt's house alone that I felt independent. I realised I could find my way without help.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Is self-study more effective than studying with a tutor? Why do you think so?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["self-study", "self-motivated", "explain"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ xem kiểu học nào hợp với em hơn, và khi nào thì cần người hướng dẫn.",
+      "exampleAnswer": "It depends. Self-study works well for self-motivated students because they learn at their own speed. But a tutor helps when a topic is really difficult.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "What learning goal do you want to achieve this school year?", "difficulty": 2, "kind": "personal",
+      "keywords": ["learning goal", "achieve", "improve"], "frameId": "f04",
+      "hintDirectionVi": "Chọn một mục tiêu cụ thể, đo được, rồi nói em sẽ làm gì mỗi ngày hoặc mỗi tuần để đạt nó.",
+      "exampleAnswer": "My learning goal is to improve my English speaking. I want to achieve it by talking in English for ten minutes every day.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Which life skill is most important for becoming independent? Explain your choice.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["life skill", "decision-making skills", "solve problems"], "frameId": "f02",
+      "hintDirectionVi": "Chọn một kĩ năng (nấu ăn, quản lí thời gian, ra quyết định...) và nghĩ xem thiếu nó thì một người sống tự lập sẽ gặp khó gì.",
+      "exampleAnswer": "I think it is decision-making skills that matter most. Independent people have to solve problems every day, and good decisions help them avoid many difficulties.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Your parents are away for a week. Explain how you will manage everything at home.", "difficulty": 3, "kind": "situation",
+      "keywords": ["plan", "cook", "responsible"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về ăn uống, giờ giấc đi học, việc nhà và cách giữ liên lạc với bố mẹ trong tuần đó.",
+      "exampleAnswer": "I'll make a shopping list and cook simple meals. I'll set an alarm for school and call my parents every evening so they don't worry.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "What has made you more confident over the last few years, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["confidence", "challenge", "it was"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về một trải nghiệm, một người hay một hoạt động đã thay đổi em. Vì sao nó có tác dụng?",
+      "exampleAnswer": "It was joining the debate club that made me more confident. I had to speak in front of many people, and each time it became easier.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "A younger student is nervous about living in a dormitory for the first time. Encourage them.", "difficulty": 3, "kind": "situation",
+      "keywords": ["If I were you", "roommates", "get used to"], "frameId": "f06",
+      "hintDirectionVi": "Bắt đầu bằng một câu trấn an, đưa ra một hai lời khuyên thực tế, rồi kết thúc bằng một điều tích cực.",
+      "exampleAnswer": "Don't worry, everyone feels nervous at first. If I were you, I would make a weekly timetable and talk to your roommates. You'll get used to it quickly.", "expectsReason": false
+    }
+  ]
+}

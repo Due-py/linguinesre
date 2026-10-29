@@ -1,0 +1,158 @@
+{
+  "grade": 6,
+  "unit": 4,
+  "title": "My Neighbourhood",
+  "titleVi": "Khu phố của em",
+  "topic": "Nói về khu phố nơi em sống, những địa điểm quanh nhà, cách chỉ đường và so sánh các nơi với nhau.",
+  "source": "Global Success 6, Unit 4 (chủ đề, từ vựng, ngữ pháp so sánh hơn của tính từ)",
+  "vocab": [
+    { "id": "v01", "en": "neighbourhood", "vi": "khu phố, khu dân cư", "example": "My neighbourhood has a small market and a park." },
+    { "id": "v02", "en": "art gallery", "vi": "phòng trưng bày tranh", "example": "We saw some colourful paintings at the art gallery." },
+    { "id": "v03", "en": "railway station", "vi": "ga tàu hỏa", "example": "The railway station is very busy before Tet." },
+    { "id": "v04", "en": "square", "vi": "quảng trường", "example": "Children fly kites in the square on windy days." },
+    { "id": "v05", "en": "suburb", "vi": "khu ngoại ô", "example": "My uncle lives in a quiet suburb with lots of trees." },
+    { "id": "v06", "en": "workshop", "vi": "phân xưởng, xưởng sửa chữa", "example": "There is a bike workshop at the end of my street." },
+    { "id": "v07", "en": "busy", "vi": "nhộn nhịp, náo nhiệt", "example": "The main road is busy in the morning." },
+    { "id": "v08", "en": "narrow", "vi": "hẹp, chật hẹp", "example": "Our street is too narrow for big cars." },
+    { "id": "v09", "en": "famous", "vi": "nổi tiếng", "example": "This shop is famous for its ice cream." },
+    { "id": "v10", "en": "outdoor", "vi": "ngoài trời", "example": "Our park has an outdoor gym for everyone." },
+    { "id": "v11", "en": "cross", "vi": "đi ngang qua, băng qua", "example": "Look left and right before you cross the road." },
+    { "id": "v12", "en": "turning", "vi": "chỗ ngoặt, chỗ rẽ", "example": "Take the first turning on the right." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "In my neighbourhood, there is a ___ and a ___.",
+      "vi": "Ở khu phố của mình có một ... và một ...",
+      "grammarNote": "There is + a / an + danh từ số ít để kể địa điểm; There are + danh từ số nhiều.",
+      "examples": ["In my neighbourhood, there is a bakery and a swimming pool."]
+    },
+    {
+      "id": "f02",
+      "text": "My neighbourhood is ___ than ___.",
+      "vi": "Khu phố của mình ... hơn ...",
+      "grammarNote": "So sánh hơn: tính từ ngắn + -er + than (quieter, bigger, busier); tính từ dài: more + tính từ + than.",
+      "examples": ["My neighbourhood is quieter than the city centre.", "The park is more beautiful than the square."]
+    },
+    {
+      "id": "f03",
+      "text": "I like my neighbourhood because it is ___.",
+      "vi": "Mình thích khu phố của mình vì nó ...",
+      "grammarNote": "Hiện tại đơn với be + tính từ để mô tả nơi chốn; because để nêu lý do.",
+      "examples": ["I like my neighbourhood because it is clean and friendly."]
+    },
+    {
+      "id": "f04",
+      "text": "Go straight and take the ___ turning on the ___.",
+      "vi": "Đi thẳng rồi rẽ vào chỗ rẽ thứ ... bên ...",
+      "grammarNote": "Chỉ đường bằng câu mệnh lệnh, bắt đầu bằng động từ nguyên mẫu: Go straight. Turn left. Cross the road.",
+      "examples": ["Go straight and take the second turning on the left."]
+    },
+    {
+      "id": "f05",
+      "text": "I think living in ___ is ___ than living in ___.",
+      "vi": "Mình nghĩ sống ở ... thì ... hơn sống ở ...",
+      "grammarNote": "So sánh hơn với tính từ ngắn (-er) và tính từ dài (more ...). Chú ý: good → better.",
+      "examples": ["I think living in the suburbs is quieter than living in the city centre."]
+    },
+    {
+      "id": "f06",
+      "text": "My neighbourhood needs a ___ because ___.",
+      "vi": "Khu phố của mình cần một ... vì ...",
+      "grammarNote": "Chủ ngữ số ít (my neighbourhood) thì động từ hiện tại đơn thêm -s: needs.",
+      "examples": ["My neighbourhood needs a bookshop because there is nowhere to buy books."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What is your neighbourhood like?", "difficulty": 1, "kind": "personal",
+      "keywords": ["quiet", "busy", "friendly"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về con đường quanh nhà em: đông hay vắng, ồn hay yên tĩnh, có nhiều cây không.",
+      "exampleAnswer": "My neighbourhood is quiet and friendly. There are many trees.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What places are there near your house?", "difficulty": 1, "kind": "personal",
+      "keywords": ["market", "park", "school"], "frameId": "f01",
+      "hintDirectionVi": "Hình dung em đi bộ quanh nhà vài phút. Em đi qua những nơi nào?",
+      "exampleAnswer": "In my neighbourhood, there is a market and a small park.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Where do you like to go in your neighbourhood?", "difficulty": 1, "kind": "personal",
+      "keywords": ["park", "square", "bookshop"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về nơi gần nhà em hay đến nhất khi rảnh, và em làm gì ở đó.",
+      "exampleAnswer": "I like going to the park near my house. I play football there.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Is your neighbourhood a good place for children?", "difficulty": 1, "kind": "opinion",
+      "keywords": ["park", "safe", "play"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem trẻ em ở khu phố em có chỗ chơi không, đường có an toàn không.",
+      "exampleAnswer": "Yes, it is. There is a big park, and the streets are safe.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "How do you get from your house to school?", "difficulty": 2, "kind": "personal",
+      "keywords": ["go straight", "turn left", "cross"], "frameId": "f04",
+      "hintDirectionVi": "Đi lại con đường đến trường trong đầu: em đi thẳng, rẽ ở đâu, có băng qua đường không?",
+      "exampleAnswer": "I go straight, turn left at the market, and cross the road.", "expectsReason": false
+    },
+    {
+      "id": "q06", "text": "What do you often do in your neighbourhood at the weekend?", "difficulty": 2, "kind": "personal",
+      "keywords": ["outdoor", "square", "play"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại cuối tuần vừa rồi em có ra ngoài không, đi đâu gần nhà và làm gì.",
+      "exampleAnswer": "I often play badminton with my friends in the square near my home.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Why do you like or dislike your neighbourhood?", "difficulty": 2, "kind": "reason",
+      "keywords": ["quiet", "noisy", "because"], "frameId": "f03",
+      "hintDirectionVi": "Chọn thích hoặc không thích trước, rồi nghĩ về con người, tiếng ồn hay những nơi để chơi.",
+      "exampleAnswer": "I like my neighbourhood because it is quiet, and my friends live near me.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Why is a park important for a neighbourhood?", "difficulty": 2, "kind": "reason",
+      "keywords": ["outdoor", "exercise", "relax"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem người lớn và trẻ em làm gì ở công viên. Nếu không có công viên thì sao?",
+      "exampleAnswer": "A park is important because people can exercise and children can play outdoors.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Is the city more exciting than the countryside? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["more exciting", "busier", "quieter"], "frameId": "f05",
+      "hintDirectionVi": "So sánh hai nơi: nơi nào có nhiều chỗ vui chơi hơn, nơi nào yên bình hơn. Rồi chọn một bên.",
+      "exampleAnswer": "I think the city is more exciting because there are more places to visit.", "expectsReason": true
+    },
+    {
+      "id": "q10", "text": "Is your street quieter than the city centre?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["quieter", "noisier", "than"], "frameId": "f02",
+      "hintDirectionVi": "So sánh tiếng xe cộ và số người trên phố nhà em với khu trung tâm. Dùng tính từ + -er + than.",
+      "exampleAnswer": "Yes. My street is quieter and cleaner than the city centre.", "expectsReason": false
+    },
+    {
+      "id": "q11", "text": "A tourist asks you the way to the railway station. Help him.", "difficulty": 2, "kind": "situation",
+      "keywords": ["go straight", "turn right", "next to"], "frameId": "f04",
+      "hintDirectionVi": "Chỉ đường từng bước ngắn: đi thẳng, rẽ ở đâu, rồi nói ga ở cạnh cái gì.",
+      "exampleAnswer": "Go straight and take the second turning on the left. It's next to the bank.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Would you prefer to live in the city centre or the suburbs? Why?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["suburb", "busier", "quieter"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về một điểm hay của mỗi nơi, như đi lại, tiếng ồn, không khí. Rồi chọn và nêu lý do.",
+      "exampleAnswer": "I'd prefer the suburbs because they're quieter and cleaner than the city centre.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "What does your neighbourhood need most? Why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["library", "playground", "because"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem em hay phải đi xa để làm việc gì. Nếu có một nơi mới gần nhà, đó sẽ là gì?",
+      "exampleAnswer": "My neighbourhood needs a library because children have no quiet place to read.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Your pen friend wants to visit. Tell him about your neighbourhood.", "difficulty": 3, "kind": "situation",
+      "keywords": ["there is", "famous", "busy"], "frameId": "f01",
+      "hintDirectionVi": "Giới thiệu khu phố bằng một tính từ, rồi kể hai nơi em muốn dẫn bạn đến.",
+      "exampleAnswer": "My neighbourhood is busy but fun. There is a famous market and a nice park.", "expectsReason": false
+    },
+    {
+      "id": "q15", "text": "A new neighbour asks where to buy food. What do you say?", "difficulty": 3, "kind": "situation",
+      "keywords": ["market", "go straight", "turn left"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về chỗ mua đồ ăn gần nhà em nhất, rồi chỉ đường bằng câu mệnh lệnh ngắn.",
+      "exampleAnswer": "There's a market near here. Go straight and turn left at the corner.", "expectsReason": false
+    }
+  ]
+}

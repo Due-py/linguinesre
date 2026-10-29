@@ -1,0 +1,172 @@
+{
+  "grade": 7,
+  "unit": 7,
+  "title": "Traffic",
+  "titleVi": "Giao thông",
+  "topic": "Nói về cách em đi học, khoảng cách từ nhà đến các nơi quen thuộc, luật giao thông và những việc nên hoặc không nên làm trên đường.",
+  "source": "Global Success 7, Unit 7 (chủ đề, từ vựng, ngữ pháp It chỉ khoảng cách, should / shouldn't)",
+  "vocab": [
+    { "id": "v01", "en": "obey traffic rules", "vi": "tuân thủ luật giao thông", "example": "Everyone must obey traffic rules to stay safe." },
+    { "id": "v02", "en": "traffic jam", "vi": "tắc đường", "example": "There is often a traffic jam near my school at five o'clock." },
+    { "id": "v03", "en": "road sign", "vi": "biển báo giao thông", "example": "That road sign means you can't turn left here." },
+    { "id": "v04", "en": "pedestrian", "vi": "người đi bộ", "example": "Pedestrians should walk on the pavement." },
+    { "id": "v05", "en": "zebra crossing", "vi": "vạch kẻ đường cho người đi bộ", "example": "Always cross the road at the zebra crossing." },
+    { "id": "v06", "en": "pavement", "vi": "vỉa hè", "example": "Some people park their motorbikes on the pavement." },
+    { "id": "v07", "en": "seatbelt", "vi": "dây an toàn", "example": "Put on your seatbelt before the car starts." },
+    { "id": "v08", "en": "lane", "vi": "làn đường", "example": "Cyclists should ride in the right lane." },
+    { "id": "v09", "en": "passenger", "vi": "hành khách", "example": "The bus was full of passengers this morning." },
+    { "id": "v10", "en": "vehicle", "vi": "xe cộ, phương tiện giao thông", "example": "There are too many vehicles on the roads at rush hour." },
+    { "id": "v11", "en": "safety", "vi": "sự an toàn", "example": "Wearing a helmet is important for your safety." },
+    { "id": "v12", "en": "distance", "vi": "khoảng cách", "example": "The distance from my house to the market is about one kilometre." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "It is about ___ from my house to ___.",
+      "vi": "Từ nhà mình đến ... khoảng ...",
+      "grammarNote": "Dùng It để nói khoảng cách: It is (about) 2 kilometres from A to B. Hỏi: How far is it from A to B?",
+      "examples": ["It is about three kilometres from my house to school."]
+    },
+    {
+      "id": "f02",
+      "text": "It takes me about ___ minutes to get to ___ by ___.",
+      "vi": "Mình mất khoảng ... phút để đến ... bằng ...",
+      "grammarNote": "It takes + người + thời gian + to V: mất bao lâu để làm gì. by + phương tiện: by bike, by bus (đi bộ: on foot).",
+      "examples": ["It takes me about fifteen minutes to get to school by bike."]
+    },
+    {
+      "id": "f03",
+      "text": "We should ___ when we ___.",
+      "vi": "Chúng ta nên ... khi ...",
+      "grammarNote": "should + V nguyên mẫu: nên làm gì. Dùng để khuyên hoặc nói điều đúng đắn.",
+      "examples": ["We should wear a helmet when we ride a motorbike."]
+    },
+    {
+      "id": "f04",
+      "text": "You shouldn't ___ because ___.",
+      "vi": "Bạn không nên ... vì ...",
+      "grammarNote": "shouldn't (should not) + V nguyên mẫu: không nên làm gì. Thêm because để giải thích.",
+      "examples": ["You shouldn't use your phone while cycling because it is dangerous."]
+    },
+    {
+      "id": "f05",
+      "text": "I usually go to school by ___ because ___.",
+      "vi": "Mình thường đi học bằng ... vì ...",
+      "grammarNote": "go + by + phương tiện (không có a / the): by bike, by bus. Đi bộ: walk / go on foot.",
+      "examples": ["I usually go to school by bike because it is quick and cheap."]
+    },
+    {
+      "id": "f06",
+      "text": "This road sign means you should / shouldn't ___.",
+      "vi": "Biển báo này có nghĩa là bạn nên / không nên ...",
+      "grammarNote": "Giải thích biển báo bằng should / shouldn't + V, hoặc can't + V khi đó là việc bị cấm.",
+      "examples": ["This road sign means you shouldn't turn right here."]
+    },
+    {
+      "id": "f07",
+      "text": "The roads near my home are busiest at ___ because ___.",
+      "vi": "Đường gần nhà mình đông nhất vào lúc ... vì ...",
+      "grammarNote": "So sánh nhất của tính từ ngắn: busy → busiest. Dùng at + giờ.",
+      "examples": ["The roads near my home are busiest at five in the afternoon because people go home from work."]
+    },
+    {
+      "id": "f08",
+      "text": "There are too many ___ in big cities, so ___.",
+      "vi": "Ở thành phố lớn có quá nhiều ..., vì vậy ...",
+      "grammarNote": "too many + danh từ đếm được số nhiều. Dùng so để nói kết quả.",
+      "examples": ["There are too many cars in big cities, so the roads are always crowded."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "How do you usually go to school?", "difficulty": 1, "kind": "personal",
+      "keywords": ["by bike", "on foot", "by bus"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem hằng ngày em đến trường bằng gì: đi bộ, xe đạp, xe buýt hay được chở đi.",
+      "exampleAnswer": "I usually go to school by bike with my neighbour.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "How far is it from your house to school?", "difficulty": 1, "kind": "personal",
+      "keywords": ["It is about", "kilometres", "metres"], "frameId": "f01",
+      "hintDirectionVi": "Ước lượng quãng đường từ nhà em đến trường. Bắt đầu câu bằng It is about...",
+      "exampleAnswer": "It is about two kilometres from my house to school.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "How long does it take you to get to school?", "difficulty": 1, "kind": "personal",
+      "keywords": ["It takes me", "minutes", "by"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ xem từ lúc ra khỏi nhà đến lúc tới cổng trường mất bao nhiêu phút.",
+      "exampleAnswer": "It takes me about ten minutes to get to school on foot.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "When are the roads near your home busiest?", "difficulty": 1, "kind": "personal",
+      "keywords": ["traffic jam", "rush hour", "in the morning"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ xem vào giờ nào đường gần nhà em đông xe nhất, và vì sao lúc đó đông.",
+      "exampleAnswer": "They are busiest at seven in the morning. Many people go to work and school then.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why should we wear a helmet when we ride a motorbike?", "difficulty": 2, "kind": "reason",
+      "keywords": ["helmet", "safety", "protect"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem chiếc mũ bảo hiểm bảo vệ phần nào trên cơ thể và nó quan trọng thế nào.",
+      "exampleAnswer": "We should wear a helmet because it protects our head. It keeps us safe in an accident.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Which traffic rules do you obey on your way to school?", "difficulty": 2, "kind": "personal",
+      "keywords": ["obey traffic rules", "zebra crossing", "lane"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về đoạn đường em đi học: em dừng ở đâu, đi ở làn nào, sang đường ra sao?",
+      "exampleAnswer": "I always ride in the right lane, and I stop at red lights.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Should parents drive their children to school every day? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["traffic jam", "independent", "cycle"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về mặt lợi (an toàn, nhanh) và mặt hại (tắc đường, ít vận động) rồi chọn ý kiến của em.",
+      "exampleAnswer": "Not every day. If the school is near, children should walk or cycle. It reduces traffic jams.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Your friend wants to cross at a red light. What do you say?", "difficulty": 2, "kind": "situation",
+      "keywords": ["shouldn't", "dangerous", "wait"], "frameId": "f04",
+      "hintDirectionVi": "Ngăn bạn lại bằng lời khuyên ngắn, nói vì sao, rồi bảo bạn nên làm gì thay thế.",
+      "exampleAnswer": "Stop! You shouldn't cross now because it's dangerous. Let's wait for the green light.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "Why do traffic jams happen in big cities?", "difficulty": 2, "kind": "reason",
+      "keywords": ["too many vehicles", "narrow roads", "rush hour"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ về số lượng xe, đường sá và thói quen của người tham gia giao thông.",
+      "exampleAnswer": "There are too many vehicles, and some roads are narrow. Some drivers also don't obey traffic rules.", "expectsReason": true
+    },
+    {
+      "id": "q10", "text": "Is cycling to school a good idea? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["cycling", "exercise", "pollution"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem đi xe đạp tốt cho sức khỏe, môi trường ra sao, và có bất tiện gì không.",
+      "exampleAnswer": "Yes. Cycling is good exercise, and it doesn't cause pollution. But we must ride carefully.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Is it safe for children to walk to school in your area?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["pavement", "safe", "busy"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về vỉa hè, lượng xe và chỗ sang đường quanh nơi em sống.",
+      "exampleAnswer": "Not really. The pavements are narrow, and there are lots of motorbikes. Children should walk with an adult.", "expectsReason": true
+    },
+    {
+      "id": "q12", "text": "What should your town do to reduce traffic jams, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["more buses", "cycle lanes", "should"], "frameId": "f03",
+      "hintDirectionVi": "Đề xuất một giải pháp cụ thể, rồi giải thích nó giúp giảm số xe trên đường như thế nào.",
+      "exampleAnswer": "My town should have more buses. If more people take the bus, there will be fewer motorbikes.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "A tourist asks how far the market is. Help them.", "difficulty": 3, "kind": "situation",
+      "keywords": ["It is about", "metres", "on foot"], "frameId": "f01",
+      "hintDirectionVi": "Nói khoảng cách bằng It is about..., rồi gợi ý nên đi bộ hay đi xe và mất bao lâu.",
+      "exampleAnswer": "It's about five hundred metres from here. You can walk there. It takes about seven minutes.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "Should people get a fine for not wearing a seatbelt? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["fine", "seatbelt", "safety"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem nếu không bị phạt thì mọi người có tự giác không, và dây an toàn quan trọng ra sao.",
+      "exampleAnswer": "Yes. A seatbelt can save lives. A fine helps people remember to wear it.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Teach a younger child three traffic rules.", "difficulty": 3, "kind": "situation",
+      "keywords": ["should", "shouldn't", "zebra crossing"], "frameId": "f03",
+      "hintDirectionVi": "Chọn ba luật đơn giản nhất cho trẻ nhỏ, nói bằng câu ngắn với should và shouldn't.",
+      "exampleAnswer": "You should cross at the zebra crossing and hold my hand. You shouldn't play near the road.", "expectsReason": false
+    }
+  ]
+}

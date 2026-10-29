@@ -1,0 +1,172 @@
+{
+  "grade": 9,
+  "unit": 4,
+  "title": "Remembering the Past",
+  "titleVi": "Nhớ về quá khứ",
+  "topic": "Nói về cuộc sống ngày xưa, kỷ niệm của em và người lớn tuổi, món ăn truyền thống và những giá trị xưa nên giữ gìn.",
+  "source": "Global Success 9, Unit 4 (chủ đề, từ vựng, ngữ pháp quá khứ tiếp diễn, wish + quá khứ đơn)",
+  "vocab": [
+    { "id": "v01", "en": "ancient", "vi": "cổ đại, lâu đời", "example": "We visited an ancient temple that is over 900 years old." },
+    { "id": "v02", "en": "anniversary", "vi": "ngày kỉ niệm", "example": "Our school celebrated its 50th anniversary last year." },
+    { "id": "v03", "en": "barefoot", "vi": "chân trần", "example": "My grandpa used to walk to school barefoot." },
+    { "id": "v04", "en": "communal", "vi": "dùng chung, thuộc cộng đồng", "example": "The villagers met at the communal house to discuss the festival." },
+    { "id": "v05", "en": "deep-rooted", "vi": "lâu đời, ăn sâu bén rễ", "example": "Respecting older people is a deep-rooted value in Viet Nam." },
+    { "id": "v06", "en": "face to face", "vi": "trực tiếp, trực diện", "example": "In the past, people talked face to face much more often." },
+    { "id": "v07", "en": "generation", "vi": "thế hệ", "example": "Three generations live together in my uncle's house." },
+    { "id": "v08", "en": "monument", "vi": "tượng đài", "example": "There is a large monument in the centre of the square." },
+    { "id": "v09", "en": "observe", "vi": "duy trì, tuân theo", "example": "My family still observes many customs during Tet." },
+    { "id": "v10", "en": "recognise", "vi": "công nhận", "example": "The old town was recognised as a World Heritage Site." },
+    { "id": "v11", "en": "promote", "vi": "thúc đẩy", "example": "The festival helps promote traditional music." },
+    { "id": "v12", "en": "takeaway", "vi": "đồ ăn bán sẵn (để mang về)", "example": "We sometimes get a takeaway when Mum is busy." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "At ___ last night, I was ___.",
+      "vi": "Vào lúc ... tối qua, mình đang ...",
+      "grammarNote": "Quá khứ tiếp diễn (was / were + V-ing): hành động đang diễn ra tại một thời điểm trong quá khứ.",
+      "examples": ["At nine o'clock last night, I was reading a comic in bed."]
+    },
+    {
+      "id": "f02",
+      "text": "I was ___ when ___.",
+      "vi": "Mình đang ... thì ...",
+      "grammarNote": "Hành động đang diễn ra (quá khứ tiếp diễn) bị một hành động ngắn xen vào (quá khứ đơn, sau when).",
+      "examples": ["I was walking home when it started to rain."]
+    },
+    {
+      "id": "f03",
+      "text": "I wish I ___ because ___.",
+      "vi": "Mình ước mình ... vì ...",
+      "grammarNote": "Wish + quá khứ đơn: ước điều không có thật ở hiện tại. Với be thường dùng were: I wish I were taller.",
+      "examples": ["I wish I had more time with my grandparents because they live far away."]
+    },
+    {
+      "id": "f04",
+      "text": "In the past, people used to ___, but now they ___.",
+      "vi": "Ngày xưa người ta thường ..., còn bây giờ họ ...",
+      "grammarNote": "used to + V nguyên mẫu: thói quen trong quá khứ nay không còn. Hiện tại đơn cho thói quen bây giờ.",
+      "examples": ["In the past, people used to write letters, but now they send messages."]
+    },
+    {
+      "id": "f05",
+      "text": "One tradition we should keep is ___ because ___.",
+      "vi": "Một truyền thống chúng ta nên giữ là ... vì ...",
+      "grammarNote": "should + V nguyên mẫu để nêu ý kiến. Sau is có thể dùng danh từ hoặc V-ing.",
+      "examples": ["One tradition we should keep is visiting relatives at Tet because it brings families together."]
+    },
+    {
+      "id": "f06",
+      "text": "A traditional dish in my family is ___. We usually eat it ___.",
+      "vi": "Một món truyền thống trong nhà mình là ... Nhà mình thường ăn nó vào ...",
+      "grammarNote": "Hiện tại đơn cho thói quen; trạng từ usually đứng trước động từ thường.",
+      "examples": ["A traditional dish in my family is crab noodle soup. We usually eat it on Sunday mornings."]
+    },
+    {
+      "id": "f07",
+      "text": "My family still keeps an old ___. It belonged to ___.",
+      "vi": "Nhà em vẫn giữ một ... cũ. Nó từng là của ...",
+      "grammarNote": "Quá khứ đơn belonged to: từng thuộc về ai. still đứng trước động từ thường.",
+      "examples": ["My family still keeps an old radio. It belonged to my great-grandfather."]
+    },
+    {
+      "id": "f08",
+      "text": "What did you use to ___ when you were ___?",
+      "vi": "Hồi ..., ông / bà thường ... gì ạ?",
+      "grammarNote": "Câu hỏi với used to: Did + S + use to + V nguyên mẫu? (không có -d sau use).",
+      "examples": ["Grandma, what did you use to play when you were at primary school?"]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What were you doing at eight o'clock last night?", "difficulty": 1, "kind": "personal",
+      "keywords": ["was doing", "homework", "watching"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại tối qua lúc 8 giờ em đang ở đâu và làm gì. Người khác trong nhà đang làm gì?",
+      "exampleAnswer": "At eight o'clock last night, I was doing my English homework while my sister was watching TV.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What traditional dish does your family often cook?", "difficulty": 1, "kind": "personal",
+      "keywords": ["traditional dish", "Tet", "together"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về một món nhà em hay nấu từ lâu, hoặc món chỉ làm vào dịp đặc biệt.",
+      "exampleAnswer": "A traditional dish in my family is spring rolls. We usually make them together on special days like Tet.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Is there an old object in your home that your family keeps carefully?", "difficulty": 1, "kind": "personal",
+      "keywords": ["old photo", "generation", "keep"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về một đồ vật cũ trong nhà: ảnh, đồng hồ, đồ dùng của ông bà. Vì sao nó quý?",
+      "exampleAnswer": "Yes, we keep an old photo album. It shows three generations of my family, and my grandma loves looking at it.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What games did your parents play when they were children?", "difficulty": 1, "kind": "personal",
+      "keywords": ["used to", "fly kites", "barefoot"], "frameId": "f04",
+      "hintDirectionVi": "Nhớ lại những gì bố mẹ từng kể về tuổi thơ. Nếu chưa biết, hãy đoán từ những trò chơi dân gian em biết.",
+      "exampleAnswer": "My dad used to play marbles and fly kites barefoot in the rice fields. He didn't have any video games.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why is it important to remember the past?", "difficulty": 2, "kind": "reason",
+      "keywords": ["generation", "values", "learn from"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem quá khứ dạy ta điều gì và giúp ta hiểu bản thân, gia đình mình thế nào.",
+      "exampleAnswer": "Remembering the past helps us understand where we come from. We can also learn good values from older generations.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Why do older people often enjoy talking about their childhood?", "difficulty": 2, "kind": "reason",
+      "keywords": ["memories", "miss", "simple life"], "frameId": "f04",
+      "hintDirectionVi": "Đặt mình vào vị trí ông bà. Kể chuyện ngày xưa mang lại cảm xúc gì cho họ?",
+      "exampleAnswer": "They miss the simple life of the past. Talking about memories makes them happy and helps young people understand them.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Was life in the past harder or easier than life today? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["basic", "technology", "community"], "frameId": "f04",
+      "hintDirectionVi": "So sánh điện, nước, phương tiện, liên lạc ngày xưa và nay. Rồi nghĩ thêm về tình làng nghĩa xóm.",
+      "exampleAnswer": "I think it was harder. People used to live without electricity, but they had a stronger community spirit than we do now.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Is it better to talk to friends face to face or online? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["face to face", "feelings", "message"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem nói chuyện trực tiếp có gì mà nhắn tin không có, và ngược lại.",
+      "exampleAnswer": "Face to face is better because we can see each other's feelings. I wish I had more time to meet my friends in person.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "What were you doing when you heard some good news recently?", "difficulty": 2, "kind": "personal",
+      "keywords": ["was doing", "when", "heard"], "frameId": "f02",
+      "hintDirectionVi": "Nhớ lại một tin vui gần đây. Lúc nghe tin đó em đang làm gì, ở đâu?",
+      "exampleAnswer": "I was having dinner with my family when my teacher called to say I had won the drawing contest.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "A foreign friend wants to know about a traditional Vietnamese dish. Describe one to them.", "difficulty": 2, "kind": "situation",
+      "keywords": ["ingredients", "wrap", "special occasion"], "frameId": "f06",
+      "hintDirectionVi": "Chọn một món, nói nó làm từ gì, làm thế nào và người Việt thường ăn vào dịp nào.",
+      "exampleAnswer": "Banh chung is a square sticky rice cake. We wrap rice, beans and pork in leaves and boil it for hours before Tet.", "expectsReason": false
+    },
+    {
+      "id": "q11", "text": "Your grandparents are visiting. Ask them three questions about their school days.", "difficulty": 2, "kind": "situation",
+      "keywords": ["What were you", "Did you use to", "how"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ ba điều em tò mò: ông bà đến trường thế nào, học gì, chơi gì. Biến mỗi ý thành một câu hỏi.",
+      "exampleAnswer": "Grandma, how did you get to school? What were you studying at my age? What games did you use to play?", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Should young people still observe old traditions today? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["observe", "deep-rooted", "modern life"], "frameId": "f05",
+      "hintDirectionVi": "Chọn một truyền thống cụ thể. Nó còn có ý nghĩa gì bây giờ, và có cần thay đổi chút nào không?",
+      "exampleAnswer": "Yes, they should. Deep-rooted traditions like visiting relatives at Tet keep families close, but we can change small things to suit modern life.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "If you could change one thing about your life today, what would you wish for, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["I wish", "had", "were"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một điều nhỏ em muốn khác đi ở hiện tại: thời gian, kỹ năng, nơi ở. Vì sao em muốn vậy?",
+      "exampleAnswer": "I wish I had more free time because I have extra classes every evening. Then I could visit my grandparents more often.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Your school is planning an anniversary event about life in the past. Suggest an activity.", "difficulty": 3, "kind": "situation",
+      "keywords": ["anniversary", "exhibition", "old photos"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ một hoạt động giúp học sinh thấy được cuộc sống ngày xưa: trưng bày, trò chơi, phỏng vấn.",
+      "exampleAnswer": "We could set up an exhibition of old photos and objects. Students can interview their grandparents and share their stories.", "expectsReason": false
+    },
+    {
+      "id": "q15", "text": "Are takeaway meals replacing traditional family meals? What do you think?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["takeaway", "busy", "together"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về bữa ăn trong nhà em và các nhà xung quanh. Vì sao người ta mua đồ ăn sẵn, và mất đi điều gì?",
+      "exampleAnswer": "Partly, yes. Many families are busy, so they buy takeaways. However, I think eating home-cooked meals together is still important.", "expectsReason": true
+    }
+  ]
+}

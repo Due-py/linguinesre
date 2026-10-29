@@ -1,0 +1,165 @@
+{
+  "grade": 6,
+  "unit": 10,
+  "title": "Our Houses in the Future",
+  "titleVi": "Ngôi nhà của chúng ta trong tương lai",
+  "topic": "Nói về ngôi nhà mơ ước trong tương lai, nơi nó sẽ ở và những thiết bị sẽ giúp gia đình em.",
+  "source": "Global Success 6, Unit 10 (chủ đề, từ vựng, ngữ pháp thì tương lai đơn, might)",
+  "vocab": [
+    { "id": "v01", "en": "appliance", "vi": "thiết bị (điện gia dụng)", "example": "A fridge is a very useful appliance." },
+    { "id": "v02", "en": "hi-tech", "vi": "công nghệ cao", "example": "My dream house will be hi-tech and smart." },
+    { "id": "v03", "en": "solar energy", "vi": "năng lượng mặt trời", "example": "Our future house will use solar energy." },
+    { "id": "v04", "en": "washing machine", "vi": "máy giặt", "example": "Put your dirty socks in the washing machine." },
+    { "id": "v05", "en": "dishwasher", "vi": "máy rửa bát", "example": "The dishwasher cleans all the plates after dinner." },
+    { "id": "v06", "en": "electric cooker", "vi": "bếp điện", "example": "We cook rice and soup on an electric cooker." },
+    { "id": "v07", "en": "wireless", "vi": "không dây", "example": "A wireless TV doesn't need any cables." },
+    { "id": "v08", "en": "housework", "vi": "công việc nhà", "example": "I do some housework every evening." },
+    { "id": "v09", "en": "look after", "vi": "trông nom, chăm sóc", "example": "A robot might look after our garden one day." },
+    { "id": "v10", "en": "location", "vi": "địa điểm, vị trí", "example": "The location of my dream house is near a lake." },
+    { "id": "v11", "en": "ocean", "vi": "đại dương", "example": "Some people might live under the ocean in the future." },
+    { "id": "v12", "en": "space", "vi": "không gian vũ trụ", "example": "Would you like to have a holiday in space?" }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "In the future, houses will ___.",
+      "vi": "Trong tương lai, nhà cửa sẽ ...",
+      "grammarNote": "Tương lai đơn: will + động từ nguyên mẫu để dự đoán; phủ định won't + động từ.",
+      "examples": ["In the future, houses will have robots to clean the floors."]
+    },
+    {
+      "id": "f02",
+      "text": "My future house might be ___.",
+      "vi": "Ngôi nhà tương lai của mình có thể sẽ ...",
+      "grammarNote": "might + động từ nguyên mẫu: điều có thể xảy ra nhưng không chắc chắn.",
+      "examples": ["My future house might be on a mountain."]
+    },
+    {
+      "id": "f03",
+      "text": "My dream house will have ___ because ___.",
+      "vi": "Ngôi nhà mơ ước của mình sẽ có ... vì ...",
+      "grammarNote": "will have + danh từ để nói nhà sẽ có gì; because để nêu lý do.",
+      "examples": ["My dream house will have a big pool because I love swimming."]
+    },
+    {
+      "id": "f04",
+      "text": "A ___ will help me ___.",
+      "vi": "Một cái ... sẽ giúp mình ...",
+      "grammarNote": "help + người + động từ nguyên mẫu: help me clean, help us cook.",
+      "examples": ["A dishwasher will help me wash the dishes faster."]
+    },
+    {
+      "id": "f05",
+      "text": "I think people will ___, but they won't ___.",
+      "vi": "Mình nghĩ mọi người sẽ ..., nhưng họ sẽ không ...",
+      "grammarNote": "will và won't để dự đoán điều sẽ xảy ra và không xảy ra; nối bằng but.",
+      "examples": ["I think people will use more robots, but they won't stop cooking."]
+    },
+    {
+      "id": "f06",
+      "text": "I'd like to live ___ because ___.",
+      "vi": "Mình muốn sống ở ... vì ...",
+      "grammarNote": "Giới từ chỉ vị trí: in the countryside, by the sea, on the ocean, in space.",
+      "examples": ["I'd like to live by the sea because I love the sound of the waves."]
+    },
+    {
+      "id": "f07",
+      "text": "At home, I ___ every day.",
+      "vi": "Ở nhà, mình ... mỗi ngày.",
+      "grammarNote": "Hiện tại đơn để nói việc làm hằng ngày: I + động từ nguyên mẫu (wash, use, clean).",
+      "examples": ["At home, I make my bed and feed the cat every day."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Where would you like to live in the future?", "difficulty": 1, "kind": "personal",
+      "keywords": ["by the sea", "countryside", "city"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về nơi em thấy dễ chịu nhất: gần biển, ở quê hay trong thành phố.",
+      "exampleAnswer": "I'd like to live in the countryside because it's quiet.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What housework do you do at home?", "difficulty": 1, "kind": "personal",
+      "keywords": ["housework", "wash the dishes", "clean"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về việc nhà em làm hằng ngày hoặc cuối tuần để giúp bố mẹ.",
+      "exampleAnswer": "I wash the dishes and clean my room every day.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What appliances do you use every day?", "difficulty": 1, "kind": "personal",
+      "keywords": ["appliance", "fridge", "TV"], "frameId": "f07",
+      "hintDirectionVi": "Đi một vòng quanh nhà trong đầu và kể những đồ dùng điện em dùng mỗi ngày.",
+      "exampleAnswer": "I use the TV, the fridge and the washing machine every day.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Will houses be bigger in the future?", "difficulty": 1, "kind": "opinion",
+      "keywords": ["will", "bigger", "smaller"], "frameId": "f01",
+      "hintDirectionVi": "Đoán thử: khi có nhiều người hơn và nhiều máy móc hơn, nhà sẽ to ra hay nhỏ lại?",
+      "exampleAnswer": "I think they will be smaller, but they will have more appliances.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "What will your dream house look like?", "difficulty": 2, "kind": "personal",
+      "keywords": ["will have", "garden", "hi-tech"], "frameId": "f03",
+      "hintDirectionVi": "Tưởng tượng ngôi nhà mơ ước: to hay nhỏ, có vườn không, có gì đặc biệt.",
+      "exampleAnswer": "My dream house will be big, and it will have a beautiful garden.", "expectsReason": false
+    },
+    {
+      "id": "q06", "text": "What appliance would you like to have in your room?", "difficulty": 2, "kind": "personal",
+      "keywords": ["wireless", "smart", "lamp"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một thiết bị giúp em học hoặc nghỉ ngơi trong phòng thoải mái hơn.",
+      "exampleAnswer": "I'd like a wireless speaker. It will help me listen to music easily.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Which appliance is the most useful in your home? Why?", "difficulty": 2, "kind": "reason",
+      "keywords": ["washing machine", "useful", "save time"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem nếu thiết bị nào bị hỏng thì cả nhà sẽ gặp khó khăn nhất.",
+      "exampleAnswer": "The washing machine is very useful because it saves my mum's time.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Why is solar energy good for future houses?", "difficulty": 2, "kind": "reason",
+      "keywords": ["solar energy", "clean", "sun"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về nguồn gốc của năng lượng mặt trời và nó có làm bẩn không khí không.",
+      "exampleAnswer": "Solar energy is clean, and we can get it from the sun every day.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Will robots do all the housework in the future?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["might", "will", "housework"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem việc nhà nào máy móc làm được và việc nào con người vẫn muốn tự làm.",
+      "exampleAnswer": "They might do most of it, but people will still cook sometimes.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Is a hi-tech house better than a normal house? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["hi-tech", "easier", "expensive"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về một điều tiện lợi và một điều có thể bất tiện của ngôi nhà công nghệ cao.",
+      "exampleAnswer": "I think it is better. Life might be easier, and housework will be faster.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Your friend thinks future houses will be boring. What do you say?", "difficulty": 2, "kind": "situation",
+      "keywords": ["don't agree", "smart", "fun"], "frameId": "f01",
+      "hintDirectionVi": "Nói em đồng ý hay không, rồi kể một điều thú vị nhà tương lai có thể có.",
+      "exampleAnswer": "I don't agree. In the future, houses will be fun and smart.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Would you like to live in space or under the ocean? Why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["space", "ocean", "because"], "frameId": "f06",
+      "hintDirectionVi": "Tưởng tượng một ngày ở mỗi nơi: em nhìn thấy gì, làm gì. Nơi nào hợp với em hơn?",
+      "exampleAnswer": "I'd like to live under the ocean because I love fish and the sea.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "How will homes help the environment in the future?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["solar energy", "save water", "green"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về điện, nước và rác trong nhà. Nhà tương lai có thể tiết kiệm những thứ đó thế nào?",
+      "exampleAnswer": "Homes will use solar energy, and they might collect rainwater too.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "You are designing a future house. Describe two of its rooms.", "difficulty": 3, "kind": "situation",
+      "keywords": ["will have", "bedroom", "kitchen"], "frameId": "f03",
+      "hintDirectionVi": "Chọn hai phòng, rồi nói mỗi phòng sẽ có một thiết bị hay điều gì đặc biệt.",
+      "exampleAnswer": "The kitchen will have a robot cooker. My bedroom will have a wireless TV.", "expectsReason": false
+    },
+    {
+      "id": "q15", "text": "Your grandma asks how a future house might help her. Explain.", "difficulty": 3, "kind": "situation",
+      "keywords": ["might", "look after", "easier"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về những việc bà thấy mệt hoặc khó làm, rồi nói ngôi nhà thông minh có thể giúp gì.",
+      "exampleAnswer": "A smart house might look after you. It will turn on the lights for you.", "expectsReason": true
+    }
+  ]
+}

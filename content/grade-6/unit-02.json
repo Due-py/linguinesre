@@ -1,0 +1,165 @@
+{
+  "grade": 6,
+  "unit": 2,
+  "title": "My House",
+  "titleVi": "Ngôi nhà của em",
+  "topic": "Nói về ngôi nhà của em, các phòng, đồ đạc và vị trí của chúng, và ngôi nhà em mơ ước.",
+  "source": "Global Success 6, Unit 2 (chủ đề, từ vựng, ngữ pháp sở hữu cách, giới từ chỉ vị trí)",
+  "vocab": [
+    { "id": "v01", "en": "flat", "vi": "căn hộ", "example": "My aunt lives in a small flat on the fifth floor." },
+    { "id": "v02", "en": "town house", "vi": "nhà phố", "example": "Our town house has three floors and a small balcony." },
+    { "id": "v03", "en": "country house", "vi": "nhà ở vùng quê", "example": "My grandparents have a country house with a big garden." },
+    { "id": "v04", "en": "furniture", "vi": "đồ đạc trong nhà", "example": "There isn't much furniture in my bedroom." },
+    { "id": "v05", "en": "wardrobe", "vi": "tủ đựng quần áo", "example": "I hang my school uniform in the wardrobe." },
+    { "id": "v06", "en": "chest of drawers", "vi": "tủ có ngăn kéo", "example": "My socks are in the chest of drawers." },
+    { "id": "v07", "en": "cupboard", "vi": "tủ đựng bát đĩa", "example": "We keep the bowls and plates in the kitchen cupboard." },
+    { "id": "v08", "en": "shelf", "vi": "kệ, giá", "example": "My comics are on the shelf above my desk." },
+    { "id": "v09", "en": "cooker", "vi": "bếp nấu", "example": "Mum makes soup on the cooker every evening." },
+    { "id": "v10", "en": "next to", "vi": "bên cạnh", "example": "The bathroom is next to my bedroom." },
+    { "id": "v11", "en": "in front of", "vi": "ở đằng trước", "example": "There is a small tree in front of our house." },
+    { "id": "v12", "en": "between", "vi": "ở giữa", "example": "The lamp is between the bed and the desk." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I live in a ___ in ___.",
+      "vi": "Mình sống trong một ... ở ...",
+      "grammarNote": "Dùng a / an trước danh từ số ít (a flat, an old house); in + tên nơi chốn (in Ha Noi).",
+      "examples": ["I live in a flat in Hai Phong."]
+    },
+    {
+      "id": "f02",
+      "text": "There is a ___ in my ___, and there are ___.",
+      "vi": "Trong ... của mình có một ..., và có ...",
+      "grammarNote": "There is + a / an + danh từ số ít; There are + danh từ số nhiều.",
+      "examples": ["There is a desk in my bedroom, and there are two posters on the wall."]
+    },
+    {
+      "id": "f03",
+      "text": "The ___ is next to / in front of the ___.",
+      "vi": "Cái ... ở bên cạnh / ở trước cái ...",
+      "grammarNote": "Giới từ chỉ vị trí: in, on, under, next to, behind, in front of, between ... and ...",
+      "examples": ["The sofa is in front of the TV.", "My desk is between the bed and the window."]
+    },
+    {
+      "id": "f04",
+      "text": "My favourite room is ___ because ___.",
+      "vi": "Phòng mình thích nhất là ... vì ...",
+      "grammarNote": "Hiện tại đơn để nói sở thích; dùng because để nêu lý do.",
+      "examples": ["My favourite room is the kitchen because it always smells good."]
+    },
+    {
+      "id": "f05",
+      "text": "This is my ___'s room. There is ___ in it.",
+      "vi": "Đây là phòng của ... mình. Trong phòng có ...",
+      "grammarNote": "Sở hữu cách: danh từ chỉ người + 's (my brother's room, Lan's desk).",
+      "examples": ["This is my sister's room. There is a big teddy bear in it."]
+    },
+    {
+      "id": "f06",
+      "text": "I'd like to have ___ because ___.",
+      "vi": "Mình muốn có ... vì ...",
+      "grammarNote": "I'd like to + động từ nguyên mẫu để nói mong muốn.",
+      "examples": ["I'd like to have a house with a garden because I love flowers."]
+    },
+    {
+      "id": "f07",
+      "text": "I think ___ is important because ___.",
+      "vi": "Mình nghĩ ... quan trọng vì ...",
+      "grammarNote": "Nêu ý kiến bằng I think, nêu lý do bằng because.",
+      "examples": ["I think a clean kitchen is important because we cook there."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What kind of house do you live in?", "difficulty": 1, "kind": "personal",
+      "keywords": ["flat", "town house", "country house"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem nhà em là căn hộ, nhà phố hay nhà ở quê, và nó ở đâu.",
+      "exampleAnswer": "I live in a town house in Ha Noi.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "How many rooms are there in your house?", "difficulty": 1, "kind": "personal",
+      "keywords": ["living room", "bedroom", "kitchen"], "frameId": "f02",
+      "hintDirectionVi": "Đi một vòng trong đầu từ cửa nhà vào trong và đếm từng phòng em đi qua.",
+      "exampleAnswer": "There are five rooms: a living room, a kitchen, two bedrooms and a bathroom.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What is there in your bedroom?", "difficulty": 1, "kind": "personal",
+      "keywords": ["bed", "wardrobe", "shelf"], "frameId": "f02",
+      "hintDirectionVi": "Hình dung căn phòng em ngủ và kể vài đồ đạc em nhìn thấy đầu tiên.",
+      "exampleAnswer": "There is a bed, a desk and a small wardrobe in my bedroom.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Do you like your bedroom?", "difficulty": 1, "kind": "opinion",
+      "keywords": ["small", "bright", "tidy"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một điều em thấy dễ chịu và một điều em muốn khác đi trong phòng ngủ.",
+      "exampleAnswer": "Yes, I do. It is small, but it is bright and tidy.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Where do you do your homework at home?", "difficulty": 2, "kind": "personal",
+      "keywords": ["desk", "next to", "window"], "frameId": "f03",
+      "hintDirectionVi": "Nói em ngồi học ở đâu, rồi tả chỗ đó ở cạnh hay ở trước cái gì.",
+      "exampleAnswer": "I do my homework at a desk. It is next to the window.", "expectsReason": false
+    },
+    {
+      "id": "q06", "text": "Where do you keep your books and clothes?", "difficulty": 2, "kind": "personal",
+      "keywords": ["shelf", "wardrobe", "chest of drawers"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về chỗ em cất sách và chỗ em cất quần áo. Dùng in hoặc on cho đúng.",
+      "exampleAnswer": "I keep my books on a shelf and my clothes in the wardrobe.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Which room is your favourite? Why?", "difficulty": 2, "kind": "reason",
+      "keywords": ["favourite", "because", "relax"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem em hay ở phòng nào nhất và em thường làm gì ở đó với ai.",
+      "exampleAnswer": "My favourite room is the living room because my family watches TV there together.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "What would you like to add to your bedroom? Why?", "difficulty": 2, "kind": "reason",
+      "keywords": ["shelf", "lamp", "because"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem trong phòng em đang thiếu thứ gì làm em thấy bất tiện.",
+      "exampleAnswer": "I'd like to have a big shelf because my books are all on the floor.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Is a flat better than a country house? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["flat", "country house", "garden"], "frameId": "f06",
+      "hintDirectionVi": "So sánh hai kiểu nhà: chỗ nào yên tĩnh hơn, chỗ nào tiện hơn. Rồi chọn một bên.",
+      "exampleAnswer": "No. I'd like to have a country house because it has a big garden.", "expectsReason": true
+    },
+    {
+      "id": "q10", "text": "Is a tidy room important? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["tidy", "find", "quickly"], "frameId": "f07",
+      "hintDirectionVi": "Nhớ lại lúc em tìm mãi không thấy một món đồ. Phòng gọn gàng giúp gì cho em?",
+      "exampleAnswer": "Yes. When my room is tidy, I can find my things quickly.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Tell a friend where the kitchen is in your house.", "difficulty": 2, "kind": "situation",
+      "keywords": ["next to", "behind", "in front of"], "frameId": "f03",
+      "hintDirectionVi": "Chọn một phòng khác làm mốc, rồi nói bếp ở cạnh, ở sau hay ở trước phòng đó.",
+      "exampleAnswer": "The kitchen is behind the living room. It is next to the bathroom.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Your friend visits your home. Show him or her your room.", "difficulty": 3, "kind": "situation",
+      "keywords": ["This is", "next to", "between"], "frameId": "f03",
+      "hintDirectionVi": "Mở đầu bằng This is my room, rồi chỉ hai đồ vật và nói chúng ở đâu.",
+      "exampleAnswer": "This is my room. My bed is next to the window, and that's my desk.", "expectsReason": false
+    },
+    {
+      "id": "q13", "text": "Describe a family member's room to a friend.", "difficulty": 3, "kind": "situation",
+      "keywords": ["my brother's room", "There is", "above"], "frameId": "f05",
+      "hintDirectionVi": "Chọn phòng của một người trong nhà. Dùng 's để nói phòng của ai, rồi kể đồ vật trong đó.",
+      "exampleAnswer": "This is my brother's room. There is a big poster above his bed.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "What is your dream house like, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["garden", "swimming pool", "because"], "frameId": "f06",
+      "hintDirectionVi": "Tưởng tượng ngôi nhà em mơ ước: ở đâu, có gì đặc biệt. Vì sao em thích điều đó?",
+      "exampleAnswer": "I'd like to have a house with a big garden because I love plants.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "How can you make your room a nicer place? Give two ideas.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["tidy", "plants", "posters"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về hai việc nhỏ em tự làm được: sắp xếp lại, thêm cây, hay trang trí tường.",
+      "exampleAnswer": "I can tidy my desk every day and put some plants next to the window.", "expectsReason": false
+    }
+  ]
+}

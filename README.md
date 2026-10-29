@@ -1,21 +1,92 @@
-# LinguaReflex
+# LINGUA-REFLEX
 
-Trợ lý AI huấn luyện phản xạ nói tiếng Anh tại nhà, theo SGK Global Success lớp 6–12.
-Dự án của nhóm The Linguines (lớp 8A1, Trường TH, THCS và THPT FPT Bắc Giang) cho STEMPETITION 2027 — Challenge 3 Smart Education.
+Nền tảng luyện nói tiếng Anh có AI cho học sinh lớp 6–12, bám theo sách Global Success. Mục tiêu và nguyên tắc: xem [CLAUDE.md](CLAUDE.md); thiết kế: [DESIGN.md](DESIGN.md).
+
+Công nghệ: Next.js (App Router), React, TypeScript, Tailwind CSS v4, Supabase, Vercel.
 
 ## Chạy trên máy
 
-Cần Node.js 20 trở lên.
-
 ```bash
-npm install      # cài thư viện (chỉ lần đầu)
-npm run dev      # chạy web, mở http://localhost:3000
-npm run lint     # kiểm tra lỗi code
-npm run build    # thử đóng gói như khi đưa lên mạng
+npm install
+cp .env.example .env.local   # điền giá trị thật (chưa cần ở M0)
+npm run dev                  # http://localhost:3000
 ```
 
-## Công nghệ
+Kiểm tra trước khi đẩy code: `npm run lint && npm run typecheck && npm run test && npm run build`.
+Kiểm tra giao diện: build + `npx next start -p 3124`, rồi `node scripts/ui-check.mjs / 375` (đo cuộn ngang bằng Edge thật). Trên Git Bash đặt `MSYS_NO_PATHCONV=1` trước lệnh khi truyền đường dẫn bắt đầu bằng `/`.
 
-Next.js + TypeScript + Tailwind CSS, Supabase (tài khoản + dữ liệu), Vercel (chạy web), OpenAI (nhận xét, hội thoại).
+## Trạng thái
 
-Thư mục `files/` (SGK, video thiết kế, tài liệu cuộc thi) chỉ để tham khảo trên máy, không đưa lên GitHub.
+| Mốc | Trạng thái |
+|---|---|
+| M0 Nền + landing | Xong, đã kiểm tra |
+| M1 Đăng nhập, đăng ký, quên mật khẩu, onboarding | **Đã viết, giao diện và kiểm tra biểu mẫu đã thử bằng trình duyệt; chưa thử luồng đăng ký → onboarding với Supabase thật** (cần chạy `0001_core.sql` và tắt "Confirm email") |
+| M2 Lớp học, dashboard học sinh/giáo viên | **Đã viết; chưa kiểm chứng quyền trên Supabase thật** (chạy `node scripts/test-rls.mjs` sau khi chạy migration) |
+| M3 Nội dung đủ 78 Unit lớp 6–12 (1.170 câu hỏi) | **Đã viết và kiểm tra cấu trúc** (`npm run content:check`, `tests/content.test.ts`). Lớp 8 Unit 1–3 đã nạp vào Supabase; cả 78 Unit **đã nạp vào Supabase và đã duyệt** (29/10, người duyệt: Nhóm LINGUA-REFLEX). Chưa có thầy cô bộ môn đọc lại |
+| M4 Buổi luyện nói (ghi âm, chép lời, gợi ý 4 mức, lưu, tiếp tục) | **Đã kiểm tra trên Supabase thật**: 24/24 kiểm tra quyền (`npm run test:sessions`), toàn luồng bằng Edge với micro giả và `MOCK_AI=1` (`npm run test:e2e`). **Chưa thử với giọng nói thật, Deepgram và OpenAI TTS thật.** Chưa có: giữ bản ghi khi mất mạng |
+| M5 Phản hồi từng câu (đo trực tiếp + AI nhận xét, nói lại tối đa 3 lần, so sánh) | **Đã viết.** Phần AI đã thử với OpenAI thật (`npm run test:feedback`: 4/4 đạt với `gpt-5.6-terra` và `gpt-4.1-mini`, gồm câu có lỗi, câu quá ngắn, câu có lệnh chèn). **Đã kiểm tra trên Supabase thật**: quyền đọc/ghi phản hồi trong `npm run test:sessions`, luồng nói lại + so sánh trong `npm run test:e2e` (`MOCK_AI=1`). **Chưa thử với giọng nói thật trên điện thoại và với học sinh thật.** |
+| M6 Tổng kết buổi, lịch sử, dashboard học sinh thật, giáo viên xem buổi luyện của học sinh | **Đã viết.** Quy tắc tổng kết có test (`tests/summary.test.ts`). Giao diện đã xem bằng Edge ở 375px/1280px qua `/dev-preview/session-report`, `/dev-preview/student-new`, `/dev-preview/student-in-class`. **Đã kiểm tra trên Supabase thật**: `npm run test:sessions` 41/41 (gồm `complete_session`), `npm run test:e2e` 42/42 (tổng kết, lịch sử, dashboard, giáo viên xem buổi của học sinh trong lớp). **Chưa thử bằng tay trên điện thoại thật**; "điểm cần cải thiện" (cần ≥ 3 buổi) mới có test thuần, chưa có test trình duyệt |
+| M7 Quyền riêng tư, xóa dữ liệu, hoàn thiện | Chưa làm |
+| NC1 Nghiên cứu: đăng nhập mã HS + PIN, chế độ Kiểm tra (mục 3.5), đo RL tự động (mục 3.7), lệnh cho nhóm | **Đã kiểm tra trên Supabase thật** (29/10): `npm run test:research` 15/15 (quyền), `npm run test:e2e-test` 19/19 (cả bài bằng Edge, micro giả im lặng, `MOCK_AI=1`: đăng nhập mã + PIN, 2 câu mẫu + 15 câu, tự dừng sau 10 giây im lặng, file ghi âm, đo RL). Đề đã nạp kèm giọng đọc (giọng `cedar`, mô hình `gpt-4o-mini-tts-2025-12-15`, 32 file, Deepgram nghe lại đúng từng chữ). **Không đổi giọng cho tới hết bài kiểm tra lần 2.** **Chưa thử trên điện thoại thật, chưa thử Deepgram thật cho RL.** Giữa hai câu có khoảng 4–5 giây chờ máy chủ |
+| NC2 Chế độ A (Pyramid, Speed Q&A, Micro-Roleplay), Chế độ B (đọc to SGK), log từng lượt + CSV, câu hỏi hằng tuần | Chưa làm (hạn 06/11) |
+
+Kiểm tra: `npm run lint && npm run typecheck && npm run test && npm run build`. Test thuần gồm mã lớp, biểu mẫu, chọn câu, gợi ý, phát hiện bắt đầu nói, số đo và kiểm chứng phản hồi AI.
+
+### Phản hồi AI (M5)
+
+- Mã: `src/lib/feedback/` (`measures.ts` đo bằng quy tắc; `core.ts` câu lệnh, lược đồ, kiểm chứng, gọi OpenAI; `generate.ts` chỉ chạy ở máy chủ). Hành động `requestFeedback` trong `src/app/(student)/student/practice/actions.ts`.
+- Mô hình đặt ở `OPENAI_FEEDBACK_MODEL`. Mô hình phải nhận `response_format: json_schema` qua Chat Completions. Thử mô hình khác mà không sửa `.env.local`: `OPENAI_FEEDBACK_MODEL=<tên> npm run test:feedback`.
+- Máy chủ bỏ mọi lỗi ngữ pháp mà AI không trích đúng nguyên văn từ chữ ghi lời, bỏ câu gợi ý quá dài, và không nhận xét ngữ pháp/từ vựng khi câu dưới 4 từ.
+- Không gửi tên hay email sang OpenAI. Mỗi học sinh tối đa 20 lần/phút, 300 lần/ngày (`src/lib/usage.ts`). Câu đã có nhận xét thì không gọi AI lại.
+
+## Thiết lập Supabase (làm một lần)
+
+1. Chạy `supabase/migrations/0001_core.sql` trong SQL Editor.
+2. Authentication > Providers > Email: tắt "Confirm email" khi phát triển (Supabase mặc định chỉ gửi vài email mỗi giờ, không đủ cho cả lớp đăng ký). Trước khi dùng thật, gắn SMTP riêng rồi bật lại; ứng dụng tự nhận ra chế độ nào đang bật.
+3. Authentication > URL Configuration: Site URL `http://localhost:3000`, thêm Redirect URL `http://localhost:3000/auth/callback`.
+4. `npm run test:rls` để kiểm tra phân quyền (tạo và xóa tài khoản thử `@example.test`).
+5. Chạy `supabase/migrations/0002_content.sql`, rồi `npm run content:seed` để nạp nội dung (trạng thái nháp).
+5b. Chạy `supabase/migrations/0007_grades_6_12.sql` để nhận học sinh, lớp và Unit lớp 10–12 (trước đây chỉ 6–9).
+6. Chạy `supabase/migrations/0003_sessions.sql`, `0004_feedback.sql` và `0005_complete_session.sql`, rồi `npm run test:sessions` (quyền buổi luyện và phản hồi) và `npm run test:e2e` (cả luồng bằng trình duyệt, cần web chạy với `MOCK_AI=1` ở cổng 3126).
+7. Sau khi thầy cô đọc kỹ một Unit: `npm run content:approve -- 8 1 "Tên người duyệt"`. Chỉ Unit đã duyệt mới hiện cho học sinh. Sửa file JSON rồi nạp lại thì Unit tự về nháp.
+
+## Nội dung luyện tập
+
+`content/grade-<khối>/unit-<số>.json`, đủ 78 Unit: lớp 6–9 mỗi khối 12 Unit, lớp 10–12 mỗi khối 10 Unit. Mỗi Unit: 12 từ vựng, 6 khung câu, 15 câu hỏi (độ khó 1–3), mỗi câu có đủ 4 mức gợi ý (hướng nghĩ, từ khóa, khung câu, câu ví dụ). Chỉ lấy chủ đề, từ vựng, mẫu ngữ pháp từ Book map và Glossary của SGK Global Success 6–12; mọi câu hỏi và ví dụ đều tự viết. Cấu trúc và luật kiểm tra: `src/lib/content/schema.ts`. Câu luyện lớp 8 không được gần câu trong đề kiểm tra nghiên cứu (`tests/research.test.ts`). Một số câu hỏi trùng nguyên văn giữa các khối khác nhau (8 câu); không ảnh hưởng vì học sinh chỉ thấy Unit của khối mình.
+
+### Tổng kết và lịch sử (M6)
+
+- Buổi chỉ "hoàn thành" qua `complete_session` (0005), khi mọi câu đã có câu trả lời. Học sinh bấm "Xem tổng kết buổi luyện" ở cuối buổi.
+- Tổng kết, mục tiêu buổi sau và "điểm cần cải thiện" tính bằng quy tắc cố định trong `src/lib/summary.ts` (không qua AI), luôn kèm căn cứ. Mỗi câu chỉ tính lần trả lời cuối. "Điểm cần cải thiện" chỉ hiện khi đã có ít nhất 3 buổi hoàn thành.
+- `src/lib/sessions.ts` đọc bằng client thường nên RLS quyết định ai xem được: học sinh xem buổi của mình (`/student/sessions/[id]`, `/student/history`), giáo viên xem học sinh trong lớp mình (`/teacher/students/[id]`, `/teacher/sessions/[id]`). Bản ghi âm phát qua đường dẫn ký tên hết hạn sau 1 giờ.
+
+## Nghiên cứu (quy trình 23/10/2026)
+
+Lệnh cho nhóm nghiên cứu. Mọi file xuất ra nằm trong `files/research/` (không đưa lên GitHub). Chạy trên máy có `.env.local`.
+
+| Khi nào | Lệnh |
+|---|---|
+| Một lần, sau khi chạy `0006_research.sql` | `npm run research:seed-tests` nạp đề A/B lớp 8 (`content/tests/grade-8.json`) và tạo sẵn giọng đọc |
+| Tối 01/11, sau khi bốc thăm thứ tự đề | `npm run research:students -- files/research/hoc-sinh.csv` (cột `code,grade,form_order[,pilot]`), in file `phieu-dang-nhap-*.csv` phát cho học sinh |
+| Học sinh quên PIN | `npm run research:students -- --reset HS008` |
+| 30–31/10 thử đề với lớp 9 | Tạo tài khoản với cột `pilot` = 1: làm đề A rồi đề B liền nhau |
+| 04–06/11 đo RL và kiểm chứng tay | `npm run research:export -- --audio` (CSV từng câu + tóm tắt trung vị RL mỗi học sinh + file ghi âm) |
+| Có câu "chưa đo được" | `npm run research:rescore` |
+| 06/11 sau khi bốc thăm nhóm | `npm run research:arms -- files/research/chia-nhom.csv` (cột `code,arm`) |
+| 30/11 mở bài kiểm tra lần 2 | `npm run research:settings -- post_test_open true` |
+| Sau 15/12 | `npm run research:arms -- --all-A` |
+
+- Học sinh đăng nhập ở `/login` bằng mã + PIN; giáo viên dùng `/login?as=email`. Không lưu họ tên học sinh.
+- Bài kiểm tra: câu hỏi (chữ + giọng đọc tạo sẵn, cùng giọng cho mọi câu) → tiếng bíp → ghi âm, tự sang câu sau khi im lặng 10 giây hoặc sau 20 giây. Không đồng hồ, không nhận xét. Tiếng bíp được trộn thẳng vào file ghi âm (880 Hz, 150 ms, bắt đầu ở giây 0,30 của file) để đo tay bằng Audacity.
+- RL máy đo = từ lúc hết tiếng bíp tới đầu từ có nghĩa đầu tiên theo Deepgram (`src/lib/research/latency.ts`), bỏ uh/um/er/ah/hmm; quá 10 giây ghi 10 giây và "không trả lời".
+- Học sinh tham gia chỉ vào được chế độ luyện khi đã được chia chế độ A và không có bài kiểm tra đến hạn. Học sinh không đọc được đề, bài làm hay file ghi âm kiểm tra (kiểm tra bằng `npm run test:research`).
+- `--with-arm` khi xuất dữ liệu chỉ dành cho người giữ danh sách nhóm; không gửi file đó cho người chấm.
+
+## Xem giao diện khi chưa đăng nhập
+
+Chạy `npm run dev`, mở `/dev-preview/student-new`, `/dev-preview/student-in-class`, `/dev-preview/teacher-empty`, `/dev-preview/teacher-classes`, `/dev-preview/onboarding`. Các trang này dùng **dữ liệu mẫu**, chỉ để xem bố cục, và trả 404 ở bản production.
+
+## Lưu ý cho người duy trì
+
+- `next.config.ts` cố ý **không** bật `cacheComponents`/`partialPrefetching` (mặc định của bộ khởi tạo): hầu hết trang phụ thuộc phiên đăng nhập.
+- Nội dung landing phải được rà lại ở M7 để chỉ nói những gì đã chạy thật (đặc biệt: phản hồi AI, trợ giúp 4 mức, trang quyền riêng tư).

@@ -1,0 +1,158 @@
+{
+  "grade": 12,
+  "unit": 3,
+  "title": "Green Living",
+  "titleVi": "Sống xanh",
+  "topic": "Nói về thói quen sống xanh của em và gia đình, cách giảm rác thải, tái sử dụng, và trách nhiệm bảo vệ môi trường của mỗi người.",
+  "source": "Global Success 12, Unit 3 (chủ đề, từ vựng, ngữ pháp động từ đi với giới từ, mệnh đề quan hệ bổ nghĩa cả câu)",
+  "vocab": [
+    { "id": "v01", "en": "carbon footprint", "vi": "lượng khí thải các-bon (của một người)", "example": "Taking the bus instead of a taxi reduces my carbon footprint." },
+    { "id": "v02", "en": "eco-friendly", "vi": "thân thiện với môi trường", "example": "My school has switched to eco-friendly paper cups." },
+    { "id": "v03", "en": "single-use", "vi": "dùng một lần", "example": "Single-use straws are often used for only a few minutes." },
+    { "id": "v04", "en": "reusable", "vi": "tái sử dụng được", "example": "I always carry a reusable water bottle in my bag." },
+    { "id": "v05", "en": "packaging", "vi": "bao bì", "example": "Online orders often come with too much plastic packaging." },
+    { "id": "v06", "en": "household waste", "vi": "rác thải sinh hoạt", "example": "We sort our household waste into three bins." },
+    { "id": "v07", "en": "landfill", "vi": "bãi chôn rác", "example": "Most of our rubbish ends up in a landfill outside the city." },
+    { "id": "v08", "en": "compost", "vi": "phân hữu cơ", "example": "My grandmother turns vegetable scraps into compost for her garden." },
+    { "id": "v09", "en": "decompose", "vi": "phân huỷ", "example": "Banana leaves decompose much faster than plastic bags." },
+    { "id": "v10", "en": "leftover", "vi": "thức ăn thừa", "example": "We use leftovers from dinner to make fried rice the next day." },
+    { "id": "v11", "en": "clean up", "vi": "dọn dẹp", "example": "Our class cleaned up the beach last Sunday." },
+    { "id": "v12", "en": "in the long run", "vi": "về lâu dài", "example": "Solar panels are expensive, but they save money in the long run." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I try to ___, which ___.",
+      "vi": "Mình cố gắng ..., điều này ...",
+      "grammarNote": "Mệnh đề quan hệ với which sau dấu phẩy có thể bổ nghĩa cho cả câu trước: I cycle to school, which saves energy.",
+      "examples": ["I try to turn off the lights when I leave a room, which saves electricity."]
+    },
+    {
+      "id": "f02",
+      "text": "My family ___, which helps ___.",
+      "vi": "Gia đình mình ..., việc này giúp ...",
+      "grammarNote": ", which + động từ số ít: which nói về cả hành động phía trước nên động từ chia số ít.",
+      "examples": ["My family grows vegetables on the balcony, which helps us eat fresh food."]
+    },
+    {
+      "id": "f03",
+      "text": "Many people care about ___, but they still ___.",
+      "vi": "Nhiều người quan tâm đến ..., nhưng họ vẫn ...",
+      "grammarNote": "Động từ đi với giới từ cố định: care about, worry about, depend on, apologise for. Sau giới từ dùng danh từ hoặc V-ing.",
+      "examples": ["Many people care about the ocean, but they still throw plastic on the beach."]
+    },
+    {
+      "id": "f04",
+      "text": "We can reduce ___ by ___.",
+      "vi": "Chúng ta có thể giảm ... bằng cách ...",
+      "grammarNote": "by + V-ing chỉ cách làm; protect ... from, prevent ... from cũng là động từ đi với giới từ.",
+      "examples": ["We can reduce plastic waste by bringing our own bags to the market."]
+    },
+    {
+      "id": "f05",
+      "text": "Instead of ___, I ___.",
+      "vi": "Thay vì ..., mình ...",
+      "grammarNote": "Sau giới từ instead of dùng V-ing: Instead of buying new books, I borrow them.",
+      "examples": ["Instead of using plastic bags, I bring a cloth bag when I go shopping."]
+    },
+    {
+      "id": "f06",
+      "text": "I agree with the idea that ___ because ___.",
+      "vi": "Mình đồng ý với ý kiến rằng ... vì ...",
+      "grammarNote": "agree with + người hoặc ý kiến; agree on + vấn đề cùng quyết định; the idea that + mệnh đề.",
+      "examples": ["I agree with the idea that schools should ban single-use plastic because students will form good habits."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What do you do to reduce waste at home?", "difficulty": 1, "kind": "personal",
+      "keywords": ["reuse", "instead of", "recycle"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về đồ cũ trong nhà em: chai lọ, giấy, túi... Em có dùng lại hay phân loại chúng không?",
+      "exampleAnswer": "Instead of throwing away old jars, I reuse them to store pens and snacks.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "How do you usually travel to school, and is it eco-friendly?", "difficulty": 1, "kind": "personal",
+      "keywords": ["cycle", "eco-friendly", "bus"], "frameId": "f01",
+      "hintDirectionVi": "Nói phương tiện em hay đi, rồi nghĩ xem nó có thải khói hay tốn xăng không.",
+      "exampleAnswer": "I cycle to school every day, which is eco-friendly and also keeps me fit.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Which single-use items do you use most often?", "difficulty": 1, "kind": "personal",
+      "keywords": ["single-use", "plastic straws", "bottles"], "frameId": "f05",
+      "hintDirectionVi": "Nhớ lại một ngày của em: mua nước, ăn sáng, mua đồ. Những thứ nào em chỉ dùng một lần rồi vứt?",
+      "exampleAnswer": "I often use plastic bottles and straws when I buy drinks. Now, instead of buying bottled water, I'm trying to bring my own bottle.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What green habit does your family have?", "difficulty": 1, "kind": "personal",
+      "keywords": ["compost", "save water", "sort rubbish"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về một việc nhỏ cả nhà em làm đều đặn để tiết kiệm điện, nước hoặc giảm rác.",
+      "exampleAnswer": "My family turns fruit peel into compost for our garden, which helps reduce our household waste.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why should people use reusable bags instead of plastic ones?", "difficulty": 2, "kind": "reason",
+      "keywords": ["reusable", "decompose", "landfill"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem túi ni lông đi đâu sau khi bị vứt và mất bao lâu để biến mất.",
+      "exampleAnswer": "Plastic bags take hundreds of years to decompose and fill up landfills. Instead of using them, we should bring reusable bags, which are stronger anyway.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Why do you think many people still find it hard to live green?", "difficulty": 2, "kind": "reason",
+      "keywords": ["convenient", "habit", "cheap"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem điều gì khiến chính em đôi khi chọn cách không xanh: tiện, rẻ, hay thói quen?",
+      "exampleAnswer": "Many people care about the environment, but they still use single-use products because they are cheap and convenient. Changing old habits is hard.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Should shops charge customers for plastic bags? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["charge", "single-use", "habit"], "frameId": "f06",
+      "hintDirectionVi": "Hình dung mỗi túi ni lông phải trả tiền. Người mua sẽ thay đổi hành vi thế nào?",
+      "exampleAnswer": "I agree with the idea that shops should charge for plastic bags because people will bring their own bags, which reduces waste.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Your friend throws a plastic bottle into the wrong bin. What would you say?", "difficulty": 2, "kind": "situation",
+      "keywords": ["recycling bin", "could you", "which"], "frameId": "f01",
+      "hintDirectionVi": "Nhắc bạn một cách lịch sự, thân thiện, rồi nói ngắn gọn vì sao bỏ đúng thùng lại có ích.",
+      "exampleAnswer": "Hey, could you put that bottle in the recycling bin instead? It can be made into something new, which is better than sending it to landfill.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "What is one thing you have changed to lower your carbon footprint?", "difficulty": 2, "kind": "personal",
+      "keywords": ["carbon footprint", "turn off", "walk"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một thói quen nhỏ em đã thay đổi gần đây liên quan đến điện, đi lại hay mua sắm.",
+      "exampleAnswer": "I now turn off the lights and fan when I leave my room, which saves electricity and lowers my carbon footprint.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Is it better to recycle waste or to produce less waste in the first place?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["reduce", "recycle", "in the long run"], "frameId": "f06",
+      "hintDirectionVi": "So sánh hai cách: tái chế vẫn tốn năng lượng, còn giảm rác thì giải quyết từ gốc. Em chọn bên nào?",
+      "exampleAnswer": "I think producing less waste is better in the long run. Recycling uses energy, but reducing waste solves the problem from the start.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Your class wants to make less waste at lunchtime. Suggest two ideas.", "difficulty": 2, "kind": "situation",
+      "keywords": ["leftovers", "reusable", "lunch box"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem bữa trưa ở trường thường tạo ra rác gì: hộp, túi, đồ ăn thừa. Mỗi loại có thể giảm thế nào?",
+      "exampleAnswer": "We can reduce waste at lunchtime by bringing reusable lunch boxes. We can also turn leftovers into compost for the school garden.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Why is it important to teach children green habits from an early age?", "difficulty": 3, "kind": "reason",
+      "keywords": ["habit", "in the long run", "eco-friendly"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem thói quen hình thành lúc nhỏ có dễ mất không, và nó ảnh hưởng thế nào khi lớn lên.",
+      "exampleAnswer": "Habits learned early often last for life. If children learn to save water and sort rubbish now, they will protect the environment in the long run.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Who should do more to protect the environment: individuals, companies or the government?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["responsibility", "packaging", "laws"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem mỗi bên có sức mạnh gì: người dân thay đổi thói quen, công ty làm sản phẩm, nhà nước làm luật.",
+      "exampleAnswer": "I think companies should do more because they produce most of the packaging. However, the government must make laws, and individuals should change their habits too.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Can green living become fashionable among teenagers? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["eco-friendly", "trend", "social media"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về những xu hướng trên mạng mà bạn bè em hay theo. Sống xanh có thể trở thành một xu hướng như vậy không?",
+      "exampleAnswer": "Yes, it can. Many young influencers share second-hand outfits and reusable products, which makes green living look cool and modern.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Design a simple one-month green challenge for your class. Explain how it works.", "difficulty": 3, "kind": "situation",
+      "keywords": ["challenge", "single-use", "points"], "frameId": "f04",
+      "hintDirectionVi": "Chọn một hành động cụ thể cần làm mỗi ngày, rồi nghĩ cách tính điểm hoặc phần thưởng để mọi người hào hứng.",
+      "exampleAnswer": "Students get points for each day they bring a reusable bottle and avoid single-use plastic. The team with the most points wins, which keeps everyone motivated.", "expectsReason": true
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "grade": 9,
+  "unit": 11,
+  "title": "Electronic Devices",
+  "titleVi": "Thiết bị điện tử",
+  "topic": "Nói về các thiết bị điện tử em dùng, vai trò của chúng trong học tập và cuộc sống, và cách dùng chúng hợp lý.",
+  "source": "Global Success 9, Unit 11 (chủ đề, từ vựng, ngữ pháp suggest/advise/recommend + V-ing, should)",
+  "vocab": [
+    { "id": "v01", "en": "electronic device", "vi": "thiết bị điện tử", "example": "Phones and tablets are the electronic devices that teens use most." },
+    { "id": "v02", "en": "smartwatch", "vi": "đồng hồ thông minh", "example": "My smartwatch counts my steps every day." },
+    { "id": "v03", "en": "e-reader", "vi": "máy đọc sách điện tử", "example": "I can carry hundreds of books on my e-reader." },
+    { "id": "v04", "en": "touchscreen", "vi": "màn hình cảm ứng", "example": "The touchscreen is easy to use, even for my grandma." },
+    { "id": "v05", "en": "wireless", "vi": "không dây", "example": "I use wireless headphones when I go jogging." },
+    { "id": "v06", "en": "portable", "vi": "có thể mang theo, xách tay", "example": "A portable speaker is great for picnics." },
+    { "id": "v07", "en": "robotic vacuum cleaner", "vi": "robot hút bụi tự động", "example": "Our robotic vacuum cleaner cleans the floor while we are at school." },
+    { "id": "v08", "en": "3D printer", "vi": "máy in 3D", "example": "We used a 3D printer to make a model of a bridge." },
+    { "id": "v09", "en": "camcorder", "vi": "máy quay phim xách tay", "example": "My uncle filmed the wedding with an old camcorder." },
+    { "id": "v10", "en": "stylish", "vi": "hợp thời trang, kiểu cách", "example": "This phone case is cheap but stylish." },
+    { "id": "v11", "en": "virtual", "vi": "ảo", "example": "We went on a virtual tour of a museum in Paris." },
+    { "id": "v12", "en": "portable music player", "vi": "máy nghe nhạc cầm tay", "example": "My dad still keeps his old portable music player." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I suggest ___ because ___.",
+      "vi": "Mình gợi ý ... vì ...",
+      "grammarNote": "suggest + V-ing: gợi ý làm gì (I suggest buying an e-reader).",
+      "examples": ["I suggest using a timer app because it helps you focus."]
+    },
+    {
+      "id": "f02",
+      "text": "I'd recommend ___ if you want to ___.",
+      "vi": "Mình khuyên nên ... nếu bạn muốn ...",
+      "grammarNote": "recommend / advise + V-ing hoặc + danh từ: khuyên làm gì, khuyên dùng cái gì.",
+      "examples": ["I'd recommend buying wireless earphones if you want to exercise with music."]
+    },
+    {
+      "id": "f03",
+      "text": "I suggest that ___ should ___.",
+      "vi": "Mình đề nghị rằng ... nên ...",
+      "grammarNote": "suggest (that) + S + should + V nguyên mẫu: đề nghị ai nên làm gì.",
+      "examples": ["I suggest that we should turn off our phones during meals."]
+    },
+    {
+      "id": "f04",
+      "text": "The device I use most is my ___. I use it to ___.",
+      "vi": "Thiết bị mình dùng nhiều nhất là ... Mình dùng nó để ...",
+      "grammarNote": "use + tân ngữ + to V: dùng cái gì để làm gì.",
+      "examples": ["The device I use most is my tablet. I use it to read and draw."]
+    },
+    {
+      "id": "f05",
+      "text": "In the future, ___ will be able to ___.",
+      "vi": "Trong tương lai, ... sẽ có thể ...",
+      "grammarNote": "will be able to + V nguyên mẫu: sẽ có khả năng làm gì trong tương lai.",
+      "examples": ["In the future, smartwatches will be able to check our health all day."]
+    },
+    {
+      "id": "f06",
+      "text": "I couldn't live without my ___ because ___.",
+      "vi": "Mình không thể sống thiếu ... vì ...",
+      "grammarNote": "couldn't live without + danh từ: không thể thiếu cái gì; because + mệnh đề để giải thích.",
+      "examples": ["I couldn't live without my headphones because I listen to music everywhere."]
+    },
+    {
+      "id": "f07",
+      "text": "I prefer ___ to ___ because ___.",
+      "vi": "Em thích ... hơn ... vì ...",
+      "grammarNote": "prefer A to B: thích A hơn B; because + mệnh đề để nêu lý do.",
+      "examples": ["I prefer e-books to paper books because I can carry hundreds of them on one device."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Which electronic device do you use the most every day?", "difficulty": 1, "kind": "personal",
+      "keywords": ["laptop", "phone", "use it to"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một ngày của em từ sáng đến tối. Thiết bị nào em cầm đến nhiều nhất, và để làm gì?",
+      "exampleAnswer": "The device I use most is my laptop. I use it to do homework and watch English videos.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What do you use computers for at school?", "difficulty": 1, "kind": "personal",
+      "keywords": ["search", "presentation", "project"], "frameId": "f04",
+      "hintDirectionVi": "Nhớ lại giờ Tin học hoặc khi làm bài nhóm. Em dùng máy tính để làm những việc gì?",
+      "exampleAnswer": "At school, we use computers to search for information and make presentations for group projects.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Do you prefer reading paper books or e-books?", "difficulty": 1, "kind": "personal",
+      "keywords": ["e-reader", "paper", "eyes"], "frameId": "f07",
+      "hintDirectionVi": "So sánh cảm giác cầm sách giấy với đọc trên màn hình. Em thích cách nào hơn?",
+      "exampleAnswer": "I prefer paper books because I like turning the pages, and my eyes don't get tired.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What new device would you like to try, and what would you do with it?", "difficulty": 1, "kind": "personal",
+      "keywords": ["smartwatch", "track", "would use it to"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về một thiết bị em thấy hay nhưng chưa dùng. Em sẽ dùng nó cho việc gì?",
+      "exampleAnswer": "I'd love to try a smartwatch. I would use it to count my steps and check messages during football practice.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why are portable devices so popular with teenagers?", "difficulty": 2, "kind": "reason",
+      "keywords": ["portable", "anywhere", "light"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem vì sao bạn bè em luôn mang theo điện thoại, tai nghe. Chúng tiện ở điểm nào?",
+      "exampleAnswer": "Portable devices are light and easy to carry, so teens can listen to music, study or chat anywhere.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Why do many parents limit their children's screen time?", "difficulty": 2, "kind": "reason",
+      "keywords": ["screen time", "sleep", "eyes"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về những điều bố mẹ lo khi con dùng thiết bị quá lâu: mắt, giấc ngủ, việc học.",
+      "exampleAnswer": "Too much screen time can hurt our eyes and sleep. Many doctors suggest that children should take regular breaks.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Will robots do most of the housework in the future? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["robotic vacuum cleaner", "cheaper", "cook"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về những máy móc đã giúp việc nhà bây giờ, rồi đoán xem chúng sẽ làm được gì thêm.",
+      "exampleAnswer": "I think so. Robotic vacuum cleaners are already common, and soon robots will be able to cook and wash clothes too.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Should students be allowed to use phones in class? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["distraction", "look up", "rules"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về lúc điện thoại giúp ích trong giờ học và lúc nó làm học sinh mất tập trung.",
+      "exampleAnswer": "Only sometimes. Phones are useful for looking things up, but I suggest that teachers should set clear rules to avoid distractions.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Which device helps you most with your hobbies?", "difficulty": 2, "kind": "personal",
+      "keywords": ["record", "edit", "couldn't live without"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về sở thích của em: âm nhạc, chụp ảnh, vẽ, thể thao. Thiết bị nào giúp em làm điều đó?",
+      "exampleAnswer": "My old phone is my favourite device. I couldn't live without it because I use it to record and edit dance videos.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Your friend wants to buy a new device for studying. Give some advice.", "difficulty": 2, "kind": "situation",
+      "keywords": ["recommend", "laptop", "battery"], "frameId": "f02",
+      "hintDirectionVi": "Hỏi bạn cần dùng để làm gì, rồi gợi ý một thiết bị và một điểm cần chú ý khi chọn.",
+      "exampleAnswer": "I'd recommend buying a light laptop if you want to study anywhere. Choose one with a long battery life.", "expectsReason": false
+    },
+    {
+      "id": "q11", "text": "Your grandma finds it hard to use her new smartphone. Help her.", "difficulty": 2, "kind": "situation",
+      "keywords": ["touchscreen", "suggest", "video call"], "frameId": "f01",
+      "hintDirectionVi": "Nói nhẹ nhàng cho bà yên tâm, chọn một chức năng đơn giản nhất và hướng dẫn từng bước.",
+      "exampleAnswer": "Don't worry, Grandma. I suggest starting with video calls. Just touch this green button on the screen to call me.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Do electronic devices make teenagers more or less sociable? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["sociable", "chat", "face to face"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về cả hai mặt: thiết bị giúp kết nối thế nào, và làm người ta xa nhau ra sao.",
+      "exampleAnswer": "Both. Devices help us chat with friends far away, but some teens look at screens all day and forget to talk face to face.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "If you could invent a new electronic device, what would it do, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["invent", "help", "wireless"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về một việc khó hoặc phiền trong cuộc sống của em. Một thiết bị có thể giải quyết nó thế nào?",
+      "exampleAnswer": "I would invent a wireless pen that writes notes in any language. It would help students who are learning foreign languages.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Your school wants to buy one new device for every classroom. Suggest one and explain why.", "difficulty": 3, "kind": "situation",
+      "keywords": ["suggest", "3D printer", "projects"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một thiết bị làm giờ học thú vị hoặc hiệu quả hơn, rồi nói nó giúp học sinh thế nào.",
+      "exampleAnswer": "I suggest buying a 3D printer because students could design and print models for science projects. It would make learning more fun.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Will virtual reality replace real classrooms in the future? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["virtual", "teachers", "interact"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem thực tế ảo làm được gì hay, và điều gì ở lớp học thật mà máy móc khó thay thế.",
+      "exampleAnswer": "I don't think so. Virtual reality will be able to show us amazing places, but students still need real teachers and friends.", "expectsReason": true
+    }
+  ]
+}

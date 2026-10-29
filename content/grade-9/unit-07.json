@@ -1,0 +1,172 @@
+{
+  "grade": 9,
+  "unit": 7,
+  "title": "Natural Wonders of the World",
+  "titleVi": "Những kỳ quan thiên nhiên thế giới",
+  "topic": "Nói về những cảnh đẹp thiên nhiên em đã đến hoặc muốn đến, và cách du khách có thể giữ gìn những nơi ấy.",
+  "source": "Global Success 9, Unit 7 (chủ đề, từ vựng, ngữ pháp câu tường thuật dạng câu hỏi Yes/No)",
+  "vocab": [
+    { "id": "v01", "en": "natural wonder", "vi": "kỳ quan thiên nhiên", "example": "Ha Long Bay is a natural wonder that attracts visitors from all over the world." },
+    { "id": "v02", "en": "majestic", "vi": "uy nghi, tráng lệ", "example": "The majestic mountains were covered in clouds." },
+    { "id": "v03", "en": "paradise", "vi": "thiên đường, nơi đẹp tuyệt trần", "example": "The small island was a paradise of white sand and clear water." },
+    { "id": "v04", "en": "peak", "vi": "đỉnh núi", "example": "We reached the peak just before sunrise." },
+    { "id": "v05", "en": "biodiversity", "vi": "sự đa dạng sinh học", "example": "This national park is famous for its biodiversity." },
+    { "id": "v06", "en": "ecosystem", "vi": "hệ sinh thái", "example": "Rubbish can damage the whole ecosystem of a lake." },
+    { "id": "v07", "en": "travel destination", "vi": "điểm đến du lịch", "example": "Da Lat is a popular travel destination for students." },
+    { "id": "v08", "en": "locate", "vi": "định vị, đặt ở", "example": "The waterfall is located deep in the forest." },
+    { "id": "v09", "en": "sustainable", "vi": "bền vững", "example": "Sustainable tourism protects nature for the future." },
+    { "id": "v10", "en": "permit", "vi": "cho phép", "example": "Visitors are not permitted to feed the animals." },
+    { "id": "v11", "en": "access", "vi": "sự tiếp cận, lối vào", "example": "The only access to the cave is by boat." },
+    { "id": "v12", "en": "feature", "vi": "đặc điểm", "example": "The main feature of the area is its tall limestone cliffs." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "___ asked me if I ___.",
+      "vi": "... hỏi mình liệu mình có ... không.",
+      "grammarNote": "Tường thuật câu hỏi Yes/No: asked (me) if / whether + S + V lùi thì (are → were, can → could, will → would).",
+      "examples": ["My friend asked me if I was free on Sunday.", "She asked me whether I could swim."]
+    },
+    {
+      "id": "f02",
+      "text": "She asked whether I had ever ___.",
+      "vi": "Bạn ấy hỏi mình đã từng ... bao giờ chưa.",
+      "grammarNote": "Khi tường thuật, hiện tại hoàn thành lùi thành quá khứ hoàn thành (have been → had been).",
+      "examples": ["She asked whether I had ever visited Phong Nha Cave."]
+    },
+    {
+      "id": "f03",
+      "text": "___ is located in ___. It is famous for its ___.",
+      "vi": "... nằm ở ... Nơi đó nổi tiếng với ...",
+      "grammarNote": "be located in + nơi chốn: nằm ở; be famous for + danh từ: nổi tiếng về.",
+      "examples": ["Ba Be Lake is located in the north of Viet Nam. It is famous for its clear blue water."]
+    },
+    {
+      "id": "f04",
+      "text": "The natural wonder I'd most like to visit is ___ because ___.",
+      "vi": "Kỳ quan thiên nhiên mình muốn đến nhất là ... vì ...",
+      "grammarNote": "I'd (would) like to + V: muốn làm gì; thêm most để nói mong muốn lớn nhất.",
+      "examples": ["The natural wonder I'd most like to visit is the Grand Canyon because it looks so huge."]
+    },
+    {
+      "id": "f05",
+      "text": "Visitors should not be permitted to ___ because ___.",
+      "vi": "Không nên cho du khách ... vì ...",
+      "grammarNote": "Bị động với động từ khuyết thiếu: should (not) be + V3 (be permitted, be allowed).",
+      "examples": ["Visitors should not be permitted to touch the coral because it breaks easily."]
+    },
+    {
+      "id": "f06",
+      "text": "To keep ___ beautiful, visitors should ___.",
+      "vi": "Để giữ ... luôn đẹp, du khách nên ...",
+      "grammarNote": "keep + tân ngữ + tính từ: giữ cho cái gì như thế nào. To + V ở đầu câu chỉ mục đích.",
+      "examples": ["To keep the beach beautiful, visitors should take their rubbish home."]
+    },
+    {
+      "id": "f07",
+      "text": "I prefer ___ to ___ because ___.",
+      "vi": "Em thích ... hơn ... vì ...",
+      "grammarNote": "prefer A to B: thích A hơn B; because + mệnh đề để nêu lý do.",
+      "examples": ["I prefer mountains to beaches because the air there is cool and fresh."]
+    },
+    {
+      "id": "f08",
+      "text": "Excuse me, am I permitted to ___? I won't ___.",
+      "vi": "Xin lỗi, em có được phép ... không ạ? Em sẽ không ...",
+      "grammarNote": "be permitted to + V nguyên mẫu: được phép làm gì. Dùng để xin phép lịch sự.",
+      "examples": ["Excuse me, am I permitted to fly a drone here? I won't go near the birds."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What is the most beautiful natural place you have visited?", "difficulty": 1, "kind": "personal",
+      "keywords": ["located", "famous for", "majestic"], "frameId": "f03",
+      "hintDirectionVi": "Nhớ lại một nơi có núi, biển, hồ hay hang động mà em từng đến. Nó ở đâu và đẹp nhờ điều gì?",
+      "exampleAnswer": "It's Ha Long Bay. It is located in Quang Ninh, and it is famous for its majestic limestone islands.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Which natural wonder would you most like to visit?", "difficulty": 1, "kind": "personal",
+      "keywords": ["I'd most like to", "see", "peak"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một cảnh thiên nhiên em từng thấy trên phim ảnh và ao ước được nhìn tận mắt.",
+      "exampleAnswer": "The natural wonder I'd most like to visit is Mount Fuji because I want to see its snowy peak.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Do you prefer mountains or beaches for a holiday?", "difficulty": 1, "kind": "personal",
+      "keywords": ["prefer", "fresh air", "swim"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ xem em thích làm gì trong kỳ nghỉ: leo núi, ngắm mây hay bơi lội, nghịch cát.",
+      "exampleAnswer": "I prefer beaches because I love swimming and lying on the warm sand. Mountains are beautiful but tiring to climb.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What natural place near your home do you like to visit?", "difficulty": 1, "kind": "personal",
+      "keywords": ["lake", "hill", "waterfall"], "frameId": "f03",
+      "hintDirectionVi": "Không cần nơi nổi tiếng: một con sông, ngọn đồi hay cánh đồng gần nhà cũng được. Em thích gì ở đó?",
+      "exampleAnswer": "I like visiting a small waterfall near my village. It is located in the hills, and the water is very cool.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do so many tourists want to visit natural wonders?", "difficulty": 2, "kind": "reason",
+      "keywords": ["majestic", "unique", "photos"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem điều gì ở kỳ quan thiên nhiên khiến người ta sẵn sàng đi rất xa để ngắm.",
+      "exampleAnswer": "Natural wonders are majestic and unique. People want to see them with their own eyes and take photos to remember the trip.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Why should we protect natural wonders for future generations?", "difficulty": 2, "kind": "reason",
+      "keywords": ["future generations", "damage", "forever"], "frameId": "f06",
+      "hintDirectionVi": "Tưởng tượng một cảnh đẹp bị hỏng hoàn toàn. Thế hệ sau sẽ mất đi điều gì?",
+      "exampleAnswer": "If we don't protect them now, they may be damaged forever. Our children also deserve the chance to see these amazing places.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Should the number of visitors to natural wonders be limited? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["permit", "limit", "damage"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem điều gì xảy ra với một nơi đẹp khi mỗi ngày có hàng nghìn người đến.",
+      "exampleAnswer": "Yes. Too many visitors can damage the area, so only a certain number of people should be permitted to enter each day.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Is it a good idea to build big hotels near natural wonders? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["sustainable", "ecosystem", "convenient"], "frameId": "f05",
+      "hintDirectionVi": "Cân nhắc lợi ích cho du khách và tác hại cho thiên nhiên. Có cách nào tốt hơn không?",
+      "exampleAnswer": "Not really. Hotels are convenient, but building them can harm the ecosystem. Small, sustainable guesthouses are a better choice.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Has anyone ever asked you about famous places in Viet Nam? What did they ask?", "difficulty": 2, "kind": "personal",
+      "keywords": ["asked me if", "whether", "wanted to know"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại một người bạn, khách du lịch hay họ hàng từng hỏi em về một nơi. Kể lại câu hỏi bằng asked if.",
+      "exampleAnswer": "Yes. A tourist asked me if Sa Pa was cold in winter and whether he could see snow there.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Yesterday a friend asked you some questions about your trip. Tell another person what she asked.", "difficulty": 2, "kind": "situation",
+      "keywords": ["asked me if", "whether", "had"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ ra hai câu hỏi bạn có thể đã hỏi, rồi kể lại bằng asked if / whether và nhớ lùi thì.",
+      "exampleAnswer": "Mai asked me if I had enjoyed the trip. She also asked whether the waterfall was really beautiful.", "expectsReason": false
+    },
+    {
+      "id": "q11", "text": "You want to take photos in a protected area. Ask a park ranger for permission.", "difficulty": 2, "kind": "situation",
+      "keywords": ["permission", "permitted", "promise"], "frameId": "f08",
+      "hintDirectionVi": "Hỏi lịch sự xem em có được phép không, rồi cam kết một điều để người kiểm lâm yên tâm.",
+      "exampleAnswer": "Excuse me, am I permitted to take photos here? I won't leave the path or touch any plants.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Does tourism help or harm natural wonders? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["sustainable", "money", "rubbish"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về cả hai mặt: du lịch mang lại gì cho nơi đó, và để lại gì không tốt. Kết luận của em là gì?",
+      "exampleAnswer": "It does both. Tourism brings money to protect the area, but too many visitors leave rubbish. We need sustainable tourism.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "If you could add one place in Viet Nam to a list of world wonders, which would it be and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["paradise", "unique", "located"], "frameId": "f03",
+      "hintDirectionVi": "Chọn một cảnh đẹp em tự hào, rồi nêu đặc điểm nổi bật khiến nó xứng đáng được cả thế giới biết đến.",
+      "exampleAnswer": "I would add Son Doong Cave. It is located in central Viet Nam, and it's like an underground paradise with its own forest.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "You are a tour guide at a famous natural site. Give visitors three rules.", "difficulty": 3, "kind": "situation",
+      "keywords": ["keep", "please", "do not"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về ba việc du khách hay làm có hại cho thiên nhiên, rồi nói lịch sự những điều nên và không nên làm.",
+      "exampleAnswer": "To keep this place beautiful, please stay on the paths, take your rubbish home and do not feed the animals.", "expectsReason": false
+    },
+    {
+      "id": "q15", "text": "Is it better to see natural wonders in real life or through virtual tours? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["real life", "virtual", "feel"], "frameId": "f04",
+      "hintDirectionVi": "So sánh cảm giác đứng trước cảnh thật với xem qua màn hình. Mỗi cách có lợi gì cho ai?",
+      "exampleAnswer": "Real life is much better. You can feel the wind and hear the water, but virtual tours are useful for people who can't travel.", "expectsReason": true
+    }
+  ]
+}

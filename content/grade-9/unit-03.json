@@ -1,0 +1,165 @@
+{
+  "grade": 9,
+  "unit": 3,
+  "title": "Healthy Living for Teens",
+  "titleVi": "Lối sống lành mạnh cho tuổi teen",
+  "topic": "Nói về cách em sắp xếp việc học, nghỉ ngơi và giữ tinh thần thoải mái để có cuộc sống cân bằng ở tuổi học sinh.",
+  "source": "Global Success 9, Unit 3 (chủ đề, từ vựng, ngữ pháp động từ khuyết thiếu trong câu điều kiện loại 1)",
+  "vocab": [
+    { "id": "v01", "en": "well-balanced", "vi": "cân bằng, đúng mực", "example": "A well-balanced life has time for study, sport and rest." },
+    { "id": "v02", "en": "stressed out", "vi": "căng thẳng", "example": "I feel stressed out when I have three tests in one week." },
+    { "id": "v03", "en": "deadline", "vi": "thời hạn cuối cùng", "example": "The deadline for our history project is next Friday." },
+    { "id": "v04", "en": "assignment", "vi": "bài tập được giao", "example": "Our teacher gave us a reading assignment for the weekend." },
+    { "id": "v05", "en": "priority", "vi": "việc ưu tiên", "example": "My first priority this week is revising for the maths test." },
+    { "id": "v06", "en": "distraction", "vi": "điều làm sao lãng", "example": "Loud music is a big distraction when I study." },
+    { "id": "v07", "en": "minimise", "vi": "giảm đến mức tối thiểu", "example": "I turn off notifications to minimise distractions." },
+    { "id": "v08", "en": "optimistic", "vi": "lạc quan", "example": "She stays optimistic even when things go wrong." },
+    { "id": "v09", "en": "mood", "vi": "tâm trạng", "example": "A short walk always puts me in a better mood." },
+    { "id": "v10", "en": "accomplish", "vi": "hoàn thành, đạt được", "example": "I feel proud when I accomplish my goals for the day." },
+    { "id": "v11", "en": "counsellor", "vi": "người tư vấn", "example": "Students can talk to the school counsellor about their worries." },
+    { "id": "v12", "en": "physical", "vi": "(thuộc) cơ thể", "example": "Physical activity keeps our body strong." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "If I ___, I can ___.",
+      "vi": "Nếu mình ..., mình có thể ...",
+      "grammarNote": "Câu điều kiện loại 1: If + hiện tại đơn, S + can / may / should / must + V nguyên mẫu. can = có thể.",
+      "examples": ["If I finish my homework early, I can play football with my friends."]
+    },
+    {
+      "id": "f02",
+      "text": "If you feel stressed out, you should ___.",
+      "vi": "Nếu bạn thấy căng thẳng, bạn nên ...",
+      "grammarNote": "Dùng should trong mệnh đề chính để đưa ra lời khuyên: If + hiện tại đơn, you should + V.",
+      "examples": ["If you feel stressed out, you should take a short break and drink some water."]
+    },
+    {
+      "id": "f03",
+      "text": "If I don't ___, I may ___.",
+      "vi": "Nếu mình không ..., mình có thể sẽ ...",
+      "grammarNote": "may = có thể (khả năng không chắc chắn) trong mệnh đề chính của câu điều kiện loại 1.",
+      "examples": ["If I don't sleep enough, I may feel tired in class."]
+    },
+    {
+      "id": "f04",
+      "text": "My top priority this week is ___ because ___.",
+      "vi": "Việc ưu tiên nhất của mình tuần này là ... vì ...",
+      "grammarNote": "priority: việc ưu tiên. Sau is có thể dùng danh từ hoặc V-ing; because + mệnh đề để nêu lý do.",
+      "examples": ["My top priority this week is finishing my science project because the deadline is on Friday."]
+    },
+    {
+      "id": "f05",
+      "text": "To have a well-balanced life, I try to ___ and ___.",
+      "vi": "Để có cuộc sống cân bằng, mình cố gắng ... và ...",
+      "grammarNote": "try to + V nguyên mẫu: cố gắng làm gì. To + V ở đầu câu chỉ mục đích.",
+      "examples": ["To have a well-balanced life, I try to exercise every day and sleep eight hours."]
+    },
+    {
+      "id": "f06",
+      "text": "If we want to stay healthy, we must ___.",
+      "vi": "Nếu muốn khỏe mạnh, chúng ta phải ...",
+      "grammarNote": "must = phải, cần thiết. If + hiện tại đơn, S + must + V nguyên mẫu.",
+      "examples": ["If we want to stay healthy, we must eat more fruit and vegetables."]
+    },
+    {
+      "id": "f07",
+      "text": "I spend about ___ on ___ every day.",
+      "vi": "Mỗi ngày em dành khoảng ... cho ...",
+      "grammarNote": "spend + khoảng thời gian + on + danh từ: dành bao nhiêu thời gian cho việc gì.",
+      "examples": ["I spend about two hours on homework every day."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What do you do to stay healthy every day?", "difficulty": 1, "kind": "personal",
+      "keywords": ["sleep", "vegetables", "exercise"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về ba thứ: em ăn gì, ngủ thế nào và vận động ra sao trong một ngày bình thường.",
+      "exampleAnswer": "I try to go to bed before eleven and eat lots of vegetables. I also play football twice a week.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What usually puts you in a good mood?", "difficulty": 1, "kind": "personal",
+      "keywords": ["mood", "music", "friends"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại lần gần đây em thấy vui hơn hẳn. Lúc đó em đang làm gì hoặc ở cùng ai?",
+      "exampleAnswer": "Music always puts me in a good mood. If I feel bored, I can listen to my favourite songs.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What is your biggest distraction when you study?", "difficulty": 1, "kind": "personal",
+      "keywords": ["distraction", "phone", "focus"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem điều gì hay kéo em ra khỏi bài vở: điện thoại, tiếng ồn, hay một thứ khác?",
+      "exampleAnswer": "My phone is my biggest distraction. If I don't turn it off, I may spend an hour on social media.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "How much time do you spend on homework every day?", "difficulty": 1, "kind": "personal",
+      "keywords": ["assignment", "hours", "evening"], "frameId": "f07",
+      "hintDirectionVi": "Ước lượng thời gian em ngồi làm bài mỗi tối, và môn nào làm em mất nhiều thời gian nhất.",
+      "exampleAnswer": "I spend about two hours on homework every evening. Maths assignments usually take the longest.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why is it important for teenagers to get enough sleep?", "difficulty": 2, "kind": "reason",
+      "keywords": ["focus", "energy", "mental"], "frameId": "f06",
+      "hintDirectionVi": "Nhớ lại một hôm em ngủ ít. Ngày hôm đó em học và cảm thấy thế nào?",
+      "exampleAnswer": "Sleep helps our body and brain rest. If we don't sleep enough, we can't focus in class and may feel moody.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Why do many students feel stressed out before exams?", "difficulty": 2, "kind": "reason",
+      "keywords": ["stressed out", "revise", "pressure"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về khối lượng bài cần ôn và những điều học sinh lo lắng trong mùa thi.",
+      "exampleAnswer": "They have many subjects to revise in a short time. Some also worry that if they fail, they may disappoint their parents.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Is it a good idea to study late at night before a test? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["tired", "remember", "sleep"], "frameId": "f03",
+      "hintDirectionVi": "So sánh học khuya với ngủ đủ rồi dậy ôn. Cách nào giúp em nhớ bài tốt hơn trong phòng thi?",
+      "exampleAnswer": "No, I don't think so. If you stay up late, you may feel too tired to remember anything the next day.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Should schools give students less homework? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["assignment", "free time", "well-balanced"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về lợi ích của bài tập về nhà và những gì học sinh mất đi nếu có quá nhiều bài.",
+      "exampleAnswer": "Yes, a little less. If students have more free time, they can do sports and have a better-balanced life.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "How do you plan your time when you have many assignments?", "difficulty": 2, "kind": "personal",
+      "keywords": ["priority", "deadline", "to-do list"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem em quyết định làm bài nào trước dựa vào điều gì: hạn nộp, độ khó hay môn em thích.",
+      "exampleAnswer": "I write a list of my assignments and check the deadlines. My top priority is always the one due first.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Your friend looks stressed out because of a big test. Give them some advice.", "difficulty": 2, "kind": "situation",
+      "keywords": ["should", "take a break", "sleep well"], "frameId": "f02",
+      "hintDirectionVi": "Hỏi thăm bạn trước, rồi đưa ra một hai lời khuyên nhỏ mà bạn có thể làm ngay.",
+      "exampleAnswer": "If you feel stressed out, you should take short breaks and go for a walk. Don't forget to sleep well before the test.", "expectsReason": false
+    },
+    {
+      "id": "q11", "text": "You can't finish your project before the deadline. Ask your teacher for more time.", "difficulty": 2, "kind": "situation",
+      "keywords": ["deadline", "one more day", "hand in"], "frameId": "f01",
+      "hintDirectionVi": "Xin lỗi lịch sự, nói em cần thêm bao lâu và hứa khi nào em sẽ nộp.",
+      "exampleAnswer": "Excuse me, Ms Lan. I'm sorry, but I need one more day for my project. If you agree, I can hand it in tomorrow morning.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "What does a well-balanced life mean for a secondary student?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["well-balanced", "study", "hobbies"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về những phần trong một ngày của em: học, chơi, gia đình, nghỉ ngơi. Cân bằng nghĩa là gì với em?",
+      "exampleAnswer": "It means having time for study, sport, family and friends. To have a well-balanced life, I try not to study all day.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Which is more important for teenagers: physical health or mental health? Why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["physical", "mental", "both"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem khi cơ thể mệt hoặc khi tâm trạng buồn, việc học và cuộc sống của em bị ảnh hưởng ra sao.",
+      "exampleAnswer": "I think both are important, but mental health is often forgotten. If we feel anxious all the time, we can't enjoy life.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "A younger student asks you how to stay calm and optimistic in Grade 9. What would you tell them?", "difficulty": 3, "kind": "situation",
+      "keywords": ["optimistic", "plan", "counsellor"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về điều em đã học được từ năm lớp 9 của mình. Một lời khuyên về thời gian, một lời khuyên về tinh thần.",
+      "exampleAnswer": "You should plan your time well and stay optimistic. If you feel too worried, you can talk to the school counsellor.", "expectsReason": false
+    },
+    {
+      "id": "q15", "text": "Can a smartphone help teenagers live a healthier life? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["app", "minimise", "screen time"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về cả hai mặt: điện thoại giúp ích được gì cho sức khỏe, và nó gây hại thế nào nếu dùng sai.",
+      "exampleAnswer": "Yes, if we use it wisely. Some apps remind us to drink water, but we must minimise screen time before bed.", "expectsReason": true
+    }
+  ]
+}

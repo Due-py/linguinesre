@@ -1,0 +1,172 @@
+{
+  "grade": 8,
+  "unit": 11,
+  "title": "Science and Technology",
+  "titleVi": "Khoa học và công nghệ",
+  "topic": "Nói về công nghệ và phát minh em dùng hằng ngày, công nghệ trong trường học tương lai, và kể lại điều người khác đã nói về khoa học.",
+  "source": "Global Success 8, Unit 11 (chủ đề, từ vựng, câu tường thuật dạng câu trần thuật)",
+  "vocab": [
+    { "id": "v01", "en": "invention", "vi": "sự phát minh, sáng chế", "example": "The light bulb was a great invention." },
+    { "id": "v02", "en": "invent", "vi": "phát minh", "example": "I want to invent a robot that cleans my room." },
+    { "id": "v03", "en": "application", "vi": "ứng dụng", "example": "This application helps me learn new English words." },
+    { "id": "v04", "en": "attendance", "vi": "sự có mặt, sĩ số", "example": "Our teacher checks attendance at the start of every lesson." },
+    { "id": "v05", "en": "face to face", "vi": "trực tiếp, mặt đối mặt", "example": "I prefer talking to my teacher face to face." },
+    { "id": "v06", "en": "fingerprint", "vi": "dấu vân tay", "example": "My phone opens with my fingerprint." },
+    { "id": "v07", "en": "develop", "vi": "phát triển", "example": "Scientists are developing cars that drive themselves." },
+    { "id": "v08", "en": "discover", "vi": "phát hiện, khám phá", "example": "We discovered that plants grow faster near the window." },
+    { "id": "v09", "en": "experiment", "vi": "thí nghiệm", "example": "In our science lesson, we did an experiment with ice and salt." },
+    { "id": "v10", "en": "digital", "vi": "số, kĩ thuật số", "example": "Many schools now use digital textbooks." },
+    { "id": "v11", "en": "feedback", "vi": "phản hồi, ý kiến nhận xét", "example": "The app gives me feedback on my pronunciation." },
+    { "id": "v12", "en": "convenient", "vi": "thuận tiện, tiện lợi", "example": "This app is convenient because I can use it anywhere." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "My teacher said (that) ___.",
+      "vi": "Thầy/cô của mình nói rằng ...",
+      "grammarNote": "Câu tường thuật: said (that) + mệnh đề, lùi thì: is → was, are → were, can → could, will → would.",
+      "examples": ["My teacher said that we would have a science test on Friday."]
+    },
+    {
+      "id": "f02",
+      "text": "My friend told me (that) ___.",
+      "vi": "Bạn mình kể với mình rằng ...",
+      "grammarNote": "tell + người + (that) + mệnh đề. Nhớ đổi đại từ: I → he/she, my → his/her.",
+      "examples": ["My friend told me that she was learning to build a robot."]
+    },
+    {
+      "id": "f03",
+      "text": "___ said that robots would ___ in the future.",
+      "vi": "... nói rằng trong tương lai rô-bốt sẽ ...",
+      "grammarNote": "Khi tường thuật một lời dự đoán, will đổi thành would.",
+      "examples": ["The scientist said that robots would do most housework in the future."]
+    },
+    {
+      "id": "f04",
+      "text": "The most useful invention for me is ___ because ___.",
+      "vi": "Phát minh hữu ích nhất với mình là ... vì ...",
+      "grammarNote": "the most + tính từ dài để so sánh nhất: the most useful, the most convenient.",
+      "examples": ["The most useful invention for me is the washing machine because it saves my family a lot of time."]
+    },
+    {
+      "id": "f05",
+      "text": "With ___, students can ___ more easily.",
+      "vi": "Có ..., học sinh có thể ... dễ dàng hơn.",
+      "grammarNote": "can + động từ nguyên mẫu nói khả năng; more easily là so sánh hơn của trạng từ easily.",
+      "examples": ["With learning apps, students can practise vocabulary more easily."]
+    },
+    {
+      "id": "f06",
+      "text": "My parents said that I ___ and that I should ___.",
+      "vi": "Bố mẹ mình nói rằng mình ... và rằng mình nên ...",
+      "grammarNote": "Tường thuật hai ý, mỗi ý bắt đầu bằng that. should giữ nguyên khi tường thuật.",
+      "examples": ["My parents said that I was spending too long on my tablet and that I should go outside more."]
+    },
+    {
+      "id": "f07",
+      "text": "I enjoy ___ most because ___.",
+      "vi": "Mình thích ... nhất vì ...",
+      "grammarNote": "enjoy + danh từ hoặc động từ thêm -ing; dùng because để nêu lý do.",
+      "examples": ["I enjoy physics most because I like finding out how machines work."]
+    },
+    {
+      "id": "f08",
+      "text": "Can I ___? I want to ___.",
+      "vi": "Con có thể ... không ạ? Con muốn ...",
+      "grammarNote": "Can I + động từ nguyên mẫu để xin phép; want to + động từ nguyên mẫu để nói mong muốn.",
+      "examples": ["Can I use the kitchen table? I want to make a small volcano with baking soda."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Which learning app or website helps you study?", "difficulty": 1, "kind": "personal",
+      "keywords": ["application", "practise", "vocabulary"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về một ứng dụng hoặc trang web em dùng để học. Em học môn gì với nó?",
+      "exampleAnswer": "I use a dictionary app. With it, I can check new words and listen to their pronunciation.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What machine in your home makes your life easier?", "difficulty": 1, "kind": "personal",
+      "keywords": ["washing machine", "rice cooker", "save time"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về những máy móc trong nhà em dùng mỗi ngày. Nếu không có nó, việc gì sẽ mất nhiều thời gian hơn?",
+      "exampleAnswer": "The rice cooker makes my life easier. I can cook rice quickly before my parents come home.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Which science subject do you enjoy most at school?", "difficulty": 1, "kind": "personal",
+      "keywords": ["physics", "biology", "experiment"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về các môn khoa học em đang học. Môn nào có tiết học hay thí nghiệm em thấy thú vị?",
+      "exampleAnswer": "I enjoy biology most. I like learning about plants and animals, and the experiments are fun.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What did your teacher tell the class in your last English lesson?", "difficulty": 1, "kind": "personal",
+      "keywords": ["said that", "told us", "would"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại một câu thầy cô nói trong tiết tiếng Anh gần nhất, rồi kể lại bằng said that hoặc told us that.",
+      "exampleAnswer": "My teacher told us that the speaking test would be on Friday. She said that we should practise every day.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do you think robots are useful in some jobs?", "difficulty": 2, "kind": "reason",
+      "keywords": ["dangerous", "tired", "factory"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về những công việc nặng, nguy hiểm hoặc lặp đi lặp lại. Rô-bốt làm tốt hơn con người ở điểm nào?",
+      "exampleAnswer": "Robots never get tired, and they can do dangerous jobs, such as working in very hot factories.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Is it a good idea for schools to check attendance with fingerprints? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["fingerprint", "attendance", "save time"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về cách điểm danh hiện nay ở lớp em. Dùng vân tay sẽ nhanh hơn hay có điều gì bất tiện?",
+      "exampleAnswer": "Yes, it is. It is fast and convenient, and teachers can start lessons sooner.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Which modern invention do you think has changed people's lives the most, and why?", "difficulty": 2, "kind": "reason",
+      "keywords": ["invention", "smartphone", "the most useful"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về những đồ vật mọi người dùng hằng ngày. Thiếu thứ nào thì cuộc sống sẽ thay đổi nhiều nhất?",
+      "exampleAnswer": "I think the smartphone has changed our lives the most. We use it to study, talk, take photos and find our way.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Your friend told you about a new robot. Tell your classmates what your friend said.", "difficulty": 2, "kind": "situation",
+      "keywords": ["told me that", "said that", "could"], "frameId": "f02",
+      "hintDirectionVi": "Tưởng tượng bạn em đã kể vài điều về con rô-bốt. Kể lại bằng told me that / said that và nhớ lùi thì.",
+      "exampleAnswer": "My friend told me that the robot could speak five languages. He said that it was very cheap.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "How do you use technology to do your homework?", "difficulty": 2, "kind": "personal",
+      "keywords": ["search", "digital", "feedback"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về máy tính, điện thoại, ứng dụng em dùng khi làm bài: tra cứu, nộp bài, luyện tập.",
+      "exampleAnswer": "I search for information online and use an app to check my spelling. I also send my work to my teacher.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "How would you feel about having a robot as a classmate? Explain your answer.", "difficulty": 2, "kind": "opinion",
+      "keywords": ["robot", "help", "friendship"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về điều vui khi có bạn là rô-bốt, và điều mà một người bạn thật có còn rô-bốt thì không.",
+      "exampleAnswer": "I would feel excited at first. A robot could help me with maths, but it can't understand my feelings like a real friend.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "You want to do a science experiment at home. Ask your parents and tell them what you will do.", "difficulty": 2, "kind": "situation",
+      "keywords": ["experiment", "Can I", "safe"], "frameId": "f08",
+      "hintDirectionVi": "Xin phép một cách lịch sự, nói em cần gì, làm thế nào và vì sao nó an toàn.",
+      "exampleAnswer": "Can I do an experiment in the kitchen? I want to grow beans on wet cotton. It is safe and easy.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Does technology make students lazy? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["lazy", "copy", "however"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về cả hai mặt: công nghệ giúp học nhanh hơn, nhưng cũng làm một số bạn lười suy nghĩ. Em nghiêng về bên nào?",
+      "exampleAnswer": "Sometimes. Some students copy answers from the Internet. However, technology helps hard-working students learn faster.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Imagine you have just invented something new. Describe your invention to a reporter.", "difficulty": 3, "kind": "situation",
+      "keywords": ["invention", "It can", "help people"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ ra một phát minh, nói tên, nó trông thế nào, làm được gì và giúp ai.",
+      "exampleAnswer": "My invention is a smart umbrella. It can open by itself when it starts to rain, and it warns you about storms.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "What problem in your daily life would you like science to solve, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["traffic jam", "solve", "develop"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một việc làm em mệt hoặc mất thời gian mỗi ngày: tắc đường, nóng bức, mang cặp nặng.",
+      "exampleAnswer": "I'd like science to solve traffic jams. I spend too much time on the road, and the smoke is bad for everyone.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Some people say technology makes cheating in tests easier. Do you agree? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["cheating", "smartwatch", "check"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem thiết bị nhỏ có thể bị dùng sai thế nào, và nhà trường có thể làm gì để ngăn điều đó.",
+      "exampleAnswer": "I agree. Students can hide smartwatches or phones. But teachers can also use technology to check their work.", "expectsReason": true
+    }
+  ]
+}

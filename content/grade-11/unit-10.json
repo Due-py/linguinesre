@@ -1,0 +1,158 @@
+{
+  "grade": 11,
+  "unit": 10,
+  "title": "The Ecosystem",
+  "titleVi": "Hệ sinh thái",
+  "topic": "Nói về thiên nhiên và động vật quanh nơi em sống, những mối đe dọa với hệ sinh thái, và việc em có thể làm để bảo vệ chúng.",
+  "source": "Global Success 11, Unit 10 (chủ đề, từ vựng, ngữ pháp danh từ ghép)",
+  "vocab": [
+    { "id": "v01", "en": "ecosystem", "vi": "hệ sinh thái", "example": "A small pond is an ecosystem full of life." },
+    { "id": "v02", "en": "biodiversity", "vi": "đa dạng sinh học", "example": "Tropical forests have very high biodiversity." },
+    { "id": "v03", "en": "conservation", "vi": "sự bảo tồn thiên nhiên", "example": "The park runs a conservation programme for rare birds." },
+    { "id": "v04", "en": "endangered", "vi": "có nguy cơ tuyệt chủng", "example": "The saola is an endangered animal found in the forests of central Viet Nam." },
+    { "id": "v05", "en": "habitat", "vi": "môi trường sống, khu vực sống", "example": "Cutting down trees destroys the habitat of many monkeys." },
+    { "id": "v06", "en": "wildlife", "vi": "động vật hoang dã", "example": "We saw a lot of wildlife on our trip to the mountains." },
+    { "id": "v07", "en": "national park", "vi": "vườn quốc gia", "example": "Cat Tien National Park is home to many rare animals." },
+    { "id": "v08", "en": "coral reef", "vi": "rạn san hô", "example": "Coral reefs protect the coast from big waves." },
+    { "id": "v09", "en": "food chain", "vi": "chuỗi thức ăn", "example": "Small fish are an important part of the ocean food chain." },
+    { "id": "v10", "en": "natural resources", "vi": "tài nguyên thiên nhiên", "example": "Clean water and forests are valuable natural resources." },
+    { "id": "v11", "en": "species", "vi": "loài", "example": "Scientists discover new species of insects every year." },
+    { "id": "v12", "en": "living things", "vi": "các sinh vật sống", "example": "All living things need water to survive." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I'd love to visit a ___ because ___.",
+      "vi": "Mình rất muốn đến thăm một ... vì ...",
+      "grammarNote": "Danh từ ghép (danh từ + danh từ): national park, coral reef, rainforest. Từ đứng trước bổ nghĩa cho từ đứng sau.",
+      "examples": ["I'd love to visit a coral reef because I want to see colourful fish up close."]
+    },
+    {
+      "id": "f02",
+      "text": "One way to protect ___ is to ___.",
+      "vi": "Một cách để bảo vệ ... là ...",
+      "grammarNote": "One way to + V ... is to + V: một cách để ... là ...; dùng danh từ ghép cho ngắn gọn: wildlife, sea turtles.",
+      "examples": ["One way to protect sea turtles is to keep beaches free of plastic."]
+    },
+    {
+      "id": "f03",
+      "text": "We need more ___ to protect ___.",
+      "vi": "Chúng ta cần thêm ... để bảo vệ ...",
+      "grammarNote": "Danh từ ghép số nhiều chỉ thêm -s ở từ cuối: park ranger → park rangers, nature reserve → nature reserves.",
+      "examples": ["We need more park rangers to protect the forest from hunters."]
+    },
+    {
+      "id": "f04",
+      "text": "When ___ disappears, the whole food chain ___.",
+      "vi": "Khi ... biến mất, cả chuỗi thức ăn ...",
+      "grammarNote": "food chain là danh từ ghép; when + hiện tại đơn để nói một quy luật luôn đúng.",
+      "examples": ["When one kind of insect disappears, the whole food chain changes."]
+    },
+    {
+      "id": "f05",
+      "text": "In my area, there is a ___ where ___.",
+      "vi": "Ở chỗ mình có một ... nơi mà ...",
+      "grammarNote": "Danh từ ghép chỉ nơi chốn (rice field, fish pond, bus stop) + where để mô tả điều xảy ra ở đó.",
+      "examples": ["In my area, there is a rice field where storks look for food every evening."]
+    },
+    {
+      "id": "f06",
+      "text": "I think ___ is the biggest threat to ___ because ___.",
+      "vi": "Mình nghĩ ... là mối đe dọa lớn nhất đối với ... vì ...",
+      "grammarNote": "Dùng danh từ ghép để nói ngắn gọn về vấn đề: air pollution, plastic waste, forest fires, climate change.",
+      "examples": ["I think plastic waste is the biggest threat to sea life because animals often eat it."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What wild animals or plants can you find near your home?", "difficulty": 1, "kind": "personal",
+      "keywords": ["wildlife", "birds", "rice field"], "frameId": "f05",
+      "hintDirectionVi": "Nhìn quanh khu em sống: công viên, ruộng, ao hồ, bờ sông. Em hay thấy loài chim, cá, cây nào?",
+      "exampleAnswer": "There are many birds near my home. In my area, there is a rice field where herons look for fish in the evening.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Have you ever visited a national park or a nature reserve?", "difficulty": 1, "kind": "personal",
+      "keywords": ["national park", "forest", "school trip"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại một chuyến đi vào rừng, lên núi hay ra đảo. Nếu chưa đi, nói nơi em muốn đến nhất.",
+      "exampleAnswer": "Yes, I visited Cuc Phuong National Park with my class. We walked through the forest and saw some rare monkeys at the rescue centre.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Which endangered animal would you most like to protect?", "difficulty": 1, "kind": "personal",
+      "keywords": ["endangered", "species", "protect"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về một loài em biết đang bị đe dọa, trong nước hay trên thế giới. Điều gì ở loài đó làm em quý?",
+      "exampleAnswer": "I'd most like to protect pangolins. They are endangered because people hunt them, and I think they are really special animals.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Is it a good idea to keep wild animals in zoos? Why or why not?", "difficulty": 1, "kind": "opinion",
+      "keywords": ["habitat", "conservation", "freedom"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một lợi ích của sở thú cho việc bảo tồn và giáo dục, rồi nghĩ đến cuộc sống của con vật trong chuồng.",
+      "exampleAnswer": "It depends. Zoos can help with conservation and teach children about animals. However, many animals are unhappy away from their natural habitat.", "expectsReason": true
+    },
+    {
+      "id": "q05", "text": "Why is biodiversity important for humans, not only for animals?", "difficulty": 2, "kind": "reason",
+      "keywords": ["biodiversity", "food", "medicine"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem thức ăn, thuốc men, nước sạch của con người đến từ đâu, và chuyện gì xảy ra khi một loài mất đi.",
+      "exampleAnswer": "Many of our foods and medicines come from plants and animals. When one species disappears, the food chain changes, and humans can be affected too.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Should tourists be allowed to swim near coral reefs? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["coral reef", "damage", "rules"], "frameId": "f02",
+      "hintDirectionVi": "Cân nhắc niềm vui của du khách và sự mong manh của san hô. Có điều kiện nào giúp cân bằng hai điều này không?",
+      "exampleAnswer": "Yes, but only with strict rules. Swimmers mustn't touch the coral or use harmful sun cream, because coral reefs are very easy to damage.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Why do you think many people don't care about protecting wildlife?", "difficulty": 2, "kind": "reason",
+      "keywords": ["wildlife", "far away", "busy"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về cuộc sống hằng ngày của người ở thành phố. Họ có hay nhìn thấy động vật hoang dã không?",
+      "exampleAnswer": "Many people live in cities and never see wild animals. They are busy with work, so wildlife problems seem far away from their daily lives.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Your friend wants to buy a souvenir made from turtle shell. What would you say?", "difficulty": 2, "kind": "situation",
+      "keywords": ["endangered", "hunting", "instead"], "frameId": "f02",
+      "hintDirectionVi": "Nhẹ nhàng giải thích món đồ đó gây hại gì cho loài vật, rồi gợi ý một món quà lưu niệm khác.",
+      "exampleAnswer": "Please don't buy it. Sea turtles are endangered, and buying their shells encourages hunting. Why don't you buy a hand-painted postcard instead?", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "What is your favourite natural place, and what living things can you see there?", "difficulty": 2, "kind": "personal",
+      "keywords": ["living things", "lake", "trees"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về một nơi gần thiên nhiên mà em hay đến. Tả các loài cây, con vật và cảm giác khi em ở đó.",
+      "exampleAnswer": "My favourite place is the lake near my school. There are lots of fish, ducks and old trees, and it is very peaceful in the morning.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Should new roads be built through forests to help local people? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["habitat", "development", "balance"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về lợi ích của con đường cho người dân và tác hại của nó cho rừng. Có cách nào dung hòa không?",
+      "exampleAnswer": "I think it is risky. Roads can help people travel and trade, but they destroy habitats. Engineers should find routes that go around the forest.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Which ecosystem would you like to learn more about: forests, oceans or deserts?", "difficulty": 2, "kind": "personal",
+      "keywords": ["ecosystem", "ocean", "species"], "frameId": "f01",
+      "hintDirectionVi": "Chọn một hệ sinh thái làm em tò mò nhất, rồi nói một điều em muốn khám phá ở đó.",
+      "exampleAnswer": "I'd like to learn more about oceans. Millions of species live there, and scientists still haven't explored most of the deep sea.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "What is the biggest threat to ecosystems in Viet Nam today? Explain your view.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["plastic waste", "deforestation", "coral reef"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về rừng, sông, biển của Việt Nam và những gì đang gây hại cho chúng. Chọn một mối đe dọa và nói hậu quả.",
+      "exampleAnswer": "I think plastic waste is the biggest threat. It goes into rivers and the sea, and sea animals eat it. It also damages coral reefs along our coast.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "You are a guide in a national park. Tell visitors three rules and explain them.", "difficulty": 3, "kind": "situation",
+      "keywords": ["wildlife", "litter", "stay on the path"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về ba hành động du khách có thể làm hại cây cối, động vật hoặc chính họ, rồi giải thích ngắn gọn.",
+      "exampleAnswer": "Please stay on the path so you don't damage plants. Don't feed the animals because human food makes them ill. Finally, take all your litter home.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Why should local communities be involved in conservation projects?", "difficulty": 3, "kind": "reason",
+      "keywords": ["local people", "conservation", "park rangers"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem người dân sống gần rừng biết gì mà người ngoài không biết, và điều gì khiến họ muốn bảo vệ rừng.",
+      "exampleAnswer": "Local people know the area best. If conservation projects give them jobs, like park rangers or tour guides, they will want to protect the forest too.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Your town plans to turn a wetland into a car park. Give your opinion at a town meeting.", "difficulty": 3, "kind": "situation",
+      "keywords": ["habitat", "biodiversity", "flooding"], "frameId": "f06",
+      "hintDirectionVi": "Nêu rõ em đồng ý hay phản đối, rồi đưa ra một hai lý do về động vật và về lợi ích của vùng đất ngập nước cho thị trấn.",
+      "exampleAnswer": "I disagree with this plan. This wetland is a habitat for many birds and fish. It also helps prevent flooding, so losing it could cost the town more later.", "expectsReason": true
+    }
+  ]
+}

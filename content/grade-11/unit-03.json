@@ -1,0 +1,158 @@
+{
+  "grade": 11,
+  "unit": 3,
+  "title": "Cities of the Future",
+  "titleVi": "Thành phố tương lai",
+  "topic": "Nói về nơi em đang sống, những thay đổi em thấy ở thành phố, và mơ ước của em về một thành phố thông minh, xanh và đáng sống.",
+  "source": "Global Success 11, Unit 3 (chủ đề, từ vựng, ngữ pháp động từ trạng thái ở thể tiếp diễn, động từ nối)",
+  "vocab": [
+    { "id": "v01", "en": "smart city", "vi": "thành phố thông minh", "example": "In a smart city, traffic lights change according to the number of cars." },
+    { "id": "v02", "en": "liveable", "vi": "đáng sống", "example": "Parks and clean air make a city more liveable." },
+    { "id": "v03", "en": "high-rise", "vi": "cao tầng", "example": "My aunt lives on the fifteenth floor of a high-rise building." },
+    { "id": "v04", "en": "skyscraper", "vi": "tòa nhà chọc trời", "example": "From the top of the skyscraper, you can see the whole city." },
+    { "id": "v05", "en": "sensor", "vi": "cảm biến", "example": "The street lights have sensors that switch them on when it gets dark." },
+    { "id": "v06", "en": "infrastructure", "vi": "cơ sở hạ tầng", "example": "Good infrastructure, like roads and bridges, helps a city grow." },
+    { "id": "v07", "en": "pedestrian", "vi": "người đi bộ", "example": "This street is only open to pedestrians at the weekend." },
+    { "id": "v08", "en": "cycle path", "vi": "làn đường dành cho xe đạp", "example": "A new cycle path runs along the river." },
+    { "id": "v09", "en": "roof garden", "vi": "vườn trên sân thượng", "example": "We grow herbs and tomatoes in our roof garden." },
+    { "id": "v10", "en": "sustainable", "vi": "bền vững", "example": "Solar power is a sustainable choice for future cities." },
+    { "id": "v11", "en": "sense of community", "vi": "ý thức cộng đồng", "example": "Street festivals give people a strong sense of community." },
+    { "id": "v12", "en": "city dweller", "vi": "người dân thành phố", "example": "Many city dwellers visit the countryside at the weekend." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "My neighbourhood looks ___ and feels ___.",
+      "vi": "Khu mình sống trông ... và cho cảm giác ...",
+      "grammarNote": "Động từ nối (look, feel, seem, sound) + tính từ, không dùng trạng từ: It looks clean, không nói It looks cleanly.",
+      "examples": ["My neighbourhood looks quite crowded, but it feels friendly."]
+    },
+    {
+      "id": "f02",
+      "text": "I'm thinking of ___ because ___.",
+      "vi": "Mình đang tính ... vì ...",
+      "grammarNote": "think ở thể tiếp diễn = đang cân nhắc (I'm thinking of + V-ing); thể đơn I think = nêu ý kiến.",
+      "examples": ["I'm thinking of joining the city cycling club because I want to explore new places."]
+    },
+    {
+      "id": "f03",
+      "text": "In the future, cities will become ___ because ___.",
+      "vi": "Trong tương lai, các thành phố sẽ trở nên ... vì ...",
+      "grammarNote": "become / get + tính từ: trở nên. Dùng will + V để dự đoán tương lai.",
+      "examples": ["In the future, cities will become greener because people will use more solar energy."]
+    },
+    {
+      "id": "f04",
+      "text": "The idea of ___ sounds ___ to me because ___.",
+      "vi": "Ý tưởng ... nghe có vẻ ... với mình vì ...",
+      "grammarNote": "sound + tính từ để nhận xét điều mình nghe hoặc đọc thấy: It sounds exciting.",
+      "examples": ["The idea of living in a skyscraper sounds exciting to me because the view would be amazing."]
+    },
+    {
+      "id": "f05",
+      "text": "My city is getting ___, and it seems ___.",
+      "vi": "Thành phố của mình đang ngày càng ..., và có vẻ ...",
+      "grammarNote": "be getting + tính từ: đang dần trở nên; seem + tính từ: có vẻ. Cả hai đều là động từ nối.",
+      "examples": ["My city is getting busier, and it seems noisier every year."]
+    },
+    {
+      "id": "f06",
+      "text": "I think a liveable city needs ___ and ___.",
+      "vi": "Mình nghĩ một thành phố đáng sống cần ... và ...",
+      "grammarNote": "Nêu ý kiến dùng I think ở thể đơn (động từ trạng thái), không nói I'm thinking that.",
+      "examples": ["I think a liveable city needs green parks and cheap public transport."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What does your neighbourhood look like?", "difficulty": 1, "kind": "personal",
+      "keywords": ["looks", "feels", "neighbourhood"], "frameId": "f01",
+      "hintDirectionVi": "Hình dung con đường nhà em: nhà cửa, cây xanh, cửa hàng, tiếng ồn. Em có cảm giác gì khi đi qua đó?",
+      "exampleAnswer": "My neighbourhood looks quite crowded, but it feels friendly. There are many small shops and a park near my house.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "How do you usually travel to school, and how is the traffic?", "difficulty": 1, "kind": "personal",
+      "keywords": ["by bike", "traffic", "getting busier"], "frameId": "f05",
+      "hintDirectionVi": "Nói em đi bằng gì, mất bao lâu, và đường sá dạo này đông hơn hay vắng hơn trước.",
+      "exampleAnswer": "I usually go to school by bike. It takes fifteen minutes, but the roads are getting busier every year.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Would you like to live in a high-rise building? Why or why not?", "difficulty": 1, "kind": "personal",
+      "keywords": ["high-rise", "view", "neighbours"], "frameId": "f04",
+      "hintDirectionVi": "Hình dung em sống ở tầng 20: em sẽ thích điều gì và thấy bất tiện điều gì?",
+      "exampleAnswer": "Not really. Living on the twentieth floor sounds exciting, but I prefer a house with a garden where I can chat with my neighbours.", "expectsReason": true
+    },
+    {
+      "id": "q04", "text": "Is your city or town a liveable place for teenagers? Why?", "difficulty": 1, "kind": "opinion",
+      "keywords": ["liveable", "park", "safe"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem ở nơi em sống có đủ chỗ chơi, học, gặp bạn không. Còn thiếu gì cho tuổi teen?",
+      "exampleAnswer": "I think it is quite liveable. There are parks and libraries, but there are not enough safe places to play sports.", "expectsReason": true
+    },
+    {
+      "id": "q05", "text": "Why do many young people want to move to big urban centres?", "difficulty": 2, "kind": "reason",
+      "keywords": ["urban centre", "jobs", "opportunities"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về những thứ thành phố lớn có mà thị trấn nhỏ thiếu: trường đại học, việc làm, hoạt động giải trí.",
+      "exampleAnswer": "Big cities seem more exciting. They have better universities and more jobs, so young people believe their lives will be more successful there.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Do skyscrapers make a city better or worse? Why do you think so?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["skyscraper", "space", "crowded"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một ưu điểm (tiết kiệm đất, hiện đại) và một nhược điểm (chật chội, che nắng), rồi chọn ý của em.",
+      "exampleAnswer": "They save land and look modern. However, too many skyscrapers make a city feel crowded and block the sunlight, so we need a balance.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Why are roof gardens a good idea for crowded cities?", "difficulty": 2, "kind": "reason",
+      "keywords": ["roof garden", "cooler", "relax"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem một khoảng xanh trên mái nhà giúp gì cho ngôi nhà, không khí và người sống trong đó.",
+      "exampleAnswer": "Roof gardens make buildings cooler and the air cleaner. They also give city dwellers a quiet green place to relax after work.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "A foreign visitor asks how to get around your city. Give them some useful tips.", "difficulty": 2, "kind": "situation",
+      "keywords": ["bus", "app", "pedestrian"], "frameId": "f05",
+      "hintDirectionVi": "Gợi ý một hai cách đi lại dễ nhất cho người lạ, kèm một lời nhắc về an toàn khi đi bộ.",
+      "exampleAnswer": "The easiest way is to use a ride-hailing app. Buses are cheap but slow. Be careful when you cross the road because the traffic can get very busy.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "Which place in your city are you thinking of visiting soon, and why?", "difficulty": 2, "kind": "personal",
+      "keywords": ["thinking of", "looks", "new"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về một nơi em chưa đến hoặc muốn quay lại: bảo tàng, quán sách, công viên. Điều gì làm em tò mò?",
+      "exampleAnswer": "I'm thinking of visiting the new science museum because my friends say it looks amazing. It has lots of interactive rooms.", "expectsReason": true
+    },
+    {
+      "id": "q10", "text": "Should cities build more cycle paths instead of new roads? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["cycle path", "pollution", "healthy"], "frameId": "f06",
+      "hintDirectionVi": "So sánh hai lựa chọn: cái nào tốt hơn cho sức khỏe, không khí và chi phí của thành phố?",
+      "exampleAnswer": "Yes, I think so. Cycle paths are cheaper than roads, and cycling keeps people healthy. It also helps reduce air pollution in the city.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "How is your town or city changing these days?", "difficulty": 2, "kind": "personal",
+      "keywords": ["getting", "building", "modern"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về những công trình đang xây, con đường đang mở rộng, hay những thứ đang mất dần quanh em.",
+      "exampleAnswer": "My city is getting more modern. They are building a metro line, and many old markets are becoming shopping centres.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Will smart cities with sensors everywhere protect people or take away their privacy? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["sensor", "privacy", "safe"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về lợi ích của camera, cảm biến cho giao thông và an ninh, rồi nghĩ đến chuyện thông tin cá nhân bị ghi lại.",
+      "exampleAnswer": "Both. Sensors can control traffic and make streets safer. However, if cameras record everything, people may lose their privacy, so there must be strict rules.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "You are designing an ideal neighbourhood. Describe three things it must have.", "difficulty": 3, "kind": "situation",
+      "keywords": ["sustainable", "pedestrian", "sense of community"], "frameId": "f06",
+      "hintDirectionVi": "Chọn ba thứ: một cho môi trường, một cho đi lại, một giúp hàng xóm gắn bó với nhau.",
+      "exampleAnswer": "It must have wide pavements for pedestrians, solar panels on every roof and a community centre. These make the area sustainable and help neighbours know each other.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "Why do many people in big cities feel lonely, even when they are surrounded by others?", "difficulty": 3, "kind": "reason",
+      "keywords": ["sense of community", "busy", "neighbours"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về nhịp sống thành phố và cách người ở chung cư cư xử với hàng xóm. Điều gì khiến họ ít trò chuyện?",
+      "exampleAnswer": "City dwellers seem too busy to talk to each other. People in high-rise flats rarely meet their neighbours, so they lose their sense of community.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Imagine it is 2050 and you are showing a friend around your city. Describe what you see.", "difficulty": 3, "kind": "situation",
+      "keywords": ["looks", "driverless", "roof garden"], "frameId": "f03",
+      "hintDirectionVi": "Tưởng tượng em đang dẫn bạn đi dạo: đường phố, phương tiện, nhà cửa, không khí năm 2050 khác bây giờ thế nào?",
+      "exampleAnswer": "Look, the streets look so clean! Driverless buses are running everywhere, and every building has a roof garden. The air feels much fresher than before.", "expectsReason": false
+    }
+  ]
+}

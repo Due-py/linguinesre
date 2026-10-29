@@ -1,0 +1,158 @@
+{
+  "grade": 10,
+  "unit": 8,
+  "title": "New Ways to Learn",
+  "titleVi": "Những cách học mới",
+  "topic": "Nói về các cách học mới như học trực tuyến, học kết hợp, dùng công cụ số, và so sánh với học trực tiếp trên lớp dựa trên trải nghiệm của em.",
+  "source": "Global Success 10, Unit 8 (chủ đề, từ vựng, ngữ pháp mệnh đề quan hệ xác định và không xác định)",
+  "vocab": [
+    { "id": "v01", "en": "blended learning", "vi": "phương pháp học tập kết hợp", "example": "Our school uses blended learning, so some lessons are online." },
+    { "id": "v02", "en": "online learning", "vi": "học trực tuyến", "example": "Online learning lets me study at my own pace." },
+    { "id": "v03", "en": "face-to-face", "vi": "trực tiếp", "example": "I understand maths better in face-to-face lessons." },
+    { "id": "v04", "en": "digital", "vi": "(thuộc) kĩ thuật số", "example": "We use digital textbooks on our tablets." },
+    { "id": "v05", "en": "distraction", "vi": "sự xao nhãng, mất tập trung", "example": "My phone is the biggest distraction when I study." },
+    { "id": "v06", "en": "focus", "vi": "tập trung", "example": "I can focus better in a quiet room." },
+    { "id": "v07", "en": "schedule", "vi": "lịch trình", "example": "I make a study schedule before every exam." },
+    { "id": "v08", "en": "strategy", "vi": "chiến lược, cách làm", "example": "Making mind maps is my favourite learning strategy." },
+    { "id": "v09", "en": "teamwork", "vi": "hoạt động nhóm, làm việc nhóm", "example": "Group projects help us improve our teamwork." },
+    { "id": "v10", "en": "resource", "vi": "nguồn (tài liệu, học liệu)", "example": "The library has many useful resources for our projects." },
+    { "id": "v11", "en": "real-world", "vi": "thực tế", "example": "Science projects help us solve real-world problems." },
+    { "id": "v12", "en": "exchange", "vi": "trao đổi", "example": "We exchange ideas in an online group after class." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I learn best with a teacher who ___.",
+      "vi": "Mình học tốt nhất với thầy cô ...",
+      "grammarNote": "who thay cho người trong mệnh đề quan hệ xác định (không có dấu phẩy).",
+      "examples": ["I learn best with a teacher who explains clearly and gives us time to ask questions."]
+    },
+    {
+      "id": "f02",
+      "text": "The app which I use most for studying is ___.",
+      "vi": "Ứng dụng mình dùng nhiều nhất để học là ...",
+      "grammarNote": "which/that thay cho vật trong mệnh đề quan hệ xác định; không dùng dấu phẩy.",
+      "examples": ["The app which I use most for studying is a flashcard app."]
+    },
+    {
+      "id": "f03",
+      "text": "My friend ___, who ___, often ___.",
+      "vi": "Bạn ... của mình, người mà ..., thường ...",
+      "grammarNote": "Mệnh đề quan hệ không xác định thêm thông tin, đặt giữa hai dấu phẩy và không dùng that.",
+      "examples": ["My friend Lan, who is very good at English, often helps me with grammar."]
+    },
+    {
+      "id": "f04",
+      "text": "Students whose ___ usually ___.",
+      "vi": "Những học sinh có ... thường ...",
+      "grammarNote": "whose + danh từ chỉ sự sở hữu: students whose phones are on = học sinh có điện thoại đang bật.",
+      "examples": ["Students whose phones are always on usually can't focus well."]
+    },
+    {
+      "id": "f05",
+      "text": "___, which ___.",
+      "vi": "..., điều đó ...",
+      "grammarNote": "which sau dấu phẩy có thể thay cho cả mệnh đề đứng trước: ..., which means / which helps ...",
+      "examples": ["Online learning is flexible, which means I can study at any time."]
+    },
+    {
+      "id": "f06",
+      "text": "One strategy that helps me ___ is ___.",
+      "vi": "Một cách giúp mình ... là ...",
+      "grammarNote": "that/which trong mệnh đề quan hệ xác định giúp nói rõ đang nói về cái nào.",
+      "examples": ["One strategy that helps me remember new words is making flashcards."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Have you ever had online lessons? How did you find them?", "difficulty": 1, "kind": "personal",
+      "keywords": ["online learning", "flexible", "focus"], "frameId": "f05",
+      "hintDirectionVi": "Nhớ lại những buổi học qua mạng của em: điều gì tiện, điều gì khó so với học ở lớp?",
+      "exampleAnswer": "Yes, I have. Online lessons were flexible, which was nice, but I sometimes found it hard to focus at home.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Which app or website helps you most with your studies?", "difficulty": 1, "kind": "personal",
+      "keywords": ["app", "website", "remember"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về công cụ trên mạng em dùng nhiều nhất khi làm bài hoặc ôn tập, và nó giúp em việc gì.",
+      "exampleAnswer": "The app which I use most for studying is a flashcard app. It helps me remember new vocabulary quickly.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What distracts you most when you study at home?", "difficulty": 1, "kind": "personal",
+      "keywords": ["distraction", "phone", "noise"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về những lúc em đang học thì bị gián đoạn: do âm thanh, đồ vật hay chính thói quen của em?",
+      "exampleAnswer": "My phone is the biggest distraction. I keep checking messages, which wastes a lot of time, so now I leave it in another room.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What kind of teacher helps you learn best?", "difficulty": 1, "kind": "personal",
+      "keywords": ["who", "explains", "patient"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một thầy cô mà em học môn đó rất vào. Thầy cô ấy dạy và đối xử với học sinh thế nào?",
+      "exampleAnswer": "I learn best with a teacher who is patient and uses lots of examples and games in class.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do some students find it hard to focus during online lessons?", "difficulty": 2, "kind": "reason",
+      "keywords": ["focus", "distraction", "camera"], "frameId": "f04",
+      "hintDirectionVi": "So sánh không gian học ở nhà và ở lớp: ở nhà có những gì dễ kéo sự chú ý của học sinh đi?",
+      "exampleAnswer": "At home, there are many distractions, like phones and noise. Students whose cameras are off can also play games without anyone noticing.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "What learning strategy works best for you when you revise for tests?", "difficulty": 2, "kind": "personal",
+      "keywords": ["strategy", "mind map", "flashcards"], "frameId": "f06",
+      "hintDirectionVi": "Nhớ lại cách em ôn bài trước kiểm tra lần gần nhất. Cách nào giúp em nhớ lâu nhất?",
+      "exampleAnswer": "One strategy that helps me revise is drawing mind maps. They show how ideas connect, which makes them easier to remember.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Do you prefer online learning or face-to-face learning? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["face-to-face", "online", "prefer"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về cách em hỏi bài, làm việc nhóm và giữ tập trung ở mỗi kiểu học, rồi chọn một bên.",
+      "exampleAnswer": "I prefer face-to-face learning. I can ask my teacher questions immediately, which helps me understand lessons faster.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Should students be allowed to use phones in class for learning? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["resources", "distraction", "rules"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về một lợi ích và một rủi ro khi dùng điện thoại trong giờ học, rồi nói cần điều kiện gì.",
+      "exampleAnswer": "Yes, but with clear rules. Phones give us quick access to resources, which is useful, but they can also be a distraction.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Your classmate missed an online lesson. Tell them what the class did and what the homework is.", "difficulty": 2, "kind": "situation",
+      "keywords": ["which", "homework", "deadline"], "frameId": "f05",
+      "hintDirectionVi": "Tóm tắt ngắn nội dung buổi học, rồi nói rõ bài tập về nhà là gì và hạn nộp khi nào.",
+      "exampleAnswer": "We learnt about relative clauses, which was quite easy. The homework is on page 20, and we need to send it by Friday.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Why is teamwork an important skill to learn at school?", "difficulty": 2, "kind": "reason",
+      "keywords": ["teamwork", "exchange ideas", "real-world"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về công việc của người lớn sau này: họ làm một mình hay cùng người khác? Làm dự án nhóm dạy em điều gì?",
+      "exampleAnswer": "Most real-world jobs need people to work together. When we do group projects, we learn to exchange ideas and solve problems as a team.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Your group is planning a project online. Suggest how to divide the work.", "difficulty": 2, "kind": "situation",
+      "keywords": ["schedule", "who", "responsible for"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem mỗi bạn trong nhóm giỏi việc gì, rồi giao việc phù hợp và đề xuất một lịch làm chung.",
+      "exampleAnswer": "Let's make a schedule first. Nam, who is good at design, can make the slides, and the rest of us can find information.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Will blended learning replace traditional classrooms in the future? Explain your view.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["blended learning", "replace", "face-to-face"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem lớp học trực tiếp mang lại điều gì mà máy tính khó thay thế, rồi đưa ra dự đoán của em.",
+      "exampleAnswer": "I don't think it will replace them completely. Students still need face-to-face time with teachers and friends, which online tools can't give.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Why do you think self-study skills are more important today than in the past?", "difficulty": 3, "kind": "reason",
+      "keywords": ["resources", "online", "independent"], "frameId": "f06",
+      "hintDirectionVi": "So sánh lượng tài liệu học sinh ngày nay có thể tìm thấy với ngày xưa. Điều đó đòi hỏi học sinh phải làm gì?",
+      "exampleAnswer": "Today there are so many online resources that students must choose and learn by themselves. Good self-study skills help them do this well.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "What makes a good learning app, in your opinion?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["feedback", "short lessons", "motivated"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về ứng dụng học em thích và ứng dụng em bỏ dở. Điều gì khiến em muốn dùng tiếp hoặc bỏ đi?",
+      "exampleAnswer": "A good learning app gives instant feedback and has short lessons. It should also be fun, which keeps students motivated.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "A younger student asks you how to study well online. Give them some advice.", "difficulty": 3, "kind": "situation",
+      "keywords": ["schedule", "focus", "distraction"], "frameId": "f06",
+      "hintDirectionVi": "Chọn hai hoặc ba mẹo mà chính em thấy hiệu quả, và nói ngắn gọn, dễ hiểu cho một bạn nhỏ hơn.",
+      "exampleAnswer": "Make a schedule and study in a quiet place. One trick that really helps me is putting my phone in another room during lessons.", "expectsReason": false
+    }
+  ]
+}

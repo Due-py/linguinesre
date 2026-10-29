@@ -1,0 +1,165 @@
+{
+  "grade": 6,
+  "unit": 9,
+  "title": "Cities of the World",
+  "titleVi": "Các thành phố trên thế giới",
+  "topic": "Nói về thành phố em sống hoặc muốn đến, địa danh nổi tiếng, món ăn đường phố và chuyến du lịch của em.",
+  "source": "Global Success 6, Unit 9 (chủ đề, từ vựng, ngữ pháp tính từ sở hữu, đại từ sở hữu)",
+  "vocab": [
+    { "id": "v01", "en": "landmark", "vi": "địa danh, công trình nổi bật", "example": "The old bridge is a landmark in our town." },
+    { "id": "v02", "en": "tower", "vi": "tháp", "example": "You can see the whole city from the top of the tower." },
+    { "id": "v03", "en": "palace", "vi": "cung điện", "example": "The king lived in a big palace." },
+    { "id": "v04", "en": "crowded", "vi": "đông đúc", "example": "The market is crowded on Sunday mornings." },
+    { "id": "v05", "en": "floating market", "vi": "chợ nổi", "example": "People sell fruit from boats at the floating market." },
+    { "id": "v06", "en": "street food", "vi": "đồ ăn đường phố", "example": "Banh mi is my favourite street food." },
+    { "id": "v07", "en": "stall", "vi": "gian hàng", "example": "That stall sells hot noodle soup." },
+    { "id": "v08", "en": "postcard", "vi": "bưu thiếp", "example": "I sent a postcard to my grandma from Da Lat." },
+    { "id": "v09", "en": "city map", "vi": "bản đồ thành phố", "example": "We used a city map to find the museum." },
+    { "id": "v10", "en": "helpful", "vi": "sẵn sàng giúp đỡ", "example": "The people in this city are friendly and helpful." },
+    { "id": "v11", "en": "river bank", "vi": "bờ sông", "example": "We walked along the river bank in the evening." },
+    { "id": "v12", "en": "rent", "vi": "thuê", "example": "Tourists can rent bikes near the lake." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I'd like to visit ___ because ___.",
+      "vi": "Mình muốn đến thăm ... vì ...",
+      "grammarNote": "I'd like to + động từ nguyên mẫu để nói mong muốn; because để nêu lý do.",
+      "examples": ["I'd like to visit Tokyo because I want to try real sushi."]
+    },
+    {
+      "id": "f02",
+      "text": "___ is famous for its ___.",
+      "vi": "... nổi tiếng với ... của nó.",
+      "grammarNote": "Tính từ sở hữu my, your, his, her, its, our, their đứng trước danh từ: its food, their houses.",
+      "examples": ["Hoi An is famous for its old houses and lanterns."]
+    },
+    {
+      "id": "f03",
+      "text": "This ___ is mine, and that one is ___.",
+      "vi": "Cái ... này là của mình, còn cái kia là của ...",
+      "grammarNote": "Đại từ sở hữu mine, yours, his, hers, ours, theirs đứng một mình, thay cho tính từ sở hữu + danh từ.",
+      "examples": ["This map is mine, and that one is yours."]
+    },
+    {
+      "id": "f04",
+      "text": "My city has ___, and it is ___.",
+      "vi": "Thành phố của mình có ..., và nó ...",
+      "grammarNote": "Hiện tại đơn để mô tả nơi chốn: it has, it is.",
+      "examples": ["My city has a long beach, and it is very clean."]
+    },
+    {
+      "id": "f05",
+      "text": "On holiday, I like ___ and ___.",
+      "vi": "Khi đi du lịch, mình thích ... và ...",
+      "grammarNote": "like + V-ing để nói sở thích; nối hai hoạt động bằng and.",
+      "examples": ["On holiday, I like visiting museums and trying new food."]
+    },
+    {
+      "id": "f06",
+      "text": "Dear ___, I'm having a great time in ___.",
+      "vi": "... thân mến, mình đang có khoảng thời gian tuyệt vời ở ...",
+      "grammarNote": "Mở đầu bưu thiếp bằng Dear + tên; hiện tại tiếp diễn cho việc đang diễn ra.",
+      "examples": ["Dear Nam, I'm having a great time in Nha Trang. The sea is so blue!"]
+    },
+    {
+      "id": "f07",
+      "text": "I think ___ is / are ___ because ___.",
+      "vi": "Mình nghĩ ... thì ... vì ...",
+      "grammarNote": "Nêu ý kiến bằng I think. Dùng is với danh từ số ít, are với danh từ số nhiều.",
+      "examples": ["I think street food is great because it is cheap and tasty."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Which city or town do you live in?", "difficulty": 1, "kind": "personal",
+      "keywords": ["live in", "near", "city"], "frameId": "f04",
+      "hintDirectionVi": "Nói tên nơi em sống, rồi thêm một điều đơn giản về nơi đó.",
+      "exampleAnswer": "I live in Da Nang. It is a beautiful city by the sea.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What is your favourite city?", "difficulty": 1, "kind": "personal",
+      "keywords": ["favourite", "beautiful", "old"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một thành phố em từng đến hoặc rất muốn đến. Nó có gì đặc biệt?",
+      "exampleAnswer": "My favourite city is Hoi An. It's old and very quiet.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Do you like eating street food?", "difficulty": 1, "kind": "personal",
+      "keywords": ["street food", "stall", "delicious"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về một món ăn vặt hoặc quán ven đường em hay ăn.",
+      "exampleAnswer": "Yes, I do. I love the noodles at the stalls near my school.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Is your city or town crowded?", "difficulty": 1, "kind": "opinion",
+      "keywords": ["crowded", "busy", "quiet"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về đường phố nơi em sống vào giờ đi học, đi làm. Có đông người và xe không?",
+      "exampleAnswer": "Yes, it is. The streets are very crowded in the morning.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Which landmark in your city do you like?", "difficulty": 2, "kind": "personal",
+      "keywords": ["landmark", "famous", "its"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về một công trình hoặc địa điểm ai đến thành phố em cũng ghé. Nó đẹp ở điểm nào?",
+      "exampleAnswer": "I like the old bridge. Its lights are beautiful at night.", "expectsReason": false
+    },
+    {
+      "id": "q06", "text": "What do you like doing when you visit a new city?", "difficulty": 2, "kind": "personal",
+      "keywords": ["take photos", "street food", "landmark"], "frameId": "f05",
+      "hintDirectionVi": "Nhớ lại một chuyến đi: em thích đi tham quan, ăn uống, mua sắm hay chụp ảnh?",
+      "exampleAnswer": "On holiday, I like taking photos of landmarks and trying street food.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Which city in the world would you like to visit? Why?", "difficulty": 2, "kind": "reason",
+      "keywords": ["landmark", "famous", "because"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một thành phố nước ngoài em từng thấy trong phim, sách hay tivi. Điều gì làm em tò mò?",
+      "exampleAnswer": "I'd like to visit Paris because I want to see the Eiffel Tower.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Would you like to visit a floating market? Why?", "difficulty": 2, "kind": "reason",
+      "keywords": ["floating market", "boats", "fruit"], "frameId": "f01",
+      "hintDirectionVi": "Tưởng tượng một khu chợ nơi người ta mua bán trên thuyền. Em thấy điều gì thú vị?",
+      "exampleAnswer": "Yes. I'd like to buy fruit from the boats. It sounds fun!", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Is your city a good place for tourists? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["landmarks", "street food", "friendly"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem khách du lịch đến nơi em sống có thể xem gì, ăn gì, gặp ai.",
+      "exampleAnswer": "Yes. It has nice landmarks, delicious food and friendly people.", "expectsReason": true
+    },
+    {
+      "id": "q10", "text": "Are postcards still a good way to share holidays?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["postcard", "message", "special"], "frameId": "f07",
+      "hintDirectionVi": "So sánh việc nhận một tấm bưu thiếp với việc nhận một tin nhắn điện thoại.",
+      "exampleAnswer": "I think so. A postcard is more special than a message.", "expectsReason": false
+    },
+    {
+      "id": "q11", "text": "You and your friend have the same bag. Find yours.", "difficulty": 2, "kind": "situation",
+      "keywords": ["mine", "yours", "Is this"], "frameId": "f03",
+      "hintDirectionVi": "Hỏi xem cái nào của ai, rồi nói cái nào là của em bằng mine và yours.",
+      "exampleAnswer": "Is this bag yours or mine? Oh, this one is mine. It has my name.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Would you like to live in a big city in the future? Why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["big city", "busy", "fun"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một điểm hay và một điểm chưa hay khi sống ở thành phố lớn, rồi quyết định.",
+      "exampleAnswer": "Yes, I would. There are lots of fun things to do there.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Is it better to travel with a city map or a phone? Why?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["city map", "battery", "easy"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ xem mỗi cách có gì tiện và có thể gặp rắc rối gì khi đang đi đường.",
+      "exampleAnswer": "I prefer a phone because it's easier. But a map doesn't need a battery!", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "A tourist asks about a good place in your city. Answer.", "difficulty": 3, "kind": "situation",
+      "keywords": ["famous", "its", "should"], "frameId": "f02",
+      "hintDirectionVi": "Chọn một nơi em tự hào nhất ở thành phố, rồi nói nó nổi tiếng vì điều gì.",
+      "exampleAnswer": "You should visit the old market. It's famous for its street food.", "expectsReason": false
+    },
+    {
+      "id": "q15", "text": "You are on holiday. Tell a friend about it like a postcard.", "difficulty": 3, "kind": "situation",
+      "keywords": ["Dear", "having a great time", "weather"], "frameId": "f06",
+      "hintDirectionVi": "Mở đầu bằng Dear + tên bạn, nói em đang ở đâu, rồi kể một điều về thời tiết hoặc cảnh vật.",
+      "exampleAnswer": "Dear Lan, I'm having a great time in Hue. The weather is sunny and warm.", "expectsReason": false
+    }
+  ]
+}

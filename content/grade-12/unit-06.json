@@ -1,0 +1,158 @@
+{
+  "grade": 12,
+  "unit": 6,
+  "title": "Artificial Intelligence",
+  "titleVi": "Trí tuệ nhân tạo",
+  "topic": "Nói về cách em dùng các ứng dụng trí tuệ nhân tạo, lợi ích và rủi ro của AI trong học tập, đời sống và tương lai.",
+  "source": "Global Success 12, Unit 6 (chủ đề, từ vựng, ngữ pháp thể truyền khiến chủ động và bị động)",
+  "vocab": [
+    { "id": "v01", "en": "artificial intelligence (AI)", "vi": "trí tuệ nhân tạo", "example": "Artificial intelligence can recognise songs from just a few notes." },
+    { "id": "v02", "en": "chatbot", "vi": "hộp trò chuyện, phần mềm trò chuyện", "example": "The bank's chatbot answered my question in seconds." },
+    { "id": "v03", "en": "application", "vi": "sự ứng dụng; ứng dụng", "example": "One useful application of AI is translating speech." },
+    { "id": "v04", "en": "analyse", "vi": "phân tích", "example": "The app analyses my pronunciation and shows my mistakes." },
+    { "id": "v05", "en": "data", "vi": "dữ liệu", "example": "AI systems learn from huge amounts of data." },
+    { "id": "v06", "en": "facial recognition", "vi": "nhận diện khuôn mặt", "example": "My phone uses facial recognition to unlock the screen." },
+    { "id": "v07", "en": "voice command", "vi": "ra lệnh bằng giọng nói", "example": "I use a voice command to set an alarm." },
+    { "id": "v08", "en": "personalised", "vi": "được cá nhân hoá", "example": "The learning app gives me personalised exercises." },
+    { "id": "v09", "en": "interact", "vi": "tương tác", "example": "Children love to interact with talking robots." },
+    { "id": "v10", "en": "virtual reality", "vi": "thực tế ảo", "example": "With virtual reality, we can walk inside a museum from our classroom." },
+    { "id": "v11", "en": "human-like", "vi": "giống con người", "example": "Some robots now have human-like faces and voices." },
+    { "id": "v12", "en": "upgrade", "vi": "nâng cấp", "example": "I need to upgrade my phone's software." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I would get a robot to ___.",
+      "vi": "Mình sẽ nhờ một con rô-bốt ...",
+      "grammarNote": "Truyền khiến chủ động: get + người/vật + to V (nhờ, khiến ai làm gì).",
+      "examples": ["I would get a robot to tidy my room every morning."]
+    },
+    {
+      "id": "f02",
+      "text": "I would have my AI assistant ___.",
+      "vi": "Mình sẽ để trợ lý AI ...",
+      "grammarNote": "Truyền khiến chủ động: have + người/vật + V nguyên mẫu (không có to).",
+      "examples": ["I would have my AI assistant plan my study timetable."]
+    },
+    {
+      "id": "f03",
+      "text": "I had my ___ ___ at ___.",
+      "vi": "Mình đã mang ... đi ... ở ...",
+      "grammarNote": "Truyền khiến bị động: have + vật + V3 (nhờ người khác làm cho mình): I had my phone repaired.",
+      "examples": ["I had my bike repaired at the shop near my school."]
+    },
+    {
+      "id": "f04",
+      "text": "In the future, we will get ___ done by ___.",
+      "vi": "Trong tương lai, chúng ta sẽ để ... được làm bởi ...",
+      "grammarNote": "Truyền khiến bị động: get + vật + V3 (+ by ai/cái gì) nhấn mạnh việc được làm, không phải người làm.",
+      "examples": ["In the future, we will get our homes cleaned by robots."]
+    },
+    {
+      "id": "f05",
+      "text": "I think AI is useful for ___, but ___.",
+      "vi": "Mình nghĩ AI có ích cho ..., nhưng ...",
+      "grammarNote": "be useful for + danh từ/V-ing; nối ý trái ngược bằng but để nêu cả mặt tốt lẫn mặt chưa tốt.",
+      "examples": ["I think AI is useful for translating, but it sometimes makes silly mistakes."]
+    },
+    {
+      "id": "f06",
+      "text": "One AI application I use is ___. It helps me ___.",
+      "vi": "Một ứng dụng AI mình dùng là ... Nó giúp mình ...",
+      "grammarNote": "help + người + V nguyên mẫu (help me learn) hoặc help + người + to V.",
+      "examples": ["One AI application I use is a map app. It helps me find the fastest way home."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What AI applications do you use in your daily life?", "difficulty": 1, "kind": "personal",
+      "keywords": ["application", "translate", "voice command"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về các ứng dụng trên điện thoại: dịch, bản đồ, gợi ý video, trợ lý giọng nói. Cái nào em dùng nhiều?",
+      "exampleAnswer": "One AI application I use is a translation app. It helps me understand new English words quickly.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Have you ever talked to a chatbot? What did you ask it?", "difficulty": 1, "kind": "personal",
+      "keywords": ["chatbot", "asked", "answer"], "frameId": "f06",
+      "hintDirectionVi": "Nhớ lại một lần em hỏi chatbot hoặc trợ lý ảo. Em hỏi gì và câu trả lời có hữu ích không?",
+      "exampleAnswer": "Yes, I have. I asked a chatbot to explain a difficult maths problem, and it gave me clear steps.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What housework would you get a robot to do for you?", "difficulty": 1, "kind": "personal",
+      "keywords": ["get a robot to", "clean", "wash"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về việc nhà em ít thích làm nhất. Dùng get + robot + to V.",
+      "exampleAnswer": "I would get a robot to wash the dishes and clean the floor, so I would have more time to study.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What is something you have had repaired or upgraded recently?", "difficulty": 1, "kind": "personal",
+      "keywords": ["had it repaired", "upgrade", "shop"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về đồ dùng của em: điện thoại, xe đạp, máy tính. Em đã mang đi sửa hay nâng cấp chưa?",
+      "exampleAnswer": "Last month, I had my laptop upgraded at a shop near my house. Now it runs much faster.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do you think AI chatbots are popular with students?", "difficulty": 2, "kind": "reason",
+      "keywords": ["chatbot", "instant", "explain"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem chatbot làm được gì nhanh hơn hoặc tiện hơn so với hỏi người khác.",
+      "exampleAnswer": "Chatbots are popular because they give instant answers at any time. Students can get difficult lessons explained in a simple way.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Why might some people feel uncomfortable with facial recognition?", "difficulty": 2, "kind": "reason",
+      "keywords": ["facial recognition", "privacy", "data"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem khuôn mặt của mình bị lưu lại ở đâu và ai có thể dùng dữ liệu đó.",
+      "exampleAnswer": "Some people worry about their privacy. Facial recognition collects personal data, and they don't know who will store or use it.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Should students be allowed to use AI to help with homework? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["AI", "learn", "copy"], "frameId": "f05",
+      "hintDirectionVi": "Phân biệt dùng AI để hiểu bài với dùng AI để làm hộ. Em đặt ranh giới ở đâu?",
+      "exampleAnswer": "I think AI is useful for checking ideas, but students should not have their homework done by AI. Otherwise, they won't really learn.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "You have a home robot. Give it three instructions for this evening.", "difficulty": 2, "kind": "situation",
+      "keywords": ["please", "cook", "remind me"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về ba việc cần làm tối nay ở nhà em, rồi ra lệnh ngắn gọn, rõ ràng.",
+      "exampleAnswer": "Please cook rice at six, water the plants on the balcony, and remind me to call my grandma at eight.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "How could AI make your learning more personalised?", "difficulty": 2, "kind": "personal",
+      "keywords": ["personalised", "analyse", "weak points"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về môn em thấy khó. Một ứng dụng thông minh có thể biết em yếu ở đâu và giúp thế nào?",
+      "exampleAnswer": "I would have an AI app analyse my test results and find my weak points. Then it could give me personalised exercises at the right level.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Will AI teachers ever replace human teachers? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["replace", "human-like", "interact"], "frameId": "f05",
+      "hintDirectionVi": "So sánh điều AI làm tốt (giải thích kiến thức) với điều thầy cô làm tốt (hiểu và động viên học sinh).",
+      "exampleAnswer": "I don't think so. AI can explain facts, but human teachers understand our feelings and can encourage us when we feel stressed.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Your grandparent wants to use voice commands on a new phone. Show them how to start.", "difficulty": 2, "kind": "situation",
+      "keywords": ["voice command", "tap", "say clearly"], "frameId": "f06",
+      "hintDirectionVi": "Chia thành vài bước đơn giản, dùng first, then. Cho ông bà một câu lệnh mẫu để thử.",
+      "exampleAnswer": "First, tap the microphone icon. Then say clearly, 'Call Minh' or 'What's the weather today?' The phone will do it for you.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Why is it important to learn how AI works, even if you don't want a technology job?", "difficulty": 3, "kind": "reason",
+      "keywords": ["data", "decisions", "everyday life"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem AI đang có mặt ở những đâu trong đời sống hằng ngày và hiểu nó giúp em tránh được gì.",
+      "exampleAnswer": "AI is part of our everyday lives, from shopping apps to news feeds. If we understand how it uses our data, we can make smarter decisions.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "What jobs do you think AI should never do? Explain your view.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["judge", "care for", "emotions"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về những công việc cần cảm xúc, sự thấu hiểu hoặc quyết định quan trọng về con người.",
+      "exampleAnswer": "I think AI should never judge people in court. Decisions about people's lives need human understanding and kindness, not just data.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Is virtual reality a good tool for learning? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["virtual reality", "hands-on", "expensive"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về một bài học có thể sinh động hơn nhờ thực tế ảo, rồi nghĩ thêm một khó khăn khi dùng nó.",
+      "exampleAnswer": "I think virtual reality is useful for hands-on lessons, like exploring space or the human heart. However, the equipment is expensive for many schools.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Your team is designing an AI app for teenagers. Describe its main function and why it is useful.", "difficulty": 3, "kind": "situation",
+      "keywords": ["function", "personalised", "remind"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một vấn đề tuổi teen hay gặp hằng ngày, rồi tưởng tượng một ứng dụng giải quyết nó.",
+      "exampleAnswer": "Our app would get students' study plans organised automatically. It would analyse their timetables and remind them to take breaks, which reduces stress.", "expectsReason": true
+    }
+  ]
+}

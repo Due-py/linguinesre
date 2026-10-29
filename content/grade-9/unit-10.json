@@ -1,0 +1,158 @@
+{
+  "grade": 9,
+  "unit": 10,
+  "title": "Planet Earth",
+  "titleVi": "Trái Đất",
+  "topic": "Nói về động thực vật, môi trường sống của chúng, những mối đe dọa với Trái Đất và việc em có thể làm để bảo vệ hành tinh.",
+  "source": "Global Success 9, Unit 10 (chủ đề, từ vựng, ngữ pháp mệnh đề quan hệ không xác định)",
+  "vocab": [
+    { "id": "v01", "en": "habitat", "vi": "môi trường sống của động thực vật", "example": "Forests are the natural habitat of many birds." },
+    { "id": "v02", "en": "threat", "vi": "nỗi đe dọa", "example": "Plastic waste is a serious threat to sea turtles." },
+    { "id": "v03", "en": "climate change", "vi": "biến đổi khí hậu", "example": "Climate change is making summers hotter every year." },
+    { "id": "v04", "en": "nature reserve", "vi": "khu bảo tồn thiên nhiên", "example": "Hunting is not allowed in the nature reserve." },
+    { "id": "v05", "en": "ecological balance", "vi": "cân bằng sinh thái", "example": "Every living thing plays a part in the ecological balance." },
+    { "id": "v06", "en": "food chain", "vi": "chuỗi thức ăn", "example": "Small fish are an important part of the ocean food chain." },
+    { "id": "v07", "en": "pesticide", "vi": "thuốc diệt cỏ, thuốc trừ sâu", "example": "Too much pesticide can kill bees as well as pests." },
+    { "id": "v08", "en": "harm", "vi": "làm hại", "example": "Loud noise can harm wild animals." },
+    { "id": "v09", "en": "preserve", "vi": "bảo tồn", "example": "We must preserve our forests for future generations." },
+    { "id": "v10", "en": "essential", "vi": "vô cùng quan trọng", "example": "Clean water is essential for all living things." },
+    { "id": "v11", "en": "fascinating", "vi": "rất thú vị và hấp dẫn", "example": "I find documentaries about the ocean fascinating." },
+    { "id": "v12", "en": "flora and fauna", "vi": "hệ thực vật và động vật", "example": "The island is home to rare flora and fauna." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "___, which ___, needs our protection.",
+      "vi": "..., loài mà ..., cần chúng ta bảo vệ.",
+      "grammarNote": "Mệnh đề quan hệ không xác định thêm thông tin phụ, đặt giữa hai dấu phẩy và không dùng that.",
+      "examples": ["The sea turtle, which lays its eggs on sandy beaches, needs our protection."]
+    },
+    {
+      "id": "f02",
+      "text": "My neighbourhood, which is ___, has ___.",
+      "vi": "Khu mình sống, nơi ..., có ...",
+      "grammarNote": "which thay cho vật hoặc nơi chốn trong mệnh đề không xác định; bỏ mệnh đề đi câu vẫn đủ nghĩa.",
+      "examples": ["My neighbourhood, which is close to a river, has lots of birds and frogs."]
+    },
+    {
+      "id": "f03",
+      "text": "One of the biggest threats to wildlife is ___ because ___.",
+      "vi": "Một trong những mối đe dọa lớn nhất với động vật hoang dã là ... vì ...",
+      "grammarNote": "One of the + so sánh nhất + danh từ số nhiều; threat to + danh từ: mối đe dọa đối với cái gì.",
+      "examples": ["One of the biggest threats to wildlife is hunting because it kills rare animals."]
+    },
+    {
+      "id": "f04",
+      "text": "To protect ___, we should ___.",
+      "vi": "Để bảo vệ ..., chúng ta nên ...",
+      "grammarNote": "To + V ở đầu câu chỉ mục đích; should + V nguyên mẫu để đưa ra đề xuất.",
+      "examples": ["To protect rivers, we should stop throwing rubbish into them."]
+    },
+    {
+      "id": "f05",
+      "text": "If people keep ___, ___ will ___.",
+      "vi": "Nếu con người cứ tiếp tục ..., thì ... sẽ ...",
+      "grammarNote": "Câu điều kiện loại 1: If + hiện tại đơn, S + will + V. keep + V-ing: cứ tiếp tục làm gì.",
+      "examples": ["If people keep cutting down trees, many animals will lose their homes."]
+    },
+    {
+      "id": "f06",
+      "text": "I find ___ fascinating because ___.",
+      "vi": "Mình thấy ... rất thú vị vì ...",
+      "grammarNote": "find + tân ngữ + tính từ: thấy cái gì như thế nào. Tính từ -ing tả đặc điểm của sự vật.",
+      "examples": ["I find penguins fascinating because they can live in such a cold place."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What is your favourite wild animal, and where does it live?", "difficulty": 1, "kind": "personal",
+      "keywords": ["habitat", "live in", "forest"], "frameId": "f06",
+      "hintDirectionVi": "Chọn một con vật hoang dã em thích, nghĩ xem nó sống ở đâu và em thích điều gì ở nó.",
+      "exampleAnswer": "My favourite animal is the red panda, which lives in mountain forests. I find it fascinating because it is so shy.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What plants or animals can you see near your home?", "difficulty": 1, "kind": "personal",
+      "keywords": ["birds", "trees", "garden"], "frameId": "f02",
+      "hintDirectionVi": "Hình dung đường từ nhà đến trường: em thấy cây gì, chim gì, côn trùng gì?",
+      "exampleAnswer": "My neighbourhood, which is near a river, has lots of birds and frogs. We also have mango trees in our garden.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Have you ever visited a nature reserve or a national park?", "difficulty": 1, "kind": "personal",
+      "keywords": ["nature reserve", "national park", "fascinating"], "frameId": "f06",
+      "hintDirectionVi": "Nếu đã đi, nhớ lại điều em thấy ấn tượng nhất. Nếu chưa, nói em muốn đến đâu và muốn thấy gì.",
+      "exampleAnswer": "Yes, I visited Cuc Phuong National Park last year. I found the old trees and colourful butterflies fascinating.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What do you do to help the environment at home?", "difficulty": 1, "kind": "personal",
+      "keywords": ["recycle", "save water", "plastic"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về những thói quen nhỏ hằng ngày của em: phân loại rác, tiết kiệm điện nước, ít dùng nhựa.",
+      "exampleAnswer": "I sort the rubbish for recycling and turn off the tap while brushing my teeth. Small things like that help.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why are many animals losing their habitats?", "difficulty": 2, "kind": "reason",
+      "keywords": ["habitat", "cut down", "build"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem con người đã thay đổi rừng, sông, đồng cỏ như thế nào để phục vụ cuộc sống của mình.",
+      "exampleAnswer": "People cut down forests to build farms and cities. If people keep doing this, animals will have nowhere to live.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Why should farmers use fewer pesticides?", "difficulty": 2, "kind": "reason",
+      "keywords": ["pesticide", "harm", "food chain"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem thuốc trừ sâu ảnh hưởng đến những sinh vật nào khác ngoài sâu bọ, kể cả con người.",
+      "exampleAnswer": "Pesticides harm bees and birds. If farmers keep using too many, the whole food chain will be affected, including us.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Is it right to keep wild animals in zoos? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["zoo", "protect", "natural habitat"], "frameId": "f04",
+      "hintDirectionVi": "Cân nhắc: sở thú giúp bảo vệ loài quý hiếm, nhưng động vật mất đi tự do. Em nghiêng về bên nào?",
+      "exampleAnswer": "It depends. Zoos can protect animals that are in danger, but wild animals should live in their natural habitats if possible.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "What is the most serious threat to our planet today? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["climate change", "pollution", "threat"], "frameId": "f03",
+      "hintDirectionVi": "Chọn một vấn đề môi trường em thấy đáng lo nhất, rồi nêu hậu quả của nó với con người hoặc động vật.",
+      "exampleAnswer": "I think climate change is the biggest threat because it causes floods, droughts and the loss of many habitats.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Which do you find more fascinating: mountains, deserts or oceans?", "difficulty": 2, "kind": "personal",
+      "keywords": ["fascinating", "mysterious", "discover"], "frameId": "f06",
+      "hintDirectionVi": "Chọn một nơi và nghĩ xem điều gì ở đó khiến em tò mò: con vật lạ, cảnh vật hay điều bí ẩn.",
+      "exampleAnswer": "I find oceans the most fascinating because they are so deep and mysterious. Scientists still discover new animals there every year.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "You see someone throwing rubbish into a lake. What do you say?", "difficulty": 2, "kind": "situation",
+      "keywords": ["harm", "fish", "bin"], "frameId": "f05",
+      "hintDirectionVi": "Nhắc nhở lịch sự, giải thích ngắn gọn tác hại, rồi gợi ý cách làm đúng.",
+      "exampleAnswer": "Excuse me, please don't do that. If people keep throwing rubbish into the lake, the fish will die. There's a bin over there.", "expectsReason": false
+    },
+    {
+      "id": "q11", "text": "Your class is making a poster about an endangered animal. Suggest one and explain your choice.", "difficulty": 2, "kind": "situation",
+      "keywords": ["endangered", "which", "protect"], "frameId": "f01",
+      "hintDirectionVi": "Chọn một loài đang gặp nguy hiểm, thêm một thông tin thú vị về nó và lý do nên chọn nó.",
+      "exampleAnswer": "Let's choose the saola, which lives only in Viet Nam and Laos. Very few people know about it, so it needs our help.", "expectsReason": true
+    },
+    {
+      "id": "q12", "text": "Is protecting the planet the government's job or everyone's job? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["responsibility", "laws", "daily habits"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem chính phủ làm được gì mà người dân không làm được, và ngược lại.",
+      "exampleAnswer": "It's everyone's job. The government can make laws, but each person, from students to farmers, must change their daily habits.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Would you like to study wildlife or outer space in the future? Why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["outer space", "wildlife", "fascinating"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem em tò mò về sự sống trên Trái Đất hay về các hành tinh, vì sao điều đó hấp dẫn em.",
+      "exampleAnswer": "I'd love to study outer space because I find the stars and planets fascinating. I want to know if there is life elsewhere.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Your town plans to build a factory next to a nature reserve. Give your view at a town meeting.", "difficulty": 3, "kind": "situation",
+      "keywords": ["nature reserve", "habitat", "pollute"], "frameId": "f05",
+      "hintDirectionVi": "Nói rõ em đồng ý hay phản đối, nêu một hậu quả có thể xảy ra, rồi gợi ý một phương án khác.",
+      "exampleAnswer": "I'm against this plan. If the factory is built here, it will pollute the water and destroy the habitats of many birds.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Can one teenager really make a difference to the environment? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["make a difference", "together", "habits"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem một hành động nhỏ của em có thể lan sang bạn bè, gia đình như thế nào.",
+      "exampleAnswer": "Yes. One person seems small, but when we share our green habits, friends and family copy them. Together we can make a big difference.", "expectsReason": true
+    }
+  ]
+}

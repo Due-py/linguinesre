@@ -1,0 +1,172 @@
+{
+  "grade": 8,
+  "unit": 3,
+  "title": "Teenagers",
+  "titleVi": "Tuổi thiếu niên",
+  "topic": "Nói về câu lạc bộ ở trường, cách tuổi teen dùng mạng xã hội, và những áp lực tuổi teen gặp phải cùng cách vượt qua.",
+  "source": "Global Success 8, Unit 3 (chủ đề, từ vựng, câu đơn và câu ghép, đưa ra lời đề nghị)",
+  "vocab": [
+    { "id": "v01", "en": "school club", "vi": "câu lạc bộ ở trường", "example": "I joined the English club at my school." },
+    { "id": "v02", "en": "social media", "vi": "mạng xã hội", "example": "Many teenagers use social media every day." },
+    { "id": "v03", "en": "upload a photo", "vi": "đăng ảnh lên mạng", "example": "She uploads photos of her drawings." },
+    { "id": "v04", "en": "check notifications", "vi": "kiểm tra thông báo", "example": "I check notifications after I finish my homework." },
+    { "id": "v05", "en": "log on", "vi": "đăng nhập", "example": "Log on to your account to see the message." },
+    { "id": "v06", "en": "browse a website", "vi": "xem lướt một trang web", "example": "I browse websites to find ideas for my project." },
+    { "id": "v07", "en": "pressure", "vi": "áp lực", "example": "Students feel a lot of pressure before exams." },
+    { "id": "v08", "en": "stressful", "vi": "căng thẳng", "example": "The week before the midterm test is stressful." },
+    { "id": "v09", "en": "peer pressure", "vi": "áp lực từ bạn bè", "example": "Peer pressure can make teenagers do things they don't want to do." },
+    { "id": "v10", "en": "concentrate", "vi": "tập trung", "example": "I can't concentrate when my phone is on the desk." },
+    { "id": "v11", "en": "expectations", "vi": "sự kỳ vọng", "example": "My parents have high expectations of me." },
+    { "id": "v12", "en": "bully", "vi": "bắt nạt", "example": "Nobody should bully other students, online or offline." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I use ___ to ___, but I try not to ___.",
+      "vi": "Mình dùng ... để ..., nhưng mình cố không ...",
+      "grammarNote": "Câu ghép: hai mệnh đề nối bằng but (trái ngược). Dấu phẩy đứng trước but.",
+      "examples": ["I use social media to chat with my classmates, but I try not to use it late at night."]
+    },
+    {
+      "id": "f02",
+      "text": "I joined the ___ club because ___.",
+      "vi": "Mình tham gia câu lạc bộ ... vì ...",
+      "grammarNote": "Thì quá khứ đơn cho việc đã làm; because + mệnh đề để nêu lý do.",
+      "examples": ["I joined the chess club because I want to think more carefully."]
+    },
+    {
+      "id": "f03",
+      "text": "Teenagers often feel stressed because ___, so ___.",
+      "vi": "Tuổi teen hay căng thẳng vì ..., nên ...",
+      "grammarNote": "Câu ghép với so: mệnh đề 1, so + mệnh đề 2 (kết quả).",
+      "examples": ["Teenagers often feel stressed because they have many tests, so they need time to relax."]
+    },
+    {
+      "id": "f04",
+      "text": "When I feel stressed, I usually ___, and it helps me ___.",
+      "vi": "Khi căng thẳng, mình thường ..., và việc đó giúp mình ...",
+      "grammarNote": "Câu ghép với and: nối hai ý bổ sung cho nhau. help + somebody + động từ nguyên mẫu.",
+      "examples": ["When I feel stressed, I usually go for a walk, and it helps me calm down."]
+    },
+    {
+      "id": "f05",
+      "text": "Could you tell me ___, please?",
+      "vi": "Bạn có thể cho mình biết ... được không?",
+      "grammarNote": "Đề nghị lịch sự: Could you / Can you + động từ nguyên mẫu ..., please? Đáp lại: Certainly.",
+      "examples": ["Could you tell me when the club meets, please?"]
+    },
+    {
+      "id": "f06",
+      "text": "Social media is ___; however, ___.",
+      "vi": "Mạng xã hội ...; tuy nhiên, ...",
+      "grammarNote": "Câu ghép với however: mệnh đề 1; however, mệnh đề 2. Dùng therefore khi ý sau là kết quả.",
+      "examples": ["Social media is useful for keeping in touch; however, it can waste a lot of time."]
+    },
+    {
+      "id": "f07",
+      "text": "After school, I usually ___, and then I ___.",
+      "vi": "Sau giờ học, mình thường ..., rồi sau đó mình ...",
+      "grammarNote": "Câu ghép nối hai mệnh đề bằng and; then chỉ thứ tự việc làm.",
+      "examples": ["After school, I usually ride my bike home, and then I help my mum cook."]
+    },
+    {
+      "id": "f08",
+      "text": "If a classmate is being bullied, we should ___ and ___.",
+      "vi": "Nếu một bạn cùng lớp bị bắt nạt, chúng ta nên ... và ...",
+      "grammarNote": "should + động từ nguyên mẫu để khuyên. Câu nối hai ý bằng and.",
+      "examples": ["If a classmate is being bullied, we should stay calm and ask a teacher for help."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Which social media app do you use most?", "difficulty": 1, "kind": "personal",
+      "keywords": ["social media", "use", "chat"], "frameId": "f01",
+      "hintDirectionVi": "Nói tên ứng dụng em hay dùng nhất (hoặc nói em không dùng), rồi thêm em dùng nó làm gì.",
+      "exampleAnswer": "I use Zalo most. I use it to chat with my classmates about homework.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Are you a member of any school clubs?", "difficulty": 1, "kind": "personal",
+      "keywords": ["school club", "join", "member"], "frameId": "f02",
+      "hintDirectionVi": "Trả lời có hay không. Nếu có, nói tên câu lạc bộ; nếu không, nói câu lạc bộ em quan tâm.",
+      "exampleAnswer": "Yes, I am a member of the English club. We meet every Thursday afternoon.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "How often do you check notifications on your phone?", "difficulty": 1, "kind": "personal",
+      "keywords": ["check notifications", "every", "times a day"], "frameId": "f01",
+      "hintDirectionVi": "Ước lượng số lần mỗi ngày, rồi nói em thường xem lúc nào.",
+      "exampleAnswer": "I check notifications about five times a day, usually after school and in the evening.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What do you usually do after school?", "difficulty": 1, "kind": "personal",
+      "keywords": ["homework", "club", "relax"], "frameId": "f07",
+      "hintDirectionVi": "Kể theo thứ tự: về nhà làm gì trước, sau đó làm gì.",
+      "exampleAnswer": "After school, I usually have a snack, do my homework and then play football with my friends.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Which school club would you like to join, and why?", "difficulty": 2, "kind": "reason",
+      "keywords": ["join", "club", "because"], "frameId": "f02",
+      "hintDirectionVi": "Chọn một câu lạc bộ, rồi nói em sẽ học được gì hoặc gặp được ai ở đó.",
+      "exampleAnswer": "I would like to join the arts and crafts club because I love making things, and I can learn new skills there.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "What do you usually use social media for?", "difficulty": 2, "kind": "personal",
+      "keywords": ["upload", "browse", "keep in touch"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về hai việc em hay làm trên mạng xã hội: xem, đăng, nhắn tin hay học.",
+      "exampleAnswer": "I use social media to keep in touch with friends and browse videos about science.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "What makes teenagers feel stressed?", "difficulty": 2, "kind": "reason",
+      "keywords": ["pressure", "tests", "expectations"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về áp lực từ việc học, từ gia đình và từ bạn bè. Chọn một hoặc hai nguyên nhân.",
+      "exampleAnswer": "Teenagers feel stressed because they have many tests and their parents have high expectations.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "How do you relax when you feel stressed?", "difficulty": 2, "kind": "personal",
+      "keywords": ["stressed", "relax", "helps me"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về việc em làm để thấy nhẹ nhõm hơn, và việc đó giúp em thế nào.",
+      "exampleAnswer": "When I feel stressed, I listen to music, and it helps me feel calm.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "You want to join the chess club. Ask the club leader for some information.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Could you tell me", "when", "where"], "frameId": "f05",
+      "hintDirectionVi": "Hỏi lịch sự về thời gian, địa điểm hoặc cách đăng ký. Hỏi ít nhất hai điều.",
+      "exampleAnswer": "Could you tell me when the chess club meets, please? And can you show me where the room is?", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Is it easy to concentrate on homework when your phone is near you? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["concentrate", "notifications", "so"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem điện thoại làm em mất tập trung thế nào, và em xử lý ra sao.",
+      "exampleAnswer": "No, it isn't. My phone often shows notifications, so I put it in another room when I study.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "What are the good and bad points of social media for teenagers?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["useful", "however", "waste time"], "frameId": "f06",
+      "hintDirectionVi": "Nêu một điểm tốt và một điểm chưa tốt, nối bằng however.",
+      "exampleAnswer": "Social media helps teenagers learn and keep in touch; however, it can waste time and sometimes people bully others online.", "expectsReason": true
+    },
+    {
+      "id": "q12", "text": "What should a student do if a classmate is being bullied?", "difficulty": 3, "kind": "situation",
+      "keywords": ["tell a teacher", "support", "should"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ về hai việc: giúp bạn bị bắt nạt và báo cho người lớn đáng tin.",
+      "exampleAnswer": "The student should stay with the classmate and tell a teacher. They should not join the bullies.", "expectsReason": false
+    },
+    {
+      "id": "q13", "text": "Do parents expect too much from teenagers today? Give your opinion.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["expectations", "pressure", "therefore"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về điểm số, học thêm, và việc bố mẹ muốn tốt cho con. Chọn quan điểm và nêu lý do.",
+      "exampleAnswer": "Sometimes they do. Parents want the best for us; however, high expectations can make teenagers feel a lot of pressure.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Imagine you can start a new club at your school. What club would it be, and what would members do?", "difficulty": 3, "kind": "situation",
+      "keywords": ["club", "members", "every week"], "frameId": "f02",
+      "hintDirectionVi": "Đặt tên câu lạc bộ, nói thành viên làm gì và gặp nhau bao lâu một lần.",
+      "exampleAnswer": "I would start a cooking club. Members would meet every Friday, cook simple dishes and share them with their classmates.", "expectsReason": false
+    },
+    {
+      "id": "q15", "text": "How can teenagers deal with peer pressure?", "difficulty": 3, "kind": "reason",
+      "keywords": ["peer pressure", "say no", "talk to"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về cách từ chối lịch sự và về người em có thể nói chuyện khi khó xử.",
+      "exampleAnswer": "Teenagers can learn to say no politely, and they should talk to their parents or teachers when they feel pressure.", "expectsReason": true
+    }
+  ]
+}

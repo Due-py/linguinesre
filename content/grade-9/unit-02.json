@@ -1,0 +1,165 @@
+{
+  "grade": 9,
+  "unit": 2,
+  "title": "City Life",
+  "titleVi": "Cuộc sống thành phố",
+  "topic": "Nói về cuộc sống ở thành phố: đi lại, tiện ích, những điều em thích và không thích, các vấn đề đô thị và cách giải quyết.",
+  "source": "Global Success 9, Unit 2 (chủ đề, từ vựng, ngữ pháp so sánh kép, cụm động từ)",
+  "vocab": [
+    { "id": "v01", "en": "bustling", "vi": "hối hả, nhộn nhịp", "example": "The night market is bustling with people every weekend." },
+    { "id": "v02", "en": "congested", "vi": "tắc nghẽn (giao thông)", "example": "The roads near my school are congested in the morning." },
+    { "id": "v03", "en": "rush hour", "vi": "giờ cao điểm", "example": "We leave home early to avoid the rush hour." },
+    { "id": "v04", "en": "get around", "vi": "đi lại, di chuyển quanh", "example": "It is easy to get around the city by bus." },
+    { "id": "v05", "en": "public amenities", "vi": "những tiện ích công cộng", "example": "Parks and libraries are public amenities that everyone can use." },
+    { "id": "v06", "en": "liveable", "vi": "(nơi chốn) đáng sống", "example": "More trees would make our city more liveable." },
+    { "id": "v07", "en": "pricey", "vi": "đắt đỏ", "example": "Food in the city centre is quite pricey." },
+    { "id": "v08", "en": "concrete jungle", "vi": "rừng bê tông", "example": "Without parks, the city would be a concrete jungle." },
+    { "id": "v09", "en": "construction site", "vi": "công trường xây dựng", "example": "The construction site next to my house is noisy all day." },
+    { "id": "v10", "en": "downtown", "vi": "khu trung tâm thành phố", "example": "We took the bus downtown to see the lights." },
+    { "id": "v11", "en": "metro", "vi": "hệ thống tàu điện ngầm", "example": "The new metro line will save people a lot of time." },
+    { "id": "v12", "en": "hang out with", "vi": "đi chơi (cùng ai)", "example": "I hang out with my classmates at the bookshop café." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "My city is getting ___ and ___.",
+      "vi": "Thành phố của mình ngày càng ...",
+      "grammarNote": "So sánh kép tăng dần: tính từ ngắn + -er and + -er (busier and busier); tính từ dài: more and more + tính từ.",
+      "examples": ["My city is getting more and more crowded.", "The streets are getting cleaner and cleaner."]
+    },
+    {
+      "id": "f02",
+      "text": "The more ___, the ___ the city becomes.",
+      "vi": "Càng ... thì thành phố càng ...",
+      "grammarNote": "The + so sánh hơn ..., the + so sánh hơn ...: càng ... càng ...",
+      "examples": ["The more cars there are, the noisier the city becomes."]
+    },
+    {
+      "id": "f03",
+      "text": "I usually get around by ___ because ___.",
+      "vi": "Mình thường đi lại bằng ... vì ...",
+      "grammarNote": "Cụm động từ get around: đi lại, di chuyển quanh một nơi. by + phương tiện (by bus, by bike).",
+      "examples": ["I usually get around by bike because it is cheap and good exercise."]
+    },
+    {
+      "id": "f04",
+      "text": "One thing I like about my city is ___, but I don't like ___.",
+      "vi": "Một điều mình thích ở thành phố là ..., nhưng mình không thích ...",
+      "grammarNote": "Nối hai ý trái ngược bằng but. Sau like có thể dùng danh từ hoặc V-ing.",
+      "examples": ["One thing I like about my city is the street food, but I don't like the traffic jams."]
+    },
+    {
+      "id": "f05",
+      "text": "To make our city more liveable, the local government should ___.",
+      "vi": "Để thành phố đáng sống hơn, chính quyền nên ...",
+      "grammarNote": "To + V để nói mục đích; make + tân ngữ + tính từ; should + V nguyên mẫu để đưa ra đề xuất.",
+      "examples": ["To make our city more liveable, the local government should build more parks."]
+    },
+    {
+      "id": "f06",
+      "text": "At the weekend, I like to hang out with ___ at ___.",
+      "vi": "Cuối tuần mình thích đi chơi với ... ở ...",
+      "grammarNote": "Cụm động từ hang out with + người: đi chơi cùng ai. at + địa điểm cụ thể.",
+      "examples": ["At the weekend, I like to hang out with my cousins at the shopping centre."]
+    },
+    {
+      "id": "f07",
+      "text": "I'm sorry, but I'm stuck in ___, so I'll be about ___ late.",
+      "vi": "Em xin lỗi, em đang bị kẹt ở ..., nên em sẽ đến muộn khoảng ...",
+      "grammarNote": "be stuck in: bị kẹt trong; so + mệnh đề để nói kết quả.",
+      "examples": ["I'm sorry, but I'm stuck in a traffic jam, so I'll be about ten minutes late."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "How do you usually get around your town or city?", "difficulty": 1, "kind": "personal",
+      "keywords": ["get around", "by bike", "bus"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về cách em đến trường và đi chơi: đi bộ, xe đạp, xe buýt hay được bố mẹ chở?",
+      "exampleAnswer": "I usually get around by bike because my school is quite near and it's good exercise.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Where do you like to hang out with your friends?", "difficulty": 1, "kind": "personal",
+      "keywords": ["hang out with", "park", "shopping centre"], "frameId": "f06",
+      "hintDirectionVi": "Nhớ lại nơi em và bạn bè hay gặp nhau. Ở đó các em thường làm gì?",
+      "exampleAnswer": "At the weekend, I like to hang out with my friends at the park near my house.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What public amenities are there near your home?", "difficulty": 1, "kind": "personal",
+      "keywords": ["public amenities", "library", "swimming pool"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về những nơi công cộng ai cũng dùng được quanh nhà em. Em hay đến nơi nào nhất?",
+      "exampleAnswer": "There is a public library, a playground and a swimming pool near my home. I use the library a lot.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What is the traffic like near your school at rush hour?", "difficulty": 1, "kind": "personal",
+      "keywords": ["rush hour", "congested", "noisy"], "frameId": "f01",
+      "hintDirectionVi": "Hình dung con đường trước cổng trường lúc tan học. Nó đông hay vắng, ồn hay yên tĩnh?",
+      "exampleAnswer": "It is very congested at rush hour. The roads are getting busier and busier every year.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do many people want to move to big cities?", "difficulty": 2, "kind": "reason",
+      "keywords": ["jobs", "opportunities", "better schools"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ xem thành phố lớn có những điều gì mà nông thôn còn thiếu: việc làm, trường học, dịch vụ.",
+      "exampleAnswer": "Big cities have more jobs and better schools. The bigger the city, the more opportunities people have.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Why is it important to have more green spaces in cities?", "difficulty": 2, "kind": "reason",
+      "keywords": ["fresh air", "concrete jungle", "relax"], "frameId": "f05",
+      "hintDirectionVi": "Tưởng tượng một thành phố chỉ có nhà cao tầng và đường. Cây xanh và công viên mang lại điều gì?",
+      "exampleAnswer": "Without parks, a city becomes a concrete jungle. Green spaces give us fresh air and a place to relax.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Do you think your town or city is becoming a better place to live? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["liveable", "better and better", "worse"], "frameId": "f01",
+      "hintDirectionVi": "So sánh nơi em sống bây giờ với vài năm trước. Điều gì đã tốt lên, điều gì tệ đi?",
+      "exampleAnswer": "Yes, I do. It is getting cleaner and cleaner, and there are more parks than before.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Is public transport better than motorbikes for city people? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["metro", "bus", "pollution"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về đường phố khi ai cũng đi xe máy, rồi so với khi nhiều người đi xe buýt, tàu điện.",
+      "exampleAnswer": "Yes. The more people use buses and the metro, the less traffic and pollution there will be.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "What do you like and dislike about the place where you live?", "difficulty": 2, "kind": "personal",
+      "keywords": ["bustling", "pricey", "noisy"], "frameId": "f04",
+      "hintDirectionVi": "Chọn một điều làm em vui và một điều làm em khó chịu ở nơi mình sống, rồi nối bằng but.",
+      "exampleAnswer": "One thing I like is the bustling night market, but I don't like the noise from the construction site nearby.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "A foreign visitor asks you the best way to get around your city. What do you tell them?", "difficulty": 2, "kind": "situation",
+      "keywords": ["get around", "bus", "rush hour"], "frameId": "f03",
+      "hintDirectionVi": "Chọn một phương tiện tiện nhất cho khách, rồi nhắc thêm một lời khuyên nhỏ khi dùng nó.",
+      "exampleAnswer": "The easiest way to get around is by bus. It's cheap, but try to avoid travelling at rush hour.", "expectsReason": false
+    },
+    {
+      "id": "q11", "text": "You are stuck in a traffic jam and will be late for class. Call your teacher and explain.", "difficulty": 2, "kind": "situation",
+      "keywords": ["traffic jam", "congested", "I'm sorry"], "frameId": "f07",
+      "hintDirectionVi": "Chào cô hoặc thầy, xin lỗi, nói em đang ở đâu và khoảng bao lâu nữa em đến được.",
+      "exampleAnswer": "Good morning, teacher. I'm sorry, but I'm stuck in a traffic jam. The road is very congested, so I'll be about fifteen minutes late.", "expectsReason": true
+    },
+    {
+      "id": "q12", "text": "Would you rather live in a big city or in the countryside when you grow up? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["bustling", "peaceful", "opportunities"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về công việc, không khí và nhịp sống ở mỗi nơi. Chọn một nơi và nêu ít nhất một lý do.",
+      "exampleAnswer": "I'd rather live in a big city. Life there is bustling and exciting, but I'd visit the countryside to relax at weekends.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "What is the biggest problem in your city or town, and why is it serious?", "difficulty": 3, "kind": "reason",
+      "keywords": ["pollution", "congested", "affect"], "frameId": "f02",
+      "hintDirectionVi": "Chọn một vấn đề em gặp hằng ngày. Nó ảnh hưởng đến mọi người thế nào nếu cứ tăng lên?",
+      "exampleAnswer": "The biggest problem is air pollution. The more vehicles there are, the dirtier the air becomes, and that affects everyone.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Your class is joining a competition to solve a city problem. Present your idea.", "difficulty": 3, "kind": "situation",
+      "keywords": ["solution", "liveable", "should"], "frameId": "f05",
+      "hintDirectionVi": "Chọn một vấn đề cụ thể, đưa ra một giải pháp đơn giản và nói giải pháp đó giúp thành phố thế nào.",
+      "exampleAnswer": "Our idea is to plant more trees on every street. To make our city more liveable, the local government should also build bike lanes.", "expectsReason": false
+    },
+    {
+      "id": "q15", "text": "Will cities be better or worse places to live in twenty years? Why?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["more and more", "technology", "crowded"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về những thay đổi đang diễn ra: tàu điện, nhà cao tầng, dân số. Xu hướng đó dẫn tới đâu?",
+      "exampleAnswer": "I think they will be better. Transport is getting more and more modern, so getting around will be easier and faster.", "expectsReason": true
+    }
+  ]
+}

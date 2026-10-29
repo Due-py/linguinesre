@@ -1,0 +1,158 @@
+{
+  "grade": 11,
+  "unit": 7,
+  "title": "Education Options for School-leavers",
+  "titleVi": "Lựa chọn học tập sau khi tốt nghiệp",
+  "topic": "Nói về dự định học tập sau lớp 12 của em, so sánh đại học, trường nghề, học việc, và chia sẻ cách em chọn con đường phù hợp.",
+  "source": "Global Success 11, Unit 7 (chủ đề, từ vựng, ngữ pháp danh động từ hoàn thành, mệnh đề phân từ hoàn thành)",
+  "vocab": [
+    { "id": "v01", "en": "school-leaver", "vi": "học sinh tốt nghiệp THPT", "example": "Many school-leavers feel unsure about what to study next." },
+    { "id": "v02", "en": "higher education", "vi": "giáo dục đại học", "example": "Higher education can open the door to many careers." },
+    { "id": "v03", "en": "vocational school", "vi": "trường dạy nghề", "example": "My cousin learnt to repair cars at a vocational school." },
+    { "id": "v04", "en": "apprenticeship", "vi": "thời gian học nghề, học việc", "example": "He did a two-year apprenticeship with a local chef." },
+    { "id": "v05", "en": "bachelor's degree", "vi": "bằng cử nhân", "example": "A bachelor's degree usually takes four years to complete." },
+    { "id": "v06", "en": "entrance exam", "vi": "kì thi đầu vào", "example": "She is preparing hard for the university entrance exam." },
+    { "id": "v07", "en": "qualification", "vi": "trình độ chuyên môn, văn bằng", "example": "You need a teaching qualification to work in a school." },
+    { "id": "v08", "en": "academic", "vi": "mang tính học thuật", "example": "Some students prefer practical subjects to academic ones." },
+    { "id": "v09", "en": "graduation", "vi": "sự tốt nghiệp; lễ tốt nghiệp", "example": "My whole family came to my sister's graduation last June." },
+    { "id": "v10", "en": "institution", "vi": "cơ sở đào tạo", "example": "This institution trains nurses and medical staff." },
+    { "id": "v11", "en": "professional", "vi": "chuyên nghiệp", "example": "She wants to become a professional photographer." },
+    { "id": "v12", "en": "mechanic", "vi": "thợ cơ khí", "example": "The mechanic fixed our motorbike in ten minutes." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "Having ___, I will be able to ___.",
+      "vi": "Sau khi đã ..., mình sẽ có thể ...",
+      "grammarNote": "Having + V3 đầu câu (mệnh đề phân từ hoàn thành): việc này xong trước việc chính, hai vế cùng chủ ngữ.",
+      "examples": ["Having finished my IELTS course, I will be able to apply for more scholarships."]
+    },
+    {
+      "id": "f02",
+      "text": "I'm proud of having ___.",
+      "vi": "Mình tự hào vì đã ...",
+      "grammarNote": "Danh động từ hoàn thành (having + V3) sau giới từ hoặc động từ, nhấn mạnh việc đã làm xong trong quá khứ.",
+      "examples": ["I'm proud of having passed the swimming test last summer."]
+    },
+    {
+      "id": "f03",
+      "text": "I'm thinking about studying ___ at ___ because ___.",
+      "vi": "Mình đang cân nhắc học ... ở ... vì ...",
+      "grammarNote": "think about + V-ing: đang cân nhắc làm gì. Thêm because để nêu lý do.",
+      "examples": ["I'm thinking about studying engineering at a technical university because I love building things."]
+    },
+    {
+      "id": "f04",
+      "text": "I don't regret having ___ because ___.",
+      "vi": "Mình không hối tiếc vì đã ... vì ...",
+      "grammarNote": "regret / remember / deny / admit + having V3: nói về việc đã làm trước thời điểm nói.",
+      "examples": ["I don't regret having joined the debate club because it made me more confident."]
+    },
+    {
+      "id": "f05",
+      "text": "Having talked to ___, I decided to ___.",
+      "vi": "Sau khi nói chuyện với ..., mình quyết định ...",
+      "grammarNote": "Having + V3 cho hành động xảy ra trước, rồi mới đến hành động trong mệnh đề chính.",
+      "examples": ["Having talked to my teacher, I decided to take extra chemistry lessons."]
+    },
+    {
+      "id": "f06",
+      "text": "In my opinion, ___ is better for ___ because ___.",
+      "vi": "Theo mình, ... tốt hơn cho ... vì ...",
+      "grammarNote": "In my opinion để mở đầu ý kiến; better for + người: phù hợp hơn với ai.",
+      "examples": ["In my opinion, a vocational school is better for students who like practical work because they learn by doing."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What do you plan to do after you finish grade 12?", "difficulty": 1, "kind": "personal",
+      "keywords": ["university", "vocational school", "thinking about"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về con đường em đang hướng tới: học đại học, học nghề, đi làm hay chưa chắc. Ngành nào em thấy hứng thú?",
+      "exampleAnswer": "I'm thinking about studying computer science at a university in Ho Chi Minh City because I love coding and solving problems.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What is one thing you are proud of having done at school?", "difficulty": 1, "kind": "personal",
+      "keywords": ["proud of", "having won", "project"], "frameId": "f02",
+      "hintDirectionVi": "Nhớ lại một thành tích, một dự án, hay một lần em vượt qua thử thách ở trường, dù lớn hay nhỏ.",
+      "exampleAnswer": "I'm proud of having won second prize at the school science fair. My team built a small robot that could water plants.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Who do you talk to when you need advice about your future studies?", "difficulty": 1, "kind": "personal",
+      "keywords": ["advice", "teacher", "having studied"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về một người em tin tưởng: thầy cô, anh chị, bố mẹ. Vì sao lời khuyên của họ hữu ích với em?",
+      "exampleAnswer": "I usually talk to my older cousin. Having studied at university herself, she knows a lot about entrance exams and different courses.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Is a university degree necessary for a good job? Why or why not?", "difficulty": 1, "kind": "opinion",
+      "keywords": ["bachelor's degree", "skills", "experience"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về vài nghề em biết: nghề nào cần bằng đại học, nghề nào cần tay nghề và kinh nghiệm hơn?",
+      "exampleAnswer": "Not always. Some jobs need a bachelor's degree, but many good jobs only need practical skills and experience, like being a chef or a mechanic.", "expectsReason": true
+    },
+    {
+      "id": "q05", "text": "Why might a vocational school be a better choice than university for some students?", "difficulty": 2, "kind": "reason",
+      "keywords": ["vocational school", "practical", "shorter"], "frameId": "f06",
+      "hintDirectionVi": "So sánh thời gian học, cách học và khả năng đi làm sớm giữa trường nghề và đại học.",
+      "exampleAnswer": "Vocational courses are shorter and more practical. Students learn real skills, so they can start working much sooner than university students.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Should students take a gap year before higher education? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["gap year", "experience", "plan"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem một năm nghỉ để đi làm, đi trải nghiệm mang lại gì, và có rủi ro gì nếu không có kế hoạch.",
+      "exampleAnswer": "A gap year can be useful. Students can work or travel and understand themselves better. But they need a clear plan, or they may waste time.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Why is it important to choose a course you are really interested in?", "difficulty": 2, "kind": "reason",
+      "keywords": ["interested in", "motivated", "career"], "frameId": "f03",
+      "hintDirectionVi": "Hình dung em học bốn năm một ngành em không thích. Điều gì sẽ xảy ra với động lực của em?",
+      "exampleAnswer": "If you are interested in your course, you stay motivated during hard times. Students who choose a course they don't like often feel bored and give up.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Your friend can't decide between two universities. Ask them some questions to help them choose.", "difficulty": 2, "kind": "situation",
+      "keywords": ["course", "location", "having compared"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về những điều cần so sánh: ngành học, vị trí, cơ sở vật chất, cơ hội thực tập. Đặt câu hỏi giúp bạn tự nghĩ.",
+      "exampleAnswer": "Which course do you like more? How far is each university from home? Having compared these things, you'll find the choice much easier.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "What qualification or skill would you like to get in the next few years?", "difficulty": 2, "kind": "personal",
+      "keywords": ["qualification", "certificate", "having got"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một chứng chỉ, giấy phép hay kĩ năng em muốn có, và nó sẽ mở ra cơ hội gì cho em.",
+      "exampleAnswer": "I'd like to get an IELTS certificate. Having got it, I will be able to apply for scholarships and study at better universities.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Is it better to study in your home town or in a big city? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["institution", "independent", "family"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về một lợi ích khi ở gần nhà và một lợi ích khi ra thành phố lớn, rồi chọn bên em thấy hợp hơn.",
+      "exampleAnswer": "I think studying in a big city is better. There are more good institutions and part-time jobs, and living away from home helps you become independent.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "What job would you like to have in ten years, and what training does it need?", "difficulty": 2, "kind": "personal",
+      "keywords": ["professional", "degree", "training"], "frameId": "f03",
+      "hintDirectionVi": "Chọn một nghề em mơ ước, rồi nghĩ xem người làm nghề đó thường học ở đâu và học những gì.",
+      "exampleAnswer": "I'd like to be a professional photographer. I don't need a degree, but I'll take short courses and practise as much as I can.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Do schools give students enough information about options after grade 12? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["career advice", "options", "information"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem trường em đã giới thiệu những lựa chọn nào. Còn con đường nào học sinh ít được nghe đến?",
+      "exampleAnswer": "Not really. Teachers mostly talk about university entrance exams. Students also need information about vocational schools, apprenticeships and studying abroad.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "You are at a university open day. Ask a staff member about a course you like.", "difficulty": 3, "kind": "situation",
+      "keywords": ["entry requirements", "course", "graduation"], "frameId": "f03",
+      "hintDirectionVi": "Giới thiệu ngành em quan tâm, rồi hỏi về điều kiện đầu vào, nội dung học và cơ hội việc làm sau này.",
+      "exampleAnswer": "Excuse me, I'm interested in the engineering course. What are the entry requirements, and what jobs do students usually get after graduation?", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "Looking back, what is one decision about your studies that you don't regret, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["don't regret", "having chosen", "confidence"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một lựa chọn em đã làm: chọn môn, chọn câu lạc bộ, chọn cách học. Nó đã giúp em thay đổi ra sao?",
+      "exampleAnswer": "I don't regret having joined the English club in grade 10 because it gave me confidence. Now I can speak in front of the whole class.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Your parents want you to study medicine, but you prefer design. Explain your choice respectfully.", "difficulty": 3, "kind": "situation",
+      "keywords": ["respect", "passion", "having thought"], "frameId": "f05",
+      "hintDirectionVi": "Thể hiện em hiểu mong muốn của bố mẹ trước, rồi nói rõ em đã suy nghĩ kĩ và vì sao ngành em chọn hợp với em.",
+      "exampleAnswer": "I know you want the best for me. Having thought about it carefully, I believe I'll do well in design because it's what I truly love.", "expectsReason": true
+    }
+  ]
+}

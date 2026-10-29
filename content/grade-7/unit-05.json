@@ -1,0 +1,172 @@
+{
+  "grade": 7,
+  "unit": 5,
+  "title": "Food and Drink",
+  "titleVi": "Đồ ăn và thức uống",
+  "topic": "Nói về món ăn, đồ uống em thích, thói quen ăn uống của gia đình em và cách làm một món ăn đơn giản.",
+  "source": "Global Success 7, Unit 5 (chủ đề, từ vựng, ngữ pháp some, a lot of, lots of)",
+  "vocab": [
+    { "id": "v01", "en": "dish", "vi": "món ăn", "example": "Fried rice is the dish I can cook best." },
+    { "id": "v02", "en": "ingredient", "vi": "nguyên liệu", "example": "Eggs, flour and milk are the main ingredients of pancakes." },
+    { "id": "v03", "en": "recipe", "vi": "công thức nấu ăn", "example": "My aunt gave me a recipe for chicken soup." },
+    { "id": "v04", "en": "spring rolls", "vi": "nem rán, chả giò", "example": "We always make spring rolls for family parties." },
+    { "id": "v05", "en": "noodles", "vi": "mì, bún, phở", "example": "I often have a bowl of noodles for breakfast." },
+    { "id": "v06", "en": "omelette", "vi": "trứng tráng", "example": "I can make an omelette with onions in five minutes." },
+    { "id": "v07", "en": "pancake", "vi": "bánh kếp", "example": "My sister puts some honey on her pancakes." },
+    { "id": "v08", "en": "shrimp", "vi": "con tôm", "example": "My dad cooks shrimp with garlic on Sundays." },
+    { "id": "v09", "en": "green tea", "vi": "trà xanh, chè xanh", "example": "My grandpa drinks a cup of green tea every morning." },
+    { "id": "v10", "en": "lemonade", "vi": "nước chanh", "example": "A cold glass of lemonade is perfect on a hot day." },
+    { "id": "v11", "en": "fried", "vi": "được chiên, rán", "example": "Fried chicken is tasty, but it has a lot of fat." },
+    { "id": "v12", "en": "sauce", "vi": "nước chấm, nước sốt", "example": "Spring rolls taste better with fish sauce." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "For breakfast, I usually have some ___ and a glass of ___.",
+      "vi": "Bữa sáng mình thường ăn một ít ... và uống một cốc ...",
+      "grammarNote": "some + danh từ đếm được số nhiều hoặc không đếm được, dùng trong câu khẳng định: some bread, some eggs.",
+      "examples": ["For breakfast, I usually have some bread and a glass of milk."]
+    },
+    {
+      "id": "f02",
+      "text": "To make ___, we need some ___ and lots of ___.",
+      "vi": "Để làm ..., chúng ta cần một ít ... và nhiều ...",
+      "grammarNote": "a lot of / lots of + danh từ đếm được số nhiều hoặc không đếm được: lots of eggs, a lot of rice.",
+      "examples": ["To make spring rolls, we need some pork and lots of vegetables."]
+    },
+    {
+      "id": "f03",
+      "text": "My favourite dish is ___. It has ___ in it.",
+      "vi": "Món ăn mình thích nhất là ... Trong đó có ...",
+      "grammarNote": "Kể nguyên liệu: some shrimp, a lot of noodles. Danh từ không đếm được không thêm -s.",
+      "examples": ["My favourite dish is beef noodle soup. It has some beef and a lot of noodles in it."]
+    },
+    {
+      "id": "f04",
+      "text": "I don't eat a lot of ___ because ___.",
+      "vi": "Mình không ăn nhiều ... vì ...",
+      "grammarNote": "Trong câu phủ định thường dùng a lot of hoặc any: I don't drink a lot of soft drinks.",
+      "examples": ["I don't eat a lot of fried food because it makes me feel heavy."]
+    },
+    {
+      "id": "f05",
+      "text": "Would you like some ___?",
+      "vi": "Bạn có muốn dùng một ít ... không?",
+      "grammarNote": "Trong câu mời, dùng some dù là câu hỏi: Would you like some tea?",
+      "examples": ["Would you like some lemonade? I made it this morning."]
+    },
+    {
+      "id": "f06",
+      "text": "I think people should eat lots of ___ and not much ___.",
+      "vi": "Mình nghĩ mọi người nên ăn nhiều ... và không nên ăn nhiều ...",
+      "grammarNote": "lots of dùng trong câu khẳng định; not much + danh từ không đếm được để nói một lượng ít.",
+      "examples": ["I think people should eat lots of vegetables and not much sugar."]
+    },
+    {
+      "id": "f07",
+      "text": "I / People like ___ because it is ___.",
+      "vi": "Mình / Mọi người thích ... vì nó ...",
+      "grammarNote": "Đồ uống như water, juice, tea là danh từ không đếm được, đi với it is.",
+      "examples": ["I like coconut juice because it is sweet and cool."]
+    },
+    {
+      "id": "f08",
+      "text": "My family eats a lot of ___ and some ___.",
+      "vi": "Gia đình mình ăn nhiều ... và một ít ...",
+      "grammarNote": "a lot of / some đi với danh từ đếm được số nhiều và danh từ không đếm được. My family đi với động từ thêm -s: eats.",
+      "examples": ["My family eats a lot of vegetables and some meat."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What do you usually have for breakfast?", "difficulty": 1, "kind": "personal",
+      "keywords": ["some", "noodles", "a glass of milk"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại bữa sáng nay hoặc hôm qua: em ăn gì và uống gì?",
+      "exampleAnswer": "I usually have some sticky rice and a glass of milk.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What is your favourite dish?", "difficulty": 1, "kind": "personal",
+      "keywords": ["dish", "ingredient", "tasty"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về món em thích ăn nhất, rồi kể một hai nguyên liệu có trong món đó.",
+      "exampleAnswer": "My favourite dish is shrimp fried rice. It has some shrimp, eggs and green peas in it.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What drinks do you like in summer?", "difficulty": 1, "kind": "personal",
+      "keywords": ["lemonade", "juice", "cold"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về những ngày nóng: em thích uống gì cho mát?",
+      "exampleAnswer": "In summer, I like cold lemonade and orange juice.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What food does your family eat a lot of?", "difficulty": 1, "kind": "personal",
+      "keywords": ["a lot of", "rice", "vegetables"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ về các bữa cơm ở nhà: món gì hay xuất hiện nhất trên mâm?",
+      "exampleAnswer": "My family eats a lot of rice and vegetables. We also eat fish twice a week.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do many people love spring rolls?", "difficulty": 2, "kind": "reason",
+      "keywords": ["spring rolls", "crispy", "sauce"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về hương vị, cảm giác khi ăn và những dịp người ta hay làm món này.",
+      "exampleAnswer": "Spring rolls are crispy and tasty, especially with sauce. People often make them for family parties.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Can you cook a simple dish? How do you make it?", "difficulty": 2, "kind": "personal",
+      "keywords": ["omelette", "first", "then"], "frameId": "f02",
+      "hintDirectionVi": "Chọn một món dễ em đã từng làm, kể nguyên liệu và hai ba bước làm theo thứ tự.",
+      "exampleAnswer": "Yes, I can make an omelette. First, I beat two eggs. Then I fry them with some onion.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Is fried food a good choice for teenagers? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["fried", "a lot of fat", "sometimes"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về điều hay và điều chưa tốt của đồ chiên rán, rồi nói nên ăn ít hay nhiều.",
+      "exampleAnswer": "Not really. Fried food has a lot of fat, so teenagers should eat it only sometimes.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "A friend visits your home. Offer them something to eat and drink.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Would you like some", "green tea", "biscuits"], "frameId": "f05",
+      "hintDirectionVi": "Mời bạn một cách lịch sự bằng Would you like some...? Có thể đưa ra hai lựa chọn.",
+      "exampleAnswer": "Would you like some biscuits? And would you like some green tea or lemonade?", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "Why do you think green tea is popular in Viet Nam?", "difficulty": 2, "kind": "reason",
+      "keywords": ["green tea", "relax", "guests"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ xem ông bà, bố mẹ em uống trà khi nào và cùng với ai.",
+      "exampleAnswer": "It tastes fresh and is good for health. People also drink it when they chat with guests.", "expectsReason": true
+    },
+    {
+      "id": "q10", "text": "Is home cooking better than eating at restaurants? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["home cooking", "fresh", "together"], "frameId": "f06",
+      "hintDirectionVi": "So sánh món ăn ở nhà và ở nhà hàng: độ sạch, hương vị, và không khí bữa ăn.",
+      "exampleAnswer": "I think home cooking is better. The food is fresher, and the family can eat together.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Should students drink more water and fewer soft drinks?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["water", "sugar", "not much"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem nước ngọt có gì khác nước lọc, và điều đó ảnh hưởng đến cơ thể thế nào.",
+      "exampleAnswer": "Yes. Soft drinks have lots of sugar, but water is healthy and keeps us fresh.", "expectsReason": true
+    },
+    {
+      "id": "q12", "text": "Which Vietnamese dish would you teach a foreign friend to cook, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["recipe", "ingredients", "easy"], "frameId": "f02",
+      "hintDirectionVi": "Chọn một món vừa ngon vừa dễ làm, rồi giải thích vì sao bạn nước ngoài sẽ thích nó.",
+      "exampleAnswer": "I would teach them to make spring rolls. The recipe is easy, and the ingredients are cheap.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "You are making pancakes with a friend. Tell them what you need.", "difficulty": 3, "kind": "situation",
+      "keywords": ["some flour", "eggs", "a lot of"], "frameId": "f02",
+      "hintDirectionVi": "Kể các nguyên liệu, dùng some và a lot of cho phù hợp, rồi phân công việc cho bạn.",
+      "exampleAnswer": "We need some flour, two eggs and a lot of milk. Can you get the butter, please?", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "Are the eating habits of young people today healthy? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["fast food", "snacks", "vegetables"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về những món bạn bè em hay ăn vặt và uống. Có điều gì tốt và điều gì cần thay đổi?",
+      "exampleAnswer": "Not always. Many teenagers eat a lot of snacks and fast food. They should eat more vegetables.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Your class is planning a picnic. Suggest food and drinks to bring.", "difficulty": 3, "kind": "situation",
+      "keywords": ["some", "lots of", "sandwiches"], "frameId": "f02",
+      "hintDirectionVi": "Chọn món dễ mang theo, đủ cho cả lớp, và nhớ nghĩ đến cả đồ uống.",
+      "exampleAnswer": "Let's bring some sandwiches, lots of fruit and a big bottle of lemonade. They are easy to carry.", "expectsReason": false
+    }
+  ]
+}

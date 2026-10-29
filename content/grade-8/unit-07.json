@@ -1,0 +1,172 @@
+{
+  "grade": 8,
+  "unit": 7,
+  "title": "Environmental Protection",
+  "titleVi": "Bảo vệ môi trường",
+  "topic": "Nói về các vấn đề môi trường quanh em, những loài vật cần được bảo vệ và những việc em có thể làm mỗi ngày để giữ gìn môi trường.",
+  "source": "Global Success 8, Unit 7 (chủ đề, từ vựng, câu phức với mệnh đề trạng ngữ chỉ thời gian)",
+  "vocab": [
+    { "id": "v01", "en": "carbon footprint", "vi": "dấu chân các-bon", "example": "Walking to school reduces my carbon footprint." },
+    { "id": "v02", "en": "ecosystem", "vi": "hệ sinh thái", "example": "Rubbish in the river can harm the whole ecosystem." },
+    { "id": "v03", "en": "endangered species", "vi": "loài có nguy cơ tuyệt chủng", "example": "We watched a film about endangered species in Africa." },
+    { "id": "v04", "en": "extinction", "vi": "sự tuyệt chủng", "example": "Some animals are close to extinction because people hunt them." },
+    { "id": "v05", "en": "habitat", "vi": "môi trường sống", "example": "Forests are the natural habitat of many birds." },
+    { "id": "v06", "en": "participate in", "vi": "tham gia", "example": "Our class participated in a tree-planting day." },
+    { "id": "v07", "en": "protect", "vi": "bảo vệ", "example": "We must protect the trees in our school yard." },
+    { "id": "v08", "en": "single-use", "vi": "chỉ dùng một lần", "example": "I try not to use single-use straws." },
+    { "id": "v09", "en": "toxic", "vi": "độc hại", "example": "Old batteries contain toxic chemicals." },
+    { "id": "v10", "en": "release", "vi": "thải ra", "example": "Cars release smoke into the air." },
+    { "id": "v11", "en": "resident", "vi": "người dân, cư dân", "example": "The residents of our street clean the pavement every Sunday." },
+    { "id": "v12", "en": "oxygen", "vi": "khí ô-xi", "example": "Trees give us oxygen and clean air." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "When I ___, I always ___.",
+      "vi": "Khi mình ..., mình luôn ...",
+      "grammarNote": "Mệnh đề thời gian bắt đầu bằng when. Nếu nó đứng đầu câu thì đặt dấu phẩy trước mệnh đề chính.",
+      "examples": ["When I go shopping, I always bring my own bag."]
+    },
+    {
+      "id": "f02",
+      "text": "Before I ___, I ___.",
+      "vi": "Trước khi mình ..., mình ...",
+      "grammarNote": "before / after + mệnh đề (chủ ngữ + động từ) để nói thứ tự hai việc.",
+      "examples": ["Before I leave my room, I turn off the lights and the fan."]
+    },
+    {
+      "id": "f03",
+      "text": "As soon as ___, we should ___.",
+      "vi": "Ngay khi ..., chúng ta nên ...",
+      "grammarNote": "as soon as = ngay khi. Trong mệnh đề thời gian nói về tương lai, dùng hiện tại đơn, không dùng will.",
+      "examples": ["As soon as we finish the picnic, we should collect all the rubbish."]
+    },
+    {
+      "id": "f04",
+      "text": "After we ___, the ___ will be ___.",
+      "vi": "Sau khi chúng ta ..., ... sẽ ...",
+      "grammarNote": "Mệnh đề after dùng hiện tại đơn; mệnh đề chính dùng will để nói kết quả trong tương lai.",
+      "examples": ["After we plant more trees, the air in our neighbourhood will be cleaner."]
+    },
+    {
+      "id": "f05",
+      "text": "We can protect ___ by ___.",
+      "vi": "Chúng ta có thể bảo vệ ... bằng cách ...",
+      "grammarNote": "by + V-ing để nói cách làm một việc.",
+      "examples": ["We can protect the river by not throwing rubbish into it."]
+    },
+    {
+      "id": "f06",
+      "text": "Animals lose their ___ when people ___.",
+      "vi": "Động vật mất ... khi con người ...",
+      "grammarNote": "Mệnh đề when có thể đứng sau mệnh đề chính; khi đó không cần dấu phẩy.",
+      "examples": ["Animals lose their homes when people cut down forests."]
+    },
+    {
+      "id": "f07",
+      "text": "___ worries me most because ___.",
+      "vi": "... làm mình lo lắng nhất vì ...",
+      "grammarNote": "Chủ ngữ số ít đi với động từ thêm -s: worries. Dùng because để nêu lý do.",
+      "examples": ["Plastic rubbish in the river worries me most because the fish are dying."]
+    },
+    {
+      "id": "f08",
+      "text": "I think ___ should do more because ___.",
+      "vi": "Mình nghĩ ... nên làm nhiều hơn vì ...",
+      "grammarNote": "should + động từ nguyên mẫu để nêu ý kiến; because để nêu lý do.",
+      "examples": ["I think ordinary people should do more because small actions add up."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What do you do to save electricity at home?", "difficulty": 1, "kind": "personal",
+      "keywords": ["turn off", "lights", "fan"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về đèn, quạt, ti vi, điều hòa ở nhà em. Em làm gì để không lãng phí điện?",
+      "exampleAnswer": "Before I leave a room, I turn off the lights and the fan. I also unplug my charger.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Which single-use things do you use, and how could you use fewer of them?", "difficulty": 1, "kind": "personal",
+      "keywords": ["single-use", "plastic bag", "bottle"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về túi ni lông, ống hút, chai nhựa em dùng. Có thứ gì có thể thay bằng đồ dùng lại được?",
+      "exampleAnswer": "I sometimes use plastic straws and bottles. I could bring my own water bottle to school.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Which wild animal would you most like to protect?", "difficulty": 1, "kind": "personal",
+      "keywords": ["endangered species", "elephant", "turtle"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về một con vật hoang dã em yêu thích hoặc từng xem trên ti vi.",
+      "exampleAnswer": "I would most like to protect sea turtles. They are beautiful, and many of them die because of plastic.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What do you do before you leave your classroom at the end of the day?", "difficulty": 1, "kind": "personal",
+      "keywords": ["Before I leave", "close", "tidy"], "frameId": "f02",
+      "hintDirectionVi": "Nhớ lại những việc lớp em làm trước khi ra về: dọn rác, đóng cửa, tắt quạt.",
+      "exampleAnswer": "Before I leave, I put my rubbish in the bin and help to turn off the fans.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why should we try to reduce our carbon footprint?", "difficulty": 2, "kind": "reason",
+      "keywords": ["carbon footprint", "air", "climate"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem khói xe, điện, rác thải ảnh hưởng thế nào đến không khí và thời tiết.",
+      "exampleAnswer": "We should reduce it because less carbon dioxide means cleaner air and a cooler planet for the future.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Should shops stop giving out single-use plastic bags? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["single-use", "cloth bag", "rubbish"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về lượng túi ni lông bị vứt đi mỗi ngày, và việc người mua có thể dùng gì thay thế.",
+      "exampleAnswer": "Yes, they should. Plastic bags make too much rubbish. People can bring cloth bags instead.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "What environmental problem in your area worries you most, and why?", "difficulty": 2, "kind": "reason",
+      "keywords": ["pollution", "rubbish", "traffic"], "frameId": "f07",
+      "hintDirectionVi": "Nhìn quanh khu em sống: không khí, sông hồ, rác, tiếng ồn. Vấn đề nào làm em lo nhất và nó gây hại gì?",
+      "exampleAnswer": "Air pollution worries me most. There is a lot of traffic, so the air is dirty and people cough.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "You see a classmate throwing rubbish on the school yard. What do you say?", "difficulty": 2, "kind": "situation",
+      "keywords": ["Please", "bin", "school yard"], "frameId": "f03",
+      "hintDirectionVi": "Nhắc bạn một cách lịch sự, không trách móc. Em có thể chỉ chỗ thùng rác và nói lý do.",
+      "exampleAnswer": "Excuse me, could you put that in the bin, please? Our school yard will look nicer.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "Have you ever participated in a clean-up day? What did you do?", "difficulty": 2, "kind": "personal",
+      "keywords": ["participate in", "collect", "plant"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại một buổi lao động ở trường hoặc ở khu phố. Em đã làm những việc gì?",
+      "exampleAnswer": "Yes, I participated in a clean-up day at the beach. We collected bottles and plastic bags for two hours.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Are students too young to help protect the environment? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["small actions", "protect", "everyone"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về những việc nhỏ học sinh làm được mỗi ngày. Những việc nhỏ ấy có tạo ra khác biệt không?",
+      "exampleAnswer": "No, they aren't. Students can save water, recycle and plant trees. Small actions can make a big difference.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Your class is having a picnic by a lake. Tell your classmates how to keep the place clean.", "difficulty": 2, "kind": "situation",
+      "keywords": ["As soon as", "rubbish bags", "take home"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về những gì nên làm trước, trong và sau buổi dã ngoại để không để lại rác.",
+      "exampleAnswer": "Let's bring rubbish bags. As soon as we finish eating, we should collect everything and take it home.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Who should do more to protect the environment: governments, companies or ordinary people? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["laws", "factories", "everyone"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ về việc mỗi nhóm có thể làm: làm luật, giảm khói nhà máy, hay thay đổi thói quen. Ai có sức ảnh hưởng lớn nhất?",
+      "exampleAnswer": "I think companies should do more because their factories release a lot of toxic smoke. But everyone must help too.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Your school wants to become a green school. Suggest two changes and explain how they help.", "difficulty": 3, "kind": "situation",
+      "keywords": ["recycling bins", "plant trees", "solar"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về rác, cây xanh, điện và nước ở trường em. Chọn hai thay đổi và nói kết quả của mỗi thay đổi.",
+      "exampleAnswer": "We could put recycling bins in every classroom and plant more trees. After we do this, the school will be cleaner and cooler.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Why is it important to protect the habitats of wild animals?", "difficulty": 3, "kind": "reason",
+      "keywords": ["habitat", "extinction", "ecosystem"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem chuyện gì xảy ra với con vật khi nơi nó sống bị phá. Điều đó ảnh hưởng gì đến cả hệ sinh thái?",
+      "exampleAnswer": "Animals lose their food and homes when people destroy forests. Then some species face extinction, and the ecosystem is damaged.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "How can young people encourage their families to live in a greener way?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["remind", "example", "recycle"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về cách thuyết phục người lớn một cách nhẹ nhàng: làm gương, nhắc nhở hay rủ cả nhà cùng làm.",
+      "exampleAnswer": "They can set a good example. When they sort rubbish and save water every day, their families will follow them.", "expectsReason": true
+    }
+  ]
+}

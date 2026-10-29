@@ -1,0 +1,172 @@
+{
+  "grade": 9,
+  "unit": 1,
+  "title": "Local Community",
+  "titleVi": "Cộng đồng địa phương",
+  "topic": "Nói về những người phục vụ cộng đồng, nghề thủ công và đặc sản nơi em sống, và cách giữ gìn những giá trị ấy.",
+  "source": "Global Success 9, Unit 1 (chủ đề, từ vựng, ngữ pháp từ để hỏi + to V, cụm động từ)",
+  "vocab": [
+    { "id": "v01", "en": "community helper", "vi": "người phục vụ cộng đồng", "example": "Garbage collectors are community helpers who keep our streets clean." },
+    { "id": "v02", "en": "artisan", "vi": "thợ làm nghề thủ công", "example": "The artisan showed us how to shape a bowl from clay." },
+    { "id": "v03", "en": "craft village", "vi": "làng nghề thủ công", "example": "We visited a craft village where people make conical hats." },
+    { "id": "v04", "en": "handicraft", "vi": "sản phẩm thủ công", "example": "My aunt sells handicrafts made from bamboo." },
+    { "id": "v05", "en": "speciality", "vi": "đặc sản", "example": "Grilled fish is a speciality of my hometown." },
+    { "id": "v06", "en": "tourist attraction", "vi": "điểm du lịch", "example": "The old bridge is the biggest tourist attraction in our town." },
+    { "id": "v07", "en": "facilities", "vi": "cơ sở vật chất", "example": "Our neighbourhood has good facilities, such as a park and a library." },
+    { "id": "v08", "en": "pass down", "vi": "truyền lại", "example": "My grandma passed down her cooking skills to my mum." },
+    { "id": "v09", "en": "get on with", "vi": "có quan hệ tốt với", "example": "I get on well with the security guard at my school." },
+    { "id": "v10", "en": "look around", "vi": "ngắm nghía xung quanh", "example": "We spent the morning looking around the old market." },
+    { "id": "v11", "en": "run out of", "vi": "hết, cạn kiệt", "example": "We ran out of milk, so I went to the shop." },
+    { "id": "v12", "en": "preserve", "vi": "bảo tồn", "example": "Young people can help preserve traditional crafts." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "In my neighbourhood, I know where to ___ when I need ___.",
+      "vi": "Ở khu mình sống, mình biết đi đâu để ... khi cần ...",
+      "grammarNote": "Từ để hỏi + to V (where to go, what to do, how to get) thay cho cả một mệnh đề.",
+      "examples": ["In my neighbourhood, I know where to buy books when I need them for school."]
+    },
+    {
+      "id": "f02",
+      "text": "Could you tell me how to ___? I'd like to ___.",
+      "vi": "Bạn có thể chỉ mình cách ... không? Mình muốn ...",
+      "grammarNote": "Hỏi lịch sự: Could you tell me + how / where / what + to V?",
+      "examples": ["Could you tell me how to get to the craft village? I'd like to buy some pottery."]
+    },
+    {
+      "id": "f03",
+      "text": "I get on well with ___ in my community because ___.",
+      "vi": "Mình rất hợp với ... trong khu mình sống vì ...",
+      "grammarNote": "Cụm động từ get on (well) with + người: hòa hợp, có quan hệ tốt với ai.",
+      "examples": ["I get on well with the postman in my community because he is always cheerful."]
+    },
+    {
+      "id": "f04",
+      "text": "People in ___ still pass down the skill of ___ to their children.",
+      "vi": "Người dân ở ... vẫn truyền lại nghề ... cho con cháu.",
+      "grammarNote": "Cụm động từ pass down / hand down + something + to somebody: truyền lại cho thế hệ sau.",
+      "examples": ["People in my village still pass down the skill of weaving baskets to their children."]
+    },
+    {
+      "id": "f05",
+      "text": "When visitors come here, they can look around ___ and buy ___ as souvenirs.",
+      "vi": "Khi khách đến đây, họ có thể dạo quanh ... và mua ... làm quà.",
+      "grammarNote": "look around + nơi chốn: đi ngắm xung quanh. can + V nguyên mẫu để nói điều có thể làm.",
+      "examples": ["When visitors come here, they can look around the old town and buy silk scarves as souvenirs."]
+    },
+    {
+      "id": "f06",
+      "text": "We should cut down on ___ so that we don't run out of ___.",
+      "vi": "Chúng ta nên giảm bớt ... để không bị cạn kiệt ...",
+      "grammarNote": "cut down on: cắt giảm; run out of: hết, cạn. Sau giới từ on / of là danh từ hoặc V-ing.",
+      "examples": ["We should cut down on plastic bags so that we don't run out of space for rubbish."]
+    },
+    {
+      "id": "f07",
+      "text": "In my community, ___ help us by ___.",
+      "vi": "Ở cộng đồng của em, ... giúp mọi người bằng cách ...",
+      "grammarNote": "help + tân ngữ + by + V-ing: giúp ai bằng cách làm gì.",
+      "examples": ["In my community, the garbage collectors help us by keeping the streets clean every morning."]
+    },
+    {
+      "id": "f08",
+      "text": "I think ___ are better because ___.",
+      "vi": "Em nghĩ ... tốt hơn vì ...",
+      "grammarNote": "better là dạng so sánh hơn của good; because + mệnh đề để nêu lý do.",
+      "examples": ["I think handmade products are better because each one is unique."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Who are some community helpers you see every day?", "difficulty": 1, "kind": "personal",
+      "keywords": ["community helper", "delivery person", "garbage collector"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về những người làm việc quanh nơi em sống và học mỗi ngày. Họ làm gì cho mọi người?",
+      "exampleAnswer": "I see the garbage collectors every morning and a delivery person who brings packages to my building.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What is a famous speciality of your hometown?", "difficulty": 1, "kind": "personal",
+      "keywords": ["speciality", "famous for", "taste"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về món ăn hoặc sản phẩm mà khách đến quê em hay mua. Nó có vị hay đặc điểm gì?",
+      "exampleAnswer": "My hometown is famous for rice cakes. They are soft and sweet, and visitors often buy them as gifts.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Do you know where to buy cheap school supplies in your area?", "difficulty": 1, "kind": "personal",
+      "keywords": ["know where to", "bookshop", "market"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại lần gần nhất em mua vở, bút. Em đi đâu, và nơi đó có gì tốt?",
+      "exampleAnswer": "Yes, I know where to buy them. There is a small bookshop near my school with good prices.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What facilities are there in your neighbourhood?", "difficulty": 1, "kind": "personal",
+      "keywords": ["facilities", "park", "library"], "frameId": "f01",
+      "hintDirectionVi": "Hình dung con đường quanh nhà em: có công viên, thư viện, sân chơi hay chợ không? Em hay dùng nơi nào?",
+      "exampleAnswer": "There is a park, a small library and a sports centre. I know where to go when I want to play badminton.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why are community helpers important to your area?", "difficulty": 2, "kind": "reason",
+      "keywords": ["keep clean", "safe", "help"], "frameId": "f07",
+      "hintDirectionVi": "Thử tưởng tượng một tuần không có những người này. Cuộc sống của mọi người sẽ khó khăn ra sao?",
+      "exampleAnswer": "They keep our streets clean and safe. Without them, our daily life would be much harder.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Why should young people learn traditional handicrafts?", "difficulty": 2, "kind": "reason",
+      "keywords": ["pass down", "preserve", "culture"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem điều gì sẽ xảy ra với một nghề cũ nếu không ai trẻ học nó nữa.",
+      "exampleAnswer": "They should learn them so that the skills are passed down and our culture is preserved for the future.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Which place in your area should visitors look around first? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["look around", "tourist attraction", "interesting"], "frameId": "f05",
+      "hintDirectionVi": "Chọn một nơi em tự hào nhất ở quê mình, rồi nêu điều đặc biệt khiến khách nên đến đó trước.",
+      "exampleAnswer": "They should look around the old market first because it is busy and colourful, and they can try lots of local food.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Is it better to buy handmade products or factory products? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["handicraft", "artisan", "unique"], "frameId": "f08",
+      "hintDirectionVi": "So sánh hai loại: loại nào độc đáo hơn, loại nào rẻ hơn? Chọn một bên và nêu lý do.",
+      "exampleAnswer": "I think handmade products are better. Each one is unique, and buying them supports local artisans.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Who in your community do you get on well with?", "difficulty": 2, "kind": "personal",
+      "keywords": ["get on with", "neighbour", "friendly"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một người hàng xóm, bác bảo vệ hay cô bán hàng mà em hay nói chuyện. Vì sao em quý họ?",
+      "exampleAnswer": "I get on well with the old man next door because he is friendly and tells me interesting stories.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "You are new in a town. Ask a local person how to get to a famous place.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Could you tell me", "how to get to", "excuse me"], "frameId": "f02",
+      "hintDirectionVi": "Bắt đầu bằng lời chào lịch sự, hỏi đường, rồi nói thêm em muốn đến đó để làm gì.",
+      "exampleAnswer": "Excuse me, could you tell me how to get to the old bridge? I'd like to take some photos there.", "expectsReason": false
+    },
+    {
+      "id": "q11", "text": "Your family has run out of rice and the nearest shop is closed. What will you do?", "difficulty": 2, "kind": "situation",
+      "keywords": ["run out of", "know where to", "market"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem quanh nhà em còn nơi nào khác bán gạo, và em sẽ đến đó bằng cách nào.",
+      "exampleAnswer": "I know where to find another shop. I'll ride my bike to the market and buy a bag of rice.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "How can students help preserve traditional crafts in their area?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["preserve", "visit", "share online"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về những việc nhỏ học sinh làm được: tìm hiểu, tham quan, chia sẻ. Việc nào có ích nhất và vì sao?",
+      "exampleAnswer": "Students can visit craft villages, learn from artisans and share photos online so more people know about the crafts.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "What should your area cut down on to become a better place to live, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["cut down on", "rubbish", "traffic"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về một thói quen xấu ở nơi em sống. Nếu giảm nó đi thì khu em sẽ tốt hơn thế nào?",
+      "exampleAnswer": "We should cut down on plastic bags so that our streets stay clean and we don't run out of space for rubbish.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "A foreign friend is visiting your hometown for one day. Suggest what to do and where to go.", "difficulty": 3, "kind": "situation",
+      "keywords": ["look around", "speciality", "where to go"], "frameId": "f05",
+      "hintDirectionVi": "Lên một kế hoạch ngắn: buổi sáng đi đâu, buổi trưa ăn gì, buổi chiều làm gì. Chọn những điều đặc trưng nhất.",
+      "exampleAnswer": "First, you should look around the old town. Then I'll show you where to try our speciality, grilled pork with noodles.", "expectsReason": false
+    },
+    {
+      "id": "q15", "text": "Should craft villages change their products to attract more tourists? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["original", "modern", "tourist attraction"], "frameId": "f04",
+      "hintDirectionVi": "Cân nhắc hai mặt: đổi mới thì bán được nhiều hơn, giữ nguyên thì bảo tồn được nghề. Em chọn cách nào?",
+      "exampleAnswer": "They can add some modern designs, but they should keep the original skills. That way they attract tourists and preserve traditions.", "expectsReason": true
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "grade": 10,
+  "unit": 9,
+  "title": "Protecting the Environment",
+  "titleVi": "Bảo vệ môi trường",
+  "topic": "Nói về các vấn đề môi trường như biến đổi khí hậu, phá rừng, động vật hoang dã bị đe dọa, những gì em thấy ở nơi mình sống và việc em có thể làm để bảo vệ môi trường.",
+  "source": "Global Success 10, Unit 9 (chủ đề, từ vựng, ngữ pháp câu tường thuật)",
+  "vocab": [
+    { "id": "v01", "en": "climate change", "vi": "sự biến đổi khí hậu", "example": "Climate change is making summers hotter in my city." },
+    { "id": "v02", "en": "deforestation", "vi": "nạn phá rừng", "example": "Deforestation destroys the homes of many animals." },
+    { "id": "v03", "en": "endangered", "vi": "bị đe dọa, có nguy cơ tuyệt chủng", "example": "The saola is an endangered animal that lives in Viet Nam's forests." },
+    { "id": "v04", "en": "habitat", "vi": "môi trường sống", "example": "Rivers are the natural habitat of many kinds of fish." },
+    { "id": "v05", "en": "wildlife", "vi": "động vật hoang dã", "example": "We should never buy products made from wildlife." },
+    { "id": "v06", "en": "biodiversity", "vi": "đa dạng sinh học", "example": "National parks help protect biodiversity." },
+    { "id": "v07", "en": "ecosystem", "vi": "hệ sinh thái", "example": "Mangrove forests are an important ecosystem along the coast." },
+    { "id": "v08", "en": "heatwave", "vi": "đợt nắng nóng", "example": "During the heatwave, we stayed indoors at noon." },
+    { "id": "v09", "en": "extreme", "vi": "cực đoan, khắc nghiệt", "example": "Extreme weather like floods and storms is becoming more common." },
+    { "id": "v10", "en": "consequence", "vi": "hậu quả", "example": "Air pollution has serious consequences for everyone." },
+    { "id": "v11", "en": "balance", "vi": "sự cân bằng", "example": "Hunting too many animals upsets the balance of nature." },
+    { "id": "v12", "en": "environmental protection", "vi": "bảo vệ môi trường", "example": "Environmental protection should start with small actions at home." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "My teacher told us that ___.",
+      "vi": "Thầy/cô mình bảo bọn mình rằng ...",
+      "grammarNote": "Câu tường thuật: said / told + người + (that) + mệnh đề, lùi thì: is → was, will → would, can → could.",
+      "examples": ["My teacher told us that the river was getting dirtier every year."]
+    },
+    {
+      "id": "f02",
+      "text": "___ told me to ___.",
+      "vi": "... dặn mình hãy ...",
+      "grammarNote": "Tường thuật lời khuyên, yêu cầu: told / asked + người + (not) to + động từ nguyên mẫu.",
+      "examples": ["My grandfather told me to turn off the tap while brushing my teeth."]
+    },
+    {
+      "id": "f03",
+      "text": "I once read that ___, so ___.",
+      "vi": "Mình từng đọc được rằng ..., nên ...",
+      "grammarNote": "Kể lại thông tin đã đọc/nghe: read / heard that + mệnh đề, thường lùi thì về quá khứ.",
+      "examples": ["I once read that forests were disappearing fast, so I started using less paper."]
+    },
+    {
+      "id": "f04",
+      "text": "My mum asked me if ___.",
+      "vi": "Mẹ hỏi mình có ... không.",
+      "grammarNote": "Tường thuật câu hỏi Yes/No: asked + if/whether + chủ ngữ + động từ (lùi thì), không đảo trợ động từ, không có dấu hỏi.",
+      "examples": ["My mum asked me if I had turned off the air conditioner."]
+    },
+    {
+      "id": "f05",
+      "text": "The speaker asked us what ___.",
+      "vi": "Diễn giả hỏi bọn mình rằng ...",
+      "grammarNote": "Tường thuật câu hỏi có từ để hỏi: asked + từ để hỏi + chủ ngữ + động từ (lùi thì), không đảo ngữ.",
+      "examples": ["The speaker asked us what we could do to save water."]
+    },
+    {
+      "id": "f06",
+      "text": "One practical thing we can do is ___ because ___.",
+      "vi": "Một việc thiết thực chúng ta có thể làm là ... vì ...",
+      "grammarNote": "can + động từ nguyên mẫu; is + V-ing / to V để nêu một việc; because + mệnh đề để nêu lý do.",
+      "examples": ["One practical thing we can do is plant more trees because they clean the air."]
+    },
+    {
+      "id": "f07",
+      "text": "The environmental problem I notice most in my area is ___ because ___.",
+      "vi": "Vấn đề môi trường em thấy rõ nhất ở khu em sống là ... vì ...",
+      "grammarNote": "Hiện tại đơn để nói sự thật hiện nay; because + mệnh đề để nêu lý do.",
+      "examples": ["The environmental problem I notice most in my area is rubbish because people throw it into the canal."]
+    },
+    {
+      "id": "f08",
+      "text": "I'd most like to protect ___ because ___.",
+      "vi": "Em muốn bảo vệ ... nhất vì ...",
+      "grammarNote": "I'd (would) like to + động từ nguyên mẫu: muốn làm gì; most: nhất.",
+      "examples": ["I'd most like to protect elephants because people still hunt them for ivory."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What environmental problem do you notice most where you live?", "difficulty": 1, "kind": "personal",
+      "keywords": ["air pollution", "rubbish", "flooding"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về không khí, nguồn nước, rác thải hay tiếng ồn quanh nhà em. Điều gì em gặp thường xuyên nhất?",
+      "exampleAnswer": "In my area, I notice air pollution most. There are lots of motorbikes, and the sky often looks grey in the morning.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Has the weather where you live changed in recent years?", "difficulty": 1, "kind": "personal",
+      "keywords": ["heatwave", "hotter", "storms"], "frameId": "f03",
+      "hintDirectionVi": "So sánh mùa hè, mùa mưa hay mùa lạnh năm nay với vài năm trước mà em còn nhớ.",
+      "exampleAnswer": "Yes, it has. Summers are much hotter now, and last year we had a long heatwave that lasted two weeks.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What did a teacher say about the environment in one of your recent lessons?", "difficulty": 1, "kind": "personal",
+      "keywords": ["told us that", "said", "climate change"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại một tiết học có nói về môi trường, rồi kể lại lời thầy cô bằng said that hoặc told us that.",
+      "exampleAnswer": "My geography teacher told us that climate change was causing more storms. She said that we could all help by saving energy.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Which endangered animal would you most like to protect, and why?", "difficulty": 1, "kind": "personal",
+      "keywords": ["endangered", "habitat", "protect"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ về một loài vật đang gặp nguy mà em quý, và điều gì đang đe dọa cuộc sống của chúng.",
+      "exampleAnswer": "I'd most like to protect sea turtles. Their beaches are disappearing, and many of them die because of plastic in the sea.", "expectsReason": true
+    },
+    {
+      "id": "q05", "text": "Why do you think some people still buy products made from wild animals?", "difficulty": 2, "kind": "reason",
+      "keywords": ["wildlife", "rare", "awareness"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem người mua tin rằng món hàng đó có gì đặc biệt, và họ có biết hậu quả với loài vật không.",
+      "exampleAnswer": "Some people think these products are special or bring good luck. Others don't know that buying them puts animals in danger.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Tell me about something an adult told you to do to protect the environment.", "difficulty": 2, "kind": "personal",
+      "keywords": ["told me to", "said that", "save water"], "frameId": "f02",
+      "hintDirectionVi": "Nhớ lại lời dặn của bố mẹ, ông bà hay thầy cô về tiết kiệm hoặc giữ gìn môi trường, rồi kể lại.",
+      "exampleAnswer": "My grandfather told me to turn off the tap while brushing my teeth. He said that clean water was precious.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Which environmental problem in Viet Nam worries you most? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["climate change", "sea levels", "worried"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về những vấn đề em hay thấy trên tin tức, rồi chọn vấn đề ảnh hưởng nhiều nhất đến người dân.",
+      "exampleAnswer": "Flooding worries me most. I once read that sea levels were rising, so many towns near the coast could be in danger.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Are zoos a good way to protect endangered animals? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["zoo", "habitat", "safe"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về một điểm tốt của sở thú với loài vật quý hiếm, và một điều chúng mất đi khi sống ở đó.",
+      "exampleAnswer": "Partly. Zoos can keep rare animals safe and help them have babies, but animals are happier in their natural habitat.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Your friend thinks one person can't help the planet. What would you say to them?", "difficulty": 2, "kind": "situation",
+      "keywords": ["practical", "small actions", "together"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem một việc nhỏ của một người sẽ thế nào nếu hàng triệu người cùng làm, rồi nói với bạn.",
+      "exampleAnswer": "Small actions add up. One practical thing you can do is use less plastic, and if millions of people do it, it really helps.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Why do you think extreme weather is becoming more common?", "difficulty": 2, "kind": "reason",
+      "keywords": ["climate change", "temperature", "pollution"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại những gì em đã học hoặc nghe về nhiệt độ Trái Đất, rồi kể lại và nêu suy nghĩ của em.",
+      "exampleAnswer": "I think climate change is the main reason. My teacher said that higher temperatures were causing stronger storms and longer droughts.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Your mum asked you some questions about your school's green project. Report what she asked.", "difficulty": 2, "kind": "situation",
+      "keywords": ["asked me if", "asked me what", "project"], "frameId": "f04",
+      "hintDirectionVi": "Tưởng tượng mẹ hỏi em hai câu về dự án, rồi kể lại bằng asked me if... và asked me what...",
+      "exampleAnswer": "My mum asked me if our class was planting trees. She also asked me what I had learnt from the project.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Who should be more responsible for protecting the environment: governments or individuals?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["responsible", "laws", "daily habits"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem chính phủ làm được những gì mà một người không làm được, và ngược lại, rồi nêu ý kiến.",
+      "exampleAnswer": "Both, but governments have more power. They can make strict laws, while individuals can change their daily habits and support those laws.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Why should we care about endangered animals, even ones we will never see?", "difficulty": 3, "kind": "reason",
+      "keywords": ["biodiversity", "balance", "ecosystem"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem mỗi loài vật liên quan đến các loài khác thế nào, và điều gì xảy ra khi một mắt xích biến mất.",
+      "exampleAnswer": "Every animal plays a role in its ecosystem. If one species disappears, it can upset the balance of nature, and that affects people too.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Is it more useful to plant new trees or to protect existing forests? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["deforestation", "old forests", "take years"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem một cây non cần bao nhiêu năm để lớn, và một khu rừng già có giá trị gì mà cây non chưa có.",
+      "exampleAnswer": "Protecting existing forests is more useful. I once read that old forests stored much more carbon, and new trees take many years to grow.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Imagine an expert gave a talk at your school. Report three things the expert said.", "difficulty": 3, "kind": "situation",
+      "keywords": ["said that", "told us to", "asked us"], "frameId": "f05",
+      "hintDirectionVi": "Tưởng tượng nội dung buổi nói chuyện, rồi kể lại ba ý bằng said that, told us to và asked us.",
+      "exampleAnswer": "The expert said that forests were disappearing quickly. She told us to use less paper, and she asked us what we could do at home.", "expectsReason": false
+    }
+  ]
+}

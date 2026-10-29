@@ -1,0 +1,26 @@
+{
+  "grade": 8,
+  "units": [1, 2, 3],
+  "note": "Đề kiểm tra phản xạ nói (mục 3.5). Mỗi dòng 'pairs' là một cặp câu song song: cùng Unit, cùng dạng, độ dài gần bằng nhau. Thứ tự trong 'pairs' là thứ tự câu trong bài. KHÔNG đưa câu nào ở đây vào ngân hàng câu luyện (content/grade-8/unit-*.json); test tự động kiểm tra việc này.",
+  "warmup": [
+    "How are you today?",
+    "What is your favourite colour? Why?"
+  ],
+  "pairs": [
+    { "unit": 1, "kind": "personal", "A": "What do you often do after dinner?", "B": "What do you often do on Sunday mornings?" },
+    { "unit": 2, "kind": "personal", "A": "How often do you visit the countryside?", "B": "How often do you visit a farm or a village?" },
+    { "unit": 3, "kind": "personal", "A": "How many hours a day do you use your phone?", "B": "How many hours a day do you spend on homework?" },
+    { "unit": 1, "kind": "reason", "A": "Do you like reading books in your free time? Why or why not?", "B": "Do you like watching films in your free time? Why or why not?" },
+    { "unit": 2, "kind": "reason", "A": "Is the air in the countryside cleaner than in the city? Why?", "B": "Is life in the countryside quieter than in the city? Why?" },
+    { "unit": 3, "kind": "reason", "A": "Should teenagers use social media every day? Why or why not?", "B": "Should teenagers bring a phone to school? Why or why not?" },
+    { "unit": 1, "kind": "situation", "A": "Your friend wants to try a new hobby. What do you say to them?", "B": "Your cousin feels bored at the weekend. What do you say to them?" },
+    { "unit": 1, "kind": "personal", "A": "Which sport do you play in your free time?", "B": "Which game do you play in your free time?" },
+    { "unit": 2, "kind": "personal", "A": "What animals can you see in the countryside?", "B": "What fruits can you find in the countryside?" },
+    { "unit": 3, "kind": "personal", "A": "Who do you talk to when you feel worried?", "B": "Who do you talk to when you feel sad?" },
+    { "unit": 1, "kind": "reason", "A": "Is cycling a good activity for teenagers? Why?", "B": "Is swimming a good activity for teenagers? Why?" },
+    { "unit": 2, "kind": "reason", "A": "Would you like to help farmers at harvest time? Why or why not?", "B": "Would you like to fly kites on a windy afternoon? Why or why not?" },
+    { "unit": 3, "kind": "reason", "A": "Is it good for students to join a school club? Why?", "B": "Is it good for students to play sports after class? Why?" },
+    { "unit": 2, "kind": "situation", "A": "Your friend is visiting the countryside for the first time. Give them some advice.", "B": "Your friend is going to stay on a farm for a week. Give them some advice." },
+    { "unit": 3, "kind": "situation", "A": "Your classmate feels stressed about an exam. What do you say to them?", "B": "Your friend spends too much time on social media. What do you say to them?" }
+  ]
+}

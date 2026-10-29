@@ -1,0 +1,165 @@
+{
+  "grade": 7,
+  "unit": 10,
+  "title": "Energy Sources",
+  "titleVi": "Các nguồn năng lượng",
+  "topic": "Nói về các nguồn năng lượng quanh em, những việc em và gia đình đang làm để tiết kiệm điện, và ý kiến của em về năng lượng sạch.",
+  "source": "Global Success 7, Unit 10 (chủ đề, từ vựng, ngữ pháp thì hiện tại tiếp diễn)",
+  "vocab": [
+    { "id": "v01", "en": "energy", "vi": "năng lượng", "example": "We use energy to cook, light our homes and travel." },
+    { "id": "v02", "en": "electricity", "vi": "điện, điện năng", "example": "Air conditioners use a lot of electricity." },
+    { "id": "v03", "en": "energy source", "vi": "nguồn năng lượng", "example": "The wind is a clean energy source." },
+    { "id": "v04", "en": "renewable", "vi": "có thể tái tạo", "example": "Solar energy is renewable, so it will not run out." },
+    { "id": "v05", "en": "non-renewable", "vi": "không thể tái tạo", "example": "Coal and oil are non-renewable energy sources." },
+    { "id": "v06", "en": "solar", "vi": "thuộc về mặt trời", "example": "Our school is using solar energy to heat water." },
+    { "id": "v07", "en": "hydro", "vi": "thuộc về nước (thủy điện)", "example": "Hydro power plants use moving water to make electricity." },
+    { "id": "v08", "en": "produce", "vi": "sản xuất, tạo ra", "example": "Wind turbines produce electricity without smoke." },
+    { "id": "v09", "en": "reduce", "vi": "giảm", "example": "We are trying to reduce the amount of electricity we use." },
+    { "id": "v10", "en": "light bulb", "vi": "bóng đèn", "example": "My dad is changing the old light bulbs for LED ones." },
+    { "id": "v11", "en": "solar panel", "vi": "tấm pin mặt trời", "example": "More houses in my town have solar panels on the roof." },
+    { "id": "v12", "en": "limited", "vi": "có hạn, bị hạn chế", "example": "Oil is limited, so we should not waste it." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "At the moment, my family is ___ to save energy.",
+      "vi": "Hiện nay, gia đình mình đang ... để tiết kiệm năng lượng.",
+      "grammarNote": "Hiện tại tiếp diễn: am / is / are + V-ing, dùng cho việc đang diễn ra lúc này hoặc trong thời gian này.",
+      "examples": ["At the moment, my family is using LED light bulbs to save energy."]
+    },
+    {
+      "id": "f02",
+      "text": "Right now, I am ___ and my ___ is ___.",
+      "vi": "Ngay lúc này, mình đang ... và ... của mình đang ...",
+      "grammarNote": "I am + V-ing; he / she / it is + V-ing; we / you / they are + V-ing.",
+      "examples": ["Right now, I am doing my homework and my brother is watching TV."]
+    },
+    {
+      "id": "f03",
+      "text": "These days, more people are using ___ because ___.",
+      "vi": "Dạo này, ngày càng nhiều người đang dùng ... vì ...",
+      "grammarNote": "Hiện tại tiếp diễn với these days / now để nói về một sự thay đổi đang diễn ra.",
+      "examples": ["These days, more people are using solar panels because they are clean."]
+    },
+    {
+      "id": "f04",
+      "text": "We should turn off ___ when we ___.",
+      "vi": "Chúng ta nên tắt ... khi ...",
+      "grammarNote": "should + V nguyên mẫu để khuyên. turn off: tắt; turn on: bật.",
+      "examples": ["We should turn off the fan when we leave the room."]
+    },
+    {
+      "id": "f05",
+      "text": "___ energy is renewable / non-renewable, so ___.",
+      "vi": "Năng lượng ... có thể / không thể tái tạo, vì vậy ...",
+      "grammarNote": "Dùng so để nói kết quả: It is renewable, so it will not run out.",
+      "examples": ["Wind energy is renewable, so we can use it for a long time."]
+    },
+    {
+      "id": "f06",
+      "text": "Are you ___ now? Yes, I am. / No, I'm not. I'm ___.",
+      "vi": "Bạn có đang ... không? Có. / Không. Mình đang ...",
+      "grammarNote": "Câu hỏi hiện tại tiếp diễn: Am / Is / Are + chủ ngữ + V-ing? Trả lời: Yes, I am / No, I'm not.",
+      "examples": ["Are you using the computer now? No, I'm not. I'm reading a book."]
+    },
+    {
+      "id": "f07",
+      "text": "The ___ uses the most electricity in my home because ___.",
+      "vi": "... dùng nhiều điện nhất trong nhà mình vì ...",
+      "grammarNote": "the most + danh từ để nói nhiều nhất. Chủ ngữ số ít đi với động từ thêm -s: uses.",
+      "examples": ["The fridge uses the most electricity in my home because it is on all day."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What are you doing to save energy at home?", "difficulty": 1, "kind": "personal",
+      "keywords": ["turn off", "lights", "I'm trying"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một việc nhỏ em đang làm dạo này với đèn, quạt, tivi hoặc nước.",
+      "exampleAnswer": "I'm turning off the lights and the fan every time I leave my room.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What are the people in your home doing right now?", "difficulty": 1, "kind": "personal",
+      "keywords": ["is cooking", "are watching", "is working"], "frameId": "f02",
+      "hintDirectionVi": "Tưởng tượng em nhìn quanh nhà ngay lúc này: mỗi người đang làm gì? Dùng is / are + V-ing.",
+      "exampleAnswer": "My mum is cooking dinner, and my brother is playing games on his computer.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Do you turn off the lights when you leave a room?", "difficulty": 1, "kind": "personal",
+      "keywords": ["always", "sometimes forget", "turn off"], "frameId": "f04",
+      "hintDirectionVi": "Thành thật nghĩ xem em có hay quên không, và em có cách nào để nhớ.",
+      "exampleAnswer": "Yes, I usually do. Sometimes I forget, so my mum reminds me.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What uses the most electricity in your home?", "difficulty": 1, "kind": "personal",
+      "keywords": ["air conditioner", "fridge", "electricity"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về các thiết bị điện trong nhà: cái nào chạy lâu nhất hoặc mạnh nhất?",
+      "exampleAnswer": "The air conditioner uses the most electricity, especially in summer.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why should we use more renewable energy?", "difficulty": 2, "kind": "reason",
+      "keywords": ["renewable", "clean", "run out"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về hai điều: năng lượng tái tạo có hết không, và nó có làm bẩn không khí không.",
+      "exampleAnswer": "Renewable energy will not run out, and it is clean. It doesn't pollute the air like coal.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Are people in your area using solar panels now?", "difficulty": 2, "kind": "personal",
+      "keywords": ["solar panel", "roof", "more and more"], "frameId": "f03",
+      "hintDirectionVi": "Nhớ lại những mái nhà, đèn đường hay trường học quanh em. Em có thấy tấm pin mặt trời không?",
+      "exampleAnswer": "Yes, some families are putting solar panels on their roofs. The street lights near my school are solar too.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Is solar energy a good choice for Viet Nam? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["solar", "sunny", "clean"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về thời tiết ở Việt Nam và điểm mạnh của năng lượng mặt trời.",
+      "exampleAnswer": "Yes. Viet Nam has a lot of sunny days, so solar energy is a great choice.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Your brother leaves the TV on all day. What do you say?", "difficulty": 2, "kind": "situation",
+      "keywords": ["turn off", "waste", "electricity"], "frameId": "f04",
+      "hintDirectionVi": "Nhắc nhở nhẹ nhàng: việc đó lãng phí thế nào, và em trai nên làm gì.",
+      "exampleAnswer": "Nobody is watching the TV. Please turn it off. We are wasting electricity.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "Why is it important to save energy at school?", "difficulty": 2, "kind": "reason",
+      "keywords": ["reduce", "limited", "example"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem trường có bao nhiêu phòng, đèn, quạt. Nếu ai cũng tiết kiệm thì sẽ có tác dụng gì?",
+      "exampleAnswer": "A school has many lights and fans. If we save energy, we reduce pollution and learn good habits.", "expectsReason": true
+    },
+    {
+      "id": "q10", "text": "Are electric motorbikes better than petrol ones? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["electric", "fumes", "charge"], "frameId": "f03",
+      "hintDirectionVi": "So sánh khói thải, tiếng ồn và sự tiện lợi khi sạc pin hay đổ xăng.",
+      "exampleAnswer": "I think they are better because they don't produce fumes. However, charging takes a long time.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Which energy source do you think is the cleanest?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["wind", "solar", "hydro"], "frameId": "f05",
+      "hintDirectionVi": "Chọn một nguồn năng lượng và nghĩ xem nó có tạo ra khói hay rác thải không.",
+      "exampleAnswer": "I think wind energy is the cleanest. It doesn't produce smoke, and it is renewable.", "expectsReason": true
+    },
+    {
+      "id": "q12", "text": "What will happen if we keep using non-renewable energy? Explain.", "difficulty": 3, "kind": "reason",
+      "keywords": ["non-renewable", "run out", "pollution"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về hai hậu quả: nguồn năng lượng đó sẽ ra sao, và môi trường sẽ thay đổi thế nào.",
+      "exampleAnswer": "Coal and oil will run out one day. The air will also get dirtier, and the Earth will get hotter.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "It's energy-saving week at school. Describe what students are doing.", "difficulty": 3, "kind": "situation",
+      "keywords": ["are turning off", "are using", "posters"], "frameId": "f01",
+      "hintDirectionVi": "Tưởng tượng em đi quanh trường trong tuần lễ đó. Các bạn đang làm những việc gì? Dùng are + V-ing.",
+      "exampleAnswer": "Students are turning off fans at break time, and some classes are making posters about saving energy.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "Should every new house have solar panels? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["solar panels", "clean", "expensive"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về điểm lợi cho môi trường và điều khó khăn khi lắp đặt, rồi đưa ra ý kiến của em.",
+      "exampleAnswer": "I think so. Solar panels are expensive at first, but they give clean energy for many years.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "You are visiting a wind farm. Describe what you are seeing.", "difficulty": 3, "kind": "situation",
+      "keywords": ["are turning", "is blowing", "produce"], "frameId": "f02",
+      "hintDirectionVi": "Tưởng tượng em đang đứng ở đó và kể như đang gọi điện cho bạn: gió, cánh quạt, mọi người đang làm gì?",
+      "exampleAnswer": "The wind is blowing hard, and the huge turbines are turning. They are producing electricity for the town.", "expectsReason": false
+    }
+  ]
+}

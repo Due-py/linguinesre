@@ -1,0 +1,158 @@
+{
+  "grade": 6,
+  "unit": 7,
+  "title": "Television",
+  "titleVi": "Truyền hình",
+  "topic": "Nói về chương trình truyền hình em thích, thói quen xem tivi và ý kiến của em về việc xem tivi.",
+  "source": "Global Success 6, Unit 7 (chủ đề, từ vựng, ngữ pháp câu hỏi Wh-, liên từ and / but / so)",
+  "vocab": [
+    { "id": "v01", "en": "programme", "vi": "chương trình (truyền hình)", "example": "My favourite programme is on at eight o'clock." },
+    { "id": "v02", "en": "channel", "vi": "kênh (truyền hình)", "example": "This channel shows a lot of sports." },
+    { "id": "v03", "en": "cartoon", "vi": "phim hoạt hình", "example": "My little brother watches cartoons every morning." },
+    { "id": "v04", "en": "comedy", "vi": "phim hài", "example": "We laughed a lot at the comedy last night." },
+    { "id": "v05", "en": "talent show", "vi": "cuộc thi tài năng trên truyền hình", "example": "A girl sang beautifully on the talent show." },
+    { "id": "v06", "en": "animated film", "vi": "phim hoạt hình (điện ảnh)", "example": "That animated film has very cute animals." },
+    { "id": "v07", "en": "character", "vi": "nhân vật", "example": "The main character in the story is a brave cat." },
+    { "id": "v08", "en": "viewer", "vi": "người xem (TV)", "example": "The show has millions of viewers." },
+    { "id": "v09", "en": "educational", "vi": "mang tính giáo dục", "example": "This educational programme teaches us about the sea." },
+    { "id": "v10", "en": "funny", "vi": "buồn cười, ngộ nghĩnh", "example": "The funny clown made everyone laugh." },
+    { "id": "v11", "en": "live", "vi": "(truyền hình) trực tiếp", "example": "We watched the football match live on TV." },
+    { "id": "v12", "en": "clip", "vi": "đoạn phim ngắn", "example": "My friend sent me a short clip about pandas." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "My favourite TV programme is ___. It's on ___.",
+      "vi": "Chương trình tivi mình thích nhất là ... Nó chiếu vào / trên ...",
+      "grammarNote": "Nói giờ chiếu: on at + giờ (on at 7 p.m.); nói kênh: on + tên kênh.",
+      "examples": ["My favourite TV programme is a quiz show. It's on at eight on Saturdays."]
+    },
+    {
+      "id": "f02",
+      "text": "I like ___, but I don't like ___.",
+      "vi": "Mình thích ..., nhưng mình không thích ...",
+      "grammarNote": "and nối hai ý giống nhau; but nối hai ý trái ngược; so chỉ kết quả.",
+      "examples": ["I like comedies, but I don't like the news."]
+    },
+    {
+      "id": "f03",
+      "text": "I watch TV ___ a day, so ___.",
+      "vi": "Mỗi ngày mình xem tivi ..., nên ...",
+      "grammarNote": "so đứng giữa câu để nói kết quả của ý phía trước.",
+      "examples": ["I watch TV for one hour a day, so I have time for homework."]
+    },
+    {
+      "id": "f04",
+      "text": "My favourite character is ___ because he / she is ___.",
+      "vi": "Nhân vật mình thích nhất là ... vì cậu ấy / cô ấy ...",
+      "grammarNote": "because + mệnh đề (chủ ngữ + động từ) để nêu lý do.",
+      "examples": ["My favourite character is Mr Bean because he is very funny."]
+    },
+    {
+      "id": "f05",
+      "text": "What time is ___ on, and which channel is it on?",
+      "vi": "... chiếu lúc mấy giờ, và trên kênh nào?",
+      "grammarNote": "Câu hỏi Wh-: What, When, Where, Who, Which, Why, How đứng đầu câu, sau đó là trợ động từ hoặc be.",
+      "examples": ["What time is the cartoon on, and which channel is it on?"]
+    },
+    {
+      "id": "f06",
+      "text": "I think ___ programmes are ___, so ___.",
+      "vi": "Mình nghĩ các chương trình ... thì ..., nên ...",
+      "grammarNote": "Nêu ý kiến với I think, rồi dùng so để nói kết quả.",
+      "examples": ["I think science programmes are useful, so I watch them every Sunday."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What is your favourite TV programme?", "difficulty": 1, "kind": "personal",
+      "keywords": ["cartoon", "channel", "programme"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về chương trình em không muốn bỏ lỡ, rồi nói nó chiếu lúc nào hoặc trên kênh nào.",
+      "exampleAnswer": "My favourite TV programme is a cartoon. It's on at six every evening.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "How many hours do you watch TV a day?", "difficulty": 1, "kind": "personal",
+      "keywords": ["hour", "a day", "weekend"], "frameId": "f03",
+      "hintDirectionVi": "Ước lượng thời gian em xem tivi hôm qua. Ngày thường và cuối tuần có khác nhau không?",
+      "exampleAnswer": "I watch TV for about one hour a day, so I have time for homework.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "When do you usually watch TV?", "difficulty": 1, "kind": "personal",
+      "keywords": ["after dinner", "evening", "weekend"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về thời điểm trong ngày em hay bật tivi: buổi sáng, sau bữa tối hay cuối tuần.",
+      "exampleAnswer": "I usually watch TV after dinner with my family.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Do you like cartoons?", "difficulty": 1, "kind": "opinion",
+      "keywords": ["funny", "colourful", "cartoon"], "frameId": "f02",
+      "hintDirectionVi": "Trả lời có hoặc không, rồi thêm một từ miêu tả phim hoạt hình theo cảm nhận của em.",
+      "exampleAnswer": "Yes, I do. They are funny and colourful.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Who is your favourite TV character?", "difficulty": 2, "kind": "personal",
+      "keywords": ["character", "funny", "clever"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về một nhân vật trên tivi hoặc trong phim em hay nhắc đến với bạn bè. Nhân vật đó thế nào?",
+      "exampleAnswer": "My favourite character is Doraemon because he is funny and helpful.", "expectsReason": false
+    },
+    {
+      "id": "q06", "text": "What kind of programmes don't you like?", "difficulty": 2, "kind": "personal",
+      "keywords": ["but", "boring", "talent show"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về loại chương trình làm em muốn chuyển kênh ngay. So sánh với loại em thích.",
+      "exampleAnswer": "I like cartoons, but I don't like talk shows. They're boring.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Why do you like your favourite programme?", "difficulty": 2, "kind": "reason",
+      "keywords": ["funny", "educational", "because"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem chương trình đó làm em cười, học được điều mới hay thấy hồi hộp.",
+      "exampleAnswer": "I like it because it's funny, and I learn about animals too.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Why do many children love animated films?", "difficulty": 2, "kind": "reason",
+      "keywords": ["colourful", "characters", "so"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về hình ảnh, nhân vật và câu chuyện trong phim hoạt hình. Điều gì hút mắt trẻ em?",
+      "exampleAnswer": "Animated films are colourful and funny, so children enjoy them a lot.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Are educational programmes interesting? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["educational", "learn", "interesting"], "frameId": "f06",
+      "hintDirectionVi": "Nhớ lại một chương trình về khoa học, động vật hay thế giới mà em từng xem. Em thấy thế nào?",
+      "exampleAnswer": "Yes. I learn new things about the world, so they're interesting.", "expectsReason": true
+    },
+    {
+      "id": "q10", "text": "Is watching TV a good way to learn English?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["listen", "new words", "so"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem khi xem chương trình tiếng Anh em có thể nghe được gì và học được gì.",
+      "exampleAnswer": "Yes, I think so. I hear real English, so I learn new words.", "expectsReason": false
+    },
+    {
+      "id": "q11", "text": "Ask your friend about his or her favourite programme.", "difficulty": 2, "kind": "situation",
+      "keywords": ["What", "When", "Which channel"], "frameId": "f05",
+      "hintDirectionVi": "Đặt hai ba câu hỏi bắt đầu bằng What, When hoặc Which để biết thêm về chương trình đó.",
+      "exampleAnswer": "What's your favourite programme? When is it on, and which channel is it on?", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Should children watch TV every day? Why or why not?", "difficulty": 3, "kind": "reason",
+      "keywords": ["one hour", "eyes", "homework"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về điều có lợi và điều có hại khi ngày nào cũng xem tivi, rồi đưa ra ý kiến của em.",
+      "exampleAnswer": "I think they can, but only for one hour, so their eyes don't get tired.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Is TV better than reading books? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["but", "imagine", "fun"], "frameId": "f02",
+      "hintDirectionVi": "So sánh cảm giác khi xem tivi và khi đọc sách. Mỗi cái giúp em điều gì?",
+      "exampleAnswer": "No. TV is fun, but books help me imagine and think more.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Your little brother watches TV all day. What do you tell him?", "difficulty": 3, "kind": "situation",
+      "keywords": ["eyes", "play outside", "so"], "frameId": "f03",
+      "hintDirectionVi": "Nói cho em nhỏ biết vì sao xem quá nhiều không tốt, rồi rủ em làm việc khác.",
+      "exampleAnswer": "Too much TV is bad for your eyes, so let's play outside.", "expectsReason": false
+    },
+    {
+      "id": "q15", "text": "You and your friend want different programmes. What do you say?", "difficulty": 3, "kind": "situation",
+      "keywords": ["Let's", "first", "then"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ cách để cả hai cùng vui: chia thời gian, thay phiên nhau hoặc chọn một chương trình khác.",
+      "exampleAnswer": "Let's watch your programme first, and then we can watch mine.", "expectsReason": false
+    }
+  ]
+}

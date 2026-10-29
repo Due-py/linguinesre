@@ -1,0 +1,165 @@
+{
+  "grade": 8,
+  "unit": 10,
+  "title": "Communication in the Future",
+  "titleVi": "Giao tiếp trong tương lai",
+  "topic": "Nói về cách em liên lạc với mọi người hôm nay, ưu và nhược điểm của từng cách, và con người sẽ giao tiếp ra sao trong tương lai.",
+  "source": "Global Success 8, Unit 10 (chủ đề, từ vựng, giới từ chỉ nơi chốn và thời gian, đại từ sở hữu)",
+  "vocab": [
+    { "id": "v01", "en": "video conference", "vi": "cuộc họp trực tuyến có hình", "example": "Our class had a video conference with students in Japan." },
+    { "id": "v02", "en": "voice message", "vi": "tin nhắn thoại", "example": "My grandma sends me a voice message every morning." },
+    { "id": "v03", "en": "emoji", "vi": "biểu tượng cảm xúc", "example": "I added a smiley emoji at the end of my message." },
+    { "id": "v04", "en": "social network", "vi": "mạng xã hội", "example": "My brother uses a social network to share his photos." },
+    { "id": "v05", "en": "text", "vi": "nhắn tin, tin nhắn văn bản", "example": "Text me when you get home, please." },
+    { "id": "v06", "en": "translation machine", "vi": "máy dịch thuật", "example": "The tourist used a translation machine to ask for directions." },
+    { "id": "v07", "en": "language barrier", "vi": "rào cản ngôn ngữ", "example": "A language barrier can make travelling difficult." },
+    { "id": "v08", "en": "telepathy", "vi": "thần giao cách cảm", "example": "In the film, the twins talk to each other by telepathy." },
+    { "id": "v09", "en": "holography", "vi": "hình thức giao tiếp bằng ảnh ba chiều", "example": "With holography, your friend could appear in your room as a 3D image." },
+    { "id": "v10", "en": "instantly", "vi": "ngay lập tức", "example": "Emails arrive instantly, even on the other side of the world." },
+    { "id": "v11", "en": "Internet connection", "vi": "kết nối mạng", "example": "The video call stopped because of a bad Internet connection." },
+    { "id": "v12", "en": "advanced", "vi": "tiên tiến", "example": "Phones in the future will be much more advanced." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I usually ___ my friends in the ___ / on ___.",
+      "vi": "Mình thường ... với bạn bè vào buổi ... / vào ...",
+      "grammarNote": "Giới từ thời gian: in + buổi, tháng, năm (in the evening); on + ngày, thứ (on Sunday); at + giờ (at 9 p.m.).",
+      "examples": ["I usually text my friends in the evening and call them on Sunday."]
+    },
+    {
+      "id": "f02",
+      "text": "My ___ is ___ the ___, and yours is ___.",
+      "vi": "... của mình ở ..., còn của bạn ở ...",
+      "grammarNote": "Giới từ nơi chốn: in, on, under, next to, behind. yours = your + danh từ, dùng để không lặp lại danh từ.",
+      "examples": ["My phone is on the desk, and yours is in your bag."]
+    },
+    {
+      "id": "f03",
+      "text": "This ___ isn't mine. Is it ___?",
+      "vi": "... này không phải của mình. Có phải của ... không?",
+      "grammarNote": "Đại từ sở hữu mine, yours, his, hers, ours, theirs đứng một mình, không có danh từ theo sau.",
+      "examples": ["This charger isn't mine. Is it yours or his?"]
+    },
+    {
+      "id": "f04",
+      "text": "In the future, people will communicate by ___ because ___.",
+      "vi": "Trong tương lai, mọi người sẽ giao tiếp bằng ... vì ...",
+      "grammarNote": "by + phương tiện không có mạo từ: by phone, by email, by video call.",
+      "examples": ["In the future, people will communicate by holography because it feels like meeting face to face."]
+    },
+    {
+      "id": "f05",
+      "text": "One advantage of ___ is ___. One disadvantage is ___.",
+      "vi": "Một ưu điểm của ... là ... Một nhược điểm là ...",
+      "grammarNote": "advantage / disadvantage of + danh từ hoặc V-ing để nói mặt tốt và mặt chưa tốt.",
+      "examples": ["One advantage of voice messages is that they are quick. One disadvantage is that you can't send them in a quiet room."]
+    },
+    {
+      "id": "f06",
+      "text": "Let's meet at ___ on ___ at ___.",
+      "vi": "Mình gặp nhau ở ... vào ... lúc ... nhé.",
+      "grammarNote": "at + địa điểm cụ thể (at the school gate) hoặc giờ (at 4 p.m.); on + ngày, thứ (on Friday).",
+      "examples": ["Let's meet at the school gate on Friday at half past four."]
+    },
+    {
+      "id": "f07",
+      "text": "First, ___. Then ___. Finally, ___.",
+      "vi": "Đầu tiên, ... Sau đó, ... Cuối cùng, ...",
+      "grammarNote": "First, Then, Finally để nói các bước theo thứ tự. Câu mệnh lệnh bắt đầu bằng động từ nguyên mẫu.",
+      "examples": ["First, turn on the phone. Then open the app. Finally, choose a friend and call."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "How do you usually contact your best friend?", "difficulty": 1, "kind": "personal",
+      "keywords": ["text", "call", "voice message"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem em hay nhắn tin, gọi điện hay gặp trực tiếp bạn thân. Em làm vậy vào lúc nào?",
+      "exampleAnswer": "I usually text my best friend in the evening. We sometimes make video calls on Sunday.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What time of day do you usually send messages to your friends?", "difficulty": 1, "kind": "personal",
+      "keywords": ["in the evening", "at", "after"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về giờ em hay cầm điện thoại để nhắn tin. Dùng in the morning / in the evening / at + giờ.",
+      "exampleAnswer": "I usually send messages in the evening, at about nine o'clock, after I finish my homework.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Which emoji do you send most, and when do you send it?", "difficulty": 1, "kind": "personal",
+      "keywords": ["emoji", "smiley", "laughing"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về biểu tượng cảm xúc em hay gửi nhất và em thường gửi nó khi nào.",
+      "exampleAnswer": "I use the laughing emoji most often. I send it when my friends tell funny stories.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Have you ever joined a video conference or an online class?", "difficulty": 1, "kind": "personal",
+      "keywords": ["video conference", "online class", "camera"], "frameId": "f05",
+      "hintDirectionVi": "Nhớ lại một lần em học hoặc họp qua mạng. Đó là lúc nào và em thấy thế nào?",
+      "exampleAnswer": "Yes, I have. I joined online classes in grade six. It was fun, but the Internet connection was sometimes bad.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do some people prefer voice messages to text messages?", "difficulty": 2, "kind": "reason",
+      "keywords": ["voice message", "faster", "feelings"], "frameId": "f05",
+      "hintDirectionVi": "So sánh nói và gõ chữ: cái nào nhanh hơn, cái nào cho người nghe biết rõ cảm xúc hơn.",
+      "exampleAnswer": "Voice messages are faster than typing. People can also hear your feelings in your voice.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Is it better to talk to friends face to face or online? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["face to face", "online", "body language"], "frameId": "f05",
+      "hintDirectionVi": "Chọn một cách. Nghĩ về điều em nhận được khi gặp trực tiếp mà nói chuyện qua mạng không có, hoặc ngược lại.",
+      "exampleAnswer": "Face to face is better. I can see my friends' faces, and we understand each other more easily.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Why can a language barrier be a problem when people travel abroad?", "difficulty": 2, "kind": "reason",
+      "keywords": ["language barrier", "directions", "order food"], "frameId": "f05",
+      "hintDirectionVi": "Tưởng tượng em ở một nước không ai nói tiếng em biết. Những việc nào sẽ trở nên khó?",
+      "exampleAnswer": "If you can't speak the language, it is hard to ask for directions or order food. You may feel lost.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Your friend wants to meet you after school this week. Arrange a time and a place.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Let's meet", "at", "on"], "frameId": "f06",
+      "hintDirectionVi": "Chọn ngày, giờ và một địa điểm cụ thể. Dùng đúng giới từ at, on.",
+      "exampleAnswer": "Let's meet at the bookshop on Thursday at five o'clock. Is that OK for you?", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "Who do you usually make video calls with, and what do you talk about?", "difficulty": 2, "kind": "personal",
+      "keywords": ["video call", "relatives", "news"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một người em hay gọi có hình: họ hàng ở xa, bạn cũ. Hai người thường kể cho nhau nghe gì?",
+      "exampleAnswer": "I often make video calls with my cousin in Da Nang. We talk about school and our favourite games.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Do emojis help people understand each other better? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["emoji", "feelings", "misunderstand"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về một tin nhắn không có biểu tượng cảm xúc. Người đọc có thể hiểu sai không?",
+      "exampleAnswer": "Yes, they do. Emojis show our feelings, so a short message doesn't sound rude or cold.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Your grandparent wants to learn how to make video calls. Tell them how to do it step by step.", "difficulty": 2, "kind": "situation",
+      "keywords": ["First", "tap", "then"], "frameId": "f07",
+      "hintDirectionVi": "Chia thành vài bước ngắn: mở ứng dụng, chọn người, bấm nút. Dùng First, Then, Finally.",
+      "exampleAnswer": "First, open the app. Then tap on my name and press the camera button. Finally, wait for me to answer.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Would telepathy be a good way to communicate? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["telepathy", "instantly", "private"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về điều tiện lợi khi gửi suy nghĩ ngay lập tức, và điều đáng lo khi người khác đọc được ý nghĩ của em.",
+      "exampleAnswer": "Not really. It would be fast, but other people might know all my thoughts. I want to keep some things private.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "You find a phone in the classroom after a lesson. Ask your classmates whose phone it is and say where you found it.", "difficulty": 3, "kind": "situation",
+      "keywords": ["whose", "yours", "under the desk"], "frameId": "f03",
+      "hintDirectionVi": "Dùng Whose ...? và các đại từ yours, his, hers. Nói rõ chỗ em tìm thấy bằng giới từ nơi chốn.",
+      "exampleAnswer": "Whose phone is this? It isn't mine. I found it under the desk next to the window. Is it yours, Lan?", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "Which way of communicating do you think people will use most in 2050, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["holography", "advanced", "will"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về công nghệ đang phát triển nhanh hiện nay. Cách nào sẽ nhanh, tiện và giống gặp mặt nhất?",
+      "exampleAnswer": "I think people will use holography most. It will be like meeting face to face, even when friends live far away.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Will translation machines make learning foreign languages unnecessary? Give your opinion.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["translation machine", "culture", "still"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem máy dịch giúp được gì, và điều gì máy chưa làm được khi em kết bạn với người nước ngoài.",
+      "exampleAnswer": "I don't think so. Machines are useful, but when you learn a language, you also understand the culture and make real friends.", "expectsReason": true
+    }
+  ]
+}

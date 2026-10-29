@@ -1,0 +1,172 @@
+{
+  "grade": 8,
+  "unit": 6,
+  "title": "Lifestyles",
+  "titleVi": "Lối sống",
+  "topic": "Nói về thói quen và lối sống của em và mọi người xung quanh, công nghệ thay đổi cuộc sống ra sao và cách giữ gìn nếp sống truyền thống.",
+  "source": "Global Success 8, Unit 6 (chủ đề, từ vựng, thì tương lai đơn, câu điều kiện loại 1)",
+  "vocab": [
+    { "id": "v01", "en": "lifestyle", "vi": "lối sống", "example": "My cousin has a busy lifestyle in the city." },
+    { "id": "v02", "en": "habit", "vi": "thói quen", "example": "Reading before bed is a good habit." },
+    { "id": "v03", "en": "be in the habit of", "vi": "có thói quen làm gì", "example": "I'm in the habit of making a to-do list every morning." },
+    { "id": "v04", "en": "in a hurry", "vi": "vội vàng, đang vội", "example": "I was in a hurry, so I forgot my water bottle." },
+    { "id": "v05", "en": "greet", "vi": "chào, chào hỏi", "example": "We greet our teacher when she comes into the classroom." },
+    { "id": "v06", "en": "impact", "vi": "sự ảnh hưởng", "example": "Smartphones have a big impact on the way we live." },
+    { "id": "v07", "en": "independent", "vi": "độc lập, tự lập", "example": "My sister became more independent after she moved to university." },
+    { "id": "v08", "en": "interact", "vi": "tương tác, giao tiếp", "example": "In group work, we interact with many classmates." },
+    { "id": "v09", "en": "online learning", "vi": "việc học trực tuyến", "example": "Online learning lets students study at home." },
+    { "id": "v10", "en": "maintain", "vi": "duy trì, giữ gìn", "example": "We should maintain the custom of eating dinner together." },
+    { "id": "v11", "en": "street food", "vi": "thức ăn đường phố", "example": "Street food in Ha Noi is cheap and delicious." },
+    { "id": "v12", "en": "revive", "vi": "làm sống lại, hồi sinh", "example": "The village wants to revive its old pottery craft." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "If I ___, I will ___.",
+      "vi": "Nếu mình ..., mình sẽ ...",
+      "grammarNote": "Câu điều kiện loại 1: If + hiện tại đơn, will + động từ nguyên mẫu, cho việc có thể xảy ra.",
+      "examples": ["If I finish my homework early, I will help my mum cook dinner."]
+    },
+    {
+      "id": "f02",
+      "text": "In the future, people will ___ because ___.",
+      "vi": "Trong tương lai, mọi người sẽ ... vì ...",
+      "grammarNote": "Tương lai đơn: will + động từ nguyên mẫu để dự đoán. Phủ định: won't = will not.",
+      "examples": ["In the future, people will work from home more because the Internet is faster."]
+    },
+    {
+      "id": "f03",
+      "text": "I'm in the habit of ___ every ___.",
+      "vi": "Mình có thói quen ... mỗi ...",
+      "grammarNote": "be in the habit of + V-ing: có thói quen làm gì. Dùng thì hiện tại đơn cho thói quen.",
+      "examples": ["I'm in the habit of drinking a glass of water every morning."]
+    },
+    {
+      "id": "f04",
+      "text": "I think ___ will ___, so we should ___.",
+      "vi": "Mình nghĩ ... sẽ ..., nên chúng ta nên ...",
+      "grammarNote": "I think + will để nêu dự đoán của mình; so + mệnh đề để nói kết quả hoặc lời khuyên.",
+      "examples": ["I think online learning will become more popular, so we should learn to use computers well."]
+    },
+    {
+      "id": "f05",
+      "text": "If you don't ___, you will ___.",
+      "vi": "Nếu bạn không ..., bạn sẽ ...",
+      "grammarNote": "Câu điều kiện loại 1 phủ định: If + don't/doesn't + động từ, ... will + động từ. Dùng để cảnh báo.",
+      "examples": ["If you don't sleep enough, you will feel tired in class."]
+    },
+    {
+      "id": "f06",
+      "text": "I will ___ to help keep ___ alive.",
+      "vi": "Mình sẽ ... để giúp giữ gìn ...",
+      "grammarNote": "will + động từ nguyên mẫu để nói một quyết định hoặc lời hứa. to + động từ để nói mục đích.",
+      "examples": ["I will learn how to make sticky rice cakes to help keep our Tet traditions alive."]
+    },
+    {
+      "id": "f07",
+      "text": "My favourite street food is ___. You can find it ___.",
+      "vi": "Món ăn đường phố mình thích nhất là ... Bạn có thể tìm thấy nó ở ...",
+      "grammarNote": "Hiện tại đơn để giới thiệu; can + động từ nguyên mẫu để nói khả năng.",
+      "examples": ["My favourite street food is pho. You can find it near the bus station."]
+    },
+    {
+      "id": "f08",
+      "text": "I think ___ is important / better because ___.",
+      "vi": "Mình nghĩ ... quan trọng / tốt hơn vì ...",
+      "grammarNote": "Nêu ý kiến bằng I think; dùng because để nêu lý do.",
+      "examples": ["I think learning to cook is important because we can look after ourselves."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What is one good habit you have?", "difficulty": 1, "kind": "personal",
+      "keywords": ["habit", "in the habit of", "every day"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một việc tốt em làm đều đặn: dậy sớm, đọc sách, dọn bàn học hay tập thể dục.",
+      "exampleAnswer": "I'm in the habit of tidying my desk every evening, so I can find my things easily.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "How do you greet your teachers and classmates at school?", "difficulty": 1, "kind": "personal",
+      "keywords": ["greet", "say hello", "wave"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem em chào thầy cô khác với chào bạn bè thế nào: lời nói, cử chỉ.",
+      "exampleAnswer": "I say 'Good morning' to my teachers. With my classmates, I just smile and wave.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What street food do you like best?", "difficulty": 1, "kind": "personal",
+      "keywords": ["street food", "delicious", "near my school"], "frameId": "f07",
+      "hintDirectionVi": "Nghĩ về một món ăn vặt hoặc món ăn ở quán ven đường mà em hay ăn. Em ăn nó ở đâu?",
+      "exampleAnswer": "I like banh mi best. There is a small stall near my school, and it is really delicious.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What will you do this evening after you finish your homework?", "difficulty": 1, "kind": "personal",
+      "keywords": ["will", "watch", "help"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về kế hoạch tối nay của em sau giờ học bài. Dùng I will ... để nói.",
+      "exampleAnswer": "I will watch a cartoon with my brother, and then I will read a book before bed.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why is it important for teenagers to become more independent?", "difficulty": 2, "kind": "reason",
+      "keywords": ["independent", "take care of", "decide"], "frameId": "f08",
+      "hintDirectionVi": "Nghĩ về những việc sau này em phải tự làm khi lớn lên. Tự lập từ bây giờ giúp em điều gì?",
+      "exampleAnswer": "When teenagers are independent, they can take care of themselves and make good decisions without help.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Do you prefer online learning or learning in the classroom? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["online learning", "interact", "classroom"], "frameId": "f08",
+      "hintDirectionVi": "Chọn một cách học, rồi nêu một điểm tiện lợi của nó: học ở nhà, hay được gặp thầy cô và bạn bè.",
+      "exampleAnswer": "I prefer learning in the classroom because I can interact with my teachers and friends more easily.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "What habit would you like to change, and why?", "difficulty": 2, "kind": "reason",
+      "keywords": ["change", "habit", "waste time"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về một thói quen nhỏ em chưa hài lòng, như để bài tập đến sát giờ. Nó làm em mất gì?",
+      "exampleAnswer": "I'd like to stop doing homework late at night. If I start earlier, I will have more time to rest.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Your friend often goes to bed after midnight. Warn them about what might happen.", "difficulty": 2, "kind": "situation",
+      "keywords": ["If you don't", "tired", "concentrate"], "frameId": "f05",
+      "hintDirectionVi": "Dùng câu If you don't ..., you will ... để nói một hậu quả có thể xảy ra ở trường ngày hôm sau.",
+      "exampleAnswer": "If you don't go to bed earlier, you will feel tired and you won't concentrate in class.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "Which daily habit helps you most with your schoolwork?", "difficulty": 2, "kind": "personal",
+      "keywords": ["check", "plan", "review"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một việc nhỏ em làm mỗi ngày giúp em học tốt hơn, ví dụ xem lại bài hoặc lên kế hoạch.",
+      "exampleAnswer": "I'm in the habit of reviewing my notes every evening. It helps me remember lessons better.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Will people still eat street food in twenty years? Why do you think so?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["will", "street food", "popular"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ xem vì sao mọi người thích đồ ăn đường phố hôm nay. Những lý do đó có còn sau hai mươi năm không?",
+      "exampleAnswer": "Yes, they will. Street food is cheap, quick and tasty, so people will always love it.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "A visitor to your town wants to try local food. Recommend a dish and say where to find it.", "difficulty": 2, "kind": "situation",
+      "keywords": ["You should try", "market", "famous"], "frameId": "f07",
+      "hintDirectionVi": "Chọn một món ngon nổi tiếng ở chỗ em, nói tên món, vị của nó và chỗ có thể mua.",
+      "exampleAnswer": "You should try bun cha. If you go to the market near the lake, you will find a great stall.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "How will technology change the way teenagers live in the future?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["will", "impact", "online"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về việc học, chơi và liên lạc của tuổi teen hôm nay, rồi đoán xem chúng sẽ thay đổi thế nào.",
+      "exampleAnswer": "Teenagers will study online more, and they will use smart devices for almost everything. They may spend less time outdoors.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Your town wants to revive a traditional craft. Suggest how young people can help.", "difficulty": 3, "kind": "situation",
+      "keywords": ["revive", "learn", "sell online"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về một nghề thủ công cũ. Học sinh có thể học, giới thiệu hay bán sản phẩm ra sao?",
+      "exampleAnswer": "Young people can learn the craft from older people. They will also take photos and sell the products online.", "expectsReason": false
+    },
+    {
+      "id": "q14", "text": "Which part of the traditional Vietnamese lifestyle should we maintain, and why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["maintain", "family meals", "respect"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về một nếp sống xưa mà em thấy đẹp, như ăn cơm cùng nhau hay kính trọng người lớn. Nó mang lại điều gì?",
+      "exampleAnswer": "We should maintain family meals. When everyone eats together, we share our day and feel closer.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "If students learn online all the time, what will happen? Give your opinion.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["online learning", "lonely", "flexible"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về cả mặt tốt và mặt chưa tốt khi học sinh không bao giờ đến lớp. Em nghiêng về bên nào?",
+      "exampleAnswer": "If students learn online all the time, they will save travel time. However, they will feel lonely and miss their friends.", "expectsReason": true
+    }
+  ]
+}

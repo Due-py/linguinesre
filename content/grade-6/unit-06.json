@@ -1,0 +1,158 @@
+{
+  "grade": 6,
+  "unit": 6,
+  "title": "Our Tet Holiday",
+  "titleVi": "Tết của chúng ta",
+  "topic": "Nói về những việc gia đình em làm dịp Tết, món ăn, lời chúc và những điều trẻ em nên hay không nên làm.",
+  "source": "Global Success 6, Unit 6 (chủ đề, từ vựng, ngữ pháp should / shouldn't, some / any)",
+  "vocab": [
+    { "id": "v01", "en": "celebrate", "vi": "kỉ niệm, tổ chức (lễ, Tết)", "example": "We celebrate Tet with our grandparents." },
+    { "id": "v02", "en": "decorate", "vi": "trang hoàng, trang trí", "example": "My sister and I decorate the house with red paper." },
+    { "id": "v03", "en": "clean the house", "vi": "dọn dẹp nhà cửa", "example": "Everyone helps to clean the house before Tet." },
+    { "id": "v04", "en": "family gathering", "vi": "sum họp gia đình", "example": "We have a big family gathering on the first day of Tet." },
+    { "id": "v05", "en": "relative", "vi": "bà con, họ hàng", "example": "Many relatives come to our house at Tet." },
+    { "id": "v06", "en": "lucky money", "vi": "tiền lì xì", "example": "Children get lucky money in small red envelopes." },
+    { "id": "v07", "en": "wish", "vi": "điều ước, lời chúc; chúc", "example": "I wish my teacher a happy new year." },
+    { "id": "v08", "en": "firework", "vi": "pháo hoa", "example": "We watch the fireworks at midnight." },
+    { "id": "v09", "en": "behave", "vi": "cư xử", "example": "Children should behave well when guests visit." },
+    { "id": "v10", "en": "luck", "vi": "điều may mắn", "example": "Some people believe red brings good luck." },
+    { "id": "v11", "en": "welcome", "vi": "chào đón", "example": "We welcome the new year with music and food." },
+    { "id": "v12", "en": "cheer", "vi": "chúc mừng, reo hò", "example": "Everyone cheers when the clock strikes twelve." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "At Tet, my family usually ___.",
+      "vi": "Dịp Tết, gia đình mình thường ...",
+      "grammarNote": "Hiện tại đơn với usually cho việc lặp lại hằng năm; my family đi với động từ thêm -s.",
+      "examples": ["At Tet, my family usually visits my grandparents in the countryside."]
+    },
+    {
+      "id": "f02",
+      "text": "At Tet, children should ___.",
+      "vi": "Dịp Tết, trẻ em nên ...",
+      "grammarNote": "should + động từ nguyên mẫu để khuyên nên làm gì.",
+      "examples": ["At Tet, children should help their parents clean the house."]
+    },
+    {
+      "id": "f03",
+      "text": "Children shouldn't ___ because ___.",
+      "vi": "Trẻ em không nên ... vì ...",
+      "grammarNote": "shouldn't + động từ nguyên mẫu để khuyên không nên làm gì.",
+      "examples": ["Children shouldn't eat too many sweets because it's bad for their teeth."]
+    },
+    {
+      "id": "f04",
+      "text": "We have some ___, but we don't have any ___.",
+      "vi": "Nhà mình có một ít ..., nhưng không có ...",
+      "grammarNote": "some dùng trong câu khẳng định; any dùng trong câu phủ định và câu hỏi.",
+      "examples": ["We have some sweets, but we don't have any banh chung yet."]
+    },
+    {
+      "id": "f05",
+      "text": "My favourite thing about Tet is ___ because ___.",
+      "vi": "Điều mình thích nhất về Tết là ... vì ...",
+      "grammarNote": "Hiện tại đơn để nói sở thích; because để nêu lý do.",
+      "examples": ["My favourite thing about Tet is the food because my grandma cooks so well."]
+    },
+    {
+      "id": "f06",
+      "text": "Happy New Year! I wish you ___.",
+      "vi": "Chúc mừng năm mới! Em chúc thầy / cô / bạn ...",
+      "grammarNote": "wish + người + điều tốt đẹp: I wish you good health.",
+      "examples": ["Happy New Year! I wish you good health and lots of luck."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What does your family do before Tet?", "difficulty": 1, "kind": "personal",
+      "keywords": ["clean the house", "decorate", "buy flowers"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại những ngày cuối năm: nhà em bận rộn với những việc gì?",
+      "exampleAnswer": "Before Tet, we usually clean and decorate the house.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Who do you visit at Tet?", "difficulty": 1, "kind": "personal",
+      "keywords": ["relatives", "grandparents", "visit"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem dịp Tết em thường đến nhà những ai, và đi vào ngày nào.",
+      "exampleAnswer": "We visit our grandparents and other relatives on the first day.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What special food do you eat at Tet?", "difficulty": 1, "kind": "personal",
+      "keywords": ["banh chung", "some", "fruit"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về mâm cơm ngày Tết nhà em. Món nào chỉ có vào dịp này?",
+      "exampleAnswer": "We have some banh chung and lots of fruit.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Is Tet your favourite holiday?", "difficulty": 1, "kind": "opinion",
+      "keywords": ["favourite", "fun", "family"], "frameId": "f05",
+      "hintDirectionVi": "So sánh Tết với các ngày lễ khác em biết. Tết có gì khác làm em vui hơn?",
+      "exampleAnswer": "Yes, it is. I can see all my relatives and eat nice food.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "What do you do on New Year's Eve?", "difficulty": 2, "kind": "personal",
+      "keywords": ["fireworks", "stay up late", "midnight"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại đêm Giao thừa: em ở đâu, với ai, và làm gì lúc gần nửa đêm.",
+      "exampleAnswer": "We stay up late, watch fireworks on TV and make wishes.", "expectsReason": false
+    },
+    {
+      "id": "q06", "text": "How does your family decorate the house for Tet?", "difficulty": 2, "kind": "personal",
+      "keywords": ["decorate", "peach flowers", "kumquat tree"], "frameId": "f04",
+      "hintDirectionVi": "Nhớ lại nhà em dịp Tết năm ngoái: có hoa gì, cây gì, treo hay dán gì lên tường và cửa?",
+      "exampleAnswer": "We have some peach flowers and red lanterns, but we don't have any kumquat trees.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "What is your favourite thing about Tet? Why?", "difficulty": 2, "kind": "reason",
+      "keywords": ["fireworks", "family gathering", "because"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về khoảnh khắc ngày Tết em nhớ nhất: một món ăn, một hoạt động hay một người.",
+      "exampleAnswer": "My favourite thing about Tet is the family gathering because everyone is together.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Why do people clean their houses before Tet?", "difficulty": 2, "kind": "reason",
+      "keywords": ["new year", "fresh", "luck"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem mọi người muốn bắt đầu năm mới với cảm giác thế nào.",
+      "exampleAnswer": "I think they want to start the new year with a clean, fresh home.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "What should children do at Tet?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["should", "behave well", "help"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về một hai việc tốt trẻ em làm được ở nhà hoặc khi đi chúc Tết.",
+      "exampleAnswer": "Children should behave well, help their parents and say nice wishes.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "What shouldn't children do at Tet? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["shouldn't", "fight", "break things"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về một việc làm người lớn không vui trong ngày đầu năm, rồi giải thích vì sao.",
+      "exampleAnswer": "Children shouldn't fight because it is a bad start to the new year.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Wish your teacher a happy new year.", "difficulty": 2, "kind": "situation",
+      "keywords": ["wish", "health", "happiness"], "frameId": "f06",
+      "hintDirectionVi": "Bắt đầu bằng lời chào năm mới, rồi chúc thầy cô hai điều tốt đẹp.",
+      "exampleAnswer": "Happy New Year! I wish you good health and lots of happiness.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Would you like to celebrate Tet in another country? Why?", "difficulty": 3, "kind": "reason",
+      "keywords": ["miss", "relatives", "different"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem ở nước ngoài thì Tết sẽ thiếu điều gì, và có thể có điều gì mới lạ.",
+      "exampleAnswer": "No, I wouldn't. I'd miss my relatives and our special food.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Are fireworks a good way to celebrate Tet? Why?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["fireworks", "beautiful", "noisy"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về một điều hay và một điều chưa hay của pháo hoa, rồi nói ý của em.",
+      "exampleAnswer": "Yes. Fireworks are beautiful and exciting, but they can be noisy for pets.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "A foreign friend visits you at Tet. Give two tips.", "difficulty": 3, "kind": "situation",
+      "keywords": ["should", "shouldn't", "wish"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về một việc bạn nên làm và một việc bạn không nên làm khi đến nhà người Việt ngày Tết.",
+      "exampleAnswer": "You should wish everyone a happy new year. You shouldn't sweep on the first day.", "expectsReason": false
+    },
+    {
+      "id": "q15", "text": "Your little cousin wants to play with fireworks. What do you say?", "difficulty": 3, "kind": "situation",
+      "keywords": ["shouldn't", "dangerous", "watch"], "frameId": "f03",
+      "hintDirectionVi": "Nói với em nhỏ một lời khuyên an toàn, rồi gợi ý một việc khác vui mà an toàn hơn.",
+      "exampleAnswer": "You shouldn't play with fireworks because they're dangerous. Let's watch them together.", "expectsReason": false
+    }
+  ]
+}

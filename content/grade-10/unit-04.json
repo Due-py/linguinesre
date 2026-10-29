@@ -1,0 +1,165 @@
+{
+  "grade": 10,
+  "unit": 4,
+  "title": "For a Better Community",
+  "titleVi": "Vì một cộng đồng tốt đẹp hơn",
+  "topic": "Nói về các hoạt động tình nguyện, phục vụ cộng đồng em từng tham gia hoặc muốn tham gia, cảm xúc của em và lợi ích của việc giúp đỡ người khác.",
+  "source": "Global Success 10, Unit 4 (chủ đề, từ vựng, ngữ pháp quá khứ đơn và quá khứ tiếp diễn với when, while)",
+  "vocab": [
+    { "id": "v01", "en": "volunteer", "vi": "tình nguyện viên; làm tình nguyện", "example": "My cousin volunteers at a local library every Sunday." },
+    { "id": "v02", "en": "community service", "vi": "phục vụ cộng đồng", "example": "Our class does community service once a month." },
+    { "id": "v03", "en": "donate", "vi": "cho, hiến tặng", "example": "We donated our old books to a school in the mountains." },
+    { "id": "v04", "en": "donation", "vi": "đồ quyên góp, sự hiến tặng", "example": "The club collected donations of warm clothes for children." },
+    { "id": "v05", "en": "generous", "vi": "hào phóng, rộng lượng", "example": "Our neighbours were very generous with their time." },
+    { "id": "v06", "en": "participate", "vi": "tham gia", "example": "Over fifty students participated in the clean-up day." },
+    { "id": "v07", "en": "remote", "vi": "hẻo lánh, xa xôi", "example": "Some children in remote areas walk a long way to school." },
+    { "id": "v08", "en": "confidence", "vi": "sự tự tin", "example": "Talking to strangers at the event gave me more confidence." },
+    { "id": "v09", "en": "boost", "vi": "thúc đẩy, làm tăng thêm", "example": "Volunteering can boost your communication skills." },
+    { "id": "v10", "en": "practical", "vi": "thực tế, thiết thực", "example": "Teaching kids to swim is a practical way to help." },
+    { "id": "v11", "en": "get involved", "vi": "tham gia (vào một hoạt động)", "example": "I want to get involved in more school projects this year." },
+    { "id": "v12", "en": "cheerful", "vi": "vui vẻ", "example": "The old people at the care home were cheerful and kind." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "I was ___ when ___.",
+      "vi": "Mình đang ... thì ...",
+      "grammarNote": "Quá khứ tiếp diễn (was/were + V-ing) cho hành động đang diễn ra; quá khứ đơn cho hành động xen vào, nối bằng when.",
+      "examples": ["I was cleaning the beach when a little girl came to help us."]
+    },
+    {
+      "id": "f02",
+      "text": "While we were ___, we ___.",
+      "vi": "Trong lúc bọn mình đang ..., bọn mình ...",
+      "grammarNote": "While + quá khứ tiếp diễn chỉ một khoảng thời gian; vế còn lại dùng quá khứ đơn hoặc quá khứ tiếp diễn.",
+      "examples": ["While we were collecting rubbish, we talked with local people."]
+    },
+    {
+      "id": "f03",
+      "text": "Last ___, I ___ and ___.",
+      "vi": "... trước, mình đã ... và ...",
+      "grammarNote": "Quá khứ đơn cho các việc đã xảy ra và kết thúc, kể theo thứ tự.",
+      "examples": ["Last summer, I joined a book drive and donated twenty books."]
+    },
+    {
+      "id": "f04",
+      "text": "I felt ___ because the work was ___.",
+      "vi": "Mình thấy ... vì công việc ...",
+      "grammarNote": "Tính từ -ed tả cảm xúc của người (tired, excited); tính từ -ing tả tính chất của việc/vật (tiring, exciting).",
+      "examples": ["I felt tired but excited because the work was challenging."]
+    },
+    {
+      "id": "f05",
+      "text": "Volunteering is ___ because it helps ___.",
+      "vi": "Làm tình nguyện thật ... vì nó giúp ...",
+      "grammarNote": "Hậu tố -ful (có) và -less (không có): useful / useless, helpful / helpless, careful / careless.",
+      "examples": ["Volunteering is meaningful because it helps people in need and makes us more confident."]
+    },
+    {
+      "id": "f06",
+      "text": "Would you like to join ___? We're going to ___.",
+      "vi": "Bạn có muốn tham gia ... không? Bọn mình định ...",
+      "grammarNote": "Would you like to + động từ nguyên mẫu để mời; be going to + động từ nguyên mẫu để nói kế hoạch.",
+      "examples": ["Would you like to join our clean-up day? We're going to clean the riverbank on Sunday."]
+    },
+    {
+      "id": "f07",
+      "text": "Excuse me, I'm a bit ___. Could you explain ___?",
+      "vi": "Xin lỗi, em hơi ... Anh / chị có thể giải thích ... được không ạ?",
+      "grammarNote": "Tính từ đuôi -ed (confused, worried) chỉ cảm xúc của mình; Could you + động từ nguyên mẫu để nhờ lịch sự.",
+      "examples": ["Excuse me, I'm a bit confused. Could you explain where we should put these books?"]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "Have you ever done any volunteer work? What did you do?", "difficulty": 1, "kind": "personal",
+      "keywords": ["volunteer", "clean up", "collect"], "frameId": "f03",
+      "hintDirectionVi": "Nhớ lại một lần em giúp đỡ người khác cùng trường, lớp hoặc khu phố. Nếu chưa, nói việc em muốn làm.",
+      "exampleAnswer": "Yes, I have. Last year, I joined a clean-up day in my neighbourhood and collected rubbish along the canal.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What community activities does your school organise?", "difficulty": 1, "kind": "personal",
+      "keywords": ["book drive", "clean-up day", "visit"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về những hoạt động trường em tổ chức hằng năm để giúp người khác hoặc làm đẹp nơi em sống.",
+      "exampleAnswer": "My school organises a book drive every year and a clean-up day in spring. Students also visit a care home before Tet.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Have you ever donated something to people in need? What was it?", "difficulty": 1, "kind": "personal",
+      "keywords": ["donate", "old clothes", "books"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về đồ dùng em đã cho đi như sách, quần áo hay đồ chơi, và em gửi chúng cho ai.",
+      "exampleAnswer": "Yes. Last winter, I donated some warm clothes and storybooks to children in a remote village.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "How did you feel after you helped someone recently?", "difficulty": 1, "kind": "personal",
+      "keywords": ["pleased", "proud", "helpful"], "frameId": "f04",
+      "hintDirectionVi": "Nhớ lại một lần em giúp ai đó, dù là việc nhỏ. Sau đó em thấy thế nào, và người kia phản ứng ra sao?",
+      "exampleAnswer": "I felt pleased and proud after I helped an old man carry his bags. He smiled and thanked me.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do you think many teenagers want to do volunteer work?", "difficulty": 2, "kind": "reason",
+      "keywords": ["make a difference", "confidence", "new friends"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem người trẻ mong nhận được gì khi đi tình nguyện: cho người khác và cho chính mình.",
+      "exampleAnswer": "I think they want to make a difference. Volunteering also boosts their confidence, and they can make new friends with the same interests.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Describe a moment during a school activity when something unexpected happened.", "difficulty": 2, "kind": "personal",
+      "keywords": ["while", "suddenly", "when"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại lúc lớp em đang làm một việc gì đó thì có chuyện bất ngờ xảy ra. Mọi người đã làm gì?",
+      "exampleAnswer": "We were planting trees at school when it suddenly started to rain heavily. We all laughed and kept working in the rain.", "expectsReason": false
+    },
+    {
+      "id": "q07", "text": "Is volunteering a waste of time for students who have exams? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["useful", "balance", "skills"], "frameId": "f05",
+      "hintDirectionVi": "Cân nhắc thời gian học và thời gian tình nguyện mỗi tuần. Tình nguyện cho em những gì sách vở không dạy?",
+      "exampleAnswer": "No, it isn't. Volunteering for a few hours a week is useful, and it teaches skills that school can't teach.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Which is more helpful: donating things or giving your time? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["donation", "time", "practical"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về những việc học sinh có thể làm bằng thời gian và sức mình, so với việc gửi đồ đi.",
+      "exampleAnswer": "I think giving time is more helpful for students. We can teach children or clean up places, and that's practical help.", "expectsReason": true
+    },
+    {
+      "id": "q09", "text": "Invite a classmate to join a weekend clean-up day in your neighbourhood.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Would you like to", "going to", "clean up"], "frameId": "f06",
+      "hintDirectionVi": "Mời bạn bằng câu hỏi lịch sự, rồi nói rõ kế hoạch: làm gì, ở đâu, lúc mấy giờ.",
+      "exampleAnswer": "Would you like to join our clean-up day? We're going to collect rubbish near the lake on Sunday morning. It'll be fun!", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Why are book drives useful for children in remote areas?", "difficulty": 2, "kind": "reason",
+      "keywords": ["remote", "access", "books"], "frameId": "f05",
+      "hintDirectionVi": "Tưởng tượng một lớp học ở vùng xa: các em có dễ tìm sách để đọc không? Sách mang lại điều gì?",
+      "exampleAnswer": "Children in remote areas don't have easy access to books. Book drives give them something interesting to read and help them learn.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "At a volunteer event, you feel confused about your task. Ask the leader for help.", "difficulty": 2, "kind": "situation",
+      "keywords": ["Excuse me", "confused", "explain"], "frameId": "f07",
+      "hintDirectionVi": "Mở lời lịch sự, nói rõ em chưa hiểu phần nào, rồi nhờ người phụ trách giải thích lại.",
+      "exampleAnswer": "Excuse me, I'm a bit confused about my task. Could you explain what I should do with these donations?", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Should community service be a compulsory part of school life? Explain your answer.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["compulsory", "community service", "responsible"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về điểm tốt khi mọi học sinh đều tham gia, và điểm chưa tốt khi bị bắt buộc. Em chọn bên nào?",
+      "exampleAnswer": "I think it should be, but only for a few hours a month. It helps students become more responsible and understand their community better.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Why do some people feel nervous about joining volunteer activities for the first time?", "difficulty": 3, "kind": "reason",
+      "keywords": ["nervous", "strangers", "worried"], "frameId": "f04",
+      "hintDirectionVi": "Nhớ lại cảm giác khi em làm một việc mới ở nơi lạ, với người lạ. Điều gì khiến em lo lắng?",
+      "exampleAnswer": "They may not know anyone there, and they worry about doing the wrong thing. Going with a friend can help them feel more relaxed.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "What volunteer project would be most useful for your local area, and why?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["useful", "local", "community"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về một vấn đề em thấy ở nơi mình sống, rồi chọn một dự án có thể giải quyết vấn đề đó.",
+      "exampleAnswer": "I think a recycling project would be the most useful. My area has a lot of litter, and people need to learn how to sort waste.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Tell a younger student about a volunteer activity you took part in and what you learnt.", "difficulty": 3, "kind": "situation",
+      "keywords": ["while", "learnt", "participate"], "frameId": "f02",
+      "hintDirectionVi": "Kể ngắn gọn em đã làm gì, chuyện gì xảy ra trong lúc làm, và bài học em rút ra cho bản thân.",
+      "exampleAnswer": "Last summer, I taught English to young children. While I was teaching them, I learnt to be patient, and I became more confident.", "expectsReason": false
+    }
+  ]
+}

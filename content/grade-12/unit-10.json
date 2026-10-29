@@ -1,0 +1,158 @@
+{
+  "grade": 12,
+  "unit": 10,
+  "title": "Lifelong Learning",
+  "titleVi": "Học tập suốt đời",
+  "topic": "Nói về những điều em học ngoài lớp học, lời khuyên em nhận được, và vì sao con người cần tiếp tục học tập suốt cuộc đời.",
+  "source": "Global Success 12, Unit 10 (chủ đề, từ vựng, ngữ pháp tường thuật mệnh lệnh, yêu cầu, lời đề nghị, lời khuyên)",
+  "vocab": [
+    { "id": "v01", "en": "lifelong learning", "vi": "học tập suốt đời", "example": "Lifelong learning keeps your mind active." },
+    { "id": "v02", "en": "acquire", "vi": "có được, đạt được", "example": "I acquired some basic coding skills from an online course." },
+    { "id": "v03", "en": "boost", "vi": "tăng cường, cải thiện", "example": "Reading English books boosted my vocabulary." },
+    { "id": "v04", "en": "broaden", "vi": "mở mang, mở rộng", "example": "Travelling broadens your mind." },
+    { "id": "v05", "en": "brush up on", "vi": "ôn lại, học lại", "example": "I need to brush up on my grammar before the exam." },
+    { "id": "v06", "en": "distance learning", "vi": "học từ xa", "example": "Distance learning lets people study without leaving home." },
+    { "id": "v07", "en": "adult education", "vi": "giáo dục cho người lớn", "example": "The library offers adult education classes in the evening." },
+    { "id": "v08", "en": "well-rounded", "vi": "phát triển toàn diện", "example": "Sports and arts help students become well-rounded." },
+    { "id": "v09", "en": "determination", "vi": "sự quyết tâm", "example": "With determination, she passed the exam on her second try." },
+    { "id": "v10", "en": "distraction", "vi": "sự xao nhãng", "example": "My phone is the biggest distraction when I study." },
+    { "id": "v11", "en": "informed", "vi": "có hiểu biết, được cung cấp đủ thông tin", "example": "Reading the news helps me stay informed." },
+    { "id": "v12", "en": "relevant", "vi": "phù hợp, liên quan", "example": "Choose courses that are relevant to your future job." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "My ___ advised me (not) to ___.",
+      "vi": "... của mình đã khuyên mình (không) nên ...",
+      "grammarNote": "Tường thuật lời khuyên: advise + người + (not) to V. Ví dụ: 'You should rest.' → She advised me to rest.",
+      "examples": ["My teacher advised me not to study late at night."]
+    },
+    {
+      "id": "f02",
+      "text": "___ told us to ___ and reminded us not to ___.",
+      "vi": "... bảo chúng mình ... và nhắc chúng mình không được ...",
+      "grammarNote": "Tường thuật mệnh lệnh: tell/order/remind + người + (not) to V. Ví dụ: 'Don't be late.' → He told us not to be late.",
+      "examples": ["Our coach told us to arrive at six and reminded us not to forget our water bottles."]
+    },
+    {
+      "id": "f03",
+      "text": "I asked ___ to ___.",
+      "vi": "Mình đã nhờ ... làm ...",
+      "grammarNote": "Tường thuật lời yêu cầu: ask + người + (not) to V. Ví dụ: 'Can you help me?' → I asked her to help me.",
+      "examples": ["I asked my brother to check my English essay."]
+    },
+    {
+      "id": "f04",
+      "text": "___ offered to ___.",
+      "vi": "... đã đề nghị (giúp) ...",
+      "grammarNote": "Tường thuật lời đề nghị giúp đỡ: offer + to V (không có tân ngữ chỉ người). 'Shall I help you?' → He offered to help me.",
+      "examples": ["My neighbour offered to teach me how to play the guitar."]
+    },
+    {
+      "id": "f05",
+      "text": "My ___ encouraged me to ___, so ___.",
+      "vi": "... đã động viên mình ..., nên ...",
+      "grammarNote": "encourage + người + to V: động viên ai làm gì; nối kết quả bằng so.",
+      "examples": ["My aunt encouraged me to join a book club, so I now read a book every month."]
+    },
+    {
+      "id": "f06",
+      "text": "I'd like to learn ___ because ___.",
+      "vi": "Mình muốn học ... vì ...",
+      "grammarNote": "would like + to V để nói mong muốn; because + mệnh đề để nêu lý do.",
+      "examples": ["I'd like to learn sign language because I want to talk with deaf people."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What new skill would you like to learn this year?", "difficulty": 1, "kind": "personal",
+      "keywords": ["learn", "skill", "because"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về một kỹ năng ngoài sách vở mà em muốn có: nấu ăn, chụp ảnh, bơi, lập trình...",
+      "exampleAnswer": "This year, I'd like to learn photography because I want to take better pictures on my trips.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "What is the best piece of advice a teacher has given you?", "difficulty": 1, "kind": "personal",
+      "keywords": ["advised me to", "practise", "never give up"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại một lời khuyên của thầy cô mà em vẫn làm theo. Kể lại bằng advised me to.",
+      "exampleAnswer": "My English teacher advised me to read a little every day instead of studying a lot the night before a test.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "What do you usually do when you need help with a difficult lesson?", "difficulty": 1, "kind": "personal",
+      "keywords": ["asked", "explain", "classmate"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ về người em hay nhờ giúp, rồi kể một lần cụ thể bằng asked + người + to V.",
+      "exampleAnswer": "I usually ask a classmate. Last week, I asked my friend Lan to show me how to solve a physics problem.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "Who encourages you to keep learning?", "difficulty": 1, "kind": "personal",
+      "keywords": ["encouraged me to", "support", "keep going"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về một người luôn động viên em học. Họ đã khuyến khích em làm gì?",
+      "exampleAnswer": "My grandfather encouraged me to keep learning English, so I now watch English videos every evening.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why is lifelong learning important in today's world?", "difficulty": 2, "kind": "reason",
+      "keywords": ["lifelong learning", "informed", "change"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem thế giới, công nghệ và công việc thay đổi nhanh thế nào, và người không học thêm sẽ ra sao.",
+      "exampleAnswer": "The world changes very fast, so we need to keep learning to stay informed. New skills also help us find better jobs and enjoy life more.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Why do you think some adults go back to school later in life?", "difficulty": 2, "kind": "reason",
+      "keywords": ["adult education", "career", "dream"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về hai kiểu lý do: vì công việc và vì ước mơ riêng của họ.",
+      "exampleAnswer": "Some adults want to boost their careers with new qualifications. Others never had the chance to study when they were young, so they follow their dream later.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Is distance learning as effective as learning in a classroom? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["distance learning", "distraction", "flexible"], "frameId": "f01",
+      "hintDirectionVi": "Nhớ lại những lần em học trực tuyến. Điều gì tiện hơn và điều gì khó hơn so với học ở lớp?",
+      "exampleAnswer": "Not for everyone. Distance learning is flexible, but there are many distractions at home, so students need strong self-discipline.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "Your younger cousin keeps checking their phone while studying. Give them some advice.", "difficulty": 2, "kind": "situation",
+      "keywords": ["distraction", "put away", "focus"], "frameId": "f01",
+      "hintDirectionVi": "Đưa ra một hai cách cụ thể, dễ làm để bớt xao nhãng, nói nhẹ nhàng như một người anh chị.",
+      "exampleAnswer": "Put your phone in another room while you study. Set a timer for thirty minutes, then take a short break to check your messages.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "Has anyone offered to teach you something useful? Tell me about it.", "difficulty": 2, "kind": "personal",
+      "keywords": ["offered to", "teach", "useful"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ về người thân, hàng xóm hay bạn bè đã chủ động dạy em một điều gì đó. Em học được gì?",
+      "exampleAnswer": "Yes. Last summer, my neighbour offered to teach me how to swim. After two weeks, I could swim across the pool.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Should schools teach life skills as well as academic subjects? Why?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["life skills", "well-rounded", "relevant"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về những kỹ năng em cần khi tự lập mà sách giáo khoa ít dạy.",
+      "exampleAnswer": "Yes, they should. Life skills like cooking and managing time are relevant to everyday life, and they help students become well-rounded people.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Your teacher gave the class three instructions for a project. Report them to an absent classmate.", "difficulty": 2, "kind": "situation",
+      "keywords": ["told us to", "asked us to", "reminded us not to"], "frameId": "f02",
+      "hintDirectionVi": "Tưởng tượng ba lời dặn của thầy cô, rồi kể lại bằng told/asked/reminded + us + (not) to V.",
+      "exampleAnswer": "Our teacher told us to work in groups of four. She asked us to choose a topic by Friday and reminded us not to copy from the internet.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Why can learning new things keep older people active and happy?", "difficulty": 3, "kind": "reason",
+      "keywords": ["active", "brain", "community"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ xem việc học mới giúp người lớn tuổi về trí óc và về các mối quan hệ như thế nào.",
+      "exampleAnswer": "Learning keeps their brains active and gives them a reason to meet people. My grandmother joined a painting class and made many new friends there.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "What makes someone a good role model for lifelong learning?", "difficulty": 3, "kind": "opinion",
+      "keywords": ["determination", "curious", "never stop"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về một người không ngừng học hỏi mà em biết. Họ có những phẩm chất gì?",
+      "exampleAnswer": "A good role model is curious and has determination. For example, my uncle learned coding at forty, and he encouraged me never to stop learning.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Do people need a teacher to learn, or can they learn everything by themselves? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["self-study", "guidance", "feedback"], "frameId": "f01",
+      "hintDirectionVi": "So sánh điều em tự học được trên mạng với điều chỉ thầy cô mới giúp được, như sửa lỗi hay định hướng.",
+      "exampleAnswer": "People can learn a lot by themselves online. However, a teacher gives feedback and guidance, and can advise us how to fix mistakes we cannot see.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "You are leaving school soon. Tell a friend about your plan for lifelong learning, and why.", "difficulty": 3, "kind": "situation",
+      "keywords": ["broaden", "brush up on", "online courses"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ một hai việc học cụ thể em sẽ duy trì sau khi ra trường và điều em mong đạt được.",
+      "exampleAnswer": "After school, I plan to brush up on my English with online courses and join a book club. I want to broaden my knowledge and keep my mind active.", "expectsReason": true
+    }
+  ]
+}

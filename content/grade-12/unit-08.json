@@ -1,0 +1,165 @@
+{
+  "grade": 12,
+  "unit": 8,
+  "title": "Wildlife Conservation",
+  "titleVi": "Bảo tồn động vật hoang dã",
+  "topic": "Nói về động vật hoang dã em quan tâm, những mối đe doạ với chúng và những việc em, trường em và xã hội có thể làm để bảo vệ chúng.",
+  "source": "Global Success 12, Unit 8 (chủ đề, từ vựng, ngữ pháp mệnh đề trạng ngữ chỉ điều kiện và so sánh)",
+  "vocab": [
+    { "id": "v01", "en": "endangered", "vi": "bị đe doạ, gặp nguy hiểm", "example": "The saola is an endangered animal that lives in Vietnamese forests." },
+    { "id": "v02", "en": "extinct", "vi": "tuyệt chủng", "example": "Dinosaurs became extinct millions of years ago." },
+    { "id": "v03", "en": "conservation", "vi": "sự bảo tồn", "example": "Our club raises money for wildlife conservation." },
+    { "id": "v04", "en": "conserve", "vi": "bảo vệ, bảo tồn", "example": "We must conserve forests for future generations." },
+    { "id": "v05", "en": "poach", "vi": "săn bắt trái phép", "example": "Some people still poach elephants for their tusks." },
+    { "id": "v06", "en": "forest clearance", "vi": "sự chặt phá rừng", "example": "Forest clearance leaves many monkeys without a home." },
+    { "id": "v07", "en": "captivity", "vi": "sự nuôi nhốt", "example": "Bears that live in captivity often look stressed." },
+    { "id": "v08", "en": "release", "vi": "thả (về tự nhiên)", "example": "The rangers released the turtle back into the sea." },
+    { "id": "v09", "en": "rescue", "vi": "giải cứu", "example": "Volunteers rescued an injured eagle from a fishing net." },
+    { "id": "v10", "en": "survive", "vi": "sống sót, tồn tại", "example": "Polar bears cannot survive without sea ice." },
+    { "id": "v11", "en": "marine", "vi": "thuộc về biển", "example": "Coral reefs are home to many marine animals." },
+    { "id": "v12", "en": "vulnerable", "vi": "dễ bị tổn thương", "example": "Baby animals are very vulnerable to hunters." }
+  ],
+  "frames": [
+    {
+      "id": "f01",
+      "text": "If we ___, ___ will ___.",
+      "vi": "Nếu chúng ta ..., ... sẽ ...",
+      "grammarNote": "Mệnh đề điều kiện có thể xảy ra: If + hiện tại đơn, will + V nguyên mẫu.",
+      "examples": ["If we stop buying ivory, fewer elephants will be killed."]
+    },
+    {
+      "id": "f02",
+      "text": "Unless we ___, ___ will ___.",
+      "vi": "Trừ khi chúng ta ..., nếu không ... sẽ ...",
+      "grammarNote": "Unless = if ... not. Sau unless dùng động từ khẳng định: Unless we act now = If we don't act now.",
+      "examples": ["Unless we protect their habitat, tigers will disappear from the wild."]
+    },
+    {
+      "id": "f03",
+      "text": "___ is acceptable as long as ___.",
+      "vi": "... có thể chấp nhận được miễn là ...",
+      "grammarNote": "as long as / provided that + mệnh đề: miễn là, với điều kiện là.",
+      "examples": ["Visiting a wildlife park is acceptable as long as the animals have enough space."]
+    },
+    {
+      "id": "f04",
+      "text": "___ is/are as ___ as ___.",
+      "vi": "... cũng ... như ...",
+      "grammarNote": "Mệnh đề so sánh bằng: as + tính từ + as; phủ định: not as/so + tính từ + as.",
+      "examples": ["Sea turtles are as important to the ocean as bees are to farms."]
+    },
+    {
+      "id": "f05",
+      "text": "There are fewer ___ than there were ___.",
+      "vi": "Bây giờ có ít ... hơn so với ...",
+      "grammarNote": "Mệnh đề so sánh hơn: fewer + danh từ số nhiều + than + mệnh đề (than there were ten years ago).",
+      "examples": ["There are fewer fireflies in my village than there were when my mum was young."]
+    },
+    {
+      "id": "f06",
+      "text": "If I ___, I would ___.",
+      "vi": "Nếu mình ..., mình sẽ ...",
+      "grammarNote": "Điều kiện giả định ở hiện tại: If + quá khứ đơn, would + V nguyên mẫu.",
+      "examples": ["If I worked at a national park, I would teach visitors about rare birds."]
+    },
+    {
+      "id": "f07",
+      "text": "Last ___, I visited ___, and I saw ___.",
+      "vi": "... vừa rồi, em đã đến ..., và em đã thấy ...",
+      "grammarNote": "Quá khứ đơn để kể chuyện đã qua; see là động từ bất quy tắc: see → saw.",
+      "examples": ["Last spring, I visited a bird sanctuary, and I saw hundreds of storks."]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01", "text": "What is your favourite wild animal?", "difficulty": 1, "kind": "personal",
+      "keywords": ["wild", "cute", "endangered"], "frameId": "f04",
+      "hintDirectionVi": "Chọn một con vật hoang dã em thích, rồi so sánh nó với một thứ quen thuộc để tả cho sinh động.",
+      "exampleAnswer": "My favourite wild animal is the red panda. It is as cute as a teddy bear, but it is now endangered.", "expectsReason": false
+    },
+    {
+      "id": "q02", "text": "Have you ever visited a zoo or a wildlife park? What did you see?", "difficulty": 1, "kind": "personal",
+      "keywords": ["zoo", "enclosure", "saw"], "frameId": "f07",
+      "hintDirectionVi": "Nhớ một lần đi sở thú hay vườn quốc gia. Em đã thấy những con vật nào và chúng sống ra sao?",
+      "exampleAnswer": "Yes, I visited a wildlife park in Ninh Binh. I saw monkeys and deer in large enclosures, and they looked quite relaxed.", "expectsReason": false
+    },
+    {
+      "id": "q03", "text": "Which endangered animal do you care about most?", "difficulty": 1, "kind": "personal",
+      "keywords": ["endangered", "protect", "care about"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ về một loài em từng xem trên phim tài liệu hoặc đọc trên báo. Điều gì đang đe doạ nó?",
+      "exampleAnswer": "I care about sea turtles most. Unless we stop plastic waste, they will keep dying in the ocean.", "expectsReason": false
+    },
+    {
+      "id": "q04", "text": "What wildlife can you see near where you live?", "difficulty": 1, "kind": "personal",
+      "keywords": ["birds", "insects", "fewer"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về chim, côn trùng, cá ở công viên, ao hồ gần nhà. So với trước đây nhiều hơn hay ít hơn?",
+      "exampleAnswer": "I can see some birds and squirrels in the park. However, there are fewer birds than there were when I was small.", "expectsReason": false
+    },
+    {
+      "id": "q05", "text": "Why do you think so many wild animals are becoming endangered?", "difficulty": 2, "kind": "reason",
+      "keywords": ["poach", "forest clearance", "habitat"], "frameId": "f05",
+      "hintDirectionVi": "Nghĩ về những việc con người làm ảnh hưởng đến nơi sống và sự an toàn của động vật.",
+      "exampleAnswer": "Many animals are losing their homes because of forest clearance. Also, people poach them for their skin, horns or meat.", "expectsReason": true
+    },
+    {
+      "id": "q06", "text": "Why should young people care about wildlife conservation?", "difficulty": 2, "kind": "reason",
+      "keywords": ["conservation", "future", "balance of nature"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ xem ai sẽ sống trong thế giới tương lai và thế giới đó sẽ thế nào nếu nhiều loài biến mất.",
+      "exampleAnswer": "Young people will live in the future world. If we don't protect wildlife now, many species will disappear before we grow old.", "expectsReason": true
+    },
+    {
+      "id": "q07", "text": "Is it right to keep wild animals in captivity? Why or why not?", "difficulty": 2, "kind": "opinion",
+      "keywords": ["captivity", "rescue", "freedom"], "frameId": "f03",
+      "hintDirectionVi": "Phân biệt nuôi để giải cứu, chữa bệnh với nuôi chỉ để làm cảnh. Em chấp nhận trường hợp nào?",
+      "exampleAnswer": "It depends. Zoos are acceptable as long as they rescue injured animals and give them enough space. Otherwise, animals should live freely in the wild.", "expectsReason": true
+    },
+    {
+      "id": "q08", "text": "You see someone selling products made from rare animals. What would you do?", "difficulty": 2, "kind": "situation",
+      "keywords": ["report", "illegal", "authorities"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ về việc em không làm và việc em có thể làm một cách an toàn để giúp ngăn chuyện này.",
+      "exampleAnswer": "If I saw that, I wouldn't buy anything, and I would report the seller to the local authorities. Selling products from rare animals is illegal.", "expectsReason": false
+    },
+    {
+      "id": "q09", "text": "What small things can you do to help protect animals?", "difficulty": 2, "kind": "personal",
+      "keywords": ["reduce plastic", "donate", "share"], "frameId": "f01",
+      "hintDirectionVi": "Nghĩ về việc trong tầm tay của em: thói quen hằng ngày, mua sắm, chia sẻ thông tin.",
+      "exampleAnswer": "I can reduce plastic and share posts about endangered animals. If more people know about the problem, they will help too.", "expectsReason": false
+    },
+    {
+      "id": "q10", "text": "Should people be allowed to keep wild animals as pets? Explain.", "difficulty": 2, "kind": "opinion",
+      "keywords": ["pets", "wild", "vulnerable"], "frameId": "f03",
+      "hintDirectionVi": "Nghĩ xem một con vật hoang dã cần những gì để sống khoẻ, và nhà ở bình thường có đáp ứng được không.",
+      "exampleAnswer": "No, they shouldn't. Wild animals are vulnerable in small homes, and they can only stay healthy as long as they live in their natural habitat.", "expectsReason": true
+    },
+    {
+      "id": "q11", "text": "Your school is holding a wildlife conservation event. Suggest one activity for it.", "difficulty": 2, "kind": "situation",
+      "keywords": ["poster contest", "talk", "fundraising"], "frameId": "f01",
+      "hintDirectionVi": "Chọn một hoạt động vừa vui vừa giúp học sinh nhớ thông điệp bảo vệ động vật. Nó diễn ra thế nào?",
+      "exampleAnswer": "We could hold a poster contest about endangered animals. If students design posters, they will learn more and remember the message.", "expectsReason": false
+    },
+    {
+      "id": "q12", "text": "Why is it important to protect marine animals as well as land animals?", "difficulty": 3, "kind": "reason",
+      "keywords": ["marine", "ocean", "food chain"], "frameId": "f04",
+      "hintDirectionVi": "Nghĩ xem biển cung cấp gì cho con người và chuyện gì xảy ra nếu sinh vật biển biến mất.",
+      "exampleAnswer": "Marine animals are as important as land animals. If fish and sea turtles disappear, the ocean food chain will break, and people will lose food too.", "expectsReason": true
+    },
+    {
+      "id": "q13", "text": "Which is more effective: stricter laws or education about wildlife? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["laws", "education", "poachers"], "frameId": "f03",
+      "hintDirectionVi": "So sánh tác dụng ngắn hạn của luật với tác dụng lâu dài của giáo dục. Có cần cả hai không?",
+      "exampleAnswer": "I think both are needed. Laws stop poachers quickly, but education works better in the long run, as long as it starts at a young age.", "expectsReason": true
+    },
+    {
+      "id": "q14", "text": "Should we spend money on saving animals when people also face many problems? Explain.", "difficulty": 3, "kind": "opinion",
+      "keywords": ["conserve", "depend on", "nature"], "frameId": "f02",
+      "hintDirectionVi": "Nghĩ xem cuộc sống con người phụ thuộc vào rừng, biển, động vật thế nào. Hai việc có thật sự tách rời không?",
+      "exampleAnswer": "Yes, I think so. Humans depend on nature. Unless we conserve forests and animals, we will face bigger problems like floods and food shortages.", "expectsReason": true
+    },
+    {
+      "id": "q15", "text": "Imagine you work at a rescue centre. Explain what you would do before releasing an animal.", "difficulty": 3, "kind": "situation",
+      "keywords": ["rescue", "release", "monitor"], "frameId": "f06",
+      "hintDirectionVi": "Nghĩ xem một con vật cần đủ điều kiện gì để tự sống ngoài tự nhiên, và sau khi thả cần theo dõi gì.",
+      "exampleAnswer": "If I worked there, I would check that the animal is healthy and can find food alone. After releasing it, I would monitor it to make sure it survives.", "expectsReason": true
+    }
+  ]
+}
