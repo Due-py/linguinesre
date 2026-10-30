@@ -30,7 +30,7 @@ export async function completeOnboarding(_prev: FormState, formData: FormData): 
     p_role: v.role,
     p_display_name: v.displayName,
     p_grade: v.role === "student" ? (v.grade ?? null) : null,
-    p_goal: v.role === "student" ? (v.goal ?? null) : null,
+    p_goal: null, // câu hỏi "muốn cải thiện" đã bỏ (30/10); cột goal giữ nguyên trong CSDL
   });
   if (error) {
     if (error.message.includes("already_onboarded")) redirect("/home");

@@ -28,5 +28,6 @@ export async function joinClass(_prev: FormState, formData: FormData): Promise<F
   if (!Array.isArray(data) || data.length === 0) return notFound;
 
   revalidatePath("/student");
+  revalidatePath("/account");
   return { notice: `Bạn đã vào lớp ${String(data[0].class_name)}.` };
 }

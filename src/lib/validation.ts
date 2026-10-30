@@ -28,19 +28,11 @@ export const resetSchema = z
   .object({ password, confirm: z.string() })
   .refine((v) => v.password === v.confirm, { path: ["confirm"], message: "Hai mật khẩu chưa giống nhau." });
 
-export const GOALS = {
-  reflex: "Trả lời nhanh hơn",
-  express: "Diễn đạt ý tưởng",
-  vocab: "Dùng từ vựng tốt hơn",
-  grammar: "Nói đúng ngữ pháp hơn",
-} as const;
-
 export const onboardingSchema = z
   .object({
     role: z.enum(["student", "teacher"], { error: "Hãy chọn bạn là học sinh hay giáo viên." }),
     displayName: z.string().trim().min(1, "Hãy nhập tên hiển thị.").max(40, "Tên hiển thị tối đa 40 ký tự."),
     grade: z.coerce.number().int().min(6).max(12).optional(),
-    goal: z.enum(["reflex", "express", "vocab", "grammar"]).optional(),
     classCode: z.string().trim().optional(),
   })
   .superRefine((v, ctx) => {

@@ -3,6 +3,7 @@ import { createClient } from "@/lib/supabase/server";
 import { computeMeasures } from "@/lib/feedback/measures";
 import type { FeedbackPayload } from "@/lib/feedback/generate";
 import { FOCUS_MIN_SESSIONS, latestAttempt, pickGoal, type Goal, type ReportQuestion } from "@/lib/summary";
+import type { CompletedSession } from "@/lib/reaction";
 
 /**
  * Đọc buổi luyện để xem lại / tổng kết. Dùng client thường nên RLS quyết định ai thấy gì:
@@ -179,4 +180,29 @@ export async function improvementFocus(studentId: string): Promise<Focus> {
   }
   const measures = [...groups.values()].map((g) => latestAttempt(g)!.view.measures);
   return { completed: count, goal: pickGoal(measures) };
+}
+
+/**
+ * Dữ liệu cho khối "Thời gian bắt đầu nói": các buổi đã hoàn thành gần nhất kèm think_ms của từng lần trả lời.
+ * Đọc bằng client thường (RLS): học sinh chỉ đọc được của mình, giáo viên chỉ đọc được học sinh trong lớp mình.
+ */
+export async function reactionSessions(studentId: string, limit = 12): Promise<CompletedSession[]> {
+  const supabase = await createClient();
+  const { data } = await supabase
+    .from("practice_sessions")
+    .select("id, completed_at, units(title), session_answers(question_id, attempt_no, think_ms)")
+    .eq("student_id", studentId)
+    .eq("status", "completed")
+    .order("completed_at", { ascending: false })
+    .limit(limit);
+  return (data ?? []).map((s) => ({
+    id: s.id,
+    completedAt: s.completed_at as string,
+    unitTitle: one(s.units as unknown as { title: string } | null)?.title ?? "Unit",
+    answers: (s.session_answers as { question_id: string; attempt_no: number; think_ms: number | null }[]).map((a) => ({
+      questionId: a.question_id,
+      attemptNo: a.attempt_no,
+      thinkMs: a.think_ms,
+    })),
+  }));
 }

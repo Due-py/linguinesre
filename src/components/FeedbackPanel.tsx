@@ -22,12 +22,15 @@ export default function FeedbackPanel({
   error,
   onRetry,
   level = 2,
+  askFirst = false,
 }: {
   view: FeedbackView | null;
   loading: boolean;
   error: string | null;
   onRetry?: () => void;
   level?: Level;
+  /** true: câu chưa từng xin AI nhận xét (luyện tự do, AI theo yêu cầu): nút ghi "Xem nhận xét của AI" thay vì "lấy lại". */
+  askFirst?: boolean;
 }) {
   if (loading) {
     return (
@@ -51,12 +54,13 @@ export default function FeedbackPanel({
   return (
     <div className="grid gap-5">
       <Measured view={view} level={level} />
-      <AiReview view={view} onRetry={onRetry} level={level} />
+      <AiReview view={view} onRetry={onRetry} level={level} askFirst={askFirst} />
     </div>
   );
 }
 
-function Measured({ view, level }: { view: FeedbackView; level: Level }) {
+/** Khối "Đo trực tiếp" (quy tắc, không AI). Dùng riêng được khi chưa xin AI nhận xét. */
+export function Measured({ view, level }: { view: FeedbackView; level: Level }) {
   const m = view.measures;
   const id = useId();
   const H = level === 2 ? "h2" : "h3";
@@ -102,7 +106,8 @@ function Measured({ view, level }: { view: FeedbackView; level: Level }) {
   );
 }
 
-function AiReview({ view, onRetry, level }: { view: FeedbackView; onRetry?: () => void; level: Level }) {
+/** Khối "AI nhận xét". Dùng riêng được khi phần đo trực tiếp đã hiện ở chỗ khác. */
+export function AiReview({ view, onRetry, level, askFirst = false }: { view: FeedbackView; onRetry?: () => void; level: Level; askFirst?: boolean }) {
   const ai = view.ai;
   const id = useId();
   const H = level === 2 ? "h2" : "h3";
@@ -124,9 +129,9 @@ function AiReview({ view, onRetry, level }: { view: FeedbackView; onRetry?: () =
         <div className="grid gap-3">
           <p className="flex items-start gap-2 font-semibold">
             <CircleDashed className="mt-0.5 size-5 shrink-0" aria-hidden />
-            Chưa có nhận xét cho câu này. Câu trả lời vẫn được lưu bình thường.
+            {askFirst ? "Câu này chưa được AI nhận xét." : "Chưa có nhận xét cho câu này. Câu trả lời vẫn được lưu bình thường."}
           </p>
-          {onRetry && <RetryButton onClick={onRetry} />}
+          {onRetry && <RetryButton onClick={onRetry} label={askFirst ? "Xem nhận xét của AI" : undefined} />}
         </div>
       ) : (
         <div className="grid gap-4">
@@ -203,7 +208,7 @@ function Row({ label, value, detail }: { label: string; value: React.ReactNode; 
   );
 }
 
-function RetryButton({ onClick }: { onClick: () => void }) {
+function RetryButton({ onClick, label = "Thử lấy nhận xét lại" }: { onClick: () => void; label?: string }) {
   return (
     <button
       type="button"
@@ -211,15 +216,19 @@ function RetryButton({ onClick }: { onClick: () => void }) {
       className="inline-flex min-h-11 w-fit items-center gap-2 rounded-full border border-line-strong bg-surface px-4 font-bold hover:bg-sunken"
     >
       <RotateCcw className="size-4" aria-hidden />
-      Thử lấy nhận xét lại
+      {label}
     </button>
   );
 }
 
-/** So sánh hai lần trả lời cùng một câu. Chỉ hiện khi cả hai lần đều có phản hồi. Không kết luận "tốt hơn/kém hơn". */
+/**
+ * So sánh hai lần trả lời cùng một câu, dựa trên số đo trực tiếp (luôn có). Dòng lỗi ngữ pháp chỉ có số khi lần đó đã
+ * được AI nhận xét. Không kết luận "tốt hơn/kém hơn".
+ */
 export function AttemptCompare({ before, after }: { before: FeedbackView; after: FeedbackView }) {
   const kw = (v: FeedbackView) => `${v.measures.keywords.used.length}/${v.measures.keywords.total}`;
-  const issues = (v: FeedbackView) => (v.ai?.grammar.status === "assessed" ? String(v.ai.grammar.issues.length) : "chưa đủ thông tin");
+  const issues = (v: FeedbackView) =>
+    !v.ai ? "chưa có nhận xét" : v.ai.grammar.status === "assessed" ? String(v.ai.grammar.issues.length) : "chưa đủ thông tin";
   const rows: [string, string, string][] = [
     ["Số từ", String(before.measures.words), String(after.measures.words)],
     ["Từ gợi ý đã dùng", kw(before), kw(after)],

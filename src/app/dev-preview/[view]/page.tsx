@@ -40,12 +40,12 @@ export default async function Preview({ params }: { params: Promise<{ view: stri
           <StudentHome
             name="Minh Anh"
             grade={8}
-            goal="reflex"
             classes={[]}
             today={{ kind: "start", href: "#", unitTitle: "Leisure Time" }}
             roadmap={roadmap.map((u, i) => ({ ...u, state: i === 0 ? "next" : "todo" }))}
             recent={[]}
             focus={{ completed: 0, goal: null }}
+            reaction={[]}
           />
         </AppShell>
       );
@@ -55,7 +55,6 @@ export default async function Preview({ params }: { params: Promise<{ view: stri
           <StudentHome
             name="Minh Anh"
             grade={8}
-            goal={null}
             classes={[{ id: "1", name: "8A1" }]}
             today={{ kind: "continue", href: "#", unitTitle: "Life in the Countryside", answered: 2, total: 5 }}
             roadmap={roadmap.map((u, i) => ({ ...u, state: i === 0 ? "done" : i === 1 ? "in_progress" : "todo" }))}
@@ -69,6 +68,12 @@ export default async function Preview({ params }: { params: Promise<{ view: stri
                 basis: "4/6 câu hỏi cần lý do chưa có từ nối lý do.",
               },
             }}
+            reaction={[
+              { sessionId: "p1", completedAt: "2026-11-02T10:00:00Z", unitTitle: "Leisure Time", medianMs: 3400, measured: 5 },
+              { sessionId: "p2", completedAt: "2026-11-04T10:00:00Z", unitTitle: "Leisure Time", medianMs: 2900, measured: 4 },
+              { sessionId: "p3", completedAt: "2026-11-06T10:00:00Z", unitTitle: "Life in the Countryside", medianMs: 3100, measured: 5 },
+              { sessionId: "p4", completedAt: "2026-11-09T10:00:00Z", unitTitle: "Life in the Countryside", medianMs: 2200, measured: 5 },
+            ]}
           />
         </AppShell>
       );

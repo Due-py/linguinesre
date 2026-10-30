@@ -214,6 +214,7 @@ function QuestionItem({ q, index, canRequest }: { q: ReportQuestion; index: numb
               error={error}
               onRetry={canRequest ? () => void fetchFeedback() : undefined}
               level={3}
+              askFirst={last.view.status !== "ok"}
             />
           </div>
         )}

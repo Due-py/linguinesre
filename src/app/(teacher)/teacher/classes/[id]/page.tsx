@@ -7,6 +7,7 @@ import { ClassStatusForm, RemoveMemberForm, RenameClassForm } from "@/components
 import CopyCode from "@/components/CopyCode";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
+import { studentPractice, unitCoverage, type ClassSession } from "@/lib/classStats";
 
 export const metadata: Metadata = { title: "Chi tiết lớp" };
 export const dynamic = "force-dynamic";
@@ -18,6 +19,7 @@ type MemberRow = {
 };
 
 const dateFmt = new Intl.DateTimeFormat("vi-VN", { day: "numeric", month: "numeric", year: "numeric" });
+const secs = (ms: number) => `${(ms / 1000).toFixed(1).replace(".", ",")} giây`;
 
 export default async function ClassPage({ params }: { params: Promise<{ id: string }> }) {
   const profile = await requireRole("teacher");
@@ -43,11 +45,11 @@ export default async function ClassPage({ params }: { params: Promise<{ id: stri
     .sort((a, b) => a.name.localeCompare(b.name, "vi"));
   const archived = cls.status === "archived";
 
-  // Số buổi hoàn thành và lần luyện gần nhất của từng học sinh (RLS: chỉ học sinh trong lớp của giáo viên này).
+  // Buổi luyện tự do của học sinh trong lớp (RLS: chỉ học sinh trong lớp của giáo viên này). Không dùng dữ liệu nghiên cứu.
   const { data: sessions } = rows.length
     ? await supabase
         .from("practice_sessions")
-        .select("student_id, status, started_at")
+        .select("student_id, unit_id, status, started_at, completed_at, session_answers(question_id, attempt_no, think_ms)")
         .in(
           "student_id",
           rows.map((r) => r.id),
@@ -60,6 +62,26 @@ export default async function ClassPage({ params }: { params: Promise<{ id: stri
     if (!p.last || s.started_at > p.last) p.last = s.started_at;
     practice.set(s.student_id, p);
   }
+  const classSessions: ClassSession[] = (sessions ?? []).map((s) => ({
+    studentId: s.student_id,
+    unitId: s.unit_id,
+    status: s.status,
+    completedAt: s.completed_at,
+    answers: ((s.session_answers ?? []) as { question_id: string; attempt_no: number; think_ms: number | null }[]).map((a) => ({
+      questionId: a.question_id,
+      attemptNo: a.attempt_no,
+      thinkMs: a.think_ms,
+    })),
+  }));
+  const weekly = studentPractice(classSessions, new Date());
+  const coverage = unitCoverage(classSessions);
+  // Unit để hiện: mọi Unit đã duyệt của khối (lớp một khối), hoặc các Unit đã có người luyện (lớp nhiều khối).
+  const unitIds = [...new Set(classSessions.map((s) => s.unitId))];
+  const { data: unitRows } = cls.grade
+    ? await supabase.from("units").select("id, unit_no, title, grade").eq("grade", cls.grade).eq("status", "approved").order("unit_no")
+    : unitIds.length
+      ? await supabase.from("units").select("id, unit_no, title, grade").in("id", unitIds).order("grade").order("unit_no")
+      : { data: [] };
 
   return (
     <AppShell name={profile.displayName ?? ""} roleLabel="Giáo viên" homeHref="/teacher">
@@ -114,6 +136,14 @@ export default async function ClassPage({ params }: { params: Promise<{ id: stri
                         ? `${p.completed} buổi hoàn thành, luyện gần nhất ngày ${dateFmt.format(new Date(p.last))}`
                         : "Chưa luyện"}
                     </span>
+                    {p?.last && (
+                      <span className="text-sm text-muted">
+                        Tuần này: {weekly.get(r.id)?.doneThisWeek ?? 0} buổi hoàn thành.{" "}
+                        {weekly.get(r.id)?.lastMedianMs != null
+                          ? `Thời gian bắt đầu nói buổi gần nhất: ${secs(weekly.get(r.id)!.lastMedianMs!)} (ước lượng).`
+                          : "Chưa đo được thời gian bắt đầu nói."}
+                      </span>
+                    )}
                   </div>
                   <RemoveMemberForm classId={cls.id} studentId={r.id} name={r.name} />
                 </li>
@@ -122,6 +152,38 @@ export default async function ClassPage({ params }: { params: Promise<{ id: stri
             </ul>
           )}
         </section>
+
+        {rows.length > 0 && (
+          <section aria-labelledby="units" className="grid gap-4">
+            <h2 id="units" className="text-2xl font-extrabold tracking-tight">
+              Unit đã luyện
+            </h2>
+            {(unitRows ?? []).length === 0 ? (
+              <p className="max-w-prose text-muted">Chưa có học sinh nào hoàn thành buổi luyện tự do.</p>
+            ) : (
+              <ul className="divide-y divide-line border-y border-line">
+                {(unitRows ?? []).map((u) => (
+                  <li key={u.id} className="flex flex-wrap items-baseline justify-between gap-3 py-3">
+                    <span>
+                      <span className="text-muted">
+                        {cls.grade ? "" : `Lớp ${u.grade}, `}Unit {u.unit_no}:{" "}
+                      </span>
+                      <span lang="en" className="font-semibold">
+                        {u.title}
+                      </span>
+                    </span>
+                    <span className="text-sm font-semibold tabular-nums">
+                      {coverage.get(u.id) ?? 0}/{rows.length} bạn đã luyện
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            )}
+            <p className="text-sm text-muted">
+              Chỉ tính buổi luyện tự do đã hoàn thành. Thời gian bắt đầu nói do trình duyệt của học sinh ước lượng (số ở giữa của các câu trong buổi).
+            </p>
+          </section>
+        )}
 
         <section aria-labelledby="settings" className="grid gap-6">
           <h2 id="settings" className="text-2xl font-extrabold tracking-tight">

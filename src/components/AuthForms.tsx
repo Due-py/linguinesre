@@ -23,9 +23,6 @@ export function LoginForm({ linkInvalid }: { linkInvalid?: boolean }) {
         <Link href="/forgot-password" className={linkClass}>
           Quên mật khẩu?
         </Link>
-        <Link href="/login" className={linkClass}>
-          Học sinh đăng nhập bằng mã
-        </Link>
         <span className="text-muted">
           Chưa có tài khoản?{" "}
           <Link href="/signup" className={linkClass}>
@@ -37,7 +34,7 @@ export function LoginForm({ linkInvalid }: { linkInvalid?: boolean }) {
   );
 }
 
-/** Học sinh tham gia nghiên cứu: mã HS + PIN trên phiếu đăng nhập. */
+/** Học sinh có phiếu đăng nhập (mã HS + PIN) của nhóm nghiên cứu. Tài khoản email dùng tab "Email" (LoginForm). */
 export function CodeLoginForm() {
   const [state, action] = useActionState<FormState, FormData>(signInWithCode, null);
   return (
@@ -63,12 +60,7 @@ export function CodeLoginForm() {
       />
       <FormMessage state={state} />
       <SubmitButton pendingLabel="Đang đăng nhập…">Đăng nhập</SubmitButton>
-      <p className="text-sm text-muted">
-        Quên PIN? Báo nhóm nghiên cứu để được cấp lại.{" "}
-        <Link href="/login?as=email" className={linkClass}>
-          Giáo viên đăng nhập bằng email
-        </Link>
-      </p>
+      <p className="text-sm text-muted">Quên PIN? Báo nhóm nghiên cứu để được cấp lại.</p>
     </form>
   );
 }

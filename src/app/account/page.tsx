@@ -3,6 +3,8 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import AppShell from "@/components/AppShell";
 import DeleteAccountForm from "@/components/DeleteAccountForm";
+import JoinClassForm from "@/components/JoinClassForm";
+import { createClient } from "@/lib/supabase/server";
 import { getProfile, homePathFor } from "@/lib/auth";
 import { getParticipant } from "@/lib/research/server";
 
@@ -16,6 +18,9 @@ export default async function AccountPage() {
   if (!profile.onboarded) redirect("/onboarding");
   const participant = profile.role === "student" ? await getParticipant(profile.id) : null;
   const home = homePathFor(profile.role);
+  // RLS: học sinh chỉ thấy lớp mình đã vào.
+  const classes =
+    profile.role === "student" ? ((await (await createClient()).from("classes").select("id, name").eq("status", "active").order("created_at")).data ?? []) : [];
 
   return (
     <AppShell name={participant?.code ?? profile.displayName ?? ""} roleLabel={profile.role === "teacher" ? "Giáo viên" : "Học sinh"} homeHref={home}>
@@ -35,6 +40,26 @@ export default async function AccountPage() {
             .
           </p>
         </section>
+
+        {profile.role === "student" && (
+          <section id="lop" aria-labelledby="class" className="grid scroll-mt-24 gap-4">
+            <h2 id="class" className="text-2xl font-extrabold tracking-tight">
+              Lớp của bạn
+            </h2>
+            {classes.length > 0 ? (
+              <ul className="divide-y divide-line border-y border-line">
+                {classes.map((c) => (
+                  <li key={c.id} className="py-3 text-lg font-semibold">
+                    {c.name}
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p className="text-muted">Bạn chưa vào lớp nào. Vào lớp thì thầy cô xem được các buổi luyện tự do của bạn.</p>
+            )}
+            <JoinClassForm />
+          </section>
+        )}
 
         <section aria-labelledby="delete" className="grid gap-4 rounded-2xl border border-danger/30 bg-surface p-6">
           <h2 id="delete" className="text-2xl font-extrabold tracking-tight">

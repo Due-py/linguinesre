@@ -111,7 +111,8 @@ async function main() {
   const sessionUrl = page.url();
 
   // started: đã bắt đầu sẵn (nút "Nói lại câu này" đọc câu hỏi và nghe ngay, không cần bấm "Nghe câu hỏi").
-  async function answerOne({ hints = 0, shots = false, started = false } = {}) {
+  // ai: bấm "Xem nhận xét của AI" sau khi lưu (AI không còn tự chạy cho mọi câu).
+  async function answerOne({ hints = 0, shots = false, started = false, ai = false } = {}) {
     if (shots) await shot("14-luyen-noi-san-sang");
     if (!started) await page.getByRole("button", { name: "Nghe câu hỏi" }).click();
     // Micro giả phát tiếng bíp đều nên không có "lúc bắt đầu nói" rõ ràng: bấm dừng bằng tay.
@@ -119,19 +120,33 @@ async function main() {
     await stop.waitFor({ timeout: 40_000 });
     for (let i = 0; i < hints; i++) await page.getByRole("button", { name: /gợi ý/i }).click();
     if (shots) await shot("15-luyen-noi-dang-nghe-co-goi-y");
+    // Như người thật: nói một lúc rồi mới bấm dừng (bấm ngay thì bản ghi quá ngắn và trang báo lỗi).
+    await page.waitForTimeout(1500);
     await stop.click();
-    await page.getByText("Máy nghe được").waitFor();
+    // Lúc đang chép lời có thể thoáng hiện "chưa nghe thấy bạn nói" (micro giả không có lúc bắt đầu nói rõ ràng), nên chỉ
+    // khi chờ quá lâu mới in thông báo đang hiện trên trang để biết vì sao.
+    await page
+      .getByText("Máy nghe được")
+      .waitFor()
+      .catch(async () => {
+        const alerts = await page.getByRole("alert").allInnerTexts();
+        throw new Error(`Không thấy kết quả chép lời. Trang đang báo: ${alerts.join(" | ") || "(không có thông báo)"}`);
+      });
     mockLabelSeen ||= await page.getByText("Dữ liệu mô phỏng, không phải lời bạn nói").isVisible();
     if (shots) await shot("16-luyen-noi-xem-lai-chu-ghi-loi");
     const box = page.getByRole("textbox");
     await box.fill("I usually play badminton with my friends because it is fun.");
     await page.getByRole("button", { name: "Lưu câu trả lời" }).click();
     await page.getByText(/Đã lưu câu trả lời/).waitFor();
-    await page.getByRole("heading", { name: "AI nhận xét" }).waitFor();
+    await page.getByRole("heading", { name: "Đo trực tiếp" }).waitFor();
+    if (ai) {
+      await page.getByRole("button", { name: "Xem nhận xét của AI" }).click();
+      await page.getByRole("heading", { name: "AI nhận xét" }).waitFor();
+    }
     if (shots) await shot("17-luyen-noi-da-luu-co-phan-hoi");
   }
 
-  await answerOne({ hints: 2, shots: true });
+  await answerOne({ hints: 2, shots: true, ai: true });
   t("câu 1: nghe, ghi âm, chép lời (mô phỏng), sửa, lưu", true);
   t("có nhãn dữ liệu mô phỏng khi MOCK_AI=1", mockLabelSeen);
   t("có khối 'Đo trực tiếp' tách riêng", await page.getByRole("heading", { name: "Đo trực tiếp" }).isVisible());
@@ -144,7 +159,8 @@ async function main() {
   await page.getByRole("button", { name: "Nói lại câu này (còn 2 lần)" }).click();
   await answerOne({ started: true });
   t("nói lại câu 1 thành lần 2", await page.getByText("Đã lưu câu trả lời (lần 2).").isVisible());
-  t("có so sánh lần 1 và lần 2", await page.getByRole("heading", { name: "So sánh lần 1 và lần 2" }).isVisible());
+  t("chưa bấm thì chưa có AI nhận xét, chỉ có nút xem", (await page.getByRole("button", { name: "Xem nhận xét của AI" }).isVisible()) && (await page.getByRole("heading", { name: "AI nhận xét" }).count()) === 0);
+  t("có so sánh lần 1 và lần 2 kể cả khi lần 2 chưa có AI nhận xét", await page.getByRole("heading", { name: "So sánh lần 1 và lần 2" }).isVisible());
   await shot("21-noi-lai-co-so-sanh");
   await page.getByRole("button", { name: "Câu tiếp theo" }).click();
   await answerOne();
@@ -169,11 +185,13 @@ async function main() {
   t("mở trang tổng kết", await page.getByRole("heading", { name: "Tổng kết: E2E Test Unit" }).isVisible());
   t("tổng kết ghi buổi đã hoàn thành", await page.getByText("Đã hoàn thành").isVisible());
   t("tổng kết có mục tiêu cho buổi sau kèm căn cứ", (await page.getByText("Mục tiêu cho buổi sau").isVisible()) && (await page.getByText(/Căn cứ \(đo trực tiếp\)/).isVisible()));
-  t("tổng kết ghi rõ lỗi cần chú ý là dữ liệu mô phỏng", await page.getByText("Có nhận xét là dữ liệu mô phỏng, không phải nhận xét thật").isVisible());
+  // AI theo yêu cầu: tổng kết tính lần trả lời cuối của mỗi câu, các lần này chưa bấm xem nên chưa có nhận xét.
+  t("tổng kết ghi rõ câu nào chưa có nhận xét AI", await page.getByText("chưa có nhận xét").first().isVisible());
   t("tổng kết có 5 câu", (await page.locator("section[aria-labelledby=answers] ol > li").count()) === 5);
   await page.locator("summary").first().click();
   t("câu 1 hiện lần trả lời cuối là lần 2", await page.getByText("Lần 2 (lần cuối)").isVisible());
   t("câu 1 có trình phát bản ghi để nghe lại", (await page.locator("details[open] audio").count()) === 1);
+  t("tổng kết cho xin nhận xét AI ngay tại đó (ô câu 1 đang mở)", await seen(page.locator("details[open]").getByRole("button", { name: "Xem nhận xét của AI" })));
   await shot("22-tong-ket-buoi-luyen");
 
   await page.getByRole("link", { name: "Lịch sử", exact: true }).click();
@@ -223,7 +241,7 @@ async function main() {
   t("có đúng 6 câu trả lời trong CSDL (5 câu, câu 1 nói 2 lần)", answers.length === 6, `${answers.length}`);
   t("lần nói lại được lưu với attempt_no = 2", answers[1]?.attempt_no === 2, `${answers[1]?.attempt_no}`);
   const feedback = await admin(`answer_feedback?select=answer_id,status,model,payload&student_id=eq.${userId}`);
-  t("mỗi câu trả lời có một nhận xét đã lưu", feedback.length === 6 && feedback.every((f) => f.status === "ok" && f.model === "mock"), `${feedback.length}`);
+  t("chỉ câu đã bấm xem mới gọi AI (1 trong 6 lần trả lời)", feedback.length === 1 && feedback.every((f) => f.status === "ok" && f.model === "mock"), `${feedback.length}`);
   t("máy chủ đã bỏ lỗi bịa trước khi lưu", feedback.every((f) => f.payload.feedback.dropped_issues === 1 && f.payload.feedback.grammar.issues.length === 1));
   t("câu 1 ghi mức gợi ý 2", answers[0]?.hint_level === 2, `${answers[0]?.hint_level}`);
   t("chữ học sinh sửa được lưu và đánh dấu đã sửa", answers.every((a) => a.transcript_edited && a.transcript_final.includes("badminton")));

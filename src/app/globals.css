@@ -138,6 +138,23 @@ h3 {
   }
 }
 
+/* Vạch thời gian minh họa Speed Q&A trên trang chủ: ngắn dần trong 5 giây, nghỉ 1 giây, lặp lại. */
+@keyframes countdown {
+  0% {
+    transform: scaleX(1);
+  }
+  83% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(0);
+  }
+}
+.countdown-bar {
+  transform-origin: left;
+  animation: countdown 6s linear infinite;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -148,5 +165,9 @@ h3 {
     animation-duration: 0.001ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.001ms !important;
+  }
+  .countdown-bar {
+    animation: none;
+    transform: scaleX(0.6);
   }
 }

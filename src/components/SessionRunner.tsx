@@ -9,13 +9,15 @@ import {
   CircleAlert,
   Lightbulb,
   LoaderCircle,
+  MessageSquareText,
   MicOff,
   RotateCcw,
   Square,
   Volume2,
 } from "lucide-react";
 import { discardRecording, finishSession, requestFeedback, saveAnswer, type FeedbackView } from "@/app/(student)/student/practice/actions";
-import FeedbackPanel, { AttemptCompare } from "@/components/FeedbackPanel";
+import { AiReview, AttemptCompare, Measured } from "@/components/FeedbackPanel";
+import type { Measures } from "@/lib/feedback/measures";
 import type { RunnerQuestion } from "@/lib/practice";
 import { nextHintLevel } from "@/lib/speaking/hints";
 import { countWords } from "@/lib/speaking/onset";
@@ -23,8 +25,21 @@ import { useRecorder } from "@/lib/speaking/useRecorder";
 
 type Phase = "ready" | "reading" | "listening" | "processing" | "review" | "saved" | "done";
 type Transcribed = { audioPath: string | null; transcript: string; confidence: number | null; mock: boolean };
-/** Một lần trả lời đã lưu của câu đang làm, kèm phản hồi của lần đó. */
-type Attempt = { answerId: string; attemptNo: number; view: FeedbackView | null; loading: boolean; error: string | null };
+/**
+ * Một lần trả lời đã lưu của câu đang làm. measures (đo trực tiếp) có ngay khi lưu; ai chỉ có sau khi học sinh bấm
+ * "Xem nhận xét của AI" (asked), để không gọi AI tự động cho mọi câu.
+ */
+type Attempt = {
+  answerId: string;
+  attemptNo: number;
+  measures: Measures;
+  asked: boolean;
+  ai: FeedbackView | null;
+  loading: boolean;
+  error: string | null;
+};
+/** Dạng FeedbackView của một lần trả lời, để dùng chung khối hiển thị và bảng so sánh. */
+const viewOf = (a: Attempt): FeedbackView => a.ai ?? { attemptNo: a.attemptNo, measures: a.measures, status: "failed", mock: false, ai: null };
 const MAX_ATTEMPTS = 3;
 
 const secs = (ms: number | null) => (ms === null ? "chưa đo được" : `${(ms / 1000).toFixed(1).replace(".", ",")} giây`);
@@ -178,17 +193,16 @@ export default function SessionRunner({
       setError(r.error);
       return;
     }
-    setAttempts((xs) => [...xs, { answerId: r.answerId, attemptNo: r.attemptNo, view: null, loading: true, error: null }]);
+    setAttempts((xs) => [...xs, { answerId: r.answerId, attemptNo: r.attemptNo, measures: r.measures, asked: false, ai: null, loading: false, error: null }]);
     setPhase("saved");
-    void loadFeedback(r.answerId);
   }
 
   async function loadFeedback(answerId: string) {
     const patch = (p: Partial<Attempt>) => setAttempts((xs) => xs.map((a) => (a.answerId === answerId ? { ...a, ...p } : a)));
-    patch({ loading: true, error: null });
+    patch({ asked: true, loading: true, error: null });
     try {
       const r = await requestFeedback(answerId);
-      patch(r.ok ? { loading: false, view: r.view } : { loading: false, error: r.error });
+      patch(r.ok ? { loading: false, ai: r.view } : { loading: false, error: r.error });
     } catch {
       patch({ loading: false, error: "Mất kết nối khi lấy nhận xét. Kiểm tra mạng rồi thử lại." });
     }
@@ -307,9 +321,45 @@ export default function SessionRunner({
               Đã lưu câu trả lời{current && current.attemptNo > 1 ? ` (lần ${current.attemptNo})` : ""}.
             </p>
             {current && (
-              <FeedbackPanel view={current.view} loading={current.loading} error={current.error} onRetry={() => void loadFeedback(current.answerId)} />
+              <div className="grid gap-5">
+                <Measured view={viewOf(current)} level={2} />
+                {!current.asked ? (
+                  <div className="grid gap-2">
+                    <button
+                      type="button"
+                      onClick={() => void loadFeedback(current.answerId)}
+                      className="inline-flex min-h-12 w-fit items-center gap-2 rounded-full border border-line-strong bg-surface px-6 font-semibold hover:bg-sunken"
+                    >
+                      <MessageSquareText className="size-5" aria-hidden />
+                      Xem nhận xét của AI
+                    </button>
+                    <p className="text-sm text-muted">AI đọc chữ ghi lời rồi nhận xét về nội dung, ngữ pháp, cách dùng từ. Không chấm phát âm.</p>
+                  </div>
+                ) : current.loading ? (
+                  <p role="status" className="flex items-center gap-2 rounded-2xl bg-sunken px-5 py-4 font-bold">
+                    <LoaderCircle className="size-5 animate-spin" aria-hidden />
+                    Đang viết nhận xét cho câu trả lời…
+                  </p>
+                ) : current.ai ? (
+                  <AiReview view={current.ai} onRetry={() => void loadFeedback(current.answerId)} level={2} />
+                ) : (
+                  <div className="grid gap-3">
+                    <p role="alert" className="flex items-start gap-2 rounded-xl bg-warn-soft px-4 py-3 font-semibold text-warn">
+                      <CircleAlert className="mt-0.5 size-5 shrink-0" aria-hidden />
+                      {current.error ?? "Chưa lấy được nhận xét."}
+                    </p>
+                    <button
+                      type="button"
+                      onClick={() => void loadFeedback(current.answerId)}
+                      className="inline-flex min-h-12 w-fit items-center rounded-full border border-line-strong bg-surface px-6 font-semibold hover:bg-sunken"
+                    >
+                      Thử lại
+                    </button>
+                  </div>
+                )}
+              </div>
             )}
-            {previous?.view?.status === "ok" && current?.view?.status === "ok" && <AttemptCompare before={previous.view} after={current.view} />}
+            {previous && current && <AttemptCompare before={viewOf(previous)} after={viewOf(current)} />}
           </>
         )}
 

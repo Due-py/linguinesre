@@ -82,7 +82,8 @@ const answerSchema = z.object({
   audioPath: z.string().max(300).nullable(),
 });
 export type AnswerInput = z.infer<typeof answerSchema>;
-export type SaveAnswerResult = { ok: true; answerId: string; attemptNo: number } | { ok: false; error: string };
+/** measures: "Đo trực tiếp" của câu vừa lưu (quy tắc, không AI), hiện ngay mà không tốn tiền. AI nhận xét chỉ khi học sinh bấm xem. */
+export type SaveAnswerResult = { ok: true; answerId: string; attemptNo: number; measures: Measures } | { ok: false; error: string };
 
 /** Lưu một câu trả lời (sau khi học sinh đã xem/sửa chữ ghi lời). Quyền ghi do RLS bảo đảm. */
 export async function saveAnswer(input: AnswerInput): Promise<SaveAnswerResult> {
@@ -123,7 +124,15 @@ export async function saveAnswer(input: AnswerInput): Promise<SaveAnswerResult> 
     .select("id")
     .single();
   if (error || !data) return { ok: false, error: "Chưa lưu được câu trả lời. Hãy thử lại." };
-  return { ok: true, answerId: data.id, attemptNo };
+  const { data: q } = await ctx.supabase.from("questions").select("keywords, expects_reason").eq("id", v.questionId).maybeSingle();
+  const measures = computeMeasures({
+    thinkMs: v.thinkMs,
+    speakMs: v.speakMs,
+    transcript: v.transcriptFinal,
+    keywords: q?.keywords ?? [],
+    expectsReason: q?.expects_reason ?? false,
+  });
+  return { ok: true, answerId: data.id, attemptNo, measures };
 }
 
 export type FeedbackView = {

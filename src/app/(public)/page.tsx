@@ -1,47 +1,37 @@
-import { ChevronDown, ClipboardCheck, Lightbulb, MessageCircle, Mic, Repeat2, Users } from "lucide-react";
 import Link from "next/link";
+import { ChevronDown, Lightbulb, Timer, Users } from "lucide-react";
 import ButtonLink from "@/components/ButtonLink";
 import Logo from "@/components/Logo";
+import PyramidDiagram from "@/components/PyramidDiagram";
 
-const steps = [
-  {
-    icon: Mic,
-    title: "Chọn Unit và nghe câu hỏi",
-    text: "Mỗi buổi 5 câu hỏi bám theo chủ đề trong sách Global Success. Bạn đọc hoặc nghe câu hỏi rồi trả lời bằng giọng nói.",
-  },
-  {
-    icon: Lightbulb,
-    title: "Bí ý thì xin gợi ý từng bước",
-    text: "Gợi ý có bốn mức, từ hướng nghĩ, từ khóa, khung câu đến một ví dụ ngắn. Dùng gợi ý không bị trừ điểm.",
-  },
-  {
-    icon: ClipboardCheck,
-    title: "Nhận phản hồi rõ ràng",
-    text: "Sau mỗi câu, bạn thấy mình đã trả lời đúng ý chưa, lỗi ngữ pháp nào cần sửa và cách diễn đạt tự nhiên hơn.",
-  },
-  {
-    icon: Repeat2,
-    title: "Nói lại và xem tiến bộ",
-    text: "Bạn có thể trả lời lại câu vừa rồi để áp dụng góp ý. Mọi buổi luyện được lưu lại để xem lại sau.",
-  },
+// Từ đáy lên đỉnh, đúng thứ tự luyện (đây thật sự là một chuỗi, nên dùng danh sách có thứ tự).
+const layers = [
+  { id: "L0", title: "Từ vựng", text: "Nhìn nghĩa tiếng Việt, nói từ tiếng Anh, nghe mẫu rồi nói theo." },
+  { id: "L1", title: "Khung câu và Speed Q&A", text: "Nói thành câu theo khung của bài. Rồi trả lời nhanh: thời gian để bắt đầu nói giảm dần 5 → 3 → 1,5 giây." },
+  { id: "L2", title: "Mở rộng có lý do", text: "Trả lời và giải thích vì sao, với because, so, but." },
+  { id: "L3", title: "Hội thoại", text: "Nói vài lượt với một người trong tình huống quen thuộc, rồi nói một đoạn ngắn." },
 ];
 
 const faqs = [
+  {
+    q: "LINGUA-REFLEX khác gì ELSA?",
+    a: "ELSA mạnh về chấm phát âm. LINGUA-REFLEX không chấm phát âm. Web tập cho bạn phản xạ trả lời theo đúng bài trong sách Global Success, và đo thời gian từ lúc nghe câu hỏi tới lúc bạn bắt đầu nói.",
+  },
   {
     q: "LINGUA-REFLEX có thay thế giáo viên không?",
     a: "Không. Đây là công cụ để học sinh luyện nói thêm mỗi ngày. Giáo viên vẫn là người tổ chức lớp và hỗ trợ học sinh.",
   },
   {
+    q: "Thời gian bắt đầu nói được đo thế nào?",
+    a: "Khi luyện tự do, trình duyệt đo từ lúc câu hỏi đọc xong tới lúc micro nghe thấy bạn nói, nên đây là số ước lượng (tiếng ồn, tiếng “ừm” có thể làm lệch). Trong nghiên cứu ở trường, thời gian được đo kỹ hơn từ mốc thời gian của từng từ.",
+  },
+  {
     q: "Phản hồi do AI tạo ra có chính xác không?",
-    a: "AI chỉ đọc bản ghi lời nói đã chuyển thành chữ nên có thể sai. Vì vậy phản hồi luôn ghi rõ phần nào là số đo trực tiếp (ví dụ thời gian suy nghĩ) và phần nào là nhận xét của AI. Hệ thống không đưa ra một điểm số chung và chưa đánh giá phát âm.",
+    a: "AI chỉ đọc bản ghi lời nói đã chuyển thành chữ nên có thể sai. Phản hồi luôn tách phần đo trực tiếp (thời gian, số từ, từ khóa) khỏi phần AI nhận xét, và AI chỉ nhận xét khi bạn bấm xem. Không có điểm tổng, không chấm phát âm.",
   },
   {
     q: "Mình có cần mã lớp để dùng không?",
-    a: "Không bắt buộc. Bạn có thể đăng ký và luyện một mình, rồi nhập mã lớp khi thầy cô đưa cho bạn.",
-  },
-  {
-    q: "Dữ liệu giọng nói của mình được dùng như thế nào?",
-    a: "Chúng tôi chỉ lưu những gì cần cho việc học, gồm bản ghi lời nói, phản hồi và file ghi âm của bạn. Học sinh chỉ xem dữ liệu của mình; giáo viên chỉ xem học sinh trong lớp của mình.",
+    a: "Không bắt buộc. Bạn có thể đăng ký và luyện một mình, rồi nhập mã lớp trong mục Tài khoản khi thầy cô đưa cho bạn.",
   },
   {
     q: "Dùng được trên điện thoại không?",
@@ -71,14 +61,14 @@ export default function LandingPage() {
         <section className="mx-auto grid w-full max-w-6xl gap-10 px-4 pb-16 pt-10 sm:px-6 md:grid-cols-[1.1fr_0.9fr] md:items-center md:pt-16">
           <div className="grid gap-6">
             <p className="rise-in w-fit rounded-full border border-brand/20 bg-brand-soft px-3.5 py-1 text-sm font-semibold text-brand-strong">
-              Bản thử nghiệm cho học sinh lớp 6–12
+              Bản thử nghiệm, bám sách Global Success lớp 6–12
             </p>
             <h1 className="rise-in rise-in-2 text-balance text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-6xl">
-              Từ biết từ vựng đến dám nói tiếng Anh
+              Nghe câu hỏi là bắt đầu nói được
             </h1>
             <p className="rise-in rise-in-3 max-w-xl text-lg text-muted">
-              Nhiều bạn làm được bài ngữ pháp nhưng gặp câu hỏi Speaking mới thì không biết bắt đầu từ đâu. LINGUA-REFLEX giúp bạn
-              luyện trả lời từng ngày, 10–15 phút mỗi buổi, có phản hồi sau mỗi câu.
+              Nhiều bạn biết từ vựng và ngữ pháp, nhưng khi được hỏi bằng tiếng Anh thì mất vài giây mới mở lời. LINGUA-REFLEX luyện
+              đúng khoảng đó: thời gian từ lúc nghe câu hỏi tới lúc bạn bắt đầu nói, với bài lấy từ sách bạn đang học.
             </p>
             <div className="rise-in rise-in-3 flex flex-wrap gap-3">
               <ButtonLink href="/signup">Đăng ký miễn phí</ButtonLink>
@@ -90,70 +80,77 @@ export default function LandingPage() {
 
           {/* Điểm nhấn duy nhất của trang: dải màu chuyển nghiêng phía sau thẻ ví dụ. */}
           <div className="rise-in rise-in-2 relative py-6 sm:px-4">
-            <div aria-hidden className="stripe-gradient absolute inset-x-0 inset-y-0 -skew-y-6 rounded-2xl opacity-95" />
-            <div className="relative grid gap-3 rounded-2xl bg-surface p-5 shadow-card" aria-label="Ví dụ một câu hỏi luyện nói">
-              <p className="text-sm font-semibold text-muted">Ví dụ một câu hỏi</p>
-              <p lang="en" className="text-balance rounded-xl bg-sunken p-4 text-2xl font-extrabold leading-snug">
-                What do you usually do to stay healthy?
+            <div aria-hidden className="stripe-gradient absolute inset-0 -skew-y-6 rounded-2xl opacity-95" />
+            <figure className="relative grid gap-4 rounded-2xl bg-surface p-5 shadow-card">
+              <figcaption className="text-sm font-semibold text-muted">Ví dụ một câu Speed Q&amp;A (hình minh họa)</figcaption>
+              <p lang="en" className="text-balance text-3xl font-extrabold leading-tight tracking-tight">
+                What would you say first?
               </p>
-              <p className="flex items-start gap-2 rounded-xl bg-brand-soft p-4 text-sm font-semibold text-brand-strong">
-                <MessageCircle className="mt-0.5 size-4 shrink-0" aria-hidden />
-                Gợi ý mức 1: nghĩ về thói quen ăn uống, vận động hoặc giấc ngủ của bạn.
-              </p>
-            </div>
+              <div className="grid gap-1.5">
+                <p className="flex items-center gap-1.5 text-sm font-semibold">
+                  <Timer className="size-4 text-brand" aria-hidden />
+                  Bắt đầu nói trước khi vạch thời gian hết
+                </p>
+                <div className="h-2.5 overflow-hidden rounded-full bg-sunken" aria-hidden>
+                  <div className="countdown-bar h-full rounded-full bg-brand" />
+                </div>
+                <p className="text-sm text-muted">Giới hạn ngắn dần khi bạn trả lời kịp: 5 giây, rồi 3 giây, rồi 1,5 giây.</p>
+              </div>
+            </figure>
           </div>
         </section>
 
-        <section id="cach-hoat-dong" className="bg-surface py-16" aria-labelledby="how-title">
-          <div className="mx-auto grid w-full max-w-6xl gap-8 px-4 sm:px-6">
-            <div className="grid gap-2">
-              <h2 id="how-title" className="text-3xl font-extrabold tracking-tight">
-                Một buổi luyện diễn ra thế nào?
+        <section id="kim-tu-thap" className="bg-surface py-16" aria-labelledby="pyramid-title">
+          <div className="mx-auto grid w-full max-w-6xl gap-10 px-4 sm:px-6 md:grid-cols-[0.9fr_1.1fr] md:items-center">
+            <div className="grid gap-3 md:order-2">
+              <h2 id="pyramid-title" className="text-3xl font-extrabold tracking-tight">
+                Lộ trình Kim tự tháp
               </h2>
-              <p className="max-w-2xl text-muted">Bốn bước ngắn, làm được trong khoảng 10–15 phút.</p>
+              <p className="max-w-xl text-muted">Đi từ từ đơn lẻ tới hội thoại. Tầng sau dựa trên tầng trước, nên bạn không phải nói cả đoạn ngay từ đầu.</p>
+              <ol className="mt-2 grid gap-4">
+                {layers.map((l) => (
+                  <li key={l.id} className="grid grid-cols-[3rem_1fr] gap-3">
+                    <span className="grid h-9 place-items-center rounded-lg bg-brand-soft font-semibold text-brand-strong">{l.id}</span>
+                    <div>
+                      <h3 className="font-extrabold">{l.title}</h3>
+                      <p className="text-muted">{l.text}</p>
+                    </div>
+                  </li>
+                ))}
+              </ol>
+              <p className="mt-2 flex items-start gap-2 text-muted">
+                <Lightbulb className="mt-1 size-4 shrink-0 text-brand" aria-hidden />
+                Bí ý thì mở gợi ý từng mức, từ hướng nghĩ tới câu ví dụ. Bạn vẫn tự nói câu trả lời, và dùng gợi ý không bị trừ gì.
+              </p>
             </div>
-            <ol className="grid gap-4 sm:grid-cols-2">
-              {steps.map((s, i) => (
-                <li key={s.title} className="grid grid-cols-[auto_1fr] gap-4 rounded-2xl border border-line bg-bg p-5">
-                  <span className="grid size-11 place-items-center rounded-xl bg-brand-soft text-brand">
-                    <s.icon className="size-6" aria-hidden />
-                  </span>
-                  <div className="grid gap-1">
-                    <h3 className="text-lg font-extrabold">
-                      <span className="sr-only">Bước {i + 1}: </span>
-                      {s.title}
-                    </h3>
-                    <p className="text-muted">{s.text}</p>
-                  </div>
-                </li>
-              ))}
-            </ol>
+            <PyramidDiagram className="mx-auto w-full max-w-sm md:order-1" />
           </div>
         </section>
 
-        <section id="loi-ich" className="mx-auto grid w-full max-w-6xl gap-8 px-4 py-16 sm:px-6 md:grid-cols-2" aria-labelledby="benefit-title">
-          <h2 id="benefit-title" className="sr-only">
-            Lợi ích cho học sinh và giáo viên
+        <section id="dang-co-gi" className="mx-auto grid w-full max-w-6xl gap-8 px-4 py-16 sm:px-6 md:grid-cols-2" aria-labelledby="now-title">
+          <h2 id="now-title" className="text-3xl font-extrabold tracking-tight md:col-span-2">
+            Hiện web có những gì
           </h2>
           <div className="grid content-start gap-3 rounded-2xl border border-line bg-surface p-6">
-            <h3 className="text-2xl font-extrabold">Dành cho học sinh</h3>
-            <ul className="grid gap-2 text-muted">
-              <li>Luyện nói đều đặn mà không cần bạn luyện cùng.</li>
-              <li>Trả lời câu hỏi mới, không chỉ học thuộc hội thoại mẫu.</li>
-              <li>Hiểu lỗi của mình và biết cách sửa, bằng tiếng Việt dễ hiểu.</li>
-              <li>Bí ý tưởng thì có gợi ý từng bước, không ai chấm bạn là thất bại.</li>
+            <h3 className="text-xl font-extrabold">Luyện tự do, mở cho mọi người</h3>
+            <ul className="grid list-disc gap-2 pl-5 text-muted">
+              <li>Chọn Unit trong sách, mỗi buổi 5 câu hỏi, khoảng 10–15 phút.</li>
+              <li>Gợi ý 4 mức: hướng nghĩ, từ khóa, khung câu, câu ví dụ.</li>
+              <li>Sau mỗi câu: số đo trực tiếp ngay; AI nhận xét khi bạn bấm xem.</li>
+              <li>Nói lại để so sánh, xem thời gian bắt đầu nói qua các buổi.</li>
             </ul>
           </div>
           <div className="grid content-start gap-3 rounded-2xl border border-line bg-surface p-6">
-            <h3 className="flex items-center gap-2 text-2xl font-extrabold">
-              <Users className="size-6" aria-hidden />
-              Dành cho giáo viên
+            <h3 className="text-xl font-extrabold">Kim tự tháp đầy đủ, đang thử nghiệm</h3>
+            <p className="text-muted">
+              Lộ trình 4 tầng với Speed Q&amp;A và hội thoại đang được thử với học sinh lớp 8 trong một nghiên cứu ở trường. Khi có
+              kết quả, nhóm sẽ mở cho mọi người.
+            </p>
+            <h3 className="mt-3 flex items-center gap-2 text-xl font-extrabold">
+              <Users className="size-5" aria-hidden />
+              Cho giáo viên
             </h3>
-            <ul className="grid gap-2 text-muted">
-              <li>Tạo lớp và chia sẻ mã lớp để học sinh tham gia.</li>
-              <li>Xem danh sách học sinh trong lớp và những buổi các bạn đã luyện.</li>
-              <li>Chỉ thấy học sinh trong lớp của mình.</li>
-            </ul>
+            <p className="text-muted">Tạo lớp, chia sẻ mã lớp, xem các buổi luyện của học sinh trong lớp mình. Không xếp hạng học sinh.</p>
           </div>
         </section>
 

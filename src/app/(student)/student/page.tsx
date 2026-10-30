@@ -4,7 +4,8 @@ import StudentHome, { type RoadmapUnit } from "@/components/StudentHome";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { listUnitsForGrade, todayTask } from "@/lib/practice";
-import { improvementFocus, listSessions } from "@/lib/sessions";
+import { improvementFocus, listSessions, reactionSessions } from "@/lib/sessions";
+import { reactionTrend } from "@/lib/reaction";
 import ResearchHome from "@/components/ResearchHome";
 import ModeHome from "@/components/ModeHome";
 import { getParticipant, testState } from "@/lib/research/server";
@@ -42,12 +43,13 @@ export default async function StudentPage({ searchParams }: { searchParams: Prom
 
   // RLS: học sinh chỉ thấy lớp mình đã vào và buổi luyện của mình.
   const supabase = await createClient();
-  const [{ data: classes }, today, units, sessions, focus] = await Promise.all([
+  const [{ data: classes }, today, units, sessions, focus, reactionData] = await Promise.all([
     supabase.from("classes").select("id, name").eq("status", "active").order("created_at"),
     profile.grade ? todayTask(profile.id, profile.grade) : Promise.resolve({ kind: "none" as const }),
     profile.grade ? listUnitsForGrade(profile.grade) : Promise.resolve([]),
     listSessions(profile.id, 50),
     improvementFocus(profile.id),
+    reactionSessions(profile.id),
   ]);
 
   // Lộ trình: Unit có buổi hoàn thành = xong; có buổi dở = đang làm; Unit của "việc hôm nay" = tiếp theo.
@@ -69,13 +71,13 @@ export default async function StudentPage({ searchParams }: { searchParams: Prom
       <StudentHome
         name={profile.displayName ?? ""}
         grade={profile.grade}
-        goal={profile.goal}
         classes={classes ?? []}
         joinFailed={join === "failed"}
         today={today}
         roadmap={roadmap}
         recent={sessions.slice(0, 3)}
         focus={focus}
+        reaction={reactionTrend(reactionData)}
       />
     </AppShell>
   );

@@ -5,7 +5,6 @@ import { BookOpenText, Presentation } from "lucide-react";
 import { completeOnboarding } from "@/app/onboarding/actions";
 import { Field, FormMessage, inputClass, SubmitButton } from "@/components/form";
 import type { FormState } from "@/lib/form";
-import { GOALS } from "@/lib/validation";
 
 type Role = "student" | "teacher";
 
@@ -93,20 +92,6 @@ export default function OnboardingForm() {
                   ))}
                 </select>
                 {state?.fields?.grade && <p className="text-sm font-semibold text-danger">{state.fields.grade}</p>}
-              </div>
-
-              <div className="grid gap-1.5">
-                <label htmlFor="goal" className="text-sm font-bold">
-                  Bạn muốn cải thiện điều gì nhất? <span className="font-medium text-muted">(không bắt buộc)</span>
-                </label>
-                <select id="goal" name="goal" defaultValue={state?.values?.goal ?? ""} className={inputClass}>
-                  <option value="">Chưa chọn</option>
-                  {Object.entries(GOALS).map(([value, label]) => (
-                    <option key={value} value={value}>
-                      {label}
-                    </option>
-                  ))}
-                </select>
               </div>
 
               <Field
