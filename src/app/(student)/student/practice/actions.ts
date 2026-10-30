@@ -13,6 +13,9 @@ import { canPractice } from "@/lib/research/server";
 
 const UUID = z.uuid();
 
+/** Người tham gia nghiên cứu chỉ luyện qua chế độ A/B cho tới khi nghiên cứu kết thúc (canPractice; RLS 0009 cũng chặn). */
+const LOCKED = "Trong thời gian nghiên cứu, bạn luyện ở trang chính (Chế độ A hoặc B).";
+
 async function studentContext() {
   const supabase = await createClient();
   const {
@@ -87,6 +90,7 @@ export async function saveAnswer(input: AnswerInput): Promise<SaveAnswerResult> 
   if (!parsed.success) return { ok: false, error: parsed.error.issues[0]?.message ?? "Dữ liệu không hợp lệ." };
   const ctx = await studentContext();
   if (!ctx) return { ok: false, error: "Bạn cần đăng nhập lại." };
+  if (!(await canPractice(ctx.userId))) return { ok: false, error: LOCKED };
   const v = parsed.data;
   if (v.audioPath && !v.audioPath.startsWith(`${ctx.userId}/${v.sessionId}/`)) return { ok: false, error: "Bản ghi không hợp lệ." };
 
@@ -142,6 +146,7 @@ export async function requestFeedback(answerId: string): Promise<FeedbackResult>
   if (!id.success) return { ok: false, error: "Yêu cầu không hợp lệ." };
   const ctx = await studentContext();
   if (!ctx) return { ok: false, error: "Bạn cần đăng nhập lại." };
+  if (!(await canPractice(ctx.userId))) return { ok: false, error: LOCKED };
 
   // RLS: học sinh chỉ đọc được câu trả lời của chính mình.
   const { data: a } = await ctx.supabase
@@ -195,6 +200,7 @@ export async function finishSession(formData: FormData) {
   if (!id.success) redirect("/student");
   const ctx = await studentContext();
   if (!ctx) redirect("/login");
+  if (!(await canPractice(ctx.userId))) redirect("/student");
   await ctx.supabase.rpc("complete_session", { sid: id.data });
   redirect(`/student/sessions/${id.data}`);
 }

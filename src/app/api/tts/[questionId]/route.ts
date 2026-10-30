@@ -3,6 +3,7 @@ import { createClient } from "@/lib/supabase/server";
 import { isSupabaseConfigured } from "@/lib/supabase/env";
 import { takeQuota } from "@/lib/usage";
 import { AUDIO_HEADERS, speech } from "@/lib/speaking/tts";
+import { canPractice } from "@/lib/research/server";
 
 export const dynamic = "force-dynamic";
 
@@ -19,6 +20,7 @@ export async function GET(_request: NextRequest, { params }: { params: Promise<{
     data: { user },
   } = await supabase.auth.getUser();
   if (!user) return new NextResponse(null, { status: 401 });
+  if (!(await canPractice(user.id))) return new NextResponse(null, { status: 403 });
 
   // RLS: chỉ đọc được câu hỏi của Unit đã duyệt (hoặc giáo viên xem trước).
   const { data: q } = await supabase.from("questions").select("id, text").eq("id", questionId).maybeSingle();

@@ -2,6 +2,7 @@ import { NextResponse, type NextRequest } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { isSupabaseConfigured } from "@/lib/supabase/env";
 import { mockAi, takeQuota } from "@/lib/usage";
+import { canPractice } from "@/lib/research/server";
 
 export const dynamic = "force-dynamic";
 
@@ -22,6 +23,8 @@ export async function POST(request: NextRequest) {
     data: { user },
   } = await supabase.auth.getUser();
   if (!user) return NextResponse.json({ error: "Bạn cần đăng nhập lại." }, { status: 401 });
+  // Người tham gia nghiên cứu không dùng luyện tự do cho tới khi nghiên cứu kết thúc.
+  if (!(await canPractice(user.id))) return NextResponse.json({ error: "Trang luyện này chưa mở cho bạn." }, { status: 403 });
 
   const sessionId = request.nextUrl.searchParams.get("session") ?? "";
   const questionId = request.nextUrl.searchParams.get("question") ?? "";

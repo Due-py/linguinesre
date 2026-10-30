@@ -3,6 +3,7 @@ import AppShell, { STUDENT_NAV } from "@/components/AppShell";
 import ButtonLink from "@/components/ButtonLink";
 import SessionList from "@/components/SessionList";
 import { requireRole } from "@/lib/auth";
+import { requirePracticeAccess } from "@/lib/research/server";
 import { listSessions } from "@/lib/sessions";
 
 export const metadata: Metadata = { title: "Lịch sử luyện tập" };
@@ -10,6 +11,7 @@ export const dynamic = "force-dynamic";
 
 export default async function HistoryPage() {
   const profile = await requireRole("student");
+  await requirePracticeAccess(profile.id);
   const sessions = await listSessions(profile.id, 200);
 
   return (

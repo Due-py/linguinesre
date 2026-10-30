@@ -45,7 +45,7 @@ async function login(ctx, code, pin) {
 async function checkin(page) {
   await page.getByRole("heading", { name: "Câu hỏi của tuần" }).waitFor();
   t("phải trả lời câu hỏi của tuần trước khi luyện", (await page.getByRole("button", { name: /Bắt đầu buổi/ }).count()) === 0);
-  await page.getByLabel("Có").check();
+  await page.getByLabel("Có", { exact: true }).check();
   await page.locator('input[name="detail"]').fill("trung tâm tiếng Anh");
   await page.getByRole("button", { name: "Gửi câu trả lời" }).click();
   await page.getByRole("button", { name: "Bắt đầu buổi 1" }).waitFor();
