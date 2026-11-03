@@ -51,6 +51,11 @@ export default async function ModulePage({ params, searchParams }: { params: Pro
     .map((d) => ({ day: d, ms: median(attempts.filter((a) => a.day === d && (a.kind === "speak" || a.kind === "roleplay") && a.attempt_no === 1 && a.think_ms !== null).map((a) => a.think_ms!)) }))
     .filter((x): x is { day: number; ms: number } => x.ms !== null);
   const maxMs = Math.max(1, ...thinkByDay.map((x) => x.ms));
+  // Độ rõ máy nghe theo ngày (trung vị các lượt nói, kể cả nói theo): ước lượng, không phải điểm phát âm.
+  const clarityByDay = Array.from(new Set(attempts.map((a) => a.day)))
+    .sort((a, b) => a - b)
+    .map((d) => ({ day: d, c: median(attempts.filter((a) => a.day === d && typeof a.measures?.clarity === "number").map((a) => Math.round(a.measures!.clarity! * 100))) }))
+    .filter((x): x is { day: number; c: number } => x.c !== null);
 
   return (
     <AppShell name={profile.displayName ?? ""} roleLabel="Học sinh" homeHref="/student" nav={STUDENT_NAV} current="/student/practice">
@@ -147,6 +152,25 @@ export default async function ModulePage({ params, searchParams }: { params: Pro
                 ))}
               </ul>
               <p className="text-sm text-muted">Trung vị lượt nói đầu tiên mỗi câu. Ngắn hơn là phản xạ nhanh hơn; ngày có câu khó có thể dài hơn.</p>
+            </div>
+          )}
+          {clarityByDay.length >= 2 && (
+            <div className="grid gap-2">
+              <h3 className="text-lg font-extrabold">Máy nghe rõ theo ngày</h3>
+              <ul className="grid gap-1.5">
+                {clarityByDay.map((x, i) => (
+                  <li key={x.day} className="grid grid-cols-[4.5rem_1fr_5.5rem] items-center gap-3 text-sm">
+                    <span className="text-muted">Ngày {x.day}</span>
+                    <span className="h-2.5 rounded-full bg-line">
+                      <span className="grow-x block h-full rounded-full bg-sky" style={{ width: `${x.c}%`, ["--i" as string]: i }} />
+                    </span>
+                    <span className="text-right font-semibold tabular-nums">{x.c}% số từ</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="text-sm text-muted">
+                Tỷ lệ từ máy nghe chắc chắn (trung vị các lượt nói). Đây không phải điểm phát âm: micro, tiếng ồn và nói nhỏ cũng làm số này thấp.
+              </p>
             </div>
           )}
         </section>

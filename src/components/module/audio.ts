@@ -28,19 +28,24 @@ export async function playAudio(url: string, text: string): Promise<"server" | "
   } catch {
     // dùng giọng của trình duyệt
   }
-  if ("speechSynthesis" in window) {
-    await new Promise<void>((resolve) => {
-      const u = new SpeechSynthesisUtterance(text);
-      u.lang = "en-US";
-      u.rate = 0.9;
-      u.onend = () => resolve();
-      u.onerror = () => resolve();
-      window.speechSynthesis.speak(u);
-      setTimeout(resolve, 15_000);
-    });
-    return "browser";
-  }
-  return "none";
+  return speakText(text);
+}
+
+/** Đọc bằng giọng của trình duyệt (khi không có giọng máy chủ cho câu/từ đó). */
+export async function speakText(text: string): Promise<"browser" | "none"> {
+  if (!("speechSynthesis" in window)) return "none";
+  current?.pause();
+  window.speechSynthesis.cancel();
+  await new Promise<void>((resolve) => {
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = "en-US";
+    u.rate = 0.9;
+    u.onend = () => resolve();
+    u.onerror = () => resolve();
+    window.speechSynthesis.speak(u);
+    setTimeout(resolve, 15_000);
+  });
+  return "browser";
 }
 
 export const moduleAudio = (moduleId: string, key: string) => `/api/module/tts?m=${moduleId}&k=${encodeURIComponent(key)}`;

@@ -17,7 +17,7 @@ import {
   type HistoryAttempt,
   type UnitQuestion,
 } from "@/lib/module/plan";
-import { heardRatio, requirementMet, speechMeasures } from "@/lib/module/measure";
+import { heardRatio, missedWords, requirementMet, speechMeasures } from "@/lib/module/measure";
 import { mockAssessment, verifyAssessment } from "@/lib/module/assessCore";
 import { fallbackLine, stanceTurn, verifyReply } from "@/lib/module/roleplayCore";
 import { moduleReport } from "@/lib/module/report";
@@ -283,5 +283,14 @@ describe("lộ trình đúng 5 giai đoạn, có kiểm tra cuối giai đoạn 
     expect(r.checkpoints.map((c) => c.status)).toEqual(["met", "not_met", "not_met", "pending"]); // 1/2 kịp giờ < 60%
     expect(r.delayed.pairs).toEqual([{ ref: "q01", before: { day: 6, thinkMs: 6000, words: 8 }, after: { thinkMs: 4000, words: 8 } }]);
     expect(r.transfer.fresh?.answers).toBe(1);
+  });
+});
+
+describe("từ máy nghe chưa rõ (thay cho chấm phát âm)", () => {
+  it("ghi các từ độ tin cậy thấp (bỏ uh/um, không trùng) và các từ của câu mẫu máy không nghe thấy", () => {
+    const w = (word: string, confidence: number, i: number) => ({ word, start: i * 0.4, end: i * 0.4 + 0.3, confidence });
+    const m = speechMeasures([w("um", 0.2, 0), w("we", 0.95, 1), w("should", 0.6, 2), w("protect", 0.5, 3), w("protect", 0.4, 4), w("forests", 0.9, 5)], "um we should protect protect forests", 0, null);
+    expect(m.lowWords).toEqual(["should", "protect"]);
+    expect(missedWords("we should project the forest", "We should protect the forests.")).toEqual(["protect"]);
   });
 });

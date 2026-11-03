@@ -13,6 +13,8 @@ import { useRecorder, type Recording } from "@/lib/speaking/useRecorder";
 import { moduleAudio, playAudio, postAudio } from "./audio";
 import { AssessPanel, MeasuredPanel, ReportView, SourceBadge } from "./Panels";
 import RecordButton from "./RecordButton";
+import HeardWords from "./HeardWords";
+import { missedWords } from "@/lib/module/measure";
 import ListenButton from "./Listen";
 import CountUp from "@/components/CountUp";
 import Mascot from "@/components/Mascot";
@@ -335,6 +337,12 @@ function SpeakBox({
   );
 }
 
+/** Giọng đọc mẫu của máy chủ cho từ có trong Kho từ vựng (so khớp không phân biệt hoa thường); từ khác dùng giọng trình duyệt. */
+const wordAudio = (ctx: Ctx) => (w: string) => {
+  const v = ctx.content.vocab.find((x) => x.en.toLowerCase() === w.toLowerCase());
+  return v ? moduleAudio(ctx.moduleId, v.id) : null;
+};
+
 const savedTurns = (ctx: Ctx, step: number, turn: number) => ctx.rows.filter((r) => r.step === step && r.turn === turn).length;
 
 // ---- Nền tảng: từ vựng, phát âm, ngữ pháp ---------------------------------------------------------------------------
@@ -636,7 +644,10 @@ function Say({ st, ctx, onDone }: P<"say">) {
         label="Đọc to câu này"
         onSaved={() => setDone(true)}
         render={(r) => (
-          <Verdict ok={r.correct} yes={`Máy nghe ra gần đủ câu (${Math.round((r.check.heard ?? 0) * 100)}% số từ).`} no={`Máy nghe ra ${Math.round((r.check.heard ?? 0) * 100)}% số từ: “${r.transcript}”. Đọc chậm, rõ từng từ rồi thử lại.`} />
+          <>
+            <Verdict ok={r.correct} yes={`Máy nghe ra gần đủ câu (${Math.round((r.check.heard ?? 0) * 100)}% số từ).`} no={`Máy nghe ra ${Math.round((r.check.heard ?? 0) * 100)}% số từ: “${r.transcript}”. Đọc chậm, rõ từng từ rồi thử lại.`} />
+            <HeardWords transcript={r.transcript} lowWords={r.measures.lowWords} missed={missedWords(r.transcript, st.text)} audioFor={wordAudio(ctx)} />
+          </>
         )}
       />
       <div className="flex flex-wrap items-center gap-4">
@@ -1034,7 +1045,10 @@ function Speak({ st, ctx, onDone }: P<"speak">) {
       {hintsVisible && <Hints hints={st.hints} level={hintLevel} onOpen={(l) => setHintLevel((c) => Math.max(c, l))} />}
       {rescue && <p className="rounded-xl bg-sunken px-4 py-3 font-semibold">{rescue}</p>}
       {result && (
-        <MeasuredPanel m={result.measures} keywords={st.keywords} keywordsUsed={result.check.keywordsUsed} reason={result.check.reason} targetMs={result.targetMs} inTarget={result.inTarget} />
+        <>
+          <MeasuredPanel m={result.measures} keywords={st.keywords} keywordsUsed={result.check.keywordsUsed} reason={result.check.reason} targetMs={result.targetMs} inTarget={result.inTarget} />
+          <HeardWords transcript={result.transcript} lowWords={result.measures.lowWords} audioFor={wordAudio(ctx)} />
+        </>
       )}
       {result && st.assess !== "none" && <AssessArea s={a1} onAsk={st.assess === "ask" ? () => void a1.run(result.attemptId) : undefined} />}
       {!retryResult && !(initial > 0 && !result && st.retry) && (
@@ -1076,6 +1090,7 @@ function Speak({ st, ctx, onDone }: P<"speak">) {
             {st.retry.text}
           </p>
           {retryResult && <MeasuredPanel m={retryResult.measures} keywords={st.keywords} keywordsUsed={retryResult.check.keywordsUsed} reason={retryResult.check.reason} />}
+          {retryResult && <HeardWords transcript={retryResult.transcript} lowWords={retryResult.measures.lowWords} audioFor={wordAudio(ctx)} />}
           {retryResult && <AssessArea s={a2} />}
           {retryResult && a1.a && a2.a && a1.a.grammar.status === "assessed" && a2.a.grammar.status === "assessed" && (
             <p className="rounded-xl bg-sunken px-4 py-3 font-semibold">

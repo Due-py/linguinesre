@@ -24,11 +24,17 @@ export type SpeechMeasures = {
   clarity: number | null;
   /** Máy nghe quá kém: xin nói lại, không chấm. */
   unclear: boolean;
+  /**
+   * Những từ máy nghe chưa chắc (độ tin cậy dưới 0,8), tối đa 8 từ, để học sinh nghe mẫu và nói lại.
+   * Không phải lỗi phát âm: có thể do micro, tiếng ồn. Bản ghi cũ không có trường này.
+   */
+  lowWords?: string[];
 };
 
 export const LONG_PAUSE_MS = 1500;
 export const CLEAR_WORD_CONFIDENCE = 0.8;
 export const UNCLEAR_MEAN_CONFIDENCE = 0.55;
+export const MAX_LOW_WORDS = 8;
 
 const tokens = (s: string) => s.toLowerCase().replace(/[’‘]/g, "'").match(/[a-z']+/g) ?? [];
 
@@ -48,6 +54,7 @@ export function speechMeasures(words: AsrWordC[], transcript: string, lagMs: num
   const wpm = speakMs && speakMs >= 1000 && real.length >= 3 ? Math.round((real.length / speakMs) * 60_000) : null;
   const meanConf = real.length ? real.reduce((s, w) => s + w.confidence, 0) / real.length : null;
   const clarity = real.length ? real.filter((w) => w.confidence >= CLEAR_WORD_CONFIDENCE).length / real.length : null;
+  const lowWords = [...new Set(real.filter((w) => w.confidence < CLEAR_WORD_CONFIDENCE).map((w) => tokens(w.word).join("")).filter(Boolean))].slice(0, MAX_LOW_WORDS);
   return {
     words: n,
     thinkMs,
@@ -56,6 +63,7 @@ export function speechMeasures(words: AsrWordC[], transcript: string, lagMs: num
     longPauses,
     clarity: clarity === null ? null : Math.round(clarity * 100) / 100,
     unclear: n === 0 || (meanConf !== null && meanConf < UNCLEAR_MEAN_CONFIDENCE),
+    lowWords,
   };
 }
 
@@ -68,6 +76,12 @@ export function heardRatio(transcript: string, target: string): number {
 }
 
 export const SAY_MIN_RATIO = 0.8;
+
+/** Những từ của câu mẫu máy KHÔNG nghe ra trong lời nói (giữ đúng chữ trong câu mẫu, không trùng). Dùng cho nói theo. */
+export function missedWords(transcript: string, target: string): string[] {
+  const said = new Set(tokens(transcript).map(stem));
+  return [...new Set(tokens(target).filter((w) => !said.has(stem(w))))];
+}
 
 const SUGGESTION = /\b(should|let's|let us|why don't we|how about|i suggest|we could|we can|could we)\b/i;
 const EXAMPLE = /\b(for example|for instance|such as|like when)\b/i;
