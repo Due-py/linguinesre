@@ -1,7 +1,7 @@
-import { BookCheck, CircleCheck, CircleDashed, MessageSquareText, Ruler, UsersRound } from "lucide-react";
+import { BookCheck, CircleCheck, CircleDashed, CircleMinus, Flag, History, MessageSquareText, Ruler, UsersRound } from "lucide-react";
 import type { SpeechMeasures } from "@/lib/module/measure";
 import type { VerifiedAssessment } from "@/lib/module/assessCore";
-import type { KnowledgeResult, ModuleReport, SpeakSummary } from "@/lib/module/report";
+import type { Checkpoint, KnowledgeResult, ModuleReport, SpeakSummary } from "@/lib/module/report";
 import { ERROR_TAGS, type ErrorTag } from "@/lib/module/schema";
 
 /**
@@ -229,6 +229,7 @@ export function ReportView({ r }: { r: ModuleReport }) {
         </dl>
         <p className="text-sm text-muted">Bài đầu và cuối module cùng cấu trúc nhưng khác câu hỏi.</p>
       </section>
+      <CheckpointList items={r.checkpoints} />
       <section className="grid gap-2">
         <Compare caption="Nói độc lập, không gợi ý: đầu module và cuối module" a={r.speaking.entry} b={r.speaking.final} aLabel="Ngày 1" bLabel="Ngày 13" />
         <p className="text-sm text-muted">Hai bộ câu hỏi khác nhau nhưng cùng dạng và độ khó, để thấy em tự nói được hơn chứ không chỉ nhớ câu cũ.</p>
@@ -237,6 +238,16 @@ export function ReportView({ r }: { r: ModuleReport }) {
         <section className="grid gap-2">
           <Compare caption="Câu đã luyện và câu hoàn toàn mới" a={r.transfer.practiced} b={r.transfer.fresh} aLabel="Câu đã luyện (ngày 6–10)" bLabel="Câu mới (ngày 13)" />
           <p className="text-sm text-muted">Nếu câu mới kém hơn hẳn câu đã luyện, có thể em đang nhớ câu trả lời hơn là tự vận dụng.</p>
+        </section>
+      )}
+      {r.delayed.pairs.length > 0 && (
+        <section className="grid gap-2">
+          <h3 className="flex items-center gap-2 text-lg font-extrabold">
+            <History className="size-5" aria-hidden />
+            Câu hỏi nhắc lại sau một tuần
+          </h3>
+          <Compare caption="Cùng câu hỏi: lần luyện có gợi ý và lần hỏi lại không gợi ý" a={r.delayed.before} b={r.delayed.after} aLabel="Lần luyện (ngày 4–8)" bLabel="Hỏi lại (ngày 13)" />
+          <p className="text-sm text-muted">Hỏi lại không gợi ý mà vẫn nói được là em đã nhớ và tự vận dụng, không chỉ làm được khi có gợi ý.</p>
         </section>
       )}
       {r.roleplays.length > 0 && (
@@ -258,5 +269,41 @@ export function ReportView({ r }: { r: ModuleReport }) {
         </section>
       )}
     </div>
+  );
+}
+
+const CHECK: Record<Checkpoint["status"], { label: string; icon: React.ReactNode; tone: string }> = {
+  met: { label: "Đạt", icon: <CircleCheck className="size-5 shrink-0" aria-hidden />, tone: "bg-brand-soft text-brand-strong" },
+  not_met: { label: "Chưa đạt", icon: <CircleDashed className="size-5 shrink-0" aria-hidden />, tone: "bg-warn-soft text-warn" },
+  pending: { label: "Chưa làm", icon: <CircleMinus className="size-5 shrink-0" aria-hidden />, tone: "bg-sunken text-muted" },
+};
+
+/** Kiểm tra cuối từng giai đoạn: Đạt / Chưa đạt / Chưa làm, kèm số liệu và quy tắc "đạt" (luôn có chữ, không chỉ màu). */
+export function CheckpointList({ items }: { items: Checkpoint[] }) {
+  return (
+    <section className="grid gap-2">
+      <h3 className="flex items-center gap-2 text-lg font-extrabold">
+        <Flag className="size-5" aria-hidden />
+        Kiểm tra cuối từng giai đoạn
+      </h3>
+      <ul className="grid gap-2">
+        {items.map((c) => (
+          <li key={c.phase} className="grid gap-1 rounded-2xl border-2 border-line px-4 py-3">
+            <p className="flex flex-wrap items-center justify-between gap-2">
+              <span className="font-extrabold">
+                Giai đoạn {c.phase} · ngày {c.day}: {c.titleVi}
+              </span>
+              <span className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-0.5 text-sm font-extrabold ${CHECK[c.status].tone}`}>
+                {CHECK[c.status].icon}
+                {CHECK[c.status].label}
+              </span>
+            </p>
+            <p>{c.detailVi}</p>
+            <p className="text-sm text-muted">Cách tính đạt: {c.ruleVi}</p>
+          </li>
+        ))}
+      </ul>
+      <p className="text-sm text-muted">Làm xong bài chưa có nghĩa là đã đạt. “Đạt” chỉ tính từ các câu kiểm tra không gợi ý.</p>
+    </section>
   );
 }

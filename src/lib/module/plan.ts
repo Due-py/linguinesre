@@ -12,28 +12,32 @@ import { ERROR_TAGS } from "./schema";
 
 export const DAYS = 14;
 export const PHASES = [
-  { no: 1, titleVi: "Nền tảng", days: [1, 2, 3], goalVi: "Có đủ từ vựng, ngữ pháp, phát âm và cụm câu để bắt đầu nói." },
-  { no: 2, titleVi: "Nói có hướng dẫn", days: [4, 5, 6, 7], goalVi: "Từ từ vựng lên câu, lên câu dài, rồi trả lời câu hỏi với gợi ý giảm dần." },
-  { no: 3, titleVi: "Phản xạ", days: [8, 9, 10], goalVi: "Hiểu câu hỏi dù được hỏi theo cách khác, bắt đầu nói nhanh hơn, sửa lỗi rồi nói lại." },
-  { no: 4, titleVi: "Giao tiếp thật", days: [11, 12], goalVi: "Dùng kiến thức trong tình huống trò chuyện với AI." },
-  { no: 5, titleVi: "Đánh giá cuối", days: [13, 14], goalVi: "Tự nói không gợi ý với câu hỏi mới, so sánh với bài đầu module." },
+  { no: 1, titleVi: "Nền tảng", days: [1, 2, 3], goalVi: "Có đủ từ vựng, ngữ pháp, phát âm và cụm câu để bắt đầu nói về chủ đề." },
+  { no: 2, titleVi: "Nói có hướng dẫn", days: [4, 5, 6], goalVi: "Từ từ vựng lên câu, lên câu dài, rồi trả lời câu hỏi với gợi ý giảm dần." },
+  { no: 3, titleVi: "Phản xạ", days: [7, 8, 9, 10], goalVi: "Trả lời không cần gợi ý, hiểu câu hỏi dù được hỏi theo cách khác, bắt đầu nói nhanh hơn, sửa lỗi rồi nói lại." },
+  { no: 4, titleVi: "Giao tiếp thật", days: [11, 12], goalVi: "Dùng kiến thức trong tình huống trò chuyện với AI, không có kịch bản." },
+  { no: 5, titleVi: "Đánh giá cuối", days: [13, 14], goalVi: "Tự nói không gợi ý với câu hỏi mới và câu đã học từ tuần trước, so sánh với bài đầu module." },
 ] as const;
 
-export const DAY_INFO: Record<number, { titleVi: string; minutes: number }> = {
-  1: { titleVi: "Bài đầu module, từ vựng và phát âm", minutes: 20 },
-  2: { titleVi: "Nhớ lại từ vựng", minutes: 20 },
-  3: { titleVi: "Ngữ pháp, cụm câu hay và kiểm tra kiến thức", minutes: 25 },
-  4: { titleVi: "Từ vựng thành câu, xếp câu", minutes: 20 },
-  5: { titleVi: "Mở rộng câu", minutes: 20 },
-  6: { titleVi: "Trả lời câu hỏi có gợi ý từng bước", minutes: 25 },
-  7: { titleVi: "Ôn tập và kiểm tra nhỏ", minutes: 20 },
-  8: { titleVi: "Một ý, nhiều cách hỏi", minutes: 20 },
-  9: { titleVi: "Speed Q&A mức 1", minutes: 20 },
-  10: { titleVi: "Speed Q&A mức 2, sửa lỗi và nói lại", minutes: 20 },
-  11: { titleVi: "Micro-Roleplay cơ bản", minutes: 25 },
-  12: { titleVi: "Micro-Roleplay nâng cao", minutes: 25 },
-  13: { titleVi: "Bài nói độc lập", minutes: 20 },
-  14: { titleVi: "Đánh giá cuối module", minutes: 25 },
+/**
+ * Mỗi ngày (Lesson) có mục tiêu và tiêu chí hoàn thành riêng. Tiêu chí "xong bài" chỉ là làm hết các bước;
+ * "đạt" được đo riêng ở các bài kiểm tra cuối giai đoạn (xem report.ts), vì làm xong bài chưa có nghĩa là đã thành thạo.
+ */
+export const DAY_INFO: Record<number, { titleVi: string; minutes: number; goalVi: string; doneVi: string }> = {
+  1: { titleVi: "Bài đầu module, từ vựng và phát âm", minutes: 20, goalVi: "Biết em đang ở đâu, học nửa đầu từ vựng và một âm khó.", doneVi: "Làm bài đầu module (không gợi ý), học hết từ mới, nói theo câu luyện âm." },
+  2: { titleVi: "Nhớ lại từ vựng", minutes: 20, goalVi: "Nhớ lại từ đã học, học nốt từ còn lại và cụm từ đi kèm.", doneVi: "Nhớ lại từ đến hạn ôn, học hết từ mới, làm bài cụm từ." },
+  3: { titleVi: "Ngữ pháp, cụm câu hay và kiểm tra kiến thức", minutes: 25, goalVi: "Hiểu cấu trúc ngữ pháp và cụm câu của Unit.", doneVi: "Học hết thẻ kiến thức và làm bài kiểm tra cuối Phase 1." },
+  4: { titleVi: "Từ vựng thành câu, xếp câu", minutes: 20, goalVi: "Dùng từ của bài để nói thành câu hoàn chỉnh.", doneVi: "Nói một câu với mỗi cụm từ, xếp đúng các câu." },
+  5: { titleVi: "Mở rộng câu", minutes: 20, goalVi: "Biến câu ngắn thành câu dài có thời gian, lý do, kết quả.", doneVi: "Mở rộng hết các câu theo câu hỏi phụ." },
+  6: { titleVi: "Trả lời câu hỏi có gợi ý từng bước", minutes: 25, goalVi: "Trả lời câu hỏi của Unit, dùng gợi ý ít dần.", doneVi: "Trả lời hết câu hỏi bằng lời của em (gợi ý không bị trừ gì)." },
+  7: { titleVi: "Ôn tập và kiểm tra nhỏ", minutes: 20, goalVi: "Kiểm tra Phase 2: trả lời không cần gợi ý.", doneVi: "Làm bài kiểm tra kiến thức và 3 câu nói không gợi ý." },
+  8: { titleVi: "Một ý, nhiều cách hỏi", minutes: 20, goalVi: "Hiểu ý câu hỏi dù được hỏi theo cách khác.", doneVi: "Trả lời mỗi ý được hỏi bằng hai cách." },
+  9: { titleVi: "Speed Q&A mức 1", minutes: 20, goalVi: "Bắt đầu nói trong mục tiêu thời gian riêng của em.", doneVi: "Trả lời hết các câu Speed Q&A." },
+  10: { titleVi: "Speed Q&A mức 2, sửa lỗi và kiểm tra Phase 3", minutes: 25, goalVi: "Nói nhanh hơn, sửa lỗi rồi nói lại, kiểm tra cuối Phase 3.", doneVi: "Trả lời Speed Q&A, nói lại sau nhận xét, làm 2 câu kiểm tra không gợi ý." },
+  11: { titleVi: "Micro-Roleplay cơ bản", minutes: 25, goalVi: "Trò chuyện trong tình huống quen thuộc, đạt yêu cầu của tình huống.", doneVi: "Hoàn thành 2 tình huống." },
+  12: { titleVi: "Micro-Roleplay nâng cao và kiểm tra Phase 4", minutes: 25, goalVi: "Giữ được cuộc trò chuyện khi bạn kia có ý kiến khác.", doneVi: "Hoàn thành 2 tình huống và 1 câu nói tình huống không gợi ý." },
+  13: { titleVi: "Bài nói độc lập và câu hỏi nhắc lại", minutes: 20, goalVi: "Tự nói với câu hỏi mới, và nhớ được câu đã luyện từ tuần trước.", doneVi: "Trả lời hết câu hỏi, không gợi ý." },
+  14: { titleVi: "Đánh giá cuối module", minutes: 25, goalVi: "Kiểm tra kiến thức, roleplay tình huống mới, so sánh với bài đầu module.", doneVi: "Làm bài kiến thức cuối module và roleplay cuối." },
 };
 
 export const phaseOf = (day: number) => PHASES.find((p) => (p.days as readonly number[]).includes(day))!;
@@ -85,7 +89,10 @@ export type Step =
       test: boolean;
     }
   | { t: "roleplay"; ref: string; test: boolean }
-  | { t: "report"; ref: "check1" | "check2" | "final" };
+  | { t: "report"; ref: ReportRef };
+
+/** check1: cuối Phase 1 (ngày 3), check2: cuối Phase 2 (ngày 7), check3: cuối Phase 3 (ngày 10), check4: cuối Phase 4 (ngày 12). */
+export type ReportRef = "check1" | "check2" | "check3" | "check4" | "final";
 
 export type PlannedStep = Step & { n: number };
 export type Lesson = { day: number; phase: number; titleVi: string; minutes: number; notesVi: string[]; steps: PlannedStep[] };
@@ -396,6 +403,39 @@ function freshQuestions(input: PlanInput, used: Set<string>, difficulties: numbe
   return out;
 }
 
+/** Câu Question Variation chưa từng hỏi trong module và chưa có trong bài hôm nay; lấy câu ở cuối mỗi nhóm trước. */
+function unusedVariations(input: PlanInput, used: Set<string>, n: number): Step[] {
+  const out: Step[] = [];
+  for (let k = 3; k >= 0 && out.length < n; k--)
+    for (const v of input.module.variations) {
+      if (out.length >= n) break;
+      const text = v.questions[k];
+      const ref = `${v.id}.${k + 1}`;
+      if (!text || used.has(ref)) continue;
+      used.add(ref);
+      out.push({ t: "speak", ref, text, source: "variation", qid: null, hints: [], keywords: v.keywords, expectsReason: v.expectsReason, targetMs: null, assess: "auto", retry: null, test: true });
+    }
+  return out;
+}
+
+/**
+ * Câu hỏi nhắc lại (delayed questions): câu của Unit đã trả lời có gợi ý ở ngày 4–8, hỏi lại không gợi ý ở ngày 13
+ * để xem em còn nhớ và tự nói được không. Lấy câu luyện sớm nhất trước (cách lâu nhất).
+ */
+export function delayedQuestions(input: PlanInput, n: number): UnitQuestion[] {
+  const early = input.history
+    .filter((h) => h.t === "speak" && h.attemptNo === 1 && h.day >= 4 && h.day <= 8)
+    .sort((a, b) => a.at.localeCompare(b.at))
+    .map((h) => h.ref);
+  const out: UnitQuestion[] = [];
+  for (const ref of early) {
+    const q = input.unitQuestions.find((x) => x.key === ref);
+    if (q && !out.includes(q)) out.push(q);
+    if (out.length >= n) break;
+  }
+  return out;
+}
+
 /** Khối ôn đầu bài: từ đến hạn ôn (ôn ngắt quãng) và lỗi hay gặp nhất (Error Memory → Personalized Review). */
 function reviewBlock(input: PlanInput, maxWords: number, notes: string[]): Step[] {
   const steps: Step[] = [];
@@ -548,7 +588,13 @@ export function buildLesson(input: PlanInput): Lesson {
             retry: { ref: `${v.id}.${v.questions.indexOf(b) + 1}`, text: b },
             test: false,
           });
+          used.add(`${v.id}.${k + 1}`);
+          used.add(`${v.id}.${v.questions.indexOf(b) + 1}`);
         }
+        // Kiểm tra cuối Phase 3: câu chưa luyện, không gợi ý, vẫn đo mục tiêu thời gian riêng. Không gọi AI (đỡ tốn).
+        for (const x of unusedVariations(input, used, 2)) if (x.t === "speak") steps.push({ ...x, targetMs: target.ms, assess: "none" });
+        steps.push({ t: "report", ref: "check3" });
+        notes.push("Cuối bài có 2 câu kiểm tra Phase 3: câu chưa luyện, không gợi ý, đo thời gian bắt đầu nói.");
       }
       break;
     }
@@ -562,6 +608,9 @@ export function buildLesson(input: PlanInput): Lesson {
       } else {
         const r = m.roleplays.filter((x) => x.level === "advanced");
         for (const x of r.slice(0, 2)) steps.push({ t: "roleplay", ref: x.id, test: false });
+        steps.push(...unusedVariations(input, used, 1));
+        steps.push({ t: "report", ref: "check4" });
+        notes.push("Cuối bài có 1 câu kiểm tra Phase 4: nói về một tình huống, không gợi ý.");
       }
       break;
     }
@@ -569,7 +618,10 @@ export function buildLesson(input: PlanInput): Lesson {
       for (const q of m.independent.filter((x) => x.set === "final").sort((a, b) => a.pair - b.pair))
         steps.push({ t: "speak", ref: q.id, text: q.text, source: "independent", qid: null, hints: [], keywords: q.keywords, expectsReason: q.expectsReason, targetMs: null, assess: "auto", retry: null, test: true });
       for (const q of freshQuestions(input, used, [2, 3])) steps.push(speakUnit(q, { hints: 0, assess: "auto", test: true }));
+      const again = delayedQuestions(input, 2);
+      for (const q of again) steps.push(speakUnit(q, { hints: 0, assess: "auto", test: true }));
       notes.push("Hôm nay không có gợi ý: câu hỏi mới, em tự nói bằng lời của mình.");
+      if (again.length) notes.push(`Có ${again.length} câu em đã luyện từ tuần trước được hỏi lại, để xem em còn nhớ và tự nói được không.`);
       break;
     }
     case 14: {

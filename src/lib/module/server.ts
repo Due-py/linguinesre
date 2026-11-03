@@ -155,6 +155,7 @@ export const toReport = (rows: AttemptRow[]): ReportAttempt[] =>
       area: r.area,
       correct: r.correct,
       test: r.check_result?.test === true,
+      inTarget: r.in_target,
       measures: r.measures,
       check: r.check_result,
       ai: r.ai_status === "ok" ? r.ai : null,

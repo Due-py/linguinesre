@@ -7,7 +7,7 @@ import { answerQuiz, completeLesson, loadReport, markStep, requestAssess, submit
 import type { ModuleReport } from "@/lib/module/report";
 import type { VerifiedAssessment } from "@/lib/module/assessCore";
 import type { SpeechMeasures } from "@/lib/module/measure";
-import type { PlannedStep, StepHint } from "@/lib/module/plan";
+import { DAY_INFO, type PlannedStep, type StepHint } from "@/lib/module/plan";
 import { ERROR_TAGS, type ErrorTag, type ModuleContent } from "@/lib/module/schema";
 import { useRecorder, type Recording } from "@/lib/speaking/useRecorder";
 import { moduleAudio, playAudio, postAudio } from "./audio";
@@ -114,6 +114,19 @@ export default function LessonRunner({
         Ngày {day}: {titleVi}
       </p>
       <main id="main" className="grid gap-5">
+        {/* Mục tiêu và tiêu chí hoàn thành của bài hôm nay (Lesson). */}
+        {index === 0 && (
+          <section className="grid gap-1 rounded-2xl border-2 border-line px-5 py-4">
+            <p>
+              <span className="font-extrabold">Mục tiêu hôm nay: </span>
+              {DAY_INFO[day].goalVi}
+            </p>
+            <p className="text-muted">
+              <span className="font-bold">Xong bài khi: </span>
+              {DAY_INFO[day].doneVi}
+            </p>
+          </section>
+        )}
         {index === 0 && notesVi.length > 0 && (
           <section className="grid gap-2 rounded-2xl bg-sunken px-5 py-4">
             <h2 className="flex items-center gap-2 font-extrabold">
@@ -1227,7 +1240,7 @@ function Report({ st, ctx, onDone }: P<"report">) {
   }, [ctx.lessonId]);
   return (
     <>
-      <h2 className="text-2xl font-extrabold tracking-tight">{st.ref === "final" ? "Kết quả cả module" : "Kết quả đến hôm nay"}</h2>
+      <h2 className="text-2xl font-extrabold tracking-tight">{st.ref === "final" ? "Kết quả cả module" : `Kết quả kiểm tra cuối giai đoạn ${st.ref.slice(-1)}`}</h2>
       {r === undefined ? (
         <p role="status" className="flex items-center gap-2 text-muted">
           <LoaderCircle className="size-5 animate-spin" aria-hidden />

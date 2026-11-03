@@ -5,11 +5,13 @@ import { moduleSchema, type ModuleContent } from "@/lib/module/schema";
 import { unitSchema } from "@/lib/content/schema";
 import {
   buildLesson,
+  DAY_INFO,
   DAYS,
   dueVocab,
   errorCounts,
   knowledgeQuiz,
   nextOpenDay,
+  PHASES,
   speedTarget,
   vocabStates,
   type HistoryAttempt,
@@ -233,5 +235,53 @@ describe("báo cáo so sánh đầu và cuối module", () => {
     expect(r2.speaking.final?.medianThinkMs).toBe(3000);
     expect(r2.knowledge.final?.correct).toBe(1);
     expect(JSON.stringify(r2)).not.toMatch(/score|overall|total_score/i);
+  });
+});
+
+describe("lộ trình đúng 5 giai đoạn, có kiểm tra cuối giai đoạn và câu hỏi nhắc lại", () => {
+  const base = { unitQuestions: pilot.questions, seed: "hs1", now: NOW };
+  it("Phase 2 là ngày 4–6, Phase 3 là ngày 7–10; mỗi ngày có mục tiêu và tiêu chí hoàn thành", () => {
+    expect(PHASES.map((p) => [...p.days])).toEqual([[1, 2, 3], [4, 5, 6], [7, 8, 9, 10], [11, 12], [13, 14]]);
+    for (let d = 1; d <= DAYS; d++) expect(DAY_INFO[d].goalVi.length * DAY_INFO[d].doneVi.length).toBeGreaterThan(0);
+  });
+  it("mọi module: ngày 10 và 12 có câu kiểm tra không gợi ý và báo cáo cuối giai đoạn, không trùng câu trong bài", () => {
+    for (const x of modules) {
+      for (const [day, ref] of [[10, "check3"], [12, "check4"]] as const) {
+        const l = buildLesson({ ...base, day, module: x.m, unitQuestions: x.questions, history: [] });
+        const tests = l.steps.filter((s) => s.t === "speak" && s.test);
+        expect(tests.length, x.file).toBeGreaterThan(0);
+        for (const s of tests) if (s.t === "speak") expect(s.hints).toEqual([]);
+        expect(l.steps.at(-1)).toMatchObject({ t: "report", ref });
+        const refs = l.steps.filter((s) => s.t === "speak").map((s) => s.ref);
+        expect(new Set(refs).size, x.file).toBe(refs.length);
+      }
+    }
+  });
+  it("ngày 13 hỏi lại không gợi ý câu đã luyện có gợi ý ở ngày 6", () => {
+    const q = pilot.questions.slice(0, 3);
+    const history = q.map((x, i) => h({ day: 6, t: "speak", ref: x.key, at: at(8 - i) }));
+    const l = buildLesson({ ...base, day: 13, module: pilot.m, history });
+    const again = l.steps.filter((s) => s.t === "speak" && (s.ref === q[0].key || s.ref === q[1].key));
+    expect(again).toHaveLength(2);
+    for (const s of again) if (s.t === "speak") expect([s.hints, s.test]).toEqual([[], true]);
+  });
+  it("kiểm tra cuối giai đoạn: Đạt / Chưa đạt / Chưa làm theo số liệu thật; câu nhắc lại không tính là câu mới", () => {
+    const quiz = (day: number, set: "check1" | "check2", correct: boolean, i: number) => ({ day, t: "quiz" as const, ref: "q" + i, attemptNo: 1, set, area: "vocab" as const, correct, test: true, measures: null, check: null, ai: null });
+    const speak = (day: number, ref: string, test: boolean, thinkMs: number, inTarget: boolean | null = null) => ({ day, t: "speak" as const, ref, attemptNo: 1, set: null, area: null, correct: null, test, inTarget, measures: { words: 8, thinkMs, clarity: 0.9 }, check: null, ai: null });
+    const r0 = moduleReport(pilot.m, []);
+    expect(r0.checkpoints.map((c) => c.status)).toEqual(["pending", "pending", "pending", "pending"]);
+    const attempts = [
+      ...[0, 1, 2, 3, 4, 5, 6, 7].map((i) => quiz(3, "check1", i < 7, i)), // 7/8 = 88% → đạt
+      ...[0, 1, 2, 3].map((i) => quiz(7, "check2", i < 2, i)), // 2/4 = 50% → chưa đạt
+      speak(6, "q01", false, 6000),
+      speak(10, "x01.4", true, 3000, true),
+      speak(10, "x02.4", true, 5000, false),
+      speak(13, "q01", true, 4000),
+      speak(13, "q09", true, 3500),
+    ];
+    const r = moduleReport(pilot.m, attempts);
+    expect(r.checkpoints.map((c) => c.status)).toEqual(["met", "not_met", "not_met", "pending"]); // 1/2 kịp giờ < 60%
+    expect(r.delayed.pairs).toEqual([{ ref: "q01", before: { day: 6, thinkMs: 6000, words: 8 }, after: { thinkMs: 4000, words: 8 } }]);
+    expect(r.transfer.fresh?.answers).toBe(1);
   });
 });

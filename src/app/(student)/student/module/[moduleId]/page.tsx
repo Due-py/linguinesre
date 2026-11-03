@@ -101,6 +101,7 @@ export default async function ModulePage({ params, searchParams }: { params: Pro
                 Ngày {nextDay}/14 · Giai đoạn {phaseOf(nextDay).no}: {phaseOf(nextDay).titleVi}
               </p>
               <h2 className="text-3xl font-extrabold">{DAY_INFO[nextDay].titleVi}</h2>
+              <p className="text-on-forest-muted">Mục tiêu: {DAY_INFO[nextDay].goalVi}</p>
               <p className="flex items-center gap-2 text-on-forest-muted">
                 <Clock className="size-4" aria-hidden />
                 Khoảng {DAY_INFO[nextDay].minutes} phút{nextDay === 1 ? ". Bắt đầu bằng bài đầu module ngắn để biết em đang ở đâu." : ""}
