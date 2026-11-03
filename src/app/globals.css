@@ -1,15 +1,58 @@
 @import "tailwindcss";
 
-/* Token thiết kế của LINGUA-REFLEX (sáng, gọn, kiểu Stripe/Linear). Quy tắc dùng: xem DESIGN.md. */
+/*
+ * Token thiết kế của LINGUA-REFLEX: sáng, vui, bo tròn, nút "dày" có đáy 3D (lấy cảm hứng từ Duolingo). Quy tắc: DESIGN.md.
+ * Trang nghiên cứu (bài kiểm tra, chế độ A/B, trang chờ) bọc trong .theme-classic để giữ nguyên giao diện cũ tới hết
+ * nghiên cứu: .theme-classic đặt lại đúng các token cũ, và biến thể duo: chỉ áp dụng bên ngoài .theme-classic.
+ */
 :root {
-  --bg: #f6f9fc; /* nền trắng xám-xanh rất nhạt */
+  --bg: #ffffff;
   --surface: #ffffff;
-  --sunken: #eef2f7; /* khối nhấn nhẹ */
-  --ink: #0a2540; /* xanh navy đậm: chữ chính (14.7:1 trên bg) */
-  --muted: #425466; /* chữ phụ (7.4:1 trên bg) */
+  --sunken: #f7f7f7; /* khối nhấn nhẹ, ô nhập */
+  --ink: #3c3c3c; /* chữ chính (11:1 trên trắng) */
+  --muted: #6f6f6f; /* chữ phụ (5.0:1 trên trắng, 4.7:1 trên sunken) */
+  --line: #e5e5e5;
+  --line-strong: #dadada;
+  --brand: #3a8500; /* xanh lá: nút chính, liên kết, tiến độ. Chữ trắng trên nền này 4.6:1 */
+  --brand-strong: #2c6600; /* hover, đáy 3D của nút, chữ trên brand-soft (6.3:1) */
+  --brand-soft: #d7ffb8;
+  --brand-bright: #58cc02; /* xanh tươi, chỉ để trang trí (thanh tiến độ, hình), không đặt chữ lên */
+  --on-brand: #ffffff;
+  --sky: #1899d6; /* nút nghe, lựa chọn đang chọn (biểu tượng trắng 3.2:1) */
+  --sky-strong: #0b6fa6; /* chữ trên sky-soft (4.8:1) */
+  --sky-soft: #ddf4ff;
+  --sky-shadow: #08537d;
+  --gold: #ffc800; /* ô thành tích, ngôi sao. Chữ trên nền này dùng ink (7.1:1) */
+  --gold-soft: #fff6d6;
+  --gold-shadow: #e0a800;
+  --berry: #8a3fd1; /* nhãn "Từ mới" (4.8:1 trên berry-soft) */
+  --berry-soft: #f4e8ff;
+  --warn: #7a4e00;
+  --warn-soft: #fff4dc;
+  --danger: #c81e1e;
+  --danger-soft: #ffdfe0;
+  --forest: #2f7a00; /* mảng màu lớn: khối "Hôm nay", băng tiêu đề giai đoạn. Chữ trắng 5.4:1 */
+  --on-forest: #ffffff;
+  --on-forest-muted: #e8ffd6; /* 5.0:1 trên forest */
+
+  --font-app: var(--font-nunito);
+  --heading-tracking: -0.01em;
+  --shadow-button: 0 4px 0 var(--brand-strong);
+  --shadow-card:
+    0 0 0 2px var(--line),
+    0 4px 0 0 var(--line);
+}
+
+/* Giao diện cũ kiểu Stripe/Linear, chỉ cho trang nghiên cứu. Giá trị giữ đúng như bản 30/10, KHÔNG sửa tới hết nghiên cứu. */
+.theme-classic {
+  --bg: #f6f9fc;
+  --surface: #ffffff;
+  --sunken: #eef2f7;
+  --ink: #0a2540;
+  --muted: #425466;
   --line: #e3e8ee;
-  --line-strong: #c4ccd8; /* viền nút phụ, ô nhập */
-  --brand: #533afd; /* màu nhấn duy nhất: nút chính, liên kết. Chữ trắng trên nền này 6.2:1 */
+  --line-strong: #c4ccd8;
+  --brand: #533afd;
   --brand-strong: #3d26d6;
   --brand-soft: #efedff;
   --on-brand: #ffffff;
@@ -17,10 +60,32 @@
   --warn-soft: #fff4dc;
   --danger: #b3261e;
   --danger-soft: #fdecea;
-  --forest: #0a2540; /* mảng navy đậm: khối nhấn lớn (tên giữ nguyên để không phải đổi mã) */
+  --forest: #0a2540;
   --on-forest: #ffffff;
-  --on-forest-muted: #adbdcc; /* 8.1:1 trên navy */
+  --on-forest-muted: #adbdcc;
+
+  --heading-tracking: -0.02em;
+  --tracking-tight: -0.025em;
+  --font-weight-bold: 600;
+  --font-weight-extrabold: 650;
+  --shadow-button:
+    0 1px 2px rgb(10 37 64 / 0.12),
+    0 6px 16px -6px rgb(83 58 253 / 0.55);
+  --shadow-card:
+    0 0 0 1px var(--line),
+    0 2px 8px -2px rgb(10 37 64 / 0.06),
+    0 12px 32px -12px rgb(10 37 64 / 0.1);
+
+  min-height: 100dvh;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-weight: 400;
+  font-feature-settings: "cv11", "ss01";
 }
+
+/* duo:… chỉ có tác dụng ngoài trang nghiên cứu. Dùng cho thành phần dùng chung (nút, khung trang) để trang nghiên cứu không đổi. */
+@custom-variant duo (&:not(:where(.theme-classic, .theme-classic *)));
 
 @theme inline {
   --color-bg: var(--bg);
@@ -33,7 +98,17 @@
   --color-brand: var(--brand);
   --color-brand-strong: var(--brand-strong);
   --color-brand-soft: var(--brand-soft);
+  --color-brand-bright: var(--brand-bright);
   --color-on-brand: var(--on-brand);
+  --color-sky: var(--sky);
+  --color-sky-strong: var(--sky-strong);
+  --color-sky-soft: var(--sky-soft);
+  --color-sky-shadow: var(--sky-shadow);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-gold-shadow: var(--gold-shadow);
+  --color-berry: var(--berry);
+  --color-berry-soft: var(--berry-soft);
   --color-warn: var(--warn);
   --color-warn-soft: var(--warn-soft);
   --color-danger: var(--danger);
@@ -41,29 +116,64 @@
   --color-forest: var(--forest);
   --color-on-forest: var(--on-forest);
   --color-on-forest-muted: var(--on-forest-muted);
-  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-sans: var(--font-app), system-ui, sans-serif;
 }
 
-/* Chữ đậm vừa phải như Stripe/Linear: tiêu đề 650, nhấn 600 (Inter là phông biến thiên nên dùng được mọi độ đậm). */
+/* Chữ tròn, đậm như Duolingo (Nunito). Trang nghiên cứu đặt lại 600/650 trong .theme-classic. */
 @theme {
-  --font-weight-bold: 600;
-  --font-weight-extrabold: 650;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  --tracking-tight: -0.01em;
 }
 
-/* Bóng mỏng thay cho bóng đáy dày kiểu cũ. */
 @utility shadow-button {
-  box-shadow:
-    0 1px 2px rgb(10 37 64 / 0.12),
-    0 6px 16px -6px rgb(83 58 253 / 0.55);
+  box-shadow: var(--shadow-button);
 }
 @utility shadow-card {
-  box-shadow:
-    0 0 0 1px var(--line),
-    0 2px 8px -2px rgb(10 37 64 / 0.06),
-    0 12px 32px -12px rgb(10 37 64 / 0.1);
+  box-shadow: var(--shadow-card);
 }
 
-/* Điểm nhấn duy nhất: dải màu chuyển chéo kiểu Stripe, chỉ dùng ở đầu trang chủ và khung đăng nhập. */
+/*
+ * Nút 3D: đáy dày 4px cùng màu đậm hơn; bấm xuống thì nút lún đúng 4px và đáy biến mất.
+ * --depth đổi màu đáy theo từng loại nút (xanh lá, xanh dương, xám).
+ */
+@utility btn-3d {
+  box-shadow: 0 4px 0 var(--depth, var(--brand-strong));
+  transition:
+    transform 80ms ease-out,
+    box-shadow 80ms ease-out,
+    background-color 150ms,
+    filter 150ms;
+  &:hover:not(:disabled) {
+    filter: brightness(1.06);
+  }
+  &:active:not(:disabled) {
+    transform: translateY(4px);
+    box-shadow: 0 0 0 var(--depth, var(--brand-strong));
+  }
+}
+
+/* Thẻ lựa chọn: viền 2px, đáy 4px; đang chọn thì xanh dương (kèm chữ hoặc dấu, không chỉ màu). */
+@utility option-card {
+  border: 2px solid var(--line);
+  border-bottom-width: 4px;
+  border-radius: 1rem;
+  background: var(--surface);
+  transition:
+    background-color 150ms,
+    border-color 150ms,
+    transform 80ms;
+  &:hover:not(:disabled) {
+    background: var(--sunken);
+  }
+  &:active:not(:disabled) {
+    transform: translateY(2px);
+    border-bottom-width: 2px;
+    margin-bottom: 2px;
+  }
+}
+
+/* Điểm nhấn cũ của trang chủ bản Stripe (giữ cho trang nghiên cứu nếu cần). */
 @utility stripe-gradient {
   background:
     radial-gradient(60% 80% at 15% 30%, #a960ee 0%, transparent 60%),
@@ -83,25 +193,33 @@ body {
   min-height: 100dvh;
   font-family: var(--font-sans);
   font-size: 1rem;
+  font-weight: 500;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
-  font-feature-settings: "cv11", "ss01";
 }
 
 h1,
 h2,
 h3 {
-  letter-spacing: -0.02em;
+  letter-spacing: var(--heading-tracking);
 }
 
-/* Focus nhìn thấy rõ ở mọi thành phần tương tác (viền 3px màu chữ). */
+/* Focus nhìn thấy rõ ở mọi thành phần tương tác. */
 :where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
   outline: 3px solid var(--brand);
   outline-offset: 2px;
   border-radius: 0.5rem;
 }
 
-/* Chuyển động nhẹ: hiện dần khi vào trang. Tắt hoàn toàn khi người dùng chọn giảm chuyển động. */
+/* ---- Chuyển động ------------------------------------------------------------------------------------------------
+ * Ý tưởng lấy từ 4 video tham khảo (files/Design Inspiration 1–4), không lấy giao diện:
+ *  1 (HopeRise): số đếm tăng dần, vòng tròn trôi nổi, thẻ nổi lên khi chọn.
+ *  2 (ZeBeyond): chữ sáng dần từng từ, biểu đồ tự vẽ, khối trồi lên chồng lên khối trước.
+ *  3 (Vertex): các tầng mở rộng khi chọn, công trình "mọc" lên theo từng giai đoạn.
+ *  4 (Mirko): ảnh nhỏ phóng to thành khối lớn.
+ * Tất cả tắt khi người dùng chọn giảm chuyển động (cuối file).
+ */
+
 @keyframes rise-in {
   from {
     opacity: 0;
@@ -122,6 +240,167 @@ h3 {
   animation-delay: 0.16s;
 }
 
+/* Nảy vào (nút trên lộ trình, ô thành tích), lần lượt theo --i. */
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  70% {
+    opacity: 1;
+    transform: scale(1.06);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.pop-in {
+  animation: pop-in 0.45s cubic-bezier(0.2, 0.9, 0.3, 1.2) both;
+  animation-delay: calc(var(--i, 0) * 70ms);
+}
+
+/* Bảng nhận xét trồi lên từ dưới (khối chồng lên khối, video 2). */
+@keyframes sheet-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.sheet-up {
+  animation: sheet-up 0.32s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+/* Chữ sáng dần từng từ (video 2): mỗi từ từ màu nhạt sang màu chữ chính. */
+@keyframes word-light {
+  from {
+    color: var(--line-strong);
+  }
+  to {
+    color: var(--ink);
+  }
+}
+.word-light > span {
+  animation: word-light 0.5s ease-out both;
+  animation-delay: calc(0.3s + var(--i, 0) * 90ms);
+}
+
+/* Vạch / cột tự dài ra (biểu đồ tự vẽ, video 2). */
+@keyframes grow {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+.grow-x {
+  transform-origin: left;
+  animation: grow 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  animation-delay: calc(0.15s + var(--i, 0) * 80ms);
+}
+
+/* Linh vật: nhún nhẹ, chớp mắt, nhảy mừng. */
+@keyframes bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+@keyframes blink {
+  0%,
+  92%,
+  100% {
+    transform: scaleY(1);
+  }
+  95% {
+    transform: scaleY(0.1);
+  }
+}
+@keyframes cheer {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+  30% {
+    transform: translateY(-14px) rotate(-4deg);
+  }
+  60% {
+    transform: translateY(0) rotate(3deg);
+  }
+}
+.mascot-bob {
+  animation: bob 2.6s ease-in-out infinite;
+}
+.mascot-cheer {
+  animation: cheer 0.9s ease-in-out 2;
+}
+.mascot-eye {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: blink 4.5s infinite;
+}
+
+/* Nhãn "Bắt đầu" trên lộ trình nảy nhẹ. */
+@keyframes nudge {
+  0%,
+  100% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, -5px);
+  }
+}
+.nudge {
+  animation: nudge 1.6s ease-in-out infinite;
+}
+
+/* Vòng tròn trôi nổi (video 1). */
+@keyframes drift {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(var(--dx, 6px), var(--dy, -10px));
+  }
+}
+.drift {
+  animation: drift var(--t, 6s) ease-in-out infinite;
+}
+
+/* Vòng sáng quanh nút micro khi đang nghe. */
+@keyframes ring {
+  from {
+    transform: scale(1);
+    opacity: 0.55;
+  }
+  to {
+    transform: scale(1.55);
+    opacity: 0;
+  }
+}
+.listen-ring {
+  animation: ring 1.4s ease-out infinite;
+}
+
+/* Khối hiện dần khi cuộn tới (chỉ trình duyệt hỗ trợ; trình duyệt khác hiện ngay, không mất nội dung). */
+@supports (animation-timeline: view()) {
+  .reveal {
+    animation: rise-in linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 60%;
+  }
+}
+
+/* Sóng âm của logo (họa tiết nhận diện). */
 .wave-bar {
   transform-origin: bottom;
   animation: wave-rise 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) both;
@@ -155,16 +434,6 @@ h3 {
   animation: countdown 6s linear infinite;
 }
 
-/* Speed Q&A trong module: vạch dài dần tới mục tiêu thời gian bắt đầu nói của riêng học sinh (thời lượng đặt inline). */
-@keyframes grow {
-  from {
-    transform: scaleX(0);
-  }
-  to {
-    transform: scaleX(1);
-  }
-}
-
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -179,5 +448,8 @@ h3 {
   .countdown-bar {
     animation: none;
     transform: scaleX(0.6);
+  }
+  .reveal {
+    animation: none;
   }
 }

@@ -31,16 +31,16 @@ export default async function PracticeListPage() {
             Chưa có Unit nào của lớp {profile.grade} được thầy cô duyệt. Khi có, Unit sẽ hiện ở đây.
           </p>
         ) : (
-          <ul className="divide-y divide-line border-y border-line">
-            {units.map((u) => (
-              <li key={u.id}>
+          <ul className="grid gap-3">
+            {units.map((u, i) => (
+              <li key={u.id} className="pop-in" style={{ ["--i" as string]: i }}>
                 <Link
                   href={moduleOf.has(u.id) ? `/student/module/${moduleOf.get(u.id)!.id}` : `/student/practice/${u.id}`}
-                  className="group grid grid-cols-[auto_1fr_auto] items-center gap-4 py-5"
+                  className="option-card group grid grid-cols-[auto_1fr_auto] items-center gap-4 px-4 py-4"
                 >
-                  <span className="grid size-12 place-items-center rounded-2xl bg-sunken text-lg font-extrabold tabular-nums">{u.unitNo}</span>
+                  <span className={`grid size-12 place-items-center rounded-2xl text-lg font-extrabold tabular-nums ${moduleOf.has(u.id) ? "bg-brand text-on-brand shadow-[0_4px_0_var(--brand-strong)]" : "bg-sunken text-ink"}`}>{u.unitNo}</span>
                   <span className="grid gap-0.5">
-                    <span lang="en" className="text-xl font-extrabold tracking-tight group-hover:underline">
+                    <span lang="en" className="text-xl font-extrabold">
                       {u.title}
                     </span>
                     <span className="text-muted">{u.titleVi}</span>

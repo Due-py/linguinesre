@@ -1,7 +1,13 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Nunito } from "next/font/google";
 import "./globals.css";
 
+// Nunito: chữ tròn, thân thiện cho toàn bộ web. Inter chỉ còn cho trang nghiên cứu (.theme-classic), giữ nguyên tới hết nghiên cứu.
+const nunito = Nunito({
+  subsets: ["latin", "vietnamese"],
+  variable: "--font-nunito",
+  display: "swap",
+});
 const inter = Inter({
   subsets: ["latin", "vietnamese"],
   variable: "--font-inter",
@@ -20,12 +26,12 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#f6f9fc",
+  themeColor: "#ffffff",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="vi" className={inter.variable} data-scroll-behavior="smooth">
+    <html lang="vi" className={`${nunito.variable} ${inter.variable}`} data-scroll-behavior="smooth">
       <body className="bg-bg font-sans text-ink">{children}</body>
     </html>
   );

@@ -21,6 +21,7 @@ export default async function StudentPage({ searchParams }: { searchParams: Prom
 
   // Học sinh tham gia nghiên cứu: bài kiểm tra đến hạn → làm bài; giai đoạn luyện → chế độ A hoặc B được gán;
   // còn lại (chưa chia nhóm, chưa mở) → trang chờ. Trang chính đầy đủ chỉ mở sau khi nghiên cứu kết thúc (study_over).
+  // Trang nghiên cứu giữ giao diện cũ (theme-classic) tới hết nghiên cứu để hai lần kiểm tra và hai chế độ không đổi giữa chừng.
   const participant = await getParticipant(profile.id);
   if (participant) {
     const settings = await researchSettings();
@@ -28,16 +29,20 @@ export default async function StudentPage({ searchParams }: { searchParams: Prom
     if (access.ok && !settings.studyOver) {
       const [sessions, checked] = await Promise.all([listModeSessions(profile.id), hasCheckin(profile.id)]);
       return (
-        <AppShell name={participant.code} roleLabel="Học sinh" homeHref="/student">
-          <ModeHome code={participant.code} mode={access.mode} sessions={sessions} today={vnToday()} needsCheckin={!checked} notice={luyen} tests={state} />
-        </AppShell>
+        <div className="theme-classic">
+          <AppShell name={participant.code} roleLabel="Học sinh" homeHref="/student">
+            <ModeHome code={participant.code} mode={access.mode} sessions={sessions} today={vnToday()} needsCheckin={!checked} notice={luyen} tests={state} />
+          </AppShell>
+        </div>
       );
     }
     if (!access.ok) {
       return (
-        <AppShell name={participant.code} roleLabel="Học sinh" homeHref="/student">
-          <ResearchHome p={participant} state={state} />
-        </AppShell>
+        <div className="theme-classic">
+          <AppShell name={participant.code} roleLabel="Học sinh" homeHref="/student">
+            <ResearchHome p={participant} state={state} />
+          </AppShell>
+        </div>
       );
     }
   }

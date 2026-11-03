@@ -38,5 +38,6 @@ export default async function ModeSessionPage({ params }: { params: Promise<{ id
     savedSteps,
     activeMs: row?.active_ms ?? 0,
   };
-  return s.mode === "A" ? <ModeRunner {...common} startLimitMs={speedLevel(history)} /> : <ReadRunner {...common} />;
+  // Giao diện cũ (theme-classic) giữ nguyên tới hết nghiên cứu, như nhau cho cả hai chế độ.
+  return <div className="theme-classic">{s.mode === "A" ? <ModeRunner {...common} startLimitMs={speedLevel(history)} /> : <ReadRunner {...common} />}</div>;
 }

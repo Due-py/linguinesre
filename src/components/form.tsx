@@ -6,7 +6,7 @@ import { CircleAlert, CircleCheck, LoaderCircle } from "lucide-react";
 import type { FormState } from "@/lib/form";
 
 export const inputClass =
-  "h-[52px] w-full rounded-xl border border-line bg-surface px-4 text-base font-medium text-ink placeholder:text-muted/70 transition-colors hover:border-ink/40 focus:border-ink focus:outline-none aria-[invalid=true]:border-danger";
+  "h-[52px] w-full rounded-2xl border-2 border-line bg-sunken px-4 text-base font-semibold text-ink placeholder:font-medium placeholder:text-muted/80 transition-colors hover:border-line-strong focus:border-sky focus:bg-surface focus:outline-none aria-[invalid=true]:border-danger";
 
 /** Ô nhập có nhãn, gợi ý và lỗi gắn đúng bằng aria (trình đọc màn hình đọc được). */
 export function Field({
@@ -80,15 +80,16 @@ export function SubmitButton({
   className?: string;
 }) {
   const { pending } = useFormStatus();
+  // duo:… là kiểu nút dày 3D (ngoài trang nghiên cứu); phần còn lại giữ như cũ cho .theme-classic.
   const styles =
     variant === "primary"
-      ? "bg-brand text-on-brand shadow-button hover:bg-brand-strong"
-      : "border border-line-strong bg-surface text-ink hover:bg-sunken";
+      ? "bg-brand text-on-brand shadow-button hover:bg-brand-strong duo:hover:bg-brand"
+      : "border border-line-strong bg-surface text-ink hover:bg-sunken duo:border-2 duo:border-line duo:text-sky-strong duo:[--depth:var(--line)]";
   return (
     <button
       type="submit"
       disabled={pending}
-      className={`inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 text-base font-bold transition-colors disabled:cursor-wait disabled:opacity-70 ${styles} ${className}`}
+      className={`inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 text-base font-bold transition-colors disabled:cursor-wait disabled:opacity-70 duo:rounded-2xl duo:font-extrabold duo:btn-3d ${styles} ${className}`}
     >
       {pending && <LoaderCircle className="size-5 animate-spin" aria-hidden />}
       {pending ? pendingLabel : children}

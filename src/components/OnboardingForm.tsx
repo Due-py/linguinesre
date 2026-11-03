@@ -25,7 +25,7 @@ export default function OnboardingForm() {
           {ROLES.map((r) => (
             <label
               key={r.value}
-              className="group relative grid cursor-pointer gap-2 rounded-2xl border border-line bg-surface p-5 transition-colors hover:border-ink/40 has-[:checked]:border-brand has-[:checked]:bg-brand-soft has-[:focus-visible]:outline has-[:focus-visible]:outline-[3px] has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-ink"
+              className="option-card group relative grid cursor-pointer gap-2 p-5 has-[:checked]:border-sky has-[:checked]:bg-sky-soft has-[:focus-visible]:outline has-[:focus-visible]:outline-[3px] has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-brand"
             >
               <input
                 type="radio"
@@ -35,13 +35,13 @@ export default function OnboardingForm() {
                 onChange={() => setRole(r.value)}
                 className="peer sr-only"
               />
-              <span className="grid size-11 place-items-center rounded-xl bg-sunken text-ink group-has-[:checked]:bg-brand group-has-[:checked]:text-on-brand">
+              <span className="grid size-11 place-items-center rounded-xl bg-sunken text-ink group-has-[:checked]:bg-sky group-has-[:checked]:text-white">
                 <r.icon className="size-6" aria-hidden />
               </span>
               <span className="text-xl font-extrabold">{r.title}</span>
               <span className="text-sm text-muted">{r.text}</span>
               {/* Dấu chọn có chữ cho người không phân biệt được màu. */}
-              <span className="absolute right-4 top-4 hidden rounded-full bg-brand px-2.5 py-0.5 text-xs font-bold text-on-brand group-has-[:checked]:block">
+              <span className="absolute right-4 top-4 hidden rounded-full bg-sky px-2.5 py-0.5 text-xs font-bold text-white group-has-[:checked]:block">
                 Đã chọn
               </span>
             </label>

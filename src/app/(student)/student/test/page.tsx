@@ -21,12 +21,18 @@ export default async function TestPage() {
   const state = await testState(profile.id, p);
   const attempt = state.due ? state[state.due] : null;
 
+  // Giao diện cũ (theme-classic) giữ nguyên tới hết nghiên cứu: lần kiểm tra 2 phải trông giống hệt lần 1.
   // Đang làm dở: vào thẳng màn hình làm bài (tiếp tục từ câu chưa ghi âm).
   if (state.due && attempt?.status === "in_progress") {
-    return <TestRunner attemptId={attempt.id} phaseLabel={PHASE_LABEL[state.due]} />;
+    return (
+      <div className="theme-classic">
+        <TestRunner attemptId={attempt.id} phaseLabel={PHASE_LABEL[state.due]} />
+      </div>
+    );
   }
 
   return (
+    <div className="theme-classic">
     <AppShell name={profile.displayName ?? ""} roleLabel="Học sinh" homeHref="/student">
       {state.due ? (
         <div className="grid max-w-prose gap-6">
@@ -52,5 +58,6 @@ export default async function TestPage() {
         </div>
       )}
     </AppShell>
+    </div>
   );
 }

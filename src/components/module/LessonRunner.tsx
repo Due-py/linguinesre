@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
-import { ArrowLeft, ArrowRight, Check, CircleAlert, CircleCheck, CircleDashed, Info, Lightbulb, LoaderCircle, MessageSquareText, RotateCcw, Undo2 } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
+import { ArrowRight, Check, CircleAlert, CircleCheck, CircleDashed, Info, Lightbulb, LoaderCircle, MessageSquareText, RotateCcw, Undo2, X } from "lucide-react";
 import { answerQuiz, completeLesson, loadReport, markStep, requestAssess, submitArrange } from "@/app/(student)/student/module/actions";
 import type { ModuleReport } from "@/lib/module/report";
 import type { VerifiedAssessment } from "@/lib/module/assessCore";
@@ -14,6 +14,8 @@ import { moduleAudio, playAudio, postAudio } from "./audio";
 import { AssessPanel, MeasuredPanel, ReportView, SourceBadge } from "./Panels";
 import RecordButton from "./RecordButton";
 import ListenButton from "./Listen";
+import CountUp from "@/components/CountUp";
+import Mascot from "@/components/Mascot";
 
 /** Một lượt đã lưu (để học tiếp đúng chỗ sau khi tải lại trang). */
 export type SavedRow = { step: number; turn: number; attemptNo: number; attemptId: string; answer: string | null; reply: string | null; correct: boolean | null };
@@ -75,7 +77,13 @@ export default function LessonRunner({
   const [index, setIndex] = useState(startAt);
   const ctx: Ctx = { lessonId, moduleId, content, rec, rows };
   const st = steps[index];
+  const openedAt = useRef(0);
+  const [elapsed, setElapsed] = useState<number | null>(null);
+  useEffect(() => {
+    openedAt.current = Date.now();
+  }, []);
   const next = () => {
+    if (index + 1 >= steps.length && openedAt.current) setElapsed(Date.now() - openedAt.current);
     setIndex((i) => i + 1);
     window.scrollTo({ top: 0 });
   };
@@ -83,21 +91,28 @@ export default function LessonRunner({
 
   return (
     <div className="mx-auto grid min-h-dvh w-full max-w-2xl grid-cols-1 content-start gap-5 px-4 pb-12 pt-3 sm:px-6">
-      <header className="flex items-center justify-between gap-3">
-        <Link href={`/student/module/${moduleId}`} className="inline-flex min-h-11 items-center gap-2 text-sm font-bold text-muted hover:text-ink">
-          <ArrowLeft className="size-4" aria-hidden />
-          Thoát
+      {/* Kiểu màn hình bài học Duolingo: nút đóng, thanh tiến độ dày có vệt sáng, số bước. */}
+      <header className="grid grid-cols-[auto_1fr_auto] items-center gap-3">
+        <Link
+          href={`/student/module/${moduleId}`}
+          aria-label="Thoát"
+          className="grid size-11 place-items-center rounded-xl text-muted transition-colors hover:bg-sunken hover:text-ink"
+        >
+          <X className="size-7" aria-hidden />
         </Link>
-        <p className="min-w-0 truncate font-bold">
-          Ngày {day}: {titleVi}
-        </p>
-        <p className="shrink-0 text-sm font-bold tabular-nums text-muted">
+        <div role="progressbar" aria-label="Số bước đã xong" aria-valuemin={0} aria-valuemax={steps.length} aria-valuenow={index} className="h-4 overflow-hidden rounded-full bg-line">
+          <span
+            className="relative block h-full rounded-full bg-brand-bright transition-[width] duration-500 after:absolute after:inset-x-2 after:top-1 after:h-1 after:rounded-full after:bg-white/40"
+            style={{ width: `${Math.max(index / steps.length, 0.04) * 100}%` }}
+          />
+        </div>
+        <p className="shrink-0 text-sm font-extrabold tabular-nums text-muted">
           {Math.min(index + 1, steps.length)}/{steps.length}
         </p>
       </header>
-      <div role="progressbar" aria-label="Số bước đã xong" aria-valuemin={0} aria-valuemax={steps.length} aria-valuenow={index} className="h-1.5 overflow-hidden rounded-full bg-line">
-        <span className="block h-full rounded-full bg-brand transition-[width]" style={{ width: `${(index / steps.length) * 100}%` }} />
-      </div>
+      <p className="min-w-0 truncate text-sm font-bold text-muted">
+        Ngày {day}: {titleVi}
+      </p>
       <main id="main" className="grid gap-5">
         {index === 0 && notesVi.length > 0 && (
           <section className="grid gap-2 rounded-2xl bg-sunken px-5 py-4">
@@ -115,12 +130,27 @@ export default function LessonRunner({
         {st ? (
           <StepView key={st.n} st={st} ctx={ctx} onDone={next} />
         ) : (
-          <section className="grid gap-5 rounded-2xl bg-forest px-6 py-10 text-on-forest sm:px-10">
-            <h1 className="text-balance text-3xl font-extrabold tracking-tight">Em đã làm xong bài ngày {day}</h1>
-            <p className="max-w-prose text-on-forest-muted">Bấm hoàn thành để lưu và mở bài ngày tiếp theo. Mỗi ngày học một bài là vừa đủ.</p>
-            <form action={completeLesson}>
+          <section className="grid justify-items-center gap-6 py-6 text-center">
+            <Mascot mood="cheer" className="size-36" />
+            <h1 className="text-balance text-3xl font-extrabold">Em đã làm xong bài ngày {day}</h1>
+            <p className="max-w-prose text-muted">Bấm hoàn thành để lưu và mở bài ngày tiếp theo. Mỗi ngày học một bài là vừa đủ.</p>
+            {/* Ô số liệu kiểu Duolingo nhưng chỉ có số đo thật: không điểm, không XP. */}
+            <dl className="grid w-full max-w-md grid-cols-3 gap-3">
+              <Tile i={0} label="Số bước" tone="border-gold bg-gold text-ink">
+                <CountUp value={steps.length} />
+              </Tile>
+              <Tile i={1} label="Ngày" tone="border-brand bg-brand text-on-brand">
+                <CountUp value={day} format={(n) => `${n}/14`} />
+              </Tile>
+              {elapsed !== null && (
+                <Tile i={2} label="Lần mở này" tone="border-sky-strong bg-sky-strong text-white">
+                  <CountUp value={Math.round(elapsed / 1000)} format={(n) => `${Math.floor(n / 60)}:${String(n % 60).padStart(2, "0")}`} />
+                </Tile>
+              )}
+            </dl>
+            <form action={completeLesson} className="w-full max-w-md">
               <input type="hidden" name="lessonId" value={lessonId} />
-              <button type="submit" className="inline-flex min-h-12 w-fit items-center gap-2 rounded-full bg-on-forest px-6 font-bold text-forest hover:bg-white">
+              <button type="submit" className="btn-3d inline-flex min-h-14 w-full items-center justify-center gap-2 rounded-2xl bg-brand px-6 text-lg font-extrabold text-on-brand">
                 Hoàn thành bài hôm nay
                 <ArrowRight className="size-5" aria-hidden />
               </button>
@@ -164,7 +194,7 @@ function label(st: PlannedStep): string {
 function StepView({ st, ctx, onDone }: { st: PlannedStep; ctx: Ctx; onDone: () => void }) {
   return (
     <section className="rise-in grid gap-5">
-      <p className="w-fit rounded-full bg-brand-soft px-3 py-1 text-sm font-bold text-brand-strong">{label(st)}</p>
+      <p className={`w-fit rounded-full px-3 py-1 text-sm font-extrabold ${st.t === "learn_word" ? "bg-berry-soft text-berry" : "bg-sky-soft text-sky-strong"}`}>{label(st)}</p>
       {st.t === "learn_word" && <LearnWord st={st} ctx={ctx} onDone={onDone} />}
       {st.t === "recall_word" && <RecallWord st={st} ctx={ctx} onDone={onDone} />}
       {st.t === "known_words" && <KnownWords st={st} ctx={ctx} onDone={onDone} />}
@@ -191,7 +221,7 @@ function NextButton({ onClick, children = "Tiếp tục", disabled }: { onClick:
       type="button"
       onClick={onClick}
       disabled={disabled}
-      className="inline-flex min-h-12 w-fit items-center gap-2 rounded-full bg-brand px-7 font-bold text-on-brand shadow-button hover:bg-brand-strong disabled:opacity-60"
+      className="btn-3d inline-flex min-h-14 w-full items-center justify-center gap-2 rounded-2xl bg-brand px-8 text-lg font-extrabold text-on-brand disabled:opacity-60 sm:w-auto sm:min-w-56"
     >
       {children}
       <ArrowRight className="size-5" aria-hidden />
@@ -210,8 +240,8 @@ function Alert({ children }: { children: React.ReactNode }) {
 
 function Verdict({ ok, yes, no }: { ok: boolean | null; yes: string; no: string }) {
   return (
-    <p role="status" className={`flex items-start gap-2 rounded-xl px-4 py-3 font-bold ${ok ? "bg-brand-soft text-brand-strong" : "bg-sunken text-ink"}`}>
-      {ok ? <CircleCheck className="mt-0.5 size-5 shrink-0" aria-hidden /> : <CircleDashed className="mt-0.5 size-5 shrink-0" aria-hidden />}
+    <p role="status" className={`sheet-up flex items-start gap-3 rounded-2xl px-5 py-4 text-lg font-extrabold ${ok ? "bg-brand-soft text-brand-strong" : "bg-warn-soft text-warn"}`}>
+      {ok ? <CircleCheck className="mt-0.5 size-6 shrink-0" aria-hidden /> : <CircleDashed className="mt-0.5 size-6 shrink-0" aria-hidden />}
       {ok ? yes : no}
     </p>
   );
@@ -634,8 +664,8 @@ function Quiz({ st, ctx, onDone }: P<"quiz">) {
                 if (r.ok) setResult(r);
                 else setError(r.error);
               }}
-              className={`flex min-h-14 items-center justify-between gap-3 rounded-2xl border px-5 py-3 text-left text-lg font-semibold transition-colors ${
-                isAnswer ? "border-brand bg-brand-soft" : isWrongPick ? "border-line-strong bg-sunken" : chosen === i ? "border-ink" : "border-line bg-surface hover:border-ink/40"
+              className={`option-card flex min-h-14 items-center justify-between gap-3 px-5 py-3 text-left text-lg font-bold ${
+                isAnswer ? "border-brand! bg-brand-soft! text-brand-strong" : isWrongPick ? "bg-sunken! text-muted" : chosen === i ? "border-sky! bg-sky-soft! text-sky-strong" : ""
               }`}
             >
               {o}
@@ -678,7 +708,7 @@ function UseWord({ st, ctx, onDone }: P<"use_word">) {
           Ví dụ: <span lang="en" className="font-semibold">{v.example}</span> Nói câu của riêng em nhé.
         </p>
       ) : (
-        <button type="button" onClick={() => setShowEx(true)} className="inline-flex min-h-11 w-fit items-center gap-2 rounded-full border border-line bg-surface px-4 font-bold">
+        <button type="button" onClick={() => setShowEx(true)} className="option-card inline-flex min-h-11 w-fit items-center gap-2 px-4 font-extrabold text-sky-strong">
           <Lightbulb className="size-4" aria-hidden />
           Bí ý? Xem một câu ví dụ
         </button>
@@ -744,7 +774,7 @@ function Arrange({ st, ctx, onDone }: P<"arrange">) {
       {state !== "right" && (
         <div lang="en" className="flex flex-wrap gap-2">
           {left.map((c) => (
-            <button key={c} type="button" onClick={() => setPicked((xs) => [...xs, c])} className="min-h-11 rounded-xl border border-line bg-surface px-3 py-2 text-lg font-semibold hover:border-ink/40">
+            <button key={c} type="button" onClick={() => setPicked((xs) => [...xs, c])} className="option-card pop-in min-h-11 px-3 py-2 text-lg font-bold">
               {c}
             </button>
           ))}
@@ -762,12 +792,12 @@ function Arrange({ st, ctx, onDone }: P<"arrange">) {
               setTries((n) => n + 1);
               setState(r.correct ? "right" : "wrong");
             }}
-            className="inline-flex min-h-12 items-center gap-2 rounded-full bg-brand px-6 font-bold text-on-brand shadow-button hover:bg-brand-strong disabled:opacity-50"
+            className="btn-3d inline-flex min-h-12 items-center gap-2 rounded-2xl bg-brand px-6 font-extrabold text-on-brand disabled:bg-line disabled:text-muted disabled:shadow-none"
           >
             <Check className="size-5" aria-hidden />
             Kiểm tra
           </button>
-          <button type="button" onClick={() => setPicked([])} className="inline-flex min-h-12 items-center gap-2 rounded-full border border-line-strong bg-surface px-5 font-semibold">
+          <button type="button" onClick={() => setPicked([])} className="option-card inline-flex min-h-12 items-center gap-2 px-5 font-extrabold text-sky-strong">
             <Undo2 className="size-5" aria-hidden />
             Xếp lại
           </button>
@@ -910,7 +940,7 @@ function Hints({ hints, level, onOpen }: { hints: StepHint[]; level: number; onO
         </div>
       ))}
       {nextHint && (
-        <button type="button" onClick={() => onOpen(nextHint.level)} className="inline-flex min-h-11 w-fit items-center gap-2 rounded-full border border-line bg-surface px-4 font-bold hover:border-ink/40">
+        <button type="button" onClick={() => onOpen(nextHint.level)} className="option-card inline-flex min-h-11 w-fit items-center gap-2 px-4 font-extrabold text-sky-strong">
           <Lightbulb className="size-4" aria-hidden />
           {opened.length === 0 ? "Bí ý? Xem gợi ý" : `Thêm gợi ý: ${nextHint.title.toLowerCase()}`}
         </button>
@@ -945,7 +975,7 @@ function AssessArea({ s, onAsk }: { s: ReturnType<typeof useAssess>; onAsk?: () 
   if (s.error) return <Alert>{s.error}</Alert>;
   if (onAsk && !s.asked)
     return (
-      <button type="button" onClick={onAsk} className="inline-flex min-h-12 w-fit items-center gap-2 rounded-full border border-line-strong bg-surface px-6 font-semibold hover:bg-sunken">
+      <button type="button" onClick={onAsk} className="option-card inline-flex min-h-12 w-fit items-center gap-2 px-6 font-extrabold text-sky-strong">
         <MessageSquareText className="size-5" aria-hidden />
         Xem nhận xét của AI
       </button>
@@ -1212,5 +1242,15 @@ function Report({ st, ctx, onDone }: P<"report">) {
         Tiếp tục
       </MarkAndNext>
     </>
+  );
+}
+
+/** Ô số liệu cuối bài: nảy vào lần lượt (--i). */
+function Tile({ i, label, tone, children }: { i: number; label: string; tone: string; children: React.ReactNode }) {
+  return (
+    <div className={`pop-in grid overflow-hidden rounded-2xl border-2 ${tone}`} style={{ ["--i" as string]: i + 2 }}>
+      <dt className="px-2 py-1 text-xs font-extrabold">{label}</dt>
+      <dd className="grid place-items-center rounded-b-xl bg-surface px-2 py-3 text-xl font-extrabold text-ink">{children}</dd>
+    </div>
   );
 }

@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowRight, BookOpenText, CircleAlert, CircleCheck, Clock, Lock, ShieldCheck, TriangleAlert } from "lucide-react";
+import { BookOpenText, CircleAlert, CircleCheck, Clock, ShieldCheck, TriangleAlert } from "lucide-react";
 import AppShell, { STUDENT_NAV } from "@/components/AppShell";
 import { SubmitButton } from "@/components/form";
 import { ReportView, secs } from "@/components/module/Panels";
+import ModulePath, { phaseOf } from "@/components/module/ModulePath";
 import { requireRole } from "@/lib/auth";
 import { requirePracticeAccess } from "@/lib/research/server";
 import { getModule, moduleAttempts, moduleLessons, toHistory, toReport } from "@/lib/module/server";
-import { DAY_INFO, errorCounts, median, nextOpenDay, PHASES } from "@/lib/module/plan";
+import { DAY_INFO, errorCounts, median, nextOpenDay } from "@/lib/module/plan";
 import { moduleReport } from "@/lib/module/report";
 import { ERROR_TAGS } from "@/lib/module/schema";
 import { vnDay } from "@/lib/research/modes";
@@ -88,18 +89,18 @@ export default async function ModulePage({ params, searchParams }: { params: Pro
           </p>
         )}
 
-        <section className="grid gap-4 rounded-2xl bg-forest px-6 py-8 text-on-forest sm:px-10">
+        <section className="relative grid gap-4 overflow-hidden rounded-2xl bg-forest px-6 py-8 text-on-forest shadow-[0_4px_0_var(--brand-strong)] sm:px-10">
           {nextDay === null ? (
             <>
-              <h2 className="text-3xl font-extrabold tracking-tight">Em đã học xong cả 14 ngày</h2>
+              <h2 className="text-3xl font-extrabold">Em đã học xong cả 14 ngày</h2>
               <p className="text-on-forest-muted">Xem kết quả so sánh đầu và cuối module ở bên dưới.</p>
             </>
           ) : (
             <>
-              <p className="text-on-forest-muted">
-                Ngày {nextDay}/14 · Giai đoạn {PHASES.find((p) => (p.days as readonly number[]).includes(nextDay))!.no}: {PHASES.find((p) => (p.days as readonly number[]).includes(nextDay))!.titleVi}
+              <p className="font-bold text-on-forest-muted">
+                Ngày {nextDay}/14 · Giai đoạn {phaseOf(nextDay).no}: {phaseOf(nextDay).titleVi}
               </p>
-              <h2 className="text-3xl font-extrabold tracking-tight">{DAY_INFO[nextDay].titleVi}</h2>
+              <h2 className="text-3xl font-extrabold">{DAY_INFO[nextDay].titleVi}</h2>
               <p className="flex items-center gap-2 text-on-forest-muted">
                 <Clock className="size-4" aria-hidden />
                 Khoảng {DAY_INFO[nextDay].minutes} phút{nextDay === 1 ? ". Bắt đầu bằng bài đầu module ngắn để biết em đang ở đâu." : ""}
@@ -108,49 +109,20 @@ export default async function ModulePage({ params, searchParams }: { params: Pro
               <form action={startLesson}>
                 <input type="hidden" name="moduleId" value={m.id} />
                 <input type="hidden" name="day" value={nextDay} />
-                <SubmitButton pendingLabel="Đang chuẩn bị bài…">{open ? "Học tiếp bài đang dở" : `Bắt đầu ngày ${nextDay}`}</SubmitButton>
+                <SubmitButton pendingLabel="Đang chuẩn bị bài…" className="w-full bg-surface! text-brand-strong! [--depth:rgb(0_0_0/0.22)] sm:w-auto">
+                  {open ? "Học tiếp bài đang dở" : `Bắt đầu ngày ${nextDay}`}
+                </SubmitButton>
               </form>
             </>
           )}
         </section>
 
+        {/* Lộ trình kiểu đường đi: mỗi giai đoạn có băng tiêu đề màu riêng, các ngày là nút tròn lượn zigzag. */}
         <section aria-labelledby="path" className="grid gap-4">
-          <h2 id="path" className="text-2xl font-extrabold tracking-tight">
+          <h2 id="path" className="text-2xl font-extrabold">
             Lộ trình 5 giai đoạn
           </h2>
-          <ol className="grid gap-6">
-            {PHASES.map((p) => (
-              <li key={p.no} className="grid gap-2">
-                <div>
-                  <h3 className="text-lg font-extrabold">
-                    {p.no}. {p.titleVi}
-                  </h3>
-                  <p className="text-muted">{p.goalVi}</p>
-                </div>
-                <ul className="divide-y divide-line border-y border-line">
-                  {p.days.map((d) => {
-                    const done = completed.includes(d);
-                    const current = d === nextDay;
-                    return (
-                      <li key={d} className="flex items-center gap-3 py-3">
-                        {done ? (
-                          <CircleCheck className="size-5 shrink-0 text-brand-strong" aria-hidden />
-                        ) : current ? (
-                          <ArrowRight className="size-5 shrink-0 text-brand-strong" aria-hidden />
-                        ) : (
-                          <Lock className="size-5 shrink-0 text-muted" aria-hidden />
-                        )}
-                        <span className={`flex-1 ${done || current ? "font-semibold" : "text-muted"}`}>
-                          Ngày {d}: {DAY_INFO[d].titleVi}
-                        </span>
-                        <span className="shrink-0 text-sm text-muted">{done ? "Đã xong" : current ? (open ? "Đang làm" : "Tiếp theo") : "Chưa mở"}</span>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </li>
-            ))}
-          </ol>
+          <ModulePath moduleId={m.id} completed={completed} nextDay={nextDay} open={!!open} />
         </section>
 
         <section aria-labelledby="results" className="grid gap-4">
@@ -163,11 +135,11 @@ export default async function ModulePage({ params, searchParams }: { params: Pro
             <div className="grid gap-2">
               <h3 className="text-lg font-extrabold">Thời gian bắt đầu nói theo ngày</h3>
               <ul className="grid gap-1.5">
-                {thinkByDay.map((x) => (
+                {thinkByDay.map((x, i) => (
                   <li key={x.day} className="grid grid-cols-[4.5rem_1fr_5.5rem] items-center gap-3 text-sm">
                     <span className="text-muted">Ngày {x.day}</span>
                     <span className="h-2.5 rounded-full bg-line">
-                      <span className="block h-full rounded-full bg-brand" style={{ width: `${(x.ms / maxMs) * 100}%` }} />
+                      <span className="grow-x block h-full rounded-full bg-brand" style={{ width: `${(x.ms / maxMs) * 100}%`, ["--i" as string]: i }} />
                     </span>
                     <span className="text-right font-semibold tabular-nums">{secs(x.ms)}</span>
                   </li>
@@ -221,3 +193,4 @@ export default async function ModulePage({ params, searchParams }: { params: Pro
     </AppShell>
   );
 }
+

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { redirect } from "next/navigation";
 import Logo from "@/components/Logo";
+import Mascot, { Bubble } from "@/components/Mascot";
 import OnboardingForm from "@/components/OnboardingForm";
 import { homePathFor, getProfile } from "@/lib/auth";
 import { signOut } from "@/app/(auth)/actions";
@@ -25,9 +26,12 @@ export default async function OnboardingPage() {
         </form>
       </header>
       <main id="main" className="mx-auto grid max-w-2xl gap-8 px-4 pb-16 pt-6 sm:px-6">
-        <div className="grid gap-2">
-          <h1 className="text-balance text-3xl font-extrabold tracking-tight sm:text-4xl">Cho chúng tôi biết đôi điều về bạn</h1>
-          <p className="max-w-prose text-muted">Chỉ vài câu hỏi ngắn. Chúng tôi không hỏi gì ngoài những thứ cần cho việc học.</p>
+        <div className="flex items-center gap-3 sm:gap-5">
+          <Mascot mood="talk" className="size-20 shrink-0 sm:size-28" />
+          <Bubble tail="left" className="grid gap-1">
+            <h1 className="text-balance text-2xl font-extrabold sm:text-3xl">Cho chúng tôi biết đôi điều về bạn</h1>
+            <p className="font-medium text-muted">Chỉ vài câu hỏi ngắn. Chúng tôi không hỏi gì ngoài những thứ cần cho việc học.</p>
+          </Bubble>
         </div>
         <OnboardingForm />
       </main>

@@ -18,7 +18,7 @@ export default async function LoginPage({ searchParams }: { searchParams: Promis
       title="Đăng nhập"
       lead={email ? "Dùng email và mật khẩu bạn đã đăng ký." : "Nhập mã học sinh và PIN trên phiếu đăng nhập của bạn."}
     >
-      <nav aria-label="Cách đăng nhập" className="grid grid-cols-2 gap-1 rounded-xl border border-line bg-sunken p-1">
+      <nav aria-label="Cách đăng nhập" className="grid grid-cols-2 gap-2">
         <Tab href="/login" current={!email}>
           Mã học sinh
         </Tab>
@@ -36,8 +36,8 @@ function Tab({ href, current, children }: { href: string; current: boolean; chil
     <Link
       href={href}
       aria-current={current ? "page" : undefined}
-      className={`inline-flex min-h-11 items-center justify-center rounded-lg px-3 font-semibold transition-colors ${
-        current ? "bg-surface text-ink shadow-[0_1px_2px_rgb(10_37_64/0.12)]" : "text-muted hover:text-ink"
+      className={`option-card inline-flex min-h-12 items-center justify-center px-3 font-extrabold ${
+        current ? "border-sky! bg-sky-soft! text-sky-strong" : "text-muted hover:text-ink"
       }`}
     >
       {children}

@@ -5,6 +5,10 @@ import OnboardingForm from "@/components/OnboardingForm";
 import Logo from "@/components/Logo";
 import StudentHome from "@/components/StudentHome";
 import TeacherHome from "@/components/TeacherHome";
+import ResearchHome from "@/components/ResearchHome";
+import ModeHome from "@/components/ModeHome";
+import TestRunner from "@/components/TestRunner";
+import ModulePath from "@/components/module/ModulePath";
 import FeedbackPreview, { ReportPreview } from "./FeedbackPreview";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
@@ -140,6 +144,46 @@ export default async function Preview({ params }: { params: Promise<{ view: stri
       const lesson = buildLesson({ day: 6, module: m, unitQuestions: qs, history: [], seed: "preview", now: Date.parse("2026-11-20T00:00:00Z") });
       return <LessonRunner lessonId="preview" moduleId="preview" day={6} titleVi={lesson.titleVi} notesVi={["Ví dụ ghi chú: bài hôm nay có nhiều câu khó hơn vì kết quả ngày 3 tốt."]} steps={lesson.steps} content={m} rows={[]} startAt={0} />;
     }
+    case "module-path":
+      // Dữ liệu mẫu: đã xong ngày 1–4, ngày 5 tiếp theo.
+      return (
+        <AppShell name="Minh Anh" roleLabel="Học sinh" homeHref="#" nav={STUDENT_NAV} current="/student/practice">
+          <ModulePath moduleId="preview" completed={[1, 2, 3, 4]} nextDay={5} open={false} />
+        </AppShell>
+      );
+    // Trang nghiên cứu giữ giao diện cũ (theme-classic) tới hết nghiên cứu. Dùng để so ảnh trước/sau khi đổi giao diện chung.
+    case "research-wait":
+      return (
+        <div className="theme-classic">
+          <AppShell name="HS008" roleLabel="Học sinh" homeHref="#">
+            <ResearchHome p={{ code: "HS008", grade: 8, formOrder: "AB", arm: "A", pilot: false }} state={{ pre: { id: "t1", phase: "pre", form: "A", status: "completed" }, post: null, due: null }} />
+          </AppShell>
+        </div>
+      );
+    case "mode-home":
+      return (
+        <div className="theme-classic">
+          <AppShell name="HS008" roleLabel="Học sinh" homeHref="#">
+            <ModeHome
+              code="HS008"
+              mode="A"
+              sessions={[
+                { id: "m1", mode: "A", session_no: 1, unit_no: 1, day: "2026-11-09", status: "completed", active_ms: 760000, started_at: "2026-11-09T08:00:00Z", completed_at: "2026-11-09T08:13:00Z" },
+                { id: "m2", mode: "A", session_no: 2, unit_no: 1, day: "2026-11-10", status: "completed", active_ms: 420000, started_at: "2026-11-10T08:00:00Z", completed_at: "2026-11-10T08:07:00Z" },
+              ]}
+              today="2026-11-11"
+              needsCheckin={true}
+              tests={{ pre: { id: "t1", phase: "pre", form: "A", status: "completed" }, post: null, due: null }}
+            />
+          </AppShell>
+        </div>
+      );
+    case "test-runner":
+      return (
+        <div className="theme-classic">
+          <TestRunner attemptId="preview" phaseLabel="Bài kiểm tra nói lần 2" />
+        </div>
+      );
     default:
       notFound();
   }
