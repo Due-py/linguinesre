@@ -26,7 +26,17 @@
     { "id": "v18", "en": "strategy", "vi": "chiến lược", "ipa": "/ˈstrætədʒi/", "ipaFrom": "glossary", "pos": "n", "example": "Making mind maps is a good strategy for remembering new words.", "collocations": ["learning strategy", "a good strategy"], "synonyms": ["plan", "method"], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
     { "id": "v19", "en": "teamwork", "vi": "hoạt động nhóm", "ipa": "/ˈtiːmwɜːk/", "ipaFrom": "glossary", "pos": "n", "example": "Group projects help us improve our teamwork.", "collocations": ["good teamwork", "teamwork skills"], "synonyms": ["cooperation"], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
     { "id": "v20", "en": "voice recorder", "vi": "máy thu âm", "ipa": "/vɔɪs rɪˈkɔːdə/", "ipaFrom": "glossary", "pos": "n", "example": "I use a voice recorder to check my English pronunciation.", "collocations": ["use a voice recorder"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
-    { "id": "v21", "en": "prepare", "vi": "chuẩn bị", "ipa": "/prɪˈpeə/", "ipaFrom": "dictionary", "pos": "v", "example": "Our teacher asks us to prepare the lesson before class.", "collocations": ["prepare for a test", "prepare a lesson"], "synonyms": ["get ready"], "antonyms": [], "src": { "kind": "sgk", "page": 88 } }
+    { "id": "v21", "en": "prepare", "vi": "chuẩn bị", "ipa": "/prɪˈpeə/", "ipaFrom": "dictionary", "pos": "v", "example": "Our teacher asks us to prepare the lesson before class.", "collocations": ["prepare for a test", "prepare a lesson"], "synonyms": ["get ready"], "antonyms": [], "src": { "kind": "sgk", "page": 88 } },
+    { "id": "v22", "en": "advantage", "vi": "ưu điểm, lợi thế", "ipa": "/ədˈvɑːntɪdʒ/", "ipaFrom": "dictionary", "pos": "n", "example": "One advantage of online learning is that we can study at home.", "collocations": ["the main advantage", "have an advantage"], "synonyms": ["benefit"], "antonyms": ["disadvantage"], "src": { "kind": "sgk", "page": 89 } },
+    { "id": "v23", "en": "disadvantage", "vi": "nhược điểm, bất lợi", "ipa": "/ˌdɪsədˈvɑːntɪdʒ/", "ipaFrom": "dictionary", "pos": "n", "example": "A disadvantage of online classes is that we can't talk to friends face to face.", "collocations": ["the biggest disadvantage"], "synonyms": ["drawback"], "antonyms": ["advantage"], "src": { "kind": "sgk", "page": 89 } },
+    { "id": "v24", "en": "traditional", "vi": "truyền thống", "ipa": "/trəˈdɪʃənl/", "ipaFrom": "dictionary", "pos": "adj", "example": "In a traditional classroom, the teacher talks and the students listen.", "collocations": ["traditional classroom", "traditional methods"], "synonyms": ["old-fashioned"], "antonyms": ["modern"], "src": { "kind": "sgk", "page": 86 } },
+    { "id": "v25", "en": "take notes", "vi": "ghi chép", "ipa": "/ˌteɪk ˈnəʊts/", "ipaFrom": "dictionary", "pos": "phr", "example": "I take notes on my tablet during online lessons.", "collocations": ["take notes in class"], "synonyms": ["write down"], "antonyms": [], "src": { "kind": "sgk", "page": 86 } },
+    { "id": "v26", "en": "discuss", "vi": "thảo luận", "ipa": "/dɪˈskʌs/", "ipaFrom": "dictionary", "pos": "v", "example": "We discuss the topic in groups before we present it.", "collocations": ["discuss the topic", "discuss in groups"], "synonyms": ["talk about"], "antonyms": [], "src": { "kind": "sgk", "page": 86 } },
+    { "id": "v27", "en": "Internet connection", "vi": "kết nối Internet", "ipa": "/ˈɪntənet kəˌnekʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "You need a fast Internet connection for video lessons.", "collocations": ["a fast Internet connection", "lose the Internet connection"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 89 } },
+    { "id": "v28", "en": "pace", "vi": "tốc độ, nhịp độ", "ipa": "/peɪs/", "ipaFrom": "dictionary", "pos": "n", "example": "Online lessons let us learn at our own pace.", "collocations": ["at your own pace"], "synonyms": ["speed"], "antonyms": [], "src": { "kind": "sgk", "page": 90 } },
+    { "id": "v29", "en": "short-sighted", "vi": "cận thị", "ipa": "/ˌʃɔːt ˈsaɪtɪd/", "ipaFrom": "dictionary", "pos": "adj", "example": "Looking at screens for too long can make you short-sighted.", "collocations": ["become short-sighted"], "synonyms": [], "antonyms": ["long-sighted"], "src": { "kind": "sgk", "page": 90 } },
+    { "id": "v30", "en": "backache", "vi": "đau lưng", "ipa": "/ˈbækeɪk/", "ipaFrom": "dictionary", "pos": "n", "example": "Sitting at a computer all day can give you backache.", "collocations": ["have backache", "get backache"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 90 } },
+    { "id": "v31", "en": "upload", "vi": "tải lên", "ipa": "/ˌʌpˈləʊd/", "ipaFrom": "dictionary", "pos": "v", "example": "Our teacher uploads the lesson videos to the school website.", "collocations": ["upload a video", "upload files"], "synonyms": [], "antonyms": ["download"], "src": { "kind": "sgk", "page": 86 } }
   ],
   "grammar": [
     {
@@ -111,6 +121,18 @@
       "sentence": "First, open the app. Then, type your name and click 'Start'.",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "ending",
+      "focus": "Đuôi -s/-es của danh từ số nhiều: /s/, /z/, /ɪz/",
+      "tipVi": "Đuôi -s đọc /s/ sau âm vô thanh /p/, /t/, /k/, /f/ (projects, notes); /ɪz/ sau /s/, /z/, /ʃ/, /tʃ/, /dʒ/ (classes, devices); còn lại đọc /z/ (lessons, videos). Nói rõ đuôi để người nghe biết là số nhiều.",
+      "words": ["projects", "lessons", "videos", "classes", "devices", "notes"],
+      "sentence": "We watch videos and discuss projects in our classes.",
+      "quiz": [
+        { "prompt": "In which word is the ending pronounced /ɪz/?", "options": ["devices", "lessons", "notes"], "answer": 0, "explainVi": "devices kết thúc bằng âm /s/ nên -es đọc /ɪz/; lessons đọc /z/, notes đọc /s/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -123,7 +145,13 @@
     { "id": "e07", "en": "Make sure you ...", "vi": "Nhớ phải ... nhé.", "useVi": "Nhắc một điều quan trọng khi hướng dẫn.", "example": "Make sure you turn off notifications during the lesson.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "One advantage of ... is that ...", "vi": "Một ưu điểm của ... là ...", "useVi": "Khi nêu ưu điểm.", "example": "One advantage of online learning is that we can study anytime.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "On the other hand, ...", "vi": "Mặt khác, ...", "useVi": "Khi nêu mặt ngược lại, nhược điểm.", "example": "On the other hand, it is easy to get distracted at home.", "src": { "kind": "team", "page": null } },
-    { "id": "e10", "en": "I prefer ... because ...", "vi": "Mình thích ... hơn vì ...", "useVi": "Khi so sánh và chọn một cách học.", "example": "I prefer face-to-face lessons because I can ask questions immediately.", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "I prefer ... because ...", "vi": "Mình thích ... hơn vì ...", "useVi": "Khi so sánh và chọn một cách học.", "example": "I prefer face-to-face lessons because I can ask questions immediately.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "Is that right?", "vi": "Như vậy đúng không?", "useVi": "Khi kiểm tra lại xem mình làm theo hướng dẫn đúng chưa.", "example": "I click 'Join' and then turn on my camera. Is that right?", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "Could you say that again, please?", "vi": "Bạn nói lại được không?", "useVi": "Khi chưa nghe rõ hoặc chưa hiểu hướng dẫn.", "example": "Sorry, could you say that again, please? Which button do I click?", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "Don't forget to ...", "vi": "Đừng quên ...", "useVi": "Khi nhắc người khác một bước quan trọng.", "example": "Don't forget to save your work before you close the app.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "I think ... has more advantages than disadvantages.", "vi": "Mình nghĩ ... có nhiều ưu điểm hơn nhược điểm.", "useVi": "Khi nêu ý kiến chung về một cách học.", "example": "I think blended learning has more advantages than disadvantages.", "src": { "kind": "sgk", "page": 90 } },
+    { "id": "e15", "en": "I don't agree with you.", "vi": "Mình không đồng ý với bạn.", "useVi": "Khi phản đối ý kiến của bạn trong thảo luận (sau đó nêu lý do).", "example": "I don't agree with you. Online learning can be bad for our eyes.", "src": { "kind": "sgk", "page": 90 } },
+    { "id": "e16", "en": "Got it. What's next?", "vi": "Hiểu rồi. Tiếp theo là gì?", "useVi": "Khi đã làm xong một bước và muốn nghe bước tiếp theo.", "example": "Got it. What's next? Do I type my password now?", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["I learn best", "from a teacher", "who explains", "things clearly"], "vi": "Mình học tốt nhất với thầy cô giải thích rõ ràng.", "grammarId": "g01" },
@@ -132,7 +160,10 @@
     { "id": "b04", "chunks": ["Students", "whose phones are on", "can't focus", "in class"], "vi": "Những học sinh để điện thoại bật thì không tập trung được trong lớp.", "grammarId": "g01" },
     { "id": "b05", "chunks": ["Online learning", "is flexible,", "which means", "I can study anytime"], "vi": "Học trực tuyến linh hoạt, nghĩa là mình có thể học bất cứ lúc nào.", "grammarId": "g02" },
     { "id": "b06", "chunks": ["Blended learning", "combines", "online lessons", "with face-to-face classes"], "vi": "Học kết hợp kết hợp bài học trực tuyến với lớp học trực tiếp.", "grammarId": null },
-    { "id": "b07", "chunks": ["I make", "a study schedule", "so that I can", "focus on one subject", "at a time"], "vi": "Mình lập lịch học để có thể tập trung vào từng môn một.", "grammarId": null }
+    { "id": "b07", "chunks": ["I make", "a study schedule", "so that I can", "focus on one subject", "at a time"], "vi": "Mình lập lịch học để có thể tập trung vào từng môn một.", "grammarId": null },
+    { "id": "b08", "chunks": ["The teacher", "who uploaded the video", "is", "my geography teacher"], "vi": "Thầy (cô) đã tải video lên là giáo viên địa lý của mình.", "grammarId": "g01" },
+    { "id": "b09", "chunks": ["Online learning,", "which is very flexible,", "lets us", "learn at our own pace"], "vi": "Học trực tuyến, vốn rất linh hoạt, cho phép chúng mình học theo tốc độ riêng.", "grammarId": "g02" },
+    { "id": "b10", "chunks": ["Students", "who sit in front of screens", "for hours", "can become short-sighted"], "vi": "Học sinh ngồi trước màn hình hàng giờ có thể bị cận thị.", "grammarId": "g01" }
   ],
   "expand": [
     {
@@ -173,6 +204,25 @@
         { "askVi": "Em làm gì?", "ask": "What do you do?", "add": "so I put it in another room" }
       ],
       "full": "My phone is a distraction when I study at home, so I put it in another room."
+    },
+    {
+      "id": "x05",
+      "base": "I take notes.",
+      "steps": [
+        { "askVi": "Bằng gì?", "ask": "On what?", "add": "on my tablet" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "during online lessons" },
+        { "askVi": "Để làm gì?", "ask": "Why?", "add": "so that I can review them later" }
+      ],
+      "full": "I take notes on my tablet during online lessons so that I can review them later."
+    },
+    {
+      "id": "x06",
+      "base": "We discuss the topic.",
+      "steps": [
+        { "askVi": "Như thế nào?", "ask": "How?", "add": "in small groups" },
+        { "askVi": "Sau khi làm gì?", "ask": "After what?", "add": "after watching the video at home" }
+      ],
+      "full": "We discuss the topic in small groups after watching the video at home."
     }
   ],
   "variations": [
@@ -182,7 +232,8 @@
       "questions": [
         "What are the advantages of online learning?",
         "What is good about studying online?",
-        "How can online learning help students?"
+        "How can online learning help students?",
+        "Why do some students like online learning?"
       ],
       "keywords": ["flexible", "anytime", "resources", "at my own pace"],
       "exampleAnswer": "Online learning is flexible. We can study anytime and find a lot of useful resources on the Internet.",
@@ -194,7 +245,8 @@
       "questions": [
         "What are the disadvantages of online learning?",
         "What problems do students have when they study online?",
-        "What can go wrong during an online lesson?"
+        "What can go wrong during an online lesson?",
+        "Why do some students find online learning difficult?"
       ],
       "keywords": ["distraction", "connection", "focus", "eyes"],
       "exampleAnswer": "Students can get distracted by games, and a slow Internet connection can stop the lesson.",
@@ -206,7 +258,8 @@
       "questions": [
         "What do you like about learning in a real classroom?",
         "What are the benefits of face-to-face lessons?",
-        "What can you do in a classroom that is hard to do online?"
+        "What can you do in a classroom that is hard to do online?",
+        "Why do some students prefer face-to-face lessons?"
       ],
       "keywords": ["face-to-face", "immediately", "group work", "friends"],
       "exampleAnswer": "In face-to-face lessons, I can ask my teacher questions immediately and work in groups with my friends.",
@@ -218,7 +271,8 @@
       "questions": [
         "How do you use digital devices for learning?",
         "What digital tools do you use to study?",
-        "How does technology help you with your schoolwork?"
+        "How does technology help you with your schoolwork?",
+        "Which apps or devices help you most with your studies?"
       ],
       "keywords": ["laptop", "tablet", "app", "digital"],
       "exampleAnswer": "I use my laptop to watch lessons, and I use an app that helps me practise English pronunciation.",
@@ -230,11 +284,51 @@
       "questions": [
         "Why is blended learning a good idea?",
         "Why do many schools now mix online and classroom learning?",
-        "What makes blended learning useful for students?"
+        "What makes blended learning useful for students?",
+        "What are the benefits of mixing online and face-to-face learning?"
       ],
       "keywords": ["blended learning", "own pace", "face-to-face", "because"],
       "exampleAnswer": "Blended learning is useful because students can study online at their own pace and still meet teachers face to face.",
       "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Cách em học hiệu quả nhất",
+      "questions": [
+        "How do you learn best?",
+        "What is the best way for you to learn new things?",
+        "Do you learn better alone or in a group? Why?",
+        "What learning method works best for you?"
+      ],
+      "keywords": ["take notes", "group work", "practise", "because"],
+      "exampleAnswer": "I learn best in a group because I can discuss ideas with my friends and ask questions immediately.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Học trên màn hình quá nhiều ảnh hưởng sức khỏe ra sao",
+      "questions": [
+        "How can using screens too much affect your health?",
+        "What health problems can students get from studying online?",
+        "Why is sitting at a computer for hours bad for you?",
+        "What happens to your body if you study on a computer all day?"
+      ],
+      "keywords": ["short-sighted", "backache", "screen", "break"],
+      "exampleAnswer": "Looking at screens for too long can make students short-sighted, and sitting all day can cause backache.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Một ứng dụng hoặc trang web học tập em dùng",
+      "questions": [
+        "Tell me about an app or website that you use for studying.",
+        "What is a learning app that you find useful?",
+        "Which website do you use to learn English?",
+        "Can you describe a learning app which helps you a lot?"
+      ],
+      "keywords": ["app", "which", "useful", "practise"],
+      "exampleAnswer": "I use an app which gives me ten new words every day. It's useful because I can practise on the bus.",
+      "expectsReason": false
     }
   ],
   "independent": [
@@ -347,6 +441,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["blended learning", "which", "who", "because", "schedule"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Kể cho bạn nước ngoài về cách học ở trường em",
+      "contextVi": "Bạn qua thư người Anh gọi video và hỏi trường em có dùng cách học mới nào không.",
+      "aiRole": "Tom, your pen friend from the UK",
+      "studentRoleVi": "Học sinh kể về lớp học của mình",
+      "goalVi": "Mô tả lớp em dùng công nghệ và hoạt động học mới thế nào, và nói em thích điều gì.",
+      "goal": "Describe how your class uses technology and new learning activities, and say what you like about them.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ hoặc cấu trúc của bài", "words": ["blended learning", "upload", "discuss", "which", "who"] },
+        { "kind": "reason", "vi": "Nói vì sao em thích (because...)", "words": [] }
+      ],
+      "opener": "Hi! At my school we use lots of apps in class. What new ways of learning do you have at your school?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Cool! How do your teachers use technology in lessons?",
+        "What do you like most about learning that way?",
+        "Is there anything you don't like about it?"
+      ],
+      "tipsVi": ["Dùng mệnh đề quan hệ: \"We use an app which ...\", \"Our teacher, who ..., ...\"", "Nói cảm nhận kèm lý do với because."],
+      "keywords": ["which", "who", "upload", "because"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Có nên cấm điện thoại trong mọi tiết học?",
+      "contextVi": "Lớp em đang bàn quy định mới về điện thoại. Cô chủ nhiệm muốn cấm dùng điện thoại trong mọi tiết học. Em muốn đề xuất cho dùng điện thoại vào một số hoạt động học tập.",
+      "aiRole": "Ms Hanh, your form teacher",
+      "studentRoleVi": "Học sinh đại diện lớp",
+      "goalVi": "Đề xuất cho học sinh dùng điện thoại vào việc học, nêu lý do và ví dụ, trả lời lo ngại về sự xao nhãng.",
+      "goal": "Suggest that students can use phones for some learning activities, give reasons and an example, and answer your teacher's worries about distraction.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do (because...)", "words": [] },
+        { "kind": "example", "vi": "Đưa ví dụ một hoạt động học bằng điện thoại", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["distraction", "focus", "digital", "advantage", "rules"] }
+      ],
+      "opener": "I'm thinking of banning phones in all our lessons. What do you think about that?",
+      "stance": "Phones are a big distraction. Students will play games instead of studying, so they should be banned in all lessons.",
+      "turns": 5,
+      "fallback": [
+        "Hmm, why do you think phones can be useful in class?",
+        "But phones are a big distraction. Students will play games instead of studying, won't they?",
+        "Can you give me an example of a good learning activity on a phone?",
+        "OK. What rules should we have if students use phones?"
+      ],
+      "tipsVi": ["Đồng ý một phần: \"You're right that ..., but ...\"", "Đề xuất quy tắc cụ thể: chỉ dùng khi cô cho phép, tắt thông báo."],
+      "keywords": ["distraction", "focus", "rules", "for example"]
     }
   ]
 }

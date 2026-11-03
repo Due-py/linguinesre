@@ -25,7 +25,17 @@
     { "id": "v17", "en": "social media", "vi": "mạng xã hội", "ipa": "/ˌsəʊʃl ˈmiːdiə/", "ipaFrom": "glossary", "pos": "n", "example": "Many young singers become famous on social media.", "collocations": ["share on social media", "post on social media"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
     { "id": "v18", "en": "comment", "vi": "lời bình luận", "ipa": "/ˈkɒment/", "ipaFrom": "glossary", "pos": "n", "example": "Her video received thousands of good comments.", "collocations": ["leave a comment", "positive comments"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
     { "id": "v19", "en": "delay", "vi": "hoãn lại", "ipa": "/dɪˈleɪ/", "ipaFrom": "glossary", "pos": "v", "example": "The outdoor show was delayed because of the heavy rain.", "collocations": ["delay a concert"], "synonyms": ["put off"], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
-    { "id": "v20", "en": "reach", "vi": "đạt được", "ipa": "/riːtʃ/", "ipaFrom": "glossary", "pos": "v", "example": "Their new music video reached one million views in two days.", "collocations": ["reach the final", "reach a million views"], "synonyms": ["achieve"], "antonyms": [], "src": { "kind": "sgk", "page": 125 } }
+    { "id": "v20", "en": "reach", "vi": "đạt được", "ipa": "/riːtʃ/", "ipaFrom": "glossary", "pos": "v", "example": "Their new music video reached one million views in two days.", "collocations": ["reach the final", "reach a million views"], "synonyms": ["achieve"], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v21", "en": "decoration", "vi": "việc trang trí; đồ trang trí", "ipa": "/ˌdekəˈreɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "The students made colourful decorations for the school music festival.", "collocations": ["stage decoration", "make decorations"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v22", "en": "location", "vi": "vị trí, địa điểm", "ipa": "/ləʊˈkeɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "The location of this year's concert is the city park.", "collocations": ["the location of the festival", "a good location"], "synonyms": ["place"], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v23", "en": "idol", "vi": "thần tượng", "ipa": "/ˈaɪdl/", "ipaFrom": "dictionary", "pos": "n", "example": "That young singer has become a teen idol in many countries.", "collocations": ["teen idol", "pop idol"], "synonyms": ["star"], "antonyms": [], "src": { "kind": "sgk", "page": 28 } },
+    { "id": "v24", "en": "award", "vi": "giải thưởng", "ipa": "/əˈwɔːd/", "ipaFrom": "dictionary", "pos": "n", "example": "The band won an award for the best song of the year.", "collocations": ["win an award", "receive an award"], "synonyms": ["prize"], "antonyms": [], "src": { "kind": "sgk", "page": 28 } },
+    { "id": "v25", "en": "fan", "vi": "người hâm mộ", "ipa": "/fæn/", "ipaFrom": "dictionary", "pos": "n", "example": "I'm a big fan of traditional Vietnamese music.", "collocations": ["a big fan of", "fan club"], "synonyms": ["supporter"], "antonyms": [], "src": { "kind": "sgk", "page": 28 } },
+    { "id": "v26", "en": "vote", "vi": "bình chọn, bỏ phiếu", "ipa": "/vəʊt/", "ipaFrom": "dictionary", "pos": "v", "example": "Viewers can vote for their favourite singer online.", "collocations": ["vote for", "vote online"], "synonyms": ["choose"], "antonyms": [], "src": { "kind": "sgk", "page": 31 } },
+    { "id": "v27", "en": "festival", "vi": "lễ hội", "ipa": "/ˈfestɪvl/", "ipaFrom": "dictionary", "pos": "n", "example": "Thousands of young people went to the music festival last summer.", "collocations": ["music festival", "hold a festival"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 33 } },
+    { "id": "v28", "en": "ticket", "vi": "vé", "ipa": "/ˈtɪkɪt/", "ipaFrom": "dictionary", "pos": "n", "example": "I bought two tickets for the concert online.", "collocations": ["buy a ticket", "concert ticket"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 33 } },
+    { "id": "v29", "en": "atmosphere", "vi": "bầu không khí", "ipa": "/ˈætməsfɪə/", "ipaFrom": "dictionary", "pos": "n", "example": "The atmosphere at the concert was really exciting.", "collocations": ["a party atmosphere", "a friendly atmosphere"], "synonyms": ["mood"], "antonyms": [], "src": { "kind": "sgk", "page": 33 } },
+    { "id": "v30", "en": "stage", "vi": "sân khấu", "ipa": "/steɪdʒ/", "ipaFrom": "dictionary", "pos": "n", "example": "The singers came on stage at eight o'clock.", "collocations": ["on stage", "go on stage"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 33 } }
   ],
   "grammar": [
     {
@@ -125,6 +135,18 @@
       "sentence": "Shall we go to the music show on Saturday?",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p05",
+      "kind": "sentence_stress",
+      "focus": "Trọng âm câu trong câu ghép (and, but, so)",
+      "tipVi": "Nhấn mạnh từ mang nghĩa (danh từ, động từ chính, tính từ): I LOVE POP MUsic, but my BROther preFERS ROCK. Đọc nhẹ, lướt các từ nối and, but, so và đại từ. Ngắt hơi ngắn trước but, so.",
+      "words": ["and", "but", "so", "music", "concert", "prefers"],
+      "sentence": "I love pop music, but my brother prefers rock.",
+      "quiz": [
+        { "prompt": "In 'I wanted to go, but it rained.', which word is usually NOT stressed?", "options": ["but", "wanted", "rained"], "answer": 0, "explainVi": "but là từ nối nên đọc nhẹ; wanted và rained là động từ chính nên được nhấn." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -137,7 +159,13 @@
     { "id": "e07", "en": "I don't feel like it.", "vi": "Mình không thích lắm / không muốn.", "useVi": "Khi từ chối một lời rủ.", "example": "Go out tonight? Sorry, I don't feel like it. I'm tired.", "src": { "kind": "sgk", "page": 34 } },
     { "id": "e08", "en": "I really want to ..., but ...", "vi": "Mình rất muốn ..., nhưng ...", "useVi": "Khi từ chối lịch sự và nêu lý do.", "example": "I really want to come, but I have a test on Monday.", "src": { "kind": "sgk", "page": 34 } },
     { "id": "e09", "en": "I'm a big fan of ...", "vi": "Mình rất hâm mộ ...", "useVi": "Khi nói về ca sĩ, ban nhạc mình thích.", "example": "I'm a big fan of Vietnamese indie music.", "src": { "kind": "team", "page": null } },
-    { "id": "e10", "en": "It makes me feel ...", "vi": "Nó làm mình thấy ...", "useVi": "Khi nói cảm xúc của mình khi nghe nhạc.", "example": "Slow music makes me feel calm after school.", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "It makes me feel ...", "vi": "Nó làm mình thấy ...", "useVi": "Khi nói cảm xúc của mình khi nghe nhạc.", "example": "Slow music makes me feel calm after school.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "That sounds great!", "vi": "Nghe tuyệt đấy!", "useVi": "Khi vui vẻ nhận lời một gợi ý hay lời rủ.", "example": "A concert in the park on Saturday? That sounds great!", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "Sorry, I can't. I have to ...", "vi": "Xin lỗi, mình không đi được. Mình phải ...", "useVi": "Khi từ chối lời rủ và nêu lý do.", "example": "Sorry, I can't. I have to visit my grandparents on Sunday.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "What time shall we meet?", "vi": "Mấy giờ mình gặp nhau?", "useVi": "Khi đã nhận lời và muốn hẹn giờ.", "example": "OK, let's go. What time shall we meet?", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "What kind of music are you into?", "vi": "Bạn thích loại nhạc nào?", "useVi": "Khi hỏi sở thích âm nhạc của bạn một cách thân mật.", "example": "What kind of music are you into, pop or rock?", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "You must be a fan of ...!", "vi": "Chắc bạn là fan của ... rồi!", "useVi": "Khi đoán người kia rất thích một ca sĩ, ban nhạc.", "example": "You have all her albums. You must be a fan of hers!", "src": { "kind": "sgk", "page": 28 } },
+    { "id": "e16", "en": "My favourite ... is ... because ...", "vi": "... yêu thích của mình là ... vì ...", "useVi": "Khi giới thiệu thứ mình thích nhất kèm lý do.", "example": "My favourite instrument is the guitar because it sounds warm and relaxing.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["I like pop music,", "but my brother", "prefers rock"], "vi": "Mình thích nhạc pop, còn anh mình thích nhạc rock hơn.", "grammarId": "g01" },
@@ -147,7 +175,9 @@
     { "id": "b05", "chunks": ["The judges", "eliminated two participants", "after the first round"], "vi": "Ban giám khảo đã loại hai thí sinh sau vòng đầu tiên.", "grammarId": null },
     { "id": "b06", "chunks": ["You can watch it live,", "or you can", "watch it online"], "vi": "Bạn có thể xem trực tiếp, hoặc xem trên mạng.", "grammarId": "g01" },
     { "id": "b07", "chunks": ["His new single", "reached a million views", "in just two days"], "vi": "Đĩa đơn mới của anh ấy đạt một triệu lượt xem chỉ trong hai ngày.", "grammarId": null },
-    { "id": "b08", "chunks": ["This song", "always makes me", "feel happy"], "vi": "Bài hát này luôn làm mình thấy vui.", "grammarId": "g02" }
+    { "id": "b08", "chunks": ["This song", "always makes me", "feel happy"], "vi": "Bài hát này luôn làm mình thấy vui.", "grammarId": "g02" },
+    { "id": "b09", "chunks": ["I wanted", "to buy a ticket,", "but they were", "all sold out"], "vi": "Mình muốn mua vé, nhưng vé đã bán hết.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["My parents", "made me", "practise the piano", "every evening"], "vi": "Bố mẹ bắt mình tập piano mỗi tối.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -188,6 +218,25 @@
         { "askVi": "Thường xuyên thế nào?", "ask": "How often?", "add": "every Friday" }
       ],
       "full": "She uploads cover song videos to social media every Friday."
+    },
+    {
+      "id": "x05",
+      "base": "I went to a festival.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last summer" },
+        { "askVi": "Với ai?", "ask": "Who with?", "add": "with my cousins" },
+        { "askVi": "Không khí thế nào?", "ask": "What was it like?", "add": "and the atmosphere was amazing" }
+      ],
+      "full": "I went to a festival last summer with my cousins, and the atmosphere was amazing."
+    },
+    {
+      "id": "x06",
+      "base": "I voted for her.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in the TV competition" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because she is really talented" }
+      ],
+      "full": "I voted for her in the TV competition because she is really talented."
     }
   ],
   "variations": [
@@ -197,7 +246,8 @@
       "questions": [
         "What type of music do you like best, and why?",
         "Which music style makes you feel happy? Why?",
-        "Why do you like your favourite kind of music?"
+        "Why do you like your favourite kind of music?",
+        "What kind of songs do you listen to most, and why do you like them?"
       ],
       "keywords": ["pop", "relax", "makes me feel", "because"],
       "exampleAnswer": "I like ballads best because the lyrics are meaningful and slow songs make me feel calm.",
@@ -209,7 +259,8 @@
       "questions": [
         "Which musical instrument would you like to learn?",
         "If you could play any instrument, which one would you choose?",
-        "Is there an instrument you hope to play one day?"
+        "Is there an instrument you hope to play one day?",
+        "What instrument do you dream of playing?"
       ],
       "keywords": ["musical instrument", "hope to", "guitar", "moon-shaped lute"],
       "exampleAnswer": "I'd like to learn the piano, and I hope to play it at my sister's wedding one day.",
@@ -221,7 +272,8 @@
       "questions": [
         "Have you ever been to a live concert? What was it like?",
         "What is the best music show you have ever seen?",
-        "Which singer or band would you like to see perform live?"
+        "Which singer or band would you like to see perform live?",
+        "Tell me about a concert or performance you remember well."
       ],
       "keywords": ["concert", "live", "performance", "audience"],
       "exampleAnswer": "I went to a live concert in the park last year. The audience sang along, and it was exciting.",
@@ -233,7 +285,8 @@
       "questions": [
         "What do you think about TV singing competitions?",
         "Why are talent shows on TV so popular?",
-        "Do you enjoy watching singing contests on TV? Why or why not?"
+        "Do you enjoy watching singing contests on TV? Why or why not?",
+        "Are music competitions on TV good for young singers? Why or why not?"
       ],
       "keywords": ["competition", "judges", "talented", "participants"],
       "exampleAnswer": "I enjoy them because talented young people get a chance, but the judges are sometimes too strict.",
@@ -245,11 +298,51 @@
       "questions": [
         "How do you usually find new songs?",
         "Where do you discover new music, on the radio or online?",
-        "How do you hear about new singles from your favourite artists?"
+        "How do you hear about new singles from your favourite artists?",
+        "Which apps or websites do you use to find new music?"
       ],
       "keywords": ["social media", "single", "upload", "app"],
       "exampleAnswer": "I usually find new songs on social media, and I follow my favourite singers to hear their new singles.",
       "expectsReason": false
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Thần tượng âm nhạc của em",
+      "questions": [
+        "Who is your music idol, and why?",
+        "Which singer or band do you admire most? Why?",
+        "Tell me about an artist you are a big fan of.",
+        "Why do you like your favourite singer so much?"
+      ],
+      "keywords": ["idol", "fan", "talented", "award"],
+      "exampleAnswer": "My idol is a young singer from Ha Noi. She is very talented, and she writes all her own songs.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Đi lễ hội âm nhạc",
+      "questions": [
+        "Would you like to go to a music festival? Why or why not?",
+        "What would you like to do at a music festival?",
+        "Which music festival would you love to go to, and why?",
+        "Do you prefer watching music festivals online or going there in person? Why?"
+      ],
+      "keywords": ["festival", "atmosphere", "live", "ticket"],
+      "exampleAnswer": "Yes, I would. I love the exciting atmosphere, and I want to see my favourite bands perform live.",
+      "expectsReason": true
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Cảm nhận của em về nhạc truyền thống Việt Nam",
+      "questions": [
+        "Do you like traditional Vietnamese music? Why or why not?",
+        "What do you think of traditional Vietnamese music?",
+        "How do you feel when you hear traditional Vietnamese music?",
+        "Which traditional Vietnamese instrument do you like best, and why?"
+      ],
+      "keywords": ["traditional", "moon-shaped lute", "bamboo clapper", "performance"],
+      "exampleAnswer": "I like the bamboo clapper because its sound is cheerful, and it is quite easy to learn.",
+      "expectsReason": true
     }
   ],
   "independent": [
@@ -361,6 +454,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["live", "performance", "Why don't you", "because", "but"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Mua vé xem lễ hội âm nhạc",
+      "contextVi": "Em muốn mua vé cho Lễ hội Âm nhạc Thanh niên cuối tuần này. Em hỏi người bán vé về thời gian, địa điểm và giá vé.",
+      "aiRole": "a ticket seller at the music festival booth",
+      "studentRoleVi": "Học sinh muốn mua vé",
+      "goalVi": "Hỏi thời gian, địa điểm, giá vé, mua vé và nói vì sao em muốn đi.",
+      "goal": "Ask about the time, location and price of the festival, buy tickets, and say why you want to go.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["ticket", "location", "festival", "stage"] },
+        { "kind": "reason", "vi": "Nói vì sao em muốn đi (because...)", "words": [] }
+      ],
+      "opener": "Good morning! Welcome to the Youth Music Festival ticket booth. How can I help you?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "The festival is on Saturday and Sunday. Which day would you like to go?",
+        "Sure. How many tickets do you need?",
+        "Here you are. Which band are you most excited to see?"
+      ],
+      "tipsVi": ["Hỏi lịch sự: \"Could you tell me ...?\", \"How much is a ticket?\"", "Nói lý do: \"I want to see ... because ...\""],
+      "keywords": ["ticket", "How much", "location", "because"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Câu lạc bộ học đàn nguyệt hay nhảy nhạc pop?",
+      "contextVi": "Câu lạc bộ âm nhạc của trường chọn một nội dung để học trong học kỳ này: đàn nguyệt (nhạc truyền thống) hoặc nhảy theo nhạc pop. Bạn em muốn chọn nhạc pop.",
+      "aiRole": "Khoa, a friend in the school music club",
+      "studentRoleVi": "Thành viên câu lạc bộ, muốn học nhạc truyền thống",
+      "goalVi": "Thuyết phục bạn chọn học đàn nguyệt, có lý do và ví dụ, trả lời khi bạn phản đối.",
+      "goal": "Persuade Khoa that the club should learn a traditional instrument, giving reasons and an example.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do (because...)", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ cụ thể (nghệ sĩ trẻ, tiết mục em đã xem)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["moon-shaped lute", "traditional", "performance", "audience"] }
+      ],
+      "opener": "So, what should our club learn this term? I really want to learn some K-pop dances!",
+      "stance": "Traditional music is old-fashioned. Young people only like pop music, so nobody will come to our club.",
+      "turns": 5,
+      "fallback": [
+        "Really? Why do you want to learn something traditional?",
+        "But traditional music is old-fashioned. Young people only like pop, don't they?",
+        "Hmm. Can you give me an example of a young person who plays traditional music?",
+        "OK, maybe. How can we make our performance interesting for the audience?"
+      ],
+      "tipsVi": ["Dùng câu ghép với but/so: \"It's traditional, but it sounds beautiful.\"", "Nhắc ví dụ: một nghệ sĩ trẻ, một tiết mục em từng xem."],
+      "keywords": ["traditional", "but", "so", "performance", "because"]
     }
   ]
 }

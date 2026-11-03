@@ -27,7 +27,16 @@
     { "id": "v19", "en": "debris", "vi": "mảnh vỡ, mảnh vụn", "ipa": "/ˈdebriː/", "ipaFrom": "glossary", "pos": "n", "example": "Plastic debris in the ocean can kill fish and birds.", "collocations": ["plastic debris", "marine debris"], "synonyms": ["rubbish"], "antonyms": [], "src": { "kind": "sgk", "page": 153 } },
     { "id": "v20", "en": "degrade", "vi": "xuống cấp", "ipa": "/dɪˈɡreɪd/", "ipaFrom": "glossary", "pos": "v", "example": "Pollution can degrade the habitats of many species.", "collocations": ["degraded habitats", "degrade the environment"], "synonyms": ["damage"], "antonyms": ["restore"], "src": { "kind": "sgk", "page": 153 } },
     { "id": "v21", "en": "monitor", "vi": "giám sát", "ipa": "/ˈmɒnɪtə/", "ipaFrom": "glossary", "pos": "v", "example": "Scientists use cameras to monitor the tigers in the forest.", "collocations": ["monitor animals", "monitor closely"], "synonyms": ["watch", "observe"], "antonyms": [], "src": { "kind": "sgk", "page": 153 } },
-    { "id": "v22", "en": "mammal", "vi": "động vật có vú", "ipa": "/ˈmæml/", "ipaFrom": "glossary", "pos": "n", "example": "Whales and dolphins are marine mammals.", "collocations": ["marine mammals", "large mammals"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 153 } }
+    { "id": "v22", "en": "mammal", "vi": "động vật có vú", "ipa": "/ˈmæml/", "ipaFrom": "glossary", "pos": "n", "example": "Whales and dolphins are marine mammals.", "collocations": ["marine mammals", "large mammals"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 153 } },
+    { "id": "v23", "en": "body part", "vi": "bộ phận cơ thể", "ipa": "/ˈbɒdi pɑːt/", "ipaFrom": "glossary", "pos": "np", "example": "Some animals are hunted for a single body part, such as their horns.", "collocations": ["animal body parts", "sell body parts"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 153 } },
+    { "id": "v24", "en": "coral", "vi": "san hô", "ipa": "/ˈkɒrəl/", "ipaFrom": "glossary", "pos": "n", "example": "Warmer seas are killing coral around the world.", "collocations": ["coral reef", "coral souvenirs"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 153 } },
+    { "id": "v25", "en": "house", "vi": "cung cấp nơi ở, chứa", "ipa": "/haʊz/", "ipaFrom": "dictionary", "pos": "v", "example": "The new centre can house up to fifty rescued bears.", "collocations": ["house animals", "be housed in"], "synonyms": ["accommodate"], "antonyms": [], "src": { "kind": "sgk", "page": 153 } },
+    { "id": "v26", "en": "nursery", "vi": "vườn ươm", "ipa": "/ˈnɜːsəri/", "ipaFrom": "glossary", "pos": "n", "example": "Volunteers grow young trees in a nursery before planting them in the forest.", "collocations": ["a tree nursery", "a plant nursery"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 153 } },
+    { "id": "v27", "en": "primate", "vi": "động vật linh trưởng", "ipa": "/ˈpraɪmeɪt/", "ipaFrom": "glossary", "pos": "n", "example": "Monkeys, apes and humans all belong to the group of primates.", "collocations": ["primate species", "a primate rescue centre"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 153 } },
+    { "id": "v28", "en": "sign language", "vi": "ngôn ngữ kí hiệu", "ipa": "/ˈsaɪn læŋɡwɪdʒ/", "ipaFrom": "glossary", "pos": "n", "example": "Scientists have taught some gorillas to use sign language.", "collocations": ["use sign language", "learn sign language"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 153 } },
+    { "id": "v29", "en": "spawning ground", "vi": "nơi đẻ trứng (của cá)", "ipa": "/ˈspɔːnɪŋ ˌɡraʊnd/", "ipaFrom": "glossary", "pos": "np", "example": "The new dam stopped the fish from reaching their spawning grounds.", "collocations": ["protect spawning grounds"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 153 } },
+    { "id": "v30", "en": "species", "vi": "loài", "ipa": "/ˈspiːʃiːz/", "ipaFrom": "dictionary", "pos": "n", "example": "Hundreds of species in Viet Nam are now in danger.", "collocations": ["endangered species", "a rare species"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 100 } },
+    { "id": "v31", "en": "ape", "vi": "vượn (loài linh trưởng không đuôi)", "ipa": "/eɪp/", "ipaFrom": "dictionary", "pos": "n", "example": "Gorillas and gibbons are apes, not monkeys.", "collocations": ["great apes"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 100 } }
   ],
   "grammar": [
     {
@@ -114,6 +123,19 @@
       "sentence": "You look worried. Is there anything I can do?",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "ending",
+      "focus": "Đuôi -s/-es của danh từ số nhiều: /s/, /z/, /ɪz/",
+      "tipVi": "Đọc /s/ sau âm vô thanh /p, t, k, f, θ/ (habitats, forests, primates); đọc /ɪz/ sau /s, z, ʃ, tʃ, dʒ/ (cages, enclosures); đọc /z/ trong các trường hợp còn lại (animals, turtles). Lưu ý: species là danh từ bất quy tắc, số ít và số nhiều giống nhau.",
+      "words": ["animals", "turtles", "habitats", "forests", "primates", "enclosures", "cages"],
+      "sentence": "Many animals live in enclosures, while others live in forests.",
+      "quiz": [
+        { "prompt": "Which word ends with the sound /ɪz/?", "options": ["cages", "habitats", "turtles"], "answer": 0, "explainVi": "cage kết thúc bằng âm /dʒ/ nên -s đọc /ɪz/; habitats đọc /s/, turtles đọc /z/." },
+        { "prompt": "Which word ends with the sound /s/?", "options": ["habitats", "animals", "enclosures"], "answer": 0, "explainVi": "habitat kết thúc bằng âm vô thanh /t/ nên -s đọc /s/; animals đọc /z/, enclosures đọc /ɪz/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -127,7 +149,13 @@
     { "id": "e08", "en": "If we don't act now, ...", "vi": "Nếu chúng ta không hành động ngay, ...", "useVi": "Khi cảnh báo hậu quả để thuyết phục người khác.", "example": "If we don't act now, sea turtles may disappear from our beaches.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "I'm worried that ...", "vi": "Mình lo rằng ...", "useVi": "Khi bày tỏ lo lắng về một vấn đề.", "example": "I'm worried that people still buy products made from rare animals.", "src": { "kind": "team", "page": null } },
     { "id": "e10", "en": "One solution is to ...", "vi": "Một giải pháp là ...", "useVi": "Khi đưa ra giải pháp cho một vấn đề.", "example": "One solution is to teach local people about wildlife.", "src": { "kind": "team", "page": null } },
-    { "id": "e11", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi lịch sự giữ ý kiến của mình trước ý kiến khác.", "example": "I see your point, but animals in zoos can't live naturally.", "src": { "kind": "team", "page": null } }
+    { "id": "e11", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi lịch sự giữ ý kiến của mình trước ý kiến khác.", "example": "I see your point, but animals in zoos can't live naturally.", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "Did you know that ...?", "vi": "Bạn có biết rằng ...?", "useVi": "Khi giới thiệu một sự thật đáng chú ý về động vật hoang dã.", "example": "Did you know that there are fewer than 4,000 wild tigers left?", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "I'm really concerned about ...", "vi": "Mình thực sự lo ngại về ...", "useVi": "Khi bày tỏ mối lo về một vấn đề môi trường.", "example": "I'm really concerned about the plastic on our beaches.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "It's such a shame that ...", "vi": "Thật đáng tiếc là ...", "useVi": "Khi bày tỏ sự tiếc nuối về một điều xấu đã xảy ra.", "example": "It's such a shame that the forest near my village was cut down.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "It's illegal to ...", "vi": "... là phạm pháp.", "useVi": "Khi nhắc người khác về luật bảo vệ động vật.", "example": "It's illegal to buy or sell rhino horn in Viet Nam.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "Please don't ... because ...", "vi": "Xin đừng ... vì ...", "useVi": "Khi khuyên ngăn ai đó một cách lịch sự kèm lý do.", "example": "Please don't feed the monkeys because human food can make them sick.", "src": { "kind": "team", "page": null } },
+    { "id": "e17", "en": "We must act before it's too late.", "vi": "Chúng ta phải hành động trước khi quá muộn.", "useVi": "Khi kêu gọi mọi người hành động ngay.", "example": "Many turtles are dying. We must act before it's too late.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["If we don't", "stop poaching", "many animals", "will become", "extinct"], "vi": "Nếu chúng ta không ngăn săn bắn trái phép, nhiều loài sẽ tuyệt chủng.", "grammarId": "g01" },
@@ -136,7 +164,10 @@
     { "id": "b04", "chunks": ["Saving habitats", "is as important", "as stopping", "illegal hunting"], "vi": "Cứu môi trường sống cũng quan trọng như ngăn chặn săn bắn trái phép.", "grammarId": "g02" },
     { "id": "b05", "chunks": ["The rescue centre", "will release", "the bear", "provided that", "it fully recovers"], "vi": "Trung tâm cứu hộ sẽ thả con gấu miễn là nó hồi phục hoàn toàn.", "grammarId": "g01" },
     { "id": "b06", "chunks": ["Forest clearance", "destroys the habitats", "of many", "vulnerable species"], "vi": "Việc phá rừng phá huỷ môi trường sống của nhiều loài dễ bị tổn thương.", "grammarId": null },
-    { "id": "b07", "chunks": ["Plastic debris", "in the ocean", "kills thousands of", "marine animals", "every year"], "vi": "Rác nhựa trong đại dương giết chết hàng nghìn động vật biển mỗi năm.", "grammarId": null }
+    { "id": "b07", "chunks": ["Plastic debris", "in the ocean", "kills thousands of", "marine animals", "every year"], "vi": "Rác nhựa trong đại dương giết chết hàng nghìn động vật biển mỗi năm.", "grammarId": null },
+    { "id": "b08", "chunks": ["Unless we protect", "their spawning grounds", "these fish", "will disappear"], "vi": "Nếu chúng ta không bảo vệ nơi đẻ trứng, những loài cá này sẽ biến mất.", "grammarId": "g01" },
+    { "id": "b09", "chunks": ["Gibbons", "are not as large", "as other apes"], "vi": "Vượn không to bằng các loài vượn lớn khác.", "grammarId": "g02" },
+    { "id": "b10", "chunks": ["The rescue centre", "will keep the monkey", "until it can", "find food by itself"], "vi": "Trung tâm cứu hộ sẽ giữ con khỉ cho đến khi nó tự kiếm được thức ăn.", "grammarId": "g01" }
   ],
   "expand": [
     {
@@ -174,6 +205,26 @@
         { "askVi": "Kết quả là gì?", "ask": "So what?", "add": "so many fish lose their homes" }
       ],
       "full": "Coral reefs are dying because the sea is getting warmer, so many fish lose their homes."
+    },
+    {
+      "id": "x05",
+      "base": "Elephants are in danger.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in Viet Nam" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because their forests are disappearing" },
+        { "askVi": "Nếu không làm gì thì sao?", "ask": "What if we do nothing?", "add": "and they will die out unless we act now" }
+      ],
+      "full": "Elephants are in danger in Viet Nam because their forests are disappearing, and they will die out unless we act now."
+    },
+    {
+      "id": "x06",
+      "base": "I want to volunteer.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at a wildlife rescue centre" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "this summer" },
+        { "askVi": "Để làm gì?", "ask": "To do what?", "add": "to help feed and care for injured animals" }
+      ],
+      "full": "I want to volunteer at a wildlife rescue centre this summer to help feed and care for injured animals."
     }
   ],
   "variations": [
@@ -235,6 +286,45 @@
       ],
       "keywords": ["rare", "critically endangered", "saola", "langur"],
       "exampleAnswer": "The saola is a rare animal that lives in the forests of central Viet Nam, and it is critically endangered.",
+      "expectsReason": false
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Có nên thả động vật cứu hộ về tự nhiên",
+      "questions": [
+        "Should rescued animals always be released into the wild? Why or why not?",
+        "When is it safe to release an animal back into nature?",
+        "Why do rescue centres keep some animals instead of releasing them?",
+        "What should happen to an injured animal after it recovers?"
+      ],
+      "keywords": ["release", "survive", "unless", "captivity"],
+      "exampleAnswer": "Animals should go back to the wild provided that they can find food by themselves. Unless they are fully healthy, they cannot survive.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Buôn bán sản phẩm từ động vật hoang dã",
+      "questions": [
+        "Why do some people still buy products made from wild animals?",
+        "What should people do if they see wild animal products for sale?",
+        "How can we stop the illegal trade in wildlife?",
+        "Why is buying rhino horn or ivory harmful?"
+      ],
+      "keywords": ["illegal", "poach", "body part", "demand"],
+      "exampleAnswer": "Some people believe rhino horn is good medicine, but that's not true. If nobody buys these products, poachers will stop killing rhinos.",
+      "expectsReason": true
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Một bộ phim hoặc chuyến đi về động vật hoang dã",
+      "questions": [
+        "Have you ever watched a documentary about wild animals? What did you learn?",
+        "Tell me about a visit to a zoo, a national park or a rescue centre.",
+        "What interesting fact about wildlife have you learnt recently?",
+        "Which wildlife programme or trip do you remember best?"
+      ],
+      "keywords": ["documentary", "habitat", "species", "learnt"],
+      "exampleAnswer": "I watched a documentary about sea turtles. I learnt that they return to the same beach to lay eggs, but many of those beaches are now polluted.",
       "expectsReason": false
     }
   ],
@@ -348,6 +438,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["forest clearance", "habitat", "rare", "because"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Hỏi thăm bạn buồn vì khu rừng bị chặt",
+      "contextVi": "Nga vừa về quê và trông rất buồn. Em hỏi thăm và biết khu rừng nơi bạn hay chơi khi còn nhỏ đã bị chặt để làm đường.",
+      "aiRole": "Nga, your classmate who looks upset after a trip to her home village",
+      "studentRoleVi": "Bạn cùng lớp hỏi thăm và an ủi",
+      "goalVi": "Hỏi thăm bằng câu phù hợp, an ủi bạn và đề xuất một việc hai bạn có thể cùng làm.",
+      "goal": "Show concern with suitable questions, comfort your friend, and suggest one thing you can do together.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một câu hỏi thăm", "words": ["What's the matter", "Are you OK", "Is there anything I can do"] },
+        { "kind": "suggestion", "vi": "Đề xuất một việc hai bạn có thể làm để giúp bảo vệ rừng hoặc động vật", "words": [] }
+      ],
+      "opener": "Hi... Sorry, I'm not in a good mood today.",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "The forest near my grandparents' house has been cut down. I used to see monkeys and birds there.",
+        "I'm worried that the animals have nowhere to live now.",
+        "That's a nice idea. Do you think it will really help?"
+      ],
+      "tipsVi": ["Hỏi thăm: What's the matter? / Is there anything I can do to help?", "Đề xuất: Why don't we ...? If we ..., ..."],
+      "keywords": ["What's the matter", "forest clearance", "habitat", "Is there anything I can do", "If"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Chuẩn bị Ngày Động vật Hoang dã",
+      "contextVi": "Câu lạc bộ Môi trường của trường tổ chức Ngày Động vật Hoang dã. Em và chủ nhiệm câu lạc bộ bàn các hoạt động cho sự kiện.",
+      "aiRole": "Khanh, the leader of the school Environment Club",
+      "studentRoleVi": "Thành viên câu lạc bộ đề xuất hoạt động",
+      "goalVi": "Đề xuất ít nhất hai hoạt động và giải thích mỗi hoạt động giúp học sinh hiểu về bảo tồn động vật hoang dã như thế nào.",
+      "goal": "Suggest at least two activities and explain how each one will help students understand wildlife conservation.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất ít nhất hai hoạt động cho sự kiện", "words": [] },
+        { "kind": "reason", "vi": "Giải thích hoạt động đó giúp ích thế nào", "words": [] }
+      ],
+      "opener": "Wildlife Day is in two weeks. We need some activities that students will enjoy. What do you suggest?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Sounds good. How will that help students learn about endangered animals?",
+        "Nice. Do you have another idea?",
+        "OK. What do you think students should do after the event?"
+      ],
+      "tipsVi": ["Đề xuất: How about + V-ing? / We could ...", "Dùng câu điều kiện: If students ..., they will ..."],
+      "keywords": ["endangered", "conservation", "poster", "If", "provided that"]
     }
   ]
 }

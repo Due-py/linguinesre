@@ -23,7 +23,19 @@
     { "id": "v15", "en": "peach flower", "vi": "hoa đào", "ipa": "/piːtʃ ˈflaʊə/", "ipaFrom": "dictionary", "pos": "n", "example": "Peach flowers are pink and very beautiful at Tet.", "collocations": ["buy peach flowers"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 60 } },
     { "id": "v16", "en": "special food", "vi": "món ăn đặc biệt", "ipa": "/ˈspeʃl fuːd/", "ipaFrom": "dictionary", "pos": "n", "example": "My mum cooks special food like banh chung at Tet.", "collocations": ["cook special food"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 60 } },
     { "id": "v17", "en": "New Year's Eve", "vi": "đêm giao thừa", "ipa": "/ˌnjuː jɪəz ˈiːv/", "ipaFrom": "dictionary", "pos": "n", "example": "On New Year's Eve, my family watches fireworks together.", "collocations": ["on New Year's Eve"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 63 } },
-    { "id": "v18", "en": "housework", "vi": "việc nhà", "ipa": "/ˈhaʊswɜːk/", "ipaFrom": "dictionary", "pos": "n", "example": "Before Tet, I help my parents with the housework.", "collocations": ["help with housework", "do housework"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 61 } }
+    { "id": "v18", "en": "housework", "vi": "việc nhà", "ipa": "/ˈhaʊswɜːk/", "ipaFrom": "dictionary", "pos": "n", "example": "Before Tet, I help my parents with the housework.", "collocations": ["help with housework", "do housework"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 61 } },
+    { "id": "v19", "en": "strike", "vi": "đánh, điểm (chuông đồng hồ)", "ipa": "/straɪk/", "ipaFrom": "glossary", "pos": "v", "example": "When the clock strikes twelve on New Year's Eve, everyone cheers.", "collocations": ["the clock strikes twelve"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v20", "en": "mochi rice cake", "vi": "bánh gạo mochi", "ipa": "/ˈməʊtʃi raɪs keɪk/", "ipaFrom": "glossary", "pos": "n", "example": "In Japan, people eat mochi rice cakes at New Year.", "collocations": ["eat mochi rice cakes"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v21", "en": "shopping", "vi": "việc mua sắm", "ipa": "/ˈʃɒpɪŋ/", "ipaFrom": "dictionary", "pos": "n", "example": "We do a lot of shopping at the flower market before Tet.", "collocations": ["do the shopping", "go shopping"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 60 } },
+    { "id": "v22", "en": "spring", "vi": "mùa xuân", "ipa": "/sprɪŋ/", "ipaFrom": "dictionary", "pos": "n", "example": "Tet comes at the beginning of spring.", "collocations": ["in spring", "spring flowers"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 60 } },
+    { "id": "v23", "en": "clean", "vi": "lau dọn, làm sạch", "ipa": "/kliːn/", "ipaFrom": "dictionary", "pos": "v", "example": "We clean our house from top to bottom before Tet.", "collocations": ["clean the house", "clean the windows"], "synonyms": ["tidy"], "antonyms": [], "src": { "kind": "sgk", "page": 58 } },
+    { "id": "v24", "en": "break", "vi": "làm vỡ", "ipa": "/breɪk/", "ipaFrom": "dictionary", "pos": "v", "example": "People believe you shouldn't break anything on the first day of Tet.", "collocations": ["break a glass", "break a bowl"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 58 } },
+    { "id": "v25", "en": "kite", "vi": "con diều", "ipa": "/kaɪt/", "ipaFrom": "dictionary", "pos": "n", "example": "Children fly kites in the fields during the spring holiday.", "collocations": ["fly a kite"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 59 } },
+    { "id": "v26", "en": "flower", "vi": "hoa, bông hoa", "ipa": "/ˈflaʊə/", "ipaFrom": "dictionary", "pos": "n", "example": "My mother puts fresh flowers on the table at Tet.", "collocations": ["peach flowers", "flower market"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 58 } },
+    { "id": "v27", "en": "New Year", "vi": "năm mới", "ipa": "/ˌnjuː ˈjɪə/", "ipaFrom": "dictionary", "pos": "n", "example": "Many countries celebrate the New Year on the first of January.", "collocations": ["celebrate the New Year", "Happy New Year"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 58 } },
+    { "id": "v28", "en": "visit", "vi": "đến thăm", "ipa": "/ˈvɪzɪt/", "ipaFrom": "dictionary", "pos": "v", "example": "We visit our relatives on the second day of Tet.", "collocations": ["visit relatives", "visit grandparents"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 60 } },
+    { "id": "v29", "en": "pagoda", "vi": "ngôi chùa", "ipa": "/pəˈɡəʊdə/", "ipaFrom": "dictionary", "pos": "n", "example": "My grandma goes to the pagoda on the first day of the New Year.", "collocations": ["go to the pagoda", "an old pagoda"], "synonyms": [], "antonyms": [], "src": { "kind": "team", "page": null } },
+    { "id": "v30", "en": "first footer", "vi": "người xông đất", "ipa": "/ˌfɜːst ˈfʊtə/", "ipaFrom": "dictionary", "pos": "n", "example": "People believe a kind first footer brings good luck for the whole year.", "collocations": ["the first footer"], "synonyms": [], "antonyms": [], "src": { "kind": "team", "page": null } }
   ],
   "grammar": [
     {
@@ -132,7 +144,15 @@
     { "id": "e05", "en": "You should ... / You shouldn't ...", "vi": "Bạn nên ... / Bạn không nên ...", "useVi": "Khi khuyên ai đó nên hay không nên làm gì dịp Tết.", "example": "You should say thank you when you get lucky money.", "src": { "kind": "sgk", "page": 61 } },
     { "id": "e06", "en": "Thank you. The same to you!", "vi": "Cảm ơn. Chúc bạn cũng vậy!", "useVi": "Khi đáp lại lời chúc của người khác.", "example": "Thank you, Lan. The same to you!", "src": { "kind": "team", "page": null } },
     { "id": "e07", "en": "At Tet, we usually ...", "vi": "Vào dịp Tết, chúng mình thường ...", "useVi": "Khi kể những việc gia đình em thường làm dịp Tết.", "example": "At Tet, we usually visit our relatives and go to the temple.", "src": { "kind": "team", "page": null } },
-    { "id": "e08", "en": "My favourite thing about Tet is ...", "vi": "Điều mình thích nhất về Tết là ...", "useVi": "Khi nói điều em thích nhất trong dịp Tết.", "example": "My favourite thing about Tet is the family gathering.", "src": { "kind": "team", "page": null } }
+    { "id": "e08", "en": "My favourite thing about Tet is ...", "vi": "Điều mình thích nhất về Tết là ...", "useVi": "Khi nói điều em thích nhất trong dịp Tết.", "example": "My favourite thing about Tet is the family gathering.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "When is ...? – It's in ...", "vi": "... vào khi nào? – Vào tháng ...", "useVi": "Khi hỏi và trả lời về thời gian của một dịp lễ.", "example": "When is Tet this year? – It's in February.", "src": { "kind": "sgk", "page": 58 } },
+    { "id": "e10", "en": "Is there anything special people should do?", "vi": "Có điều gì đặc biệt mọi người nên làm không?", "useVi": "Khi hỏi về phong tục, điều nên làm trong một dịp lễ.", "example": "Is there anything special people should do at Tet?", "src": { "kind": "sgk", "page": 58 } },
+    { "id": "e11", "en": "That sounds interesting.", "vi": "Nghe thú vị đấy.", "useVi": "Khi thể hiện sự quan tâm đến điều người khác vừa kể.", "example": "We give lucky money to children. – That sounds interesting.", "src": { "kind": "sgk", "page": 58 } },
+    { "id": "e12", "en": "Another good thing about Tet is ...", "vi": "Một điều hay nữa về Tết là ...", "useVi": "Khi kể thêm một điều mình thích về Tết.", "example": "Another good thing about Tet is that we have a long holiday.", "src": { "kind": "sgk", "page": 58 } },
+    { "id": "e13", "en": "Do we have any ...?", "vi": "Nhà mình còn ... không?", "useVi": "Khi hỏi xem còn đồ gì không, lúc chuẩn bị đồ cho Tết.", "example": "Do we have any red envelopes for the lucky money?", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "We need some ... for Tet.", "vi": "Chúng ta cần một ít ... cho Tết.", "useVi": "Khi nói những thứ cần mua hoặc chuẩn bị cho Tết.", "example": "We need some sweets and flowers for Tet.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "I wish you good health and happiness.", "vi": "Chúc ông/bà/bạn mạnh khoẻ và hạnh phúc.", "useVi": "Khi chúc Tết người lớn tuổi hoặc người thân.", "example": "Happy New Year, Grandma! I wish you good health and happiness.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "What do you usually do on the first day of Tet?", "vi": "Bạn thường làm gì vào ngày mùng Một Tết?", "useVi": "Khi hỏi về hoạt động của người khác trong ngày đầu năm.", "example": "What do you usually do on the first day of Tet? – I visit my grandparents.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["Children should", "help their parents", "clean the house", "before Tet"], "vi": "Trẻ em nên giúp bố mẹ dọn nhà trước Tết.", "grammarId": "g01" },
@@ -142,7 +162,9 @@
     { "id": "b05", "chunks": ["Are there", "any fireworks", "in your town", "this year?"], "vi": "Năm nay thị trấn của bạn có bắn pháo hoa không?", "grammarId": "g02" },
     { "id": "b06", "chunks": ["On New Year's Eve,", "we stay up late", "to welcome", "the New Year"], "vi": "Vào đêm giao thừa, chúng mình thức khuya để đón năm mới.", "grammarId": null },
     { "id": "b07", "chunks": ["We don't have", "any sweets", "at home now"], "vi": "Bây giờ nhà mình không còn chiếc kẹo nào.", "grammarId": "g02" },
-    { "id": "b08", "chunks": ["At Tet,", "we visit our relatives", "and wish them", "good luck"], "vi": "Vào dịp Tết, chúng mình đi thăm họ hàng và chúc họ may mắn.", "grammarId": null }
+    { "id": "b08", "chunks": ["At Tet,", "we visit our relatives", "and wish them", "good luck"], "vi": "Vào dịp Tết, chúng mình đi thăm họ hàng và chúc họ may mắn.", "grammarId": null },
+    { "id": "b09", "chunks": ["We should", "visit our grandparents", "on the first day of Tet"], "vi": "Chúng ta nên đến thăm ông bà vào ngày mùng Một Tết.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["Mum bought", "some peach flowers", "at the market"], "vi": "Mẹ đã mua một ít hoa đào ở chợ.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -181,6 +203,24 @@
         { "askVi": "Vì sao?", "ask": "Why?", "add": "because people want a lucky start to the year" }
       ],
       "full": "Children should behave well at Tet because people want a lucky start to the year."
+    },
+    {
+      "id": "x05",
+      "base": "We make banh chung.",
+      "steps": [
+        { "askVi": "Làm cùng ai?", "ask": "Who with?", "add": "with our grandparents" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "two days before Tet" }
+      ],
+      "full": "We make banh chung with our grandparents two days before Tet."
+    },
+    {
+      "id": "x06",
+      "base": "You shouldn't sweep the floor.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "on the first day of Tet" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because people believe it sweeps away luck" }
+      ],
+      "full": "You shouldn't sweep the floor on the first day of Tet because people believe it sweeps away luck."
     }
   ],
   "variations": [
@@ -243,6 +283,45 @@
       "keywords": ["wishing you", "happy", "health", "luck"],
       "exampleAnswer": "Happy New Year! Wishing you good health, lots of luck and a year full of fun.",
       "expectsReason": false
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Món ăn đặc biệt dịp Tết của gia đình em",
+      "questions": [
+        "What special food does your family eat at Tet?",
+        "Which Tet food do you like best?",
+        "Tell me about the special dishes your family makes for Tet.",
+        "What do people in your family cook for the New Year?"
+      ],
+      "keywords": ["banh chung", "special food", "sweets", "cook"],
+      "exampleAnswer": "My family eats banh chung, spring rolls and some sweets. My grandma cooks a big meal on New Year's Eve.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Em làm gì với tiền lì xì",
+      "questions": [
+        "What do you usually do with your lucky money?",
+        "How do you use the lucky money you get at Tet?",
+        "Tell me what you do with your lucky money after Tet.",
+        "Do you save or spend your lucky money?"
+      ],
+      "keywords": ["lucky money", "save", "buy", "books"],
+      "exampleAnswer": "I usually save some of my lucky money in a piggy bank. Then I buy some books and a new school bag.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Vì sao Tết quan trọng với gia đình Việt Nam",
+      "questions": [
+        "Why is Tet important to Vietnamese families?",
+        "Why do Vietnamese people love Tet so much?",
+        "What makes Tet special for families in Viet Nam? Why?",
+        "Why do people go back to their hometowns at Tet?"
+      ],
+      "keywords": ["family gathering", "relatives", "together", "because"],
+      "exampleAnswer": "Tet is important because family members come back home and spend time together. We visit our relatives and wish everyone good luck.",
+      "expectsReason": true
     }
   ],
   "independent": [
@@ -355,6 +434,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["should", "some", "decorate", "because", "help"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Chúc Tết ông bà",
+      "contextVi": "Sáng mùng Một Tết, em đến nhà ông bà. Bà hỏi em về năm học và những gì em làm dịp Tết. Em chúc Tết bà và kể cho bà nghe.",
+      "aiRole": "Grandma, who is very happy to see you at Tet",
+      "studentRoleVi": "Cháu đến chúc Tết bà",
+      "goalVi": "Chúc Tết bà, kể những việc em đã làm để chuẩn bị Tết, và cảm ơn khi bà mừng tuổi.",
+      "goal": "Give Grandma New Year wishes, tell her how you got ready for Tet, and thank her for the lucky money.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một lời chúc năm mới", "words": ["Happy New Year", "I wish you", "good health", "happiness"] },
+        { "kind": "keyword", "vi": "Dùng ít nhất hai từ về Tết", "words": ["decorate", "clean", "peach flowers", "banh chung", "lucky money", "relatives"] }
+      ],
+      "opener": "Oh, my dear! Come in, come in. Happy New Year!",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Thank you, dear. What did you do to get ready for Tet?",
+        "Good children! Here is some lucky money for you. Study hard this year.",
+        "You're welcome. Now let's have some banh chung together."
+      ],
+      "tipsVi": ["Chúc bà: Happy New Year, Grandma! I wish you good health.", "Nhận lì xì bằng hai tay và nói: Thank you very much."],
+      "keywords": ["Happy New Year", "I wish you", "decorate", "lucky money", "thank you"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Trẻ em có nên dọn nhà đón Tết?",
+      "contextVi": "Cả nhà đang dọn dẹp để đón Tết. Em trai em chỉ muốn chơi điện tử và nói trẻ em không cần giúp. Em thuyết phục em trai cùng làm.",
+      "aiRole": "Tin, your younger brother who just wants to play games",
+      "studentRoleVi": "Anh/chị thuyết phục em trai cùng dọn nhà",
+      "goalVi": "Nói trẻ em nên làm gì trước Tết, giải thích lý do, và gợi ý một việc vừa sức cho em trai.",
+      "goal": "Tell your brother what children should do before Tet, explain why, and suggest an easy job for him.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng should / shouldn't", "words": ["should", "shouldn't"] },
+        { "kind": "reason", "vi": "Nêu lý do trẻ em nên giúp bố mẹ", "words": [] },
+        { "kind": "suggestion", "vi": "Gợi ý một việc cụ thể cho em trai", "words": [] }
+      ],
+      "opener": "I'm playing my game now. Why are you all so busy today?",
+      "stance": "Cleaning is Mum and Dad's job. Children should just play at Tet.",
+      "turns": 5,
+      "fallback": [
+        "Do I really have to help? It's so boring.",
+        "But cleaning is Mum and Dad's job. Children should just play at Tet.",
+        "Hmm, OK. But what can I do? I'm only seven.",
+        "Fine, I'll help you. Let's finish quickly!"
+      ],
+      "tipsVi": ["Nói lý do: Mum and Dad are very busy. / The house will look nice for Tet.", "Gợi ý việc dễ: You can clean the windows / put the flowers in a vase."],
+      "keywords": ["should", "help", "clean", "decorate", "because"]
     }
   ]
 }

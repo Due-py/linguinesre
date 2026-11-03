@@ -26,7 +26,18 @@
     { "id": "v18", "en": "fly", "vi": "bay, lái máy bay, đi trên máy bay", "ipa": "/flaɪ/", "ipaFrom": "glossary", "pos": "v", "example": "My aunt flies to Ho Chi Minh City twice a year.", "collocations": ["fly to Ha Noi"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
     { "id": "v19", "en": "helmet", "vi": "mũ bảo hiểm", "ipa": "/ˈhelmɪt/", "ipaFrom": "dictionary", "pos": "n", "example": "Always wear a helmet when you ride a motorbike.", "collocations": ["wear a helmet", "put on a helmet"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 76 } },
     { "id": "v20", "en": "traffic lights", "vi": "đèn giao thông", "ipa": "/ˈtræfɪk laɪts/", "ipaFrom": "dictionary", "pos": "n", "example": "Stop when the traffic lights are red.", "collocations": ["stop at the traffic lights", "red traffic lights"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 74 } },
-    { "id": "v21", "en": "cycle lane", "vi": "làn đường dành cho xe đạp", "ipa": "/ˈsaɪkl leɪn/", "ipaFrom": "dictionary", "pos": "n", "example": "Our town is building a new cycle lane along the river.", "collocations": ["ride in the cycle lane"], "synonyms": ["bike lane"], "antonyms": [], "src": { "kind": "sgk", "page": 74 } }
+    { "id": "v21", "en": "cycle lane", "vi": "làn đường dành cho xe đạp", "ipa": "/ˈsaɪkl leɪn/", "ipaFrom": "dictionary", "pos": "n", "example": "Our town is building a new cycle lane along the river.", "collocations": ["ride in the cycle lane"], "synonyms": ["bike lane"], "antonyms": [], "src": { "kind": "sgk", "page": 74 } },
+    { "id": "v22", "en": "roof", "vi": "nóc xe, mái nhà", "ipa": "/ruːf/", "ipaFrom": "glossary", "pos": "n", "example": "It's dangerous to carry big boxes on the roof of a car.", "collocations": ["on the roof"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v23", "en": "crossroads", "vi": "ngã tư", "ipa": "/ˈkrɒsrəʊdz/", "ipaFrom": "dictionary", "pos": "n", "example": "Turn left at the next crossroads.", "collocations": ["at the crossroads", "a busy crossroads"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 74 } },
+    { "id": "v24", "en": "cycle", "vi": "đạp xe", "ipa": "/ˈsaɪkl/", "ipaFrom": "dictionary", "pos": "v", "example": "I cycle to school with my best friend.", "collocations": ["cycle to school", "cycle round the lake"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 72 } },
+    { "id": "v25", "en": "rush hour", "vi": "giờ cao điểm", "ipa": "/ˈrʌʃ aʊə/", "ipaFrom": "dictionary", "pos": "n", "example": "The roads are very crowded at rush hour.", "collocations": ["at rush hour", "rush hour traffic"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 73 } },
+    { "id": "v26", "en": "means of transport", "vi": "phương tiện giao thông", "ipa": "/ˌmiːnz əv ˈtrænspɔːt/", "ipaFrom": "dictionary", "pos": "n phr", "example": "The bus is the cheapest means of transport in my city.", "collocations": ["a popular means of transport"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 72 } },
+    { "id": "v27", "en": "on foot", "vi": "đi bộ", "ipa": "/ɒn ˈfʊt/", "ipaFrom": "dictionary", "pos": "phr", "example": "My sister goes to school on foot because it's very near.", "collocations": ["go on foot"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 72 } },
+    { "id": "v28", "en": "crowded", "vi": "đông đúc", "ipa": "/ˈkraʊdɪd/", "ipaFrom": "dictionary", "pos": "adj", "example": "The market is always crowded on Sunday mornings.", "collocations": ["a crowded street", "get crowded"], "synonyms": ["busy"], "antonyms": ["empty"], "src": { "kind": "sgk", "page": 72 } },
+    { "id": "v29", "en": "road user", "vi": "người tham gia giao thông", "ipa": "/ˈrəʊd juːzə/", "ipaFrom": "dictionary", "pos": "n", "example": "All road users must obey traffic rules.", "collocations": ["all road users"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 78 } },
+    { "id": "v30", "en": "cyclist", "vi": "người đi xe đạp", "ipa": "/ˈsaɪklɪst/", "ipaFrom": "dictionary", "pos": "n", "example": "Cyclists should ride in the cycle lane.", "collocations": ["young cyclists"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 78 } },
+    { "id": "v31", "en": "signal", "vi": "tín hiệu; ra tín hiệu", "ipa": "/ˈsɪɡnəl/", "ipaFrom": "dictionary", "pos": "n, v", "example": "Give a signal before you turn left.", "collocations": ["give a signal", "a hand signal"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 78 } },
+    { "id": "v32", "en": "narrow", "vi": "hẹp", "ipa": "/ˈnærəʊ/", "ipaFrom": "dictionary", "pos": "adj", "example": "The streets in the old quarter are narrow and busy.", "collocations": ["a narrow road", "a narrow street"], "synonyms": [], "antonyms": ["wide"], "src": { "kind": "sgk", "page": 79 } }
   ],
   "grammar": [
     {
@@ -156,7 +167,13 @@
     { "id": "e07", "en": "You should be careful when ...", "vi": "Bạn nên cẩn thận khi ...", "useVi": "Khi nhắc bạn bè chú ý an toàn.", "example": "You should be careful when you cross a busy road.", "src": { "kind": "sgk", "page": 72 } },
     { "id": "e08", "en": "It's dangerous to ...", "vi": "... thì nguy hiểm.", "useVi": "Khi giải thích vì sao không nên làm việc gì.", "example": "It's dangerous to use your phone while you are cycling.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "Remember to ...", "vi": "Nhớ ... nhé.", "useVi": "Khi nhắc ai đó làm một việc quan trọng.", "example": "Remember to put on your seatbelt.", "src": { "kind": "team", "page": null } },
-    { "id": "e10", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but a helmet can save your life.", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but a helmet can save your life.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "How about going ...?", "vi": "Hay là mình đi ... nhé?", "useVi": "Khi rủ ai đó cùng đi đâu.", "example": "How about going to the park by bike on Saturday?", "src": { "kind": "sgk", "page": 72 } },
+    { "id": "e12", "en": "See you then.", "vi": "Hẹn gặp bạn lúc đó nhé.", "useVi": "Khi kết thúc cuộc hẹn.", "example": "OK, at three o'clock at my house. See you then.", "src": { "kind": "sgk", "page": 72 } },
+    { "id": "e13", "en": "That sounds really healthy.", "vi": "Nghe thật tốt cho sức khỏe.", "useVi": "Khi khen một thói quen đi lại tốt cho sức khỏe.", "example": "You walk to school every day? That sounds really healthy.", "src": { "kind": "sgk", "page": 72 } },
+    { "id": "e14", "en": "By the way, ...", "vi": "Nhân tiện, ...", "useVi": "Khi chuyển sang một ý khác trong cuộc nói chuyện.", "example": "By the way, do you often take the bus?", "src": { "kind": "sgk", "page": 72 } },
+    { "id": "e15", "en": "Always look carefully when you ...", "vi": "Luôn nhìn cẩn thận khi bạn ...", "useVi": "Khi nhắc một quy tắc an toàn giao thông.", "example": "Always look carefully when you ride out of a small lane.", "src": { "kind": "sgk", "page": 78 } },
+    { "id": "e16", "en": "Watch out!", "vi": "Coi chừng!", "useVi": "Khi cảnh báo ai đó về nguy hiểm ngay trước mắt.", "example": "Watch out! There's a car behind you.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["It is about", "two kilometres", "from my house", "to school"], "vi": "Từ nhà mình đến trường khoảng hai ki-lô-mét.", "grammarId": "g01" },
@@ -166,7 +183,9 @@
     { "id": "b05", "chunks": ["Passengers should", "put on their seatbelts", "before the car", "starts"], "vi": "Hành khách nên thắt dây an toàn trước khi xe chạy.", "grammarId": "g02" },
     { "id": "b06", "chunks": ["There are", "a lot of traffic jams", "in big cities", "at rush hour"], "vi": "Ở các thành phố lớn có nhiều vụ tắc đường vào giờ cao điểm.", "grammarId": null },
     { "id": "b07", "chunks": ["How far", "is it", "from your home", "to the hospital?"], "vi": "Từ nhà bạn đến bệnh viện bao xa?", "grammarId": "g01" },
-    { "id": "b08", "chunks": ["We should", "cross the road", "at the zebra crossing"], "vi": "Chúng ta nên sang đường ở vạch kẻ cho người đi bộ.", "grammarId": "g02" }
+    { "id": "b08", "chunks": ["We should", "cross the road", "at the zebra crossing"], "vi": "Chúng ta nên sang đường ở vạch kẻ cho người đi bộ.", "grammarId": "g02" },
+    { "id": "b09", "chunks": ["It takes me", "half an hour", "to walk to the market"], "vi": "Mình mất nửa tiếng để đi bộ đến chợ.", "grammarId": "g03" },
+    { "id": "b10", "chunks": ["Cyclists", "should give a signal", "before they turn"], "vi": "Người đi xe đạp nên ra tín hiệu trước khi rẽ.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -206,6 +225,24 @@
         { "askVi": "Vì sao?", "ask": "Why?", "add": "because there are too many vehicles" }
       ],
       "full": "There are traffic jams in my town at rush hour because there are too many vehicles."
+    },
+    {
+      "id": "x05",
+      "base": "My mum goes to work.",
+      "steps": [
+        { "askVi": "Bằng phương tiện gì?", "ask": "How?", "add": "by bus" },
+        { "askVi": "Mất bao lâu?", "ask": "How long does it take?", "add": "and it takes her thirty minutes" }
+      ],
+      "full": "My mum goes to work by bus, and it takes her thirty minutes."
+    },
+    {
+      "id": "x06",
+      "base": "Pedestrians should walk.",
+      "steps": [
+        { "askVi": "Đi ở đâu?", "ask": "Where?", "add": "on the pavement" },
+        { "askVi": "Qua đường ở đâu?", "ask": "Where should they cross?", "add": "and cross the road at the zebra crossing" }
+      ],
+      "full": "Pedestrians should walk on the pavement and cross the road at the zebra crossing."
     }
   ],
   "variations": [
@@ -267,6 +304,45 @@
       ],
       "keywords": ["pedestrian", "zebra crossing", "safety", "dangerous"],
       "exampleAnswer": "Pedestrians should use the zebra crossing because drivers can see them and stop. It's safer.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Giao thông ở nơi em sống",
+      "questions": [
+        "What is the traffic like in your town?",
+        "Are the roads near your home busy or quiet?",
+        "Tell me about the traffic in your neighbourhood.",
+        "What traffic problems does your area have?"
+      ],
+      "keywords": ["crowded", "rush hour", "narrow", "traffic jam"],
+      "exampleAnswer": "The traffic in my town is quite heavy. The roads are narrow, and they get very crowded at rush hour.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Biển báo giao thông em thường thấy",
+      "questions": [
+        "What road signs do you see on your way to school?",
+        "Which traffic signs are near your school?",
+        "Tell me about a road sign you often see.",
+        "What does the road sign near your house mean?"
+      ],
+      "keywords": ["road sign", "no cycling", "traffic lights", "school ahead"],
+      "exampleAnswer": "On my way to school, I see traffic lights and a 'School ahead' sign. The sign tells drivers to go slowly.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Phương tiện em chọn cho chuyến đi xa",
+      "questions": [
+        "How do you like to travel on long journeys?",
+        "Do you prefer travelling by train, by coach or by plane?",
+        "What is the best way to travel to another city?",
+        "Which means of transport do you choose for a long trip, and why?"
+      ],
+      "keywords": ["by train", "by plane", "comfortable", "because"],
+      "exampleAnswer": "I prefer travelling by train because it is comfortable and I can look out of the window. A plane is faster but more expensive.",
       "expectsReason": true
     }
   ],
@@ -380,6 +456,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["traffic jam", "park", "should", "because", "pedestrians"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Phỏng vấn bạn về cách đi học",
+      "contextVi": "Lớp em làm khảo sát về phương tiện đi học. Em phỏng vấn một bạn cùng lớp và ghi lại câu trả lời.",
+      "aiRole": "Phong, a classmate",
+      "studentRoleVi": "Người phỏng vấn cho bài khảo sát của lớp",
+      "goalVi": "Hỏi bạn đi học bằng gì, nhà cách trường bao xa, mất bao lâu và bạn có thích cách đi đó không.",
+      "goal": "Ask Phong how he goes to school, how far it is, how long it takes, and whether he likes it.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất hai mẫu câu hỏi của bài", "words": ["How do you", "How far", "How long does it take"] },
+        { "kind": "keyword", "vi": "Dùng từ chỉ phương tiện", "words": ["by bike", "by bus", "on foot", "by motorbike"] }
+      ],
+      "opener": "Hi! I heard you're doing a survey. What do you want to ask me?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "I usually go to school by bike.",
+        "It's about three kilometres from my house.",
+        "About fifteen minutes. And yes, I like it because it's good exercise."
+      ],
+      "tipsVi": ["Hỏi: How do you get to school? How far is it? How long does it take you?", "Kết thúc: Thanks for your help!"],
+      "keywords": ["How far", "How long", "by bike", "kilometres"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Rủ bạn đạp xe quanh hồ",
+      "contextVi": "Chủ nhật này trời đẹp. Em gọi điện rủ bạn đạp xe quanh hồ gần nhà và nhắc bạn về an toàn.",
+      "aiRole": "Mark, your friend from school",
+      "studentRoleVi": "Bạn rủ Mark đi đạp xe",
+      "goalVi": "Rủ Mark đi đạp xe, hẹn giờ và địa điểm, nhắc bạn một điều để đi an toàn.",
+      "goal": "Invite Mark to go cycling, agree on a time and place, and remind him of one safety rule.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Rủ bạn (How about...?, Let's...)", "words": [] },
+        { "kind": "keyword", "vi": "Nhắc một quy tắc an toàn", "words": ["helmet", "cycle lane", "careful", "signal"] }
+      ],
+      "opener": "Hello? Oh, hi! What's up?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Sounds great! What time should we meet?",
+        "OK. Where should we meet?",
+        "Is there anything I should bring?"
+      ],
+      "tipsVi": ["Rủ: How about going cycling round the lake?", "Nhắc: Remember to wear your helmet."],
+      "keywords": ["How about", "helmet", "See you then"]
     }
   ]
 }

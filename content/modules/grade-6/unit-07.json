@@ -25,7 +25,17 @@
     { "id": "v17", "en": "TV guide", "vi": "chương trình TV", "ipa": "/ˌtiːˈviː ɡaɪd/", "ipaFrom": "glossary", "pos": "n", "example": "Let's look at the TV guide to see what's on tonight.", "collocations": ["read the TV guide"], "synonyms": ["TV schedule"], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
     { "id": "v18", "en": "popular", "vi": "được ưa chuộng, phổ biến", "ipa": "/ˈpɒpjələ/", "ipaFrom": "dictionary", "pos": "adj", "example": "This is the most popular channel for children.", "collocations": ["a popular programme", "very popular"], "synonyms": ["famous"], "antonyms": ["unpopular"], "src": { "kind": "sgk", "page": 8 } },
     { "id": "v19", "en": "boring", "vi": "chán, tẻ nhạt", "ipa": "/ˈbɔːrɪŋ/", "ipaFrom": "dictionary", "pos": "adj", "example": "The film was boring, so I turned off the TV.", "collocations": ["a boring film", "really boring"], "synonyms": [], "antonyms": ["interesting", "exciting"], "src": { "kind": "sgk", "page": 8 } },
-    { "id": "v20", "en": "game show", "vi": "trò chơi truyền hình", "ipa": "/ˈɡeɪm ʃəʊ/", "ipaFrom": "dictionary", "pos": "n", "example": "My parents enjoy the game show on Saturday evening.", "collocations": ["watch a game show", "a popular game show"], "synonyms": ["quiz show"], "antonyms": [], "src": { "kind": "sgk", "page": 8 } }
+    { "id": "v20", "en": "game show", "vi": "trò chơi truyền hình", "ipa": "/ˈɡeɪm ʃəʊ/", "ipaFrom": "dictionary", "pos": "n", "example": "My parents enjoy the game show on Saturday evening.", "collocations": ["watch a game show", "a popular game show"], "synonyms": ["quiz show"], "antonyms": [], "src": { "kind": "sgk", "page": 8 } },
+    { "id": "v21", "en": "dolphin", "vi": "cá heo", "ipa": "/ˈdɒlfɪn/", "ipaFrom": "glossary", "pos": "n", "example": "I watched a programme about clever dolphins in the sea.", "collocations": ["a clever dolphin"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v22", "en": "film", "vi": "bộ phim", "ipa": "/fɪlm/", "ipaFrom": "dictionary", "pos": "n", "example": "We watch a film together every Saturday evening.", "collocations": ["watch a film", "animated film"], "synonyms": ["movie"], "antonyms": [], "src": { "kind": "sgk", "page": 6 } },
+    { "id": "v23", "en": "interesting", "vi": "thú vị", "ipa": "/ˈɪntrəstɪŋ/", "ipaFrom": "dictionary", "pos": "adj", "example": "The talent show is very interesting, so I never miss it.", "collocations": ["an interesting programme"], "synonyms": [], "antonyms": ["boring"], "src": { "kind": "sgk", "page": 6 } },
+    { "id": "v24", "en": "wonderful", "vi": "tuyệt vời", "ipa": "/ˈwʌndəfl/", "ipaFrom": "dictionary", "pos": "adj", "example": "The singers in the final were wonderful.", "collocations": ["a wonderful film"], "synonyms": ["fantastic"], "antonyms": ["terrible"], "src": { "kind": "sgk", "page": 6 } },
+    { "id": "v25", "en": "sports programme", "vi": "chương trình thể thao", "ipa": "/ˈspɔːts ˌprəʊɡræm/", "ipaFrom": "dictionary", "pos": "n", "example": "My dad watches sports programmes every weekend.", "collocations": ["watch sports programmes"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 7 } },
+    { "id": "v26", "en": "performer", "vi": "người biểu diễn", "ipa": "/pəˈfɔːmə/", "ipaFrom": "dictionary", "pos": "n", "example": "The youngest performer on the show is only eight.", "collocations": ["a young performer", "the best performer"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 8 } },
+    { "id": "v27", "en": "laugh", "vi": "cười (thành tiếng)", "ipa": "/lɑːf/", "ipaFrom": "dictionary", "pos": "v", "example": "Comedies make us laugh a lot.", "collocations": ["laugh a lot", "make someone laugh"], "synonyms": [], "antonyms": ["cry"], "src": { "kind": "sgk", "page": 8 } },
+    { "id": "v28", "en": "weather forecast", "vi": "bản tin dự báo thời tiết", "ipa": "/ˈweðə ˌfɔːkɑːst/", "ipaFrom": "dictionary", "pos": "n", "example": "My mum watches the weather forecast before she goes to bed.", "collocations": ["watch the weather forecast"], "synonyms": [], "antonyms": [], "src": { "kind": "team", "page": null } },
+    { "id": "v29", "en": "news", "vi": "tin tức, chương trình thời sự", "ipa": "/njuːz/", "ipaFrom": "dictionary", "pos": "n", "example": "My grandpa watches the news at seven every evening.", "collocations": ["watch the news", "the evening news"], "synonyms": [], "antonyms": [], "src": { "kind": "team", "page": null } },
+    { "id": "v30", "en": "remote control", "vi": "cái điều khiển từ xa", "ipa": "/rɪˌməʊt kənˈtrəʊl/", "ipaFrom": "dictionary", "pos": "n", "example": "Can you pass me the remote control? I want to change the channel.", "collocations": ["use the remote control"], "synonyms": [], "antonyms": [], "src": { "kind": "team", "page": null } }
   ],
   "grammar": [
     {
@@ -136,7 +146,15 @@
     { "id": "e06", "en": "I prefer ... to ...", "vi": "Mình thích ... hơn ...", "useVi": "Khi so sánh và chọn loại chương trình mình thích hơn.", "example": "I prefer comedies to game shows.", "src": { "kind": "team", "page": null } },
     { "id": "e07", "en": "How about watching ...?", "vi": "Hay là mình xem ... nhé?", "useVi": "Khi gợi ý cùng xem một chương trình.", "example": "How about watching the animal programme on VTV7?", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "I don't really like ... because ...", "vi": "Mình không thích ... lắm vì ...", "useVi": "Khi nói lịch sự rằng mình không thích một chương trình và nêu lý do.", "example": "I don't really like the news because it's a bit boring for me.", "src": { "kind": "team", "page": null } },
-    { "id": "e09", "en": "That's a good point, but ...", "vi": "Ý đó hay đấy, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự nêu ý của mình.", "example": "That's a good point, but some programmes are really educational.", "src": { "kind": "team", "page": null } }
+    { "id": "e09", "en": "That's a good point, but ...", "vi": "Ý đó hay đấy, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự nêu ý của mình.", "example": "That's a good point, but some programmes are really educational.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "What are you watching?", "vi": "Bạn đang xem gì thế?", "useVi": "Khi hỏi người khác đang xem chương trình gì.", "example": "What are you watching? – A cartoon about a clever cat.", "src": { "kind": "sgk", "page": 6 } },
+    { "id": "e11", "en": "What programme do you often watch?", "vi": "Bạn hay xem chương trình nào?", "useVi": "Khi hỏi về thói quen xem TV của ai đó.", "example": "What programme do you often watch after dinner?", "src": { "kind": "sgk", "page": 6 } },
+    { "id": "e12", "en": "Do you know any ...?", "vi": "Bạn có biết ... nào không?", "useVi": "Khi nhờ người khác giới thiệu chương trình, kênh TV.", "example": "Do you know any good programmes about animals?", "src": { "kind": "sgk", "page": 6 } },
+    { "id": "e13", "en": "I'll watch it, too.", "vi": "Mình cũng sẽ xem nó.", "useVi": "Khi muốn nói mình sẽ thử xem chương trình bạn vừa giới thiệu.", "example": "That channel sounds great. I'll watch it, too.", "src": { "kind": "sgk", "page": 6 } },
+    { "id": "e14", "en": "Which channel is it on?", "vi": "Nó chiếu trên kênh nào?", "useVi": "Khi hỏi chương trình được phát trên kênh nào.", "example": "The animal programme? Which channel is it on?", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "How long is it?", "vi": "Nó dài bao lâu?", "useVi": "Khi hỏi thời lượng của một chương trình hay bộ phim.", "example": "How long is it? – About forty-five minutes.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "Can you turn the volume down, please?", "vi": "Bạn vặn nhỏ tiếng giúp mình được không?", "useVi": "Khi lịch sự nhờ người khác giảm âm lượng TV.", "example": "I'm doing my homework. Can you turn the volume down, please?", "src": { "kind": "team", "page": null } },
+    { "id": "e17", "en": "I like ..., but my ... prefers ...", "vi": "Mình thích ..., nhưng ... của mình lại thích ... hơn.", "useVi": "Khi so sánh sở thích xem TV của mình với người khác.", "example": "I like game shows, but my sister prefers cartoons.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["What time", "does the cartoon", "start", "on Sunday?"], "vi": "Phim hoạt hình bắt đầu lúc mấy giờ vào Chủ nhật?", "grammarId": "g01" },
@@ -146,7 +164,9 @@
     { "id": "b05", "chunks": ["My favourite character", "is a clever fox", "in a funny cartoon"], "vi": "Nhân vật mình thích nhất là một chú cáo thông minh trong một phim hoạt hình vui nhộn.", "grammarId": null },
     { "id": "b06", "chunks": ["We watched the match", "live on TV,", "and our team", "won"], "vi": "Chúng mình xem trực tiếp trận đấu trên TV, và đội mình đã thắng.", "grammarId": "g02" },
     { "id": "b07", "chunks": ["Which channel", "is the animal programme", "on?"], "vi": "Chương trình về động vật chiếu trên kênh nào?", "grammarId": "g01" },
-    { "id": "b08", "chunks": ["This channel has", "a lot of viewers", "because its programmes", "are popular"], "vi": "Kênh này có nhiều người xem vì các chương trình của nó được yêu thích.", "grammarId": null }
+    { "id": "b08", "chunks": ["This channel has", "a lot of viewers", "because its programmes", "are popular"], "vi": "Kênh này có nhiều người xem vì các chương trình của nó được yêu thích.", "grammarId": null },
+    { "id": "b09", "chunks": ["When", "does the news", "start", "on VTV1?"], "vi": "Chương trình thời sự trên VTV1 bắt đầu lúc nào?", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["The film is long,", "but", "it is very interesting"], "vi": "Bộ phim dài nhưng rất thú vị.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -186,6 +206,25 @@
         { "askVi": "Sau đó làm gì?", "ask": "And then?", "add": "and then we have dinner" }
       ],
       "full": "We watch the news in the living room, and then we have dinner."
+    },
+    {
+      "id": "x05",
+      "base": "I watch the news.",
+      "steps": [
+        { "askVi": "Với ai?", "ask": "Who with?", "add": "with my parents" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every evening" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because I want to know what's happening" }
+      ],
+      "full": "I watch the news with my parents every evening because I want to know what's happening."
+    },
+    {
+      "id": "x06",
+      "base": "This cartoon is funny.",
+      "steps": [
+        { "askVi": "Nhân vật thế nào?", "ask": "What are the characters like?", "add": "and the characters are cute" },
+        { "askVi": "Vì vậy thì sao?", "ask": "So what?", "add": "so my little sister watches it every day" }
+      ],
+      "full": "This cartoon is funny and the characters are cute, so my little sister watches it every day."
     }
   ],
   "variations": [
@@ -247,6 +286,45 @@
       ],
       "keywords": ["too much", "eyes", "sleep", "so"],
       "exampleAnswer": "If we watch TV for too long, our eyes get tired and we don't sleep well, so we should stop after one hour.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Một nhân vật hoạt hình hoặc phim em thích",
+      "questions": [
+        "Who is your favourite cartoon character? What is he or she like?",
+        "Tell me about a character you love in a TV programme.",
+        "Which film character do you like, and what does he or she do?",
+        "Describe a funny character from a cartoon you watch."
+      ],
+      "keywords": ["character", "clever", "funny", "cartoon"],
+      "exampleAnswer": "My favourite character is Doraemon. He is a clever robot cat, and he always helps his friend Nobita.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Một chương trình em không thích và lý do",
+      "questions": [
+        "Which TV programme don't you like? Why?",
+        "What kind of programme do you never watch, and why?",
+        "Is there a programme on TV that you find boring? Why?",
+        "What programme does your family watch that you don't enjoy? Why?"
+      ],
+      "keywords": ["boring", "don't like", "because", "but"],
+      "exampleAnswer": "I don't like the news because it is long and a bit boring for me, but my dad watches it every evening.",
+      "expectsReason": true
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Xem TV cùng gia đình",
+      "questions": [
+        "Do you enjoy watching TV with your family? Why or why not?",
+        "Is watching TV with your family fun? Why?",
+        "Why do some families watch TV together in the evening?",
+        "Do you prefer watching TV alone or with your family? Why?"
+      ],
+      "keywords": ["together", "family", "talk", "because"],
+      "exampleAnswer": "Yes, I do. We watch game shows together after dinner, so we can laugh and talk about the programme.",
       "expectsReason": true
     }
   ],
@@ -359,6 +437,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["programme", "channel", "learn", "because"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Xem lịch phát sóng cùng bạn",
+      "contextVi": "Một bạn đến ngủ lại nhà em tối thứ Bảy. Hai bạn xem lịch phát sóng (TV guide) để chọn chương trình. Bạn hỏi, em trả lời thông tin về các chương trình.",
+      "aiRole": "Tom, a friend who is staying at your house tonight",
+      "studentRoleVi": "Chủ nhà giới thiệu các chương trình tối nay",
+      "goalVi": "Cho bạn biết tối nay có chương trình gì, chiếu lúc mấy giờ, trên kênh nào, và chọn một chương trình xem cùng.",
+      "goal": "Tell Tom what's on tonight, what time and on which channel, and choose a programme to watch together.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất hai từ về TV", "words": ["channel", "programme", "cartoon", "comedy", "game show", "TV guide"] },
+        { "kind": "keyword", "vi": "Nói giờ chiếu", "words": ["It's on at", "o'clock", "half past"] }
+      ],
+      "opener": "I'm bored. What's on TV tonight? Can you look at the TV guide?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Hmm, what time is it on?",
+        "And which channel is it on?",
+        "Great! Let's make some popcorn and watch it together."
+      ],
+      "tipsVi": ["Trả lời đủ ba ý: tên chương trình, giờ chiếu, kênh.", "Dùng \"It's on at ... on ...\"."],
+      "keywords": ["What's on", "channel", "It's on at", "programme", "Let's watch"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Thử thách một tuần không TV",
+      "contextVi": "Lớp em tham gia thử thách \"Một tuần không TV\". Một bạn cùng lớp nghĩ đây là ý tưởng tồi. Em giải thích vì sao nên thử và có thể làm gì thay vì xem TV.",
+      "aiRole": "Duc, a classmate who watches TV every evening",
+      "studentRoleVi": "Học sinh ủng hộ thử thách một tuần không TV",
+      "goalVi": "Nêu lý do nên thử thách, đưa ví dụ việc làm thay thế, và trả lời khi Duc phản đối.",
+      "goal": "Give reasons to join the 'No TV Week' challenge, give examples of other activities, and answer Duc's objection.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu ít nhất hai lý do", "words": [] },
+        { "kind": "example", "vi": "Đưa ví dụ về việc làm thay cho xem TV", "words": [] },
+        { "kind": "keyword", "vi": "Dùng liên từ and, but, so", "words": ["and", "but", "so"] }
+      ],
+      "opener": "Do you know about the No TV Week? I think it's a crazy idea.",
+      "stance": "A week without TV is boring. TV is the best way to relax after school.",
+      "turns": 5,
+      "fallback": [
+        "Really? Why do you want to try it?",
+        "But a week without TV is boring. TV is the best way to relax after school.",
+        "Hmm. So what can I do in the evening without TV?",
+        "OK, maybe I'll try it for one week."
+      ],
+      "tipsVi": ["Dùng so để nói kết quả: I don't watch TV, so I have more time to read.", "Khi Duc phản đối, nói \"That's a good point, but...\""],
+      "keywords": ["but", "so", "read", "play sports", "relax"]
     }
   ]
 }

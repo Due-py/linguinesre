@@ -25,7 +25,17 @@
     { "id": "v17", "en": "complex", "vi": "phức tạp", "ipa": "/ˈkɒmpleks/", "ipaFrom": "glossary", "pos": "adj", "example": "Some online courses explain complex ideas very simply.", "collocations": ["complex problems", "complex skills"], "synonyms": ["complicated"], "antonyms": ["simple"], "src": { "kind": "sgk", "page": 155 } },
     { "id": "v18", "en": "wonder", "vi": "thắc mắc, băn khoăn", "ipa": "/ˈwʌndə/", "ipaFrom": "glossary", "pos": "v", "example": "I often wonder how planes stay in the air.", "collocations": ["wonder why", "wonder how"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 155 } },
     { "id": "v19", "en": "martial art", "vi": "võ thuật", "ipa": "/ˌmɑːʃl ˈɑːt/", "ipaFrom": "glossary", "pos": "n", "example": "My dad started learning a martial art at the age of 40.", "collocations": ["learn a martial art", "practise martial arts"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 155 } },
-    { "id": "v20", "en": "self-motivated", "vi": "tự tạo động lực", "ipa": "/ˌself ˈməʊtɪveɪtɪd/", "ipaFrom": "dictionary", "pos": "adj", "example": "Lifelong learners are self-motivated and curious.", "collocations": ["self-motivated learning", "a self-motivated learner"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } }
+    { "id": "v20", "en": "self-motivated", "vi": "tự tạo động lực", "ipa": "/ˌself ˈməʊtɪveɪtɪd/", "ipaFrom": "dictionary", "pos": "adj", "example": "Lifelong learners are self-motivated and curious.", "collocations": ["self-motivated learning", "a self-motivated learner"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v21", "en": "learning community", "vi": "cộng đồng học tập", "ipa": "/ˈlɜːnɪŋ kəˌmjuːnəti/", "ipaFrom": "glossary", "pos": "np", "example": "Our town library has become a learning community for people of all ages.", "collocations": ["join a learning community", "build a learning community"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 155 } },
+    { "id": "v22", "en": "psychology", "vi": "ngành tâm lí học", "ipa": "/saɪˈkɒlədʒi/", "ipaFrom": "glossary", "pos": "n", "example": "My mum took an online course in child psychology.", "collocations": ["study psychology", "child psychology"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 155 } },
+    { "id": "v23", "en": "vocational school", "vi": "trường dạy nghề", "ipa": "/vəʊˈkeɪʃənl skuːl/", "ipaFrom": "dictionary", "pos": "n", "example": "My cousin went to a vocational school to train as a chef.", "collocations": ["attend a vocational school"], "synonyms": ["trade school"], "antonyms": [], "src": { "kind": "sgk", "page": 132 } },
+    { "id": "v24", "en": "knowledge", "vi": "kiến thức, hiểu biết", "ipa": "/ˈnɒlɪdʒ/", "ipaFrom": "dictionary", "pos": "n", "example": "Reading every day helps me gain knowledge about many topics.", "collocations": ["gain knowledge", "general knowledge"], "synonyms": [], "antonyms": ["ignorance"], "src": { "kind": "sgk", "page": 132 } },
+    { "id": "v25", "en": "role model", "vi": "tấm gương, hình mẫu", "ipa": "/ˈrəʊl ˌmɒdl/", "ipaFrom": "dictionary", "pos": "n", "example": "My grandfather, who started learning English at 60, is my role model.", "collocations": ["a great role model", "a role model for"], "synonyms": ["example"], "antonyms": [], "src": { "kind": "sgk", "page": 132 } },
+    { "id": "v26", "en": "enrol", "vi": "đăng kí (khoá học)", "ipa": "/ɪnˈrəʊl/", "ipaFrom": "dictionary", "pos": "v", "example": "My dad enrolled on an evening course to learn accounting.", "collocations": ["enrol on a course", "enrol in a class"], "synonyms": ["sign up", "register"], "antonyms": [], "src": { "kind": "sgk", "page": 132 } },
+    { "id": "v27", "en": "graduation", "vi": "sự tốt nghiệp", "ipa": "/ˌɡrædʒuˈeɪʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "Learning does not stop after graduation.", "collocations": ["after graduation", "graduation ceremony"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 132 } },
+    { "id": "v28", "en": "motivated", "vi": "có động lực", "ipa": "/ˈməʊtɪveɪtɪd/", "ipaFrom": "dictionary", "pos": "adj", "example": "She stays motivated by setting small goals every week.", "collocations": ["stay motivated", "highly motivated"], "synonyms": ["keen", "driven"], "antonyms": ["unmotivated"], "src": { "kind": "sgk", "page": 132 } },
+    { "id": "v29", "en": "attitude", "vi": "thái độ", "ipa": "/ˈætɪtjuːd/", "ipaFrom": "dictionary", "pos": "n", "example": "A positive attitude makes learning new things much easier.", "collocations": ["a positive attitude", "attitude to learning"], "synonyms": ["mindset"], "antonyms": [], "src": { "kind": "sgk", "page": 132 } },
+    { "id": "v30", "en": "workplace", "vi": "nơi làm việc", "ipa": "/ˈwɜːkpleɪs/", "ipaFrom": "dictionary", "pos": "n", "example": "Workers need new skills because the workplace keeps changing.", "collocations": ["the modern workplace", "in the workplace"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 132 } }
   ],
   "grammar": [
     {
@@ -114,6 +124,19 @@
         { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["distraction", "broaden", "hardship"], "answer": 0, "explainVi": "distraction /dɪˈstrækʃn/ nhấn âm thứ hai." }
       ],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "ending",
+      "focus": "Đuôi -ed của động từ tường thuật: /t/, /d/, /ɪd/",
+      "tipVi": "Các động từ dùng trong câu tường thuật thường ở quá khứ. Đọc /ɪd/ sau âm /t/, /d/ (reminded); đọc /t/ sau âm vô thanh /p, k, s, ʃ, tʃ, f/ (asked, promised); đọc /d/ trong các trường hợp còn lại (advised, offered, encouraged, ordered, agreed).",
+      "words": ["asked", "promised", "reminded", "advised", "offered", "encouraged", "ordered", "agreed"],
+      "sentence": "My teacher reminded me to revise and encouraged me to keep reading.",
+      "quiz": [
+        { "prompt": "Which -ed ending is pronounced /ɪd/?", "options": ["reminded", "asked", "advised"], "answer": 0, "explainVi": "remind kết thúc bằng âm /d/ nên -ed đọc /ɪd/; asked đọc /t/, advised đọc /d/." },
+        { "prompt": "Which -ed ending is pronounced /t/?", "options": ["asked", "offered", "agreed"], "answer": 0, "explainVi": "ask kết thúc bằng âm vô thanh /k/ nên -ed đọc /t/; offered và agreed đọc /d/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -127,7 +150,13 @@
     { "id": "e08", "en": "Thank you for inviting me to ...", "vi": "Cảm ơn bạn đã mời mình ...", "useVi": "Khi cảm ơn ai đó đã mời mình tham gia.", "example": "Thank you for inviting me to the coding club.", "src": { "kind": "sgk", "page": 136 } },
     { "id": "e09", "en": "My teacher advised me to ...", "vi": "Thầy/cô khuyên mình nên ...", "useVi": "Khi thuật lại một lời khuyên mình đã nhận.", "example": "My teacher advised me to read English news every day.", "src": { "kind": "team", "page": null } },
     { "id": "e10", "en": "It's never too late to ...", "vi": "Không bao giờ là quá muộn để ...", "useVi": "Khi động viên ai đó bắt đầu học điều mới.", "example": "It's never too late to learn a new language.", "src": { "kind": "team", "page": null } },
-    { "id": "e11", "en": "I'd like to learn ... because ...", "vi": "Mình muốn học ... vì ...", "useVi": "Khi nói về kỹ năng mình muốn học và lý do.", "example": "I'd like to learn photography because I love travelling.", "src": { "kind": "team", "page": null } }
+    { "id": "e11", "en": "I'd like to learn ... because ...", "vi": "Mình muốn học ... vì ...", "useVi": "Khi nói về kỹ năng mình muốn học và lý do.", "example": "I'd like to learn photography because I love travelling.", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "Thank you so much for helping me with ...", "vi": "Cảm ơn bạn rất nhiều vì đã giúp mình ...", "useVi": "Khi cảm ơn ai đó vì một việc cụ thể.", "example": "Thank you so much for helping me with my speaking practice.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "You're welcome. Any time!", "vi": "Không có gì. Lúc nào cũng sẵn lòng!", "useVi": "Khi đáp lại lời cảm ơn một cách thân thiện.", "example": "You're welcome. Any time! Just call me if you need help again.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "I'm thinking of signing up for ...", "vi": "Mình đang định đăng kí ...", "useVi": "Khi nói về dự định tham gia một khoá học.", "example": "I'm thinking of signing up for a weekend photography course.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "Learning ... has helped me ...", "vi": "Việc học ... đã giúp mình ...", "useVi": "Khi nói về lợi ích mà việc học đã mang lại.", "example": "Learning to cook has helped me become more independent.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "... is a great role model for lifelong learning because ...", "vi": "... là tấm gương học tập suốt đời vì ...", "useVi": "Khi giới thiệu một tấm gương học tập và lý do.", "example": "My grandma is a great role model for lifelong learning because she started painting at 70.", "src": { "kind": "team", "page": null } },
+    { "id": "e17", "en": "Keep going! You're doing great.", "vi": "Cố lên! Bạn đang làm rất tốt.", "useVi": "Khi động viên người đang học một điều mới.", "example": "Keep going! You're doing great. Your English is much better now.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["My teacher", "told me", "to read", "for 30 minutes", "every day"], "vi": "Thầy giáo bảo mình đọc sách 30 phút mỗi ngày.", "grammarId": "g01" },
@@ -137,7 +166,9 @@
     { "id": "b05", "chunks": ["Lifelong learning", "helps people", "become", "well-rounded"], "vi": "Học tập suốt đời giúp con người phát triển toàn diện.", "grammarId": null },
     { "id": "b06", "chunks": ["I want to", "brush up on", "my English", "before the summer course"], "vi": "Mình muốn ôn lại tiếng Anh trước khoá học hè.", "grammarId": null },
     { "id": "b07", "chunks": ["Distance learning", "requires", "strong determination", "and self-discipline"], "vi": "Học từ xa đòi hỏi quyết tâm cao và tính tự giác.", "grammarId": null },
-    { "id": "b08", "chunks": ["Our coach", "encouraged us", "to keep practising", "after the match"], "vi": "Huấn luyện viên động viên chúng mình tiếp tục luyện tập sau trận đấu.", "grammarId": "g02" }
+    { "id": "b08", "chunks": ["Our coach", "encouraged us", "to keep practising", "after the match"], "vi": "Huấn luyện viên động viên chúng mình tiếp tục luyện tập sau trận đấu.", "grammarId": "g02" },
+    { "id": "b09", "chunks": ["My grandma", "asked me", "to teach her", "how to send emails"], "vi": "Bà nhờ mình dạy bà cách gửi email.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["The coach", "encouraged us", "not to give up", "after losing the match"], "vi": "Huấn luyện viên động viên chúng mình không bỏ cuộc sau khi thua trận.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -176,6 +207,26 @@
         { "askVi": "Vì sao?", "ask": "Why?", "add": "because it keeps the brain active" }
       ],
       "full": "Learning new things is good for people of all ages because it keeps the brain active."
+    },
+    {
+      "id": "x05",
+      "base": "My uncle enrolled on a course.",
+      "steps": [
+        { "askVi": "Khoá học gì?", "ask": "What course?", "add": "an evening cooking" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last year" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because he wanted to open a small restaurant" }
+      ],
+      "full": "My uncle enrolled on an evening cooking course last year because he wanted to open a small restaurant."
+    },
+    {
+      "id": "x06",
+      "base": "Learning keeps you young.",
+      "steps": [
+        { "askVi": "Học gì?", "ask": "Learning what?", "add": "new skills" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it trains your brain" },
+        { "askVi": "Kể cả khi nào?", "ask": "Even when?", "add": "even when you are over sixty" }
+      ],
+      "full": "Learning new skills keeps you young because it trains your brain, even when you are over sixty."
     }
   ],
   "variations": [
@@ -238,6 +289,45 @@
       "keywords": ["advised me to", "told me to", "encouraged me to", "asked me not to"],
       "exampleAnswer": "My parents advised me to make a study plan, and they told me not to stay up too late before exams.",
       "expectsReason": false
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Khoá học trực tuyến em muốn đăng kí",
+      "questions": [
+        "What online course would you like to take, and why?",
+        "Which online course would be most useful for you?",
+        "Tell me about a course you would like to sign up for.",
+        "What would you like to learn on an online platform?"
+      ],
+      "keywords": ["enrol", "online course", "brush up", "because"],
+      "exampleAnswer": "I'd like to enrol on an online coding course because technology is important in every workplace, and I can study at my own pace.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Mục tiêu học tập của em",
+      "questions": [
+        "What learning goals have you set for this year?",
+        "What do you want to be able to do by the end of the year?",
+        "Which skill are you planning to improve in the next few months?",
+        "How do you keep track of your learning goals?"
+      ],
+      "keywords": ["goal", "improve", "plan", "determination"],
+      "exampleAnswer": "This year I want to speak English more confidently. I plan to practise every day, and my teacher advised me to keep a vocabulary notebook.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Lời khuyên cho học sinh sắp tốt nghiệp",
+      "questions": [
+        "What advice would you give to students who are about to finish school?",
+        "What should school-leavers keep in mind about learning?",
+        "How can students keep learning after graduation?",
+        "Why shouldn't students stop learning after they finish school?"
+      ],
+      "keywords": ["graduation", "keep learning", "skills", "workplace"],
+      "exampleAnswer": "I'd tell them not to stop learning after graduation, because the workplace keeps changing. Reading and taking short courses help them stay up to date.",
+      "expectsReason": true
     }
   ],
   "independent": [
@@ -350,6 +440,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["lifelong learning", "relevant", "boost", "because"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Cảm ơn thầy đã giúp em ôn thi",
+      "contextVi": "Thầy dạy tiếng Anh đã ở lại sau giờ học nhiều tuần để giúp em ôn thi học sinh giỏi. Em vừa nhận được kết quả tốt và đến cảm ơn thầy.",
+      "aiRole": "Mr Nam, your English teacher",
+      "studentRoleVi": "Học sinh cảm ơn thầy giáo",
+      "goalVi": "Cảm ơn thầy bằng ít nhất hai cách, kể lại một lời khuyên của thầy đã giúp em và nói kế hoạch học tiếp theo của em.",
+      "goal": "Thank your teacher in at least two ways, report one piece of advice he gave you, and talk about your plan to keep learning.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất hai cách cảm ơn", "words": ["I can't thank you enough", "I'm really grateful", "I really appreciate"] },
+        { "kind": "example", "vi": "Thuật lại ít nhất một lời khuyên thầy đã cho em (câu tường thuật)", "words": [] }
+      ],
+      "opener": "Oh, hello! I've just heard the good news about your result. Congratulations!",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "You're welcome. You worked very hard. What helped you most?",
+        "I'm glad that helped. Will you keep studying English after the competition?",
+        "That's a great plan. Remember, learning never stops!"
+      ],
+      "tipsVi": ["Cảm ơn: I can't thank you enough for ... / I really appreciate ...", "Thuật lại lời khuyên: You advised me to ... / You told me to ..."],
+      "keywords": ["grateful", "advised me to", "told me to", "lifelong", "keep"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Giới thiệu một tấm gương học tập suốt đời",
+      "contextVi": "Trong buổi sinh hoạt câu lạc bộ Đọc sách, bạn trưởng nhóm muốn mỗi người giới thiệu một tấm gương học tập suốt đời (người thân, thầy cô hoặc người nổi tiếng).",
+      "aiRole": "Thao, the leader of the school reading club",
+      "studentRoleVi": "Thành viên câu lạc bộ giới thiệu tấm gương",
+      "goalVi": "Giới thiệu người đó, kể họ đã học gì và học như thế nào, và nói em học được gì từ họ.",
+      "goal": "Introduce the person, describe what and how they kept learning, and say what you have learnt from them.",
+      "requirements": [
+        { "kind": "example", "vi": "Kể ít nhất hai điều người đó đã học hoặc đã làm", "words": [] },
+        { "kind": "reason", "vi": "Nói vì sao người đó là tấm gương với em", "words": [] }
+      ],
+      "opener": "Today everyone will share a role model for lifelong learning. Who did you choose?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Interesting! What did that person learn, and how?",
+        "Wow. Did they face any hardships while learning?",
+        "What have you learnt from this person?"
+      ],
+      "tipsVi": ["Dùng: ... is a great role model because ...", "Dùng từ: determination, hardship, self-motivated."],
+      "keywords": ["role model", "determination", "hardship", "self-motivated", "because"]
     }
   ]
 }

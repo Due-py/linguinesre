@@ -27,7 +27,17 @@
     { "id": "v19", "en": "disappointment", "vi": "sự thất vọng", "ipa": "/ˌdɪsəˈpɔɪntmənt/", "ipaFrom": "glossary", "pos": "n", "example": "The cancelled parade was a big disappointment for the children.", "collocations": ["a big disappointment"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
     { "id": "v20", "en": "Christmas", "vi": "Lễ Giáng sinh", "ipa": "/ˈkrɪsməs/", "ipaFrom": "dictionary", "pos": "n", "example": "At Christmas, people give presents to each other.", "collocations": ["Christmas tree", "at Christmas"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 94 } },
     { "id": "v21", "en": "Halloween", "vi": "Lễ hội Halloween", "ipa": "/ˌhæləʊˈiːn/", "ipaFrom": "dictionary", "pos": "n", "example": "Some children wear scary costumes at Halloween.", "collocations": ["a Halloween party"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 94 } },
-    { "id": "v22", "en": "lion dance", "vi": "múa lân", "ipa": "/ˈlaɪən dɑːns/", "ipaFrom": "dictionary", "pos": "n", "example": "We watched a lion dance in front of the school.", "collocations": ["perform a lion dance", "watch a lion dance"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 94 } }
+    { "id": "v22", "en": "lion dance", "vi": "múa lân", "ipa": "/ˈlaɪən dɑːns/", "ipaFrom": "dictionary", "pos": "n", "example": "We watched a lion dance in front of the school.", "collocations": ["perform a lion dance", "watch a lion dance"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 94 } },
+    { "id": "v23", "en": "candy", "vi": "kẹo", "ipa": "/ˈkændi/", "ipaFrom": "glossary", "pos": "n", "example": "Children get a lot of candy at Halloween.", "collocations": ["candy apples", "a bag of candy"], "synonyms": ["sweets"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v24", "en": "Dutch", "vi": "thuộc về Hà Lan, người Hà Lan", "ipa": "/dʌtʃ/", "ipaFrom": "glossary", "pos": "adj, n", "example": "We tried some Dutch cheese at the flower festival.", "collocations": ["Dutch food", "Dutch people"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v25", "en": "feature", "vi": "có tiết mục nổi bật, trình diễn đặc biệt", "ipa": "/ˈfiːtʃə/", "ipaFrom": "glossary", "pos": "v", "example": "This year's festival features a big lantern parade.", "collocations": ["feature a parade", "feature a show"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v26", "en": "tulip", "vi": "hoa tulip, hoa uất kim hương", "ipa": "/ˈtjuːlɪp/", "ipaFrom": "dictionary", "pos": "n", "example": "There are millions of colourful tulips at the festival.", "collocations": ["a tulip festival", "tulip fields"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 92 } },
+    { "id": "v27", "en": "moon cake", "vi": "bánh trung thu", "ipa": "/ˈmuːn keɪk/", "ipaFrom": "dictionary", "pos": "n", "example": "My grandma makes moon cakes with lotus seeds.", "collocations": ["eat moon cakes", "make moon cakes"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 93 } },
+    { "id": "v28", "en": "turkey", "vi": "gà tây", "ipa": "/ˈtɜːki/", "ipaFrom": "dictionary", "pos": "n", "example": "American families often cook a big turkey for Thanksgiving.", "collocations": ["roast turkey"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 94 } },
+    { "id": "v29", "en": "pumpkin", "vi": "quả bí ngô", "ipa": "/ˈpʌmpkɪn/", "ipaFrom": "dictionary", "pos": "n", "example": "We carved a funny face on a pumpkin for Halloween.", "collocations": ["carve a pumpkin", "pumpkin soup"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 94 } },
+    { "id": "v30", "en": "gathering", "vi": "cuộc tụ họp", "ipa": "/ˈɡæðərɪŋ/", "ipaFrom": "dictionary", "pos": "n", "example": "Tet is a time for family gatherings.", "collocations": ["a family gathering"], "synonyms": ["meeting"], "antonyms": [], "src": { "kind": "sgk", "page": 98 } },
+    { "id": "v31", "en": "crop", "vi": "vụ mùa", "ipa": "/krɒp/", "ipaFrom": "dictionary", "pos": "n", "example": "Farmers in my village hope for a good rice crop this year.", "collocations": ["a good crop", "a new crop"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 98 } },
+    { "id": "v32", "en": "New Year's Eve", "vi": "đêm Giao thừa", "ipa": "/ˌnjuː jɪəz ˈiːv/", "ipaFrom": "dictionary", "pos": "n", "example": "We stayed up late to watch fireworks on New Year's Eve.", "collocations": ["on New Year's Eve"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 93 } }
   ],
   "grammar": [
     {
@@ -115,6 +125,19 @@
       "sentence": "Did you watch the lantern parade last night?",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "ending",
+      "focus": "Đuôi -ed: /t/, /d/, /ɪd/",
+      "tipVi": "Khi kể về lễ hội đã qua, ta dùng động từ có đuôi -ed. Đọc /ɪd/ sau âm /t/, /d/ (decorated, celebrated); đọc /t/ sau âm vô thanh như /k/, /tʃ/ (liked, watched); đọc /d/ sau các âm còn lại (carved, enjoyed).",
+      "words": ["decorated", "celebrated", "watched", "liked", "carved", "enjoyed"],
+      "sentence": "We decorated the house and watched the fireworks.",
+      "quiz": [
+        { "prompt": "Which word ends with the sound /ɪd/?", "options": ["watched", "decorated", "enjoyed"], "answer": 1, "explainVi": "decorate tận cùng bằng âm /t/ nên decorated đọc đuôi /ɪd/." },
+        { "prompt": "How do you say the -ed in \"carved\"?", "options": ["/t/", "/d/", "/ɪd/"], "answer": 1, "explainVi": "carve tận cùng bằng âm hữu thanh /v/ nên -ed đọc /d/: /kɑːvd/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -127,7 +150,13 @@
     { "id": "e07", "en": "I took part in ...", "vi": "Mình đã tham gia ...", "useVi": "Khi kể về hoạt động em đã tham gia.", "example": "I took part in a folk game at the village festival.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "My favourite part was ...", "vi": "Phần mình thích nhất là ...", "useVi": "Khi nói hoạt động em thích nhất ở lễ hội.", "example": "My favourite part was the fireworks display.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "People celebrate it by ...", "vi": "Mọi người đón lễ bằng cách ...", "useVi": "Khi giải thích người ta làm gì vào dịp lễ hội.", "example": "People celebrate it by eating moon cakes and carrying lanterns.", "src": { "kind": "team", "page": null } },
-    { "id": "e10", "en": "What a pity!", "vi": "Tiếc quá!", "useVi": "Khi đáp lại người kể về một chuyện đáng thất vọng.", "example": "The parade was cancelled? What a pity!", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "What a pity!", "vi": "Tiếc quá!", "useVi": "Khi đáp lại người kể về một chuyện đáng thất vọng.", "example": "The parade was cancelled? What a pity!", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "What festival did you join?", "vi": "Bạn đã tham gia lễ hội nào?", "useVi": "Khi hỏi ai đó về lễ hội họ đã đi.", "example": "What festival did you join last spring?", "src": { "kind": "sgk", "page": 98 } },
+    { "id": "e12", "en": "Where and when did you join it?", "vi": "Bạn tham gia nó ở đâu và khi nào?", "useVi": "Khi hỏi thêm thời gian, địa điểm của lễ hội.", "example": "The kite festival? Where and when did you join it?", "src": { "kind": "sgk", "page": 98 } },
+    { "id": "e13", "en": "Why do people celebrate it?", "vi": "Vì sao người ta tổ chức lễ hội đó?", "useVi": "Khi hỏi ý nghĩa của một lễ hội.", "example": "Why do people celebrate the Mid-Autumn Festival?", "src": { "kind": "sgk", "page": 98 } },
+    { "id": "e14", "en": "Did you like the festival? Why or why not?", "vi": "Bạn có thích lễ hội không? Vì sao?", "useVi": "Khi hỏi cảm nhận và lý do.", "example": "Did you like the kite festival? Why or why not?", "src": { "kind": "sgk", "page": 98 } },
+    { "id": "e15", "en": "Yes, very much because ...", "vi": "Có, rất thích vì ...", "useVi": "Khi trả lời mình rất thích và nêu lý do.", "example": "Yes, very much because the music was great.", "src": { "kind": "sgk", "page": 98 } },
+    { "id": "e16", "en": "I also got a chance to ...", "vi": "Mình còn có dịp ...", "useVi": "Khi kể thêm một điều thú vị đã làm.", "example": "I also got a chance to try some local food.", "src": { "kind": "sgk", "page": 92 } }
   ],
   "build": [
     { "id": "b01", "chunks": ["Did you watch", "the fireworks display", "last night?"], "vi": "Tối qua bạn có xem bắn pháo hoa không?", "grammarId": "g01" },
@@ -137,7 +166,9 @@
     { "id": "b05", "chunks": ["We decorate", "our house", "with flowers", "before Tet"], "vi": "Nhà mình trang trí nhà cửa bằng hoa trước Tết.", "grammarId": null },
     { "id": "b06", "chunks": ["Can we", "join the parade", "this weekend?"], "vi": "Cuối tuần này chúng mình có thể tham gia cuộc diễu hành không?", "grammarId": "g01" },
     { "id": "b07", "chunks": ["The music festival", "was disappointing", "because the band", "was late"], "vi": "Lễ hội âm nhạc thật đáng thất vọng vì ban nhạc đến muộn.", "grammarId": null },
-    { "id": "b08", "chunks": ["Is the festival", "popular", "with young people?"], "vi": "Lễ hội đó có được giới trẻ yêu thích không?", "grammarId": "g01" }
+    { "id": "b08", "chunks": ["Is the festival", "popular", "with young people?"], "vi": "Lễ hội đó có được giới trẻ yêu thích không?", "grammarId": "g01" },
+    { "id": "b09", "chunks": ["People carve pumpkins", "and eat candy apples", "at Halloween"], "vi": "Người ta khắc bí ngô và ăn táo kẹo vào dịp Halloween.", "grammarId": null },
+    { "id": "b10", "chunks": ["Did your family", "have a big feast", "on New Year's Eve?"], "vi": "Gia đình bạn có ăn một bữa tiệc lớn vào đêm Giao thừa không?", "grammarId": "g01" }
   ],
   "expand": [
     {
@@ -176,6 +207,26 @@
         { "askVi": "Khi nào?", "ask": "When?", "add": "before Tet" }
       ],
       "full": "People decorate their houses with peach blossoms and kumquat trees before Tet."
+    },
+    {
+      "id": "x05",
+      "base": "We watched the fireworks.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "by the river in our town" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "on New Year's Eve" },
+        { "askVi": "Thế nào?", "ask": "How were they?", "add": "and they were really beautiful" }
+      ],
+      "full": "We watched the fireworks by the river in our town on New Year's Eve, and they were really beautiful."
+    },
+    {
+      "id": "x06",
+      "base": "People hold a festival.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in my village" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every autumn" },
+        { "askVi": "Để làm gì?", "ask": "Why?", "add": "to celebrate the new rice crop" }
+      ],
+      "full": "People in my village hold a festival every autumn to celebrate the new rice crop."
     }
   ],
   "variations": [
@@ -238,6 +289,45 @@
       "keywords": ["decorate", "decorations", "new year", "good luck"],
       "exampleAnswer": "People decorate their houses because they want a fresh start and good luck for the new year.",
       "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Món ăn đặc biệt trong lễ hội",
+      "questions": [
+        "What special food do people eat at festivals in Viet Nam?",
+        "Which festival food do you like best?",
+        "What food does your family prepare for Tet?",
+        "Tell me about a special dish people make for a festival."
+      ],
+      "keywords": ["moon cakes", "banh chung", "feast", "special"],
+      "exampleAnswer": "At Tet, people make banh chung with sticky rice, pork and green beans. It's my favourite festival food.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Lễ hội ở các nước khác",
+      "questions": [
+        "Which festival from another country would you like to see?",
+        "What do you know about a festival in another country?",
+        "Tell me about a famous festival around the world.",
+        "Which foreign festival sounds the most interesting to you?"
+      ],
+      "keywords": ["Thanksgiving", "Easter", "Halloween", "because"],
+      "exampleAnswer": "I'd like to see Halloween in the USA because children wear funny costumes and carve pumpkins. It sounds really exciting.",
+      "expectsReason": true
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Việc em làm để chuẩn bị cho lễ hội",
+      "questions": [
+        "How does your family prepare for Tet?",
+        "What do you do before a big festival?",
+        "Tell me how people get ready for a festival in your area.",
+        "What jobs do you help with before a festival?"
+      ],
+      "keywords": ["prepare", "decorate", "clean", "buy"],
+      "exampleAnswer": "Before Tet, we clean the house, buy flowers and cook banh chung. I usually help my mum decorate the living room.",
+      "expectsReason": false
     }
   ],
   "independent": [
@@ -350,6 +440,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["celebrate", "symbol", "costumes", "because", "I think"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Kể về lễ hội em vừa đi xem",
+      "contextVi": "Kỳ nghỉ vừa rồi em đi xem một lễ hội ở địa phương. Một người bạn nước ngoài hỏi em về lễ hội đó.",
+      "aiRole": "Mark, a friend from the UK",
+      "studentRoleVi": "Bạn đã đi xem lễ hội",
+      "goalVi": "Kể tên lễ hội, em đi khi nào, ở đâu, mọi người làm gì và em có thích không.",
+      "goal": "Tell Mark the name of the festival, when and where you went, what people did, and whether you liked it.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất hai từ của bài", "words": ["parade", "costume", "folk dance", "fireworks", "feast"] },
+        { "kind": "reason", "vi": "Nói em có thích không và vì sao", "words": [] }
+      ],
+      "opener": "Hi! What did you do during the holiday?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Wow! Where and when was it?",
+        "What did people do at the festival?",
+        "Did you like it? Why or why not?"
+      ],
+      "tipsVi": ["Dùng quá khứ đơn: I went to..., People wore..., We watched...", "Trả lời: Yes, very much because..."],
+      "keywords": ["festival", "watched", "costumes", "because"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Mời bạn nước ngoài vui Trung thu",
+      "contextVi": "Tối Rằm tháng Tám, nhà em tổ chức vui Trung thu. Em mời một bạn nước ngoài mới quen đến chơi và giải thích về lễ hội.",
+      "aiRole": "Anna, an exchange student from Canada",
+      "studentRoleVi": "Người mời bạn đến vui Trung thu",
+      "goalVi": "Mời Anna, nói thời gian, và giới thiệu mọi người làm gì, ăn gì ở Tết Trung thu.",
+      "goal": "Invite Anna to your Mid-Autumn party, say when it is, and explain what people do and eat at the festival.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất hai từ của bài", "words": ["moon cake", "lantern", "lion dance", "celebrate", "full moon"] },
+        { "kind": "example", "vi": "Kể ít nhất một hoạt động cụ thể", "words": [] }
+      ],
+      "opener": "Hi! I heard there's a special festival in Viet Nam this week. What is it?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "That sounds lovely! When is it?",
+        "What do people do at the festival?",
+        "And what do people eat? I'd love to try something new."
+      ],
+      "tipsVi": ["Mời: Would you like to come to my house on...?", "Giới thiệu: People eat moon cakes and children carry lanterns."],
+      "keywords": ["Would you like", "moon cakes", "lanterns", "celebrate"]
     }
   ]
 }

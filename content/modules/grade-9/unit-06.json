@@ -25,7 +25,18 @@
     { "id": "v17", "en": "dye", "vi": "nhuộm", "ipa": "/daɪ/", "ipaFrom": "glossary", "pos": "v", "example": "Some ethnic groups dye cloth with leaves and plants.", "collocations": ["dye cloth", "dye your hair"], "synonyms": ["colour"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
     { "id": "v18", "en": "trend", "vi": "xu hướng", "ipa": "/trend/", "ipaFrom": "glossary", "pos": "n", "example": "Wearing jeans became a trend in the 1990s.", "collocations": ["follow a trend", "a new trend"], "synonyms": ["fashion"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
     { "id": "v19", "en": "western", "vi": "thuộc phương Tây", "ipa": "/ˈwestən/", "ipaFrom": "glossary", "pos": "adj", "example": "More people wear western clothes like T-shirts today.", "collocations": ["western clothes", "western food"], "synonyms": [], "antonyms": ["eastern"], "src": { "kind": "sgk", "page": 138 } },
-    { "id": "v20", "en": "depend on", "vi": "dựa vào, phụ thuộc vào", "ipa": "/dɪˈpend ɒn/", "ipaFrom": "dictionary", "pos": "phr v", "example": "Students today depend on the internet for information.", "collocations": ["depend on your parents"], "synonyms": ["rely on"], "antonyms": [], "src": { "kind": "sgk", "page": 62 } }
+    { "id": "v20", "en": "depend on", "vi": "dựa vào, phụ thuộc vào", "ipa": "/dɪˈpend ɒn/", "ipaFrom": "dictionary", "pos": "phr v", "example": "Students today depend on the internet for information.", "collocations": ["depend on your parents"], "synonyms": ["rely on"], "antonyms": [], "src": { "kind": "sgk", "page": 62 } },
+    { "id": "v21", "en": "monk", "vi": "nhà sư", "ipa": "/mʌŋk/", "ipaFrom": "glossary", "pos": "n", "example": "In the past, some village children learnt to read and write from monks at the pagoda.", "collocations": ["Buddhist monk"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v22", "en": "popularity", "vi": "sự phổ biến, sự được ưa chuộng", "ipa": "/ˌpɒpjuˈlærəti/", "ipaFrom": "glossary", "pos": "n", "example": "Online learning has grown in popularity in recent years.", "collocations": ["grow in popularity", "gain popularity"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v23", "en": "freedom", "vi": "sự tự do", "ipa": "/ˈfriːdəm/", "ipaFrom": "dictionary", "pos": "n", "example": "Teenagers today have more freedom to choose their own clothes.", "collocations": ["freedom of choice", "have more freedom"], "synonyms": ["liberty"], "antonyms": [], "src": { "kind": "sgk", "page": 60 } },
+    { "id": "v24", "en": "living conditions", "vi": "điều kiện sống", "ipa": "/ˈlɪvɪŋ kənˌdɪʃnz/", "ipaFrom": "dictionary", "pos": "n", "example": "Living conditions in my village are much better than thirty years ago.", "collocations": ["improve living conditions", "better living conditions"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 60 } },
+    { "id": "v25", "en": "countryside", "vi": "nông thôn, vùng quê", "ipa": "/ˈkʌntrisaɪd/", "ipaFrom": "dictionary", "pos": "n", "example": "Children in the countryside still play traditional games after school.", "collocations": ["in the countryside", "live in the countryside"], "synonyms": [], "antonyms": ["city"], "src": { "kind": "sgk", "page": 60 } },
+    { "id": "v26", "en": "leisure", "vi": "thời gian rảnh, giải trí", "ipa": "/ˈleʒə/", "ipaFrom": "dictionary", "pos": "n", "example": "Most of my leisure time is spent reading and playing badminton.", "collocations": ["leisure time", "leisure activities"], "synonyms": ["free time"], "antonyms": [], "src": { "kind": "sgk", "page": 60 } },
+    { "id": "v27", "en": "independent", "vi": "độc lập, tự lập", "ipa": "/ˌɪndɪˈpendənt/", "ipaFrom": "dictionary", "pos": "adj", "example": "Living away from home taught my brother to be more independent.", "collocations": ["become independent", "independent learner"], "synonyms": [], "antonyms": ["dependent"], "src": { "kind": "sgk", "page": 62 } },
+    { "id": "v28", "en": "old-fashioned", "vi": "lỗi thời, kiểu cũ", "ipa": "/ˌəʊld ˈfæʃnd/", "ipaFrom": "dictionary", "pos": "adj", "example": "My grandma still uses an old-fashioned charcoal iron.", "collocations": ["old-fashioned tools", "old-fashioned ideas"], "synonyms": ["out of date"], "antonyms": ["modern"], "src": { "kind": "sgk", "page": 62 } },
+    { "id": "v29", "en": "appliance", "vi": "thiết bị (gia dụng)", "ipa": "/əˈplaɪəns/", "ipaFrom": "dictionary", "pos": "n", "example": "Hi-tech appliances like washing machines save us a lot of time.", "collocations": ["household appliance", "hi-tech appliance"], "synonyms": ["device"], "antonyms": [], "src": { "kind": "sgk", "page": 62 } },
+    { "id": "v30", "en": "means of transportation", "vi": "phương tiện giao thông", "ipa": "/ˌmiːnz əv ˌtrænspɔːˈteɪʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "Forty years ago, the bicycle was the main means of transportation in Ha Noi.", "collocations": ["main means of transportation"], "synonyms": ["means of transport"], "antonyms": [], "src": { "kind": "sgk", "page": 61 } },
+    { "id": "v31", "en": "firecracker", "vi": "pháo", "ipa": "/ˈfaɪəkrækə/", "ipaFrom": "dictionary", "pos": "n", "example": "People used to set off firecrackers at Tet, but now it is not allowed.", "collocations": ["set off firecrackers", "light firecrackers"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 61 } }
   ],
   "grammar": [
     {
@@ -131,6 +142,19 @@
       "sentence": "We used to play in the rice fields after school.",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Xuống giọng khi hứa chắc chắn, lên giọng khi hỏi lại",
+      "tipVi": "Khi hứa chắc chắn (I promise..., I will...), ta xuống giọng ở cuối câu để nghe đáng tin. Khi hỏi lại để kiểm tra (Do you promise? Really?), ta lên giọng ở cuối.",
+      "words": ["I promise", "I will", "Do you promise", "Really"],
+      "sentence": "I promise to be home before nine.",
+      "quiz": [
+        { "prompt": "When you make a firm promise like \"I promise to call you.\", your voice usually ... at the end.", "options": ["goes down", "goes up"], "answer": 0, "explainVi": "Câu hứa chắc chắn là câu kể, thường xuống giọng ở cuối." },
+        { "prompt": "Which sentence usually ends with a RISING voice?", "options": ["Do you promise?", "I promise.", "I won't forget."], "answer": 0, "explainVi": "Do you promise? là câu hỏi Yes/No nên thường lên giọng ở cuối." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -141,7 +165,15 @@
     { "id": "e05", "en": "Compared with the past, ...", "vi": "So với ngày xưa, ...", "useVi": "Khi nêu một thay đổi so với trước.", "example": "Compared with the past, students have more ways to learn.", "src": { "kind": "team", "page": null } },
     { "id": "e06", "en": "I think it's a change for the better because ...", "vi": "Mình nghĩ đó là thay đổi tốt vì ...", "useVi": "Khi đánh giá một thay đổi và nêu lý do.", "example": "I think it's a change for the better because girls have more opportunities now.", "src": { "kind": "team", "page": null } },
     { "id": "e07", "en": "I prefer ... because ...", "vi": "Mình thích ... hơn vì ...", "useVi": "Khi chọn một cách và giải thích lý do.", "example": "I prefer taking notes on paper because it helps me remember.", "src": { "kind": "team", "page": null } },
-    { "id": "e08", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi lịch sự nêu ý khác.", "example": "I see your point, but some old traditions are still useful.", "src": { "kind": "team", "page": null } }
+    { "id": "e08", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi lịch sự nêu ý khác.", "example": "I see your point, but some old traditions are still useful.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "I give you my word.", "vi": "Mình hứa danh dự.", "useVi": "Khi muốn lời hứa của mình nghe thật chắc chắn.", "example": "I'll clean my room before dinner. I give you my word.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "You can count on me.", "vi": "Bạn cứ tin ở mình.", "useVi": "Khi hứa sẽ giúp hay làm một việc cho người khác.", "example": "You can count on me. I'll bring the photos tomorrow.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "Don't worry. I won't forget.", "vi": "Đừng lo. Mình sẽ không quên đâu.", "useVi": "Khi trấn an người khác rằng mình sẽ nhớ làm việc đã hứa.", "example": "Don't worry. I won't forget to feed the cat.", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "OK, but don't forget!", "vi": "Được, nhưng đừng quên nhé!", "useVi": "Khi đồng ý và nhắc người khác giữ lời hứa.", "example": "OK, you can go, but don't forget to call me!", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "In my grandparents' time, ...", "vi": "Thời ông bà mình, ...", "useVi": "Khi kể về cuộc sống ngày xưa.", "example": "In my grandparents' time, people wrote letters instead of texting.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "Things have changed a lot since ...", "vi": "Mọi thứ đã thay đổi nhiều từ khi ...", "useVi": "Khi nói về sự thay đổi từ một mốc thời gian.", "example": "Things have changed a lot since my parents were young.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "One big difference is that ...", "vi": "Một khác biệt lớn là ...", "useVi": "Khi so sánh cuộc sống xưa và nay.", "example": "One big difference is that children now have more freedom.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "I used to ..., but now I ...", "vi": "Trước đây mình từng ..., nhưng giờ mình ...", "useVi": "Khi kể một thói quen đã thay đổi của bản thân.", "example": "I used to walk to school, but now I cycle.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["We decided", "to interview", "our grandparents", "about the past"], "vi": "Chúng mình quyết định phỏng vấn ông bà về ngày xưa.", "grammarId": "g01" },
@@ -151,7 +183,9 @@
     { "id": "b05", "chunks": ["People", "used to travel", "by bicycle", "in the past"], "vi": "Ngày xưa người ta thường đi lại bằng xe đạp.", "grammarId": "g03" },
     { "id": "b06", "chunks": ["Smartphones", "have replaced", "many old tools", "in our home"], "vi": "Điện thoại thông minh đã thay thế nhiều đồ dùng cũ trong nhà mình.", "grammarId": null },
     { "id": "b07", "chunks": ["Three generations", "live together", "in an", "extended family"], "vi": "Ba thế hệ sống cùng nhau trong một gia đình nhiều thế hệ.", "grammarId": null },
-    { "id": "b08", "chunks": ["I usually", "take notes", "on my tablet", "in class"], "vi": "Mình thường ghi chép bằng máy tính bảng trong lớp.", "grammarId": null }
+    { "id": "b08", "chunks": ["I usually", "take notes", "on my tablet", "in class"], "vi": "Mình thường ghi chép bằng máy tính bảng trong lớp.", "grammarId": null },
+    { "id": "b09", "chunks": ["My parents agreed", "to buy me", "a bicycle", "for my birthday"], "vi": "Bố mẹ mình đồng ý mua cho mình một chiếc xe đạp vào dịp sinh nhật.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["My grandpa", "enjoys reading", "the newspaper", "every morning"], "vi": "Ông mình thích đọc báo mỗi sáng.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -190,6 +224,26 @@
         { "askVi": "So với khi nào?", "ask": "Compared with when?", "add": "than in the past" }
       ],
       "full": "Girls have more opportunities to pursue their dreams than in the past."
+    },
+    {
+      "id": "x05",
+      "base": "People used to cook.",
+      "steps": [
+        { "askVi": "Người ở đâu?", "ask": "Which people?", "add": "in the countryside" },
+        { "askVi": "Nấu bằng gì?", "ask": "How?", "add": "on wood fires" },
+        { "askVi": "Còn bây giờ?", "ask": "What about now?", "add": "but now they use gas cookers" }
+      ],
+      "full": "People in the countryside used to cook on wood fires, but now they use gas cookers."
+    },
+    {
+      "id": "x06",
+      "base": "My sister decided to learn.",
+      "steps": [
+        { "askVi": "Học gì?", "ask": "Learn what?", "add": "to play the guitar" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last summer" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because she wanted to join the school band" }
+      ],
+      "full": "My sister decided to learn to play the guitar last summer because she wanted to join the school band."
     }
   ],
   "variations": [
@@ -251,6 +305,45 @@
       ],
       "keywords": ["independent", "privacy", "generation gap", "democratic"],
       "exampleAnswer": "Teenagers today can find information online, so they feel more independent and want to decide things themselves.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Phương tiện đi lại xưa và nay",
+      "questions": [
+        "How did people travel in the past, and how do they travel now?",
+        "What means of transportation did your grandparents use?",
+        "How has the way people get around changed in your town?",
+        "Tell me about transport in Viet Nam forty years ago and today."
+      ],
+      "keywords": ["means of transportation", "used to", "bicycle", "nowadays"],
+      "exampleAnswer": "My grandparents used to go everywhere by bicycle. Nowadays most people in my town ride motorbikes, and some families have cars.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Tết xưa và nay",
+      "questions": [
+        "How has Tet changed since your parents were young?",
+        "What did people use to do at Tet that they don't do now?",
+        "Tell me about one Tet custom that has changed.",
+        "How is Tet today different from Tet in your grandparents' time?"
+      ],
+      "keywords": ["Tet", "used to", "firecracker", "nowadays"],
+      "exampleAnswer": "People used to set off firecrackers and make banh chung at home. Nowadays many families buy banh chung, and firecrackers are not allowed.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Thời gian rảnh của tuổi teen: tốt hơn hay kém hơn xưa",
+      "questions": [
+        "Do teenagers today spend their free time better than in the past? Why or why not?",
+        "Are leisure activities today better than in the past? Why?",
+        "Was free time more fun for children in the past? Why or why not?",
+        "Do you prefer modern leisure activities or traditional ones? Why?"
+      ],
+      "keywords": ["leisure", "electronic devices", "traditional games", "because"],
+      "exampleAnswer": "I think children in the past had more fun because they played outdoors together. Today many teenagers depend on electronic devices and spend less time outside.",
       "expectsReason": true
     }
   ],
@@ -364,6 +457,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["used to", "now", "because", "replace", "tradition"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Xin bố cho đi cắm trại với lớp",
+      "contextVi": "Lớp em tổ chức cắm trại hai ngày ở ngoại thành. Bố em hơi lo vì em chưa đi xa nhà bao giờ. Em cần thuyết phục bố bằng những lời hứa cụ thể.",
+      "aiRole": "Dad, who is a little worried about his child's first trip away",
+      "studentRoleVi": "Học sinh xin phép đi cắm trại",
+      "goalVi": "Xin phép bố, trả lời các lo lắng của bố và đưa ra ít nhất hai lời hứa cụ thể.",
+      "goal": "Ask Dad for permission, answer his worries and make at least two clear promises.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất hai cách hứa", "words": ["I promise to", "I promise not to", "I will", "You can count on me", "I give you my word"] },
+        { "kind": "reason", "vi": "Giải thích vì sao chuyến đi có ích cho em", "words": [] }
+      ],
+      "opener": "A two-day camping trip? Hmm, you've never stayed away from home before. I'm a bit worried.",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "But who will look after you? And what if you lose your things?",
+        "And will you call me every evening?",
+        "OK, I'll let you go. I appreciate your promises."
+      ],
+      "tipsVi": ["Hứa cụ thể: \"I promise to call you every evening.\"", "Nêu lợi ích: \"It will help me become more independent.\""],
+      "keywords": ["I promise", "I will", "independent", "call", "careful"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Hỏi bà về Tết ngày xưa",
+      "contextVi": "Lớp em làm dự án \"Tết xưa và nay\". Em phỏng vấn bà về Tết thời bà còn nhỏ để so sánh với Tết bây giờ.",
+      "aiRole": "Grandma, who loves telling stories about Tet in the old days",
+      "studentRoleVi": "Học sinh phỏng vấn bà cho dự án",
+      "goalVi": "Hỏi bà ít nhất hai câu về Tết ngày xưa (dùng used to) và nêu một điểm khác với Tết bây giờ.",
+      "goal": "Ask Grandma at least two questions about Tet in the past (with used to) and say one way Tet is different now.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng used to khi hỏi hoặc kể", "words": ["Did you use to", "used to", "nowadays"] },
+        { "kind": "example", "vi": "Nêu một điểm khác biệt cụ thể giữa Tết xưa và nay", "words": [] }
+      ],
+      "opener": "Oh, you want to know about Tet in my day? Of course, dear. What would you like to ask?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Well, we used to make banh chung together and stay up all night to watch the pot.",
+        "Yes, and children used to get new clothes only once a year, at Tet. What about you?",
+        "So, what do you think is the biggest difference between Tet then and now?"
+      ],
+      "tipsVi": ["Hỏi: \"Did you use to...?\" hoặc \"What did people use to do at Tet?\"", "So sánh: \"One big difference is that...\""],
+      "keywords": ["used to", "Tet", "banh chung", "firecracker", "nowadays"]
     }
   ]
 }

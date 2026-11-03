@@ -27,7 +27,17 @@
     { "id": "v19", "en": "tablespoon", "vi": "khối lượng đựng trong một thìa / muỗng xúp", "ipa": "/ˈteɪblspuːn/", "ipaFrom": "glossary", "pos": "n", "example": "The recipe needs two tablespoons of sugar.", "collocations": ["a tablespoon of sugar"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
     { "id": "v20", "en": "green tea", "vi": "chè xanh, trà xanh", "ipa": "/ˌɡriːn ˈtiː/", "ipaFrom": "glossary", "pos": "n", "example": "My grandpa drinks green tea every morning.", "collocations": ["a cup of green tea"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
     { "id": "v21", "en": "lemonade", "vi": "nước chanh", "ipa": "/ˌleməˈneɪd/", "ipaFrom": "glossary", "pos": "n", "example": "A glass of cold lemonade is perfect on a hot day.", "collocations": ["a glass of lemonade"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
-    { "id": "v22", "en": "mineral water", "vi": "nước khoáng", "ipa": "/ˈmɪnərəl ˈwɔːtə/", "ipaFrom": "glossary", "pos": "n", "example": "How much is a bottle of mineral water?", "collocations": ["a bottle of mineral water"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } }
+    { "id": "v22", "en": "mineral water", "vi": "nước khoáng", "ipa": "/ˈmɪnərəl ˈwɔːtə/", "ipaFrom": "glossary", "pos": "n", "example": "How much is a bottle of mineral water?", "collocations": ["a bottle of mineral water"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v23", "en": "juice", "vi": "nước ép (của quả, rau...)", "ipa": "/dʒuːs/", "ipaFrom": "glossary", "pos": "n", "example": "I drink a glass of orange juice every morning.", "collocations": ["orange juice", "a glass of juice"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v24", "en": "onion", "vi": "củ hành", "ipa": "/ˈʌnjən/", "ipaFrom": "glossary", "pos": "n", "example": "Cut the onion into small pieces before you fry it.", "collocations": ["chop an onion", "fried onions"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v25", "en": "pepper", "vi": "hạt tiêu", "ipa": "/ˈpepə/", "ipaFrom": "glossary", "pos": "n", "example": "Add some salt and pepper to the soup.", "collocations": ["salt and pepper", "black pepper"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v26", "en": "pie", "vi": "bánh nướng, bánh hấp (có nhân)", "ipa": "/paɪ/", "ipaFrom": "glossary", "pos": "n", "example": "My aunt made a chicken pie for dinner.", "collocations": ["an apple pie", "a chicken pie"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v27", "en": "salt", "vi": "muối", "ipa": "/sɔːlt/", "ipaFrom": "glossary", "pos": "n", "example": "Don't put too much salt in the omelette.", "collocations": ["a teaspoon of salt", "too much salt"], "synonyms": [], "antonyms": ["sugar"], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v28", "en": "toast", "vi": "bánh mì nướng", "ipa": "/təʊst/", "ipaFrom": "glossary", "pos": "n", "example": "I usually have toast and milk for breakfast.", "collocations": ["a slice of toast", "toast with butter"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v29", "en": "snack", "vi": "bữa ăn nhẹ, đồ ăn vặt", "ipa": "/snæk/", "ipaFrom": "dictionary", "pos": "n", "example": "I often have a small snack after school.", "collocations": ["have a snack", "a healthy snack"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 56 } },
+    { "id": "v30", "en": "broth", "vi": "nước dùng", "ipa": "/brɒθ/", "ipaFrom": "dictionary", "pos": "n", "example": "My grandma cooks the broth for hours to make it tasty.", "collocations": ["beef broth", "chicken broth"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 56 } },
+    { "id": "v31", "en": "slice", "vi": "lát (mỏng)", "ipa": "/slaɪs/", "ipaFrom": "dictionary", "pos": "n", "example": "Put a few slices of beef on the noodles.", "collocations": ["a slice of bread", "thin slices"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 56 } },
+    { "id": "v32", "en": "menu", "vi": "thực đơn", "ipa": "/ˈmenjuː/", "ipaFrom": "dictionary", "pos": "n", "example": "Can I see the menu, please?", "collocations": ["on the menu", "look at the menu"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 51 } }
   ],
   "grammar": [
     {
@@ -139,7 +149,13 @@
     { "id": "e07", "en": "I'd like some ...", "vi": "Mình muốn một ít ...", "useVi": "Khi gọi món một cách lịch sự.", "example": "I'd like some fried rice and a glass of lemonade.", "src": { "kind": "sgk", "page": 50 } },
     { "id": "e08", "en": "It tastes ...", "vi": "Nó có vị ...", "useVi": "Khi mô tả mùi vị của món ăn.", "example": "This soup tastes a bit salty.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "First, ... Then, ... Finally, ...", "vi": "Đầu tiên, ... Sau đó, ... Cuối cùng, ...", "useVi": "Khi kể các bước làm một món ăn.", "example": "First, beat the eggs. Then, add some salt. Finally, fry them.", "src": { "kind": "team", "page": null } },
-    { "id": "e10", "en": "Can I have ..., please?", "vi": "Cho mình ... nhé?", "useVi": "Khi xin hoặc gọi một món ăn, đồ uống.", "example": "Can I have a bowl of beef noodle soup, please?", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "Can I have ..., please?", "vi": "Cho mình ... nhé?", "useVi": "Khi xin hoặc gọi một món ăn, đồ uống.", "example": "Can I have a bowl of beef noodle soup, please?", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "I'll be right back with your order.", "vi": "Tôi sẽ quay lại ngay với món quý khách đã gọi.", "useVi": "Câu người phục vụ nói sau khi ghi món.", "example": "Thank you. I'll be right back with your order.", "src": { "kind": "sgk", "page": 51 } },
+    { "id": "e12", "en": "What's your favourite food?", "vi": "Món ăn yêu thích của bạn là gì?", "useVi": "Khi hỏi về món ăn ai đó thích nhất.", "example": "What's your favourite food, Lan?", "src": { "kind": "sgk", "page": 51 } },
+    { "id": "e13", "en": "When do you usually have it?", "vi": "Bạn thường ăn món đó khi nào?", "useVi": "Khi hỏi thêm về thói quen ăn một món.", "example": "Pho? When do you usually have it?", "src": { "kind": "sgk", "page": 51 } },
+    { "id": "e14", "en": "Let me see ...", "vi": "Để tôi xem ...", "useVi": "Khi cần chút thời gian để suy nghĩ hay chọn món.", "example": "Let me see... I'll have the beef noodle soup.", "src": { "kind": "sgk", "page": 50 } },
+    { "id": "e15", "en": "What kind of ... would you like?", "vi": "Bạn muốn loại ... nào?", "useVi": "Khi hỏi người khác muốn chọn loại nào.", "example": "What kind of cake would you like?", "src": { "kind": "sgk", "page": 51 } },
+    { "id": "e16", "en": "It's made with ...", "vi": "Nó được làm từ ...", "useVi": "Khi giới thiệu nguyên liệu chính của một món ăn.", "example": "Banh chung is made with sticky rice, pork and green beans.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["We need", "some eggs", "and a lot of flour", "for the pancakes"], "vi": "Chúng ta cần vài quả trứng và nhiều bột để làm bánh kếp.", "grammarId": "g01" },
@@ -149,7 +165,9 @@
     { "id": "b05", "chunks": ["Vietnamese people", "eat lots of", "rice and vegetables"], "vi": "Người Việt Nam ăn nhiều cơm và rau.", "grammarId": "g01" },
     { "id": "b06", "chunks": ["I'd like", "some spring rolls", "and a glass of", "lemonade"], "vi": "Mình muốn vài cái nem rán và một cốc nước chanh.", "grammarId": "g01" },
     { "id": "b07", "chunks": ["There isn't", "any butter", "in the fridge"], "vi": "Trong tủ lạnh không còn chút bơ nào.", "grammarId": "g01" },
-    { "id": "b08", "chunks": ["How much water", "do you drink", "every day?"], "vi": "Mỗi ngày bạn uống bao nhiêu nước?", "grammarId": "g02" }
+    { "id": "b08", "chunks": ["How much water", "do you drink", "every day?"], "vi": "Mỗi ngày bạn uống bao nhiêu nước?", "grammarId": "g02" },
+    { "id": "b09", "chunks": ["Add a teaspoon of salt", "and some pepper", "to the soup"], "vi": "Thêm một thìa cà phê muối và một ít hạt tiêu vào súp.", "grammarId": null },
+    { "id": "b10", "chunks": ["How many slices of toast", "do you have", "for breakfast?"], "vi": "Bạn ăn mấy lát bánh mì nướng vào bữa sáng?", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -189,6 +207,25 @@
         { "askVi": "Ăn kèm gì?", "ask": "Eaten with what?", "add": "and people eat them with sweet and sour sauce" }
       ],
       "full": "Spring rolls are popular at Tet, and people eat them with sweet and sour sauce."
+    },
+    {
+      "id": "x05",
+      "base": "I have a snack.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "After school" },
+        { "askVi": "Món gì?", "ask": "What?", "add": "usually a banana and some yoghurt" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because I feel hungry" }
+      ],
+      "full": "After school, I have a snack, usually a banana and some yoghurt, because I feel hungry."
+    },
+    {
+      "id": "x06",
+      "base": "My mum makes pancakes.",
+      "steps": [
+        { "askVi": "Với nguyên liệu gì?", "ask": "What with?", "add": "with flour, eggs and milk" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "on Sunday mornings" }
+      ],
+      "full": "My mum makes pancakes with flour, eggs and milk on Sunday mornings."
     }
   ],
   "variations": [
@@ -250,6 +287,45 @@
       ],
       "keywords": ["cheap", "tasty", "fast", "because"],
       "exampleAnswer": "Street food is cheap, tasty and fast, so people can eat it when they are busy.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Đồ ăn vặt sau giờ học",
+      "questions": [
+        "What snacks do you usually eat after school?",
+        "What do you like to eat when you feel hungry between meals?",
+        "Are your favourite snacks healthy or unhealthy?",
+        "Tell me about a snack you often have."
+      ],
+      "keywords": ["snack", "fruit", "healthy", "after school"],
+      "exampleAnswer": "After school I usually have a banana or some yoghurt. Sometimes I eat crisps, but I know they are not very healthy.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Bữa sáng của em",
+      "questions": [
+        "What do you usually have for breakfast?",
+        "What did you eat for breakfast this morning?",
+        "Do you prefer a Vietnamese breakfast or a Western breakfast?",
+        "Tell me about your favourite breakfast."
+      ],
+      "keywords": ["breakfast", "noodles", "toast", "usually"],
+      "exampleAnswer": "I usually have sticky rice or a bowl of noodles for breakfast. On Sundays, my mum makes toast and fried eggs.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Ăn ở nhà hay ăn ngoài",
+      "questions": [
+        "Do you prefer eating at home or eating out?",
+        "Which is better: home-cooked meals or restaurant food?",
+        "Why do some families like eating out at weekends?",
+        "Is it a good idea to eat at restaurants often?"
+      ],
+      "keywords": ["home", "restaurant", "cheap", "because"],
+      "exampleAnswer": "I prefer eating at home because my mum's food is healthy and cheap. We only eat out on special days.",
       "expectsReason": true
     }
   ],
@@ -361,6 +437,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["dish", "ingredients", "try", "because", "How much"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Đi chợ mua nguyên liệu nấu phở",
+      "contextVi": "Mẹ nhờ em đi chợ mua nguyên liệu để nấu phở bò. Em hỏi người bán hàng giá và mua đúng số lượng cần thiết.",
+      "aiRole": "A seller at the local market",
+      "studentRoleVi": "Người đi chợ mua nguyên liệu",
+      "goalVi": "Hỏi giá, nói số lượng cần mua (bao nhiêu thịt bò, mấy củ hành...) và trả tiền.",
+      "goal": "Ask about prices, say how much you need (how much beef, how many onions...) and pay.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng How much / How many hoặc từ chỉ lượng", "words": ["How much", "How many", "a kilo", "grams"] },
+        { "kind": "keyword", "vi": "Dùng ít nhất hai từ chỉ nguyên liệu", "words": ["beef", "onion", "noodles", "pepper", "salt"] }
+      ],
+      "opener": "Good morning! Fresh beef and vegetables here. What would you like?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Beef is 250,000 dong a kilo. How much do you need?",
+        "Anything else? We have nice onions today.",
+        "That's 180,000 dong altogether. Thank you!"
+      ],
+      "tipsVi": ["Hỏi giá: How much is a kilo of beef?", "Nói số lượng: I'd like half a kilo of beef and three onions, please."],
+      "keywords": ["How much", "beef", "onions", "I'd like"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Trò chuyện về món ăn yêu thích",
+      "contextVi": "Giờ ra chơi, em và một bạn mới trò chuyện về món ăn và đồ uống yêu thích của mỗi người.",
+      "aiRole": "Lan, a new classmate",
+      "studentRoleVi": "Học sinh trong lớp",
+      "goalVi": "Kể món ăn, đồ uống yêu thích, nguyên liệu chính và khi nào em thường ăn; hỏi lại Lan một câu.",
+      "goal": "Talk about your favourite food and drink, its main ingredients and when you have it; ask Lan a question back.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất hai từ của bài", "words": ["ingredient", "noodles", "beef", "sauce", "juice", "dish"] },
+        { "kind": "keyword", "vi": "Hỏi lại bạn một câu", "words": ["What about you", "What's your favourite"] }
+      ],
+      "opener": "I'm so hungry! What's your favourite food?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Sounds delicious! What are the main ingredients?",
+        "When do you usually have it?",
+        "My favourite drink is lemonade. What about you?"
+      ],
+      "tipsVi": ["Mẫu: My favourite food is... It's made with...", "Hỏi lại: What about you?"],
+      "keywords": ["favourite", "ingredients", "usually", "What about you"]
     }
   ]
 }

@@ -13,11 +13,20 @@ export const secs = (ms: number | null | undefined) => (ms === null || ms === un
 const pct = (x: number) => `${Math.round(x * 100)}%`;
 const LEVEL: Record<string, string> = { brief: "Ngắn, mới có một ý", adequate: "Có ý chính rõ ràng", developed: "Có ý chính kèm lý do hoặc chi tiết" };
 
-export function SourceBadge({ src }: { src: { kind: "sgk" | "team"; page: number | null } }) {
+/** Nguồn của một mục (SGK có trang, hoặc nhóm soạn), kèm dấu "Thầy cô đã duyệt" khi mục đó đã được duyệt đúng nội dung hiện tại. */
+export function SourceBadge({ src, approved }: { src: { kind: "sgk" | "team"; page: number | null }; approved?: boolean }) {
   return (
-    <span className="inline-flex w-fit items-center rounded-full border border-line bg-surface px-2.5 py-0.5 text-xs font-semibold text-muted">
-      {src.kind === "sgk" ? `SGK tr. ${src.page}` : "Nhóm soạn"}
-    </span>
+    <>
+      <span className="inline-flex w-fit items-center rounded-full border border-line bg-surface px-2.5 py-0.5 text-xs font-semibold text-muted">
+        {src.kind === "sgk" ? `SGK tr. ${src.page}` : "Nhóm soạn"}
+      </span>
+      {approved && (
+        <span className="inline-flex w-fit items-center gap-1 rounded-full bg-brand-soft px-2.5 py-0.5 text-xs font-bold text-brand-strong">
+          <CircleCheck className="size-3.5" aria-hidden />
+          Thầy cô đã duyệt
+        </span>
+      )}
+    </>
   );
 }
 

@@ -26,7 +26,17 @@
     { "id": "v18", "en": "consist", "vi": "bao gồm", "ipa": "/kənˈsɪst/", "ipaFrom": "glossary", "pos": "v", "example": "The model consists of three circles.", "collocations": ["consist of"], "synonyms": ["include"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
     { "id": "v19", "en": "Inner Circle", "vi": "vòng tròn bên trong", "ipa": "/ˌɪnə ˈsɜːkl/", "ipaFrom": "glossary", "pos": "n", "example": "The UK and the US are in the Inner Circle.", "collocations": ["Inner Circle countries"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
     { "id": "v20", "en": "Outer Circle", "vi": "vòng tròn bên ngoài", "ipa": "/ˌaʊtə ˈsɜːkl/", "ipaFrom": "glossary", "pos": "n", "example": "India and Singapore are in the Outer Circle.", "collocations": ["Outer Circle countries"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
-    { "id": "v21", "en": "Expanding Circle", "vi": "vòng tròn mở rộng", "ipa": "/ɪkˈspændɪŋ sɜːkl/", "ipaFrom": "glossary", "pos": "n", "example": "Viet Nam is in the Expanding Circle.", "collocations": ["Expanding Circle countries"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } }
+    { "id": "v21", "en": "Expanding Circle", "vi": "vòng tròn mở rộng", "ipa": "/ɪkˈspændɪŋ sɜːkl/", "ipaFrom": "glossary", "pos": "n", "example": "Viet Nam is in the Expanding Circle.", "collocations": ["Expanding Circle countries"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v22", "en": "concentric", "vi": "đồng tâm", "ipa": "/kənˈsentrɪk/", "ipaFrom": "glossary", "pos": "adj", "example": "The three circles of English are drawn as concentric circles.", "collocations": ["concentric circles"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v23", "en": "mean", "vi": "nghĩa là", "ipa": "/miːn/", "ipaFrom": "glossary", "pos": "v", "example": "What does the word \"jumper\" mean in British English?", "collocations": ["What does it mean?"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v24", "en": "model", "vi": "mô hình", "ipa": "/ˈmɒdl/", "ipaFrom": "glossary", "pos": "n", "example": "The teacher used a model of three circles to explain how English spreads.", "collocations": ["a model of", "a simple model"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v25", "en": "propose", "vi": "đề xuất", "ipa": "/prəˈpəʊz/", "ipaFrom": "glossary", "pos": "v", "example": "A scientist proposed a model with three circles of English.", "collocations": ["propose an idea", "propose a model"], "synonyms": ["suggest"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v26", "en": "American English", "vi": "tiếng Anh Mỹ", "ipa": "/əˌmerɪkən ˈɪŋɡlɪʃ/", "ipaFrom": "dictionary", "pos": "n", "example": "In American English, people say \"apartment\" instead of \"flat\".", "collocations": ["speak American English"], "synonyms": [], "antonyms": ["British English"], "src": { "kind": "sgk", "page": 92 } },
+    { "id": "v27", "en": "British English", "vi": "tiếng Anh Anh", "ipa": "/ˌbrɪtɪʃ ˈɪŋɡlɪʃ/", "ipaFrom": "dictionary", "pos": "n", "example": "Our textbook mostly uses British English spelling, like \"colour\".", "collocations": ["speak British English"], "synonyms": [], "antonyms": ["American English"], "src": { "kind": "sgk", "page": 92 } },
+    { "id": "v28", "en": "express", "vi": "diễn đạt, bày tỏ", "ipa": "/ɪkˈspres/", "ipaFrom": "dictionary", "pos": "v", "example": "It's hard to express my feelings in English, but I'm getting better.", "collocations": ["express yourself", "express an idea"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 93 } },
+    { "id": "v29", "en": "dictionary", "vi": "từ điển", "ipa": "/ˈdɪkʃənri/", "ipaFrom": "dictionary", "pos": "n", "example": "I look up new words in an English-English dictionary.", "collocations": ["look up in a dictionary", "online dictionary"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 94 } },
+    { "id": "v30", "en": "accent", "vi": "giọng (vùng miền)", "ipa": "/ˈæksənt/", "ipaFrom": "dictionary", "pos": "n", "example": "My English teacher has a clear accent, so I understand her easily.", "collocations": ["a strong accent", "a clear accent"], "synonyms": [], "antonyms": [], "src": { "kind": "team", "page": null } },
+    { "id": "v31", "en": "native speaker", "vi": "người bản ngữ", "ipa": "/ˌneɪtɪv ˈspiːkə/", "ipaFrom": "dictionary", "pos": "n", "example": "Talking with native speakers helps me pick up natural expressions.", "collocations": ["native speaker of English"], "synonyms": [], "antonyms": [], "src": { "kind": "team", "page": null } }
   ],
   "grammar": [
     {
@@ -115,6 +125,32 @@
         { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["fluent", "standard", "bilingual"], "answer": 2, "explainVi": "bilingual /baɪˈlɪŋɡwəl/ nhấn âm thứ hai." }
       ],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Lên giọng ở câu hỏi Yes/No, xuống giọng ở câu hỏi Wh-",
+      "tipVi": "Câu hỏi Yes/No (Do you...? Can you...?) thường lên giọng ở cuối. Câu hỏi bắt đầu bằng What, How, Where... thường xuống giọng ở cuối, kể cả khi hỏi nghĩa của từ.",
+      "words": ["Do you speak", "Can you spell", "What does it mean", "How do you say"],
+      "sentence": "What does \"pants\" mean in American English?",
+      "quiz": [
+        { "prompt": "Which question usually ends with a RISING voice?", "options": ["Can you speak French?", "What does it mean?", "How do you spell it?"], "answer": 0, "explainVi": "Can you speak French? là câu hỏi Yes/No nên thường lên giọng ở cuối." },
+        { "prompt": "In \"How do you say this word?\", your voice usually ... at the end.", "options": ["goes down", "goes up"], "answer": 0, "explainVi": "Câu hỏi Wh- (How...) thường xuống giọng ở cuối." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p05",
+      "kind": "sentence_stress",
+      "focus": "Đọc nhẹ who, which, that trong mệnh đề quan hệ",
+      "tipVi": "Trong câu có mệnh đề quan hệ, các đại từ who, which, that thường đọc nhẹ và nhanh. Ta nhấn danh từ, động từ chính và tính từ (girl, speaks, languages).",
+      "words": ["who", "which", "that", "girl", "speaks", "languages"],
+      "sentence": "I use an app which helps me learn new words.",
+      "quiz": [
+        { "prompt": "Which word is usually NOT stressed in \"She's the girl who speaks three languages.\"?", "options": ["who", "girl", "languages"], "answer": 0, "explainVi": "who là đại từ quan hệ nên đọc nhẹ; girl, speaks, three, languages được nhấn." },
+        { "prompt": "Which words are usually stressed in \"This is the book that I bought.\"?", "options": ["book, bought", "the, that", "is, I"], "answer": 0, "explainVi": "book và bought mang nghĩa chính nên được nhấn; the, that, I đọc nhẹ." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -126,7 +162,14 @@
     { "id": "e06", "en": "Could you speak more slowly, please?", "vi": "Bạn nói chậm hơn được không?", "useVi": "Khi người kia nói quá nhanh, mình chưa nghe kịp.", "example": "Sorry, could you speak more slowly, please?", "src": { "kind": "team", "page": null } },
     { "id": "e07", "en": "One thing that helps me is ...", "vi": "Một điều giúp mình là ...", "useVi": "Khi chia sẻ một cách học hiệu quả.", "example": "One thing that helps me is watching cartoons in English.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "I find ... difficult because ...", "vi": "Mình thấy ... khó vì ...", "useVi": "Khi nói về kỹ năng hoặc phần học khó và lý do.", "example": "I find listening difficult because people speak fast.", "src": { "kind": "team", "page": null } },
-    { "id": "e09", "en": "If you need someone who can ..., just ask me.", "vi": "Nếu bạn cần ai đó có thể ..., cứ hỏi mình.", "useVi": "Khi đề nghị giúp đỡ người mới.", "example": "If you need someone who can show you around, just ask me.", "src": { "kind": "team", "page": null } }
+    { "id": "e09", "en": "If you need someone who can ..., just ask me.", "vi": "Nếu bạn cần ai đó có thể ..., cứ hỏi mình.", "useVi": "Khi đề nghị giúp đỡ người mới.", "example": "If you need someone who can show you around, just ask me.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "Fingers crossed!", "vi": "Cầu mong may mắn nhé!", "useVi": "Khi mong điều tốt sẽ đến với mình hoặc bạn.", "example": "My speaking test is tomorrow. Fingers crossed!", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "You'll do great!", "vi": "Bạn sẽ làm tốt thôi!", "useVi": "Khi động viên bạn trước một bài thi hay cuộc thi.", "example": "Don't worry about the contest. You'll do great!", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "Thanks. I hope so.", "vi": "Cảm ơn. Mình cũng mong vậy.", "useVi": "Khi đáp lại lời chúc hay lời động viên.", "example": "Thanks. I hope so. I've practised a lot.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "What does ... mean?", "vi": "... nghĩa là gì?", "useVi": "Khi hỏi nghĩa của một từ mới.", "example": "What does \"bilingual\" mean?", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "How do you spell ...?", "vi": "... đánh vần thế nào?", "useVi": "Khi cần biết cách viết đúng một từ.", "example": "How do you spell \"vocabulary\"?", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "Sorry, I didn't catch that.", "vi": "Xin lỗi, mình chưa nghe kịp.", "useVi": "Khi không nghe rõ hoặc không theo kịp người nói.", "example": "Sorry, I didn't catch that. Could you say it again?", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "In American English, people say ..., but in British English ...", "vi": "Trong tiếng Anh Mỹ người ta nói ..., còn trong tiếng Anh Anh ...", "useVi": "Khi so sánh cách dùng từ của hai biến thể tiếng Anh.", "example": "In American English, people say \"soccer\", but in British English they say \"football\".", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["The teacher", "who taught me", "my first English words", "is Mr Vinh"], "vi": "Thầy giáo dạy mình những từ tiếng Anh đầu tiên là thầy Vinh.", "grammarId": "g01" },
@@ -136,7 +179,9 @@
     { "id": "b05", "chunks": ["I look up", "new words", "and copy them", "into my notebook"], "vi": "Mình tra từ mới và chép chúng vào sổ.", "grammarId": null },
     { "id": "b06", "chunks": ["English is", "an official language", "in Singapore", "and India"], "vi": "Tiếng Anh là ngôn ngữ chính thức ở Singapore và Ấn Độ.", "grammarId": null },
     { "id": "b07", "chunks": ["I'd like to visit", "a country", "where people", "speak English"], "vi": "Mình muốn đến thăm một đất nước nơi người ta nói tiếng Anh.", "grammarId": null },
-    { "id": "b08", "chunks": ["Let's go over", "the words", "we learnt", "last week"], "vi": "Chúng ta cùng ôn lại những từ đã học tuần trước nhé.", "grammarId": "g02" }
+    { "id": "b08", "chunks": ["Let's go over", "the words", "we learnt", "last week"], "vi": "Chúng ta cùng ôn lại những từ đã học tuần trước nhé.", "grammarId": "g02" },
+    { "id": "b09", "chunks": ["The words", "we borrowed from French", "are still used", "in Vietnamese"], "vi": "Những từ chúng ta mượn từ tiếng Pháp vẫn được dùng trong tiếng Việt.", "grammarId": "g02" },
+    { "id": "b10", "chunks": ["A bilingual person", "is someone", "who can speak", "two languages fluently"], "vi": "Người song ngữ là người có thể nói trôi chảy hai ngôn ngữ.", "grammarId": "g01" }
   ],
   "expand": [
     {
@@ -165,6 +210,35 @@
         { "askVi": "Để làm gì?", "ask": "Why?", "add": "so that I can study abroad" }
       ],
       "full": "I want to become fluent in English so that I can study abroad."
+    },
+    {
+      "id": "x04",
+      "base": "I watch videos.",
+      "steps": [
+        { "askVi": "Video gì?", "ask": "What kind of videos?", "add": "English cooking" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every weekend" },
+        { "askVi": "Để làm gì?", "ask": "Why?", "add": "to pick up new words" }
+      ],
+      "full": "I watch English cooking videos every weekend to pick up new words."
+    },
+    {
+      "id": "x05",
+      "base": "My cousin is an exchange student.",
+      "steps": [
+        { "askVi": "Học ở đâu?", "ask": "Where?", "add": "in Australia" },
+        { "askVi": "Bạn ấy thế nào?", "ask": "What is special about her?", "add": "who speaks English fluently" }
+      ],
+      "full": "My cousin is an exchange student in Australia who speaks English fluently."
+    },
+    {
+      "id": "x06",
+      "base": "I keep a notebook.",
+      "steps": [
+        { "askVi": "Sổ gì?", "ask": "What kind of notebook?", "add": "small vocabulary" },
+        { "askVi": "Em ghi gì vào?", "ask": "What do you write in it?", "add": "where I copy new words" },
+        { "askVi": "Khi nào em xem lại?", "ask": "When do you use it?", "add": "I go over it before tests" }
+      ],
+      "full": "I keep a small vocabulary notebook where I copy new words, and I go over it before tests."
     }
   ],
   "variations": [
@@ -227,6 +301,45 @@
       "keywords": ["variety", "accent", "British", "American"],
       "exampleAnswer": "Yes. British people say \"lift\" but Americans say \"elevator\". Australian English also has a different accent.",
       "expectsReason": false
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Tiếng Anh Anh và tiếng Anh Mỹ",
+      "questions": [
+        "What differences between British English and American English do you know?",
+        "Can you give some words that are different in American and British English?",
+        "Tell me about a word that Americans and British people say differently.",
+        "How is American English different from British English?"
+      ],
+      "keywords": ["American English", "British English", "vocabulary", "say"],
+      "exampleAnswer": "In British English people say \"flat\" and \"holiday\", but in American English they say \"apartment\" and \"vacation\".",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Người em biết nói giỏi ngoại ngữ",
+      "questions": [
+        "Tell me about someone you know who speaks English well.",
+        "Who is the best English speaker you know? What is he or she like?",
+        "Describe a person who has helped you learn English.",
+        "Do you know anyone who can speak more than two languages? Tell me about them."
+      ],
+      "keywords": ["who", "fluent", "bilingual", "practise"],
+      "exampleAnswer": "My cousin Lan, who studies in Singapore, speaks English fluently. She practises every day with friends who come from different countries.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Từ điển giấy hay ứng dụng dịch",
+      "questions": [
+        "Do you prefer a paper dictionary or a translation app? Why?",
+        "Is it a good idea to use a translation app for homework? Why or why not?",
+        "What is the best tool for looking up new words? Why?",
+        "Should students use an English-English dictionary? Why or why not?"
+      ],
+      "keywords": ["dictionary", "translate", "look up", "because"],
+      "exampleAnswer": "I prefer an online dictionary because it is fast and gives example sentences. Translation apps are useful, but they sometimes make mistakes.",
+      "expectsReason": true
     }
   ],
   "independent": [
@@ -339,6 +452,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["fluent", "vocabulary", "speaking", "because"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Động viên bạn trước cuộc thi hùng biện",
+      "contextVi": "Ngày mai Mai, bạn thân của em, sẽ thi hùng biện tiếng Anh cấp trường. Mai rất lo vì sợ quên bài và nói sai. Em gặp Mai sau giờ học.",
+      "aiRole": "Mai, a close friend who is nervous about an English speaking contest",
+      "studentRoleVi": "Học sinh động viên bạn",
+      "goalVi": "Hỏi Mai lo điều gì, cho ít nhất một lời khuyên cụ thể và chúc bạn may mắn bằng cách nói của bài.",
+      "goal": "Ask Mai what worries her, give at least one useful tip and wish her good luck with an expression from the unit.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng một lời chúc may mắn", "words": ["Good luck with", "I wish you all the best of luck", "Fingers crossed", "You'll do great"] },
+        { "kind": "suggestion", "vi": "Cho ít nhất một lời khuyên cụ thể để nói tốt hơn", "words": [] }
+      ],
+      "opener": "I'm so nervous about tomorrow. What if I forget everything on stage?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "I'm also worried about my pronunciation. Some words are really hard.",
+        "That's a good idea. Anything else I can do tonight?",
+        "Thanks. I'll try my best!"
+      ],
+      "tipsVi": ["Khuyên: \"Why don't you practise in front of a mirror?\"", "Kết thúc: \"Good luck with the contest! You'll do great!\""],
+      "keywords": ["good luck", "practise", "pronunciation", "fluent", "You'll do great"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Hỏi nghĩa từ với bạn trao đổi người Mỹ",
+      "contextVi": "Jack, bạn học sinh trao đổi từ New York, hay dùng những từ tiếng Anh Mỹ mà em chưa biết như \"pants\", \"apartment\", \"cookies\". Hai bạn nói chuyện giờ ra chơi.",
+      "aiRole": "Jack, an exchange student from New York",
+      "studentRoleVi": "Học sinh hỏi nghĩa từ và giải thích từ tiếng Việt",
+      "goalVi": "Hỏi nghĩa ít nhất hai từ Jack dùng, rồi giải thích cho Jack một từ tiếng Việt bằng câu có who/which.",
+      "goal": "Ask what at least two of Jack's words mean, then explain one Vietnamese word to Jack with a who or which clause.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng cách hỏi nghĩa hoặc nhờ đánh vần", "words": ["What does", "mean", "What do you mean by", "How do you spell"] },
+        { "kind": "keyword", "vi": "Giải thích bằng mệnh đề quan hệ", "words": ["who", "which", "that"] }
+      ],
+      "opener": "Hey! I left my pants at my apartment, so I'm wearing my gym clothes today. Want some cookies?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Oh, \"pants\"? In American English, pants means trousers. What other words are new to you?",
+        "\"Apartment\" is a flat in British English. Now teach me a Vietnamese word!",
+        "Cool! So what does that word mean exactly?"
+      ],
+      "tipsVi": ["Hỏi: \"What do you mean by 'pants'?\"", "Giải thích: \"Ao dai is a dress which Vietnamese women wear...\""],
+      "keywords": ["mean", "American English", "British English", "which", "who"]
     }
   ]
 }

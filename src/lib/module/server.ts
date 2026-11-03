@@ -6,6 +6,7 @@ import { moduleSchema, type ModuleContent } from "./schema";
 import { buildLesson, nextOpenDay, type HistoryAttempt, type Lesson, type QuizArea, type QuizSet, type Step, type UnitQuestion } from "./plan";
 import { moduleReport, type ModuleReport, type ReportAttempt } from "./report";
 import type { VerifiedAssessment } from "./assessCore";
+import type { ItemReview } from "./items";
 
 /**
  * Phần máy chủ của Learning Module. Đọc bằng client thường (RLS: học sinh chỉ thấy của mình, giáo viên thấy học sinh trong
@@ -272,5 +273,24 @@ export async function moduleToday(studentId: string, grade: number): Promise<Mod
     nextDay: open?.day ?? nextOpenDay(mine.filter((l) => l.status === "completed").map((l) => l.day)),
     started: mine.length > 0,
     inProgress: !!open,
+  };
+}
+
+/**
+ * Kết quả thầy cô duyệt từng mục của một module (RLS: như bảng modules). available = false khi chưa chạy 0011_item_reviews.sql,
+ * để trang vẫn mở được và báo cần chạy file SQL.
+ */
+export async function itemReviews(moduleId: string): Promise<{ available: boolean; reviews: Map<string, ItemReview> }> {
+  const supabase = await createClient();
+  const { data, error } = await supabase
+    .from("module_item_reviews")
+    .select("item_ref, item_hash, status, note, reviewer, reviewed_at")
+    .eq("module_id", moduleId);
+  if (error) return { available: false, reviews: new Map() };
+  return {
+    available: true,
+    reviews: new Map(
+      (data ?? []).map((r) => [r.item_ref, { itemRef: r.item_ref, itemHash: r.item_hash, status: r.status, note: r.note, reviewer: r.reviewer, reviewedAt: r.reviewed_at }]),
+    ),
   };
 }

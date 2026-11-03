@@ -26,7 +26,16 @@
     { "id": "v18", "en": "hands-on", "vi": "thực tiễn, trực tiếp", "ipa": "/ˌhændz ˈɒn/", "ipaFrom": "glossary", "pos": "adj", "example": "We had a hands-on lesson where we built a small robot.", "collocations": ["hands-on experience", "hands-on activities"], "synonyms": ["practical"], "antonyms": ["theoretical"], "src": { "kind": "sgk", "page": 151 } },
     { "id": "v19", "en": "platform", "vi": "nền tảng (công nghệ)", "ipa": "/ˈplætfɔːm/", "ipaFrom": "glossary", "pos": "n", "example": "Our class uses an online learning platform for homework.", "collocations": ["online platform", "learning platform"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 151 } },
     { "id": "v20", "en": "programme", "vi": "lập trình", "ipa": "/ˈprəʊɡræm/", "ipaFrom": "glossary", "pos": "v", "example": "Engineers programme robots to do simple tasks.", "collocations": ["programme a robot", "programme a computer"], "synonyms": ["code"], "antonyms": [], "src": { "kind": "sgk", "page": 151 } },
-    { "id": "v21", "en": "robotic", "vi": "thuộc rô bốt", "ipa": "/rəʊˈbɒtɪk/", "ipaFrom": "glossary", "pos": "adj", "example": "The factory uses robotic arms to build cars.", "collocations": ["robotic arm", "robotic vacuum cleaner"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 151 } }
+    { "id": "v21", "en": "robotic", "vi": "thuộc rô bốt", "ipa": "/rəʊˈbɒtɪk/", "ipaFrom": "glossary", "pos": "adj", "example": "The factory uses robotic arms to build cars.", "collocations": ["robotic arm", "robotic vacuum cleaner"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 151 } },
+    { "id": "v22", "en": "evolution", "vi": "sự tiến hoá, sự phát triển", "ipa": "/ˌiːvəˈluːʃn/", "ipaFrom": "glossary", "pos": "n", "example": "The museum shows the evolution of robots from simple machines to AI.", "collocations": ["the evolution of", "rapid evolution"], "synonyms": ["development"], "antonyms": [], "src": { "kind": "sgk", "page": 151 } },
+    { "id": "v23", "en": "portfolio", "vi": "hồ sơ (năng lực)", "ipa": "/pɔːtˈfəʊliəʊ/", "ipaFrom": "glossary", "pos": "n", "example": "An AI app can help students build a digital portfolio for university applications.", "collocations": ["digital portfolio", "build a portfolio"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 151 } },
+    { "id": "v24", "en": "robot", "vi": "rô bốt, người máy", "ipa": "/ˈrəʊbɒt/", "ipaFrom": "dictionary", "pos": "n", "example": "This robot can answer questions in four languages.", "collocations": ["a talking robot", "a home robot"], "synonyms": ["machine"], "antonyms": [], "src": { "kind": "sgk", "page": 76 } },
+    { "id": "v25", "en": "high-tech", "vi": "công nghệ cao", "ipa": "/ˌhaɪ ˈtek/", "ipaFrom": "dictionary", "pos": "adj", "example": "We visited a high-tech centre with many human-like robots.", "collocations": ["high-tech devices", "a high-tech centre"], "synonyms": [], "antonyms": ["low-tech"], "src": { "kind": "sgk", "page": 76 } },
+    { "id": "v26", "en": "translate", "vi": "dịch (ngôn ngữ)", "ipa": "/trænsˈleɪt/", "ipaFrom": "dictionary", "pos": "v", "example": "AI apps can translate a whole page in a few seconds.", "collocations": ["translate into English", "translate from Vietnamese"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 76 } },
+    { "id": "v27", "en": "impact", "vi": "tác động, ảnh hưởng", "ipa": "/ˈɪmpækt/", "ipaFrom": "dictionary", "pos": "n", "example": "AI has had a huge impact on the way we study.", "collocations": ["a huge impact", "have an impact on"], "synonyms": ["effect", "influence"], "antonyms": [], "src": { "kind": "sgk", "page": 80 } },
+    { "id": "v28", "en": "virtual", "vi": "ảo", "ipa": "/ˈvɜːtʃuəl/", "ipaFrom": "dictionary", "pos": "adj", "example": "A virtual tutor can explain difficult lessons at any time.", "collocations": ["virtual tutor", "virtual tour"], "synonyms": [], "antonyms": ["real"], "src": { "kind": "sgk", "page": 80 } },
+    { "id": "v29", "en": "feedback", "vi": "phản hồi, nhận xét", "ipa": "/ˈfiːdbæk/", "ipaFrom": "dictionary", "pos": "n", "example": "The app gives instant feedback on my pronunciation.", "collocations": ["give feedback", "instant feedback"], "synonyms": ["comments"], "antonyms": [], "src": { "kind": "sgk", "page": 80 } },
+    { "id": "v30", "en": "software", "vi": "phần mềm", "ipa": "/ˈsɒftweə/", "ipaFrom": "dictionary", "pos": "n", "example": "Our school uses software that checks students' writing.", "collocations": ["install software", "learning software"], "synonyms": ["program"], "antonyms": ["hardware"], "src": { "kind": "sgk", "page": 80 } }
   ],
   "grammar": [
     {
@@ -112,6 +121,19 @@
       "sentence": "Sorry for the interruption, but could you repeat that?",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "ending",
+      "focus": "Đuôi -ed trong câu sai khiến bị động: /t/, /d/, /ɪd/",
+      "tipVi": "Trong câu have/get something done, động từ thường có đuôi -ed. Đọc /ɪd/ sau âm /t/, /d/ (upgraded, activated); đọc /t/ sau âm vô thanh /p, k, s, ʃ, tʃ, f/ (fixed, checked); đọc /d/ trong các trường hợp còn lại (repaired, cleaned, installed).",
+      "words": ["repaired", "fixed", "upgraded", "checked", "cleaned", "installed", "activated", "programmed"],
+      "sentence": "I had my laptop upgraded and my phone repaired.",
+      "quiz": [
+        { "prompt": "Which -ed ending is pronounced /ɪd/?", "options": ["activated", "repaired", "checked"], "answer": 0, "explainVi": "activate kết thúc bằng âm /t/ nên -ed đọc /ɪd/; repaired đọc /d/, checked đọc /t/." },
+        { "prompt": "Which -ed ending is pronounced /t/?", "options": ["fixed", "cleaned", "installed"], "answer": 0, "explainVi": "fix kết thúc bằng âm /s/ (trong /ks/) nên -ed đọc /t/; cleaned và installed đọc /d/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -125,7 +147,13 @@
     { "id": "e08", "en": "One advantage of ... is that ...", "vi": "Một ưu điểm của ... là ...", "useVi": "Khi nêu mặt tốt của một công nghệ.", "example": "One advantage of AI is that it gives personalised feedback.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "On the other hand, ...", "vi": "Mặt khác, ...", "useVi": "Khi chuyển sang mặt trái, mặt hạn chế.", "example": "On the other hand, students may stop thinking for themselves.", "src": { "kind": "team", "page": null } },
     { "id": "e10", "en": "I'm worried that ...", "vi": "Mình lo rằng ...", "useVi": "Khi nói về rủi ro hoặc điều mình băn khoăn.", "example": "I'm worried that some apps collect too much personal data.", "src": { "kind": "team", "page": null } },
-    { "id": "e11", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi lịch sự giữ ý kiến của mình trước ý kiến khác.", "example": "I see your point, but AI can also help weak students a lot.", "src": { "kind": "team", "page": null } }
+    { "id": "e11", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi lịch sự giữ ý kiến của mình trước ý kiến khác.", "example": "I see your point, but AI can also help weak students a lot.", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "Can you show me how to ...?", "vi": "Bạn chỉ mình cách ... được không?", "useVi": "Khi nhờ người khác hướng dẫn dùng một thiết bị hay ứng dụng.", "example": "Can you show me how to use voice commands on this phone?", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "First, ... Then, ... Finally, ...", "vi": "Đầu tiên, ... Sau đó, ... Cuối cùng, ...", "useVi": "Khi hướng dẫn các bước sử dụng theo thứ tự.", "example": "First, open the app. Then, say your question. Finally, check the answer.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "Let me explain how it works.", "vi": "Để mình giải thích nó hoạt động thế nào.", "useVi": "Khi bắt đầu giải thích cách một công nghệ hoạt động.", "example": "Let me explain how it works. The robot uses a camera to recognise faces.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "What happens if ...?", "vi": "Chuyện gì xảy ra nếu ...?", "useVi": "Khi hỏi về tình huống có thể xảy ra khi dùng công nghệ.", "example": "What happens if the robot can't understand my question?", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "AI can help us ... by + V-ing ...", "vi": "AI có thể giúp chúng ta ... bằng cách ...", "useVi": "Khi nêu lợi ích cụ thể của AI.", "example": "AI can help us learn faster by giving personalised exercises.", "src": { "kind": "team", "page": null } },
+    { "id": "e17", "en": "We should be careful about ...", "vi": "Chúng ta nên cẩn thận với ...", "useVi": "Khi nhắc đến rủi ro của công nghệ.", "example": "We should be careful about sharing personal data with apps.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["I had", "the robot", "clean", "my room", "this morning"], "vi": "Sáng nay mình đã nhờ rô bốt dọn phòng.", "grammarId": "g01" },
@@ -134,7 +162,10 @@
     { "id": "b04", "chunks": ["We will have", "our homework", "checked", "by AI", "in the future"], "vi": "Trong tương lai, bài tập về nhà của chúng ta sẽ được AI chấm.", "grammarId": "g02" },
     { "id": "b05", "chunks": ["Chatbots can", "answer questions", "in seconds", "because they", "analyse data quickly"], "vi": "Hộp trò chuyện có thể trả lời câu hỏi trong vài giây vì chúng phân tích dữ liệu rất nhanh.", "grammarId": null },
     { "id": "b06", "chunks": ["My phone uses", "facial recognition", "to unlock", "the screen"], "vi": "Điện thoại của mình dùng nhận diện khuôn mặt để mở khoá màn hình.", "grammarId": null },
-    { "id": "b07", "chunks": ["I use", "voice commands", "to set alarms", "and play music"], "vi": "Mình dùng lệnh giọng nói để đặt báo thức và mở nhạc.", "grammarId": null }
+    { "id": "b07", "chunks": ["I use", "voice commands", "to set alarms", "and play music"], "vi": "Mình dùng lệnh giọng nói để đặt báo thức và mở nhạc.", "grammarId": null },
+    { "id": "b08", "chunks": ["The teacher", "had the robot", "translate", "the instructions"], "vi": "Cô giáo nhờ rô bốt dịch phần hướng dẫn.", "grammarId": "g01" },
+    { "id": "b09", "chunks": ["I'm going to", "get my computer", "upgraded", "next month"], "vi": "Tháng sau mình sẽ cho nâng cấp máy tính.", "grammarId": "g02" },
+    { "id": "b10", "chunks": ["Our school", "had new learning software", "installed", "last week"], "vi": "Tuần trước trường mình đã cho cài phần mềm học tập mới.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -173,6 +204,26 @@
         { "askVi": "Bằng cách nào?", "ask": "How?", "add": "by giving personalised exercises" }
       ],
       "full": "AI can make learning easier for students who learn slowly by giving personalised exercises."
+    },
+    {
+      "id": "x05",
+      "base": "Virtual reality helps students.",
+      "steps": [
+        { "askVi": "Học gì?", "ask": "Learn what?", "add": "learn history" },
+        { "askVi": "Bằng cách nào?", "ask": "How?", "add": "by taking them back in time" },
+        { "askVi": "Đến đâu?", "ask": "Where to?", "add": "to old cities" }
+      ],
+      "full": "Virtual reality helps students learn history by taking them back in time to old cities."
+    },
+    {
+      "id": "x06",
+      "base": "I had my phone repaired.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "yesterday" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at a shop near my school" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because the screen was broken" }
+      ],
+      "full": "I had my phone repaired yesterday at a shop near my school because the screen was broken."
     }
   ],
   "variations": [
@@ -235,6 +286,45 @@
       "keywords": ["in the future", "have ... done", "advanced", "robots"],
       "exampleAnswer": "In ten years, people will have robots do the delivery and most dangerous jobs will be done by machines.",
       "expectsReason": false
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Hỏi AI hay hỏi thầy cô",
+      "questions": [
+        "When you have a question about homework, do you ask a chatbot or a teacher? Why?",
+        "Is it better to get help from AI or from a real person?",
+        "Why do some students prefer asking teachers instead of chatbots?",
+        "Who gives better explanations: a teacher or an AI tool?"
+      ],
+      "keywords": ["chatbot", "explain", "feedback", "because"],
+      "exampleAnswer": "For quick questions, I ask a chatbot because it answers instantly. But for difficult lessons, I ask my teacher because she understands what I really need.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Thực tế ảo trong giờ học",
+      "questions": [
+        "How could virtual reality be used in lessons?",
+        "Which school subject would be more fun with virtual reality?",
+        "What would you like to explore with a VR headset at school?",
+        "How can VR give students hands-on experiences?"
+      ],
+      "keywords": ["virtual reality", "hands-on", "explore", "history"],
+      "exampleAnswer": "VR would make history lessons more fun. Students could walk around old Hue and see how people lived there, which is a real hands-on experience.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Bảo vệ thông tin cá nhân khi dùng AI",
+      "questions": [
+        "How can people protect their personal information when they use AI apps?",
+        "What should we be careful about when we share data with apps?",
+        "Why is it risky to give apps too much personal information?",
+        "What advice would you give a friend who uses many AI apps?"
+      ],
+      "keywords": ["data", "personal information", "password", "careful"],
+      "exampleAnswer": "We should never share our passwords or home address with apps. Some apps collect data and sell it, so we should read the rules carefully first.",
+      "expectsReason": true
     }
   ],
   "independent": [
@@ -348,6 +438,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["chatbot", "personalised", "data", "because"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Hỏi kỹ sư ở triển lãm công nghệ",
+      "contextVi": "Em tham quan một triển lãm công nghệ. Một kỹ sư đang giới thiệu rô bốt hỗ trợ dạy học và nói rất nhanh. Em muốn ngắt lời lịch sự để hỏi và nhờ giải thích lại điều em chưa hiểu.",
+      "aiRole": "Mr Tuan, an engineer presenting a teaching robot at a technology exhibition",
+      "studentRoleVi": "Học sinh tham quan đặt câu hỏi",
+      "goalVi": "Ngắt lời một cách lịch sự, hỏi ít nhất hai việc rô bốt làm được và nhờ giải thích lại một điểm chưa rõ.",
+      "goal": "Politely interrupt, ask at least two questions about what the robot can do, and ask the engineer to explain one point again.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng cách ngắt lời lịch sự", "words": ["Excuse me", "Sorry for interrupting", "Could I ask"] },
+        { "kind": "example", "vi": "Hỏi ít nhất hai việc rô bốt làm được", "words": [] }
+      ],
+      "opener": "...and this robot can recognise every student's face and voice. It's also capable of marking homework in seconds. Anyway, let's move on to the next part.",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Of course. What would you like to know?",
+        "Good question. It uses data from each student's answers to give personalised exercises. Is that clear?",
+        "Sure. Any other questions before we move on?"
+      ],
+      "tipsVi": ["Ngắt lời lịch sự: Sorry for interrupting, but ...", "Nhờ nói lại: Could you repeat that, please?"],
+      "keywords": ["Excuse me", "interrupting", "facial recognition", "personalised", "capable"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Lên ý tưởng ứng dụng AI cho dự án",
+      "contextVi": "Nhóm em làm dự án thiết kế một ứng dụng AI mới giúp ích cho cuộc sống hằng ngày. Em trao đổi với bạn cùng nhóm để chọn ý tưởng.",
+      "aiRole": "Ngoc, your project partner",
+      "studentRoleVi": "Thành viên nhóm trình bày ý tưởng ứng dụng",
+      "goalVi": "Trình bày ý tưởng ứng dụng: nó làm gì, ai dùng và vì sao mọi người cần nó.",
+      "goal": "Present your app idea: what it does, who would use it, and why people need it.",
+      "requirements": [
+        { "kind": "example", "vi": "Mô tả ít nhất hai chức năng của ứng dụng", "words": [] },
+        { "kind": "reason", "vi": "Giải thích vì sao mọi người cần ứng dụng này", "words": [] }
+      ],
+      "opener": "Our project is due next Friday. Do you have any idea for a new AI app?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Interesting! Who would use the app?",
+        "What can it do exactly? Tell me about its main functions.",
+        "I like it. What should we call our app?"
+      ],
+      "tipsVi": ["Dùng: It can ... / It helps people ... by + V-ing.", "Dùng câu sai khiến: Users can have the app remind them to ..."],
+      "keywords": ["function", "personalised", "voice command", "data", "helps"]
     }
   ]
 }

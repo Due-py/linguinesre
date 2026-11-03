@@ -26,7 +26,17 @@
     { "id": "v18", "en": "table manners", "vi": "phép tắc ăn uống", "ipa": "/ˈteɪbl ˌmænəz/", "ipaFrom": "glossary", "pos": "n", "example": "My parents taught me good table manners when I was small.", "collocations": ["good table manners"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
     { "id": "v19", "en": "admire", "vi": "khâm phục, ngưỡng mộ", "ipa": "/ədˈmaɪə/", "ipaFrom": "glossary", "pos": "v", "example": "Visitors stop to admire the peach blossoms.", "collocations": ["admire the view", "admire the flowers"], "synonyms": ["look at with pleasure"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
     { "id": "v20", "en": "young rice", "vi": "cốm", "ipa": "/jʌŋ raɪs/", "ipaFrom": "glossary", "pos": "n", "example": "In autumn, my grandma buys young rice wrapped in lotus leaves.", "collocations": ["green young rice"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
-    { "id": "v21", "en": "release", "vi": "thả", "ipa": "/rɪˈliːs/", "ipaFrom": "glossary", "pos": "v", "example": "Some families release carp into a river before Tet.", "collocations": ["release carp", "release lanterns"], "synonyms": ["set free"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } }
+    { "id": "v21", "en": "release", "vi": "thả", "ipa": "/rɪˈliːs/", "ipaFrom": "glossary", "pos": "v", "example": "Some families release carp into a river before Tet.", "collocations": ["release carp", "release lanterns"], "synonyms": ["set free"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v22", "en": "acrobatics", "vi": "xiếc, các động tác nhào lộn", "ipa": "/ˌækrəˈbætɪks/", "ipaFrom": "glossary", "pos": "n", "example": "The lion dancers showed amazing acrobatics in front of the shop.", "collocations": ["perform acrobatics"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v23", "en": "bad spirit", "vi": "điều xấu xa, tà ma", "ipa": "/bæd ˈspɪrɪt/", "ipaFrom": "glossary", "pos": "n", "example": "Many people believe that loud drums can chase away bad spirits.", "collocations": ["chase away bad spirits"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v24", "en": "carp", "vi": "con cá chép", "ipa": "/kɑːp/", "ipaFrom": "glossary", "pos": "n", "example": "On the 23rd of the last lunar month, my family releases a carp into the lake.", "collocations": ["release a carp"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v25", "en": "coastal", "vi": "thuộc miền ven biển", "ipa": "/ˈkəʊstl/", "ipaFrom": "glossary", "pos": "adj", "example": "Whale worship is a custom in many coastal villages in central Viet Nam.", "collocations": ["coastal village", "coastal area"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v26", "en": "monk", "vi": "nhà sư", "ipa": "/mʌŋk/", "ipaFrom": "glossary", "pos": "n", "example": "The monks at the pagoda ring the big bell every evening.", "collocations": ["Buddhist monk"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v27", "en": "ancestor", "vi": "tổ tiên", "ipa": "/ˈænsestə/", "ipaFrom": "dictionary", "pos": "n", "example": "We put fruit and flowers on the altar to remember our ancestors.", "collocations": ["worship ancestors"], "synonyms": [], "antonyms": ["descendant"], "src": { "kind": "sgk", "page": 52 } },
+    { "id": "v28", "en": "wedding", "vi": "đám cưới, lễ cưới", "ipa": "/ˈwedɪŋ/", "ipaFrom": "dictionary", "pos": "n", "example": "My aunt wore a red ao dai at her wedding.", "collocations": ["wedding ceremony", "wedding party"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 52 } },
+    { "id": "v29", "en": "lucky money", "vi": "tiền lì xì, tiền mừng tuổi", "ipa": "/ˌlʌki ˈmʌni/", "ipaFrom": "dictionary", "pos": "n", "example": "Children receive lucky money in red envelopes at Tet.", "collocations": ["give lucky money", "receive lucky money"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 51 } },
+    { "id": "v30", "en": "peach blossom", "vi": "hoa đào", "ipa": "/ˌpiːtʃ ˈblɒsəm/", "ipaFrom": "dictionary", "pos": "n", "example": "Families in the north buy peach blossoms to decorate their homes at Tet.", "collocations": ["peach blossom tree"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 50 } },
+    { "id": "v31", "en": "break with tradition", "vi": "làm khác với truyền thống", "ipa": "/ˌbreɪk wɪð trəˈdɪʃn/", "ipaFrom": "dictionary", "pos": "v phr", "example": "This year we broke with tradition and went on a trip during Tet.", "collocations": [], "synonyms": [], "antonyms": ["follow tradition"], "src": { "kind": "sgk", "page": 52 } }
   ],
   "grammar": [
     {
@@ -124,6 +134,18 @@
       "sentence": "You should wait for the host to start eating.",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p05",
+      "kind": "intonation",
+      "focus": "Lên giọng khi ngạc nhiên, quan tâm",
+      "tipVi": "Khi ngạc nhiên hoặc muốn tỏ ra quan tâm, em lên giọng ở cuối: Really? ↗ Đọc \"Interesting!\" với giọng vui, nhấn mạnh âm đầu IN-.",
+      "words": ["Really?", "Interesting!", "I didn't know that."],
+      "sentence": "Really? I didn't know that people release carp at Tet.",
+      "quiz": [
+        { "prompt": "When you are surprised and say \"Really?\", your voice usually ___.", "options": ["goes up", "goes down", "stays flat"], "answer": 0, "explainVi": "Khi ngạc nhiên, ta lên giọng ở cuối: Really? ↗" }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -134,7 +156,15 @@
     { "id": "e05", "en": "It's a tradition in my family to ...", "vi": "Gia đình mình có truyền thống ...", "useVi": "Khi giới thiệu một truyền thống của gia đình.", "example": "It's a tradition in my family to have a big dinner on New Year's Eve.", "src": { "kind": "team", "page": null } },
     { "id": "e06", "en": "In my country, people usually ...", "vi": "Ở nước mình, mọi người thường ...", "useVi": "Khi giới thiệu phong tục cho người nước ngoài.", "example": "In my country, people usually visit relatives during Tet.", "src": { "kind": "team", "page": null } },
     { "id": "e07", "en": "We do this because ...", "vi": "Chúng mình làm vậy vì ...", "useVi": "Khi giải thích ý nghĩa của một phong tục.", "example": "We do this because we want to show respect to our ancestors.", "src": { "kind": "team", "page": null } },
-    { "id": "e08", "en": "You shouldn't ...", "vi": "Bạn không nên ...", "useVi": "Khi khuyên ai tránh làm một việc.", "example": "You shouldn't sweep the floor on the first day of Tet.", "src": { "kind": "team", "page": null } }
+    { "id": "e08", "en": "You shouldn't ...", "vi": "Bạn không nên ...", "useVi": "Khi khuyên ai tránh làm một việc.", "example": "You shouldn't sweep the floor on the first day of Tet.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "Interesting! I didn't know that.", "vi": "Thú vị thật! Mình không biết điều đó.", "useVi": "Khi nghe một thông tin mới và muốn tỏ ra quan tâm.", "example": "Interesting! I didn't know that people release carp at this time.", "src": { "kind": "sgk", "page": 50 } },
+    { "id": "e10", "en": "What are they for?", "vi": "Chúng dùng để làm gì?", "useVi": "Khi hỏi về mục đích của một đồ vật hay một việc làm trong phong tục.", "example": "I see red envelopes everywhere. What are they for?", "src": { "kind": "sgk", "page": 50 } },
+    { "id": "e11", "en": "Could you tell me a bit about ...?", "vi": "Bạn có thể kể cho mình một chút về ... không?", "useVi": "Khi lịch sự nhờ người khác giới thiệu về một phong tục.", "example": "Could you tell me a bit about the Kitchen Gods Day?", "src": { "kind": "sgk", "page": 54 } },
+    { "id": "e12", "en": "I always look forward to ...", "vi": "Mình luôn mong chờ ...", "useVi": "Khi nói về một dịp mình rất thích và chờ đợi.", "example": "I always look forward to the Mid-Autumn Festival.", "src": { "kind": "sgk", "page": 56 } },
+    { "id": "e13", "en": "Make sure you ...", "vi": "Nhớ phải ... nhé.", "useVi": "Khi nhắc ai đó một việc quan trọng cần làm.", "example": "Make sure you greet the oldest people first.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "On this occasion, people ...", "vi": "Vào dịp này, mọi người ...", "useVi": "Khi kể mọi người làm gì trong một ngày lễ hay một dịp đặc biệt.", "example": "On this occasion, people visit their relatives and give lucky money.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "People believe that ...", "vi": "Người ta tin rằng ...", "useVi": "Khi giải thích ý nghĩa hay niềm tin đằng sau một phong tục.", "example": "People believe that the first visitor brings luck for the whole year.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "That's a great way to ...", "vi": "Đó là một cách tuyệt vời để ...", "useVi": "Khi khen một phong tục hay hoạt động vì nó có ích.", "example": "Making banh chung together is a great way to strengthen family bonds.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["It's a tradition", "in my family", "to have a reunion", "on New Year's Eve"], "vi": "Gia đình mình có truyền thống sum họp vào đêm Giao thừa.", "grammarId": null },
@@ -144,7 +174,9 @@
     { "id": "b05", "chunks": ["People hang", "decorative items", "on the bamboo pole", "to chase away bad luck"], "vi": "Người ta treo đồ trang trí lên cây nêu để xua đuổi điều xui.", "grammarId": null },
     { "id": "b06", "chunks": ["It's a good idea", "to hand", "the bowl", "with both hands"], "vi": "Bạn nên đưa bát bằng cả hai tay.", "grammarId": "g02" },
     { "id": "b07", "chunks": ["Don't hit", "your bowl", "with your chopsticks"], "vi": "Đừng gõ đũa vào bát.", "grammarId": "g02" },
-    { "id": "b08", "chunks": ["Family reunions", "are good", "for family bonding"], "vi": "Những buổi sum họp gia đình rất tốt cho sự gắn kết gia đình.", "grammarId": "g01" }
+    { "id": "b08", "chunks": ["Family reunions", "are good", "for family bonding"], "vi": "Những buổi sum họp gia đình rất tốt cho sự gắn kết gia đình.", "grammarId": "g01" },
+    { "id": "b09", "chunks": ["Children", "receive lucky money", "from their grandparents", "at Tet"], "vi": "Trẻ em nhận tiền lì xì từ ông bà vào dịp Tết.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["You shouldn't", "sweep the floor", "on the first day", "of Tet"], "vi": "Bạn không nên quét nhà vào ngày mùng Một Tết.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -175,6 +207,34 @@
         { "askVi": "Ở đâu?", "ask": "Where?", "add": "at school" }
       ],
       "full": "We made colourful star-shaped lanterns at school before the Mid-Autumn Festival."
+    },
+    {
+      "id": "x04",
+      "base": "We make banh chung.",
+      "steps": [
+        { "askVi": "Với ai?", "ask": "Who with?", "add": "with our grandparents" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "two days before Tet" }
+      ],
+      "full": "We make banh chung with our grandparents two days before Tet."
+    },
+    {
+      "id": "x05",
+      "base": "People release carp.",
+      "steps": [
+        { "askVi": "Thả ở đâu?", "ask": "Where?", "add": "into rivers and lakes" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "on the 23rd of the last lunar month" },
+        { "askVi": "Để làm gì?", "ask": "Why?", "add": "to say goodbye to the Kitchen Gods" }
+      ],
+      "full": "People release carp into rivers and lakes on the 23rd of the last lunar month to say goodbye to the Kitchen Gods."
+    },
+    {
+      "id": "x06",
+      "base": "My village holds a boat race.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "on the river near the communal house" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every spring" }
+      ],
+      "full": "My village holds a boat race on the river near the communal house every spring."
     }
   ],
   "variations": [
@@ -184,7 +244,8 @@
       "questions": [
         "What does your family do at a family reunion?",
         "How does your family spend time together on special occasions?",
-        "Tell me about a family gathering you enjoyed."
+        "Tell me about a family gathering you enjoyed.",
+        "Which activities do you enjoy most when your relatives get together?"
       ],
       "keywords": ["family reunion", "cook", "relatives", "family bonding"],
       "exampleAnswer": "At our family reunion, my aunts cook a big meal and the children play games. Everyone talks and laughs a lot.",
@@ -196,7 +257,8 @@
       "questions": [
         "What table manners do Vietnamese children learn?",
         "What should you do and not do at a family meal?",
-        "Which table manners are important in your family?"
+        "Which table manners are important in your family?",
+        "What do children learn to do and not to do at the dinner table?"
       ],
       "keywords": ["table manners", "wait", "both hands", "chopsticks"],
       "exampleAnswer": "We wait for the oldest person to start eating. We also hand bowls with both hands and don't play with our chopsticks.",
@@ -208,7 +270,8 @@
       "questions": [
         "What can festival goers see and do at a local festival?",
         "What happens at a festival in your area?",
-        "What activities do people enjoy at a traditional festival?"
+        "What activities do people enjoy at a traditional festival?",
+        "What did you see the last time you went to a local festival?"
       ],
       "keywords": ["festival goer", "martial arts", "contestant", "admire"],
       "exampleAnswer": "Festival goers can watch martial arts shows, cheer for the contestants in boat races and admire the lanterns.",
@@ -220,7 +283,8 @@
       "questions": [
         "Why should we keep our traditions?",
         "Why are customs important for a family?",
-        "What can young people learn from old customs?"
+        "What can young people learn from old customs?",
+        "Why is it important to keep old customs alive today?"
       ],
       "keywords": ["tradition", "custom", "respect", "family bonding"],
       "exampleAnswer": "Customs connect us with our grandparents and ancestors. They also teach young people to respect others.",
@@ -232,11 +296,51 @@
       "questions": [
         "What advice would you give a foreign visitor during Tet?",
         "What should a tourist know before visiting a Vietnamese family at Tet?",
-        "What shouldn't visitors do when they celebrate Tet with a local family?"
+        "What shouldn't visitors do when they celebrate Tet with a local family?",
+        "Which Tet customs should a foreign guest know about?"
       ],
       "keywords": ["should", "It's a good idea to", "Don't", "lucky money"],
       "exampleAnswer": "It's a good idea to bring a small gift. You should wish everyone good health, and don't say sad things.",
       "expectsReason": false
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Chuẩn bị và đón Tết",
+      "questions": [
+        "What does your family do to get ready for Tet?",
+        "How do Vietnamese people decorate their homes for Tet?",
+        "What are some common customs during Tet?",
+        "What do children look forward to most at Tet?"
+      ],
+      "keywords": ["peach blossom", "lucky money", "decorate", "ancestors"],
+      "exampleAnswer": "We clean the house, buy peach blossoms and make banh chung. Children look forward to lucky money.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Phong tục đón năm mới ở nước khác",
+      "questions": [
+        "How do people in other countries celebrate the New Year?",
+        "Which New Year custom in another country do you find interesting?",
+        "How is Tet different from New Year in the US?",
+        "What is a custom from another country that you would like to try?"
+      ],
+      "keywords": ["custom", "celebrate", "different", "tradition"],
+      "exampleAnswer": "In Thailand, people throw water at each other at New Year. I'd like to try it because it looks fun.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Có nên làm khác truyền thống",
+      "questions": [
+        "Is it OK to break with tradition sometimes? Why?",
+        "Should families keep every old custom? Why?",
+        "Which tradition would you like to change, and why?",
+        "Why do some young people prefer new ways to celebrate festivals?"
+      ],
+      "keywords": ["break with tradition", "keep", "custom", "because"],
+      "exampleAnswer": "I think it's OK sometimes because life changes. But we should keep customs that bring families together.",
+      "expectsReason": true
     }
   ],
   "independent": [
@@ -349,6 +453,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["tradition", "lantern", "should", "because"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Giải thích ngày ông Công ông Táo",
+      "contextVi": "Hôm nay là 23 tháng Chạp. Em đang mang cá chép ra hồ để thả thì gặp Emma, bạn học sinh trao đổi người Úc. Emma rất tò mò về việc em làm.",
+      "aiRole": "Emma, an exchange student from Australia",
+      "studentRoleVi": "Học sinh Việt Nam giải thích phong tục",
+      "goalVi": "Giải thích cho Emma em đang làm gì và vì sao người Việt có phong tục này.",
+      "goal": "Explain to Emma what you are doing and why Vietnamese people follow this custom.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do của phong tục (because..., people believe that...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["carp", "release", "custom", "tradition", "worship", "offering"] }
+      ],
+      "opener": "Hi! Why are you carrying a fish in a plastic bag? Are you going to cook it?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Oh, really? Why do people do that?",
+        "Interesting! Do people do anything else on this day?",
+        "Thanks for telling me. Can I come with you to the lake?"
+      ],
+      "tipsVi": ["Bắt đầu bằng \"It's a custom in Viet Nam to...\"", "Giải thích với \"People believe that...\" hoặc \"because...\""],
+      "keywords": ["carp", "release", "custom", "Kitchen Gods", "because"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Ý nghĩa của tiền lì xì",
+      "contextVi": "Sau Tết, em họ của em khoe nhận được rất nhiều tiền lì xì và muốn tiêu hết vào trò chơi điện tử. Em muốn giúp em họ hiểu ý nghĩa của phong tục lì xì.",
+      "aiRole": "Bao, your ten-year-old cousin",
+      "studentRoleVi": "Anh/chị họ, người giải thích phong tục",
+      "goalVi": "Giải thích ý nghĩa của tiền lì xì, khuyên em họ dùng tiền hợp lý, và trả lời khi em ấy nghĩ đó chỉ là tiền.",
+      "goal": "Explain the meaning of lucky money, give your cousin advice on using it, and answer him when he says it is just money.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu ý nghĩa, lý do (because..., people believe that...)", "words": [] },
+        { "kind": "suggestion", "vi": "Đưa lời khuyên (you should..., it's a good idea to...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["lucky money", "tradition", "good luck", "custom", "longevity"] }
+      ],
+      "opener": "I got so much lucky money this Tet! I'm going to buy a new game with all of it. Isn't that great?",
+      "stance": "Lucky money is just money. The more I get, the better.",
+      "turns": 5,
+      "fallback": [
+        "Why not? It's my money.",
+        "But lucky money is just money. The more I get, the better, right?",
+        "Hmm, I never thought about that. So what should I do with it?",
+        "OK, I'll save some of it and say thank you to Grandma properly."
+      ],
+      "tipsVi": ["Khi em họ phản đối, trả lời nhẹ nhàng: \"I see, but...\"", "Đưa lời khuyên bằng \"Perhaps you should...\" hoặc \"It's a good idea to...\""],
+      "keywords": ["lucky money", "good luck", "tradition", "should", "because"]
     }
   ]
 }

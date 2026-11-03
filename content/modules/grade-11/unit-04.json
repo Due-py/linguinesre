@@ -25,7 +25,17 @@
     { "id": "v17", "en": "qualify", "vi": "đủ tiêu chuẩn, đủ khả năng", "ipa": "/ˈkwɒlɪfaɪ/", "ipaFrom": "glossary", "pos": "v", "example": "You need good English to qualify for the exchange programme.", "collocations": ["qualify for"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
     { "id": "v18", "en": "support", "vi": "hỗ trợ", "ipa": "/səˈpɔːt/", "ipaFrom": "glossary", "pos": "v", "example": "ASEAN countries support each other after natural disasters.", "collocations": ["support each other", "support the community"], "synonyms": ["help"], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
     { "id": "v19", "en": "development", "vi": "sự phát triển", "ipa": "/dɪˈveləpmənt/", "ipaFrom": "glossary", "pos": "n", "example": "Education is important for the development of a country.", "collocations": ["economic development", "the development of the community"], "synonyms": ["growth"], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
-    { "id": "v20", "en": "celebration", "vi": "lễ kỉ niệm, lễ tổ chức", "ipa": "/ˌselɪˈbreɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "Our school held a celebration for ASEAN Day.", "collocations": ["hold a celebration", "New Year celebrations"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 126 } }
+    { "id": "v20", "en": "celebration", "vi": "lễ kỉ niệm, lễ tổ chức", "ipa": "/ˌselɪˈbreɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "Our school held a celebration for ASEAN Day.", "collocations": ["hold a celebration", "New Year celebrations"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v21", "en": "honour", "vi": "thể hiện sự kính trọng, tôn vinh", "ipa": "/ˈɒnə/", "ipaFrom": "glossary", "pos": "v", "example": "The ceremony honours young volunteers who help their communities.", "collocations": ["honour someone", "be honoured"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v22", "en": "live-stream", "vi": "phát sóng trực tuyến", "ipa": "/ˈlaɪv striːm/", "ipaFrom": "glossary", "pos": "v", "example": "Our school will live-stream the ASEAN culture show on its website.", "collocations": ["live-stream an event"], "synonyms": ["broadcast"], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v23", "en": "politics", "vi": "chính trị", "ipa": "/ˈpɒlətɪks/", "ipaFrom": "glossary", "pos": "n", "example": "ASEAN members work together on politics, the economy and culture.", "collocations": ["world politics", "regional politics"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v24", "en": "propose", "vi": "đề xuất", "ipa": "/prəˈpəʊz/", "ipaFrom": "glossary", "pos": "v", "example": "Our group proposed a clean-up project for the local park.", "collocations": ["propose an idea", "propose a project"], "synonyms": ["suggest"], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v25", "en": "relation", "vi": "mối quan hệ", "ipa": "/rɪˈleɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "Viet Nam has good relations with other ASEAN countries.", "collocations": ["good relations", "build relations"], "synonyms": ["relationship"], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v26", "en": "representative", "vi": "người đại diện", "ipa": "/ˌreprɪˈzentətɪv/", "ipaFrom": "glossary", "pos": "n", "example": "Two students were chosen as representatives of our school at the youth forum.", "collocations": ["a student representative"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v27", "en": "strengthen", "vi": "tăng cường, đẩy mạnh", "ipa": "/ˈstreŋkθn/", "ipaFrom": "glossary", "pos": "v", "example": "Exchange programmes help strengthen friendship between ASEAN countries.", "collocations": ["strengthen relations", "strengthen friendship"], "synonyms": [], "antonyms": ["weaken"], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v28", "en": "theme", "vi": "chủ đề", "ipa": "/θiːm/", "ipaFrom": "dictionary", "pos": "n", "example": "This year's themes include education, health and the environment.", "collocations": ["the main theme"], "synonyms": ["topic"], "antonyms": [], "src": { "kind": "sgk", "page": 42 } },
+    { "id": "v29", "en": "unforgettable", "vi": "không thể nào quên", "ipa": "/ˌʌnfəˈɡetəbl/", "ipaFrom": "dictionary", "pos": "adj", "example": "Volunteering in Laos was an unforgettable experience for my cousin.", "collocations": ["an unforgettable experience"], "synonyms": ["memorable"], "antonyms": [], "src": { "kind": "sgk", "page": 43 } },
+    { "id": "v30", "en": "participate", "vi": "tham gia", "ipa": "/pɑːˈtɪsɪpeɪt/", "ipaFrom": "dictionary", "pos": "v", "example": "More than two hundred young people participated in the programme.", "collocations": ["participate in"], "synonyms": ["take part in"], "antonyms": [], "src": { "kind": "sgk", "page": 42 } }
   ],
   "grammar": [
     {
@@ -111,6 +121,19 @@
       "sentence": "You did a really good job!",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "ending",
+      "focus": "Cách đọc đuôi -s/-es: /s/, /z/, /ɪz/",
+      "tipVi": "Đuôi -s/-es đọc /s/ sau âm vô thanh /p/, /t/, /k/, /f/, /θ/ (events, projects); đọc /ɪz/ sau /s/, /z/, /ʃ/, /tʃ/, /dʒ/ (exchanges, languages); đọc /z/ sau các âm hữu thanh còn lại (countries, skills, members).",
+      "words": ["events", "projects", "countries", "skills", "members", "exchanges", "languages"],
+      "sentence": "ASEAN countries organise many cultural exchanges and youth events.",
+      "quiz": [
+        { "prompt": "How is the -s in \"skills\" pronounced?", "options": ["/z/", "/s/", "/ɪz/"], "answer": 0, "explainVi": "skill kết thúc bằng âm hữu thanh /l/ nên -s đọc /z/." },
+        { "prompt": "In which word is the ending pronounced /ɪz/?", "options": ["exchanges", "events", "members"], "answer": 0, "explainVi": "exchange kết thúc bằng /dʒ/ nên -es đọc /ɪz/: /ɪksˈtʃeɪndʒɪz/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -125,7 +148,11 @@
     { "id": "e09", "en": "I'm grateful for the kind words.", "vi": "Mình rất biết ơn những lời tốt đẹp.", "useVi": "Khi đáp lại lời khen trang trọng, ví dụ với thầy cô.", "example": "I'm grateful for the kind words, Ms Pang.", "src": { "kind": "sgk", "page": 49 } },
     { "id": "e10", "en": "I'm (so) pleased to hear that.", "vi": "Mình (rất) vui khi nghe vậy.", "useVi": "Khi vui vì được khen.", "example": "I'm so pleased to hear that you liked our show.", "src": { "kind": "sgk", "page": 49 } },
     { "id": "e11", "en": "I'm interested in ..., so I'd like to ...", "vi": "Mình quan tâm đến ..., nên mình muốn ...", "useVi": "Khi giới thiệu sở thích và mong muốn của mình.", "example": "I'm interested in other cultures, so I'd like to join the exchange programme.", "src": { "kind": "team", "page": null } },
-    { "id": "e12", "en": "I suggest ... because ...", "vi": "Mình đề xuất ... vì ...", "useVi": "Khi đưa ra một ý tưởng cho nhóm hoặc thầy cô.", "example": "I suggest holding a food fair because everyone loves trying new dishes.", "src": { "kind": "team", "page": null } }
+    { "id": "e12", "en": "I suggest ... because ...", "vi": "Mình đề xuất ... vì ...", "useVi": "Khi đưa ra một ý tưởng cho nhóm hoặc thầy cô.", "example": "I suggest holding a food fair because everyone loves trying new dishes.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "I'm good at ...", "vi": "Mình giỏi ...", "useVi": "Khi giới thiệu điểm mạnh, kỹ năng của mình.", "example": "I'm good at public speaking, so I can present our project.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "I'd like to apply for ...", "vi": "Mình muốn đăng ký, ứng tuyển ...", "useVi": "Khi bày tỏ mong muốn tham gia một chương trình.", "example": "I'd like to apply for the ASEAN Youth Volunteer Programme.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "Taking part in ... helps me ...", "vi": "Tham gia ... giúp mình ...", "useVi": "Khi nói về lợi ích của một hoạt động (danh động từ làm chủ ngữ).", "example": "Taking part in school clubs helps me build my confidence.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "Congratulations on ...!", "vi": "Chúc mừng bạn đã ...!", "useVi": "Khi chúc mừng thành công của ai đó.", "example": "Congratulations on winning the English speaking contest!", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["Taking part in", "volunteer work", "helps students", "develop new skills"], "vi": "Tham gia công việc tình nguyện giúp học sinh phát triển các kỹ năng mới.", "grammarId": "g01" },
@@ -135,7 +162,9 @@
     { "id": "b05", "chunks": ["Would you mind", "helping me", "with my proposal?"], "vi": "Bạn có phiền giúp mình viết bản đề xuất không?", "grammarId": "g02" },
     { "id": "b06", "chunks": ["Viet Nam", "joined ASEAN", "in 1995"], "vi": "Việt Nam gia nhập ASEAN năm 1995.", "grammarId": null },
     { "id": "b07", "chunks": ["She is interested in", "promoting", "Vietnamese food", "to foreign visitors"], "vi": "Bạn ấy quan tâm đến việc quảng bá món ăn Việt Nam tới du khách nước ngoài.", "grammarId": "g02" },
-    { "id": "b08", "chunks": ["Leadership skills", "are useful", "for young volunteers"], "vi": "Kỹ năng lãnh đạo rất có ích cho các tình nguyện viên trẻ.", "grammarId": null }
+    { "id": "b08", "chunks": ["Leadership skills", "are useful", "for young volunteers"], "vi": "Kỹ năng lãnh đạo rất có ích cho các tình nguyện viên trẻ.", "grammarId": null },
+    { "id": "b09", "chunks": ["Taking part in", "volunteer projects", "helps young people", "develop leadership skills"], "vi": "Tham gia các dự án tình nguyện giúp người trẻ phát triển kỹ năng lãnh đạo.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["Mai", "enjoys", "learning about", "the cultures of", "other ASEAN countries"], "vi": "Mai thích tìm hiểu về văn hóa của các nước ASEAN khác.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -175,6 +204,24 @@
         { "askVi": "Cho ai?", "ask": "For whom?", "add": "for students in other ASEAN countries" }
       ],
       "full": "We should promote Vietnamese culture by making short videos for students in other ASEAN countries."
+    },
+    {
+      "id": "x05",
+      "base": "Learning languages is useful.",
+      "steps": [
+        { "askVi": "Ngôn ngữ nào?", "ask": "Which languages?", "add": "like Thai or Malay" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it helps us make friends in the region" }
+      ],
+      "full": "Learning languages like Thai or Malay is useful because it helps us make friends in the region."
+    },
+    {
+      "id": "x06",
+      "base": "I suggest organising a festival.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at our school" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because many students want to try ASEAN food" }
+      ],
+      "full": "I suggest organising a festival at our school because many students want to try ASEAN food."
     }
   ],
   "variations": [
@@ -248,6 +295,32 @@
       ],
       "keywords": ["promote", "traditional", "food", "festival"],
       "exampleAnswer": "I would show them our street food and take them to a water puppet show.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Tham gia chương trình trao đổi học sinh ASEAN",
+      "questions": [
+        "Would you like to take part in a student exchange in another ASEAN country? Why?",
+        "Which ASEAN country would you choose for an exchange programme, and why?",
+        "What would you hope to learn from a cultural exchange?",
+        "Why might an exchange programme be useful for you?"
+      ],
+      "keywords": ["cultural exchange", "eye-opening", "take part in", "experience"],
+      "exampleAnswer": "I'd love to join an exchange in Singapore because it would be an eye-opening experience, and I could practise English every day.",
+      "expectsReason": true
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Một lần em được khen",
+      "questions": [
+        "Tell me about a time someone complimented you.",
+        "What is the nicest compliment you have ever received?",
+        "When did someone last praise your work? What did they say?",
+        "How do you feel when people compliment you?"
+      ],
+      "keywords": ["compliment", "proud", "appreciate", "presentation"],
+      "exampleAnswer": "Last month my teacher said my presentation about Laos was excellent. I said, \"Thank you, that means a lot to me,\" and I felt really proud.",
       "expectsReason": false
     }
   ],
@@ -361,6 +434,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["cultural exchange", "sharing", "friendship", "because", "I suggest"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Phỏng vấn tham gia chương trình tình nguyện",
+      "contextVi": "Em nộp đơn tham gia Chương trình Tình nguyện Thanh niên ASEAN. Hôm nay em có buổi phỏng vấn ngắn qua mạng với cô điều phối viên.",
+      "aiRole": "Ms Pang, a programme coordinator interviewing applicants",
+      "studentRoleVi": "Học sinh ứng tuyển làm tình nguyện viên",
+      "goalVi": "Trả lời câu hỏi phỏng vấn: giới thiệu bản thân, nói về một kỹ năng của em và lý do em muốn tham gia.",
+      "goal": "Answer the interview questions: introduce yourself, talk about one of your skills, and explain why you want to join the programme.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do muốn tham gia (because... / I'd like to...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["volunteer", "leadership skills", "community", "qualify", "take part in"] }
+      ],
+      "opener": "Good afternoon! Thank you for applying to the ASEAN Youth Volunteer Programme. Could you tell me a little about yourself?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Nice to meet you. What skills do you have that could help our team?",
+        "That's useful. Why do you want to take part in the programme?",
+        "Thank you. We'll email you the results next week. Good luck!"
+      ],
+      "tipsVi": ["Dùng danh động từ: \"I enjoy working with...\", \"Helping others makes me happy.\"", "Nói lý do bằng because hoặc I'd like to..."],
+      "keywords": ["volunteer", "skill", "take part in", "because", "community"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Live-stream Ngày hội văn hóa ASEAN",
+      "contextVi": "Lớp em tổ chức Ngày hội văn hóa ASEAN. Em muốn live-stream sự kiện để học sinh trường bạn ở Lào và Campuchia cùng xem. Lớp trưởng thấy việc này tốn công và không cần thiết.",
+      "aiRole": "Duc, the class monitor who thinks live-streaming is unnecessary",
+      "studentRoleVi": "Thành viên ban tổ chức, người đề xuất live-stream sự kiện",
+      "goalVi": "Đề xuất live-stream sự kiện, nêu lợi ích, đưa ví dụ và thuyết phục Đức khi bạn phản đối.",
+      "goal": "Propose live-streaming the ASEAN Culture Day, explain the benefits with an example, and persuade Duc when he disagrees.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất ý tưởng (I suggest... / How about...?)", "words": [] },
+        { "kind": "reason", "vi": "Nêu ít nhất hai lợi ích", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["live-stream", "cultural exchange", "promote", "strengthen", "relation"] }
+      ],
+      "opener": "OK, everything is almost ready for our ASEAN Culture Day. Do you have any other ideas?",
+      "stance": "Live-streaming takes a lot of work, and nobody in other countries will watch it. It's a waste of time.",
+      "turns": 5,
+      "fallback": [
+        "Live-stream it? Why should we do that?",
+        "But it takes a lot of work, and I don't think anyone in other countries will watch it.",
+        "Hmm, that's a good point. Who will be responsible for the camera and the Internet?",
+        "OK, let's try it. I'll ask our teacher tomorrow."
+      ],
+      "tipsVi": ["Bắt đầu đề xuất: \"I suggest live-streaming... because...\"", "Khi Đức phản đối: \"I see your point, but...\""],
+      "keywords": ["live-stream", "cultural exchange", "promote", "I suggest", "because"]
     }
   ]
 }

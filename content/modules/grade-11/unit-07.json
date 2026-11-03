@@ -24,7 +24,18 @@
     { "id": "v16", "en": "institution", "vi": "cơ sở, viện (đào tạo)", "ipa": "/ˌɪnstɪˈtjuːʃn/", "ipaFrom": "glossary", "pos": "n", "example": "There are many training institutions in big cities.", "collocations": ["educational institution", "training institution"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
     { "id": "v17", "en": "formal", "vi": "chính quy, có hệ thống", "ipa": "/ˈfɔːml/", "ipaFrom": "glossary", "pos": "adj", "example": "He has no formal training, but he is a great cook.", "collocations": ["formal education", "formal training"], "synonyms": [], "antonyms": ["informal"], "src": { "kind": "sgk", "page": 129 } },
     { "id": "v18", "en": "brochure", "vi": "ấn phẩm quảng cáo, giới thiệu", "ipa": "/ˈbrəʊʃə/", "ipaFrom": "glossary", "pos": "n", "example": "I read the school brochure to learn about its courses.", "collocations": ["school brochure", "read a brochure"], "synonyms": ["leaflet"], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
-    { "id": "v19", "en": "manage", "vi": "cố gắng (làm được việc gì đó)", "ipa": "/ˈmænɪdʒ/", "ipaFrom": "glossary", "pos": "v", "example": "She managed to pass the exam after a lot of hard work.", "collocations": ["manage to do something"], "synonyms": ["succeed in"], "antonyms": ["fail"], "src": { "kind": "sgk", "page": 129 } }
+    { "id": "v19", "en": "manage", "vi": "cố gắng (làm được việc gì đó)", "ipa": "/ˈmænɪdʒ/", "ipaFrom": "glossary", "pos": "v", "example": "She managed to pass the exam after a lot of hard work.", "collocations": ["manage to do something"], "synonyms": ["succeed in"], "antonyms": ["fail"], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v20", "en": "sixth-form college", "vi": "trường cho học sinh 16–19 tuổi học chương trình A-level (ở Anh)", "ipa": "/ˈsɪksθ ˌfɔːm ˈkɒlɪdʒ/", "ipaFrom": "glossary", "pos": "n", "example": "In the UK, many students go to a sixth-form college before university.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v21", "en": "regret", "vi": "hối tiếc", "ipa": "/rɪˈɡret/", "ipaFrom": "dictionary", "pos": "v", "example": "She regrets not studying harder for the entrance exam.", "collocations": ["regret doing something", "deeply regret"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 76 } },
+    { "id": "v22", "en": "education fair", "vi": "ngày hội tư vấn giáo dục, tuyển sinh", "ipa": "/ˌedʒuˈkeɪʃn feə/", "ipaFrom": "dictionary", "pos": "n", "example": "At the education fair, I talked to people from five universities.", "collocations": ["attend an education fair"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 76 } },
+    { "id": "v23", "en": "hands-on experience", "vi": "kinh nghiệm thực tế", "ipa": "/ˌhændz ɒn ɪkˈspɪəriəns/", "ipaFrom": "dictionary", "pos": "np", "example": "Apprentices get hands-on experience in real workshops.", "collocations": ["gain hands-on experience"], "synonyms": ["practical experience"], "antonyms": [], "src": { "kind": "sgk", "page": 79 } },
+    { "id": "v24", "en": "wage", "vi": "tiền công", "ipa": "/weɪdʒ/", "ipaFrom": "dictionary", "pos": "n", "example": "Apprentices earn a small wage while they learn the trade.", "collocations": ["earn a wage", "a low wage"], "synonyms": ["pay"], "antonyms": [], "src": { "kind": "sgk", "page": 79 } },
+    { "id": "v25", "en": "salary", "vi": "tiền lương", "ipa": "/ˈsæləri/", "ipaFrom": "dictionary", "pos": "n", "example": "A good degree can help you get a job with a higher salary.", "collocations": ["a high salary", "earn a salary"], "synonyms": ["income"], "antonyms": [], "src": { "kind": "sgk", "page": 79 } },
+    { "id": "v26", "en": "job market", "vi": "thị trường việc làm", "ipa": "/ˈdʒɒb ˌmɑːkɪt/", "ipaFrom": "dictionary", "pos": "np", "example": "Practical skills give you an advantage in the job market.", "collocations": ["enter the job market"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 79 } },
+    { "id": "v27", "en": "career", "vi": "sự nghiệp, nghề nghiệp", "ipa": "/kəˈrɪə/", "ipaFrom": "dictionary", "pos": "n", "example": "My sister wants a career in medicine.", "collocations": ["career options", "a successful career"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 79 } },
+    { "id": "v28", "en": "part-time", "vi": "bán thời gian", "ipa": "/ˌpɑːt ˈtaɪm/", "ipaFrom": "dictionary", "pos": "adj", "example": "Many university students have part-time jobs in cafés.", "collocations": ["a part-time job", "work part-time"], "synonyms": [], "antonyms": ["full-time"], "src": { "kind": "sgk", "page": 79 } },
+    { "id": "v29", "en": "practical skills", "vi": "kỹ năng thực hành", "ipa": "/ˌpræktɪkl ˈskɪlz/", "ipaFrom": "dictionary", "pos": "np", "example": "Vocational courses focus on practical skills for a specific job.", "collocations": ["develop practical skills"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 80 } },
+    { "id": "v30", "en": "duration", "vi": "thời gian kéo dài (của khóa học)", "ipa": "/djuˈreɪʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "The duration of most vocational courses is less than two years.", "collocations": ["the duration of the course"], "synonyms": ["length"], "antonyms": [], "src": { "kind": "sgk", "page": 80 } }
   ],
   "grammar": [
     {
@@ -113,6 +124,19 @@
         { "prompt": "Where is the main stress in \"academic\" /ˌækəˈdemɪk/?", "options": ["the first syllable", "the second syllable", "the third syllable"], "answer": 2, "explainVi": "Dấu ˈ đứng trước \"dem\", là âm tiết thứ ba." }
       ],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "sound",
+      "focus": "Âm /dʒ/",
+      "tipVi": "/dʒ/ bật mạnh từ đầu lưỡi chạm lợi trên, môi hơi tròn và đưa ra trước. Âm này có thể viết là j, g hoặc dge: job, college, knowledge, manage, wage.",
+      "words": ["job", "college", "knowledge", "manage", "wage", "major"],
+      "sentence": "James managed to get a job after college.",
+      "quiz": [
+        { "prompt": "Which word does NOT have the sound /dʒ/?", "options": ["degree", "college", "knowledge"], "answer": 0, "explainVi": "degree /dɪˈɡriː/ có âm /ɡ/; college /ˈkɒlɪdʒ/ và knowledge /ˈnɒlɪdʒ/ có âm /dʒ/." },
+        { "prompt": "Which letters make the /dʒ/ sound in \"knowledge\"?", "options": ["dge", "kn", "ow"], "answer": 0, "explainVi": "Trong knowledge /ˈnɒlɪdʒ/, cụm dge đọc là /dʒ/; kn đọc là /n/ (k câm)." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -126,7 +150,12 @@
     { "id": "e08", "en": "I couldn't agree more.", "vi": "Mình hoàn toàn đồng ý.", "useVi": "Khi rất đồng ý với ý kiến của người khác.", "example": "Vocational courses are cheaper? I couldn't agree more.", "src": { "kind": "sgk", "page": 80 } },
     { "id": "e09", "en": "So, we've decided ...", "vi": "Vậy là chúng ta đã quyết định ...", "useVi": "Khi tóm tắt để kết thúc một cuộc thảo luận.", "example": "So, we've decided on three main benefits of apprenticeships.", "src": { "kind": "sgk", "page": 81 } },
     { "id": "e10", "en": "It was a very useful discussion.", "vi": "Đó là một cuộc thảo luận rất bổ ích.", "useVi": "Khi kết thúc cuộc thảo luận một cách lịch sự.", "example": "Thanks, everyone. It was a very useful discussion.", "src": { "kind": "sgk", "page": 81 } },
-    { "id": "e11", "en": "I'm hoping to ...", "vi": "Mình đang hy vọng sẽ ...", "useVi": "Khi nói về dự định, mong muốn trong tương lai.", "example": "I'm hoping to study engineering at university.", "src": { "kind": "sgk", "page": 76 } }
+    { "id": "e11", "en": "I'm hoping to ...", "vi": "Mình đang hy vọng sẽ ...", "useVi": "Khi nói về dự định, mong muốn trong tương lai.", "example": "I'm hoping to study engineering at university.", "src": { "kind": "sgk", "page": 76 } },
+    { "id": "e12", "en": "Shall I come ...?", "vi": "Em đến vào ... được không ạ?", "useVi": "Khi đề xuất thời gian đến gặp ai đó.", "example": "Shall I come to your office at 3 p.m. on Friday?", "src": { "kind": "sgk", "page": 83 } },
+    { "id": "e13", "en": "Could I meet you ...?", "vi": "Em có thể gặp thầy/cô vào ... không ạ?", "useVi": "Khi xin một cuộc hẹn một cách lịch sự.", "example": "Could I meet you on Thursday afternoon to ask about the course?", "src": { "kind": "sgk", "page": 83 } },
+    { "id": "e14", "en": "OK, I'll see you (next week).", "vi": "Vâng, hẹn gặp ... (tuần sau).", "useVi": "Khi đồng ý với thời gian hẹn.", "example": "OK, I'll see you next Monday at around 3 p.m.", "src": { "kind": "sgk", "page": 83 } },
+    { "id": "e15", "en": "We've agreed to ...", "vi": "Chúng ta đã thống nhất ...", "useVi": "Khi tóm tắt điều cả nhóm đã thống nhất để kết thúc thảo luận.", "example": "We've agreed to present three benefits of vocational training.", "src": { "kind": "sgk", "page": 81 } },
+    { "id": "e16", "en": "That's all we have today.", "vi": "Hôm nay chúng ta dừng ở đây.", "useVi": "Khi kết thúc buổi thảo luận hoặc cuộc họp.", "example": "That's all we have today. Thanks for your ideas, everyone.", "src": { "kind": "sgk", "page": 81 } }
   ],
   "build": [
     { "id": "b01", "chunks": ["Having finished", "grade 12", "my sister went", "to a vocational school"], "vi": "Học xong lớp 12, chị mình vào học một trường nghề.", "grammarId": "g02" },
@@ -136,7 +165,9 @@
     { "id": "b05", "chunks": ["A vocational school", "is a good choice", "for students who", "like practical work"], "vi": "Trường nghề là lựa chọn tốt cho những bạn thích công việc thực hành.", "grammarId": null },
     { "id": "b06", "chunks": ["Not having read", "the brochure", "she didn't know", "about the course"], "vi": "Vì chưa đọc tờ giới thiệu, bạn ấy không biết về khóa học.", "grammarId": "g02" },
     { "id": "b07", "chunks": ["Many school-leavers", "want to get", "a bachelor's degree", "at university"], "vi": "Nhiều học sinh tốt nghiệp muốn lấy bằng cử nhân ở đại học.", "grammarId": null },
-    { "id": "b08", "chunks": ["My cousin", "remembers having visited", "an education fair", "in grade 11"], "vi": "Anh họ mình nhớ đã đi một hội chợ giáo dục hồi lớp 11.", "grammarId": "g01" }
+    { "id": "b08", "chunks": ["My cousin", "remembers having visited", "an education fair", "in grade 11"], "vi": "Anh họ mình nhớ đã đi một hội chợ giáo dục hồi lớp 11.", "grammarId": "g01" },
+    { "id": "b09", "chunks": ["Having finished", "the course,", "he", "found a job", "in a hotel"], "vi": "Học xong khóa học, anh ấy tìm được việc ở một khách sạn.", "grammarId": "g02" },
+    { "id": "b10", "chunks": ["She", "regrets", "having chosen", "the wrong course"], "vi": "Cô ấy hối tiếc vì đã chọn sai khóa học.", "grammarId": "g01" }
   ],
   "expand": [
     {
@@ -175,6 +206,24 @@
         { "askVi": "Vì sao?", "ask": "Why?", "add": "because they can start working sooner" }
       ],
       "full": "Vocational courses are useful for students who like hands-on work because they can start working sooner."
+    },
+    {
+      "id": "x05",
+      "base": "I want to get hands-on experience.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in a local garage" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "during the summer holiday" }
+      ],
+      "full": "I want to get hands-on experience in a local garage during the summer holiday."
+    },
+    {
+      "id": "x06",
+      "base": "My sister earns a wage.",
+      "steps": [
+        { "askVi": "Làm công việc gì?", "ask": "Doing what?", "add": "as an apprentice hairdresser" },
+        { "askVi": "Điều đó giúp gì?", "ask": "What does it help with?", "add": "so she can pay for her own course" }
+      ],
+      "full": "My sister earns a wage as an apprentice hairdresser, so she can pay for her own course."
     }
   ],
   "variations": [
@@ -237,6 +286,45 @@
       "keywords": ["mechanic", "trained", "having finished", "professional"],
       "exampleAnswer": "My uncle is a mechanic. Having finished a two-year vocational course, he opened his own repair shop.",
       "expectsReason": false
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Nghề nghiệp mơ ước của em",
+      "questions": [
+        "What job would you like to do in the future? Why?",
+        "What is your dream career, and why?",
+        "Which job do you think would suit you best? Why?",
+        "What do you want to be after you finish your studies, and why?"
+      ],
+      "keywords": ["career", "qualification", "salary", "because"],
+      "exampleAnswer": "I'd like to be a nurse because I enjoy helping people. I'll need a bachelor's degree, so I'm studying biology hard.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Làm thêm khi đang đi học",
+      "questions": [
+        "Is it a good idea for students to have part-time jobs? Why or why not?",
+        "Would you like to work part-time while you are at university? Why?",
+        "What can students learn from a part-time job?",
+        "What problems can students have if they work while studying?"
+      ],
+      "keywords": ["part-time", "wage", "manage", "experience"],
+      "exampleAnswer": "A part-time job can teach you how to manage money and time, but students shouldn't work too much because studying is still their main job.",
+      "expectsReason": true
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Kinh nghiệm thực tế hay kiến thức sách vở",
+      "questions": [
+        "Which is more useful: hands-on experience or knowledge from books? Why?",
+        "Do you learn better by doing things or by reading about them? Why?",
+        "Why do employers value hands-on experience?",
+        "Why is it important for students to get practical experience before they leave school?"
+      ],
+      "keywords": ["hands-on experience", "practical skills", "academic", "job market"],
+      "exampleAnswer": "I think hands-on experience is more useful because you can practise real tasks. Employers in the job market also prefer people with practical skills.",
+      "expectsReason": true
     }
   ],
   "independent": [
@@ -349,6 +437,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["vocational school", "skills", "because", "if I were you", "qualification"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Hỏi thông tin ở ngày hội tuyển sinh",
+      "contextVi": "Em đến ngày hội tư vấn giáo dục và dừng lại ở gian hàng của một trường nghề dạy nấu ăn. Em muốn hỏi thêm về khóa học.",
+      "aiRole": "Mr Tuan, a representative of a vocational cooking school",
+      "studentRoleVi": "Học sinh lớp 11 tìm hiểu khóa học",
+      "goalVi": "Hỏi ít nhất ba thông tin về khóa học (thời gian học, cách học thực hành, bằng cấp) và cảm ơn khi kết thúc.",
+      "goal": "Ask at least three questions about the course (duration, hands-on practice, qualifications) and close the conversation politely.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["duration", "qualification", "hands-on experience", "apprentice", "professional"] },
+        { "kind": "example", "vi": "Nói một lý do em quan tâm đến khóa học", "words": [] }
+      ],
+      "opener": "Welcome to our stand! We're a vocational school for chefs. What would you like to know?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Our long course lasts two years, and there are also short courses of three months.",
+        "Students spend half of their time cooking in a real restaurant kitchen.",
+        "Here is our brochure. Feel free to call us if you have more questions."
+      ],
+      "tipsVi": ["Hỏi bằng câu hỏi Wh- và xuống giọng ở cuối câu.", "Kết thúc: \"Thank you. It was very useful.\""],
+      "keywords": ["course", "duration", "brochure", "how long", "hands-on experience"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Đi làm thêm quá nhiều giờ",
+      "contextVi": "Anh họ em vừa vào đại học và muốn làm thêm 30 giờ mỗi tuần ở quán cà phê để kiếm tiền. Em lo việc này ảnh hưởng đến việc học của anh.",
+      "aiRole": "Hai, your cousin, a first-year university student",
+      "studentRoleVi": "Em họ quan tâm đến việc học của anh",
+      "goalVi": "Khuyên anh không nên làm thêm quá nhiều, nêu lý do, đưa ví dụ và gợi ý một kế hoạch cân bằng.",
+      "goal": "Advise Hai not to work too many hours: give reasons and an example, and suggest a balanced plan.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu ít nhất hai lý do", "words": [] },
+        { "kind": "suggestion", "vi": "Gợi ý một kế hoạch cân bằng (How about...?)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["part-time", "salary", "degree", "manage", "career"] }
+      ],
+      "opener": "Guess what? I've found a job in a café. I'll work 30 hours a week, so I'll have lots of money!",
+      "stance": "Earning money now is more important than grades. Work experience will help my career more than a degree.",
+      "turns": 5,
+      "fallback": [
+        "Why are you worried? It's only a café job.",
+        "But earning money is more important than grades. Work experience will help my career more.",
+        "Hmm. So how many hours do you think I should work?",
+        "OK, I'll ask my manager if I can work only at weekends."
+      ],
+      "tipsVi": ["Kể ví dụ: \"Having worked too many hours, my friend failed...\"", "Đề xuất: \"How about working only at weekends?\""],
+      "keywords": ["part-time", "degree", "manage", "how about", "because"]
     }
   ]
 }

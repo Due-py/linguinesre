@@ -25,7 +25,18 @@
     { "id": "v17", "en": "appreciate", "vi": "hiểu rõ giá trị, đánh giá cao", "ipa": "/əˈpriːʃieɪt/", "ipaFrom": "glossary", "pos": "v", "example": "After the trip, I appreciate our old pagodas much more.", "collocations": ["appreciate the value of", "appreciate traditional music"], "synonyms": ["value"], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
     { "id": "v18", "en": "crowdfunding", "vi": "việc quyên góp, huy động vốn từ cộng đồng", "ipa": "/ˈkraʊdfʌndɪŋ/", "ipaFrom": "glossary", "pos": "n", "example": "The club used crowdfunding to repair the old gate.", "collocations": ["a crowdfunding campaign"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
     { "id": "v19", "en": "trending", "vi": "theo xu hướng", "ipa": "/ˈtrendɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "A video about our village festival is trending online.", "collocations": ["trending topic", "trending video"], "synonyms": ["popular"], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
-    { "id": "v20", "en": "promote", "vi": "quảng bá, giới thiệu rộng rãi", "ipa": "/prəˈməʊt/", "ipaFrom": "dictionary", "pos": "v", "example": "Our class made a poster to promote the local festival.", "collocations": ["promote cultural heritage", "promote tourism"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 67 } }
+    { "id": "v20", "en": "promote", "vi": "quảng bá, giới thiệu rộng rãi", "ipa": "/prəˈməʊt/", "ipaFrom": "dictionary", "pos": "v", "example": "Our class made a poster to promote the local festival.", "collocations": ["promote cultural heritage", "promote tourism"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 67 } },
+    { "id": "v21", "en": "fine", "vi": "tiền phạt", "ipa": "/faɪn/", "ipaFrom": "glossary", "pos": "n", "example": "Visitors who write on the ancient walls must pay a fine.", "collocations": ["pay a fine", "get a fine"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v22", "en": "state", "vi": "hiện trạng, tình trạng", "ipa": "/steɪt/", "ipaFrom": "glossary", "pos": "n", "example": "Many old pagodas are in a poor state and need repairing.", "collocations": ["in a poor state", "in a good state"], "synonyms": ["condition"], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v23", "en": "valley", "vi": "thung lũng", "ipa": "/ˈvæli/", "ipaFrom": "glossary", "pos": "n", "example": "We took a boat trip through the green valleys of Trang An.", "collocations": ["a green valley", "a deep valley"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v24", "en": "architecture", "vi": "kiến trúc", "ipa": "/ˈɑːkɪtektʃə/", "ipaFrom": "dictionary", "pos": "n", "example": "Hoi An is famous for its old architecture and yellow houses.", "collocations": ["ancient architecture", "traditional architecture"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 66 } },
+    { "id": "v25", "en": "field trip", "vi": "chuyến tham quan thực tế", "ipa": "/ˈfiːld trɪp/", "ipaFrom": "dictionary", "pos": "n", "example": "Our class went on a field trip to the Imperial Citadel of Thang Long.", "collocations": ["go on a field trip", "plan a field trip"], "synonyms": ["excursion"], "antonyms": [], "src": { "kind": "sgk", "page": 66 } },
+    { "id": "v26", "en": "scenic", "vi": "có phong cảnh đẹp", "ipa": "/ˈsiːnɪk/", "ipaFrom": "dictionary", "pos": "adj", "example": "Trang An is a scenic area with rivers, caves and mountains.", "collocations": ["scenic beauty", "a scenic route"], "synonyms": ["picturesque"], "antonyms": [], "src": { "kind": "sgk", "page": 66 } },
+    { "id": "v27", "en": "floating market", "vi": "chợ nổi", "ipa": "/ˌfləʊtɪŋ ˈmɑːkɪt/", "ipaFrom": "dictionary", "pos": "np", "example": "Tourists love buying fruit at the floating markets in the Mekong Delta.", "collocations": ["visit a floating market"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 66 } },
+    { "id": "v28", "en": "recognise", "vi": "công nhận", "ipa": "/ˈrekəɡnaɪz/", "ipaFrom": "dictionary", "pos": "v", "example": "Ha Long Bay was recognised as a World Heritage Site by UNESCO.", "collocations": ["be recognised as"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 66 } },
+    { "id": "v29", "en": "cave", "vi": "hang động", "ipa": "/keɪv/", "ipaFrom": "dictionary", "pos": "n", "example": "Phong Nha has some of the largest caves in the world.", "collocations": ["explore a cave"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 67 } },
+    { "id": "v30", "en": "give voice to", "vi": "bày tỏ, nói lên (ý kiến, mong muốn)", "ipa": "/ˌɡɪv ˈvɔɪs tə/", "ipaFrom": "dictionary", "pos": "phr", "example": "The forum lets students give voice to their ideas about local heritage.", "collocations": [], "synonyms": ["express"], "antonyms": [], "src": { "kind": "sgk", "page": 69 } },
+    { "id": "v31", "en": "tourism", "vi": "du lịch, ngành du lịch", "ipa": "/ˈtʊərɪzəm/", "ipaFrom": "dictionary", "pos": "n", "example": "Tourism brings money to Hoi An, but it can also damage old buildings.", "collocations": ["mass tourism", "promote tourism"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } }
   ],
   "grammar": [
     {
@@ -113,6 +124,19 @@
         { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["historic", "appreciate", "monument"], "answer": 2, "explainVi": "monument /ˈmɒnjumənt/ nhấn âm đầu." }
       ],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "ending",
+      "focus": "Cách đọc đuôi -ed trong các từ về di sản",
+      "tipVi": "Đuôi -ed đọc /d/ sau âm hữu thanh và nguyên âm (preserved, restored); đọc /t/ sau âm vô thanh như /p/, /k/, /s/ (developed, helped); đọc /ɪd/ sau /t/ và /d/ (visited, promoted).",
+      "words": ["preserved", "restored", "recognised", "developed", "helped", "visited", "promoted"],
+      "sentence": "The old houses were restored and visited by many tourists.",
+      "quiz": [
+        { "prompt": "How is the -ed in \"restored\" pronounced?", "options": ["/d/", "/t/", "/ɪd/"], "answer": 0, "explainVi": "restore kết thúc bằng nguyên âm /ɔː/ (hữu thanh) nên -ed đọc /d/." },
+        { "prompt": "In which word is -ed pronounced /ɪd/?", "options": ["promoted", "preserved", "developed"], "answer": 0, "explainVi": "promote kết thúc bằng /t/ nên -ed đọc /ɪd/: /prəˈməʊtɪd/; developed đọc /t/, preserved đọc /d/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -126,7 +150,12 @@
     { "id": "e08", "en": "Really? Why do you think so?", "vi": "Thật à? Sao bạn nghĩ vậy?", "useVi": "Khi muốn tỏ ra quan tâm và khuyến khích người kia nói tiếp.", "example": "Really? Why do you think so? I find folk music quite fun.", "src": { "kind": "sgk", "page": 70 } },
     { "id": "e09", "en": "The best way to preserve ... is to ...", "vi": "Cách tốt nhất để bảo tồn ... là ...", "useVi": "Khi nêu ý kiến về cách giữ gìn di sản.", "example": "The best way to preserve our festivals is to let young people take part.", "src": { "kind": "sgk", "page": 70 } },
     { "id": "e10", "en": "In my opinion, ...", "vi": "Theo mình, ...", "useVi": "Khi nêu ý kiến riêng của mình.", "example": "In my opinion, every student should visit a heritage site.", "src": { "kind": "team", "page": null } },
-    { "id": "e11", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but old buildings tell us about our past.", "src": { "kind": "team", "page": null } }
+    { "id": "e11", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but old buildings tell us about our past.", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "... is really worth visiting.", "vi": "... rất đáng để ghé thăm.", "useVi": "Khi giới thiệu một địa điểm đáng đến.", "example": "The Imperial City in Hue is really worth visiting.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "To preserve ..., we should ...", "vi": "Để bảo tồn ..., chúng ta nên ...", "useVi": "Khi đưa ra giải pháp gìn giữ di sản (to-infinitive chỉ mục đích).", "example": "To preserve folk songs, we should teach them in music lessons.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "That's a great idea!", "vi": "Ý tưởng hay quá!", "useVi": "Khi khuyến khích, tán thành ý kiến của người khác.", "example": "Let's make a short video about our village temple. – That's a great idea!", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "Go on. I'm listening.", "vi": "Bạn nói tiếp đi, mình đang nghe.", "useVi": "Khi khuyến khích người khác nói tiếp, thể hiện sự quan tâm.", "example": "I have an idea for our heritage project. – Go on. I'm listening.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "It is the only ... to ...", "vi": "Đó là ... duy nhất ...", "useVi": "Khi giới thiệu điểm đặc biệt của một di sản (the only + danh từ + to V).", "example": "Our village gate is the only building in the area to survive the big storm.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["We visited", "the old citadel", "to learn about", "our history"], "vi": "Chúng mình đến thăm kinh thành cổ để tìm hiểu về lịch sử.", "grammarId": "g01" },
@@ -136,7 +165,9 @@
     { "id": "b05", "chunks": ["The town needs", "more money", "to restore", "the old temple"], "vi": "Thị trấn cần thêm tiền để tu sửa ngôi đền cổ.", "grammarId": "g01" },
     { "id": "b06", "chunks": ["The best way", "to preserve folk songs", "is to teach them", "at school"], "vi": "Cách tốt nhất để bảo tồn dân ca là dạy chúng ở trường.", "grammarId": "g02" },
     { "id": "b07", "chunks": ["Tourists shouldn't", "write their names", "on ancient walls", "because it damages them"], "vi": "Du khách không nên viết tên lên tường cổ vì việc đó làm hỏng tường.", "grammarId": null },
-    { "id": "b08", "chunks": ["Many young people", "use social media", "to share photos", "of heritage sites"], "vi": "Nhiều bạn trẻ dùng mạng xã hội để chia sẻ ảnh về các khu di sản.", "grammarId": "g01" }
+    { "id": "b08", "chunks": ["Many young people", "use social media", "to share photos", "of heritage sites"], "vi": "Nhiều bạn trẻ dùng mạng xã hội để chia sẻ ảnh về các khu di sản.", "grammarId": "g01" },
+    { "id": "b09", "chunks": ["We went", "to Hoi An", "to see", "its ancient architecture"], "vi": "Chúng mình đến Hội An để ngắm kiến trúc cổ.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["Hue", "was the first site", "in Viet Nam", "to be recognised", "by UNESCO"], "vi": "Huế là di sản đầu tiên ở Việt Nam được UNESCO công nhận.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -175,6 +206,25 @@
         { "askVi": "Để làm gì?", "ask": "Why?", "add": "to enjoy the beautiful landscape" }
       ],
       "full": "Tourists travel around Trang An by boat to enjoy the beautiful landscape."
+    },
+    {
+      "id": "x05",
+      "base": "We cleaned the temple.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last Sunday" },
+        { "askVi": "Để làm gì?", "ask": "What for?", "add": "to prepare for the village festival" }
+      ],
+      "full": "We cleaned the temple last Sunday to prepare for the village festival."
+    },
+    {
+      "id": "x06",
+      "base": "Tourists come to the floating market.",
+      "steps": [
+        { "askVi": "Từ đâu?", "ask": "From where?", "add": "from all over the world" },
+        { "askVi": "Để làm gì?", "ask": "What for?", "add": "to buy fresh fruit" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "early in the morning" }
+      ],
+      "full": "Tourists come to the floating market from all over the world to buy fresh fruit early in the morning."
     }
   ],
   "variations": [
@@ -237,6 +287,45 @@
       "keywords": ["tourists", "damage", "restore", "money"],
       "exampleAnswer": "Tourism brings money to restore old buildings, but too many visitors can damage them and make them dirty.",
       "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Một nơi có phong cảnh đẹp em từng đến",
+      "questions": [
+        "What is the most beautiful place you have ever visited in Viet Nam?",
+        "Tell me about a scenic place you have been to.",
+        "Which natural landscape in Viet Nam impressed you most?",
+        "Where did you go on your most memorable trip, and what did you see?"
+      ],
+      "keywords": ["scenic", "landscape", "valley", "cave"],
+      "exampleAnswer": "I visited Phong Nha last summer. The caves were huge, and the green valleys and rivers were the most beautiful landscape I have ever seen.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Mạng xã hội giúp quảng bá di sản",
+      "questions": [
+        "How can social media help promote our heritage?",
+        "Can young people use the Internet to protect cultural heritage? How?",
+        "What could you post online to make people interested in a heritage site?",
+        "Is social media a good way to teach people about history? Why or why not?"
+      ],
+      "keywords": ["social media", "promote", "trending", "heritage"],
+      "exampleAnswer": "Social media can help because young people spend a lot of time online. We could post short videos about old temples to make them trending.",
+      "expectsReason": true
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Một chuyến tham quan thực tế đáng nhớ",
+      "questions": [
+        "Tell me about a school field trip you enjoyed.",
+        "Where did your class go on your last field trip?",
+        "What did you learn on a school trip to a historical place?",
+        "Which field trip would you like your class to take next year?"
+      ],
+      "keywords": ["field trip", "historical", "monument", "learn"],
+      "exampleAnswer": "Last year my class went on a field trip to the Temple of Literature. We learnt about the first university in Viet Nam and took a lot of photos.",
+      "expectsReason": false
     }
   ],
   "independent": [
@@ -349,6 +438,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["go straight", "turn left", "ancient", "heritage", "because"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Giới thiệu lễ hội quê em",
+      "contextVi": "Một bạn học sinh trao đổi đến từ Úc muốn tìm hiểu về một lễ hội truyền thống ở quê em.",
+      "aiRole": "Emma, an exchange student from Australia",
+      "studentRoleVi": "Bạn Việt Nam giới thiệu lễ hội quê mình",
+      "goalVi": "Giới thiệu một lễ hội: tên, thời gian, các hoạt động chính, và vì sao lễ hội quan trọng.",
+      "goal": "Describe a traditional festival: its name, when it happens, the main activities, and why it is important.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["festive", "folk", "traditional", "heritage", "celebrate"] },
+        { "kind": "reason", "vi": "Nói vì sao lễ hội quan trọng với người dân", "words": [] }
+      ],
+      "opener": "Hi! I'm really interested in Vietnamese culture. Is there a traditional festival in your hometown?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "That sounds interesting! When does it take place?",
+        "What do people do at the festival?",
+        "I'd love to see it one day. Why is it so important to people in your hometown?"
+      ],
+      "tipsVi": ["Liệt kê hoạt động: lên giọng ở từng mục, xuống giọng ở mục cuối.", "Dùng to-infinitive chỉ mục đích: \"People go there to...\""],
+      "keywords": ["festival", "folk", "traditional", "celebrate", "to"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Có nên phạt tiền du khách?",
+      "contextVi": "Ở ngôi đền cổ gần trường, nhiều du khách viết, vẽ lên tường. Ban quản lý muốn phạt tiền những người làm vậy. Bạn em cho rằng phạt tiền là quá khắt khe, chỉ cần đặt biển nhắc nhở.",
+      "aiRole": "Nhi, a classmate who thinks fines are too strict",
+      "studentRoleVi": "Bạn cùng lớp ủng hộ việc phạt tiền",
+      "goalVi": "Bảo vệ ý kiến nên phạt tiền, nêu lý do, đưa ví dụ và đề xuất thêm một cách khác để bảo vệ di tích.",
+      "goal": "Defend the idea of fining visitors who damage the temple, give reasons and an example, and suggest one more way to protect it.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu ít nhất hai lý do", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất thêm một cách bảo vệ di tích", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["fine", "preserve", "restore", "monument", "state"] }
+      ],
+      "opener": "Did you hear? The temple near our school will fine visitors who write on the walls. I think that's too strict!",
+      "stance": "A sign is enough. Fines will make tourists angry, and fewer people will visit our town.",
+      "turns": 5,
+      "fallback": [
+        "Really? Why do you think fines are a good idea?",
+        "But a sign is enough. Fines will make tourists angry, and fewer people will come.",
+        "Hmm. What else can we do to protect the walls?",
+        "OK, I agree that we need to do something. Maybe both ideas can work together."
+      ],
+      "tipsVi": ["Nêu mục đích: \"To preserve the temple, we need...\"", "Khi bạn phản đối: \"I see your point, but...\""],
+      "keywords": ["fine", "preserve", "monument", "to", "I see your point"]
     }
   ]
 }

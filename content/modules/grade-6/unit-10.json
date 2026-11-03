@@ -25,7 +25,18 @@
     { "id": "v17", "en": "super", "vi": "siêu đẳng", "ipa": "/ˈsuːpə/", "ipaFrom": "glossary", "pos": "adj", "example": "My dad will drive a super car on the Moon.", "collocations": ["a super car", "a super robot"], "synonyms": ["amazing"], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
     { "id": "v18", "en": "fridge", "vi": "tủ lạnh", "ipa": "/frɪdʒ/", "ipaFrom": "dictionary", "pos": "n", "example": "The fridge keeps our food fresh.", "collocations": ["in the fridge", "a smart fridge"], "synonyms": ["refrigerator"], "antonyms": [], "src": { "kind": "sgk", "page": 40 } },
     { "id": "v19", "en": "smart TV", "vi": "tivi thông minh", "ipa": "/ˌsmɑːt tiː ˈviː/", "ipaFrom": "dictionary", "pos": "n", "example": "We can watch online videos on our smart TV.", "collocations": ["a big smart TV"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 38 } },
-    { "id": "v20", "en": "countryside", "vi": "vùng nông thôn", "ipa": "/ˈkʌntrisaɪd/", "ipaFrom": "dictionary", "pos": "n", "example": "I'd like to live in the countryside because it's quiet.", "collocations": ["in the countryside"], "synonyms": [], "antonyms": ["city"], "src": { "kind": "sgk", "page": 39 } }
+    { "id": "v20", "en": "countryside", "vi": "vùng nông thôn", "ipa": "/ˈkʌntrisaɪd/", "ipaFrom": "dictionary", "pos": "n", "example": "I'd like to live in the countryside because it's quiet.", "collocations": ["in the countryside"], "synonyms": [], "antonyms": ["city"], "src": { "kind": "sgk", "page": 39 } },
+    { "id": "v21", "en": "helicopter", "vi": "máy bay lên thẳng, trực thăng", "ipa": "/ˈhelɪkɒptə/", "ipaFrom": "dictionary", "pos": "n", "example": "In the future, we might fly to school by helicopter.", "collocations": ["by helicopter", "fly a helicopter"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v22", "en": "outside", "vi": "ở ngoài, bên ngoài", "ipa": "/aʊtˈsaɪd/", "ipaFrom": "glossary", "pos": "adv", "example": "Outside my window, I will see the blue sea.", "collocations": ["play outside", "go outside"], "synonyms": [], "antonyms": ["inside"], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v23", "en": "robot", "vi": "người máy", "ipa": "/ˈrəʊbɒt/", "ipaFrom": "dictionary", "pos": "n", "example": "A robot will clean my house every day.", "collocations": ["a home robot", "a cleaning robot"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 38 } },
+    { "id": "v24", "en": "mountain", "vi": "núi", "ipa": "/ˈmaʊntən/", "ipaFrom": "dictionary", "pos": "n", "example": "My future house will be in the mountains, near a waterfall.", "collocations": ["in the mountains", "climb a mountain"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 38 } },
+    { "id": "v25", "en": "sea", "vi": "biển", "ipa": "/siː/", "ipaFrom": "dictionary", "pos": "n", "example": "People might live in houses under the sea.", "collocations": ["in the sea", "by the sea", "under the sea"], "synonyms": ["ocean"], "antonyms": [], "src": { "kind": "sgk", "page": 39 } },
+    { "id": "v26", "en": "sky", "vi": "bầu trời", "ipa": "/skaɪ/", "ipaFrom": "dictionary", "pos": "n", "example": "There might be flying houses in the sky one day.", "collocations": ["in the sky", "a blue sky"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 39 } },
+    { "id": "v27", "en": "Moon", "vi": "Mặt Trăng", "ipa": "/muːn/", "ipaFrom": "dictionary", "pos": "n", "example": "Some people dream of living on the Moon.", "collocations": ["on the Moon", "travel to the Moon"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 39 } },
+    { "id": "v28", "en": "computer", "vi": "máy tính", "ipa": "/kəmˈpjuːtə/", "ipaFrom": "dictionary", "pos": "n", "example": "I use the computer to send emails to my friends.", "collocations": ["use a computer", "computer screen"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 40 } },
+    { "id": "v29", "en": "electric fan", "vi": "quạt điện", "ipa": "/ɪˌlektrɪk ˈfæn/", "ipaFrom": "dictionary", "pos": "n", "example": "We turn on the electric fan when it is hot.", "collocations": ["turn on the electric fan"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 40 } },
+    { "id": "v30", "en": "smart clock", "vi": "đồng hồ thông minh", "ipa": "/ˌsmɑːt ˈklɒk/", "ipaFrom": "dictionary", "pos": "n", "example": "My smart clock will wake me up and tell me the weather.", "collocations": ["set the smart clock"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 40 } },
+    { "id": "v31", "en": "village", "vi": "ngôi làng", "ipa": "/ˈvɪlɪdʒ/", "ipaFrom": "dictionary", "pos": "n", "example": "My grandparents live in a small village near the river.", "collocations": ["a small village", "in the village"], "synonyms": [], "antonyms": ["city"], "src": { "kind": "sgk", "page": 40 } }
   ],
   "grammar": [
     {
@@ -111,6 +122,19 @@
       "sentence": "Will your house have a garden?",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "sentence_stress",
+      "focus": "Nhấn từ mang nghĩa, đọc nhẹ will / might",
+      "tipVi": "Trong câu, các từ mang nghĩa chính (danh từ, động từ chính, tính từ) được đọc to và rõ. Will, might, a, the thường đọc nhẹ và nhanh; khi nói, it will hay rút gọn thành it'll: It'll be large.",
+      "words": ["It'll be large.", "We might live on the Moon.", "robots", "solar energy"],
+      "sentence": "My house will have solar energy and a robot.",
+      "quiz": [
+        { "prompt": "In \"We might live on the Moon\", which word is usually NOT stressed?", "options": ["might", "live", "Moon"], "answer": 0, "explainVi": "might đọc nhẹ; live và Moon là từ mang nghĩa nên được nhấn." },
+        { "prompt": "Which is the natural short form of \"It will be\" when we speak?", "options": ["It'll be", "It's be", "It wills be"], "answer": 0, "explainVi": "Khi nói, It will thường rút gọn thành It'll." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -122,7 +146,15 @@
     { "id": "e06", "en": "Really? That's amazing!", "vi": "Thật à? Thật tuyệt!", "useVi": "Khi ngạc nhiên trước một điều mới lạ.", "example": "Your robot can cook? Really? That's amazing!", "src": { "kind": "team", "page": null } },
     { "id": "e07", "en": "In the future, I think ... will ...", "vi": "Trong tương lai, mình nghĩ ... sẽ ...", "useVi": "Khi nêu dự đoán của mình về tương lai.", "example": "In the future, I think houses will use solar energy.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "I'd like to live ... because ...", "vi": "Mình muốn sống ở ... vì ...", "useVi": "Khi nói nơi mình muốn sống và lý do.", "example": "I'd like to live by the sea because I love swimming.", "src": { "kind": "team", "page": null } },
-    { "id": "e09", "en": "Maybe, but ...", "vi": "Có thể, nhưng ...", "useVi": "Khi đồng ý một phần nhưng vẫn muốn nêu ý của mình.", "example": "Maybe, but a robot can save us a lot of time.", "src": { "kind": "team", "page": null } }
+    { "id": "e09", "en": "Maybe, but ...", "vi": "Có thể, nhưng ...", "useVi": "Khi đồng ý một phần nhưng vẫn muốn nêu ý của mình.", "example": "Maybe, but a robot can save us a lot of time.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "Where will it be?", "vi": "Nó sẽ ở đâu?", "useVi": "Khi hỏi vị trí của ngôi nhà hay một nơi trong tương lai.", "example": "Your future house looks great! Where will it be?", "src": { "kind": "sgk", "page": 38 } },
+    { "id": "e11", "en": "Which room will you like best?", "vi": "Bạn sẽ thích phòng nào nhất?", "useVi": "Khi hỏi về căn phòng người khác thích nhất trong ngôi nhà tương lai.", "example": "Which room will you like best? – My bedroom, of course.", "src": { "kind": "sgk", "page": 38 } },
+    { "id": "e12", "en": "What appliances might it have?", "vi": "Nó có thể có những thiết bị gì?", "useVi": "Khi hỏi về các thiết bị có thể có trong ngôi nhà tương lai.", "example": "What appliances might it have? – It might have a robot and a smart TV.", "src": { "kind": "sgk", "page": 38 } },
+    { "id": "e13", "en": "Outside my window, I can see ...", "vi": "Nhìn ra ngoài cửa sổ, mình có thể thấy ...", "useVi": "Khi tả cảnh quanh ngôi nhà của mình.", "example": "Outside my window, I can see the beach and the water.", "src": { "kind": "sgk", "page": 39 } },
+    { "id": "e14", "en": "How much will it cost?", "vi": "Nó sẽ tốn bao nhiêu tiền?", "useVi": "Khi hỏi giá của ngôi nhà hay thiết bị.", "example": "A house on the Moon? How much will it cost?", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "Really? I can't believe it!", "vi": "Thật á? Mình không tin nổi!", "useVi": "Khi thể hiện sự ngạc nhiên lớn.", "example": "Your house will have twenty rooms? Really? I can't believe it!", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "What a surprise!", "vi": "Thật bất ngờ!", "useVi": "Khi ngạc nhiên vì một điều không ngờ tới.", "example": "A robot that can cook? What a surprise!", "src": { "kind": "team", "page": null } },
+    { "id": "e17", "en": "It will help us to ...", "vi": "Nó sẽ giúp chúng ta ...", "useVi": "Khi nói một thiết bị sẽ giúp được việc gì.", "example": "A wireless TV will help us to watch programmes from other countries.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["My future house", "will be", "in the mountains"], "vi": "Ngôi nhà tương lai của mình sẽ ở trên núi.", "grammarId": "g01" },
@@ -132,7 +164,9 @@
     { "id": "b05", "chunks": ["Will your house", "use", "solar energy?"], "vi": "Nhà của bạn sẽ dùng năng lượng mặt trời chứ?", "grammarId": "g01" },
     { "id": "b06", "chunks": ["People might", "live", "under the ocean", "one day"], "vi": "Một ngày nào đó con người có thể sống dưới đại dương.", "grammarId": "g02" },
     { "id": "b07", "chunks": ["I'd like to live", "in a cottage", "because it's quiet", "and green"], "vi": "Mình muốn sống trong một ngôi nhà tranh vì nó yên tĩnh và xanh.", "grammarId": null },
-    { "id": "b08", "chunks": ["The robot", "will look after", "my grandparents", "when we are out"], "vi": "Người máy sẽ chăm sóc ông bà mình khi cả nhà ra ngoài.", "grammarId": "g01" }
+    { "id": "b08", "chunks": ["The robot", "will look after", "my grandparents", "when we are out"], "vi": "Người máy sẽ chăm sóc ông bà mình khi cả nhà ra ngoài.", "grammarId": "g01" },
+    { "id": "b09", "chunks": ["We might", "travel to school", "by helicopter"], "vi": "Chúng ta có thể sẽ đi học bằng trực thăng.", "grammarId": "g02" },
+    { "id": "b10", "chunks": ["There will be", "a smart clock", "in every room"], "vi": "Sẽ có một chiếc đồng hồ thông minh trong mỗi phòng.", "grammarId": "g01" }
   ],
   "expand": [
     {
@@ -162,6 +196,33 @@
         { "askVi": "Vì sao?", "ask": "Why?", "add": "because it is clean and cheap" }
       ],
       "full": "We will use solar energy for our lights and TV because it is clean and cheap."
+    },
+    {
+      "id": "x04",
+      "base": "My house will have a garden.",
+      "steps": [
+        { "askVi": "Khu vườn ở đâu?", "ask": "Where?", "add": "on the roof" },
+        { "askVi": "Trong vườn có gì?", "ask": "What will be in it?", "add": "with lots of flowers" }
+      ],
+      "full": "My house will have a garden on the roof with lots of flowers."
+    },
+    {
+      "id": "x05",
+      "base": "I will live in the countryside.",
+      "steps": [
+        { "askVi": "Sống cùng ai?", "ask": "Who with?", "add": "with my family" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because the air will be fresh" }
+      ],
+      "full": "I will live in the countryside with my family because the air will be fresh."
+    },
+    {
+      "id": "x06",
+      "base": "Robots will do the housework.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every day" },
+        { "askVi": "Vì vậy thì sao?", "ask": "So what?", "add": "so we will have more free time" }
+      ],
+      "full": "Robots will do the housework every day, so we will have more free time."
     }
   ],
   "variations": [
@@ -223,6 +284,45 @@
       ],
       "keywords": ["hi-tech", "save time", "easy", "because"],
       "exampleAnswer": "Hi-tech appliances save time because they do the housework for us, so we can relax more.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Căn phòng em sẽ thích nhất trong ngôi nhà tương lai",
+      "questions": [
+        "Which room will you like best in your future house? Why?",
+        "What will your favourite room in your future house be? Why?",
+        "Which room in your dream house will be special for you, and why?",
+        "In your future home, where will you spend most of your time? Why?"
+      ],
+      "keywords": ["bedroom", "will", "might", "because"],
+      "exampleAnswer": "I'll like my bedroom best because it will have a big window and a smart clock. I might have a small robot there, too.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Cảnh em sẽ nhìn thấy từ ngôi nhà tương lai",
+      "questions": [
+        "What will you see outside the window of your future house?",
+        "Describe the view from your future home.",
+        "What will be around your future house?",
+        "Tell me what you will see near your house in the future."
+      ],
+      "keywords": ["outside my window", "sea", "mountains", "will see"],
+      "exampleAnswer": "Outside my window, I will see the sea and some small boats. There will be a lot of trees around my house.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Thiết bị em mong có nhất trong nhà tương lai",
+      "questions": [
+        "Which appliance would you most like to have in your future house? Why?",
+        "What machine do you want in your future home most? Why?",
+        "Which appliance will be the most useful in your future house, and why?",
+        "Which hi-tech appliance do you want most for your future home? Why?"
+      ],
+      "keywords": ["robot", "smart TV", "help", "because"],
+      "exampleAnswer": "I'd most like a robot because it will do the housework, so my parents will have more free time.",
       "expectsReason": true
     }
   ],
@@ -335,6 +435,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["will", "might", "location", "because"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Trò chơi đoán nhà tương lai",
+      "contextVi": "Trong giờ tiếng Anh, em chơi trò đoán nhà với một bạn. Em tả những gì em sẽ thấy bên ngoài cửa sổ ngôi nhà tương lai, bạn ấy đoán xem nhà em ở đâu.",
+      "aiRole": "Mi, a classmate who is guessing where your house is",
+      "studentRoleVi": "Học sinh tả cảnh quanh ngôi nhà tương lai của mình",
+      "goalVi": "Tả cảnh quanh nhà bằng will / might, trả lời câu hỏi của bạn, và xác nhận khi bạn đoán đúng.",
+      "goal": "Describe what you will see outside your future house, answer Mi's questions, and tell her when she guesses right.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng will hoặc might ít nhất hai lần", "words": ["will", "might", "'ll"] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ chỉ nơi chốn", "words": ["mountains", "sea", "sky", "Moon", "countryside", "city"] }
+      ],
+      "opener": "OK, my turn to guess! What will you see outside your window?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Hmm, interesting. Will there be any people or other houses near you?",
+        "Is your house in the mountains?",
+        "Yes! I guessed it. That sounds like a wonderful place to live."
+      ],
+      "tipsVi": ["Bắt đầu: Outside my window, I will see...", "Đừng nói tên nơi đó ngay, hãy để bạn đoán."],
+      "keywords": ["outside my window", "will see", "might", "trees", "Correct"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Sống trên Trái Đất hay ngoài vũ trụ?",
+      "contextVi": "Em và một bạn đọc một bài báo về nhà ở ngoài vũ trụ. Bạn ấy tin rằng sau này mọi người sẽ chuyển lên vũ trụ sống. Em có ý kiến khác.",
+      "aiRole": "Nick, a friend who loves space and wants to live on the Moon",
+      "studentRoleVi": "Học sinh nêu ý kiến về nơi ở tương lai",
+      "goalVi": "Nói em muốn ngôi nhà tương lai ở đâu, nêu lý do và ví dụ, và trả lời khi Nick nói mọi người sẽ sống trên vũ trụ.",
+      "goal": "Say where you want your future house to be, give reasons and examples, and answer Nick's idea that people will live in space.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu ít nhất hai lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng will / won't / might", "words": ["will", "won't", "might"] },
+        { "kind": "example", "vi": "Đưa ví dụ về một thiết bị hoặc hoạt động ở ngôi nhà đó", "words": [] }
+      ],
+      "opener": "Look at this article! In the future, people will live in houses on the Moon. Cool, right?",
+      "stance": "People will live in space in the future. Life on Earth will be too crowded and too hot.",
+      "turns": 5,
+      "fallback": [
+        "Where will your future house be, then?",
+        "But I think people will live in space. Life on Earth will be too crowded and too hot.",
+        "Hmm, maybe you're right. What will your house have?",
+        "OK, your house sounds great. Maybe I'll visit you there!"
+      ],
+      "tipsVi": ["Dùng might khi không chắc chắn: It might be very cold on the Moon.", "Khi Nick nghĩ khác, nói \"Maybe, but...\""],
+      "keywords": ["will", "might", "Earth", "because", "solar energy"]
     }
   ]
 }

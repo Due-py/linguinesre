@@ -25,7 +25,17 @@
     { "id": "v17", "en": "interact", "vi": "tương tác", "ipa": "/ˌɪntərˈækt/", "ipaFrom": "glossary", "pos": "v", "example": "In a smart home, you can interact with your devices by voice.", "collocations": ["interact with"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
     { "id": "v18", "en": "operate", "vi": "vận hành", "ipa": "/ˈɒpəreɪt/", "ipaFrom": "glossary", "pos": "v", "example": "The new metro line operates from 5 a.m. to 10 p.m.", "collocations": ["operate efficiently"], "synonyms": ["run"], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
     { "id": "v19", "en": "card reader", "vi": "thiết bị đọc thẻ", "ipa": "/ˈkɑːd riːdə/", "ipaFrom": "glossary", "pos": "n", "example": "You pay for the bus by touching your card on the card reader.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
-    { "id": "v20", "en": "public transport", "vi": "phương tiện giao thông công cộng", "ipa": "/ˌpʌblɪk ˈtrænspɔːt/", "ipaFrom": "dictionary", "pos": "n", "example": "Using public transport helps reduce traffic jams.", "collocations": ["use public transport"], "synonyms": [], "antonyms": ["private vehicles"], "src": { "kind": "sgk", "page": 29 } }
+    { "id": "v20", "en": "public transport", "vi": "phương tiện giao thông công cộng", "ipa": "/ˌpʌblɪk ˈtrænspɔːt/", "ipaFrom": "dictionary", "pos": "n", "example": "Using public transport helps reduce traffic jams.", "collocations": ["use public transport"], "synonyms": [], "antonyms": ["private vehicles"], "src": { "kind": "sgk", "page": 29 } },
+    { "id": "v21", "en": "article", "vi": "bài báo", "ipa": "/ˈɑːtɪkl/", "ipaFrom": "glossary", "pos": "n", "example": "I read an article about smart cities in a science magazine.", "collocations": ["read an article", "write an article"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v22", "en": "carbon footprint", "vi": "lượng khí CO2 thải ra (dấu chân carbon)", "ipa": "/ˌkɑːbən ˈfʊtprɪnt/", "ipaFrom": "dictionary", "pos": "np", "example": "Taking the bus instead of a car reduces your carbon footprint.", "collocations": ["reduce your carbon footprint"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 28 } },
+    { "id": "v23", "en": "traffic jam", "vi": "tắc đường, kẹt xe", "ipa": "/ˈtræfɪk dʒæm/", "ipaFrom": "dictionary", "pos": "n", "example": "We were stuck in a traffic jam for an hour this morning.", "collocations": ["get stuck in a traffic jam", "cause traffic jams"], "synonyms": ["congestion"], "antonyms": [], "src": { "kind": "sgk", "page": 28 } },
+    { "id": "v24", "en": "pollution", "vi": "sự ô nhiễm", "ipa": "/pəˈluːʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "Electric buses will help reduce air pollution in big cities.", "collocations": ["air pollution", "reduce pollution"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 28 } },
+    { "id": "v25", "en": "greenhouse gas", "vi": "khí nhà kính", "ipa": "/ˌɡriːnhaʊs ˈɡæs/", "ipaFrom": "dictionary", "pos": "np", "example": "Green transport produces fewer greenhouse gases than old motorbikes.", "collocations": ["greenhouse gas emissions"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 31 } },
+    { "id": "v26", "en": "eco-friendly", "vi": "thân thiện với môi trường", "ipa": "/ˌiːkəʊ ˈfrendli/", "ipaFrom": "dictionary", "pos": "adj", "example": "Future cities will use eco-friendly public transport.", "collocations": ["eco-friendly transport", "eco-friendly materials"], "synonyms": ["green"], "antonyms": ["harmful"], "src": { "kind": "sgk", "page": 31 } },
+    { "id": "v27", "en": "population", "vi": "dân số", "ipa": "/ˌpɒpjuˈleɪʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "The population of Ha Noi is growing every year.", "collocations": ["a growing population", "the population of"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 31 } },
+    { "id": "v28", "en": "rush hour", "vi": "giờ cao điểm", "ipa": "/ˈrʌʃ aʊə/", "ipaFrom": "dictionary", "pos": "n", "example": "Traffic jams are much worse during rush hour.", "collocations": ["during rush hour", "the morning rush hour"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 29 } },
+    { "id": "v29", "en": "driverless", "vi": "không người lái", "ipa": "/ˈdraɪvələs/", "ipaFrom": "dictionary", "pos": "adj", "example": "Driverless buses may carry passengers in smart cities one day.", "collocations": ["driverless car", "driverless bus"], "synonyms": ["self-driving"], "antonyms": [], "src": { "kind": "sgk", "page": 35 } },
+    { "id": "v30", "en": "quality of life", "vi": "chất lượng cuộc sống", "ipa": "/ˌkwɒləti əv ˈlaɪf/", "ipaFrom": "dictionary", "pos": "np", "example": "More parks and cleaner air will improve the quality of life in cities.", "collocations": ["improve the quality of life", "a high quality of life"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 32 } }
   ],
   "grammar": [
     {
@@ -133,6 +143,19 @@
       "sentence": "How will people travel in the future?",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "sound",
+      "focus": "Âm /ɪ/ và /iː/",
+      "tipVi": "/ɪ/ là âm ngắn, miệng hơi mở (city, live, building). /iː/ là âm dài, môi kéo sang hai bên (green, street, clean). Đọc sai độ dài có thể làm đổi nghĩa: live /lɪv/ – leave /liːv/.",
+      "words": ["city", "live", "building", "busy", "green", "street", "clean", "leave"],
+      "sentence": "People will live in clean, green cities with busy streets.",
+      "quiz": [
+        { "prompt": "Which word has the long sound /iː/?", "options": ["street", "city", "building"], "answer": 0, "explainVi": "street /striːt/ có âm dài /iː/; city /ˈsɪti/ và building /ˈbɪldɪŋ/ có âm ngắn /ɪ/." },
+        { "prompt": "Which word has the short sound /ɪ/?", "options": ["live", "leave", "clean"], "answer": 0, "explainVi": "live /lɪv/ có âm ngắn /ɪ/; leave /liːv/ và clean /kliːn/ có âm dài /iː/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -145,7 +168,13 @@
     { "id": "e07", "en": "There's some doubt in my mind that ...", "vi": "Mình hơi nghi ngờ rằng ...", "useVi": "Khi lịch sự bày tỏ sự không chắc chắn.", "example": "There's some doubt in my mind that people will live on the ocean.", "src": { "kind": "sgk", "page": 35 } },
     { "id": "e08", "en": "I'm not really sure about it.", "vi": "Mình không chắc lắm.", "useVi": "Khi trả lời một câu hỏi mà mình chưa chắc.", "example": "Driverless buses next year? I'm not really sure about it.", "src": { "kind": "sgk", "page": 35 } },
     { "id": "e09", "en": "Why do you think so?", "vi": "Sao bạn nghĩ vậy?", "useVi": "Khi muốn người kia giải thích thêm để cuộc trò chuyện tiếp tục.", "example": "You think cities will be quieter? Why do you think so?", "src": { "kind": "team", "page": null } },
-    { "id": "e10", "en": "In the future, I think ... will ...", "vi": "Trong tương lai, mình nghĩ ... sẽ ...", "useVi": "Khi đưa ra dự đoán của mình.", "example": "In the future, I think every building will have solar panels.", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "In the future, I think ... will ...", "vi": "Trong tương lai, mình nghĩ ... sẽ ...", "useVi": "Khi đưa ra dự đoán của mình.", "example": "In the future, I think every building will have solar panels.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "What will ... be like in the future?", "vi": "... trong tương lai sẽ như thế nào?", "useVi": "Khi hỏi người khác dự đoán về tương lai.", "example": "What will our school be like in the future?", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "I think there will be ...", "vi": "Mình nghĩ sẽ có ...", "useVi": "Khi đưa ra dự đoán về tương lai.", "example": "I think there will be more trees and fewer cars in our city.", "src": { "kind": "sgk", "page": 33 } },
+    { "id": "e13", "en": "How will technology help ...?", "vi": "Công nghệ sẽ giúp ... như thế nào?", "useVi": "Khi dùng câu hỏi Wh- để duy trì cuộc trò chuyện về thành phố tương lai.", "example": "How will technology help old people in smart cities?", "src": { "kind": "sgk", "page": 32 } },
+    { "id": "e14", "en": "One advantage of ... is that ...", "vi": "Một ưu điểm của ... là ...", "useVi": "Khi nêu một lợi ích của một điều gì đó.", "example": "One advantage of smart cities is that they save a lot of energy.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "On the other hand, ...", "vi": "Mặt khác, ...", "useVi": "Khi chuyển sang ý trái ngược, ví dụ nói về nhược điểm.", "example": "On the other hand, smart devices may collect too much personal information.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "In conclusion, ...", "vi": "Tóm lại, ...", "useVi": "Khi kết thúc bài nói hoặc bài viết.", "example": "In conclusion, smart cities have both advantages and disadvantages.", "src": { "kind": "sgk", "page": 35 } }
   ],
   "build": [
     { "id": "b01", "chunks": ["I think", "smart cities", "will be", "safer and cleaner"], "vi": "Mình nghĩ các thành phố thông minh sẽ an toàn và sạch hơn.", "grammarId": "g03" },
@@ -155,7 +184,9 @@
     { "id": "b05", "chunks": ["Life in", "a smart city", "sounds", "very exciting"], "vi": "Cuộc sống ở thành phố thông minh nghe rất thú vị.", "grammarId": "g02" },
     { "id": "b06", "chunks": ["Sensors", "will help", "traffic lights", "work more efficiently"], "vi": "Cảm biến sẽ giúp đèn giao thông hoạt động hiệu quả hơn.", "grammarId": "g03" },
     { "id": "b07", "chunks": ["Cycle paths", "keep cyclists", "and pedestrians", "safe"], "vi": "Làn đường xe đạp giữ an toàn cho người đi xe đạp và người đi bộ.", "grammarId": null },
-    { "id": "b08", "chunks": ["My city", "is becoming", "more crowded", "every year"], "vi": "Thành phố của mình ngày càng đông đúc hơn mỗi năm.", "grammarId": "g02" }
+    { "id": "b08", "chunks": ["My city", "is becoming", "more crowded", "every year"], "vi": "Thành phố của mình ngày càng đông đúc hơn mỗi năm.", "grammarId": "g02" },
+    { "id": "b09", "chunks": ["I", "am thinking of", "moving to", "a smart city"], "vi": "Mình đang tính chuyển đến một thành phố thông minh.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["Driverless buses", "will help", "reduce", "traffic jams"], "vi": "Xe buýt không người lái sẽ giúp giảm tắc đường.", "grammarId": "g03" }
   ],
   "expand": [
     {
@@ -195,6 +226,24 @@
         { "askVi": "Vì sao?", "ask": "Why?", "add": "because life there is convenient and safe" }
       ],
       "full": "One day I want to live in a smart city because life there is convenient and safe."
+    },
+    {
+      "id": "x05",
+      "base": "Traffic jams are a problem.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in my city" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "during rush hour" }
+      ],
+      "full": "Traffic jams are a problem in my city during rush hour."
+    },
+    {
+      "id": "x06",
+      "base": "The city will look greener.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "in ten years" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because there will be more parks and roof gardens" }
+      ],
+      "full": "The city will look greener in ten years because there will be more parks and roof gardens."
     }
   ],
   "variations": [
@@ -268,6 +317,32 @@
       ],
       "keywords": ["urban centre", "convenient", "peaceful", "public transport"],
       "exampleAnswer": "I'd rather live in a city because there are more schools, jobs and public transport.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Giao thông và giờ cao điểm nơi em sống",
+      "questions": [
+        "What is traffic like in your area during rush hour?",
+        "Are traffic jams a problem where you live?",
+        "How do people in your town usually travel to work and school?",
+        "How long does it take you to get to school in the morning?"
+      ],
+      "keywords": ["traffic jam", "rush hour", "public transport", "vehicle"],
+      "exampleAnswer": "There are terrible traffic jams near my school during rush hour, so I usually cycle because it is faster than going by motorbike.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Em có muốn sống ở tòa nhà cao tầng không",
+      "questions": [
+        "Would you like to live in a high-rise building? Why or why not?",
+        "Do you prefer living in a flat or in a house with a garden? Why?",
+        "What are the good and bad points of living on a high floor?",
+        "Is a skyscraper a good place for families to live? Why or why not?"
+      ],
+      "keywords": ["high-rise", "privacy", "view", "neighbourhood"],
+      "exampleAnswer": "I'd like to live in a high-rise building because the view is amazing, but I worry that I won't know my neighbours.",
       "expectsReason": true
     }
   ],
@@ -380,6 +455,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["sustainable", "public transport", "green", "because", "will"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Phỏng vấn cư dân về khu phố",
+      "contextVi": "Em làm dự án về khu phố của mình. Em phỏng vấn một cư dân đã sống ở đây lâu năm về những thay đổi, vấn đề và mong muốn cho khu phố.",
+      "aiRole": "Mr Hung, a resident who has lived in your neighbourhood for 30 years",
+      "studentRoleVi": "Học sinh phỏng vấn cho dự án ở trường",
+      "goalVi": "Hỏi ông ít nhất ba câu hỏi Wh- về khu phố (thay đổi, vấn đề, mong muốn) và phản hồi câu trả lời của ông.",
+      "goal": "Ask Mr Hung at least three Wh-questions about changes, problems and hopes for the neighbourhood, and respond to his answers.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["neighbourhood", "traffic jam", "pollution", "high-rise", "public transport"] },
+        { "kind": "example", "vi": "Hỏi thêm để ông đưa ví dụ (Can you give me an example?)", "words": [] }
+      ],
+      "opener": "Hello! I hear you're doing a school project about our neighbourhood. I've lived here for thirty years, so ask me anything.",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Well, there were only small houses here before. Now there are many high-rise buildings.",
+        "The biggest problem is traffic jams during rush hour, and the air is not very clean.",
+        "I hope there will be more parks and trees for children. Good luck with your project!"
+      ],
+      "tipsVi": ["Dùng câu hỏi Wh-: What has changed...? What is the biggest problem...?", "Phản hồi: \"Really? That's interesting.\""],
+      "keywords": ["neighbourhood", "traffic jam", "rush hour", "high-rise", "what"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Xe buýt không người lái trên đường đến trường",
+      "contextVi": "Thành phố của em định thử nghiệm xe buýt không người lái trên tuyến đường đến trường. Bạn em lo rằng loại xe này không an toàn.",
+      "aiRole": "Khoa, a classmate who doesn't trust driverless buses",
+      "studentRoleVi": "Bạn cùng lớp ủng hộ xe buýt không người lái",
+      "goalVi": "Thuyết phục Khoa rằng xe buýt không người lái có ích: nêu lý do, đưa ví dụ và trả lời khi Khoa lo lắng về an toàn.",
+      "goal": "Convince Khoa that driverless buses are a good idea: give reasons and an example, and answer his worries about safety.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu ít nhất hai lý do", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ (một thành phố khác, một công nghệ...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["driverless", "sensor", "eco-friendly", "traffic jam", "operate"] }
+      ],
+      "opener": "Did you hear? The city wants to test driverless buses on our route to school. That sounds scary to me!",
+      "stance": "Computers can make mistakes. I think a human driver is always safer than a machine.",
+      "turns": 5,
+      "fallback": [
+        "Really? Why do you think they are a good idea?",
+        "But computers can make mistakes. A human driver is always safer, I think.",
+        "Hmm. Can you give me an example of a city that uses them?",
+        "OK, maybe I'll try one when they start. But I'll sit near the door!"
+      ],
+      "tipsVi": ["Nói chắc chắn hoặc chưa chắc: \"I have no doubt that...\", \"I'm not sure that...\"", "Nhắc tới sensors và AI để giải thích."],
+      "keywords": ["driverless", "sensor", "safe", "I have no doubt", "because"]
     }
   ]
 }

@@ -25,7 +25,19 @@
     { "id": "v17", "en": "assembly worker", "vi": "công nhân dây chuyền", "ipa": "/əˈsembli ˈwɜːkə/", "ipaFrom": "glossary", "pos": "n", "example": "An assembly worker does one task again and again.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
     { "id": "v18", "en": "garment worker", "vi": "công nhân may", "ipa": "/ˈɡɑːmənt ˈwɜːkə/", "ipaFrom": "glossary", "pos": "n", "example": "My aunt is a garment worker in a big factory.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
     { "id": "v19", "en": "sew", "vi": "khâu, may vá", "ipa": "/səʊ/", "ipaFrom": "glossary", "pos": "v", "example": "My grandma taught me to sew a button.", "collocations": ["sew clothes"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
-    { "id": "v20", "en": "fabric", "vi": "vải vóc", "ipa": "/ˈfæbrɪk/", "ipaFrom": "glossary", "pos": "n", "example": "A tailor must know a lot about fabric.", "collocations": ["soft fabric"], "synonyms": ["cloth"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } }
+    { "id": "v20", "en": "fabric", "vi": "vải vóc", "ipa": "/ˈfæbrɪk/", "ipaFrom": "glossary", "pos": "n", "example": "A tailor must know a lot about fabric.", "collocations": ["soft fabric"], "synonyms": ["cloth"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v21", "en": "bartender", "vi": "thợ pha chế đồ uống (ở quầy bar)", "ipa": "/ˈbɑːtendə/", "ipaFrom": "glossary", "pos": "n", "example": "My cousin works as a bartender in a hotel and makes colourful drinks.", "collocations": ["skilful bartender"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v22", "en": "agriculture engineering", "vi": "ngành kĩ sư nông nghiệp", "ipa": "/ˈæɡrɪkʌltʃə ˌendʒɪˈnɪərɪŋ/", "ipaFrom": "glossary", "pos": "n", "example": "She studies agriculture engineering because she wants to help farmers.", "collocations": ["study agriculture engineering"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v23", "en": "fashion designer", "vi": "nhà thiết kế thời trang", "ipa": "/ˈfæʃn dɪˌzaɪnə/", "ipaFrom": "dictionary", "pos": "n", "example": "A fashion designer needs a good sense of style.", "collocations": ["become a fashion designer"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v24", "en": "hairdresser", "vi": "thợ làm tóc", "ipa": "/ˈheədresə/", "ipaFrom": "dictionary", "pos": "n", "example": "The hairdresser near my house cuts hair very quickly.", "collocations": ["go to the hairdresser"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v25", "en": "earn a living", "vi": "kiếm sống", "ipa": "/ˌɜːn ə ˈlɪvɪŋ/", "ipaFrom": "dictionary", "pos": "phr", "example": "My aunt earns a living by selling home-made cakes.", "collocations": ["earn a living by"], "synonyms": ["make a living"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v26", "en": "academic", "vi": "(thuộc) học thuật", "ipa": "/ˌækəˈdemɪk/", "ipaFrom": "dictionary", "pos": "adj", "example": "Maths, physics and literature are academic subjects.", "collocations": ["academic subjects", "academic results"], "synonyms": [], "antonyms": ["practical"], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v27", "en": "skilful", "vi": "khéo léo, lành nghề", "ipa": "/ˈskɪlfl/", "ipaFrom": "dictionary", "pos": "adj", "example": "He is a skilful tailor who can make a suit in two days.", "collocations": ["skilful worker", "skilful hands"], "synonyms": ["skilled"], "antonyms": ["clumsy"], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v28", "en": "passion", "vi": "niềm đam mê", "ipa": "/ˈpæʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "Follow your passion when you choose a career.", "collocations": ["follow your passion", "a passion for"], "synonyms": ["love"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v29", "en": "formal training", "vi": "đào tạo chính quy", "ipa": "/ˌfɔːml ˈtreɪnɪŋ/", "ipaFrom": "dictionary", "pos": "n", "example": "Nurses need formal training before they can work in a hospital.", "collocations": ["get formal training"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v30", "en": "salary", "vi": "lương", "ipa": "/ˈsæləri/", "ipaFrom": "dictionary", "pos": "n", "example": "A high salary is nice, but it isn't the only thing that matters.", "collocations": ["a high salary", "earn a salary"], "synonyms": ["pay"], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v31", "en": "tailor", "vi": "thợ may", "ipa": "/ˈteɪlə/", "ipaFrom": "dictionary", "pos": "n", "example": "The tailor measured me carefully before making my ao dai.", "collocations": ["skilful tailor"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v32", "en": "creative", "vi": "sáng tạo", "ipa": "/kriˈeɪtɪv/", "ipaFrom": "dictionary", "pos": "adj", "example": "Designers have to be creative and come up with new ideas.", "collocations": ["creative job", "creative ideas"], "synonyms": ["imaginative"], "antonyms": [], "src": { "kind": "sgk", "page": 126 } }
   ],
   "grammar": [
     {
@@ -118,6 +130,32 @@
         { "prompt": "Which syllable is stressed in \"career\"?", "options": ["1st syllable: ca", "2nd syllable: reer"], "answer": 1, "explainVi": "career /kəˈrɪə/ nhấn âm thứ hai." }
       ],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p03",
+      "kind": "sentence_stress",
+      "focus": "Nhấn so, such và tính từ trong câu so/such ... that",
+      "tipVi": "Trong câu so/such ... that, ta nhấn so hoặc such và tính từ đi sau để nhấn mạnh mức độ (so demanding, such a rewarding job). Từ that ở giữa câu đọc nhẹ.",
+      "words": ["so", "such", "demanding", "rewarding", "tired", "skilful"],
+      "sentence": "The job was so demanding that she felt tired every day.",
+      "quiz": [
+        { "prompt": "Which words are usually stressed in \"It was such a rewarding job.\"?", "options": ["such, rewarding, job", "It, was, a", "was, a"], "answer": 0, "explainVi": "Ta nhấn such, rewarding, job; It, was, a đọc nhẹ." },
+        { "prompt": "Which word is usually NOT stressed in \"He's so skilful that everyone loves his work.\"?", "options": ["that", "skilful", "loves"], "answer": 0, "explainVi": "that nối hai vế nên đọc nhẹ; so, skilful, loves, work được nhấn." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "ending",
+      "focus": "Đuôi -er, -or, -ist trong tên nghề",
+      "tipVi": "Đuôi -er và -or trong tên nghề thường đọc nhẹ thành /ə/ (teacher, designer, tailor), không đọc rõ \"o\" hay \"r\". Đuôi -ist đọc /ɪst/ (dentist, scientist).",
+      "words": ["teacher", "designer", "tailor", "bartender", "dentist", "scientist"],
+      "sentence": "My sister is a designer, and my brother is a dentist.",
+      "quiz": [
+        { "prompt": "How is the ending -or in \"tailor\" usually pronounced?", "options": ["/ə/", "/ɔː/", "/ɒr/"], "answer": 0, "explainVi": "tailor /ˈteɪlə/: đuôi -or đọc nhẹ thành /ə/." },
+        { "prompt": "Which job ends with the sound /ɪst/?", "options": ["scientist", "designer", "tailor"], "answer": 0, "explainVi": "scientist /ˈsaɪəntɪst/ kết thúc bằng /ɪst/; designer và tailor kết thúc bằng /ə/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -129,7 +167,14 @@
     { "id": "e06", "en": "I'm good at ...", "vi": "Mình giỏi ...", "useVi": "Khi nói điểm mạnh của bản thân.", "example": "I'm good at maths and solving problems.", "src": { "kind": "team", "page": null } },
     { "id": "e07", "en": "To become a ..., you need to be ...", "vi": "Để trở thành ..., bạn cần ...", "useVi": "Khi nói phẩm chất cần có cho một nghề.", "example": "To become a surgeon, you need to be calm and decisive.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "Although ..., I still want to ...", "vi": "Mặc dù ..., mình vẫn muốn ...", "useVi": "Khi nói về khó khăn nhưng vẫn giữ mục tiêu.", "example": "Although it's demanding, I still want to be a nurse.", "src": { "kind": "team", "page": null } },
-    { "id": "e09", "en": "What do you want to do in the future?", "vi": "Bạn muốn làm gì trong tương lai?", "useVi": "Khi hỏi về dự định nghề nghiệp của người khác.", "example": "What do you want to do in the future, Lan?", "src": { "kind": "team", "page": null } }
+    { "id": "e09", "en": "What do you want to do in the future?", "vi": "Bạn muốn làm gì trong tương lai?", "useVi": "Khi hỏi về dự định nghề nghiệp của người khác.", "example": "What do you want to do in the future, Lan?", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "Hope you'll achieve your dream.", "vi": "Mong bạn sẽ đạt được ước mơ.", "useVi": "Khi chúc bạn thành công với dự định nghề nghiệp.", "example": "You want to be a pilot? Hope you'll achieve your dream.", "src": { "kind": "sgk", "page": 124 } },
+    { "id": "e11", "en": "In five years, I'll be ...", "vi": "Năm năm nữa, mình sẽ ...", "useVi": "Khi nói về dự định của mình trong tương lai.", "example": "In five years, I'll be studying at a medical university.", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "What qualities do you need to be a ...?", "vi": "Cần có phẩm chất gì để làm ...?", "useVi": "Khi hỏi về yêu cầu của một nghề.", "example": "What qualities do you need to be a good nurse?", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "It's a ... job, but ...", "vi": "Đó là một công việc ..., nhưng ...", "useVi": "Khi nêu cả mặt tốt và mặt khó của một nghề.", "example": "It's a well-paid job, but you have to work at night.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "My dream job is ...", "vi": "Công việc mơ ước của mình là ...", "useVi": "Khi giới thiệu nghề mình muốn làm.", "example": "My dream job is to be a wildlife photographer.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "I'm interested in + V-ing ...", "vi": "Mình thích, quan tâm đến việc ...", "useVi": "Khi nói sở thích liên quan đến nghề nghiệp.", "example": "I'm interested in designing clothes.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "The best thing about this job is ...", "vi": "Điều tuyệt nhất của công việc này là ...", "useVi": "Khi nêu điểm hấp dẫn nhất của một nghề.", "example": "The best thing about this job is helping people.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["Although the job", "is demanding,", "she", "really loves it"], "vi": "Mặc dù công việc vất vả, cô ấy rất yêu nó.", "grammarId": "g01" },
@@ -139,7 +184,9 @@
     { "id": "b05", "chunks": ["Since I'm good", "at maths,", "I might become", "an engineer"], "vi": "Vì mình giỏi toán nên mình có thể trở thành kỹ sư.", "grammarId": "g03" },
     { "id": "b06", "chunks": ["I'd like to be", "a teacher", "because I love", "working with children"], "vi": "Mình muốn làm giáo viên vì mình thích làm việc với trẻ em.", "grammarId": "g03" },
     { "id": "b07", "chunks": ["To become a surgeon,", "you need", "good hand-eye coordination"], "vi": "Để trở thành bác sĩ phẫu thuật, bạn cần phối hợp tay mắt tốt.", "grammarId": null },
-    { "id": "b08", "chunks": ["Vocational schools", "give students", "hands-on training"], "vi": "Trường nghề cho học sinh được đào tạo thực hành.", "grammarId": null }
+    { "id": "b08", "chunks": ["Vocational schools", "give students", "hands-on training"], "vi": "Trường nghề cho học sinh được đào tạo thực hành.", "grammarId": null },
+    { "id": "b09", "chunks": ["Since she loves animals", "she wants", "to become a vet"], "vi": "Vì yêu động vật nên cô ấy muốn trở thành bác sĩ thú y.", "grammarId": "g03" },
+    { "id": "b10", "chunks": ["It was", "such a long shift", "that the nurse", "fell asleep on the bus"], "vi": "Ca làm dài đến mức cô y tá ngủ gật trên xe buýt.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -168,6 +215,33 @@
         { "askVi": "Học gì?", "ask": "What?", "add": "to become a chef" }
       ],
       "full": "I'm going to study at a vocational college to become a chef."
+    },
+    {
+      "id": "x04",
+      "base": "My uncle is a mechanic.",
+      "steps": [
+        { "askVi": "Chú làm gì?", "ask": "What does he do?", "add": "who repairs motorbikes" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in a small garage" }
+      ],
+      "full": "My uncle is a mechanic who repairs motorbikes in a small garage."
+    },
+    {
+      "id": "x05",
+      "base": "She chose a vocational school.",
+      "steps": [
+        { "askVi": "Bố mẹ bạn ấy nghĩ sao?", "ask": "What about her parents?", "add": "Although her parents disagreed" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because she wanted to start work early" }
+      ],
+      "full": "Although her parents disagreed, she chose a vocational school because she wanted to start work early."
+    },
+    {
+      "id": "x06",
+      "base": "I want to be a designer.",
+      "steps": [
+        { "askVi": "Nhà thiết kế gì?", "ask": "What kind of designer?", "add": "fashion" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "since I love drawing clothes" }
+      ],
+      "full": "I want to be a fashion designer since I love drawing clothes."
     }
   ],
   "variations": [
@@ -229,6 +303,45 @@
       ],
       "keywords": ["well-paid", "rewarding", "although", "because"],
       "exampleAnswer": "A good job is rewarding. Although money is important, I think enjoying your work matters more.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Nghề nghiệp trong tương lai và robot",
+      "questions": [
+        "Which jobs might robots do in the future? Why?",
+        "Will some jobs disappear in the future? Why or why not?",
+        "Which jobs can robots never do as well as people? Why?",
+        "How will technology change the world of work?"
+      ],
+      "keywords": ["robot", "repetitive", "creative", "because"],
+      "exampleAnswer": "Robots might do repetitive jobs like assembly work, but they can't replace creative jobs such as designers because those jobs need new ideas.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Công việc em không muốn làm",
+      "questions": [
+        "Which job would you never want to do? Why?",
+        "What job do you think is too difficult for you? Why?",
+        "Is there a job you don't like, although it is well-paid? Why?",
+        "Which kind of work doesn't suit you, and why?"
+      ],
+      "keywords": ["although", "demanding", "repetitive", "because"],
+      "exampleAnswer": "I don't want to be a surgeon although it is well-paid, because the job is so demanding that surgeons often work all night.",
+      "expectsReason": true
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Kỹ năng cần học từ bây giờ cho nghề tương lai",
+      "questions": [
+        "What skills should you learn now for your future job? Why?",
+        "Which school subjects will help you most in your future career? Why?",
+        "What can you do this year to prepare for your dream job?",
+        "Which skills are useful for almost every job? Why?"
+      ],
+      "keywords": ["skill", "career", "practise", "because"],
+      "exampleAnswer": "I should improve my English and computer skills now because almost every job needs them, and they will help me find a better job.",
       "expectsReason": true
     }
   ],
@@ -342,6 +455,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["career", "although", "because", "good at"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Trò chơi đoán nghề",
+      "contextVi": "Giờ sinh hoạt lớp có trò chơi đoán nghề. Em chọn một nghề trong bài và mô tả nghề đó, không được nói tên nghề, để bạn Linh đoán.",
+      "aiRole": "Linh, a classmate who is guessing the job",
+      "studentRoleVi": "Học sinh mô tả một nghề để bạn đoán",
+      "goalVi": "Mô tả một nghề: làm ở đâu, làm gì, cần phẩm chất gì, và trả lời câu hỏi của Linh cho đến khi bạn đoán đúng.",
+      "goal": "Describe a job without saying its name: where the person works, what they do and what qualities they need, and answer Linh's questions until she guesses.",
+      "requirements": [
+        { "kind": "example", "vi": "Nêu ít nhất hai việc cụ thể người làm nghề đó làm", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất hai tính từ về nghề", "words": ["demanding", "rewarding", "repetitive", "creative", "skilful", "well-paid"] }
+      ],
+      "opener": "OK, I'm ready! Tell me about the job. Where does this person work?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Hmm, interesting. What does this person do every day?",
+        "What qualities does this person need?",
+        "I think I know! Can I make a guess now?"
+      ],
+      "tipsVi": ["Bắt đầu: \"This person works in...\"", "Mô tả phẩm chất: \"He or she has to be...\""],
+      "keywords": ["works in", "has to", "demanding", "creative", "skilful"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Phỏng vấn chú thợ sửa xe",
+      "contextVi": "Lớp em làm dự án hướng nghiệp \"Một ngày làm việc\". Em phỏng vấn chú Tuấn, thợ sửa xe máy gần trường, về công việc của chú.",
+      "aiRole": "Mr Tuan, a motorbike mechanic who has worked for fifteen years",
+      "studentRoleVi": "Học sinh phỏng vấn cho dự án hướng nghiệp",
+      "goalVi": "Hỏi chú ít nhất ba câu: chú làm gì mỗi ngày, cần phẩm chất gì, vì sao chọn nghề này; cảm ơn và chúc chú.",
+      "goal": "Ask at least three questions: what he does every day, what qualities he needs and why he chose the job; then thank him.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một cụm hỏi của bài", "words": ["What qualities do you need", "Why did you choose", "The best thing about"] },
+        { "kind": "reason", "vi": "Hỏi lý do chú chọn nghề", "words": [] }
+      ],
+      "opener": "Hi there! Your teacher said you want to interview me. Go ahead, I've got ten minutes.",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Every day I repair about ten motorbikes. It's a hands-on job, and I like it.",
+        "You need good hand-eye coordination and patience, since every bike is different.",
+        "I chose it because I loved machines as a boy. Although it's tiring, it's rewarding."
+      ],
+      "tipsVi": ["Hỏi: \"What qualities do you need to be a mechanic?\"", "Kết thúc: \"Thank you. Good luck with your work!\""],
+      "keywords": ["mechanic", "qualities", "hands-on", "rewarding", "why"]
     }
   ]
 }

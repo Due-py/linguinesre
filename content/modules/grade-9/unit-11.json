@@ -26,7 +26,18 @@
     { "id": "v18", "en": "copper", "vi": "đồng", "ipa": "/ˈkɒpə/", "ipaFrom": "glossary", "pos": "n", "example": "Electric wires are often made of copper.", "collocations": ["copper wire"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
     { "id": "v19", "en": "aluminium", "vi": "nhôm", "ipa": "/ˌæljəˈmɪniəm/", "ipaFrom": "glossary", "pos": "n", "example": "This tablet has a light aluminium case.", "collocations": ["an aluminium case"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
     { "id": "v20", "en": "cardboard", "vi": "bìa cứng, các tông", "ipa": "/ˈkɑːdbɔːd/", "ipaFrom": "glossary", "pos": "n", "example": "The new phone came in a cardboard box.", "collocations": ["a cardboard box"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
-    { "id": "v21", "en": "suck", "vi": "hút", "ipa": "/sʌk/", "ipaFrom": "glossary", "pos": "v", "example": "The robot sucks up dust from the floor.", "collocations": ["suck up dust"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } }
+    { "id": "v21", "en": "suck", "vi": "hút", "ipa": "/sʌk/", "ipaFrom": "glossary", "pos": "v", "example": "The robot sucks up dust from the floor.", "collocations": ["suck up dust"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v22", "en": "window shade", "vi": "mành cửa sổ", "ipa": "/ˈwɪndəʊ ʃeɪd/", "ipaFrom": "glossary", "pos": "n", "example": "In a smart home, you can close the window shades with your phone.", "collocations": ["open the window shade", "close the window shade"], "synonyms": ["blind"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v23", "en": "laptop", "vi": "máy tính xách tay", "ipa": "/ˈlæptɒp/", "ipaFrom": "dictionary", "pos": "n", "example": "My brother takes his laptop to the library every day.", "collocations": ["laptop computer", "carry a laptop"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 114 } },
+    { "id": "v24", "en": "tablet", "vi": "máy tính bảng", "ipa": "/ˈtæblət/", "ipaFrom": "dictionary", "pos": "n", "example": "I read English comics on my tablet.", "collocations": ["use a tablet", "tablet screen"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 114 } },
+    { "id": "v25", "en": "keyboard", "vi": "bàn phím", "ipa": "/ˈkiːbɔːd/", "ipaFrom": "dictionary", "pos": "n", "example": "This tablet has a virtual keyboard, so you can type on the screen.", "collocations": ["wireless keyboard", "virtual keyboard"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 114 } },
+    { "id": "v26", "en": "lightweight", "vi": "nhẹ", "ipa": "/ˈlaɪtweɪt/", "ipaFrom": "dictionary", "pos": "adj", "example": "A lightweight laptop is easy to carry to school.", "collocations": ["lightweight laptop", "lightweight case"], "synonyms": ["light"], "antonyms": ["heavy"], "src": { "kind": "sgk", "page": 114 } },
+    { "id": "v27", "en": "scan", "vi": "quét (ảnh, tài liệu)", "ipa": "/skæn/", "ipaFrom": "dictionary", "pos": "v", "example": "You can scan your homework with the phone camera and send it to the teacher.", "collocations": ["scan a document", "scan a QR code"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 114 } },
+    { "id": "v28", "en": "document", "vi": "tài liệu", "ipa": "/ˈdɒkjumənt/", "ipaFrom": "dictionary", "pos": "n", "example": "Please save the document before you turn off the computer.", "collocations": ["save a document", "print a document"], "synonyms": ["file"], "antonyms": [], "src": { "kind": "sgk", "page": 114 } },
+    { "id": "v29", "en": "photocopier", "vi": "máy photocopy", "ipa": "/ˈfəʊtəʊkɒpiə/", "ipaFrom": "dictionary", "pos": "n", "example": "The photocopier in the school office is broken again.", "collocations": ["use the photocopier"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 116 } },
+    { "id": "v30", "en": "live-streaming", "vi": "phát trực tiếp", "ipa": "/ˈlaɪv striːmɪŋ/", "ipaFrom": "dictionary", "pos": "n", "example": "Our school uses live-streaming so parents can watch the concert online.", "collocations": ["live-streaming video"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 116 } },
+    { "id": "v31", "en": "charger", "vi": "bộ sạc", "ipa": "/ˈtʃɑːdʒə/", "ipaFrom": "dictionary", "pos": "n", "example": "I forgot my phone charger, so my phone died in the afternoon.", "collocations": ["phone charger", "wireless charger"], "synonyms": [], "antonyms": [], "src": { "kind": "team", "page": null } },
+    { "id": "v32", "en": "battery", "vi": "pin", "ipa": "/ˈbætri/", "ipaFrom": "dictionary", "pos": "n", "example": "The battery of this smartwatch lasts for five days.", "collocations": ["battery life", "charge the battery"], "synonyms": [], "antonyms": [], "src": { "kind": "team", "page": null } }
   ],
   "grammar": [
     {
@@ -109,6 +120,19 @@
       "sentence": "Press this button, then swipe up. Got it?",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "sound",
+      "focus": "Nguyên âm dài /iː/ và nguyên âm ngắn /ɪ/",
+      "tipVi": "/iː/ là âm dài: kéo khóe miệng sang hai bên như khi cười và đọc kéo dài (screen, keyboard, e-reader). /ɪ/ là âm ngắn: miệng thả lỏng, đọc nhanh, gọn (printer, video, digital).",
+      "words": ["screen", "keyboard", "e-reader", "printer", "video", "digital"],
+      "sentence": "I need a bigger screen to edit this video.",
+      "quiz": [
+        { "prompt": "Which word has the long sound /iː/?", "options": ["screen", "printer", "video"], "answer": 0, "explainVi": "screen /skriːn/ có âm dài /iː/; printer và video có âm ngắn /ɪ/." },
+        { "prompt": "Which word has the short sound /ɪ/?", "options": ["digital", "keyboard", "e-reader"], "answer": 0, "explainVi": "digital /ˈdɪdʒɪtl/ có âm ngắn /ɪ/; keyboard và e-reader có /iː/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -120,7 +144,14 @@
     { "id": "e06", "en": "I suggest ...ing", "vi": "Mình gợi ý nên ...", "useVi": "Khi gợi ý cách làm cho người khác.", "example": "I suggest buying a tablet with a big screen.", "src": { "kind": "team", "page": null } },
     { "id": "e07", "en": "I'd recommend ... if you want to ...", "vi": "Mình đề xuất ... nếu bạn muốn ...", "useVi": "Khi giới thiệu thiết bị phù hợp với nhu cầu của người khác.", "example": "I'd recommend an e-reader if you want to read a lot.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "I use it to ...", "vi": "Mình dùng nó để ...", "useVi": "Khi nói mục đích dùng một thiết bị.", "example": "I use my laptop to do homework and watch English videos.", "src": { "kind": "team", "page": null } },
-    { "id": "e09", "en": "I couldn't live without ...", "vi": "Mình không thể sống thiếu ...", "useVi": "Khi nói thiết bị quan trọng nhất với mình.", "example": "I couldn't live without my headphones.", "src": { "kind": "team", "page": null } }
+    { "id": "e09", "en": "I couldn't live without ...", "vi": "Mình không thể sống thiếu ...", "useVi": "Khi nói thiết bị quan trọng nhất với mình.", "example": "I couldn't live without my headphones.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "Is that clear?", "vi": "Rõ chưa nào?", "useVi": "Khi hướng dẫn xong một bước và muốn kiểm tra người nghe đã hiểu chưa.", "example": "Press this button to turn it on. Is that clear?", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "Does that make sense?", "vi": "Bạn thấy dễ hiểu chứ?", "useVi": "Khi kiểm tra xem lời giải thích của mình có dễ hiểu không.", "example": "You charge it once a week. Does that make sense?", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "Yes, that's clear. Thanks.", "vi": "Ừ, rõ rồi. Cảm ơn nhé.", "useVi": "Khi xác nhận mình đã hiểu lời hướng dẫn.", "example": "Yes, that's clear. Thanks for showing me.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "Let me show you how to ...", "vi": "Để mình chỉ bạn cách ...", "useVi": "Khi bắt đầu hướng dẫn ai dùng một thiết bị.", "example": "Let me show you how to make a video call.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "First, ... Then, ... Finally, ...", "vi": "Đầu tiên ... Sau đó ... Cuối cùng ...", "useVi": "Khi hướng dẫn các bước theo thứ tự.", "example": "First, open the app. Then, choose a photo. Finally, press Send.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "It's useful for + V-ing ...", "vi": "Nó hữu ích để ...", "useVi": "Khi nói công dụng của một thiết bị.", "example": "A smartwatch is useful for checking messages quickly.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "The battery lasts for ...", "vi": "Pin dùng được ...", "useVi": "Khi hỏi hoặc giới thiệu thời lượng pin của thiết bị.", "example": "The battery lasts for about ten hours.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["My sister suggested", "buying", "a new laptop", "for studying"], "vi": "Chị mình gợi ý mua một chiếc máy tính xách tay mới để học.", "grammarId": "g01" },
@@ -130,7 +161,9 @@
     { "id": "b05", "chunks": ["A laptop", "is portable", "so I can study", "anywhere"], "vi": "Máy tính xách tay có thể mang theo nên mình học ở đâu cũng được.", "grammarId": null },
     { "id": "b06", "chunks": ["I use", "my e-reader", "to read", "English stories"], "vi": "Mình dùng máy đọc sách điện tử để đọc truyện tiếng Anh.", "grammarId": null },
     { "id": "b07", "chunks": ["In the future,", "robots will be able to", "do", "most of the housework"], "vi": "Trong tương lai, robot sẽ có thể làm hầu hết việc nhà.", "grammarId": null },
-    { "id": "b08", "chunks": ["They recommended", "that he", "take his tablet", "to a repair shop"], "vi": "Họ khuyên anh ấy mang máy tính bảng đến tiệm sửa chữa.", "grammarId": "g02" }
+    { "id": "b08", "chunks": ["They recommended", "that he", "take his tablet", "to a repair shop"], "vi": "Họ khuyên anh ấy mang máy tính bảng đến tiệm sửa chữa.", "grammarId": "g02" },
+    { "id": "b09", "chunks": ["My teacher advised", "keeping", "our tablets", "fully charged"], "vi": "Cô giáo khuyên chúng mình giữ máy tính bảng luôn đầy pin.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["The shop assistant recommended", "that I should buy", "a lightweight laptop"], "vi": "Nhân viên cửa hàng khuyên mình nên mua một chiếc máy tính xách tay nhẹ.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -159,6 +192,36 @@
         { "askVi": "Khi nào?", "ask": "When?", "add": "every morning" }
       ],
       "full": "My family has a robotic vacuum cleaner which cleans the floor every morning."
+    },
+    {
+      "id": "x04",
+      "base": "I bought a smartwatch.",
+      "steps": [
+        { "askVi": "Màu gì?", "ask": "What colour?", "add": "black" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last month" },
+        { "askVi": "Để làm gì?", "ask": "What for?", "add": "to count my steps" }
+      ],
+      "full": "I bought a black smartwatch last month to count my steps."
+    },
+    {
+      "id": "x05",
+      "base": "My teacher suggested using an app.",
+      "steps": [
+        { "askVi": "Ứng dụng gì?", "ask": "What kind of app?", "add": "dictionary" },
+        { "askVi": "Để làm gì?", "ask": "What for?", "add": "to check new words" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "during reading lessons" }
+      ],
+      "full": "My teacher suggested using a dictionary app to check new words during reading lessons."
+    },
+    {
+      "id": "x06",
+      "base": "Robots will help us.",
+      "steps": [
+        { "askVi": "Giúp việc gì?", "ask": "With what?", "add": "with the housework" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "in the future" },
+        { "askVi": "Điều đó tốt thế nào?", "ask": "Why is that good?", "add": "so we will have more free time" }
+      ],
+      "full": "In the future, robots will help us with the housework, so we will have more free time."
     }
   ],
   "variations": [
@@ -221,6 +284,45 @@
       "keywords": ["suggest", "turn off", "break", "screen time"],
       "exampleAnswer": "I suggest taking a break every thirty minutes and turning off the phone one hour before bed.",
       "expectsReason": false
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Thiết bị thông minh trong gia đình",
+      "questions": [
+        "What smart devices does your family use at home?",
+        "Which electronic devices help your family with housework?",
+        "Tell me about a device at home that makes life easier.",
+        "What devices in your house can you control with a phone?"
+      ],
+      "keywords": ["robotic vacuum cleaner", "smart", "device", "control"],
+      "exampleAnswer": "My family has a robotic vacuum cleaner and a smart TV. My mum can turn on the vacuum cleaner with her phone when she is at work.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Thiết bị điện tử thời ông bà và bây giờ",
+      "questions": [
+        "What electronic devices did your grandparents have when they were young?",
+        "How were devices in the past different from devices today?",
+        "Tell me about an old device that people rarely use now.",
+        "How have phones changed since your parents were teenagers?"
+      ],
+      "keywords": ["radio", "camcorder", "portable", "today"],
+      "exampleAnswer": "My grandparents only had a big radio and a black-and-white TV. Today we have smartphones that are much smaller and can do everything.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Dùng màn hình mà vẫn giữ sức khỏe",
+      "questions": [
+        "What do you recommend doing to protect your eyes when you use screens? Why?",
+        "How can students use their devices without hurting their health?",
+        "What would you advise a friend who uses a phone all day? Why?",
+        "What healthy habits do you suggest for people who use computers a lot?"
+      ],
+      "keywords": ["recommend", "suggest", "advise", "because"],
+      "exampleAnswer": "I recommend taking a short break every thirty minutes and looking at something far away, because staring at a screen for a long time hurts your eyes.",
+      "expectsReason": true
     }
   ],
   "independent": [
@@ -333,6 +435,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["I suggest", "useful", "because", "learn"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Hỏi mua máy đọc sách điện tử",
+      "contextVi": "Em để dành tiền và muốn mua một máy đọc sách điện tử để đọc truyện tiếng Anh. Em đến cửa hàng điện tử và hỏi nhân viên bán hàng.",
+      "aiRole": "a shop assistant in an electronics shop",
+      "studentRoleVi": "Học sinh là khách hàng muốn mua máy đọc sách",
+      "goalVi": "Hỏi nhân viên về giá, pin, màn hình và một tính năng em cần, rồi quyết định mua hay chưa.",
+      "goal": "Ask the shop assistant about the price, battery, screen and one feature you need, then decide whether to buy it.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất hai từ của bài", "words": ["e-reader", "battery", "touchscreen", "portable", "lightweight", "wireless"] },
+        { "kind": "reason", "vi": "Nói vì sao em mua hay chưa mua", "words": [] }
+      ],
+      "opener": "Good afternoon! What can I do for you today?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "We have two e-readers. This one is lightweight and has a touchscreen. Would you like to see it?",
+        "It's two million dong, and the battery lasts for about three weeks.",
+        "So, would you like to buy it, or do you need more time to think?"
+      ],
+      "tipsVi": ["Hỏi: \"How long does the battery last?\"", "Quyết định: \"I'll take it because...\" hoặc \"I need to think about it because...\""],
+      "keywords": ["e-reader", "battery", "price", "lightweight", "because"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Mang máy tính bảng đi sửa",
+      "contextVi": "Máy tính bảng của em bị lỗi: màn hình cảm ứng không phản hồi và pin hết rất nhanh. Em mang máy đến tiệm sửa và kể cho kỹ thuật viên nghe.",
+      "aiRole": "Mr Khoa, a technician at a repair shop",
+      "studentRoleVi": "Học sinh mang máy đi sửa",
+      "goalVi": "Mô tả rõ vấn đề của máy, trả lời câu hỏi của kỹ thuật viên và hỏi xem nên làm gì để máy không hỏng lại.",
+      "goal": "Describe the problem clearly, answer the technician's questions and ask what you should do to stop it happening again.",
+      "requirements": [
+        { "kind": "example", "vi": "Mô tả ít nhất hai dấu hiệu cụ thể của lỗi", "words": [] },
+        { "kind": "keyword", "vi": "Dùng từ của bài khi mô tả", "words": ["touchscreen", "battery", "charger", "screen", "tablet"] }
+      ],
+      "opener": "Hello! What seems to be the problem with your device?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "I see. When did it start? Did you drop it?",
+        "OK. Which charger do you use for it?",
+        "I can fix it by tomorrow. I suggest using the original charger. Is that clear?"
+      ],
+      "tipsVi": ["Mô tả: \"The touchscreen doesn't work when I...\"", "Hỏi: \"What do you recommend doing to keep it safe?\""],
+      "keywords": ["tablet", "touchscreen", "battery", "charger", "recommend"]
     }
   ]
 }

@@ -25,7 +25,18 @@
     { "id": "v17", "en": "fattening", "vi": "gây béo phì", "ipa": "/ˈfætnɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "Fried chicken and milk tea are very fattening.", "collocations": ["fattening food", "fattening snacks"], "synonyms": [], "antonyms": ["healthy"], "src": { "kind": "sgk", "page": 136 } },
     { "id": "v18", "en": "habit", "vi": "thói quen", "ipa": "/ˈhæbɪt/", "ipaFrom": "dictionary", "pos": "n", "example": "Drinking enough water is a good habit.", "collocations": ["eating habits", "a healthy habit", "change a habit"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 30 } },
     { "id": "v19", "en": "work out", "vi": "tập thể dục, tập luyện", "ipa": "/ˌwɜːk ˈaʊt/", "ipaFrom": "dictionary", "pos": "phr v", "example": "My dad works out at the gym three times a week.", "collocations": ["work out at the gym", "work out regularly"], "synonyms": ["exercise"], "antonyms": [], "src": { "kind": "sgk", "page": 30 } },
-    { "id": "v20", "en": "manage", "vi": "quản lí, sắp xếp", "ipa": "/ˈmænɪdʒ/", "ipaFrom": "dictionary", "pos": "v", "example": "I use a planner to manage my time better.", "collocations": ["manage your time", "manage stress"], "synonyms": ["organise"], "antonyms": [], "src": { "kind": "sgk", "page": 30 } }
+    { "id": "v20", "en": "manage", "vi": "quản lí, sắp xếp", "ipa": "/ˈmænɪdʒ/", "ipaFrom": "dictionary", "pos": "v", "example": "I use a planner to manage my time better.", "collocations": ["manage your time", "manage stress"], "synonyms": ["organise"], "antonyms": [], "src": { "kind": "sgk", "page": 30 } },
+    { "id": "v21", "en": "additional", "vi": "thêm, bổ sung", "ipa": "/əˈdɪʃənl/", "ipaFrom": "glossary", "pos": "adj", "example": "Students who need additional help can meet the counsellor on Fridays.", "collocations": ["additional help", "additional time"], "synonyms": ["extra"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v22", "en": "appropriately", "vi": "phù hợp, thích đáng", "ipa": "/əˈprəʊpriətli/", "ipaFrom": "glossary", "pos": "adv", "example": "You should dress appropriately for PE lessons.", "collocations": ["dress appropriately", "behave appropriately"], "synonyms": ["suitably"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v23", "en": "maintain", "vi": "duy trì, giữ", "ipa": "/meɪnˈteɪn/", "ipaFrom": "dictionary", "pos": "v", "example": "Eating well and sleeping enough help you maintain good health.", "collocations": ["maintain good health", "maintain a balance"], "synonyms": ["keep"], "antonyms": [], "src": { "kind": "sgk", "page": 28 } },
+    { "id": "v24", "en": "diet", "vi": "chế độ ăn uống", "ipa": "/ˈdaɪət/", "ipaFrom": "dictionary", "pos": "n", "example": "A healthy diet includes plenty of fruit and vegetables.", "collocations": ["a healthy diet", "a balanced diet"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 28 } },
+    { "id": "v25", "en": "schedule", "vi": "lịch trình, thời gian biểu", "ipa": "/ˈʃedjuːl/", "ipaFrom": "dictionary", "pos": "n", "example": "I write my study schedule on a big sheet of paper above my desk.", "collocations": ["make a schedule", "a busy schedule"], "synonyms": ["timetable"], "antonyms": [], "src": { "kind": "sgk", "page": 28 } },
+    { "id": "v26", "en": "balance", "vi": "sự cân bằng; cân bằng", "ipa": "/ˈbæləns/", "ipaFrom": "dictionary", "pos": "n, v", "example": "Try to keep a balance between study and play.", "collocations": ["keep a balance", "balance study and life"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 28 } },
+    { "id": "v27", "en": "stress", "vi": "sự căng thẳng", "ipa": "/stres/", "ipaFrom": "dictionary", "pos": "n", "example": "Exams bring a lot of stress, so I go for a walk to relax.", "collocations": ["reduce stress", "under stress"], "synonyms": ["pressure"], "antonyms": [], "src": { "kind": "sgk", "page": 28 } },
+    { "id": "v28", "en": "advice", "vi": "lời khuyên", "ipa": "/ədˈvaɪs/", "ipaFrom": "dictionary", "pos": "n", "example": "The counsellor gave me some useful advice about managing my time.", "collocations": ["give advice", "a piece of advice"], "synonyms": ["tip"], "antonyms": [], "src": { "kind": "sgk", "page": 28 } },
+    { "id": "v29", "en": "regularly", "vi": "đều đặn, thường xuyên", "ipa": "/ˈreɡjələli/", "ipaFrom": "dictionary", "pos": "adv", "example": "My dad exercises regularly, so he rarely gets ill.", "collocations": ["exercise regularly"], "synonyms": ["often"], "antonyms": ["rarely"], "src": { "kind": "sgk", "page": 30 } },
+    { "id": "v30", "en": "junk food", "vi": "đồ ăn vặt không lành mạnh", "ipa": "/ˈdʒʌŋk fuːd/", "ipaFrom": "dictionary", "pos": "n", "example": "If you eat too much junk food, you may feel tired in class.", "collocations": ["cut down on junk food", "eat junk food"], "synonyms": ["fast food"], "antonyms": ["healthy food"], "src": { "kind": "team", "page": null } },
+    { "id": "v31", "en": "screen time", "vi": "thời gian dùng màn hình", "ipa": "/ˈskriːn taɪm/", "ipaFrom": "dictionary", "pos": "n", "example": "My parents limit my screen time to one hour a day.", "collocations": ["limit screen time", "too much screen time"], "synonyms": [], "antonyms": [], "src": { "kind": "team", "page": null } }
   ],
   "grammar": [
     {
@@ -112,6 +123,19 @@
       "sentence": "Sorry? Could you say that again, please?",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "sentence_stress",
+      "focus": "Nhấn từ chính trong câu khuyên dùng if và should",
+      "tipVi": "Trong câu khuyên, ta nhấn các từ mang nghĩa chính (động từ, danh từ, tính từ) như feel, tired, take, break. Các từ nhỏ như if, you, should, a thường đọc nhẹ và nhanh.",
+      "words": ["feel", "tired", "take", "break", "sleep", "early"],
+      "sentence": "If you feel tired, you should take a break.",
+      "quiz": [
+        { "prompt": "Which words are usually stressed in \"If you feel tired, you should rest.\"?", "options": ["feel, tired, rest", "If, you, should", "you, you, should"], "answer": 0, "explainVi": "Ta nhấn các từ mang nghĩa chính: feel, tired, rest; if, you, should đọc nhẹ." },
+        { "prompt": "Which word is usually NOT stressed in \"You should get more sleep.\"?", "options": ["you", "sleep", "more"], "answer": 0, "explainVi": "you là đại từ nên thường đọc nhẹ; get, more, sleep được nhấn." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -124,7 +148,13 @@
     { "id": "e07", "en": "If you ..., you should ...", "vi": "Nếu bạn ..., bạn nên ...", "useVi": "Khi khuyên ai trong một tình huống cụ thể.", "example": "If you feel tired, you should go to bed earlier.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "Don't worry too much.", "vi": "Đừng lo lắng quá.", "useVi": "Khi động viên người đang căng thẳng.", "example": "Don't worry too much. You studied hard.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "For me, the most important thing is ...", "vi": "Với mình, điều quan trọng nhất là ...", "useVi": "Khi nêu điều mình ưu tiên.", "example": "For me, the most important thing is getting enough sleep.", "src": { "kind": "team", "page": null } },
-    { "id": "e10", "en": "I understand, but ...", "vi": "Mình hiểu, nhưng ...", "useVi": "Khi lịch sự nêu ý khác với người đang nói chuyện.", "example": "I understand, but sport helps me study better.", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "I understand, but ...", "vi": "Mình hiểu, nhưng ...", "useVi": "Khi lịch sự nêu ý khác với người đang nói chuyện.", "example": "I understand, but sport helps me study better.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "Could you speak a bit louder, please?", "vi": "Bạn nói to hơn một chút được không?", "useVi": "Khi không nghe rõ vì người nói quá nhỏ.", "example": "Sorry, could you speak a bit louder, please? It's noisy here.", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "What do you mean by ...?", "vi": "... nghĩa là gì vậy?", "useVi": "Khi chưa hiểu một từ hay một ý người khác vừa nói.", "example": "What do you mean by a well-balanced life?", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "You'd better ...", "vi": "Bạn nên ... thì hơn", "useVi": "Khi khuyên ai đó một cách mạnh hơn should, thường khi có việc cần làm ngay.", "example": "You'd better go to bed now. It's nearly midnight.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "How do you manage to ...?", "vi": "Bạn làm cách nào mà ... được vậy?", "useVi": "Khi hỏi bí quyết của người khác.", "example": "How do you manage to finish your homework so early?", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "I try to ... every day.", "vi": "Mình cố gắng ... mỗi ngày.", "useVi": "Khi kể về một thói quen tốt mình đang giữ.", "example": "I try to walk for thirty minutes every day.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "That's a good tip. I'll try it.", "vi": "Mẹo hay đấy. Mình sẽ thử.", "useVi": "Khi vui vẻ nhận lời khuyên của người khác.", "example": "That's a good tip. I'll try it this weekend.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["If you feel", "stressed out", "you should talk", "to a counsellor"], "vi": "Nếu bạn thấy căng thẳng, bạn nên nói chuyện với người tư vấn.", "grammarId": "g01" },
@@ -134,7 +164,9 @@
     { "id": "b05", "chunks": ["You should", "minimise distractions", "when you study"], "vi": "Bạn nên giảm tối đa những thứ gây sao lãng khi học.", "grammarId": null },
     { "id": "b06", "chunks": ["A well-balanced life", "means time", "for study, rest", "and fun"], "vi": "Một cuộc sống cân bằng là có thời gian cho học, nghỉ ngơi và vui chơi.", "grammarId": null },
     { "id": "b07", "chunks": ["Exercise", "always puts me", "in a good mood"], "vi": "Tập thể dục luôn làm mình vui vẻ.", "grammarId": null },
-    { "id": "b08", "chunks": ["If you finish", "your assignment", "before the deadline", "you can relax"], "vi": "Nếu bạn làm xong bài trước hạn, bạn có thể nghỉ ngơi.", "grammarId": "g02" }
+    { "id": "b08", "chunks": ["If you finish", "your assignment", "before the deadline", "you can relax"], "vi": "Nếu bạn làm xong bài trước hạn, bạn có thể nghỉ ngơi.", "grammarId": "g02" },
+    { "id": "b09", "chunks": ["If you want to sleep well", "you shouldn't use", "your phone", "before bed"], "vi": "Nếu muốn ngủ ngon, bạn không nên dùng điện thoại trước khi ngủ.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["If it rains tomorrow", "we will do", "yoga indoors", "instead of jogging"], "vi": "Nếu mai trời mưa, chúng mình sẽ tập yoga trong nhà thay vì chạy bộ.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -174,6 +206,26 @@
         { "askVi": "Vì sao?", "ask": "Why?", "add": "because their bodies are still growing" }
       ],
       "full": "Teenagers should sleep eight to ten hours a night because their bodies are still growing."
+    },
+    {
+      "id": "x05",
+      "base": "I eat breakfast.",
+      "steps": [
+        { "askVi": "Em ăn gì?", "ask": "What do you eat?", "add": "a bowl of pho" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every morning" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it gives me energy" }
+      ],
+      "full": "I eat a bowl of pho for breakfast every morning because it gives me energy."
+    },
+    {
+      "id": "x06",
+      "base": "My sister makes a schedule.",
+      "steps": [
+        { "askVi": "Lịch gì?", "ask": "What kind of schedule?", "add": "weekly study" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every Sunday evening" },
+        { "askVi": "Để làm gì?", "ask": "Why?", "add": "so that she can meet her deadlines" }
+      ],
+      "full": "My sister makes a weekly study schedule every Sunday evening so that she can meet her deadlines."
     }
   ],
   "variations": [
@@ -235,6 +287,45 @@
       ],
       "keywords": ["mental", "physical", "mood", "optimistic"],
       "exampleAnswer": "When we are in a good mood, we learn better and get on well with friends, so mental health matters as much as physical health.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Chế độ ăn lành mạnh cho tuổi teen",
+      "questions": [
+        "What should a teenager eat to stay healthy? Why?",
+        "What does a healthy diet mean to you? Give an example.",
+        "Which foods should students eat less of, and why?",
+        "How can you make your meals healthier? Why does it matter?"
+      ],
+      "keywords": ["diet", "junk food", "vegetables", "because"],
+      "exampleAnswer": "Teenagers should eat more fruit, vegetables and fish and cut down on junk food, because a healthy diet gives them energy to study and play.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Ngủ đủ giấc và thời gian dùng màn hình",
+      "questions": [
+        "How many hours do you sleep, and is it enough? Why?",
+        "Why do many teenagers go to bed too late?",
+        "Should teenagers limit their screen time before bed? Why?",
+        "What can you do to get a good night's sleep?"
+      ],
+      "keywords": ["sleep", "screen time", "go to bed", "because"],
+      "exampleAnswer": "I usually sleep about seven hours, which is not enough. I should put my phone away earlier because screens keep me awake.",
+      "expectsReason": true
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Người em tìm đến khi gặp khó khăn",
+      "questions": [
+        "Who do you talk to when you have a problem? Why?",
+        "When you feel stressed out, who helps you most? How?",
+        "Would you talk to a school counsellor about your problems? Why or why not?",
+        "Who gives you the best advice, and why?"
+      ],
+      "keywords": ["counsellor", "advice", "stressed out", "because"],
+      "exampleAnswer": "I usually talk to my older sister because she listens carefully and gives me good advice without judging me.",
       "expectsReason": true
     }
   ],
@@ -348,6 +439,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["priority", "if we", "should", "because", "rest"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Gặp cô tư vấn học đường",
+      "contextVi": "Sắp đến kỳ thi, em thấy căng thẳng, khó ngủ và hay mệt. Em đến phòng tư vấn gặp cô Hoa. Phòng hơi ồn nên đôi lúc em không nghe rõ cô nói.",
+      "aiRole": "Ms Hoa, the school counsellor",
+      "studentRoleVi": "Học sinh đang căng thẳng trước kỳ thi",
+      "goalVi": "Kể vấn đề của mình, xin lời khuyên, xin cô nhắc lại khi chưa nghe rõ và cảm ơn cô.",
+      "goal": "Describe your problem, ask for advice, ask her to repeat something you didn't hear clearly, and thank her.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Xin nhắc lại ít nhất một lần", "words": ["Sorry?", "I beg your pardon", "Could you say that again", "Could you speak a bit louder"] },
+        { "kind": "example", "vi": "Kể ít nhất một dấu hiệu cụ thể (khó ngủ, mệt, lo lắng)", "words": [] }
+      ],
+      "opener": "Hello, come in and sit down. You look a bit tired today. What's the matter?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "I see. How many hours do you usually sleep before an exam?",
+        "If you feel stressed, you should take short breaks and go for a walk. Does that make sense?",
+        "You're welcome. Come back next week and tell me how you feel."
+      ],
+      "tipsVi": ["Nói rõ vấn đề: \"I feel stressed out because...\"", "Khi không nghe rõ: \"Sorry? Could you say that again, please?\""],
+      "keywords": ["stressed out", "sleep", "advice", "Sorry?", "exam"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Khảo sát thói quen sống khỏe",
+      "contextVi": "Lớp em làm khảo sát về thói quen sống khỏe của học sinh. Em phỏng vấn Nam, một bạn cùng lớp, về giấc ngủ, ăn uống và tập thể dục, rồi đưa ra một lời khuyên.",
+      "aiRole": "Nam, a classmate who often stays up late and skips breakfast",
+      "studentRoleVi": "Học sinh làm khảo sát",
+      "goalVi": "Hỏi Nam ít nhất ba câu về giấc ngủ, ăn uống, tập thể dục, rồi khuyên bạn một điều bằng câu if + should.",
+      "goal": "Ask Nam at least three questions about sleep, food and exercise, then give him one piece of advice with if and should.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng câu khuyên có if và should", "words": ["If you", "should", "might", "can"] },
+        { "kind": "reason", "vi": "Giải thích vì sao lời khuyên có ích", "words": [] }
+      ],
+      "opener": "Hi! You said you're doing a survey about healthy habits? OK, ask me anything.",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Well, I usually go to bed at about midnight because I play games.",
+        "Breakfast? I often skip it. I just buy a snack on the way to school.",
+        "Hmm, why do you think that will help me?"
+      ],
+      "tipsVi": ["Hỏi ngắn gọn: \"What time do you go to bed?\"", "Khuyên: \"If you go to bed earlier, you will...\""],
+      "keywords": ["habit", "sleep", "breakfast", "If you", "should"]
     }
   ]
 }

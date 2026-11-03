@@ -26,7 +26,18 @@
     { "id": "v18", "en": "celebrate", "vi": "tổ chức, mừng", "ipa": "/ˈselɪbreɪt/", "ipaFrom": "glossary", "pos": "v", "example": "Many families celebrate the Mid-Autumn Festival with mooncakes.", "collocations": ["celebrate a festival", "celebrate Tet"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
     { "id": "v19", "en": "costume", "vi": "trang phục", "ipa": "/ˈkɒstjuːm/", "ipaFrom": "glossary", "pos": "n", "example": "The dancers wore colourful traditional costumes.", "collocations": ["traditional costume", "national costume"], "synonyms": ["clothes"], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
     { "id": "v20", "en": "lifestyle", "vi": "lối sống", "ipa": "/ˈlaɪfstaɪl/", "ipaFrom": "glossary", "pos": "n", "example": "Living abroad changed his lifestyle a lot.", "collocations": ["a healthy lifestyle", "a modern lifestyle"], "synonyms": ["way of life"], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
-    { "id": "v21", "en": "tug of war", "vi": "trò chơi kéo co", "ipa": "/ˌtʌg əv ˈwɔː/", "ipaFrom": "glossary", "pos": "n", "example": "Students from five countries played tug of war at the festival.", "collocations": ["play tug of war"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 148 } }
+    { "id": "v21", "en": "tug of war", "vi": "trò chơi kéo co", "ipa": "/ˌtʌg əv ˈwɔː/", "ipaFrom": "glossary", "pos": "n", "example": "Students from five countries played tug of war at the festival.", "collocations": ["play tug of war"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v22", "en": "anxiety", "vi": "sự bồn chồn, lo lắng", "ipa": "/æŋˈzaɪəti/", "ipaFrom": "glossary", "pos": "n", "example": "Many international students feel anxiety in their first weeks abroad.", "collocations": ["feel anxiety", "cause anxiety"], "synonyms": ["worry", "nervousness"], "antonyms": ["calm"], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v23", "en": "bamboo dancing", "vi": "nhảy sạp", "ipa": "/ˌbæmˈbuː ˈdɑːnsɪŋ/", "ipaFrom": "glossary", "pos": "np", "example": "Our foreign guests loved bamboo dancing at the school festival.", "collocations": ["try bamboo dancing", "perform bamboo dancing"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v24", "en": "captivate", "vi": "thu hút, cuốn hút", "ipa": "/ˈkæptɪveɪt/", "ipaFrom": "glossary", "pos": "v", "example": "The water puppet show captivated all the tourists.", "collocations": ["be captivated by", "captivate the audience"], "synonyms": ["attract", "charm"], "antonyms": ["bore"], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v25", "en": "confusion", "vi": "sự khó hiểu, sự bối rối", "ipa": "/kənˈfjuːʒn/", "ipaFrom": "glossary", "pos": "n", "example": "Different table manners can cause confusion for visitors.", "collocations": ["cause confusion", "avoid confusion"], "synonyms": ["misunderstanding"], "antonyms": ["clarity"], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v26", "en": "extracurricular", "vi": "ngoại khoá", "ipa": "/ˌekstrəkəˈrɪkjələ/", "ipaFrom": "glossary", "pos": "adj", "example": "Our school offers extracurricular activities such as a K-pop dance club.", "collocations": ["extracurricular activities", "an extracurricular club"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v27", "en": "tasty", "vi": "ngon", "ipa": "/ˈteɪsti/", "ipaFrom": "glossary", "pos": "adj", "example": "Banh mi is cheap, tasty and easy to find in Viet Nam.", "collocations": ["tasty food", "a tasty dish"], "synonyms": ["delicious"], "antonyms": ["tasteless"], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v28", "en": "souvenir", "vi": "quà lưu niệm", "ipa": "/ˌsuːvəˈnɪə/", "ipaFrom": "dictionary", "pos": "n", "example": "I bought a small red bus as a souvenir from London.", "collocations": ["souvenir shop", "buy souvenirs"], "synonyms": ["keepsake"], "antonyms": [], "src": { "kind": "sgk", "page": 20 } },
+    { "id": "v29", "en": "ingredient", "vi": "nguyên liệu (nấu ăn)", "ipa": "/ɪnˈɡriːdiənt/", "ipaFrom": "dictionary", "pos": "n", "example": "Fish sauce is a key ingredient in many Vietnamese dishes.", "collocations": ["main ingredient", "local ingredients"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 24 } },
+    { "id": "v30", "en": "blend", "vi": "pha trộn, kết hợp", "ipa": "/blend/", "ipaFrom": "dictionary", "pos": "v", "example": "This designer blends traditional and modern styles in her ao dai.", "collocations": ["blend A with B", "blend cultures"], "synonyms": ["mix", "combine"], "antonyms": ["separate"], "src": { "kind": "sgk", "page": 24 } },
+    { "id": "v31", "en": "belief", "vi": "niềm tin, tín ngưỡng", "ipa": "/bɪˈliːf/", "ipaFrom": "dictionary", "pos": "n", "example": "We should respect the beliefs of people from other cultures.", "collocations": ["religious beliefs", "cultural beliefs"], "synonyms": ["faith"], "antonyms": [], "src": { "kind": "sgk", "page": 24 } },
+    { "id": "v32", "en": "cross-cultural", "vi": "giao thoa giữa các nền văn hoá", "ipa": "/ˌkrɒs ˈkʌltʃərəl/", "ipaFrom": "dictionary", "pos": "adj", "example": "The exchange programme gave me a valuable cross-cultural experience.", "collocations": ["cross-cultural experience", "cross-cultural understanding"], "synonyms": ["intercultural"], "antonyms": [], "src": { "kind": "sgk", "page": 24 } }
   ],
   "grammar": [
     {
@@ -127,6 +138,19 @@
         { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["costume", "diversity", "lifestyle"], "answer": 1, "explainVi": "diversity /daɪˈvɜːsəti/ nhấn âm thứ hai; costume và lifestyle nhấn âm đầu." }
       ],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p05",
+      "kind": "intonation",
+      "focus": "Ngữ điệu khi giới thiệu người khác",
+      "tipVi": "Câu giới thiệu là câu trần thuật nên xuống giọng ở cuối và nhấn vào tên người: I'd like you to meet ↘LINDA. Câu hỏi Have you met ...? lên giọng ở cuối. Khi đáp lại, nói vui vẻ và xuống giọng: Nice to meet ↘you.",
+      "words": ["I'd like you to meet ...", "This is ...", "Have you met ...?", "Nice to meet you."],
+      "sentence": "Mai, I'd like you to meet Linda. She's from Australia.",
+      "quiz": [
+        { "prompt": "In \"Have you met my cousin Nam?\", how does your voice usually go at the end?", "options": ["Up", "Down"], "answer": 0, "explainVi": "Câu hỏi Yes/No thường lên giọng ở cuối." },
+        { "prompt": "In \"I'd like you to meet Linda.\", how does your voice go at the end?", "options": ["Down", "Up"], "answer": 0, "explainVi": "Câu giới thiệu là câu trần thuật nên xuống giọng ở cuối." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -140,7 +164,13 @@
     { "id": "e08", "en": "In my culture, people usually ...", "vi": "Trong văn hoá của mình, mọi người thường ...", "useVi": "Khi giải thích một phong tục cho người nước ngoài.", "example": "In my culture, people usually visit their relatives at Tet.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "It's similar to / different from ...", "vi": "Nó giống / khác với ...", "useVi": "Khi so sánh phong tục, món ăn của hai nước.", "example": "Banh chung is a bit similar to Japanese rice cakes.", "src": { "kind": "team", "page": null } },
     { "id": "e10", "en": "You should try ... when you visit ...", "vi": "Bạn nên thử ... khi đến ...", "useVi": "Khi gợi ý món ăn, hoạt động cho khách.", "example": "You should try bun cha when you visit Ha Noi.", "src": { "kind": "team", "page": null } },
-    { "id": "e11", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but traditions make us who we are.", "src": { "kind": "team", "page": null } }
+    { "id": "e11", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but traditions make us who we are.", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "Would you like to try ...?", "vi": "Bạn có muốn thử ... không?", "useVi": "Khi mời khách nước ngoài thử một món ăn hay hoạt động.", "example": "Would you like to try some green rice cakes?", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "It's made from/with ...", "vi": "Món này được làm từ ...", "useVi": "Khi giải thích nguyên liệu của một món ăn.", "example": "It's made with rice noodles, beef and fresh herbs.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "It's a tradition in Viet Nam to ...", "vi": "Ở Việt Nam có truyền thống ...", "useVi": "Khi giải thích một phong tục cho người nước ngoài.", "example": "It's a tradition in Viet Nam to give lucky money at Tet.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "What is ... like in your country?", "vi": "Ở nước bạn ... như thế nào?", "useVi": "Khi hỏi về văn hoá, phong tục của nước khác.", "example": "What is the New Year celebration like in your country?", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "Let me show you around.", "vi": "Để mình dẫn bạn đi xem quanh đây.", "useVi": "Khi đề nghị đưa khách đi tham quan.", "example": "Welcome to our school! Let me show you around.", "src": { "kind": "team", "page": null } },
+    { "id": "e17", "en": "That's interesting! In Viet Nam, we ...", "vi": "Thú vị thật! Ở Việt Nam, chúng mình ...", "useVi": "Khi đáp lại thông tin về văn hoá khác và so sánh với Việt Nam.", "example": "That's interesting! In Viet Nam, we eat with chopsticks.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["There is", "an Indian restaurant", "near", "my school"], "vi": "Có một nhà hàng Ấn Độ gần trường mình.", "grammarId": "g01" },
@@ -150,7 +180,9 @@
     { "id": "b05", "chunks": ["Young people", "should keep", "their cultural identity", "in a global world"], "vi": "Người trẻ nên giữ bản sắc văn hoá trong thế giới toàn cầu.", "grammarId": null },
     { "id": "b06", "chunks": ["I'd like you", "to meet", "my friend", "from the Philippines"], "vi": "Mình muốn giới thiệu bạn với bạn mình đến từ Philippines.", "grammarId": "g02" },
     { "id": "b07", "chunks": ["Globalisation helps us", "appreciate", "other cultures", "and their cuisines"], "vi": "Toàn cầu hoá giúp chúng ta trân trọng các nền văn hoá khác và ẩm thực của họ.", "grammarId": null },
-    { "id": "b08", "chunks": ["At the festival", "we played", "tug of war", "and ate spring rolls"], "vi": "Ở lễ hội, chúng mình chơi kéo co và ăn nem.", "grammarId": null }
+    { "id": "b08", "chunks": ["At the festival", "we played", "tug of war", "and ate spring rolls"], "vi": "Ở lễ hội, chúng mình chơi kéo co và ăn nem.", "grammarId": null },
+    { "id": "b09", "chunks": ["The festival", "attracts", "thousands of visitors", "from all over the world"], "vi": "Lễ hội thu hút hàng nghìn du khách từ khắp nơi trên thế giới.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["Japanese cuisine", "is famous for", "its fresh ingredients"], "vi": "Ẩm thực Nhật Bản nổi tiếng vì nguyên liệu tươi.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -189,6 +221,26 @@
         { "askVi": "Khi nào?", "ask": "When?", "add": "after I finish university" }
       ],
       "full": "I want to visit the UK to learn about British customs after I finish university."
+    },
+    {
+      "id": "x05",
+      "base": "I bought a souvenir.",
+      "steps": [
+        { "askVi": "Quà gì?", "ask": "What was it?", "add": "a lacquer painting" },
+        { "askVi": "Cho ai?", "ask": "Who for?", "add": "for my pen pal in Canada" },
+        { "askVi": "Vì sao chọn món đó?", "ask": "Why?", "add": "because it shows traditional Vietnamese art" }
+      ],
+      "full": "I bought a lacquer painting as a souvenir for my pen pal in Canada because it shows traditional Vietnamese art."
+    },
+    {
+      "id": "x06",
+      "base": "Foreign students feel confused.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "in their first weeks" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in a new country" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because the customs are so different" }
+      ],
+      "full": "Foreign students often feel confused in their first weeks in a new country because the customs are so different."
     }
   ],
   "variations": [
@@ -251,6 +303,45 @@
       "keywords": ["festival", "celebrate", "festivities", "because"],
       "exampleAnswer": "I'd like to join the Lantern Festival in Taiwan because thousands of lanterns fly into the sky.",
       "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Món quà lưu niệm Việt Nam em tặng bạn nước ngoài",
+      "questions": [
+        "What Vietnamese souvenir would you give to a foreign friend, and why?",
+        "If a friend from abroad visited you, what gift would you buy for him or her?",
+        "Which Vietnamese gift best shows our culture?",
+        "What would you recommend a tourist take home from Viet Nam?"
+      ],
+      "keywords": ["souvenir", "traditional", "handmade", "because"],
+      "exampleAnswer": "I would give a small conical hat because it is a symbol of Viet Nam. It is handmade, cheap and easy to carry.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Giữ bản sắc văn hoá trong thời toàn cầu hoá",
+      "questions": [
+        "How can young people keep their cultural identity in a global world?",
+        "What can we do to protect Vietnamese traditions?",
+        "How can teenagers enjoy foreign trends without forgetting their own culture?",
+        "What should schools do to help students value their own culture?"
+      ],
+      "keywords": ["identity", "traditions", "keep up with", "appreciate"],
+      "exampleAnswer": "We can enjoy foreign trends but still learn folk songs and wear ao dai on special days. Schools can also organise traditional games at festivals.",
+      "expectsReason": true
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Một hoạt động ngoại khoá về văn hoá",
+      "questions": [
+        "What cultural activities does your school organise?",
+        "Tell me about an extracurricular activity that helped you learn about other cultures.",
+        "Which school event taught you something about a foreign culture?",
+        "Have you taken part in any cultural events at school?"
+      ],
+      "keywords": ["extracurricular", "festival", "booth", "diversity"],
+      "exampleAnswer": "Last year our school held an International Day. My class had a Japanese booth, and we made sushi and taught visitors some Japanese words.",
+      "expectsReason": false
     }
   ],
   "independent": [
@@ -364,6 +455,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["identity", "globalisation", "traditional", "because", "for example"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Giới thiệu bạn nước ngoài với gia đình",
+      "contextVi": "Jack, một học sinh trao đổi người Úc, đến nhà em ăn tối. Em giới thiệu Jack với bố mẹ và giải thích vài phong tục trong bữa cơm gia đình Việt Nam.",
+      "aiRole": "Jack, an exchange student from Australia who is visiting your home for dinner",
+      "studentRoleVi": "Chủ nhà giới thiệu gia đình và phong tục bữa cơm",
+      "goalVi": "Giới thiệu Jack với người trong gia đình, giải thích ít nhất hai phong tục trong bữa cơm và gợi ý một món nên thử.",
+      "goal": "Introduce Jack to your family, explain at least two customs at a Vietnamese family meal, and suggest a dish he should try.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng cụm giới thiệu người khác", "words": ["I'd like you to meet", "This is", "Pleased to meet you"] },
+        { "kind": "example", "vi": "Giải thích ít nhất hai phong tục trong bữa cơm (ví dụ: mời ông bà trước, ăn chung các món)", "words": [] }
+      ],
+      "opener": "Hi! Thanks for inviting me. Your house is lovely. Who are all these people?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Nice to meet them! Is there anything I should know before we start eating?",
+        "Interesting! In Australia, everyone has their own plate. Which dish should I try first?",
+        "It's delicious! What is it made from?"
+      ],
+      "tipsVi": ["Giới thiệu: This is my mum. Mum, this is Jack from Australia.", "So sánh: It's different from ... / It's similar to ..."],
+      "keywords": ["I'd like you to meet", "custom", "traditional", "speciality", "try"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Giúp bạn mới vượt qua sốc văn hoá",
+      "contextVi": "Min-ji, học sinh Hàn Quốc mới chuyển đến lớp em được hai tuần. Bạn ấy thấy bối rối với giao thông, đồ ăn và cách chào hỏi ở Việt Nam.",
+      "aiRole": "Min-ji, a Korean student who has just moved to your school",
+      "studentRoleVi": "Bạn cùng lớp hỏi han và giúp đỡ",
+      "goalVi": "Hỏi Min-ji thấy khó khăn gì, đưa lời khuyên cho ít nhất hai vấn đề và rủ bạn tham gia một hoạt động.",
+      "goal": "Ask Min-ji about her difficulties, give advice on at least two problems, and invite her to join an activity.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra ít nhất hai lời khuyên (You should ... / Why don't you ...?)", "words": [] },
+        { "kind": "reason", "vi": "Giải thích ngắn vì sao người Việt làm như vậy", "words": [] }
+      ],
+      "opener": "Hi. To be honest, I'm feeling a bit lost here. Everything is so different from Korea.",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Well, the traffic scares me. How do you cross the street here?",
+        "Thanks. I also don't know what to eat. The food is very different from Korean food.",
+        "That's helpful. Is there any club or activity I could join to make friends?"
+      ],
+      "tipsVi": ["Hỏi han trước: What do you find most difficult?", "Khuyên: You should try ... / Why don't you join ...?"],
+      "keywords": ["culture shock", "confusion", "custom", "You should", "try"]
     }
   ]
 }

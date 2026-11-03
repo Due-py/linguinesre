@@ -25,7 +25,17 @@
     { "id": "v17", "en": "predict", "vi": "dự đoán", "ipa": "/prɪˈdɪkt/", "ipaFrom": "glossary", "pos": "v", "example": "Scientists cannot predict exactly when an earthquake will happen.", "collocations": ["predict the weather"], "synonyms": ["forecast"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
     { "id": "v18", "en": "shake", "vi": "rung, lắc", "ipa": "/ʃeɪk/", "ipaFrom": "glossary", "pos": "v", "example": "The windows began to shake, and we ran outside.", "collocations": ["the ground shakes", "begin to shake"], "synonyms": ["tremble"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
     { "id": "v19", "en": "suddenly", "vi": "đột nhiên, bỗng nhiên", "ipa": "/ˈsʌdənli/", "ipaFrom": "glossary", "pos": "adv", "example": "We were walking home when suddenly it started to rain heavily.", "collocations": [], "synonyms": ["all of a sudden"], "antonyms": ["slowly"], "src": { "kind": "sgk", "page": 138 } },
-    { "id": "v20", "en": "authority", "vi": "chính quyền", "ipa": "/ɔːˈθɒrəti/", "ipaFrom": "glossary", "pos": "n", "example": "The local authorities moved people to the school before the flood.", "collocations": ["local authorities"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } }
+    { "id": "v20", "en": "authority", "vi": "chính quyền", "ipa": "/ɔːˈθɒrəti/", "ipaFrom": "glossary", "pos": "n", "example": "The local authorities moved people to the school before the flood.", "collocations": ["local authorities"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v21", "en": "funnel", "vi": "cái phễu; luồng (gió) hình phễu", "ipa": "/ˈfʌnl/", "ipaFrom": "glossary", "pos": "n", "example": "We saw a dark funnel of wind moving across the field.", "collocations": ["a funnel of wind", "a funnel cloud"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v22", "en": "pull up", "vi": "kéo lên, nhổ lên, lôi lên", "ipa": "/pʊl ʌp/", "ipaFrom": "glossary", "pos": "phr v", "example": "The strong wind pulled up the banana trees in our garden.", "collocations": ["pull up trees", "pull up plants"], "synonyms": [], "antonyms": ["plant"], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v23", "en": "tremble", "vi": "rung lắc", "ipa": "/ˈtrembl/", "ipaFrom": "glossary", "pos": "v", "example": "The windows trembled when the earthquake started.", "collocations": ["the ground trembles", "tremble with fear"], "synonyms": ["shake"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v24", "en": "Richter scale", "vi": "độ rích te (đo độ mạnh của động đất)", "ipa": "/ˈrɪktə skeɪl/", "ipaFrom": "glossary", "pos": "n", "example": "The earthquake measured 6.5 on the Richter scale.", "collocations": ["on the Richter scale", "measure on the Richter scale"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v25", "en": "liquid", "vi": "chất lỏng", "ipa": "/ˈlɪkwɪd/", "ipaFrom": "glossary", "pos": "n", "example": "Hot liquid rock flowed down the side of the volcano.", "collocations": ["liquid rock", "hot liquid"], "synonyms": [], "antonyms": ["solid"], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v26", "en": "eruption", "vi": "sự phun trào", "ipa": "/ɪˈrʌpʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "The volcanic eruption covered the village in ash.", "collocations": ["volcanic eruption", "a big eruption"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 93 } },
+    { "id": "v27", "en": "warning", "vi": "lời cảnh báo", "ipa": "/ˈwɔːnɪŋ/", "ipaFrom": "dictionary", "pos": "n", "example": "The authorities gave a storm warning on the evening news.", "collocations": ["a flood warning", "give a warning", "an early warning"], "synonyms": ["alert"], "antonyms": [], "src": { "kind": "sgk", "page": 94 } },
+    { "id": "v28", "en": "whistle", "vi": "cái còi", "ipa": "/ˈwɪsl/", "ipaFrom": "dictionary", "pos": "n", "example": "Keep a whistle in your emergency kit so rescue workers can hear you.", "collocations": ["blow a whistle"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 94 } },
+    { "id": "v29", "en": "tropical storm", "vi": "bão nhiệt đới", "ipa": "/ˌtrɒpɪkl ˈstɔːm/", "ipaFrom": "dictionary", "pos": "n", "example": "A tropical storm hit the coast and brought heavy rain for three days.", "collocations": ["a strong tropical storm"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 94 } },
+    { "id": "v30", "en": "mountainous", "vi": "có nhiều núi, (thuộc) miền núi", "ipa": "/ˈmaʊntənəs/", "ipaFrom": "dictionary", "pos": "adj", "example": "Landslides often happen in mountainous areas after heavy rain.", "collocations": ["mountainous areas", "mountainous region"], "synonyms": [], "antonyms": ["flat"], "src": { "kind": "sgk", "page": 94 } }
   ],
   "grammar": [
     {
@@ -112,6 +122,19 @@
       "sentence": "Oh no, that's awful. I hope your family is safe.",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "ending",
+      "focus": "Đuôi -ed: /t/, /d/, /ɪd/",
+      "tipVi": "Động từ tận cùng là /t/ hoặc /d/ thì -ed đọc /ɪd/ (erupted, predicted). Sau âm vô thanh như /p/, /k/, /s/ đọc /t/ (helped). Các trường hợp còn lại đọc /d/ (destroyed, warned).",
+      "words": ["erupted", "predicted", "helped", "destroyed", "damaged", "warned", "pulled"],
+      "sentence": "The storm destroyed our roof and pulled up two trees.",
+      "quiz": [
+        { "prompt": "In which word is -ed pronounced /ɪd/?", "options": ["destroyed", "erupted", "warned"], "answer": 1, "explainVi": "erupt tận cùng là /t/ nên erupted đọc /ɪˈrʌptɪd/." },
+        { "prompt": "In which word is -ed pronounced /t/?", "options": ["damaged", "pulled", "helped"], "answer": 2, "explainVi": "help tận cùng là /p/ (âm vô thanh) nên helped đọc /helpt/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -124,7 +147,13 @@
     { "id": "e07", "en": "Before / During / After a ..., you should ...", "vi": "Trước / Trong / Sau khi có ..., bạn nên ...", "useVi": "Khi hướng dẫn việc cần làm theo từng giai đoạn của thiên tai.", "example": "During an earthquake, you should stay away from windows.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "Make sure you ...", "vi": "Nhớ phải ...", "useVi": "Khi nhắc ai đó một việc quan trọng không được quên.", "example": "Make sure you have a torch in your emergency kit.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "Don't panic.", "vi": "Đừng hoảng sợ.", "useVi": "Khi trấn an người khác trong tình huống nguy hiểm.", "example": "Don't panic. Get under the table and hold on.", "src": { "kind": "team", "page": null } },
-    { "id": "e10", "en": "The most dangerous thing is ...", "vi": "Điều nguy hiểm nhất là ...", "useVi": "Khi nêu điều đáng sợ nhất của một loại thiên tai.", "example": "The most dangerous thing is the strong wind.", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "The most dangerous thing is ...", "vi": "Điều nguy hiểm nhất là ...", "useVi": "Khi nêu điều đáng sợ nhất của một loại thiên tai.", "example": "The most dangerous thing is the strong wind.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "Is everyone OK?", "vi": "Mọi người có ổn không?", "useVi": "Khi hỏi thăm sau khi nghe tin có chuyện xấu xảy ra.", "example": "I heard about the flood in your village. Is everyone OK?", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "Thank goodness ...", "vi": "Ơn trời ...", "useVi": "Khi nhẹ nhõm vì chuyện xấu không tệ như mình lo.", "example": "Thank goodness nobody was hurt in the storm.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "How terrible!", "vi": "Thật kinh khủng!", "useVi": "Khi đáp lại một tin rất xấu.", "example": "How terrible! Did the water come into your house?", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "Stay away from ...", "vi": "Tránh xa ... ra.", "useVi": "Khi dặn người khác tránh nơi nguy hiểm.", "example": "Stay away from the windows during the storm.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "Is there anything I can do to help?", "vi": "Mình có thể giúp gì không?", "useVi": "Khi muốn giúp đỡ người gặp khó khăn.", "example": "Your roof was damaged? Is there anything I can do to help?", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "Let me know if you need ...", "vi": "Cần ... thì cứ báo mình nhé.", "useVi": "Khi sẵn sàng giúp bạn sau này.", "example": "Let me know if you need any clothes or books after the flood.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["At eight o'clock", "last night", "I was doing", "my homework"], "vi": "Lúc tám giờ tối qua, mình đang làm bài tập về nhà.", "grammarId": "g01" },
@@ -134,7 +163,9 @@
     { "id": "b05", "chunks": ["Every family", "should have", "an emergency kit", "with water and a torch"], "vi": "Mỗi gia đình nên có một bộ đồ dùng khẩn cấp có nước và đèn pin.", "grammarId": null },
     { "id": "b06", "chunks": ["Rescue workers", "were helping", "the flood victims", "all night"], "vi": "Nhân viên cứu hộ đã giúp các nạn nhân lũ lụt suốt đêm.", "grammarId": "g01" },
     { "id": "b07", "chunks": ["What were you doing", "when", "the earthquake", "happened"], "vi": "Bạn đang làm gì khi trận động đất xảy ra?", "grammarId": "g02" },
-    { "id": "b08", "chunks": ["Fortunately", "no one", "was hurt", "in the landslide"], "vi": "May mắn là không ai bị thương trong vụ sạt lở.", "grammarId": null }
+    { "id": "b08", "chunks": ["Fortunately", "no one", "was hurt", "in the landslide"], "vi": "May mắn là không ai bị thương trong vụ sạt lở.", "grammarId": null },
+    { "id": "b09", "chunks": ["While the family", "was sleeping", "the river", "flooded the village"], "vi": "Trong khi cả nhà đang ngủ thì nước sông tràn vào làng.", "grammarId": "g02" },
+    { "id": "b10", "chunks": ["The authorities", "warned people", "to move", "to safer places"], "vi": "Chính quyền cảnh báo người dân di chuyển đến nơi an toàn hơn.", "grammarId": null }
   ],
   "expand": [
     {
@@ -174,6 +205,24 @@
         { "askVi": "Bằng cách nào?", "ask": "How?", "add": "by giving them food and clothes" }
       ],
       "full": "Young people helped the victims by giving them food and clothes."
+    },
+    {
+      "id": "x05",
+      "base": "The house began to shake.",
+      "steps": [
+        { "askVi": "Lúc đó em đang làm gì?", "ask": "What were you doing?", "add": "while we were watching TV" },
+        { "askVi": "Rồi em làm gì?", "ask": "What did you do?", "add": "so we ran outside" }
+      ],
+      "full": "The house began to shake while we were watching TV, so we ran outside."
+    },
+    {
+      "id": "x06",
+      "base": "Put a torch in your emergency kit.",
+      "steps": [
+        { "askVi": "Còn gì nữa?", "ask": "What else?", "add": "and some bottles of water" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because you may need them during a storm" }
+      ],
+      "full": "Put a torch and some bottles of water in your emergency kit because you may need them during a storm."
     }
   ],
   "variations": [
@@ -183,7 +232,8 @@
       "questions": [
         "What were you doing at seven o'clock yesterday morning?",
         "What was your family doing at dinner time yesterday?",
-        "What were you doing at this time last Sunday?"
+        "What were you doing at this time last Sunday?",
+        "What was your best friend doing when you phoned her last night?"
       ],
       "keywords": ["was", "were", "-ing", "having breakfast"],
       "exampleAnswer": "At seven o'clock yesterday morning, I was having breakfast and my brother was getting dressed.",
@@ -195,7 +245,8 @@
       "questions": [
         "Tell me about a natural disaster you saw on the news.",
         "What natural disaster happened in Viet Nam recently?",
-        "Can you describe a flood or a storm you remember?"
+        "Can you describe a flood or a storm you remember?",
+        "What do you know about a big storm or flood in your area?"
       ],
       "keywords": ["flood", "storm", "damaged", "destroyed"],
       "exampleAnswer": "Last year there was a big storm in the central region. It damaged many houses and destroyed the rice fields.",
@@ -207,7 +258,8 @@
       "questions": [
         "What should people do before a storm comes?",
         "How can families get ready for a flood?",
-        "What should you do during an earthquake?"
+        "What should you do during an earthquake?",
+        "What do you put in an emergency kit before a big storm?"
       ],
       "keywords": ["emergency kit", "should", "safe place", "listen to"],
       "exampleAnswer": "Before a storm, we should prepare an emergency kit, listen to the news and move to a safe place if needed.",
@@ -219,7 +271,8 @@
       "questions": [
         "What can students do to help flood victims?",
         "How can your school help people after a natural disaster?",
-        "Why is it important to help disaster victims?"
+        "Why is it important to help disaster victims?",
+        "How can you help people who lost their homes in a flood?"
       ],
       "keywords": ["victims", "donate", "clothes", "because"],
       "exampleAnswer": "Students can donate clothes and books to flood victims because they lost their property and need help.",
@@ -231,11 +284,51 @@
       "questions": [
         "Which natural disaster are you most afraid of?",
         "What kind of natural disaster scares you the most?",
-        "Is an earthquake more frightening than a storm?"
+        "Is an earthquake more frightening than a storm?",
+        "Which disaster do you think is the most dangerous for your area?"
       ],
       "keywords": ["earthquake", "tsunami", "suddenly", "predict"],
       "exampleAnswer": "I'm most afraid of earthquakes because they happen suddenly and scientists can't predict them.",
       "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Em đang làm gì khi cơn bão bắt đầu",
+      "questions": [
+        "What were you doing when the last big storm started?",
+        "Where were you when the electricity went off during a storm?",
+        "What was happening outside when the heavy rain began?",
+        "Tell me what your family was doing when the wind became very strong."
+      ],
+      "keywords": ["was / were + V-ing", "when", "while", "suddenly"],
+      "exampleAnswer": "I was doing my homework when the storm started, and suddenly the lights went off.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Vì sao cảnh báo sớm quan trọng",
+      "questions": [
+        "Why are storm warnings so important?",
+        "How do early warnings help people stay safe?",
+        "What can happen if people ignore a flood warning?",
+        "Why should families watch the news when a storm is coming?"
+      ],
+      "keywords": ["warning", "predict", "authorities", "safer places"],
+      "exampleAnswer": "Warnings tell people to move to safer places early, so fewer people get hurt when the storm arrives.",
+      "expectsReason": true
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Thiên tai gây thiệt hại cho cuộc sống ra sao",
+      "questions": [
+        "How do floods affect people's lives?",
+        "What damage can a strong storm cause?",
+        "What problems do people have after a landslide?",
+        "How does a natural disaster change life in a village?"
+      ],
+      "keywords": ["damage", "destroy", "property", "victims"],
+      "exampleAnswer": "A strong storm can destroy houses and crops, and many victims lose their property.",
+      "expectsReason": false
     }
   ],
   "independent": [
@@ -348,6 +441,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["storm", "should", "emergency kit", "because", "dangerous"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Gọi điện cho bà trước cơn bão",
+      "contextVi": "Bà em sống ở một làng ven biển miền Trung. Tin tức nói ngày mai sẽ có bão lớn. Em gọi điện hỏi thăm và dặn bà cách chuẩn bị.",
+      "aiRole": "Grandma Tam, who lives alone in a coastal village in central Viet Nam",
+      "studentRoleVi": "Cháu của bà, gọi điện hỏi thăm",
+      "goalVi": "Hỏi bà đã chuẩn bị gì chưa và khuyên bà ít nhất hai việc cần làm trước cơn bão.",
+      "goal": "Ask how Grandma is getting ready and give her at least two pieces of advice before the storm.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa lời khuyên (you should..., make sure you...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["emergency kit", "torch", "warning", "safe", "stay away from"] }
+      ],
+      "opener": "Hello, sweetheart! The news says a big storm is coming to our village tomorrow.",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "I'm OK. I bought some rice and noodles this morning. What else should I do?",
+        "My house is old. Should I stay at home or go to your uncle's house?",
+        "Thank you, dear. I'll call you after the storm."
+      ],
+      "tipsVi": ["Hỏi thăm trước: \"Are you OK, Grandma?\"", "Khuyên bà bằng \"You should...\" và \"Make sure you...\"."],
+      "keywords": ["emergency kit", "torch", "should", "make sure", "safe"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Trả lời phỏng vấn báo trường",
+      "contextVi": "Tháng trước, nước lũ tràn vào trường em và em đã cùng các bạn dọn dẹp. Một bạn phóng viên báo trường muốn phỏng vấn em về chuyện đã xảy ra.",
+      "aiRole": "Linh, a student reporter for the school newspaper",
+      "studentRoleVi": "Học sinh đã giúp dọn dẹp sau lũ",
+      "goalVi": "Kể lại em đang làm gì khi nước lên, nước lũ gây thiệt hại gì và em đã giúp như thế nào.",
+      "goal": "Tell the reporter what you were doing when the water came, what damage the flood caused and how you helped.",
+      "requirements": [
+        { "kind": "example", "vi": "Nêu ví dụ cụ thể về thiệt hại hoặc việc em đã làm", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["flood", "damage", "destroy", "rescue", "victims", "while"] }
+      ],
+      "opener": "Hi! I'm writing about last month's flood for our school newspaper. What were you doing when the water came in?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "That sounds scary! What did the water damage at school?",
+        "How did you and your friends help after the flood?",
+        "Thanks! What advice would you give other students for next time?"
+      ],
+      "tipsVi": ["Dùng thì quá khứ tiếp diễn: \"I was ... when the water came in.\"", "Kể việc đã làm bằng quá khứ đơn: \"We cleaned..., we moved...\"."],
+      "keywords": ["was / were + V-ing", "when", "damage", "flood", "helped"]
     }
   ]
 }

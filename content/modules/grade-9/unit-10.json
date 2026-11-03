@@ -27,7 +27,17 @@
     { "id": "v19", "en": "pole", "vi": "cực (bắc / nam)", "ipa": "/pəʊl/", "ipaFrom": "glossary", "pos": "n", "example": "The ice at the North Pole is melting.", "collocations": ["the North Pole", "the South Pole"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
     { "id": "v20", "en": "observe", "vi": "quan sát, chú ý", "ipa": "/əbˈzɜːv/", "ipaFrom": "glossary", "pos": "v", "example": "Scientists observe the birds in the nature reserve every spring.", "collocations": ["observe animals", "observe the stars"], "synonyms": ["watch"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
     { "id": "v21", "en": "outer space", "vi": "ngoài vũ trụ", "ipa": "/ˌaʊtə ˈspeɪs/", "ipaFrom": "glossary", "pos": "n", "example": "From outer space, the Earth looks blue.", "collocations": ["travel to outer space"], "synonyms": ["space"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
-    { "id": "v22", "en": "orbit", "vi": "quay quanh quỹ đạo", "ipa": "/ˈɔːbɪt/", "ipaFrom": "glossary", "pos": "v", "example": "The Earth orbits the Sun once a year.", "collocations": ["orbit the Sun"], "synonyms": ["go around"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } }
+    { "id": "v22", "en": "orbit", "vi": "quay quanh quỹ đạo", "ipa": "/ˈɔːbɪt/", "ipaFrom": "glossary", "pos": "v", "example": "The Earth orbits the Sun once a year.", "collocations": ["orbit the Sun"], "synonyms": ["go around"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v23", "en": "droppings", "vi": "phân (động vật)", "ipa": "/ˈdrɒpɪŋz/", "ipaFrom": "glossary", "pos": "n", "example": "Bird droppings carry seeds to new places in the forest.", "collocations": ["bird droppings", "animal droppings"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v24", "en": "Solar System", "vi": "Hệ Mặt Trời", "ipa": "/ˈsəʊlə ˌsɪstəm/", "ipaFrom": "dictionary", "pos": "n", "example": "There are eight planets in the Solar System.", "collocations": ["in the Solar System"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 104 } },
+    { "id": "v25", "en": "planet", "vi": "hành tinh", "ipa": "/ˈplænɪt/", "ipaFrom": "dictionary", "pos": "n", "example": "Mars is called the Red Planet because of its colour.", "collocations": ["the Blue Planet", "protect our planet"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 104 } },
+    { "id": "v26", "en": "liquid water", "vi": "nước ở dạng lỏng", "ipa": "/ˌlɪkwɪd ˈwɔːtə/", "ipaFrom": "dictionary", "pos": "n", "example": "Scientists are looking for liquid water on other planets.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 105 } },
+    { "id": "v27", "en": "water body", "vi": "vùng nước (sông, hồ, biển)", "ipa": "/ˈwɔːtə ˌbɒdi/", "ipaFrom": "dictionary", "pos": "n", "example": "Rivers, lakes and oceans are different types of water bodies.", "collocations": ["large water body"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 105 } },
+    { "id": "v28", "en": "continent", "vi": "châu lục", "ipa": "/ˈkɒntɪnənt/", "ipaFrom": "dictionary", "pos": "n", "example": "Asia is the largest continent on Earth.", "collocations": ["the largest continent"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 105 } },
+    { "id": "v29", "en": "global warming", "vi": "sự nóng lên toàn cầu", "ipa": "/ˌɡləʊbl ˈwɔːmɪŋ/", "ipaFrom": "dictionary", "pos": "n", "example": "Global warming is making the ice at the poles melt.", "collocations": ["cause global warming", "slow down global warming"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 106 } },
+    { "id": "v30", "en": "habitat loss", "vi": "sự mất môi trường sống", "ipa": "/ˈhæbɪtæt lɒs/", "ipaFrom": "dictionary", "pos": "n", "example": "Cutting down forests leads to habitat loss for many animals.", "collocations": ["cause habitat loss"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 106 } },
+    { "id": "v31", "en": "natural resources", "vi": "tài nguyên thiên nhiên", "ipa": "/ˌnætʃrəl rɪˈzɔːsɪz/", "ipaFrom": "dictionary", "pos": "n", "example": "We must use natural resources like water and forests wisely.", "collocations": ["save natural resources", "use natural resources"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 106 } },
+    { "id": "v32", "en": "pollute", "vi": "làm ô nhiễm", "ipa": "/pəˈluːt/", "ipaFrom": "dictionary", "pos": "v", "example": "Factories that pollute rivers should pay a big fine.", "collocations": ["pollute the air", "pollute rivers"], "synonyms": ["contaminate"], "antonyms": ["clean"], "src": { "kind": "sgk", "page": 106 } }
   ],
   "grammar": [
     {
@@ -103,6 +113,32 @@
         { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["appreciate", "preserve", "fascinating"], "answer": 2, "explainVi": "fascinating /ˈfæsɪneɪtɪŋ/ nhấn âm đầu." }
       ],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p03",
+      "kind": "sound",
+      "focus": "Âm /θ/ và /ð/",
+      "tipVi": "Cả hai âm đều đặt đầu lưỡi giữa hai hàm răng rồi đẩy hơi ra. /θ/ là âm vô thanh, không rung cổ họng (Earth, threat, third). /ð/ là âm hữu thanh, cổ họng rung (the, together, without).",
+      "words": ["Earth", "threat", "third", "the", "together", "without"],
+      "sentence": "Earth is the third planet from the Sun.",
+      "quiz": [
+        { "prompt": "Which word has the sound /ð/?", "options": ["together", "Earth", "threat"], "answer": 0, "explainVi": "together /təˈɡeðə/ có âm /ð/ hữu thanh; Earth và threat có /θ/." },
+        { "prompt": "Which word has the sound /θ/?", "options": ["third", "these", "weather"], "answer": 0, "explainVi": "third /θɜːd/ có âm /θ/ vô thanh; these và weather có /ð/." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Ngắt giọng ở mệnh đề quan hệ không xác định",
+      "tipVi": "Khi đọc câu có mệnh đề quan hệ không xác định (có dấu phẩy), ta ngừng ngắn ở mỗi dấu phẩy và hơi hạ giọng ở phần thông tin thêm, rồi đọc tiếp phần chính của câu.",
+      "words": ["Mars", "which", "who", "whose", "Earth"],
+      "sentence": "Mars, which is called the Red Planet, is very dry.",
+      "quiz": [
+        { "prompt": "Where do you usually pause in \"My uncle, who works in a nature reserve, loves birds.\"?", "options": ["after \"uncle\" and \"reserve\"", "after \"works\" and \"loves\"", "nowhere"], "answer": 0, "explainVi": "Ta ngừng ở hai dấu phẩy: sau uncle và sau reserve." },
+        { "prompt": "Which sentence needs pauses when you read it aloud?", "options": ["Earth, which is our home, is beautiful.", "The planet that we live on is Earth.", "Earth is the third planet."], "answer": 0, "explainVi": "Câu đầu có mệnh đề quan hệ không xác định với hai dấu phẩy nên cần ngừng." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -114,7 +150,14 @@
     { "id": "e06", "en": "One of the biggest threats to ... is ...", "vi": "Một trong những mối đe dọa lớn nhất với ... là ...", "useVi": "Khi nêu vấn đề môi trường nghiêm trọng.", "example": "One of the biggest threats to wildlife is habitat loss.", "src": { "kind": "team", "page": null } },
     { "id": "e07", "en": "If we don't ..., ... will ...", "vi": "Nếu chúng ta không ..., ... sẽ ...", "useVi": "Khi cảnh báo hậu quả để thuyết phục người khác.", "example": "If we don't stop cutting trees, many birds will lose their homes.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "It's essential to ...", "vi": "Việc ... là vô cùng quan trọng.", "useVi": "Khi nhấn mạnh một việc cần làm.", "example": "It's essential to protect the forests.", "src": { "kind": "team", "page": null } },
-    { "id": "e09", "en": "I see what you mean, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi lịch sự nêu ý kiến khác.", "example": "I see what you mean, but one person can still make a difference.", "src": { "kind": "team", "page": null } }
+    { "id": "e09", "en": "I see what you mean, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi lịch sự nêu ý kiến khác.", "example": "I see what you mean, but one person can still make a difference.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "Come on, it'll be fun!", "vi": "Thôi nào, sẽ vui lắm đấy!", "useVi": "Khi rủ rê, thuyết phục bạn tham gia một hoạt động.", "example": "Come on, it'll be fun! We'll plant trees with the whole class.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "Trust me, you won't regret it.", "vi": "Tin mình đi, bạn sẽ không hối tiếc đâu.", "useVi": "Khi thuyết phục ai đó bằng sự chắc chắn của mình.", "example": "Join the nature club. Trust me, you won't regret it.", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "OK, you've convinced me.", "vi": "Được rồi, bạn thuyết phục được mình rồi.", "useVi": "Khi đồng ý sau khi được thuyết phục.", "example": "OK, you've convinced me. I'll come with you on Sunday.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "Sorry, I'm not really into ...", "vi": "Xin lỗi, mình không hứng thú lắm với ...", "useVi": "Khi lịch sự từ chối lời rủ.", "example": "Sorry, I'm not really into camping. Maybe next time.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "We can all help by + V-ing ...", "vi": "Tất cả chúng ta đều có thể giúp bằng cách ...", "useVi": "Khi đề xuất việc làm cụ thể để bảo vệ Trái Đất.", "example": "We can all help by turning off the lights when we leave a room.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "Did you know that ...?", "vi": "Bạn có biết rằng ...?", "useVi": "Khi chia sẻ một thông tin thú vị về Trái Đất.", "example": "Did you know that water covers more than 70 per cent of Earth?", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "The main cause of ... is ...", "vi": "Nguyên nhân chính của ... là ...", "useVi": "Khi giải thích nguyên nhân của một vấn đề môi trường.", "example": "The main cause of habitat loss is cutting down forests.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["Mars,", "which is called", "the Red Planet,", "is very dry"], "vi": "Sao Hỏa, còn gọi là Hành tinh Đỏ, rất khô.", "grammarId": "g01" },
@@ -124,7 +167,9 @@
     { "id": "b05", "chunks": ["If farmers use", "fewer pesticides,", "more bees", "will survive"], "vi": "Nếu nông dân dùng ít thuốc trừ sâu hơn, nhiều ong sẽ sống sót hơn.", "grammarId": "g02" },
     { "id": "b06", "chunks": ["Clean water", "is essential", "for all", "living things"], "vi": "Nước sạch vô cùng quan trọng đối với mọi sinh vật.", "grammarId": null },
     { "id": "b07", "chunks": ["One of the biggest threats", "to wildlife", "is", "climate change"], "vi": "Một trong những mối đe dọa lớn nhất với động vật hoang dã là biến đổi khí hậu.", "grammarId": null },
-    { "id": "b08", "chunks": ["I find", "the deep ocean", "fascinating"], "vi": "Mình thấy đại dương sâu thẳm rất hấp dẫn.", "grammarId": null }
+    { "id": "b08", "chunks": ["I find", "the deep ocean", "fascinating"], "vi": "Mình thấy đại dương sâu thẳm rất hấp dẫn.", "grammarId": null },
+    { "id": "b09", "chunks": ["Earth", "which is the third planet from the Sun", "has liquid water"], "vi": "Trái Đất, hành tinh thứ ba tính từ Mặt Trời, có nước ở dạng lỏng.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["If we use less plastic", "fewer sea animals", "will die"], "vi": "Nếu chúng ta dùng ít nhựa hơn, sẽ có ít động vật biển chết hơn.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -153,6 +198,33 @@
         { "askVi": "Em đã làm gì ở đó?", "ask": "What did you do?", "add": "and observed many rare birds" }
       ],
       "full": "I visited a nature reserve last spring and observed many rare birds."
+    },
+    {
+      "id": "x04",
+      "base": "Bees are important.",
+      "steps": [
+        { "askVi": "Quan trọng với gì?", "ask": "Important for what?", "add": "for our food chain" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because they help plants grow" }
+      ],
+      "full": "Bees are important for our food chain because they help plants grow."
+    },
+    {
+      "id": "x05",
+      "base": "The Amazon is a rainforest.",
+      "steps": [
+        { "askVi": "Thêm thông tin gì?", "ask": "Tell me more about it.", "add": "which is in South America" },
+        { "askVi": "Rừng như thế nào?", "ask": "What is it like?", "add": "huge" }
+      ],
+      "full": "The Amazon, which is in South America, is a huge rainforest."
+    },
+    {
+      "id": "x06",
+      "base": "Farmers should use fertilisers.",
+      "steps": [
+        { "askVi": "Loại nào?", "ask": "What kind?", "add": "natural" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because chemicals can harm the soil" }
+      ],
+      "full": "Farmers should use natural fertilisers because chemicals can harm the soil."
     }
   ],
   "variations": [
@@ -215,6 +287,45 @@
       "keywords": ["flora and fauna", "which", "grassland", "observe"],
       "exampleAnswer": "There is a small lake near my house, which has a lot of ducks and fish. I like to observe the birds there.",
       "expectsReason": false
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Trái Đất trong Hệ Mặt Trời",
+      "questions": [
+        "What do you know about Earth's place in the Solar System?",
+        "What makes Earth different from other planets?",
+        "Why is Earth called the Blue Planet?",
+        "Tell me some interesting facts about planet Earth."
+      ],
+      "keywords": ["Solar System", "planet", "liquid water", "outer space"],
+      "exampleAnswer": "Earth is the third planet from the Sun. It is called the Blue Planet because water covers most of it, and it is the only planet with liquid water.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Nóng lên toàn cầu: nguyên nhân và hậu quả",
+      "questions": [
+        "What causes global warming, and what will happen if we don't stop it?",
+        "Why is Earth getting hotter? What can happen next?",
+        "How does global warming affect people and animals?",
+        "What will happen to the poles if the temperature keeps rising?"
+      ],
+      "keywords": ["global warming", "climate change", "pole", "If"],
+      "exampleAnswer": "Global warming is caused by too much smoke from cars and factories. If we don't stop it, the ice at the poles will melt and many animals will lose their habitats.",
+      "expectsReason": true
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Tiết kiệm tài nguyên thiên nhiên",
+      "questions": [
+        "How can your family save water and energy? Why does it matter?",
+        "What natural resources do we use every day, and how can we save them?",
+        "Why should we use natural resources wisely?",
+        "What can students do at school to save energy? Why?"
+      ],
+      "keywords": ["natural resources", "save", "energy", "because"],
+      "exampleAnswer": "My family saves water by taking short showers and reusing water for the plants, because clean water is a natural resource that can run out.",
+      "expectsReason": true
     }
   ],
   "independent": [
@@ -327,6 +438,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["habitat", "harm", "if", "because"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Hỏi nhà khoa học ở câu lạc bộ khoa học",
+      "contextVi": "Hôm nay câu lạc bộ khoa học của trường mời chú An, một nhà khoa học về Trái Đất, đến nói chuyện. Em được mời đặt câu hỏi cho chú.",
+      "aiRole": "Mr An, an earth scientist visiting the school science club",
+      "studentRoleVi": "Thành viên câu lạc bộ khoa học",
+      "goalVi": "Đặt ít nhất ba câu hỏi về Trái Đất (vị trí, nước, môi trường sống) và phản hồi khi nghe câu trả lời.",
+      "goal": "Ask at least three questions about Earth (its place, water, habitats) and react to the answers.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất hai từ của bài", "words": ["Solar System", "planet", "habitat", "liquid water", "outer space", "landform"] },
+        { "kind": "example", "vi": "Hỏi một câu về cách học sinh bảo vệ Trái Đất", "words": [] }
+      ],
+      "opener": "Hello everyone! I'm happy to be here. Who has a question about our planet?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Good question! Earth is the third planet from the Sun, and it's the only one with liquid water.",
+        "Water bodies and landforms give plants and animals their habitats. What else would you like to know?",
+        "Students can help a lot, for example by saving water and planting trees. Any more questions?"
+      ],
+      "tipsVi": ["Hỏi: \"Why is Earth called the Blue Planet?\"", "Phản hồi: \"That's fascinating!\" hoặc \"I didn't know that.\""],
+      "keywords": ["planet", "Solar System", "habitat", "liquid water", "fascinating"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Hướng dẫn khách ở khu bảo tồn",
+      "contextVi": "Em là tình nguyện viên nhỏ tuổi ở một khu bảo tồn thiên nhiên. Một vị khách đến tham quan hỏi em về các loài vật và những điều khách cần làm.",
+      "aiRole": "Mrs Green, a visitor at a nature reserve",
+      "studentRoleVi": "Tình nguyện viên hướng dẫn khách",
+      "goalVi": "Giới thiệu một loài vật hoặc cây ở khu bảo tồn và nhắc khách ít nhất hai quy định để bảo vệ thiên nhiên.",
+      "goal": "Introduce one animal or plant in the reserve and tell the visitor at least two rules for protecting nature.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng mệnh đề quan hệ không xác định hoặc từ của bài", "words": ["which", "who", "whose", "habitat", "nature reserve", "flora and fauna"] },
+        { "kind": "reason", "vi": "Giải thích vì sao khách cần làm theo quy định", "words": [] }
+      ],
+      "opener": "Hi there! This place is beautiful. What animals live here?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Interesting! Where do they live in the reserve?",
+        "Can I feed them or pick some flowers to take home?",
+        "I see. Thanks for explaining. Why are those rules so important?"
+      ],
+      "tipsVi": ["Giới thiệu: \"The langur, which is very rare, lives on the limestone mountains.\"", "Nhắc quy định: \"Please don't... because...\""],
+      "keywords": ["nature reserve", "habitat", "which", "protect", "because"]
     }
   ]
 }

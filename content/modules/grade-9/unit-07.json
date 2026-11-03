@@ -25,7 +25,18 @@
     { "id": "v17", "en": "possess", "vi": "có, sở hữu", "ipa": "/pəˈzes/", "ipaFrom": "glossary", "pos": "v", "example": "Viet Nam possesses many beautiful caves and bays.", "collocations": ["possess natural beauty"], "synonyms": ["have", "own"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
     { "id": "v18", "en": "coral", "vi": "san hô", "ipa": "/ˈkɒrəl/", "ipaFrom": "glossary", "pos": "n, adj", "example": "Divers come to Nha Trang to see the colourful coral.", "collocations": ["coral reef", "coral island"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
     { "id": "v19", "en": "support", "vi": "ủng hộ, giúp đỡ", "ipa": "/səˈpɔːt/", "ipaFrom": "glossary", "pos": "v", "example": "Tourists can support local people by buying their products.", "collocations": ["support local people", "support sustainable development"], "synonyms": ["help"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
-    { "id": "v20", "en": "crazy", "vi": "thích mê", "ipa": "/ˈkreɪzi/", "ipaFrom": "glossary", "pos": "adj", "example": "My brother is crazy about climbing mountains.", "collocations": ["be crazy about"], "synonyms": ["keen on"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } }
+    { "id": "v20", "en": "crazy", "vi": "thích mê", "ipa": "/ˈkreɪzi/", "ipaFrom": "glossary", "pos": "adj", "example": "My brother is crazy about climbing mountains.", "collocations": ["be crazy about"], "synonyms": ["keen on"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v21", "en": "destination", "vi": "điểm đến", "ipa": "/ˌdestɪˈneɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "Ha Long Bay is a popular destination for both local and foreign tourists.", "collocations": ["popular destination", "holiday destination"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v22", "en": "occur", "vi": "xảy ra", "ipa": "/əˈkɜː/", "ipaFrom": "glossary", "pos": "v", "example": "Snowstorms often occur on the top of Mount Everest.", "collocations": ["occur naturally", "often occur"], "synonyms": ["happen"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v23", "en": "landscape", "vi": "phong cảnh, cảnh quan", "ipa": "/ˈlændskeɪp/", "ipaFrom": "dictionary", "pos": "n", "example": "The landscape around Trang An is full of rivers and green mountains.", "collocations": ["beautiful landscape", "natural landscape"], "synonyms": ["scenery"], "antonyms": [], "src": { "kind": "sgk", "page": 72 } },
+    { "id": "v24", "en": "snow-covered", "vi": "phủ tuyết", "ipa": "/ˈsnəʊ kʌvəd/", "ipaFrom": "dictionary", "pos": "adj", "example": "We could see snow-covered peaks from the window of the plane.", "collocations": ["snow-covered peaks", "snow-covered mountains"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 72 } },
+    { "id": "v25", "en": "admire", "vi": "ngắm nhìn, ngưỡng mộ", "ipa": "/ədˈmaɪə/", "ipaFrom": "dictionary", "pos": "v", "example": "We stood on the bridge to admire the waterfall.", "collocations": ["admire the view", "can't help admiring"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 72 } },
+    { "id": "v26", "en": "destroy", "vi": "phá hủy", "ipa": "/dɪˈstrɔɪ/", "ipaFrom": "dictionary", "pos": "v", "example": "Rubbish and pollution can destroy coral reefs.", "collocations": ["destroy the environment", "destroy natural wonders"], "synonyms": ["damage"], "antonyms": ["protect"], "src": { "kind": "sgk", "page": 72 } },
+    { "id": "v27", "en": "diversity", "vi": "sự đa dạng", "ipa": "/daɪˈvɜːsəti/", "ipaFrom": "dictionary", "pos": "n", "example": "The national park is famous for the diversity of its plants and animals.", "collocations": ["biological diversity", "great diversity"], "synonyms": ["variety"], "antonyms": [], "src": { "kind": "sgk", "page": 74 } },
+    { "id": "v28", "en": "discovery", "vi": "sự khám phá, phát hiện", "ipa": "/dɪˈskʌvəri/", "ipaFrom": "dictionary", "pos": "n", "example": "The discovery of Son Doong Cave surprised scientists all over the world.", "collocations": ["make a discovery", "an amazing discovery"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 74 } },
+    { "id": "v29", "en": "desert", "vi": "sa mạc", "ipa": "/ˈdezət/", "ipaFrom": "dictionary", "pos": "n", "example": "The Sahara is the largest hot desert in the world.", "collocations": ["hot desert", "cross the desert"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 73 } },
+    { "id": "v30", "en": "unique", "vi": "độc đáo, độc nhất", "ipa": "/juˈniːk/", "ipaFrom": "dictionary", "pos": "adj", "example": "The sand dunes in Mui Ne give the area a unique landscape.", "collocations": ["unique landscape", "truly unique"], "synonyms": ["special"], "antonyms": ["common"], "src": { "kind": "sgk", "page": 73 } },
+    { "id": "v31", "en": "rainforest", "vi": "rừng mưa nhiệt đới", "ipa": "/ˈreɪnfɒrɪst/", "ipaFrom": "dictionary", "pos": "n", "example": "The Amazon Rainforest is home to millions of species.", "collocations": ["tropical rainforest", "protect the rainforest"], "synonyms": ["jungle"], "antonyms": [], "src": { "kind": "sgk", "page": 73 } }
   ],
   "grammar": [
     {
@@ -135,7 +146,13 @@
     { "id": "e07", "en": "It is located in ...", "vi": "Nó nằm ở ...", "useVi": "Khi giới thiệu vị trí của một địa danh.", "example": "Phong Nha Cave is located in Quang Binh Province.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "It's famous for ...", "vi": "Nơi đó nổi tiếng vì ...", "useVi": "Khi nói đặc điểm nổi bật của một nơi.", "example": "It's famous for its majestic limestone islands.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "I'd love to visit ... because ...", "vi": "Mình rất muốn đến ... vì ...", "useVi": "Khi nói về nơi mình mơ ước được đến và lý do.", "example": "I'd love to visit the Grand Canyon because it looks so huge.", "src": { "kind": "team", "page": null } },
-    { "id": "e10", "en": "She asked me if ...", "vi": "Bạn ấy hỏi mình liệu ...", "useVi": "Khi kể lại câu hỏi Yes/No của người khác.", "example": "She asked me if I had ever seen the sea.", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "She asked me if ...", "vi": "Bạn ấy hỏi mình liệu ...", "useVi": "Khi kể lại câu hỏi Yes/No của người khác.", "example": "She asked me if I had ever seen the sea.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "Do you mind if I ...?", "vi": "Bạn có phiền không nếu mình ...?", "useVi": "Khi xin phép một cách rất lịch sự.", "example": "Do you mind if I take a photo of you in front of the waterfall?", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "Go ahead.", "vi": "Cứ tự nhiên.", "useVi": "Khi đồng ý cho ai đó làm điều họ vừa xin phép.", "example": "Go ahead. Photos are allowed here.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "I'm sorry, but you can't ...", "vi": "Xin lỗi, nhưng bạn không được ...", "useVi": "Khi lịch sự từ chối hoặc nhắc quy định.", "example": "I'm sorry, but you can't swim in this part of the lake.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "It's one of the most ... places I've ever seen.", "vi": "Đó là một trong những nơi ... nhất mình từng thấy.", "useVi": "Khi bày tỏ ấn tượng mạnh về một kỳ quan thiên nhiên.", "example": "It's one of the most magnificent places I've ever seen.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "What makes it special is ...", "vi": "Điều làm nó đặc biệt là ...", "useVi": "Khi giải thích điểm nổi bật của một nơi.", "example": "What makes it special is its thousands of limestone islands.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "He wanted to know if ...", "vi": "Cậu ấy muốn biết liệu ...", "useVi": "Khi kể lại câu hỏi Yes/No của người khác.", "example": "He wanted to know if I had ever been to Phong Nha.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["She asked me", "if I had", "ever been", "to Ha Long Bay"], "vi": "Bạn ấy hỏi mình đã từng đến vịnh Hạ Long chưa.", "grammarId": "g01" },
@@ -145,7 +162,9 @@
     { "id": "b05", "chunks": ["Phong Nha", "is located", "in Quang Binh", "and is famous", "for its caves"], "vi": "Phong Nha nằm ở Quảng Bình và nổi tiếng với các hang động.", "grammarId": null },
     { "id": "b06", "chunks": ["Visitors are not permitted", "to feed", "the animals", "in the park"], "vi": "Du khách không được phép cho động vật trong công viên ăn.", "grammarId": null },
     { "id": "b07", "chunks": ["Tourists should", "keep natural wonders", "clean", "for future generations"], "vi": "Du khách nên giữ các kỳ quan thiên nhiên sạch sẽ cho thế hệ sau.", "grammarId": null },
-    { "id": "b08", "chunks": ["May we", "have a look", "around", "the old temple?"], "vi": "Chúng tôi có thể xem quanh ngôi chùa cổ được không?", "grammarId": null }
+    { "id": "b08", "chunks": ["May we", "have a look", "around", "the old temple?"], "vi": "Chúng tôi có thể xem quanh ngôi chùa cổ được không?", "grammarId": null },
+    { "id": "b09", "chunks": ["The tourist asked me", "whether the cave", "was open", "on Mondays"], "vi": "Vị khách hỏi mình liệu hang động có mở cửa vào thứ Hai không.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["Lan wanted to know", "if I would", "go hiking", "with her"], "vi": "Lan muốn biết liệu mình có đi leo núi cùng bạn ấy không.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -183,6 +202,25 @@
         { "askVi": "Khi nào?", "ask": "When?", "add": "yesterday" }
       ],
       "full": "Yesterday my friend asked me if I liked travelling."
+    },
+    {
+      "id": "x05",
+      "base": "We saw a waterfall.",
+      "steps": [
+        { "askVi": "Thác như thế nào?", "ask": "What was it like?", "add": "huge" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in Cao Bang" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last summer" }
+      ],
+      "full": "We saw a huge waterfall in Cao Bang last summer."
+    },
+    {
+      "id": "x06",
+      "base": "The guide asked us.",
+      "steps": [
+        { "askVi": "Hỏi gì?", "ask": "What did he ask?", "add": "if we were tired" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "after the long walk" }
+      ],
+      "full": "The guide asked us if we were tired after the long walk."
     }
   ],
   "variations": [
@@ -245,6 +283,45 @@
       "keywords": ["sustainable", "ecosystem", "protect", "too many tourists"],
       "exampleAnswer": "Yes, because too many tourists can damage the ecosystem. A small fee can help pay for rangers and cleaning.",
       "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Kỳ quan thiên nhiên thế giới em muốn đến",
+      "questions": [
+        "Which natural wonder of the world would you most like to visit? Why?",
+        "Which natural place in the world do you dream of exploring? Why?",
+        "Which famous natural place outside Viet Nam interests you most, and why?",
+        "Tell me about a natural wonder abroad that you dream of seeing."
+      ],
+      "keywords": ["natural wonder", "destination", "majestic", "because"],
+      "exampleAnswer": "I'd love to visit the Grand Canyon because its landscape is unique and I want to admire the red rocks at sunset.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Con người đe dọa kỳ quan thiên nhiên thế nào",
+      "questions": [
+        "How can people destroy natural wonders? Give an example.",
+        "What are the biggest dangers to natural wonders today? Why?",
+        "Why are some beautiful natural places in danger?",
+        "In what ways do humans harm famous natural places?"
+      ],
+      "keywords": ["destroy", "pollution", "rubbish", "because"],
+      "exampleAnswer": "People destroy natural wonders by leaving rubbish and building hotels too close to them. For example, plastic waste is killing coral in many bays.",
+      "expectsReason": true
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Cảnh quan nơi em sống",
+      "questions": [
+        "What is the landscape like where you live?",
+        "Describe the natural features near your hometown.",
+        "Are there any mountains, rivers or beaches near your home? Tell me about them.",
+        "What natural place near your home do you like most?"
+      ],
+      "keywords": ["landscape", "river", "mountain", "located"],
+      "exampleAnswer": "My hometown is located near a wide river with green rice fields on both sides, and there are low hills in the west.",
+      "expectsReason": false
     }
   ],
   "independent": [
@@ -357,6 +434,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["located", "famous for", "crowded", "because", "natural wonder"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Kể lại cuộc phỏng vấn ở vịnh Hạ Long",
+      "contextVi": "Cuối tuần trước ở vịnh Hạ Long, một phóng viên nước ngoài đã phỏng vấn em. Hôm nay Lan tò mò hỏi phóng viên đã hỏi em những gì.",
+      "aiRole": "Lan, a curious classmate",
+      "studentRoleVi": "Học sinh kể lại những câu phóng viên đã hỏi",
+      "goalVi": "Kể lại ít nhất ba câu hỏi Yes/No phóng viên đã hỏi bằng câu tường thuật, và kể em đã trả lời thế nào.",
+      "goal": "Report at least three Yes/No questions the reporter asked you, using reported speech, and say how you answered.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng câu hỏi tường thuật", "words": ["asked me if", "asked me whether", "wanted to know if"] },
+        { "kind": "example", "vi": "Kể cụ thể em đã trả lời gì", "words": [] }
+      ],
+      "opener": "I heard a foreign reporter interviewed you at Ha Long Bay! What did she ask you?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Wow! What else did she want to know?",
+        "Interesting. And what did you tell her?",
+        "Did she ask you anything about protecting the bay?"
+      ],
+      "tipsVi": ["Dùng \"She asked me if I...\" và nhớ lùi thì: is → was, can → could.", "Kể câu trả lời: \"I told her that...\""],
+      "keywords": ["asked me if", "wanted to know", "whether", "Ha Long Bay", "visit"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Hỏi bạn về chuyến đi Phong Nha",
+      "contextVi": "Bạn Minh vừa đi Phong Nha – Kẻ Bàng ở Quảng Bình về. Em chưa từng đến đó và muốn hỏi Minh về hang động, cảnh quan và những gì bạn đã làm.",
+      "aiRole": "Minh, a classmate who has just come back from Phong Nha",
+      "studentRoleVi": "Học sinh hỏi bạn về chuyến đi",
+      "goalVi": "Hỏi Minh ít nhất ba câu về chuyến đi và phản hồi bằng cảm xúc của mình.",
+      "goal": "Ask Minh at least three questions about his trip and react to his answers.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất hai từ của bài", "words": ["cave", "landscape", "located", "admire", "majestic", "explore"] },
+        { "kind": "example", "vi": "Hỏi về một hoạt động cụ thể (đi thuyền, vào hang)", "words": [] }
+      ],
+      "opener": "Hi! I've just come back from Phong Nha. It was amazing! Do you want to see my photos?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "This is Phong Nha Cave. We went inside by boat along an underground river.",
+        "It's located in Quang Binh Province. The landscape there is really majestic.",
+        "You should go there one day. What would you like to do there?"
+      ],
+      "tipsVi": ["Hỏi: \"Where is it located?\", \"What did you do there?\"", "Phản hồi: \"That sounds amazing!\""],
+      "keywords": ["cave", "located", "landscape", "explore", "amazing"]
     }
   ]
 }

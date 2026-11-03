@@ -25,7 +25,17 @@
     { "id": "v17", "en": "rinse out", "vi": "xối nước, rửa sạch", "ipa": "/ˈrɪns aʊt/", "ipaFrom": "glossary", "pos": "phr v", "example": "Rinse out the milk cartons before you put them in the recycling bin.", "collocations": ["rinse out a bottle"], "synonyms": ["wash"], "antonyms": [], "src": { "kind": "sgk", "page": 149 } },
     { "id": "v18", "en": "contaminated", "vi": "nhiễm độc, nhiễm khuẩn", "ipa": "/kənˈtæmɪneɪtɪd/", "ipaFrom": "glossary", "pos": "adj", "example": "The fish died because the river water was contaminated.", "collocations": ["contaminated water", "contaminated soil"], "synonyms": ["polluted"], "antonyms": ["clean"], "src": { "kind": "sgk", "page": 149 } },
     { "id": "v19", "en": "clean up", "vi": "dọn dẹp", "ipa": "/ˈkliːn ʌp/", "ipaFrom": "glossary", "pos": "phr v", "example": "Volunteers cleaned up the beach after the storm.", "collocations": ["clean up the beach", "clean up the classroom"], "synonyms": ["tidy up"], "antonyms": [], "src": { "kind": "sgk", "page": 149 } },
-    { "id": "v20", "en": "in the long run", "vi": "về lâu dài", "ipa": "/ɪn ðə lɒŋ rʌn/", "ipaFrom": "glossary", "pos": "phrase", "example": "Reusable bags are cheaper in the long run.", "collocations": [], "synonyms": ["in the long term"], "antonyms": ["in the short term"], "src": { "kind": "sgk", "page": 149 } }
+    { "id": "v20", "en": "in the long run", "vi": "về lâu dài", "ipa": "/ɪn ðə lɒŋ rʌn/", "ipaFrom": "glossary", "pos": "phrase", "example": "Reusable bags are cheaper in the long run.", "collocations": [], "synonyms": ["in the long term"], "antonyms": ["in the short term"], "src": { "kind": "sgk", "page": 149 } },
+    { "id": "v21", "en": "layer", "vi": "lớp", "ipa": "/ˈleɪə/", "ipaFrom": "glossary", "pos": "n", "example": "A thin layer of dry leaves covers the compost pile.", "collocations": ["a thin layer", "a layer of"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 149 } },
+    { "id": "v22", "en": "recycle", "vi": "tái chế", "ipa": "/ˌriːˈsaɪkl/", "ipaFrom": "dictionary", "pos": "v", "example": "We recycle paper, cans and plastic bottles at home.", "collocations": ["recycle paper", "recycle waste"], "synonyms": [], "antonyms": ["throw away"], "src": { "kind": "sgk", "page": 36 } },
+    { "id": "v23", "en": "recyclables", "vi": "đồ có thể tái chế", "ipa": "/ˌriːˈsaɪkləblz/", "ipaFrom": "dictionary", "pos": "n", "example": "Please put all recyclables in the blue bin.", "collocations": ["sort recyclables", "collect recyclables"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 36 } },
+    { "id": "v24", "en": "environmental awareness", "vi": "ý thức bảo vệ môi trường", "ipa": "/ɪnˌvaɪrənˌmentl əˈweənəs/", "ipaFrom": "dictionary", "pos": "n phr", "example": "The green club helps raise environmental awareness among students.", "collocations": ["raise environmental awareness"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 32 } },
+    { "id": "v25", "en": "resource", "vi": "tài nguyên, nguồn lực", "ipa": "/rɪˈsɔːs/", "ipaFrom": "dictionary", "pos": "n", "example": "We should use natural resources like water and electricity carefully.", "collocations": ["natural resources", "save resources"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 32 } },
+    { "id": "v26", "en": "efficiently", "vi": "một cách hiệu quả, tiết kiệm", "ipa": "/ɪˈfɪʃntli/", "ipaFrom": "dictionary", "pos": "adv", "example": "LED bulbs use energy more efficiently than old light bulbs.", "collocations": ["use energy efficiently", "work efficiently"], "synonyms": ["effectively"], "antonyms": ["wastefully"], "src": { "kind": "sgk", "page": 32 } },
+    { "id": "v27", "en": "takeaway", "vi": "(đồ ăn) mang đi", "ipa": "/ˈteɪkəweɪ/", "ipaFrom": "dictionary", "pos": "adj", "example": "I reuse takeaway containers to store food in the fridge.", "collocations": ["takeaway containers", "takeaway food"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 36 } },
+    { "id": "v28", "en": "get rid of", "vi": "loại bỏ, vứt bỏ", "ipa": "/ɡet ˈrɪd əv/", "ipaFrom": "dictionary", "pos": "phr v", "example": "Our school wants to get rid of plastic straws in the canteen.", "collocations": ["get rid of plastic", "get rid of rubbish"], "synonyms": ["remove", "throw away"], "antonyms": ["keep"], "src": { "kind": "sgk", "page": 36 } },
+    { "id": "v29", "en": "convenience", "vi": "sự tiện lợi", "ipa": "/kənˈviːniəns/", "ipaFrom": "dictionary", "pos": "n", "example": "Many people use plastic bags because of their convenience.", "collocations": ["for convenience", "the convenience of"], "synonyms": [], "antonyms": ["inconvenience"], "src": { "kind": "sgk", "page": 36 } },
+    { "id": "v30", "en": "reduce", "vi": "giảm, giảm bớt", "ipa": "/rɪˈdjuːs/", "ipaFrom": "dictionary", "pos": "v", "example": "We can reduce waste by bringing our own bags.", "collocations": ["reduce waste", "reduce our carbon footprint"], "synonyms": ["cut down on", "decrease"], "antonyms": ["increase"], "src": { "kind": "sgk", "page": 32 } }
   ],
   "grammar": [
     {
@@ -148,6 +158,19 @@
         { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["packaging", "compost", "reusable"], "answer": 2, "explainVi": "reusable /riːˈjuːzəbl/ nhấn âm thứ hai; packaging và compost nhấn âm đầu." }
       ],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p05",
+      "kind": "ending",
+      "focus": "Đuôi -s/-es của danh từ số nhiều: /s/, /z/, /ɪz/",
+      "tipVi": "Đọc /s/ sau âm vô thanh /p, t, k, f, θ/ (cups); đọc /ɪz/ sau /s, z, ʃ, tʃ, dʒ/ (boxes, packages); đọc /z/ trong các trường hợp còn lại (bottles, bags). Đừng bỏ âm cuối, nếu không người nghe sẽ không biết em nói số nhiều.",
+      "words": ["bottles", "bags", "containers", "peels", "cups", "boxes", "packages"],
+      "sentence": "We collect bottles, cups and boxes for recycling.",
+      "quiz": [
+        { "prompt": "Which word ends with the sound /ɪz/?", "options": ["boxes", "bags", "cups"], "answer": 0, "explainVi": "boxes kết thúc bằng âm /s/ nên đuôi -es đọc /ɪz/; bags đọc /z/, cups đọc /s/." },
+        { "prompt": "Which word ends with the sound /s/?", "options": ["cups", "bottles", "containers"], "answer": 0, "explainVi": "cups có âm cuối /p/ là âm vô thanh nên -s đọc /s/; bottles và containers đọc /z/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -160,7 +183,13 @@
     { "id": "e07", "en": "in the long / short / medium term", "vi": "về lâu dài / trước mắt / trong thời gian không xa", "useVi": "Khi nói kết quả sẽ đến sau bao lâu.", "example": "Solar panels are expensive, but they save money in the long term.", "src": { "kind": "sgk", "page": 40 } },
     { "id": "e08", "en": "Instead of ..., we could ...", "vi": "Thay vì ..., chúng ta có thể ...", "useVi": "Khi gợi ý một cách làm xanh hơn.", "example": "Instead of buying bottled water, we could bring our own bottles.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "Why don't we ...?", "vi": "Sao chúng ta không ...?", "useVi": "Khi rủ hoặc gợi ý nhẹ nhàng cho bạn bè.", "example": "Why don't we start a compost pile in the school garden?", "src": { "kind": "team", "page": null } },
-    { "id": "e10", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but small changes add up in the long run.", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but small changes add up in the long run.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "I'm sure (that) ...", "vi": "Mình chắc chắn rằng ...", "useVi": "Khi dự đoán điều mình rất tin sẽ xảy ra.", "example": "I'm sure that our class will win the Green Classroom Competition.", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "There's a good chance that ...", "vi": "Rất có khả năng là ...", "useVi": "Khi dự đoán điều nhiều khả năng xảy ra.", "example": "There's a good chance that the canteen will stop using plastic cups.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "How about + V-ing ...?", "vi": "Hay là chúng ta ...?", "useVi": "Khi đưa ra gợi ý một cách nhẹ nhàng.", "example": "How about collecting old newspapers for recycling?", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "We'd better (not) ...", "vi": "Chúng ta nên (không nên) ...", "useVi": "Khi khuyên cả nhóm nên hay không nên làm gì.", "example": "We'd better not use paper plates at the picnic.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "Don't forget to ...", "vi": "Đừng quên ...", "useVi": "Khi nhắc ai đó làm một việc tốt cho môi trường.", "example": "Don't forget to turn off the fan before you leave.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "It's better for the environment to ...", "vi": "... thì tốt hơn cho môi trường.", "useVi": "Khi so sánh và chọn cách làm xanh hơn.", "example": "It's better for the environment to cycle than to drive.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["I cycle to school", "every day", "which helps reduce", "my carbon footprint"], "vi": "Mình đạp xe đến trường mỗi ngày, điều này giúp giảm lượng khí thải các-bon của mình.", "grammarId": "g03" },
@@ -170,7 +199,9 @@
     { "id": "b05", "chunks": ["My family", "makes compost", "from fruit peel", "which is good for our garden"], "vi": "Gia đình mình làm phân hữu cơ từ vỏ hoa quả, điều này tốt cho khu vườn.", "grammarId": "g03" },
     { "id": "b06", "chunks": ["The future", "of our planet", "depends on", "our daily habits"], "vi": "Tương lai của hành tinh phụ thuộc vào thói quen hằng ngày của chúng ta.", "grammarId": "g01" },
     { "id": "b07", "chunks": ["Instead of", "single-use bottles", "we bring", "reusable ones"], "vi": "Thay vì chai dùng một lần, chúng mình mang chai tái sử dụng.", "grammarId": null },
-    { "id": "b08", "chunks": ["Volunteers", "cleaned up", "the beach", "after the festival"], "vi": "Các tình nguyện viên đã dọn dẹp bãi biển sau lễ hội.", "grammarId": "g02" }
+    { "id": "b08", "chunks": ["Volunteers", "cleaned up", "the beach", "after the festival"], "vi": "Các tình nguyện viên đã dọn dẹp bãi biển sau lễ hội.", "grammarId": "g02" },
+    { "id": "b09", "chunks": ["We should", "rinse out", "plastic containers", "before recycling them"], "vi": "Chúng ta nên rửa sạch hộp nhựa trước khi tái chế.", "grammarId": "g02" },
+    { "id": "b10", "chunks": ["Our class", "sorted all the rubbish", "which made", "recycling much easier"], "vi": "Lớp mình đã phân loại hết rác, điều này giúp việc tái chế dễ hơn nhiều.", "grammarId": "g03" }
   ],
   "expand": [
     {
@@ -209,6 +240,26 @@
         { "askVi": "Kết quả là gì?", "ask": "What was the result?", "add": "which made the local residents very happy" }
       ],
       "full": "Our class cleaned up the park last Sunday, which made the local residents very happy."
+    },
+    {
+      "id": "x05",
+      "base": "We should reduce waste.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at school" },
+        { "askVi": "Bằng cách nào?", "ask": "How?", "add": "by bringing our own bags and bottles" },
+        { "askVi": "Việc đó có khó không?", "ask": "Is it difficult?", "add": "which is easy for everyone" }
+      ],
+      "full": "We should reduce waste at school by bringing our own bags and bottles, which is easy for everyone."
+    },
+    {
+      "id": "x06",
+      "base": "I recycle paper.",
+      "steps": [
+        { "askVi": "Giấy gì?", "ask": "What paper?", "add": "from old notebooks" },
+        { "askVi": "Bao lâu một lần?", "ask": "How often?", "add": "every month" },
+        { "askVi": "Em làm gì với tiền bán giấy?", "ask": "What do you do with the money?", "add": "and give the money to charity" }
+      ],
+      "full": "I recycle paper from old notebooks every month and give the money to charity."
     }
   ],
   "variations": [
@@ -270,6 +321,45 @@
       ],
       "keywords": ["in the long run", "save", "carbon footprint", "future"],
       "exampleAnswer": "In the long run, green habits save money and energy, and they reduce our carbon footprint.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Đồ tái chế em có thể tự làm",
+      "questions": [
+        "What can you make from old things instead of throwing them away?",
+        "Have you ever turned rubbish into something useful?",
+        "Which old items at home could be reused, and how?",
+        "Tell me about something you have made from recycled materials."
+      ],
+      "keywords": ["reuse", "cardboard", "plastic bottle", "turn into"],
+      "exampleAnswer": "I turned some old plastic bottles into small pots for plants. I also made a pencil box from cardboard, which saved me money.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Tiết kiệm điện và nước ở nhà",
+      "questions": [
+        "How does your family save electricity and water?",
+        "What do you do at home to use less energy?",
+        "Which habits help your family save water?",
+        "What simple things can people do to save energy every day?"
+      ],
+      "keywords": ["turn off", "efficiently", "save", "reduce"],
+      "exampleAnswer": "We always turn off the lights when we leave a room. My mum uses the water from washing rice to water the plants, which saves a lot of water.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Có nên phạt người xả rác",
+      "questions": [
+        "Should people pay a fine for dropping litter? Why or why not?",
+        "Do you think fines can stop people from littering?",
+        "What is the best way to stop people from throwing rubbish in the street?",
+        "Is punishment or education better for stopping littering? Why?"
+      ],
+      "keywords": ["fine", "litter", "awareness", "because"],
+      "exampleAnswer": "I think fines can help, but education is better in the long run. If people understand the problem, they will stop littering by themselves.",
       "expectsReason": true
     }
   ],
@@ -384,6 +474,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["eco-friendly", "reuse", "I think", "will", "because"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Chỉ em hàng xóm phân loại rác",
+      "contextVi": "Khu chung cư nhà em bắt đầu phân loại rác vào ba thùng khác nhau. Khoa, em hàng xóm 11 tuổi, chưa biết nên bỏ rác vào thùng nào.",
+      "aiRole": "Khoa, your 11-year-old neighbour who doesn't know how to sort rubbish",
+      "studentRoleVi": "Anh/chị hàng xóm hướng dẫn phân loại rác",
+      "goalVi": "Chỉ cho Khoa cách bỏ ít nhất ba loại rác vào đúng thùng và giải thích vì sao cần rửa sạch hộp trước khi tái chế.",
+      "goal": "Show Khoa where to put at least three kinds of rubbish and explain why containers must be rinsed out before recycling.",
+      "requirements": [
+        { "kind": "example", "vi": "Nêu ít nhất ba loại rác và thùng tương ứng", "words": [] },
+        { "kind": "reason", "vi": "Giải thích vì sao cần rửa sạch hộp trước khi bỏ vào thùng tái chế", "words": [] }
+      ],
+      "opener": "Hi! My mum told me to take out the rubbish, but there are three different bins now. Which one should I use?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Oh, I see. What about this old yoghurt cup? It's still dirty.",
+        "Why do I have to rinse it out? It's going in the bin anyway.",
+        "OK, got it! And where should I put these banana peels?"
+      ],
+      "tipsVi": ["Dùng cụm động từ: rinse out, throw away, put in.", "Giải thích với which: ..., which keeps the other recyclables clean."],
+      "keywords": ["recyclables", "rinse out", "compost", "landfill", "sort"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Lên kế hoạch chuyến dã ngoại xanh",
+      "contextVi": "Lớp em sắp đi dã ngoại ở công viên. Lần trước cả lớp để lại rất nhiều rác. Em và lớp trưởng bàn cách để chuyến đi lần này tạo ra ít rác nhất.",
+      "aiRole": "Hoa, the class monitor who is planning the picnic",
+      "studentRoleVi": "Thành viên lớp góp ý cho chuyến dã ngoại",
+      "goalVi": "Đề xuất ít nhất ba việc làm xanh cho chuyến đi (đồ ăn, nước uống, rác) và dự đoán kết quả.",
+      "goal": "Suggest at least three green ideas for the picnic (food, drinks and rubbish) and predict the result.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất ít nhất ba việc làm xanh cho chuyến đi", "words": [] },
+        { "kind": "keyword", "vi": "Dùng các từ của bài", "words": ["reusable", "single-use", "clean up"] }
+      ],
+      "opener": "Our picnic is next Saturday. Last time we left so much rubbish in the park. Any ideas to make it greener?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Good idea. But what should we do about food and drinks?",
+        "What if some classmates forget and bring plastic bottles?",
+        "Sounds great. How do you think the park will look after our picnic?"
+      ],
+      "tipsVi": ["Đề xuất: Why don't we ...? / Instead of ..., we could ...", "Dự đoán: I'm sure we'll ... / It's likely that ..."],
+      "keywords": ["reusable", "single-use", "clean up", "Instead of", "likely"]
     }
   ]
 }

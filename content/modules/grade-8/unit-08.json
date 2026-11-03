@@ -26,7 +26,16 @@
     { "id": "v18", "en": "display", "vi": "sự trưng bày, bày biện, trưng bày", "ipa": "/dɪˈspleɪ/", "ipaFrom": "glossary", "pos": "n, v", "example": "The shop displays new school bags near the door.", "collocations": ["on display", "display goods on shelves"], "synonyms": ["show"], "antonyms": ["hide"], "src": { "kind": "sgk", "page": 138 } },
     { "id": "v19", "en": "shopping list", "vi": "danh sách những thứ cần mua", "ipa": "/ˈʃɒpɪŋ lɪst/", "ipaFrom": "glossary", "pos": "n", "example": "I always make a shopping list so I don't buy things I don't need.", "collocations": ["make a shopping list"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
     { "id": "v20", "en": "schedule", "vi": "lịch trình, thời gian biểu", "ipa": "/ˈʃedjuːl/", "ipaFrom": "glossary", "pos": "n", "example": "The bus schedule says the next bus leaves at ten.", "collocations": ["a bus schedule", "a busy schedule"], "synonyms": ["timetable"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
-    { "id": "v21", "en": "browse", "vi": "xem lướt (hàng hoá)", "ipa": "/braʊz/", "ipaFrom": "dictionary", "pos": "v", "example": "I like to browse online for clothes, but I rarely buy any.", "collocations": ["go browsing", "browse online"], "synonyms": ["look around"], "antonyms": [], "src": { "kind": "sgk", "page": 84 } }
+    { "id": "v21", "en": "browse", "vi": "xem lướt (hàng hoá)", "ipa": "/braʊz/", "ipaFrom": "dictionary", "pos": "v", "example": "I like to browse online for clothes, but I rarely buy any.", "collocations": ["go browsing", "browse online"], "synonyms": ["look around"], "antonyms": [], "src": { "kind": "sgk", "page": 84 } },
+    { "id": "v22", "en": "fair", "vi": "hội chợ", "ipa": "/feə/", "ipaFrom": "glossary", "pos": "n", "example": "Our school holds a book fair every December.", "collocations": ["a book fair", "a school fair", "a trade fair"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v23", "en": "item", "vi": "một món hàng", "ipa": "/ˈaɪtəm/", "ipaFrom": "glossary", "pos": "n", "example": "Every item in this shop costs less than fifty thousand dong.", "collocations": ["each item", "an item on the list"], "synonyms": ["product", "thing"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v24", "en": "access", "vi": "nguồn để tiếp cận, truy cập vào", "ipa": "/ˈækses/", "ipaFrom": "glossary", "pos": "n", "example": "You need Internet access to buy things online.", "collocations": ["Internet access", "have access to"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v25", "en": "dollar store", "vi": "cửa hàng đồng giá (một đô la)", "ipa": "/ˈdɒlə ˌstɔː/", "ipaFrom": "glossary", "pos": "n", "example": "My aunt bought cheap plates and cups at a dollar store in Canada.", "collocations": ["shop at a dollar store"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v26", "en": "supermarket", "vi": "siêu thị", "ipa": "/ˈsuːpəmɑːkɪt/", "ipaFrom": "dictionary", "pos": "n", "example": "The supermarket near my house is open until ten at night.", "collocations": ["go to the supermarket", "a big supermarket"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 82 } },
+    { "id": "v27", "en": "fixed price", "vi": "giá cố định", "ipa": "/ˌfɪkst ˈpraɪs/", "ipaFrom": "dictionary", "pos": "n", "example": "You can't bargain in this shop because everything has a fixed price.", "collocations": ["sell at a fixed price"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 82 } },
+    { "id": "v28", "en": "stall", "vi": "quầy hàng, sạp hàng", "ipa": "/stɔːl/", "ipaFrom": "dictionary", "pos": "n", "example": "The old woman sells fresh flowers at a small stall by the gate.", "collocations": ["a market stall", "a fruit stall", "run a stall"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 84 } },
+    { "id": "v29", "en": "range", "vi": "loại, dãy (nhiều mặt hàng khác nhau)", "ipa": "/reɪndʒ/", "ipaFrom": "dictionary", "pos": "n", "example": "This bookshop has a wide range of comics for teenagers.", "collocations": ["a wide range of", "range of products"], "synonyms": ["variety"], "antonyms": [], "src": { "kind": "sgk", "page": 84 } },
+    { "id": "v30", "en": "assistant", "vi": "người bán hàng, nhân viên cửa hàng", "ipa": "/əˈsɪstənt/", "ipaFrom": "dictionary", "pos": "n", "example": "The shop assistant helped me find a jacket in my size.", "collocations": ["shop assistant", "sales assistant"], "synonyms": [], "antonyms": ["customer"], "src": { "kind": "sgk", "page": 84 } }
   ],
   "grammar": [
     {
@@ -138,7 +147,13 @@
     { "id": "e07", "en": "One advantage of ... is that ...", "vi": "Một ưu điểm của ... là ...", "useVi": "Khi nói mặt tốt của một nơi mua sắm.", "example": "One advantage of online shopping is that it saves time.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "However, ...", "vi": "Tuy nhiên, ...", "useVi": "Khi chuyển sang nói mặt chưa tốt, trái với ý vừa nêu.", "example": "However, you can't touch the products before you buy them.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "I'd rather ... than ...", "vi": "Mình thích ... hơn là ...", "useVi": "Khi so sánh hai lựa chọn và nói mình chọn cái nào.", "example": "I'd rather shop at the market than at the mall.", "src": { "kind": "team", "page": null } },
-    { "id": "e10", "en": "Why don't you try ...?", "vi": "Sao bạn không thử ...?", "useVi": "Khi gợi ý cho bạn một nơi mua hoặc một cách mua.", "example": "Why don't you try the bookshop near our school?", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "Why don't you try ...?", "vi": "Sao bạn không thử ...?", "useVi": "Khi gợi ý cho bạn một nơi mua hoặc một cách mua.", "example": "Why don't you try the bookshop near our school?", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "Can I try it on?", "vi": "Mình mặc thử được không?", "useVi": "Khi muốn mặc thử quần áo hoặc đi thử giày trước khi mua.", "example": "This jacket looks nice. Can I try it on?", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "Do you have this in ...?", "vi": "Cái này có ... không?", "useVi": "Khi hỏi món hàng có cỡ hoặc màu khác không.", "example": "Do you have this in a smaller size?", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "Can you lower the price a bit?", "vi": "Bạn bớt cho mình một chút được không?", "useVi": "Khi mặc cả ở chợ hoặc sạp hàng.", "example": "It's a bit expensive for me. Can you lower the price a bit?", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "I'll take it.", "vi": "Mình lấy cái này.", "useVi": "Khi đã quyết định mua món hàng.", "example": "OK, eighty thousand is fine. I'll take it.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "It's good value for money.", "vi": "Đáng đồng tiền.", "useVi": "Khi món hàng có chất lượng tốt so với giá.", "example": "These shoes are cheap but strong. They're good value for money.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "Could I get a refund, please?", "vi": "Cho mình xin trả hàng lấy lại tiền được không?", "useVi": "Khi món hàng bị hỏng hoặc không đúng và muốn lấy lại tiền.", "example": "The zip on this bag is broken. Could I get a refund, please?", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["I usually", "go shopping", "with my mum", "at the weekend"], "vi": "Mình thường đi mua sắm với mẹ vào cuối tuần.", "grammarId": "g01" },
@@ -148,7 +163,9 @@
     { "id": "b05", "chunks": ["Our bus", "leaves", "at 7:30", "so we have time", "for breakfast"], "vi": "Xe buýt của chúng ta chạy lúc 7 giờ 30 nên còn thời gian ăn sáng.", "grammarId": "g02" },
     { "id": "b06", "chunks": ["People can bargain", "at an open-air market", "but not", "at a supermarket"], "vi": "Người ta có thể mặc cả ở chợ ngoài trời nhưng không mặc cả ở siêu thị.", "grammarId": null },
     { "id": "b07", "chunks": ["I'm calling", "to make a complaint", "about the bag", "I ordered"], "vi": "Tôi gọi để khiếu nại về chiếc túi tôi đã đặt.", "grammarId": null },
-    { "id": "b08", "chunks": ["I never", "buy things", "without checking", "the price tag"], "vi": "Mình không bao giờ mua đồ mà không xem nhãn giá.", "grammarId": "g01" }
+    { "id": "b08", "chunks": ["I never", "buy things", "without checking", "the price tag"], "vi": "Mình không bao giờ mua đồ mà không xem nhãn giá.", "grammarId": "g01" },
+    { "id": "b09", "chunks": ["The night market", "opens", "at 6 p.m.", "tomorrow"], "vi": "Chợ đêm mở cửa lúc 6 giờ tối mai.", "grammarId": "g02" },
+    { "id": "b10", "chunks": ["My mum", "often buys", "vegetables", "at the market", "near our house"], "vi": "Mẹ mình thường mua rau ở chợ gần nhà.", "grammarId": "g01" }
   ],
   "expand": [
     {
@@ -189,6 +206,25 @@
         { "askVi": "Vì sao?", "ask": "Why?", "add": "so I don't waste money" }
       ],
       "full": "I always make a shopping list before I go to the supermarket so I don't waste money."
+    },
+    {
+      "id": "x05",
+      "base": "I bought a T-shirt.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at a discount shop" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last weekend" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it was on sale" }
+      ],
+      "full": "I bought a T-shirt at a discount shop last weekend because it was on sale."
+    },
+    {
+      "id": "x06",
+      "base": "My sister shops online.",
+      "steps": [
+        { "askVi": "Bao lâu một lần?", "ask": "How often?", "add": "twice a month" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because she doesn't have time to go to the shops" }
+      ],
+      "full": "My sister shops online twice a month because she doesn't have time to go to the shops."
     }
   ],
   "variations": [
@@ -198,7 +234,8 @@
       "questions": [
         "What is your favourite shopping place?",
         "Which place do you like going to when you want to buy something?",
-        "Tell me about a shop or market you really like."
+        "Tell me about a shop or market you really like.",
+        "Where do you like to go shopping in your town?"
       ],
       "keywords": ["shopping centre", "market", "because", "cheap"],
       "exampleAnswer": "My favourite place is the night market near my house because the food is cheap and it is always busy.",
@@ -210,7 +247,8 @@
       "questions": [
         "How often does your family go to the supermarket?",
         "Do you go shopping a lot, or only sometimes?",
-        "How many times a month do you buy things for yourself?"
+        "How many times a month do you buy things for yourself?",
+        "Who usually does the shopping in your family, and how often?"
       ],
       "keywords": ["usually", "sometimes", "rarely", "once a week"],
       "exampleAnswer": "We usually go to the supermarket once a week, but I rarely buy things for myself.",
@@ -222,7 +260,8 @@
       "questions": [
         "What are the differences between an open-air market and a supermarket?",
         "Why do some people prefer markets to supermarkets?",
-        "Is it better to shop at a market or a supermarket?"
+        "Is it better to shop at a market or a supermarket?",
+        "Which do you prefer for buying food: a market or a supermarket?"
       ],
       "keywords": ["bargain", "fixed prices", "fresh", "convenient"],
       "exampleAnswer": "At a market you can bargain and the food is fresh, but a supermarket has fixed prices and is more convenient.",
@@ -234,7 +273,8 @@
       "questions": [
         "What are the good and bad points of buying things online?",
         "Why do people like shopping on the Internet?",
-        "What problems can you have when you order something online?"
+        "What problems can you have when you order something online?",
+        "Would you rather shop online or in a real shop?"
       ],
       "keywords": ["save time", "however", "can't touch", "complaint"],
       "exampleAnswer": "Online shopping saves time. However, you can't touch the products, and sometimes they are not like the pictures.",
@@ -246,11 +286,51 @@
       "questions": [
         "When does the next big sale start at your favourite shop?",
         "What time does the supermarket near you open and close?",
-        "When does the market in your area open?"
+        "When does the market in your area open?",
+        "When does your school fair start this year?"
       ],
       "keywords": ["starts", "opens", "closes", "at"],
       "exampleAnswer": "The supermarket near my house opens at eight in the morning and closes at ten at night.",
       "expectsReason": false
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Mặc cả khi mua hàng",
+      "questions": [
+        "Do you know how to bargain at a market?",
+        "Where can shoppers bargain, and where can't they?",
+        "What do you say when you want a lower price?",
+        "Is it OK to bargain in a supermarket?"
+      ],
+      "keywords": ["bargain", "open-air market", "fixed price", "lower the price"],
+      "exampleAnswer": "At an open-air market I can bargain. I say, \"That's too expensive. Can you lower the price a bit?\"",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Tiêu tiền hợp lý, tránh mua thứ không cần",
+      "questions": [
+        "How can teenagers stop buying things they don't need?",
+        "What can you do to avoid wasting money when you go shopping?",
+        "How do you decide whether to buy something or not?",
+        "What would you tell a shopaholic who buys too many clothes?"
+      ],
+      "keywords": ["shopping list", "price tag", "need", "save"],
+      "exampleAnswer": "I always make a shopping list and check the price tag, so I only buy things I really need.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Quảng cáo ảnh hưởng đến việc mua sắm",
+      "questions": [
+        "Do advertisements make you want to buy things?",
+        "How do adverts on TV change what people buy?",
+        "Have you ever bought something because of an advertisement?",
+        "Can advertisements make people buy things they don't need? Why?"
+      ],
+      "keywords": ["advertisement", "products", "buy", "not always true"],
+      "exampleAnswer": "Yes, sometimes. Adverts make products look great, so I want them, but the adverts are not always true.",
+      "expectsReason": true
     }
   ],
   "independent": [
@@ -364,6 +444,55 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["home-made", "customers", "price", "because", "display"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Mặc cả ở chợ phiên",
+      "contextVi": "Em đi chợ ngoài trời và thấy một sạp bán áo phông đẹp. Ở chợ có thể mặc cả. Em hỏi giá, mặc cả lịch sự và quyết định có mua hay không.",
+      "aiRole": "Mrs Lan, a friendly seller at a T-shirt stall in an open-air market",
+      "studentRoleVi": "Khách mua hàng ở chợ",
+      "goalVi": "Hỏi giá, mặc cả lịch sự để được giá thấp hơn, rồi nói em mua hay không và vì sao.",
+      "goal": "Ask the price of a T-shirt, bargain politely for a lower price, then say whether you will buy it and why.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ hoặc cụm của bài", "words": ["how much", "bargain", "price", "lower", "I'll take it"] },
+        { "kind": "reason", "vi": "Nói vì sao em mua hoặc không mua (because...)", "words": [] }
+      ],
+      "opener": "Hello, dear! These T-shirts are all new this week. Which one do you like?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Good choice! That one is a hundred and twenty thousand dong.",
+        "Hmm, that's a bit low. How about a hundred thousand?",
+        "So, are you going to buy it?"
+      ],
+      "tipsVi": ["Hỏi giá: \"How much is this one?\"", "Mặc cả lịch sự: \"Can you lower the price a bit?\""],
+      "keywords": ["how much", "lower the price", "bargain", "I'll take it", "because"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Mua đồ cho buổi dã ngoại của lớp",
+      "contextVi": "Lớp em đi dã ngoại vào Chủ nhật và có 300.000 đồng để mua đồ ăn, nước uống. Em cùng bạn lớp trưởng lên danh sách mua sắm và chọn nơi mua.",
+      "aiRole": "Hoa, the class monitor who is planning the class picnic",
+      "studentRoleVi": "Bạn cùng lớp, phụ trách mua đồ",
+      "goalVi": "Đề xuất ít nhất ba món cần mua và chọn nơi mua (chợ, siêu thị hay cửa hàng tiện lợi), kèm lý do.",
+      "goal": "Suggest at least three things to buy for the picnic and choose where to buy them, giving a reason.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất món cần mua và nơi mua", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do chọn nơi mua (because...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["shopping list", "supermarket", "open-air market", "convenience store", "price"] }
+      ],
+      "opener": "Our class picnic is on Sunday, and we have three hundred thousand dong. What should we buy?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Good. Where can we buy those things cheaply?",
+        "Why is that place better than the convenience store near school?",
+        "Great. The shops open at seven on Saturday. When should we go?"
+      ],
+      "tipsVi": ["Liệt kê món hàng: \"We need some bread, fruit and water.\"", "So sánh nơi mua: rẻ hơn, gần hơn, có giá cố định."],
+      "keywords": ["shopping list", "supermarket", "market", "cheap", "because"]
     }
   ]
 }

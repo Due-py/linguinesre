@@ -26,7 +26,17 @@
     { "id": "v18", "en": "Mars", "vi": "sao Hỏa, Hỏa tinh", "ipa": "/mɑːz/", "ipaFrom": "glossary", "pos": "n", "example": "Mars is called the red planet.", "collocations": ["life on Mars", "travel to Mars"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
     { "id": "v19", "en": "Venus", "vi": "sao Kim, Kim tinh", "ipa": "/ˈviːnəs/", "ipaFrom": "glossary", "pos": "n", "example": "Venus is the hottest planet, and it has no moon.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
     { "id": "v20", "en": "Jupiter", "vi": "sao Mộc, Mộc tinh", "ipa": "/ˈdʒuːpɪtə/", "ipaFrom": "glossary", "pos": "n", "example": "Jupiter is much bigger than Earth.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
-    { "id": "v21", "en": "Mercury", "vi": "sao Thủy, Thủy tinh", "ipa": "/ˈmɜːkjəri/", "ipaFrom": "glossary", "pos": "n", "example": "Mercury is the closest planet to the sun.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } }
+    { "id": "v21", "en": "Mercury", "vi": "sao Thủy, Thủy tinh", "ipa": "/ˈmɜːkjəri/", "ipaFrom": "glossary", "pos": "n", "example": "Mercury is the closest planet to the sun.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v22", "en": "Neptune", "vi": "sao Hải Vương", "ipa": "/ˈneptjuːn/", "ipaFrom": "glossary", "pos": "n", "example": "Neptune is the farthest planet from the sun in our solar system.", "collocations": ["the planet Neptune"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v23", "en": "Saturn", "vi": "sao Thổ", "ipa": "/ˈsætən/", "ipaFrom": "glossary", "pos": "n", "example": "Saturn is famous for the beautiful rings around it.", "collocations": ["Saturn's rings"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v24", "en": "Uranus", "vi": "sao Thiên Vương", "ipa": "/ˈjʊərənəs/", "ipaFrom": "glossary", "pos": "n", "example": "Uranus is very cold because it is so far from the sun.", "collocations": ["the planet Uranus"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v25", "en": "atmosphere", "vi": "bầu khí quyển", "ipa": "/ˈætməsfɪə/", "ipaFrom": "dictionary", "pos": "n", "example": "Earth's atmosphere protects us from the strong heat of the sun.", "collocations": ["hold an atmosphere", "Earth's atmosphere"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v26", "en": "surface", "vi": "bề mặt", "ipa": "/ˈsɜːfɪs/", "ipaFrom": "dictionary", "pos": "n", "example": "The surface of Venus is hot enough to melt some metals.", "collocations": ["on the surface", "the planet's surface"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v27", "en": "outer space", "vi": "không gian vũ trụ", "ipa": "/ˌaʊtə ˈspeɪs/", "ipaFrom": "dictionary", "pos": "n", "example": "Astronauts wear special suits to stay alive in outer space.", "collocations": ["travel into outer space", "in outer space"], "synonyms": ["space"], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v28", "en": "science fiction", "vi": "khoa học viễn tưởng", "ipa": "/ˌsaɪəns ˈfɪkʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "My brother loves science fiction books about robots and time travel.", "collocations": ["science fiction film", "science fiction novel"], "synonyms": ["sci-fi"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v29", "en": "liquid", "vi": "(ở thể) lỏng; chất lỏng", "ipa": "/ˈlɪkwɪd/", "ipaFrom": "dictionary", "pos": "adj", "example": "Scientists are looking for liquid water under the ice on Mars.", "collocations": ["liquid water"], "synonyms": [], "antonyms": ["solid"], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v30", "en": "temperature", "vi": "nhiệt độ", "ipa": "/ˈtemprətʃə/", "ipaFrom": "dictionary", "pos": "n", "example": "The temperature on Mercury changes a lot between day and night.", "collocations": ["high temperature", "low temperature"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v31", "en": "imaginary", "vi": "tưởng tượng, không có thật", "ipa": "/ɪˈmædʒɪnəri/", "ipaFrom": "dictionary", "pos": "adj", "example": "In my story, an imaginary creature lives in the ice of a faraway planet.", "collocations": ["imaginary planet", "imaginary creature"], "synonyms": ["unreal"], "antonyms": ["real"], "src": { "kind": "sgk", "page": 125 } }
   ],
   "grammar": [
     {
@@ -131,6 +141,31 @@
       "sentence": "Well, I'm not sure about it. Maybe there is life on Mars.",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "sound",
+      "focus": "Âm /ɜː/",
+      "tipVi": "Âm /ɜː/ là âm dài: miệng mở vừa, môi không tròn, lưỡi nằm giữa. Kéo dài âm, không đọc thành \"ơ\" ngắn.",
+      "words": ["Earth", "Mercury", "surface", "world", "first", "learn"],
+      "sentence": "Mercury is the first planet, and Earth is the third.",
+      "quiz": [
+        { "prompt": "Which word has the sound /ɜː/?", "options": ["surface", "Venus", "Mars"], "answer": 0, "explainVi": "surface /ˈsɜːfɪs/ có âm /ɜː/; Venus /ˈviːnəs/ và Mars /mɑːz/ thì không." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p05",
+      "kind": "ending",
+      "focus": "Đuôi -ed khi kể lại câu hỏi",
+      "tipVi": "Khi kể lại câu hỏi, ta hay dùng động từ quá khứ. asked, watched đọc /t/; wondered, explored đọc /d/; wanted, landed đọc /ɪd/.",
+      "words": ["asked", "watched", "wondered", "explored", "wanted", "landed"],
+      "sentence": "We watched a film and wondered about life on Mars.",
+      "quiz": [
+        { "prompt": "Which word ends with the sound /ɪd/?", "options": ["asked", "landed", "explored"], "answer": 1, "explainVi": "landed: trước -ed là âm /d/ nên đọc /ɪd/." },
+        { "prompt": "Which word ends with the sound /t/?", "options": ["wondered", "explored", "asked"], "answer": 2, "explainVi": "asked: trước -ed là âm /k/ vô thanh nên đọc /t/: /ɑːskt/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -143,7 +178,13 @@
     { "id": "e07", "en": "He / She asked me ...", "vi": "Bạn ấy hỏi mình ...", "useVi": "Khi kể lại câu hỏi người khác đã hỏi mình.", "example": "She asked me if I wanted to be an astronaut.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "To support life, a planet needs ...", "vi": "Để có sự sống, một hành tinh cần ...", "useVi": "Khi nói điều kiện cần cho sự sống trên hành tinh.", "example": "To support life, a planet needs water, air, and the right temperature.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "I would like to tell you about ...", "vi": "Mình muốn kể cho các bạn nghe về ...", "useVi": "Khi bắt đầu giới thiệu một chủ đề trước nhóm hay lớp.", "example": "I would like to tell you about Mars, the red planet.", "src": { "kind": "team", "page": null } },
-    { "id": "e10", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but space research also helps people on Earth.", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but space research also helps people on Earth.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "Maybe, but ...", "vi": "Có thể, nhưng ...", "useVi": "Khi chưa hoàn toàn đồng ý và muốn nêu thêm ý khác.", "example": "Maybe, but we haven't found any aliens yet.", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "I'm quite sure that ...", "vi": "Mình khá chắc rằng ...", "useVi": "Khi tin chắc vào điều mình nói.", "example": "I'm quite sure that people can't breathe on Mars without oxygen tanks.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "Nobody knows for sure.", "vi": "Không ai biết chắc chắn cả.", "useVi": "Khi nói về điều khoa học chưa chứng minh được.", "example": "Is there life on other planets? Nobody knows for sure.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "He / She wanted to know if ...", "vi": "Bạn ấy muốn biết liệu ...", "useVi": "Khi kể lại câu hỏi có/không của người khác.", "example": "My brother wanted to know if Saturn had any moons.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "First, ... Second, ... Finally, ...", "vi": "Đầu tiên, ... Thứ hai, ... Cuối cùng, ...", "useVi": "Khi liệt kê các ý theo thứ tự cho bài nói rõ ràng.", "example": "First, a planet needs water. Second, it needs air. Finally, it must not be too hot or too cold.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "It looks like ...", "vi": "Nó trông giống như ...", "useVi": "Khi miêu tả hình dáng một sinh vật hay đồ vật.", "example": "It looks like a big green frog with three eyes.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["My friend asked me", "what", "my favourite planet", "was"], "vi": "Bạn mình hỏi hành tinh mình thích nhất là hành tinh nào.", "grammarId": "g01" },
@@ -153,7 +194,9 @@
     { "id": "b05", "chunks": ["Scientists", "have found", "traces of water", "on Mars"], "vi": "Các nhà khoa học đã tìm thấy dấu vết của nước trên sao Hỏa.", "grammarId": null },
     { "id": "b06", "chunks": ["She asked me", "what I was doing", "then"], "vi": "Bạn ấy hỏi lúc đó mình đang làm gì.", "grammarId": "g02" },
     { "id": "b07", "chunks": ["We looked at", "the craters on the moon", "through", "a telescope"], "vi": "Chúng mình ngắm các miệng núi lửa trên mặt trăng qua kính thiên văn.", "grammarId": null },
-    { "id": "b08", "chunks": ["I'm not sure", "but", "it's possible", "that aliens exist"], "vi": "Mình không chắc, nhưng có thể người ngoài hành tinh có thật.", "grammarId": null }
+    { "id": "b08", "chunks": ["I'm not sure", "but", "it's possible", "that aliens exist"], "vi": "Mình không chắc, nhưng có thể người ngoài hành tinh có thật.", "grammarId": null },
+    { "id": "b09", "chunks": ["The scientist asked us", "if", "we wanted", "to travel", "into outer space"], "vi": "Nhà khoa học hỏi chúng mình có muốn du hành vào vũ trụ không.", "grammarId": "g03" },
+    { "id": "b10", "chunks": ["My sister asked me", "why", "Saturn", "had rings"], "vi": "Chị mình hỏi mình vì sao sao Thổ có vành đai.", "grammarId": "g01" }
   ],
   "expand": [
     {
@@ -192,6 +235,24 @@
         { "askVi": "Vì sao?", "ask": "Why?", "add": "because I want to look for traces of life" }
       ],
       "full": "I want to visit Mars by rocket because I want to look for traces of life."
+    },
+    {
+      "id": "x05",
+      "base": "The creatures have big heads.",
+      "steps": [
+        { "askVi": "Chúng có mấy mắt?", "ask": "How many eyes?", "add": "and three eyes" },
+        { "askVi": "Da của chúng thế nào?", "ask": "What is their skin like?", "add": "Their skin is green and thick" }
+      ],
+      "full": "The creatures have big heads and three eyes. Their skin is green and thick."
+    },
+    {
+      "id": "x06",
+      "base": "Mars is cold.",
+      "steps": [
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it is far from the sun" },
+        { "askVi": "Còn vấn đề gì nữa?", "ask": "What else is a problem?", "add": "and it doesn't have enough oxygen" }
+      ],
+      "full": "Mars is cold because it is far from the sun, and it doesn't have enough oxygen."
     }
   ],
   "variations": [
@@ -201,7 +262,8 @@
       "questions": [
         "What does a planet need to support human life?",
         "What conditions are needed for people to live on a planet?",
-        "Why can't people live on most planets?"
+        "Why can't people live on most planets?",
+        "Which things must a planet have before humans can live there?"
       ],
       "keywords": ["water", "air", "temperature", "habitable"],
       "exampleAnswer": "A planet needs water, air, food, and the right temperature to support human life.",
@@ -213,7 +275,8 @@
       "questions": [
         "Do you believe there is life on other planets?",
         "Is Earth the only planet with living things?",
-        "Could there be creatures living in another galaxy?"
+        "Could there be creatures living in another galaxy?",
+        "Do you think we are alone in the universe?"
       ],
       "keywords": ["possibility", "galaxy", "I'm not sure", "because"],
       "exampleAnswer": "I'm not sure, but I think it's possible because there are billions of planets in the galaxy.",
@@ -225,7 +288,8 @@
       "questions": [
         "What might creatures on another planet look like?",
         "If you met an alien, what would it look like?",
-        "Describe an imaginary creature from a faraway planet."
+        "Describe an imaginary creature from a faraway planet.",
+        "Can you describe what an alien from your imagination looks like?"
       ],
       "keywords": ["creature", "eyes", "legs", "skin"],
       "exampleAnswer": "It might have big green eyes, six legs and soft blue skin, and it could fly.",
@@ -237,7 +301,8 @@
       "questions": [
         "What did your teacher ask you in the last lesson?",
         "What questions did your parents ask you yesterday?",
-        "What did your friend ask you this morning?"
+        "What did your friend ask you this morning?",
+        "What did someone ask you when you got home yesterday?"
       ],
       "keywords": ["asked me", "if", "what", "wanted to know"],
       "exampleAnswer": "My teacher asked me what I knew about Mars, and she wanted to know if I had a telescope.",
@@ -249,11 +314,51 @@
       "questions": [
         "Which planet in the solar system would you like to learn more about?",
         "What do you know about Jupiter or Venus?",
-        "Which planet would you like to see through a telescope?"
+        "Which planet would you like to see through a telescope?",
+        "Which planet near Earth do you find the most interesting?"
       ],
       "keywords": ["Jupiter", "Venus", "largest", "hottest"],
       "exampleAnswer": "I'd like to learn more about Jupiter because it is the largest planet and it has many moons.",
       "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Cuộc sống trên sao Hỏa",
+      "questions": [
+        "What would daily life on Mars be like?",
+        "What would be the hardest thing about living on Mars?",
+        "What would people need to take with them to Mars?",
+        "How is Mars different from Earth?"
+      ],
+      "keywords": ["oxygen", "temperature", "gravity", "spaceship"],
+      "exampleAnswer": "Life on Mars would be hard because it's very cold, there isn't enough oxygen, and people would have to stay inside all the time.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Du hành vào vũ trụ",
+      "questions": [
+        "Would you like to travel into outer space one day?",
+        "What would you take with you on a trip to the moon?",
+        "What would be exciting and frightening about a space journey?",
+        "How would you feel on a rocket going to another planet?"
+      ],
+      "keywords": ["rocket", "astronaut", "outer space", "gravity"],
+      "exampleAnswer": "I'd love to travel into outer space because I want to see Earth from far away, but I'd be a little scared.",
+      "expectsReason": true
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Các nhà khoa học tìm sự sống ngoài Trái Đất",
+      "questions": [
+        "How do scientists look for life on other planets?",
+        "What tools do scientists use to study faraway planets?",
+        "Why do scientists send rockets and robots to Mars?",
+        "What signs of life are scientists hoping to find in space?"
+      ],
+      "keywords": ["telescope", "rocket", "traces", "liquid water"],
+      "exampleAnswer": "They use powerful telescopes and send robots to Mars to look for traces of liquid water.",
+      "expectsReason": false
     }
   ],
   "independent": [
@@ -365,6 +470,55 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["planet", "because", "largest", "interesting", "solar system"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Cuộc thi vẽ sinh vật ngoài hành tinh",
+      "contextVi": "Câu lạc bộ Khoa học tổ chức cuộc thi vẽ sinh vật sống trên một hành tinh tưởng tượng. Em và Vy cùng tham gia và kể cho nhau nghe về bức tranh của mình.",
+      "aiRole": "Vy, a classmate who is also entering the drawing contest",
+      "studentRoleVi": "Học sinh tham gia cuộc thi vẽ",
+      "goalVi": "Miêu tả sinh vật em sẽ vẽ: sống ở đâu, trông như thế nào, cư xử ra sao.",
+      "goal": "Describe the imaginary creature you will draw: where it lives, what it looks like and how it behaves.",
+      "requirements": [
+        { "kind": "example", "vi": "Miêu tả ít nhất một chi tiết cụ thể (mắt, da, tay...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["creature", "planet", "imaginary", "surface", "galaxy", "alien"] }
+      ],
+      "opener": "I'm drawing an alien for the science contest. What does your creature look like?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Wow! Where does it live?",
+        "What does it eat, and is it friendly?",
+        "That sounds amazing. I can't wait to see your picture!"
+      ],
+      "tipsVi": ["Dùng \"It has...\", \"It looks like...\" để miêu tả.", "Nói tên hành tinh tưởng tượng và nơi sinh vật sống."],
+      "keywords": ["creature", "imaginary", "planet", "It has", "It looks like"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Có nên gửi tín hiệu cho người ngoài hành tinh?",
+      "contextVi": "Khoa đọc được tin các nhà khoa học gửi tín hiệu vào vũ trụ để tìm người ngoài hành tinh. Hai bạn trao đổi xem việc đó có nên làm không.",
+      "aiRole": "Khoa, a classmate who has just read about messages sent into space",
+      "studentRoleVi": "Bạn cùng lớp, nêu ý kiến của mình",
+      "goalVi": "Nêu ý kiến về việc gửi tín hiệu cho người ngoài hành tinh, đưa lý do, và trả lời khi Khoa lo lắng.",
+      "goal": "Give your opinion about sending messages to aliens, support it with reasons, and respond when Khoa disagrees.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do (because...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một cụm từ của bài", "words": ["alien", "possibility", "I'm not sure", "I doubt it", "creatures", "galaxy"] }
+      ],
+      "opener": "Scientists are sending messages into space for aliens to find. Do you think that's a good idea?",
+      "stance": "But what if the aliens aren't friendly? They might come here and attack Earth.",
+      "turns": 5,
+      "fallback": [
+        "Interesting. Why do you think so?",
+        "But what if the aliens aren't friendly? They might come here and attack Earth.",
+        "Hmm. Do you think aliens could even read our messages?",
+        "OK, you've made me think. Maybe we can talk about it in class."
+      ],
+      "tipsVi": ["Khi chưa chắc, dùng \"I'm not sure about it\" hoặc \"I doubt it\".", "Giữ ý mình lịch sự: \"I see your point, but...\""],
+      "keywords": ["alien", "possibility", "I doubt it", "because", "I see your point"]
     }
   ]
 }

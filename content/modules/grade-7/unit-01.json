@@ -23,7 +23,19 @@
     { "id": "v15", "en": "stress", "vi": "sự căng thẳng", "ipa": "/stres/", "ipaFrom": "glossary", "pos": "n", "example": "Listening to music helps me forget my stress.", "collocations": ["reduce stress", "feel stress"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
     { "id": "v16", "en": "responsibility", "vi": "sự chịu trách nhiệm", "ipa": "/rɪˌspɒnsəˈbɪləti/", "ipaFrom": "glossary", "pos": "n", "example": "Looking after my plants teaches me responsibility.", "collocations": ["learn responsibility", "a sense of responsibility"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
     { "id": "v17", "en": "maturity", "vi": "sự trưởng thành", "ipa": "/məˈtʃʊərəti/", "ipaFrom": "glossary", "pos": "n", "example": "Taking care of a pet can help you grow in maturity.", "collocations": ["show maturity"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
-    { "id": "v18", "en": "valuable", "vi": "quý giá", "ipa": "/ˈvæljuəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "Some old coins in his collection are very valuable.", "collocations": ["very valuable", "a valuable lesson"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } }
+    { "id": "v18", "en": "valuable", "vi": "quý giá", "ipa": "/ˈvæljuəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "Some old coins in his collection are very valuable.", "collocations": ["very valuable", "a valuable lesson"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v19", "en": "insect", "vi": "côn trùng", "ipa": "/ˈɪnsekt/", "ipaFrom": "glossary", "pos": "n", "example": "My little brother likes watching insects in the garden.", "collocations": ["small insects", "catch insects"], "synonyms": ["bug"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v20", "en": "bug", "vi": "con bọ", "ipa": "/bʌɡ/", "ipaFrom": "glossary", "pos": "n", "example": "We found a green bug on a cabbage leaf.", "collocations": ["a tiny bug"], "synonyms": ["insect"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v21", "en": "belong to", "vi": "thuộc về", "ipa": "/bɪˈlɒŋ tə/", "ipaFrom": "glossary", "pos": "v", "example": "This old coin belongs to my grandfather's collection.", "collocations": ["belong to a group", "belong to a club"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v22", "en": "take on", "vi": "nhận thêm (việc, trách nhiệm)", "ipa": "/teɪk ɒn/", "ipaFrom": "glossary", "pos": "phr v", "example": "When you keep a pet, you take on more responsibility.", "collocations": ["take on responsibility", "take on a job"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v23", "en": "doll", "vi": "búp bê", "ipa": "/dɒl/", "ipaFrom": "dictionary", "pos": "n", "example": "My sister collects dolls from different countries.", "collocations": ["collect dolls", "a rag doll"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 10 } },
+    { "id": "v24", "en": "teddy bear", "vi": "gấu bông", "ipa": "/ˈtedi beə/", "ipaFrom": "dictionary", "pos": "n", "example": "I have a big teddy bear on my bed.", "collocations": ["collect teddy bears", "a soft teddy bear"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 9 } },
+    { "id": "v25", "en": "coin", "vi": "đồng xu, tiền xu", "ipa": "/kɔɪn/", "ipaFrom": "dictionary", "pos": "n", "example": "He keeps his old coins in a small wooden box.", "collocations": ["collect coins", "an old coin"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 9 } },
+    { "id": "v26", "en": "stamp", "vi": "con tem", "ipa": "/stæmp/", "ipaFrom": "dictionary", "pos": "n", "example": "This stamp from Japan has a picture of a mountain on it.", "collocations": ["collect stamps", "a stamp album"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 14 } },
+    { "id": "v27", "en": "judo", "vi": "võ judo", "ipa": "/ˈdʒuːdəʊ/", "ipaFrom": "dictionary", "pos": "n", "example": "My cousin does judo twice a week.", "collocations": ["do judo", "a judo class"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 10 } },
+    { "id": "v28", "en": "outdoor", "vi": "ngoài trời", "ipa": "/ˈaʊtdɔː/", "ipaFrom": "glossary", "pos": "adj", "example": "Gardening is a great outdoor activity for the whole family.", "collocations": ["outdoor activities", "outdoor games"], "synonyms": [], "antonyms": ["indoor"], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v29", "en": "hobby", "vi": "sở thích", "ipa": "/ˈhɒbi/", "ipaFrom": "dictionary", "pos": "n", "example": "My hobby is drawing animals.", "collocations": ["a popular hobby", "an unusual hobby", "take up a hobby"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 8 } },
+    { "id": "v30", "en": "free time", "vi": "thời gian rảnh", "ipa": "/ˌfriː ˈtaɪm/", "ipaFrom": "dictionary", "pos": "n phr", "example": "I read comics in my free time.", "collocations": ["in my free time", "spend free time"], "synonyms": ["spare time"], "antonyms": [], "src": { "kind": "sgk", "page": 8 } }
   ],
   "grammar": [
     {
@@ -136,7 +148,14 @@
     { "id": "e07", "en": "I'm really into ...", "vi": "Mình rất mê ...", "useVi": "Khi muốn nói mình rất thích một hoạt động.", "example": "I'm really into making models these days.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "It helps me ...", "vi": "Nó giúp mình ...", "useVi": "Khi nói về lợi ích của một sở thích.", "example": "Gardening helps me relax after school.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "Why don't you try ...?", "vi": "Sao bạn không thử ...?", "useVi": "Khi gợi ý cho bạn một sở thích mới.", "example": "Why don't you try yoga? It's easy to start.", "src": { "kind": "team", "page": null } },
-    { "id": "e10", "en": "How often do you ...?", "vi": "Bạn ... bao lâu một lần?", "useVi": "Khi hỏi ai đó làm việc gì thường xuyên đến mức nào.", "example": "How often do you go jogging?", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "How often do you ...?", "vi": "Bạn ... bao lâu một lần?", "useVi": "Khi hỏi ai đó làm việc gì thường xuyên đến mức nào.", "example": "How often do you go jogging?", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "Is it hard to ...?", "vi": "... có khó không?", "useVi": "Khi hỏi một sở thích hay một việc có khó làm không.", "example": "Is it hard to learn judo?", "src": { "kind": "sgk", "page": 8 } },
+    { "id": "e12", "en": "All you need is ...", "vi": "Bạn chỉ cần ...", "useVi": "Khi nói những thứ cần có để làm một việc.", "example": "All you need is a pencil and some paper.", "src": { "kind": "sgk", "page": 8 } },
+    { "id": "e13", "en": "That's rather unusual.", "vi": "Cái đó khá lạ đấy.", "useVi": "Khi thấy sở thích của ai đó khác thường.", "example": "You collect old bus tickets? That's rather unusual.", "src": { "kind": "sgk", "page": 8 } },
+    { "id": "e14", "en": "It's more common than you think.", "vi": "Nó phổ biến hơn bạn nghĩ đấy.", "useVi": "Khi muốn nói rằng nhiều người cũng làm việc đó.", "example": "Making models isn't strange. It's more common than you think.", "src": { "kind": "sgk", "page": 8 } },
+    { "id": "e15", "en": "I'd love to ...", "vi": "Mình rất muốn ...", "useVi": "Khi nhận lời mời hoặc nói mình rất muốn làm gì.", "example": "I'd love to try horse riding one day.", "src": { "kind": "sgk", "page": 8 } },
+    { "id": "e16", "en": "When did you start ...?", "vi": "Bạn bắt đầu ... từ khi nào?", "useVi": "Khi hỏi ai đó bắt đầu một sở thích từ lúc nào.", "example": "When did you start collecting coins?", "src": { "kind": "team", "page": null } },
+    { "id": "e17", "en": "I share my hobby with ...", "vi": "Mình cùng chơi sở thích này với ...", "useVi": "Khi kể mình làm sở thích cùng ai.", "example": "I share my hobby with my older sister.", "src": { "kind": "sgk", "page": 15 } }
   ],
   "build": [
     { "id": "b01", "chunks": ["My brother", "enjoys making models", "in his free time"], "vi": "Anh trai mình thích làm mô hình lúc rảnh.", "grammarId": "g02" },
@@ -146,7 +165,9 @@
     { "id": "b05", "chunks": ["You need", "some cardboard and glue", "to build", "a dollhouse"], "vi": "Bạn cần một ít bìa các tông và keo để làm nhà búp bê.", "grammarId": null },
     { "id": "b06", "chunks": ["My best friend", "doesn't like", "horse riding", "because it's scary"], "vi": "Bạn thân mình không thích cưỡi ngựa vì nó đáng sợ.", "grammarId": "g01" },
     { "id": "b07", "chunks": ["Making models", "teaches me", "to be patient"], "vi": "Làm mô hình dạy mình biết kiên nhẫn.", "grammarId": null },
-    { "id": "b08", "chunks": ["We hate", "getting up early", "on Sundays"], "vi": "Chúng mình ghét dậy sớm vào Chủ nhật.", "grammarId": "g02" }
+    { "id": "b08", "chunks": ["We hate", "getting up early", "on Sundays"], "vi": "Chúng mình ghét dậy sớm vào Chủ nhật.", "grammarId": "g02" },
+    { "id": "b09", "chunks": ["My sister", "collects teddy bears", "from different countries"], "vi": "Chị mình sưu tầm gấu bông từ nhiều nước khác nhau.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["Gardening", "is a good outdoor activity", "for the whole family"], "vi": "Làm vườn là hoạt động ngoài trời tốt cho cả gia đình.", "grammarId": null }
   ],
   "expand": [
     {
@@ -186,6 +207,26 @@
         { "askVi": "Vì sao?", "ask": "Why?", "add": "because it teaches responsibility" }
       ],
       "full": "Gardening is a good hobby for teenagers because it teaches responsibility."
+    },
+    {
+      "id": "x05",
+      "base": "I collect coins.",
+      "steps": [
+        { "askVi": "Em sưu tầm loại tiền xu nào?", "ask": "Which coins?", "add": "old coins" },
+        { "askVi": "Em cất chúng ở đâu?", "ask": "Where do you keep them?", "add": "in a small wooden box" },
+        { "askVi": "Vì sao em thích?", "ask": "Why?", "add": "because each coin has its own story" }
+      ],
+      "full": "I collect old coins and keep them in a small wooden box because each coin has its own story."
+    },
+    {
+      "id": "x06",
+      "base": "My friend does judo.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at a sports club" },
+        { "askVi": "Bao lâu một lần?", "ask": "How often?", "add": "twice a week" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it makes her strong" }
+      ],
+      "full": "My friend does judo at a sports club twice a week because it makes her strong."
     }
   ],
   "variations": [
@@ -248,6 +289,45 @@
       "keywords": ["try", "learn", "because", "horse riding"],
       "exampleAnswer": "I'd like to try horse riding because it looks exciting and I love animals.",
       "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Sở thích trong nhà hay ngoài trời",
+      "questions": [
+        "Do you prefer indoor or outdoor hobbies?",
+        "Which do you like more, hobbies at home or hobbies outside?",
+        "Would you rather spend your free time inside or outdoors?",
+        "Tell me whether you enjoy indoor or outdoor activities more."
+      ],
+      "keywords": ["indoor", "outdoor", "prefer", "because"],
+      "exampleAnswer": "I prefer outdoor hobbies like jogging because I can get fresh air and meet my friends in the park.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Những thứ cần có để làm sở thích của em",
+      "questions": [
+        "What do you need for your hobby?",
+        "What things do you use when you do your hobby?",
+        "Is your hobby expensive or cheap to do?",
+        "What does a person need to start your hobby?"
+      ],
+      "keywords": ["need", "cardboard", "glue", "cheap"],
+      "exampleAnswer": "To make models, all I need is some cardboard, glue and scissors, so my hobby is quite cheap.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Cùng chia sẻ sở thích với người khác",
+      "questions": [
+        "Who do you share your hobby with?",
+        "Do you do your hobby alone or with other people?",
+        "Who in your family enjoys the same hobby as you?",
+        "Tell me about a person who shares your hobby."
+      ],
+      "keywords": ["share", "with", "together", "enjoy"],
+      "exampleAnswer": "I share my hobby with my grandpa. We do some gardening together every Sunday morning, and he teaches me about plants.",
+      "expectsReason": false
     }
   ],
   "independent": [
@@ -358,6 +438,55 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["gardening", "responsibility", "relax", "because", "benefit"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Hỏi bạn về câu lạc bộ cưỡi ngựa",
+      "contextVi": "Bạn em vừa tham gia một câu lạc bộ cưỡi ngựa. Em tò mò và hỏi bạn về câu lạc bộ: ở đâu, khi nào, có khó không.",
+      "aiRole": "Minh, your friend who goes horse riding every Sunday",
+      "studentRoleVi": "Bạn tò mò về sở thích cưỡi ngựa",
+      "goalVi": "Hỏi ít nhất ba câu về sở thích của Minh (ở đâu, bao lâu một lần, có khó không) và nói em có muốn thử không.",
+      "goal": "Ask Minh at least three questions about his horse riding club (where, how often, is it hard) and say if you want to try it.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một mẫu câu hỏi của bài", "words": ["How often", "Is it hard", "What about", "Do you like"] },
+        { "kind": "reason", "vi": "Nói em có muốn thử không và nêu lý do", "words": [] }
+      ],
+      "opener": "Guess what! I joined a horse riding club last month. Do you want to know about it?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "It's near the river. I go there every Sunday morning.",
+        "Not really. You just need to be patient and listen to the teacher.",
+        "Would you like to come with me one day?"
+      ],
+      "tipsVi": ["Hỏi: Where is it? How often do you go? Is it hard to ...?", "Trả lời lời mời: I'd love to... / Sorry, I'm not interested in..."],
+      "keywords": ["How often", "Is it hard", "I'd love to", "because"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Kể cho bà nghe về sở thích mới",
+      "contextVi": "Em vừa bắt đầu sưu tầm tem. Bà ở quê gọi điện hỏi thăm, em kể cho bà nghe về sở thích mới của mình.",
+      "aiRole": "Your grandma, who lives in the countryside",
+      "studentRoleVi": "Cháu, kể về sở thích sưu tầm tem",
+      "goalVi": "Kể cho bà nghe em sưu tầm gì, em có bao nhiêu, em cất ở đâu và vì sao em thích.",
+      "goal": "Tell your grandma what you collect, how many you have, where you keep them, and why you like it.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất hai từ của bài", "words": ["collect", "stamp", "coin", "valuable", "hobby"] },
+        { "kind": "reason", "vi": "Nêu vì sao em thích sở thích này", "words": [] }
+      ],
+      "opener": "Hello, dear! Your mum says you have a new hobby. What is it?",
+      "stance": null,
+      "turns": 5,
+      "fallback": [
+        "How lovely! How many stamps do you have now?",
+        "Where do you keep them?",
+        "Why do you like collecting stamps?",
+        "I have some old stamps at home. I'll keep them for you!"
+      ],
+      "tipsVi": ["Nói chậm, rõ ràng: I collect... / I have about...", "Dùng because để nêu lý do."],
+      "keywords": ["collect", "stamps", "keep", "because"]
     }
   ]
 }

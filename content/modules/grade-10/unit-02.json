@@ -25,7 +25,17 @@
     { "id": "v17", "en": "global", "vi": "toàn cầu", "ipa": "/ˈgləʊbl/", "ipaFrom": "glossary", "pos": "adj", "example": "Climate change is a global problem, so every country must act.", "collocations": ["global warming", "a global problem"], "synonyms": ["worldwide"], "antonyms": ["local"], "src": { "kind": "sgk", "page": 125 } },
     { "id": "v18", "en": "resource", "vi": "tài nguyên", "ipa": "/rɪˈsɔːs/", "ipaFrom": "glossary", "pos": "n", "example": "Water is a natural resource that we must not waste.", "collocations": ["natural resources", "save resources"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
     { "id": "v19", "en": "sustainable", "vi": "bền vững", "ipa": "/səˈsteɪnəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "Bamboo is a sustainable material for making straws.", "collocations": ["sustainable lifestyle", "sustainable materials"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
-    { "id": "v20", "en": "material", "vi": "nguyên liệu", "ipa": "/məˈtɪəriəl/", "ipaFrom": "glossary", "pos": "n", "example": "These bags are made from natural materials.", "collocations": ["natural materials", "recycled materials"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } }
+    { "id": "v20", "en": "material", "vi": "nguyên liệu", "ipa": "/məˈtɪəriəl/", "ipaFrom": "glossary", "pos": "n", "example": "These bags are made from natural materials.", "collocations": ["natural materials", "recycled materials"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v21", "en": "calculate", "vi": "tính toán", "ipa": "/ˈkælkjuleɪt/", "ipaFrom": "glossary", "pos": "v", "example": "This website helps you calculate your family's carbon footprint.", "collocations": ["calculate the cost", "calculate your carbon footprint"], "synonyms": ["work out"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v22", "en": "estimate", "vi": "ước tính, ước lượng", "ipa": "/ˈestɪmeɪt/", "ipaFrom": "glossary", "pos": "v", "example": "Scientists estimate that a plastic bag takes hundreds of years to break down.", "collocations": ["it is estimated that", "estimate the amount"], "synonyms": ["guess"], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v23", "en": "human", "vi": "con người", "ipa": "/ˈhjuːmən/", "ipaFrom": "glossary", "pos": "n", "example": "Humans produce a lot of rubbish every day.", "collocations": ["human activities", "humans and animals"], "synonyms": ["person"], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v24", "en": "recycle", "vi": "tái chế", "ipa": "/ˌriːˈsaɪkl/", "ipaFrom": "dictionary", "pos": "v", "example": "We recycle old newspapers and plastic bottles at school.", "collocations": ["recycle paper", "recycle used items"], "synonyms": ["reuse"], "antonyms": ["throw away"], "src": { "kind": "sgk", "page": 23 } },
+    { "id": "v25", "en": "plastic bag", "vi": "túi ni lông", "ipa": "/ˌplæstɪk ˈbæɡ/", "ipaFrom": "dictionary", "pos": "n", "example": "My mum takes a cloth bag to the market instead of using plastic bags.", "collocations": ["use plastic bags", "single-use plastic bags"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 23 } },
+    { "id": "v26", "en": "harmful", "vi": "có hại", "ipa": "/ˈhɑːmfl/", "ipaFrom": "dictionary", "pos": "adj", "example": "Organic vegetables are grown without harmful chemicals.", "collocations": ["harmful chemicals", "harmful to the environment"], "synonyms": ["dangerous"], "antonyms": ["harmless"], "src": { "kind": "sgk", "page": 23 } },
+    { "id": "v27", "en": "pollute", "vi": "làm ô nhiễm", "ipa": "/pəˈluːt/", "ipaFrom": "dictionary", "pos": "v", "example": "Dropping litter pollutes our streets and rivers.", "collocations": ["pollute the air", "pollute the water"], "synonyms": ["make dirty"], "antonyms": ["clean"], "src": { "kind": "sgk", "page": 23 } },
+    { "id": "v28", "en": "break down", "vi": "phân hủy", "ipa": "/ˌbreɪk ˈdaʊn/", "ipaFrom": "dictionary", "pos": "phr v", "example": "Plastic takes many years to break down.", "collocations": ["break down naturally", "break down into small pieces"], "synonyms": ["decompose"], "antonyms": [], "src": { "kind": "sgk", "page": 23 } },
+    { "id": "v29", "en": "clean up", "vi": "dọn sạch", "ipa": "/ˌkliːn ˈʌp/", "ipaFrom": "dictionary", "pos": "phr v", "example": "Our class is going to clean up the beach next Sunday.", "collocations": ["clean up the park", "clean up the school"], "synonyms": ["tidy up"], "antonyms": ["make a mess"], "src": { "kind": "sgk", "page": 18 } },
+    { "id": "v30", "en": "environmental", "vi": "(thuộc) môi trường", "ipa": "/ɪnˌvaɪrənˈmentl/", "ipaFrom": "dictionary", "pos": "adj", "example": "Our club talks about a different environmental issue every month.", "collocations": ["environmental issues", "environmental problems"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 18 } }
   ],
   "grammar": [
     {
@@ -162,7 +172,13 @@
     { "id": "e08", "en": "How about ...?", "vi": "Thế còn ... thì sao?", "useVi": "Khi gợi ý một cách làm.", "example": "How about using a refillable bottle?", "src": { "kind": "sgk", "page": 25 } },
     { "id": "e09", "en": "If I were you, I would ...", "vi": "Nếu mình là bạn, mình sẽ ...", "useVi": "Khi khuyên bằng cách đặt mình vào vị trí người kia.", "example": "If I were you, I would cycle to school.", "src": { "kind": "sgk", "page": 25 } },
     { "id": "e10", "en": "My advice would be to ...", "vi": "Lời khuyên của mình là ...", "useVi": "Khi đưa ra lời khuyên một cách trang trọng hơn.", "example": "My advice would be to buy local organic food.", "src": { "kind": "sgk", "page": 25 } },
-    { "id": "e11", "en": "Even small actions can make a big difference.", "vi": "Ngay cả việc nhỏ cũng tạo ra thay đổi lớn.", "useVi": "Khi động viên người khác bắt đầu sống xanh.", "example": "Turning off one light seems small, but even small actions can make a big difference.", "src": { "kind": "team", "page": null } }
+    { "id": "e11", "en": "Even small actions can make a big difference.", "vi": "Ngay cả việc nhỏ cũng tạo ra thay đổi lớn.", "useVi": "Khi động viên người khác bắt đầu sống xanh.", "example": "Turning off one light seems small, but even small actions can make a big difference.", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "Can you tell me about ..., please?", "vi": "Bạn có thể kể cho mình về ... được không?", "useVi": "Khi lịch sự hỏi thêm thông tin về một câu lạc bộ, một hoạt động.", "example": "Can you tell me about the Go Green Club, please?", "src": { "kind": "sgk", "page": 18 } },
+    { "id": "e13", "en": "I'm keen to ...", "vi": "Mình rất muốn ...", "useVi": "Khi nói mình rất muốn làm một việc gì đó.", "example": "I'm keen to reduce the amount of plastic I use.", "src": { "kind": "sgk", "page": 18 } },
+    { "id": "e14", "en": "We should / shouldn't ... because ...", "vi": "Chúng ta nên / không nên ... vì ...", "useVi": "Khi trình bày việc nên làm hoặc không nên làm, kèm lý do.", "example": "We shouldn't leave the lights on because it wastes electricity.", "src": { "kind": "sgk", "page": 23 } },
+    { "id": "e15", "en": "Why don't you ...?", "vi": "Sao bạn không thử ...?", "useVi": "Khi gợi ý một cách thân mật cho bạn bè.", "example": "Why don't you cycle to school instead of going by motorbike?", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "Thanks for your advice.", "vi": "Cảm ơn lời khuyên của bạn.", "useVi": "Khi cảm ơn người vừa cho mình lời khuyên.", "example": "Thanks for your advice. I'll bring my own bottle tomorrow.", "src": { "kind": "team", "page": null } },
+    { "id": "e17", "en": "It's important to ...", "vi": "Điều quan trọng là ...", "useVi": "Khi nhấn mạnh một việc cần làm.", "example": "It's important to sort rubbish before we throw it away.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["We are going to", "plant more trees", "in our neighbourhood", "next weekend"], "vi": "Chúng mình sẽ trồng thêm cây trong khu phố vào cuối tuần tới.", "grammarId": "g01" },
@@ -172,7 +188,9 @@
     { "id": "b05", "chunks": ["Our club", "wants to raise", "people's awareness", "of environmental issues"], "vi": "Câu lạc bộ của chúng mình muốn nâng cao nhận thức của mọi người về các vấn đề môi trường.", "grammarId": null },
     { "id": "b06", "chunks": ["A lot of litter", "was collected", "on the beach", "last Sunday"], "vi": "Rất nhiều rác đã được nhặt trên bãi biển Chủ nhật tuần trước.", "grammarId": "g02" },
     { "id": "b07", "chunks": ["I advise you", "to bring", "a refillable bottle"], "vi": "Mình khuyên bạn mang theo một chai nước có thể đổ đầy lại.", "grammarId": "g03" },
-    { "id": "b08", "chunks": ["Cycling to school", "can reduce", "your carbon footprint"], "vi": "Đạp xe đến trường có thể giảm dấu chân cacbon của bạn.", "grammarId": null }
+    { "id": "b08", "chunks": ["Cycling to school", "can reduce", "your carbon footprint"], "vi": "Đạp xe đến trường có thể giảm dấu chân cacbon của bạn.", "grammarId": null },
+    { "id": "b09", "chunks": ["Plastic bags", "are used", "less often", "in our school canteen now"], "vi": "Bây giờ túi ni lông được dùng ít hơn ở căng tin trường mình.", "grammarId": "g02" },
+    { "id": "b10", "chunks": ["I'm going to", "bring my own bag", "when I go shopping", "next time"], "vi": "Lần tới đi mua sắm, mình sẽ mang túi riêng.", "grammarId": "g01" }
   ],
   "expand": [
     {
@@ -213,6 +231,25 @@
         { "askVi": "Vì sao?", "ask": "Why?", "add": "because it produces fewer emissions" }
       ],
       "full": "You should use public transport more often because it produces fewer emissions."
+    },
+    {
+      "id": "x05",
+      "base": "We recycle paper.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at school" },
+        { "askVi": "Bao lâu một lần?", "ask": "How often?", "add": "every month" },
+        { "askVi": "Để làm gì?", "ask": "What for?", "add": "to save trees" }
+      ],
+      "full": "We recycle paper at school every month to save trees."
+    },
+    {
+      "id": "x06",
+      "base": "Plastic is harmful.",
+      "steps": [
+        { "askVi": "Có hại cho ai?", "ask": "Harmful to what?", "add": "to sea animals" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it takes years to break down" }
+      ],
+      "full": "Plastic is harmful to sea animals because it takes years to break down."
     }
   ],
   "variations": [
@@ -222,7 +259,8 @@
       "questions": [
         "What does your family do to live a greener life?",
         "Which eco-friendly habits does your family have?",
-        "How does your family try to save energy and water?"
+        "How does your family try to save energy and water?",
+        "What green habits do the people in your home have?"
       ],
       "keywords": ["eco-friendly", "save energy", "turn off", "refillable"],
       "exampleAnswer": "We turn off appliances when we don't use them, and my mum takes her own bags to the market.",
@@ -234,7 +272,8 @@
       "questions": [
         "What are you going to do next month to reduce waste?",
         "What green plans do you have for the summer holiday?",
-        "What is your class going to do for the environment this term?"
+        "What is your class going to do for the environment this term?",
+        "What are you going to change in your daily life to help the environment?"
       ],
       "keywords": ["going to", "reduce", "litter", "plant trees"],
       "exampleAnswer": "Next month I'm going to stop buying bottled water, and my class is going to plant trees.",
@@ -246,7 +285,8 @@
       "questions": [
         "How do you think transport in Viet Nam will change in the future?",
         "Do you think electric motorbikes will become popular in our country? Why?",
-        "Will students still use plastic bottles in ten years? Why or why not?"
+        "Will students still use plastic bottles in ten years? Why or why not?",
+        "Do you think the air in our cities will be cleaner in the future? Why?"
       ],
       "keywords": ["will", "electric", "emissions", "because"],
       "exampleAnswer": "I think more people will ride electric motorbikes because they are cleaner and petrol is expensive.",
@@ -258,7 +298,8 @@
       "questions": [
         "How can a family reduce its carbon footprint?",
         "What simple changes can lower a person's carbon footprint?",
-        "Which daily habits can help people produce fewer emissions?"
+        "Which daily habits can help people produce fewer emissions?",
+        "What can you do every day to reduce your carbon footprint?"
       ],
       "keywords": ["carbon footprint", "public transport", "appliances", "emissions"],
       "exampleAnswer": "A family can use public transport, buy local food and unplug electrical appliances at night.",
@@ -270,10 +311,50 @@
       "questions": [
         "What is done at your school to keep it clean and green?",
         "Which green activities are organised at your school?",
-        "How is rubbish sorted at your school?"
+        "How is rubbish sorted at your school?",
+        "What green activities are done by students at your school?"
       ],
       "keywords": ["is cleaned", "are organised", "recycling bins", "litter"],
       "exampleAnswer": "The schoolyard is cleaned every day, and recycling bins are put in every classroom.",
+      "expectsReason": false
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Tác hại của túi ni lông và rác nhựa",
+      "questions": [
+        "Why are plastic bags harmful to the environment?",
+        "What problems does plastic waste cause?",
+        "Why should we use fewer plastic bags?",
+        "How does plastic rubbish pollute the sea?"
+      ],
+      "keywords": ["break down", "harmful", "pollute", "plastic bags"],
+      "exampleAnswer": "Plastic bags are harmful because they take hundreds of years to break down, and they pollute rivers and seas.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Lời khuyên sống xanh cho một người bạn",
+      "questions": [
+        "What advice would you give a friend who wants to live green?",
+        "How can a friend of yours start living a greener life?",
+        "What should a teenager do first to become more eco-friendly?",
+        "If your friend wanted to help the environment, what would you advise him to do?"
+      ],
+      "keywords": ["should", "advise", "recycle", "save energy"],
+      "exampleAnswer": "I would advise him to bring a refillable bottle and to turn off the lights when he leaves a room.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Tái chế và tái sử dụng ở nhà em",
+      "questions": [
+        "What things does your family recycle?",
+        "How are old things reused or recycled in your home?",
+        "What does your family do with old paper and plastic bottles?",
+        "Which things in your house can be recycled?"
+      ],
+      "keywords": ["recycle", "reuse", "plastic bottles", "paper"],
+      "exampleAnswer": "We recycle old newspapers and plastic bottles, and my grandmother reuses glass jars to store food.",
       "expectsReason": false
     }
   ],
@@ -387,6 +468,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["litter", "protect", "should", "because", "plastic"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Đăng ký vào câu lạc bộ Sống Xanh",
+      "contextVi": "Trường em vừa lập câu lạc bộ Sống Xanh. Em gặp trưởng câu lạc bộ để hỏi về các hoạt động và đăng ký tham gia.",
+      "aiRole": "Lan, the leader of the Go Green Club",
+      "studentRoleVi": "Học sinh muốn vào câu lạc bộ",
+      "goalVi": "Hỏi về hoạt động của câu lạc bộ, nói em sẽ làm gì để giúp và vì sao em muốn tham gia.",
+      "goal": "Ask about the club's activities, say what you are going to do to help, and explain why you want to join.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["clean up", "recycle", "awareness", "carbon footprint"] },
+        { "kind": "reason", "vi": "Nói vì sao em muốn tham gia (because...)", "words": [] }
+      ],
+      "opener": "Hi! I heard you're interested in our Go Green Club. What would you like to know?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "We have lots of activities. Which one interests you most?",
+        "Great! What are you going to do to help the club?",
+        "Why do you want to join us?"
+      ],
+      "tipsVi": ["Dùng \"Can you tell me about ..., please?\" để hỏi.", "Dùng \"I'm going to ...\" để nói kế hoạch của em."],
+      "keywords": ["Can you tell me about", "I'm going to", "clean up", "recycle"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Đề nghị căng tin bỏ túi ni lông",
+      "contextVi": "Căng tin trường đang đựng mọi món ăn trong túi ni lông. Em gặp cô quản lý căng tin để đề nghị thôi dùng túi ni lông.",
+      "aiRole": "Mrs Hoa, the school canteen manager",
+      "studentRoleVi": "Học sinh đại diện lớp",
+      "goalVi": "Thuyết phục cô quản lý thôi phát túi ni lông, có lý do và một cách thay thế khả thi.",
+      "goal": "Persuade Mrs Hoa to stop giving out plastic bags, with reasons and a practical alternative.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do túi ni lông có hại (because...)", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất cách thay thế (hộp riêng, túi giấy...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["harmful", "break down", "pollute", "eco-friendly"] }
+      ],
+      "opener": "Hello! What can I do for you today?",
+      "stance": "Plastic bags are cheap and convenient. Students will complain if we stop giving them out.",
+      "turns": 5,
+      "fallback": [
+        "Hmm, why do you think plastic bags are a problem?",
+        "But plastic bags are cheap and convenient. Students will complain, won't they?",
+        "So what should we use instead?",
+        "OK, I'll think about it. How can students help with this change?"
+      ],
+      "tipsVi": ["Đưa thông tin: \"Plastic bags take hundreds of years to break down.\"", "Phản biện lịch sự: \"I understand, but ...\""],
+      "keywords": ["plastic bags", "break down", "pollute", "instead", "because"]
     }
   ]
 }

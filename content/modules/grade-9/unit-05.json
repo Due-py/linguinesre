@@ -25,7 +25,18 @@
     { "id": "v17", "en": "learn by rote", "vi": "học vẹt", "ipa": "/lɜːn baɪ rəʊt/", "ipaFrom": "glossary", "pos": "v phr", "example": "If you learn by rote, you may forget everything after the test.", "collocations": [], "synonyms": ["memorise"], "antonyms": ["learn by doing"], "src": { "kind": "sgk", "page": 137 } },
     { "id": "v18", "en": "tribal dance", "vi": "điệu múa của bộ tộc", "ipa": "/ˈtraɪbl dɑːns/", "ipaFrom": "glossary", "pos": "n", "example": "The villagers taught us a tribal dance around the fire.", "collocations": ["join a tribal dance"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
     { "id": "v19", "en": "helpless", "vi": "bất lực, không tự xoay xở được", "ipa": "/ˈhelpləs/", "ipaFrom": "dictionary", "pos": "adj", "example": "I felt helpless when my bike broke on the way home.", "collocations": ["feel helpless"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 52 } },
-    { "id": "v20", "en": "put up", "vi": "dựng (lều)", "ipa": "/pʊt ˈʌp/", "ipaFrom": "dictionary", "pos": "phr v", "example": "It took us an hour to put up our tent.", "collocations": ["put up a tent"], "synonyms": [], "antonyms": ["take down"], "src": { "kind": "sgk", "page": 52 } }
+    { "id": "v20", "en": "put up", "vi": "dựng (lều)", "ipa": "/pʊt ˈʌp/", "ipaFrom": "dictionary", "pos": "phr v", "example": "It took us an hour to put up our tent.", "collocations": ["put up a tent"], "synonyms": [], "antonyms": ["take down"], "src": { "kind": "sgk", "page": 52 } },
+    { "id": "v21", "en": "seabed", "vi": "đáy biển", "ipa": "/ˈsiːbed/", "ipaFrom": "glossary", "pos": "n", "example": "We saw colourful fish on the seabed when we went snorkelling.", "collocations": ["explore the seabed"], "synonyms": ["ocean floor"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v22", "en": "theme", "vi": "chủ đề", "ipa": "/θiːm/", "ipaFrom": "glossary", "pos": "n", "example": "The theme of this year's summer camp was \"Living green\".", "collocations": ["main theme", "theme park"], "synonyms": ["topic"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v23", "en": "lack", "vi": "thiếu", "ipa": "/læk/", "ipaFrom": "glossary", "pos": "v", "example": "At first I lacked confidence, but the course helped me a lot.", "collocations": ["lack confidence", "lack experience"], "synonyms": [], "antonyms": ["have"], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v24", "en": "army-like", "vi": "như trong quân đội", "ipa": "/ˈɑːmi laɪk/", "ipaFrom": "glossary", "pos": "adj", "example": "The camp had an army-like schedule: we got up at five every morning.", "collocations": ["army-like schedule", "army-like training"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v25", "en": "flora", "vi": "hệ thực vật (của một vùng)", "ipa": "/ˈflɔːrə/", "ipaFrom": "glossary", "pos": "n", "example": "The guide told us about the rich flora of the national park.", "collocations": ["flora and fauna", "rich flora"], "synonyms": ["plant life"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v26", "en": "enjoyable", "vi": "thú vị, vui", "ipa": "/ɪnˈdʒɔɪəbl/", "ipaFrom": "dictionary", "pos": "adj", "example": "The boat trip was really enjoyable.", "collocations": ["an enjoyable trip", "really enjoyable"], "synonyms": ["fun"], "antonyms": ["boring"], "src": { "kind": "sgk", "page": 50 } },
+    { "id": "v27", "en": "scenery", "vi": "phong cảnh", "ipa": "/ˈsiːnəri/", "ipaFrom": "dictionary", "pos": "n", "example": "We took lots of photos of the beautiful scenery from the mountain top.", "collocations": ["beautiful scenery", "admire the scenery"], "synonyms": ["landscape"], "antonyms": [], "src": { "kind": "sgk", "page": 50 } },
+    { "id": "v28", "en": "species", "vi": "loài", "ipa": "/ˈspiːʃiːz/", "ipaFrom": "dictionary", "pos": "n", "example": "The forest is home to more than a hundred species of birds.", "collocations": ["animal species", "plant species"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 50 } },
+    { "id": "v29", "en": "excursion", "vi": "chuyến tham quan ngắn", "ipa": "/ɪkˈskɜːʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "Our class went on an excursion to a science museum.", "collocations": ["go on an excursion", "take an excursion"], "synonyms": ["trip"], "antonyms": [], "src": { "kind": "sgk", "page": 52 } },
+    { "id": "v30", "en": "embarrassed", "vi": "xấu hổ, ngượng", "ipa": "/ɪmˈbærəst/", "ipaFrom": "dictionary", "pos": "adj", "example": "I felt embarrassed when I called my teacher \"Mum\" in class.", "collocations": ["feel embarrassed"], "synonyms": ["ashamed"], "antonyms": ["proud"], "src": { "kind": "sgk", "page": 52 } },
+    { "id": "v31", "en": "tent", "vi": "lều", "ipa": "/tent/", "ipaFrom": "dictionary", "pos": "n", "example": "It took us an hour to put up the tent in the wind.", "collocations": ["put up a tent", "sleep in a tent"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 52 } }
   ],
   "grammar": [
     {
@@ -111,6 +122,19 @@
       "sentence": "Have you ever been snorkelling?",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "sentence_stress",
+      "focus": "Nhấn tính từ chỉ cảm xúc khi kể trải nghiệm",
+      "tipVi": "Khi kể trải nghiệm, ta nhấn mạnh tính từ chỉ cảm xúc (thrilling, amazing, embarrassing) và các từ như really, never, ever để người nghe thấy cảm xúc của mình. Đại từ và trợ động từ (I, it, was, have) đọc nhẹ.",
+      "words": ["thrilling", "amazing", "embarrassing", "memorable", "really", "never"],
+      "sentence": "It was the most thrilling ride I've ever had!",
+      "quiz": [
+        { "prompt": "Which word is stressed most strongly in \"It was really embarrassing!\"?", "options": ["embarrassing", "was", "It"], "answer": 0, "explainVi": "Tính từ chỉ cảm xúc embarrassing được nhấn mạnh nhất; It và was đọc nhẹ." },
+        { "prompt": "Which word is usually NOT stressed in \"I've never tried it before.\"?", "options": ["it", "never", "tried"], "answer": 0, "explainVi": "it là đại từ nên đọc nhẹ; never và tried được nhấn." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -123,7 +147,13 @@
     { "id": "e07", "en": "I felt ... when ...", "vi": "Mình cảm thấy ... khi ...", "useVi": "Khi kể cảm xúc trong một trải nghiệm.", "example": "I felt so embarrassed when I fell off the stage.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "I've never ... before.", "vi": "Trước đây mình chưa bao giờ ...", "useVi": "Khi nói việc mình làm lần đầu.", "example": "I've never tried rock climbing before.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "You should give it a try.", "vi": "Bạn nên thử một lần.", "useVi": "Khi khuyến khích ai thử điều mới.", "example": "Snorkelling is easy. You should give it a try.", "src": { "kind": "team", "page": null } },
-    { "id": "e10", "en": "I know how you feel, but ...", "vi": "Mình hiểu cảm giác của bạn, nhưng ...", "useVi": "Khi đồng cảm rồi nêu ý khác hoặc động viên.", "example": "I know how you feel, but the instructor will help you.", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "I know how you feel, but ...", "vi": "Mình hiểu cảm giác của bạn, nhưng ...", "useVi": "Khi đồng cảm rồi nêu ý khác hoặc động viên.", "example": "I know how you feel, but the instructor will help you.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "I apologise for + V-ing ...", "vi": "Tôi xin lỗi vì đã ...", "useVi": "Khi xin lỗi một cách trang trọng, ví dụ với thầy cô hoặc người lớn.", "example": "I apologise for coming to class late this morning.", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "Never mind.", "vi": "Không sao đâu.", "useVi": "Khi đáp lại lời xin lỗi, cho thấy mình không giận.", "example": "Never mind. Accidents happen.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "It won't happen again.", "vi": "Sẽ không có lần sau đâu.", "useVi": "Khi hứa không lặp lại lỗi sau lời xin lỗi.", "example": "I'm really sorry. It won't happen again.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "How did you feel when ...?", "vi": "Bạn cảm thấy thế nào khi ...?", "useVi": "Khi hỏi cảm xúc của bạn trong một trải nghiệm.", "example": "How did you feel when you went on stage?", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "I'll never forget the time when ...", "vi": "Mình sẽ không bao giờ quên lần ...", "useVi": "Khi bắt đầu kể một trải nghiệm đáng nhớ.", "example": "I'll never forget the time when I saw the sea for the first time.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "That must have been ...!", "vi": "Chắc hẳn là ... lắm!", "useVi": "Khi phản hồi với cảm xúc lúc nghe bạn kể chuyện.", "example": "You rode a jeep up the mountain? That must have been exciting!", "src": { "kind": "sgk", "page": 50 } }
   ],
   "build": [
     { "id": "b01", "chunks": ["I have", "never tried", "snorkelling", "before"], "vi": "Trước đây mình chưa bao giờ thử lặn với ống thở.", "grammarId": "g01" },
@@ -133,7 +163,9 @@
     { "id": "b05", "chunks": ["The summer course", "helped me", "gain more", "confidence"], "vi": "Khóa học hè giúp mình tự tin hơn.", "grammarId": null },
     { "id": "b06", "chunks": ["It was", "the most memorable", "trip", "I have ever had"], "vi": "Đó là chuyến đi đáng nhớ nhất mình từng có.", "grammarId": "g01" },
     { "id": "b07", "chunks": ["I felt", "embarrassed", "when I forgot", "my lines"], "vi": "Mình thấy ngượng khi quên lời thoại.", "grammarId": null },
-    { "id": "b08", "chunks": ["We explored", "a coral reef", "with our", "instructor"], "vi": "Chúng mình đã khám phá một rặng san hô cùng người hướng dẫn.", "grammarId": "g02" }
+    { "id": "b08", "chunks": ["We explored", "a coral reef", "with our", "instructor"], "vi": "Chúng mình đã khám phá một rặng san hô cùng người hướng dẫn.", "grammarId": "g02" },
+    { "id": "b09", "chunks": ["My brother has visited", "Da Lat", "three times", "since last year"], "vi": "Anh mình đã đến Đà Lạt ba lần kể từ năm ngoái.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["We went snorkelling", "last summer", "but I haven't done it", "since then"], "vi": "Chúng mình đi lặn ống thở hè năm ngoái, nhưng từ đó đến giờ mình chưa lặn lại.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -172,6 +204,26 @@
         { "askVi": "Vì sao có ích?", "ask": "Why?", "add": "because I made friends from many countries" }
       ],
       "full": "The summer English course was useful because I made friends from many countries."
+    },
+    {
+      "id": "x05",
+      "base": "I have climbed a mountain.",
+      "steps": [
+        { "askVi": "Núi nào?", "ask": "Which mountain?", "add": "Langbiang Mountain" },
+        { "askVi": "Mấy lần?", "ask": "How many times?", "add": "twice" },
+        { "askVi": "Với ai?", "ask": "Who with?", "add": "with my family" }
+      ],
+      "full": "I have climbed Langbiang Mountain twice with my family."
+    },
+    {
+      "id": "x06",
+      "base": "We put up a tent.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "by the lake" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last weekend" },
+        { "askVi": "Chuyện gì xảy ra?", "ask": "What happened?", "add": "but it fell down in the rain" }
+      ],
+      "full": "We put up a tent by the lake last weekend, but it fell down in the rain."
     }
   ],
   "variations": [
@@ -234,6 +286,45 @@
       "keywords": ["eco-tour", "explore", "nature", "wildlife"],
       "exampleAnswer": "On an eco-tour, students can explore forests, learn about wildlife and help clean the beach.",
       "expectsReason": false
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Một lần em thấy xấu hổ",
+      "questions": [
+        "Tell me about an embarrassing moment you have had.",
+        "When did you last feel embarrassed? What happened?",
+        "Have you ever made a funny mistake in public? What was it?",
+        "Describe a time when your face went red."
+      ],
+      "keywords": ["embarrassed", "embarrassing", "mistake", "felt"],
+      "exampleAnswer": "Last month I waved at a boy I thought was my friend, but he was a stranger. I felt so embarrassed.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Những nơi em đã từng đến",
+      "questions": [
+        "Which places in Viet Nam have you been to?",
+        "Have you ever been to a big city or a famous beach? Tell me about it.",
+        "What is the farthest place you have travelled to?",
+        "Which interesting places have you visited with your family?"
+      ],
+      "keywords": ["have been to", "have visited", "never", "last"],
+      "exampleAnswer": "I have been to Ha Noi, Hue and Nha Trang. I went to Nha Trang last summer, and I have never seen such clear water.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Học qua trải nghiệm hay học thuộc lòng",
+      "questions": [
+        "Is it better to learn by doing or to learn by rote? Why?",
+        "Do you remember things better from trips or from textbooks? Why?",
+        "Should schools give students more hands-on experiences? Why?",
+        "What have you learnt from an activity outside the classroom?"
+      ],
+      "keywords": ["learn by rote", "experience", "remember", "because"],
+      "exampleAnswer": "I think learning by doing is better because I remember things longer. On our excursion to the farm, I learnt more than from any textbook.",
+      "expectsReason": true
     }
   ],
   "independent": [
@@ -346,6 +437,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["experience", "memorable", "because", "I have", "together"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Làm quen với bạn mới: Have you ever...?",
+      "contextVi": "Jack, một bạn học sinh trao đổi từ Mỹ, vừa vào lớp em. Giờ ra chơi, hai bạn chơi trò hỏi nhau \"Have you ever...?\" để làm quen.",
+      "aiRole": "Jack, an exchange student from the USA who loves adventures",
+      "studentRoleVi": "Học sinh làm quen với bạn mới",
+      "goalVi": "Hỏi và trả lời ít nhất ba câu Have you ever...?, rồi hỏi thêm chi tiết (khi nào, cảm thấy thế nào) bằng quá khứ đơn.",
+      "goal": "Ask and answer at least three Have you ever...? questions, then ask for details (when, how you felt) with the past simple.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng thì hiện tại hoàn thành và quá khứ đơn", "words": ["Have you ever", "I have", "I've never", "When did you"] },
+        { "kind": "example", "vi": "Kể chi tiết một trải nghiệm thật của em", "words": [] }
+      ],
+      "opener": "Hi! Let's play a game. I ask you a question, then you ask me. Have you ever eaten something really strange?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Cool! My turn to answer. Ask me anything with \"Have you ever...?\"",
+        "Yes, I have! I went skiing in Colorado two years ago. Have you ever seen snow?",
+        "That's interesting. How did you feel at that time?"
+      ],
+      "tipsVi": ["Trả lời \"Yes, I have.\" rồi kể thêm bằng quá khứ đơn: \"I went... last year.\"", "Hỏi lại: \"Have you ever...?\", \"When did you...?\""],
+      "keywords": ["Have you ever", "I've never", "last year", "felt", "experience"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Làm hỏng máy ảnh mượn của bạn",
+      "contextVi": "Tuần trước em mượn máy ảnh của Mai để đi dã ngoại. Trên đường về, em làm rơi máy và màn hình bị nứt. Hôm nay em gặp Mai để trả máy.",
+      "aiRole": "Mai, a close friend who lent you her camera",
+      "studentRoleVi": "Học sinh đã làm hỏng máy ảnh của bạn",
+      "goalVi": "Xin lỗi Mai, kể lại chuyện đã xảy ra, đề nghị cách sửa lỗi và hứa sẽ cẩn thận hơn.",
+      "goal": "Apologise to Mai, explain what happened, offer a way to fix the problem and promise to be more careful.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng một cách xin lỗi của bài", "words": ["I'm really sorry", "I apologise for", "It won't happen again", "Oops, my mistake"] },
+        { "kind": "suggestion", "vi": "Đề nghị một cách sửa lỗi (mang đi sửa, trả tiền sửa)", "words": [] }
+      ],
+      "opener": "Hi! Did you enjoy the picnic? Did you take lots of nice photos with my camera?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Oh no! What happened?",
+        "Hmm, I need it for my photo club next week. What can we do?",
+        "OK, that's fine. Thanks for telling me the truth."
+      ],
+      "tipsVi": ["Xin lỗi trước: \"I'm really sorry. I dropped your camera...\"", "Đề nghị: \"I'll take it to the repair shop and pay for it.\""],
+      "keywords": ["sorry", "dropped", "repair", "It won't happen again", "camera"]
     }
   ]
 }

@@ -26,7 +26,17 @@
     { "id": "v18", "en": "vast", "vi": "rộng lớn, mênh mông, bao la", "ipa": "/vɑːst/", "ipaFrom": "glossary", "pos": "adj", "example": "From the hill, we could see vast green fields.", "collocations": ["vast fields", "a vast area"], "synonyms": ["huge"], "antonyms": ["tiny"], "src": { "kind": "sgk", "page": 136 } },
     { "id": "v19", "en": "well-trained", "vi": "lành nghề, có tay nghề", "ipa": "/ˌwel ˈtreɪnd/", "ipaFrom": "glossary", "pos": "adj", "example": "The farm needs some well-trained workers.", "collocations": ["well-trained workers"], "synonyms": ["skilled"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
     { "id": "v20", "en": "speciality", "vi": "đặc sản", "ipa": "/ˌspeʃiˈæləti/", "ipaFrom": "glossary", "pos": "n", "example": "Lychees are a speciality of Bac Giang.", "collocations": ["a local speciality"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
-    { "id": "v21", "en": "fly a kite", "vi": "thả diều", "ipa": "/flaɪ ə kaɪt/", "ipaFrom": "dictionary", "pos": "phr", "example": "In the summer, village children fly kites in the fields.", "collocations": ["fly kites in the fields"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 18 } }
+    { "id": "v21", "en": "fly a kite", "vi": "thả diều", "ipa": "/flaɪ ə kaɪt/", "ipaFrom": "dictionary", "pos": "phr", "example": "In the summer, village children fly kites in the fields.", "collocations": ["fly kites in the fields"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 18 } },
+    { "id": "v22", "en": "villager", "vi": "dân làng", "ipa": "/ˈvɪlɪdʒə/", "ipaFrom": "dictionary", "pos": "n", "example": "The villagers in my grandma's village often help each other at harvest time.", "collocations": ["friendly villagers", "local villagers"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 18 } },
+    { "id": "v23", "en": "buffalo", "vi": "con trâu", "ipa": "/ˈbʌfələʊ/", "ipaFrom": "dictionary", "pos": "n", "example": "After school, the children ride the buffaloes back from the fields.", "collocations": ["herd the buffaloes", "ride a buffalo"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 18 } },
+    { "id": "v24", "en": "poultry", "vi": "gia cầm", "ipa": "/ˈpəʊltri/", "ipaFrom": "dictionary", "pos": "n", "example": "My uncle raises poultry, such as chickens and ducks.", "collocations": ["raise poultry", "a poultry farm"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 20 } },
+    { "id": "v25", "en": "scenery", "vi": "phong cảnh", "ipa": "/ˈsiːnəri/", "ipaFrom": "dictionary", "pos": "n", "example": "Tourists love the green scenery of the rice fields in the summer.", "collocations": ["beautiful scenery", "picturesque scenery"], "synonyms": ["view"], "antonyms": [], "src": { "kind": "sgk", "page": 20 } },
+    { "id": "v26", "en": "surrounded", "vi": "được bao quanh", "ipa": "/səˈraʊndɪd/", "ipaFrom": "dictionary", "pos": "adj", "example": "My grandparents' house is surrounded by fruit trees.", "collocations": ["surrounded by"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 20 } },
+    { "id": "v27", "en": "hard-working", "vi": "chăm chỉ", "ipa": "/ˌhɑːd ˈwɜːkɪŋ/", "ipaFrom": "dictionary", "pos": "adj", "example": "The farmers here are hard-working; they work from early morning until sunset.", "collocations": ["hard-working farmers"], "synonyms": ["diligent"], "antonyms": ["lazy"], "src": { "kind": "sgk", "page": 20 } },
+    { "id": "v28", "en": "peaceful", "vi": "yên bình", "ipa": "/ˈpiːsfl/", "ipaFrom": "dictionary", "pos": "adj", "example": "Life in my hometown is slow and peaceful.", "collocations": ["a peaceful village", "peaceful life"], "synonyms": ["quiet"], "antonyms": ["noisy"], "src": { "kind": "sgk", "page": 24 } },
+    { "id": "v29", "en": "canal", "vi": "kênh, mương dẫn nước", "ipa": "/kəˈnæl/", "ipaFrom": "dictionary", "pos": "n", "example": "Farmers use the canals to bring water to their rice fields.", "collocations": ["a small canal", "dig a canal"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 24 } },
+    { "id": "v30", "en": "stretch", "vi": "kéo dài ra", "ipa": "/stretʃ/", "ipaFrom": "glossary", "pos": "v", "example": "The green rice fields stretch as far as I can see.", "collocations": ["stretch for miles", "stretch long distances"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v31", "en": "rural", "vi": "thuộc về nông thôn", "ipa": "/ˈrʊərəl/", "ipaFrom": "dictionary", "pos": "adj", "example": "Rural roads are often narrow, but they are very quiet.", "collocations": ["rural life", "rural areas"], "synonyms": [], "antonyms": ["urban"], "src": { "kind": "sgk", "page": 25 } }
   ],
   "grammar": [
     {
@@ -124,6 +134,18 @@
       "sentence": "What a picturesque village you live in!",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p05",
+      "kind": "sentence_stress",
+      "focus": "Đọc nhẹ \"than\" trong câu so sánh",
+      "tipVi": "Trong câu so sánh, nhấn vào trạng từ so sánh (earlier, faster, more slowly) và từ được so sánh. Từ \"than\" đọc nhẹ, nhanh là /ðən/, không đọc rõ /ðæn/.",
+      "words": ["earlier", "faster", "harder", "more slowly", "than"],
+      "sentence": "My uncle drives more slowly than my dad.",
+      "quiz": [
+        { "prompt": "In \"She runs faster than me\", which word is usually NOT stressed?", "options": ["than", "runs", "faster"], "answer": 0, "explainVi": "than là từ chức năng nên đọc nhẹ /ðən/; runs và faster mang nghĩa chính nên được nhấn." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -134,7 +156,15 @@
     { "id": "e05", "en": "What I like most about ... is ...", "vi": "Điều mình thích nhất ở ... là ...", "useVi": "Khi nói điều mình thích nhất ở một nơi.", "example": "What I like most about my village is the fresh air.", "src": { "kind": "team", "page": null } },
     { "id": "e06", "en": "Compared with the city, ...", "vi": "So với thành phố, ...", "useVi": "Khi so sánh nông thôn với thành phố.", "example": "Compared with the city, people here get up earlier.", "src": { "kind": "team", "page": null } },
     { "id": "e07", "en": "On the other hand, ...", "vi": "Mặt khác, ...", "useVi": "Khi nêu một mặt ngược lại của vấn đề.", "example": "On the other hand, there aren't many shops in the village.", "src": { "kind": "team", "page": null } },
-    { "id": "e08", "en": "It was a great experience.", "vi": "Đó là một trải nghiệm tuyệt vời.", "useVi": "Khi kể lại một chuyến đi đáng nhớ.", "example": "I helped my uncle catch fish. It was a great experience.", "src": { "kind": "team", "page": null } }
+    { "id": "e08", "en": "It was a great experience.", "vi": "Đó là một trải nghiệm tuyệt vời.", "useVi": "Khi kể lại một chuyến đi đáng nhớ.", "example": "I helped my uncle catch fish. It was a great experience.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "It's very kind of you to say so.", "vi": "Bạn nói vậy thật tốt quá.", "useVi": "Khi đáp lại lời khen một cách lịch sự.", "example": "Thank you. It's very kind of you to say so.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "It really suits you.", "vi": "Cái đó rất hợp với bạn.", "useVi": "Khi khen quần áo, màu sắc hay đồ dùng của ai đó.", "example": "I like your new shirt. It really suits you.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "Things move more slowly in ... than in ...", "vi": "Mọi thứ ở ... diễn ra chậm hơn ở ...", "useVi": "Khi so sánh nhịp sống ở hai nơi.", "example": "Things move more slowly in my village than in Ha Noi.", "src": { "kind": "sgk", "page": 18 } },
+    { "id": "e12", "en": "Oh, I envy you!", "vi": "Ôi, mình ghen tị với bạn quá!", "useVi": "Khi nghe bạn kể một trải nghiệm vui mà mình cũng muốn có.", "example": "You flew kites in the paddy fields? Oh, I envy you!", "src": { "kind": "sgk", "page": 18 } },
+    { "id": "e13", "en": "Sounds great!", "vi": "Nghe hay quá!", "useVi": "Khi tỏ ra thích thú với điều người khác vừa kể.", "example": "You helped your uncle feed the pigs? Sounds great!", "src": { "kind": "sgk", "page": 18 } },
+    { "id": "e14", "en": "There are some things I like about ...", "vi": "Có vài điều mình thích ở ...", "useVi": "Khi bắt đầu nói về những điểm mình thích ở một nơi.", "example": "There are some things I like about my grandparents' village.", "src": { "kind": "sgk", "page": 25 } },
+    { "id": "e15", "en": "The thing I don't like is ...", "vi": "Điều mình không thích là ...", "useVi": "Khi nêu điểm chưa tốt của một nơi hay một việc.", "example": "The thing I don't like is the poor means of transport.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "I'd love to visit it again.", "vi": "Mình rất muốn quay lại đó lần nữa.", "useVi": "Khi kết thúc câu chuyện về một chuyến đi mình thích.", "example": "The people were so hospitable. I'd love to visit it again.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["People in my village", "get up", "earlier", "than city people"], "vi": "Người ở làng mình dậy sớm hơn người thành phố.", "grammarId": "g01" },
@@ -144,7 +174,9 @@
     { "id": "b05", "chunks": ["We helped", "the farmers", "load the rice", "onto a truck"], "vi": "Chúng mình giúp nông dân chất lúa lên xe tải.", "grammarId": null },
     { "id": "b06", "chunks": ["The villagers", "are very hospitable", "to visitors", "from the city"], "vi": "Dân làng rất hiếu khách với du khách từ thành phố.", "grammarId": null },
     { "id": "b07", "chunks": ["My uncle", "works harder", "at harvest time", "than in other months"], "vi": "Chú mình làm việc vất vả hơn vào mùa gặt so với các tháng khác.", "grammarId": "g01" },
-    { "id": "b08", "chunks": ["What a picturesque", "village", "your grandparents", "live in!"], "vi": "Ông bà bạn sống ở một ngôi làng đẹp như tranh!", "grammarId": null }
+    { "id": "b08", "chunks": ["What a picturesque", "village", "your grandparents", "live in!"], "vi": "Ông bà bạn sống ở một ngôi làng đẹp như tranh!", "grammarId": null },
+    { "id": "b09", "chunks": ["Villagers", "often", "live more simply", "than city people"], "vi": "Dân làng thường sống giản dị hơn người thành phố.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["Buses in my village", "come", "less often", "than buses in town"], "vi": "Xe buýt ở làng mình đến thưa hơn xe buýt ở thị trấn.", "grammarId": "g01" }
   ],
   "expand": [
     {
@@ -184,6 +216,24 @@
         { "askVi": "Vì sao?", "ask": "Why?", "add": "so that they can keep it for a long time" }
       ],
       "full": "People dry the rice in front of their houses so that they can keep it for a long time."
+    },
+    {
+      "id": "x05",
+      "base": "My grandparents grow vegetables.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in a small garden behind their house" },
+        { "askVi": "Họ trồng thế nào?", "ask": "How do they grow them?", "add": "and they never use chemicals" }
+      ],
+      "full": "My grandparents grow vegetables in a small garden behind their house, and they never use chemicals."
+    },
+    {
+      "id": "x06",
+      "base": "The village is peaceful.",
+      "steps": [
+        { "askVi": "Lúc nào yên bình nhất?", "ask": "When is it most peaceful?", "add": "especially in the evening" },
+        { "askVi": "Lúc đó có gì?", "ask": "What happens then?", "add": "when the children play folk games" }
+      ],
+      "full": "The village is peaceful, especially in the evening when the children play folk games."
     }
   ],
   "variations": [
@@ -193,7 +243,8 @@
       "questions": [
         "What jobs do farmers do every day?",
         "What kind of work do people in a village usually do?",
-        "How do farmers spend a normal day?"
+        "How do farmers spend a normal day?",
+        "What does a farmer's day look like from morning to evening?"
       ],
       "keywords": ["plough", "feed", "herd", "milk"],
       "exampleAnswer": "Farmers get up early to feed their animals. Then they work in the paddy fields until the afternoon.",
@@ -205,7 +256,8 @@
       "questions": [
         "How do people in villages live differently from people in cities?",
         "Do people in the countryside go to bed earlier than city people? Why?",
-        "Why do villagers often get up earlier than people in town?"
+        "Why do villagers often get up earlier than people in town?",
+        "In what ways is village life different from city life?"
       ],
       "keywords": ["earlier", "more slowly", "than", "because"],
       "exampleAnswer": "Villagers usually get up earlier than city people because they have to feed their animals and work in the fields.",
@@ -217,7 +269,8 @@
       "questions": [
         "What did you do on your last trip to a village?",
         "Tell me about a day you spent in the countryside.",
-        "What was the most interesting thing you did on a visit to a village?"
+        "What was the most interesting thing you did on a visit to a village?",
+        "Describe the most memorable day you spent in a village."
       ],
       "keywords": ["harvest", "fly kites", "catch fish", "orchard"],
       "exampleAnswer": "Last summer I stayed at my aunt's house. I helped her pick lychees in the orchard and caught fish in the pond.",
@@ -229,7 +282,8 @@
       "questions": [
         "How would you praise your friend's new kite?",
         "What can you say to compliment a beautiful garden?",
-        "What do you say when you like your friend's new bike?"
+        "What do you say when you like your friend's new bike?",
+        "How would you compliment a friend on their new school bag?"
       ],
       "keywords": ["What a", "You really have", "nice", "beautiful"],
       "exampleAnswer": "I would say: What a beautiful kite you have! The colours are really nice.",
@@ -241,11 +295,51 @@
       "questions": [
         "Why do many farmers now use combine harvesters?",
         "How do machines make farm work easier during the harvest?",
-        "What are the good points of using machines on farms?"
+        "What are the good points of using machines on farms?",
+        "In what ways have machines changed rice farming?"
       ],
       "keywords": ["combine harvester", "faster", "harvest", "save time"],
       "exampleAnswer": "Machines help farmers harvest rice faster, so they save time and don't get so tired.",
       "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Điều em thích và không thích ở cuộc sống làng quê",
+      "questions": [
+        "What do you like most about life in a village?",
+        "What would you find difficult about living in a village?",
+        "Which part of rural life do you enjoy, and which part don't you like?",
+        "What are the good and bad points of living far from a city?"
+      ],
+      "keywords": ["peaceful", "scenery", "means of transport", "entertainment"],
+      "exampleAnswer": "I like the peaceful scenery and the friendly villagers, but I don't like the poor means of transport there.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Trò chơi và hoạt động của trẻ em ở làng",
+      "questions": [
+        "What games do village children play after school?",
+        "How do children in a village have fun without many shops or cinemas?",
+        "Which traditional games have you played with your cousins?",
+        "What outdoor activities do children in villages enjoy?"
+      ],
+      "keywords": ["fly kites", "bamboo dancing", "herd", "traditional games"],
+      "exampleAnswer": "They fly kites in the paddy fields, play bamboo dancing and sometimes herd the buffaloes with their parents.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Mô tả một ngôi làng hoặc thị trấn nhỏ em biết",
+      "questions": [
+        "Can you describe a village or a small town that you know well?",
+        "What does the scenery look like in your hometown?",
+        "What are the people like in the place where your relatives live?",
+        "What special features does your hometown have?"
+      ],
+      "keywords": ["surrounded by", "picturesque", "hospitable", "vast"],
+      "exampleAnswer": "My hometown is a small village surrounded by vast rice fields, and the people there are very hospitable.",
+      "expectsReason": false
     }
   ],
   "independent": [
@@ -357,6 +451,55 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["paddy field", "harvest", "more slowly", "because"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Khen khu vườn của bà hàng xóm",
+      "contextVi": "Em về quê chơi. Bà Lan, hàng xóm của ông bà em, mời em sang thăm khu vườn và vườn cây ăn quả của bà.",
+      "aiRole": "Mrs Lan, your grandparents' neighbour in the village",
+      "studentRoleVi": "Cháu của ông bà, sang thăm vườn nhà bà Lan",
+      "goalVi": "Khen khu vườn ít nhất hai lần, nói vì sao em thích và hỏi bà về cây trong vườn.",
+      "goal": "Give Mrs Lan at least two compliments about her garden, say why you like it and ask about her plants.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng câu khen hoặc từ của bài", "words": ["What a", "beautiful", "picturesque", "orchard", "really have a nice"] },
+        { "kind": "reason", "vi": "Nói vì sao em thích (because...)", "words": [] }
+      ],
+      "opener": "Hello, dear! Welcome to my garden. Come in and have a look around.",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Thank you! I planted most of these trees myself. Which one do you like best?",
+        "Oh, why do you like it?",
+        "I'm glad you like it. Would you like to take some fruit home?"
+      ],
+      "tipsVi": ["Khen bằng \"What a beautiful ... you have!\" hoặc \"You really have a nice ...\"", "Cảm ơn khi được mời: \"Thank you, that's very kind of you.\""],
+      "keywords": ["What a", "orchard", "beautiful", "because", "Thank you"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Lên kế hoạch cho chuyến đi Đường Lâm",
+      "contextVi": "Lớp em sắp có chuyến đi một ngày đến làng cổ Đường Lâm. Bạn lớp trưởng hỏi ý kiến em nên cho cả lớp làm những hoạt động gì ở đó.",
+      "aiRole": "Khoa, the class monitor who is planning the class trip",
+      "studentRoleVi": "Thành viên lớp, góp ý hoạt động cho chuyến đi",
+      "goalVi": "Đề xuất ít nhất hai hoạt động cho chuyến đi, nêu lý do cho mỗi hoạt động.",
+      "goal": "Suggest at least two activities for the class day trip to Duong Lam village and give a reason for each.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất hoạt động (We could..., Why don't we...?)", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do (because...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["fly kites", "harvest", "picturesque", "villagers", "traditional games"] }
+      ],
+      "opener": "Our class is going on a day trip to Duong Lam village next month. What do you think we can do there?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Good idea. Why do you think everyone will enjoy it?",
+        "What else can we do in the afternoon?",
+        "Great. I'll add your ideas to our plan."
+      ],
+      "tipsVi": ["Đề xuất bằng \"We could...\" hoặc \"Why don't we...?\"", "Mỗi đề xuất thêm một lý do với \"because\"."],
+      "keywords": ["Why don't we", "fly kites", "villagers", "because", "picturesque"]
     }
   ]
 }

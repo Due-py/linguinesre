@@ -25,7 +25,17 @@
     { "id": "v17", "en": "wooden", "vi": "bằng gỗ", "ipa": "/ˈwʊdn/", "ipaFrom": "glossary", "pos": "adj", "example": "There is a wooden statue in front of the communal house.", "collocations": ["a wooden statue", "a wooden floor"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
     { "id": "v18", "en": "statue", "vi": "tượng", "ipa": "/ˈstætʃuː/", "ipaFrom": "glossary", "pos": "n", "example": "We saw a tall wooden statue in the museum garden.", "collocations": ["a wooden statue", "carve a statue"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
     { "id": "v19", "en": "staircase", "vi": "cầu thang bộ", "ipa": "/ˈsteəkeɪs/", "ipaFrom": "glossary", "pos": "n", "example": "We climbed the wooden staircase to go into the stilt house.", "collocations": ["climb the staircase"], "synonyms": ["stairs"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
-    { "id": "v20", "en": "soil", "vi": "đất trồng", "ipa": "/sɔɪl/", "ipaFrom": "glossary", "pos": "n", "example": "The soil in this valley is good for growing corn.", "collocations": ["rich soil", "enrich the soil"], "synonyms": ["earth"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } }
+    { "id": "v20", "en": "soil", "vi": "đất trồng", "ipa": "/sɔɪl/", "ipaFrom": "glossary", "pos": "n", "example": "The soil in this valley is good for growing corn.", "collocations": ["rich soil", "enrich the soil"], "synonyms": ["earth"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v21", "en": "crop", "vi": "vụ mùa, cây trồng", "ipa": "/krɒp/", "ipaFrom": "glossary", "pos": "n", "example": "The Hmong grow corn and rice as their main crops.", "collocations": ["grow crops", "main crop"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v22", "en": "harvest", "vi": "vụ mùa, vụ thu hoạch", "ipa": "/ˈhɑːvɪst/", "ipaFrom": "glossary", "pos": "n", "example": "The whole village helps each other during the rice harvest.", "collocations": ["rice harvest", "harvest time"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v23", "en": "culture", "vi": "văn hóa", "ipa": "/ˈkʌltʃə/", "ipaFrom": "dictionary", "pos": "n", "example": "Each ethnic group has its own culture and language.", "collocations": ["traditional culture", "learn about a culture"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 40 } },
+    { "id": "v24", "en": "musical instrument", "vi": "nhạc cụ", "ipa": "/ˌmjuːzɪkl ˈɪnstrəmənt/", "ipaFrom": "dictionary", "pos": "n", "example": "The dan tinh is a musical instrument of the Tay people.", "collocations": ["play a musical instrument", "traditional musical instrument"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 41 } },
+    { "id": "v25", "en": "sticky rice", "vi": "xôi, gạo nếp", "ipa": "/ˌstɪki ˈraɪs/", "ipaFrom": "dictionary", "pos": "n", "example": "My grandma cooks five-colour sticky rice for the village festival.", "collocations": ["five-colour sticky rice", "cook sticky rice"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 40 } },
+    { "id": "v26", "en": "lowland", "vi": "vùng đất thấp, vùng đồng bằng", "ipa": "/ˈləʊlənd/", "ipaFrom": "dictionary", "pos": "n", "example": "People in the lowlands often grow rice near big rivers.", "collocations": ["in the lowlands"], "synonyms": [], "antonyms": ["highland"], "src": { "kind": "sgk", "page": 42 } },
+    { "id": "v27", "en": "unique", "vi": "độc đáo, riêng biệt", "ipa": "/juˈniːk/", "ipaFrom": "dictionary", "pos": "adj", "example": "The Bahnar communal house has a unique shape with a very tall roof.", "collocations": ["unique features", "unique culture"], "synonyms": ["special"], "antonyms": ["common"], "src": { "kind": "sgk", "page": 42 } },
+    { "id": "v28", "en": "community", "vi": "cộng đồng", "ipa": "/kəˈmjuːnəti/", "ipaFrom": "dictionary", "pos": "n", "example": "The communal house is the centre of community life in the village.", "collocations": ["community activities", "local community"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 42 } },
+    { "id": "v29", "en": "gathering", "vi": "buổi tụ họp, buổi sum họp", "ipa": "/ˈɡæðərɪŋ/", "ipaFrom": "dictionary", "pos": "n", "example": "We have a big family gathering at my uncle's house after the harvest.", "collocations": ["family gathering"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 42 } },
+    { "id": "v30", "en": "open fire", "vi": "bếp lửa (đốt giữa nhà)", "ipa": "/ˌəʊpən ˈfaɪə/", "ipaFrom": "dictionary", "pos": "n", "example": "In winter, the family sits around the open fire to keep warm.", "collocations": ["sit around the open fire", "cook over an open fire"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 45 } }
   ],
   "grammar": [
     {
@@ -146,6 +156,18 @@
       "sentence": "Do you live in a stilt house? What is it like?",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p05",
+      "kind": "ending",
+      "focus": "Đuôi -s/-es của danh từ số nhiều: /s/, /z/, /ɪz/",
+      "tipVi": "Sau âm vô thanh như /p/, /t/, /k/ đọc /s/ (crops, posts). Sau âm hữu thanh đọc /z/ (gongs, costumes). Sau /s/, /dʒ/ đọc /ɪz/ (houses, villages). Đừng bỏ âm cuối.",
+      "words": ["crops", "posts", "gongs", "costumes", "houses", "villages"],
+      "sentence": "The Tay people live in stilt houses on strong posts.",
+      "quiz": [
+        { "prompt": "Which word ends with the sound /ɪz/?", "options": ["villages", "crops", "gongs"], "answer": 0, "explainVi": "villages /ˈvɪlɪdʒɪz/: sau âm /dʒ/ thì -es đọc /ɪz/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -157,7 +179,14 @@
     { "id": "e06", "en": "Can you tell me something about ...?", "vi": "Bạn kể cho mình nghe một chút về ... được không?", "useVi": "Khi muốn tìm hiểu về văn hóa, cuộc sống của ai đó.", "example": "Can you tell me something about your village?", "src": { "kind": "sgk", "page": 40 } },
     { "id": "e07", "en": "It sounds interesting.", "vi": "Nghe thú vị quá.", "useVi": "Khi tỏ ra quan tâm đến điều người khác kể.", "example": "You have a five-colour sticky rice festival? It sounds interesting.", "src": { "kind": "sgk", "page": 40 } },
     { "id": "e08", "en": "In my opinion, ...", "vi": "Theo mình, ...", "useVi": "Khi nêu ý kiến riêng.", "example": "In my opinion, we should learn more about minority cultures.", "src": { "kind": "team", "page": null } },
-    { "id": "e09", "en": "I'd love to visit ... one day.", "vi": "Mình rất muốn đến thăm ... một ngày nào đó.", "useVi": "Khi bày tỏ mong muốn được đến một nơi.", "example": "I'd love to visit Ha Giang one day.", "src": { "kind": "team", "page": null } }
+    { "id": "e09", "en": "I'd love to visit ... one day.", "vi": "Mình rất muốn đến thăm ... một ngày nào đó.", "useVi": "Khi bày tỏ mong muốn được đến một nơi.", "example": "I'd love to visit Ha Giang one day.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "What is ... like?", "vi": "... như thế nào?", "useVi": "Khi muốn người khác mô tả một nơi, một cuộc sống hay một người.", "example": "What is daily life in your village like?", "src": { "kind": "sgk", "page": 40 } },
+    { "id": "e11", "en": "What is it made from?", "vi": "Nó được làm từ gì?", "useVi": "Khi hỏi về vật liệu làm nên một ngôi nhà, một đồ vật.", "example": "What is your house made from? Is it wood or bamboo?", "src": { "kind": "sgk", "page": 46 } },
+    { "id": "e12", "en": "I agree with you because ...", "vi": "Mình đồng ý với bạn vì ...", "useVi": "Khi đồng ý với ý kiến của bạn và nêu thêm lý do.", "example": "I agree with you because a stilt house keeps people safe from wild animals.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "I'm not sure about that.", "vi": "Mình không chắc lắm về điều đó.", "useVi": "Khi chưa đồng ý hẳn và muốn nói nhẹ nhàng.", "example": "I'm not sure about that. I think every group has its own culture.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "As far as I know, ...", "vi": "Theo như mình biết, ...", "useVi": "Khi kể một thông tin mình biết nhưng không chắc hoàn toàn.", "example": "As far as I know, the Ede mainly live in Dak Lak.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "Can you describe ... for me?", "vi": "Bạn có thể tả ... cho mình được không?", "useVi": "Khi muốn người khác mô tả chi tiết một thứ mình chưa thấy.", "example": "Can you describe a Rong house for me?", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "The most interesting thing is ...", "vi": "Điều thú vị nhất là ...", "useVi": "Khi nêu điều em thấy hay nhất về một nơi hay một nền văn hóa.", "example": "The most interesting thing is their colourful costumes.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["Do you", "live", "in a stilt house?"], "vi": "Bạn có sống trong nhà sàn không?", "grammarId": "g01" },
@@ -167,7 +196,9 @@
     { "id": "b05", "chunks": ["Most girls", "in the village", "know how to", "weave clothing"], "vi": "Hầu hết các cô gái trong làng đều biết dệt vải.", "grammarId": null },
     { "id": "b06", "chunks": ["They don't have", "much land,", "so they grow", "a few crops"], "vi": "Họ không có nhiều đất nên chỉ trồng một ít loại cây.", "grammarId": "g03" },
     { "id": "b07", "chunks": ["What do", "children in the highlands", "do to help", "their parents?"], "vi": "Trẻ em vùng cao làm gì để giúp bố mẹ?", "grammarId": "g02" },
-    { "id": "b08", "chunks": ["The villagers meet", "in the communal house", "for festivals"], "vi": "Dân làng gặp nhau ở nhà rông vào các dịp lễ hội.", "grammarId": null }
+    { "id": "b08", "chunks": ["The villagers meet", "in the communal house", "for festivals"], "vi": "Dân làng gặp nhau ở nhà rông vào các dịp lễ hội.", "grammarId": null },
+    { "id": "b09", "chunks": ["Are there", "many ethnic minority groups", "in the Central Highlands?"], "vi": "Có nhiều nhóm dân tộc thiểu số ở Tây Nguyên không?", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["How much rice", "do the villagers", "harvest", "every year?"], "vi": "Dân làng thu hoạch bao nhiêu lúa mỗi năm?", "grammarId": "g03" }
   ],
   "expand": [
     {
@@ -198,6 +229,35 @@
         { "askVi": "Họ múa khi nào?", "ask": "When do they perform it?", "add": "at their festivals" }
       ],
       "full": "The Thai have a beautiful folk dance that they perform at their festivals."
+    },
+    {
+      "id": "x04",
+      "base": "We visited a village.",
+      "steps": [
+        { "askVi": "Làng của dân tộc nào?", "ask": "Whose village?", "add": "of the Hmong people" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in Ha Giang" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last summer" }
+      ],
+      "full": "We visited a village of the Hmong people in Ha Giang last summer."
+    },
+    {
+      "id": "x05",
+      "base": "They play the gong.",
+      "steps": [
+        { "askVi": "Vào dịp nào?", "ask": "When?", "add": "at their festivals" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in the communal house" }
+      ],
+      "full": "They play the gong at their festivals in the communal house."
+    },
+    {
+      "id": "x06",
+      "base": "My grandma weaves scarves.",
+      "steps": [
+        { "askVi": "Khăn trông thế nào?", "ask": "What are they like?", "add": "colourful" },
+        { "askVi": "Cho ai?", "ask": "Who for?", "add": "for the whole family" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "after the harvest" }
+      ],
+      "full": "My grandma weaves colourful scarves for the whole family after the harvest."
     }
   ],
   "variations": [
@@ -207,7 +267,8 @@
       "questions": [
         "What does a stilt house look like?",
         "How is a stilt house different from a house in the city?",
-        "Can you describe a communal house in the Central Highlands?"
+        "Can you describe a communal house in the Central Highlands?",
+        "What materials do people use to build a stilt house?"
       ],
       "keywords": ["posts", "wooden", "staircase", "overlook"],
       "exampleAnswer": "A stilt house stands on wooden posts. People climb a staircase to go inside, and the space under the house is for animals.",
@@ -219,7 +280,8 @@
       "questions": [
         "What do children in mountain villages do to help their families?",
         "How do minority children help their parents?",
-        "What jobs do highland children often do at home?"
+        "What jobs do highland children often do at home?",
+        "In what ways do children in the highlands help their parents?"
       ],
       "keywords": ["livestock", "raise", "weave", "fetch water"],
       "exampleAnswer": "They feed the livestock, collect firewood and look after their little brothers and sisters. Some girls also learn to weave.",
@@ -231,7 +293,8 @@
       "questions": [
         "What is special about the culture of an ethnic group you know?",
         "Which features of ethnic minority culture do you find interesting?",
-        "What can visitors see and hear at a festival of an ethnic group?"
+        "What can visitors see and hear at a festival of an ethnic group?",
+        "Tell me about something unique in the culture of one ethnic group."
       ],
       "keywords": ["costume", "folk dance", "gong", "feature"],
       "exampleAnswer": "The Hmong have colourful costumes and a famous love market. At festivals, visitors can hear flutes and watch folk dances.",
@@ -243,7 +306,8 @@
       "questions": [
         "What do you think about living close to nature?",
         "Is living close to nature good for people? Why?",
-        "Why do some people enjoy living in the mountains?"
+        "Why do some people enjoy living in the mountains?",
+        "What are the good things about living close to nature?"
       ],
       "keywords": ["fresh air", "peaceful", "highland", "because"],
       "exampleAnswer": "I think it is good for people because the air is fresh and life is peaceful. However, there are fewer services.",
@@ -255,10 +319,50 @@
       "questions": [
         "Why should we keep traditional crafts like weaving alive?",
         "Why is it important to protect folk music and dances?",
-        "What will we lose if young people forget traditional crafts?"
+        "What will we lose if young people forget traditional crafts?",
+        "How can young people keep folk music and traditional crafts alive?"
       ],
       "keywords": ["weave", "folk", "culture", "unique"],
       "exampleAnswer": "Traditional crafts are a unique part of each ethnic group's culture. If young people forget them, we will lose our history.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Hỏi và kể về một dân tộc thiểu số",
+      "questions": [
+        "Where do the Ede people mainly live?",
+        "Which ethnic group would you like to learn more about?",
+        "What do you know about the Hmong people?",
+        "Which ethnic group lives near your area, and what do you know about them?"
+      ],
+      "keywords": ["ethnic group", "live", "culture", "costume"],
+      "exampleAnswer": "I'd like to learn about the Ede. They live in the Central Highlands, and their long houses are unique.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Cây trồng và món ăn của người vùng cao",
+      "questions": [
+        "What crops do people in the highlands grow?",
+        "What do ethnic minority people often cook for their festivals?",
+        "How do people in mountain villages get their food?",
+        "Which special dishes of an ethnic group have you tried?"
+      ],
+      "keywords": ["crop", "sticky rice", "harvest", "livestock"],
+      "exampleAnswer": "They grow rice and corn on terraced fields, raise livestock, and cook five-colour sticky rice for festivals.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Vì sao nên tìm hiểu văn hóa các dân tộc",
+      "questions": [
+        "Would you like to visit an ethnic minority village? Why?",
+        "Why should students learn about the cultures of other ethnic groups?",
+        "What can we learn from a trip to a highland village?",
+        "Why would it be interesting to stay in a stilt house for a few days?"
+      ],
+      "keywords": ["culture", "unique", "learn", "community"],
+      "exampleAnswer": "Yes, I would, because I want to see their unique culture and learn how the community lives together.",
       "expectsReason": true
     }
   ],
@@ -371,6 +475,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["stilt house", "communal house", "ethnic group", "because"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Kể về chuyến thăm bản Mường",
+      "contextVi": "Cuối tuần trước em cùng gia đình đến thăm một bản của người Mường ở Hòa Bình. Hôm nay bạn cùng bàn hỏi em về chuyến đi.",
+      "aiRole": "Khoa, your deskmate who wants to hear about your trip",
+      "studentRoleVi": "Học sinh vừa đi thăm bản Mường về",
+      "goalVi": "Kể cho Khoa về chuyến đi: tả nhà ở, món ăn và một hoạt động em thích, có ít nhất một ví dụ.",
+      "goal": "Tell Khoa about your weekend trip to a Muong village: describe the houses, the food and one activity, with at least one example.",
+      "requirements": [
+        { "kind": "example", "vi": "Đưa ít nhất một ví dụ (for example...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["stilt house", "sticky rice", "gong", "terraced fields", "culture", "weave"] }
+      ],
+      "opener": "Hey, you look happy this morning! How was your weekend trip to the Muong village?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Wow! What did the houses there look like?",
+        "Sounds nice. What did you eat, and what did you do there?",
+        "That's cool. Would you like to go back there one day?"
+      ],
+      "tipsVi": ["Tả nhà: \"They live in stilt houses made of wood and bamboo.\"", "Đưa ví dụ với \"For example, ...\" khi kể món ăn hay hoạt động."],
+      "keywords": ["stilt house", "sticky rice", "gong", "for example", "culture"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Nhà sàn có bất tiện không?",
+      "contextVi": "Em vừa ngủ hai đêm ở một nhà sàn của người Thái ở Mai Châu. Anh họ em sống ở chung cư Hà Nội cho rằng nhà sàn cũ kỹ, bất tiện. Em kể và bảo vệ ý kiến của mình.",
+      "aiRole": "Minh, your cousin who lives in a flat in Ha Noi",
+      "studentRoleVi": "Người em họ vừa ở nhà sàn về",
+      "goalVi": "Nêu điều em thích ở nhà sàn, có lý do và ví dụ, và trả lời lịch sự khi Minh cho rằng chung cư tốt hơn.",
+      "goal": "Explain what you liked about the stilt house with a reason and an example, and politely answer Minh when he says a city flat is better.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do (because...)", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["stilt house", "post", "open fire", "close to nature", "overlook", "wooden"] }
+      ],
+      "opener": "So you slept in a stilt house in Mai Chau? I think that sounds really uncomfortable.",
+      "stance": "Stilt houses are old and uncomfortable. A modern flat in the city is much better.",
+      "turns": 5,
+      "fallback": [
+        "Really? What did you like about it?",
+        "But stilt houses are old and uncomfortable. A modern flat in the city is much better, isn't it?",
+        "Hmm, I didn't think about that. Can you give me another example?",
+        "OK, maybe I'll try staying in one next summer."
+      ],
+      "tipsVi": ["Khi Minh phản đối, mở đầu bằng \"I'm not sure about that\" hoặc \"I see your point, but...\"", "Ví dụ: nhà nhìn ra ruộng bậc thang, cả nhà ngồi quanh bếp lửa."],
+      "keywords": ["stilt house", "close to nature", "open fire", "because", "for example"]
     }
   ]
 }

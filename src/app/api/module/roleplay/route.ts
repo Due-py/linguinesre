@@ -97,6 +97,8 @@ export async function POST(request: NextRequest) {
       attempt_no: 1,
       kind: "roleplay",
       item_ref: r.id,
+      // Lượt cuối: đạt hết yêu cầu của tình huống hay chưa (để bài sau thêm roleplay khi cần).
+      correct: requirements ? requirements.every(Boolean) : null,
       answer: asr.transcript.slice(0, 4000),
       think_ms: measures.thinkMs === null ? null : Math.min(120_000, measures.thinkMs),
       measures,

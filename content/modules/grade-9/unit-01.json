@@ -26,7 +26,17 @@
     { "id": "v18", "en": "get on with", "vi": "có quan hệ tốt với", "ipa": "/ɡet ɒn wɪð/", "ipaFrom": "glossary", "pos": "phr v", "example": "I get on well with the security guard at my school.", "collocations": ["get on well with neighbours"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
     { "id": "v19", "en": "look around", "vi": "ngắm nghía xung quanh", "ipa": "/lʊk əˈraʊnd/", "ipaFrom": "glossary", "pos": "phr v", "example": "We spent the morning looking around the old market.", "collocations": ["look around the town"], "synonyms": ["explore"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
     { "id": "v20", "en": "run out of", "vi": "hết, cạn kiệt", "ipa": "/rʌn aʊt əv/", "ipaFrom": "glossary", "pos": "phr v", "example": "We ran out of milk, so I went to the shop.", "collocations": ["run out of money", "run out of time"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
-    { "id": "v21", "en": "cut down on", "vi": "cắt giảm", "ipa": "/kʌt daʊn ɒn/", "ipaFrom": "glossary", "pos": "phr v", "example": "Our town should cut down on plastic bags.", "collocations": ["cut down on fast food", "cut down on waste"], "synonyms": ["reduce"], "antonyms": ["increase"], "src": { "kind": "sgk", "page": 136 } }
+    { "id": "v21", "en": "cut down on", "vi": "cắt giảm", "ipa": "/kʌt daʊn ɒn/", "ipaFrom": "glossary", "pos": "phr v", "example": "Our town should cut down on plastic bags.", "collocations": ["cut down on fast food", "cut down on waste"], "synonyms": ["reduce"], "antonyms": ["increase"], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v22", "en": "community", "vi": "cộng đồng", "ipa": "/kəˈmjuːnəti/", "ipaFrom": "glossary", "pos": "n", "example": "Our community organises a clean-up day every month.", "collocations": ["local community", "community centre"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v23", "en": "fragrance", "vi": "hương thơm", "ipa": "/ˈfreɪɡrəns/", "ipaFrom": "glossary", "pos": "n", "example": "Lotus tea from my village has a gentle fragrance.", "collocations": ["a sweet fragrance", "a gentle fragrance"], "synonyms": ["scent"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v24", "en": "function", "vi": "chức năng", "ipa": "/ˈfʌŋkʃn/", "ipaFrom": "glossary", "pos": "n", "example": "The main function of a conical hat is to protect people from the sun and rain.", "collocations": ["main function", "serve a function"], "synonyms": ["purpose"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v25", "en": "original", "vi": "nguyên bản, ban đầu", "ipa": "/əˈrɪdʒənl/", "ipaFrom": "glossary", "pos": "adj", "example": "This old house still has its original wooden doors.", "collocations": ["original design", "original shape"], "synonyms": [], "antonyms": ["modern"], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v26", "en": "neighbourhood", "vi": "khu phố, khu dân cư", "ipa": "/ˈneɪbəhʊd/", "ipaFrom": "dictionary", "pos": "n", "example": "There is a small park and a library in my neighbourhood.", "collocations": ["quiet neighbourhood", "in the neighbourhood"], "synonyms": ["area"], "antonyms": [], "src": { "kind": "sgk", "page": 8 } },
+    { "id": "v27", "en": "souvenir", "vi": "quà lưu niệm", "ipa": "/ˌsuːvəˈnɪə/", "ipaFrom": "dictionary", "pos": "n", "example": "I bought a small bamboo basket as a souvenir for my cousin.", "collocations": ["buy a souvenir", "souvenir shop"], "synonyms": ["keepsake"], "antonyms": [], "src": { "kind": "sgk", "page": 9 } },
+    { "id": "v28", "en": "remind somebody of", "vi": "làm ai nhớ đến", "ipa": "/rɪˈmaɪnd ˈsʌmbədi əv/", "ipaFrom": "dictionary", "pos": "phr v", "example": "The smell of fresh bread reminds me of my grandma's kitchen.", "collocations": ["remind me of home"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 9 } },
+    { "id": "v29", "en": "skilled", "vi": "lành nghề, có tay nghề", "ipa": "/skɪld/", "ipaFrom": "dictionary", "pos": "adj", "example": "Skilled artisans in my village can make a vase in one hour.", "collocations": ["skilled artisan", "skilled worker"], "synonyms": ["experienced"], "antonyms": ["unskilled"], "src": { "kind": "sgk", "page": 10 } },
+    { "id": "v30", "en": "lantern", "vi": "đèn lồng", "ipa": "/ˈlæntən/", "ipaFrom": "dictionary", "pos": "n", "example": "Tourists in Hoi An often buy silk lanterns as gifts.", "collocations": ["silk lantern", "make a lantern"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 10 } },
+    { "id": "v31", "en": "bamboo", "vi": "tre", "ipa": "/ˌbæmˈbuː/", "ipaFrom": "dictionary", "pos": "n", "example": "My uncle makes beds and baskets from bamboo.", "collocations": ["bamboo basket", "bamboo bed"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 10 } }
   ],
   "grammar": [
     {
@@ -114,6 +124,19 @@
       "sentence": "Could you tell me where to buy pottery, please?",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "ending",
+      "focus": "Đuôi -s/-es của danh từ số nhiều: /s/, /z/, /ɪz/",
+      "tipVi": "Sau âm vô thanh như /t/, /k/, /f/ đọc /s/ (handicrafts, markets). Sau nguyên âm và âm hữu thanh như /n/, /b/ đọc /z/ (artisans, suburbs). Sau /dʒ/, /s/, /tʃ/ đọc /ɪz/ (villages, places).",
+      "words": ["handicrafts", "markets", "artisans", "suburbs", "villages", "places"],
+      "sentence": "Artisans in craft villages sell handicrafts at local markets.",
+      "quiz": [
+        { "prompt": "Which word ends with the sound /ɪz/?", "options": ["villages", "artisans", "handicrafts"], "answer": 0, "explainVi": "villages /ˈvɪlɪdʒɪz/ kết thúc bằng /ɪz/ vì từ gốc tận cùng là âm /dʒ/." },
+        { "prompt": "Which word ends with the sound /s/?", "options": ["markets", "suburbs", "artisans"], "answer": 0, "explainVi": "markets kết thúc bằng /s/ vì từ gốc tận cùng là âm vô thanh /t/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -126,7 +149,13 @@
     { "id": "e07", "en": "You should try ...", "vi": "Bạn nên thử ...", "useVi": "Khi gợi ý món ăn hoặc hoạt động cho khách.", "example": "You should try the grilled fish at the night market.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "One thing I love about my area is ...", "vi": "Một điều mình thích ở nơi mình sống là ...", "useVi": "Khi mở đầu phần giới thiệu về nơi mình sống.", "example": "One thing I love about my area is the friendly neighbours.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "I'd recommend + V-ing ...", "vi": "Mình gợi ý nên ...", "useVi": "Khi đưa ra lời khuyên lịch sự cho khách hoặc bạn bè.", "example": "I'd recommend visiting the pottery village in the morning.", "src": { "kind": "team", "page": null } },
-    { "id": "e10", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but craft villages are part of our culture.", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but craft villages are part of our culture.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "Could you tell me how to get to ...?", "vi": "Bạn chỉ giúp mình đường đến ... được không?", "useVi": "Khi lịch sự hỏi đường ở nơi mình chưa quen.", "example": "Could you tell me how to get to the post office, please?", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "Thanks a lot. You've been very helpful.", "vi": "Cảm ơn nhiều. Bạn đã giúp mình rất nhiều.", "useVi": "Khi cảm ơn người vừa chỉ đường hoặc giúp mình.", "example": "Thanks a lot. You've been very helpful, Mrs Lan.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "Sorry, I'm new here too.", "vi": "Xin lỗi, mình cũng mới đến đây.", "useVi": "Khi không giúp được vì mình cũng chưa biết rõ khu vực.", "example": "Sorry, I'm new here too. Maybe you can ask that police officer.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "It's handmade by ...", "vi": "Nó được ... làm thủ công.", "useVi": "Khi giới thiệu một món đồ thủ công và người làm ra nó.", "example": "This basket is handmade by artisans in my village.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "What I like most about ... is ...", "vi": "Điều mình thích nhất ở ... là ...", "useVi": "Khi nêu điểm mình thích nhất về một nơi hay một người.", "example": "What I like most about my neighbourhood is the quiet park.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "We should thank ... for + V-ing ...", "vi": "Chúng ta nên cảm ơn ... vì đã ...", "useVi": "Khi đề nghị bày tỏ lòng biết ơn với người phục vụ cộng đồng.", "example": "We should thank the garbage collectors for keeping our streets clean.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["I don't know", "where to buy", "fresh vegetables", "in this area"], "vi": "Mình không biết nên mua rau tươi ở đâu trong khu này.", "grammarId": "g01" },
@@ -136,7 +165,9 @@
     { "id": "b05", "chunks": ["Garbage collectors", "keep our streets", "clean", "every day"], "vi": "Các nhân viên dọn vệ sinh giữ đường phố sạch sẽ mỗi ngày.", "grammarId": null },
     { "id": "b06", "chunks": ["My hometown", "is famous for", "its handmade", "pottery"], "vi": "Quê mình nổi tiếng về đồ gốm làm bằng tay.", "grammarId": null },
     { "id": "b07", "chunks": ["Young people", "should help", "preserve", "traditional crafts"], "vi": "Người trẻ nên giúp bảo tồn các nghề truyền thống.", "grammarId": null },
-    { "id": "b08", "chunks": ["She asked me", "what to give", "her new neighbour"], "vi": "Cô ấy hỏi mình nên tặng gì cho người hàng xóm mới.", "grammarId": "g01" }
+    { "id": "b08", "chunks": ["She asked me", "what to give", "her new neighbour"], "vi": "Cô ấy hỏi mình nên tặng gì cho người hàng xóm mới.", "grammarId": "g01" },
+    { "id": "b09", "chunks": ["I didn't know", "who to ask", "for help", "on my first day"], "vi": "Ngày đầu tiên mình không biết nên nhờ ai giúp.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["We should cut down on", "plastic bags", "when we go", "to the market"], "vi": "Chúng ta nên giảm dùng túi ni lông khi đi chợ.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -176,6 +207,26 @@
         { "askVi": "Vì sao bà làm vậy?", "ask": "Why?", "add": "because she wants to keep the craft alive" }
       ],
       "full": "My grandma makes conical hats in her small workshop because she wants to keep the craft alive."
+    },
+    {
+      "id": "x05",
+      "base": "The artisan made a vase.",
+      "steps": [
+        { "askVi": "Nghệ nhân như thế nào?", "ask": "What kind of artisan?", "add": "skilled" },
+        { "askVi": "Làm từ gì?", "ask": "What from?", "add": "from clay" },
+        { "askVi": "Mất bao lâu?", "ask": "How long did it take?", "add": "in two days" }
+      ],
+      "full": "The skilled artisan made a vase from clay in two days."
+    },
+    {
+      "id": "x06",
+      "base": "A delivery person came.",
+      "steps": [
+        { "askVi": "Đến đâu?", "ask": "Where?", "add": "to our house" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "this morning" },
+        { "askVi": "Để làm gì?", "ask": "Why?", "add": "to bring my new books" }
+      ],
+      "full": "A delivery person came to our house this morning to bring my new books."
     }
   ],
   "variations": [
@@ -237,6 +288,45 @@
       ],
       "keywords": ["facilities", "library", "park", "sports centre"],
       "exampleAnswer": "I'd like a library near my house because students need a quiet place to read and study.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Hàng xóm và cách hòa hợp với họ",
+      "questions": [
+        "Do you get on well with your neighbours?",
+        "How do people in your neighbourhood help each other?",
+        "What do you and your neighbours sometimes do together?",
+        "Tell me about a neighbour you really like."
+      ],
+      "keywords": ["neighbour", "get on with", "help each other"],
+      "exampleAnswer": "I get on well with Mrs Hoa next door. She waters our plants when we go away, and we give her fruit from our garden.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Món quà lưu niệm thủ công em muốn tặng",
+      "questions": [
+        "What handmade souvenir from your area would you give a foreign friend? Why?",
+        "What souvenir would you suggest to a friend who visits your hometown? Why?",
+        "Which local handicraft makes the best gift, and why?",
+        "What would you buy in your area as a gift for someone abroad? Why?"
+      ],
+      "keywords": ["souvenir", "handicraft", "handmade", "because"],
+      "exampleAnswer": "I would give a small silk lantern because it is beautiful, light to carry, and it shows the skill of our local artisans.",
+      "expectsReason": true
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Sống ở ngoại ô hay trung tâm",
+      "questions": [
+        "Would you rather live in a suburb or in the city centre? Why?",
+        "What are the good and bad points of living in a suburb?",
+        "Is a suburb a good place for a family with children? Why or why not?",
+        "Why do some families move from the city centre to a suburb?"
+      ],
+      "keywords": ["suburb", "facilities", "quiet", "because"],
+      "exampleAnswer": "I'd rather live in a suburb because it is quieter and greener, although there are fewer shopping malls and the school may be far away.",
       "expectsReason": true
     }
   ],
@@ -350,6 +440,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["preserve", "artisan", "pass down", "because", "handicraft"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Hỏi bác hàng xóm khi mới chuyển nhà",
+      "contextVi": "Gia đình em vừa chuyển đến một khu phố mới. Em gặp bác Lan, người hàng xóm đã sống ở đây hơn 20 năm, và muốn hỏi bác vài điều về khu phố.",
+      "aiRole": "Mrs Lan, a friendly neighbour who has lived in the area for twenty years",
+      "studentRoleVi": "Học sinh mới chuyển đến khu phố",
+      "goalVi": "Chào hỏi, hỏi bác nơi mua đồ và cách đến trạm xe buýt, rồi cảm ơn bác.",
+      "goal": "Greet your new neighbour, ask where to buy things and how to get to the bus station, then thank her.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất hai cụm từ để hỏi + to V", "words": ["where to", "how to", "what to", "who to"] },
+        { "kind": "example", "vi": "Hỏi về một nơi cụ thể (chợ, hiệu thuốc, trạm xe buýt)", "words": [] }
+      ],
+      "opener": "Hello! You must be the new family in number twelve. Welcome to our street! How can I help you?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Oh, there's a small market just around the corner. What else would you like to know?",
+        "The bus station? It's about ten minutes on foot. Do you know how to get to the main road?",
+        "You're welcome! Is there anything else you need?"
+      ],
+      "tipsVi": ["Mở đầu bằng \"Could you tell me where to...?\"", "Kết thúc bằng \"Thanks a lot. You've been very helpful.\""],
+      "keywords": ["where to", "how to", "neighbourhood", "Could you", "thank"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Gian hàng thủ công ở hội chợ trường",
+      "contextVi": "Trường em tổ chức hội chợ. Lớp em bán đồ thủ công của làng nghề địa phương như giỏ tre, đèn lồng, bình gốm. Một vị khách nước ngoài dừng lại hỏi về các món đồ.",
+      "aiRole": "Mr Brown, a foreign visitor at the school fair",
+      "studentRoleVi": "Học sinh bán hàng ở gian đồ thủ công",
+      "goalVi": "Giới thiệu một món đồ thủ công: nó là gì, làm từ gì, ai làm và dùng để làm gì.",
+      "goal": "Introduce one handicraft: what it is, what it is made from, who made it and what people use it for.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất hai từ của bài", "words": ["handicraft", "artisan", "bamboo", "lantern", "pottery", "souvenir"] },
+        { "kind": "example", "vi": "Nói rõ món đồ dùng để làm gì", "words": [] }
+      ],
+      "opener": "Hello! These things look lovely. Can you tell me about them?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Interesting! What is it made from?",
+        "Who made it? Was it made by hand?",
+        "What do people use it for? I want to take one home as a souvenir."
+      ],
+      "tipsVi": ["Dùng \"It's handmade by...\" để giới thiệu người làm.", "Nói về chức năng: \"People use it to...\""],
+      "keywords": ["handicraft", "handmade", "artisan", "bamboo", "souvenir"]
     }
   ]
 }

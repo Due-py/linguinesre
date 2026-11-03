@@ -26,7 +26,18 @@
     { "id": "v18", "en": "sail", "vi": "lướt buồm", "ipa": "/seɪl/", "ipaFrom": "glossary", "pos": "v", "example": "In the future, ships will sail using wind and sun.", "collocations": ["sail across the sea"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
     { "id": "v19", "en": "appear", "vi": "xuất hiện", "ipa": "/əˈpɪə(r)/", "ipaFrom": "glossary", "pos": "v", "example": "With a teleporter, you disappear here and appear in another city.", "collocations": ["appear in seconds"], "synonyms": [], "antonyms": ["disappear"], "src": { "kind": "sgk", "page": 139 } },
     { "id": "v20", "en": "disappear", "vi": "biến mất", "ipa": "/ˌdɪsəˈpɪə/", "ipaFrom": "glossary", "pos": "v", "example": "I think petrol cars will disappear one day.", "collocations": ["disappear from the roads"], "synonyms": [], "antonyms": ["appear"], "src": { "kind": "sgk", "page": 139 } },
-    { "id": "v21", "en": "flying car", "vi": "ô tô bay", "ipa": "/ˌflaɪɪŋ ˈkɑː/", "ipaFrom": "dictionary", "pos": "n", "example": "A flying car could fly over traffic jams.", "collocations": ["travel by flying car"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 116 } }
+    { "id": "v21", "en": "flying car", "vi": "ô tô bay", "ipa": "/ˌflaɪɪŋ ˈkɑː/", "ipaFrom": "dictionary", "pos": "n", "example": "A flying car could fly over traffic jams.", "collocations": ["travel by flying car"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 116 } },
+    { "id": "v22", "en": "function", "vi": "chức năng", "ipa": "/ˈfʌŋkʃn/", "ipaFrom": "glossary", "pos": "n", "example": "This car has an autopilot function, so it can drive itself.", "collocations": ["an autopilot function"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v23", "en": "rails", "vi": "đường ray", "ipa": "/reɪlz/", "ipaFrom": "glossary", "pos": "n", "example": "The skyTran runs on rails above the city streets.", "collocations": ["run on rails"], "synonyms": ["tracks"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v24", "en": "solar-powered ship", "vi": "tàu thủy chạy bằng năng lượng mặt trời", "ipa": "/ˌsəʊlə ˈpaʊəd ʃɪp/", "ipaFrom": "glossary", "pos": "n", "example": "A solar-powered ship doesn't need any petrol.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v25", "en": "bullet train", "vi": "tàu cao tốc", "ipa": "/ˈbʊlɪt treɪn/", "ipaFrom": "dictionary", "pos": "n", "example": "The bullet train can travel at 300 kilometres an hour.", "collocations": ["take a bullet train"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 116 } },
+    { "id": "v26", "en": "electric car", "vi": "ô tô điện", "ipa": "/ɪˌlektrɪk ˈkɑː/", "ipaFrom": "dictionary", "pos": "n", "example": "My uncle charges his electric car at home every night.", "collocations": ["drive an electric car"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 117 } },
+    { "id": "v27", "en": "petrol", "vi": "xăng", "ipa": "/ˈpetrəl/", "ipaFrom": "dictionary", "pos": "n", "example": "Most motorbikes in my town still run on petrol.", "collocations": ["run on petrol"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 115 } },
+    { "id": "v28", "en": "pollution", "vi": "sự ô nhiễm", "ipa": "/pəˈluːʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "Electric buses will cause less pollution in big cities.", "collocations": ["air pollution", "cause pollution"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 116 } },
+    { "id": "v29", "en": "electric scooter", "vi": "xe tay ga điện", "ipa": "/ɪˌlektrɪk ˈskuːtə/", "ipaFrom": "dictionary", "pos": "n", "example": "An electric scooter is quiet and easy to park.", "collocations": ["ride an electric scooter"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 117 } },
+    { "id": "v30", "en": "battery", "vi": "pin, ắc quy", "ipa": "/ˈbætri/", "ipaFrom": "dictionary", "pos": "n", "example": "The car's battery can last for a long journey.", "collocations": ["charge the battery"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 120 } },
+    { "id": "v31", "en": "charge", "vi": "sạc (pin)", "ipa": "/tʃɑːdʒ/", "ipaFrom": "dictionary", "pos": "v", "example": "You have to charge the scooter every night.", "collocations": ["charge the battery", "charge a phone"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 120 } },
+    { "id": "v32", "en": "noise", "vi": "tiếng ồn", "ipa": "/nɔɪz/", "ipaFrom": "dictionary", "pos": "n", "example": "Flying cars may cause a lot of noise above our houses.", "collocations": ["make noise", "cause noise"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 121 } }
   ],
   "grammar": [
     {
@@ -114,6 +125,18 @@
         { "prompt": "Which word is pronounced /wəʊnt/?", "options": ["won't", "want", "went"], "answer": 0, "explainVi": "won't /wəʊnt/; want là /wɒnt/, went là /went/." }
       ],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Lên giọng ở câu hỏi Yes/No với will",
+      "tipVi": "Câu hỏi Yes/No bắt đầu bằng Will hoặc Do you think thường lên giọng ở cuối câu: Will we travel by flying car? ↗. Câu hỏi có từ để hỏi (How, What) thì xuống giọng.",
+      "words": ["Will it be safe?", "Will we have them?", "Do you think so?"],
+      "sentence": "Will people travel by hyperloop in the future?",
+      "quiz": [
+        { "prompt": "Which question usually ends with a RISING tone?", "options": ["Will it be cheap?", "How will we travel?", "What will cars be like?"], "answer": 0, "explainVi": "Will it be cheap? là câu hỏi Yes/No nên lên giọng cuối câu; hai câu kia có từ để hỏi nên xuống giọng." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -125,7 +148,14 @@
     { "id": "e06", "en": "I hope we'll have ... soon.", "vi": "Mình mong chúng ta sớm có ...", "useVi": "Khi nói mong muốn về điều sẽ có trong tương lai.", "example": "I hope we'll have a skyTran in our city soon.", "src": { "kind": "sgk", "page": 114 } },
     { "id": "e07", "en": "I don't think ... will ...", "vi": "Mình không nghĩ ... sẽ ...", "useVi": "Khi đưa ra dự đoán phủ định một cách nhẹ nhàng.", "example": "I don't think teleporters will be popular.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "It will be ... because ...", "vi": "Nó sẽ ... vì ...", "useVi": "Khi dự đoán và nêu lý do.", "example": "It will be popular because it is fast and eco-friendly.", "src": { "kind": "team", "page": null } },
-    { "id": "e09", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but bikes are cheap and healthy.", "src": { "kind": "team", "page": null } }
+    { "id": "e09", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but bikes are cheap and healthy.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "It's a pity that ...", "vi": "Thật tiếc là ...", "useVi": "Khi tiếc vì điều gì đó chưa có hoặc không xảy ra.", "example": "It's a pity that we don't have bullet trains in Viet Nam yet.", "src": { "kind": "sgk", "page": 114 } },
+    { "id": "e11", "en": "Sounds great!", "vi": "Nghe tuyệt quá!", "useVi": "Khi thích thú với một ý tưởng.", "example": "A bamboo-copter to school? Sounds great!", "src": { "kind": "sgk", "page": 114 } },
+    { "id": "e12", "en": "Amazing! Even faster than ...", "vi": "Tuyệt thật! Còn nhanh hơn cả ...", "useVi": "Khi ngạc nhiên vì một phương tiện rất nhanh.", "example": "Amazing! Even faster than a plane!", "src": { "kind": "sgk", "page": 114 } },
+    { "id": "e13", "en": "We won't have to worry about ...", "vi": "Chúng ta sẽ không phải lo về ...", "useVi": "Khi nói một lợi ích của phương tiện tương lai.", "example": "With teleporters, we won't have to worry about traffic jams.", "src": { "kind": "sgk", "page": 114 } },
+    { "id": "e14", "en": "I think people will like ... because ...", "vi": "Mình nghĩ mọi người sẽ thích ... vì ...", "useVi": "Khi dự đoán một phương tiện sẽ được ưa chuộng và nêu lý do.", "example": "I think people will like flying cars because they are fast.", "src": { "kind": "sgk", "page": 121 } },
+    { "id": "e15", "en": "What do you think ... will be like in ... years?", "vi": "Bạn nghĩ ... sẽ như thế nào trong ... năm nữa?", "useVi": "Khi hỏi ý kiến dự đoán của người khác.", "example": "What do you think buses will be like in twenty years?", "src": { "kind": "sgk", "page": 115 } },
+    { "id": "e16", "en": "Maybe, but ...", "vi": "Có thể, nhưng ...", "useVi": "Khi đồng ý một phần rồi nêu ý khác.", "example": "Maybe, but flying cars will be very expensive.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["In the future", "people will travel", "by flying car"], "vi": "Trong tương lai, mọi người sẽ đi lại bằng ô tô bay.", "grammarId": "g01" },
@@ -135,7 +165,9 @@
     { "id": "b05", "chunks": ["A solar-powered bus", "runs on", "energy from the sun"], "vi": "Xe buýt chạy bằng năng lượng mặt trời dùng năng lượng từ mặt trời.", "grammarId": null },
     { "id": "b06", "chunks": ["I don't think", "teleporters", "will be popular", "because they are scary"], "vi": "Mình không nghĩ máy dịch chuyển tức thời sẽ phổ biến vì chúng đáng sợ.", "grammarId": "g01" },
     { "id": "b07", "chunks": ["My bike is old", "but hers", "is new"], "vi": "Xe đạp của mình cũ, nhưng xe của bạn ấy thì mới.", "grammarId": "g02" },
-    { "id": "b08", "chunks": ["Bamboo-copters", "will be", "fun and convenient", "to use"], "vi": "Chong chóng tre sẽ vui và tiện lợi khi dùng.", "grammarId": "g01" }
+    { "id": "b08", "chunks": ["Bamboo-copters", "will be", "fun and convenient", "to use"], "vi": "Chong chóng tre sẽ vui và tiện lợi khi dùng.", "grammarId": "g01" },
+    { "id": "b09", "chunks": ["Electric cars", "will cause", "less pollution"], "vi": "Ô tô điện sẽ gây ít ô nhiễm hơn.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["Is this battery", "yours", "or hers?"], "vi": "Cục pin này là của bạn hay của cô ấy?", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -174,6 +206,25 @@
         { "askVi": "Thay vào đó em sẽ làm gì?", "ask": "What will you do instead?", "add": "so I will ride my bike instead" }
       ],
       "full": "I won't ride a solowheel because I am afraid of falling off, so I will ride my bike instead."
+    },
+    {
+      "id": "x05",
+      "base": "People will travel by bullet train.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "in ten years" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it is fast and safe" }
+      ],
+      "full": "People will travel by bullet train in ten years because it is fast and safe."
+    },
+    {
+      "id": "x06",
+      "base": "I will buy an electric scooter.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "when I am older" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it doesn't need petrol" },
+        { "askVi": "Còn gì nữa?", "ask": "What else?", "add": "and it is easy to park" }
+      ],
+      "full": "I will buy an electric scooter when I am older because it doesn't need petrol and it is easy to park."
     }
   ],
   "variations": [
@@ -236,6 +287,45 @@
       "keywords": ["fumes", "traffic jam", "pollution", "because"],
       "exampleAnswer": "Cars and motorbikes produce fumes and cause traffic jams, so we need cleaner and faster modes of travel.",
       "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Tàu cao tốc ở Việt Nam",
+      "questions": [
+        "Will Viet Nam have bullet trains soon?",
+        "Do you think bullet trains will be popular in Viet Nam?",
+        "Would you like to travel by bullet train? Why?",
+        "What will bullet trains be like in the future?"
+      ],
+      "keywords": ["bullet train", "fast", "safe", "will"],
+      "exampleAnswer": "I think Viet Nam will have bullet trains in about ten years. They will be popular because they are fast and safe.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Phương tiện tương lai em không muốn thử",
+      "questions": [
+        "Which future vehicle would you NOT like to use?",
+        "Is there a future means of transport that scares you?",
+        "Which future vehicle do you think is too dangerous?",
+        "Tell me about a future vehicle you won't try."
+      ],
+      "keywords": ["won't", "dangerous", "teleporter", "because"],
+      "exampleAnswer": "I won't try a teleporter because it sounds dangerous. I don't want to disappear and then appear in another place!",
+      "expectsReason": true
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Đường phố trong tương lai",
+      "questions": [
+        "What will streets look like in the future?",
+        "Will our cities have fewer traffic jams in the future?",
+        "How will people park their cars in the future?",
+        "Do you think city roads will be quieter in fifty years?"
+      ],
+      "keywords": ["traffic jams", "parking", "quiet", "will"],
+      "exampleAnswer": "I think streets will be quieter because cars will run on electricity. There will be fewer traffic jams thanks to skyTrans.",
+      "expectsReason": false
     }
   ],
   "independent": [
@@ -348,6 +438,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["will", "eco-friendly", "traffic jams", "fumes", "because"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Giới thiệu phương tiện trong tranh em vẽ",
+      "contextVi": "Em vẽ một phương tiện tương lai cho cuộc thi vẽ của lớp. Bạn em xem tranh và hỏi về nó.",
+      "aiRole": "Ann, a classmate looking at your drawing",
+      "studentRoleVi": "Người vẽ tranh, giới thiệu phương tiện của mình",
+      "goalVi": "Giới thiệu phương tiện: tên gọi, chạy bằng gì, chở được mấy người, và vì sao nó sẽ tốt (dùng will).",
+      "goal": "Describe your future vehicle: its name, what it runs on, how many people it carries, and why it will be good.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng will / won't", "words": ["will", "won't"] },
+        { "kind": "keyword", "vi": "Dùng ít nhất hai từ của bài", "words": ["eco-friendly", "run on", "solar-powered", "driverless", "fumes"] }
+      ],
+      "opener": "Wow, nice drawing! What is this vehicle?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Cool! What does it run on?",
+        "How many people can it carry?",
+        "Do you think people will like it?"
+      ],
+      "tipsVi": ["Mẫu: It will run on... It won't produce fumes.", "Nêu lý do: People will like it because..."],
+      "keywords": ["will", "run on", "eco-friendly", "because"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Nói với ông về phương tiện đi học tương lai",
+      "contextVi": "Ông em kể ngày xưa ông đạp xe mười cây số đến trường. Ông hỏi em nghĩ trẻ em trong tương lai sẽ đi học bằng gì.",
+      "aiRole": "Your grandpa",
+      "studentRoleVi": "Cháu, nói dự đoán về phương tiện tương lai",
+      "goalVi": "Nói dự đoán của em về phương tiện đi học trong tương lai và giải thích vì sao.",
+      "goal": "Tell your grandpa how you think children will travel to school in the future and explain why.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng câu dự đoán", "words": ["will", "won't", "I think", "probably"] },
+        { "kind": "reason", "vi": "Giải thích lý do cho dự đoán", "words": [] }
+      ],
+      "opener": "When I was your age, I cycled ten kilometres to school. How will children get to school in the future?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Really? Will it be safe for children?",
+        "How fast will it go?",
+        "Will it be expensive?"
+      ],
+      "tipsVi": ["Dự đoán: I think children will travel by...", "Dùng: probably, certainly, I don't think..."],
+      "keywords": ["will", "I think", "safe", "because"]
     }
   ]
 }

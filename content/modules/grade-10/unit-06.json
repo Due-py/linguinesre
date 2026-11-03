@@ -26,7 +26,17 @@
     { "id": "v18", "en": "cosmonaut", "vi": "nhà du hành vũ trụ", "ipa": "/ˈkɒzmənɔːt/", "ipaFrom": "glossary", "pos": "n", "example": "The cosmonaut trained for years before her flight into space.", "collocations": ["a female cosmonaut"], "synonyms": ["astronaut"], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
     { "id": "v19", "en": "domestic violence", "vi": "bạo lực gia đình", "ipa": "/dəˈmestɪk ˈvaɪələns/", "ipaFrom": "glossary", "pos": "n", "example": "Domestic violence is never acceptable in any family.", "collocations": ["stop domestic violence", "victims of domestic violence"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
     { "id": "v20", "en": "victim", "vi": "nạn nhân", "ipa": "/ˈvɪktɪm/", "ipaFrom": "glossary", "pos": "n", "example": "The victims of violence should be given help and support.", "collocations": ["help the victims"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
-    { "id": "v21", "en": "uneducated", "vi": "được học ít, không được học", "ipa": "/ʌnˈedʒukeɪtɪd/", "ipaFrom": "glossary", "pos": "adj", "example": "In the past, many girls in poor areas stayed uneducated.", "collocations": ["uneducated girls"], "synonyms": [], "antonyms": ["educated"], "src": { "kind": "sgk", "page": 128 } }
+    { "id": "v21", "en": "uneducated", "vi": "được học ít, không được học", "ipa": "/ʌnˈedʒukeɪtɪd/", "ipaFrom": "glossary", "pos": "adj", "example": "In the past, many girls in poor areas stayed uneducated.", "collocations": ["uneducated girls"], "synonyms": [], "antonyms": ["educated"], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v22", "en": "career", "vi": "nghề nghiệp, sự nghiệp", "ipa": "/kəˈrɪə/", "ipaFrom": "dictionary", "pos": "n", "example": "My aunt chose a career in medicine, and now she is a surgeon.", "collocations": ["career choice", "a career in"], "synonyms": ["job", "profession"], "antonyms": [], "src": { "kind": "sgk", "page": 69 } },
+    { "id": "v23", "en": "salary", "vi": "tiền lương", "ipa": "/ˈsæləri/", "ipaFrom": "dictionary", "pos": "n", "example": "Men and women should receive the same salary for the same job.", "collocations": ["earn a salary", "a high salary"], "synonyms": ["pay", "wage"], "antonyms": [], "src": { "kind": "sgk", "page": 69 } },
+    { "id": "v24", "en": "low-paying", "vi": "được trả lương thấp", "ipa": "/ˌləʊ ˈpeɪɪŋ/", "ipaFrom": "dictionary", "pos": "adj", "example": "In many countries, low-paying jobs are often done by women.", "collocations": ["low-paying jobs"], "synonyms": [], "antonyms": ["high-paying"], "src": { "kind": "sgk", "page": 69 } },
+    { "id": "v25", "en": "high-paying", "vi": "được trả lương cao", "ipa": "/ˌhaɪ ˈpeɪɪŋ/", "ipaFrom": "dictionary", "pos": "adj", "example": "Engineering is usually a high-paying career.", "collocations": ["high-paying jobs"], "synonyms": [], "antonyms": ["low-paying"], "src": { "kind": "sgk", "page": 69 } },
+    { "id": "v26", "en": "nurse", "vi": "y tá", "ipa": "/nɜːs/", "ipaFrom": "dictionary", "pos": "n", "example": "My uncle works as a nurse at a children's hospital.", "collocations": ["work as a nurse", "a school nurse"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 69 } },
+    { "id": "v27", "en": "engineer", "vi": "kỹ sư", "ipa": "/ˌendʒɪˈnɪə/", "ipaFrom": "dictionary", "pos": "n", "example": "My cousin wants to become an engineer and design bridges.", "collocations": ["become an engineer", "software engineer"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 69 } },
+    { "id": "v28", "en": "child marriage", "vi": "tảo hôn", "ipa": "/ˌtʃaɪld ˈmærɪdʒ/", "ipaFrom": "dictionary", "pos": "n", "example": "Child marriage stops many girls from finishing school.", "collocations": ["stop child marriage"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 69 } },
+    { "id": "v29", "en": "traditionally", "vi": "theo truyền thống", "ipa": "/trəˈdɪʃənəli/", "ipaFrom": "dictionary", "pos": "adv", "example": "Nursing is traditionally done by women, but many men are nurses now.", "collocations": ["traditionally done by"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v30", "en": "strength", "vi": "sức mạnh, sức lực", "ipa": "/streŋθ/", "ipaFrom": "dictionary", "pos": "n", "example": "Firefighters need good physical strength.", "collocations": ["physical strength", "mental strength"], "synonyms": ["power"], "antonyms": ["weakness"], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v31", "en": "caring", "vi": "chu đáo, biết quan tâm", "ipa": "/ˈkeərɪŋ/", "ipaFrom": "dictionary", "pos": "adj", "example": "A good kindergarten teacher must be patient and caring.", "collocations": ["kind and caring"], "synonyms": ["kind"], "antonyms": ["uncaring"], "src": { "kind": "sgk", "page": 70 } }
   ],
   "grammar": [
     {
@@ -125,6 +135,18 @@
       "sentence": "I'm afraid I disagree. Women can be great pilots too.",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p05",
+      "kind": "sentence_stress",
+      "focus": "Trọng âm câu trong câu bị động với động từ khuyết thiếu",
+      "tipVi": "Nhấn mạnh danh từ, động từ chính (V3) và trạng từ: GIRLS should be GIven the SAME opporTUnities. Đọc nhẹ should, can, be, the; be thường đọc yếu /bi/.",
+      "words": ["should", "be", "given", "treated", "encouraged", "equally"],
+      "sentence": "Girls should be given the same opportunities.",
+      "quiz": [
+        { "prompt": "In 'Boys can be taught to cook.', which words are usually stressed?", "options": ["Boys, taught, cook", "can, be, to", "Boys, can, be"], "answer": 0, "explainVi": "Từ mang nghĩa chính (Boys, taught, cook) được nhấn; can, be, to đọc nhẹ." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -137,7 +159,13 @@
     { "id": "e07", "en": "In my opinion, ...", "vi": "Theo mình, ...", "useVi": "Khi nêu ý kiến riêng.", "example": "In my opinion, class jobs should be shared fairly.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "It depends on the person, not the gender.", "vi": "Điều đó phụ thuộc vào từng người, không phải giới tính.", "useVi": "Khi muốn nói khả năng làm việc không do giới tính quyết định.", "example": "Can girls be good firefighters? It depends on the person, not the gender.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "For example, ...", "vi": "Ví dụ, ...", "useVi": "Khi đưa ví dụ để ý kiến thuyết phục hơn.", "example": "For example, my aunt is a pilot and she loves her job.", "src": { "kind": "team", "page": null } },
-    { "id": "e10", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but strength is not the only thing a firefighter needs.", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but strength is not the only thing a firefighter needs.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "There are many more male ... than female ...", "vi": "Có nhiều ... nam hơn ... nữ rất nhiều.", "useVi": "Khi so sánh số lượng nam và nữ trong một nghề.", "example": "There are many more male pilots than female pilots.", "src": { "kind": "sgk", "page": 70 } },
+    { "id": "e12", "en": "Men / Women traditionally work as ...", "vi": "Theo truyền thống, nam / nữ thường làm ...", "useVi": "Khi nói về quan niệm nghề nghiệp truyền thống.", "example": "Women traditionally work as nurses and secretaries.", "src": { "kind": "sgk", "page": 70 } },
+    { "id": "e13", "en": "The ...'s job is traditionally done by men / women.", "vi": "Công việc ... theo truyền thống do nam / nữ làm.", "useVi": "Khi nói một nghề thường do giới nào đảm nhận.", "example": "The firefighter's job is traditionally done by men.", "src": { "kind": "sgk", "page": 70 } },
+    { "id": "e14", "en": "I think so too.", "vi": "Mình cũng nghĩ vậy.", "useVi": "Khi đồng ý với ý kiến của bạn.", "example": "Girls can be great engineers? I think so too.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "That's a good point.", "vi": "Ý đó hay đấy.", "useVi": "Khi công nhận một lý lẽ đúng của người khác.", "example": "That's a good point. Skills are more important than gender.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "Not necessarily.", "vi": "Chưa chắc đâu.", "useVi": "Khi muốn nói nhẹ nhàng rằng điều bạn nói không phải lúc nào cũng đúng.", "example": "Boys are stronger, so they make better leaders? Not necessarily.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["Girls", "should be given", "the same chances", "to study science"], "vi": "Con gái nên được trao cơ hội học khoa học như nhau.", "grammarId": "g01" },
@@ -146,7 +174,10 @@
     { "id": "b04", "chunks": ["Women", "shouldn't be stopped", "from becoming", "pilots"], "vi": "Phụ nữ không nên bị ngăn cản trở thành phi công.", "grammarId": "g01" },
     { "id": "b05", "chunks": ["A good surgeon", "needs", "good eyesight", "and mental strength"], "vi": "Một bác sĩ phẫu thuật giỏi cần thị lực tốt và sức mạnh tinh thần.", "grammarId": null },
     { "id": "b06", "chunks": ["I think", "anyone can become", "a skilful firefighter", "with good training"], "vi": "Mình nghĩ ai cũng có thể trở thành lính cứu hỏa giỏi nếu được huấn luyện tốt.", "grammarId": null },
-    { "id": "b07", "chunks": ["Class jobs", "must be shared", "fairly", "between boys and girls"], "vi": "Việc của lớp phải được chia công bằng giữa con trai và con gái.", "grammarId": "g01" }
+    { "id": "b07", "chunks": ["Class jobs", "must be shared", "fairly", "between boys and girls"], "vi": "Việc của lớp phải được chia công bằng giữa con trai và con gái.", "grammarId": "g01" },
+    { "id": "b08", "chunks": ["Boys and girls", "should be given", "the same", "career opportunities"], "vi": "Con trai và con gái nên được trao cơ hội nghề nghiệp như nhau.", "grammarId": "g01" },
+    { "id": "b09", "chunks": ["Nursing", "is traditionally done", "by women"], "vi": "Nghề y tá theo truyền thống do phụ nữ làm.", "grammarId": "g02" },
+    { "id": "b10", "chunks": ["Child marriage", "must be stopped", "in every country"], "vi": "Nạn tảo hôn phải được chấm dứt ở mọi quốc gia.", "grammarId": "g01" }
   ],
   "expand": [
     {
@@ -186,6 +217,25 @@
         { "askVi": "Cô ấy làm được gì?", "ask": "What does she do?", "add": "and she helps many patients" }
       ],
       "full": "My aunt is a skilful doctor at a big hospital, and she helps many patients."
+    },
+    {
+      "id": "x05",
+      "base": "Women are paid less.",
+      "steps": [
+        { "askVi": "Ít hơn ai?", "ask": "Less than whom?", "add": "than men" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in many countries" },
+        { "askVi": "Khi làm gì?", "ask": "For what?", "add": "for doing the same job" }
+      ],
+      "full": "In many countries, women are paid less than men for doing the same job."
+    },
+    {
+      "id": "x06",
+      "base": "Housework should be shared.",
+      "steps": [
+        { "askVi": "Giữa ai với ai?", "ask": "Between whom?", "add": "between husbands and wives" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because both of them go out to work" }
+      ],
+      "full": "Housework should be shared between husbands and wives because both of them go out to work."
     }
   ],
   "variations": [
@@ -195,7 +245,8 @@
       "questions": [
         "Who does the housework in your family?",
         "How is the housework shared in your home?",
-        "Which household chores do the men in your family do?"
+        "Which household chores do the men in your family do?",
+        "What chores do the boys and girls in your family do?"
       ],
       "keywords": ["housework", "shared", "cook", "equally"],
       "exampleAnswer": "In my family, the housework is shared. My dad cooks dinner, and my mum and I do the washing.",
@@ -207,7 +258,8 @@
       "questions": [
         "Which jobs can be done well by both men and women?",
         "Can you name some jobs that men and women can do equally well?",
-        "What jobs do you think are suitable for everyone?"
+        "What jobs do you think are suitable for everyone?",
+        "Which careers are good choices for both boys and girls?"
       ],
       "keywords": ["pilot", "surgeon", "skilful", "can be done"],
       "exampleAnswer": "Jobs like surgeons, pilots and teachers can be done well by both men and women if they are skilful.",
@@ -219,7 +271,8 @@
       "questions": [
         "Why is gender equality important?",
         "Why should men and women have equal rights?",
-        "What happens to a society when people are not treated equally?"
+        "What happens to a society when people are not treated equally?",
+        "How does gender equality make life better for everyone?"
       ],
       "keywords": ["equality", "equal rights", "talent", "develop"],
       "exampleAnswer": "Gender equality is important because everyone can use their talents, so society develops faster and people are happier.",
@@ -231,7 +284,8 @@
       "questions": [
         "What can be done to help girls in rural areas go to school?",
         "How can more children in poor areas be given an education?",
-        "What should be done so that no child stays uneducated?"
+        "What should be done so that no child stays uneducated?",
+        "How can girls in remote villages be helped to stay at school?"
       ],
       "keywords": ["should be given", "education", "rural areas", "uneducated"],
       "exampleAnswer": "More schools should be built in rural areas, and poor families should be given money for books and uniforms.",
@@ -243,11 +297,51 @@
       "questions": [
         "Do you know a woman who does a job that people think is for men?",
         "Tell me about a man who works in a job usually done by women.",
-        "Who is someone you know that does an unusual job for their gender?"
+        "Who is someone you know that does an unusual job for their gender?",
+        "Do you know anyone whose job is traditionally done by the opposite gender?"
       ],
       "keywords": ["officer", "kindergarten teacher", "skilful", "respect"],
       "exampleAnswer": "My aunt is a police officer. She is brave and skilful, and people in our town respect her.",
       "expectsReason": false
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Nam và nữ ở trường em có được đối xử như nhau không",
+      "questions": [
+        "Are boys and girls treated equally at your school?",
+        "Do boys and girls at your school get the same opportunities?",
+        "At your school, are any activities only for boys or only for girls?",
+        "How fairly are boys and girls treated in your class?"
+      ],
+      "keywords": ["treated equally", "opportunities", "activities", "fair"],
+      "exampleAnswer": "Yes, mostly. Boys and girls can join any club, and class jobs are shared fairly.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Nam và nữ có nên được trả lương như nhau không",
+      "questions": [
+        "Should men and women be paid the same for the same job? Why?",
+        "Why is it unfair when women earn less than men?",
+        "Do you think men and women should get equal salaries? Why?",
+        "Why should a woman get the same salary as a man for the same work?"
+      ],
+      "keywords": ["salary", "equal", "the same job", "fair"],
+      "exampleAnswer": "Yes, they should, because they do the same work and have the same skills, so they deserve the same pay.",
+      "expectsReason": true
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Nghề em muốn làm và kỹ năng cần có",
+      "questions": [
+        "What career would you like to have, and what skills does it need?",
+        "What job do you want to do in the future? What skills are needed?",
+        "Which career are you interested in, and why?",
+        "What do you need to learn to do your dream job well?"
+      ],
+      "keywords": ["career", "skills", "should be", "need"],
+      "exampleAnswer": "I'd like to be an engineer. I need to be good at maths and physics, and I must work well in a team.",
+      "expectsReason": true
     }
   ],
   "independent": [
@@ -360,6 +454,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["equal chances", "should be given", "safe", "because", "everyone"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Kể về người làm nghề \"không truyền thống\"",
+      "contextVi": "Bạn trao đổi người Úc hỏi em có biết ai làm công việc mà nhiều người nghĩ chỉ dành cho giới kia không.",
+      "aiRole": "Emma, an exchange student from Australia",
+      "studentRoleVi": "Học sinh Việt Nam kể về một người em biết",
+      "goalVi": "Kể người đó làm nghề gì, công việc cần kỹ năng gì và mọi người nhìn nhận ra sao.",
+      "goal": "Describe someone you know who does a job often done by the other gender: what they do, what skills they need, and how people see them.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["traditionally", "skilful", "physical strength", "caring", "career"] },
+        { "kind": "reason", "vi": "Nói vì sao người đó làm tốt công việc (because...)", "words": [] }
+      ],
+      "opener": "In Australia, my mum is a truck driver! Do you know anyone in Viet Nam with a job like that?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Wow! What does that person do every day?",
+        "What skills does that job need?",
+        "How do people around them feel about their job?"
+      ],
+      "tipsVi": ["Dùng \"... is traditionally done by men / women\".", "Mô tả kỹ năng: \"You need ... to do this job.\""],
+      "keywords": ["traditionally", "need", "skilful", "because"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Bầu lớp trưởng: chọn theo năng lực hay giới tính?",
+      "contextVi": "Lớp em sắp bầu lớp trưởng. Một bạn cho rằng lớp trưởng nên là con trai. Em muốn ủng hộ Mai, một bạn nữ rất có trách nhiệm.",
+      "aiRole": "Duc, a classmate",
+      "studentRoleVi": "Bạn cùng lớp, ủng hộ Mai",
+      "goalVi": "Thuyết phục bạn rằng lớp trưởng nên được chọn theo năng lực, không theo giới tính; nêu lý do và ví dụ về Mai.",
+      "goal": "Persuade Duc that the class monitor should be chosen for their skills, not their gender, and support Mai with reasons and examples.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do (because...)", "words": [] },
+        { "kind": "example", "vi": "Đưa ví dụ việc Mai đã làm tốt", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["gender", "equal", "should be chosen", "responsible", "treated equally"] }
+      ],
+      "opener": "We're voting for a new class monitor tomorrow. I think we should choose a boy. Who are you going to vote for?",
+      "stance": "A boy should be our class monitor. Boys are better leaders, and the other students will listen to them more.",
+      "turns": 5,
+      "fallback": [
+        "Mai? Why do you want to vote for her?",
+        "But boys are better leaders. Students will listen to a boy more, won't they?",
+        "Hmm. Can you give me an example of something Mai has done well?",
+        "OK, you've got a point. So how should a class monitor be chosen?"
+      ],
+      "tipsVi": ["Dùng bị động với động từ khuyết thiếu: \"A monitor should be chosen for ...\"", "Đưa ví dụ cụ thể về điều Mai đã làm tốt cho lớp."],
+      "keywords": ["should be chosen", "skills", "gender", "for example"]
     }
   ]
 }

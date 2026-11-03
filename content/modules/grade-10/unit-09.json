@@ -27,7 +27,16 @@
     { "id": "v19", "en": "tortoise", "vi": "con rùa", "ipa": "/ˈtɔːtəs/", "ipaFrom": "glossary", "pos": "n", "example": "Some tortoises can live for more than a hundred years.", "collocations": ["giant tortoise"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
     { "id": "v20", "en": "trade", "vi": "buôn bán", "ipa": "/treɪd/", "ipaFrom": "glossary", "pos": "n", "example": "The illegal trade in wild animals must be stopped.", "collocations": ["illegal wildlife trade"], "synonyms": ["selling"], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
     { "id": "v21", "en": "upset", "vi": "làm rối loạn, xáo trộn", "ipa": "/ʌpˈset/", "ipaFrom": "glossary", "pos": "v", "example": "Too many tourists can upset the life of animals on the island.", "collocations": ["upset the balance"], "synonyms": ["disturb"], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
-    { "id": "v22", "en": "wildlife", "vi": "động vật hoang dã", "ipa": "/ˈwaɪldlaɪf/", "ipaFrom": "glossary", "pos": "n", "example": "We visited a centre that protects wildlife in Cuc Phuong.", "collocations": ["protect wildlife", "wildlife organisation"], "synonyms": ["wild animals"], "antonyms": [], "src": { "kind": "sgk", "page": 131 } }
+    { "id": "v22", "en": "wildlife", "vi": "động vật hoang dã", "ipa": "/ˈwaɪldlaɪf/", "ipaFrom": "glossary", "pos": "n", "example": "We visited a centre that protects wildlife in Cuc Phuong.", "collocations": ["protect wildlife", "wildlife organisation"], "synonyms": ["wild animals"], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v23", "en": "global warming", "vi": "sự nóng lên toàn cầu", "ipa": "/ˌɡləʊbl ˈwɔːmɪŋ/", "ipaFrom": "dictionary", "pos": "n", "example": "Global warming is causing more heatwaves and floods.", "collocations": ["cause global warming", "reduce global warming"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 100 } },
+    { "id": "v24", "en": "pollution", "vi": "sự ô nhiễm", "ipa": "/pəˈluːʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "Air pollution in big cities is getting worse every year.", "collocations": ["air pollution", "water pollution"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 100 } },
+    { "id": "v25", "en": "atmosphere", "vi": "khí quyển", "ipa": "/ˈætməsfɪə/", "ipaFrom": "dictionary", "pos": "n", "example": "Waste gases from factories go into the atmosphere.", "collocations": ["the earth's atmosphere"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 103 } },
+    { "id": "v26", "en": "sea level", "vi": "mực nước biển", "ipa": "/ˈsiː levl/", "ipaFrom": "dictionary", "pos": "n", "example": "Rising sea levels are a serious danger to the Mekong Delta.", "collocations": ["rising sea levels"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 103 } },
+    { "id": "v27", "en": "flood", "vi": "lũ lụt", "ipa": "/flʌd/", "ipaFrom": "dictionary", "pos": "n", "example": "Heavy floods destroyed many houses in the central provinces last year.", "collocations": ["heavy floods", "floods and heatwaves"], "synonyms": [], "antonyms": ["drought"], "src": { "kind": "sgk", "page": 103 } },
+    { "id": "v28", "en": "destroy", "vi": "phá hủy", "ipa": "/dɪˈstrɔɪ/", "ipaFrom": "dictionary", "pos": "v", "example": "Cutting down forests destroys the homes of many animals.", "collocations": ["destroy habitats", "destroy forests"], "synonyms": ["damage", "ruin"], "antonyms": ["protect"], "src": { "kind": "sgk", "page": 103 } },
+    { "id": "v29", "en": "disappear", "vi": "biến mất", "ipa": "/ˌdɪsəˈpɪə/", "ipaFrom": "dictionary", "pos": "v", "example": "Many species may disappear if their habitats are destroyed.", "collocations": ["disappear forever"], "synonyms": ["die out"], "antonyms": ["appear"], "src": { "kind": "sgk", "page": 103 } },
+    { "id": "v30", "en": "illegal", "vi": "bất hợp pháp", "ipa": "/ɪˈliːɡl/", "ipaFrom": "dictionary", "pos": "adj", "example": "Illegal hunting puts many wild animals in danger.", "collocations": ["illegal hunting", "illegal trade"], "synonyms": [], "antonyms": ["legal"], "src": { "kind": "sgk", "page": 104 } },
+    { "id": "v31", "en": "solution", "vi": "giải pháp", "ipa": "/səˈluːʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "Using public transport is one solution to air pollution.", "collocations": ["a solution to", "find a solution"], "synonyms": ["answer"], "antonyms": ["problem"], "src": { "kind": "sgk", "page": 104 } }
   ],
   "grammar": [
     {
@@ -133,6 +142,19 @@
       "sentence": "I'd like to apologise for forgetting our meeting.",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "ending",
+      "focus": "Đuôi -ed của động từ tường thuật: /t/, /d/, /ɪd/",
+      "tipVi": "Khi tường thuật lời nói, ta dùng nhiều động từ có -ed. Đọc /t/ sau âm vô thanh (asked); /ɪd/ sau /t/, /d/ (reported, suggested); /d/ sau các âm còn lại (explained, advised, warned).",
+      "words": ["asked", "explained", "reported", "advised", "warned", "suggested"],
+      "sentence": "Mrs Le explained that the forest was in danger.",
+      "quiz": [
+        { "prompt": "In which word is -ed pronounced /t/?", "options": ["asked", "explained", "reported"], "answer": 0, "explainVi": "asked kết thúc bằng âm /k/ vô thanh nên -ed đọc /t/; explained đọc /d/, reported đọc /ɪd/." },
+        { "prompt": "In which word is -ed pronounced /ɪd/?", "options": ["suggested", "warned", "advised"], "answer": 0, "explainVi": "suggested kết thúc bằng âm /t/ nên -ed đọc /ɪd/; warned và advised đọc /d/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -146,7 +168,13 @@
     { "id": "e08", "en": "That's all right.", "vi": "Được rồi, không sao.", "useVi": "Chấp nhận lời xin lỗi.", "example": "That's all right. Just bring them tomorrow.", "src": { "kind": "sgk", "page": 107 } },
     { "id": "e09", "en": "Don't worry about it.", "vi": "Đừng lo về chuyện đó.", "useVi": "Đáp lại lời xin lỗi, giúp người kia yên tâm.", "example": "Don't worry about it. I've got a spare copy.", "src": { "kind": "sgk", "page": 107 } },
     { "id": "e10", "en": "One solution is to ...", "vi": "Một giải pháp là ...", "useVi": "Khi đề xuất cách giải quyết một vấn đề môi trường.", "example": "One solution is to plant more trees around the city.", "src": { "kind": "team", "page": null } },
-    { "id": "e11", "en": "He/She told us that ...", "vi": "Thầy/cô ấy nói với chúng mình rằng ...", "useVi": "Khi kể lại lời người khác.", "example": "Our teacher told us that pandas were still endangered.", "src": { "kind": "team", "page": null } }
+    { "id": "e11", "en": "He/She told us that ...", "vi": "Thầy/cô ấy nói với chúng mình rằng ...", "useVi": "Khi kể lại lời người khác.", "example": "Our teacher told us that pandas were still endangered.", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "I'm really sorry. It won't happen again.", "vi": "Mình thật sự xin lỗi. Sẽ không có lần sau đâu.", "useVi": "Khi xin lỗi và hứa sửa lỗi.", "example": "I'm really sorry I left the tap on. It won't happen again.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "It's my fault.", "vi": "Đó là lỗi của mình.", "useVi": "Khi nhận lỗi một cách thẳng thắn.", "example": "The plants died because I forgot to water them. It's my fault.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "I don't know where to start.", "vi": "Mình không biết bắt đầu từ đâu.", "useVi": "Khi cần lời khuyên vì thấy việc quá nhiều, quá khó.", "example": "There are so many environmental problems. I don't know where to start.", "src": { "kind": "sgk", "page": 100 } },
+    { "id": "e15", "en": "What can we do about ...?", "vi": "Chúng ta có thể làm gì với ...?", "useVi": "Khi hỏi giải pháp cho một vấn đề.", "example": "What can we do about the rubbish in the school pond?", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "My teacher asked me to ...", "vi": "Cô giáo nhờ / bảo mình ...", "useVi": "Khi kể lại lời yêu cầu của người khác.", "example": "My teacher asked me to collect old paper for recycling.", "src": { "kind": "team", "page": null } },
+    { "id": "e17", "en": "Can you give me an example?", "vi": "Bạn cho mình một ví dụ được không?", "useVi": "Khi muốn người nói giải thích rõ hơn.", "example": "You said wildlife is in danger. Can you give me an example?", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["My teacher said", "that we should", "save water", "every day"], "vi": "Cô giáo nói rằng chúng ta nên tiết kiệm nước mỗi ngày.", "grammarId": "g01" },
@@ -155,7 +183,10 @@
     { "id": "b04", "chunks": ["The expert said", "climate change", "was causing", "more extreme weather"], "vi": "Chuyên gia nói biến đổi khí hậu đang gây ra nhiều thời tiết khắc nghiệt hơn.", "grammarId": "g01" },
     { "id": "b05", "chunks": ["My mum told me", "to turn off", "the tap", "while brushing my teeth"], "vi": "Mẹ bảo mình khóa vòi nước khi đánh răng.", "grammarId": "g03" },
     { "id": "b06", "chunks": ["Deforestation", "destroys", "the habitats", "of many wild animals"], "vi": "Nạn phá rừng phá hủy môi trường sống của nhiều loài động vật hoang dã.", "grammarId": null },
-    { "id": "b07", "chunks": ["We must", "protect biodiversity", "to keep", "the balance of nature"], "vi": "Chúng ta phải bảo vệ đa dạng sinh học để giữ cân bằng tự nhiên.", "grammarId": null }
+    { "id": "b07", "chunks": ["We must", "protect biodiversity", "to keep", "the balance of nature"], "vi": "Chúng ta phải bảo vệ đa dạng sinh học để giữ cân bằng tự nhiên.", "grammarId": null },
+    { "id": "b08", "chunks": ["The speaker", "told us", "not to burn", "plastic rubbish"], "vi": "Diễn giả dặn chúng mình không đốt rác nhựa.", "grammarId": "g03" },
+    { "id": "b09", "chunks": ["Mai asked me", "if I wanted", "to join", "the Green Club"], "vi": "Mai hỏi mình có muốn vào câu lạc bộ Xanh không.", "grammarId": "g02" },
+    { "id": "b10", "chunks": ["Rising sea levels", "are a serious danger", "to the Mekong Delta"], "vi": "Mực nước biển dâng là mối nguy nghiêm trọng với đồng bằng sông Cửu Long.", "grammarId": null }
   ],
   "expand": [
     {
@@ -194,6 +225,24 @@
         { "askVi": "Vì sao cách đó có ích?", "ask": "Why does it help?", "add": "because motorbikes produce a lot of smoke" }
       ],
       "full": "We can reduce air pollution by cycling to school because motorbikes produce a lot of smoke."
+    },
+    {
+      "id": "x05",
+      "base": "Forests are disappearing.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in many parts of the world" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because people cut down trees for farmland" }
+      ],
+      "full": "Forests are disappearing in many parts of the world because people cut down trees for farmland."
+    },
+    {
+      "id": "x06",
+      "base": "My teacher told us to save water.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at home and at school" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because there isn't enough clean water in some areas" }
+      ],
+      "full": "My teacher told us to save water at home and at school because there isn't enough clean water in some areas."
     }
   ],
   "variations": [
@@ -203,7 +252,8 @@
       "questions": [
         "What are the consequences of climate change?",
         "How does climate change affect our lives?",
-        "What problems does global warming cause in Viet Nam?"
+        "What problems does global warming cause in Viet Nam?",
+        "How does global warming affect people and animals?"
       ],
       "keywords": ["heatwave", "extreme", "ice melting", "flood"],
       "exampleAnswer": "Climate change causes extreme weather like heatwaves and floods, and ice melting makes the sea level rise.",
@@ -215,7 +265,8 @@
       "questions": [
         "Why is deforestation a serious problem?",
         "Why shouldn't people cut down so many trees?",
-        "Why is it dangerous for wildlife when forests disappear?"
+        "Why is it dangerous for wildlife when forests disappear?",
+        "What happens to animals when forests are cut down?"
       ],
       "keywords": ["deforestation", "habitat", "wildlife", "flood"],
       "exampleAnswer": "Deforestation is serious because animals lose their habitats, and without trees there are more floods.",
@@ -227,7 +278,8 @@
       "questions": [
         "How can we protect wildlife?",
         "What can people do to save endangered animals?",
-        "What should be done to stop the illegal wildlife trade?"
+        "What should be done to stop the illegal wildlife trade?",
+        "What can be done to protect endangered animals?"
       ],
       "keywords": ["habitat", "hunting", "trade", "national parks"],
       "exampleAnswer": "We should stop illegal hunting, protect habitats in national parks and never buy products made from wild animals.",
@@ -239,7 +291,8 @@
       "questions": [
         "What practical things can students do for the environment?",
         "What simple actions can teenagers take to help the planet?",
-        "What could your class do this month to protect the environment?"
+        "What could your class do this month to protect the environment?",
+        "What small things can students do every day to protect nature?"
       ],
       "keywords": ["practical", "save energy", "plant trees", "reuse"],
       "exampleAnswer": "Students can save electricity, bring reusable bottles and plant trees around the school.",
@@ -251,10 +304,50 @@
       "questions": [
         "Why is biodiversity important?",
         "Why do we need many different kinds of plants and animals?",
-        "Why is it a problem when many species disappear?"
+        "Why is it a problem when many species disappear?",
+        "Why should we protect many different kinds of plants and animals?"
       ],
       "keywords": ["biodiversity", "ecosystem", "balance", "food"],
       "exampleAnswer": "Biodiversity is important because it keeps the balance of nature, and people get food and medicine from many plants and animals.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Ô nhiễm không khí ở nơi em sống",
+      "questions": [
+        "Is air pollution a problem where you live?",
+        "How bad is the air pollution in your town or city?",
+        "What causes air pollution in your area?",
+        "How does air pollution affect people in your city?"
+      ],
+      "keywords": ["air pollution", "traffic", "factories", "health"],
+      "exampleAnswer": "Yes, it is. There are too many motorbikes in my city, so the air is often dirty in the morning.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Lời thầy cô, bố mẹ dặn về bảo vệ môi trường",
+      "questions": [
+        "What did your teacher tell you about protecting the environment?",
+        "What advice about the environment did a teacher give your class?",
+        "What did someone tell you recently about saving energy or water?",
+        "What did your parents ask you to do to help the environment?"
+      ],
+      "keywords": ["told us to", "said that", "asked", "advised"],
+      "exampleAnswer": "My teacher told us to turn off the lights and fans when we leave the classroom.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Vấn đề môi trường nghiêm trọng nhất ở Việt Nam",
+      "questions": [
+        "Which environmental problem is the most serious in Viet Nam? Why?",
+        "What is the biggest environmental problem in our country? Why?",
+        "Which environmental issue worries you most? Why?",
+        "Which problem should Viet Nam solve first, air pollution or deforestation? Why?"
+      ],
+      "keywords": ["serious", "consequence", "pollution", "because"],
+      "exampleAnswer": "I think air pollution is the most serious problem because it causes respiratory diseases for millions of people in big cities.",
       "expectsReason": true
     }
   ],
@@ -367,6 +460,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["climate change", "extreme weather", "because", "we can", "consequence"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Kể lại cho mẹ buổi nói chuyện về ô nhiễm",
+      "contextVi": "Hôm nay một chuyên gia môi trường đến trường nói chuyện về ô nhiễm không khí. Về nhà, mẹ hỏi em chuyên gia đã nói gì.",
+      "aiRole": "Mum",
+      "studentRoleVi": "Con, kể lại buổi nói chuyện",
+      "goalVi": "Tường thuật lại điều chuyên gia nói và hỏi, rồi đề xuất một việc gia đình có thể làm.",
+      "goal": "Report what the expert said and asked at the talk, and suggest one thing your family can do.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng câu tường thuật", "words": ["said that", "told us to", "asked", "pollution", "solution"] },
+        { "kind": "suggestion", "vi": "Đề xuất một việc gia đình có thể làm", "words": [] }
+      ],
+      "opener": "You're home! How was the talk about the environment today? What did the expert say?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Really? What else did she tell you?",
+        "Did she ask you any questions?",
+        "So what do you think our family should do?"
+      ],
+      "tipsVi": ["Lùi thì khi tường thuật: is → was, will → would, can → could.", "Dùng \"She told us to ...\" cho lời khuyên."],
+      "keywords": ["said that", "told us to", "asked", "pollution"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Chặt cây trong sân trường để làm chỗ để xe?",
+      "contextVi": "Nhà trường đang nghĩ đến việc chặt một số cây trong sân để mở rộng chỗ để xe. Em đại diện câu lạc bộ Xanh gặp thầy phó hiệu trưởng để nêu ý kiến.",
+      "aiRole": "Mr Nam, the deputy head teacher",
+      "studentRoleVi": "Đại diện câu lạc bộ Xanh",
+      "goalVi": "Giải thích vì sao nên giữ cây, nêu lý do và ví dụ, và đề xuất giải pháp khác cho chỗ để xe.",
+      "goal": "Explain why the trees should be kept, give reasons and an example, and suggest another solution for parking.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do nên giữ cây (because...)", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất giải pháp khác cho chỗ để xe", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["habitat", "shade", "pollution", "solution", "balance"] }
+      ],
+      "opener": "As you know, students don't have enough space to park their bikes. We're planning to cut down some trees. What do you think?",
+      "stance": "We need more space for parking. A few trees are not important.",
+      "turns": 5,
+      "fallback": [
+        "Hmm, why are those trees so important?",
+        "But we need more space for parking. A few trees are not important, are they?",
+        "So what other solution can you suggest?",
+        "Interesting. How can the Green Club help with that?"
+      ],
+      "tipsVi": ["Nêu lý do cụ thể: cây cho bóng mát, làm sạch không khí, là nơi ở của chim.", "Đưa giải pháp thay thế: xếp xe hai tầng, khuyến khích đi bộ, đi xe buýt."],
+      "keywords": ["shade", "habitat", "solution", "because"]
     }
   ]
 }

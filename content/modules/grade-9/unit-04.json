@@ -25,7 +25,18 @@
     { "id": "v17", "en": "heritage", "vi": "di sản", "ipa": "/ˈherɪtɪdʒ/", "ipaFrom": "dictionary", "pos": "n", "example": "We must protect our cultural heritage for the future.", "collocations": ["cultural heritage", "World Heritage Site"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 42 } },
     { "id": "v18", "en": "magnificent", "vi": "tráng lệ, nguy nga", "ipa": "/mæɡˈnɪfɪsnt/", "ipaFrom": "dictionary", "pos": "adj", "example": "The old palace in Hue is magnificent.", "collocations": ["a magnificent view", "a magnificent building"], "synonyms": ["beautiful", "impressive"], "antonyms": [], "src": { "kind": "sgk", "page": 42 } },
     { "id": "v19", "en": "custom", "vi": "phong tục", "ipa": "/ˈkʌstəm/", "ipaFrom": "dictionary", "pos": "n", "example": "Giving lucky money at Tet is an old custom.", "collocations": ["local customs", "customs and traditions"], "synonyms": ["tradition"], "antonyms": [], "src": { "kind": "sgk", "page": 42 } },
-    { "id": "v20", "en": "tradition", "vi": "truyền thống", "ipa": "/trəˈdɪʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "It is our duty to keep our traditions alive.", "collocations": ["keep traditions alive", "a family tradition"], "synonyms": ["custom"], "antonyms": [], "src": { "kind": "sgk", "page": 42 } }
+    { "id": "v20", "en": "tradition", "vi": "truyền thống", "ipa": "/trəˈdɪʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "It is our duty to keep our traditions alive.", "collocations": ["keep traditions alive", "a family tradition"], "synonyms": ["custom"], "antonyms": [], "src": { "kind": "sgk", "page": 42 } },
+    { "id": "v21", "en": "basic", "vi": "cơ bản", "ipa": "/ˈbeɪsɪk/", "ipaFrom": "glossary", "pos": "adj", "example": "In the past, many village children only had a basic education.", "collocations": ["basic education", "basic needs"], "synonyms": ["simple"], "antonyms": ["advanced"], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v22", "en": "complex", "vi": "khu phức hợp, quần thể", "ipa": "/ˈkɒmpleks/", "ipaFrom": "glossary", "pos": "n", "example": "The old capital has a large complex of temples and palaces.", "collocations": ["temple complex", "a complex of buildings"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v23", "en": "found", "vi": "thành lập", "ipa": "/faʊnd/", "ipaFrom": "glossary", "pos": "v", "example": "Our school was founded more than sixty years ago.", "collocations": ["found a school", "found a city"], "synonyms": ["establish"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v24", "en": "occupied", "vi": "có người ở", "ipa": "/ˈɒkjupaɪd/", "ipaFrom": "glossary", "pos": "adj", "example": "This old castle is still occupied by the royal family.", "collocations": ["still occupied"], "synonyms": [], "antonyms": ["empty"], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v25", "en": "religious", "vi": "(thuộc) tôn giáo", "ipa": "/rɪˈlɪdʒəs/", "ipaFrom": "glossary", "pos": "adj", "example": "Many people visit the pagoda for religious festivals.", "collocations": ["religious building", "religious festival"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v26", "en": "temple", "vi": "đền", "ipa": "/ˈtempl/", "ipaFrom": "dictionary", "pos": "n", "example": "There is a small temple at the end of my village.", "collocations": ["visit a temple", "ancient temple"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 40 } },
+    { "id": "v27", "en": "preservation", "vi": "sự bảo tồn", "ipa": "/ˌprezəˈveɪʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "Thanks to preservation work, the old house looks almost the same as before.", "collocations": ["preservation work", "the preservation of heritage"], "synonyms": ["protection"], "antonyms": ["destruction"], "src": { "kind": "sgk", "page": 40 } },
+    { "id": "v28", "en": "historic site", "vi": "di tích lịch sử", "ipa": "/hɪˈstɒrɪk saɪt/", "ipaFrom": "dictionary", "pos": "n", "example": "Our class visited a national historic site last spring.", "collocations": ["national historic site", "visit a historic site"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 40 } },
+    { "id": "v29", "en": "contribution", "vi": "sự đóng góp", "ipa": "/ˌkɒntrɪˈbjuːʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "Thanks to everyone's contribution, the village rebuilt its old well.", "collocations": ["make a contribution", "kind contribution"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 41 } },
+    { "id": "v30", "en": "safeguard", "vi": "bảo vệ, gìn giữ", "ipa": "/ˈseɪfɡɑːd/", "ipaFrom": "dictionary", "pos": "v", "example": "We must safeguard our old monuments for future generations.", "collocations": ["safeguard heritage", "safeguard traditions"], "synonyms": ["protect"], "antonyms": [], "src": { "kind": "sgk", "page": 42 } },
+    { "id": "v31", "en": "cuisine", "vi": "ẩm thực", "ipa": "/kwɪˈziːn/", "ipaFrom": "dictionary", "pos": "n", "example": "Vietnamese cuisine is famous for its fresh herbs.", "collocations": ["traditional cuisine", "local cuisine"], "synonyms": ["food"], "antonyms": [], "src": { "kind": "sgk", "page": 40 } }
   ],
   "grammar": [
     {
@@ -113,6 +124,19 @@
       "sentence": "I wish I could go back to my grandparents' time.",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "ending",
+      "focus": "Đuôi -ed của động từ quá khứ: /t/, /d/, /ɪd/",
+      "tipVi": "Sau âm vô thanh như /k/, /tʃ/, /s/ đọc /t/ (worked, watched). Sau nguyên âm và âm hữu thanh như /v/, /n/ đọc /d/ (lived, played). Sau /t/ và /d/ đọc /ɪd/ (visited, celebrated).",
+      "words": ["worked", "watched", "lived", "played", "visited", "celebrated"],
+      "sentence": "My grandparents lived in a small village and worked in the fields.",
+      "quiz": [
+        { "prompt": "Which word ends with the sound /ɪd/?", "options": ["visited", "lived", "watched"], "answer": 0, "explainVi": "visited kết thúc bằng /ɪd/ vì động từ gốc visit tận cùng là /t/." },
+        { "prompt": "Which word ends with the sound /t/?", "options": ["worked", "played", "celebrated"], "answer": 0, "explainVi": "worked kết thúc bằng /t/ vì động từ gốc work tận cùng là âm vô thanh /k/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -125,7 +149,13 @@
     { "id": "e07", "en": "It reminds me of ...", "vi": "Nó làm mình nhớ đến ...", "useVi": "Khi một món ăn hay đồ vật gợi lại kỉ niệm.", "example": "This soup reminds me of my grandma's kitchen.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "This dish is made from ...", "vi": "Món này được làm từ ...", "useVi": "Khi giới thiệu nguyên liệu của một món ăn.", "example": "This dish is made from sticky rice, pork and green beans.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "It's usually eaten ...", "vi": "Món này thường được ăn ...", "useVi": "Khi nói món ăn được ăn khi nào, với gì.", "example": "It's usually eaten during Tet with pickled onions.", "src": { "kind": "team", "page": null } },
-    { "id": "e10", "en": "I see what you mean, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi lịch sự nêu ý khác.", "example": "I see what you mean, but life today has many good points too.", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "I see what you mean, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi lịch sự nêu ý khác.", "example": "I see what you mean, but life today has many good points too.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "I really appreciate your help.", "vi": "Mình rất cảm kích sự giúp đỡ của bạn.", "useVi": "Khi muốn cảm ơn một cách trân trọng, lịch sự.", "example": "I really appreciate your help with my history project.", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "It was my pleasure.", "vi": "Đó là niềm vui của tôi mà.", "useVi": "Khi đáp lại lời cảm ơn một cách lịch sự, trang trọng.", "example": "It was my pleasure. I love talking about our village.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "Don't mention it.", "vi": "Có gì đâu mà.", "useVi": "Khi đáp lại lời cảm ơn một cách thân mật.", "example": "Don't mention it. I was happy to help.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "Back in those days, ...", "vi": "Hồi đó, ...", "useVi": "Khi kể chuyện ngày xưa của ông bà hay của làng.", "example": "Back in those days, there was no electricity in my grandpa's village.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "I wish we still ...", "vi": "Ước gì chúng ta vẫn còn ...", "useVi": "Khi tiếc nuối một điều tốt đẹp của ngày xưa nay không còn.", "example": "I wish we still played folk games in the village yard.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "It was built in ...", "vi": "Nó được xây vào ...", "useVi": "Khi giới thiệu thời gian xây dựng của một công trình cổ.", "example": "It was built in the eleventh century.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["I was doing", "my homework", "when the lights", "went out"], "vi": "Mình đang làm bài tập thì mất điện.", "grammarId": "g01" },
@@ -135,7 +165,9 @@
     { "id": "b05", "chunks": ["Children in the past", "often played", "barefoot", "in the fields"], "vi": "Trẻ em ngày xưa thường chơi chân trần ngoài đồng.", "grammarId": null },
     { "id": "b06", "chunks": ["We should", "observe", "our deep-rooted", "traditions"], "vi": "Chúng ta nên giữ gìn những truyền thống lâu đời.", "grammarId": null },
     { "id": "b07", "chunks": ["The village", "celebrates", "its anniversary", "every spring"], "vi": "Ngôi làng tổ chức lễ kỉ niệm vào mỗi mùa xuân.", "grammarId": null },
-    { "id": "b08", "chunks": ["At 8 p.m. yesterday", "we were watching", "a programme", "about ancient towns"], "vi": "Lúc 8 giờ tối qua, chúng mình đang xem một chương trình về các phố cổ.", "grammarId": "g01" }
+    { "id": "b08", "chunks": ["At 8 p.m. yesterday", "we were watching", "a programme", "about ancient towns"], "vi": "Lúc 8 giờ tối qua, chúng mình đang xem một chương trình về các phố cổ.", "grammarId": "g01" },
+    { "id": "b09", "chunks": ["When the storm started", "we were having dinner", "at my grandma's house"], "vi": "Khi cơn bão bắt đầu, chúng mình đang ăn tối ở nhà bà.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["I wish", "I knew more", "about the history", "of my village"], "vi": "Ước gì mình biết nhiều hơn về lịch sử làng mình.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -175,6 +207,26 @@
         { "askVi": "Vì sao?", "ask": "Why?", "add": "because it is a deep-rooted tradition" }
       ],
       "full": "My family makes banh chung every Tet holiday because it is a deep-rooted tradition."
+    },
+    {
+      "id": "x05",
+      "base": "People built a temple.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "on the hill" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "in the eleventh century" },
+        { "askVi": "Để làm gì?", "ask": "Why?", "add": "to worship their king" }
+      ],
+      "full": "People built a temple on the hill in the eleventh century to worship their king."
+    },
+    {
+      "id": "x06",
+      "base": "My grandma was cooking.",
+      "steps": [
+        { "askVi": "Bà nấu gì?", "ask": "What was she cooking?", "add": "sticky rice" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in the kitchen" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "when I arrived" }
+      ],
+      "full": "My grandma was cooking sticky rice in the kitchen when I arrived."
     }
   ],
   "variations": [
@@ -236,6 +288,45 @@
       ],
       "keywords": ["monument", "heritage", "ancient", "recognise"],
       "exampleAnswer": "Ancient buildings show how people lived in the past, so they help us understand our history.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Em đang làm gì vào một lúc trong quá khứ",
+      "questions": [
+        "What were you doing at eight o'clock last night?",
+        "What was your family doing when you got home yesterday?",
+        "Tell me what you were doing at this time last Sunday.",
+        "What were you and your friends doing when the bell rang this morning?"
+      ],
+      "keywords": ["was", "were", "V-ing", "when"],
+      "exampleAnswer": "At eight o'clock last night I was doing my maths homework, and my parents were watching the news in the living room.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Trò chơi và đồ chơi ngày xưa",
+      "questions": [
+        "What games did children play in the past?",
+        "What toys did your parents have when they were young?",
+        "Tell me about a game your grandparents played as children.",
+        "How did children in the past have fun without electronic devices?"
+      ],
+      "keywords": ["folk game", "tug of war", "played", "natural materials"],
+      "exampleAnswer": "My grandpa played tug of war and flew kites he made from bamboo and paper. He didn't have any electronic devices.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Một di tích lịch sử em muốn đến thăm",
+      "questions": [
+        "Which historic site in Viet Nam would you most like to visit? Why?",
+        "Which ancient monument in the world do you dream of visiting? Why?",
+        "Which old building in our country should every student see? Why?",
+        "Tell me about a historic place you want to explore and why."
+      ],
+      "keywords": ["historic site", "monument", "heritage", "because"],
+      "exampleAnswer": "I'd like to visit Hue Imperial City because it is magnificent and I want to learn how the kings lived in the past.",
       "expectsReason": true
     }
   ],
@@ -349,6 +440,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["ancient", "heritage", "because", "future generations", "tourists"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Cảm ơn hướng dẫn viên ở Văn Miếu",
+      "contextVi": "Lớp em vừa tham quan Văn Miếu – Quốc Tử Giám. Cuối buổi, em thay mặt lớp cảm ơn chú hướng dẫn viên và hỏi thêm vài điều em còn tò mò.",
+      "aiRole": "Mr Duc, a tour guide at the Temple of Literature",
+      "studentRoleVi": "Học sinh đại diện lớp",
+      "goalVi": "Cảm ơn hướng dẫn viên, hỏi thêm ít nhất hai câu về di tích (xây khi nào, dùng để làm gì) và đáp lại lịch sự.",
+      "goal": "Thank the guide, ask at least two more questions about the site (when it was built, what it was used for) and respond politely.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng một cách cảm ơn của bài", "words": ["Thank you very much for", "Thanks a lot for", "I really appreciate"] },
+        { "kind": "example", "vi": "Hỏi ít nhất hai câu cụ thể về di tích", "words": [] }
+      ],
+      "opener": "Well, that's the end of our tour. I hope you enjoyed it. Any questions?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "You're welcome! It's my job, and I love it. What else would you like to know?",
+        "Good question. It was built in 1070, and it was the first university in Viet Nam.",
+        "It was my pleasure. Come back again with your family!"
+      ],
+      "tipsVi": ["Mở đầu: \"Thank you very much for showing us around.\"", "Hỏi: \"When was it built?\" hoặc \"What was it used for?\""],
+      "keywords": ["thank", "temple", "historic site", "built", "ancient"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Tối qua lúc mất điện em đang làm gì?",
+      "contextVi": "Tối qua cả khu phố bị mất điện trong một giờ vì trời bão. Sáng nay ở trường, Linh hỏi lúc đó em và gia đình đang làm gì.",
+      "aiRole": "Linh, a classmate who lives in another area",
+      "studentRoleVi": "Học sinh kể lại buổi tối mất điện",
+      "goalVi": "Kể lúc mất điện mỗi người trong nhà đang làm gì, cả nhà làm gì sau đó và em ước điều gì.",
+      "goal": "Tell Linh what each person in your family was doing when the power went out, what you did next and what you wish.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng thì quá khứ tiếp diễn và câu ước", "words": ["was", "were", "when", "I wish"] },
+        { "kind": "example", "vi": "Kể việc của ít nhất hai người trong nhà", "words": [] }
+      ],
+      "opener": "Hey, I heard there was a power cut in your area last night. What were you doing when it happened?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Oh no! And what were the others in your family doing?",
+        "So what did you all do in the dark?",
+        "That sounds like fun, actually. Do you wish anything was different?"
+      ],
+      "tipsVi": ["Dùng \"I was ...ing when the lights went out.\"", "Kết thúc bằng \"I wish ...\" (quá khứ đơn)."],
+      "keywords": ["was", "were", "when", "power cut", "I wish"]
     }
   ]
 }

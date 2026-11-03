@@ -25,7 +25,17 @@
     { "id": "v17", "en": "balance", "vi": "sự thăng bằng, sự cân bằng", "ipa": "/ˈbæləns/", "ipaFrom": "glossary", "pos": "n", "example": "Riding a bike helps you improve your balance.", "collocations": ["keep your balance", "lose your balance"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
     { "id": "v18", "en": "hang out", "vi": "đi chơi, tụ tập (với bạn bè)", "ipa": "/ˌhæŋ ˈaʊt/", "ipaFrom": "dictionary", "pos": "phr v", "example": "On Saturday afternoons, I hang out with my friends at the park.", "collocations": ["hang out with friends"], "synonyms": ["spend time with"], "antonyms": [], "src": { "kind": "sgk", "page": 8 } },
     { "id": "v19", "en": "surf the net", "vi": "lướt mạng", "ipa": "/sɜːf ðə net/", "ipaFrom": "dictionary", "pos": "phr", "example": "I sometimes surf the net to learn how to cook new dishes.", "collocations": ["surf the net for information"], "synonyms": ["browse the internet"], "antonyms": [], "src": { "kind": "sgk", "page": 9 } },
-    { "id": "v20", "en": "creativity", "vi": "sự sáng tạo", "ipa": "/ˌkriːeɪˈtɪvəti/", "ipaFrom": "dictionary", "pos": "n", "example": "Making things by hand can increase your creativity.", "collocations": ["increase creativity", "show creativity"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 9 } }
+    { "id": "v20", "en": "creativity", "vi": "sự sáng tạo", "ipa": "/ˌkriːeɪˈtɪvəti/", "ipaFrom": "dictionary", "pos": "n", "example": "Making things by hand can increase your creativity.", "collocations": ["increase creativity", "show creativity"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 9 } },
+    { "id": "v21", "en": "knitting", "vi": "việc đan len", "ipa": "/ˈnɪtɪŋ/", "ipaFrom": "dictionary", "pos": "n", "example": "My aunt taught me knitting, and now I can make a simple scarf.", "collocations": ["a knitting kit", "do some knitting"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 8 } },
+    { "id": "v22", "en": "dollhouse", "vi": "nhà búp bê", "ipa": "/ˈdɒlhaʊs/", "ipaFrom": "dictionary", "pos": "n", "example": "My little sister and I built a dollhouse from old shoe boxes.", "collocations": ["build a dollhouse"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 8 } },
+    { "id": "v23", "en": "memory", "vi": "trí nhớ", "ipa": "/ˈmeməri/", "ipaFrom": "dictionary", "pos": "n", "example": "Doing a crossword every evening can improve your memory.", "collocations": ["improve your memory", "a good memory"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 9 } },
+    { "id": "v24", "en": "physical health", "vi": "sức khỏe thể chất", "ipa": "/ˌfɪzɪkl ˈhelθ/", "ipaFrom": "dictionary", "pos": "n", "example": "Playing badminton twice a week is good for my physical health.", "collocations": ["improve physical health", "good physical health"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 9 } },
+    { "id": "v25", "en": "relaxed", "vi": "thư giãn, thoải mái", "ipa": "/rɪˈlækst/", "ipaFrom": "dictionary", "pos": "adj", "example": "I feel relaxed when I listen to music after a long school day.", "collocations": ["feel relaxed", "stay relaxed"], "synonyms": ["calm"], "antonyms": ["stressed"], "src": { "kind": "sgk", "page": 9 } },
+    { "id": "v26", "en": "recipe", "vi": "công thức nấu ăn", "ipa": "/ˈresəpi/", "ipaFrom": "dictionary", "pos": "n", "example": "My brother found an easy recipe for banana cake online.", "collocations": ["an easy recipe", "look for recipes", "follow a recipe"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 14 } },
+    { "id": "v27", "en": "ingredient", "vi": "nguyên liệu (nấu ăn)", "ipa": "/ɪnˈɡriːdiənt/", "ipaFrom": "dictionary", "pos": "n", "example": "We bought all the ingredients for the pizza at the market near our house.", "collocations": ["prepare the ingredients", "fresh ingredients"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 14 } },
+    { "id": "v28", "en": "bracelet", "vi": "vòng đeo tay", "ipa": "/ˈbreɪslət/", "ipaFrom": "glossary", "pos": "n", "example": "I made a colourful bracelet for my best friend's birthday.", "collocations": ["make a bracelet", "a friendship bracelet"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v29", "en": "fold", "vi": "gấp, gập", "ipa": "/fəʊld/", "ipaFrom": "glossary", "pos": "v", "example": "First, fold the paper in half, then fold the corners down.", "collocations": ["fold paper", "fold in half"], "synonyms": [], "antonyms": ["unfold"], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v30", "en": "muscle", "vi": "cơ bắp", "ipa": "/ˈmʌsl/", "ipaFrom": "glossary", "pos": "n", "example": "Swimming makes the muscles in your arms and legs stronger.", "collocations": ["strong muscles", "build muscle"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } }
   ],
   "grammar": [
     {
@@ -146,6 +156,18 @@
       "sentence": "Would you like to go to the cooking club with me?",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p05",
+      "kind": "sentence_stress",
+      "focus": "Nhấn động từ chỉ sở thích và tên hoạt động",
+      "tipVi": "Trong câu nói về sở thích, nhấn mạnh động từ chỉ cảm xúc (love, hate, detest) và tên hoạt động. Các từ nhỏ như I, but, the đọc nhẹ và nhanh.",
+      "words": ["love", "hate", "detest", "knitting", "cooking"],
+      "sentence": "I love knitting, but I hate cooking.",
+      "quiz": [
+        { "prompt": "In \"I love knitting\", which words are usually stressed?", "options": ["love and knitting", "I and love", "I and knitting"], "answer": 0, "explainVi": "Nhấn từ mang nghĩa chính: love (cảm xúc) và knitting (hoạt động); I đọc nhẹ." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -158,7 +180,14 @@
     { "id": "e07", "en": "Sorry, I can't. I have to ...", "vi": "Xin lỗi, mình không đi được. Mình phải ...", "useVi": "Khi từ chối lời mời một cách lịch sự và nêu lý do.", "example": "Sorry, I can't. I have to visit my grandparents on Sunday.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "How about ...?", "vi": "Thế còn ... thì sao?", "useVi": "Khi gợi ý một hoạt động khác.", "example": "How about going to the park instead?", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "It helps me ...", "vi": "Việc đó giúp mình ...", "useVi": "Khi nói lợi ích của một hoạt động.", "example": "Doing puzzles helps me think more carefully.", "src": { "kind": "team", "page": null } },
-    { "id": "e10", "en": "In my free time, I usually ...", "vi": "Lúc rảnh, mình thường ...", "useVi": "Khi bắt đầu kể về các hoạt động lúc rảnh.", "example": "In my free time, I usually do DIY or read comics.", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "In my free time, I usually ...", "vi": "Lúc rảnh, mình thường ...", "useVi": "Khi bắt đầu kể về các hoạt động lúc rảnh.", "example": "In my free time, I usually do DIY or read comics.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "Let's meet ... at ...", "vi": "Chúng ta gặp nhau ở ... lúc ... nhé.", "useVi": "Khi hẹn bạn địa điểm và giờ gặp nhau.", "example": "Let's meet at the park gate at 4 p.m.", "src": { "kind": "sgk", "page": 8 } },
+    { "id": "e12", "en": "Can I ask ... to join us?", "vi": "Mình rủ thêm ... đi cùng được không?", "useVi": "Khi muốn hỏi xem có thể rủ thêm một người bạn khác.", "example": "Can I ask my cousin to join us on Sunday?", "src": { "kind": "sgk", "page": 8 } },
+    { "id": "e13", "en": "I'm interested in ...", "vi": "Mình quan tâm đến / thích ...", "useVi": "Khi nói về điều mình thích tìm hiểu hoặc thích làm.", "example": "I'm interested in taking photos of street life.", "src": { "kind": "sgk", "page": 10 } },
+    { "id": "e14", "en": "I'm crazy about ...", "vi": "Mình mê ... lắm.", "useVi": "Khi muốn nói mình cực kỳ thích một hoạt động.", "example": "I'm crazy about making paper flowers.", "src": { "kind": "sgk", "page": 10 } },
+    { "id": "e15", "en": "I prefer ... to ...", "vi": "Mình thích ... hơn ...", "useVi": "Khi so sánh và nói mình thích hoạt động nào hơn.", "example": "I prefer reading comics to watching cartoons.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "What about you?", "vi": "Còn bạn thì sao?", "useVi": "Khi đã trả lời xong và muốn hỏi lại người kia cùng câu đó.", "example": "I love knitting in my free time. What about you?", "src": { "kind": "team", "page": null } },
+    { "id": "e17", "en": "Sounds fun! What time?", "vi": "Nghe vui đấy! Mấy giờ thế?", "useVi": "Khi nhận lời rủ và muốn hỏi thêm giờ hẹn.", "example": "A bike ride on Saturday? Sounds fun! What time?", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["I enjoy", "doing puzzles", "because they", "improve my memory"], "vi": "Mình thích giải câu đố vì chúng giúp cải thiện trí nhớ.", "grammarId": "g01" },
@@ -168,7 +197,9 @@
     { "id": "b05", "chunks": ["My brother", "detests", "tidying", "his room"], "vi": "Anh/em trai mình rất ghét dọn phòng.", "grammarId": "g01" },
     { "id": "b06", "chunks": ["I like", "to message", "my friends", "in the evening"], "vi": "Mình thích nhắn tin cho bạn bè vào buổi tối.", "grammarId": "g02" },
     { "id": "b07", "chunks": ["Would you like", "to join", "our origami club", "next week?"], "vi": "Bạn có muốn tham gia câu lạc bộ gấp giấy của bọn mình tuần sau không?", "grammarId": null },
-    { "id": "b08", "chunks": ["We keep in touch", "by messaging", "each other", "every day"], "vi": "Chúng mình giữ liên lạc bằng cách nhắn tin cho nhau mỗi ngày.", "grammarId": null }
+    { "id": "b08", "chunks": ["We keep in touch", "by messaging", "each other", "every day"], "vi": "Chúng mình giữ liên lạc bằng cách nhắn tin cho nhau mỗi ngày.", "grammarId": null },
+    { "id": "b09", "chunks": ["My mum is fond of", "trying new recipes", "at the weekend"], "vi": "Mẹ mình thích thử các công thức nấu ăn mới vào cuối tuần.", "grammarId": "g03" },
+    { "id": "b10", "chunks": ["I hate", "staying indoors", "when the weather", "is nice"], "vi": "Mình ghét ở trong nhà khi thời tiết đẹp.", "grammarId": "g01" }
   ],
   "expand": [
     {
@@ -208,6 +239,25 @@
         { "askVi": "Bao lâu một lần?", "ask": "How often?", "add": "twice a week" }
       ],
       "full": "We play badminton in the park near my house twice a week."
+    },
+    {
+      "id": "x05",
+      "base": "I make bracelets.",
+      "steps": [
+        { "askVi": "Em làm bằng gì?", "ask": "What do you make them with?", "add": "with colourful beads" },
+        { "askVi": "Em làm cho ai?", "ask": "Who are they for?", "add": "for my friends" },
+        { "askVi": "Vì sao em thích làm?", "ask": "Why?", "add": "because it is fun and saves money" }
+      ],
+      "full": "I make bracelets with colourful beads for my friends because it is fun and saves money."
+    },
+    {
+      "id": "x06",
+      "base": "My family cooks together.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every Saturday evening" },
+        { "askVi": "Ai chọn món?", "ask": "Who finds the recipe?", "add": "and my dad always finds a new recipe" }
+      ],
+      "full": "My family cooks together every Saturday evening, and my dad always finds a new recipe."
     }
   ],
   "variations": [
@@ -217,7 +267,8 @@
       "questions": [
         "What do you like doing on your own?",
         "Which activities do you enjoy when you are alone at home?",
-        "What do you do when you have some time to yourself?"
+        "What do you do when you have some time to yourself?",
+        "How do you like to spend an afternoon by yourself?"
       ],
       "keywords": ["DIY", "origami", "puzzle", "enjoy"],
       "exampleAnswer": "I enjoy doing DIY on my own. Last week I made a small bookshelf for my bedroom.",
@@ -229,7 +280,8 @@
       "questions": [
         "Which leisure activity do you dislike, and why?",
         "What is a free-time activity that you really hate doing?",
-        "Is there an activity that you detest? Why?"
+        "Is there an activity that you detest? Why?",
+        "What activity would you never choose to do at the weekend?"
       ],
       "keywords": ["dislike", "detest", "boring", "because"],
       "exampleAnswer": "I dislike shopping for clothes because it takes too long and I get tired.",
@@ -241,7 +293,8 @@
       "questions": [
         "Why is it good to spend time outdoors?",
         "How can outdoor activities help young people?",
-        "What are the benefits of playing outside instead of staying indoors?"
+        "What are the benefits of playing outside instead of staying indoors?",
+        "In what ways is fresh air good for young people?"
       ],
       "keywords": ["outdoors", "stay in shape", "fresh air", "make friends"],
       "exampleAnswer": "Playing outdoors helps us stay in shape. We can also get fresh air and make new friends.",
@@ -253,7 +306,8 @@
       "questions": [
         "How would you invite a friend to the cinema?",
         "What do you say when you want a friend to join you at the park?",
-        "How can you ask a classmate to do an activity with you?"
+        "How can you ask a classmate to do an activity with you?",
+        "What words can you use to invite a classmate to go cycling?"
       ],
       "keywords": ["Would you like to", "Do you fancy", "this weekend"],
       "exampleAnswer": "I would say: Would you like to go to the cinema with me on Saturday? There's a new comedy.",
@@ -265,10 +319,50 @@
       "questions": [
         "What do you do to stay in shape?",
         "Which activities help you keep fit and healthy?",
-        "How do you keep your body strong and healthy after school?"
+        "How do you keep your body strong and healthy after school?",
+        "Which exercise do you do to keep your muscles strong?"
       ],
       "keywords": ["stay in shape", "balance", "cycling", "jogging"],
       "exampleAnswer": "I go jogging three times a week and I play badminton with my dad at the weekend.",
+      "expectsReason": false
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Hoạt động em làm cùng gia đình lúc rảnh",
+      "questions": [
+        "What leisure activities does your family do together?",
+        "How do you and your family spend a free weekend?",
+        "Which activity do you enjoy most with your parents?",
+        "What do you and your relatives like doing when everyone is at home?"
+      ],
+      "keywords": ["cook together", "bike ride", "family", "connect"],
+      "exampleAnswer": "We usually go for a bike ride on Sunday mornings, and in the evening we cook dinner together.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Lợi ích của các hoạt động tự làm (DIY) và thủ công",
+      "questions": [
+        "Why are DIY activities good for teenagers?",
+        "How can making things by hand help you?",
+        "What can you learn from crafts like origami or knitting?",
+        "Why do some people prefer making gifts to buying them?"
+      ],
+      "keywords": ["creativity", "save money", "relaxed", "DIY"],
+      "exampleAnswer": "DIY activities increase our creativity, and they help us save money because we make things ourselves.",
+      "expectsReason": true
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Hoạt động em làm cùng bạn bè",
+      "questions": [
+        "What do you and your friends usually do when you hang out?",
+        "Where do you like to go with your friends at the weekend?",
+        "Which activities do you enjoy with your classmates after school?",
+        "What is the best thing to do with a group of friends?"
+      ],
+      "keywords": ["hang out", "go to the cinema", "play badminton", "make friends"],
+      "exampleAnswer": "We often hang out at the park, play badminton or go to the cinema when there is a new comedy.",
       "expectsReason": false
     }
   ],
@@ -381,6 +475,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["leisure", "creativity", "relaxed", "because"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Rủ bạn mới đến lớp làm vòng tay",
+      "contextVi": "Lớp em có một bạn mới chuyển đến, chưa quen ai. Cuối tuần này nhà văn hóa gần trường có buổi hướng dẫn làm vòng tay. Em muốn rủ bạn đi cùng.",
+      "aiRole": "Linh, a new classmate who has just moved to your town",
+      "studentRoleVi": "Bạn cùng lớp muốn rủ Linh tham gia buổi làm vòng tay",
+      "goalVi": "Mời Linh đi làm vòng tay, nói rõ thời gian, địa điểm và lý do hoạt động này thú vị.",
+      "goal": "Invite Linh to a bracelet-making workshop this weekend: say when and where it is, and why it is fun.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Mời bạn (Would you like to...?, Do you fancy...?)", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do hoạt động này thú vị (because...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["bracelet", "DIY", "creativity", "fancy", "keen on"] }
+      ],
+      "opener": "Hi! I've just moved here and I don't know many people yet. What do people here do at the weekend?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Really? That sounds nice. What will we do there?",
+        "When and where is it?",
+        "Great, I'd love to come. Should I bring anything?"
+      ],
+      "tipsVi": ["Mời bạn bằng \"Would you like to...?\" hoặc \"Do you fancy...?\"", "Hẹn giờ và chỗ gặp: \"Let's meet ... at ...\"."],
+      "keywords": ["Would you like to", "bracelet", "DIY", "Let's meet", "because"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Món quà tự làm tặng mẹ",
+      "contextVi": "Thứ Bảy này là sinh nhật mẹ. Em và anh trai không có nhiều tiền nên bàn nhau tự làm một món quà tặng mẹ.",
+      "aiRole": "Huy, your older brother",
+      "studentRoleVi": "Em trai / em gái, người đưa ra ý tưởng món quà",
+      "goalVi": "Đề xuất một món quà tự làm, giải thích vì sao mẹ sẽ thích và nói cách làm.",
+      "goal": "Suggest a home-made present for Mum's birthday, explain why she will like it and describe how to make it.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất món quà (Why don't we...?, How about...?)", "words": [] },
+        { "kind": "example", "vi": "Nói cụ thể cách làm hoặc cần những gì", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["DIY", "home-made", "fold", "creativity", "bracelet"] }
+      ],
+      "opener": "Mum's birthday is on Saturday, and I only have a little money. Any ideas for a present?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Hmm, that's a nice idea. Why do you think Mum will like it?",
+        "OK. What do we need, and how do we make it?",
+        "Sounds good. When shall we start?"
+      ],
+      "tipsVi": ["Đề xuất bằng \"Why don't we...?\" hoặc \"How about making...?\"", "Kể các bước bằng First, Then, Finally."],
+      "keywords": ["home-made", "DIY", "How about", "because", "fold"]
     }
   ]
 }

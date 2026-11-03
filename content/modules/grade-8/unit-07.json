@@ -27,7 +27,16 @@
     { "id": "v19", "en": "dugong", "vi": "con cá cúi, bò biển", "ipa": "/ˈduːɡɒŋ/", "ipaFrom": "glossary", "pos": "n", "example": "The dugong is a gentle sea animal that eats sea grass.", "collocations": ["endangered dugongs"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
     { "id": "v20", "en": "participate", "vi": "tham gia", "ipa": "/pɑːˈtɪsɪpeɪt/", "ipaFrom": "glossary", "pos": "v", "example": "Our class participates in a clean-up day every month.", "collocations": ["participate in"], "synonyms": ["take part in", "join"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
     { "id": "v21", "en": "resident", "vi": "người dân, dân cư", "ipa": "/ˈrezɪdənt/", "ipaFrom": "glossary", "pos": "n", "example": "The local residents keep their beach clean.", "collocations": ["local residents"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
-    { "id": "v22", "en": "global warming", "vi": "sự nóng lên toàn cầu", "ipa": "/ˌɡləʊbl ˈwɔːmɪŋ/", "ipaFrom": "dictionary", "pos": "n", "example": "Global warming makes the summers hotter every year.", "collocations": ["stop global warming"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 72 } }
+    { "id": "v22", "en": "global warming", "vi": "sự nóng lên toàn cầu", "ipa": "/ˌɡləʊbl ˈwɔːmɪŋ/", "ipaFrom": "dictionary", "pos": "n", "example": "Global warming makes the summers hotter every year.", "collocations": ["stop global warming"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 72 } },
+    { "id": "v23", "en": "environment", "vi": "môi trường", "ipa": "/ɪnˈvaɪrənmənt/", "ipaFrom": "dictionary", "pos": "n", "example": "Everyone in my class wants a clean and safe environment.", "collocations": ["protect the environment", "the natural environment", "harm the environment"], "synonyms": ["nature"], "antonyms": [], "src": { "kind": "sgk", "page": 72 } },
+    { "id": "v24", "en": "recycle", "vi": "tái chế", "ipa": "/ˌriːˈsaɪkl/", "ipaFrom": "dictionary", "pos": "v", "example": "We recycle old newspapers and cans at our school.", "collocations": ["recycle paper", "recycle plastic bottles", "recycling bin"], "synonyms": [], "antonyms": ["throw away"], "src": { "kind": "sgk", "page": 73 } },
+    { "id": "v25", "en": "renewable", "vi": "có thể tái tạo", "ipa": "/rɪˈnjuːəbl/", "ipaFrom": "dictionary", "pos": "adj", "example": "Wind and sunlight are renewable sources of energy.", "collocations": ["renewable source", "renewable energy"], "synonyms": [], "antonyms": ["non-renewable"], "src": { "kind": "sgk", "page": 73 } },
+    { "id": "v26", "en": "waste", "vi": "rác thải, chất thải", "ipa": "/weɪst/", "ipaFrom": "dictionary", "pos": "n", "example": "Our canteen produces a lot of plastic waste every day.", "collocations": ["plastic waste", "reduce waste", "toxic waste"], "synonyms": ["rubbish"], "antonyms": [], "src": { "kind": "sgk", "page": 73 } },
+    { "id": "v27", "en": "dump", "vi": "đổ, vứt bỏ (rác, chất thải)", "ipa": "/dʌmp/", "ipaFrom": "dictionary", "pos": "v", "example": "Nobody should dump rubbish on the river bank.", "collocations": ["dump waste", "dump rubbish"], "synonyms": ["throw away"], "antonyms": [], "src": { "kind": "sgk", "page": 73 } },
+    { "id": "v28", "en": "absorb", "vi": "hấp thụ, hút vào", "ipa": "/əbˈzɔːb/", "ipaFrom": "dictionary", "pos": "v", "example": "Big trees absorb a lot of carbon dioxide from the air.", "collocations": ["absorb carbon dioxide", "absorb water"], "synonyms": ["take in"], "antonyms": ["release"], "src": { "kind": "sgk", "page": 74 } },
+    { "id": "v29", "en": "marine life", "vi": "sinh vật biển", "ipa": "/məˌriːn ˈlaɪf/", "ipaFrom": "dictionary", "pos": "n", "example": "Plastic bags in the sea are dangerous for marine life.", "collocations": ["protect marine life", "rich marine life"], "synonyms": ["sea life"], "antonyms": [], "src": { "kind": "sgk", "page": 74 } },
+    { "id": "v30", "en": "volunteer", "vi": "tình nguyện, làm tình nguyện", "ipa": "/ˌvɒlənˈtɪə/", "ipaFrom": "dictionary", "pos": "v", "example": "My sister volunteers at a beach clean-up every summer.", "collocations": ["volunteer at", "volunteer to help"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 72 } },
+    { "id": "v31", "en": "cut down", "vi": "chặt, đốn (cây)", "ipa": "/ˌkʌt ˈdaʊn/", "ipaFrom": "dictionary", "pos": "phr v", "example": "People cut down the old forest to build a new road.", "collocations": ["cut down trees", "cut down forests"], "synonyms": ["chop down"], "antonyms": ["plant"], "src": { "kind": "sgk", "page": 74 } }
   ],
   "grammar": [
     {
@@ -159,7 +168,13 @@
     { "id": "e08", "en": "For example, ...", "vi": "Ví dụ, ...", "useVi": "Khi đưa ví dụ để ý kiến dễ hiểu và thuyết phục hơn.", "example": "For example, we can bring our own water bottles to school.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "Another way to ... is ...", "vi": "Một cách khác để ... là ...", "useVi": "Khi nêu thêm một cách làm nữa.", "example": "Another way to save energy is to turn off the lights.", "src": { "kind": "team", "page": null } },
     { "id": "e10", "en": "Why don't we ...?", "vi": "Sao chúng ta không ...?", "useVi": "Khi rủ hoặc gợi ý nhẹ nhàng cho bạn bè.", "example": "Why don't we organise a clean-up day this Sunday?", "src": { "kind": "team", "page": null } },
-    { "id": "e11", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but small actions can still help.", "src": { "kind": "team", "page": null } }
+    { "id": "e11", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but small actions can still help.", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "Can you explain what ... means?", "vi": "Bạn giải thích giúp mình ... nghĩa là gì được không?", "useVi": "Khi muốn hỏi nghĩa một từ một cách lịch sự, nhất là với thầy cô.", "example": "Can you explain what \"renewable\" means?", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "How about ...ing?", "vi": "Hay là chúng ta ...?", "useVi": "Khi gợi ý một việc cụ thể cho cả nhóm.", "example": "How about putting a recycling bin in every classroom?", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "It's a good idea to ...", "vi": "... là một ý hay đấy.", "useVi": "Khi khuyên ai đó làm một việc có ích.", "example": "It's a good idea to bring a cloth bag when you go shopping.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "I agree with you because ...", "vi": "Mình đồng ý với bạn vì ...", "useVi": "Khi đồng ý với ý kiến của bạn và nêu thêm lý do.", "example": "I agree with you because plastic takes hundreds of years to break down.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "Every little action helps.", "vi": "Mỗi việc làm nhỏ đều có ích.", "useVi": "Khi động viên người khác rằng việc nhỏ của mỗi người cũng giúp bảo vệ môi trường.", "example": "Turning off one light may seem small, but every little action helps.", "src": { "kind": "team", "page": null } },
+    { "id": "e17", "en": "First, ... Then, ... Finally, ...", "vi": "Đầu tiên, ... Sau đó, ... Cuối cùng, ...", "useVi": "Khi trình bày kế hoạch hoặc các bước theo thứ tự.", "example": "First, we collect the bottles. Then, we wash them. Finally, we take them to the recycling centre.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["We should", "turn off the lights", "when we leave", "the classroom"], "vi": "Chúng ta nên tắt đèn khi rời khỏi lớp học.", "grammarId": "g01" },
@@ -169,7 +184,9 @@
     { "id": "b05", "chunks": ["People shouldn't", "cut down trees", "because animals", "lose their habitats"], "vi": "Mọi người không nên chặt cây vì động vật sẽ mất môi trường sống.", "grammarId": "g03" },
     { "id": "b06", "chunks": ["When factories release", "toxic substances", "the river", "becomes polluted"], "vi": "Khi nhà máy thải ra các chất độc hại, dòng sông bị ô nhiễm.", "grammarId": "g01" },
     { "id": "b07", "chunks": ["We can reduce", "our carbon footprint", "by cycling", "to school"], "vi": "Chúng ta có thể giảm dấu chân cacbon bằng cách đạp xe đến trường.", "grammarId": null },
-    { "id": "b08", "chunks": ["After we planted", "more trees", "the air", "became cleaner"], "vi": "Sau khi chúng ta trồng thêm cây, không khí trở nên sạch hơn.", "grammarId": "g01" }
+    { "id": "b08", "chunks": ["After we planted", "more trees", "the air", "became cleaner"], "vi": "Sau khi chúng ta trồng thêm cây, không khí trở nên sạch hơn.", "grammarId": "g01" },
+    { "id": "b09", "chunks": ["We shouldn't", "dump waste", "into the lake", "because it kills", "the fish"], "vi": "Chúng ta không nên đổ rác thải xuống hồ vì nó làm chết cá.", "grammarId": "g03" },
+    { "id": "b10", "chunks": ["When the volunteers", "arrive", "we will start", "cleaning the beach"], "vi": "Khi các tình nguyện viên đến, chúng ta sẽ bắt đầu dọn bãi biển.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -209,6 +226,26 @@
         { "askVi": "Vì sao?", "ask": "Why?", "add": "because trees give us oxygen" }
       ],
       "full": "We should plant trees around our school because trees give us oxygen."
+    },
+    {
+      "id": "x05",
+      "base": "We collect old paper.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at school" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every month" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because we want to save trees" }
+      ],
+      "full": "We collect old paper at school every month because we want to save trees."
+    },
+    {
+      "id": "x06",
+      "base": "Air pollution is a big problem.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in big cities" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because there are too many motorbikes" },
+        { "askVi": "Vậy chúng ta nên làm gì?", "ask": "So what should we do?", "add": "so we should cycle more" }
+      ],
+      "full": "Air pollution is a big problem in big cities because there are too many motorbikes, so we should cycle more."
     }
   ],
   "variations": [
@@ -218,7 +255,8 @@
       "questions": [
         "What do you do to protect the environment?",
         "How do you help keep your local environment clean?",
-        "What small things do you do every day to live greener?"
+        "What small things do you do every day to live greener?",
+        "Which green habits do you have at home?"
       ],
       "keywords": ["recycle", "turn off", "pick up rubbish", "single-use"],
       "exampleAnswer": "I recycle paper and plastic bottles, and I turn off the lights when I leave a room.",
@@ -230,7 +268,8 @@
       "questions": [
         "How can we reduce pollution in our town?",
         "What can people do to make the air and water cleaner?",
-        "Which actions can help stop water pollution?"
+        "Which actions can help stop water pollution?",
+        "What is the best way to cut air pollution where you live?"
       ],
       "keywords": ["reduce", "pollution", "cycle", "toxic"],
       "exampleAnswer": "We can cycle or walk more, and factories shouldn't release toxic substances into rivers.",
@@ -242,7 +281,8 @@
       "questions": [
         "What are some ways to make your school greener?",
         "How can students make their school a cleaner place?",
-        "What would you change at your school to protect the environment?"
+        "What would you change at your school to protect the environment?",
+        "Which green project would you like to start at your school?"
       ],
       "keywords": ["plant", "recycling bins", "turn off", "single-use"],
       "exampleAnswer": "We can plant more trees, put recycling bins in every classroom and stop using single-use cups.",
@@ -254,7 +294,8 @@
       "questions": [
         "Why should we protect endangered species?",
         "Why is it important to save animals like the dugong?",
-        "What happens when animals lose their habitats?"
+        "What happens when animals lose their habitats?",
+        "Why do some animals face extinction?"
       ],
       "keywords": ["endangered species", "extinction", "habitat", "ecosystem"],
       "exampleAnswer": "We should protect them because when one species disappears, the whole ecosystem can change.",
@@ -266,10 +307,50 @@
       "questions": [
         "Why should we avoid single-use products?",
         "What is wrong with using plastic bags every day?",
-        "Why is it better to bring your own water bottle?"
+        "Why is it better to bring your own water bottle?",
+        "How can shoppers use fewer single-use products?"
       ],
       "keywords": ["single-use", "plastic", "waste", "reduce"],
       "exampleAnswer": "Single-use products create a lot of waste, so bringing our own bottle helps reduce rubbish.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Tác hại của việc chặt phá rừng",
+      "questions": [
+        "Why is cutting down forests harmful?",
+        "What happens to the environment when people cut down too many trees?",
+        "How do forests help us and wild animals?",
+        "Why should we plant more trees than we cut down?"
+      ],
+      "keywords": ["cut down", "habitat", "oxygen", "absorb", "carbon dioxide"],
+      "exampleAnswer": "Forests absorb carbon dioxide and give us oxygen, so when people cut them down, many animals lose their habitats.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Tiết kiệm năng lượng ở nhà",
+      "questions": [
+        "How can your family save electricity at home?",
+        "What can we do to use less energy every day?",
+        "What are some simple ways to save energy in your house?",
+        "Which devices in your home do you turn off to save energy?"
+      ],
+      "keywords": ["turn off", "devices", "save energy", "unplug"],
+      "exampleAnswer": "We turn off the lights and the fan when we leave a room, and we unplug devices when we aren't using them.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Làm tình nguyện vì môi trường và lý do",
+      "questions": [
+        "Which environmental programme would you like to volunteer for, and why?",
+        "What kind of green volunteer work would you enjoy doing?",
+        "Which volunteer activity for the environment interests you most?",
+        "Why do you think volunteering for nature is worth your time?"
+      ],
+      "keywords": ["volunteer", "environmental programme", "clean-up", "protect"],
+      "exampleAnswer": "I'd like to volunteer at a beach clean-up because I love the sea and I want to protect marine life.",
       "expectsReason": true
     }
   ],
@@ -384,6 +465,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["pollution", "toxic", "rubbish", "residents", "because"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Hướng dẫn em họ phân loại rác",
+      "contextVi": "Nhà em vừa đặt ba thùng rác trong bếp: rác tái chế, rác hữu cơ và rác còn lại. Em họ tám tuổi đến chơi và không biết bỏ rác vào thùng nào. Em giải thích cho em họ.",
+      "aiRole": "Bin, your eight-year-old cousin who doesn't know how to sort rubbish",
+      "studentRoleVi": "Anh/chị họ, người hướng dẫn phân loại rác",
+      "goalVi": "Chỉ cho em họ cách bỏ ít nhất hai loại rác vào đúng thùng và giải thích vì sao cần phân loại.",
+      "goal": "Show your young cousin which bin to use for at least two kinds of rubbish and explain why sorting rubbish matters.",
+      "requirements": [
+        { "kind": "example", "vi": "Nêu ví dụ về rác cho từng thùng (for example...)", "words": [] },
+        { "kind": "reason", "vi": "Giải thích vì sao nên phân loại rác (because...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["recycle", "waste", "plastic", "reduce", "environment"] }
+      ],
+      "opener": "There are three bins in the kitchen now. Which one does this banana skin go in?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Oh, I see. And what about this empty plastic bottle?",
+        "Why can't I just put everything in one bin? It's easier.",
+        "OK! Can you show me one more thing I can recycle?"
+      ],
+      "tipsVi": ["Nói câu ngắn, dễ hiểu vì em họ còn nhỏ: \"This goes in the green bin.\"", "Thêm lý do với \"because\": vì đồ tái chế được dùng lại."],
+      "keywords": ["recycle", "plastic", "bin", "waste", "because"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Tình nguyện viên ở vườn quốc gia",
+      "contextVi": "Em làm tình nguyện viên ở trung tâm du khách của vườn quốc gia Vũ Quang. Một du khách nước ngoài lần đầu đến đây hỏi em cần làm gì để bảo vệ khu rừng.",
+      "aiRole": "Tom, a tourist visiting Vu Quang National Park for the first time",
+      "studentRoleVi": "Tình nguyện viên ở trung tâm du khách",
+      "goalVi": "Nêu ít nhất hai việc du khách nên hoặc không nên làm trong vườn quốc gia, kèm lý do.",
+      "goal": "Tell the tourist at least two things visitors should or shouldn't do in the national park, with reasons.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Nêu điều nên/không nên làm (you should..., you shouldn't...)", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do cho lời khuyên (because...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["habitat", "endangered species", "litter", "protect", "campfire"] }
+      ],
+      "opener": "Hello! This is my first trip to this national park. What should visitors do to protect it?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Thanks. Why is that so important here?",
+        "Can I build a campfire near the river tonight?",
+        "Great tips. Are there any endangered animals I might see?"
+      ],
+      "tipsVi": ["Dùng \"You should...\" và \"You shouldn't...\" để khuyên.", "Nhắc đến môi trường sống của động vật khi nêu lý do."],
+      "keywords": ["should", "shouldn't", "habitat", "endangered species", "because"]
     }
   ]
 }

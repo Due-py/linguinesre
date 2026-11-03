@@ -606,6 +606,13 @@ export function buildLesson(input: PlanInput): Lesson {
         const r = m.roleplays.filter((x) => x.level === "basic");
         for (const x of r.slice(0, 2)) steps.push({ t: "roleplay", ref: x.id, test: false });
       } else {
+        // Khó duy trì hội thoại (ngày 11 có tình huống chưa đạt hết yêu cầu) thì luyện thêm một tình huống cơ bản mới trước.
+        const missed = history.some((h) => h.day === 11 && h.t === "roleplay" && h.correct === false);
+        const extraBasic = m.roleplays.filter((x) => x.level === "basic")[2];
+        if (missed && extraBasic) {
+          steps.push({ t: "roleplay", ref: extraBasic.id, test: false });
+          notes.push("Hôm qua có tình huống em chưa đạt hết yêu cầu, nên hôm nay luyện thêm một tình huống cơ bản trước.");
+        }
         const r = m.roleplays.filter((x) => x.level === "advanced");
         for (const x of r.slice(0, 2)) steps.push({ t: "roleplay", ref: x.id, test: false });
         steps.push(...unusedVariations(input, used, 1));

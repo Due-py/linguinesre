@@ -25,7 +25,18 @@
     { "id": "v17", "en": "puppet", "vi": "con rối", "ipa": "/ˈpʌpɪt/", "ipaFrom": "glossary", "pos": "n", "example": "The children made puppets from old socks.", "collocations": ["a puppet show", "puppet theatre"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
     { "id": "v18", "en": "water puppetry", "vi": "múa rối nước", "ipa": "/ˈwɔːtə ˈpʌpɪtri/", "ipaFrom": "glossary", "pos": "n", "example": "Water puppetry is a traditional art form in Viet Nam.", "collocations": ["a water puppetry show"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
     { "id": "v19", "en": "originate", "vi": "bắt nguồn, xuất phát từ", "ipa": "/əˈrɪdʒɪneɪt/", "ipaFrom": "glossary", "pos": "v", "example": "This dance originated in a small village.", "collocations": ["originate in", "originate from"], "synonyms": ["come from"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
-    { "id": "v20", "en": "prefer", "vi": "thích hơn", "ipa": "/prɪˈfɜː/", "ipaFrom": "glossary", "pos": "v", "example": "I prefer drawing to taking photos.", "collocations": ["prefer A to B", "I'd prefer to"], "synonyms": ["like better"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } }
+    { "id": "v20", "en": "prefer", "vi": "thích hơn", "ipa": "/prɪˈfɜː/", "ipaFrom": "glossary", "pos": "v", "example": "I prefer drawing to taking photos.", "collocations": ["prefer A to B", "I'd prefer to"], "synonyms": ["like better"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v21", "en": "character", "vi": "nhân vật (trong phim, tác phẩm văn học...)", "ipa": "/ˈkærəktə/", "ipaFrom": "glossary", "pos": "n", "example": "My favourite character in the puppet show is Teu.", "collocations": ["the main character", "a funny character"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v22", "en": "control", "vi": "điều khiển", "ipa": "/kənˈtrəʊl/", "ipaFrom": "glossary", "pos": "v", "example": "The artists control the puppets with long bamboo poles under the water.", "collocations": ["control the puppets"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v23", "en": "classical music", "vi": "nhạc cổ điển", "ipa": "/ˌklæsɪkl ˈmjuːzɪk/", "ipaFrom": "dictionary", "pos": "n", "example": "My dad listens to classical music when he reads.", "collocations": ["listen to classical music"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 40 } },
+    { "id": "v24", "en": "piano", "vi": "đàn piano, dương cầm", "ipa": "/piˈænəʊ/", "ipaFrom": "dictionary", "pos": "n", "example": "She plays the piano in her spare time.", "collocations": ["play the piano", "a piano lesson"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 40 } },
+    { "id": "v25", "en": "paintbrush", "vi": "cọ vẽ", "ipa": "/ˈpeɪntbrʌʃ/", "ipaFrom": "dictionary", "pos": "n", "example": "I need a thin paintbrush to paint small flowers.", "collocations": ["a thin paintbrush", "a big paintbrush"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 41 } },
+    { "id": "v26", "en": "concert hall", "vi": "phòng hòa nhạc", "ipa": "/ˈkɒnsət hɔːl/", "ipaFrom": "dictionary", "pos": "n", "example": "The orchestra plays in the new concert hall every Saturday.", "collocations": ["a big concert hall"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 42 } },
+    { "id": "v27", "en": "artist", "vi": "nghệ sĩ, họa sĩ", "ipa": "/ˈɑːtɪst/", "ipaFrom": "dictionary", "pos": "n", "example": "The artist painted a big picture of Ha Long Bay.", "collocations": ["a famous artist", "a street artist"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 42 } },
+    { "id": "v28", "en": "actress", "vi": "nữ diễn viên", "ipa": "/ˈæktrəs/", "ipaFrom": "dictionary", "pos": "n", "example": "The actress sang and danced in the school play.", "collocations": ["a famous actress", "a young actress"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 42 } },
+    { "id": "v29", "en": "orchestra", "vi": "dàn nhạc", "ipa": "/ˈɔːkɪstrə/", "ipaFrom": "dictionary", "pos": "n", "example": "Our school orchestra has twenty young musicians.", "collocations": ["a school orchestra", "play in an orchestra"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 42 } },
+    { "id": "v30", "en": "traditional", "vi": "truyền thống", "ipa": "/trəˈdɪʃənl/", "ipaFrom": "dictionary", "pos": "adj", "example": "Cheo is a kind of traditional singing from northern Viet Nam.", "collocations": ["traditional music", "a traditional art form"], "synonyms": [], "antonyms": ["modern"], "src": { "kind": "sgk", "page": 46 } },
+    { "id": "v31", "en": "street painting", "vi": "tranh vẽ đường phố", "ipa": "/ˈstriːt peɪntɪŋ/", "ipaFrom": "dictionary", "pos": "n", "example": "At the street painting festival, artists draw pictures on the ground.", "collocations": ["a street painting festival"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 47 } }
   ],
   "grammar": [
     {
@@ -135,7 +146,13 @@
     { "id": "e07", "en": "What kind of music are you into?", "vi": "Bạn mê thể loại nhạc nào?", "useVi": "Khi hỏi về gu âm nhạc của người khác.", "example": "What kind of music are you into these days?", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "Would you like to come to ... with me?", "vi": "Bạn có muốn đi ... với mình không?", "useVi": "Khi mời bạn đi xem biểu diễn hoặc triển lãm.", "example": "Would you like to come to the concert with me?", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "It's not as ... as ..., but ...", "vi": "Nó không ... bằng ..., nhưng ...", "useVi": "Khi so sánh hai thứ một cách công bằng.", "example": "It's not as famous as pop music, but it's beautiful.", "src": { "kind": "team", "page": null } },
-    { "id": "e10", "en": "I'm a big fan of ...", "vi": "Mình rất hâm mộ ...", "useVi": "Khi nói mình rất thích một nghệ sĩ hay một loại hình nghệ thuật.", "example": "I'm a big fan of water puppetry.", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "I'm a big fan of ...", "vi": "Mình rất hâm mộ ...", "useVi": "Khi nói mình rất thích một nghệ sĩ hay một loại hình nghệ thuật.", "example": "I'm a big fan of water puppetry.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "I've never tried it.", "vi": "Mình chưa thử bao giờ.", "useVi": "Khi nói mình chưa từng làm việc gì.", "example": "Water puppetry? I've never tried it, but it looks fun.", "src": { "kind": "sgk", "page": 40 } },
+    { "id": "e12", "en": "Is it fun?", "vi": "Nó có vui không?", "useVi": "Khi hỏi cảm nhận của người khác về một hoạt động.", "example": "You play the drums? Is it fun?", "src": { "kind": "sgk", "page": 40 } },
+    { "id": "e13", "en": "Maybe we should go to ...", "vi": "Có lẽ chúng ta nên đi ...", "useVi": "Khi gợi ý nhẹ nhàng một nơi để cùng đi.", "example": "Maybe we should go to the music festival on Sunday.", "src": { "kind": "sgk", "page": 40 } },
+    { "id": "e14", "en": "How about + V-ing?", "vi": "... thì sao? (gợi ý cùng làm gì)", "useVi": "Khi rủ ai đó làm gì.", "example": "How about meeting at the theatre at seven?", "src": { "kind": "sgk", "page": 47 } },
+    { "id": "e15", "en": "Let me know if you can make it.", "vi": "Báo cho mình biết nếu bạn đến được nhé.", "useVi": "Khi mời ai đó và chờ họ trả lời.", "example": "The show starts at 8 p.m. Let me know if you can make it.", "src": { "kind": "sgk", "page": 47 } },
+    { "id": "e16", "en": "Looking forward to seeing you there.", "vi": "Mong được gặp bạn ở đó.", "useVi": "Câu kết thân mật trong thư hoặc lời mời.", "example": "See you on Saturday. Looking forward to seeing you there.", "src": { "kind": "sgk", "page": 47 } }
   ],
   "build": [
     { "id": "b01", "chunks": ["Taking photos", "is not as difficult", "as painting"], "vi": "Chụp ảnh không khó bằng vẽ tranh.", "grammarId": "g02" },
@@ -145,7 +162,9 @@
     { "id": "b05", "chunks": ["The school choir", "performs", "every month", "in the hall"], "vi": "Dàn hợp xướng của trường biểu diễn mỗi tháng ở hội trường.", "grammarId": null },
     { "id": "b06", "chunks": ["Our art exhibition", "was as good as", "last year's"], "vi": "Triển lãm mỹ thuật của chúng mình hay bằng năm ngoái.", "grammarId": "g02" },
     { "id": "b07", "chunks": ["Water puppetry", "is a traditional art form", "in Viet Nam"], "vi": "Múa rối nước là một loại hình nghệ thuật truyền thống ở Việt Nam.", "grammarId": null },
-    { "id": "b08", "chunks": ["Classical music", "is not as exciting", "as rock", "for teenagers"], "vi": "Với thanh thiếu niên, nhạc cổ điển không sôi động bằng nhạc rock.", "grammarId": "g02" }
+    { "id": "b08", "chunks": ["Classical music", "is not as exciting", "as rock", "for teenagers"], "vi": "Với thanh thiếu niên, nhạc cổ điển không sôi động bằng nhạc rock.", "grammarId": "g02" },
+    { "id": "b09", "chunks": ["The puppets", "look like", "farmers in a village"], "vi": "Những con rối trông giống những người nông dân trong làng.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["Playing the piano", "is not as easy as", "singing"], "vi": "Chơi piano không dễ bằng hát.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -185,6 +204,25 @@
         { "askVi": "Cho dịp gì?", "ask": "For what?", "add": "for the school exhibition" }
       ],
       "full": "She painted a portrait of her grandmother for the school exhibition."
+    },
+    {
+      "id": "x05",
+      "base": "My brother plays the piano.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in the school orchestra" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every Friday afternoon" }
+      ],
+      "full": "My brother plays the piano in the school orchestra every Friday afternoon."
+    },
+    {
+      "id": "x06",
+      "base": "I went to a concert.",
+      "steps": [
+        { "askVi": "Với ai?", "ask": "Who with?", "add": "with my parents" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at the city concert hall" },
+        { "askVi": "Thế nào?", "ask": "How was it?", "add": "and the music was wonderful" }
+      ],
+      "full": "I went to a concert with my parents at the city concert hall, and the music was wonderful."
     }
   ],
   "variations": [
@@ -246,6 +284,45 @@
       ],
       "keywords": ["musical instrument", "relax", "patient", "creative"],
       "exampleAnswer": "Playing an instrument helps us relax after school, and it teaches us to be patient.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Ca sĩ, nhạc sĩ hay họa sĩ em yêu thích",
+      "questions": [
+        "Who is your favourite singer or musician?",
+        "Which artist do you like best, and why?",
+        "Tell me about a musician or painter you really like.",
+        "Is there a famous artist you really admire?"
+      ],
+      "keywords": ["favourite", "songs", "because", "fan"],
+      "exampleAnswer": "My favourite musician is a young guitarist on YouTube. I'm a big fan of his songs because they have a great beat and nice words.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Múa rối nước",
+      "questions": [
+        "What do you know about water puppetry?",
+        "Did you see a water puppet show when you were younger?",
+        "What are water puppet shows usually about?",
+        "Would you like to watch a water puppet show? Why?"
+      ],
+      "keywords": ["puppets", "traditional", "village", "control"],
+      "exampleAnswer": "Water puppetry is a traditional art form. The puppets move on water and often tell stories about life in the countryside.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Lớp nghệ thuật em muốn học",
+      "questions": [
+        "Which art class would you like to take?",
+        "Would you prefer to learn painting or a musical instrument?",
+        "What art skill do you want to learn this year?",
+        "Which do you prefer: a music class or a drawing class?"
+      ],
+      "keywords": ["prefer", "learn", "painting", "instrument"],
+      "exampleAnswer": "I'd prefer to learn the guitar because I can play songs for my friends. Painting is not as fun as music for me.",
       "expectsReason": true
     }
   ],
@@ -357,6 +434,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["prefer", "different from", "as ... as", "because", "creative"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Mua vé xem múa rối nước",
+      "contextVi": "Em và gia đình muốn xem múa rối nước tối thứ Bảy. Em đến quầy vé của nhà hát để hỏi giờ diễn, giá vé và mua vé.",
+      "aiRole": "A ticket seller at the water puppet theatre",
+      "studentRoleVi": "Khách mua vé cho cả gia đình",
+      "goalVi": "Hỏi giờ diễn, giá vé và mua đúng số vé cho cả nhà.",
+      "goal": "Ask about show times and ticket prices, and buy the right number of tickets for your family.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một câu hỏi lịch sự", "words": ["Could I", "What time", "How much", "Can I"] },
+        { "kind": "example", "vi": "Nói rõ em cần mấy vé và cho buổi diễn nào", "words": [] }
+      ],
+      "opener": "Good afternoon! Welcome to the theatre. How can I help you?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "We have two shows on Saturday: at 5 p.m. and at 8 p.m.",
+        "Tickets are 100,000 dong for adults and 60,000 dong for children.",
+        "Here you are. Please come fifteen minutes before the show."
+      ],
+      "tipsVi": ["Hỏi: What time does the show start? How much is a ticket?", "Nói số vé: Two adult tickets and one child ticket, please."],
+      "keywords": ["show", "ticket", "What time", "please"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Kể về buổi hòa nhạc ở trường",
+      "contextVi": "Tuần trước trường em tổ chức một buổi hòa nhạc. Bạn em bị ốm nên không đi được, bạn hỏi em buổi biểu diễn thế nào.",
+      "aiRole": "Nick, a friend who missed the school concert",
+      "studentRoleVi": "Bạn đã xem buổi hòa nhạc",
+      "goalVi": "Kể buổi hòa nhạc diễn ra khi nào, ở đâu, có những tiết mục gì và em thích tiết mục nào nhất.",
+      "goal": "Tell Nick when and where the concert was, what was performed, and which part you liked best.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất hai từ của bài", "words": ["perform", "performance", "musician", "concert", "orchestra"] },
+        { "kind": "reason", "vi": "Nói tiết mục em thích nhất và vì sao", "words": [] }
+      ],
+      "opener": "I was ill last week, so I missed the school concert. How was it?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Where was it? In the school hall?",
+        "What did the students perform?",
+        "Which performance did you like best?"
+      ],
+      "tipsVi": ["Dùng quá khứ đơn: It was..., They performed..., I liked...", "Nêu lý do bằng because."],
+      "keywords": ["concert", "performed", "musician", "because"]
     }
   ]
 }

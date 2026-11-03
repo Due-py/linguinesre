@@ -27,7 +27,16 @@
     { "id": "v19", "en": "welcome", "vi": "đón chào, hoan nghênh", "ipa": "/ˈwelkəm/", "ipaFrom": "glossary", "pos": "v", "example": "Viet Nam welcomes foreign students to its universities.", "collocations": ["welcome visitors", "welcome foreign investors"], "synonyms": ["greet"], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
     { "id": "v20", "en": "harm", "vi": "hiểm hoạ, sự nguy hiểm", "ipa": "/hɑːm/", "ipaFrom": "glossary", "pos": "n", "example": "The project protects children from harm.", "collocations": ["protect from harm", "do harm"], "synonyms": ["danger"], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
     { "id": "v21", "en": "disadvantaged", "vi": "thiệt thòi, có hoàn cảnh khó khăn", "ipa": "/ˌdɪsədˈvɑːntɪdʒd/", "ipaFrom": "dictionary", "pos": "adj", "example": "UNICEF supports disadvantaged children all over the world.", "collocations": ["disadvantaged children", "disadvantaged areas"], "synonyms": ["poor"], "antonyms": [], "src": { "kind": "sgk", "page": 77 } },
-    { "id": "v22", "en": "international organisation", "vi": "tổ chức quốc tế", "ipa": "/ˌɪntəˈnæʃnəl ˌɔːɡənaɪˈzeɪʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "Viet Nam is a member of many international organisations, such as the UN.", "collocations": ["join an international organisation"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 77 } }
+    { "id": "v22", "en": "international organisation", "vi": "tổ chức quốc tế", "ipa": "/ˌɪntəˈnæʃnəl ˌɔːɡənaɪˈzeɪʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "Viet Nam is a member of many international organisations, such as the UN.", "collocations": ["join an international organisation"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 77 } },
+    { "id": "v23", "en": "regional", "vi": "thuộc về khu vực", "ipa": "/ˈriːdʒənl/", "ipaFrom": "glossary", "pos": "adj", "example": "Viet Nam takes part in many regional programmes in Southeast Asia.", "collocations": ["regional programmes", "regional organisation"], "synonyms": [], "antonyms": ["global"], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v24", "en": "peace", "vi": "hòa bình", "ipa": "/piːs/", "ipaFrom": "dictionary", "pos": "n", "example": "The main goal of the United Nations is world peace.", "collocations": ["world peace", "live in peace"], "synonyms": [], "antonyms": ["war"], "src": { "kind": "sgk", "page": 76 } },
+    { "id": "v25", "en": "developing country", "vi": "nước đang phát triển", "ipa": "/dɪˌveləpɪŋ ˈkʌntri/", "ipaFrom": "dictionary", "pos": "n", "example": "UNDP helps people in developing countries have a better life.", "collocations": ["help developing countries"], "synonyms": [], "antonyms": ["developed country"], "src": { "kind": "sgk", "page": 76 } },
+    { "id": "v26", "en": "government", "vi": "chính phủ", "ipa": "/ˈɡʌvənmənt/", "ipaFrom": "dictionary", "pos": "n", "example": "The government works closely with UNDP to reduce poverty.", "collocations": ["the Vietnamese government", "work with the government"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 76 } },
+    { "id": "v27", "en": "programme", "vi": "chương trình", "ipa": "/ˈprəʊɡræm/", "ipaFrom": "dictionary", "pos": "n", "example": "This programme gives free school meals to children in poor areas.", "collocations": ["run a programme", "education programme"], "synonyms": ["project"], "antonyms": [], "src": { "kind": "sgk", "page": 79 } },
+    { "id": "v28", "en": "disability", "vi": "khuyết tật", "ipa": "/ˌdɪsəˈbɪləti/", "ipaFrom": "dictionary", "pos": "n", "example": "Children with disabilities should have the chance to go to school.", "collocations": ["children with disabilities"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 79 } },
+    { "id": "v29", "en": "achievement", "vi": "thành tích, thành tựu", "ipa": "/əˈtʃiːvmənt/", "ipaFrom": "dictionary", "pos": "n", "example": "Joining the WTO was an important achievement for Viet Nam.", "collocations": ["learning achievements", "a great achievement"], "synonyms": ["success"], "antonyms": ["failure"], "src": { "kind": "sgk", "page": 79 } },
+    { "id": "v30", "en": "vaccine", "vi": "vắc-xin", "ipa": "/ˈvæksiːn/", "ipaFrom": "dictionary", "pos": "n", "example": "Millions of children have received free vaccines thanks to UNICEF.", "collocations": ["life-saving vaccines", "get a vaccine"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 80 } },
+    { "id": "v31", "en": "knowledge", "vi": "kiến thức", "ipa": "/ˈnɒlɪdʒ/", "ipaFrom": "dictionary", "pos": "n", "example": "Students need knowledge and skills to work in a fast-changing world.", "collocations": ["knowledge and skills", "gain knowledge"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 79 } }
   ],
   "grammar": [
     {
@@ -126,6 +135,19 @@
       "sentence": "Would you like to come to the UNICEF exhibition with me?",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p05",
+      "kind": "sentence_stress",
+      "focus": "Dạng yếu của than, as, the trong câu so sánh",
+      "tipVi": "Trong câu so sánh, than đọc yếu /ðən/, as đọc yếu /əz/, the đọc /ðə/. Nhấn mạnh tính từ và danh từ: VIET NAM is MORE ACtive than beFORE.",
+      "words": ["than", "as", "the most", "bigger", "more active"],
+      "sentence": "Viet Nam is more active than before.",
+      "quiz": [
+        { "prompt": "In 'Life is easier than before.', how is 'than' usually pronounced?", "options": ["/ðən/ (weak)", "/ðæn/ (strong)"], "answer": 0, "explainVi": "than không mang nghĩa chính nên thường đọc yếu /ðən/." },
+        { "prompt": "In 'It's as cheap as before.', which word is stressed most?", "options": ["cheap", "as", "it's"], "answer": 0, "explainVi": "cheap là tính từ mang nghĩa chính nên được nhấn; as đọc yếu /əz/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -140,7 +162,12 @@
     { "id": "e09", "en": "I'm sorry, but I can't.", "vi": "Xin lỗi, nhưng mình không đi được.", "useVi": "Từ chối lời mời thân mật.", "example": "I'm sorry, but I can't. I have to visit my grandparents.", "src": { "kind": "sgk", "page": 83 } },
     { "id": "e10", "en": "That's very kind of you, but ...", "vi": "Bạn thật tốt, nhưng ...", "useVi": "Từ chối lời mời trang trọng, lịch sự.", "example": "That's very kind of you, but I have an exam that day.", "src": { "kind": "sgk", "page": 83 } },
     { "id": "e11", "en": "One of the biggest benefits is ...", "vi": "Một trong những lợi ích lớn nhất là ...", "useVi": "Khi nêu lợi ích quan trọng nhất của một việc.", "example": "One of the biggest benefits is that our goods can enter more markets.", "src": { "kind": "team", "page": null } },
-    { "id": "e12", "en": "Compared with the past, ...", "vi": "So với trước đây, ...", "useVi": "Khi nói về sự thay đổi theo thời gian.", "example": "Compared with the past, Viet Nam is much more active in the world.", "src": { "kind": "team", "page": null } }
+    { "id": "e12", "en": "Compared with the past, ...", "vi": "So với trước đây, ...", "useVi": "Khi nói về sự thay đổi theo thời gian.", "example": "Compared with the past, Viet Nam is much more active in the world.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "Thanks for inviting me.", "vi": "Cảm ơn bạn đã mời mình.", "useVi": "Khi cảm ơn người đã mời mình đi đâu đó, dù nhận lời hay từ chối.", "example": "Thanks for inviting me. I'd love to come.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "What time does it start?", "vi": "Mấy giờ bắt đầu vậy?", "useVi": "Khi nhận lời mời và hỏi thêm thời gian.", "example": "A talk about UNICEF? Great! What time does it start?", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "Let me think about it.", "vi": "Để mình suy nghĩ đã.", "useVi": "Khi chưa muốn nhận lời hay từ chối ngay.", "example": "A summer camp abroad? Let me think about it.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "What does this programme focus on?", "vi": "Chương trình này tập trung vào việc gì?", "useVi": "Khi hỏi về mục tiêu chính của một chương trình, dự án.", "example": "What does this programme focus on? Health or education?", "src": { "kind": "sgk", "page": 80 } },
+    { "id": "e17", "en": "It aims to ...", "vi": "Nó nhằm mục đích ...", "useVi": "Khi giới thiệu mục tiêu của một tổ chức hay chương trình.", "example": "It aims to give every child a chance to go to school.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["Viet Nam", "has become", "more active", "in international organisations"], "vi": "Việt Nam đã trở nên tích cực hơn trong các tổ chức quốc tế.", "grammarId": "g01" },
@@ -149,7 +176,10 @@
     { "id": "b04", "chunks": ["Local fruit", "is often", "cheaper than", "imported fruit"], "vi": "Trái cây trong nước thường rẻ hơn trái cây nhập khẩu.", "grammarId": "g01" },
     { "id": "b05", "chunks": ["Ha Long Bay is", "one of the most", "beautiful places", "in Southeast Asia"], "vi": "Vịnh Hạ Long là một trong những nơi đẹp nhất Đông Nam Á.", "grammarId": "g01" },
     { "id": "b06", "chunks": ["Some of our goods", "are not as competitive", "as foreign goods"], "vi": "Một số hàng hóa của ta chưa cạnh tranh bằng hàng nước ngoài.", "grammarId": "g02" },
-    { "id": "b07", "chunks": ["Many companies", "invest in Viet Nam", "because its economy", "is growing fast"], "vi": "Nhiều công ty đầu tư vào Việt Nam vì nền kinh tế đang phát triển nhanh.", "grammarId": null }
+    { "id": "b07", "chunks": ["Many companies", "invest in Viet Nam", "because its economy", "is growing fast"], "vi": "Nhiều công ty đầu tư vào Việt Nam vì nền kinh tế đang phát triển nhanh.", "grammarId": null },
+    { "id": "b08", "chunks": ["UNICEF", "provides", "life-saving vaccines", "for children"], "vi": "UNICEF cung cấp vắc-xin cứu sống trẻ em.", "grammarId": null },
+    { "id": "b09", "chunks": ["Life in Viet Nam", "is much better", "than it was", "thirty years ago"], "vi": "Cuộc sống ở Việt Nam tốt hơn nhiều so với 30 năm trước.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["Our products", "are now", "as good as", "foreign ones"], "vi": "Sản phẩm của chúng ta giờ đã tốt như hàng nước ngoài.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -189,6 +219,25 @@
         { "askVi": "Khi nào?", "ask": "When?", "add": "last year" }
       ],
       "full": "Doctors vaccinated children against measles in my province last year."
+    },
+    {
+      "id": "x05",
+      "base": "UNICEF helps children.",
+      "steps": [
+        { "askVi": "Những trẻ nào?", "ask": "Which children?", "add": "disadvantaged" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in Viet Nam" },
+        { "askVi": "Bằng cách nào?", "ask": "How?", "add": "by giving them vaccines and school supplies" }
+      ],
+      "full": "UNICEF helps disadvantaged children in Viet Nam by giving them vaccines and school supplies."
+    },
+    {
+      "id": "x06",
+      "base": "Our city is bigger.",
+      "steps": [
+        { "askVi": "So với khi nào?", "ask": "Than when?", "add": "than it was ten years ago" },
+        { "askVi": "Còn gì nữa?", "ask": "What else?", "add": "and the roads are wider" }
+      ],
+      "full": "Our city is bigger than it was ten years ago, and the roads are wider."
     }
   ],
   "variations": [
@@ -198,7 +247,8 @@
       "questions": [
         "How does Viet Nam benefit from joining international organisations?",
         "What good things has Viet Nam got from joining groups like the WTO?",
-        "Why is it useful for Viet Nam to be a member of the UN?"
+        "Why is it useful for Viet Nam to be a member of the UN?",
+        "What are the benefits for Viet Nam of being a member of international organisations?"
       ],
       "keywords": ["trade", "invest", "economy", "promote"],
       "exampleAnswer": "Joining these organisations helps Viet Nam trade with more countries, attract foreign investment and grow its economy.",
@@ -210,7 +260,8 @@
       "questions": [
         "Which international organisation do you know the most about?",
         "What do you know about UNICEF or WHO?",
-        "Can you name an international organisation and say what it does?"
+        "Can you name an international organisation and say what it does?",
+        "Tell me about an international organisation you know."
       ],
       "keywords": ["aim", "support", "children", "health"],
       "exampleAnswer": "I know about WHO. It aims to improve people's health, and it helps countries vaccinate children.",
@@ -222,7 +273,8 @@
       "questions": [
         "In what ways is Viet Nam more developed than in the past?",
         "How has life in Viet Nam changed over the last twenty years?",
-        "What is better in Viet Nam now than when your parents were young?"
+        "What is better in Viet Nam now than when your parents were young?",
+        "How is your hometown different now compared with ten years ago?"
       ],
       "keywords": ["more modern", "better", "economy", "than"],
       "exampleAnswer": "Viet Nam is more modern now. Roads are better, and young people have more chances to study and work.",
@@ -234,7 +286,8 @@
       "questions": [
         "What can young people do to help poor communities?",
         "How can students like you help people in need?",
-        "What volunteer work would you like to do to help others?"
+        "What volunteer work would you like to do to help others?",
+        "In what ways can teenagers help disadvantaged people?"
       ],
       "keywords": ["volunteer", "poverty", "donate", "disadvantaged"],
       "exampleAnswer": "Students can collect books and clothes for disadvantaged children and teach them English at weekends.",
@@ -246,11 +299,51 @@
       "questions": [
         "What can Viet Nam learn from other countries?",
         "Which ideas from other countries would help Viet Nam most?",
-        "What would you like Viet Nam to learn from another country, and why?"
+        "What would you like Viet Nam to learn from another country, and why?",
+        "What is one good idea Viet Nam could take from another country?"
       ],
       "keywords": ["technology", "expert", "quality", "education"],
       "exampleAnswer": "We can learn new technology from experts in other countries, because it helps us make higher-quality products.",
       "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "UNICEF giúp trẻ em Việt Nam như thế nào",
+      "questions": [
+        "How does UNICEF help children in Viet Nam?",
+        "What does UNICEF do for Vietnamese children?",
+        "What kinds of support does UNICEF give to children in Viet Nam?",
+        "How have UNICEF's programmes helped children in our country?"
+      ],
+      "keywords": ["UNICEF", "programme", "disadvantaged", "education"],
+      "exampleAnswer": "UNICEF helps disadvantaged children go to school, and it also provides life-saving vaccines.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Tổ chức quốc tế quan trọng nhất với Việt Nam",
+      "questions": [
+        "Which international organisation is the most important for Viet Nam? Why?",
+        "In your opinion, which organisation has helped Viet Nam the most? Why?",
+        "Which international organisation does the most useful work in our country? Why?",
+        "Which international group do you think is the most helpful to Vietnamese people? Why?"
+      ],
+      "keywords": ["the most", "important", "because", "help"],
+      "exampleAnswer": "I think UNICEF is the most important because it helps poor children get a better education and stay healthy.",
+      "expectsReason": true
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Hàng Việt Nam so với hàng nước ngoài",
+      "questions": [
+        "Are Vietnamese products as good as foreign products?",
+        "How do Vietnamese goods compare with imported goods?",
+        "Are local products cheaper than imported ones?",
+        "In what ways are Vietnamese products better or worse than foreign ones?"
+      ],
+      "keywords": ["as ... as", "cheaper", "better quality", "competitive"],
+      "exampleAnswer": "Many Vietnamese products are as good as foreign ones, and they are usually cheaper than imported goods.",
+      "expectsReason": false
     }
   ],
   "independent": [
@@ -362,6 +455,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["more important", "the most", "aims to", "because", "Viet Nam"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Trò chuyện với ông về Việt Nam xưa và nay",
+      "contextVi": "Buổi tối, ông kể về thời ông còn trẻ và hỏi em thấy cuộc sống bây giờ khác trước thế nào.",
+      "aiRole": "Grandpa",
+      "studentRoleVi": "Cháu, so sánh cuộc sống xưa và nay",
+      "goalVi": "So sánh cuộc sống ở Việt Nam bây giờ với ngày trước bằng câu so sánh và nói thay đổi em thích nhất.",
+      "goal": "Compare life in Viet Nam now and in the past using comparatives, and say which change you like the most.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng câu so sánh", "words": ["better than", "more ... than", "not as ... as", "the most"] },
+        { "kind": "reason", "vi": "Nói vì sao em thích thay đổi đó (because...)", "words": [] }
+      ],
+      "opener": "When I was your age, we didn't have much. Do you think life is easier for young people now?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Really? In what ways is it easier?",
+        "Hmm, but was anything better in the past, do you think?",
+        "Which change in Viet Nam do you like the most?"
+      ],
+      "tipsVi": ["So sánh hơn: \"Roads are wider than before.\"", "Dùng not as ... as: \"The air is not as clean as before.\""],
+      "keywords": ["than", "as ... as", "the most", "because"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Tình nguyện cho tổ chức quốc tế hay nhóm ở phường?",
+      "contextVi": "Hè này em và bạn muốn làm tình nguyện. Em muốn đăng ký một chương trình của UNICEF tại địa phương, còn bạn thích nhóm tình nguyện nhỏ trong phường.",
+      "aiRole": "Ha, your close friend",
+      "studentRoleVi": "Bạn thân, muốn tham gia chương trình của UNICEF",
+      "goalVi": "Thuyết phục bạn tham gia chương trình của tổ chức quốc tế, có so sánh hai lựa chọn, lý do và ví dụ.",
+      "goal": "Persuade Ha to join a volunteer programme run by an international organisation, comparing it with the local group and giving reasons.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do (because...)", "words": [] },
+        { "kind": "example", "vi": "Đưa ví dụ việc UNICEF làm ở Việt Nam", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["international organisation", "programme", "more ... than", "experience", "knowledge"] }
+      ],
+      "opener": "I want to volunteer this summer with the small youth group in our ward. Why do you want to join that UNICEF programme instead?",
+      "stance": "International organisations are too big and far away. Small local groups help people better.",
+      "turns": 5,
+      "fallback": [
+        "Hmm. What's so special about it?",
+        "But big international organisations are far away. A small local group helps people better, doesn't it?",
+        "Can you give me an example of what UNICEF does in Viet Nam?",
+        "OK. Which one do you think will be more useful for our future?"
+      ],
+      "tipsVi": ["So sánh hai lựa chọn: \"The UNICEF programme is bigger / more ... than ...\"", "Công nhận ý bạn trước: \"That's true, but ...\""],
+      "keywords": ["more ... than", "programme", "experience", "because"]
     }
   ]
 }

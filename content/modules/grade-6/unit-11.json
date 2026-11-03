@@ -25,7 +25,18 @@
     { "id": "v17", "en": "tip", "vi": "mẹo, cách", "ipa": "/tɪp/", "ipaFrom": "glossary", "pos": "n", "example": "Here is a tip: turn off the tap when you brush your teeth.", "collocations": ["green tips", "a useful tip"], "synonyms": ["idea"], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
     { "id": "v18", "en": "wrap", "vi": "gói, bọc", "ipa": "/ræp/", "ipaFrom": "glossary", "pos": "v", "example": "Wrap your sandwich in paper, not in a plastic bag.", "collocations": ["wrap food", "wrap a present"], "synonyms": [], "antonyms": ["unwrap"], "src": { "kind": "sgk", "page": 71 } },
     { "id": "v19", "en": "plastic bag", "vi": "túi ni lông", "ipa": "/ˌplæstɪk ˈbæɡ/", "ipaFrom": "dictionary", "pos": "n", "example": "Plastic bags are bad for sea animals.", "collocations": ["use fewer plastic bags"], "synonyms": [], "antonyms": ["reusable bag"], "src": { "kind": "sgk", "page": 50 } },
-    { "id": "v20", "en": "noise", "vi": "tiếng ồn", "ipa": "/nɔɪz/", "ipaFrom": "dictionary", "pos": "n", "example": "Please reduce the noise. The baby is sleeping.", "collocations": ["reduce noise", "too much noise"], "synonyms": ["sound"], "antonyms": ["silence"], "src": { "kind": "sgk", "page": 50 } }
+    { "id": "v20", "en": "noise", "vi": "tiếng ồn", "ipa": "/nɔɪz/", "ipaFrom": "dictionary", "pos": "n", "example": "Please reduce the noise. The baby is sleeping.", "collocations": ["reduce noise", "too much noise"], "synonyms": ["sound"], "antonyms": ["silence"], "src": { "kind": "sgk", "page": 50 } },
+    { "id": "v21", "en": "president", "vi": "chủ tịch", "ipa": "/ˈprezɪdənt/", "ipaFrom": "glossary", "pos": "n", "example": "Mi is the president of our school's green club.", "collocations": ["club president", "the president of"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v22", "en": "plastic bottle", "vi": "chai nhựa", "ipa": "/ˌplæstɪk ˈbɒtl/", "ipaFrom": "dictionary", "pos": "n", "example": "We can cut old plastic bottles and use them as flower pots.", "collocations": ["reuse plastic bottles", "an empty plastic bottle"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 50 } },
+    { "id": "v23", "en": "glass", "vi": "thuỷ tinh; cái cốc thuỷ tinh", "ipa": "/ɡlɑːs/", "ipaFrom": "dictionary", "pos": "n", "example": "Glass jars are easy to clean and reuse.", "collocations": ["a glass jar", "a glass of water"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 50 } },
+    { "id": "v24", "en": "paper", "vi": "giấy", "ipa": "/ˈpeɪpə/", "ipaFrom": "dictionary", "pos": "n", "example": "Our class collects old paper and sends it to the recycling centre.", "collocations": ["recycle paper", "a piece of paper"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 50 } },
+    { "id": "v25", "en": "clothes", "vi": "quần áo", "ipa": "/kləʊðz/", "ipaFrom": "dictionary", "pos": "n", "example": "We give our old clothes to children in need.", "collocations": ["old clothes", "second-hand clothes"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 50 } },
+    { "id": "v26", "en": "shopping bag", "vi": "túi đi chợ, túi mua sắm", "ipa": "/ˈʃɒpɪŋ bæɡ/", "ipaFrom": "dictionary", "pos": "n", "example": "My mum always takes a cloth shopping bag to the market.", "collocations": ["a reusable shopping bag", "a green shopping bag"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 48 } },
+    { "id": "v27", "en": "air", "vi": "không khí", "ipa": "/eə/", "ipaFrom": "dictionary", "pos": "n", "example": "If more people cycle, the air will be cleaner.", "collocations": ["fresh air", "clean air"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 48 } },
+    { "id": "v28", "en": "plant", "vi": "trồng (cây)", "ipa": "/plɑːnt/", "ipaFrom": "dictionary", "pos": "v", "example": "Our class plants trees in the schoolyard every spring.", "collocations": ["plant trees", "plant flowers"], "synonyms": ["grow"], "antonyms": ["cut down"], "src": { "kind": "sgk", "page": 49 } },
+    { "id": "v29", "en": "cycle", "vi": "đi xe đạp", "ipa": "/ˈsaɪkl/", "ipaFrom": "dictionary", "pos": "v", "example": "I cycle to school because it's green and healthy.", "collocations": ["cycle to school", "cycle to work"], "synonyms": ["ride a bike"], "antonyms": [], "src": { "kind": "sgk", "page": 48 } },
+    { "id": "v30", "en": "green", "vi": "xanh, thân thiện với môi trường", "ipa": "/ɡriːn/", "ipaFrom": "dictionary", "pos": "adj", "example": "You're very green because you never use plastic bags.", "collocations": ["a green club", "green ideas"], "synonyms": ["eco-friendly"], "antonyms": [], "src": { "kind": "sgk", "page": 48 } },
+    { "id": "v31", "en": "electricity", "vi": "điện", "ipa": "/ɪˌlekˈtrɪsəti/", "ipaFrom": "dictionary", "pos": "n", "example": "Turn off the lights when you leave the room to save electricity.", "collocations": ["save electricity", "use electricity"], "synonyms": [], "antonyms": [], "src": { "kind": "team", "page": null } }
   ],
   "grammar": [
     {
@@ -113,6 +124,19 @@
       "sentence": "Don't throw it away. If you throw it away, it will become rubbish.",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "ending",
+      "focus": "Đuôi -s / -es của danh từ số nhiều: /s/, /z/, /ɪz/",
+      "tipVi": "Sau âm vô thanh như /p/, /t/, /k/, đuôi -s đọc /s/ (cups, plants). Sau âm hữu thanh và nguyên âm, đọc /z/ (bottles, bags, trees). Sau /s/, /ks/, /ʃ/, /tʃ/, /dʒ/, đuôi -es đọc /ɪz/ (boxes, glasses).",
+      "words": ["cups", "plants", "bottles", "bags", "boxes", "glasses"],
+      "sentence": "We recycle bottles, cans and boxes at school.",
+      "quiz": [
+        { "prompt": "Which word ends with the sound /ɪz/?", "options": ["boxes", "bags", "cups"], "answer": 0, "explainVi": "boxes đọc /ˈbɒksɪz/; bags kết thúc bằng /z/, cups kết thúc bằng /s/." },
+        { "prompt": "Which word ends with the sound /s/?", "options": ["plants", "bottles", "glasses"], "answer": 0, "explainVi": "plants /plɑːnts/ kết thúc bằng /s/; bottles là /z/, glasses là /ɪz/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -124,7 +148,15 @@
     { "id": "e06", "en": "Be careful!", "vi": "Cẩn thận nhé!", "useVi": "Khi nhắc ai đó cẩn thận trước một nguy hiểm.", "example": "Be careful! That glass is broken.", "src": { "kind": "team", "page": null } },
     { "id": "e07", "en": "Instead of ..., why don't we ...?", "vi": "Thay vì ..., sao chúng ta không ...?", "useVi": "Khi đề xuất một cách làm xanh hơn.", "example": "Instead of buying new books, why don't we exchange old ones?", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "Here's a tip: ...", "vi": "Đây là một mẹo: ...", "useVi": "Khi chia sẻ một mẹo sống xanh.", "example": "Here's a tip: write on both sides of the paper.", "src": { "kind": "team", "page": null } },
-    { "id": "e09", "en": "I understand, but ...", "vi": "Mình hiểu, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I understand, but small changes can help the Earth.", "src": { "kind": "team", "page": null } }
+    { "id": "e09", "en": "I understand, but ...", "vi": "Mình hiểu, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I understand, but small changes can help the Earth.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "It's better than ...", "vi": "Nó tốt hơn ...", "useVi": "Khi so sánh để chỉ ra lựa chọn xanh hơn.", "example": "A cloth bag is better than a plastic one.", "src": { "kind": "sgk", "page": 48 } },
+    { "id": "e11", "en": "Where can I buy one?", "vi": "Mình có thể mua một cái ở đâu?", "useVi": "Khi hỏi nơi mua một món đồ mình vừa thấy.", "example": "That reusable bottle is great. Where can I buy one?", "src": { "kind": "sgk", "page": 48 } },
+    { "id": "e12", "en": "By the way, ...", "vi": "Nhân tiện, ...", "useVi": "Khi chuyển sang một ý mới trong cuộc trò chuyện.", "example": "By the way, are you coming to the green club meeting tomorrow?", "src": { "kind": "sgk", "page": 48 } },
+    { "id": "e13", "en": "Do you ...? – Yes, I do. / No, I don't.", "vi": "Bạn có ... không? – Có. / Không.", "useVi": "Khi hỏi bạn có thói quen sống xanh nào không.", "example": "Do you pick up rubbish in the park? – Yes, I do.", "src": { "kind": "sgk", "page": 49 } },
+    { "id": "e14", "en": "Watch out!", "vi": "Cẩn thận!", "useVi": "Khi cảnh báo ai đó về một nguy hiểm sắp xảy ra.", "example": "Watch out! There's broken glass on the ground.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "Turn off the ... when you leave the room.", "vi": "Hãy tắt ... khi rời khỏi phòng.", "useVi": "Khi nhắc người khác tiết kiệm điện.", "example": "Turn off the fan when you leave the room.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "We can reuse ... as ...", "vi": "Chúng ta có thể dùng lại ... làm ...", "useVi": "Khi gợi ý cách tái sử dụng đồ cũ.", "example": "We can reuse old jars as pencil holders.", "src": { "kind": "team", "page": null } },
+    { "id": "e17", "en": "What can we do to ...?", "vi": "Chúng ta có thể làm gì để ...?", "useVi": "Khi hỏi ý kiến về cách giải quyết một vấn đề môi trường.", "example": "What can we do to reduce rubbish at school?", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["If we recycle", "more paper,", "we will save", "a lot of trees"], "vi": "Nếu chúng ta tái chế nhiều giấy hơn, chúng ta sẽ cứu được nhiều cây.", "grammarId": "g02" },
@@ -134,7 +166,9 @@
     { "id": "b05", "chunks": ["We can reuse", "an old jar", "as a", "pencil holder"], "vi": "Chúng ta có thể dùng lại một cái lọ cũ làm ống đựng bút.", "grammarId": "g01" },
     { "id": "b06", "chunks": ["The air", "will be cleaner", "if more people", "cycle to work"], "vi": "Không khí sẽ sạch hơn nếu nhiều người đạp xe đi làm.", "grammarId": "g02" },
     { "id": "b07", "chunks": ["We gave", "our old clothes", "to people", "in need"], "vi": "Chúng mình đã tặng quần áo cũ cho những người cần.", "grammarId": null },
-    { "id": "b08", "chunks": ["Our class", "picked up rubbish", "in the park", "last Saturday"], "vi": "Lớp mình đã nhặt rác ở công viên vào thứ Bảy tuần trước.", "grammarId": null }
+    { "id": "b08", "chunks": ["Our class", "picked up rubbish", "in the park", "last Saturday"], "vi": "Lớp mình đã nhặt rác ở công viên vào thứ Bảy tuần trước.", "grammarId": null },
+    { "id": "b09", "chunks": ["If we", "turn off the lights,", "we will", "save electricity"], "vi": "Nếu chúng ta tắt đèn, chúng ta sẽ tiết kiệm điện.", "grammarId": "g02" },
+    { "id": "b10", "chunks": ["I put", "the glass bottles", "in a recycling bin"], "vi": "Mình bỏ những chai thuỷ tinh vào một thùng rác tái chế.", "grammarId": "g01" }
   ],
   "expand": [
     {
@@ -173,6 +207,25 @@
         { "askVi": "Vì sao?", "ask": "Why?", "add": "because I don't want to make rubbish" }
       ],
       "full": "I bring my lunch in a reusable box because I don't want to make rubbish."
+    },
+    {
+      "id": "x05",
+      "base": "We plant trees.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in the schoolyard" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every spring" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because trees make the air cleaner" }
+      ],
+      "full": "We plant trees in the schoolyard every spring because trees make the air cleaner."
+    },
+    {
+      "id": "x06",
+      "base": "I will cycle to school.",
+      "steps": [
+        { "askVi": "Với điều kiện gì?", "ask": "On what condition?", "add": "If the weather is nice" },
+        { "askVi": "Với ai?", "ask": "Who with?", "add": "with my friends" }
+      ],
+      "full": "If the weather is nice, I will cycle to school with my friends."
     }
   ],
   "variations": [
@@ -234,6 +287,45 @@
       ],
       "keywords": ["exchange", "reuse", "rubbish", "because"],
       "exampleAnswer": "Exchanging old books is good because we reuse them, so we make less rubbish and save money.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Hoạt động của câu lạc bộ xanh ở trường",
+      "questions": [
+        "If your school starts a green club, what will the club do?",
+        "What activities can a green club do at school?",
+        "Tell me some ideas for a green club in your school.",
+        "If you join a green club, what will you do?"
+      ],
+      "keywords": ["green club", "plant trees", "recycle", "will"],
+      "exampleAnswer": "If our school starts a green club, we will plant trees and collect paper for recycling every month.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Cách giảm rác ở trường",
+      "questions": [
+        "What can students do to reduce rubbish at school?",
+        "How can your class make less rubbish?",
+        "Tell me how students can produce less waste at school.",
+        "What can your school do to have less rubbish?"
+      ],
+      "keywords": ["reduce", "reusable", "lunch box", "bottle"],
+      "exampleAnswer": "Students can bring reusable water bottles and lunch boxes. We can also use both sides of the paper.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Vì sao nên trồng nhiều cây ở thành phố",
+      "questions": [
+        "Is it important to plant trees in cities? Why?",
+        "Why do cities need more trees?",
+        "Should people plant more trees in their streets? Why or why not?",
+        "What will happen if we plant more trees in our town? Why is it good?"
+      ],
+      "keywords": ["air", "cleaner", "shade", "because"],
+      "exampleAnswer": "Yes, it is. If we plant more trees, the air will be cleaner and the streets will be cooler in summer.",
       "expectsReason": true
     }
   ],
@@ -346,6 +438,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["exchange", "reuse", "if", "because"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Hướng dẫn em họ phân loại rác",
+      "contextVi": "Em họ nhỏ tuổi đến chơi nhà em. Nhà em có ba thùng rác: giấy, nhựa và rác thường. Em hướng dẫn em họ bỏ đồ vào đúng thùng.",
+      "aiRole": "Bo, your little cousin who doesn't know how to sort rubbish",
+      "studentRoleVi": "Anh/chị hướng dẫn em họ phân loại rác",
+      "goalVi": "Nói đồ nào bỏ vào thùng nào, giải thích ngắn gọn vì sao, và khen em họ khi làm đúng.",
+      "goal": "Tell Bo which bin each thing goes in, explain why in a simple way, and praise him when he does it right.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất hai từ về rác và tái chế", "words": ["recycling bin", "plastic bottle", "paper", "glass", "rubbish", "recycle"] },
+        { "kind": "keyword", "vi": "Dùng a / an / the đúng cách", "words": ["a", "an", "the"] }
+      ],
+      "opener": "I've finished my juice. Can I throw the bottle in this bin?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "OK! And what about this old newspaper?",
+        "Why do we put them in different bins?",
+        "I got it! I'll do it at home too."
+      ],
+      "tipsVi": ["Nói rõ: Put the plastic bottle in the blue bin.", "Giải thích đơn giản: We can recycle it and make new things."],
+      "keywords": ["recycling bin", "the", "recycle", "plastic", "Well done"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Đạp xe đến trường",
+      "contextVi": "Em muốn đạp xe đến trường thay vì để bố mẹ chở bằng xe máy. Mẹ lo lắng và muốn tiếp tục chở em. Em thuyết phục mẹ.",
+      "aiRole": "Mum, who worries about you cycling to school",
+      "studentRoleVi": "Học sinh muốn tự đạp xe đến trường",
+      "goalVi": "Nêu lý do đạp xe tốt cho môi trường và sức khoẻ, dùng câu điều kiện loại 1, và trả lời khi mẹ lo lắng.",
+      "goal": "Explain why cycling is good for the environment and your health, use the first conditional, and answer Mum's worries.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng câu điều kiện loại 1 ít nhất một lần", "words": ["If", "will"] },
+        { "kind": "reason", "vi": "Nêu ít nhất hai lý do", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất cách giúp mẹ yên tâm", "words": [] }
+      ],
+      "opener": "Are you ready? Get on the motorbike. I'll take you to school.",
+      "stance": "Cycling to school is dangerous and tiring. It's better if I take you by motorbike.",
+      "turns": 5,
+      "fallback": [
+        "Cycle? Why do you want to cycle?",
+        "But cycling to school is dangerous and tiring. It's better if I take you by motorbike.",
+        "Hmm. What will you do to stay safe on the road?",
+        "OK, you can try it next week. Be careful!"
+      ],
+      "tipsVi": ["Dùng If: If I cycle, the air will be cleaner.", "Đề xuất: I'll wear a helmet and cycle with my friend Nam."],
+      "keywords": ["If", "will", "air", "helmet", "healthy"]
     }
   ]
 }

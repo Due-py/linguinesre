@@ -27,7 +27,17 @@
     { "id": "v19", "en": "Australia", "vi": "nước Úc", "ipa": "/ɒˈstreɪliə/", "ipaFrom": "glossary", "pos": "n", "example": "Kangaroos live in Australia.", "collocations": ["in Australia"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
     { "id": "v20", "en": "Canada", "vi": "nước Canada", "ipa": "/ˈkænədə/", "ipaFrom": "glossary", "pos": "n", "example": "Canada is very cold in winter.", "collocations": ["in Canada"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
     { "id": "v21", "en": "New Zealand", "vi": "nước Niu Zi Lân", "ipa": "/ˌnjuː ˈziːlənd/", "ipaFrom": "glossary", "pos": "n", "example": "My cousin studies in New Zealand.", "collocations": ["in New Zealand"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
-    { "id": "v22", "en": "the UK", "vi": "Vương quốc liên hiệp Anh", "ipa": "/ˌjuː ˈkeɪ/", "ipaFrom": "glossary", "pos": "n", "example": "Scotland is a part of the UK.", "collocations": ["in the UK"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } }
+    { "id": "v22", "en": "the UK", "vi": "Vương quốc liên hiệp Anh", "ipa": "/ˌjuː ˈkeɪ/", "ipaFrom": "glossary", "pos": "n", "example": "Scotland is a part of the UK.", "collocations": ["in the UK"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v23", "en": "amazement", "vi": "sự ngạc nhiên, kinh ngạc (một cách thích thú)", "ipa": "/əˈmeɪzmənt/", "ipaFrom": "glossary", "pos": "n", "example": "We looked at the huge castle in amazement.", "collocations": ["in amazement"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v24", "en": "shining", "vi": "chói chang, chan hòa ánh nắng", "ipa": "/ˈʃaɪnɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "The children played on the shining sand all afternoon.", "collocations": ["shining beaches", "a shining day"], "synonyms": ["sunny", "bright"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v25", "en": "the USA", "vi": "Hợp chủng quốc Hoa Kỳ", "ipa": "/ˌjuː es ˈeɪ/", "ipaFrom": "glossary", "pos": "n", "example": "English is the main language in the USA.", "collocations": ["in the USA"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v26", "en": "kangaroo", "vi": "chuột túi, căng-gu-ru", "ipa": "/ˌkæŋɡəˈruː/", "ipaFrom": "dictionary", "pos": "n", "example": "We saw a mother kangaroo with a baby in her pouch.", "collocations": ["a baby kangaroo"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v27", "en": "unique", "vi": "độc đáo, chỉ có một", "ipa": "/juˈniːk/", "ipaFrom": "dictionary", "pos": "adj", "example": "Each island in this country has its own unique animals.", "collocations": ["a unique culture", "unique animals"], "synonyms": ["special"], "antonyms": ["common"], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v28", "en": "boat ride", "vi": "chuyến đi thuyền", "ipa": "/ˈbəʊt raɪd/", "ipaFrom": "dictionary", "pos": "n", "example": "We took a boat ride along the river at sunset.", "collocations": ["take a boat ride"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v29", "en": "attraction", "vi": "điểm thu hút du khách", "ipa": "/əˈtrækʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "The Opera House is a famous attraction in Sydney.", "collocations": ["a tourist attraction", "a natural attraction"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v30", "en": "tour guide", "vi": "hướng dẫn viên du lịch", "ipa": "/ˈtʊə ɡaɪd/", "ipaFrom": "dictionary", "pos": "n", "example": "Our tour guide told us interesting stories about the castle.", "collocations": ["a friendly tour guide"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v31", "en": "palace", "vi": "cung điện", "ipa": "/ˈpæləs/", "ipaFrom": "dictionary", "pos": "n", "example": "The royal family lives in a big palace in London.", "collocations": ["a royal palace", "visit a palace"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v32", "en": "official language", "vi": "ngôn ngữ chính thức", "ipa": "/əˌfɪʃl ˈlæŋɡwɪdʒ/", "ipaFrom": "dictionary", "pos": "n phr", "example": "English is an official language in Canada.", "collocations": ["an official language"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } }
   ],
   "grammar": [
     {
@@ -114,6 +124,19 @@
         { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["Canada", "Australia", "tattoo"], "answer": 0, "explainVi": "Canada /ˈkænədə/ nhấn âm đầu; Australia /ɒˈstreɪliə/ và tattoo /təˈtuː/ nhấn âm thứ hai." }
       ],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "sound",
+      "focus": "the đọc /ðə/ hay /ði/",
+      "tipVi": "the đọc /ðə/ trước âm phụ âm (the UK, the castle) và đọc /ði/ trước âm nguyên âm (the island, the ocean). Chú ý: the USA đọc /ðə/ vì USA bắt đầu bằng âm /j/.",
+      "words": ["the UK", "the USA", "the castle", "the island", "the ocean", "the Atlantic"],
+      "sentence": "The island is in the north of the country.",
+      "quiz": [
+        { "prompt": "In which phrase is \"the\" pronounced /ði/?", "options": ["the castle", "the island", "the tower"], "answer": 1, "explainVi": "island bắt đầu bằng nguyên âm /aɪ/ nên the đọc /ði/." },
+        { "prompt": "How do you say \"the\" in \"the UK\"?", "options": ["/ðə/", "/ði/"], "answer": 0, "explainVi": "UK đọc /ˌjuː ˈkeɪ/, bắt đầu bằng âm /j/ (phụ âm) nên the đọc /ðə/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -126,7 +149,13 @@
     { "id": "e07", "en": "I'd like to visit ... because ...", "vi": "Mình muốn đến ... vì ...", "useVi": "Khi nói nơi muốn đến và lý do.", "example": "I'd like to visit Canada because I want to see the lakes.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "It's famous for ...", "vi": "Nơi đó nổi tiếng về ...", "useVi": "Khi giới thiệu điều nổi bật của một nơi.", "example": "Scotland is famous for its castles and kilts.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "Did you know that ...?", "vi": "Bạn có biết rằng ... không?", "useVi": "Khi muốn chia sẻ một sự thật thú vị.", "example": "Did you know that Canberra is the capital of Australia?", "src": { "kind": "team", "page": null } },
-    { "id": "e10", "en": "You can see ... and try ...", "vi": "Bạn có thể ngắm ... và thử ...", "useVi": "Khi gợi ý những việc nên làm ở một nơi.", "example": "In Hoi An, you can see the old town and try cao lau.", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "You can see ... and try ...", "vi": "Bạn có thể ngắm ... và thử ...", "useVi": "Khi gợi ý những việc nên làm ở một nơi.", "example": "In Hoi An, you can see the old town and try cao lau.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "How was your holiday?", "vi": "Kỳ nghỉ của bạn thế nào?", "useVi": "Khi hỏi bạn về chuyến đi vừa rồi.", "example": "Welcome back! How was your holiday in Scotland?", "src": { "kind": "sgk", "page": 124 } },
+    { "id": "e12", "en": "I'm glad that you had a wonderful time there.", "vi": "Mình mừng là bạn đã có khoảng thời gian tuyệt vời ở đó.", "useVi": "Khi vui cùng bạn sau chuyến đi tốt đẹp.", "example": "You loved London? I'm glad that you had a wonderful time there.", "src": { "kind": "sgk", "page": 125 } },
+    { "id": "e13", "en": "There are two things I like about ...", "vi": "Có hai điều mình thích ở ...", "useVi": "Khi giới thiệu những điều mình thích ở một nơi.", "example": "There are two things I like about Canada: the lakes and the friendly people.", "src": { "kind": "sgk", "page": 130 } },
+    { "id": "e14", "en": "Did you travel a lot?", "vi": "Bạn có đi nhiều nơi không?", "useVi": "Khi hỏi thêm về chuyến du lịch của bạn.", "example": "You were in Australia for two weeks? Did you travel a lot?", "src": { "kind": "sgk", "page": 124 } },
+    { "id": "e15", "en": "What's the capital of ...?", "vi": "Thủ đô của ... là gì?", "useVi": "Khi hỏi thủ đô của một nước.", "example": "What's the capital of New Zealand?", "src": { "kind": "sgk", "page": 127 } },
+    { "id": "e16", "en": "You must visit ...", "vi": "Bạn nhất định phải đến ...", "useVi": "Khi giới thiệu một nơi rất đáng đến.", "example": "You must visit the castles when you go to Scotland.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["I'd like to visit", "Scotland", "because it has", "many ancient castles"], "vi": "Mình muốn đến Scotland vì ở đó có nhiều lâu đài cổ.", "grammarId": null },
@@ -136,7 +165,9 @@
     { "id": "b05", "chunks": ["The kangaroo", "is a symbol", "of Australia"], "vi": "Kangaroo là một biểu tượng của nước Úc.", "grammarId": "g02" },
     { "id": "b06", "chunks": ["Toronto is", "the largest city", "in Canada"], "vi": "Toronto là thành phố lớn nhất Canada.", "grammarId": "g02" },
     { "id": "b07", "chunks": ["We watched", "an amazing sunset", "on the beach"], "vi": "Chúng mình ngắm hoàng hôn tuyệt đẹp trên bãi biển.", "grammarId": "g01" },
-    { "id": "b08", "chunks": ["Local people", "in Scotland", "sometimes wear kilts", "at festivals"], "vi": "Người dân Scotland đôi khi mặc váy kilt trong các lễ hội.", "grammarId": null }
+    { "id": "b08", "chunks": ["Local people", "in Scotland", "sometimes wear kilts", "at festivals"], "vi": "Người dân Scotland đôi khi mặc váy kilt trong các lễ hội.", "grammarId": null },
+    { "id": "b09", "chunks": ["The tour guide", "showed us", "the royal palace"], "vi": "Hướng dẫn viên dẫn chúng mình đi xem cung điện hoàng gia.", "grammarId": "g02" },
+    { "id": "b10", "chunks": ["English is", "an official language", "in Canada"], "vi": "Tiếng Anh là một ngôn ngữ chính thức ở Canada.", "grammarId": "g01" }
   ],
   "expand": [
     {
@@ -176,6 +207,26 @@
         { "askVi": "Vì sao?", "ask": "Why?", "add": "because they help me learn new words" }
       ],
       "full": "I watch videos in English about animals every weekend because they help me learn new words."
+    },
+    {
+      "id": "x05",
+      "base": "We took a boat ride.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "along the river" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "in the evening" },
+        { "askVi": "Em thấy gì?", "ask": "What did you see?", "add": "and saw many historic buildings" }
+      ],
+      "full": "We took a boat ride along the river in the evening and saw many historic buildings."
+    },
+    {
+      "id": "x06",
+      "base": "Canada is famous.",
+      "steps": [
+        { "askVi": "Nổi tiếng vì gì?", "ask": "What for?", "add": "for its beautiful lakes" },
+        { "askVi": "Ví dụ?", "ask": "For example?", "add": "like Lake Louise" },
+        { "askVi": "Khi nào nên đến?", "ask": "When is the best time to visit?", "add": "and summer is the best time to visit" }
+      ],
+      "full": "Canada is famous for its beautiful lakes, like Lake Louise, and summer is the best time to visit."
     }
   ],
   "variations": [
@@ -237,6 +288,45 @@
       ],
       "keywords": ["culture", "landscape", "local food", "because"],
       "exampleAnswer": "People enjoy it because they can see new landscapes, try local food and learn about a different culture.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Động vật đặc biệt của các nước nói tiếng Anh",
+      "questions": [
+        "Which animals are famous in Australia or New Zealand?",
+        "What unique animals live in English-speaking countries?",
+        "Tell me about an animal that is a symbol of a country.",
+        "Which animal from another country would you like to see?"
+      ],
+      "keywords": ["kangaroo", "penguin", "native", "unique"],
+      "exampleAnswer": "Kangaroos are native to Australia, and you can't find them in the wild anywhere else. I'd love to see one in real life.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Một chuyến tham quan thành phố",
+      "questions": [
+        "Tell me about a city tour you took.",
+        "Which city did you visit with a tour guide?",
+        "What did you see on your last trip to a big city?",
+        "Describe a day out in a city you visited."
+      ],
+      "keywords": ["visited", "tour guide", "historic", "took photos"],
+      "exampleAnswer": "Last summer, I visited Hue with my family. A tour guide showed us the royal palace, and we took a boat ride on the river.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Vì sao tiếng Anh quan trọng khi đi du lịch",
+      "questions": [
+        "Why do people in many countries learn English?",
+        "Why is English important for travellers?",
+        "How does English help you when you travel abroad?",
+        "Is English useful in countries where it is not the official language?"
+      ],
+      "keywords": ["official language", "travel", "talk to", "because"],
+      "exampleAnswer": "English is important because people in many countries speak it. When we travel, we can ask for directions and talk to local people.",
       "expectsReason": true
     }
   ],
@@ -350,6 +440,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["famous for", "capital", "landscape", "the", "because"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Hỏi hướng dẫn viên về tour London",
+      "contextVi": "Em đang ở London cùng gia đình và tham gia một tour một ngày. Em hỏi hướng dẫn viên về lịch trình.",
+      "aiRole": "Kate, a tour guide in London",
+      "studentRoleVi": "Du khách nhỏ tuổi hỏi về lịch trình",
+      "goalVi": "Hỏi hôm nay đi những đâu, mấy giờ, và ở mỗi nơi có thể xem hay làm gì.",
+      "goal": "Ask the tour guide where you are going today, at what time, and what you can see or do at each place.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng câu hỏi có từ để hỏi", "words": ["Where", "What time", "What can we"] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["palace", "tower", "boat ride", "historic", "royal"] }
+      ],
+      "opener": "Good morning, everyone! Welcome to our London tour. Do you have any questions before we start?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "First, we'll visit Buckingham Palace at half past nine.",
+        "After lunch, we'll take a boat ride on the River Thames.",
+        "You can see many historic buildings along the river. Any more questions?"
+      ],
+      "tipsVi": ["Hỏi: Where will we go first? What time is lunch?", "Nhớ xuống giọng ở cuối câu hỏi có từ để hỏi."],
+      "keywords": ["Where", "What time", "palace", "boat ride"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Giới thiệu Scotland cho bạn",
+      "contextVi": "Em vừa xem một phim tài liệu về Scotland. Bạn em chưa biết gì về nước này và hỏi em.",
+      "aiRole": "Nam, a classmate who knows nothing about Scotland",
+      "studentRoleVi": "Bạn kể về Scotland",
+      "goalVi": "Giới thiệu Scotland: ở đâu, nổi tiếng vì gì, người dân thế nào, và một điều em muốn làm ở đó.",
+      "goal": "Tell Nam about Scotland: where it is, what it's famous for, what its people are like, and one thing you'd like to do there.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất hai từ của bài", "words": ["castle", "kilt", "ancient", "culture", "landscape"] },
+        { "kind": "example", "vi": "Nêu một điều cụ thể em muốn làm ở đó", "words": [] }
+      ],
+      "opener": "You're watching a video about Scotland? I don't know anything about it. Where is it?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Oh, I see. What is it famous for?",
+        "What are the people like?",
+        "Would you like to go there one day? What would you do?"
+      ],
+      "tipsVi": ["Mẫu: Scotland is in the north of Great Britain. It's famous for...", "Nói mong muốn: I'd like to visit... because..."],
+      "keywords": ["castles", "kilts", "famous for", "I'd like to"]
     }
   ]
 }

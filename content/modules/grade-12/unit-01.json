@@ -25,7 +25,17 @@
     { "id": "v17", "en": "death", "vi": "cái chết", "ipa": "/deθ/", "ipaFrom": "glossary", "pos": "n", "example": "After his death, his family published his letters.", "collocations": ["after somebody's death"], "synonyms": [], "antonyms": ["birth"], "src": { "kind": "sgk", "page": 147 } },
     { "id": "v18", "en": "on top of the world", "vi": "rất vui sướng, hạnh phúc", "ipa": "/ɒn tɒp ɒv ðə wɜːld/", "ipaFrom": "glossary", "pos": "idiom", "example": "I felt on top of the world when our team won the contest.", "collocations": ["feel on top of the world"], "synonyms": ["on cloud nine", "over the moon"], "antonyms": [], "src": { "kind": "sgk", "page": 147 } },
     { "id": "v19", "en": "impressive", "vi": "ấn tượng, gây ấn tượng mạnh", "ipa": "/ɪmˈpresɪv/", "ipaFrom": "dictionary", "pos": "adj", "example": "Winning three gold medals is an impressive achievement.", "collocations": ["an impressive achievement", "an impressive result"], "synonyms": ["amazing"], "antonyms": [], "src": { "kind": "sgk", "page": 10 } },
-    { "id": "v20", "en": "inspiring", "vi": "truyền cảm hứng", "ipa": "/ɪnˈspaɪərɪŋ/", "ipaFrom": "dictionary", "pos": "adj", "example": "Her life story is very inspiring for young people.", "collocations": ["an inspiring story", "an inspiring poem"], "synonyms": ["motivating"], "antonyms": ["boring"], "src": { "kind": "sgk", "page": 16 } }
+    { "id": "v20", "en": "inspiring", "vi": "truyền cảm hứng", "ipa": "/ɪnˈspaɪərɪŋ/", "ipaFrom": "dictionary", "pos": "adj", "example": "Her life story is very inspiring for young people.", "collocations": ["an inspiring story", "an inspiring poem"], "synonyms": ["motivating"], "antonyms": ["boring"], "src": { "kind": "sgk", "page": 16 } },
+    { "id": "v21", "en": "battle", "vi": "trận chiến, trận đánh", "ipa": "/ˈbætl/", "ipaFrom": "glossary", "pos": "n", "example": "Many young soldiers lost their lives in the battle.", "collocations": ["a fierce battle", "win a battle"], "synonyms": ["fight"], "antonyms": [], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v22", "en": "enemy", "vi": "kẻ thù", "ipa": "/ˈenəmi/", "ipaFrom": "glossary", "pos": "n", "example": "The soldiers hid in the forest so that the enemy could not find them.", "collocations": ["the enemy army", "fight the enemy"], "synonyms": ["opponent"], "antonyms": ["ally"], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v23", "en": "defeat", "vi": "đánh bại", "ipa": "/dɪˈfiːt/", "ipaFrom": "glossary", "pos": "v", "example": "General Vo Nguyen Giap's army defeated the French at Dien Bien Phu in 1954.", "collocations": ["defeat the enemy", "be defeated"], "synonyms": ["beat"], "antonyms": ["lose to"], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v24", "en": "military", "vi": "quân đội", "ipa": "/ˈmɪlətri/", "ipaFrom": "glossary", "pos": "n", "example": "She served in the military as a doctor during the war.", "collocations": ["join the military", "military service"], "synonyms": ["army", "armed forces"], "antonyms": [], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v25", "en": "resistance war", "vi": "cuộc kháng chiến", "ipa": "/rɪˈzɪstəns wɔː/", "ipaFrom": "glossary", "pos": "n", "example": "My great-grandfather fought in the resistance war against the French.", "collocations": ["the resistance war against", "fight in the resistance war"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v26", "en": "poem", "vi": "bài thơ", "ipa": "/ˈpəʊɪm/", "ipaFrom": "glossary", "pos": "n", "example": "My grandfather wrote a short poem for my grandmother on their wedding day.", "collocations": ["write a poem", "a love poem"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v27", "en": "poetry", "vi": "thơ ca", "ipa": "/ˈpəʊətri/", "ipaFrom": "glossary", "pos": "n", "example": "Reading poetry helps me understand how people felt in the past.", "collocations": ["a book of poetry", "write poetry"], "synonyms": ["poems"], "antonyms": ["prose"], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v28", "en": "resign", "vi": "từ chức", "ipa": "/rɪˈzaɪn/", "ipaFrom": "glossary", "pos": "v", "example": "He resigned from the company and started his own business.", "collocations": ["resign from", "resign as director"], "synonyms": ["quit", "step down"], "antonyms": [], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v29", "en": "cancer", "vi": "bệnh ung thư", "ipa": "/ˈkænsə/", "ipaFrom": "glossary", "pos": "n", "example": "She kept working on her research even after she found out she had cancer.", "collocations": ["lung cancer", "fight cancer"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v30", "en": "animated", "vi": "(phim) hoạt hình", "ipa": "/ˈænɪmeɪtɪd/", "ipaFrom": "glossary", "pos": "adj", "example": "Walt Disney made some of the most famous animated films in the world.", "collocations": ["animated film", "animated cartoon"], "synonyms": ["cartoon"], "antonyms": [], "src": { "kind": "sgk", "page": 147 } }
   ],
   "grammar": [
     {
@@ -135,7 +145,13 @@
     { "id": "e07", "en": "Good for you!", "vi": "Giỏi quá! / Mừng cho bạn!", "useVi": "Khi khen và chúc mừng ngắn gọn.", "example": "You finished the marathon? Good for you!", "src": { "kind": "sgk", "page": 17 } },
     { "id": "e08", "en": "I really admire ... because ...", "vi": "Mình rất ngưỡng mộ ... vì ...", "useVi": "Khi nói về người mình ngưỡng mộ và lý do.", "example": "I really admire my uncle because he helped many poor students.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "What impressed me most was ...", "vi": "Điều làm mình ấn tượng nhất là ...", "useVi": "Khi nêu chi tiết đáng nhớ nhất trong cuộc đời một người.", "example": "What impressed me most was her courage during the war.", "src": { "kind": "team", "page": null } },
-    { "id": "e10", "en": "I see what you mean, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see what you mean, but ordinary people can be heroes too.", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "I see what you mean, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see what you mean, but ordinary people can be heroes too.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "He/She is best known for ...", "vi": "Ông/Bà ấy nổi tiếng nhất vì ...", "useVi": "Khi giới thiệu thành tựu nổi bật nhất của một người.", "example": "Tran Dai Nghia is best known for making weapons for the resistance war.", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "He/She was born in ... and grew up in ...", "vi": "Ông/Bà ấy sinh ra ở ... và lớn lên ở ...", "useVi": "Khi bắt đầu kể tiểu sử của một người.", "example": "She was born in Hue and grew up in a poor fishing village.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "At the age of ..., he/she ...", "vi": "Năm ... tuổi, ông/bà ấy ...", "useVi": "Khi kể một sự kiện quan trọng theo tuổi của nhân vật.", "example": "At the age of twenty, he left home to study abroad.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "He/She is a great role model for ...", "vi": "Ông/Bà ấy là tấm gương lớn cho ...", "useVi": "Khi nói vì sao một người đáng để người khác noi theo.", "example": "My grandmother is a great role model for everyone in my family.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "Congratulations on ...!", "vi": "Chúc mừng bạn đã ...!", "useVi": "Khi chúc mừng ai đó về một thành tích cụ thể.", "example": "Congratulations on winning the scholarship!", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "Well done! You really deserve it.", "vi": "Giỏi lắm! Bạn thật xứng đáng.", "useVi": "Khi khen ngợi và chia vui vì ai đó đã cố gắng nhiều.", "example": "Well done! You really deserve it after all your hard work.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["I was reading", "a biography", "when my friend", "called me"], "vi": "Mình đang đọc một cuốn tiểu sử thì bạn mình gọi điện.", "grammarId": "g02" },
@@ -145,7 +161,9 @@
     { "id": "b05", "chunks": ["One of her", "greatest achievements", "was opening", "a free school"], "vi": "Một trong những thành tựu lớn nhất của bà là mở một trường học miễn phí.", "grammarId": null },
     { "id": "b06", "chunks": ["It was raining", "heavily", "when the soldiers", "found the diary"], "vi": "Trời đang mưa to thì những người lính tìm thấy cuốn nhật ký.", "grammarId": "g02" },
     { "id": "b07", "chunks": ["He dropped out of", "college", "but later became", "very successful"], "vi": "Anh ấy bỏ học đại học nhưng sau đó đã trở nên rất thành công.", "grammarId": "g01" },
-    { "id": "b08", "chunks": ["I felt", "on top of the world", "when I heard", "the good news"], "vi": "Mình vui sướng vô cùng khi nghe tin tốt.", "grammarId": "g01" }
+    { "id": "b08", "chunks": ["I felt", "on top of the world", "when I heard", "the good news"], "vi": "Mình vui sướng vô cùng khi nghe tin tốt.", "grammarId": "g01" },
+    { "id": "b09", "chunks": ["When the war broke out", "she was studying", "medicine", "in Ha Noi"], "vi": "Khi chiến tranh nổ ra, bà đang học y ở Hà Nội.", "grammarId": "g02" },
+    { "id": "b10", "chunks": ["The army", "defeated the enemy", "after a long battle", "in the mountains"], "vi": "Quân đội đánh bại kẻ thù sau một trận chiến dài trên núi.", "grammarId": "g01" }
   ],
   "expand": [
     {
@@ -183,6 +201,26 @@
         { "askVi": "Lúc đó cô ấy đang làm gì?", "ask": "What was she doing then?", "add": "while she was working in a field hospital" }
       ],
       "full": "She wrote a diary during the war while she was working in a field hospital."
+    },
+    {
+      "id": "x05",
+      "base": "My grandmother was a teacher.",
+      "steps": [
+        { "askVi": "Dạy ở đâu?", "ask": "Where?", "add": "in a village school" },
+        { "askVi": "Bao lâu?", "ask": "For how long?", "add": "for thirty years" },
+        { "askVi": "Bà đã làm gì đặc biệt?", "ask": "What did she do?", "add": "and she taught many poor children for free" }
+      ],
+      "full": "My grandmother was a teacher in a village school for thirty years, and she taught many poor children for free."
+    },
+    {
+      "id": "x06",
+      "base": "He won a prize.",
+      "steps": [
+        { "askVi": "Giải gì?", "ask": "What kind of prize?", "add": "national science" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "when he was only sixteen" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because he designed a cheap water filter" }
+      ],
+      "full": "He won a national science prize when he was only sixteen because he designed a cheap water filter."
     }
   ],
   "variations": [
@@ -244,6 +282,45 @@
       ],
       "keywords": ["brave", "devote", "help others", "admire"],
       "exampleAnswer": "A hero is brave and helps others without expecting anything back, so people admire them.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Một cuốn sách hoặc bộ phim về cuộc đời người thật",
+      "questions": [
+        "Have you ever read a biography or watched a film about a real person?",
+        "Which book or film about a real person's life do you remember best?",
+        "Tell me about a film or book that tells the life story of a real person.",
+        "What true life story from a book or a film has impressed you?"
+      ],
+      "keywords": ["biography", "life story", "impressive", "inspiring"],
+      "exampleAnswer": "I watched a film about Steve Jobs. He was adopted as a baby and dropped out of college, but later he created amazing products. His story was really inspiring.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Một khó khăn em đã vượt qua",
+      "questions": [
+        "Tell me about a challenge you faced and how you dealt with it.",
+        "What was a difficult time for you, and what did you do?",
+        "Can you describe a problem that you solved on your own?",
+        "When did you have to work really hard to succeed at something?"
+      ],
+      "keywords": ["was ... when", "worked hard", "finally", "proud"],
+      "exampleAnswer": "Last year I was failing maths. While my friends were playing games, I was studying with my brother every evening. Finally, I passed the exam.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Phẩm chất giúp một người thành công",
+      "questions": [
+        "What qualities does a person need to be successful?",
+        "In your opinion, what helps someone achieve great things?",
+        "Why do some people succeed while others give up?",
+        "Which personal quality matters most for success, and why?"
+      ],
+      "keywords": ["hard-working", "devote", "never give up", "because"],
+      "exampleAnswer": "I think determination matters most because successful people never give up. For example, Nguyen Ngoc Ky learnt to write with his feet and became a teacher.",
       "expectsReason": true
     }
   ],
@@ -357,6 +434,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["admire", "hero", "youth", "because", "achievement"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Chúc mừng bạn giành học bổng",
+      "contextVi": "Bạn thân của em vừa giành được học bổng du học tại một trường đại học ở Nhật Bản sau gần một năm chuẩn bị. Bạn gọi điện báo tin cho em.",
+      "aiRole": "Lan, your best friend who has just won a scholarship to study in Japan",
+      "studentRoleVi": "Bạn thân chúc mừng và hỏi về quá trình chuẩn bị của Lan",
+      "goalVi": "Chúc mừng bạn bằng ít nhất hai cách nói khác nhau, hỏi bạn đã chuẩn bị thế nào và nói em cảm thấy ra sao.",
+      "goal": "Congratulate your friend in at least two different ways, ask how she prepared for the scholarship, and say how you feel about her success.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một cụm chia vui", "words": ["Congratulations", "That's fantastic", "I'm so happy for you"] },
+        { "kind": "example", "vi": "Hỏi một câu về việc bạn đang làm gì khi nhận tin (was/were + V-ing)", "words": [] }
+      ],
+      "opener": "Guess what? I've just got an email from Osaka University. I've won the scholarship!",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Thank you! I can't believe it. I was preparing for it for almost a year.",
+        "I studied Japanese every evening and practised interviews with my teacher. Have you ever wanted to study abroad?",
+        "That's great. Let's celebrate this weekend. Where should we go?"
+      ],
+      "tipsVi": ["Dùng câu cảm thán: That's fantastic! / I'm so happy for you!", "Hỏi bằng quá khứ tiếp diễn: What were you doing when you got the email?"],
+      "keywords": ["Congratulations", "I'm so happy for you", "achievement", "was preparing", "proud"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Kể chuyện tuổi trẻ của ông bà",
+      "contextVi": "Cô giáo tiếng Anh người Mỹ giao bài dự án \"Câu chuyện gia đình\". Cô hỏi em về tuổi trẻ của ông hoặc bà em: sống ở đâu, làm gì và có kỷ niệm nào đáng nhớ.",
+      "aiRole": "Ms Brown, your American English teacher",
+      "studentRoleVi": "Học sinh kể về tuổi trẻ của ông hoặc bà",
+      "goalVi": "Kể ông hoặc bà em làm gì khi còn trẻ, một sự kiện đáng nhớ và điều em học được từ ông bà.",
+      "goal": "Tell the teacher what your grandparent did when he or she was young, describe one memorable event, and say what you have learnt from him or her.",
+      "requirements": [
+        { "kind": "example", "vi": "Kể một sự kiện cụ thể bằng quá khứ đơn và quá khứ tiếp diễn", "words": [] },
+        { "kind": "reason", "vi": "Nói vì sao em ngưỡng mộ ông hoặc bà", "words": [] }
+      ],
+      "opener": "Hello! I'd love to hear about your grandparents. What did your grandfather or grandmother do when they were young?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "That sounds interesting. Can you tell me about one special day in their life?",
+        "Wow! What were they doing when that happened?",
+        "What have you learnt from your grandparent's life?"
+      ],
+      "tipsVi": ["Dùng quá khứ tiếp diễn để tả bối cảnh: He was working on a farm when ...", "Kết bằng điều em học được: I've learnt that ..."],
+      "keywords": ["childhood", "was working", "when", "admire", "devote"]
     }
   ]
 }

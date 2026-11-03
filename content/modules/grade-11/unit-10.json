@@ -26,7 +26,16 @@
     { "id": "v18", "en": "natural resources", "vi": "tài nguyên thiên nhiên", "ipa": "/ˌnætʃrəl rɪˈzɔːsɪz/", "ipaFrom": "glossary", "pos": "np", "example": "Water and forests are important natural resources.", "collocations": ["overuse natural resources", "save natural resources"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
     { "id": "v19", "en": "destroy", "vi": "phá huỷ", "ipa": "/dɪˈstrɔɪ/", "ipaFrom": "glossary", "pos": "v", "example": "Forest fires can destroy the homes of many animals.", "collocations": ["destroy habitats", "destroy forests"], "synonyms": ["damage"], "antonyms": ["protect", "restore"], "src": { "kind": "sgk", "page": 131 } },
     { "id": "v20", "en": "green", "vi": "(lối sống) xanh", "ipa": "/ɡriːn/", "ipaFrom": "glossary", "pos": "adj", "example": "My family tries to live a green life by recycling.", "collocations": ["green lifestyle", "go green"], "synonyms": ["eco-friendly"], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
-    { "id": "v21", "en": "climate change", "vi": "biến đổi khí hậu", "ipa": "/ˈklaɪmət tʃeɪndʒ/", "ipaFrom": "dictionary", "pos": "n", "example": "Climate change is making some animals lose their homes.", "collocations": ["fight climate change", "effects of climate change"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 110 } }
+    { "id": "v21", "en": "climate change", "vi": "biến đổi khí hậu", "ipa": "/ˈklaɪmət tʃeɪndʒ/", "ipaFrom": "dictionary", "pos": "n", "example": "Climate change is making some animals lose their homes.", "collocations": ["fight climate change", "effects of climate change"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 110 } },
+    { "id": "v22", "en": "flora", "vi": "thực vật (của một vùng)", "ipa": "/ˈflɔːrə/", "ipaFrom": "glossary", "pos": "n", "example": "The flora and fauna of Cuc Phuong National Park are very rich.", "collocations": ["flora and fauna", "local flora"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v23", "en": "survival", "vi": "sự sống còn, sự tồn tại", "ipa": "/səˈvaɪvl/", "ipaFrom": "dictionary", "pos": "n", "example": "Clean water is essential for the survival of all living things.", "collocations": ["the survival of", "fight for survival"], "synonyms": [], "antonyms": ["extinction"], "src": { "kind": "sgk", "page": 110 } },
+    { "id": "v24", "en": "overuse", "vi": "sự lạm dụng, khai thác quá mức", "ipa": "/ˌəʊvəˈjuːs/", "ipaFrom": "dictionary", "pos": "n", "example": "The overuse of natural resources damages many ecosystems.", "collocations": ["the overuse of"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 110 } },
+    { "id": "v25", "en": "raw materials", "vi": "nguyên liệu thô", "ipa": "/ˌrɔː məˈtɪəriəlz/", "ipaFrom": "dictionary", "pos": "np", "example": "Forests provide raw materials such as wood and bamboo.", "collocations": ["provide raw materials"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 111 } },
+    { "id": "v26", "en": "rare", "vi": "quý hiếm", "ipa": "/reə/", "ipaFrom": "dictionary", "pos": "adj", "example": "U Minh Thuong is home to many rare birds.", "collocations": ["rare species", "rare plants"], "synonyms": ["uncommon"], "antonyms": ["common"], "src": { "kind": "sgk", "page": 113 } },
+    { "id": "v27", "en": "mangrove forest", "vi": "rừng ngập mặn", "ipa": "/ˈmæŋɡrəʊv ˌfɒrɪst/", "ipaFrom": "dictionary", "pos": "np", "example": "Mangrove forests protect the coast from storms and big waves.", "collocations": ["protect mangrove forests"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 113 } },
+    { "id": "v28", "en": "wetland", "vi": "vùng đất ngập nước", "ipa": "/ˈwetlənd/", "ipaFrom": "dictionary", "pos": "n", "example": "Wetlands are important habitats for water birds.", "collocations": ["freshwater wetlands", "protect wetlands"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 113 } },
+    { "id": "v29", "en": "mass tourism", "vi": "du lịch đại trà (quá đông khách)", "ipa": "/ˌmæs ˈtʊərɪzəm/", "ipaFrom": "dictionary", "pos": "np", "example": "Mass tourism can harm fragile places such as coral reefs.", "collocations": ["the effects of mass tourism"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 114 } },
+    { "id": "v30", "en": "hunting", "vi": "sự săn bắt", "ipa": "/ˈhʌntɪŋ/", "ipaFrom": "dictionary", "pos": "n", "example": "Hunting is one reason why pangolins are endangered.", "collocations": ["illegal hunting", "ban hunting"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 114 } }
   ],
   "grammar": [
     {
@@ -136,6 +145,19 @@
         { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["ecosystem", "endangered", "conservation"], "answer": 0, "explainVi": "ecosystem /ˈiːkəʊˌsɪstəm/ nhấn âm đầu." }
       ],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "ending",
+      "focus": "Đuôi -s ở danh từ ghép số nhiều",
+      "tipVi": "Ở danh từ ghép số nhiều, -s thêm vào từ chính (thường là từ cuối): national parks, food chains. Đọc /s/ sau âm vô thanh (parks, reefs, forests), /z/ sau âm hữu thanh (chains, things), /ɪz/ sau /s/, /z/, /ʃ/, /tʃ/, /dʒ/ (water resources).",
+      "words": ["national parks", "coral reefs", "tropical forests", "food chains", "living things", "water resources"],
+      "sentence": "Coral reefs and tropical forests are home to many living things.",
+      "quiz": [
+        { "prompt": "How is the final -s in \"coral reefs\" pronounced?", "options": ["/s/", "/z/", "/ɪz/"], "answer": 0, "explainVi": "reef kết thúc bằng âm vô thanh /f/ nên -s đọc /s/." },
+        { "prompt": "In which phrase is the final -s pronounced /z/?", "options": ["food chains", "national parks", "coral reefs"], "answer": 0, "explainVi": "chain kết thúc bằng âm hữu thanh /n/ nên -s đọc /z/; parks và reefs đọc /s/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -148,7 +170,13 @@
     { "id": "e07", "en": "... is not my favourite.", "vi": "... không phải thứ mình thích nhất.", "useVi": "Khi nói lịch sự là mình không thích lắm.", "example": "Fishing is not my favourite, but I like boat trips.", "src": { "kind": "sgk", "page": 117 } },
     { "id": "e08", "en": "You shouldn't do that for several reasons.", "vi": "Bạn không nên làm thế vì một vài lý do.", "useVi": "Khi khuyên ai đó dừng một việc gây hại và chuẩn bị nêu lý do.", "example": "You shouldn't do that for several reasons. First, the flowers are rare.", "src": { "kind": "sgk", "page": 114 } },
     { "id": "e09", "en": "From my point of view, ...", "vi": "Theo quan điểm của mình, ...", "useVi": "Khi nêu ý kiến riêng một cách trang trọng hơn.", "example": "From my point of view, we should spend more money on national parks.", "src": { "kind": "sgk", "page": 116 } },
-    { "id": "e10", "en": "One way to protect ... is to ...", "vi": "Một cách để bảo vệ ... là ...", "useVi": "Khi đề xuất một cách bảo vệ thiên nhiên.", "example": "One way to protect local wildlife is to plant native trees.", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "One way to protect ... is to ...", "vi": "Một cách để bảo vệ ... là ...", "useVi": "Khi đề xuất một cách bảo vệ thiên nhiên.", "example": "One way to protect local wildlife is to plant native trees.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "I'm interested in ...", "vi": "Mình quan tâm đến ...", "useVi": "Khi nói về sở thích của mình.", "example": "I'm interested in birds, so I often go bird-watching with my uncle.", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "I don't really like ...", "vi": "Mình không thích ... lắm.", "useVi": "Khi nói nhẹ nhàng về điều mình không thích.", "example": "I don't really like camping because of the insects.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "First, ... Second, ... Finally, ...", "vi": "Thứ nhất, ... Thứ hai, ... Cuối cùng, ...", "useVi": "Khi đưa ra nhiều lý do theo thứ tự.", "example": "First, the monkeys may get sick. Second, they will depend on people. Finally, it's against the park rules.", "src": { "kind": "sgk", "page": 114 } },
+    { "id": "e14", "en": "... play(s) an important role in ...", "vi": "... đóng vai trò quan trọng trong ...", "useVi": "Khi nói về vai trò của một sinh vật hay một điều gì đó.", "example": "Bees play an important role in helping plants grow.", "src": { "kind": "sgk", "page": 114 } },
+    { "id": "e15", "en": "That will harm ...", "vi": "Việc đó sẽ gây hại cho ...", "useVi": "Khi cảnh báo hậu quả đối với môi trường.", "example": "Please don't throw plastic into the lake. That will harm the fish.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "We should ..., shouldn't we?", "vi": "Chúng ta nên ..., phải không?", "useVi": "Khi muốn người nghe đồng ý với mình (câu hỏi đuôi, xuống giọng).", "example": "We should protect our local wetlands, shouldn't we?", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["Cuc Phuong", "is a national park", "with many", "rare species"], "vi": "Cúc Phương là một vườn quốc gia có nhiều loài quý hiếm.", "grammarId": "g01" },
@@ -158,7 +186,9 @@
     { "id": "b05", "chunks": ["Plastic waste", "can destroy", "the habitats", "of many sea animals"], "vi": "Rác thải nhựa có thể phá hủy môi trường sống của nhiều loài động vật biển.", "grammarId": "g01" },
     { "id": "b06", "chunks": ["When one species disappears,", "the whole", "food chain", "can change"], "vi": "Khi một loài biến mất, cả chuỗi thức ăn có thể thay đổi.", "grammarId": "g01" },
     { "id": "b07", "chunks": ["The government", "should build", "more nature reserves", "to protect wildlife"], "vi": "Chính phủ nên xây thêm các khu bảo tồn thiên nhiên để bảo vệ động vật hoang dã.", "grammarId": "g02" },
-    { "id": "b08", "chunks": ["We shouldn't", "feed wild animals,", "should we?"], "vi": "Chúng ta không nên cho thú hoang ăn, phải không?", "grammarId": "g03" }
+    { "id": "b08", "chunks": ["We shouldn't", "feed wild animals,", "should we?"], "vi": "Chúng ta không nên cho thú hoang ăn, phải không?", "grammarId": "g03" },
+    { "id": "b09", "chunks": ["Mangrove forests", "are", "important habitats", "for many water birds"], "vi": "Rừng ngập mặn là môi trường sống quan trọng của nhiều loài chim nước.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["We don't want", "to lose", "more species,", "do we?"], "vi": "Chúng ta không muốn mất thêm loài nào nữa, phải không?", "grammarId": "g03" }
   ],
   "expand": [
     {
@@ -197,6 +227,24 @@
         { "askVi": "Khi nào?", "ask": "When?", "add": "early in the morning" }
       ],
       "full": "I enjoy bird-watching in the park near my house early in the morning."
+    },
+    {
+      "id": "x05",
+      "base": "I saw a rare bird.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in U Minh Thuong National Park" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "during our class trip" }
+      ],
+      "full": "I saw a rare bird in U Minh Thuong National Park during our class trip."
+    },
+    {
+      "id": "x06",
+      "base": "Wetlands are important.",
+      "steps": [
+        { "askVi": "Quan trọng với loài nào?", "ask": "For what?", "add": "for water birds and fish" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because they provide food and shelter" }
+      ],
+      "full": "Wetlands are important for water birds and fish because they provide food and shelter."
     }
   ],
   "variations": [
@@ -258,6 +306,45 @@
       ],
       "keywords": ["natural resources", "clean air", "food", "flooding"],
       "exampleAnswer": "Forests give us clean air, food and medicine, and they also help prevent floods after heavy rain.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Vì sao vườn quốc gia quan trọng",
+      "questions": [
+        "Why are national parks important?",
+        "What is the purpose of a national park?",
+        "How do national parks help wildlife?",
+        "Why should the government protect large areas of forest?"
+      ],
+      "keywords": ["national park", "habitat", "species", "protect"],
+      "exampleAnswer": "National parks are important because they protect the habitats of many rare species, and people can visit them to learn about nature.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Hệ sinh thái gần nơi em sống",
+      "questions": [
+        "What kind of ecosystem is there near where you live?",
+        "Describe a natural area near your home.",
+        "What plants and animals live in your local area?",
+        "Is there a river, lake or forest near your home? What lives there?"
+      ],
+      "keywords": ["ecosystem", "flora", "fauna", "living things"],
+      "exampleAnswer": "There is a small lake near my house. Many fish, frogs and birds live there, and there are lotus flowers in summer.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Du lịch và hệ sinh thái",
+      "questions": [
+        "How does mass tourism affect natural areas?",
+        "Is tourism good or bad for ecosystems? Why?",
+        "What problems can too many tourists cause in a national park?",
+        "How can tourists visit nature without harming it?"
+      ],
+      "keywords": ["mass tourism", "habitat", "rubbish", "biodiversity"],
+      "exampleAnswer": "Too many tourists can leave rubbish and frighten animals, so mass tourism harms biodiversity. Visitors should stay on paths and take their rubbish home.",
       "expectsReason": true
     }
   ],
@@ -370,6 +457,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["I'm not really into", "elephants", "because", "instead", "wildlife"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Rủ bạn đi thăm vườn quốc gia",
+      "contextVi": "Em muốn rủ một bạn cùng lớp đi tham quan Vườn quốc gia Cúc Phương vào cuối tuần. Bạn ấy chưa biết nhiều về nơi này.",
+      "aiRole": "Nam, a classmate who has never been to a national park",
+      "studentRoleVi": "Bạn rủ đi tham quan và giới thiệu vườn quốc gia",
+      "goalVi": "Giới thiệu vườn quốc gia (có gì, làm gì ở đó) và nói vì sao em muốn đi.",
+      "goal": "Invite Nam to visit a national park: describe what you can see and do there, and say why you want to go.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["national park", "biodiversity", "species", "wildlife", "flora and fauna"] },
+        { "kind": "reason", "vi": "Nói vì sao em muốn đi", "words": [] }
+      ],
+      "opener": "Hi! What are you doing this weekend? I'm free, but I don't have any plans yet.",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "A national park? What can we see there?",
+        "That sounds interesting. What can we do there for a whole day?",
+        "OK, I'm in! What should I bring?"
+      ],
+      "tipsVi": ["Dùng câu hỏi đuôi để rủ: \"It'll be fun, won't it?\"", "Nói sở thích: \"I'm really into...\""],
+      "keywords": ["national park", "species", "wildlife", "won't it", "I'm really into"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Xây khu nghỉ dưỡng trên vùng đất ngập nước",
+      "contextVi": "Chính quyền địa phương định lấp một phần vùng đất ngập nước gần thị trấn để xây khu nghỉ dưỡng. Chú của em cho rằng việc này mang lại việc làm và tiền cho người dân.",
+      "aiRole": "Uncle Binh, who supports building a resort on the wetland",
+      "studentRoleVi": "Cháu, người muốn bảo vệ vùng đất ngập nước",
+      "goalVi": "Nêu lý do nên bảo vệ vùng đất ngập nước, đưa ví dụ về hậu quả và đề xuất một cách phát triển du lịch khác.",
+      "goal": "Explain why the wetland should be protected, give an example of the possible damage, and suggest another way to develop tourism.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu ít nhất hai lý do", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất một cách khác (eco-tourism, bird-watching tours...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["wetland", "habitat", "biodiversity", "species", "ecosystem"] }
+      ],
+      "opener": "Great news! They're going to build a big resort on the wetland near our town. It'll bring lots of jobs, won't it?",
+      "stance": "People need jobs and money more than birds and frogs. A resort will make our town rich.",
+      "turns": 5,
+      "fallback": [
+        "Why are you worried? It's just an empty wetland.",
+        "But people need jobs more than birds and frogs. A resort will make our town rich.",
+        "Hmm. So how can our town make money without the resort?",
+        "That's an interesting idea. Maybe I'll talk about it at the town meeting."
+      ],
+      "tipsVi": ["Mở đầu: \"You shouldn't do that for several reasons. First,...\"", "Đề xuất: eco-tourism, bird-watching tours."],
+      "keywords": ["wetland", "habitat", "species", "first", "eco-tourism"]
     }
   ]
 }

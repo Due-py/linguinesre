@@ -25,7 +25,18 @@
     { "id": "v17", "en": "come down with", "vi": "bị ốm (vì bệnh gì)", "ipa": "/kʌm daʊn wɪð/", "ipaFrom": "glossary", "pos": "phr v", "example": "My sister came down with the flu after the trip.", "collocations": ["come down with a cold", "come down with the flu"], "synonyms": ["catch"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
     { "id": "v18", "en": "traffic jam", "vi": "sự tắc đường", "ipa": "/ˈtræfɪk dʒæm/", "ipaFrom": "dictionary", "pos": "n", "example": "We got stuck in a traffic jam and missed the start of the film.", "collocations": ["get stuck in a traffic jam", "avoid traffic jams"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 22 } },
     { "id": "v19", "en": "crowded", "vi": "đông đúc", "ipa": "/ˈkraʊdɪd/", "ipaFrom": "dictionary", "pos": "adj", "example": "The bus is always crowded in the evening.", "collocations": ["crowded streets", "too crowded"], "synonyms": ["packed"], "antonyms": ["empty"], "src": { "kind": "sgk", "page": 20 } },
-    { "id": "v20", "en": "noise pollution", "vi": "ô nhiễm tiếng ồn", "ipa": "/ˈnɔɪz pəˌluːʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "Car horns cause a lot of noise pollution in big cities.", "collocations": ["cut down on noise pollution", "reduce noise pollution"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 21 } }
+    { "id": "v20", "en": "noise pollution", "vi": "ô nhiễm tiếng ồn", "ipa": "/ˈnɔɪz pəˌluːʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "Car horns cause a lot of noise pollution in big cities.", "collocations": ["cut down on noise pollution", "reduce noise pollution"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 21 } },
+    { "id": "v21", "en": "itchy", "vi": "ngứa, gây ngứa", "ipa": "/ˈɪtʃi/", "ipaFrom": "glossary", "pos": "adj", "example": "The dust from the building site gave me itchy eyes.", "collocations": ["itchy eyes", "itchy skin"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v22", "en": "hygiene", "vi": "vệ sinh", "ipa": "/ˈhaɪdʒiːn/", "ipaFrom": "glossary", "pos": "n", "example": "Street food stalls in big cities must pay attention to food hygiene.", "collocations": ["food hygiene", "personal hygiene"], "synonyms": ["cleanliness"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v23", "en": "leftover", "vi": "thức ăn thừa", "ipa": "/ˈleftəʊvə/", "ipaFrom": "glossary", "pos": "n", "example": "Many restaurants in the city throw away their leftovers every night.", "collocations": ["eat the leftovers", "leftover food"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v24", "en": "process", "vi": "xử lí", "ipa": "/ˈprəʊses/", "ipaFrom": "glossary", "pos": "v", "example": "Our city needs a new plant to process all its rubbish.", "collocations": ["process rubbish", "process waste"], "synonyms": ["treat"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v25", "en": "traffic congestion", "vi": "tắc nghẽn giao thông", "ipa": "/ˈtræfɪk kənˈdʒestʃən/", "ipaFrom": "dictionary", "pos": "n", "example": "Traffic congestion is worst at rush hour in my city.", "collocations": ["reduce traffic congestion", "terrible traffic congestion"], "synonyms": ["traffic jam"], "antonyms": [], "src": { "kind": "sgk", "page": 18 } },
+    { "id": "v26", "en": "reliable", "vi": "đáng tin cậy", "ipa": "/rɪˈlaɪəbl/", "ipaFrom": "dictionary", "pos": "adj", "example": "The metro is more reliable than the bus because it is never stuck in traffic.", "collocations": ["reliable service", "reliable transport"], "synonyms": ["dependable"], "antonyms": ["unreliable"], "src": { "kind": "sgk", "page": 18 } },
+    { "id": "v27", "en": "polluted", "vi": "bị ô nhiễm", "ipa": "/pəˈluːtɪd/", "ipaFrom": "dictionary", "pos": "adj", "example": "The river near the factory is badly polluted.", "collocations": ["polluted air", "heavily polluted"], "synonyms": ["dirty"], "antonyms": ["clean"], "src": { "kind": "sgk", "page": 18 } },
+    { "id": "v28", "en": "dusty", "vi": "nhiều bụi, bụi bặm", "ipa": "/ˈdʌsti/", "ipaFrom": "dictionary", "pos": "adj", "example": "The road near the construction site is always dusty.", "collocations": ["dusty road", "dusty air"], "synonyms": [], "antonyms": ["clean"], "src": { "kind": "sgk", "page": 18 } },
+    { "id": "v29", "en": "entertainment centre", "vi": "trung tâm giải trí", "ipa": "/ˌentəˈteɪnmənt ˌsentə/", "ipaFrom": "dictionary", "pos": "n", "example": "Teenagers love the new entertainment centre downtown.", "collocations": ["go to an entertainment centre"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 19 } },
+    { "id": "v30", "en": "public transport", "vi": "giao thông công cộng", "ipa": "/ˌpʌblɪk ˈtrænspɔːt/", "ipaFrom": "dictionary", "pos": "n", "example": "If more people use public transport, the roads will be less congested.", "collocations": ["use public transport", "by public transport"], "synonyms": [], "antonyms": ["private car"], "src": { "kind": "sgk", "page": 19 } },
+    { "id": "v31", "en": "commuter", "vi": "người đi làm, đi học hằng ngày (bằng xe)", "ipa": "/kəˈmjuːtə/", "ipaFrom": "dictionary", "pos": "n", "example": "The sky train is packed with commuters at rush hour.", "collocations": ["daily commuter"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 20 } }
   ],
   "grammar": [
     {
@@ -113,6 +124,19 @@
       "sentence": "The bigger the city is, the more crowded the roads are.",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Lên giọng khi mời giúp đỡ, xuống giọng ở câu hỏi Wh-",
+      "tipVi": "Câu mời giúp dạng Yes/No như \"Would you like me to...?\" hay \"Shall I...?\" thường lên giọng ở cuối để nghe thân thiện. Câu hỏi bắt đầu bằng What, Where, How... thường xuống giọng ở cuối.",
+      "words": ["Would you like me to", "Shall I", "Can I help", "Where do you live", "How do you get around"],
+      "sentence": "Would you like me to show you the way to the metro?",
+      "quiz": [
+        { "prompt": "When you offer help with \"Would you like me to carry it?\", your voice usually ... at the end.", "options": ["goes up", "goes down"], "answer": 0, "explainVi": "Câu mời giúp dạng Yes/No thường lên giọng ở cuối câu." },
+        { "prompt": "Which question usually ends with a FALLING voice?", "options": ["Where do you live?", "Do you live downtown?", "Is it pricey?"], "answer": 0, "explainVi": "Câu hỏi Wh- (Where...) thường xuống giọng ở cuối; hai câu còn lại là câu Yes/No." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -125,7 +149,13 @@
     { "id": "e07", "en": "It's convenient because ...", "vi": "Nó tiện lợi vì ...", "useVi": "Khi nêu ưu điểm của một phương tiện hay một nơi.", "example": "It's convenient because the bus stop is near my house.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "On the other hand, ...", "vi": "Mặt khác, ...", "useVi": "Khi nêu mặt trái hoặc ý ngược lại.", "example": "On the other hand, living downtown is quite pricey.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "I'm not sure about that, because ...", "vi": "Mình không chắc lắm, vì ...", "useVi": "Khi lịch sự không đồng ý và đưa lý do.", "example": "I'm not sure about that, because more roads bring more cars.", "src": { "kind": "team", "page": null } },
-    { "id": "e10", "en": "What do you think about ...?", "vi": "Bạn nghĩ gì về ...?", "useVi": "Khi hỏi ý kiến của người khác.", "example": "What do you think about the new sky train?", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "What do you think about ...?", "vi": "Bạn nghĩ gì về ...?", "useVi": "Khi hỏi ý kiến của người khác.", "example": "What do you think about the new sky train?", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "Let me help you with ...", "vi": "Để mình giúp bạn ...", "useVi": "Khi chủ động đề nghị giúp ai đó một việc cụ thể.", "example": "Let me help you with those heavy bags.", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "No, thanks. I can manage.", "vi": "Không cần đâu, cảm ơn. Mình tự làm được.", "useVi": "Khi lịch sự từ chối lời đề nghị giúp đỡ.", "example": "No, thanks. I can manage. It isn't very heavy.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "It takes me ... to get to ...", "vi": "Mình mất ... để đến ...", "useVi": "Khi nói về thời gian đi lại trong thành phố.", "example": "It takes me forty minutes to get to school at rush hour.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "The best way to get around ... is by ...", "vi": "Cách tốt nhất để đi lại ở ... là bằng ...", "useVi": "Khi khuyên người khác chọn phương tiện đi lại.", "example": "The best way to get around the Old Quarter is by bicycle.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "What I don't like about city life is ...", "vi": "Điều mình không thích ở cuộc sống thành phố là ...", "useVi": "Khi nêu một nhược điểm của thành phố.", "example": "What I don't like about city life is the noise at night.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "The city should ... so that ...", "vi": "Thành phố nên ... để ...", "useVi": "Khi đề xuất một giải pháp cho vấn đề của thành phố.", "example": "The city should build more bus lanes so that buses can move faster.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["The bigger", "the city is", "the more crowded", "it becomes"], "vi": "Thành phố càng lớn thì càng đông đúc.", "grammarId": "g01" },
@@ -135,7 +165,9 @@
     { "id": "b05", "chunks": ["The roads", "are always congested", "at rush hour"], "vi": "Đường luôn tắc vào giờ cao điểm.", "grammarId": null },
     { "id": "b06", "chunks": ["Our city needs", "more public amenities", "such as parks", "and libraries"], "vi": "Thành phố chúng ta cần thêm tiện ích công cộng như công viên và thư viện.", "grammarId": null },
     { "id": "b07", "chunks": ["We carried out", "a survey", "about noise pollution", "in our area"], "vi": "Chúng mình đã thực hiện một cuộc khảo sát về ô nhiễm tiếng ồn ở khu mình.", "grammarId": "g02" },
-    { "id": "b08", "chunks": ["Living downtown", "is convenient", "but a bit", "pricey"], "vi": "Sống ở trung tâm thì tiện nhưng hơi đắt đỏ.", "grammarId": null }
+    { "id": "b08", "chunks": ["Living downtown", "is convenient", "but a bit", "pricey"], "vi": "Sống ở trung tâm thì tiện nhưng hơi đắt đỏ.", "grammarId": null },
+    { "id": "b09", "chunks": ["The longer", "we wait for the bus", "the more tired", "we feel"], "vi": "Càng chờ xe buýt lâu, chúng mình càng thấy mệt.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["My little brother", "came down with", "a bad cough", "because of the dusty air"], "vi": "Em trai mình bị ho nặng vì không khí bụi bặm.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -174,6 +206,25 @@
         { "askVi": "Khi nào?", "ask": "When?", "add": "on Saturday afternoons" }
       ],
       "full": "I hang out with friends at the shopping centre on Saturday afternoons."
+    },
+    {
+      "id": "x05",
+      "base": "We took the metro.",
+      "steps": [
+        { "askVi": "Đi đâu?", "ask": "Where to?", "add": "to the city centre" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last Sunday" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because the roads were congested" }
+      ],
+      "full": "We took the metro to the city centre last Sunday because the roads were congested."
+    },
+    {
+      "id": "x06",
+      "base": "There is a construction site.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "near my school" },
+        { "askVi": "Nó như thế nào?", "ask": "What is it like?", "add": "noisy and dusty" }
+      ],
+      "full": "There is a noisy and dusty construction site near my school."
     }
   ],
   "variations": [
@@ -235,6 +286,45 @@
       ],
       "keywords": ["liveable", "public amenities", "green spaces", "safe"],
       "exampleAnswer": "A liveable city has public amenities, green spaces and good public transport, because people need to relax and travel easily.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Ô nhiễm ở thành phố ảnh hưởng tới sức khỏe",
+      "questions": [
+        "How does pollution in big cities affect people's health?",
+        "Why do some city people often get sick? Give an example.",
+        "What health problems can dirty air and noise cause? Why?",
+        "Do you think city pollution is bad for children? Why?"
+      ],
+      "keywords": ["polluted", "itchy eyes", "noise pollution", "stressed"],
+      "exampleAnswer": "Polluted air can give people itchy eyes and a bad cough, and the noise from traffic makes many people feel stressed and tired.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Nơi vui chơi của tuổi teen ở thành phố",
+      "questions": [
+        "Where do teenagers in your city like to hang out?",
+        "What can young people do for fun in your city?",
+        "Which places in your city are popular with people your age?",
+        "Tell me about a place in your city where you have fun with friends."
+      ],
+      "keywords": ["hang out with", "entertainment centre", "shopping mall", "park"],
+      "exampleAnswer": "Teenagers in my city like to hang out at the new entertainment centre, where they can watch films, play games and eat ice cream.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Giữ thành phố sạch: rác và vệ sinh",
+      "questions": [
+        "How can a city deal with all of its rubbish? Why does it matter?",
+        "What should people do to keep their streets clean? Why?",
+        "Why is food hygiene important in a big city?",
+        "What can restaurants do with their leftovers instead of throwing them away?"
+      ],
+      "keywords": ["process", "rubbish", "hygiene", "leftover"],
+      "exampleAnswer": "The city should process rubbish in modern plants, and restaurants can give leftovers to farms, because dirty streets spread diseases and make the city less liveable.",
       "expectsReason": true
     }
   ],
@@ -348,6 +438,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["liveable", "public amenities", "because", "concrete jungle", "children"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Giúp khách du lịch ở ga tàu điện",
+      "contextVi": "Em đang ở ga tàu điện thì thấy một chị khách du lịch nước ngoài đứng nhìn bản đồ rất lâu, trông có vẻ bị lạc. Chị muốn đến khu phố cổ.",
+      "aiRole": "Emma, a tourist from Canada who looks lost at a metro station",
+      "studentRoleVi": "Học sinh đề nghị giúp khách du lịch",
+      "goalVi": "Đề nghị giúp, chỉ cách đi đến khu phố cổ bằng phương tiện công cộng và cho chị một lời khuyên về giờ cao điểm.",
+      "goal": "Offer help, explain how to get to the Old Quarter by public transport and give her one tip about rush hour.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng một câu mời giúp đỡ", "words": ["Can I help", "Would you like me to", "Let me help you"] },
+        { "kind": "suggestion", "vi": "Đưa ra một lời khuyên về giờ cao điểm hoặc phương tiện", "words": [] }
+      ],
+      "opener": "Excuse me, I'm a bit confused. This map is so complicated!",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Oh, thank you! I want to go to the Old Quarter. Which train should I take?",
+        "Great. Is it better to take the metro or a taxi?",
+        "Thanks! Is there anything I should know about the traffic here?"
+      ],
+      "tipsVi": ["Mở đầu bằng \"Can I help you?\" hoặc \"Would you like me to show you the way?\"", "Nhắc chị tránh giờ cao điểm: \"Try not to travel at rush hour because...\""],
+      "keywords": ["Can I help", "metro", "get around", "rush hour", "public transport"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Kể về khu phố cho anh họ ở quê",
+      "contextVi": "Anh Tuấn, anh họ em sống ở một làng quê, tháng sau sẽ lên thành phố ở với gia đình em một tuần. Anh gọi điện hỏi khu phố em sống như thế nào.",
+      "aiRole": "Tuan, a cousin who lives in a quiet village",
+      "studentRoleVi": "Học sinh sống ở thành phố, giới thiệu khu phố của mình",
+      "goalVi": "Mô tả khu phố: có những tiện ích gì, điều em thích và một điều em không thích, kèm ví dụ.",
+      "goal": "Describe your neighbourhood: its amenities, one thing you like and one thing you don't like, with examples.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất hai từ của bài", "words": ["public amenities", "bustling", "crowded", "noisy", "convenient", "liveable"] },
+        { "kind": "example", "vi": "Kể tên ít nhất một nơi cụ thể trong khu phố", "words": [] }
+      ],
+      "opener": "Hi! I'm coming to stay with you next month. What's your neighbourhood like?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Sounds busy! What places are there near your house?",
+        "Cool. Is there anything you don't like about living there?",
+        "OK. What should we do together when I come?"
+      ],
+      "tipsVi": ["Dùng \"What I like most is...\" và \"What I don't like about city life is...\"", "Kể tên nơi cụ thể: công viên, thư viện, siêu thị."],
+      "keywords": ["neighbourhood", "public amenities", "convenient", "noisy", "crowded"]
     }
   ]
 }

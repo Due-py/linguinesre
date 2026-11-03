@@ -26,7 +26,17 @@
     { "id": "v18", "en": "energy", "vi": "năng lượng", "ipa": "/ˈenədʒi/", "ipaFrom": "glossary", "pos": "n", "example": "A good breakfast gives me energy for my morning lessons.", "collocations": ["full of energy", "give you energy"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
     { "id": "v19", "en": "recipe", "vi": "công thức nấu ăn", "ipa": "/ˈresəpi/", "ipaFrom": "glossary", "pos": "n", "example": "My mum found a healthy recipe for vegetable soup.", "collocations": ["a healthy recipe", "follow a recipe"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
     { "id": "v20", "en": "bacteria", "vi": "vi khuẩn", "ipa": "/bækˈtɪəriə/", "ipaFrom": "glossary", "pos": "n", "example": "Wash your hands before meals to remove bacteria.", "collocations": ["harmful bacteria", "kill bacteria"], "synonyms": ["germs"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
-    { "id": "v21", "en": "press-up", "vi": "động tác chống đẩy", "ipa": "/ˈpres ʌp/", "ipaFrom": "glossary", "pos": "n", "example": "I do twenty press-ups every morning before school.", "collocations": ["do press-ups"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } }
+    { "id": "v21", "en": "press-up", "vi": "động tác chống đẩy", "ipa": "/ˈpres ʌp/", "ipaFrom": "glossary", "pos": "n", "example": "I do twenty press-ups every morning before school.", "collocations": ["do press-ups"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v22", "en": "antibiotic", "vi": "thuốc kháng sinh", "ipa": "/ˌæntɪbaɪˈɒtɪk/", "ipaFrom": "glossary", "pos": "n", "example": "The doctor gave me antibiotics for my throat infection.", "collocations": ["take antibiotics", "a course of antibiotics"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v23", "en": "diameter", "vi": "đường kính", "ipa": "/daɪˈæmɪtə/", "ipaFrom": "glossary", "pos": "n", "example": "Most bacteria are only about one micrometre in diameter.", "collocations": ["in diameter"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v24", "en": "food poisoning", "vi": "ngộ độc thức ăn", "ipa": "/ˈfuːd pɔɪzənɪŋ/", "ipaFrom": "glossary", "pos": "n", "example": "He got food poisoning after eating chicken that was not cooked properly.", "collocations": ["get food poisoning", "cause food poisoning"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v25", "en": "germ", "vi": "vi trùng", "ipa": "/dʒɜːm/", "ipaFrom": "glossary", "pos": "n", "example": "Germs spread quickly when people don't wash their hands.", "collocations": ["spread germs", "kill germs"], "synonyms": ["microbe"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v26", "en": "infection", "vi": "sự lây nhiễm", "ipa": "/ɪnˈfekʃn/", "ipaFrom": "glossary", "pos": "n", "example": "Keep the cut clean to prevent infection.", "collocations": ["prevent infection", "an ear infection"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v27", "en": "organism", "vi": "sinh vật, thực thể sống", "ipa": "/ˈɔːɡənɪzəm/", "ipaFrom": "glossary", "pos": "n", "example": "Bacteria are tiny organisms that live almost everywhere.", "collocations": ["living organisms", "tiny organisms"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v28", "en": "spread", "vi": "sự lây lan", "ipa": "/spred/", "ipaFrom": "glossary", "pos": "n", "example": "Wearing a mask can slow the spread of the flu.", "collocations": ["the spread of disease", "stop the spread"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v29", "en": "star jump", "vi": "động tác nhảy dang tay chân", "ipa": "/ˈstɑː ˌdʒʌmp/", "ipaFrom": "glossary", "pos": "np", "example": "We do twenty star jumps to warm up before our PE lesson.", "collocations": ["do star jumps"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v30", "en": "tuberculosis", "vi": "bệnh lao phổi", "ipa": "/tjuːˌbɜːkjuˈləʊsɪs/", "ipaFrom": "glossary", "pos": "n", "example": "Tuberculosis is caused by bacteria and can be treated with antibiotics.", "collocations": ["treat tuberculosis"], "synonyms": ["TB"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v31", "en": "virus", "vi": "vi-rút", "ipa": "/ˈvaɪrəs/", "ipaFrom": "glossary", "pos": "n", "example": "A cold is caused by a virus, so antibiotics cannot cure it.", "collocations": ["catch a virus", "flu virus"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } }
   ],
   "grammar": [
     {
@@ -113,6 +123,19 @@
       "sentence": "Is there anything else I can do for you?",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "ending",
+      "focus": "Cách đọc đuôi -ed: /t/, /d/, /ɪd/",
+      "tipVi": "Đuôi -ed đọc /t/ sau âm vô thanh như /k/, /p/, /s/, /ʃ/, /tʃ/, /f/ (cooked, stopped); đọc /d/ sau âm hữu thanh và nguyên âm (tried, examined); đọc /ɪd/ sau /t/ và /d/ (started, visited).",
+      "words": ["cooked", "stopped", "worked", "tried", "examined", "started", "visited"],
+      "sentence": "I started jogging last year and stopped eating fast food.",
+      "quiz": [
+        { "prompt": "How is the -ed in \"worked out\" pronounced?", "options": ["/t/", "/d/", "/ɪd/"], "answer": 0, "explainVi": "work kết thúc bằng âm vô thanh /k/ nên -ed đọc /t/: /wɜːkt/." },
+        { "prompt": "In which word is -ed pronounced /ɪd/?", "options": ["started", "cooked", "tried"], "answer": 0, "explainVi": "start kết thúc bằng /t/ nên -ed đọc /ɪd/: /ˈstɑːtɪd/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -126,7 +149,12 @@
     { "id": "e08", "en": "I have ... since/for ...", "vi": "Mình đã ... từ/được ...", "useVi": "Khi kể một thói quen đã bắt đầu và vẫn còn đến giờ.", "example": "I have walked to school every day since September.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "It's good for your health because ...", "vi": "Việc đó tốt cho sức khỏe vì ...", "useVi": "Khi giải thích vì sao một thói quen có lợi.", "example": "Cycling is good for your health because it builds strength.", "src": { "kind": "team", "page": null } },
     { "id": "e10", "en": "If you want to ..., you should ...", "vi": "Nếu bạn muốn ..., bạn nên ...", "useVi": "Khi khuyên ai đó cách đạt được mục tiêu sức khỏe.", "example": "If you want to sleep better, you should stop using your phone at night.", "src": { "kind": "team", "page": null } },
-    { "id": "e11", "en": "I see what you mean, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý mình.", "example": "I see what you mean, but young people need exercise too.", "src": { "kind": "team", "page": null } }
+    { "id": "e11", "en": "I see what you mean, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý mình.", "example": "I see what you mean, but young people need exercise too.", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "Would you like me to ...?", "vi": "Bạn có muốn mình ... không?", "useVi": "Khi lịch sự đề nghị làm giúp ai đó một việc.", "example": "Would you like me to show you some easy exercises?", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "Do you need any help?", "vi": "Bạn có cần giúp gì không?", "useVi": "Khi hỏi xem người khác có cần giúp đỡ không.", "example": "You look tired. Do you need any help with those boxes?", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "Have you ever tried ...?", "vi": "Bạn đã bao giờ thử ... chưa?", "useVi": "Khi hỏi về trải nghiệm hoặc gợi ý một hoạt động mới.", "example": "Have you ever tried cycling to school instead of taking the bus?", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "The secret to a long life is ...", "vi": "Bí quyết sống lâu là ...", "useVi": "Khi nói về bí quyết sống khỏe, sống lâu.", "example": "My grandmother says the secret to a long life is staying active and happy.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "It's a good idea to ...", "vi": "... là một ý hay đấy.", "useVi": "Khi đưa ra lời khuyên nhẹ nhàng.", "example": "It's a good idea to drink water before you feel thirsty.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["I have", "played badminton", "since I was", "ten years old"], "vi": "Mình đã chơi cầu lông từ năm mười tuổi.", "grammarId": "g02" },
@@ -136,7 +164,9 @@
     { "id": "b05", "chunks": ["A balanced diet", "gives your body", "the nutrients", "it needs"], "vi": "Chế độ ăn cân đối cung cấp cho cơ thể các chất dinh dưỡng nó cần.", "grammarId": null },
     { "id": "b06", "chunks": ["I have just", "cut down on", "sweets and snacks"], "vi": "Mình vừa mới cắt giảm đồ ngọt và đồ ăn vặt.", "grammarId": "g02" },
     { "id": "b07", "chunks": ["Yesterday", "the doctor", "examined me", "very carefully"], "vi": "Hôm qua bác sĩ đã khám cho mình rất kỹ.", "grammarId": "g01" },
-    { "id": "b08", "chunks": ["Regular exercise", "makes your muscles", "stronger and healthier"], "vi": "Tập thể dục đều đặn làm cơ bắp của bạn khỏe và chắc hơn.", "grammarId": null }
+    { "id": "b08", "chunks": ["Regular exercise", "makes your muscles", "stronger and healthier"], "vi": "Tập thể dục đều đặn làm cơ bắp của bạn khỏe và chắc hơn.", "grammarId": null },
+    { "id": "b09", "chunks": ["Germs can spread", "quickly", "if you don't wash", "your hands"], "vi": "Vi trùng có thể lây lan nhanh nếu bạn không rửa tay.", "grammarId": null },
+    { "id": "b10", "chunks": ["My sister", "has done star jumps", "every morning", "since January"], "vi": "Chị mình đã tập nhảy dang tay chân mỗi sáng từ tháng Một.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -176,6 +206,25 @@
         { "askVi": "Vì sao?", "ask": "Why?", "add": "because they are full of nutrients" }
       ],
       "full": "I eat green vegetables at every meal because they are full of nutrients."
+    },
+    {
+      "id": "x05",
+      "base": "I got food poisoning.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last summer" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because I ate some old seafood" }
+      ],
+      "full": "I got food poisoning last summer because I ate some old seafood."
+    },
+    {
+      "id": "x06",
+      "base": "My grandfather has done tai chi.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in the park" },
+        { "askVi": "Bao lâu một lần?", "ask": "How often?", "add": "every morning" },
+        { "askVi": "Được bao lâu rồi?", "ask": "How long?", "add": "for ten years" }
+      ],
+      "full": "My grandfather has done tai chi in the park every morning for ten years."
     }
   ],
   "variations": [
@@ -250,6 +299,32 @@
       "keywords": ["properly", "muscles", "warm up"],
       "exampleAnswer": "If you don't exercise properly, you can hurt your muscles, so you should always warm up first.",
       "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Cách phòng tránh vi trùng và bệnh lây nhiễm",
+      "questions": [
+        "How can we stop germs from spreading at school?",
+        "What do you do to avoid catching a cold or the flu?",
+        "Which simple habits help people prevent infections?",
+        "How do you protect yourself from getting sick?"
+      ],
+      "keywords": ["germ", "spread", "infection", "wash"],
+      "exampleAnswer": "I wash my hands before meals and after using the toilet, and I wear a mask when I have a cold, so germs don't spread.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Một người lớn tuổi khỏe mạnh mà em biết",
+      "questions": [
+        "Who is the healthiest older person you know?",
+        "Tell me about an elderly person in your family who is still very active.",
+        "Do you know an old person who has lived a long and healthy life?",
+        "Which older person do you admire for their healthy lifestyle?"
+      ],
+      "keywords": ["active", "regular", "balanced", "for"],
+      "exampleAnswer": "My grandfather is 80, but he has walked in the park every morning for thirty years, and he still grows vegetables in his garden.",
+      "expectsReason": false
     }
   ],
   "independent": [
@@ -362,6 +437,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["balanced diet", "energy", "nutrients", "because", "should"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Giúp bạn bị mệt ở trường",
+      "contextVi": "Trong giờ ra chơi, một bạn cùng lớp thấy mệt, đau đầu vì chưa ăn sáng. Em đến hỏi thăm và đề nghị giúp đỡ.",
+      "aiRole": "Hoa, a classmate who feels tired and has a headache",
+      "studentRoleVi": "Bạn cùng lớp đến hỏi thăm và đề nghị giúp đỡ",
+      "goalVi": "Đề nghị giúp Hoa ít nhất hai việc và khuyên bạn một điều để khỏe hơn.",
+      "goal": "Offer to help Hoa with at least two things and give her one piece of advice to feel better.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề nghị giúp đỡ (Can I give you a hand? Would you like me to...?)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["energy", "properly", "illness", "balanced"] }
+      ],
+      "opener": "Oh, I feel so tired today. My head hurts, and I didn't have breakfast this morning.",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "That's very kind of you. What should I do now?",
+        "Thanks. Do you think I should go home early?",
+        "OK, I'll eat breakfast properly from tomorrow. Thanks for your help."
+      ],
+      "tipsVi": ["Đề nghị giúp: \"Can I get you some water?\"", "Khuyên bạn bằng \"You should...\""],
+      "keywords": ["give you a hand", "energy", "breakfast", "should", "properly"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Có nên tự uống kháng sinh?",
+      "contextVi": "Em trai của em bị cảm và muốn uống thuốc kháng sinh còn thừa trong tủ thuốc. Em biết cảm thường do vi-rút gây ra, còn kháng sinh chỉ diệt vi khuẩn.",
+      "aiRole": "Tuan, your younger brother who has a cold",
+      "studentRoleVi": "Anh/chị của Tuấn, người muốn khuyên em dùng thuốc đúng cách",
+      "goalVi": "Giải thích vì sao không nên tự uống kháng sinh, gợi ý cách khác để mau khỏi và trả lời khi em phản đối.",
+      "goal": "Explain why Tuan should not take old antibiotics for a cold, suggest better ways to get well, and answer his objection.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do không nên tự uống kháng sinh (because...)", "words": [] },
+        { "kind": "suggestion", "vi": "Gợi ý cách khác (You should... / Why don't you...?)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất hai từ của bài", "words": ["antibiotic", "virus", "bacteria", "infection", "examine"] }
+      ],
+      "opener": "I've had a cold for two days. I found some old antibiotics in the cupboard, so I'll take them now!",
+      "stance": "Antibiotics are strong medicine, so they will make me better faster. My friend took them last time and got better.",
+      "turns": 5,
+      "fallback": [
+        "Why not? Antibiotics are medicine too.",
+        "But my friend took antibiotics for his cold, and he got better quickly.",
+        "So what should I do to get better?",
+        "OK, I'll rest and drink more water. If I don't feel better, I'll see the doctor."
+      ],
+      "tipsVi": ["Giải thích: antibiotics kill bacteria, but a cold is caused by a virus.", "Gợi ý: rest, drink water, see a doctor."],
+      "keywords": ["antibiotic", "virus", "bacteria", "because", "should"]
     }
   ]
 }

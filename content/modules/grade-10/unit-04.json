@@ -26,7 +26,17 @@
     { "id": "v18", "en": "confused", "vi": "bối rối", "ipa": "/kənˈfjuːzd/", "ipaFrom": "glossary", "pos": "adj", "example": "I felt confused on my first day because I didn't know my tasks.", "collocations": ["feel confused", "confused about"], "synonyms": ["puzzled"], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
     { "id": "v19", "en": "life-saving", "vi": "cứu nạn, cứu sống", "ipa": "/ˈlaɪf seɪvɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "Every student should learn some life-saving skills, like swimming.", "collocations": ["life-saving skills"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
     { "id": "v20", "en": "non-governmental", "vi": "phi chính phủ", "ipa": "/ˌnɒn ˌgʌvnˈmentl/", "ipaFrom": "glossary", "pos": "adj", "example": "A non-governmental organisation built a new school in the village.", "collocations": ["non-governmental organisation"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
-    { "id": "v21", "en": "careless", "vi": "bất cẩn, cẩu thả", "ipa": "/ˈkeələs/", "ipaFrom": "dictionary", "pos": "adj", "example": "Don't be careless when you count the donations.", "collocations": ["a careless mistake"], "synonyms": [], "antonyms": ["careful"], "src": { "kind": "sgk", "page": 44 } }
+    { "id": "v21", "en": "careless", "vi": "bất cẩn, cẩu thả", "ipa": "/ˈkeələs/", "ipaFrom": "dictionary", "pos": "adj", "example": "Don't be careless when you count the donations.", "collocations": ["a careless mistake"], "synonyms": [], "antonyms": ["careful"], "src": { "kind": "sgk", "page": 44 } },
+    { "id": "v22", "en": "announcement", "vi": "thông báo", "ipa": "/əˈnaʊnsmənt/", "ipaFrom": "glossary", "pos": "n", "example": "I heard an announcement about volunteer work at the community centre.", "collocations": ["make an announcement", "listen to an announcement"], "synonyms": ["notice"], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v23", "en": "various", "vi": "khác nhau, đa dạng", "ipa": "/ˈveəriəs/", "ipaFrom": "glossary", "pos": "adj", "example": "Our club organises various activities for children in the neighbourhood.", "collocations": ["various activities", "for various reasons"], "synonyms": ["different"], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v24", "en": "charity", "vi": "từ thiện; tổ chức từ thiện", "ipa": "/ˈtʃærəti/", "ipaFrom": "dictionary", "pos": "n", "example": "We sold cakes at the school fair to raise money for charity.", "collocations": ["raise money for charity", "a charity event"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 45 } },
+    { "id": "v25", "en": "homeless", "vi": "vô gia cư", "ipa": "/ˈhəʊmləs/", "ipaFrom": "dictionary", "pos": "adj", "example": "The volunteers gave warm food to homeless people in the city.", "collocations": ["homeless people", "homeless children"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 45 } },
+    { "id": "v26", "en": "food bank", "vi": "ngân hàng thực phẩm (nơi phát đồ ăn miễn phí)", "ipa": "/ˈfuːd bæŋk/", "ipaFrom": "dictionary", "pos": "n", "example": "On Sunday mornings, I help at a food bank near my house.", "collocations": ["help at a food bank", "a local food bank"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 45 } },
+    { "id": "v27", "en": "handmade", "vi": "làm bằng tay, thủ công", "ipa": "/ˌhændˈmeɪd/", "ipaFrom": "dictionary", "pos": "adj", "example": "We sold handmade cards to raise money for the orphanage.", "collocations": ["handmade items", "handmade cards"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 45 } },
+    { "id": "v28", "en": "opportunity", "vi": "cơ hội", "ipa": "/ˌɒpəˈtjuːnəti/", "ipaFrom": "dictionary", "pos": "n", "example": "Volunteering gives teenagers an opportunity to learn new skills.", "collocations": ["an opportunity to", "get an opportunity"], "synonyms": ["chance"], "antonyms": [], "src": { "kind": "sgk", "page": 42 } },
+    { "id": "v29", "en": "development", "vi": "sự phát triển", "ipa": "/dɪˈveləpmənt/", "ipaFrom": "dictionary", "pos": "n", "example": "The centre runs projects for community development in poor areas.", "collocations": ["community development", "the development of"], "synonyms": ["growth"], "antonyms": [], "src": { "kind": "sgk", "page": 42 } },
+    { "id": "v30", "en": "flooded", "vi": "bị ngập lụt", "ipa": "/ˈflʌdɪd/", "ipaFrom": "dictionary", "pos": "adj", "example": "Our school sent clothes and clean water to families in flooded areas.", "collocations": ["flooded areas", "flooded villages"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 45 } },
+    { "id": "v31", "en": "non-profit", "vi": "phi lợi nhuận", "ipa": "/ˌnɒn ˈprɒfɪt/", "ipaFrom": "dictionary", "pos": "adj", "example": "This non-profit organisation helps poor families in the city.", "collocations": ["non-profit organisation"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 47 } }
   ],
   "grammar": [
     {
@@ -139,6 +149,18 @@
         { "prompt": "In which word is -ed pronounced /ɪd/?", "options": ["excited", "confused", "worried"], "answer": 0, "explainVi": "excited có âm /t/ trước -ed nên đọc /ɪd/." }
       ],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Ngữ điệu xuống trong câu cảm thán diễn tả cảm xúc",
+      "tipVi": "Câu cảm thán (How ...! What a ...!) và câu kể cảm xúc thường xuống giọng ở cuối. Nhấn mạnh và hơi kéo dài tính từ chỉ cảm xúc để người nghe thấy em thật sự vui, xúc động hay ngạc nhiên.",
+      "words": ["exciting", "amazing", "wonderful", "tiring", "interesting"],
+      "sentence": "How exciting! It was a wonderful day.",
+      "quiz": [
+        { "prompt": "When you say 'How wonderful!' to show you are happy, your voice usually ...", "options": ["goes down at the end", "goes up at the end", "stays flat"], "answer": 0, "explainVi": "Câu cảm thán thường xuống giọng ở cuối; từ wonderful được nhấn mạnh." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -150,7 +172,14 @@
     { "id": "e06", "en": "I'm so excited about ...", "vi": "Mình rất háo hức về ...", "useVi": "Khi nói về việc sắp làm mà mình mong chờ.", "example": "I'm so excited about our next trip to the mountains.", "src": { "kind": "team", "page": null } },
     { "id": "e07", "en": "Would you like to join us?", "vi": "Bạn có muốn tham gia cùng tụi mình không?", "useVi": "Khi rủ người khác tham gia hoạt động.", "example": "We're cleaning the park on Sunday. Would you like to join us?", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "It was a great experience.", "vi": "Đó là một trải nghiệm tuyệt vời.", "useVi": "Khi nhận xét chung về một hoạt động đã tham gia.", "example": "We worked hard all day, but it was a great experience.", "src": { "kind": "team", "page": null } },
-    { "id": "e09", "en": "I'd like to volunteer because ...", "vi": "Mình muốn làm tình nguyện vì ...", "useVi": "Khi nêu lý do muốn tham gia công việc tình nguyện.", "example": "I'd like to volunteer because I care about children in remote areas.", "src": { "kind": "team", "page": null } }
+    { "id": "e09", "en": "I'd like to volunteer because ...", "vi": "Mình muốn làm tình nguyện vì ...", "useVi": "Khi nêu lý do muốn tham gia công việc tình nguyện.", "example": "I'd like to volunteer because I care about children in remote areas.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "How can I apply?", "vi": "Mình đăng ký bằng cách nào?", "useVi": "Khi hỏi cách đăng ký tham gia một hoạt động, một câu lạc bộ.", "example": "I'd like to be a volunteer at your centre. How can I apply?", "src": { "kind": "sgk", "page": 42 } },
+    { "id": "e11", "en": "How did you feel?", "vi": "Bạn đã cảm thấy thế nào?", "useVi": "Khi hỏi cảm xúc của bạn sau một trải nghiệm.", "example": "You helped at the orphanage last week? How did you feel?", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "I felt really proud of myself.", "vi": "Mình thấy rất tự hào về bản thân.", "useVi": "Khi kể cảm xúc tích cực sau khi làm một việc tốt.", "example": "When the children smiled at us, I felt really proud of myself.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "It was a bit tiring, but it was worth it.", "vi": "Hơi mệt một chút, nhưng rất đáng.", "useVi": "Khi kể một trải nghiệm vất vả nhưng có ý nghĩa.", "example": "We worked all day at the food bank. It was a bit tiring, but it was worth it.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "I'm interested in ...", "vi": "Mình quan tâm đến ...", "useVi": "Khi nói lĩnh vực, hoạt động mình muốn tham gia.", "example": "I'm interested in teaching English to young children.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "What can I do to help?", "vi": "Mình có thể giúp gì?", "useVi": "Khi chủ động hỏi mình có thể giúp việc gì.", "example": "I'm free this weekend. What can I do to help?", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "I'd love to join.", "vi": "Mình rất muốn tham gia.", "useVi": "Khi vui vẻ nhận lời tham gia một hoạt động.", "example": "A clean-up day on Sunday? I'd love to join.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["I was cleaning", "the park", "when it started", "to rain"], "vi": "Mình đang dọn công viên thì trời bắt đầu mưa.", "grammarId": "g01" },
@@ -160,7 +189,9 @@
     { "id": "b05", "chunks": ["We need to be careful", "when we record", "the donations"], "vi": "Chúng ta cần cẩn thận khi ghi chép đồ quyên góp.", "grammarId": "g03" },
     { "id": "b06", "chunks": ["Our class", "donated books", "to children", "in remote areas"], "vi": "Lớp mình đã quyên góp sách cho trẻ em ở vùng xa xôi.", "grammarId": null },
     { "id": "b07", "chunks": ["The trip was", "really exciting", "but a bit tiring"], "vi": "Chuyến đi rất thú vị nhưng hơi mệt.", "grammarId": "g02" },
-    { "id": "b08", "chunks": ["They were raising money", "for the orphanage", "when I met them"], "vi": "Họ đang quyên góp tiền cho trại trẻ mồ côi khi mình gặp họ.", "grammarId": "g01" }
+    { "id": "b08", "chunks": ["They were raising money", "for the orphanage", "when I met them"], "vi": "Họ đang quyên góp tiền cho trại trẻ mồ côi khi mình gặp họ.", "grammarId": "g01" },
+    { "id": "b09", "chunks": ["While I was", "helping at the food bank,", "I met", "a famous singer"], "vi": "Khi mình đang giúp ở ngân hàng thực phẩm, mình đã gặp một ca sĩ nổi tiếng.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["The children", "were very excited", "about our handmade toys"], "vi": "Bọn trẻ rất háo hức với đồ chơi thủ công của chúng mình.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -200,6 +231,25 @@
         { "askVi": "Chuyện gì xảy ra?", "ask": "What happened?", "add": "when some local children came to help" }
       ],
       "full": "We were planting trees along the river when some local children came to help."
+    },
+    {
+      "id": "x05",
+      "base": "We raised money.",
+      "steps": [
+        { "askVi": "Cho ai?", "ask": "For whom?", "add": "for families in flooded areas" },
+        { "askVi": "Bằng cách nào?", "ask": "How?", "add": "by selling handmade items" }
+      ],
+      "full": "We raised money for families in flooded areas by selling handmade items."
+    },
+    {
+      "id": "x06",
+      "base": "I helped at a food bank.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last Sunday" },
+        { "askVi": "Em đã làm gì?", "ask": "What did you do?", "add": "and gave out free meals" },
+        { "askVi": "Em cảm thấy thế nào?", "ask": "How did you feel?", "add": "It was tiring, but I felt proud" }
+      ],
+      "full": "I helped at a food bank last Sunday and gave out free meals. It was tiring, but I felt proud."
     }
   ],
   "variations": [
@@ -209,7 +259,8 @@
       "questions": [
         "Tell me about a time you helped people in your neighbourhood.",
         "What did you do the last time you helped someone outside your family?",
-        "Describe a charity event that you took part in."
+        "Describe a charity event that you took part in.",
+        "Tell me about something kind you did for a neighbour."
       ],
       "keywords": ["helped", "donated", "community", "participated"],
       "exampleAnswer": "Last summer I helped my neighbours clean up the street after a big storm, and we planted some trees.",
@@ -221,7 +272,8 @@
       "questions": [
         "How did you feel the first time you joined a group activity?",
         "Were you nervous or excited when you started something new at school?",
-        "What made you feel proud when you helped others?"
+        "What made you feel proud when you helped others?",
+        "How did you feel when you did volunteer work for the first time?"
       ],
       "keywords": ["confused", "excited", "confidence", "felt"],
       "exampleAnswer": "At first I felt confused, but the other members were cheerful and helpful, so I soon felt confident.",
@@ -233,7 +285,8 @@
       "questions": [
         "What are the benefits of volunteering for teenagers?",
         "How can community service help young people?",
-        "What skills can students learn from volunteer work?"
+        "What skills can students learn from volunteer work?",
+        "Why should teenagers do volunteer work?"
       ],
       "keywords": ["boost", "confidence", "practical", "skills"],
       "exampleAnswer": "Volunteering boosts our confidence, and we learn practical skills like teamwork and talking to strangers.",
@@ -245,7 +298,8 @@
       "questions": [
         "What kinds of things can students donate to children in remote areas?",
         "What would you put in a donation box for a school in the mountains?",
-        "How can your class help children who live far from towns?"
+        "How can your class help children who live far from towns?",
+        "What could students collect for children in poor villages?"
       ],
       "keywords": ["donate", "remote", "books", "warm clothes"],
       "exampleAnswer": "We can donate books, notebooks and warm clothes, and we can raise money for school lunches.",
@@ -257,10 +311,50 @@
       "questions": [
         "What could be improved in your neighbourhood?",
         "Which problem in your community would you like to help solve?",
-        "If you could change one thing in your area, what would it be and why?"
+        "If you could change one thing in your area, what would it be and why?",
+        "What would make your neighbourhood a better place to live?"
       ],
       "keywords": ["community", "improve", "volunteer", "because"],
       "exampleAnswer": "I'd like to build a small library because children in my area don't have access to many books.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Cách học sinh gây quỹ từ thiện",
+      "questions": [
+        "How can students raise money for charity?",
+        "What is a good way for a school club to raise money?",
+        "Tell me about a fundraising activity you know.",
+        "What could your class sell to raise money for people in need?"
+      ],
+      "keywords": ["raise money", "handmade", "charity", "sell"],
+      "exampleAnswer": "We could sell handmade cards and cakes at the school fair and give the money to a local orphanage.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Chuyện xảy ra khi em đang giúp người khác",
+      "questions": [
+        "What happened while you were helping other people?",
+        "Tell me about something interesting that happened when you were volunteering.",
+        "Was there a surprise while you were doing a group activity? What happened?",
+        "What were you doing when you met someone new at a community event?"
+      ],
+      "keywords": ["while", "when", "was helping", "volunteer"],
+      "exampleAnswer": "While we were cleaning the park, an old man came and thanked us. It made me feel really happy.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Ai cần được giúp nhiều nhất trong cộng đồng em",
+      "questions": [
+        "Who needs the most help in your community? Why?",
+        "Which group of people in your area should volunteers help first? Why?",
+        "Who do you think finds life difficult in your neighbourhood? Why?",
+        "If your club could help one group of people, who would it be, and why?"
+      ],
+      "keywords": ["old people", "homeless", "disadvantaged", "because"],
+      "exampleAnswer": "I think old people who live alone need the most help, because they often feel lonely and can't do heavy housework.",
       "expectsReason": true
     }
   ],
@@ -374,6 +468,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["volunteer", "deliver", "practical", "because", "I see your point"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Gọi điện đăng ký làm tình nguyện viên",
+      "contextVi": "Em nghe thông báo trung tâm phát triển cộng đồng của thành phố đang cần tình nguyện viên vào cuối tuần. Em gọi điện để hỏi và đăng ký.",
+      "aiRole": "Ms Thu, a staff member at the community centre",
+      "studentRoleVi": "Học sinh muốn làm tình nguyện viên",
+      "goalVi": "Hỏi về công việc tình nguyện, nói thời gian em rảnh, kể kinh nghiệm và lý do em muốn tham gia.",
+      "goal": "Ask about the volunteer work, say when you are free, and explain why you want to volunteer.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nói vì sao em muốn làm tình nguyện (because...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["volunteer", "community", "apply", "various", "opportunity"] }
+      ],
+      "opener": "Hello, City Centre for Community Development. How can I help you?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Yes, we need volunteers. When are you free?",
+        "Great. Have you done any volunteer work before?",
+        "Why do you want to volunteer with us?"
+      ],
+      "tipsVi": ["Dùng \"How can I apply?\" để hỏi cách đăng ký.", "Kể kinh nghiệm cũ bằng quá khứ đơn: \"Last summer, I helped ...\""],
+      "keywords": ["volunteer", "apply", "I'm free", "because"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Gây quỹ: bán đồ thủ công hay xin tiền bố mẹ?",
+      "contextVi": "Câu lạc bộ tình nguyện muốn gây quỹ giúp các gia đình vùng lũ. Một thành viên cho rằng chỉ cần xin tiền bố mẹ cho nhanh, còn em muốn cả nhóm làm đồ thủ công để bán.",
+      "aiRole": "Phong, a member of the Volunteer Club",
+      "studentRoleVi": "Thành viên câu lạc bộ, muốn bán đồ thủ công",
+      "goalVi": "Thuyết phục bạn tổ chức bán đồ thủ công để gây quỹ, có lý do và ví dụ.",
+      "goal": "Persuade Phong to hold a handmade-items sale to raise money, with reasons and an example.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do (because...)", "words": [] },
+        { "kind": "example", "vi": "Đưa ví dụ món đồ có thể làm hoặc lần gây quỹ trước", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["raise money", "handmade", "flooded", "charity", "donation"] }
+      ],
+      "opener": "We need to raise money for families in flooded areas. Let's just ask our parents for money. It's the quickest way, isn't it?",
+      "stance": "Making handmade items takes too much time. It's faster to ask our parents for money.",
+      "turns": 5,
+      "fallback": [
+        "Hmm, so what's your idea?",
+        "But making handmade items takes too much time. Asking our parents is faster, right?",
+        "Can you give me an example of something we could make?",
+        "OK, that sounds good. Who do you think will buy our items?"
+      ],
+      "tipsVi": ["Nêu lợi ích: học thêm kỹ năng, mọi người cùng góp sức.", "Kể ví dụ: \"Last year, our class sold ... and raised ...\""],
+      "keywords": ["raise money", "handmade", "because", "for example"]
     }
   ]
 }

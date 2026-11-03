@@ -25,7 +25,18 @@
     { "id": "v17", "en": "cave", "vi": "hang động", "ipa": "/keɪv/", "ipaFrom": "dictionary", "pos": "n", "example": "Son Doong is one of the biggest caves in the world.", "collocations": ["explore a cave"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 49 } },
     { "id": "v18", "en": "forest", "vi": "rừng", "ipa": "/ˈfɒrɪst/", "ipaFrom": "dictionary", "pos": "n", "example": "Cuc Phuong National Park has a big forest.", "collocations": ["in the forest", "a rain forest"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 49 } },
     { "id": "v19", "en": "scenery", "vi": "cảnh vật, phong cảnh", "ipa": "/ˈsiːnəri/", "ipaFrom": "dictionary", "pos": "n", "example": "The scenery around the lake is wonderful.", "collocations": ["beautiful scenery"], "synonyms": ["landscape"], "antonyms": [], "src": { "kind": "sgk", "page": 49 } },
-    { "id": "v20", "en": "sleeping bag", "vi": "túi ngủ", "ipa": "/ˈsliːpɪŋ bæɡ/", "ipaFrom": "dictionary", "pos": "n", "example": "Bring a warm sleeping bag when you go camping.", "collocations": ["a warm sleeping bag"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 50 } }
+    { "id": "v20", "en": "sleeping bag", "vi": "túi ngủ", "ipa": "/ˈsliːpɪŋ bæɡ/", "ipaFrom": "dictionary", "pos": "n", "example": "Bring a warm sleeping bag when you go camping.", "collocations": ["a warm sleeping bag"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 50 } },
+    { "id": "v21", "en": "mount", "vi": "núi, đồi, đỉnh (dùng trong tên riêng)", "ipa": "/maʊnt/", "ipaFrom": "glossary", "pos": "n", "example": "Mount Fansipan is the highest mountain in Viet Nam.", "collocations": ["climb Mount Fansipan"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v22", "en": "river", "vi": "con sông", "ipa": "/ˈrɪvə/", "ipaFrom": "dictionary", "pos": "n", "example": "We can take a boat along the river.", "collocations": ["along the river", "a long river"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 49 } },
+    { "id": "v23", "en": "beach", "vi": "bãi biển", "ipa": "/biːtʃ/", "ipaFrom": "dictionary", "pos": "n", "example": "My Khe is a beautiful beach in Da Nang.", "collocations": ["on the beach", "a sandy beach"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 49 } },
+    { "id": "v24", "en": "scissors", "vi": "cái kéo", "ipa": "/ˈsɪzəz/", "ipaFrom": "dictionary", "pos": "n", "example": "Put a small pair of scissors in your first-aid bag.", "collocations": ["a pair of scissors"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 50 } },
+    { "id": "v25", "en": "wonderful", "vi": "tuyệt vời", "ipa": "/ˈwʌndəfl/", "ipaFrom": "dictionary", "pos": "adj", "example": "The view from the top of the mountain is wonderful.", "collocations": ["a wonderful view", "wonderful scenery"], "synonyms": ["amazing", "fantastic"], "antonyms": ["terrible"], "src": { "kind": "sgk", "page": 48 } },
+    { "id": "v26", "en": "national park", "vi": "vườn quốc gia", "ipa": "/ˌnæʃnəl ˈpɑːk/", "ipaFrom": "dictionary", "pos": "n", "example": "Cuc Phuong National Park has many old trees and animals.", "collocations": ["visit a national park"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 49 } },
+    { "id": "v27", "en": "geography", "vi": "môn địa lí", "ipa": "/dʒiˈɒɡrəfi/", "ipaFrom": "dictionary", "pos": "n", "example": "In geography lessons, we learn about mountains, rivers and islands.", "collocations": ["geography club", "geography lesson"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 48 } },
+    { "id": "v28", "en": "camping", "vi": "sự cắm trại", "ipa": "/ˈkæmpɪŋ/", "ipaFrom": "dictionary", "pos": "n", "example": "We go camping in the forest every summer.", "collocations": ["go camping", "camping trip"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 50 } },
+    { "id": "v29", "en": "bay", "vi": "vịnh", "ipa": "/beɪ/", "ipaFrom": "dictionary", "pos": "n", "example": "Ha Long Bay has thousands of islands.", "collocations": ["Ha Long Bay", "a beautiful bay"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 48 } },
+    { "id": "v30", "en": "lake", "vi": "hồ", "ipa": "/leɪk/", "ipaFrom": "dictionary", "pos": "n", "example": "Ba Be Lake is a big natural lake in Bac Kan.", "collocations": ["a deep lake", "swim in the lake"], "synonyms": [], "antonyms": [], "src": { "kind": "team", "page": null } },
+    { "id": "v31", "en": "torch", "vi": "đèn pin", "ipa": "/tɔːtʃ/", "ipaFrom": "dictionary", "pos": "n", "example": "You need a torch when you go into a dark cave.", "collocations": ["bring a torch", "turn on the torch"], "synonyms": ["flashlight"], "antonyms": [], "src": { "kind": "team", "page": null } }
   ],
   "grammar": [
     {
@@ -136,7 +147,15 @@
     { "id": "e05", "en": "You must ... / You mustn't ...", "vi": "Bạn phải ... / Bạn không được ...", "useVi": "Khi nói quy định hoặc lời dặn quan trọng.", "example": "You must stay with the group, and you mustn't swim alone.", "src": { "kind": "sgk", "page": 53 } },
     { "id": "e06", "en": "Don't forget to bring ...", "vi": "Đừng quên mang ...", "useVi": "Khi nhắc bạn mang đồ cần thiết cho chuyến đi.", "example": "Don't forget to bring your suncream and a hat.", "src": { "kind": "team", "page": null } },
     { "id": "e07", "en": "It's famous for ...", "vi": "Nơi đó nổi tiếng về ...", "useVi": "Khi giới thiệu điều đặc biệt của một nơi.", "example": "Phong Nha is famous for its amazing caves.", "src": { "kind": "team", "page": null } },
-    { "id": "e08", "en": "I'd love to visit ... because ...", "vi": "Mình rất muốn đến ... vì ...", "useVi": "Khi nói nơi em muốn đến và lý do.", "example": "I'd love to visit Mui Ne because I want to see the sand dunes.", "src": { "kind": "team", "page": null } }
+    { "id": "e08", "en": "I'd love to visit ... because ...", "vi": "Mình rất muốn đến ... vì ...", "useVi": "Khi nói nơi em muốn đến và lý do.", "example": "I'd love to visit Mui Ne because I want to see the sand dunes.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "Welcome to ...", "vi": "Chào mừng đến với ...", "useVi": "Khi chào đón ai đó đến một nơi, một câu lạc bộ.", "example": "Welcome to our Geography Club! Please sit down.", "src": { "kind": "sgk", "page": 48 } },
+    { "id": "e10", "en": "Come in.", "vi": "Mời vào.", "useVi": "Khi mời ai đó vào phòng.", "example": "Come in. We're just starting the meeting.", "src": { "kind": "sgk", "page": 48 } },
+    { "id": "e11", "en": "It looks amazing!", "vi": "Trông tuyệt quá!", "useVi": "Khi khen một cảnh đẹp hay một bức ảnh.", "example": "Is that Ban Gioc Waterfall? It looks amazing!", "src": { "kind": "sgk", "page": 48 } },
+    { "id": "e12", "en": "What do you know about ...?", "vi": "Bạn biết gì về ...?", "useVi": "Khi hỏi xem người khác biết gì về một nơi, một chủ đề.", "example": "What do you know about Phong Nha Cave?", "src": { "kind": "sgk", "page": 48 } },
+    { "id": "e13", "en": "What time shall we meet?", "vi": "Mấy giờ chúng mình gặp nhau?", "useVi": "Khi hẹn giờ gặp nhau.", "example": "What time shall we meet? – Let's meet at seven.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "Let's meet at ... in front of ...", "vi": "Mình gặp nhau lúc ... ở trước ... nhé.", "useVi": "Khi hẹn thời gian và địa điểm gặp nhau.", "example": "Let's meet at eight in front of the school gate.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "I'm sorry, I can't. How about ...?", "vi": "Mình xin lỗi, mình không đi được. Hay là ...?", "useVi": "Khi từ chối một cuộc hẹn và đề nghị thời gian khác.", "example": "I'm sorry, I can't. How about Sunday morning?", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "See you there!", "vi": "Gặp nhau ở đó nhé!", "useVi": "Khi kết thúc lời hẹn.", "example": "OK, the bus station at six. See you there!", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["You must", "bring a compass", "when you go", "into the forest"], "vi": "Bạn phải mang la bàn khi vào rừng.", "grammarId": "g02" },
@@ -146,7 +165,9 @@
     { "id": "b05", "chunks": ["Ha Long Bay", "is famous for", "its beautiful islands", "and rocks"], "vi": "Vịnh Hạ Long nổi tiếng với những hòn đảo và núi đá đẹp.", "grammarId": null },
     { "id": "b06", "chunks": ["Please put", "a little suncream", "and a few plasters", "in your backpack"], "vi": "Hãy để một ít kem chống nắng và vài miếng băng dán vào ba lô.", "grammarId": "g01" },
     { "id": "b07", "chunks": ["You mustn't", "climb the mountain", "alone"], "vi": "Bạn không được leo núi một mình.", "grammarId": "g02" },
-    { "id": "b08", "chunks": ["I'd love to see", "the waterfall", "because the landscape", "is amazing"], "vi": "Mình rất muốn ngắm thác nước vì phong cảnh ở đó tuyệt đẹp.", "grammarId": null }
+    { "id": "b08", "chunks": ["I'd love to see", "the waterfall", "because the landscape", "is amazing"], "vi": "Mình rất muốn ngắm thác nước vì phong cảnh ở đó tuyệt đẹp.", "grammarId": null },
+    { "id": "b09", "chunks": ["We need", "some water", "and a few sandwiches"], "vi": "Chúng mình cần một ít nước và vài cái bánh mì kẹp.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["You must", "stay with", "your group", "in the national park"], "vi": "Em phải đi cùng nhóm của mình trong vườn quốc gia.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -186,6 +207,25 @@
         { "askVi": "Vì sao?", "ask": "Why?", "add": "because rubbish can hurt the animals" }
       ],
       "full": "Visitors mustn't litter in the national park because rubbish can hurt the animals."
+    },
+    {
+      "id": "x05",
+      "base": "I like the beach.",
+      "steps": [
+        { "askVi": "Bãi biển ở đâu?", "ask": "Where?", "add": "in Nha Trang" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because the water is clear" },
+        { "askVi": "Còn gì nữa?", "ask": "What else?", "add": "the sand is white" }
+      ],
+      "full": "I like the beach in Nha Trang because the water is clear and the sand is white."
+    },
+    {
+      "id": "x06",
+      "base": "You mustn't swim.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in this river" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because the water is deep" }
+      ],
+      "full": "You mustn't swim in this river because the water is deep and fast."
     }
   ],
   "variations": [
@@ -247,6 +287,45 @@
       ],
       "keywords": ["litter", "protect", "animals", "because"],
       "exampleAnswer": "We must protect them because they are beautiful, and rubbish can hurt animals and plants.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Hoạt động em thích ở biển, núi hoặc rừng",
+      "questions": [
+        "What do you like doing at the beach?",
+        "What activities can you do in the mountains?",
+        "When you visit a forest or a beach, what do you usually do?",
+        "Tell me about your favourite activities in nature."
+      ],
+      "keywords": ["swim", "climb", "take photos", "beach"],
+      "exampleAnswer": "At the beach, I like swimming and building sandcastles. I also collect beautiful leaves when we walk in the forest.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Điều học sinh phải làm trong chuyến đi của lớp",
+      "questions": [
+        "What must students do on a school trip?",
+        "What rules do students need to follow on a class trip?",
+        "Tell me some rules for a school trip to a national park.",
+        "What mustn't students do when they visit a natural place with their class?"
+      ],
+      "keywords": ["must", "mustn't", "stay with", "litter"],
+      "exampleAnswer": "Students must stay with the group and listen to the teacher. They mustn't litter or swim alone.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Núi hay biển: nơi em muốn đến cho kỳ nghỉ",
+      "questions": [
+        "Do you prefer the mountains or the beach for a holiday? Why?",
+        "Which is better for a summer holiday, the sea or the mountains? Why?",
+        "Where would you like to go this summer, a beach or a mountain? Why?",
+        "Would you rather visit an island or a mountain range? Why?"
+      ],
+      "keywords": ["beach", "mountain", "cool", "because"],
+      "exampleAnswer": "I prefer the mountains because the air is cool and fresh. I can go camping and see wonderful scenery.",
       "expectsReason": true
     }
   ],
@@ -359,6 +438,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["must", "mustn't", "backpack", "because", "warm clothes"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Giới thiệu một kì quan cho bạn trong Câu lạc bộ Địa lí",
+      "contextVi": "Ở Câu lạc bộ Địa lí, một bạn học sinh trao đổi hỏi em về một kì quan thiên nhiên của Việt Nam. Em chọn một nơi em biết và giới thiệu.",
+      "aiRole": "Alice, an exchange student in the Geography Club",
+      "studentRoleVi": "Thành viên Câu lạc bộ Địa lí giới thiệu một kì quan",
+      "goalVi": "Nói nơi đó ở đâu, có gì đặc biệt, nổi tiếng vì điều gì, và du khách có thể làm gì ở đó.",
+      "goal": "Tell Alice where the natural wonder is, what it has, what it is famous for, and what visitors can do there.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất hai từ về thiên nhiên", "words": ["island", "cave", "waterfall", "beach", "mountain", "rock"] },
+        { "kind": "keyword", "vi": "Dùng cụm \"It's famous for...\"", "words": ["famous for"] }
+      ],
+      "opener": "Hi! I want to learn about Viet Nam. Can you tell me about a natural wonder here?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Wow! Where is it exactly?",
+        "It sounds amazing. What can visitors do there?",
+        "Thank you! I really want to visit it one day."
+      ],
+      "tipsVi": ["Nói theo thứ tự: tên, nơi chốn, điều đặc biệt, hoạt động.", "Dùng It has many... / It's famous for..."],
+      "keywords": ["famous for", "island", "beautiful", "visitors", "can"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Mang đá và vỏ sò về nhà?",
+      "contextVi": "Em và anh họ đi chơi ở Gành Đá Đĩa. Anh họ muốn nhặt vài hòn đá và vỏ sò mang về làm kỉ niệm. Em nghĩ khác.",
+      "aiRole": "Phuc, your cousin who wants to take some rocks home",
+      "studentRoleVi": "Học sinh đi tham quan cùng anh họ",
+      "goalVi": "Nói cho anh họ biết du khách phải và không được làm gì, giải thích lý do, và gợi ý cách lưu giữ kỉ niệm khác.",
+      "goal": "Tell your cousin what visitors must and mustn't do, explain why, and suggest another way to keep memories of the trip.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng must / mustn't ít nhất hai lần", "words": ["must", "mustn't"] },
+        { "kind": "reason", "vi": "Giải thích vì sao cần giữ gìn nơi này", "words": [] },
+        { "kind": "suggestion", "vi": "Gợi ý một cách lưu giữ kỉ niệm khác", "words": [] }
+      ],
+      "opener": "Look at these rocks! They're so beautiful. Let's take some home.",
+      "stance": "It's only a few small rocks and shells. Nobody will notice, so it's OK.",
+      "turns": 5,
+      "fallback": [
+        "Why not? They're just rocks.",
+        "But it's only a few small rocks and shells. Nobody will notice, so it's OK.",
+        "Hmm, you're right. So how can I remember this place?",
+        "Good idea. Let's take a photo together over there."
+      ],
+      "tipsVi": ["Nói quy định: Visitors mustn't take rocks or shells.", "Khi anh họ nói \"Nobody will notice\", hỏi lại: What if every visitor takes some?"],
+      "keywords": ["mustn't", "visitors", "natural wonder", "photo", "because"]
     }
   ]
 }

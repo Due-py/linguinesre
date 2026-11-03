@@ -10,7 +10,7 @@ const KIND_VI = { sound: "Âm", word_stress: "Trọng âm từ", sentence_stress
  * Kho kiến thức của một Unit (Knowledge Layer): từ vựng có phiên âm, ngữ pháp có câu đúng/sai, phát âm, cụm câu.
  * Mỗi mục ghi nguồn (trang SGK hoặc nhóm soạn). listen = false: chỉ đọc (giáo viên xem, không phát giọng).
  */
-export default function KnowledgeBank({ moduleId, m, listen = true }: { moduleId: string; m: ModuleContent; listen?: boolean }) {
+export default function KnowledgeBank({ moduleId, m, listen = true, approved = new Set() }: { moduleId: string; m: ModuleContent; listen?: boolean; approved?: Set<string> }) {
   return (
     <div className="grid gap-10">
       <section aria-labelledby="kb-vocab" className="grid gap-3">
@@ -27,7 +27,7 @@ export default function KnowledgeBank({ moduleId, m, listen = true }: { moduleId
                 <span className="text-muted">
                   {v.ipa} ({v.pos})
                 </span>
-                <SourceBadge src={v.src} />
+                <SourceBadge src={v.src} approved={approved.has(`vocab:${v.id}`)} />
                 {v.ipaFrom === "dictionary" && <span className="text-xs text-muted">phiên âm tra từ điển</span>}
               </div>
               <p className="font-semibold">{v.vi}</p>
@@ -72,7 +72,7 @@ export default function KnowledgeBank({ moduleId, m, listen = true }: { moduleId
           <article key={g.id} className="grid gap-3 rounded-2xl border border-line bg-surface px-5 py-5">
             <div className="flex flex-wrap items-center gap-2">
               <h3 className="text-xl font-extrabold">{g.nameVi}</h3>
-              <SourceBadge src={g.src} />
+              <SourceBadge src={g.src} approved={approved.has(`grammar:${g.id}`)} />
             </div>
             <p lang="en" className="text-sm text-muted">
               {g.name}
@@ -110,7 +110,7 @@ export default function KnowledgeBank({ moduleId, m, listen = true }: { moduleId
                 <span className="font-extrabold">
                   {KIND_VI[p.kind]}: {p.focus}
                 </span>
-                <SourceBadge src={p.src} />
+                <SourceBadge src={p.src} approved={approved.has(`pronunciation:${p.id}`)} />
               </div>
               <p>{p.tipVi}</p>
               <p lang="en" className="font-semibold">
@@ -149,7 +149,7 @@ export default function KnowledgeBank({ moduleId, m, listen = true }: { moduleId
                 <span lang="en" className="text-lg font-bold">
                   {e.en}
                 </span>
-                <SourceBadge src={e.src} />
+                <SourceBadge src={e.src} approved={approved.has(`expressions:${e.id}`)} />
               </div>
               <p className="text-muted">
                 {e.vi}. {e.useVi}

@@ -26,7 +26,17 @@
     { "id": "v18", "en": "nomadic", "vi": "du mục", "ipa": "/nəʊˈmædɪk/", "ipaFrom": "glossary", "pos": "adj", "example": "Nomadic people move from place to place with their animals.", "collocations": ["a nomadic lifestyle", "nomadic people"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
     { "id": "v19", "en": "experience", "vi": "kinh nghiệm, trải nghiệm", "ipa": "/ɪkˈspɪəriəns/", "ipaFrom": "glossary", "pos": "n, v", "example": "Sleeping in an igloo was an amazing experience.", "collocations": ["a new experience", "experience a different culture"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
     { "id": "v20", "en": "dogsled", "vi": "xe trượt tuyết chó kéo", "ipa": "/ˈdɒɡsled/", "ipaFrom": "glossary", "pos": "n", "example": "In Alaska, some people still travel by dogsled.", "collocations": ["ride a dogsled", "travel by dogsled"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
-    { "id": "v21", "en": "igloo", "vi": "lều tuyết", "ipa": "/ˈɪɡluː/", "ipaFrom": "glossary", "pos": "n", "example": "An igloo is a house made of blocks of snow.", "collocations": ["build an igloo", "stay in an igloo"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } }
+    { "id": "v21", "en": "igloo", "vi": "lều tuyết", "ipa": "/ˈɪɡluː/", "ipaFrom": "glossary", "pos": "n", "example": "An igloo is a house made of blocks of snow.", "collocations": ["build an igloo", "stay in an igloo"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v22", "en": "greeting", "vi": "lời chào, cách chào", "ipa": "/ˈɡriːtɪŋ/", "ipaFrom": "glossary", "pos": "n", "example": "A bow is a polite greeting in Japan.", "collocations": ["a warm greeting", "a way of greeting"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v23", "en": "online", "vi": "trực tuyến", "ipa": "/ˌɒnˈlaɪn/", "ipaFrom": "glossary", "pos": "adj, adv", "example": "My sister takes an online English course every evening.", "collocations": ["online course", "study online"], "synonyms": [], "antonyms": ["offline"], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v24", "en": "interaction", "vi": "sự tương tác", "ipa": "/ˌɪntərˈækʃn/", "ipaFrom": "glossary", "pos": "n", "example": "Learning online gives students less interaction with their classmates.", "collocations": ["face-to-face interaction", "social interaction"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v25", "en": "native", "vi": "bản địa, bản xứ", "ipa": "/ˈneɪtɪv/", "ipaFrom": "dictionary", "pos": "adj", "example": "Her native language is Thai, but she speaks Vietnamese very well.", "collocations": ["native art", "native language", "native people"], "synonyms": ["local"], "antonyms": ["foreign"], "src": { "kind": "sgk", "page": 62 } },
+    { "id": "v26", "en": "weaving", "vi": "nghề dệt, việc dệt vải", "ipa": "/ˈwiːvɪŋ/", "ipaFrom": "dictionary", "pos": "n", "example": "Weaving is still a popular craft in many villages in the north.", "collocations": ["traditional weaving", "be keen on weaving"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 62 } },
+    { "id": "v27", "en": "leisurely", "vi": "thong thả, nhàn nhã", "ipa": "/ˈleʒəli/", "ipaFrom": "dictionary", "pos": "adj", "example": "On Sundays, my parents enjoy a leisurely breakfast at a small café.", "collocations": ["a leisurely breakfast", "a leisurely walk"], "synonyms": ["relaxed"], "antonyms": ["hurried"], "src": { "kind": "sgk", "page": 60 } },
+    { "id": "v28", "en": "surname", "vi": "họ (trong họ tên)", "ipa": "/ˈsɜːneɪm/", "ipaFrom": "dictionary", "pos": "n", "example": "In England, students call their teacher by the surname, like Mr Brown.", "collocations": ["call someone by their surname"], "synonyms": ["family name", "last name"], "antonyms": ["first name"], "src": { "kind": "sgk", "page": 60 } },
+    { "id": "v29", "en": "cuisine", "vi": "ẩm thực, cách nấu nướng", "ipa": "/kwɪˈziːn/", "ipaFrom": "dictionary", "pos": "n", "example": "Vietnamese cuisine is famous for pho and spring rolls.", "collocations": ["local cuisine", "Vietnamese cuisine"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 64 } },
+    { "id": "v30", "en": "vegetarian", "vi": "ăn chay; người ăn chay", "ipa": "/ˌvedʒəˈteəriən/", "ipaFrom": "dictionary", "pos": "adj, n", "example": "My aunt is a vegetarian, so she never eats meat or fish.", "collocations": ["vegetarian food", "vegetarian dish"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 65 } },
+    { "id": "v31", "en": "style", "vi": "phong cách, kiểu", "ipa": "/staɪl/", "ipaFrom": "dictionary", "pos": "n", "example": "Each village has its own style of making bamboo baskets.", "collocations": ["a unique style", "style of carving"], "synonyms": ["way"], "antonyms": [], "src": { "kind": "sgk", "page": 65 } }
   ],
   "grammar": [
     {
@@ -146,6 +156,18 @@
       "sentence": "Yes, certainly. Vietnamese people love street food.",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p05",
+      "kind": "sentence_stress",
+      "focus": "Nhấn từ chính trong câu điều kiện",
+      "tipVi": "Trong câu điều kiện, nhấn vào động từ và danh từ chính. won't luôn được nhấn; will thường đọc lướt thành 'll: If you SKIP BREAKFAST, you'll feel HUNGRY.",
+      "words": ["If you skip breakfast,", "you'll feel hungry.", "you won't feel well."],
+      "sentence": "If you go to bed late, you won't feel well tomorrow.",
+      "quiz": [
+        { "prompt": "In \"If it rains, we won't go out\", which word is usually stressed?", "options": ["won't", "we", "it"], "answer": 0, "explainVi": "won't mang nghĩa phủ định quan trọng nên được nhấn; we, it là đại từ, đọc nhẹ." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -156,7 +178,15 @@
     { "id": "e05", "en": "I'm not sure, but I think ...", "vi": "Mình không chắc, nhưng mình nghĩ ...", "useVi": "Khi đưa ra dự đoán mà chưa chắc chắn.", "example": "I'm not sure, but I think more students will learn online.", "src": { "kind": "team", "page": null } },
     { "id": "e06", "en": "In the future, I think ... will ...", "vi": "Trong tương lai, mình nghĩ ... sẽ ...", "useVi": "Khi nêu dự đoán về tương lai.", "example": "In the future, I think robots will cook for us.", "src": { "kind": "team", "page": null } },
     { "id": "e07", "en": "One advantage of ... is that ...", "vi": "Một ưu điểm của ... là ...", "useVi": "Khi nêu mặt tốt của một lối sống hay một cách học.", "example": "One advantage of online learning is that we can study at home.", "src": { "kind": "team", "page": null } },
-    { "id": "e08", "en": "We should maintain ... because ...", "vi": "Chúng ta nên giữ gìn ... vì ...", "useVi": "Khi nói vì sao cần giữ một nét sống truyền thống.", "example": "We should maintain our greetings because they show respect.", "src": { "kind": "team", "page": null } }
+    { "id": "e08", "en": "We should maintain ... because ...", "vi": "Chúng ta nên giữ gìn ... vì ...", "useVi": "Khi nói vì sao cần giữ một nét sống truyền thống.", "example": "We should maintain our greetings because they show respect.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "That's fascinating!", "vi": "Thật thú vị!", "useVi": "Khi nghe một điều mới lạ và thấy rất hay.", "example": "People in Alaska travel by dogsled? That's fascinating!", "src": { "kind": "sgk", "page": 60 } },
+    { "id": "e10", "en": "How's things?", "vi": "Dạo này thế nào?", "useVi": "Khi chào hỏi bạn bè thân một cách thân mật.", "example": "Hi, Lan! How's things at your new school?", "src": { "kind": "sgk", "page": 60 } },
+    { "id": "e11", "en": "... is a common practice in ...", "vi": "... là một thói quen phổ biến ở ...", "useVi": "Khi nói về một việc nhiều người ở một nơi thường làm.", "example": "Eating breakfast on the street is a common practice in Ha Noi.", "src": { "kind": "sgk", "page": 60 } },
+    { "id": "e12", "en": "I'm certain that ...", "vi": "Mình chắc chắn rằng ...", "useVi": "Khi rất tin vào điều mình nói.", "example": "I'm certain that online learning will become more popular.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "Definitely!", "vi": "Chắc chắn rồi!", "useVi": "Khi trả lời đồng ý một cách chắc chắn, nhiệt tình.", "example": "Will you join the weaving class? Definitely!", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "If you ..., you will ...", "vi": "Nếu bạn ..., bạn sẽ ...", "useVi": "Khi nói trước kết quả của một thói quen để khuyên hoặc nhắc nhở.", "example": "If you eat more vegetables, you will feel healthier.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "Unless we ..., we will ...", "vi": "Nếu chúng ta không ..., chúng ta sẽ ...", "useVi": "Khi cảnh báo điều sẽ xảy ra nếu không làm một việc.", "example": "Unless we teach children the old crafts, we will lose them.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "One disadvantage of ... is that ...", "vi": "Một bất lợi của ... là ...", "useVi": "Khi nêu mặt hạn chế của một lối sống hay một cách làm.", "example": "One disadvantage of online learning is that we can't play with friends.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["I think", "more students", "will choose", "online learning"], "vi": "Mình nghĩ sẽ có nhiều học sinh chọn học trực tuyến hơn.", "grammarId": "g01" },
@@ -166,7 +196,9 @@
     { "id": "b05", "chunks": ["Students", "stand up", "to greet", "their teachers"], "vi": "Học sinh đứng dậy để chào thầy cô.", "grammarId": null },
     { "id": "b06", "chunks": ["If you are", "not in a hurry,", "we will have", "a coffee together"], "vi": "Nếu bạn không vội, chúng mình sẽ uống cà phê cùng nhau.", "grammarId": "g02" },
     { "id": "b07", "chunks": ["Young people", "will help", "to revive", "the old craft"], "vi": "Những người trẻ sẽ giúp hồi sinh nghề thủ công xưa.", "grammarId": "g01" },
-    { "id": "b08", "chunks": ["Smartphones", "have a big impact", "on our lifestyle"], "vi": "Điện thoại thông minh có ảnh hưởng lớn đến lối sống của chúng ta.", "grammarId": null }
+    { "id": "b08", "chunks": ["Smartphones", "have a big impact", "on our lifestyle"], "vi": "Điện thoại thông minh có ảnh hưởng lớn đến lối sống của chúng ta.", "grammarId": null },
+    { "id": "b09", "chunks": ["If we don't revive", "traditional crafts", "they will disappear", "one day"], "vi": "Nếu chúng ta không hồi sinh các nghề truyền thống, một ngày nào đó chúng sẽ biến mất.", "grammarId": "g02" },
+    { "id": "b10", "chunks": ["I think", "more people", "will become vegetarians", "in the future"], "vi": "Mình nghĩ trong tương lai sẽ có nhiều người ăn chay hơn.", "grammarId": "g01" }
   ],
   "expand": [
     {
@@ -206,6 +238,25 @@
         { "askVi": "Vì sao?", "ask": "Why?", "add": "because it helps us talk more" }
       ],
       "full": "My family maintains a habit of eating dinner together because it helps us talk more."
+    },
+    {
+      "id": "x05",
+      "base": "People in Japan bow.",
+      "steps": [
+        { "askVi": "Như thế nào?", "ask": "How?", "add": "politely" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "when they greet each other" }
+      ],
+      "full": "People in Japan bow politely when they greet each other."
+    },
+    {
+      "id": "x06",
+      "base": "I will try a new dish.",
+      "steps": [
+        { "askVi": "Món gì?", "ask": "What kind?", "add": "vegetarian" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at the street food market" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "this weekend" }
+      ],
+      "full": "I will try a new vegetarian dish at the street food market this weekend."
     }
   ],
   "variations": [
@@ -215,7 +266,8 @@
       "questions": [
         "What healthy habits do you have?",
         "What do you do every day to stay healthy?",
-        "Which good habits help you in your daily life?"
+        "Which good habits help you in your daily life?",
+        "What do you do in the morning to start your day well?"
       ],
       "keywords": ["habit", "in the habit of", "exercise", "sleep"],
       "exampleAnswer": "I'm in the habit of drinking a lot of water and going for a walk after dinner.",
@@ -227,7 +279,8 @@
       "questions": [
         "How has technology changed the way your family lives?",
         "What impact do smartphones have on our daily life?",
-        "How does the internet change the way people interact?"
+        "How does the internet change the way people interact?",
+        "In what ways do computers and the internet affect our lifestyle?"
       ],
       "keywords": ["impact", "interact", "online", "lifestyle"],
       "exampleAnswer": "Smartphones have a big impact. My family buys food online and we interact with relatives by video calls.",
@@ -239,7 +292,8 @@
       "questions": [
         "What will you do this summer?",
         "What are your plans for the next long holiday?",
-        "Where will you go on your next trip?"
+        "Where will you go on your next trip?",
+        "Which new skill will you learn next year?"
       ],
       "keywords": ["will", "visit", "learn", "experience"],
       "exampleAnswer": "This summer, I will visit my aunt in Da Lat and I will learn to make crafts from bamboo.",
@@ -251,7 +305,8 @@
       "questions": [
         "What will happen if students stay up late every night?",
         "How will you feel the next morning if you sleep very late?",
-        "What problems will teenagers have if they don't get enough sleep?"
+        "What problems will teenagers have if they don't get enough sleep?",
+        "What will happen to your schoolwork if you sleep only five hours a night?"
       ],
       "keywords": ["If", "will", "tired", "concentrate"],
       "exampleAnswer": "If students stay up late every night, they will feel tired and they won't concentrate in class.",
@@ -263,10 +318,50 @@
       "questions": [
         "How can we maintain traditional lifestyles in modern life?",
         "What can young people do to keep old ways of life alive?",
-        "Which traditional activities should we revive, and why?"
+        "Which traditional activities should we revive, and why?",
+        "How can people keep their traditional way of life in big cities?"
       ],
       "keywords": ["maintain", "revive", "tradition", "craft"],
       "exampleAnswer": "We can maintain them by learning old crafts from our grandparents and teaching them to younger children.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Cách chào hỏi ở Việt Nam và các nước",
+      "questions": [
+        "How do people greet each other in Viet Nam?",
+        "What is a common greeting in Japan?",
+        "How do students greet their teachers at your school?",
+        "Which way of greeting in another country do you find interesting?"
+      ],
+      "keywords": ["greet", "greeting", "bow", "shake hands"],
+      "exampleAnswer": "In Viet Nam, students stand up and say hello to greet their teachers. In Japan, people usually bow.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Món ăn chính và ẩm thực nơi em sống",
+      "questions": [
+        "What is the staple food in your area?",
+        "What do people in your area usually eat for breakfast?",
+        "Which foreign cuisine would you like to try?",
+        "Which local dish should a visitor to your town try first?"
+      ],
+      "keywords": ["staple", "cuisine", "street food", "serve"],
+      "exampleAnswer": "Rice is our staple food. For breakfast, many people eat pho or banh mi from street food stalls.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Lợi và hại của việc học trực tuyến",
+      "questions": [
+        "What are the advantages of online learning?",
+        "Will online learning replace learning at school? Why?",
+        "Why do some students prefer learning in class to learning online?",
+        "What problems will students have if they only study online?"
+      ],
+      "keywords": ["online", "interaction", "advantage", "disadvantage"],
+      "exampleAnswer": "Online learning saves time, but students have less interaction with friends, so I think learning at school is still better.",
       "expectsReason": true
     }
   ],
@@ -379,6 +474,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["will", "If", "lifestyle", "because"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Chào hỏi kiểu Việt Nam",
+      "contextVi": "Kenta, học sinh trao đổi từ Nhật Bản, mới đến lớp em. Bạn muốn biết học sinh Việt Nam chào thầy cô và người lớn tuổi như thế nào.",
+      "aiRole": "Kenta, an exchange student from Japan",
+      "studentRoleVi": "Bạn cùng lớp giúp Kenta làm quen",
+      "goalVi": "Giải thích cách học sinh Việt Nam chào thầy cô và người lớn, đưa ví dụ, rồi hỏi lại Kenta về cách chào ở Nhật.",
+      "goal": "Explain how Vietnamese students greet teachers and older people, give an example, and ask Kenta about greetings in Japan.",
+      "requirements": [
+        { "kind": "example", "vi": "Đưa ít nhất một ví dụ (for example...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["greet", "greeting", "stand up", "bow", "polite"] }
+      ],
+      "opener": "Hi! In Japan we bow to our teachers. How do students greet their teachers here?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Oh, I see. What about older people, like grandparents?",
+        "That's very polite. Is it different when you greet your friends?",
+        "Thanks! Would you like to know how we greet people in Japan?"
+      ],
+      "tipsVi": ["Dùng \"In Viet Nam, students usually...\" để kể.", "Đưa ví dụ: đứng dậy chào, khoanh tay chào ông bà."],
+      "keywords": ["greet", "stand up", "polite", "for example", "bow"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Một ngày ăn chay mỗi tuần?",
+      "contextVi": "Câu lạc bộ sức khỏe đề xuất căng tin trường có \"Thứ Hai ăn chay\" mỗi tuần. Bạn Huy không đồng ý. Em ủng hộ đề xuất và muốn thuyết phục Huy.",
+      "aiRole": "Huy, a classmate who loves meat",
+      "studentRoleVi": "Học sinh ủng hộ \"Thứ Hai ăn chay\"",
+      "goalVi": "Thuyết phục Huy rằng một ngày ăn chay mỗi tuần là ý hay: nêu lý do, ví dụ món chay, và trả lời khi Huy phản đối.",
+      "goal": "Persuade Huy that one vegetarian day a week is a good idea: give reasons, an example of a vegetarian dish, and answer his objection.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do (because..., if we..., we will...)", "words": [] },
+        { "kind": "example", "vi": "Đưa ví dụ một món chay", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["vegetarian", "healthy", "habit", "lifestyle", "cuisine"] }
+      ],
+      "opener": "Did you hear about Vegetarian Monday at the canteen? I really don't like that idea.",
+      "stance": "We need meat to be strong, and vegetarian food is boring.",
+      "turns": 5,
+      "fallback": [
+        "Why do you think it's a good idea?",
+        "But we need meat to be strong, and vegetarian food is boring. Don't you agree?",
+        "Hmm. Which vegetarian dishes are tasty, then?",
+        "OK, I'll try it next Monday. If I don't like it, I'll tell you!"
+      ],
+      "tipsVi": ["Dùng câu điều kiện: \"If we eat more vegetables, we will...\"", "Khi Huy phản đối, mở đầu bằng \"I understand, but...\""],
+      "keywords": ["vegetarian", "healthy", "if", "will", "because"]
     }
   ]
 }

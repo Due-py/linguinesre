@@ -25,7 +25,18 @@
     { "id": "v17", "en": "mark", "vi": "chấm điểm", "ipa": "/mɑːk/", "ipaFrom": "glossary", "pos": "v", "example": "In the future, robots may mark our tests.", "collocations": ["mark homework", "mark tests"], "synonyms": ["grade"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
     { "id": "v18", "en": "breakout room", "vi": "phòng học chia nhỏ, chia nhóm", "ipa": "/ˈbreɪkaʊt ruːm/", "ipaFrom": "glossary", "pos": "n", "example": "Our teacher put us into breakout rooms to discuss the topic.", "collocations": ["work in breakout rooms"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
     { "id": "v19", "en": "platform", "vi": "nền tảng", "ipa": "/ˈplætfɔːm/", "ipaFrom": "glossary", "pos": "n", "example": "Our school uses an online platform for homework.", "collocations": ["an online platform", "a learning platform"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
-    { "id": "v20", "en": "robot", "vi": "người máy, rô-bốt", "ipa": "/ˈrəʊbɒt/", "ipaFrom": "dictionary", "pos": "n", "example": "A robot teacher could help when our teacher is ill.", "collocations": ["robot teacher", "build a robot"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 114 } }
+    { "id": "v20", "en": "robot", "vi": "người máy, rô-bốt", "ipa": "/ˈrəʊbɒt/", "ipaFrom": "dictionary", "pos": "n", "example": "A robot teacher could help when our teacher is ill.", "collocations": ["robot teacher", "build a robot"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 114 } },
+    { "id": "v21", "en": "biometric", "vi": "thuộc về sinh trắc học", "ipa": "/ˌbaɪəʊˈmetrɪk/", "ipaFrom": "glossary", "pos": "adj", "example": "Some schools use biometric machines to check who is in class.", "collocations": ["biometric application", "biometric technology"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v22", "en": "cheating", "vi": "sự gian lận, gian dối", "ipa": "/ˈtʃiːtɪŋ/", "ipaFrom": "glossary", "pos": "n", "example": "Cheating in a test is unfair to honest students.", "collocations": ["stop cheating", "cheating in tests"], "synonyms": [], "antonyms": ["honesty"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v23", "en": "contact lens", "vi": "kính áp tròng", "ipa": "/ˈkɒntækt lenz/", "ipaFrom": "glossary", "pos": "n", "example": "My sister wears contact lenses instead of glasses when she plays volleyball.", "collocations": ["wear contact lenses", "3D contact lenses"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v24", "en": "epidemic", "vi": "dịch bệnh", "ipa": "/ˌepɪˈdemɪk/", "ipaFrom": "glossary", "pos": "n", "example": "During the epidemic, many students studied at home on their laptops.", "collocations": ["during an epidemic", "stop an epidemic"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v25", "en": "eye-tracking", "vi": "(công nghệ) theo dõi cử động mắt", "ipa": "/ˈaɪ ˌtrækɪŋ/", "ipaFrom": "glossary", "pos": "n", "example": "Eye-tracking can show the teacher if a student is paying attention to the lesson.", "collocations": ["eye-tracking technology", "eye-tracking application"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v26", "en": "screen", "vi": "màn hình", "ipa": "/skriːn/", "ipaFrom": "glossary", "pos": "n", "example": "Don't look at the screen for too long, or your eyes will get tired.", "collocations": ["computer screen", "touch screen"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v27", "en": "solution", "vi": "giải pháp, cách giải quyết", "ipa": "/səˈluːʃn/", "ipaFrom": "glossary", "pos": "n", "example": "Online classes were a good solution when the roads were flooded.", "collocations": ["find a solution", "a good solution to"], "synonyms": ["answer"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v28", "en": "truancy", "vi": "sự trốn học, nghỉ học không phép", "ipa": "/ˈtruːənsi/", "ipaFrom": "glossary", "pos": "n", "example": "The new app helps the school reduce truancy by sending messages to parents.", "collocations": ["reduce truancy", "stop truancy"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v29", "en": "create", "vi": "tạo ra, sáng tạo", "ipa": "/kriˈeɪt/", "ipaFrom": "dictionary", "pos": "v", "example": "Two students in our school created an app that waters plants automatically.", "collocations": ["create an app", "create a robot"], "synonyms": ["make", "invent"], "antonyms": ["destroy"], "src": { "kind": "sgk", "page": 116 } },
+    { "id": "v30", "en": "absent", "vi": "vắng mặt", "ipa": "/ˈæbsənt/", "ipaFrom": "dictionary", "pos": "adj", "example": "The app tells the teacher which students are absent today.", "collocations": ["be absent from school", "absent students"], "synonyms": ["away"], "antonyms": ["present"], "src": { "kind": "sgk", "page": 120 } },
+    { "id": "v31", "en": "interact", "vi": "tương tác, giao lưu", "ipa": "/ˌɪntərˈækt/", "ipaFrom": "dictionary", "pos": "v", "example": "I like group work because I can interact with my friends and share ideas.", "collocations": ["interact with classmates", "interact with each other"], "synonyms": ["communicate"], "antonyms": [], "src": { "kind": "sgk", "page": 114 } }
   ],
   "grammar": [
     {
@@ -111,6 +122,19 @@
       "sentence": "Great news for us! Congratulations!",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "ending",
+      "focus": "Đuôi -ed: /t/, /d/, /ɪd/",
+      "tipVi": "Sau âm /t/, /d/ đọc /ɪd/ (invented, created). Sau âm vô thanh /p, k, s, ʃ, tʃ, f/ đọc /t/ (developed, watched). Còn lại đọc /d/ (discovered, used).",
+      "words": ["invented", "created", "developed", "watched", "discovered", "used"],
+      "sentence": "Our class created an app and tested it last week.",
+      "quiz": [
+        { "prompt": "Which word ends with the sound /ɪd/?", "options": ["developed", "created", "discovered"], "answer": 1, "explainVi": "created: trước -ed là âm /t/ nên đọc /ɪd/: /kriˈeɪtɪd/." },
+        { "prompt": "Which word ends with the sound /t/?", "options": ["developed", "invented", "used"], "answer": 0, "explainVi": "developed: trước -ed là âm /p/ vô thanh nên đọc /t/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -123,7 +147,13 @@
     { "id": "e07", "en": "He / She said (that) ...", "vi": "Bạn ấy nói rằng ...", "useVi": "Khi kể lại lời người khác.", "example": "She said that she wanted to be a scientist.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "It helps us (to) ...", "vi": "Nó giúp chúng ta ...", "useVi": "Khi nói lợi ích của một công nghệ.", "example": "This app helps us check our pronunciation.", "src": { "kind": "team", "page": null } },
     { "id": "e09", "en": "The best thing about ... is ...", "vi": "Điều hay nhất ở ... là ...", "useVi": "Khi nêu ưu điểm nổi bật nhất.", "example": "The best thing about online learning is that it's convenient.", "src": { "kind": "team", "page": null } },
-    { "id": "e10", "en": "On the other hand, ...", "vi": "Mặt khác, ...", "useVi": "Khi nêu mặt ngược lại của vấn đề.", "example": "On the other hand, our eyes get tired when we look at screens too long.", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "On the other hand, ...", "vi": "Mặt khác, ...", "useVi": "Khi nêu mặt ngược lại của vấn đề.", "example": "On the other hand, our eyes get tired when we look at screens too long.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "That's great news!", "vi": "Tin tuyệt quá!", "useVi": "Khi đáp lại một tin vui người khác vừa kể.", "example": "Our class got new computers? That's great news!", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "Well done!", "vi": "Giỏi lắm! / Làm tốt lắm!", "useVi": "Khi khen ai đó vừa làm được một việc tốt.", "example": "You made a robot that can sweep the floor? Well done!", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "I'm so happy for you.", "vi": "Mình mừng cho bạn quá.", "useVi": "Khi chia vui với bạn bè về thành công của họ.", "example": "You got a place in the science camp? I'm so happy for you.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "He / She told me (that) ...", "vi": "Bạn ấy nói với mình rằng ...", "useVi": "Khi kể lại lời ai đó nói với mình (câu tường thuật).", "example": "She told me that she was making a robot dog.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "Who invented it?", "vi": "Ai đã phát minh ra nó?", "useVi": "Khi hỏi về người tạo ra một phát minh.", "example": "This machine is amazing. Who invented it?", "src": { "kind": "sgk", "page": 121 } },
+    { "id": "e16", "en": "It's useful because ...", "vi": "Nó hữu ích vì ...", "useVi": "Khi giải thích lợi ích của một công nghệ hay phát minh.", "example": "It's useful because it checks attendance in just a few seconds.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["My aunt said", "that robots", "would be able", "to clean our classroom"], "vi": "Cô mình nói rằng rô-bốt sẽ có thể dọn lớp học của chúng mình.", "grammarId": "g01" },
@@ -133,7 +163,9 @@
     { "id": "b05", "chunks": ["This app", "gives me", "feedback", "on my speaking"], "vi": "Ứng dụng này cho mình nhận xét về phần nói.", "grammarId": null },
     { "id": "b06", "chunks": ["Mi said", "she loved science", "and wanted", "to be an inventor"], "vi": "Mi nói bạn ấy yêu khoa học và muốn trở thành nhà phát minh.", "grammarId": "g01" },
     { "id": "b07", "chunks": ["Online classes", "are convenient", "but I prefer", "face-to-face lessons"], "vi": "Lớp học trực tuyến tiện lợi nhưng mình thích học trực tiếp hơn.", "grammarId": null },
-    { "id": "b08", "chunks": ["The engineer said", "cars", "would drive", "themselves", "in the future"], "vi": "Kỹ sư nói ô tô sẽ tự lái trong tương lai.", "grammarId": "g01" }
+    { "id": "b08", "chunks": ["The engineer said", "cars", "would drive", "themselves", "in the future"], "vi": "Kỹ sư nói ô tô sẽ tự lái trong tương lai.", "grammarId": "g01" },
+    { "id": "b09", "chunks": ["Minh told me", "that he", "was making", "a robot", "for the contest"], "vi": "Minh nói với mình rằng bạn ấy đang làm một con rô-bốt cho cuộc thi.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["Our teacher said", "the new lab", "would open", "the following week"], "vi": "Cô giáo nói phòng thí nghiệm mới sẽ mở cửa vào tuần sau.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -173,6 +205,24 @@
         { "askVi": "Khi nào?", "ask": "When?", "add": "last Friday" }
       ],
       "full": "We did an experiment with plants and light in the science lab last Friday."
+    },
+    {
+      "id": "x05",
+      "base": "My cousin said she liked the app.",
+      "steps": [
+        { "askVi": "Ứng dụng gì?", "ask": "What app?", "add": "language" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it gave her quick feedback" }
+      ],
+      "full": "My cousin said she liked the language app because it gave her quick feedback."
+    },
+    {
+      "id": "x06",
+      "base": "Robots can help.",
+      "steps": [
+        { "askVi": "Giúp ai?", "ask": "Who?", "add": "old people at home" },
+        { "askVi": "Giúp bằng cách nào?", "ask": "How?", "add": "by reminding them to take their medicine" }
+      ],
+      "full": "Robots can help old people at home by reminding them to take their medicine."
     }
   ],
   "variations": [
@@ -182,7 +232,8 @@
       "questions": [
         "What invention do you find the most useful in your daily life?",
         "Which invention could you not live without?",
-        "Tell me about a useful invention you use every day."
+        "Tell me about a useful invention you use every day.",
+        "What is one invention that makes your life easier?"
       ],
       "keywords": ["invention", "useful", "helps me", "because"],
       "exampleAnswer": "The smartphone is the most useful invention for me because it helps me study, take photos and talk to my friends.",
@@ -194,7 +245,8 @@
       "questions": [
         "Do you prefer online classes or face-to-face classes?",
         "What are the good and bad points of learning online?",
-        "Would you like to study online every day?"
+        "Would you like to study online every day?",
+        "Which kind of lesson helps you learn better: online or in the classroom?"
       ],
       "keywords": ["online", "face to face", "convenient", "however"],
       "exampleAnswer": "I prefer face-to-face classes. Online classes are convenient, but my eyes get tired and I miss my friends.",
@@ -206,7 +258,8 @@
       "questions": [
         "What did your friend tell you this morning?",
         "What did your parents say to you before you left home today?",
-        "What did your teacher say about the next lesson?"
+        "What did your teacher say about the next lesson?",
+        "What did someone in your family tell you last night?"
       ],
       "keywords": ["said", "that", "would", "was"],
       "exampleAnswer": "My mum said that it was going to rain, and she told me I should take an umbrella.",
@@ -218,7 +271,8 @@
       "questions": [
         "What technology will schools use in the future?",
         "How will classrooms be different in twenty years?",
-        "What new machines might students use at school one day?"
+        "What new machines might students use at school one day?",
+        "How might technology change the way teachers mark homework?"
       ],
       "keywords": ["robot teacher", "face recognition", "digital", "will"],
       "exampleAnswer": "Schools will use face recognition to check attendance, and robot teachers will help students with homework.",
@@ -230,10 +284,50 @@
       "questions": [
         "Can robots replace teachers at school?",
         "Would you like to have a robot teacher?",
-        "What can a human teacher do that a robot can't?"
+        "What can a human teacher do that a robot can't?",
+        "Should robots teach some lessons at your school?"
       ],
       "keywords": ["robot", "feedback", "feelings", "because"],
       "exampleAnswer": "I don't think robots can replace teachers because teachers understand our feelings and encourage us.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Dùng công nghệ sinh trắc học ở trường",
+      "questions": [
+        "Is it a good idea to check attendance with fingerprints?",
+        "What are the good points of using face recognition at school?",
+        "How would you feel about a machine scanning your face every morning?",
+        "What problems could biometric technology cause at school?"
+      ],
+      "keywords": ["fingerprint scanner", "attendance", "truancy", "private"],
+      "exampleAnswer": "It saves teachers time and helps stop truancy, but some students may worry about their private information.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Bảo vệ mắt khi học với màn hình",
+      "questions": [
+        "How can students protect their eyes when they study online?",
+        "What can you do when your eyes get tired from looking at a screen?",
+        "Why is it bad to sit in front of a computer all day?",
+        "What healthy habits should students have when they use computers?"
+      ],
+      "keywords": ["screen", "take a break", "eyes", "contact lenses"],
+      "exampleAnswer": "We should take a short break every thirty minutes and look at something far away to rest our eyes.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Một nhà khoa học hoặc phát minh nổi tiếng",
+      "questions": [
+        "Which famous scientist do you admire the most?",
+        "Tell me about a scientist and what he or she discovered.",
+        "Which invention from the past changed the world the most?",
+        "What do you know about the person who invented the telephone?"
+      ],
+      "keywords": ["invent", "discover", "scientist", "experiment"],
+      "exampleAnswer": "I admire Marie Curie because she discovered radium and did many important experiments.",
       "expectsReason": true
     }
   ],
@@ -347,6 +441,57 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["invention", "helps", "because", "for example", "technology"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Giới thiệu một ứng dụng học tập",
+      "contextVi": "Tuấn muốn học thêm từ vựng tiếng Anh ở nhà nhưng chưa biết dùng ứng dụng nào. Em giới thiệu cho Tuấn một ứng dụng học tập em thấy hữu ích.",
+      "aiRole": "Tuan, a classmate looking for an app to learn English words",
+      "studentRoleVi": "Bạn cùng lớp, người giới thiệu ứng dụng",
+      "goalVi": "Giới thiệu một ứng dụng: nó làm được gì, em dùng thế nào, và vì sao nó giúp em học tốt hơn.",
+      "goal": "Tell Tuan about a learning app you like: what it does, how you use it, and why it helps you.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do ứng dụng có ích (because...)", "words": [] },
+        { "kind": "example", "vi": "Kể một ví dụ em dùng nó thế nào", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["app", "feedback", "convenient", "screen", "develop"] }
+      ],
+      "opener": "I want to learn more English words at home. Do you know any good apps?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Sounds good. What can it do?",
+        "How often do you use it, and for how long?",
+        "Great! I'll download it tonight. Thanks!"
+      ],
+      "tipsVi": ["Nói tên ứng dụng rồi kể việc nó làm: \"It gives me...\"", "Dùng \"because\" để nói vì sao nó hữu ích."],
+      "keywords": ["app", "feedback", "convenient", "practise", "because"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Rô-bốt làm bài tập hộ?",
+      "contextVi": "Em trai em vừa thấy một con rô-bốt có thể làm hết bài tập toán và rất muốn dùng nó. Em muốn giải thích vì sao em ấy nên tự làm bài.",
+      "aiRole": "Bin, your younger brother who wants a robot to do his homework",
+      "studentRoleVi": "Anh / chị của Bin",
+      "goalVi": "Giải thích vì sao Bin nên tự làm bài tập, đề xuất cách dùng công nghệ hợp lý hơn, và trả lời khi Bin phản đối.",
+      "goal": "Explain to Bin why he should do his homework himself, suggest a better way to use technology, and answer his objection.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do (because...)", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất cách dùng công nghệ tốt hơn", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["cheating", "learn", "feedback", "technology", "develop"] }
+      ],
+      "opener": "Look! This new robot can do all my maths homework for me. Isn't that amazing?",
+      "stance": "If a robot can do my homework, I don't need to learn it myself.",
+      "turns": 5,
+      "fallback": [
+        "Why not? It's so fast!",
+        "But if a robot can do my homework, I don't need to learn it myself, right?",
+        "Hmm. So how can a robot help me in a good way?",
+        "OK, I'll do my homework first and ask the robot to check it."
+      ],
+      "tipsVi": ["Giữ ý của mình lịch sự: \"I know what you mean, but...\"", "Gợi ý: rô-bốt có thể kiểm tra bài và cho nhận xét (feedback)."],
+      "keywords": ["learn", "cheating", "feedback", "technology", "because"]
     }
   ]
 }

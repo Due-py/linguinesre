@@ -26,7 +26,18 @@
     { "id": "v18", "en": "acne", "vi": "mụn trứng cá", "ipa": "/ˈækni/", "ipaFrom": "glossary", "pos": "n", "example": "Washing your face gently can help with acne.", "collocations": ["have acne", "skin with acne"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
     { "id": "v19", "en": "pimple", "vi": "mụn", "ipa": "/ˈpɪmpl/", "ipaFrom": "glossary", "pos": "n", "example": "Don't touch your pimples with dirty hands.", "collocations": ["get a pimple"], "synonyms": ["spot"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
     { "id": "v20", "en": "dim", "vi": "lờ mờ, không đủ sáng", "ipa": "/dɪm/", "ipaFrom": "glossary", "pos": "adj", "example": "Reading in dim light is bad for your eyes.", "collocations": ["dim light"], "synonyms": [], "antonyms": ["bright"], "src": { "kind": "sgk", "page": 136 } },
-    { "id": "v21", "en": "eyedrops", "vi": "thuốc nhỏ mắt", "ipa": "/aɪdrɒps/", "ipaFrom": "glossary", "pos": "n", "example": "When my eyes are tired, I use some eyedrops.", "collocations": ["use eyedrops"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } }
+    { "id": "v21", "en": "eyedrops", "vi": "thuốc nhỏ mắt", "ipa": "/aɪdrɒps/", "ipaFrom": "glossary", "pos": "n", "example": "When my eyes are tired, I use some eyedrops.", "collocations": ["use eyedrops"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v22", "en": "fat", "vi": "mỡ", "ipa": "/fæt/", "ipaFrom": "glossary", "pos": "n", "example": "Fried food often has a lot of fat.", "collocations": ["too much fat", "eat less fat"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v23", "en": "indoor", "vi": "trong nhà", "ipa": "/ˈɪndɔː/", "ipaFrom": "glossary", "pos": "adj", "example": "Badminton is a popular indoor sport in winter.", "collocations": ["indoor activities", "an indoor sport"], "synonyms": [], "antonyms": ["outdoor"], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v24", "en": "boating", "vi": "chèo thuyền", "ipa": "/ˈbəʊtɪŋ/", "ipaFrom": "dictionary", "pos": "n", "example": "We went boating on the lake last Sunday.", "collocations": ["go boating"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 19 } },
+    { "id": "v25", "en": "exercise", "vi": "tập thể dục; sự tập luyện", "ipa": "/ˈeksəsaɪz/", "ipaFrom": "dictionary", "pos": "v, n", "example": "My grandparents exercise in the park every morning.", "collocations": ["do exercise", "exercise every day", "good exercise"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 18 } },
+    { "id": "v26", "en": "fresh air", "vi": "không khí trong lành", "ipa": "/ˌfreʃ ˈeə/", "ipaFrom": "dictionary", "pos": "n phr", "example": "We go to the countryside to enjoy the fresh air.", "collocations": ["get some fresh air", "breathe fresh air"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 18 } },
+    { "id": "v27", "en": "fast food", "vi": "đồ ăn nhanh", "ipa": "/ˌfɑːst ˈfuːd/", "ipaFrom": "dictionary", "pos": "n", "example": "Eating too much fast food can make you put on weight.", "collocations": ["eat fast food", "a fast food restaurant"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 21 } },
+    { "id": "v28", "en": "vegetarian", "vi": "người ăn chay", "ipa": "/ˌvedʒəˈteəriən/", "ipaFrom": "dictionary", "pos": "n", "example": "My aunt is a vegetarian, so she never eats meat.", "collocations": ["become a vegetarian"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 21 } },
+    { "id": "v29", "en": "flu", "vi": "bệnh cúm", "ipa": "/fluː/", "ipaFrom": "dictionary", "pos": "n", "example": "Many students in my class have the flu this week.", "collocations": ["have the flu", "catch the flu"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 24 } },
+    { "id": "v30", "en": "sleepy", "vi": "buồn ngủ", "ipa": "/ˈsliːpi/", "ipaFrom": "dictionary", "pos": "adj", "example": "I often feel sleepy after a big lunch.", "collocations": ["feel sleepy"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 24 } },
+    { "id": "v31", "en": "habit", "vi": "thói quen", "ipa": "/ˈhæbɪt/", "ipaFrom": "dictionary", "pos": "n", "example": "Brushing your teeth twice a day is a healthy habit.", "collocations": ["a healthy habit", "a bad habit", "eating habits"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 24 } },
+    { "id": "v32", "en": "active", "vi": "năng động, hay vận động", "ipa": "/ˈæktɪv/", "ipaFrom": "dictionary", "pos": "adj", "example": "Being active helps you sleep better at night.", "collocations": ["stay active", "an active life"], "synonyms": [], "antonyms": ["lazy"], "src": { "kind": "sgk", "page": 20 } }
   ],
   "grammar": [
     {
@@ -136,7 +147,14 @@
     { "id": "e06", "en": "What's the matter?", "vi": "Bạn bị sao vậy?", "useVi": "Khi thấy bạn có vẻ mệt hoặc không khỏe.", "example": "You look tired. What's the matter?", "src": { "kind": "team", "page": null } },
     { "id": "e07", "en": "You should ...", "vi": "Bạn nên ...", "useVi": "Khi đưa ra lời khuyên.", "example": "You should go to bed before ten o'clock.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "Try to ...", "vi": "Hãy cố gắng ...", "useVi": "Khi khuyên nhẹ nhàng một thói quen tốt.", "example": "Try to drink more water every day.", "src": { "kind": "team", "page": null } },
-    { "id": "e09", "en": "I hope you feel better soon.", "vi": "Mong bạn sớm khỏe lại.", "useVi": "Khi kết thúc cuộc nói chuyện với bạn đang mệt, ốm.", "example": "Take a rest. I hope you feel better soon.", "src": { "kind": "team", "page": null } }
+    { "id": "e09", "en": "I hope you feel better soon.", "vi": "Mong bạn sớm khỏe lại.", "useVi": "Khi kết thúc cuộc nói chuyện với bạn đang mệt, ốm.", "example": "Take a rest. I hope you feel better soon.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "I think it's good for your health.", "vi": "Mình nghĩ điều đó tốt cho sức khỏe của bạn.", "useVi": "Khi nhận xét một thói quen là tốt.", "example": "You walk to school every day? I think it's good for your health.", "src": { "kind": "sgk", "page": 19 } },
+    { "id": "e11", "en": "It's not good because ...", "vi": "Điều đó không tốt vì ...", "useVi": "Khi nói một thói quen có hại và giải thích lý do.", "example": "Skipping breakfast? It's not good because you need energy for the morning.", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "It gives us energy for the day.", "vi": "Nó cho chúng ta năng lượng cho cả ngày.", "useVi": "Khi giải thích lợi ích của bữa ăn hay thói quen tốt.", "example": "Eat a good breakfast. It gives us energy for the day.", "src": { "kind": "sgk", "page": 19 } },
+    { "id": "e13", "en": "I'd love to join you next time.", "vi": "Lần sau mình rất muốn đi cùng các bạn.", "useVi": "Khi muốn tham gia hoạt động cùng người khác.", "example": "Cycling in the countryside? I'd love to join you next time.", "src": { "kind": "sgk", "page": 18 } },
+    { "id": "e14", "en": "Bring along ...", "vi": "Nhớ mang theo ...", "useVi": "Khi nhắc ai đó mang theo đồ cần thiết.", "example": "Bring along a bottle of water and a hat.", "src": { "kind": "sgk", "page": 18 } },
+    { "id": "e15", "en": "Don't forget to ...", "vi": "Đừng quên ...", "useVi": "Khi nhắc ai đó làm một việc tốt cho sức khỏe.", "example": "Don't forget to wash your hands before meals.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "It's important to ...", "vi": "Điều quan trọng là ...", "useVi": "Khi nhấn mạnh một lời khuyên.", "example": "It's important to get eight hours of sleep every night.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["My family", "goes cycling", "in the countryside", "at the weekend"], "vi": "Gia đình mình đi xe đạp ở vùng quê vào cuối tuần.", "grammarId": "g01" },
@@ -146,7 +164,9 @@
     { "id": "b05", "chunks": ["My sister and I", "never drink", "soft drinks"], "vi": "Chị gái và mình không bao giờ uống nước ngọt có ga.", "grammarId": "g01" },
     { "id": "b06", "chunks": ["Washing your hands", "helps you", "avoid viruses"], "vi": "Rửa tay giúp bạn tránh vi rút.", "grammarId": null },
     { "id": "b07", "chunks": ["Many children", "have chapped lips", "in winter"], "vi": "Nhiều trẻ em bị nứt nẻ môi vào mùa đông.", "grammarId": "g01" },
-    { "id": "b08", "chunks": ["You should", "go to bed early", "and get enough sleep"], "vi": "Bạn nên đi ngủ sớm và ngủ đủ giấc.", "grammarId": "g02" }
+    { "id": "b08", "chunks": ["You should", "go to bed early", "and get enough sleep"], "vi": "Bạn nên đi ngủ sớm và ngủ đủ giấc.", "grammarId": "g02" },
+    { "id": "b09", "chunks": ["Being active", "helps you", "stay healthy"], "vi": "Hay vận động giúp bạn khỏe mạnh.", "grammarId": null },
+    { "id": "b10", "chunks": ["You shouldn't eat", "too much fast food", "because it has", "a lot of fat"], "vi": "Bạn không nên ăn quá nhiều đồ ăn nhanh vì nó có nhiều mỡ.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -186,6 +206,25 @@
         { "askVi": "Thay vì gì?", "ask": "Instead of what?", "add": "instead of soft drinks" }
       ],
       "full": "I drink two litres of water a day instead of soft drinks."
+    },
+    {
+      "id": "x05",
+      "base": "I go boating.",
+      "steps": [
+        { "askVi": "Với ai?", "ask": "Who with?", "add": "with my dad" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "on the lake" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "on Sunday mornings" }
+      ],
+      "full": "I go boating with my dad on the lake on Sunday mornings."
+    },
+    {
+      "id": "x06",
+      "base": "You should wear a mask.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "when you have the flu" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "so you don't make other people ill" }
+      ],
+      "full": "You should wear a mask when you have the flu so you don't make other people ill."
     }
   ],
   "variations": [
@@ -248,6 +287,45 @@
       "keywords": ["soft drinks", "sugar", "healthy", "affect"],
       "exampleAnswer": "Soft drinks have too much sugar, so they can affect our teeth and make us gain weight.",
       "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Thói quen ngủ của em",
+      "questions": [
+        "What time do you usually go to bed?",
+        "How many hours do you sleep every night?",
+        "Do you get enough sleep on school days?",
+        "Tell me about your sleeping habits."
+      ],
+      "keywords": ["go to bed", "hours", "sleep", "early"],
+      "exampleAnswer": "I usually go to bed at ten and get up at six, so I sleep about eight hours every night.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Đồ ăn nhanh và sức khỏe",
+      "questions": [
+        "How often do you eat fast food?",
+        "Do you think fast food is bad for teenagers?",
+        "Is it OK to eat fast food every day?",
+        "What do you think about fast food?"
+      ],
+      "keywords": ["fast food", "fat", "healthy", "because"],
+      "exampleAnswer": "I eat fast food about once a month. It's tasty, but it has a lot of fat, so it's not good to eat it every day.",
+      "expectsReason": true
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Vận động trong nhà để giữ sức khỏe",
+      "questions": [
+        "What can you do to stay active on rainy days?",
+        "How do you keep fit when you can't go outside?",
+        "Which indoor activities are good for your health?",
+        "Tell me about an indoor activity that keeps you healthy."
+      ],
+      "keywords": ["indoor", "active", "exercise", "yoga"],
+      "exampleAnswer": "On rainy days, I do yoga or skip rope at home. It keeps me active and helps me sleep better.",
+      "expectsReason": false
     }
   ],
   "independent": [
@@ -359,6 +437,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["healthy", "fit", "habit", "because", "students"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Gặp cô y tá khi bị cúm",
+      "contextVi": "Em bị cúm nhẹ và đến phòng y tế của trường. Cô y tá hỏi em thấy thế nào và cho em lời khuyên.",
+      "aiRole": "Ms Hoa, the school nurse",
+      "studentRoleVi": "Học sinh bị cúm nhẹ",
+      "goalVi": "Kể cho cô y tá em thấy thế nào, hỏi xin lời khuyên và nói em sẽ làm gì để khỏe lại.",
+      "goal": "Tell the school nurse how you feel, ask for advice, and say what you will do to get better.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất hai từ về sức khỏe", "words": ["flu", "sleepy", "tired", "vitamin", "rest"] },
+        { "kind": "keyword", "vi": "Hỏi xin lời khuyên", "words": ["What should I do"] }
+      ],
+      "opener": "Hello. Come in and sit down. What's the matter?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "I see. When did you start to feel ill?",
+        "You should drink a lot of water and get some rest.",
+        "Good. And you shouldn't play outside in the rain this week."
+      ],
+      "tipsVi": ["Mở đầu bằng: I have the flu. / I feel tired and sleepy.", "Hỏi: What should I do?"],
+      "keywords": ["flu", "tired", "should", "What should I do"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Rủ bạn vận động trong nhà ngày mưa",
+      "contextVi": "Trời mưa nên buổi đạp xe với bạn bị hủy. Em gọi điện rủ bạn làm một hoạt động trong nhà để vẫn được vận động.",
+      "aiRole": "Mark, your friend who wanted to go cycling",
+      "studentRoleVi": "Bạn, rủ Mark làm hoạt động trong nhà",
+      "goalVi": "Gợi ý một hoạt động trong nhà, nói vì sao nó tốt cho sức khỏe và hẹn thời gian, địa điểm.",
+      "goal": "Suggest an indoor activity, say why it is good for your health, and agree on a time and place.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra một gợi ý (Let's..., How about...?)", "words": [] },
+        { "kind": "reason", "vi": "Nói hoạt động đó tốt cho sức khỏe thế nào", "words": [] }
+      ],
+      "opener": "Oh no, it's raining. We can't go cycling today. What can we do instead?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "That's a good idea. Why is it good for us?",
+        "OK. Where can we do it?",
+        "Great. What time should I come?"
+      ],
+      "tipsVi": ["Gợi ý: Let's... / How about playing...?", "Dùng từ: indoor, active, keep fit."],
+      "keywords": ["indoor", "active", "keep fit", "Let's"]
     }
   ]
 }

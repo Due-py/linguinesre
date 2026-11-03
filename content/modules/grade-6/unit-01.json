@@ -24,7 +24,20 @@
     { "id": "v16", "en": "homework", "vi": "bài tập về nhà", "ipa": "/ˈhəʊmwɜːk/", "ipaFrom": "dictionary", "pos": "n", "example": "I always do my homework before dinner.", "collocations": ["do homework", "maths homework"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 8 } },
     { "id": "v17", "en": "science", "vi": "môn khoa học", "ipa": "/ˈsaɪəns/", "ipaFrom": "dictionary", "pos": "n", "example": "We study science on Tuesdays and Fridays.", "collocations": ["study science", "science lesson"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 8 } },
     { "id": "v18", "en": "exercise", "vi": "bài tập thể dục, sự tập luyện", "ipa": "/ˈeksəsaɪz/", "ipaFrom": "dictionary", "pos": "n", "example": "We do exercise in the schoolyard every morning.", "collocations": ["do exercise", "morning exercise"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 8 } },
-    { "id": "v19", "en": "history", "vi": "môn lịch sử", "ipa": "/ˈhɪstri/", "ipaFrom": "dictionary", "pos": "n", "example": "I like history because I learn about the past.", "collocations": ["history lesson", "study history"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 8 } }
+    { "id": "v19", "en": "history", "vi": "môn lịch sử", "ipa": "/ˈhɪstri/", "ipaFrom": "dictionary", "pos": "n", "example": "I like history because I learn about the past.", "collocations": ["history lesson", "study history"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 8 } },
+    { "id": "v20", "en": "uniform", "vi": "đồng phục", "ipa": "/ˈjuːnɪfɔːm/", "ipaFrom": "dictionary", "pos": "n", "example": "We wear our school uniform from Monday to Friday.", "collocations": ["school uniform", "wear a uniform"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 6 } },
+    { "id": "v21", "en": "subject", "vi": "môn học", "ipa": "/ˈsʌbdʒɪkt/", "ipaFrom": "dictionary", "pos": "n", "example": "We study ten subjects at secondary school.", "collocations": ["school subject", "new subjects", "favourite subject"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 6 } },
+    { "id": "v22", "en": "pencil sharpener", "vi": "cái gọt bút chì", "ipa": "/ˈpensl ˌʃɑːpənə/", "ipaFrom": "dictionary", "pos": "n", "example": "Can I use your pencil sharpener? My pencil is broken.", "collocations": ["use a pencil sharpener"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 7 } },
+    { "id": "v23", "en": "rubber", "vi": "cục tẩy", "ipa": "/ˈrʌbə/", "ipaFrom": "dictionary", "pos": "n", "example": "I always keep a rubber in my pencil case.", "collocations": ["a small rubber", "borrow a rubber"], "synonyms": ["eraser"], "antonyms": [], "src": { "kind": "sgk", "page": 7 } },
+    { "id": "v24", "en": "pencil case", "vi": "hộp bút", "ipa": "/ˈpensl keɪs/", "ipaFrom": "dictionary", "pos": "n", "example": "My pencil case has pens, pencils and a ruler in it.", "collocations": ["a new pencil case", "open your pencil case"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 7 } },
+    { "id": "v25", "en": "school bag", "vi": "cặp sách", "ipa": "/ˈskuːl bæɡ/", "ipaFrom": "dictionary", "pos": "n", "example": "My school bag is heavy on Mondays because I have many books.", "collocations": ["a heavy school bag", "pack your school bag"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 7 } },
+    { "id": "v26", "en": "school lunch", "vi": "bữa trưa ở trường", "ipa": "/ˌskuːl ˈlʌntʃ/", "ipaFrom": "dictionary", "pos": "n", "example": "We have school lunch in the canteen at half past eleven.", "collocations": ["have school lunch"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 8 } },
+    { "id": "v27", "en": "lesson", "vi": "tiết học, bài học", "ipa": "/ˈlesn/", "ipaFrom": "dictionary", "pos": "n", "example": "Our first lesson on Tuesday is English.", "collocations": ["English lesson", "have a lesson"], "synonyms": ["class"], "antonyms": [], "src": { "kind": "sgk", "page": 8 } },
+    { "id": "v28", "en": "music", "vi": "âm nhạc, môn âm nhạc", "ipa": "/ˈmjuːzɪk/", "ipaFrom": "dictionary", "pos": "n", "example": "We sing songs and play the guitar in music lessons.", "collocations": ["study music", "music lesson", "music club"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 8 } },
+    { "id": "v29", "en": "classroom", "vi": "phòng học, lớp học", "ipa": "/ˈklɑːsruːm/", "ipaFrom": "dictionary", "pos": "n", "example": "Our classroom is on the second floor and it is very bright.", "collocations": ["a large classroom", "clean the classroom"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 8 } },
+    { "id": "v30", "en": "football", "vi": "bóng đá", "ipa": "/ˈfʊtbɔːl/", "ipaFrom": "dictionary", "pos": "n", "example": "The boys play football in the schoolyard after class.", "collocations": ["play football", "football team"], "synonyms": ["soccer"], "antonyms": [], "src": { "kind": "sgk", "page": 8 } },
+    { "id": "v31", "en": "timetable", "vi": "thời khoá biểu", "ipa": "/ˈtaɪmteɪbl/", "ipaFrom": "dictionary", "pos": "n", "example": "I check my timetable every evening before I pack my bag.", "collocations": ["school timetable", "check the timetable"], "synonyms": ["schedule"], "antonyms": [], "src": { "kind": "team", "page": null } },
+    { "id": "v32", "en": "library", "vi": "thư viện", "ipa": "/ˈlaɪbrəri/", "ipaFrom": "dictionary", "pos": "n", "example": "I often borrow storybooks from the school library.", "collocations": ["school library", "go to the library"], "synonyms": [], "antonyms": [], "src": { "kind": "team", "page": null } }
   ],
   "grammar": [
     {
@@ -135,7 +148,15 @@
     { "id": "e05", "en": "My favourite subject is ... because ...", "vi": "Môn học yêu thích của mình là ... vì ...", "useVi": "Khi nói về môn học mình thích và lý do.", "example": "My favourite subject is science because I love doing experiments.", "src": { "kind": "team", "page": null } },
     { "id": "e06", "en": "I usually ... / I sometimes ...", "vi": "Mình thường ... / Thỉnh thoảng mình ...", "useVi": "Khi kể về thói quen ở trường hoặc ở nhà.", "example": "I usually play chess at break time, and I sometimes read in the library.", "src": { "kind": "team", "page": null } },
     { "id": "e07", "en": "What about you?", "vi": "Còn bạn thì sao?", "useVi": "Khi đã trả lời xong và muốn hỏi lại người kia để cuộc nói chuyện tiếp tục.", "example": "I walk to school every day. What about you?", "src": { "kind": "team", "page": null } },
-    { "id": "e08", "en": "Why don't you join ...?", "vi": "Sao bạn không tham gia ...?", "useVi": "Khi rủ hoặc gợi ý bạn tham gia một câu lạc bộ, hoạt động.", "example": "Why don't you join the art club with me?", "src": { "kind": "team", "page": null } }
+    { "id": "e08", "en": "Why don't you join ...?", "vi": "Sao bạn không tham gia ...?", "useVi": "Khi rủ hoặc gợi ý bạn tham gia một câu lạc bộ, hoạt động.", "example": "Why don't you join the art club with me?", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "Are you ready?", "vi": "Bạn sẵn sàng chưa?", "useVi": "Khi hỏi xem bạn đã chuẩn bị xong để cùng đi hoặc cùng làm chưa.", "example": "Are you ready? The bell rings in five minutes.", "src": { "kind": "sgk", "page": 6 } },
+    { "id": "e10", "en": "Just a minute.", "vi": "Đợi mình một chút.", "useVi": "Khi muốn người khác chờ mình trong giây lát.", "example": "Just a minute. I can't find my pencil case.", "src": { "kind": "sgk", "page": 6 } },
+    { "id": "e11", "en": "You look smart!", "vi": "Trông bạn bảnh quá!", "useVi": "Khi khen ai đó mặc đẹp, gọn gàng (ví dụ trong bộ đồng phục mới).", "example": "Wow, a new uniform! You look smart!", "src": { "kind": "sgk", "page": 6 } },
+    { "id": "e12", "en": "What subjects do you have on ...?", "vi": "Vào thứ ... bạn học những môn gì?", "useVi": "Khi hỏi bạn về thời khoá biểu.", "example": "What subjects do you have on Thursday?", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "Can I borrow your ..., please?", "vi": "Cho mình mượn ... của bạn được không?", "useVi": "Khi muốn mượn đồ dùng học tập một cách lịch sự.", "example": "Can I borrow your rubber, please?", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "Sure. Here you are.", "vi": "Được chứ. Của bạn đây.", "useVi": "Khi đồng ý và đưa đồ cho người khác.", "example": "Sure. Here you are. You can give it back after class.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "Which class are you in? – I'm in class ...", "vi": "Bạn học lớp nào? – Mình học lớp ...", "useVi": "Khi làm quen và hỏi bạn học lớp nào.", "example": "Which class are you in? – I'm in class 6A.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "See you at break time!", "vi": "Gặp lại bạn vào giờ ra chơi nhé!", "useVi": "Khi chào tạm biệt bạn trước khi vào lớp.", "example": "I have to go to my classroom now. See you at break time!", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["My best friend", "usually rides", "his bike", "to school"], "vi": "Bạn thân của mình thường đạp xe đến trường.", "grammarId": "g02" },
@@ -145,7 +166,9 @@
     { "id": "b05", "chunks": ["She doesn't", "have lunch", "at school", "on Fridays"], "vi": "Bạn ấy không ăn trưa ở trường vào các ngày thứ Sáu.", "grammarId": "g01" },
     { "id": "b06", "chunks": ["I like art", "because I can", "draw and paint", "with my friends"], "vi": "Mình thích môn mĩ thuật vì mình được vẽ và tô màu cùng các bạn.", "grammarId": null },
     { "id": "b07", "chunks": ["We sometimes", "do exercise", "in the schoolyard", "after class"], "vi": "Chúng mình thỉnh thoảng tập thể dục ở sân trường sau giờ học.", "grammarId": "g02" },
-    { "id": "b08", "chunks": ["My classmates", "often share", "their books", "with me"], "vi": "Các bạn cùng lớp hay cho mình dùng chung sách của họ.", "grammarId": "g02" }
+    { "id": "b08", "chunks": ["My classmates", "often share", "their books", "with me"], "vi": "Các bạn cùng lớp hay cho mình dùng chung sách của họ.", "grammarId": "g02" },
+    { "id": "b09", "chunks": ["We have", "music lessons", "twice a week"], "vi": "Chúng mình có tiết âm nhạc hai lần một tuần.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["My sister", "never forgets", "her pencil case", "at home"], "vi": "Chị/em gái mình không bao giờ để quên hộp bút ở nhà.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -185,6 +208,26 @@
         { "askVi": "Khi nào?", "ask": "When?", "add": "before dinner" }
       ],
       "full": "I do my homework in my bedroom before dinner."
+    },
+    {
+      "id": "x05",
+      "base": "I have lunch.",
+      "steps": [
+        { "askVi": "Ăn ở đâu?", "ask": "Where?", "add": "at school" },
+        { "askVi": "Ăn cùng ai?", "ask": "Who with?", "add": "with my classmates" },
+        { "askVi": "Thường xuyên thế nào?", "ask": "How often?", "add": "every day" }
+      ],
+      "full": "I have lunch at school with my classmates every day."
+    },
+    {
+      "id": "x06",
+      "base": "My teacher is kind.",
+      "steps": [
+        { "askVi": "Giáo viên môn gì?", "ask": "Which teacher?", "add": "English" },
+        { "askVi": "Tốt bụng đến mức nào?", "ask": "How kind?", "add": "very" },
+        { "askVi": "Cô ấy làm gì cho em?", "ask": "What does she do?", "add": "always helps us" }
+      ],
+      "full": "My English teacher is very kind and always helps us with new words."
     }
   ],
   "variations": [
@@ -246,6 +289,45 @@
       ],
       "keywords": ["teachers", "friendly", "activity", "because"],
       "exampleAnswer": "I like the teachers most because they are friendly and their lessons are interesting.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Thời khoá biểu và các môn học trong tuần",
+      "questions": [
+        "What subjects do you have on Mondays?",
+        "Which subjects do you study this year?",
+        "Tell me about your school timetable.",
+        "What lessons do you have today?"
+      ],
+      "keywords": ["subject", "timetable", "lesson", "on Mondays"],
+      "exampleAnswer": "On Mondays I have maths, English and history. I also have music, and it is my favourite lesson.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Những việc em làm vào giờ ra chơi",
+      "questions": [
+        "What do you usually do at break time?",
+        "How do you spend your break time at school?",
+        "What do you and your friends do between lessons?",
+        "Tell me about break time at your school."
+      ],
+      "keywords": ["break time", "usually", "play", "schoolyard"],
+      "exampleAnswer": "I usually play football with my classmates in the schoolyard. Sometimes I read books in the library.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Kiểu trường em muốn học và lý do",
+      "questions": [
+        "What type of school do you want to go to? Why?",
+        "Would you like to study at a boarding school or a school near your home? Why?",
+        "What does your dream school have, and why?",
+        "Which school would you like to go to, and why?"
+      ],
+      "keywords": ["boarding school", "international", "because", "would like"],
+      "exampleAnswer": "I'd like to go to an international school because I can make friends from many countries and practise English every day.",
       "expectsReason": true
     }
   ],
@@ -358,6 +440,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["usually", "uniform", "smart", "break time", "because"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Hỏi bạn về thời khoá biểu ngày mai",
+      "contextVi": "Tối Chủ nhật, em quên thời khoá biểu ngày mai. Em gọi điện cho một bạn cùng lớp để hỏi các môn học và những đồ cần mang.",
+      "aiRole": "Hoa, a classmate who always keeps the timetable",
+      "studentRoleVi": "Học sinh lớp 6 hỏi bạn về thời khoá biểu",
+      "goalVi": "Hỏi các môn học ngày mai, hỏi cần mang gì, và kể em thường chuẩn bị cặp sách thế nào.",
+      "goal": "Ask Hoa about tomorrow's subjects and what to bring, and say how you usually pack your school bag.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất hai từ về đồ dùng học tập", "words": ["school bag", "pencil case", "compass", "calculator", "rubber"] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ chỉ tần suất", "words": ["always", "usually", "often", "sometimes"] }
+      ],
+      "opener": "Hello? Oh, hi! It's Sunday evening. What's up?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Tomorrow is Monday, so we have maths, English and science. What else do you want to know?",
+        "Bring your calculator and compass for maths. Do you usually pack your bag in the evening?",
+        "Good idea. Don't forget your uniform, too. See you tomorrow!"
+      ],
+      "tipsVi": ["Hỏi bằng \"What subjects do we have...?\" và \"What do I need to bring?\"", "Kể thói quen với always, usually, often."],
+      "keywords": ["timetable", "subject", "bring", "school bag", "usually"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Có nên mang điện thoại đến trường?",
+      "contextVi": "Lớp em đang thảo luận xem học sinh có nên mang điện thoại đến trường không. Một bạn cho rằng học sinh cần điện thoại mỗi ngày. Em nêu ý kiến của mình.",
+      "aiRole": "Lan, a classmate who thinks students need phones at school",
+      "studentRoleVi": "Học sinh nêu ý kiến trong buổi thảo luận của lớp",
+      "goalVi": "Nêu ý kiến của em, đưa lý do và ví dụ từ một ngày ở trường, và trả lời khi Lan nghĩ khác.",
+      "goal": "Give your opinion about phones at school, support it with reasons and an example from your school day, and answer Lan's view.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu ít nhất hai lý do", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ về giờ học hoặc giờ ra chơi", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["lesson", "break time", "classmate", "library", "homework"] }
+      ],
+      "opener": "Hi! Our class is talking about phones today. Do you bring a phone to school?",
+      "stance": "Students need phones at school. They can call their parents and look up new words in lessons.",
+      "turns": 5,
+      "fallback": [
+        "Why do you think that? Tell me more.",
+        "But I think students need phones. They can call their parents and look up new words in lessons.",
+        "Hmm, that's a good point. What do you usually do at break time without a phone?",
+        "OK, I understand your idea better now. Thanks!"
+      ],
+      "tipsVi": ["Khi Lan nghĩ khác, nói \"I see, but...\" rồi nêu lý do.", "Kể một việc cụ thể em làm ở trường mà không cần điện thoại."],
+      "keywords": ["phone", "because", "break time", "lesson", "I think"]
     }
   ]
 }

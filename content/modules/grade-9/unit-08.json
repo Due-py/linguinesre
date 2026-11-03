@@ -26,7 +26,18 @@
     { "id": "v18", "en": "smooth", "vi": "trôi chảy", "ipa": "/smuːð/", "ipaFrom": "glossary", "pos": "adj", "example": "Thanks to a good plan, we had a smooth trip.", "collocations": ["a smooth trip", "a smooth journey"], "synonyms": [], "antonyms": ["difficult"], "src": { "kind": "sgk", "page": 138 } },
     { "id": "v19", "en": "ruinous", "vi": "đổ nát", "ipa": "/ˈruːɪnəs/", "ipaFrom": "glossary", "pos": "adj", "example": "Tourists can only see part of the ruinous old castle.", "collocations": ["a ruinous site"], "synonyms": ["ruined"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
     { "id": "v20", "en": "hop-on hop-off", "vi": "(tour) bằng xe buýt có thể lên, xuống tại nhiều điểm", "ipa": "/hɒp ɒn hɒp ɒf/", "ipaFrom": "glossary", "pos": "n", "example": "A hop-on hop-off bus is an easy way to see a big city.", "collocations": ["a hop-on hop-off bus"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
-    { "id": "v21", "en": "online app", "vi": "ứng dụng trên mạng", "ipa": "/ˌɒnˈlaɪn æp/", "ipaFrom": "glossary", "pos": "n", "example": "We booked the homestay with an online app.", "collocations": ["a travel app", "use an online app"], "synonyms": ["application"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } }
+    { "id": "v21", "en": "online app", "vi": "ứng dụng trên mạng", "ipa": "/ˌɒnˈlaɪn æp/", "ipaFrom": "glossary", "pos": "n", "example": "We booked the homestay with an online app.", "collocations": ["a travel app", "use an online app"], "synonyms": ["application"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v22", "en": "hunt", "vi": "săn tìm", "ipa": "/hʌnt/", "ipaFrom": "glossary", "pos": "v", "example": "Shopping tourists love to hunt for cheap souvenirs at night markets.", "collocations": ["hunt for bargains", "hunt for souvenirs"], "synonyms": ["search"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v23", "en": "loft", "vi": "gác mái", "ipa": "/lɒft/", "ipaFrom": "glossary", "pos": "n", "example": "We slept in the loft of a wooden homestay in Sa Pa.", "collocations": ["sleep in the loft", "wooden loft"], "synonyms": ["attic"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v24", "en": "accommodation", "vi": "chỗ ở", "ipa": "/əˌkɒməˈdeɪʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "My dad booked cheap accommodation near the beach.", "collocations": ["book accommodation", "cheap accommodation"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 82 } },
+    { "id": "v25", "en": "ideal", "vi": "lý tưởng", "ipa": "/aɪˈdiːəl/", "ipaFrom": "dictionary", "pos": "adj", "example": "Phu Quoc is an ideal destination for people who love the sea.", "collocations": ["ideal destination", "ideal place"], "synonyms": ["perfect"], "antonyms": [], "src": { "kind": "sgk", "page": 82 } },
+    { "id": "v26", "en": "terraced field", "vi": "ruộng bậc thang", "ipa": "/ˈterəst fiːld/", "ipaFrom": "dictionary", "pos": "n", "example": "The terraced fields in Mu Cang Chai turn golden in September.", "collocations": ["golden terraced fields"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 82 } },
+    { "id": "v27", "en": "safari", "vi": "chuyến đi xem thú hoang dã", "ipa": "/səˈfɑːri/", "ipaFrom": "dictionary", "pos": "n", "example": "On a safari, you can see lions and elephants in their natural habitat.", "collocations": ["go on a safari"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 83 } },
+    { "id": "v28", "en": "sports tourism", "vi": "du lịch thể thao", "ipa": "/ˈspɔːts ˌtʊərɪzəm/", "ipaFrom": "dictionary", "pos": "n", "example": "Sports tourism is growing because many fans travel to watch big matches.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 83 } },
+    { "id": "v29", "en": "floating market", "vi": "chợ nổi", "ipa": "/ˌfləʊtɪŋ ˈmɑːkɪt/", "ipaFrom": "dictionary", "pos": "n", "example": "Cai Rang Floating Market in Can Tho opens very early in the morning.", "collocations": ["visit a floating market"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 83 } },
+    { "id": "v30", "en": "entrance ticket", "vi": "vé vào cửa", "ipa": "/ˈentrəns ˌtɪkɪt/", "ipaFrom": "dictionary", "pos": "n", "example": "Students can buy entrance tickets at half price.", "collocations": ["buy an entrance ticket"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 84 } },
+    { "id": "v31", "en": "budget", "vi": "ngân sách, số tiền dự định chi", "ipa": "/ˈbʌdʒɪt/", "ipaFrom": "dictionary", "pos": "n", "example": "We chose a short tour that was within our budget.", "collocations": ["within our budget", "on a tight budget"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 84 } },
+    { "id": "v32", "en": "luxurious", "vi": "sang trọng, xa hoa", "ipa": "/lʌɡˈʒʊəriəs/", "ipaFrom": "dictionary", "pos": "adj", "example": "The luxurious hotel has three swimming pools and a private beach.", "collocations": ["luxurious hotel", "luxurious room"], "synonyms": [], "antonyms": ["cheap"], "src": { "kind": "sgk", "page": 84 } }
   ],
   "grammar": [
     {
@@ -147,6 +158,19 @@
       "sentence": "How much does the tour to Hue cost?",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p05",
+      "kind": "sentence_stress",
+      "focus": "Nhấn từ khóa khi nghe và đọc thông báo về chuyến đi",
+      "tipVi": "Trong thông báo, người nói nhấn các từ mang thông tin chính: giờ, địa điểm, việc phải làm (must, have to, ticket, gate). Các từ như the, at, to, a đọc nhẹ.",
+      "words": ["must", "have to", "ticket", "gate", "seven", "boat"],
+      "sentence": "All visitors must be at the gate by seven.",
+      "quiz": [
+        { "prompt": "Which words are usually stressed in \"You have to wear a life jacket.\"?", "options": ["have, wear, life jacket", "You, to, a", "You, a, to"], "answer": 0, "explainVi": "Ta nhấn các từ chính: have, wear, life jacket; You, to, a đọc nhẹ." },
+        { "prompt": "Which word is usually NOT stressed in \"The tour starts at nine.\"?", "options": ["at", "tour", "nine"], "answer": 0, "explainVi": "at là giới từ nên đọc nhẹ; tour, starts, nine được nhấn." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -158,7 +182,14 @@
     { "id": "e06", "en": "How much does ... cost?", "vi": "... giá bao nhiêu?", "useVi": "Khi hỏi giá tour, vé, phòng.", "example": "How much does the boat trip cost?", "src": { "kind": "team", "page": null } },
     { "id": "e07", "en": "What's included in ...?", "vi": "... bao gồm những gì?", "useVi": "Khi hỏi tour hoặc gói du lịch có những gì.", "example": "What's included in the package holiday?", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "I'd recommend ...", "vi": "Mình gợi ý ...", "useVi": "Khi giới thiệu một nơi, món ăn hay hoạt động cho người khác.", "example": "I'd recommend the night market. The food there is delicious.", "src": { "kind": "team", "page": null } },
-    { "id": "e09", "en": "The best trip I've ever had was ...", "vi": "Chuyến đi tuyệt nhất mình từng có là ...", "useVi": "Khi kể về một chuyến đi đáng nhớ.", "example": "The best trip I've ever had was to Con Dao with my family.", "src": { "kind": "team", "page": null } }
+    { "id": "e09", "en": "The best trip I've ever had was ...", "vi": "Chuyến đi tuyệt nhất mình từng có là ...", "useVi": "Khi kể về một chuyến đi đáng nhớ.", "example": "The best trip I've ever had was to Con Dao with my family.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "I'd like to book ...", "vi": "Tôi muốn đặt ...", "useVi": "Khi đặt phòng, đặt vé hoặc đặt tour.", "example": "I'd like to book a double room for two nights, please.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "Is ... included?", "vi": "Có bao gồm ... không?", "useVi": "Khi hỏi giá tour hay giá phòng có gồm thứ gì đó không.", "example": "Is breakfast included in the price?", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "How long does ... take?", "vi": "... mất bao lâu?", "useVi": "Khi hỏi thời gian của một chuyến đi hay một tour.", "example": "How long does the boat trip take?", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "It's within our budget.", "vi": "Nằm trong ngân sách của chúng ta.", "useVi": "Khi nói một lựa chọn không quá đắt so với số tiền dự định.", "example": "The homestay is clean and it's within our budget.", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "Remember to ...", "vi": "Nhớ ... nhé", "useVi": "Khi nhắc người khác một việc cần làm trong chuyến đi.", "example": "Remember to bring your passport and some cash.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "It's an ideal destination for ...", "vi": "Đó là điểm đến lý tưởng cho ...", "useVi": "Khi giới thiệu một nơi hợp với một nhóm khách nào đó.", "example": "Da Lat is an ideal destination for people who love cool weather.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "It's best to ... in advance.", "vi": "Tốt nhất là nên ... trước.", "useVi": "Khi khuyên ai chuẩn bị sớm cho chuyến đi.", "example": "It's best to book your tickets in advance during Tet.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["I know a girl", "who works", "as a tour guide", "in Hoi An"], "vi": "Mình biết một bạn gái làm hướng dẫn viên ở Hội An.", "grammarId": "g01" },
@@ -168,7 +199,9 @@
     { "id": "b05", "chunks": ["You must", "show your ticket", "before you get on", "the boat"], "vi": "Bạn phải trình vé trước khi lên thuyền.", "grammarId": "g03" },
     { "id": "b06", "chunks": ["Hotels are cheaper", "in the low season", "so we travel", "in October"], "vi": "Khách sạn rẻ hơn vào mùa vắng khách nên chúng mình đi du lịch vào tháng Mười.", "grammarId": null },
     { "id": "b07", "chunks": ["Let's work out", "an itinerary", "for our trip", "to Da Lat"], "vi": "Chúng ta cùng lên lịch trình cho chuyến đi Đà Lạt nhé.", "grammarId": null },
-    { "id": "b08", "chunks": ["People who love", "street food", "should try", "food tourism"], "vi": "Những người thích đồ ăn đường phố nên thử du lịch ẩm thực.", "grammarId": "g01" }
+    { "id": "b08", "chunks": ["People who love", "street food", "should try", "food tourism"], "vi": "Những người thích đồ ăn đường phố nên thử du lịch ẩm thực.", "grammarId": "g01" },
+    { "id": "b09", "chunks": ["Sa Pa is a town", "which is famous for", "its terraced fields"], "vi": "Sa Pa là thị trấn nổi tiếng với ruộng bậc thang.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["Visitors", "don't have to", "buy tickets", "for children under six"], "vi": "Du khách không phải mua vé cho trẻ dưới sáu tuổi.", "grammarId": "g03" }
   ],
   "expand": [
     {
@@ -197,6 +230,35 @@
         { "askVi": "Đã làm gì?", "ask": "What did you do?", "add": "and tried a lot of seafood" }
       ],
       "full": "My family travelled to Quy Nhon last summer and tried a lot of seafood."
+    },
+    {
+      "id": "x04",
+      "base": "We booked a tour.",
+      "steps": [
+        { "askVi": "Tour gì?", "ask": "What kind of tour?", "add": "two-day boat" },
+        { "askVi": "Đi đâu?", "ask": "Where to?", "add": "around Ha Long Bay" },
+        { "askVi": "Bằng cách nào?", "ask": "How?", "add": "through a travel app" }
+      ],
+      "full": "We booked a two-day boat tour around Ha Long Bay through a travel app."
+    },
+    {
+      "id": "x05",
+      "base": "Tourists must buy tickets.",
+      "steps": [
+        { "askVi": "Vé gì?", "ask": "What tickets?", "add": "entrance" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "before they enter the museum" }
+      ],
+      "full": "Tourists must buy entrance tickets before they enter the museum."
+    },
+    {
+      "id": "x06",
+      "base": "I met a guide.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in Hue" },
+        { "askVi": "Người như thế nào?", "ask": "What was he like?", "add": "friendly" },
+        { "askVi": "Thêm thông tin gì?", "ask": "What else about him?", "add": "whose English was very good" }
+      ],
+      "full": "In Hue, I met a friendly guide whose English was very good."
     }
   ],
   "variations": [
@@ -258,6 +320,45 @@
       ],
       "keywords": ["jobs", "homestay", "rubbish", "crowded"],
       "exampleAnswer": "Tourism creates jobs, for example at homestays. But too many tourists can make a town crowded and dirty.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Loại hình du lịch em thích",
+      "questions": [
+        "Which type of tourism do you like most: food, shopping, sports or eco-tourism? Why?",
+        "What kind of holiday would you enjoy most? Why?",
+        "Would you rather go on a food tour or a shopping tour? Why?",
+        "Which type of trip suits your family best, and why?"
+      ],
+      "keywords": ["food tourism", "shopping tourism", "sports tourism", "because"],
+      "exampleAnswer": "I like food tourism most because I love trying local dishes. When we went to Hue, we tasted five kinds of cakes in one day.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Những việc du khách phải làm khi tham quan",
+      "questions": [
+        "What do tourists have to do when they visit a pagoda?",
+        "What rules must visitors follow in a museum?",
+        "What must people do or not do on a boat trip?",
+        "Tell me some things tourists have to remember when they visit a historic site."
+      ],
+      "keywords": ["must", "have to", "don't have to", "mustn't"],
+      "exampleAnswer": "Visitors must wear long clothes and speak quietly in a pagoda. They don't have to pay, but they mustn't touch the statues.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Ứng dụng du lịch và đặt chỗ trực tuyến",
+      "questions": [
+        "Do travel apps make trips easier? Why or why not?",
+        "Is it better to book a holiday online or through a travel agent? Why?",
+        "How do online apps help travellers? Give an example.",
+        "Would you trust an app to plan your whole trip? Why or why not?"
+      ],
+      "keywords": ["online app", "book", "travel agent", "because"],
+      "exampleAnswer": "Travel apps make trips easier because we can compare prices and book rooms quickly. My dad found a cheap homestay in Da Lat in five minutes.",
       "expectsReason": true
     }
   ],
@@ -371,6 +472,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["itinerary", "homestay", "because", "work out"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Gọi điện đặt phòng homestay",
+      "contextVi": "Gia đình em định đi Sa Pa hai ngày vào cuối tháng. Bố mẹ nhờ em gọi điện cho một homestay để hỏi phòng, giá cả và những gì đã bao gồm.",
+      "aiRole": "Mrs Hoa, the owner of a homestay in Sa Pa",
+      "studentRoleVi": "Học sinh gọi điện đặt phòng cho gia đình",
+      "goalVi": "Đặt phòng cho gia đình: nói ngày ở, số người, hỏi giá, hỏi những gì được bao gồm và quy định của homestay.",
+      "goal": "Book a room for your family: say the dates and number of people, ask the price, what is included and the homestay rules.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất hai cụm hỏi của bài", "words": ["I'd like to book", "How much does", "Is breakfast included", "Do we have to"] },
+        { "kind": "example", "vi": "Nêu rõ ngày ở và số người", "words": [] }
+      ],
+      "opener": "Good morning, Hoa's Homestay. How can I help you?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Sure. For how many people and which dates?",
+        "We have a family room in the loft. It's 800,000 dong a night. Anything else?",
+        "Breakfast is included. Guests must take off their shoes inside the house. Shall I book it for you?"
+      ],
+      "tipsVi": ["Mở đầu: \"I'd like to book a room for...\"", "Hỏi quy định: \"Do we have to...?\""],
+      "keywords": ["book", "homestay", "included", "must", "how much"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Mua vé vào bảo tàng cho gia đình",
+      "contextVi": "Em cùng bố mẹ và em gái 5 tuổi đến một bảo tàng ở Hà Nội. Em xếp hàng mua vé và hỏi thông tin cho cả nhà.",
+      "aiRole": "a ticket seller at a museum in Ha Noi",
+      "studentRoleVi": "Học sinh mua vé cho gia đình",
+      "goalVi": "Mua vé cho gia đình, hỏi giá vé, giờ đóng cửa và những quy định khách phải theo.",
+      "goal": "Buy tickets for your family, ask about prices, closing time and the rules visitors must follow.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["entrance ticket", "have to", "must", "don't have to"] },
+        { "kind": "example", "vi": "Hỏi ít nhất một quy định cụ thể (chụp ảnh, gửi túi)", "words": [] }
+      ],
+      "opener": "Hello! How many tickets would you like?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Adults are 40,000 dong. Children under six don't have to pay. Anything else?",
+        "We close at five o'clock, so you have about three hours.",
+        "Yes, you have to leave big bags at the counter, and you mustn't use the flash. Enjoy your visit!"
+      ],
+      "tipsVi": ["Nói rõ: \"Two adult tickets and one student ticket, please.\"", "Hỏi: \"Do we have to leave our bags here?\""],
+      "keywords": ["entrance ticket", "how much", "have to", "close", "photos"]
     }
   ]
 }

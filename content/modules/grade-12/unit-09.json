@@ -27,7 +27,17 @@
     { "id": "v19", "en": "fascinating", "vi": "cực kì thú vị và hấp dẫn", "ipa": "/ˈfæsɪneɪtɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "I find the work of a marine scientist fascinating.", "collocations": ["a fascinating job"], "synonyms": ["very interesting"], "antonyms": ["boring"], "src": { "kind": "sgk", "page": 154 } },
     { "id": "v20", "en": "position", "vi": "vị trí việc làm", "ipa": "/pəˈzɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "She applied for the position of assistant teacher.", "collocations": ["apply for a position"], "synonyms": ["job", "post"], "antonyms": [], "src": { "kind": "sgk", "page": 154 } },
     { "id": "v21", "en": "specialty", "vi": "chuyên ngành", "ipa": "/ˈspeʃəlti/", "ipaFrom": "glossary", "pos": "n", "example": "My cousin's specialty at university is computer science.", "collocations": ["choose a specialty"], "synonyms": ["major"], "antonyms": [], "src": { "kind": "sgk", "page": 154 } },
-    { "id": "v22", "en": "tutor", "vi": "gia sư, giáo viên dạy kèm nhóm học sinh", "ipa": "/ˈtjuːtə/", "ipaFrom": "glossary", "pos": "n", "example": "My older sister works as a maths tutor at weekends.", "collocations": ["a private tutor", "work as a tutor"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 154 } }
+    { "id": "v22", "en": "tutor", "vi": "gia sư, giáo viên dạy kèm nhóm học sinh", "ipa": "/ˈtjuːtə/", "ipaFrom": "glossary", "pos": "n", "example": "My older sister works as a maths tutor at weekends.", "collocations": ["a private tutor", "work as a tutor"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 154 } },
+    { "id": "v23", "en": "childminder", "vi": "người trông trẻ", "ipa": "/ˈtʃaɪldmaɪndə/", "ipaFrom": "glossary", "pos": "n", "example": "My aunt works as a childminder and looks after three young children.", "collocations": ["work as a childminder"], "synonyms": ["babysitter"], "antonyms": [], "src": { "kind": "sgk", "page": 154 } },
+    { "id": "v24", "en": "career adviser", "vi": "chuyên viên tư vấn hướng nghiệp", "ipa": "/kəˈrɪər ədˌvaɪzə/", "ipaFrom": "dictionary", "pos": "n", "example": "The career adviser helped me choose a suitable university course.", "collocations": ["talk to a career adviser"], "synonyms": ["career counsellor"], "antonyms": [], "src": { "kind": "sgk", "page": 116 } },
+    { "id": "v25", "en": "job market", "vi": "thị trường việc làm", "ipa": "/ˈdʒɒb ˌmɑːkɪt/", "ipaFrom": "dictionary", "pos": "n", "example": "The job market is changing fast because of new technology.", "collocations": ["the job market", "a competitive job market"], "synonyms": ["labour market"], "antonyms": [], "src": { "kind": "sgk", "page": 116 } },
+    { "id": "v26", "en": "degree", "vi": "bằng (đại học)", "ipa": "/dɪˈɡriː/", "ipaFrom": "dictionary", "pos": "n", "example": "You need a university degree to become a doctor.", "collocations": ["a university degree", "get a degree"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 116 } },
+    { "id": "v27", "en": "employer", "vi": "nhà tuyển dụng, chủ lao động", "ipa": "/ɪmˈplɔɪə/", "ipaFrom": "dictionary", "pos": "n", "example": "Many employers value soft skills as much as good marks.", "collocations": ["future employers", "a good employer"], "synonyms": ["boss"], "antonyms": ["employee"], "src": { "kind": "sgk", "page": 116 } },
+    { "id": "v28", "en": "school-leaver", "vi": "học sinh vừa học xong phổ thông", "ipa": "/ˈskuːl liːvə/", "ipaFrom": "dictionary", "pos": "n", "example": "Some companies hire school-leavers and train them on the job.", "collocations": ["school-leavers' career plans"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 116 } },
+    { "id": "v29", "en": "qualification", "vi": "bằng cấp, chứng chỉ", "ipa": "/ˌkwɒlɪfɪˈkeɪʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "You need special qualifications to work as a pharmacist.", "collocations": ["formal qualifications", "get a qualification"], "synonyms": ["certificate"], "antonyms": [], "src": { "kind": "sgk", "page": 120 } },
+    { "id": "v30", "en": "barista", "vi": "nhân viên pha chế cà phê", "ipa": "/bəˈrɪstə/", "ipaFrom": "dictionary", "pos": "n", "example": "My brother works as a barista at weekends to earn some money.", "collocations": ["work as a barista"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 120 } },
+    { "id": "v31", "en": "personality", "vi": "tính cách", "ipa": "/ˌpɜːsəˈnæləti/", "ipaFrom": "dictionary", "pos": "n", "example": "An outgoing personality is useful for jobs in sales.", "collocations": ["personality type", "a strong personality"], "synonyms": ["character"], "antonyms": [], "src": { "kind": "sgk", "page": 120 } },
+    { "id": "v32", "en": "hire", "vi": "thuê, tuyển dụng", "ipa": "/ˈhaɪə/", "ipaFrom": "dictionary", "pos": "v", "example": "The restaurant is hiring young people for the summer.", "collocations": ["hire staff", "be hired as"], "synonyms": ["employ", "recruit"], "antonyms": ["dismiss"], "src": { "kind": "sgk", "page": 116 } }
   ],
   "grammar": [
     {
@@ -133,6 +143,19 @@
       "sentence": "Sorry, I'm confused. Could you explain that again?",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "sound",
+      "focus": "Phân biệt /ʃ/ và /tʃ/",
+      "tipVi": "/ʃ/ (như sh trong she): môi tròn, đẩy hơi liên tục, lưỡi không chạm lợi — passion, position, qualification, social, chef. /tʃ/ (như ch trong choose): lưỡi chạm lợi rồi bật ra — choose, teacher, change. Ghi nhớ: -tion, -ssion, -cial thường đọc /ʃ/; chef đọc /ʃ/ dù viết ch.",
+      "words": ["passion", "position", "qualification", "social", "chef", "choose", "teacher", "change"],
+      "sentence": "The chef chose this position because cooking is his passion.",
+      "quiz": [
+        { "prompt": "Which word has the sound /tʃ/?", "options": ["teacher", "passion", "chef"], "answer": 0, "explainVi": "teacher có âm /tʃ/; passion và chef đều có âm /ʃ/." },
+        { "prompt": "Which word has the sound /ʃ/?", "options": ["position", "choose", "change"], "answer": 0, "explainVi": "-tion trong position đọc /ʃ/; choose và change bắt đầu bằng /tʃ/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -146,7 +169,13 @@
     { "id": "e08", "en": "To put it another way, ...", "vi": "Nói một cách khác, ...", "useVi": "Khi diễn đạt lại ý theo cách khác.", "example": "To put it another way, employers want people who can work in teams.", "src": { "kind": "sgk", "page": 125 } },
     { "id": "e09", "en": "What I mean is ...", "vi": "Ý mình là ...", "useVi": "Khi muốn nói rõ ý của chính mình.", "example": "What I mean is that you should choose a job you enjoy.", "src": { "kind": "sgk", "page": 125 } },
     { "id": "e10", "en": "I'm interested in ... because ...", "vi": "Mình quan tâm đến ... vì ...", "useVi": "Khi nói về nghề mình thích và lý do.", "example": "I'm interested in nursing because I like helping people.", "src": { "kind": "team", "page": null } },
-    { "id": "e11", "en": "The most important thing for me is ...", "vi": "Điều quan trọng nhất với mình là ...", "useVi": "Khi nói tiêu chí chính khi chọn nghề.", "example": "The most important thing for me is to enjoy my work.", "src": { "kind": "team", "page": null } }
+    { "id": "e11", "en": "The most important thing for me is ...", "vi": "Điều quan trọng nhất với mình là ...", "useVi": "Khi nói tiêu chí chính khi chọn nghề.", "example": "The most important thing for me is to enjoy my work.", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "I'm thinking of becoming a ...", "vi": "Mình đang tính trở thành ...", "useVi": "Khi nói về dự định nghề nghiệp chưa chắc chắn.", "example": "I'm thinking of becoming a pharmacist.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "What qualifications do I need to ...?", "vi": "Tôi cần bằng cấp gì để ...?", "useVi": "Khi hỏi về yêu cầu của một nghề.", "example": "What qualifications do I need to work as a tour guide?", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "My main strength is ...", "vi": "Điểm mạnh chính của tôi là ...", "useVi": "Khi giới thiệu năng lực nổi bật của bản thân.", "example": "My main strength is that I get on with people easily.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "Before choosing a career, you should consider ...", "vi": "Trước khi chọn nghề, bạn nên cân nhắc ...", "useVi": "Khi khuyên người khác những điều cần nghĩ tới.", "example": "Before choosing a career, you should consider your interests and skills.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "It depends on ...", "vi": "Còn tuỳ vào ...", "useVi": "Khi câu trả lời không tuyệt đối mà phụ thuộc điều kiện.", "example": "Do you need a degree? It depends on the job you want.", "src": { "kind": "team", "page": null } },
+    { "id": "e17", "en": "I'd rather ... than ...", "vi": "Mình thà ... còn hơn ...", "useVi": "Khi nói mình thích lựa chọn này hơn lựa chọn kia.", "example": "I'd rather do a job I love than a job that only pays well.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["I'm looking forward to", "starting", "my first job", "after university"], "vi": "Mình rất mong được bắt đầu công việc đầu tiên sau khi học đại học.", "grammarId": "g01" },
@@ -156,7 +185,9 @@
     { "id": "b05", "chunks": ["My sister", "has always", "gone in for", "music and art"], "vi": "Chị mình luôn đam mê âm nhạc và hội hoạ.", "grammarId": "g01" },
     { "id": "b06", "chunks": ["Soft skills", "such as teamwork", "are in demand", "in every job"], "vi": "Kỹ năng mềm như làm việc nhóm được cần đến trong mọi nghề.", "grammarId": null },
     { "id": "b07", "chunks": ["He tried hard", "to live up to", "his parents'", "expectations"], "vi": "Anh ấy đã cố gắng đáp ứng kỳ vọng của bố mẹ.", "grammarId": "g01" },
-    { "id": "b08", "chunks": ["I'm interested in", "becoming", "a software developer", "because I love coding"], "vi": "Mình muốn trở thành lập trình viên vì mình thích viết mã.", "grammarId": "g03" }
+    { "id": "b08", "chunks": ["I'm interested in", "becoming", "a software developer", "because I love coding"], "vi": "Mình muốn trở thành lập trình viên vì mình thích viết mã.", "grammarId": "g03" },
+    { "id": "b09", "chunks": ["Nobody should", "look down on", "manual workers"], "vi": "Không ai nên coi thường người lao động chân tay.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["You need to", "keep up with", "changes", "in the job market"], "vi": "Bạn cần theo kịp những thay đổi của thị trường việc làm.", "grammarId": "g01" }
   ],
   "expand": [
     {
@@ -194,6 +225,25 @@
         { "askVi": "Vì sao?", "ask": "Why?", "add": "because people need to work together" }
       ],
       "full": "Teamwork is important for every job because people need to work together."
+    },
+    {
+      "id": "x05",
+      "base": "I want to pursue a career.",
+      "steps": [
+        { "askVi": "Ngành nào?", "ask": "In what?", "add": "in graphic design" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because I'm passionate about art" },
+        { "askVi": "Em cần làm gì?", "ask": "What do you need to do?", "add": "so I need to build a strong portfolio" }
+      ],
+      "full": "I want to pursue a career in graphic design because I'm passionate about art, so I need to build a strong portfolio."
+    },
+    {
+      "id": "x06",
+      "base": "Some jobs are in demand.",
+      "steps": [
+        { "askVi": "Nghề nào?", "ask": "Which jobs?", "add": "such as nursing and software development" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because of the ageing population and new technology" }
+      ],
+      "full": "Some jobs such as nursing and software development are in demand because of the ageing population and new technology."
     }
   ],
   "variations": [
@@ -255,6 +305,45 @@
       ],
       "keywords": ["in demand", "automate", "obsolete", "technology"],
       "exampleAnswer": "Jobs in IT and health care will be in demand, because machines can't replace people who create software or care for patients.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Học đại học hay học nghề",
+      "questions": [
+        "Is it better to go to university or to a vocational school? Why?",
+        "Does everyone need a university degree to have a good career?",
+        "What are the advantages of learning a trade instead of going to university?",
+        "Why do some school-leavers choose vocational training?"
+      ],
+      "keywords": ["degree", "vocational", "on-the-job training", "in demand"],
+      "exampleAnswer": "Not everyone needs a degree. Vocational training is shorter and cheaper, and skilled workers like electricians are always in demand.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Một nghề ít người biết mà em thấy thú vị",
+      "questions": [
+        "What is an unusual job that you find interesting?",
+        "Which uncommon career would you like to learn more about?",
+        "Tell me about a job that most people don't know much about.",
+        "Is there a less popular job that seems fascinating to you? Why?"
+      ],
+      "keywords": ["fascinating", "unusual", "passionate about", "because"],
+      "exampleAnswer": "I find being a food stylist fascinating. They make food look beautiful for photos, so you need to be creative and passionate about cooking.",
+      "expectsReason": true
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Chọn nghề theo đam mê hay theo thu nhập",
+      "questions": [
+        "Should you choose a job you love or a job that pays well?",
+        "Is passion more important than salary when choosing a career?",
+        "Would you take a well-paid job that you found boring? Why or why not?",
+        "How can people balance their passion and the need to earn money?"
+      ],
+      "keywords": ["passion", "salary", "pursue", "live up to"],
+      "exampleAnswer": "I'd choose a job I love, because I'll spend most of my life working. If I'm passionate about it, I'll work harder and probably earn enough.",
       "expectsReason": true
     }
   ],
@@ -368,6 +457,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["automate", "adapt", "soft skills", "because"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Gặp cô tư vấn hướng nghiệp",
+      "contextVi": "Em gặp cô tư vấn hướng nghiệp của trường để hỏi về một nghề em quan tâm. Cô dùng vài từ chuyên môn mà em chưa hiểu.",
+      "aiRole": "Ms Linh, the school career adviser",
+      "studentRoleVi": "Học sinh hỏi về nghề nghiệp",
+      "goalVi": "Nói nghề em quan tâm, hỏi về bằng cấp hoặc kỹ năng cần có và nhờ cô giải thích rõ ít nhất một điều.",
+      "goal": "Tell her the career you are interested in, ask about the qualifications or skills you need, and ask her to clarify at least one thing.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một câu xin giải thích", "words": ["What do you mean by", "Could you be more specific", "Can you clarify"] },
+        { "kind": "example", "vi": "Hỏi ít nhất một câu về bằng cấp hoặc kỹ năng cần có", "words": [] }
+      ],
+      "opener": "Hello! Come in. Which career are you interested in?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Good choice. You'll need a degree, and an internship would also help.",
+        "An internship is a short period of work at a company while you are still studying. Does that make sense?",
+        "You're welcome. Is there anything else you'd like to know?"
+      ],
+      "tipsVi": ["Xin giải thích: What do you mean by ...? / Could you be more specific?", "Hỏi về bằng cấp: What qualifications do I need?"],
+      "keywords": ["qualification", "degree", "What do you mean by", "career", "work experience"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Giúp bạn viết CV đầu tiên",
+      "contextVi": "Bảo, bạn cùng lớp của em, muốn xin làm thêm ở một quán cà phê dịp hè nhưng chưa biết viết CV thế nào. Em giúp bạn.",
+      "aiRole": "Bao, your classmate who is writing his first CV",
+      "studentRoleVi": "Bạn cùng lớp góp ý viết CV",
+      "goalVi": "Giúp Bảo liệt kê kỹ năng, kinh nghiệm và phẩm chất, đưa ít nhất hai lời khuyên cho CV.",
+      "goal": "Help Bao list his skills, experience and personal qualities, and give at least two pieces of advice for his CV.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ít nhất hai lời khuyên cho CV", "words": [] },
+        { "kind": "example", "vi": "Gợi ý ít nhất một kỹ năng mềm kèm ví dụ chứng minh", "words": [] }
+      ],
+      "opener": "I want to apply for a job as a barista, but I have no idea what to write in my CV. Can you help?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "OK, but I have no work experience at all. What should I write?",
+        "Hmm, I helped at my aunt's shop last summer. Does that count?",
+        "Thanks! Should I write about my hobbies too?"
+      ],
+      "tipsVi": ["Khuyên: You should include ... / Don't forget to mention ...", "Dùng cụm: get on with people, put up with pressure."],
+      "keywords": ["CV", "soft skills", "work experience", "get on with", "barista"]
     }
   ]
 }

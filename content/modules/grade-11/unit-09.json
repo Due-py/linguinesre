@@ -27,7 +27,16 @@
     { "id": "v19", "en": "crime", "vi": "tội phạm", "ipa": "/kraɪm/", "ipaFrom": "glossary", "pos": "n", "example": "The police are working hard to reduce crime in the city.", "collocations": ["reduce crime", "commit a crime"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
     { "id": "v20", "en": "overpopulation", "vi": "sự quá tải dân số", "ipa": "/ˌəʊvəˌpɒpjuˈleɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "Overpopulation causes traffic jams in big cities.", "collocations": ["the problem of overpopulation"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
     { "id": "v21", "en": "struggle", "vi": "đấu tranh", "ipa": "/ˈstrʌɡl/", "ipaFrom": "glossary", "pos": "v", "example": "Many teens struggle with stress before exams.", "collocations": ["struggle with", "struggle to"], "synonyms": ["fight"], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
-    { "id": "v22", "en": "admit", "vi": "thú nhận", "ipa": "/ədˈmɪt/", "ipaFrom": "glossary", "pos": "v", "example": "He admitted that he had posted the unkind comment.", "collocations": ["admit a mistake", "admit doing something"], "synonyms": ["confess"], "antonyms": ["deny"], "src": { "kind": "sgk", "page": 130 } }
+    { "id": "v22", "en": "admit", "vi": "thú nhận", "ipa": "/ədˈmɪt/", "ipaFrom": "glossary", "pos": "v", "example": "He admitted that he had posted the unkind comment.", "collocations": ["admit a mistake", "admit doing something"], "synonyms": ["confess"], "antonyms": ["deny"], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v23", "en": "alcohol", "vi": "đồ uống có cồn (rượu, bia...)", "ipa": "/ˈælkəhɒl/", "ipaFrom": "glossary", "pos": "n", "example": "Teenagers under 18 are not allowed to buy alcohol.", "collocations": ["drink alcohol"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v24", "en": "hang out", "vi": "đi chơi", "ipa": "/ˌhæŋ ˈaʊt/", "ipaFrom": "glossary", "pos": "phr v", "example": "I usually hang out with my friends in the park after school.", "collocations": ["hang out with friends"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v25", "en": "lie", "vi": "lời nói dối", "ipa": "/laɪ/", "ipaFrom": "glossary", "pos": "n", "example": "He told his parents a lie because he was afraid.", "collocations": ["tell a lie"], "synonyms": [], "antonyms": ["truth"], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v26", "en": "obey", "vi": "tuân thủ, vâng lời", "ipa": "/əˈbeɪ/", "ipaFrom": "glossary", "pos": "v", "example": "All students must obey the school rules.", "collocations": ["obey the rules", "obey the law"], "synonyms": ["follow"], "antonyms": ["disobey"], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v27", "en": "physical", "vi": "(thuộc) thể chất", "ipa": "/ˈfɪzɪkl/", "ipaFrom": "glossary", "pos": "adj", "example": "Bullying can be physical, like hitting, or verbal, like calling someone names.", "collocations": ["physical bullying", "physical health"], "synonyms": [], "antonyms": ["mental"], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v28", "en": "skip", "vi": "trốn, bỏ (học, bữa ăn)", "ipa": "/skɪp/", "ipaFrom": "glossary", "pos": "v", "example": "Some students skip classes because of peer pressure.", "collocations": ["skip classes", "skip school"], "synonyms": ["miss"], "antonyms": ["attend"], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v29", "en": "the poverty line", "vi": "mức nghèo đói", "ipa": "/ðə ˈpɒvəti ˌlaɪn/", "ipaFrom": "glossary", "pos": "np", "example": "Many families living below the poverty line cannot pay for their children's school.", "collocations": ["below the poverty line", "above the poverty line"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v30", "en": "social issue", "vi": "vấn đề xã hội", "ipa": "/ˌsəʊʃl ˈɪʃuː/", "ipaFrom": "dictionary", "pos": "np", "example": "Bullying is a serious social issue in many schools.", "collocations": ["a pressing social issue", "discuss social issues"], "synonyms": ["social problem"], "antonyms": [], "src": { "kind": "sgk", "page": 100 } },
+    { "id": "v31", "en": "draw attention to", "vi": "thu hút sự chú ý tới", "ipa": "/ˌdrɔː əˈtenʃn tə/", "ipaFrom": "dictionary", "pos": "phr", "example": "Our poster aims to draw attention to cyberbullying.", "collocations": [], "synonyms": ["highlight"], "antonyms": [], "src": { "kind": "sgk", "page": 100 } }
   ],
   "grammar": [
     {
@@ -104,6 +113,31 @@
         { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["anxiety", "offensive", "verbal"], "answer": 2, "explainVi": "verbal /ˈvɜːbəl/ nhấn âm đầu; anxiety và offensive nhấn âm thứ hai." }
       ],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p03",
+      "kind": "sentence_stress",
+      "focus": "Nhấn mạnh từ mang cảm xúc khi cảm thông",
+      "tipVi": "Khi bày tỏ sự cảm thông, nhấn mạnh và kéo dài các từ mang cảm xúc như so, sorry, pity, shame, bad: I'm SO SORRY to hear that. What a PITY! Các từ chức năng (I'm, to, a, that) đọc nhẹ.",
+      "words": ["so", "sorry", "pity", "shame", "too bad"],
+      "sentence": "I'm so sorry to hear that. What a pity!",
+      "quiz": [
+        { "prompt": "In \"That's too bad.\", which word gets the strongest stress?", "options": ["bad", "that's"], "answer": 0, "explainVi": "Từ mang cảm xúc bad được nhấn mạnh nhất; That's là từ chức năng nên đọc nhẹ." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "sound",
+      "focus": "Âm /ʃ/ và /s/",
+      "tipVi": "/ʃ/ phát âm với môi tròn và đưa ra trước, luồng hơi rộng hơn /s/ (môi dẹt). /ʃ/ có thể viết là sh, ss, ci, ti hoặc s: shaming, pressure, social, depression, issue.",
+      "words": ["shaming", "ashamed", "pressure", "social", "depression", "issue"],
+      "sentence": "Body shaming can make people feel ashamed and lead to depression.",
+      "quiz": [
+        { "prompt": "Which word has the sound /ʃ/?", "options": ["pressure", "press", "stress"], "answer": 0, "explainVi": "pressure /ˈpreʃə/ có âm /ʃ/; press /pres/ và stress /stres/ có âm /s/." },
+        { "prompt": "Which letters make the /ʃ/ sound in \"social\"?", "options": ["ci", "so", "al"], "answer": 0, "explainVi": "Trong social /ˈsəʊʃl/, cụm ci đọc là /ʃ/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -117,7 +151,12 @@
     { "id": "e08", "en": "No way!", "vi": "Không đời nào!", "useVi": "Khi từ chối thẳng một lời rủ rê làm việc sai.", "example": "Skip the test? No way! I'm going to take it.", "src": { "kind": "sgk", "page": 105 } },
     { "id": "e09", "en": "I'd rather not, thanks.", "vi": "Thôi, mình không làm đâu, cảm ơn.", "useVi": "Khi từ chối lịch sự, nhẹ nhàng.", "example": "Join the prank? I'd rather not, thanks.", "src": { "kind": "team", "page": null } },
     { "id": "e10", "en": "That's not funny. Please stop.", "vi": "Không vui đâu. Dừng lại đi.", "useVi": "Khi muốn ai đó ngừng trêu chọc người khác.", "example": "That's not funny. Please stop making fun of her.", "src": { "kind": "team", "page": null } },
-    { "id": "e11", "en": "In my opinion, ...", "vi": "Theo mình, ...", "useVi": "Khi nêu ý kiến riêng về một vấn đề xã hội.", "example": "In my opinion, cyberbullying is a serious problem.", "src": { "kind": "team", "page": null } }
+    { "id": "e11", "en": "In my opinion, ...", "vi": "Theo mình, ...", "useVi": "Khi nêu ý kiến riêng về một vấn đề xã hội.", "example": "In my opinion, cyberbullying is a serious problem.", "src": { "kind": "team", "page": null } },
+    { "id": "e12", "en": "Don't worry. Things will get better.", "vi": "Đừng lo, mọi chuyện sẽ ổn hơn thôi.", "useVi": "Khi động viên người đang buồn hoặc gặp khó khăn.", "example": "I know you're upset about the test. Don't worry. Things will get better.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "Should we focus on ... or ...?", "vi": "Chúng ta nên tập trung vào ... hay ...?", "useVi": "Khi đưa ra lựa chọn để cả nhóm quyết định (câu hỏi lựa chọn).", "example": "Should we focus on bullying or body shaming for our campaign?", "src": { "kind": "team", "page": null } },
+    { "id": "e14", "en": "No, thanks. I don't want to.", "vi": "Không, cảm ơn. Mình không muốn.", "useVi": "Khi từ chối lời rủ rê một cách dứt khoát.", "example": "Come on, everyone is trying it! – No, thanks. I don't want to.", "src": { "kind": "team", "page": null } },
+    { "id": "e15", "en": "You should talk to ... about it.", "vi": "Bạn nên nói chuyện với ... về chuyện này.", "useVi": "Khi khuyên người gặp chuyện, ví dụ bị bắt nạt, tìm sự giúp đỡ.", "example": "If they keep sending you mean messages, you should talk to our form teacher about it.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "What's more, ...", "vi": "Hơn nữa, ...", "useVi": "Khi thêm một ý để lập luận mạnh hơn.", "example": "Cyberbullying hurts people's feelings. What's more, it can lead to depression.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["Although it was hard", "she stood up to", "the bullies", "in her class"], "vi": "Dù rất khó, bạn ấy đã đứng lên chống lại những kẻ bắt nạt trong lớp.", "grammarId": "g01" },
@@ -127,7 +166,9 @@
     { "id": "b05", "chunks": ["In spite of", "the bad weather", "many students joined", "the campaign"], "vi": "Dù thời tiết xấu, nhiều học sinh vẫn tham gia chiến dịch.", "grammarId": "g01" },
     { "id": "b06", "chunks": ["Poverty is a serious problem.", "Therefore,", "we should help", "poor families"], "vi": "Nghèo đói là vấn đề nghiêm trọng. Vì vậy, chúng ta nên giúp các gia đình nghèo.", "grammarId": "g02" },
     { "id": "b07", "chunks": ["It isn't kind", "to make fun of", "someone's appearance"], "vi": "Chế giễu ngoại hình của người khác là không tử tế.", "grammarId": null },
-    { "id": "b08", "chunks": ["Social media is useful.", "However,", "it can also cause", "anxiety"], "vi": "Mạng xã hội hữu ích. Tuy nhiên, nó cũng có thể gây ra lo âu.", "grammarId": "g01" }
+    { "id": "b08", "chunks": ["Social media is useful.", "However,", "it can also cause", "anxiety"], "vi": "Mạng xã hội hữu ích. Tuy nhiên, nó cũng có thể gây ra lo âu.", "grammarId": "g01" },
+    { "id": "b09", "chunks": ["Many families", "live below", "the poverty line,", "so", "their children", "can't go to school"], "vi": "Nhiều gia đình sống dưới mức nghèo đói, vì vậy con cái họ không thể đi học.", "grammarId": "g02" },
+    { "id": "b10", "chunks": ["Body shaming", "is hurtful;", "however,", "many people", "still do it online"], "vi": "Chế nhạo ngoại hình gây tổn thương; tuy nhiên, nhiều người vẫn làm vậy trên mạng.", "grammarId": "g01" }
   ],
   "expand": [
     {
@@ -166,6 +207,25 @@
         { "askVi": "Vì sao?", "ask": "Why?", "add": "because the victim needs help" }
       ],
       "full": "I would tell a teacher if I saw someone being bullied because the victim needs help."
+    },
+    {
+      "id": "x05",
+      "base": "She skipped school.",
+      "steps": [
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because of peer pressure" },
+        { "askVi": "Kết quả là gì?", "ask": "What happened then?", "add": "so she missed an important test" }
+      ],
+      "full": "She skipped school because of peer pressure, so she missed an important test."
+    },
+    {
+      "id": "x06",
+      "base": "Our club made posters.",
+      "steps": [
+        { "askVi": "Về vấn đề gì?", "ask": "About what?", "add": "about cyberbullying" },
+        { "askVi": "Cho đâu?", "ask": "For where?", "add": "for every classroom" },
+        { "askVi": "Để làm gì?", "ask": "What for?", "add": "to raise awareness among students" }
+      ],
+      "full": "Our club made posters about cyberbullying for every classroom to raise awareness among students."
     }
   ],
   "variations": [
@@ -227,6 +287,45 @@
       ],
       "keywords": ["crime", "traffic", "poverty", "as a result"],
       "exampleAnswer": "I think traffic is the biggest problem. There are too many motorbikes. As a result, the air is dirty and people are often late.",
+      "expectsReason": false
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Áp lực học tập và sự lo âu của tuổi teen",
+      "questions": [
+        "Do teenagers today feel a lot of pressure from school? Why?",
+        "What makes students feel stressed or anxious?",
+        "How does exam pressure affect teenagers?",
+        "Why do so many students suffer from anxiety before exams?"
+      ],
+      "keywords": ["anxiety", "depression", "pressure", "because"],
+      "exampleAnswer": "Yes. Many students feel anxious because they have too many tests and their parents expect high marks. Therefore, some of them can't sleep well.",
+      "expectsReason": true
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Đối phó với bắt nạt trên mạng",
+      "questions": [
+        "What can you do if someone posts offensive comments about you online?",
+        "How should students respond to cyberbullying?",
+        "What advice would you give to a victim of cyberbullying?",
+        "How can we stop cyberbullying among teenagers?"
+      ],
+      "keywords": ["cyberbullying", "offensive", "victim", "stand up to"],
+      "exampleAnswer": "First, don't reply to the bully. Take screenshots, tell a teacher or your parents, and block the person so they can't contact you again.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Nói \"không\" với áp lực bạn bè",
+      "questions": [
+        "How can you say no when your friends want you to do something wrong?",
+        "What would you do if your friends asked you to skip class?",
+        "How do you refuse when friends offer you alcohol or cigarettes?",
+        "What is the best way to deal with negative peer pressure?"
+      ],
+      "keywords": ["peer pressure", "skip", "say no", "the odd one out"],
+      "exampleAnswer": "I would say, \"No, thanks. I don't want to,\" and explain why. I'm not afraid to be the odd one out because real friends respect my choices.",
       "expectsReason": false
     }
   ],
@@ -340,6 +439,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["sorry to hear", "offensive", "tell an adult", "because", "support"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Giới thiệu chiến dịch quyên góp",
+      "contextVi": "Câu lạc bộ của em tổ chức quyên góp sách vở và quần áo ấm cho học sinh ở một xã vùng núi nghèo. Một bạn mới vào câu lạc bộ hỏi em về kế hoạch.",
+      "aiRole": "Lan, a new member of the social awareness club",
+      "studentRoleVi": "Thành viên câu lạc bộ giới thiệu chiến dịch",
+      "goalVi": "Giải thích chiến dịch: quyên góp gì, cho ai, khi nào, và vì sao việc này quan trọng.",
+      "goal": "Explain the donation campaign: what you collect, who it is for, when it happens, and why it matters.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu vì sao chiến dịch quan trọng", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["poverty", "campaign", "awareness", "the poverty line", "struggle"] }
+      ],
+      "opener": "Hi! I've just joined the club. I heard we're starting a new campaign. What is it about?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "That sounds great. Who will receive the things we collect?",
+        "Why do you think this campaign is important?",
+        "I'd love to help. What can I do first?"
+      ],
+      "tipsVi": ["Dùng từ nối: and, also, because, so.", "Kể một ví dụ về khó khăn của trẻ em vùng nghèo."],
+      "keywords": ["campaign", "poverty", "donate", "because", "so"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Cấm điện thoại để chống bắt nạt mạng?",
+      "contextVi": "Trường em đang bàn việc cấm học sinh dùng điện thoại suốt cả ngày học để hạn chế bắt nạt trên mạng. Em thấy cấm hoàn toàn chưa hợp lý, còn bạn em thì ủng hộ.",
+      "aiRole": "Vy, a classmate who supports a total phone ban",
+      "studentRoleVi": "Bạn cùng lớp có ý kiến khác về việc cấm điện thoại",
+      "goalVi": "Nêu ý kiến của em về việc cấm điện thoại, đưa lý do, ví dụ, và đề xuất một giải pháp khác chống bắt nạt trên mạng.",
+      "goal": "Give your opinion on banning phones at school, support it with reasons and an example, and suggest another way to stop cyberbullying.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu ít nhất hai lý do, dùng từ nối (however, therefore...)", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất một giải pháp khác", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["cyberbullying", "victim", "offensive", "awareness", "stand up to"] }
+      ],
+      "opener": "I think our school should ban phones completely. No phones, no cyberbullying. Simple, right?",
+      "stance": "Students can't control themselves online. A total ban is the only way to protect victims of cyberbullying.",
+      "turns": 5,
+      "fallback": [
+        "Why don't you agree? Phones cause so many problems.",
+        "But students can't control themselves online. A total ban is the only way to protect victims.",
+        "Hmm. So what should the school do instead?",
+        "That's a fair idea. Let's suggest it to the student council together."
+      ],
+      "tipsVi": ["Dùng từ nối: However, ...; Therefore, ...; In addition, ...", "Khi Vy phản đối: \"I see your point. However, ...\""],
+      "keywords": ["cyberbullying", "however", "therefore", "victim", "awareness"]
     }
   ]
 }

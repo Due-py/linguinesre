@@ -6,7 +6,8 @@ import AppShell, { TEACHER_NAV } from "@/components/AppShell";
 import { SubmitButton } from "@/components/form";
 import KnowledgeBank from "@/components/module/KnowledgeBank";
 import { requireRole } from "@/lib/auth";
-import { getModule } from "@/lib/module/server";
+import { getModule, itemReviews } from "@/lib/module/server";
+import { itemStatus, moduleItems, reviewCounts } from "@/lib/module/items";
 import { approveModule } from "../actions";
 
 export const metadata: Metadata = { title: "Duyệt module" };
@@ -25,6 +26,10 @@ export default async function TeacherModulePage({ params, searchParams }: { para
   const sgk = [...m.vocab, ...m.grammar, ...m.pronunciation, ...m.expressions].filter((x) => x.src.kind === "sgk").length;
   const total = m.vocab.length + m.grammar.length + m.pronunciation.length + m.expressions.length;
   const pairs = [...new Set(m.independent.map((q) => q.pair))].sort();
+  const items = moduleItems(m);
+  const { reviews } = await itemReviews(mod.id);
+  const counts = reviewCounts(items, reviews);
+  const approvedRefs = new Set(items.filter((x) => itemStatus(x, reviews.get(x.ref)) === "approved").map((x) => x.ref));
 
   return (
     <AppShell name={profile.displayName ?? ""} roleLabel="Giáo viên" homeHref="/teacher" nav={TEACHER_NAV} current="/teacher/modules">
@@ -57,6 +62,13 @@ export default async function TeacherModulePage({ params, searchParams }: { para
             Cần ghi tên người duyệt và đánh dấu đã đọc kỹ.
           </p>
         )}
+
+        <Link href={`/teacher/modules/${mod.id}/tung-muc`} className="option-card grid gap-1 px-5 py-4">
+          <span className="text-lg font-extrabold">Duyệt từng mục →</span>
+          <span className="text-muted">
+            Đã duyệt {counts.approved}/{counts.total} mục · cần sửa {counts.needs_fix} · cần duyệt lại {counts.stale}
+          </span>
+        </Link>
 
         <section className="grid gap-4 rounded-2xl border border-line bg-surface px-6 py-6">
           {mod.status === "teacher_approved" ? (
@@ -98,7 +110,7 @@ export default async function TeacherModulePage({ params, searchParams }: { para
           )}
         </section>
 
-        <KnowledgeBank moduleId={mod.id} m={m} listen={false} />
+        <KnowledgeBank moduleId={mod.id} m={m} listen={false} approved={approvedRefs} />
 
         <section className="grid gap-3">
           <h2 className="text-2xl font-extrabold tracking-tight">Xếp câu và mở rộng câu</h2>

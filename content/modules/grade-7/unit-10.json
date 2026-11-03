@@ -26,7 +26,18 @@
     { "id": "v18", "en": "light bulb", "vi": "bóng đèn", "ipa": "/ˈlaɪt bʌlb/", "ipaFrom": "glossary", "pos": "n", "example": "LED light bulbs use less electricity.", "collocations": ["low energy light bulbs", "change a light bulb"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
     { "id": "v19", "en": "tap", "vi": "vòi", "ipa": "/tæp/", "ipaFrom": "glossary", "pos": "n", "example": "Turn off the tap when you brush your teeth.", "collocations": ["turn off the tap"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
     { "id": "v20", "en": "warm", "vi": "(làm cho) ấm lên, nóng lên", "ipa": "/wɔːm/", "ipaFrom": "glossary", "pos": "v", "example": "We use solar energy to warm water.", "collocations": ["warm water", "warm the house"], "synonyms": ["heat"], "antonyms": ["cool"], "src": { "kind": "sgk", "page": 139 } },
-    { "id": "v21", "en": "overheat", "vi": "làm cho quá nóng", "ipa": "/ˌəʊvəˈhiːt/", "ipaFrom": "glossary", "pos": "v", "example": "Don't leave your laptop on the bed or it will overheat.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } }
+    { "id": "v21", "en": "overheat", "vi": "làm cho quá nóng", "ipa": "/ˌəʊvəˈhiːt/", "ipaFrom": "glossary", "pos": "v", "example": "Don't leave your laptop on the bed or it will overheat.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v22", "en": "overcool", "vi": "làm cho quá lạnh", "ipa": "/ˌəʊvəˈkuːl/", "ipaFrom": "glossary", "pos": "v", "example": "Don't overcool your room; 26 degrees is cool enough.", "collocations": ["overcool a room"], "synonyms": [], "antonyms": ["overheat"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v23", "en": "oil", "vi": "dầu mỏ", "ipa": "/ɔɪl/", "ipaFrom": "dictionary", "pos": "n", "example": "Oil is a non-renewable energy source.", "collocations": ["oil and gas"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 105 } },
+    { "id": "v24", "en": "wind energy", "vi": "năng lượng gió", "ipa": "/ˈwɪnd enədʒi/", "ipaFrom": "dictionary", "pos": "n", "example": "Wind energy is clean and safe to use.", "collocations": ["use wind energy"], "synonyms": ["wind power"], "antonyms": [], "src": { "kind": "sgk", "page": 105 } },
+    { "id": "v25", "en": "run out of", "vi": "dùng hết, cạn kiệt", "ipa": "/rʌn ˈaʊt əv/", "ipaFrom": "dictionary", "pos": "phr v", "example": "One day we will run out of coal and oil.", "collocations": ["run out of energy", "run out of water"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 104 } },
+    { "id": "v26", "en": "power", "vi": "năng lượng, điện năng", "ipa": "/ˈpaʊə/", "ipaFrom": "dictionary", "pos": "n", "example": "Our house gets power from solar panels on the roof.", "collocations": ["solar power", "wind power"], "synonyms": ["energy"], "antonyms": [], "src": { "kind": "sgk", "page": 104 } },
+    { "id": "v27", "en": "pollute", "vi": "làm ô nhiễm", "ipa": "/pəˈluːt/", "ipaFrom": "dictionary", "pos": "v", "example": "Old motorbikes pollute the air in big cities.", "collocations": ["pollute the air", "pollute the environment"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 106 } },
+    { "id": "v28", "en": "advantage", "vi": "ưu điểm, lợi thế", "ipa": "/ədˈvɑːntɪdʒ/", "ipaFrom": "dictionary", "pos": "n", "example": "One advantage of solar energy is that it is clean.", "collocations": ["a big advantage"], "synonyms": [], "antonyms": ["disadvantage"], "src": { "kind": "sgk", "page": 110 } },
+    { "id": "v29", "en": "disadvantage", "vi": "nhược điểm", "ipa": "/ˌdɪsədˈvɑːntɪdʒ/", "ipaFrom": "dictionary", "pos": "n", "example": "A disadvantage of hydro energy is that it is expensive to produce.", "collocations": ["a big disadvantage"], "synonyms": [], "antonyms": ["advantage"], "src": { "kind": "sgk", "page": 110 } },
+    { "id": "v30", "en": "electrical appliance", "vi": "thiết bị điện", "ipa": "/ɪˌlektrɪkl əˈplaɪəns/", "ipaFrom": "dictionary", "pos": "n", "example": "We have many electrical appliances in our kitchen, like a fridge and a rice cooker.", "collocations": ["use electrical appliances"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 111 } },
+    { "id": "v31", "en": "turn off", "vi": "tắt", "ipa": "/ˌtɜːn ˈɒf/", "ipaFrom": "dictionary", "pos": "phr v", "example": "Remember to turn off the fan before you go to bed.", "collocations": ["turn off the lights", "turn off the tap"], "synonyms": [], "antonyms": ["turn on"], "src": { "kind": "sgk", "page": 111 } },
+    { "id": "v32", "en": "cheap", "vi": "rẻ", "ipa": "/tʃiːp/", "ipaFrom": "dictionary", "pos": "adj", "example": "Coal is cheap, but it is bad for the environment.", "collocations": ["cheap and easy to use"], "synonyms": [], "antonyms": ["expensive"], "src": { "kind": "sgk", "page": 104 } }
   ],
   "grammar": [
     {
@@ -124,6 +135,19 @@
       "sentence": "What does \"renewable energy\" mean?",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p05",
+      "kind": "ending",
+      "focus": "Đuôi -ing /ɪŋ/",
+      "tipVi": "Ở thì hiện tại tiếp diễn, động từ có đuôi -ing đọc /ɪŋ/: âm \"i\" ngắn rồi đến âm mũi /ŋ/. Không đọc thành \"in\" và không bật thêm âm /ɡ/ ở cuối.",
+      "words": ["using", "saving", "turning", "producing", "looking", "recycling"],
+      "sentence": "We are saving energy by using solar panels.",
+      "quiz": [
+        { "prompt": "How do you say the ending of \"saving\"?", "options": ["/ɪn/", "/ɪŋ/", "/ɪŋɡ/"], "answer": 1, "explainVi": "Đuôi -ing đọc /ɪŋ/: cuống lưỡi chạm vòm mềm, hơi đi ra mũi, không bật /ɡ/." },
+        { "prompt": "Which word ends with the sound /ɪŋ/?", "options": ["using", "useful", "used"], "answer": 0, "explainVi": "using /ˈjuːzɪŋ/ có đuôi -ing đọc /ɪŋ/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -135,7 +159,14 @@
     { "id": "e06", "en": "One disadvantage is that ...", "vi": "Một nhược điểm là ...", "useVi": "Khi nói điểm chưa tốt.", "example": "One disadvantage is that solar panels are expensive.", "src": { "kind": "team", "page": null } },
     { "id": "e07", "en": "We can save energy by ...", "vi": "Chúng ta có thể tiết kiệm năng lượng bằng cách ...", "useVi": "Khi đưa ra cách tiết kiệm năng lượng.", "example": "We can save energy by using LED light bulbs.", "src": { "kind": "team", "page": null } },
     { "id": "e08", "en": "At the moment, we are ...", "vi": "Hiện giờ, chúng mình đang ...", "useVi": "Khi kể việc gia đình hoặc lớp em đang làm.", "example": "At the moment, we are using fans instead of the air conditioner.", "src": { "kind": "team", "page": null } },
-    { "id": "e09", "en": "I think ... is better because ...", "vi": "Mình nghĩ ... tốt hơn vì ...", "useVi": "Khi so sánh và chọn một nguồn năng lượng.", "example": "I think wind energy is better because it never runs out.", "src": { "kind": "team", "page": null } }
+    { "id": "e09", "en": "I think ... is better because ...", "vi": "Mình nghĩ ... tốt hơn vì ...", "useVi": "Khi so sánh và chọn một nguồn năng lượng.", "example": "I think wind energy is better because it never runs out.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "What are the advantages of ...?", "vi": "... có những ưu điểm gì?", "useVi": "Khi hỏi về mặt tốt của một nguồn năng lượng.", "example": "What are the advantages of wind energy?", "src": { "kind": "sgk", "page": 110 } },
+    { "id": "e11", "en": "What are its disadvantages?", "vi": "Nó có những nhược điểm gì?", "useVi": "Khi hỏi về mặt chưa tốt của một nguồn năng lượng.", "example": "Solar energy is clean. What are its disadvantages?", "src": { "kind": "sgk", "page": 110 } },
+    { "id": "e12", "en": "It's available, clean and safe to use.", "vi": "Nó có sẵn, sạch và an toàn khi sử dụng.", "useVi": "Khi nêu ưu điểm của một nguồn năng lượng.", "example": "Wind energy? It's available, clean and safe to use.", "src": { "kind": "sgk", "page": 110 } },
+    { "id": "e13", "en": "It's expensive to produce.", "vi": "Nó tốn kém để sản xuất.", "useVi": "Khi nêu nhược điểm về chi phí.", "example": "Solar power is great, but it's expensive to produce.", "src": { "kind": "sgk", "page": 110 } },
+    { "id": "e14", "en": "I don't quite understand ...", "vi": "Mình chưa hiểu rõ ...", "useVi": "Khi muốn người khác giải thích thêm.", "example": "I don't quite understand what renewable means.", "src": { "kind": "sgk", "page": 104 } },
+    { "id": "e15", "en": "Can it come from ...?", "vi": "Nó có thể đến từ ... không?", "useVi": "Khi hỏi về nguồn gốc của năng lượng.", "example": "Electricity? Can it come from the wind?", "src": { "kind": "sgk", "page": 104 } },
+    { "id": "e16", "en": "To save energy, we should ...", "vi": "Để tiết kiệm năng lượng, chúng ta nên ...", "useVi": "Khi đưa ra lời khuyên tiết kiệm năng lượng.", "example": "To save energy, we should use fans instead of air conditioners.", "src": { "kind": "sgk", "page": 111 } }
   ],
   "build": [
     { "id": "b01", "chunks": ["At the moment", "my family", "is using", "LED light bulbs"], "vi": "Hiện giờ, gia đình mình đang dùng bóng đèn LED.", "grammarId": "g01" },
@@ -145,7 +176,9 @@
     { "id": "b05", "chunks": ["Are you", "using the computer", "right now?"], "vi": "Bạn có đang dùng máy tính không?", "grammarId": "g01" },
     { "id": "b06", "chunks": ["Coal and oil", "are non-renewable", "and they", "pollute the air"], "vi": "Than và dầu không thể tái tạo và chúng làm ô nhiễm không khí.", "grammarId": null },
     { "id": "b07", "chunks": ["I usually", "turn off the tap", "when I", "brush my teeth"], "vi": "Mình thường khóa vòi nước khi đánh răng.", "grammarId": "g02" },
-    { "id": "b08", "chunks": ["Nowadays", "more people", "are riding", "electric bikes"], "vi": "Ngày nay, ngày càng nhiều người đi xe đạp điện.", "grammarId": "g01" }
+    { "id": "b08", "chunks": ["Nowadays", "more people", "are riding", "electric bikes"], "vi": "Ngày nay, ngày càng nhiều người đi xe đạp điện.", "grammarId": "g01" },
+    { "id": "b09", "chunks": ["We are trying", "to use less electricity", "this month"], "vi": "Tháng này chúng mình đang cố dùng ít điện hơn.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["Hydro energy", "comes from", "water"], "vi": "Năng lượng thủy điện đến từ nước.", "grammarId": "g02" }
   ],
   "expand": [
     {
@@ -184,6 +217,24 @@
         { "askVi": "Thay bằng gì?", "ask": "What instead?", "add": "and use more wind energy instead" }
       ],
       "full": "We should use less coal because it pollutes the air, and use more wind energy instead."
+    },
+    {
+      "id": "x05",
+      "base": "My family is saving energy.",
+      "steps": [
+        { "askVi": "Bằng cách nào?", "ask": "How?", "add": "by drying clothes in the sun" },
+        { "askVi": "Thay vì gì?", "ask": "Instead of what?", "add": "instead of using a dryer" }
+      ],
+      "full": "My family is saving energy by drying clothes in the sun instead of using a dryer."
+    },
+    {
+      "id": "x06",
+      "base": "Coal is cheap.",
+      "steps": [
+        { "askVi": "Có vấn đề gì?", "ask": "What is the problem?", "add": "but it pollutes the air" },
+        { "askVi": "Còn gì nữa?", "ask": "What else?", "add": "and it will run out one day" }
+      ],
+      "full": "Coal is cheap, but it pollutes the air and it will run out one day."
     }
   ],
   "variations": [
@@ -245,6 +296,45 @@
       ],
       "keywords": ["coal", "pollute", "non-renewable", "limited"],
       "exampleAnswer": "Burning coal pollutes the air, and coal is non-renewable, so it will run out one day.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Các nguồn năng lượng ở Việt Nam",
+      "questions": [
+        "Where does the electricity in your town come from?",
+        "What energy sources does Viet Nam use?",
+        "Which energy sources are common in your country?",
+        "Tell me about the energy sources people use in Viet Nam."
+      ],
+      "keywords": ["coal", "hydro", "solar", "wind"],
+      "exampleAnswer": "Viet Nam uses a lot of coal and hydro energy. Nowadays, more people are using solar panels in the south.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Nguồn năng lượng cho tương lai",
+      "questions": [
+        "Which energy source will people use most in the future?",
+        "What kind of energy do you think is best for the future?",
+        "Should we use more renewable energy? Why?",
+        "Which energy source is the best choice for the environment?"
+      ],
+      "keywords": ["renewable", "clean", "run out", "because"],
+      "exampleAnswer": "I think people will use more solar and wind energy because they are clean and they will never run out.",
+      "expectsReason": true
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Năng lượng cho các phương tiện đi lại",
+      "questions": [
+        "What energy do cars and motorbikes use?",
+        "How can people use less petrol when they travel?",
+        "Are electric bikes better for the environment than motorbikes?",
+        "Tell me about a way of travelling that saves energy."
+      ],
+      "keywords": ["petrol", "electric", "cycle", "pollute"],
+      "exampleAnswer": "Most motorbikes run on petrol, and they pollute the air. Electric bikes are better because they are cleaner and quieter.",
       "expectsReason": true
     }
   ],
@@ -358,6 +448,54 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["renewable", "solar", "coal", "pollute", "because"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Hỏi thầy về năng lượng tái tạo",
+      "contextVi": "Em đang làm bài tập về nguồn năng lượng nhưng chưa hiểu rõ \"năng lượng tái tạo\" là gì. Em hỏi thầy giáo môn Khoa học.",
+      "aiRole": "Mr Lam, your science teacher",
+      "studentRoleVi": "Học sinh hỏi thầy giải thích",
+      "goalVi": "Hỏi thầy nghĩa của renewable và non-renewable, xin ví dụ, rồi nhắc lại bằng lời của em để kiểm tra.",
+      "goal": "Ask Mr Lam what renewable and non-renewable mean, ask for examples, then explain them back in your own words.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng câu hỏi xin giải thích", "words": ["What does", "mean", "Can you give me an example", "I don't quite understand"] },
+        { "kind": "example", "vi": "Tự nêu một ví dụ cho mỗi loại năng lượng", "words": [] }
+      ],
+      "opener": "Hi. You look a bit confused. Can I help you with your project?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Renewable energy comes from sources that will not run out, like the sun or the wind.",
+        "Non-renewable sources, like coal and oil, are limited. One day we will run out of them.",
+        "Good. Now can you tell me which type solar energy is?"
+      ],
+      "tipsVi": ["Hỏi: What does \"renewable\" mean? / Can you give me an example?", "Nhắc lại: So renewable energy is energy that..."],
+      "keywords": ["What does", "mean", "renewable", "for example"]
+    },
+    {
+      "id": "r06",
+      "level": "basic",
+      "titleVi": "Kể việc nhà em đang làm để tiết kiệm năng lượng",
+      "contextVi": "Bạn cùng nhóm gọi điện hỏi gia đình em đang làm gì để tiết kiệm năng lượng, để đưa vào bài thuyết trình của nhóm.",
+      "aiRole": "Mi, your group member",
+      "studentRoleVi": "Thành viên nhóm, kể việc gia đình đang làm",
+      "goalVi": "Kể ít nhất hai việc gia đình em đang làm để tiết kiệm năng lượng (dùng thì hiện tại tiếp diễn) và nói vì sao.",
+      "goal": "Tell Mi at least two things your family is doing to save energy, using the present continuous, and say why.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng thì hiện tại tiếp diễn", "words": ["are using", "is turning off", "are saving", "are trying"] },
+        { "kind": "reason", "vi": "Nói vì sao việc đó giúp tiết kiệm năng lượng", "words": [] }
+      ],
+      "opener": "Hi! For our presentation, I need some examples. What is your family doing to save energy these days?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "That's a good idea! What else are you doing?",
+        "Why does that help?",
+        "Great. Can I write that in our presentation?"
+      ],
+      "tipsVi": ["Dùng: At the moment, we are using... / This month, my dad is...", "Nêu lý do bằng because."],
+      "keywords": ["are using", "save energy", "light bulbs", "because"]
     }
   ]
 }

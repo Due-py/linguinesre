@@ -26,7 +26,17 @@
     { "id": "v18", "en": "communicate", "vi": "giao tiếp", "ipa": "/kəˈmjuːnɪkeɪt/", "ipaFrom": "glossary", "pos": "v", "example": "Video calls let us communicate with relatives far away.", "collocations": ["communicate with"], "synonyms": ["talk"], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
     { "id": "v19", "en": "suitable", "vi": "phù hợp", "ipa": "/ˈsjuːtəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "This cheap, light laptop is suitable for students.", "collocations": ["suitable for"], "synonyms": ["right"], "antonyms": ["unsuitable"], "src": { "kind": "sgk", "page": 127 } },
     { "id": "v20", "en": "valuable", "vi": "có giá trị", "ipa": "/ˈvæljʊəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "The Internet is a valuable tool for learning.", "collocations": ["a valuable invention", "valuable information"], "synonyms": ["useful"], "antonyms": ["worthless"], "src": { "kind": "sgk", "page": 127 } },
-    { "id": "v21", "en": "button", "vi": "nút bấm", "ipa": "/ˈbʌtn/", "ipaFrom": "glossary", "pos": "n", "example": "Press the green button to start the machine.", "collocations": ["press a button", "the power button"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } }
+    { "id": "v21", "en": "button", "vi": "nút bấm", "ipa": "/ˈbʌtn/", "ipaFrom": "glossary", "pos": "n", "example": "Press the green button to start the machine.", "collocations": ["press a button", "the power button"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v22", "en": "application", "vi": "ứng dụng", "ipa": "/ˌæplɪˈkeɪʃ(ə)n/", "ipaFrom": "glossary", "pos": "n", "example": "This application helps me learn ten new English words every day.", "collocations": ["download an application", "a learning application"], "synonyms": ["app"], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v23", "en": "apply", "vi": "áp dụng", "ipa": "/əˈplaɪ/", "ipaFrom": "glossary", "pos": "v", "example": "Scientists have applied AI to many areas of life.", "collocations": ["apply something to", "apply new technology"], "synonyms": ["use"], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v24", "en": "computer", "vi": "máy tính", "ipa": "/kəmˈpjuːtə/", "ipaFrom": "glossary", "pos": "n", "example": "I use the computer in the school library to do my research.", "collocations": ["use a computer", "computer programme"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v25", "en": "display", "vi": "hiển thị, trưng bày", "ipa": "/dɪsˈpleɪ/", "ipaFrom": "glossary", "pos": "v", "example": "The screen of my watch displays the time and the weather.", "collocations": ["display information", "display on the screen"], "synonyms": ["show"], "antonyms": ["hide"], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v26", "en": "processor", "vi": "bộ xử lí (máy tính)", "ipa": "/ˈprəʊsesə/", "ipaFrom": "glossary", "pos": "n", "example": "A fast processor lets a laptop run many programs at the same time.", "collocations": ["a fast processor"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v27", "en": "robot", "vi": "rô-bốt, người máy", "ipa": "/ˈrəʊbɒt/", "ipaFrom": "dictionary", "pos": "n", "example": "Robots can do difficult or dangerous tasks for humans.", "collocations": ["build a robot", "robot vacuum cleaner"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 55 } },
+    { "id": "v28", "en": "invent", "vi": "phát minh", "ipa": "/ɪnˈvent/", "ipaFrom": "dictionary", "pos": "v", "example": "Who invented the first telephone?", "collocations": ["invent a machine", "invent a new way"], "synonyms": ["create"], "antonyms": [], "src": { "kind": "sgk", "page": 52 } },
+    { "id": "v29", "en": "convenient", "vi": "tiện lợi", "ipa": "/kənˈviːniənt/", "ipaFrom": "dictionary", "pos": "adj", "example": "E-readers are convenient because you can carry hundreds of books in one device.", "collocations": ["convenient for", "very convenient"], "synonyms": ["handy"], "antonyms": ["inconvenient"], "src": { "kind": "sgk", "page": 52 } },
+    { "id": "v30", "en": "educational", "vi": "mang tính giáo dục", "ipa": "/ˌedʒuˈkeɪʃənl/", "ipaFrom": "dictionary", "pos": "adj", "example": "My little brother plays educational games to practise maths.", "collocations": ["educational apps", "educational games"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 52 } },
+    { "id": "v31", "en": "chatbot", "vi": "phần mềm trò chuyện tự động (chatbot)", "ipa": "/ˈtʃætbɒt/", "ipaFrom": "dictionary", "pos": "n", "example": "The shop's chatbot answers customers' questions at any time of the day.", "collocations": ["use a chatbot", "ask a chatbot"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 55 } }
   ],
   "grammar": [
     {
@@ -150,6 +160,19 @@
       "sentence": "Can you please recommend a good laptop for students?",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p05",
+      "kind": "ending",
+      "focus": "Đuôi -ed: /t/, /d/, /ɪd/ (thì hiện tại hoàn thành)",
+      "tipVi": "-ed đọc /ɪd/ sau âm /t/, /d/ (invented, created); đọc /t/ sau âm vô thanh /p/, /k/, /s/, /ʃ/, /tʃ/, /f/ (helped, watched); đọc /d/ sau các âm còn lại (changed, installed, improved).",
+      "words": ["helped", "changed", "invented", "installed", "improved", "created"],
+      "sentence": "Smartphones have changed our lives and helped us learn.",
+      "quiz": [
+        { "prompt": "In which word is -ed pronounced /ɪd/?", "options": ["invented", "helped", "installed"], "answer": 0, "explainVi": "invented kết thúc bằng âm /t/ nên -ed đọc /ɪd/; helped đọc /t/, installed đọc /d/." },
+        { "prompt": "In which word is -ed pronounced /t/?", "options": ["watched", "improved", "created"], "answer": 0, "explainVi": "watched có âm /tʃ/ vô thanh nên -ed đọc /t/; improved đọc /d/, created đọc /ɪd/." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -162,7 +185,13 @@
     { "id": "e07", "en": "How can I help you?", "vi": "Tôi có thể giúp gì cho bạn?", "useVi": "Khi hỏi người khác cần giúp gì (người bán hàng hay dùng).", "example": "Good morning. How can I help you?", "src": { "kind": "sgk", "page": 59 } },
     { "id": "e08", "en": "Feel free to ask me if you need further information.", "vi": "Cứ hỏi tôi nếu bạn cần thêm thông tin.", "useVi": "Khi mời người khác hỏi thêm.", "example": "You can take a look at it. Feel free to ask me if you need further information.", "src": { "kind": "sgk", "page": 59 } },
     { "id": "e09", "en": "... is one of the benefits of ...", "vi": "... là một trong những lợi ích của ...", "useVi": "Khi nêu lợi ích của một phát minh.", "example": "Learning anywhere is one of the benefits of smartphones.", "src": { "kind": "sgk", "page": 58 } },
-    { "id": "e10", "en": "I can't imagine life without ...", "vi": "Mình không thể tưởng tượng cuộc sống thiếu ...", "useVi": "Khi nói một phát minh quan trọng với mình thế nào.", "example": "I can't imagine life without the washing machine.", "src": { "kind": "team", "page": null } }
+    { "id": "e10", "en": "I can't imagine life without ...", "vi": "Mình không thể tưởng tượng cuộc sống thiếu ...", "useVi": "Khi nói một phát minh quan trọng với mình thế nào.", "example": "I can't imagine life without the washing machine.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "... help(s) / allow(s) us to ...", "vi": "... giúp / cho phép chúng ta ...", "useVi": "Khi nói công dụng của một phát minh.", "example": "The Internet allows us to communicate with people all over the world.", "src": { "kind": "sgk", "page": 56 } },
+    { "id": "e12", "en": "... is / are used for + V-ing", "vi": "... được dùng để ...", "useVi": "Khi giải thích một thiết bị dùng vào việc gì.", "example": "E-readers are used for storing and reading books.", "src": { "kind": "sgk", "page": 56 } },
+    { "id": "e13", "en": "People can use ... to ...", "vi": "Người ta có thể dùng ... để ...", "useVi": "Khi nêu cách dùng một phát minh.", "example": "People can use 3D printers to make toys and tools.", "src": { "kind": "sgk", "page": 56 } },
+    { "id": "e14", "en": "Have you ever used ...?", "vi": "Bạn đã bao giờ dùng ... chưa?", "useVi": "Khi hỏi kinh nghiệm dùng một thiết bị, ứng dụng.", "example": "Have you ever used a robot vacuum cleaner?", "src": { "kind": "sgk", "page": 56 } },
+    { "id": "e15", "en": "It's very convenient for ...", "vi": "Nó rất tiện cho ...", "useVi": "Khi khen sự tiện lợi của một thiết bị.", "example": "This laptop is light, so it's very convenient for students.", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "Could you show me how it works?", "vi": "Bạn chỉ mình cách dùng được không?", "useVi": "Khi nhờ người khác hướng dẫn dùng một thiết bị mới.", "example": "This app looks interesting. Could you show me how it works?", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["I have had", "this laptop", "for two years"], "vi": "Mình đã dùng chiếc máy tính xách tay này được hai năm.", "grammarId": "g01" },
@@ -172,7 +201,9 @@
     { "id": "b05", "chunks": ["Video calls", "allow us", "to communicate", "with people far away"], "vi": "Gọi video cho phép chúng ta giao tiếp với những người ở xa.", "grammarId": "g03" },
     { "id": "b06", "chunks": ["My phone", "has no storage space", "because of", "my photos"], "vi": "Điện thoại của mình hết dung lượng vì ảnh của mình.", "grammarId": null },
     { "id": "b07", "chunks": ["My dad", "has just installed", "a new app", "for me"], "vi": "Bố mình vừa cài một ứng dụng mới cho mình.", "grammarId": "g01" },
-    { "id": "b08", "chunks": ["Laptops", "are useful", "for doing homework"], "vi": "Máy tính xách tay rất có ích cho việc làm bài tập.", "grammarId": "g03" }
+    { "id": "b08", "chunks": ["Laptops", "are useful", "for doing homework"], "vi": "Máy tính xách tay rất có ích cho việc làm bài tập.", "grammarId": "g03" },
+    { "id": "b09", "chunks": ["Robots", "can do", "dangerous tasks", "for humans"], "vi": "Rô-bốt có thể làm những việc nguy hiểm thay con người.", "grammarId": null },
+    { "id": "b10", "chunks": ["I have never", "used", "a 3D printer", "before"], "vi": "Mình chưa từng dùng máy in 3D.", "grammarId": "g01" }
   ],
   "expand": [
     {
@@ -212,6 +243,25 @@
         { "askVi": "Vì sao?", "ask": "Why?", "add": "because many students have back pain" }
       ],
       "full": "I want to invent a robot that can carry heavy schoolbags because many students have back pain."
+    },
+    {
+      "id": "x05",
+      "base": "Robots help people.",
+      "steps": [
+        { "askVi": "Giúp làm gì?", "ask": "Do what?", "add": "do difficult tasks" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in hospitals and factories" }
+      ],
+      "full": "Robots help people do difficult tasks in hospitals and factories."
+    },
+    {
+      "id": "x06",
+      "base": "I enjoy using educational apps.",
+      "steps": [
+        { "askVi": "Để làm gì?", "ask": "What for?", "add": "to practise English" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every evening" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because they are fun and convenient" }
+      ],
+      "full": "I enjoy using educational apps to practise English every evening because they are fun and convenient."
     }
   ],
   "variations": [
@@ -221,7 +271,8 @@
       "questions": [
         "Which device do you use most often, and what for?",
         "What gadget do you use the most on a normal day?",
-        "Which piece of technology helps you most with your studies?"
+        "Which piece of technology helps you most with your studies?",
+        "What device can't you live without, and how do you use it?"
       ],
       "keywords": ["device", "laptop", "smartphone", "useful for"],
       "exampleAnswer": "I use my laptop most often. It's useful for doing projects and watching English videos.",
@@ -233,7 +284,8 @@
       "questions": [
         "What new apps have you installed this month?",
         "Which new app have you started using recently?",
-        "What is the newest thing you have learnt to do on your phone?"
+        "What is the newest thing you have learnt to do on your phone?",
+        "Which app have you downloaded recently, and how have you used it?"
       ],
       "keywords": ["have installed", "app", "recently", "just"],
       "exampleAnswer": "I've just installed a maths app, and I've used it every evening this week.",
@@ -245,7 +297,8 @@
       "questions": [
         "What are the main benefits of laptops for students?",
         "How do laptops help students learn?",
-        "Why are laptops useful for studying?"
+        "Why are laptops useful for studying?",
+        "In what ways can a laptop be useful for students?"
       ],
       "keywords": ["benefits", "allow", "store", "useful for"],
       "exampleAnswer": "Laptops allow us to search for information quickly, and they can store all our school documents.",
@@ -257,7 +310,8 @@
       "questions": [
         "What problems can smartphones cause for teenagers?",
         "What are the disadvantages of using a smartphone too much?",
-        "How can spending too much time on devices be harmful?"
+        "How can spending too much time on devices be harmful?",
+        "Why can using smartphones too much be bad for teenagers?"
       ],
       "keywords": ["avoid", "eyes", "sleep", "too much"],
       "exampleAnswer": "Using phones too much can hurt our eyes and our sleep, so I try to avoid using mine at night.",
@@ -269,11 +323,51 @@
       "questions": [
         "What invention would you like to see in the future?",
         "If you could invent a new device, what would it do?",
-        "What machine do you wish someone would invent?"
+        "What machine do you wish someone would invent?",
+        "What would you like to invent to make life easier?"
       ],
       "keywords": ["invention", "robot", "help", "because"],
       "exampleAnswer": "I'd like a robot that cooks healthy meals because my parents are always busy.",
       "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Rô-bốt và trí tuệ nhân tạo trong đời sống",
+      "questions": [
+        "How is AI used in daily life?",
+        "Where can we see AI or robots in our lives today?",
+        "What can robots do to help people at home or at work?",
+        "In what ways has AI changed the way we live?"
+      ],
+      "keywords": ["AI", "robot", "is used for", "help"],
+      "exampleAnswer": "AI is used in many smartphone apps. For example, map apps help drivers find the best route.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Phát minh quan trọng nhất",
+      "questions": [
+        "What is the most important invention in history? Why?",
+        "Which invention do you think has changed the world the most? Why?",
+        "In your opinion, which invention is the most useful? Why?",
+        "Which invention would be the hardest for people to live without? Why?"
+      ],
+      "keywords": ["invention", "changed", "because", "useful"],
+      "exampleAnswer": "I think the Internet is the most important invention because it allows people to communicate and learn anywhere.",
+      "expectsReason": true
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Công nghệ giúp học sinh học ở trường",
+      "questions": [
+        "How can technology help students at school?",
+        "What technology does your school use in lessons?",
+        "Which inventions are useful for learning at school?",
+        "How has technology changed the way you study?"
+      ],
+      "keywords": ["computer", "educational apps", "projector", "useful for"],
+      "exampleAnswer": "Our teachers use computers and projectors, and we use educational apps to practise English at home.",
+      "expectsReason": false
     }
   ],
   "independent": [
@@ -386,6 +480,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["invention", "allows", "useful for", "cheap", "because"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Trả lời câu hỏi sau bài thuyết trình về phát minh",
+      "contextVi": "Em vừa thuyết trình trước lớp về một phát minh (Internet, máy đọc sách điện tử, rô-bốt, máy in 3D hoặc xe không người lái). Cô giáo hỏi thêm vài câu.",
+      "aiRole": "Ms Lan, your English teacher",
+      "studentRoleVi": "Học sinh vừa thuyết trình",
+      "goalVi": "Nói phát minh đó dùng để làm gì, em đã dùng nó chưa và vì sao nó quan trọng.",
+      "goal": "Answer questions about an invention: what it is used for, whether you have used it, and why it is important.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng cấu trúc nói về công dụng", "words": ["is used for", "allows us to", "have used", "convenient"] },
+        { "kind": "reason", "vi": "Nói vì sao phát minh đó quan trọng (because...)", "words": [] }
+      ],
+      "opener": "Thank you for your presentation. So, which invention did you talk about, and what is it used for?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Interesting. Have you ever used it yourself?",
+        "How has it changed people's lives?",
+        "Why do you think it is an important invention?"
+      ],
+      "tipsVi": ["Dùng \"It is used for + V-ing\" và \"It allows us to + V\".", "Dùng hiện tại hoàn thành: \"I have used it since ...\""],
+      "keywords": ["is used for", "allows", "have used", "because"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Có nên để chatbot làm bài tập?",
+      "contextVi": "Bạn cùng lớp vừa phát hiện một chatbot có thể viết bài luận rất nhanh và định dùng nó làm hết bài tập về nhà.",
+      "aiRole": "Tuan, your classmate who loves new technology",
+      "studentRoleVi": "Bạn cùng lớp, muốn dùng AI đúng cách",
+      "goalVi": "Giải thích chatbot có ích cho việc học thế nào và vì sao không nên để nó làm hết bài tập.",
+      "goal": "Explain how AI chatbots can be useful for learning and why students shouldn't let them do all their homework.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do (because...)", "words": [] },
+        { "kind": "example", "vi": "Đưa ví dụ cách dùng chatbot để học đúng cách", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["AI", "chatbot", "benefit", "allow", "useful for"] }
+      ],
+      "opener": "Look! This chatbot wrote my whole essay in ten seconds. I've finished all my homework. Isn't that great?",
+      "stance": "Chatbots can do our homework in seconds, so we don't need to think for ourselves anymore.",
+      "turns": 5,
+      "fallback": [
+        "Why not? It's so convenient!",
+        "But chatbots can do everything for us. Why should we think for ourselves?",
+        "OK, so how can we use a chatbot in a good way? Give me an example.",
+        "Fine. What will you tell our teacher about using AI?"
+      ],
+      "tipsVi": ["Công nhận lợi ích trước rồi phản biện: \"It's useful for ..., but ...\"", "Ví dụ dùng đúng cách: hỏi nghĩa từ mới, nhờ kiểm tra lỗi ngữ pháp."],
+      "keywords": ["useful for", "but", "learn", "because", "for example"]
     }
   ]
 }

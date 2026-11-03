@@ -27,7 +27,17 @@
     { "id": "v19", "en": "souvenir", "vi": "quà lưu niệm", "ipa": "/suːvəˈnɪə/", "ipaFrom": "glossary", "pos": "n", "example": "I bought a handmade bag as a souvenir for my mum.", "collocations": ["buy souvenirs", "a handmade souvenir"], "synonyms": ["gift"], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
     { "id": "v20", "en": "stalactite", "vi": "nhũ đá (trong hang động)", "ipa": "/ˈstæləktaɪt/", "ipaFrom": "glossary", "pos": "n", "example": "The stalactites in Phong Nha cave are amazing.", "collocations": ["beautiful stalactites"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
     { "id": "v21", "en": "trail", "vi": "đường mòn", "ipa": "/treɪl/", "ipaFrom": "glossary", "pos": "n", "example": "We followed a forest trail to the waterfall.", "collocations": ["a forest trail", "stay on the trail"], "synonyms": ["path"], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
-    { "id": "v22", "en": "eco-friendly", "vi": "thân thiện với môi trường", "ipa": "/ˌiːkəʊ ˈfrendli/", "ipaFrom": "dictionary", "pos": "adj", "example": "We went on an eco-friendly field trip with no plastic bottles.", "collocations": ["an eco-friendly trip", "eco-friendly products"], "synonyms": ["green"], "antonyms": [], "src": { "kind": "sgk", "page": 111 } }
+    { "id": "v22", "en": "eco-friendly", "vi": "thân thiện với môi trường", "ipa": "/ˌiːkəʊ ˈfrendli/", "ipaFrom": "dictionary", "pos": "adj", "example": "We went on an eco-friendly field trip with no plastic bottles.", "collocations": ["an eco-friendly trip", "eco-friendly products"], "synonyms": ["green"], "antonyms": [], "src": { "kind": "sgk", "page": 111 } },
+    { "id": "v23", "en": "follow", "vi": "đi theo", "ipa": "/ˈfɒləʊ/", "ipaFrom": "glossary", "pos": "v", "example": "Please follow the tour guide and stay on the path.", "collocations": ["follow the guide", "follow the rules"], "synonyms": [], "antonyms": ["lead"], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v24", "en": "waste", "vi": "lãng phí", "ipa": "/weɪst/", "ipaFrom": "glossary", "pos": "v", "example": "Don't waste water when you stay at a homestay.", "collocations": ["waste water", "waste energy"], "synonyms": [], "antonyms": ["save"], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v25", "en": "weave", "vi": "dệt", "ipa": "/wiːv/", "ipaFrom": "glossary", "pos": "v", "example": "Women in the village weave beautiful scarves to sell to tourists.", "collocations": ["weave cloth", "weave baskets"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v26", "en": "fieldtrip", "vi": "chuyến đi thực tế, dã ngoại", "ipa": "/ˈfiːldtrɪp/", "ipaFrom": "dictionary", "pos": "n", "example": "Our class is going on a fieldtrip to a national park next month.", "collocations": ["go on a fieldtrip", "an eco-friendly fieldtrip"], "synonyms": ["excursion"], "antonyms": [], "src": { "kind": "sgk", "page": 110 } },
+    { "id": "v27", "en": "tourist attraction", "vi": "điểm thu hút khách du lịch", "ipa": "/ˈtʊərɪst əˌtrækʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "This cave is a famous tourist attraction in Quang Binh.", "collocations": ["a popular tourist attraction"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 110 } },
+    { "id": "v28", "en": "packaging", "vi": "bao bì", "ipa": "/ˈpækɪdʒɪŋ/", "ipaFrom": "dictionary", "pos": "n", "example": "Try to bring snacks with less packaging on your trip.", "collocations": ["plastic packaging", "less packaging"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 111 } },
+    { "id": "v29", "en": "ecotour", "vi": "chuyến du lịch sinh thái", "ipa": "/ˈiːkəʊtʊə/", "ipaFrom": "dictionary", "pos": "n", "example": "We went on an ecotour to learn about the mangrove forest.", "collocations": ["go on an ecotour", "book an ecotour"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 113 } },
+    { "id": "v30", "en": "coral reef", "vi": "rạn san hô", "ipa": "/ˌkɒrəl ˈriːf/", "ipaFrom": "dictionary", "pos": "n", "example": "Divers shouldn't touch the coral reef.", "collocations": ["protect the coral reef", "explore a coral reef"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 113 } },
+    { "id": "v31", "en": "national park", "vi": "vườn quốc gia", "ipa": "/ˌnæʃnəl ˈpɑːk/", "ipaFrom": "dictionary", "pos": "n", "example": "Cuc Phuong is the oldest national park in Viet Nam.", "collocations": ["visit a national park"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 113 } },
+    { "id": "v32", "en": "scenery", "vi": "phong cảnh", "ipa": "/ˈsiːnəri/", "ipaFrom": "dictionary", "pos": "n", "example": "The scenery in Sa Pa is beautiful, especially in autumn.", "collocations": ["beautiful scenery", "enjoy the scenery"], "synonyms": ["landscape"], "antonyms": [], "src": { "kind": "sgk", "page": 113 } }
   ],
   "grammar": [
     {
@@ -131,6 +141,18 @@
       "sentence": "If we leave early, we'll see the floating market.",
       "quiz": [],
       "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "sentence_stress",
+      "focus": "Trọng âm câu và chỗ ngắt trong câu điều kiện",
+      "tipVi": "Ngắt nhẹ ở dấu phẩy giữa hai mệnh đề. Nhấn mạnh từ mang nghĩa: if we LEAVE LITter, we'll DAMage the CAVE. Đọc nhẹ if, we, will, the.",
+      "words": ["if", "were", "would", "will", "leave", "damage"],
+      "sentence": "If we leave litter, we will damage the cave.",
+      "quiz": [
+        { "prompt": "In 'If I were you, I'd stay on the path.', where do you usually pause?", "options": ["after 'you'", "after 'If'", "after 'stay'"], "answer": 0, "explainVi": "Ta ngắt ở chỗ có dấu phẩy, tức là sau mệnh đề If (sau 'you')." }
+      ],
+      "src": { "kind": "team", "page": null }
     }
   ],
   "expressions": [
@@ -145,7 +167,12 @@
     { "id": "e09", "en": "Why don't you ...?", "vi": "Sao bạn không ...?", "useVi": "Gợi ý thân mật cho bạn bè.", "example": "Why don't you buy a handmade souvenir?", "src": { "kind": "sgk", "page": 117 } },
     { "id": "e10", "en": "I'd recommend ...", "vi": "Mình đề nghị ...", "useVi": "Gợi ý một lựa chọn tốt, sau đó dùng V-ing hoặc danh từ.", "example": "I'd recommend staying with a local family.", "src": { "kind": "sgk", "page": 117 } },
     { "id": "e11", "en": "Please don't ...", "vi": "Xin đừng ...", "useVi": "Nhắc nhở du khách một cách lịch sự.", "example": "Please don't touch the stalactites.", "src": { "kind": "team", "page": null } },
-    { "id": "e12", "en": "Ecotourism is good for ... because ...", "vi": "Du lịch sinh thái tốt cho ... vì ...", "useVi": "Khi nêu lợi ích của du lịch sinh thái.", "example": "Ecotourism is good for villages because it brings jobs.", "src": { "kind": "team", "page": null } }
+    { "id": "e12", "en": "Ecotourism is good for ... because ...", "vi": "Du lịch sinh thái tốt cho ... vì ...", "useVi": "Khi nêu lợi ích của du lịch sinh thái.", "example": "Ecotourism is good for villages because it brings jobs.", "src": { "kind": "team", "page": null } },
+    { "id": "e13", "en": "If I were you, I wouldn't ...", "vi": "Nếu mình là bạn, mình sẽ không ...", "useVi": "Khi khuyên ai đó không nên làm một việc.", "example": "If I were you, I wouldn't feed the monkeys.", "src": { "kind": "sgk", "page": 111 } },
+    { "id": "e14", "en": "That's a good idea.", "vi": "Ý hay đấy.", "useVi": "Khi đồng ý với một lời khuyên hay gợi ý.", "example": "Bring a refillable bottle? That's a good idea.", "src": { "kind": "sgk", "page": 111 } },
+    { "id": "e15", "en": "Is it OK to ...?", "vi": "... có được không?", "useVi": "Khi hỏi xem mình có được phép làm gì ở nơi tham quan.", "example": "Is it OK to take photos inside the cave?", "src": { "kind": "team", "page": null } },
+    { "id": "e16", "en": "Make sure you ...", "vi": "Nhớ phải ...", "useVi": "Khi nhắc người khác một việc quan trọng trước chuyến đi.", "example": "Make sure you take all your rubbish home.", "src": { "kind": "team", "page": null } },
+    { "id": "e17", "en": "Thanks, that's really helpful.", "vi": "Cảm ơn, thật sự rất có ích.", "useVi": "Khi cảm ơn người vừa cho lời khuyên hữu ích.", "example": "Thanks, that's really helpful. I'll stay in a homestay then.", "src": { "kind": "team", "page": null } }
   ],
   "build": [
     { "id": "b01", "chunks": ["If tourists", "buy local crafts,", "local people", "will earn more money"], "vi": "Nếu du khách mua đồ thủ công địa phương, người dân sẽ kiếm được nhiều tiền hơn.", "grammarId": "g01" },
@@ -154,7 +181,10 @@
     { "id": "b04", "chunks": ["If we leave", "litter in the cave,", "we will damage", "the stalactites"], "vi": "Nếu chúng ta để rác trong hang, chúng ta sẽ làm hỏng nhũ đá.", "grammarId": "g01" },
     { "id": "b05", "chunks": ["If I had", "more free time,", "I would visit", "a floating market"], "vi": "Nếu có nhiều thời gian rảnh hơn, mình sẽ đi thăm chợ nổi.", "grammarId": "g02" },
     { "id": "b06", "chunks": ["Ecotourism", "helps protect nature", "and brings profit", "to local communities"], "vi": "Du lịch sinh thái giúp bảo vệ thiên nhiên và mang lại lợi nhuận cho cộng đồng địa phương.", "grammarId": null },
-    { "id": "b07", "chunks": ["Responsible tourists", "are aware of", "their impact", "on the environment"], "vi": "Du khách có trách nhiệm ý thức được tác động của họ lên môi trường.", "grammarId": null }
+    { "id": "b07", "chunks": ["Responsible tourists", "are aware of", "their impact", "on the environment"], "vi": "Du khách có trách nhiệm ý thức được tác động của họ lên môi trường.", "grammarId": null },
+    { "id": "b08", "chunks": ["If I were you,", "I would bring", "a refillable bottle"], "vi": "Nếu mình là bạn, mình sẽ mang chai nước dùng lại được.", "grammarId": "g02" },
+    { "id": "b09", "chunks": ["If tourists", "feed the monkeys,", "the animals", "will get sick"], "vi": "Nếu du khách cho khỉ ăn, các con vật sẽ bị ốm.", "grammarId": "g01" },
+    { "id": "b10", "chunks": ["You ought to", "follow", "the local rules", "when you visit a village"], "vi": "Bạn nên tuân theo quy định địa phương khi đến thăm một ngôi làng.", "grammarId": "g03" }
   ],
   "expand": [
     {
@@ -194,6 +224,25 @@
         { "askVi": "Để làm gì?", "ask": "Why?", "add": "to protect wild animals" }
       ],
       "full": "Tourists should follow the rules in national parks to protect wild animals."
+    },
+    {
+      "id": "x05",
+      "base": "We went on an ecotour.",
+      "steps": [
+        { "askVi": "Đi đâu?", "ask": "Where to?", "add": "to a national park" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last summer" },
+        { "askVi": "Đã làm gì?", "ask": "What did you do?", "add": "and watched rare birds" }
+      ],
+      "full": "We went on an ecotour to a national park last summer and watched rare birds."
+    },
+    {
+      "id": "x06",
+      "base": "If I visit Sa Pa, I will stay in a homestay.",
+      "steps": [
+        { "askVi": "Với ai?", "ask": "With whom?", "add": "with a local family" },
+        { "askVi": "Để làm gì?", "ask": "What for?", "add": "to learn about their culture" }
+      ],
+      "full": "If I visit Sa Pa, I will stay in a homestay with a local family to learn about their culture."
     }
   ],
   "variations": [
@@ -203,7 +252,8 @@
       "questions": [
         "What is ecotourism?",
         "How is ecotourism different from mass tourism?",
-        "What makes a trip eco-friendly?"
+        "What makes a trip eco-friendly?",
+        "How would you explain ecotourism to a younger student?"
       ],
       "keywords": ["nature", "local", "protect", "eco-friendly"],
       "exampleAnswer": "Ecotourism means visiting natural places responsibly. Tourists protect nature, respect local culture and help local people earn money.",
@@ -215,7 +265,8 @@
       "questions": [
         "How can tourists be more responsible?",
         "What should a good ecotourist do on a trip?",
-        "What rules should visitors follow in a nature reserve?"
+        "What rules should visitors follow in a nature reserve?",
+        "What should tourists do to protect the places they visit?"
       ],
       "keywords": ["trail", "litter", "local products", "respect"],
       "exampleAnswer": "Tourists should stay on the trails, take their litter home, buy local products and respect local customs.",
@@ -227,7 +278,8 @@
       "questions": [
         "Which place in Viet Nam is good for ecotourism?",
         "Where in Viet Nam would you take a friend who loves nature?",
-        "What natural place in Viet Nam should foreign tourists visit?"
+        "What natural place in Viet Nam should foreign tourists visit?",
+        "Which place in Viet Nam would be perfect for an ecotour? Why?"
       ],
       "keywords": ["national park", "trail", "explore", "wildlife"],
       "exampleAnswer": "Cuc Phuong National Park is great for ecotourism. Visitors can walk along forest trails and learn about rare animals.",
@@ -239,7 +291,8 @@
       "questions": [
         "If you could work in tourism, what job would you choose?",
         "What would you do if you were a tour guide for a day?",
-        "If you ran a homestay, how would you welcome guests?"
+        "If you ran a homestay, how would you welcome guests?",
+        "If you were a tour guide, where would you take visitors?"
       ],
       "keywords": ["would", "tour guide", "local", "guests"],
       "exampleAnswer": "If I were a tour guide, I would show visitors the floating market and teach them some Vietnamese words.",
@@ -251,11 +304,51 @@
       "questions": [
         "Why is ecotourism good for local communities?",
         "Why do people who live near natural areas benefit from ecotourism?",
-        "Why do some villages welcome ecotourists?"
+        "Why do some villages welcome ecotourists?",
+        "How do local people benefit when ecotourists visit their village?"
       ],
       "keywords": ["profit", "jobs", "crafts", "culture"],
       "exampleAnswer": "Ecotourism brings jobs and profit to local people, and it helps them keep their crafts and culture alive.",
       "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Nơi em sẽ đến nếu có thời gian và tiền",
+      "questions": [
+        "If you had a week off, where would you travel?",
+        "If you could go anywhere in Viet Nam, where would you go?",
+        "Where would you go if you had enough money for a big trip?",
+        "If you won a free tour, which place would you choose?"
+      ],
+      "keywords": ["If I had", "would", "explore", "scenery"],
+      "exampleAnswer": "If I had a week off, I would go trekking in Sa Pa to enjoy the scenery and learn about local culture.",
+      "expectsReason": false
+    },
+    {
+      "id": "w07",
+      "ideaVi": "Hậu quả của du lịch thiếu trách nhiệm",
+      "questions": [
+        "What will happen if tourists leave litter in natural places?",
+        "What will happen to a beach if visitors don't take their rubbish home?",
+        "How will a cave be affected if too many tourists visit it?",
+        "What will happen to wild animals if tourists feed them?"
+      ],
+      "keywords": ["If", "will", "damage", "impact"],
+      "exampleAnswer": "If tourists leave litter in caves, the stalactites will be damaged and the cave will lose its beauty.",
+      "expectsReason": false
+    },
+    {
+      "id": "w08",
+      "ideaVi": "Một chuyến đi dã ngoại đáng nhớ",
+      "questions": [
+        "Tell me about a fieldtrip or trip you enjoyed.",
+        "What was the best trip you have ever been on?",
+        "Describe a memorable trip to a natural place.",
+        "Where did you go on your last school trip, and what did you do?"
+      ],
+      "keywords": ["fieldtrip", "explore", "scenery", "local food"],
+      "exampleAnswer": "Last year, our class went on a fieldtrip to Cuc Phuong National Park. We explored a cave and learnt about rare animals.",
+      "expectsReason": false
     }
   ],
   "independent": [
@@ -368,6 +461,56 @@
       ],
       "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
       "keywords": ["You should", "If", "damage", "local", "responsible"]
+    },
+    {
+      "id": "r05",
+      "level": "basic",
+      "titleVi": "Hỏi công ty du lịch về tour sinh thái",
+      "contextVi": "Gia đình em muốn đi một tour sinh thái vào kỳ nghỉ. Em gọi điện cho công ty du lịch để hỏi thông tin.",
+      "aiRole": "an agent at Green Travel company",
+      "studentRoleVi": "Học sinh hỏi thông tin tour cho gia đình",
+      "goalVi": "Hỏi tour có hoạt động gì, giá bao nhiêu, có quy định gì, rồi quyết định có đặt tour không và nêu lý do.",
+      "goal": "Ask about an ecotour (activities, price and rules) and decide whether to book it, giving a reason.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["ecotour", "local", "scenery", "rules", "national park"] },
+        { "kind": "reason", "vi": "Nói vì sao em chọn hoặc không chọn tour (because...)", "words": [] }
+      ],
+      "opener": "Good afternoon, Green Travel. We have some great ecotours this month. Which one are you interested in?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Good choice. What would you like to know about it?",
+        "Sure. Is there anything else you'd like to ask?",
+        "So, would you like to book the tour?"
+      ],
+      "tipsVi": ["Hỏi lịch sự: \"Could you tell me ...?\", \"Is it OK to ...?\"", "Đưa ra quyết định kèm lý do."],
+      "keywords": ["How much", "Is it OK to", "because", "book"]
+    },
+    {
+      "id": "r06",
+      "level": "advanced",
+      "titleVi": "Cho du khách cho khỉ ăn?",
+      "contextVi": "Em làm hướng dẫn viên tình nguyện ở một vườn quốc gia. Một hướng dẫn viên khác muốn để du khách cho khỉ ăn cho vui.",
+      "aiRole": "Quan, another tour guide at the national park",
+      "studentRoleVi": "Hướng dẫn viên tình nguyện",
+      "goalVi": "Thuyết phục bạn không cho du khách cho động vật ăn, giải thích hậu quả và đề xuất hoạt động khác.",
+      "goal": "Persuade Quan not to let tourists feed the animals, explaining the effects and suggesting a better activity.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu hậu quả (If ..., ... will ...)", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất hoạt động khác cho du khách", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["wildlife", "impact", "responsible", "damage", "protect"] }
+      ],
+      "opener": "Hey, the tourists really want to feed the monkeys. If we let them, they'll be so happy. Why not?",
+      "stance": "Tourists love feeding the monkeys. If we let them, they'll be happier and give us good reviews.",
+      "turns": 5,
+      "fallback": [
+        "Really? What's wrong with giving them a little food?",
+        "But tourists love it. If we let them, they'll give us good reviews, won't they?",
+        "So what else can tourists do to enjoy the animals?",
+        "OK. How should we explain this to the tourists?"
+      ],
+      "tipsVi": ["Dùng câu điều kiện loại 1 để nêu hậu quả: \"If tourists feed them, the monkeys will ...\"", "Đề xuất hoạt động khác: quan sát từ xa, chụp ảnh, nghe giới thiệu về động vật."],
+      "keywords": ["If", "will", "wildlife", "responsible", "should"]
     }
   ]
 }
