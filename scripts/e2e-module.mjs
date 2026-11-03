@@ -103,7 +103,7 @@ async function main() {
   await page.getByLabel("Mật khẩu").fill(PW);
   await page.getByRole("button", { name: "Đăng nhập" }).click();
   await page.waitForURL(`${BASE}/student`);
-  t("trang học sinh có khối lộ trình 14 ngày", await vis(page.getByText("Lộ trình 14 ngày · Unit 20")));
+  t("trang học sinh có khối lộ trình 14 ngày", await vis(page.getByText(/^Lộ trình 14 ngày · Unit \d+$/)));
 
   await page.goto(`${BASE}/student/module/${mod.id}`);
   t("trang module có nhãn 'chưa được thầy cô duyệt'", await vis(page.getByText(/chưa được thầy cô duyệt/)));

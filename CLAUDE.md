@@ -3,7 +3,7 @@
 Nền tảng luyện nói tiếng Anh cho học sinh THCS (Next.js, Supabase, Tailwind v4). Đọc [AGENTS.md](AGENTS.md): Next.js bản này khác bản cũ, đọc `node_modules/next/dist/docs/` trước khi viết mã.
 
 ## Giao diện
-Mọi UI phải theo [DESIGN.md](DESIGN.md) (hình thức kiểu Duolingo: nền trắng, xanh lá, nút dày 3D, Nunito, linh vật riêng, lucide-react; không XP/tim/xếp hạng). Token ở `src/app/globals.css`. Trang nghiên cứu bọc `.theme-classic` giữ giao diện cũ tới hết nghiên cứu.
+Mọi UI phải theo [DESIGN.md](DESIGN.md) (tinh thần thiết kế sản phẩm Google, tham khảo chromeos.google: Google Sans, tiêu đề lớn có từ khóa trong viên thuốc màu, màu Google có nghĩa cố định, thẻ bo tròn lớn, lucide-react; không linh vật, không XP/tim/xếp hạng/điểm tổng). Token ở `src/app/globals.css`. Trang nghiên cứu bọc `.theme-classic` giữ giao diện cũ tới hết nghiên cứu.
 
 ## Nguyên tắc sản phẩm (từ mô tả dự án)
 - Không dữ liệu giả: điểm, tiến độ, báo cáo phải đến từ dữ liệu thật; chưa có dữ liệu thì hiện trạng thái bắt đầu.

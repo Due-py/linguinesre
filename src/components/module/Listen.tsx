@@ -15,7 +15,7 @@ export default function ListenButton({ url, text, children }: { url: string; tex
         await playAudio(url, text);
         setBusy(false);
       }}
-      className="btn-3d inline-flex min-h-11 items-center gap-2 rounded-2xl bg-sky-strong px-4 font-extrabold text-white [--depth:var(--sky-shadow)]"
+      className="press inline-flex min-h-11 items-center gap-2 rounded-full bg-brand-soft px-4 font-medium text-brand-strong hover:bg-brand-tonal"
     >
       {busy ? <LoaderCircle className="size-4 animate-spin" aria-hidden /> : <Volume2 className="size-4" aria-hidden />}
       {children}

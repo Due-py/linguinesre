@@ -17,7 +17,6 @@ import HeardWords from "./HeardWords";
 import { missedWords } from "@/lib/module/measure";
 import ListenButton from "./Listen";
 import CountUp from "@/components/CountUp";
-import Mascot from "@/components/Mascot";
 
 /** Một lượt đã lưu (để học tiếp đúng chỗ sau khi tải lại trang). */
 export type SavedRow = { step: number; turn: number; attemptNo: number; attemptId: string; answer: string | null; reply: string | null; correct: boolean | null };
@@ -98,17 +97,17 @@ export default function LessonRunner({
         <Link
           href={`/student/module/${moduleId}`}
           aria-label="Thoát"
-          className="grid size-11 place-items-center rounded-xl text-muted transition-colors hover:bg-sunken hover:text-ink"
+          className="grid size-11 place-items-center rounded-full text-muted transition-colors hover:bg-sunken hover:text-ink"
         >
-          <X className="size-7" aria-hidden />
+          <X className="size-6" aria-hidden />
         </Link>
-        <div role="progressbar" aria-label="Số bước đã xong" aria-valuemin={0} aria-valuemax={steps.length} aria-valuenow={index} className="h-4 overflow-hidden rounded-full bg-line">
+        <div role="progressbar" aria-label="Số bước đã xong" aria-valuemin={0} aria-valuemax={steps.length} aria-valuenow={index} className="h-2 overflow-hidden rounded-full bg-sunken">
           <span
-            className="relative block h-full rounded-full bg-brand-bright transition-[width] duration-500 after:absolute after:inset-x-2 after:top-1 after:h-1 after:rounded-full after:bg-white/40"
+            className="block h-full rounded-full bg-success transition-[width] duration-500 ease-[cubic-bezier(0.2,0,0,1)]"
             style={{ width: `${Math.max(index / steps.length, 0.04) * 100}%` }}
           />
         </div>
-        <p className="shrink-0 text-sm font-extrabold tabular-nums text-muted">
+        <p className="shrink-0 text-sm font-medium tabular-nums text-muted">
           {Math.min(index + 1, steps.length)}/{steps.length}
         </p>
       </header>
@@ -120,7 +119,7 @@ export default function LessonRunner({
         {index === 0 && (
           <section className="grid gap-1 rounded-2xl border-2 border-line px-5 py-4">
             <p>
-              <span className="font-extrabold">Mục tiêu hôm nay: </span>
+              <span className="font-semibold">Mục tiêu hôm nay: </span>
               {DAY_INFO[day].goalVi}
             </p>
             <p className="text-muted">
@@ -131,7 +130,7 @@ export default function LessonRunner({
         )}
         {index === 0 && notesVi.length > 0 && (
           <section className="grid gap-2 rounded-2xl bg-sunken px-5 py-4">
-            <h2 className="flex items-center gap-2 font-extrabold">
+            <h2 className="flex items-center gap-2 font-semibold">
               <Info className="size-5" aria-hidden />
               Vì sao bài hôm nay như vậy
             </h2>
@@ -146,26 +145,26 @@ export default function LessonRunner({
           <StepView key={st.n} st={st} ctx={ctx} onDone={next} />
         ) : (
           <section className="grid justify-items-center gap-6 py-6 text-center">
-            <Mascot mood="cheer" className="size-36" />
-            <h1 className="text-balance text-3xl font-extrabold">Em đã làm xong bài ngày {day}</h1>
+            <DoneArt />
+            <h1 className="text-balance text-4xl font-semibold tracking-tight">Em đã làm xong bài ngày {day}</h1>
             <p className="max-w-prose text-muted">Bấm hoàn thành để lưu và mở bài ngày tiếp theo. Mỗi ngày học một bài là vừa đủ.</p>
-            {/* Ô số liệu kiểu Duolingo nhưng chỉ có số đo thật: không điểm, không XP. */}
+            {/* Chỉ số đo thật: không điểm, không XP. */}
             <dl className="grid w-full max-w-md grid-cols-3 gap-3">
-              <Tile i={0} label="Số bước" tone="border-gold bg-gold text-ink">
+              <Tile i={0} label="Số bước">
                 <CountUp value={steps.length} />
               </Tile>
-              <Tile i={1} label="Ngày" tone="border-brand bg-brand text-on-brand">
+              <Tile i={1} label="Ngày">
                 <CountUp value={day} format={(n) => `${n}/14`} />
               </Tile>
               {elapsed !== null && (
-                <Tile i={2} label="Lần mở này" tone="border-sky-strong bg-sky-strong text-white">
+                <Tile i={2} label="Lần mở này">
                   <CountUp value={Math.round(elapsed / 1000)} format={(n) => `${Math.floor(n / 60)}:${String(n % 60).padStart(2, "0")}`} />
                 </Tile>
               )}
             </dl>
             <form action={completeLesson} className="w-full max-w-md">
               <input type="hidden" name="lessonId" value={lessonId} />
-              <button type="submit" className="btn-3d inline-flex min-h-14 w-full items-center justify-center gap-2 rounded-2xl bg-brand px-6 text-lg font-extrabold text-on-brand">
+              <button type="submit" className="press inline-flex min-h-13 w-full items-center justify-center gap-2 rounded-full bg-brand px-6 text-lg font-medium text-on-brand hover:shadow-card">
                 Hoàn thành bài hôm nay
                 <ArrowRight className="size-5" aria-hidden />
               </button>
@@ -209,7 +208,7 @@ function label(st: PlannedStep): string {
 function StepView({ st, ctx, onDone }: { st: PlannedStep; ctx: Ctx; onDone: () => void }) {
   return (
     <section className="rise-in grid gap-5">
-      <p className={`w-fit rounded-full px-3 py-1 text-sm font-extrabold ${st.t === "learn_word" ? "bg-berry-soft text-berry" : "bg-sky-soft text-sky-strong"}`}>{label(st)}</p>
+      <p className={`w-fit rounded-full px-3 py-1 text-sm font-medium ${st.t === "learn_word" ? "bg-gold-soft text-warn" : "bg-brand-soft text-brand-strong"}`}>{label(st)}</p>
       {st.t === "learn_word" && <LearnWord st={st} ctx={ctx} onDone={onDone} />}
       {st.t === "recall_word" && <RecallWord st={st} ctx={ctx} onDone={onDone} />}
       {st.t === "known_words" && <KnownWords st={st} ctx={ctx} onDone={onDone} />}
@@ -236,7 +235,7 @@ function NextButton({ onClick, children = "Tiếp tục", disabled }: { onClick:
       type="button"
       onClick={onClick}
       disabled={disabled}
-      className="btn-3d inline-flex min-h-14 w-full items-center justify-center gap-2 rounded-2xl bg-brand px-8 text-lg font-extrabold text-on-brand disabled:opacity-60 sm:w-auto sm:min-w-56"
+      className="press inline-flex min-h-13 w-full items-center justify-center gap-2 rounded-full bg-brand px-8 text-lg font-medium text-on-brand hover:shadow-card disabled:opacity-60 sm:w-auto sm:min-w-48"
     >
       {children}
       <ArrowRight className="size-5" aria-hidden />
@@ -255,7 +254,7 @@ function Alert({ children }: { children: React.ReactNode }) {
 
 function Verdict({ ok, yes, no }: { ok: boolean | null; yes: string; no: string }) {
   return (
-    <p role="status" className={`sheet-up flex items-start gap-3 rounded-2xl px-5 py-4 text-lg font-extrabold ${ok ? "bg-brand-soft text-brand-strong" : "bg-warn-soft text-warn"}`}>
+    <p role="status" className={`sheet-up flex items-start gap-3 rounded-3xl px-5 py-4 text-lg font-medium ${ok ? "bg-success-soft text-success-strong" : "bg-warn-soft text-warn"}`}>
       {ok ? <CircleCheck className="mt-0.5 size-6 shrink-0" aria-hidden /> : <CircleDashed className="mt-0.5 size-6 shrink-0" aria-hidden />}
       {ok ? yes : no}
     </p>
@@ -353,7 +352,7 @@ function WordCard({ ctx, id }: { ctx: Ctx; id: string }) {
   return (
     <div className="grid gap-3 rounded-2xl bg-surface px-6 py-6 shadow-card">
       <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-        <p lang="en" className="text-4xl font-extrabold tracking-tight">
+        <p lang="en" className="text-4xl font-semibold tracking-tight">
           {v.en}
         </p>
         <p className="text-lg text-muted">
@@ -438,7 +437,7 @@ function RecallWord({ st, ctx, onDone }: P<"recall_word">) {
     <>
       <div className="grid gap-3 rounded-2xl bg-surface px-6 py-6 shadow-card">
         <p className="text-muted">Nói từ tiếng Anh có nghĩa:</p>
-        <p className="text-3xl font-extrabold tracking-tight">{v.vi}</p>
+        <p className="text-3xl font-semibold tracking-tight">{v.vi}</p>
         <p lang="en" className="text-lg">
           {blank(v.example, v.en)}
         </p>
@@ -467,7 +466,7 @@ function KnownWords({ st, ctx, onDone }: P<"known_words">) {
   const words = st.refs.map((id) => ctx.content.vocab.find((v) => v.id === id)!).filter(Boolean);
   return (
     <>
-      <h2 className="text-2xl font-extrabold tracking-tight">Em đã biết các từ này từ bài đầu module</h2>
+      <h2 className="text-2xl font-semibold tracking-tight">Em đã biết các từ này từ bài đầu module</h2>
       <ul className="divide-y divide-line border-y border-line">
         {words.map((v) => (
           <li key={v.id} className="flex flex-wrap items-center justify-between gap-2 py-3">
@@ -512,7 +511,7 @@ function Card({ st, ctx, onDone }: P<"card">) {
   if (st.ref === "expressions") {
     body = (
       <>
-        <h2 className="text-2xl font-extrabold tracking-tight">Cụm câu hay dùng</h2>
+        <h2 className="text-2xl font-semibold tracking-tight">Cụm câu hay dùng</h2>
         <ul className="divide-y divide-line border-y border-line">
           {c.expressions.map((e) => (
             <li key={e.id} className="grid gap-1 py-3">
@@ -539,7 +538,7 @@ function Card({ st, ctx, onDone }: P<"card">) {
     const g = c.grammar.find((x) => x.errorTag === tag);
     body = (
       <>
-        <h2 className="text-2xl font-extrabold tracking-tight">Lỗi em hay gặp: {ERROR_TAGS[tag]}</h2>
+        <h2 className="text-2xl font-semibold tracking-tight">Lỗi em hay gặp: {ERROR_TAGS[tag]}</h2>
         <p className="text-muted">Máy ghi lại lỗi này nhiều lần trong các câu em nói hoặc bài em làm, nên mình ôn riêng một chút.</p>
         {g ? <GrammarBody g={g} /> : <p>Khi nói, để ý phần này và tự kiểm tra lại câu của mình trước khi nói tiếp.</p>}
       </>
@@ -549,7 +548,7 @@ function Card({ st, ctx, onDone }: P<"card">) {
     body = (
       <>
         <div className="flex flex-wrap items-center gap-2">
-          <h2 className="text-2xl font-extrabold tracking-tight">{g.nameVi}</h2>
+          <h2 className="text-2xl font-semibold tracking-tight">{g.nameVi}</h2>
           <SourceBadge src={g.src} />
         </div>
         <p lang="en" className="text-muted">
@@ -563,7 +562,7 @@ function Card({ st, ctx, onDone }: P<"card">) {
     body = (
       <>
         <div className="flex flex-wrap items-center gap-2">
-          <h2 className="text-2xl font-extrabold tracking-tight">Phát âm: {p.focus}</h2>
+          <h2 className="text-2xl font-semibold tracking-tight">Phát âm: {p.focus}</h2>
           <SourceBadge src={p.src} />
         </div>
         <p>{p.tipVi}</p>
@@ -629,7 +628,7 @@ function Say({ st, ctx, onDone }: P<"say">) {
   return (
     <>
       <div className="grid gap-3 rounded-2xl bg-surface px-6 py-6 shadow-card">
-        <p lang="en" className="text-2xl font-extrabold leading-snug tracking-tight">
+        <p lang="en" className="text-2xl font-semibold leading-snug tracking-tight">
           {st.text}
         </p>
         <ListenButton url={moduleAudio(ctx.moduleId, key)} text={st.text}>
@@ -667,7 +666,7 @@ function Quiz({ st, ctx, onDone }: P<"quiz">) {
   const answered = result !== null || !!prev;
   return (
     <>
-      <h2 lang={st.q.promptLang} className="text-balance text-2xl font-extrabold leading-snug tracking-tight">
+      <h2 lang={st.q.promptLang} className="text-balance text-2xl font-semibold leading-snug tracking-tight">
         {st.q.prompt}
       </h2>
       <div className="grid gap-2" role="group" aria-label="Các lựa chọn">
@@ -720,7 +719,7 @@ function UseWord({ st, ctx, onDone }: P<"use_word">) {
     <>
       <div className="grid gap-2 rounded-2xl bg-surface px-6 py-6 shadow-card">
         <p className="text-muted">Nói một câu hoàn chỉnh có dùng cụm:</p>
-        <p lang="en" className="text-3xl font-extrabold tracking-tight">
+        <p lang="en" className="text-3xl font-semibold tracking-tight">
           {st.phrase}
         </p>
         <p className="text-muted">
@@ -732,7 +731,7 @@ function UseWord({ st, ctx, onDone }: P<"use_word">) {
           Ví dụ: <span lang="en" className="font-semibold">{v.example}</span> Nói câu của riêng em nhé.
         </p>
       ) : (
-        <button type="button" onClick={() => setShowEx(true)} className="option-card inline-flex min-h-11 w-fit items-center gap-2 px-4 font-extrabold text-sky-strong">
+        <button type="button" onClick={() => setShowEx(true)} className="press inline-flex min-h-11 w-fit items-center gap-2 rounded-full bg-brand-soft px-5 font-medium text-brand-strong hover:bg-brand-tonal">
           <Lightbulb className="size-4" aria-hidden />
           Bí ý? Xem một câu ví dụ
         </button>
@@ -773,7 +772,7 @@ function Arrange({ st, ctx, onDone }: P<"arrange">) {
   return (
     <>
       <div className="grid gap-1">
-        <h2 className="text-2xl font-extrabold tracking-tight">Xếp các mảnh thành câu đúng</h2>
+        <h2 className="text-2xl font-semibold tracking-tight">Xếp các mảnh thành câu đúng</h2>
         <p className="text-muted">Nghĩa: {b.vi}</p>
       </div>
       <div className="min-h-20 rounded-2xl border border-dashed border-line-strong bg-surface px-4 py-3" aria-live="polite">
@@ -798,7 +797,7 @@ function Arrange({ st, ctx, onDone }: P<"arrange">) {
       {state !== "right" && (
         <div lang="en" className="flex flex-wrap gap-2">
           {left.map((c) => (
-            <button key={c} type="button" onClick={() => setPicked((xs) => [...xs, c])} className="option-card pop-in min-h-11 px-3 py-2 text-lg font-bold">
+            <button key={c} type="button" onClick={() => setPicked((xs) => [...xs, c])} className="option-card pop-in min-h-11 rounded-full! px-4 py-2 text-lg font-medium">
               {c}
             </button>
           ))}
@@ -816,12 +815,12 @@ function Arrange({ st, ctx, onDone }: P<"arrange">) {
               setTries((n) => n + 1);
               setState(r.correct ? "right" : "wrong");
             }}
-            className="btn-3d inline-flex min-h-12 items-center gap-2 rounded-2xl bg-brand px-6 font-extrabold text-on-brand disabled:bg-line disabled:text-muted disabled:shadow-none"
+            className="press inline-flex min-h-12 items-center gap-2 rounded-full bg-brand px-6 font-medium text-on-brand hover:shadow-card disabled:bg-sunken disabled:text-muted"
           >
             <Check className="size-5" aria-hidden />
             Kiểm tra
           </button>
-          <button type="button" onClick={() => setPicked([])} className="option-card inline-flex min-h-12 items-center gap-2 px-5 font-extrabold text-sky-strong">
+          <button type="button" onClick={() => setPicked([])} className="press inline-flex min-h-12 items-center gap-2 rounded-full border border-line px-5 font-medium text-brand hover:bg-brand-soft">
             <Undo2 className="size-5" aria-hidden />
             Xếp lại
           </button>
@@ -863,7 +862,7 @@ function Expand({ st, ctx, onDone }: P<"expand">) {
   return (
     <>
       <div className="grid gap-1">
-        <h2 className="text-2xl font-extrabold tracking-tight">Từ câu ngắn thành câu dài</h2>
+        <h2 className="text-2xl font-semibold tracking-tight">Từ câu ngắn thành câu dài</h2>
         <p className="text-muted">Mỗi bước thêm một ý. Nói lại CẢ CÂU, có thêm ý mới.</p>
       </div>
       <ol className="grid gap-2">
@@ -890,7 +889,7 @@ function Expand({ st, ctx, onDone }: P<"expand">) {
           <div className="grid gap-1 rounded-2xl bg-brand-soft px-5 py-4">
             {ask ? (
               <>
-                <p lang="en" className="text-2xl font-extrabold">
+                <p lang="en" className="text-2xl font-semibold">
                   {ask.ask}
                 </p>
                 <p className="text-muted">{ask.askVi}</p>
@@ -964,7 +963,7 @@ function Hints({ hints, level, onOpen }: { hints: StepHint[]; level: number; onO
         </div>
       ))}
       {nextHint && (
-        <button type="button" onClick={() => onOpen(nextHint.level)} className="option-card inline-flex min-h-11 w-fit items-center gap-2 px-4 font-extrabold text-sky-strong">
+        <button type="button" onClick={() => onOpen(nextHint.level)} className="press inline-flex min-h-11 w-fit items-center gap-2 rounded-full bg-brand-soft px-5 font-medium text-brand-strong hover:bg-brand-tonal">
           <Lightbulb className="size-4" aria-hidden />
           {opened.length === 0 ? "Bí ý? Xem gợi ý" : `Thêm gợi ý: ${nextHint.title.toLowerCase()}`}
         </button>
@@ -999,7 +998,7 @@ function AssessArea({ s, onAsk }: { s: ReturnType<typeof useAssess>; onAsk?: () 
   if (s.error) return <Alert>{s.error}</Alert>;
   if (onAsk && !s.asked)
     return (
-      <button type="button" onClick={onAsk} className="option-card inline-flex min-h-12 w-fit items-center gap-2 px-6 font-extrabold text-sky-strong">
+      <button type="button" onClick={onAsk} className="press inline-flex min-h-11 w-fit items-center gap-2 rounded-full bg-brand-soft px-5 font-medium text-brand-strong hover:bg-brand-tonal">
         <MessageSquareText className="size-5" aria-hidden />
         Xem nhận xét của AI
       </button>
@@ -1031,9 +1030,9 @@ function Speak({ st, ctx, onDone }: P<"speak">) {
 
   return (
     <>
-      <div aria-live="polite" className="grid min-h-32 content-center gap-2 rounded-2xl bg-surface px-6 py-7 shadow-card">
+      <div aria-live="polite" className="grid min-h-36 content-center gap-2 rounded-[2rem] bg-tint px-6 py-8 sm:px-8">
         {shown ? (
-          <p lang="en" className="text-balance text-[1.75rem] font-extrabold leading-tight tracking-tight sm:text-3xl">
+          <p lang="en" className="text-balance text-[1.9rem] font-semibold leading-tight tracking-tight sm:text-4xl">
             {st.text}
           </p>
         ) : (
@@ -1043,7 +1042,7 @@ function Speak({ st, ctx, onDone }: P<"speak">) {
         )}
       </div>
       {hintsVisible && <Hints hints={st.hints} level={hintLevel} onOpen={(l) => setHintLevel((c) => Math.max(c, l))} />}
-      {rescue && <p className="rounded-xl bg-sunken px-4 py-3 font-semibold">{rescue}</p>}
+      {rescue && <p className="sheet-up rounded-3xl bg-gold-soft px-5 py-3 font-medium text-warn">{rescue}</p>}
       {result && (
         <>
           <MeasuredPanel m={result.measures} keywords={st.keywords} keywordsUsed={result.check.keywordsUsed} reason={result.check.reason} targetMs={result.targetMs} inTarget={result.inTarget} />
@@ -1081,12 +1080,12 @@ function Speak({ st, ctx, onDone }: P<"speak">) {
       )}
       {st.retry && showRetry && (
         <section className="grid gap-4 rounded-2xl border border-line px-5 py-5">
-          <h3 className="flex items-center gap-2 text-lg font-extrabold">
+          <h3 className="flex items-center gap-2 text-lg font-semibold">
             <RotateCcw className="size-5" aria-hidden />
             Nói lại với câu hỏi tương tự
           </h3>
           <p className="text-muted">Áp dụng nhận xét vừa rồi vào câu trả lời mới.</p>
-          <p lang="en" className="text-2xl font-extrabold leading-snug">
+          <p lang="en" className="text-2xl font-semibold leading-snug">
             {st.retry.text}
           </p>
           {retryResult && <MeasuredPanel m={retryResult.measures} keywords={st.keywords} keywordsUsed={retryResult.check.keywordsUsed} reason={retryResult.check.reason} />}
@@ -1148,8 +1147,8 @@ function Roleplay({ st, ctx, onDone }: P<"roleplay">) {
 
   return (
     <>
-      <div className="grid gap-3 rounded-2xl bg-surface px-6 py-6 shadow-card">
-        <h2 className="text-2xl font-extrabold tracking-tight">{r.titleVi}</h2>
+      <div className="grid gap-3 rounded-[2rem] bg-tint px-6 py-6 sm:px-8">
+        <h2 className="text-2xl font-semibold tracking-tight">{r.titleVi}</h2>
         <p>{r.contextVi}</p>
         <dl className="grid gap-1 text-sm">
           <div>
@@ -1172,7 +1171,7 @@ function Roleplay({ st, ctx, onDone }: P<"roleplay">) {
             <li key={q.vi} className="flex items-start gap-2">
               {requirements ? (
                 requirements[i] ? (
-                  <CircleCheck className="mt-0.5 size-5 shrink-0 text-brand-strong" aria-label="Đạt" />
+                  <CircleCheck className="mt-0.5 size-5 shrink-0 text-success" aria-label="Đạt" />
                 ) : (
                   <CircleDashed className="mt-0.5 size-5 shrink-0" aria-label="Chưa đạt" />
                 )
@@ -1196,16 +1195,37 @@ function Roleplay({ st, ctx, onDone }: P<"roleplay">) {
         <p className="text-sm text-muted">AI trả lời theo lời em nói. Nếu AI lỗi, bạn trò chuyện dùng câu viết sẵn để buổi học không bị dừng. Em nói {r.turns} lượt.</p>
       </div>
       {started && (
-        <ol className="grid gap-3" aria-live="polite">
-          {bubbles.map((b, i) => (
-            <li key={i} className={`max-w-[85%] rounded-2xl px-4 py-3 ${b.who === "ai" ? "justify-self-start bg-surface shadow-card" : "justify-self-end bg-brand-soft"}`}>
-              <span className="block text-xs font-bold text-muted">{b.who === "ai" ? r.aiRole.split(",")[0] : "Em"}</span>
-              <span lang="en" className="text-lg">
-                {b.text}
+        <div className="grid gap-3">
+          <div className="grid gap-1">
+            <p className="flex justify-between text-sm font-medium text-muted">
+              <span>Cuộc trò chuyện</span>
+              <span className="tabular-nums">
+                {Math.min(turn - 1, r.turns)}/{r.turns} lượt của em
               </span>
-            </li>
-          ))}
-        </ol>
+            </p>
+            <div aria-hidden className="h-1.5 overflow-hidden rounded-full bg-sunken">
+              <span className="block h-full rounded-full bg-success transition-[width] duration-500" style={{ width: `${(Math.min(turn - 1, r.turns) / r.turns) * 100}%` }} />
+            </div>
+          </div>
+          <ol className="grid gap-3" aria-live="polite">
+            {bubbles.map((b, i) => (
+              <li key={i} className={`sheet-up flex max-w-[88%] items-end gap-2 ${b.who === "ai" ? "justify-self-start" : "flex-row-reverse justify-self-end"}`}>
+                <span
+                  aria-hidden
+                  className={`grid size-9 shrink-0 place-items-center rounded-full text-sm font-medium ${b.who === "ai" ? "bg-gold text-ink" : "bg-brand text-on-brand"}`}
+                >
+                  {b.who === "ai" ? (r.aiRole.trim()[0] ?? "A").toUpperCase() : "Em"}
+                </span>
+                <span className={`grid rounded-3xl px-4 py-3 ${b.who === "ai" ? "rounded-bl-md bg-sunken" : "rounded-br-md bg-brand-soft"}`}>
+                  <span className="text-xs font-medium text-muted">{b.who === "ai" ? r.aiRole.split(",")[0] : "Em"}</span>
+                  <span lang="en" className="text-lg">
+                    {b.text}
+                  </span>
+                </span>
+              </li>
+            ))}
+          </ol>
+        </div>
       )}
       {msg && <Alert>{msg}</Alert>}
       {!done && (
@@ -1236,7 +1256,7 @@ function Roleplay({ st, ctx, onDone }: P<"roleplay">) {
       )}
       {done && (
         <>
-          <p role="status" className="rounded-xl bg-brand-soft px-4 py-3 font-bold text-brand-strong">
+          <p role="status" className="rounded-3xl bg-success-soft px-5 py-3 font-medium text-success-strong">
             Kết thúc cuộc trò chuyện.{requirements ? ` Em đạt ${requirements.filter(Boolean).length}/${requirements.length} yêu cầu (máy kiểm tra bằng quy tắc).` : ""}
           </p>
           {lastId && <AssessArea s={assess} onAsk={() => void assess.run(lastId)} />}
@@ -1255,7 +1275,7 @@ function Report({ st, ctx, onDone }: P<"report">) {
   }, [ctx.lessonId]);
   return (
     <>
-      <h2 className="text-2xl font-extrabold tracking-tight">{st.ref === "final" ? "Kết quả cả module" : `Kết quả kiểm tra cuối giai đoạn ${st.ref.slice(-1)}`}</h2>
+      <h2 className="text-2xl font-semibold tracking-tight">{st.ref === "final" ? "Kết quả cả module" : `Kết quả kiểm tra cuối giai đoạn ${st.ref.slice(-1)}`}</h2>
       {r === undefined ? (
         <p role="status" className="flex items-center gap-2 text-muted">
           <LoaderCircle className="size-5 animate-spin" aria-hidden />
@@ -1273,12 +1293,31 @@ function Report({ st, ctx, onDone }: P<"report">) {
   );
 }
 
-/** Ô số liệu cuối bài: nảy vào lần lượt (--i). */
-function Tile({ i, label, tone, children }: { i: number; label: string; tone: string; children: React.ReactNode }) {
+/** Ô số liệu cuối bài: hiện lần lượt (--i). */
+function Tile({ i, label, children }: { i: number; label: string; children: React.ReactNode }) {
   return (
-    <div className={`pop-in grid overflow-hidden rounded-2xl border-2 ${tone}`} style={{ ["--i" as string]: i + 2 }}>
-      <dt className="px-2 py-1 text-xs font-extrabold">{label}</dt>
-      <dd className="grid place-items-center rounded-b-xl bg-surface px-2 py-3 text-xl font-extrabold text-ink">{children}</dd>
+    <div className="pop-in grid gap-1 rounded-3xl bg-tint px-3 py-4" style={{ ["--i" as string]: i + 2 }}>
+      <dt className="text-sm text-muted">{label}</dt>
+      <dd className="text-2xl font-semibold tracking-tight">{children}</dd>
     </div>
+  );
+}
+
+/** Hình xong bài: dấu tích xanh lá giữa bốn chấm màu Google, hiện lần lượt. Chỉ trang trí. */
+function DoneArt() {
+  const dots = [
+    { c: "var(--brand)", x: 14, y: 30 },
+    { c: "var(--danger-bright)", x: 104, y: 22 },
+    { c: "var(--gold)", x: 22, y: 92 },
+    { c: "var(--success-bright)", x: 108, y: 88 },
+  ];
+  return (
+    <svg viewBox="0 0 120 120" className="size-32" aria-hidden>
+      {dots.map((d, i) => (
+        <circle key={i} cx={d.x} cy={d.y} r="7" fill={d.c} className="pop-in" style={{ ["--i" as string]: i + 1, transformOrigin: `${d.x}px ${d.y}px` }} />
+      ))}
+      <circle cx="60" cy="60" r="38" fill="var(--success)" className="pop-in" />
+      <path d="M44 61l11 11 22-24" fill="none" stroke="#fff" strokeWidth="7" strokeLinecap="round" strokeLinejoin="round" className="pop-in" style={{ ["--i" as string]: 3 }} />
+    </svg>
   );
 }

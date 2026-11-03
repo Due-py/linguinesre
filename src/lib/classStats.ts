@@ -45,3 +45,6 @@ export function unitCoverage(sessions: ClassSession[]): Map<string, number> {
   }
   return new Map([...seen].map(([u, set]) => [u, set.size]));
 }
+
+/** Mốc thời gian n ngày trước (ms), cho các thống kê "trong 7 ngày gần nhất" của giáo viên. */
+export const daysAgo = (n: number): number => Date.now() - n * 86_400_000;

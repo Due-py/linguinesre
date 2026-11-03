@@ -18,7 +18,7 @@ export default function CopyCode({ code, size = "md" }: { code: string; size?: "
   return (
     <span className="inline-flex items-center gap-2">
       <span
-        className={`select-all rounded-xl border border-dashed border-ink/40 bg-surface font-extrabold tabular-nums ${
+        className={`select-all rounded-2xl bg-sunken font-medium tabular-nums ${
           size === "lg" ? "px-5 py-2 text-4xl tracking-[0.3em] sm:text-5xl" : "px-3 py-1 text-xl tracking-[0.22em]"
         }`}
         aria-label={`Mã lớp: ${code.split("").join(" ")}`}
@@ -28,9 +28,9 @@ export default function CopyCode({ code, size = "md" }: { code: string; size?: "
       <button
         type="button"
         onClick={copy}
-        className="inline-flex min-h-11 items-center gap-2 rounded-full border border-line-strong bg-surface px-4 text-sm font-bold transition-colors hover:bg-sunken"
+        className="press inline-flex min-h-11 items-center gap-2 rounded-full bg-brand-soft px-4 text-sm font-medium text-brand-strong hover:bg-brand-tonal"
       >
-        {copied ? <Check className="size-4 text-brand-strong" aria-hidden /> : <Copy className="size-4" aria-hidden />}
+        {copied ? <Check className="size-4" aria-hidden /> : <Copy className="size-4" aria-hidden />}
         {copied ? "Đã chép" : "Chép mã"}
       </button>
       <span role="status" className="sr-only">

@@ -2,7 +2,7 @@ import { Check } from "lucide-react";
 import type { ModuleContent } from "@/lib/module/schema";
 import ListenButton from "./Listen";
 import { SourceBadge } from "./Panels";
-import { moduleAudio } from "./audio";
+import { moduleAudio } from "./audioUrl";
 
 const KIND_VI = { sound: "Âm", word_stress: "Trọng âm từ", sentence_stress: "Trọng âm câu", ending: "Âm cuối", intonation: "Ngữ điệu" } as const;
 

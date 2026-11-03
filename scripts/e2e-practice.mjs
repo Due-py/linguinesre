@@ -99,7 +99,7 @@ async function main() {
   t("đăng nhập xong vào trang học sinh", true);
   // Lớp 9 đã có Unit thật được duyệt, nên "hôm nay" là Unit đầu tiên chưa học; bài thử luyện trên Unit thử (Unit 20).
   const seen = (loc) => loc.waitFor({ timeout: 15_000 }).then(() => true, () => false);
-  t("trang chính gợi ý Unit hôm nay", await seen(page.getByText(/^Hôm nay: /).first()));
+  t("trang chính gợi ý Unit hôm nay", await seen(page.getByText(/^Hôm nay (học|luyện)/).first()));
   t("lộ trình có Unit thử", await seen(page.getByText("E2E Test Unit").first()));
   await shot("18-hoc-sinh-trang-chinh-co-bai-hom-nay");
 
@@ -168,7 +168,7 @@ async function main() {
 
   // Đóng giữa chừng rồi mở lại: tiếp tục từ câu 3.
   await page.goto(`${BASE}/student`);
-  t("trang chính hiện 'Tiếp tục' với 2/5 câu", await page.getByText("Bạn đã trả lời 2/5 câu.").isVisible());
+  t("trang chính hiện buổi đang làm 2/5 câu", await page.getByText("Đang làm 2/5 câu").first().isVisible());
   await page.goto(sessionUrl);
   t("mở lại buổi thì tiếp tục từ câu 3", await page.getByText("Câu 3/5").isVisible());
 
@@ -202,7 +202,7 @@ async function main() {
   await page.getByRole("link", { name: "Tổng quan", exact: true }).click();
   await page.waitForURL(`${BASE}/student`);
   t("dashboard: Unit thử đã xong", await page.getByText("Đã xong").isVisible());
-  t("dashboard: chưa đủ 3 buổi thì không kết luận điểm cần cải thiện", await page.getByText("Bạn đã hoàn thành 1/3 buổi.").isVisible());
+  t("dashboard: chưa đủ 3 buổi thì không kết luận điểm cần cải thiện", await page.getByText("Em đã hoàn thành 1/3 buổi").isVisible());
   t("dashboard: buổi gần đây có buổi vừa xong", await page.locator("section[aria-labelledby=recent]").getByText("Hoàn thành").isVisible());
   await shot("24-hoc-sinh-trang-chinh-sau-buoi-dau");
 

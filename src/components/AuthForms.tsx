@@ -6,7 +6,7 @@ import { requestPasswordReset, signIn, signInWithCode, signUp, updatePassword } 
 import { Field, FormMessage, SubmitButton } from "@/components/form";
 import type { FormState } from "@/lib/form";
 
-const linkClass = "font-bold text-brand-strong underline underline-offset-4 hover:text-ink";
+const linkClass = "font-medium text-brand underline-offset-4 hover:underline";
 
 export function LoginForm({ linkInvalid }: { linkInvalid?: boolean }) {
   const [state, action] = useActionState<FormState, FormData>(signIn, null);

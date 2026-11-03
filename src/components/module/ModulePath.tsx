@@ -1,96 +1,125 @@
-import { Check, Lock, Play } from "lucide-react";
+import { Check, Clock, Lock, Play } from "lucide-react";
 import { startLesson } from "@/app/(student)/student/module/actions";
 import { DAY_INFO, PHASES } from "@/lib/module/plan";
+import { Chip, type Tone } from "@/components/ui";
+
+export { phaseOf } from "@/lib/module/plan";
+
+/** Mỗi giai đoạn một màu Google, dùng giống nhau ở thanh giai đoạn và dòng thời gian. */
+const PHASE_TONE: Tone[] = ["blue", "green", "yellow", "red", "blue"];
+const DOT: Record<Tone, string> = { blue: "bg-brand", green: "bg-success", yellow: "bg-gold", red: "bg-danger-bright", grey: "bg-line-strong" };
+const SOFT: Record<Tone, string> = { blue: "bg-brand-soft", green: "bg-success-soft", yellow: "bg-gold-soft", red: "bg-danger-soft", grey: "bg-sunken" };
+
+type DayState = "done" | "open" | "next" | "locked";
 
 /**
- * Lộ trình 14 ngày dạng đường đi (lấy hình thức từ Duolingo): mỗi giai đoạn có băng tiêu đề màu riêng, các ngày là nút tròn
- * lượn trái phải. Chỉ dùng dữ liệu thật: ngày đã xong, ngày tiếp theo, ngày chưa mở.
+ * Hành trình 14 ngày của một module: thanh 5 giai đoạn (đã xong / đang học / chưa mở, kèm số ngày) và dòng thời gian từng
+ * ngày (mục tiêu, thời lượng, trạng thái). Chỉ ngày tiếp theo bấm được. Chỉ dùng dữ liệu thật.
  */
 export default function ModulePath({ moduleId, completed, nextDay, open }: { moduleId: string; completed: number[]; nextDay: number | null; open: boolean }) {
+  const dayState = (d: number): DayState => (completed.includes(d) ? "done" : d === nextDay ? (open ? "open" : "next") : "locked");
   return (
-    <ol className="grid gap-8">
-      {PHASES.map((p) => (
-        <li key={p.no} className="grid gap-5">
-          <div className={`rounded-2xl px-5 py-4 ${PHASE_TONE[p.no - 1]}`}>
-            <p className="text-sm font-extrabold opacity-90">
-              Giai đoạn {p.no} · Ngày {p.days[0]}–{p.days[p.days.length - 1]}
-            </p>
-            <h3 className="text-xl font-extrabold">{p.titleVi}</h3>
-            <p className="opacity-90">{p.goalVi}</p>
-          </div>
-          <ul className="grid gap-4">
-            {p.days.map((d) => (
-              <PathDay key={d} day={d} state={completed.includes(d) ? "done" : d === nextDay ? (open ? "open" : "next") : "locked"} moduleId={moduleId} />
-            ))}
-          </ul>
-        </li>
-      ))}
-    </ol>
+    <div className="grid gap-8">
+      {/* Thanh 5 giai đoạn: nhìn một lần biết đã đi tới đâu. */}
+      <ol className="grid gap-2 sm:grid-cols-5" aria-label="Năm giai đoạn">
+        {PHASES.map((p, i) => {
+          const done = p.days.filter((d) => completed.includes(d)).length;
+          const current = nextDay !== null && (p.days as readonly number[]).includes(nextDay);
+          const finished = done === p.days.length;
+          return (
+            <li
+              key={p.no}
+              aria-current={current ? "step" : undefined}
+              className={`grid content-start gap-2 rounded-3xl p-4 ${current ? SOFT[PHASE_TONE[i]] : "bg-tint"}`}
+            >
+              <span className="flex items-center gap-2 text-sm font-medium text-muted">
+                <span aria-hidden className={`size-2.5 rounded-full ${DOT[PHASE_TONE[i]]}`} />
+                Giai đoạn {p.no}
+              </span>
+              <span className="font-medium">{p.titleVi}</span>
+              <span aria-hidden className="flex gap-1">
+                {p.days.map((d) => (
+                  <span key={d} className={`h-1.5 flex-1 rounded-full ${completed.includes(d) ? DOT[PHASE_TONE[i]] : "bg-line"}`} />
+                ))}
+              </span>
+              <span className="text-sm text-muted">
+                {finished ? "Đã xong" : current ? "Đang học" : done > 0 ? "Đang học" : "Chưa mở"} · {done}/{p.days.length} ngày
+              </span>
+            </li>
+          );
+        })}
+      </ol>
+
+      {/* Dòng thời gian từng ngày, nhóm theo giai đoạn. */}
+      <ol className="grid gap-8">
+        {PHASES.map((p, i) => (
+          <li key={p.no} className="grid gap-3">
+            <div className="grid gap-1">
+              <Chip tone={PHASE_TONE[i]}>
+                Giai đoạn {p.no} · Ngày {p.days[0]}–{p.days[p.days.length - 1]}
+              </Chip>
+              <h3 className="text-xl font-semibold tracking-tight">{p.titleVi}</h3>
+              <p className="max-w-prose text-muted">{p.goalVi}</p>
+            </div>
+            <ul className="grid">
+              {p.days.map((d, k) => (
+                <PathDay key={d} day={d} state={dayState(d)} moduleId={moduleId} tone={PHASE_TONE[i]} last={k === p.days.length - 1} />
+              ))}
+            </ul>
+          </li>
+        ))}
+      </ol>
+    </div>
   );
 }
 
-export const phaseOf = (day: number) => PHASES.find((p) => (p.days as readonly number[]).includes(day))!;
-
-// Băng tiêu đề giai đoạn: mỗi giai đoạn một màu (chữ trắng ≥ 4.6:1, riêng nền vàng dùng chữ đậm).
-const PHASE_TONE = [
-  "bg-forest text-on-forest",
-  "bg-sky-strong text-white",
-  "bg-gold text-ink",
-  "bg-berry text-white",
-  "bg-brand-strong text-white",
-];
-
-// Độ lệch ngang của nút theo ngày, lượn trái phải như đường đi (px). Hằng số, không phải dữ liệu.
-const OFFSET = [0, 44, 72, 44, 0, -44, -72, -44];
-
-/**
- * Một ngày trên đường đi. Chỉ ngày tiếp theo bấm được (bắt đầu hoặc học tiếp); ngày đã xong và ngày chưa mở chỉ để xem.
- * Trạng thái luôn có cả biểu tượng và chữ, không chỉ dựa vào màu. Nhãn nằm phía ngược với hướng lệch của nút.
- */
-function PathDay({ day, state, moduleId }: { day: number; state: "done" | "open" | "next" | "locked"; moduleId: string }) {
-  const off = OFFSET[(day - 1) % OFFSET.length];
+/** Một ngày: nốt tròn trên đường dọc (dấu tích / nút bắt đầu / ổ khóa), tên ngày, mục tiêu, thời lượng. Luôn có chữ trạng thái. */
+function PathDay({ day, state, moduleId, tone, last }: { day: number; state: DayState; moduleId: string; tone: Tone; last: boolean }) {
+  const info = DAY_INFO[day];
+  const active = state === "open" || state === "next";
   const status = state === "done" ? "Đã xong" : state === "open" ? "Đang làm" : state === "next" ? "Tiếp theo" : "Chưa mở";
-  const label = (
-    <span className={`grid gap-0.5 text-sm ${off > 0 ? "col-start-1 row-start-1 text-right" : "col-start-3 row-start-1"}`}>
-      <span className={`font-extrabold ${state === "locked" ? "text-muted" : "text-ink"}`}>Ngày {day}</span>
-      <span className="text-muted">{DAY_INFO[day].titleVi}</span>
-      <span className="font-bold text-muted">{status}</span>
-    </span>
-  );
-  const node =
-    state === "done" ? (
-      <span className="grid size-16 place-items-center rounded-full bg-brand text-on-brand shadow-[0_5px_0_var(--brand-strong)]">
-        <Check className="size-8" strokeWidth={3.5} aria-hidden />
-      </span>
-    ) : state === "locked" ? (
-      <span className="grid size-16 place-items-center rounded-full bg-line text-muted shadow-[0_5px_0_var(--line-strong)]">
-        <Lock className="size-6" aria-hidden />
-      </span>
-    ) : (
-      <form action={startLesson} className="relative">
-        <input type="hidden" name="moduleId" value={moduleId} />
-        <input type="hidden" name="day" value={day} />
-        <span aria-hidden className="nudge absolute -top-11 left-1/2 whitespace-nowrap rounded-xl border-2 border-line bg-surface px-3 py-1 text-sm font-extrabold text-brand-strong">
-          {state === "open" ? "Học tiếp" : "Bắt đầu"}
-        </span>
-        <button
-          type="submit"
-          aria-label={`Ngày ${day}: ${DAY_INFO[day].titleVi}. ${state === "open" ? "Học tiếp" : "Bắt đầu"}`}
-          className="grid size-[4.5rem] place-items-center rounded-full bg-brand text-on-brand ring-4 ring-brand-soft ring-offset-4 transition-transform btn-3d [--depth:var(--brand-strong)]"
-        >
-          <Play className="size-8 fill-current" aria-hidden />
-        </button>
-      </form>
-    );
   return (
-    <li className="grid grid-cols-[1fr_auto_1fr] items-center gap-x-3">
-      {/* Lệch ngang ở khung ngoài, hiệu ứng nảy ở khung trong (hai transform không đè nhau). */}
-      <span className="col-start-2 row-start-1" style={{ transform: `translateX(${off}px)` }}>
-        <span className="pop-in block" style={{ ["--i" as string]: day }}>
-          {node}
+    <li className="grid grid-cols-[2.75rem_1fr] gap-x-4">
+      <div className="relative flex justify-center">
+        {!last && <span aria-hidden className="absolute bottom-0 top-11 w-0.5 bg-line" />}
+        <span
+          className={`relative grid size-11 place-items-center rounded-full ${
+            state === "done" ? `${DOT[tone]} text-white` : active ? "bg-brand text-on-brand ring-4 ring-brand-tonal" : "bg-sunken text-muted"
+          }`}
+        >
+          {state === "done" ? <Check className="size-5" strokeWidth={3} aria-hidden /> : active ? <Play className="size-5 fill-current" aria-hidden /> : <Lock className="size-4" aria-hidden />}
         </span>
-      </span>
-      {label}
+      </div>
+      <div className={`mb-3 grid gap-2 rounded-3xl px-5 py-4 ${active ? "bg-brand-soft" : ""}`}>
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <p className={`font-medium ${state === "locked" ? "text-muted" : ""}`}>
+            Ngày {day}: {info.titleVi}
+          </p>
+          <span className="text-sm font-medium text-muted">{status}</span>
+        </div>
+        {(active || state === "done") && <p className={state === "done" ? "text-sm text-muted" : ""}>{info.goalVi}</p>}
+        <div className="flex flex-wrap items-center gap-3">
+          <span className="inline-flex items-center gap-1.5 text-sm text-muted">
+            <Clock className="size-4" aria-hidden />
+            Khoảng {info.minutes} phút
+          </span>
+          {active && (
+            <form action={startLesson}>
+              <input type="hidden" name="moduleId" value={moduleId} />
+              <input type="hidden" name="day" value={day} />
+              <button
+                type="submit"
+                aria-label={`Ngày ${day}: ${info.titleVi}. ${state === "open" ? "Học tiếp" : "Bắt đầu"}`}
+                className="press inline-flex min-h-11 items-center gap-2 rounded-full bg-brand px-5 font-medium text-on-brand hover:shadow-card"
+              >
+                <Play className="size-4 fill-current" aria-hidden />
+                {state === "open" ? "Học tiếp" : "Bắt đầu"}
+              </button>
+            </form>
+          )}
+        </div>
+        {active && <p className="text-sm text-muted">Xong bài khi: {info.doneVi}</p>}
+      </div>
     </li>
   );
 }

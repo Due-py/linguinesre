@@ -12,18 +12,18 @@ export default function SessionList({ sessions, hrefFor }: { sessions: SessionRo
         <li key={s.id}>
           <Link href={hrefFor(s)} className="group grid grid-cols-[1fr_auto] items-center gap-4 py-4">
             <span className="grid gap-0.5">
-              <span className="font-extrabold group-hover:underline">
+              <span className="font-medium group-hover:underline">
                 {s.unitNo ? `Unit ${s.unitNo}: ` : ""}
                 <span lang="en">{s.unitTitle}</span>
               </span>
               <span className="flex flex-wrap items-center gap-x-3 text-sm text-muted">
                 {s.status === "completed" ? (
-                  <span className="inline-flex items-center gap-1 font-bold text-brand-strong">
+                  <span className="inline-flex items-center gap-1 font-medium text-success">
                     <CircleCheck className="size-4" aria-hidden />
                     Hoàn thành
                   </span>
                 ) : (
-                  <span className="inline-flex items-center gap-1 font-bold text-warn">
+                  <span className="inline-flex items-center gap-1 font-medium text-warn">
                     <CircleDashed className="size-4" aria-hidden />
                     Đang làm {s.answered}/{s.total} câu
                   </span>

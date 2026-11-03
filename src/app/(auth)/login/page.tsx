@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Check } from "lucide-react";
 import AuthShell from "@/components/AuthShell";
 import { CodeLoginForm, LoginForm } from "@/components/AuthForms";
 
@@ -18,7 +19,7 @@ export default async function LoginPage({ searchParams }: { searchParams: Promis
       title="Đăng nhập"
       lead={email ? "Dùng email và mật khẩu bạn đã đăng ký." : "Nhập mã học sinh và PIN trên phiếu đăng nhập của bạn."}
     >
-      <nav aria-label="Cách đăng nhập" className="grid grid-cols-2 gap-2">
+      <nav aria-label="Cách đăng nhập" className="grid grid-cols-2 overflow-hidden rounded-full border border-line-strong">
         <Tab href="/login" current={!email}>
           Mã học sinh
         </Tab>
@@ -36,10 +37,11 @@ function Tab({ href, current, children }: { href: string; current: boolean; chil
     <Link
       href={href}
       aria-current={current ? "page" : undefined}
-      className={`option-card inline-flex min-h-12 items-center justify-center px-3 font-extrabold ${
-        current ? "border-sky! bg-sky-soft! text-sky-strong" : "text-muted hover:text-ink"
+      className={`inline-flex min-h-12 items-center justify-center gap-2 px-3 font-medium transition-colors [&+&]:border-l [&+&]:border-line-strong ${
+        current ? "bg-brand-tonal text-brand-strong" : "text-ink hover:bg-sunken"
       }`}
     >
+      {current && <Check className="size-4" aria-hidden />}
       {children}
     </Link>
   );

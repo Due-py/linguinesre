@@ -6,7 +6,7 @@ import { CircleAlert, CircleCheck, LoaderCircle } from "lucide-react";
 import type { FormState } from "@/lib/form";
 
 export const inputClass =
-  "h-[52px] w-full rounded-2xl border-2 border-line bg-sunken px-4 text-base font-semibold text-ink placeholder:font-medium placeholder:text-muted/80 transition-colors hover:border-line-strong focus:border-sky focus:bg-surface focus:outline-none aria-[invalid=true]:border-danger";
+  "h-14 w-full rounded-xl border border-line-strong bg-surface px-4 text-base text-ink placeholder:text-muted transition-colors hover:border-ink focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand aria-[invalid=true]:border-danger aria-[invalid=true]:ring-danger";
 
 /** Ô nhập có nhãn, gợi ý và lỗi gắn đúng bằng aria (trình đọc màn hình đọc được). */
 export function Field({
@@ -80,16 +80,16 @@ export function SubmitButton({
   className?: string;
 }) {
   const { pending } = useFormStatus();
-  // duo:… là kiểu nút dày 3D (ngoài trang nghiên cứu); phần còn lại giữ như cũ cho .theme-classic.
+  // app:… là kiểu nút Google (viên thuốc, lún nhẹ khi bấm) ngoài trang nghiên cứu; phần còn lại giữ như cũ cho .theme-classic.
   const styles =
     variant === "primary"
-      ? "bg-brand text-on-brand shadow-button hover:bg-brand-strong duo:hover:bg-brand"
-      : "border border-line-strong bg-surface text-ink hover:bg-sunken duo:border-2 duo:border-line duo:text-sky-strong duo:[--depth:var(--line)]";
+      ? "bg-brand text-on-brand shadow-button hover:bg-brand-strong app:hover:shadow-card"
+      : "border border-line-strong bg-surface text-ink hover:bg-sunken app:border-line app:text-brand app:hover:bg-brand-soft";
   return (
     <button
       type="submit"
       disabled={pending}
-      className={`inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 text-base font-bold transition-colors disabled:cursor-wait disabled:opacity-70 duo:rounded-2xl duo:font-extrabold duo:btn-3d ${styles} ${className}`}
+      className={`inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 text-base font-bold transition-colors disabled:cursor-wait disabled:opacity-70 app:font-medium app:press ${styles} ${className}`}
     >
       {pending && <LoaderCircle className="size-5 animate-spin" aria-hidden />}
       {pending ? pendingLabel : children}

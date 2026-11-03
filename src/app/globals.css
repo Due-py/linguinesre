@@ -1,46 +1,56 @@
 @import "tailwindcss";
 
 /*
- * Token thiết kế của LINGUA-REFLEX: sáng, vui, bo tròn, nút "dày" có đáy 3D (lấy cảm hứng từ Duolingo). Quy tắc: DESIGN.md.
+ * Hệ thiết kế của LINGUA-REFLEX: sáng, rộng rãi, chữ Google Sans lớn và tự tin, màu Google dùng có chủ đích
+ * (xanh dương: thao tác; xanh lá: tiến bộ, đúng; vàng: điểm nhấn, chú ý; đỏ: lỗi, cảnh báo). Quy tắc: DESIGN.md.
  * Trang nghiên cứu (bài kiểm tra, chế độ A/B, trang chờ) bọc trong .theme-classic để giữ nguyên giao diện cũ tới hết
- * nghiên cứu: .theme-classic đặt lại đúng các token cũ, và biến thể duo: chỉ áp dụng bên ngoài .theme-classic.
+ * nghiên cứu: .theme-classic đặt lại đúng các token cũ, và biến thể app: chỉ áp dụng bên ngoài .theme-classic.
  */
 :root {
   --bg: #ffffff;
   --surface: #ffffff;
-  --sunken: #f7f7f7; /* khối nhấn nhẹ, ô nhập */
-  --ink: #3c3c3c; /* chữ chính (11:1 trên trắng) */
-  --muted: #6f6f6f; /* chữ phụ (5.0:1 trên trắng, 4.7:1 trên sunken) */
-  --line: #e5e5e5;
-  --line-strong: #dadada;
-  --brand: #3a8500; /* xanh lá: nút chính, liên kết, tiến độ. Chữ trắng trên nền này 4.6:1 */
-  --brand-strong: #2c6600; /* hover, đáy 3D của nút, chữ trên brand-soft (6.3:1) */
-  --brand-soft: #d7ffb8;
-  --brand-bright: #58cc02; /* xanh tươi, chỉ để trang trí (thanh tiến độ, hình), không đặt chữ lên */
+  --sunken: #f1f3f4; /* nền phụ trung tính: ô nhập, khối nhấn nhẹ */
+  --tint: #f8fafd; /* nền vùng rất nhạt, hơi xanh: dải nội dung, khung xem trước */
+  --ink: #202124; /* chữ chính (16:1) */
+  --muted: #5f6368; /* chữ phụ (6.0:1 trên trắng, 5.4:1 trên sunken) */
+  --line: #dadce0;
+  --line-strong: #80868b; /* viền ô nhập, nút viền (3.7:1 trên trắng, đủ cho thành phần không phải chữ) */
+  --brand: #1a73e8; /* xanh dương Google: nút chính, liên kết, mục đang chọn. Chữ trắng 4.5:1 */
+  --brand-strong: #185abc; /* hover; chữ trên brand-soft (5.7:1) */
+  --brand-soft: #e8f0fe;
+  --brand-tonal: #d2e3fc; /* viên thuốc nhấn trong tiêu đề, nền tab đang chọn */
   --on-brand: #ffffff;
-  --sky: #1899d6; /* nút nghe, lựa chọn đang chọn (biểu tượng trắng 3.2:1) */
-  --sky-strong: #0b6fa6; /* chữ trên sky-soft (4.8:1) */
-  --sky-soft: #ddf4ff;
-  --sky-shadow: #08537d;
-  --gold: #ffc800; /* ô thành tích, ngôi sao. Chữ trên nền này dùng ink (7.1:1) */
-  --gold-soft: #fff6d6;
-  --gold-shadow: #e0a800;
-  --berry: #8a3fd1; /* nhãn "Từ mới" (4.8:1 trên berry-soft) */
-  --berry-soft: #f4e8ff;
-  --warn: #7a4e00;
-  --warn-soft: #fff4dc;
-  --danger: #c81e1e;
-  --danger-soft: #ffdfe0;
-  --forest: #2f7a00; /* mảng màu lớn: khối "Hôm nay", băng tiêu đề giai đoạn. Chữ trắng 5.4:1 */
-  --on-forest: #ffffff;
-  --on-forest-muted: #e8ffd6; /* 5.0:1 trên forest */
+  --success: #188038; /* xanh lá: đúng, đạt, tiến độ (chữ 5.0:1 trên trắng) */
+  --success-strong: #137333;
+  --success-soft: #e6f4ea;
+  --success-bright: #34a853; /* chỉ để trang trí, thanh tiến độ */
+  --gold: #f9ab00; /* vàng: điểm nhấn, chú ý. Chữ trên nền vàng dùng ink */
+  --gold-soft: #fef7e0;
+  --warn: #8a4a00; /* "chưa đạt", cảnh báo nhẹ (6.4:1 trên gold-soft) */
+  --warn-soft: #fef7e0;
+  --danger: #c5221f; /* lỗi, thao tác không hoàn tác được */
+  --danger-soft: #fce8e6;
+  --danger-bright: #ea4335; /* đèn ghi âm, chấm đỏ */
 
-  --font-app: var(--font-nunito);
-  --heading-tracking: -0.01em;
-  --shadow-button: 0 4px 0 var(--brand-strong);
-  --shadow-card:
-    0 0 0 2px var(--line),
-    0 4px 0 0 var(--line);
+  /* Tên cũ giữ cho mã đang dùng: sky = xanh dương, berry = đỏ Google, forest = khối nhấn xanh dương nhạt. */
+  --sky: var(--brand);
+  --sky-strong: var(--brand-strong);
+  --sky-soft: var(--brand-soft);
+  --sky-shadow: #174ea6;
+  --berry: #a50e0e;
+  --berry-soft: #fce8e6;
+  --gold-shadow: #b06000;
+  --brand-bright: var(--success-bright);
+  --forest: var(--brand-soft);
+  --on-forest: var(--ink);
+  --on-forest-muted: #3c4043;
+
+  --font-app: var(--font-google-sans);
+  --heading-tracking: -0.02em;
+  --shadow-button: none;
+  /* Độ nổi kiểu Material: rất nhẹ, chỉ cho phần nổi trên nền (thanh menu dính, thẻ khi rê chuột). */
+  --shadow-card: 0 1px 2px rgb(60 64 67 / 0.3), 0 1px 3px 1px rgb(60 64 67 / 0.15);
+  --shadow-float: 0 1px 3px rgb(60 64 67 / 0.3), 0 4px 8px 3px rgb(60 64 67 / 0.15);
 }
 
 /* Giao diện cũ kiểu Stripe/Linear, chỉ cho trang nghiên cứu. Giá trị giữ đúng như bản 30/10, KHÔNG sửa tới hết nghiên cứu. */
@@ -84,13 +94,14 @@
   font-feature-settings: "cv11", "ss01";
 }
 
-/* duo:… chỉ có tác dụng ngoài trang nghiên cứu. Dùng cho thành phần dùng chung (nút, khung trang) để trang nghiên cứu không đổi. */
-@custom-variant duo (&:not(:where(.theme-classic, .theme-classic *)));
+/* app:… chỉ có tác dụng ngoài trang nghiên cứu. Dùng cho thành phần dùng chung (nút, khung trang) để trang nghiên cứu không đổi. */
+@custom-variant app (&:not(:where(.theme-classic, .theme-classic *)));
 
 @theme inline {
   --color-bg: var(--bg);
   --color-surface: var(--surface);
   --color-sunken: var(--sunken);
+  --color-tint: var(--tint);
   --color-ink: var(--ink);
   --color-muted: var(--muted);
   --color-line: var(--line);
@@ -98,8 +109,13 @@
   --color-brand: var(--brand);
   --color-brand-strong: var(--brand-strong);
   --color-brand-soft: var(--brand-soft);
+  --color-brand-tonal: var(--brand-tonal);
   --color-brand-bright: var(--brand-bright);
   --color-on-brand: var(--on-brand);
+  --color-success: var(--success);
+  --color-success-strong: var(--success-strong);
+  --color-success-soft: var(--success-soft);
+  --color-success-bright: var(--success-bright);
   --color-sky: var(--sky);
   --color-sky-strong: var(--sky-strong);
   --color-sky-soft: var(--sky-soft);
@@ -113,17 +129,18 @@
   --color-warn-soft: var(--warn-soft);
   --color-danger: var(--danger);
   --color-danger-soft: var(--danger-soft);
+  --color-danger-bright: var(--danger-bright);
   --color-forest: var(--forest);
   --color-on-forest: var(--on-forest);
   --color-on-forest-muted: var(--on-forest-muted);
   --font-sans: var(--font-app), system-ui, sans-serif;
 }
 
-/* Chữ tròn, đậm như Duolingo (Nunito). Trang nghiên cứu đặt lại 600/650 trong .theme-classic. */
+/* Google Sans: tiêu đề 600 như trang sản phẩm của Google, nhãn và nút 500. Trang nghiên cứu đặt lại trong .theme-classic. */
 @theme {
-  --font-weight-bold: 700;
-  --font-weight-extrabold: 800;
-  --tracking-tight: -0.01em;
+  --font-weight-bold: 600;
+  --font-weight-extrabold: 600;
+  --tracking-tight: -0.02em;
 }
 
 @utility shadow-button {
@@ -132,44 +149,39 @@
 @utility shadow-card {
   box-shadow: var(--shadow-card);
 }
+@utility shadow-float {
+  box-shadow: var(--shadow-float);
+}
 
-/*
- * Nút 3D: đáy dày 4px cùng màu đậm hơn; bấm xuống thì nút lún đúng 4px và đáy biến mất.
- * --depth đổi màu đáy theo từng loại nút (xanh lá, xanh dương, xám).
- */
-@utility btn-3d {
-  box-shadow: 0 4px 0 var(--depth, var(--brand-strong));
+/* Phản hồi khi bấm: nút lún nhẹ (thay cho hiệu ứng gợn sóng của Material, không cần JavaScript). */
+@utility press {
   transition:
-    transform 80ms ease-out,
-    box-shadow 80ms ease-out,
+    transform 120ms cubic-bezier(0.2, 0, 0, 1),
     background-color 150ms,
-    filter 150ms;
-  &:hover:not(:disabled) {
-    filter: brightness(1.06);
-  }
+    box-shadow 150ms,
+    border-color 150ms,
+    color 150ms;
   &:active:not(:disabled) {
-    transform: translateY(4px);
-    box-shadow: 0 0 0 var(--depth, var(--brand-strong));
+    transform: scale(0.97);
   }
 }
 
-/* Thẻ lựa chọn: viền 2px, đáy 4px; đang chọn thì xanh dương (kèm chữ hoặc dấu, không chỉ màu). */
+/* Thẻ lựa chọn kiểu Google: viền mảnh, bo 16px, rê chuột thì nền xám nhạt; đang chọn thì nền xanh nhạt (kèm chữ hoặc dấu). */
 @utility option-card {
-  border: 2px solid var(--line);
-  border-bottom-width: 4px;
+  border: 1px solid var(--line);
   border-radius: 1rem;
   background: var(--surface);
   transition:
     background-color 150ms,
     border-color 150ms,
-    transform 80ms;
+    box-shadow 150ms,
+    transform 120ms cubic-bezier(0.2, 0, 0, 1);
   &:hover:not(:disabled) {
-    background: var(--sunken);
+    background: var(--tint);
+    border-color: var(--line-strong);
   }
   &:active:not(:disabled) {
-    transform: translateY(2px);
-    border-bottom-width: 2px;
-    margin-bottom: 2px;
+    transform: scale(0.99);
   }
 }
 
@@ -193,7 +205,7 @@ body {
   min-height: 100dvh;
   font-family: var(--font-sans);
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
@@ -211,14 +223,7 @@ h3 {
   border-radius: 0.5rem;
 }
 
-/* ---- Chuyển động ------------------------------------------------------------------------------------------------
- * Ý tưởng lấy từ 4 video tham khảo (files/Design Inspiration 1–4), không lấy giao diện:
- *  1 (HopeRise): số đếm tăng dần, vòng tròn trôi nổi, thẻ nổi lên khi chọn.
- *  2 (ZeBeyond): chữ sáng dần từng từ, biểu đồ tự vẽ, khối trồi lên chồng lên khối trước.
- *  3 (Vertex): các tầng mở rộng khi chọn, công trình "mọc" lên theo từng giai đoạn.
- *  4 (Mirko): ảnh nhỏ phóng to thành khối lớn.
- * Tất cả tắt khi người dùng chọn giảm chuyển động (cuối file).
- */
+/* ---- Chuyển động: ngắn, êm (đường cong "emphasized" của Material), luôn phục vụ việc học. Tắt khi giảm chuyển động. */
 
 @keyframes rise-in {
   from {
@@ -231,7 +236,7 @@ h3 {
   }
 }
 .rise-in {
-  animation: rise-in 0.5s ease-out both;
+  animation: rise-in 0.5s cubic-bezier(0.2, 0, 0, 1) both;
 }
 .rise-in-2 {
   animation-delay: 0.08s;
@@ -240,31 +245,27 @@ h3 {
   animation-delay: 0.16s;
 }
 
-/* Nảy vào (nút trên lộ trình, ô thành tích), lần lượt theo --i. */
+/* Hiện lần lượt (danh sách, ô số liệu), theo --i. */
 @keyframes pop-in {
-  0% {
+  from {
     opacity: 0;
-    transform: scale(0.6);
+    transform: translateY(6px) scale(0.98);
   }
-  70% {
+  to {
     opacity: 1;
-    transform: scale(1.06);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
+    transform: none;
   }
 }
 .pop-in {
-  animation: pop-in 0.45s cubic-bezier(0.2, 0.9, 0.3, 1.2) both;
-  animation-delay: calc(var(--i, 0) * 70ms);
+  animation: pop-in 0.4s cubic-bezier(0.2, 0, 0, 1) both;
+  animation-delay: calc(var(--i, 0) * 50ms);
 }
 
-/* Bảng nhận xét trồi lên từ dưới (khối chồng lên khối, video 2). */
+/* Khối nhận xét trồi lên từ dưới. */
 @keyframes sheet-up {
   from {
     opacity: 0;
-    transform: translateY(24px);
+    transform: translateY(16px);
   }
   to {
     opacity: 1;
@@ -272,24 +273,10 @@ h3 {
   }
 }
 .sheet-up {
-  animation: sheet-up 0.32s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  animation: sheet-up 0.35s cubic-bezier(0.2, 0, 0, 1) both;
 }
 
-/* Chữ sáng dần từng từ (video 2): mỗi từ từ màu nhạt sang màu chữ chính. */
-@keyframes word-light {
-  from {
-    color: var(--line-strong);
-  }
-  to {
-    color: var(--ink);
-  }
-}
-.word-light > span {
-  animation: word-light 0.5s ease-out both;
-  animation-delay: calc(0.3s + var(--i, 0) * 90ms);
-}
-
-/* Vạch / cột tự dài ra (biểu đồ tự vẽ, video 2). */
+/* Thanh / cột tự dài ra (biểu đồ tự vẽ). */
 @keyframes grow {
   from {
     transform: scaleX(0);
@@ -300,95 +287,53 @@ h3 {
 }
 .grow-x {
   transform-origin: left;
-  animation: grow 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both;
-  animation-delay: calc(0.15s + var(--i, 0) * 80ms);
-}
-
-/* Linh vật: nhún nhẹ, chớp mắt, nhảy mừng. */
-@keyframes bob {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-5px);
-  }
-}
-@keyframes blink {
-  0%,
-  92%,
-  100% {
-    transform: scaleY(1);
-  }
-  95% {
-    transform: scaleY(0.1);
-  }
-}
-@keyframes cheer {
-  0%,
-  100% {
-    transform: translateY(0) rotate(0);
-  }
-  30% {
-    transform: translateY(-14px) rotate(-4deg);
-  }
-  60% {
-    transform: translateY(0) rotate(3deg);
-  }
-}
-.mascot-bob {
-  animation: bob 2.6s ease-in-out infinite;
-}
-.mascot-cheer {
-  animation: cheer 0.9s ease-in-out 2;
-}
-.mascot-eye {
-  transform-box: fill-box;
-  transform-origin: center;
-  animation: blink 4.5s infinite;
+  animation: grow 0.7s cubic-bezier(0.2, 0, 0, 1) both;
+  animation-delay: calc(0.15s + var(--i, 0) * 60ms);
 }
 
 /* Nhãn "Bắt đầu" trên lộ trình nảy nhẹ. */
 @keyframes nudge {
   0%,
   100% {
-    transform: translate(-50%, 0);
+    transform: translateY(0);
   }
   50% {
-    transform: translate(-50%, -5px);
+    transform: translateY(-3px);
   }
 }
 .nudge {
-  animation: nudge 1.6s ease-in-out infinite;
+  animation: nudge 1.8s ease-in-out infinite;
 }
 
-/* Vòng tròn trôi nổi (video 1). */
-@keyframes drift {
-  0%,
-  100% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(var(--dx, 6px), var(--dy, -10px));
-  }
-}
-.drift {
-  animation: drift var(--t, 6s) ease-in-out infinite;
-}
-
-/* Vòng sáng quanh nút micro khi đang nghe. */
+/* Vòng sáng quanh nút micro khi đang ghi âm. */
 @keyframes ring {
   from {
     transform: scale(1);
-    opacity: 0.55;
+    opacity: 0.45;
   }
   to {
-    transform: scale(1.55);
+    transform: scale(1.5);
     opacity: 0;
   }
 }
 .listen-ring {
-  animation: ring 1.4s ease-out infinite;
+  animation: ring 1.6s cubic-bezier(0.2, 0, 0, 1) infinite;
+}
+
+/* Sóng âm minh họa (trang chủ): các cột nhún lên xuống lệch nhịp theo --i. */
+@keyframes wave {
+  0%,
+  100% {
+    transform: scaleY(0.35);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+.wave-live > span {
+  transform-origin: center;
+  animation: wave 1.2s ease-in-out infinite;
+  animation-delay: calc(var(--i, 0) * -110ms);
 }
 
 /* Khối hiện dần khi cuộn tới (chỉ trình duyệt hỗ trợ; trình duyệt khác hiện ngay, không mất nội dung). */
@@ -396,7 +341,7 @@ h3 {
   .reveal {
     animation: rise-in linear both;
     animation-timeline: view();
-    animation-range: entry 0% entry 60%;
+    animation-range: entry 0% entry 50%;
   }
 }
 
@@ -434,6 +379,19 @@ h3 {
   animation: countdown 6s linear infinite;
 }
 
+/* Vòng đếm ngược quanh nút micro (Speed Q&A): nét tròn rút ngắn dần trong thời gian đặt ở --dur. */
+@keyframes ring-countdown {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: var(--len);
+  }
+}
+.ring-countdown {
+  animation: ring-countdown var(--dur, 5s) linear forwards;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -451,5 +409,9 @@ h3 {
   }
   .reveal {
     animation: none;
+  }
+  .wave-live > span {
+    animation: none;
+    transform: scaleY(0.7);
   }
 }

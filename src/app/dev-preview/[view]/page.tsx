@@ -9,6 +9,9 @@ import ResearchHome from "@/components/ResearchHome";
 import ModeHome from "@/components/ModeHome";
 import TestRunner from "@/components/TestRunner";
 import ModulePath from "@/components/module/ModulePath";
+import HeardWords from "@/components/module/HeardWords";
+import { AssessPanel, MeasuredPanel } from "@/components/module/Panels";
+import { mockAssessment, verifyAssessment } from "@/lib/module/assessCore";
 import FeedbackPreview, { ReportPreview } from "./FeedbackPreview";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
@@ -68,7 +71,9 @@ export default async function Preview({ params }: { params: Promise<{ view: stri
             grade={8}
             classes={[{ id: "1", name: "8A1" }]}
             today={{ kind: "continue", href: "#", unitTitle: "Life in the Countryside", answered: 2, total: 5 }}
-            roadmap={roadmap.map((u, i) => ({ ...u, state: i === 0 ? "done" : i === 1 ? "in_progress" : "todo" }))}
+            module={{ id: "preview", unitNo: 7, title: "Environmental Protection", titleVi: "Bảo vệ môi trường", nextDay: 5, started: true, inProgress: false, daysDone: 4 }}
+            moduleErrors={[{ label: "Thiếu -s/-es sau chủ ngữ số ít (he, she, it)", count: 3 }, { label: "Dùng sai giới từ", count: 2 }]}
+            roadmap={roadmap.map((u, i) => ({ ...u, state: i === 0 ? "done" : i === 1 ? "in_progress" : "todo", moduleId: "preview", daysDone: i === 0 ? 14 : i === 1 ? 4 : 0 }))}
             recent={recent}
             focus={{
               completed: 3,
@@ -143,6 +148,26 @@ export default async function Preview({ params }: { params: Promise<{ view: stri
       const qs = m.variations.map((v, i) => ({ id: `00000000-0000-0000-0000-00000000000${i}`, key: `q0${i + 1}`, text: v.questions[0], difficulty: (i % 3) + 1, keywords: v.keywords, expectsReason: v.expectsReason, hints: [{ level: 1 as const, title: "Hướng nghĩ", body: v.ideaVi, lang: "vi" as const }] }));
       const lesson = buildLesson({ day: 6, module: m, unitQuestions: qs, history: [], seed: "preview", now: Date.parse("2026-11-20T00:00:00Z") });
       return <LessonRunner lessonId="preview" moduleId="preview" day={6} titleVi={lesson.titleVi} notesVi={["Ví dụ ghi chú: bài hôm nay có nhiều câu khó hơn vì kết quả ngày 3 tốt."]} steps={lesson.steps} content={m} rows={[]} startAt={0} />;
+    }
+    case "module-feedback": {
+      // Dữ liệu mẫu (không phải lời học sinh thật): phản hồi sau một câu nói trong module.
+      const t = "I think we should recycle plastic bottles because it reduce waste";
+      return (
+        <AppShell name="Minh Anh" roleLabel="Học sinh" homeHref="#" nav={STUDENT_NAV} current="/student/practice">
+          <div className="mx-auto grid max-w-2xl gap-5">
+            <MeasuredPanel
+              m={{ words: 11, thinkMs: 2400, speakMs: 4200, wpm: 157, longPauses: 1, clarity: 0.82, unclear: false, lowWords: ["recycle", "reduce"] }}
+              keywords={["recycle", "plastic", "waste"]}
+              keywordsUsed={["recycle", "plastic", "waste"]}
+              reason="yes"
+              targetMs={3000}
+              inTarget={true}
+            />
+            <HeardWords transcript={t} lowWords={["recycle", "reduce"]} />
+            <AssessPanel a={verifyAssessment(mockAssessment(t), t)} mock />
+          </div>
+        </AppShell>
+      );
     }
     case "module-path":
       // Dữ liệu mẫu: đã xong ngày 1–4, ngày 5 tiếp theo.

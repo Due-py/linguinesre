@@ -21,7 +21,7 @@ export function SourceBadge({ src, approved }: { src: { kind: "sgk" | "team"; pa
         {src.kind === "sgk" ? `SGK tr. ${src.page}` : "Nhóm soạn"}
       </span>
       {approved && (
-        <span className="inline-flex w-fit items-center gap-1 rounded-full bg-brand-soft px-2.5 py-0.5 text-xs font-bold text-brand-strong">
+        <span className="inline-flex w-fit items-center gap-1 rounded-full bg-success-soft px-2.5 py-0.5 text-xs font-medium text-success-strong">
           <CircleCheck className="size-3.5" aria-hidden />
           Thầy cô đã duyệt
         </span>
@@ -33,13 +33,50 @@ export function SourceBadge({ src, approved }: { src: { kind: "sgk" | "team"; pa
 function Row({ label, value, detail }: { label: string; value: React.ReactNode; detail?: React.ReactNode }) {
   return (
     <div className="grid gap-0.5 py-2.5 sm:grid-cols-[12rem_1fr] sm:gap-3">
-      <dt className="text-sm font-bold text-muted">{label}</dt>
+      <dt className="text-sm font-medium text-muted">{label}</dt>
       <dd className="grid gap-0.5">
-        <span className="font-semibold">{value}</span>
+        <span className="font-medium">{value}</span>
         {detail && <span className="text-sm text-muted">{detail}</span>}
       </dd>
     </div>
   );
+}
+
+/** Một ô số đo: tên tiêu chí, giá trị, ghi chú ngắn. ok: true = đạt (xanh lá), false = nên luyện (vàng), null = trung tính. */
+function Metric({ label, value, note, ok = null }: { label: string; value: React.ReactNode; note?: React.ReactNode; ok?: boolean | null }) {
+  return (
+    <div className={`grid content-start gap-1 rounded-2xl px-4 py-3 ${ok === true ? "bg-success-soft" : ok === false ? "bg-warn-soft" : "bg-tint"}`}>
+      <dt className="text-sm text-muted">{label}</dt>
+      <dd className="grid gap-0.5">
+        <span className={`text-lg font-medium ${ok === true ? "text-success-strong" : ok === false ? "text-warn" : ""}`}>{value}</span>
+        {note && <span className="text-sm text-muted">{note}</span>}
+      </dd>
+    </div>
+  );
+}
+
+/**
+ * Tóm tắt có thể làm theo ngay, tính bằng quy tắc từ số đo thật (không AI, không điểm tổng): tối đa 2 điều em làm tốt và
+ * 1 điều nên luyện tiếp. Ưu tiên điều quan trọng nhất cho phản xạ nói: bắt đầu kịp, nói đủ ý có lý do, dùng từ của bài.
+ */
+export function measuredSummary(
+  m: SpeechMeasures,
+  o: { keywords?: string[]; keywordsUsed?: string[]; reason?: "yes" | "no" | "not_required"; inTarget?: boolean | null },
+): { good: string[]; next: string | null } {
+  const good: string[] = [];
+  const todo: string[] = [];
+  if (o.inTarget === true) good.push("Bắt đầu nói kịp mục tiêu thời gian.");
+  if (o.inTarget === false) todo.push("Bắt đầu nói sớm hơn: nghe xong câu hỏi là mở lời ngay, ý chưa hoàn chỉnh cũng được.");
+  if (o.reason === "yes") good.push("Có nêu lý do cho câu trả lời.");
+  if (o.reason === "no") todo.push("Thêm một lý do với “because…” hoặc “so…”.");
+  const kw = o.keywords?.length ?? 0;
+  const used = o.keywordsUsed?.length ?? 0;
+  if (kw > 0 && used >= Math.ceil(kw / 2)) good.push(`Dùng được ${used} từ của bài.`);
+  if (kw > 0 && used === 0) todo.push("Thử dùng ít nhất một từ của bài trong câu trả lời.");
+  if (m.words >= 12) good.push("Câu trả lời đủ dài, có nhiều ý.");
+  if (m.words > 0 && m.words < 6) todo.push("Nói thành câu đầy đủ hơn: thêm chủ ngữ, động từ và một chi tiết.");
+  if (m.longPauses >= 2) todo.push("Bớt ngừng dài giữa câu: nghĩ trước ý chính, rồi nói liền một mạch.");
+  return { good: good.slice(0, 2), next: todo[0] ?? null };
 }
 
 export function MeasuredPanel({
@@ -57,46 +94,73 @@ export function MeasuredPanel({
   targetMs?: number | null;
   inTarget?: boolean | null;
 }) {
+  const sum = measuredSummary(m, { keywords, keywordsUsed, reason, inTarget });
   return (
-    <section className="grid gap-2 rounded-2xl border border-line bg-surface px-5 py-4">
-      <h3 className="flex items-center gap-2 text-lg font-extrabold">
-        <Ruler className="size-5" aria-hidden />
-        Đo trực tiếp
-      </h3>
-      <p className="text-sm text-muted">Máy tính bằng quy tắc từ bản ghi, không do AI. Thời gian tính từ lúc đọc xong câu hỏi.</p>
-      <dl className="grid divide-y divide-line">
-        <Row
+    <section className="sheet-up grid gap-4 rounded-[2rem] border border-line px-5 py-5 sm:px-6">
+      <div className="grid gap-1">
+        <h3 className="flex items-center gap-2 text-lg font-semibold">
+          <Ruler className="size-5 text-brand" aria-hidden />
+          Đo trực tiếp
+        </h3>
+        <p className="text-sm text-muted">Máy tính bằng quy tắc từ bản ghi, không do AI. Thời gian tính từ lúc đọc xong câu hỏi.</p>
+      </div>
+      {(sum.good.length > 0 || sum.next) && (
+        <div className="grid gap-2 sm:grid-cols-2">
+          {sum.good.length > 0 && (
+            <div className="grid content-start gap-1 rounded-2xl bg-success-soft px-4 py-3">
+              <p className="flex items-center gap-1.5 font-medium text-success-strong">
+                <CircleCheck className="size-4" aria-hidden />
+                Em làm tốt
+              </p>
+              <ul className="grid gap-0.5 text-sm">
+                {sum.good.map((g) => (
+                  <li key={g}>{g}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {sum.next && (
+            <div className="grid content-start gap-1 rounded-2xl bg-gold-soft px-4 py-3">
+              <p className="flex items-center gap-1.5 font-medium text-warn">
+                <Flag className="size-4" aria-hidden />
+                Nên luyện tiếp
+              </p>
+              <p className="text-sm">{sum.next}</p>
+            </div>
+          )}
+        </div>
+      )}
+      <dl className="grid gap-2 sm:grid-cols-2">
+        <Metric
           label="Bắt đầu nói sau"
-          value={
-            targetMs ? (
-              <span className="inline-flex items-center gap-1.5">
-                {inTarget ? <CircleCheck className="size-4 text-brand-strong" aria-hidden /> : <CircleDashed className="size-4" aria-hidden />}
-                {secs(m.thinkMs)} {inTarget === null ? "" : inTarget ? `(kịp mục tiêu ${secs(targetMs)})` : `(mục tiêu ${secs(targetMs)})`}
-              </span>
-            ) : (
-              secs(m.thinkMs)
-            )
-          }
+          value={secs(m.thinkMs)}
+          ok={targetMs && inTarget !== null && inTarget !== undefined ? inTarget : null}
+          note={targetMs ? (inTarget === null ? undefined : inTarget ? `Kịp mục tiêu ${secs(targetMs)}` : `Mục tiêu ${secs(targetMs)}`) : undefined}
         />
-        <Row label="Số từ" value={String(m.words)} />
-        <Row
+        <Metric label="Số từ" value={String(m.words)} />
+        <Metric
           label="Độ trôi chảy"
           value={m.wpm === null ? "chưa đủ lời để đo" : `${m.wpm} từ/phút`}
-          detail={m.longPauses > 0 ? `${m.longPauses} chỗ ngừng từ 1,5 giây trở lên` : "Không có chỗ ngừng dài"}
+          note={m.longPauses > 0 ? `${m.longPauses} chỗ ngừng từ 1,5 giây trở lên` : "Không có chỗ ngừng dài"}
         />
-        <Row
+        <Metric
           label="Máy nghe rõ"
           value={m.clarity === null ? "chưa đo được" : pct(m.clarity)}
-          detail="Tỷ lệ từ máy nghe chắc chắn. Đây không phải điểm phát âm: micro và tiếng ồn cũng ảnh hưởng."
+          note="Không phải điểm phát âm: micro và tiếng ồn cũng ảnh hưởng."
         />
         {keywords && keywords.length > 0 && (
-          <Row label="Từ gợi ý đã dùng" value={`${keywordsUsed?.length ?? 0}/${keywords.length}`} detail={keywordsUsed?.length ? <span lang="en">{keywordsUsed.join(", ")}</span> : undefined} />
+          <Metric
+            label="Từ gợi ý đã dùng"
+            value={`${keywordsUsed?.length ?? 0}/${keywords.length}`}
+            note={keywordsUsed?.length ? <span lang="en">{keywordsUsed.join(", ")}</span> : undefined}
+          />
         )}
         {reason && reason !== "not_required" && (
-          <Row
+          <Metric
             label="Nêu lý do"
             value={reason === "yes" ? "Có từ nối lý do" : "Chưa có"}
-            detail={reason === "no" ? "Câu hỏi này cần lý do. Thử thêm “because…” hoặc “so…”." : undefined}
+            ok={reason === "yes"}
+            note={reason === "no" ? "Câu hỏi này cần lý do. Thử thêm “because…” hoặc “so…”." : undefined}
           />
         )}
       </dl>
@@ -108,9 +172,9 @@ const NOT_ENOUGH = "Chưa đủ thông tin để nhận xét phần này.";
 
 export function AssessPanel({ a, mock }: { a: VerifiedAssessment; mock?: boolean }) {
   return (
-    <section className="grid gap-3 rounded-2xl bg-brand-soft px-5 py-4">
-      <h3 className="flex items-center gap-2 text-lg font-extrabold">
-        <MessageSquareText className="size-5" aria-hidden />
+    <section className="sheet-up grid gap-3 rounded-[2rem] bg-brand-soft px-5 py-5 sm:px-6">
+      <h3 className="flex items-center gap-2 text-lg font-semibold">
+        <MessageSquareText className="size-5 text-brand" aria-hidden />
         AI nhận xét
       </h3>
       <p className="text-sm text-muted">AI đọc chữ ghi lời nên không chấm phát âm. Mỗi phần nhận xét riêng, không có điểm tổng.</p>
@@ -217,7 +281,7 @@ export function ReportView({ r }: { r: ModuleReport }) {
   return (
     <div className="grid gap-6">
       <section className="grid gap-2">
-        <h3 className="flex items-center gap-2 text-lg font-extrabold">
+        <h3 className="flex items-center gap-2 text-lg font-semibold">
           <BookCheck className="size-5" aria-hidden />
           Kiến thức
         </h3>
@@ -232,7 +296,7 @@ export function ReportView({ r }: { r: ModuleReport }) {
           ).map(([label, v]) => (
             <div key={label} className="grid gap-0.5 bg-surface px-4 py-3">
               <dt className="text-sm text-muted">{label}</dt>
-              <dd className="font-extrabold tabular-nums">{ratio(v)}</dd>
+              <dd className="font-semibold tabular-nums">{ratio(v)}</dd>
             </div>
           ))}
         </dl>
@@ -251,7 +315,7 @@ export function ReportView({ r }: { r: ModuleReport }) {
       )}
       {r.delayed.pairs.length > 0 && (
         <section className="grid gap-2">
-          <h3 className="flex items-center gap-2 text-lg font-extrabold">
+          <h3 className="flex items-center gap-2 text-lg font-semibold">
             <History className="size-5" aria-hidden />
             Câu hỏi nhắc lại sau một tuần
           </h3>
@@ -261,7 +325,7 @@ export function ReportView({ r }: { r: ModuleReport }) {
       )}
       {r.roleplays.length > 0 && (
         <section className="grid gap-2">
-          <h3 className="flex items-center gap-2 text-lg font-extrabold">
+          <h3 className="flex items-center gap-2 text-lg font-semibold">
             <UsersRound className="size-5" aria-hidden />
             Micro-Roleplay
           </h3>
@@ -291,7 +355,7 @@ const CHECK: Record<Checkpoint["status"], { label: string; icon: React.ReactNode
 export function CheckpointList({ items }: { items: Checkpoint[] }) {
   return (
     <section className="grid gap-2">
-      <h3 className="flex items-center gap-2 text-lg font-extrabold">
+      <h3 className="flex items-center gap-2 text-lg font-semibold">
         <Flag className="size-5" aria-hidden />
         Kiểm tra cuối từng giai đoạn
       </h3>
@@ -299,10 +363,10 @@ export function CheckpointList({ items }: { items: Checkpoint[] }) {
         {items.map((c) => (
           <li key={c.phase} className="grid gap-1 rounded-2xl border-2 border-line px-4 py-3">
             <p className="flex flex-wrap items-center justify-between gap-2">
-              <span className="font-extrabold">
+              <span className="font-semibold">
                 Giai đoạn {c.phase} · ngày {c.day}: {c.titleVi}
               </span>
-              <span className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-0.5 text-sm font-extrabold ${CHECK[c.status].tone}`}>
+              <span className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-0.5 text-sm font-semibold ${CHECK[c.status].tone}`}>
                 {CHECK[c.status].icon}
                 {CHECK[c.status].label}
               </span>

@@ -82,7 +82,7 @@ export default function SessionReport({
           </section>
 
           {stats.goal && (
-            <section aria-labelledby="goal" className="grid content-start gap-3 rounded-2xl bg-forest px-6 py-6 text-on-forest">
+            <section aria-labelledby="goal" className="grid content-start gap-3 rounded-[2rem] bg-brand-soft px-6 py-6">
               <h2 id="goal" className="flex items-center gap-2 text-sm font-bold text-on-forest-muted">
                 <Flag className="size-4" aria-hidden />
                 {mode === "student" ? "Mục tiêu cho buổi sau" : "Mục tiêu gợi ý cho học sinh"}

@@ -229,7 +229,7 @@ export default function SessionRunner({
   if (phase === "done" || !q) {
     return (
       <Shell unitTitle={unitTitle} progress={`${questions.length}/${questions.length}`}>
-        <section className="grid gap-5 rounded-2xl bg-forest px-6 py-10 text-on-forest sm:px-10">
+        <section className="grid gap-5 rounded-[2rem] bg-brand-soft px-6 py-10 sm:px-10">
           <h1 className="text-balance text-4xl font-extrabold tracking-tight">Bạn đã trả lời đủ {questions.length} câu</h1>
           <p className="max-w-prose text-on-forest-muted">
             Các câu trả lời và nhận xét đã được lưu. Xem lại cả buổi và mục tiêu cho buổi sau ở trang tổng kết.
@@ -238,7 +238,7 @@ export default function SessionRunner({
             <input type="hidden" name="sessionId" value={sessionId} />
             <button
               type="submit"
-              className="inline-flex min-h-12 w-fit items-center gap-2 rounded-full bg-on-forest px-6 font-bold text-forest hover:bg-white"
+              className="press inline-flex min-h-12 w-fit items-center gap-2 rounded-full bg-brand px-6 font-medium text-on-brand hover:shadow-card"
             >
               Xem tổng kết buổi luyện
               <ArrowRight className="size-5" aria-hidden />
@@ -529,10 +529,10 @@ function RoundButton({
         disabled={busy}
         aria-label={label}
         className={`relative grid size-[104px] place-items-center rounded-full transition-transform active:scale-95 disabled:opacity-60 ${
-          tone === "listening" ? "bg-forest text-on-forest" : "bg-brand text-on-brand shadow-button"
+          tone === "listening" ? "bg-danger-bright text-white shadow-float" : "bg-brand text-on-brand shadow-float"
         }`}
       >
-        {tone === "listening" && <span className="absolute inset-0 animate-ping rounded-full bg-forest/30 motion-reduce:hidden" aria-hidden />}
+        {tone === "listening" && <span className="listen-ring absolute inset-0 rounded-full bg-danger-bright/40 motion-reduce:hidden" aria-hidden />}
         {icon}
       </button>
       <p className="text-center font-bold">{label}</p>
@@ -558,7 +558,7 @@ function LevelMeter({ level }: { level: number }) {
   return (
     <div className="flex h-8 items-end gap-1" aria-hidden>
       {Array.from({ length: bars }, (_, i) => (
-        <span key={i} className={`w-2 rounded-full transition-[height] duration-75 ${i < active ? "bg-forest" : "bg-line"}`} style={{ height: `${30 + ((i * 37) % 70)}%` }} />
+        <span key={i} className={`w-2 rounded-full transition-[height] duration-75 ${i < active ? "bg-brand" : "bg-line"}`} style={{ height: `${30 + ((i * 37) % 70)}%` }} />
       ))}
     </div>
   );

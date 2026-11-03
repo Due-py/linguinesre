@@ -4,7 +4,9 @@ import StudentHome, { type RoadmapUnit } from "@/components/StudentHome";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { listUnitsForGrade, todayTask } from "@/lib/practice";
-import { listModules, moduleToday } from "@/lib/module/server";
+import { listModules, moduleAttempts, moduleProgress, moduleToday, toHistory } from "@/lib/module/server";
+import { errorCounts } from "@/lib/module/plan";
+import { ERROR_TAGS } from "@/lib/module/schema";
 import { improvementFocus, listSessions, reactionSessions } from "@/lib/sessions";
 import { reactionTrend } from "@/lib/reaction";
 import ResearchHome from "@/components/ResearchHome";
@@ -49,7 +51,7 @@ export default async function StudentPage({ searchParams }: { searchParams: Prom
 
   // RLS: học sinh chỉ thấy lớp mình đã vào và buổi luyện của mình.
   const supabase = await createClient();
-  const [{ data: classes }, today, units, sessions, focus, reactionData, modules, module] = await Promise.all([
+  const [{ data: classes }, today, units, sessions, focus, reactionData, modules, module, progress] = await Promise.all([
     supabase.from("classes").select("id, name").eq("status", "active").order("created_at"),
     profile.grade ? todayTask(profile.id, profile.grade) : Promise.resolve({ kind: "none" as const }),
     profile.grade ? listUnitsForGrade(profile.grade) : Promise.resolve([]),
@@ -58,12 +60,27 @@ export default async function StudentPage({ searchParams }: { searchParams: Prom
     reactionSessions(profile.id),
     profile.grade ? listModules(profile.grade) : Promise.resolve([]),
     profile.grade ? moduleToday(profile.id, profile.grade) : Promise.resolve(null),
+    moduleProgress(profile.id),
   ]);
+  // Lỗi hay gặp trong module đang học (Error Memory): chỉ khi đã có lượt làm có nhãn lỗi.
+  const moduleErrors = module?.started
+    ? [...errorCounts(toHistory(await moduleAttempts(profile.id, module.id))).entries()]
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 3)
+        .map(([tag, count]) => ({ label: ERROR_TAGS[tag], count }))
+    : [];
   const moduleOf = new Map(modules.map((m) => [m.unitId, m.id]));
 
-  // Lộ trình: Unit có buổi hoàn thành = xong; có buổi dở = đang làm; Unit của "việc hôm nay" = tiếp theo.
+  // Lộ trình: Unit có module thì theo tiến độ module (14 ngày xong = đã xong, đã học ít nhất một ngày = đang học, module của
+  // "hôm nay" = tiếp theo); Unit chỉ có luyện tự do thì theo buổi luyện như trước.
   const nextHref = today.kind === "start" ? today.href : null;
   const roadmap: RoadmapUnit[] = units.map((u) => {
+    const moduleId = moduleOf.get(u.id) ?? null;
+    const p = moduleId ? progress.get(moduleId) : undefined;
+    if (moduleId) {
+      const state: RoadmapUnit["state"] = (p?.daysDone ?? 0) >= 14 ? "done" : p ? "in_progress" : module?.id === moduleId ? "next" : "todo";
+      return { id: u.id, unitNo: u.unitNo, title: u.title, titleVi: u.titleVi, state, moduleId, daysDone: p?.daysDone ?? 0 };
+    }
     const mine = sessions.filter((s) => s.unitId === u.id);
     const state: RoadmapUnit["state"] = mine.some((s) => s.status === "completed")
       ? "done"
@@ -72,7 +89,7 @@ export default async function StudentPage({ searchParams }: { searchParams: Prom
         : nextHref === `/student/practice/${u.id}`
           ? "next"
           : "todo";
-    return { id: u.id, unitNo: u.unitNo, title: u.title, titleVi: u.titleVi, state, moduleId: moduleOf.get(u.id) ?? null };
+    return { id: u.id, unitNo: u.unitNo, title: u.title, titleVi: u.titleVi, state, moduleId: null };
   });
 
   return (
@@ -88,6 +105,7 @@ export default async function StudentPage({ searchParams }: { searchParams: Prom
         recent={sessions.slice(0, 3)}
         focus={focus}
         reaction={reactionTrend(reactionData)}
+        moduleErrors={moduleErrors}
       />
     </AppShell>
   );

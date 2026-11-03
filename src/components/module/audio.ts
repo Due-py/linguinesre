@@ -48,7 +48,7 @@ export async function speakText(text: string): Promise<"browser" | "none"> {
   return "browser";
 }
 
-export const moduleAudio = (moduleId: string, key: string) => `/api/module/tts?m=${moduleId}&k=${encodeURIComponent(key)}`;
+export { moduleAudio } from "./audioUrl";
 
 /** Gửi một bản ghi lên máy chủ. Lỗi mạng trả về { error } để giao diện mời nói lại. */
 export async function postAudio(url: string, r: Recording): Promise<Record<string, unknown>> {

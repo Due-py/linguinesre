@@ -6,6 +6,7 @@ import AppShell, { STUDENT_NAV } from "@/components/AppShell";
 import { SubmitButton } from "@/components/form";
 import { ReportView, secs } from "@/components/module/Panels";
 import ModulePath, { phaseOf } from "@/components/module/ModulePath";
+import { Chip, Eyebrow, Progress } from "@/components/ui";
 import { requireRole } from "@/lib/auth";
 import { requirePracticeAccess } from "@/lib/research/server";
 import { getModule, moduleAttempts, moduleLessons, toHistory, toReport } from "@/lib/module/server";
@@ -59,87 +60,99 @@ export default async function ModulePage({ params, searchParams }: { params: Pro
 
   return (
     <AppShell name={profile.displayName ?? ""} roleLabel="Học sinh" homeHref="/student" nav={STUDENT_NAV} current="/student/practice">
-      <div className="grid gap-10">
-        <div className="grid gap-3">
-          <Link href="/student/practice" className="inline-flex min-h-11 w-fit items-center gap-2 text-sm font-bold text-muted hover:text-ink">
-            ← Tất cả Unit
-          </Link>
-          <p className="text-muted">Unit {m.unitNo} · Learning Module 14 ngày, mỗi ngày 15–25 phút</p>
-          <h1 lang="en" className="text-4xl font-extrabold tracking-tight sm:text-5xl">
-            {m.title}
-          </h1>
-          <p className="text-lg text-muted">{m.content.titleVi}</p>
-          <p className={`flex w-fit items-start gap-2 rounded-xl px-4 py-2 text-sm font-semibold ${m.status === "teacher_approved" ? "bg-brand-soft text-brand-strong" : "bg-warn-soft text-warn"}`}>
-            {m.status === "teacher_approved" ? <ShieldCheck className="mt-0.5 size-4 shrink-0" aria-hidden /> : <TriangleAlert className="mt-0.5 size-4 shrink-0" aria-hidden />}
-            {m.status === "teacher_approved"
-              ? `Nội dung đã được thầy cô duyệt (${m.reviewedBy}).`
-              : "Nội dung do nhóm soạn từ SGK và đã qua kiểm tra tự động, chưa được thầy cô duyệt."}
-          </p>
-          <Link href={`/student/module/${m.id}/kien-thuc`} className="inline-flex min-h-11 w-fit items-center gap-2 font-bold text-brand-strong hover:underline">
-            <BookOpenText className="size-5" aria-hidden />
-            Kho kiến thức của Unit: từ vựng, ngữ pháp, phát âm, cụm câu
-          </Link>
-        </div>
+      <div className="grid gap-12">
+        {/* Đầu trang: tên Unit cỡ lớn, nguồn nội dung, và thẻ "ngày tiếp theo" với một nút chính. */}
+        <section className="grid gap-8 lg:grid-cols-[1fr_minmax(0,26rem)] lg:items-end">
+          <div className="grid gap-4">
+            <Link href="/student/practice" className="inline-flex min-h-11 w-fit items-center gap-2 text-sm font-medium text-muted hover:text-ink">
+              ← Tất cả Unit
+            </Link>
+            <Eyebrow>Unit {m.unitNo} · Learning Module 14 ngày</Eyebrow>
+            <h1 lang="en" className="text-balance text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl">
+              {m.title}
+            </h1>
+            <p className="text-xl text-muted">{m.content.titleVi} · mỗi ngày 15–25 phút</p>
+            <div className="flex flex-wrap items-center gap-2">
+              {m.status === "teacher_approved" ? (
+                <Chip tone="green" icon={<ShieldCheck className="size-4" aria-hidden />}>
+                  Nội dung đã được thầy cô duyệt ({m.reviewedBy}).
+                </Chip>
+              ) : (
+                <Chip tone="yellow" icon={<TriangleAlert className="size-4" aria-hidden />}>
+                  Nội dung do nhóm soạn từ SGK và đã qua kiểm tra tự động, chưa được thầy cô duyệt.
+                </Chip>
+              )}
+              <Link
+                href={`/student/module/${m.id}/kien-thuc`}
+                className="press inline-flex min-h-11 items-center gap-2 rounded-full bg-brand-soft px-4 font-medium text-brand-strong hover:bg-brand-tonal"
+              >
+                <BookOpenText className="size-5" aria-hidden />
+                Kho kiến thức
+              </Link>
+            </div>
+          </div>
+
+          <article className="grid content-start gap-4 rounded-[2rem] bg-brand-soft p-6 sm:p-8">
+            {nextDay === null ? (
+              <>
+                <Eyebrow className="text-brand-strong">Hoàn thành</Eyebrow>
+                <h2 className="text-3xl font-semibold tracking-tight">Em đã học xong cả 14 ngày</h2>
+                <p className="text-muted">Xem kết quả so sánh đầu và cuối module ở bên dưới.</p>
+              </>
+            ) : (
+              <>
+                <Eyebrow className="text-brand-strong">
+                  Ngày {nextDay}/14 · Giai đoạn {phaseOf(nextDay).no}: {phaseOf(nextDay).titleVi}
+                </Eyebrow>
+                <h2 className="text-2xl font-semibold tracking-tight">{DAY_INFO[nextDay].titleVi}</h2>
+                <p>Mục tiêu: {DAY_INFO[nextDay].goalVi}</p>
+                <p className="flex items-center gap-2 text-muted">
+                  <Clock className="size-4" aria-hidden />
+                  Khoảng {DAY_INFO[nextDay].minutes} phút{nextDay === 1 ? ". Bắt đầu bằng bài đầu module ngắn để biết em đang ở đâu." : ""}
+                </p>
+                <Progress value={completed.length} max={14} label={`Đã học ${completed.length} trên 14 ngày`} className="bg-surface" />
+                {doneToday && !open && <p className="text-sm text-muted">Hôm nay em đã học một bài. Học tiếp được, nhưng nghỉ đến mai thì nhớ lâu hơn.</p>}
+                <form action={startLesson}>
+                  <input type="hidden" name="moduleId" value={m.id} />
+                  <input type="hidden" name="day" value={nextDay} />
+                  <SubmitButton pendingLabel="Đang chuẩn bị bài…" className="w-full sm:w-auto">
+                    {open ? "Học tiếp bài đang dở" : `Bắt đầu ngày ${nextDay}`}
+                  </SubmitButton>
+                </form>
+              </>
+            )}
+          </article>
+        </section>
 
         {xong && (
-          <p role="status" className="flex items-center gap-2 rounded-xl bg-brand-soft px-4 py-3 font-bold text-brand-strong">
+          <p role="status" className="flex items-center gap-2 rounded-2xl bg-success-soft px-4 py-3 font-medium text-success-strong">
             <CircleCheck className="size-5" aria-hidden />
             Đã lưu bài ngày {xong}.
           </p>
         )}
         {error === "open" && (
-          <p role="alert" className="flex items-start gap-2 rounded-xl bg-warn-soft px-4 py-3 font-semibold text-warn">
+          <p role="alert" className="flex items-start gap-2 rounded-2xl bg-warn-soft px-4 py-3 font-medium text-warn">
             <CircleAlert className="mt-0.5 size-5 shrink-0" aria-hidden />
             Chưa mở được bài này. Các bài mở lần lượt; làm xong bài đang dở trước nhé.
           </p>
         )}
 
-        <section className="relative grid gap-4 overflow-hidden rounded-2xl bg-forest px-6 py-8 text-on-forest shadow-[0_4px_0_var(--brand-strong)] sm:px-10">
-          {nextDay === null ? (
-            <>
-              <h2 className="text-3xl font-extrabold">Em đã học xong cả 14 ngày</h2>
-              <p className="text-on-forest-muted">Xem kết quả so sánh đầu và cuối module ở bên dưới.</p>
-            </>
-          ) : (
-            <>
-              <p className="font-bold text-on-forest-muted">
-                Ngày {nextDay}/14 · Giai đoạn {phaseOf(nextDay).no}: {phaseOf(nextDay).titleVi}
-              </p>
-              <h2 className="text-3xl font-extrabold">{DAY_INFO[nextDay].titleVi}</h2>
-              <p className="text-on-forest-muted">Mục tiêu: {DAY_INFO[nextDay].goalVi}</p>
-              <p className="flex items-center gap-2 text-on-forest-muted">
-                <Clock className="size-4" aria-hidden />
-                Khoảng {DAY_INFO[nextDay].minutes} phút{nextDay === 1 ? ". Bắt đầu bằng bài đầu module ngắn để biết em đang ở đâu." : ""}
-              </p>
-              {doneToday && !open && <p className="text-on-forest-muted">Hôm nay em đã học một bài. Học tiếp được, nhưng nghỉ đến mai thì nhớ lâu hơn.</p>}
-              <form action={startLesson}>
-                <input type="hidden" name="moduleId" value={m.id} />
-                <input type="hidden" name="day" value={nextDay} />
-                <SubmitButton pendingLabel="Đang chuẩn bị bài…" className="w-full bg-surface! text-brand-strong! [--depth:rgb(0_0_0/0.22)] sm:w-auto">
-                  {open ? "Học tiếp bài đang dở" : `Bắt đầu ngày ${nextDay}`}
-                </SubmitButton>
-              </form>
-            </>
-          )}
-        </section>
-
-        {/* Lộ trình kiểu đường đi: mỗi giai đoạn có băng tiêu đề màu riêng, các ngày là nút tròn lượn zigzag. */}
-        <section aria-labelledby="path" className="grid gap-4">
-          <h2 id="path" className="text-2xl font-extrabold">
+        <section aria-labelledby="path" className="grid gap-6">
+          <h2 id="path" className="text-3xl font-semibold tracking-tight">
             Lộ trình 5 giai đoạn
           </h2>
           <ModulePath moduleId={m.id} completed={completed} nextDay={nextDay} open={!!open} />
         </section>
 
         <section aria-labelledby="results" className="grid gap-4">
-          <h2 id="results" className="text-2xl font-extrabold tracking-tight">
+          <h2 id="results" className="text-3xl font-semibold tracking-tight">
             Kết quả và tiến bộ
           </h2>
           <p className="max-w-prose text-muted">Làm xong bài tập chưa có nghĩa là đã nói được. Phần dưới so sánh lúc em tự nói, không gợi ý, ở đầu và cuối module.</p>
           <ReportView r={report} />
           {thinkByDay.length >= 2 && (
             <div className="grid gap-2">
-              <h3 className="text-lg font-extrabold">Thời gian bắt đầu nói theo ngày</h3>
+              <h3 className="text-lg font-semibold">Thời gian bắt đầu nói theo ngày</h3>
               <ul className="grid gap-1.5">
                 {thinkByDay.map((x, i) => (
                   <li key={x.day} className="grid grid-cols-[4.5rem_1fr_5.5rem] items-center gap-3 text-sm">
@@ -156,7 +169,7 @@ export default async function ModulePage({ params, searchParams }: { params: Pro
           )}
           {clarityByDay.length >= 2 && (
             <div className="grid gap-2">
-              <h3 className="text-lg font-extrabold">Máy nghe rõ theo ngày</h3>
+              <h3 className="text-lg font-semibold">Máy nghe rõ theo ngày</h3>
               <ul className="grid gap-1.5">
                 {clarityByDay.map((x, i) => (
                   <li key={x.day} className="grid grid-cols-[4.5rem_1fr_5.5rem] items-center gap-3 text-sm">
@@ -176,7 +189,7 @@ export default async function ModulePage({ params, searchParams }: { params: Pro
         </section>
 
         <section aria-labelledby="errors" className="grid gap-4">
-          <h2 id="errors" className="text-2xl font-extrabold tracking-tight">
+          <h2 id="errors" className="text-3xl font-semibold tracking-tight">
             Lỗi hay gặp
           </h2>
           {errors.length === 0 ? (

@@ -245,7 +245,7 @@ export async function studentModules(studentId: string): Promise<StudentModulePr
   return out;
 }
 
-export type ModuleToday = { id: string; unitNo: number; title: string; nextDay: number | null; started: boolean; inProgress: boolean };
+export type ModuleToday = { id: string; unitNo: number; title: string; titleVi: string; nextDay: number | null; started: boolean; inProgress: boolean; daysDone: number };
 
 /**
  * Module nên học tiếp trên trang tổng quan: module có bài đang dở; không có thì module đã bắt đầu gần nhất chưa xong;
@@ -270,10 +270,28 @@ export async function moduleToday(studentId: string, grade: number): Promise<Mod
     id: pick.id,
     unitNo: pick.unitNo,
     title: pick.title,
+    titleVi: pick.titleVi,
     nextDay: open?.day ?? nextOpenDay(mine.filter((l) => l.status === "completed").map((l) => l.day)),
     started: mine.length > 0,
     inProgress: !!open,
+    daysDone: mine.filter((l) => l.status === "completed").length,
   };
+}
+
+export type ModuleProgress = { daysDone: number; inProgress: boolean };
+
+/** Tiến độ thật của học sinh ở mọi module đã bắt đầu: số ngày đã xong, có bài đang dở không (RLS: chỉ của mình). */
+export async function moduleProgress(studentId: string): Promise<Map<string, ModuleProgress>> {
+  const supabase = await createClient();
+  const { data } = await supabase.from("module_lessons").select("module_id, status").eq("student_id", studentId);
+  const out = new Map<string, ModuleProgress>();
+  for (const l of data ?? []) {
+    const p = out.get(l.module_id) ?? { daysDone: 0, inProgress: false };
+    if (l.status === "completed") p.daysDone++;
+    else p.inProgress = true;
+    out.set(l.module_id, p);
+  }
+  return out;
 }
 
 /**
