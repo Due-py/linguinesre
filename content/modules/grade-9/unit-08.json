@@ -1,0 +1,376 @@
+{
+  "grade": 9,
+  "unit": 8,
+  "title": "Tourism",
+  "titleVi": "Du lịch",
+  "edition": "Tiếng Anh 9 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 82–91; Glossary tr. 138",
+  "vocab": [
+    { "id": "v01", "en": "package holiday", "vi": "kì nghỉ trọn gói", "ipa": "/ˈpækɪdʒ hɒlədeɪ/", "ipaFrom": "glossary", "pos": "n", "example": "On a package holiday, the agency books the hotel and the flights for you.", "collocations": ["go on a package holiday", "book a package holiday"], "synonyms": ["package tour"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v02", "en": "self-guided", "vi": "tự tổ chức", "ipa": "/self ˈɡaɪdɪd/", "ipaFrom": "glossary", "pos": "adj", "example": "We went on a self-guided tour of Hoi An with a map and an app.", "collocations": ["a self-guided tour"], "synonyms": [], "antonyms": ["guided"], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v03", "en": "itinerary", "vi": "lịch trình", "ipa": "/aɪˈtɪnərəri/", "ipaFrom": "glossary", "pos": "n", "example": "Our itinerary includes two days in Hue and one day in Da Nang.", "collocations": ["a fixed itinerary", "plan an itinerary"], "synonyms": ["travel plan"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v04", "en": "homestay", "vi": "nhà trọ", "ipa": "/ˈhəʊmsteɪ/", "ipaFrom": "glossary", "pos": "n", "example": "We stayed at a homestay and ate dinner with the family.", "collocations": ["stay at a homestay", "a homestay by the sea"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v05", "en": "domestic tourism", "vi": "du lịch trong nước", "ipa": "/dəˈmestɪk tʊərɪzəm/", "ipaFrom": "glossary", "pos": "n", "example": "Domestic tourism grows quickly in the summer holidays.", "collocations": ["promote domestic tourism"], "synonyms": [], "antonyms": ["international tourism"], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v06", "en": "food tourism", "vi": "du lịch ẩm thực", "ipa": "/fuːd ˈtʊərɪzəm/", "ipaFrom": "glossary", "pos": "n", "example": "Food tourism brings many visitors to Ha Noi's street food areas.", "collocations": ["a food tourism trip"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v07", "en": "shopping tourism", "vi": "du lịch mua sắm", "ipa": "/ˈʃɒpɪŋ ˈtʊərɪzəm/", "ipaFrom": "glossary", "pos": "n", "example": "Some people go to Bangkok for shopping tourism.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v08", "en": "agency", "vi": "hãng (du lịch)", "ipa": "/ˈeɪdʒənsi/", "ipaFrom": "glossary", "pos": "n", "example": "My parents booked the trip through a travel agency.", "collocations": ["travel agency", "book through an agency"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v09", "en": "agent", "vi": "nhân viên hãng", "ipa": "/ˈeɪdʒənt/", "ipaFrom": "glossary", "pos": "n", "example": "The travel agent gave us some useful advice about Phu Quoc.", "collocations": ["travel agent"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v10", "en": "brochure", "vi": "quyển quảng cáo (du lịch)", "ipa": "/ˈbrəʊʃə/", "ipaFrom": "glossary", "pos": "n", "example": "I picked up a brochure about tours to Ha Giang.", "collocations": ["a travel brochure", "pick up a brochure"], "synonyms": ["leaflet"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v11", "en": "holidaymaker", "vi": "người đi nghỉ", "ipa": "/ˈhɒlədeɪmeɪkə/", "ipaFrom": "glossary", "pos": "n", "example": "The beach was full of holidaymakers in July.", "collocations": [], "synonyms": ["tourist", "traveller"], "antonyms": ["local"], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v12", "en": "low season", "vi": "mùa (du lịch) vắng khách", "ipa": "/ˈləʊ siːzn/", "ipaFrom": "glossary", "pos": "n", "example": "Hotels are cheaper in the low season.", "collocations": ["travel in the low season"], "synonyms": ["off season"], "antonyms": ["high season", "peak season"], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v13", "en": "wander", "vi": "dạo chơi", "ipa": "/ˈwɒndə/", "ipaFrom": "glossary", "pos": "v", "example": "We wandered around the old town in the evening.", "collocations": ["wander around", "wander through the streets"], "synonyms": ["walk around"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v14", "en": "work out", "vi": "soạn thảo, lên (kế hoạch)", "ipa": "/wɜːk aʊt/", "ipaFrom": "glossary", "pos": "phr v", "example": "Let's work out a plan for our school trip.", "collocations": ["work out a plan", "work out an itinerary"], "synonyms": ["plan"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v15", "en": "fixed", "vi": "cố định", "ipa": "/fɪkst/", "ipaFrom": "glossary", "pos": "adj", "example": "On a package tour, you have to follow a fixed plan.", "collocations": ["a fixed itinerary", "a fixed price"], "synonyms": [], "antonyms": ["flexible"], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v16", "en": "estimate", "vi": "ước tính", "ipa": "/ˈestɪmeɪt/", "ipaFrom": "glossary", "pos": "v", "example": "We estimate that the trip will cost about two million dong.", "collocations": ["estimate the cost"], "synonyms": ["guess"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v17", "en": "world-famous", "vi": "nổi tiếng thế giới", "ipa": "/ˌwɜːld ˈfeɪməs/", "ipaFrom": "glossary", "pos": "adj", "example": "Son Doong is now a world-famous cave.", "collocations": ["a world-famous destination"], "synonyms": [], "antonyms": ["unknown"], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v18", "en": "smooth", "vi": "trôi chảy", "ipa": "/smuːð/", "ipaFrom": "glossary", "pos": "adj", "example": "Thanks to a good plan, we had a smooth trip.", "collocations": ["a smooth trip", "a smooth journey"], "synonyms": [], "antonyms": ["difficult"], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v19", "en": "ruinous", "vi": "đổ nát", "ipa": "/ˈruːɪnəs/", "ipaFrom": "glossary", "pos": "adj", "example": "Tourists can only see part of the ruinous old castle.", "collocations": ["a ruinous site"], "synonyms": ["ruined"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v20", "en": "hop-on hop-off", "vi": "(tour) bằng xe buýt có thể lên, xuống tại nhiều điểm", "ipa": "/hɒp ɒn hɒp ɒf/", "ipaFrom": "glossary", "pos": "n", "example": "A hop-on hop-off bus is an easy way to see a big city.", "collocations": ["a hop-on hop-off bus"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v21", "en": "online app", "vi": "ứng dụng trên mạng", "ipa": "/ˌɒnˈlaɪn æp/", "ipaFrom": "glossary", "pos": "n", "example": "We booked the homestay with an online app.", "collocations": ["a travel app", "use an online app"], "synonyms": ["application"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Relative pronouns: who and which",
+      "nameVi": "Đại từ quan hệ who và which",
+      "explainVi": "who và which đứng ngay sau một danh từ để nói rõ ta đang nói về người nào, vật nào. who dùng cho người, which dùng cho vật, con vật, nơi chốn. Mệnh đề sau who/which bổ nghĩa cho danh từ đứng trước nó.",
+      "formula": "người + who + V ... · vật/nơi + which + V ...",
+      "examples": [
+        "I know a girl who works as a tour guide in Hoi An.",
+        "This is the brochure which I got at the airport.",
+        "We stayed at a homestay which is close to the beach."
+      ],
+      "wrong": [
+        { "sentence": "The agent which helped us was very kind.", "fix": "The agent who helped us was very kind.", "whyVi": "agent là người nên dùng who." },
+        { "sentence": "I'd like a tour who visits many islands.", "fix": "I'd like a tour which visits many islands.", "whyVi": "tour là vật nên dùng which." }
+      ],
+      "drills": [
+        { "prompt": "Holidaymakers ___ love seafood should visit Quy Nhon.", "options": ["which", "who", "whose"], "answer": 1, "explainVi": "holidaymakers là người: dùng who." },
+        { "prompt": "I lost the map ___ the hotel gave me.", "options": ["who", "whose", "which"], "answer": 2, "explainVi": "map là vật: dùng which." },
+        { "prompt": "Which sentence is correct?", "options": ["She is the agent which booked our tour.", "She is the agent who booked our tour.", "She is the agent whose booked our tour."], "answer": 1, "explainVi": "Người (agent) làm chủ ngữ của mệnh đề: dùng who." }
+      ],
+      "errorTag": "pronoun",
+      "src": { "kind": "sgk", "page": 85 }
+    },
+    {
+      "id": "g02",
+      "name": "Relative pronoun: whose",
+      "nameVi": "Đại từ quan hệ whose (chỉ sở hữu)",
+      "explainVi": "whose nghĩa là \"của người/vật đó\", dùng để nói ai/cái gì sở hữu điều gì. Sau whose luôn là một danh từ. whose dùng được cho cả người và vật.",
+      "formula": "danh từ + whose + danh từ + V ...",
+      "examples": [
+        "I met a guide whose English was excellent.",
+        "We visited a village whose houses are painted blue.",
+        "This is the boy whose family runs the homestay."
+      ],
+      "wrong": [
+        { "sentence": "I met a tourist who bag was lost.", "fix": "I met a tourist whose bag was lost.", "whyVi": "Nói về cái túi CỦA du khách: dùng whose + danh từ." },
+        { "sentence": "We stayed in a town which streets are very old.", "fix": "We stayed in a town whose streets are very old.", "whyVi": "Đường phố CỦA thị trấn: dùng whose, không dùng which." }
+      ],
+      "drills": [
+        { "prompt": "That's the hotel ___ rooms look out over the sea.", "options": ["whose", "who", "which"], "answer": 0, "explainVi": "Phòng CỦA khách sạn: whose + rooms." },
+        { "prompt": "I have a friend ___ father is a travel agent.", "options": ["who", "whose", "which"], "answer": 1, "explainVi": "Bố CỦA người bạn: whose + father." },
+        { "prompt": "Choose the correct word: \"Hue is a city ___ history attracts many visitors.\"", "options": ["who", "which", "whose"], "answer": 2, "explainVi": "Lịch sử CỦA thành phố: whose + history." }
+      ],
+      "errorTag": "pronoun",
+      "src": { "kind": "sgk", "page": 85 }
+    },
+    {
+      "id": "g03",
+      "name": "Must / have to for obligation",
+      "nameVi": "Dùng must / have to để nói việc bắt buộc",
+      "explainVi": "Dùng must hoặc have to để nói việc phải làm. Sau must là động từ nguyên mẫu (không có to). Sau have to cũng là động từ nguyên mẫu; với he/she/it dùng has to. don't have to nghĩa là không cần phải làm.",
+      "formula": "S + must + V · S + have/has to + V · S + don't/doesn't have to + V",
+      "examples": [
+        "You must show your passport at the airport.",
+        "We have to buy entrance tickets before we go in.",
+        "You don't have to book a guide for this tour."
+      ],
+      "wrong": [
+        { "sentence": "You must to check in before 2 p.m.", "fix": "You must check in before 2 p.m.", "whyVi": "Sau must không có to." },
+        { "sentence": "She have to pack her suitcase tonight.", "fix": "She has to pack her suitcase tonight.", "whyVi": "Chủ ngữ she dùng has to." }
+      ],
+      "drills": [
+        { "prompt": "Tourists ___ wear long trousers when they visit the temple.", "options": ["must", "must to", "musts"], "answer": 0, "explainVi": "must + động từ nguyên mẫu: must wear." },
+        { "prompt": "My brother ___ to get up early for the tour bus.", "options": ["have", "has", "having"], "answer": 1, "explainVi": "Chủ ngữ số ít (my brother): has to." },
+        { "prompt": "The museum is free, so we ___ buy tickets.", "options": ["must", "have to", "don't have to"], "answer": 2, "explainVi": "Bảo tàng miễn phí nên KHÔNG CẦN mua vé: don't have to." }
+      ],
+      "errorTag": "modal_verb",
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "word_stress",
+      "focus": "Trọng âm từ có đuôi -ic",
+      "tipVi": "Từ có đuôi -ic nhấn vào âm tiết ngay TRƯỚC -ic: BA-sic, PUB-lic, CLAS-sic, do-MES-tic, his-TOR-ic.",
+      "words": ["basic", "public", "classic", "domestic", "historic", "Pacific", "terrific", "romantic"],
+      "sentence": "We visited a historic town with a romantic river.",
+      "quiz": [
+        { "prompt": "Where is the stress in \"domestic\"?", "options": ["1st syllable: do", "2nd syllable: mes", "3rd syllable: tic"], "answer": 1, "explainVi": "domestic /dəˈmestɪk/: nhấn âm ngay trước -ic." },
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["public", "historic", "classic"], "answer": 1, "explainVi": "historic /hɪˈstɒrɪk/ nhấn âm thứ hai; public và classic nhấn âm đầu." }
+      ],
+      "src": { "kind": "sgk", "page": 84 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Trọng âm từ có đuôi -ious",
+      "tipVi": "Từ có đuôi -ious cũng nhấn vào âm tiết ngay TRƯỚC -ious: CU-rious, SE-rious, de-LI-cious, hi-LAR-ious, re-LI-gious.",
+      "words": ["curious", "serious", "delicious", "hilarious", "religious", "luxurious", "various"],
+      "sentence": "The street food here is delicious and the guide is hilarious.",
+      "quiz": [
+        { "prompt": "Where is the stress in \"delicious\"?", "options": ["1st syllable: de", "2nd syllable: li", "3rd syllable: cious"], "answer": 1, "explainVi": "delicious /dɪˈlɪʃəs/: nhấn âm ngay trước -ious." },
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["religious", "curious", "hilarious"], "answer": 1, "explainVi": "curious /ˈkjʊəriəs/ nhấn âm đầu; religious và hilarious nhấn âm thứ hai." }
+      ],
+      "src": { "kind": "sgk", "page": 84 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "agency, brochure, homestay, holidaymaker nhấn âm đầu; itinerary nhấn âm thứ hai (i-TIN-e-ra-ry).",
+      "words": ["agency", "brochure", "homestay", "holidaymaker", "itinerary"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["itinerary", "agency", "brochure"], "answer": 0, "explainVi": "itinerary /aɪˈtɪnərəri/ nhấn âm thứ hai." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Xuống giọng ở câu hỏi Wh- khi hỏi thông tin chuyến đi",
+      "tipVi": "Câu hỏi bắt đầu bằng How much, What, When... thường xuống giọng ở cuối. Nhấn vào từ quan trọng: How MUCH does the TOUR cost?",
+      "words": ["How much does it cost?", "What time does the bus leave?"],
+      "sentence": "How much does the tour to Hue cost?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "You must ...", "vi": "Bạn/Con phải ...", "useVi": "Khi nói ai đó bắt buộc phải làm việc gì.", "example": "You must be at the airport two hours early.", "src": { "kind": "sgk", "page": 86 } },
+    { "id": "e02", "en": "Is it necessary for us to ...?", "vi": "Chúng tôi có cần phải ... không?", "useVi": "Khi hỏi một việc có bắt buộc phải làm không.", "example": "Is it necessary for us to book the tickets online?", "src": { "kind": "sgk", "page": 86 } },
+    { "id": "e03", "en": "I'm sorry, it is.", "vi": "Rất tiếc, có (bắt buộc).", "useVi": "Khi trả lời rằng việc đó là bắt buộc.", "example": "Is it necessary for us to wear life jackets? – I'm sorry, it is.", "src": { "kind": "sgk", "page": 86 } },
+    { "id": "e04", "en": "We have to ...", "vi": "Chúng ta phải ...", "useVi": "Khi nói về quy định hoặc việc cần làm của cả nhóm.", "example": "We have to check out before twelve o'clock.", "src": { "kind": "team", "page": null } },
+    { "id": "e05", "en": "You don't have to ...", "vi": "Bạn không cần phải ...", "useVi": "Khi nói việc gì đó không bắt buộc.", "example": "You don't have to bring towels. The hotel has them.", "src": { "kind": "team", "page": null } },
+    { "id": "e06", "en": "How much does ... cost?", "vi": "... giá bao nhiêu?", "useVi": "Khi hỏi giá tour, vé, phòng.", "example": "How much does the boat trip cost?", "src": { "kind": "team", "page": null } },
+    { "id": "e07", "en": "What's included in ...?", "vi": "... bao gồm những gì?", "useVi": "Khi hỏi tour hoặc gói du lịch có những gì.", "example": "What's included in the package holiday?", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "I'd recommend ...", "vi": "Mình gợi ý ...", "useVi": "Khi giới thiệu một nơi, món ăn hay hoạt động cho người khác.", "example": "I'd recommend the night market. The food there is delicious.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "The best trip I've ever had was ...", "vi": "Chuyến đi tuyệt nhất mình từng có là ...", "useVi": "Khi kể về một chuyến đi đáng nhớ.", "example": "The best trip I've ever had was to Con Dao with my family.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["I know a girl", "who works", "as a tour guide", "in Hoi An"], "vi": "Mình biết một bạn gái làm hướng dẫn viên ở Hội An.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["We stayed at", "a homestay", "which is close", "to the beach"], "vi": "Chúng mình ở một nhà trọ gần bãi biển.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["I met a guide", "whose English", "was excellent"], "vi": "Mình đã gặp một hướng dẫn viên nói tiếng Anh rất giỏi.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["Hue is a city", "whose history", "attracts", "many visitors"], "vi": "Huế là thành phố có lịch sử thu hút nhiều du khách.", "grammarId": "g02" },
+    { "id": "b05", "chunks": ["You must", "show your ticket", "before you get on", "the boat"], "vi": "Bạn phải trình vé trước khi lên thuyền.", "grammarId": "g03" },
+    { "id": "b06", "chunks": ["Hotels are cheaper", "in the low season", "so we travel", "in October"], "vi": "Khách sạn rẻ hơn vào mùa vắng khách nên chúng mình đi du lịch vào tháng Mười.", "grammarId": null },
+    { "id": "b07", "chunks": ["Let's work out", "an itinerary", "for our trip", "to Da Lat"], "vi": "Chúng ta cùng lên lịch trình cho chuyến đi Đà Lạt nhé.", "grammarId": null },
+    { "id": "b08", "chunks": ["People who love", "street food", "should try", "food tourism"], "vi": "Những người thích đồ ăn đường phố nên thử du lịch ẩm thực.", "grammarId": "g01" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "We stayed at a homestay.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in Ninh Binh" },
+        { "askVi": "Nhà trọ thế nào?", "ask": "What was it like?", "add": "which had a lovely garden" }
+      ],
+      "full": "We stayed at a homestay in Ninh Binh which had a lovely garden."
+    },
+    {
+      "id": "x02",
+      "base": "I'd like to go on a self-guided tour.",
+      "steps": [
+        { "askVi": "Đi đâu?", "ask": "Where?", "add": "around Ha Noi's Old Quarter" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because I can choose my own time" }
+      ],
+      "full": "I'd like to go on a self-guided tour around Ha Noi's Old Quarter because I can choose my own time."
+    },
+    {
+      "id": "x03",
+      "base": "My family travelled to Quy Nhon.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last summer" },
+        { "askVi": "Đã làm gì?", "ask": "What did you do?", "add": "and tried a lot of seafood" }
+      ],
+      "full": "My family travelled to Quy Nhon last summer and tried a lot of seafood."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Kể về một chuyến đi đáng nhớ",
+      "questions": [
+        "Can you tell me about a trip that you really enjoyed?",
+        "What is the most memorable journey you have been on?",
+        "Which trip with your family or class do you remember best?"
+      ],
+      "keywords": ["stayed at", "wandered", "tried", "homestay"],
+      "exampleAnswer": "Last year we went to Da Lat. We stayed at a homestay, wandered around the flower gardens and tried strawberry jam.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Kì nghỉ trọn gói hay tự tổ chức",
+      "questions": [
+        "Would you rather book a package holiday or plan the trip yourself?",
+        "What are the good and bad points of a package holiday?",
+        "Do you prefer a fixed itinerary or a flexible one when you travel?"
+      ],
+      "keywords": ["package holiday", "self-guided", "fixed itinerary", "agency"],
+      "exampleAnswer": "I'd rather plan it myself, because a package holiday has a fixed itinerary and I like to wander freely.",
+      "expectsReason": true
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Lên kế hoạch cho một chuyến đi",
+      "questions": [
+        "What do you need to work out before a trip?",
+        "How should a group of friends prepare for a weekend trip?",
+        "What things do you check before you leave home for a holiday?"
+      ],
+      "keywords": ["work out", "itinerary", "estimate", "book"],
+      "exampleAnswer": "We work out the itinerary, estimate the cost, book a place to stay and check the weather.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Giới thiệu nơi đáng đến ở quê em",
+      "questions": [
+        "Which place in your area would you recommend to tourists?",
+        "If a tourist came to your town, where would you take them?",
+        "What is a good place for visitors to eat or wander in your area?"
+      ],
+      "keywords": ["recommend", "which", "whose", "delicious"],
+      "exampleAnswer": "I'd recommend the old market, which sells delicious local food. Visitors can also wander along the river.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Du lịch mang lại gì cho người dân địa phương",
+      "questions": [
+        "How does tourism help local people?",
+        "Can tourism cause any problems for a town? How?",
+        "Why do some local people not like having too many tourists?"
+      ],
+      "keywords": ["jobs", "homestay", "rubbish", "crowded"],
+      "exampleAnswer": "Tourism creates jobs, for example at homestays. But too many tourists can make a town crowded and dirty.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "Tell me about a place you have stayed overnight away from home.", "keywords": ["stayed at", "homestay", "hotel"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Is it better to travel with a big group or with just one or two friends? Why or why not?", "keywords": ["itinerary", "cheaper", "freedom"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend wants to go to the beach in the busiest week of summer. What do you say?", "keywords": ["low season", "crowded", "cheaper"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "Describe a day trip you took to a nearby town or village.", "keywords": ["wandered", "visited", "tried"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should students go on school trips during term time? Why or why not?", "keywords": ["learn", "itinerary", "experience"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your cousin wants to visit a famous temple wearing shorts. What do you say to her?", "keywords": ["must", "have to", "respect"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Hỏi tour ở hãng du lịch",
+      "contextVi": "Gia đình em muốn đi Hội An ba ngày. Em đến hãng du lịch hỏi về tour và giá cả.",
+      "aiRole": "Ms Thu, a friendly travel agent",
+      "studentRoleVi": "Khách hàng, hỏi thông tin tour cho gia đình",
+      "goalVi": "Hỏi ít nhất hai thông tin về tour (giá, lịch trình, chỗ ở) và nói gia đình em thích kiểu chuyến đi nào.",
+      "goal": "Ask the agent at least two questions about a tour to Hoi An (price, itinerary, accommodation) and say what your family likes.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["itinerary", "package holiday", "homestay", "brochure", "low season"] },
+        { "kind": "reason", "vi": "Nói vì sao gia đình em thích kiểu chuyến đi đó", "words": [] }
+      ],
+      "opener": "Good morning! Welcome to Sunshine Travel. How can I help you today?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Of course. We have a three-day package to Hoi An. What would you like to know about it?",
+        "Good question. Would your family prefer a hotel or a homestay?",
+        "Here's a brochure with the full itinerary. Anything else?"
+      ],
+      "tipsVi": ["Dùng \"How much does... cost?\" và \"What's included in...?\"", "Nói lý do với \"because...\""],
+      "keywords": ["How much", "itinerary", "homestay", "because"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Tour trọn gói hay tự đi?",
+      "contextVi": "Em và bạn Huy lên kế hoạch đi Đà Nẵng. Huy muốn mua tour trọn gói, em muốn tự tổ chức (hoặc ngược lại tùy em).",
+      "aiRole": "Huy, a classmate planning a trip with you",
+      "studentRoleVi": "Bạn cùng lên kế hoạch chuyến đi",
+      "goalVi": "Nêu cách đi em thích, giải thích lý do, đưa ví dụ, và trả lời khi Huy có ý khác.",
+      "goal": "Say whether you prefer a package holiday or a self-guided trip, explain why with an example, and answer Huy's view.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do cho lựa chọn của em", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["package holiday", "self-guided", "itinerary", "fixed", "work out"] }
+      ],
+      "opener": "So, how should we travel to Da Nang? A package holiday or do it ourselves?",
+      "stance": "A package holiday is much easier. The agency does everything, so we don't have to worry.",
+      "turns": 5,
+      "fallback": [
+        "Hmm, why do you prefer that?",
+        "But a package holiday is much easier. The agency does everything, so we don't have to worry.",
+        "OK, can you give me an example of what we could do?",
+        "Fine. Let's work out the details tomorrow."
+      ],
+      "tipsVi": ["Khi Huy phản đối, mở đầu bằng \"That's true, but...\"", "Ví dụ: tự chọn quán ăn, đổi lịch trình khi trời mưa."],
+      "keywords": ["package holiday", "self-guided", "fixed itinerary", "because"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Góp ý cho khách du lịch nước ngoài",
+      "contextVi": "Một du khách nước ngoài ở chung homestay muốn đi thăm ba thành phố trong hai ngày. Em nghĩ lịch trình đó quá vội.",
+      "aiRole": "Peter, a holidaymaker from the UK staying at the same homestay",
+      "studentRoleVi": "Học sinh người Việt, góp ý lịch trình",
+      "goalVi": "Góp ý lịch trình cho Peter, giải thích lý do và gợi ý nơi nên đến; trả lời khi Peter không đồng ý.",
+      "goal": "Give Peter advice about his plan, explain why, suggest places, and answer when he disagrees.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Gợi ý một lịch trình hoặc nơi khác", "words": [] },
+        { "kind": "reason", "vi": "Giải thích lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["itinerary", "wander", "recommend", "smooth", "estimate"] }
+      ],
+      "opener": "Hi! I'm going to visit Hue, Hoi An and Da Nang in two days. Is that a good plan?",
+      "stance": "I want to see as many places as possible. I can rest when I get home.",
+      "turns": 5,
+      "fallback": [
+        "Really? Why do you think so?",
+        "Well, I want to see as many places as possible. I can rest when I get home.",
+        "Hmm, which place would you recommend most?",
+        "Thanks for the advice. I'll change my itinerary."
+      ],
+      "tipsVi": ["Nói lịch sự: \"I'd recommend...\", \"Maybe you could...\"", "Ước tính thời gian di chuyển để thuyết phục."],
+      "keywords": ["itinerary", "I'd recommend", "wander", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Lên kế hoạch chuyến đi cuối năm của lớp",
+      "contextVi": "Lớp em có hai ngày cho chuyến đi cuối năm. Em bàn với bạn lớp trưởng nên đi đâu và ở đâu.",
+      "aiRole": "Ngoc, the class monitor",
+      "studentRoleVi": "Thành viên lớp, góp ý kế hoạch",
+      "goalVi": "Đề xuất nơi đến và chỗ ở, nêu lý do, và trả lời khi Ngọc có ý kiến khác.",
+      "goal": "Suggest a destination and accommodation for a two-day class trip, give reasons, and respond to Ngoc's different opinion.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất nơi đến hoặc chỗ ở", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["itinerary", "homestay", "domestic tourism", "low season", "work out", "agency"] }
+      ],
+      "opener": "We need a plan for our end-of-year trip. Where should we go, and where should we stay?",
+      "stance": "A hotel is better than a homestay because it is more comfortable for a big group.",
+      "turns": 5,
+      "fallback": [
+        "Why do you think that's a good place for our class?",
+        "But I think a hotel is better than a homestay because it's more comfortable for a big group.",
+        "OK. What activities can we do there?",
+        "Sounds good. Let's work out the itinerary with our teacher."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["itinerary", "homestay", "because", "work out"]
+    }
+  ]
+}

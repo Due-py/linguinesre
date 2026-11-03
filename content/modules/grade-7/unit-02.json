@@ -1,0 +1,364 @@
+{
+  "grade": 7,
+  "unit": 2,
+  "title": "Healthy Living",
+  "titleVi": "Sống khỏe",
+  "edition": "Tiếng Anh 7 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 18–27; Glossary tr. 136",
+  "vocab": [
+    { "id": "v01", "en": "health", "vi": "sức khoẻ", "ipa": "/helθ/", "ipaFrom": "glossary", "pos": "n", "example": "Sleeping well is important for your health.", "collocations": ["good for your health", "bad for your health"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v02", "en": "healthy", "vi": "khoẻ mạnh, lành mạnh", "ipa": "/ˈhelθi/", "ipaFrom": "glossary", "pos": "adj", "example": "Fruit and vegetables are healthy food.", "collocations": ["healthy food", "a healthy habit", "stay healthy"], "synonyms": [], "antonyms": ["unhealthy"], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v03", "en": "fit", "vi": "gọn gàng, cân đối", "ipa": "/fɪt/", "ipaFrom": "glossary", "pos": "adj", "example": "My parents go cycling every Sunday to stay fit.", "collocations": ["keep fit", "stay fit"], "synonyms": ["in good shape"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v04", "en": "affect", "vi": "tác động, ảnh hưởng đến", "ipa": "/əˈfekt/", "ipaFrom": "glossary", "pos": "v", "example": "Too much screen time can affect your eyes.", "collocations": ["affect your health", "affect your sleep"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v05", "en": "avoid", "vi": "tránh", "ipa": "/əˈvɔɪd/", "ipaFrom": "glossary", "pos": "v", "example": "Try to avoid sweet food before bedtime.", "collocations": ["avoid fast food", "avoid viruses"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v06", "en": "disease", "vi": "bệnh", "ipa": "/dɪˈziːz/", "ipaFrom": "glossary", "pos": "n", "example": "Washing your hands can stop many diseases.", "collocations": ["a serious disease", "catch a disease"], "synonyms": ["illness"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v07", "en": "virus", "vi": "(con) vi rút", "ipa": "/ˈvaɪrəs/", "ipaFrom": "glossary", "pos": "n", "example": "A virus can spread quickly in a crowded classroom.", "collocations": ["catch a virus", "avoid viruses"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v08", "en": "vitamin", "vi": "vitamin", "ipa": "/ˈvɪtəmɪn/", "ipaFrom": "glossary", "pos": "n", "example": "Oranges have a lot of vitamin C.", "collocations": ["vitamin A", "a lot of vitamins"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v09", "en": "protein", "vi": "chất đạm", "ipa": "/ˈprəʊtiːn/", "ipaFrom": "glossary", "pos": "n", "example": "Eggs and fish give us protein.", "collocations": ["vegetable protein", "rich in protein"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v10", "en": "tofu", "vi": "đậu phụ", "ipa": "/ˈtəʊfuː/", "ipaFrom": "glossary", "pos": "n", "example": "My mum often cooks tofu with tomatoes.", "collocations": ["fried tofu", "eat tofu"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v11", "en": "soybean", "vi": "đậu nành", "ipa": "/ˈsɔɪbiːn/", "ipaFrom": "glossary", "pos": "n", "example": "Tofu is made from soybeans.", "collocations": ["soybean milk"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v12", "en": "soft drink", "vi": "nước ngọt (có ga)", "ipa": "/ˌsɒft ˈdrɪŋk/", "ipaFrom": "dictionary", "pos": "n", "example": "Soft drinks have too much sugar.", "collocations": ["drink soft drinks", "avoid soft drinks"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 20 } },
+    { "id": "v13", "en": "sunburn", "vi": "sự cháy nắng", "ipa": "/ˈsʌnbɜːn/", "ipaFrom": "glossary", "pos": "n", "example": "Wear a hat at the beach, or you may get sunburn.", "collocations": ["get sunburn", "avoid sunburn"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v14", "en": "suncream", "vi": "kem chống nắng", "ipa": "/ˈsʌnkriːm/", "ipaFrom": "dictionary", "pos": "n", "example": "Put on some suncream before you go out at noon.", "collocations": ["wear suncream", "put on suncream"], "synonyms": ["sunscreen"], "antonyms": [], "src": { "kind": "sgk", "page": 18 } },
+    { "id": "v15", "en": "chapped", "vi": "bị nứt nẻ, hiện tượng nứt nẻ (trên da)", "ipa": "/tʃæpt/", "ipaFrom": "glossary", "pos": "adj", "example": "Many children have chapped lips in winter.", "collocations": ["chapped lips", "chapped skin"], "synonyms": ["dry and cracked"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v16", "en": "lip balm", "vi": "kem bôi môi (chống nứt nẻ)", "ipa": "/lɪp bɑːm/", "ipaFrom": "glossary", "pos": "n", "example": "Use some lip balm when your lips are dry.", "collocations": ["use lip balm"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v17", "en": "skin condition", "vi": "tình trạng da", "ipa": "/skɪn kənˈdɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "Acne is a common skin condition among teenagers.", "collocations": ["a common skin condition"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v18", "en": "acne", "vi": "mụn trứng cá", "ipa": "/ˈækni/", "ipaFrom": "glossary", "pos": "n", "example": "Washing your face gently can help with acne.", "collocations": ["have acne", "skin with acne"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v19", "en": "pimple", "vi": "mụn", "ipa": "/ˈpɪmpl/", "ipaFrom": "glossary", "pos": "n", "example": "Don't touch your pimples with dirty hands.", "collocations": ["get a pimple"], "synonyms": ["spot"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v20", "en": "dim", "vi": "lờ mờ, không đủ sáng", "ipa": "/dɪm/", "ipaFrom": "glossary", "pos": "adj", "example": "Reading in dim light is bad for your eyes.", "collocations": ["dim light"], "synonyms": [], "antonyms": ["bright"], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v21", "en": "eyedrops", "vi": "thuốc nhỏ mắt", "ipa": "/aɪdrɒps/", "ipaFrom": "glossary", "pos": "n", "example": "When my eyes are tired, I use some eyedrops.", "collocations": ["use eyedrops"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Simple sentences",
+      "nameVi": "Câu đơn",
+      "explainVi": "Câu đơn chỉ có MỘT mệnh đề: một chủ ngữ và một động từ chính. Câu đơn có thể thêm tân ngữ (cái gì) và trạng từ (khi nào, ở đâu). Chủ ngữ hoặc động từ có thể gồm hai phần nối bằng and: \"My dad and I go cycling.\" Khi nói, đừng quên chủ ngữ hoặc động từ.",
+      "formula": "S + V  ·  S + V + O  ·  S + V + O + trạng từ (time / place)",
+      "examples": [
+        "I sleep.",
+        "My sister eats a lot of vegetables.",
+        "We go cycling in the park every Sunday.",
+        "Mi and her family avoid fast food."
+      ],
+      "wrong": [
+        { "sentence": "Every morning go jogging.", "fix": "I go jogging every morning.", "whyVi": "Câu thiếu chủ ngữ. Câu đơn cần có chủ ngữ (I) và động từ (go)." },
+        { "sentence": "Tofu very healthy.", "fix": "Tofu is very healthy.", "whyVi": "Câu thiếu động từ \"is\"." }
+      ],
+      "drills": [
+        { "prompt": "Which one is a simple sentence?", "options": ["My brother eats a lot of fruit.", "I like fish, but my sister likes meat.", "Because I am tired."], "answer": 0, "explainVi": "Câu 1 có một chủ ngữ và một động từ. Câu 2 có hai mệnh đề; câu 3 chưa thành câu." },
+        { "prompt": "Which word is the verb? \"Many teenagers drink soft drinks every day.\"", "options": ["teenagers", "drink", "soft"], "answer": 1, "explainVi": "Động từ là drink (uống); teenagers là chủ ngữ." },
+        { "prompt": "Which sentence is NOT complete?", "options": ["Tofu is healthy.", "Every morning before school.", "She uses lip balm."], "answer": 1, "explainVi": "\"Every morning before school\" không có chủ ngữ và động từ nên chưa là câu." },
+        { "prompt": "Join into one simple sentence: \"We avoid fast food. We avoid soft drinks.\"", "options": ["We avoid fast food and soft drinks.", "We avoid fast food we avoid soft drinks.", "We fast food and avoid soft drinks."], "answer": 0, "explainVi": "Cùng chủ ngữ và động từ nên gộp hai tân ngữ bằng and." }
+      ],
+      "errorTag": "missing_word",
+      "src": { "kind": "sgk", "page": 21 }
+    },
+    {
+      "id": "g02",
+      "name": "Should / shouldn't for health tips",
+      "nameVi": "Dùng should / shouldn't để khuyên về sức khỏe",
+      "explainVi": "Dùng should (nên) và shouldn't (không nên) để khuyên ai đó cách giữ sức khỏe. Sau should luôn là động từ nguyên mẫu, không có \"to\", không thêm -s.",
+      "formula": "S + should / shouldn't + V (nguyên mẫu)",
+      "examples": [
+        "You should wear a hat on sunny days.",
+        "You shouldn't read in dim light."
+      ],
+      "wrong": [
+        { "sentence": "You should to drink more water.", "fix": "You should drink more water.", "whyVi": "Sau should không có \"to\"." },
+        { "sentence": "He shouldn't touches his pimples.", "fix": "He shouldn't touch his pimples.", "whyVi": "Sau shouldn't dùng động từ nguyên mẫu, kể cả khi chủ ngữ là he." }
+      ],
+      "drills": [
+        { "prompt": "You ___ eat too much fast food. It's bad for you.", "options": ["shouldn't", "should", "should to"], "answer": 0, "explainVi": "Ăn nhiều đồ ăn nhanh là việc KHÔNG NÊN làm." },
+        { "prompt": "My lips are chapped. — You should ___ some lip balm.", "options": ["use", "uses", "using"], "answer": 0, "explainVi": "should + động từ nguyên mẫu: should use." },
+        { "prompt": "Which advice is correct?", "options": ["You should goes to bed early.", "You should go to bed early.", "You should going to bed early."], "answer": 1, "explainVi": "should + động từ nguyên mẫu: should go." }
+      ],
+      "errorTag": "modal_verb",
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Âm /f/",
+      "tipVi": "Răng trên chạm nhẹ môi dưới rồi thổi hơi ra, KHÔNG rung cổ họng. Chữ f, ff, ph thường đọc là /f/: food, fit, affect, breakfast.",
+      "words": ["food", "fit", "affect", "breakfast"],
+      "sentence": "Fresh fruit for breakfast keeps you fit.",
+      "quiz": [
+        { "prompt": "Which word has the sound /f/?", "options": ["breakfast", "avoid", "active"], "answer": 0, "explainVi": "breakfast /ˈbrekfəst/ có âm /f/. avoid và active có âm /v/." }
+      ],
+      "src": { "kind": "sgk", "page": 20 }
+    },
+    {
+      "id": "p02",
+      "kind": "sound",
+      "focus": "Âm /v/",
+      "tipVi": "Đặt răng trên lên môi dưới giống /f/, nhưng rung cổ họng khi phát âm. Đặt tay lên cổ để cảm nhận độ rung: vitamin, avoid, active, activity.",
+      "words": ["vitamin", "avoid", "active", "activity"],
+      "sentence": "Vegetables have a lot of vitamins.",
+      "quiz": [
+        { "prompt": "Which word has the sound /v/?", "options": ["vitamin", "food", "fit"], "answer": 0, "explainVi": "vitamin /ˈvɪtəmɪn/ bắt đầu bằng /v/; food và fit bắt đầu bằng /f/." },
+        { "prompt": "Which word does NOT have the sound /v/?", "options": ["avoid", "affect", "active"], "answer": 1, "explainVi": "affect /əˈfekt/ có âm /f/, không có /v/." }
+      ],
+      "src": { "kind": "sgk", "page": 20 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "vitamin, protein, healthy, tofu, sunburn nhấn âm đầu; affect, avoid, disease nhấn âm thứ hai. Đọc âm tiết có dấu ˈ to và dài hơn.",
+      "words": ["vitamin", "protein", "healthy", "sunburn", "affect", "avoid", "disease"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["vitamin", "avoid", "protein"], "answer": 1, "explainVi": "avoid /əˈvɔɪd/ nhấn âm thứ hai." },
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["disease", "affect", "sunburn"], "answer": 2, "explainVi": "sunburn /ˈsʌnbɜːn/ nhấn âm đầu; disease và affect nhấn âm thứ hai." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Xuống giọng ở câu hỏi xin lời khuyên",
+      "tipVi": "Câu hỏi bắt đầu bằng What thường xuống giọng ở cuối. Nhấn vào từ quan trọng: What should I DO? ↘",
+      "words": ["What's the matter?", "What should I do?"],
+      "sentence": "My eyes are tired. What should I do?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "You can use ...", "vi": "Bạn có thể dùng ...", "useVi": "Khi gợi ý cho bạn một cách xử lý vấn đề sức khỏe.", "example": "You can use some lip balm for your dry lips.", "src": { "kind": "sgk", "page": 22 } },
+    { "id": "e02", "en": "You shouldn't ...", "vi": "Bạn không nên ...", "useVi": "Khi khuyên ai đó không làm điều có hại cho sức khỏe.", "example": "You shouldn't eat too many sweets.", "src": { "kind": "sgk", "page": 22 } },
+    { "id": "e03", "en": "My eyes are tired.", "vi": "Mắt mình bị mỏi.", "useVi": "Khi kể cho người khác về một vấn đề sức khỏe nhỏ của mình.", "example": "My eyes are tired after two hours on the computer.", "src": { "kind": "sgk", "page": 22 } },
+    { "id": "e04", "en": "... is good for our health.", "vi": "... tốt cho sức khỏe của chúng ta.", "useVi": "Khi nói một hoạt động hoặc món ăn có lợi cho sức khỏe.", "example": "Swimming is good for our health.", "src": { "kind": "sgk", "page": 18 } },
+    { "id": "e05", "en": "It keeps you fit.", "vi": "Nó giúp bạn khỏe và cân đối.", "useVi": "Khi giải thích lợi ích của một hoạt động thể thao.", "example": "Try cycling at the weekend. It keeps you fit.", "src": { "kind": "sgk", "page": 20 } },
+    { "id": "e06", "en": "What's the matter?", "vi": "Bạn bị sao vậy?", "useVi": "Khi thấy bạn có vẻ mệt hoặc không khỏe.", "example": "You look tired. What's the matter?", "src": { "kind": "team", "page": null } },
+    { "id": "e07", "en": "You should ...", "vi": "Bạn nên ...", "useVi": "Khi đưa ra lời khuyên.", "example": "You should go to bed before ten o'clock.", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "Try to ...", "vi": "Hãy cố gắng ...", "useVi": "Khi khuyên nhẹ nhàng một thói quen tốt.", "example": "Try to drink more water every day.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "I hope you feel better soon.", "vi": "Mong bạn sớm khỏe lại.", "useVi": "Khi kết thúc cuộc nói chuyện với bạn đang mệt, ốm.", "example": "Take a rest. I hope you feel better soon.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["My family", "goes cycling", "in the countryside", "at the weekend"], "vi": "Gia đình mình đi xe đạp ở vùng quê vào cuối tuần.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["You shouldn't", "read books", "in dim light"], "vi": "Bạn không nên đọc sách dưới ánh sáng mờ.", "grammarId": "g02" },
+    { "id": "b03", "chunks": ["Tofu", "has", "a lot of", "vegetable protein"], "vi": "Đậu phụ có nhiều đạm thực vật.", "grammarId": "g01" },
+    { "id": "b04", "chunks": ["You should wear", "a hat and suncream", "to avoid sunburn"], "vi": "Bạn nên đội mũ và bôi kem chống nắng để tránh cháy nắng.", "grammarId": "g02" },
+    { "id": "b05", "chunks": ["My sister and I", "never drink", "soft drinks"], "vi": "Chị gái và mình không bao giờ uống nước ngọt có ga.", "grammarId": "g01" },
+    { "id": "b06", "chunks": ["Washing your hands", "helps you", "avoid viruses"], "vi": "Rửa tay giúp bạn tránh vi rút.", "grammarId": null },
+    { "id": "b07", "chunks": ["Many children", "have chapped lips", "in winter"], "vi": "Nhiều trẻ em bị nứt nẻ môi vào mùa đông.", "grammarId": "g01" },
+    { "id": "b08", "chunks": ["You should", "go to bed early", "and get enough sleep"], "vi": "Bạn nên đi ngủ sớm và ngủ đủ giấc.", "grammarId": "g02" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I eat vegetables.",
+      "steps": [
+        { "askVi": "Loại rau gì?", "ask": "What kind?", "add": "coloured" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every day" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because they have a lot of vitamins" }
+      ],
+      "full": "I eat coloured vegetables every day because they have a lot of vitamins."
+    },
+    {
+      "id": "x02",
+      "base": "My dad goes cycling.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "around the lake" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every Sunday morning" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "to keep fit" }
+      ],
+      "full": "My dad goes cycling around the lake every Sunday morning to keep fit."
+    },
+    {
+      "id": "x03",
+      "base": "You should wear suncream.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "when you go to the beach" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because the sun can cause sunburn" }
+      ],
+      "full": "You should wear suncream when you go to the beach because the sun can cause sunburn."
+    },
+    {
+      "id": "x04",
+      "base": "I drink water.",
+      "steps": [
+        { "askVi": "Bao nhiêu?", "ask": "How much?", "add": "two litres of" },
+        { "askVi": "Thay vì gì?", "ask": "Instead of what?", "add": "instead of soft drinks" }
+      ],
+      "full": "I drink two litres of water a day instead of soft drinks."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Bữa sáng lành mạnh cho học sinh",
+      "questions": [
+        "What is a healthy breakfast for a student?",
+        "What should students eat in the morning before school?",
+        "Which foods give you energy for a school day?"
+      ],
+      "keywords": ["healthy", "eggs", "fruit", "milk"],
+      "exampleAnswer": "A healthy breakfast has eggs, bread, some fruit and a glass of milk.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Hoạt động ngoài trời cùng gia đình",
+      "questions": [
+        "What outdoor activities do you do with your family?",
+        "How does your family spend time outside together?",
+        "Where do you and your family go to exercise near your home?"
+      ],
+      "keywords": ["cycling", "jogging", "park", "outdoor"],
+      "exampleAnswer": "My family often goes cycling in the park on Sunday mornings. Sometimes we play badminton too.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Chăm sóc da và môi khi trời lạnh",
+      "questions": [
+        "How can you avoid chapped lips in winter?",
+        "What do you do when your lips get dry in cold weather?",
+        "How do you take care of your skin when it's cold?"
+      ],
+      "keywords": ["lip balm", "chapped", "water", "avoid"],
+      "exampleAnswer": "I use lip balm and drink a lot of water. I also wear a scarf when it's windy.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Cách tránh vi rút và bệnh",
+      "questions": [
+        "How can students avoid catching viruses?",
+        "What can you do to stop getting sick at school?",
+        "What healthy habits help you avoid colds and flu?"
+      ],
+      "keywords": ["wash your hands", "virus", "avoid", "sleep"],
+      "exampleAnswer": "We should wash our hands often, eat healthy food and get enough sleep.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Vì sao nên uống ít nước ngọt có ga",
+      "questions": [
+        "Why should teenagers drink fewer soft drinks?",
+        "What's wrong with drinking soft drinks every day?",
+        "Why is water better for you than soft drinks?"
+      ],
+      "keywords": ["soft drinks", "sugar", "healthy", "affect"],
+      "exampleAnswer": "Soft drinks have too much sugar, so they can affect our teeth and make us gain weight.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What do you do when you feel tired after school?", "keywords": ["rest", "sleep", "drink", "relax"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should students do some exercise before school every morning? Why or why not?", "keywords": ["exercise", "fit", "healthy", "because"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend has chapped lips and doesn't know what to do. What do you say?", "keywords": ["lip balm", "should", "water"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What do you usually do when you have a cold?", "keywords": ["rest", "medicine", "warm", "drink"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should schools stop selling soft drinks in the canteen? Why or why not?", "keywords": ["soft drinks", "sugar", "healthy", "because"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your classmate plays in the sun all afternoon without a hat. What do you say to her?", "keywords": ["sunburn", "suncream", "should"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Khuyên bạn hay bị mệt",
+      "contextVi": "Bạn cùng bàn của em thường thấy mệt và buồn ngủ trong giờ học. Bạn ấy hỏi em nên làm gì.",
+      "aiRole": "Mai, a classmate who often feels tired in class",
+      "studentRoleVi": "Bạn cùng bàn, đưa lời khuyên",
+      "goalVi": "Hỏi thăm bạn và đưa ra ít nhất hai lời khuyên để khỏe hơn.",
+      "goal": "Ask Mai about her problem and give at least two tips to feel healthier.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ít nhất một lời khuyên (you should..., you can...)", "words": [] },
+        { "kind": "reason", "vi": "Giải thích vì sao lời khuyên có ích", "words": [] }
+      ],
+      "opener": "I feel so tired in class every day. What should I do?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Hmm, I usually go to bed very late. Is that a problem?",
+        "OK. What else can I do?",
+        "Thanks! I'll try that this week."
+      ],
+      "tipsVi": ["Dùng \"You should...\" và \"You shouldn't...\"", "Thêm lý do: \"because...\""],
+      "keywords": ["should", "sleep", "breakfast", "exercise", "because"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Rủ em đi đạp xe",
+      "contextVi": "Chủ nhật này trời đẹp. Em muốn rủ em trai đi đạp xe quanh hồ, nhưng em trai chỉ muốn ở nhà xem TV.",
+      "aiRole": "Your younger brother, who wants to stay at home",
+      "studentRoleVi": "Anh/chị, rủ em trai đi đạp xe",
+      "goalVi": "Thuyết phục em trai đi đạp xe: nêu lợi ích và trả lời khi em trai phản đối.",
+      "goal": "Persuade your younger brother to go cycling: give the benefits and answer his objection.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lợi ích của hoạt động ngoài trời", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["fit", "healthy", "fresh air", "outdoor", "health"] }
+      ],
+      "opener": "It's Sunday! I just want to watch TV all day. Why are you wearing your trainers?",
+      "stance": "Staying at home is more relaxing. Exercise only makes me more tired.",
+      "turns": 5,
+      "fallback": [
+        "Cycling? Why should I go?",
+        "But staying at home is more relaxing. Exercise only makes me tired.",
+        "Hmm. Is it really fun?",
+        "OK, I'll come. But we can watch TV after lunch, right?"
+      ],
+      "tipsVi": ["Khi em trai phản đối, mở đầu bằng \"I know, but...\"", "Nói về không khí trong lành, sức khỏe, niềm vui."],
+      "keywords": ["fit", "fresh air", "healthy", "because", "I know, but"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Chuẩn bị đi biển",
+      "contextVi": "Lớp em sắp đi dã ngoại ở biển. Một bạn trong nhóm nói không cần mang kem chống nắng và mũ.",
+      "aiRole": "Nam, a classmate in your trip group",
+      "studentRoleVi": "Bạn cùng nhóm, nhắc mang đồ bảo vệ da",
+      "goalVi": "Khuyên Nam mang mũ và kem chống nắng, giải thích lý do và trả lời ý kiến của Nam.",
+      "goal": "Advise Nam to bring a hat and suncream, explain why, and respond to his opinion.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa lời khuyên cụ thể", "words": [] },
+        { "kind": "reason", "vi": "Giải thích lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["sunburn", "suncream", "skin", "avoid"] }
+      ],
+      "opener": "I'm packing for the beach trip. I only need my swimsuit and some snacks, right?",
+      "stance": "I don't need suncream. A little sunburn is not a big problem.",
+      "turns": 5,
+      "fallback": [
+        "Why do I need that?",
+        "But I don't need suncream. A little sunburn is not a big problem.",
+        "Hmm, OK. What else should I bring?",
+        "Thanks. I'll put them in my bag now."
+      ],
+      "tipsVi": ["Dùng \"You should bring...\"", "Giải thích hậu quả: sunburn, đau rát da."],
+      "keywords": ["suncream", "hat", "sunburn", "should", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Góp ý cho Tuần lễ Sống khỏe",
+      "contextVi": "Trường em tổ chức \"Tuần lễ Sống khỏe\". Thầy giáo thể dục hỏi ý kiến em về một hoạt động cho học sinh.",
+      "aiRole": "Mr Long, the PE teacher",
+      "studentRoleVi": "Học sinh, đề xuất hoạt động",
+      "goalVi": "Đề xuất một hoạt động cho Tuần lễ Sống khỏe, nêu lý do và trả lời khi thầy có ý kiến khác.",
+      "goal": "Suggest one activity for Healthy Living Week, give a reason, and respond to the teacher's different opinion.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất một hoạt động", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["healthy", "fit", "avoid", "vitamin", "health"] }
+      ],
+      "opener": "Hello. We're planning Healthy Living Week. What activity do you think students would like?",
+      "stance": "Students already know how to be healthy. They don't need more activities.",
+      "turns": 5,
+      "fallback": [
+        "Interesting. Why do you think that is a good idea?",
+        "But students already know how to be healthy. Do they really need this?",
+        "I see. How can we make students join it?",
+        "Thank you. I'll tell the other teachers about your idea."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["healthy", "fit", "habit", "because", "students"]
+    }
+  ]
+}

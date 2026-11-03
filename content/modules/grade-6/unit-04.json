@@ -1,0 +1,362 @@
+{
+  "grade": 6,
+  "unit": 4,
+  "title": "My Neighbourhood",
+  "titleVi": "Khu phố của em",
+  "edition": "Tiếng Anh 6 Global Success, sách học sinh tập một (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 38–47; Glossary tr. 71",
+  "vocab": [
+    { "id": "v01", "en": "neighbourhood", "vi": "khu phố, khu dân cư", "ipa": "/ˈneɪbəhʊd/", "ipaFrom": "dictionary", "pos": "n", "example": "There is a big park in my neighbourhood.", "collocations": ["a quiet neighbourhood", "in my neighbourhood"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 40 } },
+    { "id": "v02", "en": "art gallery", "vi": "phòng trưng bày các tác phẩm nghệ thuật", "ipa": "/ɑːt ˈɡæləri/", "ipaFrom": "glossary", "pos": "n", "example": "We can see beautiful paintings at the art gallery.", "collocations": ["visit an art gallery"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v03", "en": "cathedral", "vi": "nhà thờ lớn, thánh đường", "ipa": "/kəˈθiːdrəl/", "ipaFrom": "glossary", "pos": "n", "example": "The old cathedral in the city centre is very famous.", "collocations": ["an old cathedral"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v04", "en": "railway station", "vi": "ga tàu hoả", "ipa": "/ˈreɪlweɪ ˈsteɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "The railway station is ten minutes from my house.", "collocations": ["go to the railway station"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v05", "en": "square", "vi": "quảng trường", "ipa": "/skweə/", "ipaFrom": "glossary", "pos": "n", "example": "Children often play in the square in the evening.", "collocations": ["a big square", "in the square"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v06", "en": "suburb", "vi": "khu vực ngoại ô", "ipa": "/ˈsʌbɜːb/", "ipaFrom": "glossary", "pos": "n", "example": "We live in a suburb, so it is quieter than the city centre.", "collocations": ["live in the suburbs"], "synonyms": [], "antonyms": ["city centre"], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v07", "en": "workshop", "vi": "phân xưởng (sản xuất, sửa chữa)", "ipa": "/ˈwɜːkʃɒp/", "ipaFrom": "glossary", "pos": "n", "example": "My uncle repairs bikes in a small workshop.", "collocations": ["a repair workshop"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v08", "en": "busy", "vi": "nhộn nhịp, náo nhiệt", "ipa": "/ˈbɪzi/", "ipaFrom": "glossary", "pos": "adj", "example": "My street is very busy in the morning.", "collocations": ["a busy street", "a busy market"], "synonyms": ["crowded"], "antonyms": ["quiet"], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v09", "en": "narrow", "vi": "hẹp, chật hẹp", "ipa": "/ˈnærəʊ/", "ipaFrom": "glossary", "pos": "adj", "example": "The streets in the old town are narrow.", "collocations": ["a narrow street"], "synonyms": [], "antonyms": ["wide"], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v10", "en": "famous", "vi": "nổi tiếng", "ipa": "/ˈfeɪməs/", "ipaFrom": "glossary", "pos": "adj", "example": "Hoi An is famous for its old houses.", "collocations": ["famous for", "a famous place"], "synonyms": ["well-known"], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v11", "en": "outdoor", "vi": "ngoài trời", "ipa": "/ˈaʊtdɔː/", "ipaFrom": "glossary", "pos": "adj", "example": "My neighbourhood is great for outdoor activities.", "collocations": ["outdoor activities", "outdoor market"], "synonyms": [], "antonyms": ["indoor"], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v12", "en": "cross", "vi": "đi ngang qua, qua, vượt", "ipa": "/krɒs/", "ipaFrom": "glossary", "pos": "v", "example": "Cross the road and the bookshop is on your right.", "collocations": ["cross the road", "cross the street"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v13", "en": "turning", "vi": "chỗ ngoặt, chỗ rẽ", "ipa": "/ˈtɜːnɪŋ/", "ipaFrom": "glossary", "pos": "n", "example": "Take the second turning on the left.", "collocations": ["take the first turning"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v14", "en": "dislike", "vi": "không thích, ghét", "ipa": "/dɪsˈlaɪk/", "ipaFrom": "glossary", "pos": "v", "example": "I dislike the noise from the traffic.", "collocations": ["dislike the noise"], "synonyms": [], "antonyms": ["like"], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v15", "en": "finally", "vi": "cuối cùng", "ipa": "/ˈfaɪnəli/", "ipaFrom": "glossary", "pos": "adv", "example": "Finally, turn left and the museum is in front of you.", "collocations": [], "synonyms": ["at last"], "antonyms": ["first"], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v16", "en": "noisy", "vi": "ồn ào", "ipa": "/ˈnɔɪzi/", "ipaFrom": "dictionary", "pos": "adj", "example": "The city centre is noisier than my village.", "collocations": ["a noisy street"], "synonyms": ["loud"], "antonyms": ["quiet"], "src": { "kind": "sgk", "page": 40 } },
+    { "id": "v17", "en": "peaceful", "vi": "yên bình", "ipa": "/ˈpiːsfl/", "ipaFrom": "dictionary", "pos": "adj", "example": "My grandparents' village is peaceful and green.", "collocations": ["a peaceful village"], "synonyms": ["quiet"], "antonyms": ["noisy"], "src": { "kind": "sgk", "page": 40 } },
+    { "id": "v18", "en": "crowded", "vi": "đông đúc", "ipa": "/ˈkraʊdɪd/", "ipaFrom": "dictionary", "pos": "adj", "example": "The market is crowded on Sunday mornings.", "collocations": ["crowded streets"], "synonyms": ["busy"], "antonyms": ["empty"], "src": { "kind": "sgk", "page": 40 } },
+    { "id": "v19", "en": "convenient", "vi": "thuận tiện", "ipa": "/kənˈviːniənt/", "ipaFrom": "dictionary", "pos": "adj", "example": "Living near a supermarket is very convenient.", "collocations": ["convenient for shopping"], "synonyms": [], "antonyms": ["inconvenient"], "src": { "kind": "sgk", "page": 40 } },
+    { "id": "v20", "en": "sandy", "vi": "có cát, phủ cát", "ipa": "/ˈsændɪ/", "ipaFrom": "glossary", "pos": "adj", "example": "Da Nang has long sandy beaches.", "collocations": ["sandy beaches"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Comparative adjectives: short adjectives",
+      "nameVi": "So sánh hơn với tính từ ngắn",
+      "explainVi": "Dùng so sánh hơn để so sánh hai người, hai nơi hoặc hai vật. Tính từ một âm tiết thêm -er: tall → taller. Tính từ tận cùng bằng -y đổi y thành i rồi thêm -er: noisy → noisier, busy → busier. Tính từ ngắn tận cùng phụ âm-nguyên âm-phụ âm thì gấp đôi phụ âm: big → bigger. Đặc biệt: good → better, bad → worse. Luôn có than trước vật được so sánh.",
+      "formula": "A + be + adj-er + than + B",
+      "examples": [
+        "My street is narrower than your street.",
+        "Our park is bigger than the park near my school.",
+        "The city centre is busier than the suburbs."
+      ],
+      "wrong": [
+        { "sentence": "My neighbourhood is more quiet than yours.", "fix": "My neighbourhood is quieter than yours.", "whyVi": "quiet là tính từ ngắn: thêm -er, không dùng more." },
+        { "sentence": "This street is noisyer than that street.", "fix": "This street is noisier than that street.", "whyVi": "Tính từ tận cùng -y: đổi y thành i rồi thêm -er." },
+        { "sentence": "My house is bigger that your house.", "fix": "My house is bigger than your house.", "whyVi": "So sánh hơn dùng than, không dùng that." }
+      ],
+      "drills": [
+        { "prompt": "The countryside is ___ than the city.", "options": ["quieter", "more quiet", "quietter"], "answer": 0, "explainVi": "quiet là tính từ ngắn: quieter." },
+        { "prompt": "The market is ___ on Sundays than on Mondays.", "options": ["busier", "busyer", "more busy"], "answer": 0, "explainVi": "busy tận cùng -y: đổi y thành i, thêm -er: busier." },
+        { "prompt": "Your bike is ___ than my bike.", "options": ["bigger", "biger", "more big"], "answer": 0, "explainVi": "big gấp đôi phụ âm g rồi thêm -er: bigger." },
+        { "prompt": "The weather today is ___ than yesterday. It's sunny now!", "options": ["better", "gooder", "more good"], "answer": 0, "explainVi": "good là tính từ bất quy tắc: good → better." }
+      ],
+      "errorTag": "comparison",
+      "src": { "kind": "sgk", "page": 41 }
+    },
+    {
+      "id": "g02",
+      "name": "Comparative adjectives: long adjectives",
+      "nameVi": "So sánh hơn với tính từ dài",
+      "explainVi": "Với hầu hết tính từ có hai âm tiết trở lên (trừ tính từ tận cùng -y), thêm more trước tính từ, không thêm -er: expensive → more expensive, peaceful → more peaceful, exciting → more exciting.",
+      "formula": "A + be + more + adj + than + B",
+      "examples": [
+        "A flat in the city centre is more expensive than a flat in the suburbs.",
+        "My grandparents' village is more peaceful than our town."
+      ],
+      "wrong": [
+        { "sentence": "The art gallery is interestinger than the museum.", "fix": "The art gallery is more interesting than the museum.", "whyVi": "interesting là tính từ dài: dùng more interesting." },
+        { "sentence": "The city is more noisier than the village.", "fix": "The city is noisier than the village.", "whyVi": "Không dùng more và -er cùng lúc." }
+      ],
+      "drills": [
+        { "prompt": "Living in a city is ___ than living in a village.", "options": ["more exciting", "excitinger", "more excitinger"], "answer": 0, "explainVi": "exciting là tính từ dài: more exciting." },
+        { "prompt": "This cathedral is ___ than the one in my town.", "options": ["more famous", "famouser", "most famous"], "answer": 0, "explainVi": "famous có hai âm tiết, không tận cùng -y: more famous." },
+        { "prompt": "Which sentence is correct?", "options": ["My village is more peaceful than the city.", "My village is peacefuller than the city.", "My village is more peacefuller than the city."], "answer": 0, "explainVi": "peaceful là tính từ dài: more peaceful." }
+      ],
+      "errorTag": "comparison",
+      "src": { "kind": "sgk", "page": 41 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Âm /ɪ/",
+      "tipVi": "Âm /ɪ/ ngắn, môi hơi mở, lưỡi thả lỏng, đọc nhanh như \"i\" ngắn. Không kéo dài. Ví dụ chữ i trong exciting, expensive.",
+      "words": ["noisy", "exciting", "expensive"],
+      "sentence": "It's an exciting city with a big market.",
+      "quiz": [
+        { "prompt": "Which word has the sound /ɪ/?", "options": ["visit", "street", "clean"], "answer": 0, "explainVi": "visit /ˈvɪzɪt/ có âm /ɪ/; street và clean có âm /iː/." }
+      ],
+      "src": { "kind": "sgk", "page": 40 }
+    },
+    {
+      "id": "p02",
+      "kind": "sound",
+      "focus": "Âm /iː/",
+      "tipVi": "Âm /iː/ dài, kéo môi sang hai bên như đang cười, đọc \"i\" dài hơn. Thường viết là ee, ea: street, clean, cheap, peaceful.",
+      "words": ["clean", "cheap", "peaceful", "convenient"],
+      "sentence": "The streets here are clean and peaceful.",
+      "quiz": [
+        { "prompt": "Which word has the sound /iː/?", "options": ["cheap", "city", "big"], "answer": 0, "explainVi": "cheap /tʃiːp/ có âm /iː/ dài; city và big có âm /ɪ/." },
+        { "prompt": "Which word does NOT have the sound /iː/?", "options": ["sit", "seat", "meet"], "answer": 0, "explainVi": "sit /sɪt/ có âm /ɪ/ ngắn." }
+      ],
+      "src": { "kind": "sgk", "page": 40 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ chỉ nơi chốn",
+      "tipVi": "suburb, workshop, famous, narrow, outdoor nhấn âm đầu; cathedral, dislike nhấn âm thứ hai. convenient cũng nhấn âm thứ hai: con-VE-nient.",
+      "words": ["suburb", "workshop", "famous", "narrow", "cathedral", "dislike", "convenient"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["cathedral", "suburb", "narrow"], "answer": 0, "explainVi": "cathedral /kəˈθiːdrəl/ nhấn âm thứ hai." },
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["workshop", "dislike", "convenient"], "answer": 0, "explainVi": "workshop /ˈwɜːkʃɒp/ nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Ngữ điệu khi hỏi đường lịch sự",
+      "tipVi": "Câu hỏi Could you tell me...? lên giọng nhẹ ở cuối để nghe lịch sự. Bắt đầu bằng Excuse me và kết thúc bằng please.",
+      "words": ["Excuse me.", "Could you tell me the way, please?"],
+      "sentence": "Excuse me. Could you tell me the way to the art gallery, please?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Excuse me. Could you tell me the way to ..., please?", "vi": "Xin lỗi, bạn có thể chỉ đường đến ... được không?", "useVi": "Khi hỏi đường một cách lịch sự.", "example": "Excuse me. Could you tell me the way to the cathedral, please?", "src": { "kind": "sgk", "page": 43 } },
+    { "id": "e02", "en": "Where's the nearest ..., please?", "vi": "... gần nhất ở đâu ạ?", "useVi": "Khi hỏi nơi gần nhất có một địa điểm nào đó.", "example": "Excuse me. Where's the nearest bus stop, please?", "src": { "kind": "sgk", "page": 43 } },
+    { "id": "e03", "en": "Go along this street.", "vi": "Đi dọc theo con phố này.", "useVi": "Khi chỉ đường: bảo người khác đi thẳng theo con phố.", "example": "Go along this street for about five minutes.", "src": { "kind": "sgk", "page": 43 } },
+    { "id": "e04", "en": "It's on your left / right.", "vi": "Nó ở bên tay trái / phải của bạn.", "useVi": "Khi nói vị trí của nơi cần đến.", "example": "Cross the road. The post office is on your right.", "src": { "kind": "sgk", "page": 43 } },
+    { "id": "e05", "en": "Take the first / second turning on the left / right.", "vi": "Rẽ vào chỗ rẽ thứ nhất / thứ hai bên trái / phải.", "useVi": "Khi chỉ đường rẽ vào một ngã rẽ.", "example": "Take the second turning on the left, and the park is there.", "src": { "kind": "sgk", "page": 43 } },
+    { "id": "e06", "en": "First, ... Then, ... After that, ... Finally, ...", "vi": "Đầu tiên ... Sau đó ... Tiếp theo ... Cuối cùng ...", "useVi": "Khi nối các bước chỉ đường hoặc giới thiệu nhiều địa điểm theo thứ tự.", "example": "First, go to the square. Then, turn right. Finally, the gallery is on your left.", "src": { "kind": "sgk", "page": 43 } },
+    { "id": "e07", "en": "Is there a ... near here?", "vi": "Gần đây có ... không?", "useVi": "Khi hỏi xem gần đây có một địa điểm nào đó không.", "example": "Is there a bookshop near here?", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "I like living here because ...", "vi": "Mình thích sống ở đây vì ...", "useVi": "Khi nêu lý do em thích khu phố của mình.", "example": "I like living here because it's peaceful and my school is near.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "However, I dislike ...", "vi": "Tuy nhiên, mình không thích ...", "useVi": "Khi nói điều chưa tốt về nơi mình sống, sau khi đã nói điều tốt.", "example": "However, I dislike the noise from the traffic.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["My neighbourhood is", "quieter than", "the city centre"], "vi": "Khu phố của mình yên tĩnh hơn trung tâm thành phố.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["Go along this street", "and take", "the first turning", "on the right"], "vi": "Đi dọc theo con phố này và rẽ vào ngã rẽ thứ nhất bên phải.", "grammarId": null },
+    { "id": "b03", "chunks": ["Living in the suburbs", "is more peaceful", "than living", "in the city"], "vi": "Sống ở ngoại ô yên bình hơn sống ở thành phố.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["There is", "a famous cathedral", "near my school"], "vi": "Gần trường mình có một nhà thờ lớn nổi tiếng.", "grammarId": null },
+    { "id": "b05", "chunks": ["The streets here", "are narrower", "and busier", "than in my village"], "vi": "Đường phố ở đây hẹp hơn và đông đúc hơn ở làng mình.", "grammarId": "g01" },
+    { "id": "b06", "chunks": ["Cross the road,", "and the railway station", "is on your left"], "vi": "Băng qua đường, ga tàu ở bên tay trái bạn.", "grammarId": null },
+    { "id": "b07", "chunks": ["The new shopping centre", "is more modern", "than", "the old market"], "vi": "Trung tâm mua sắm mới hiện đại hơn chợ cũ.", "grammarId": "g02" },
+    { "id": "b08", "chunks": ["I like my neighbourhood", "because there are", "many outdoor activities"], "vi": "Mình thích khu phố của mình vì có nhiều hoạt động ngoài trời.", "grammarId": null }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I live in a neighbourhood.",
+      "steps": [
+        { "askVi": "Khu phố thế nào?", "ask": "What is it like?", "add": "quiet" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in the suburbs of Da Nang" },
+        { "askVi": "Gần đó có gì?", "ask": "What is near it?", "add": "near a big park" }
+      ],
+      "full": "I live in a quiet neighbourhood in the suburbs of Da Nang near a big park."
+    },
+    {
+      "id": "x02",
+      "base": "The market is busy.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "in the morning" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because many people buy food there" }
+      ],
+      "full": "The market is busy in the morning because many people buy food there."
+    },
+    {
+      "id": "x03",
+      "base": "My street is quieter.",
+      "steps": [
+        { "askVi": "Quieter hơn chỗ nào?", "ask": "Than what?", "add": "than the city centre" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because there is not much traffic" }
+      ],
+      "full": "My street is quieter than the city centre because there is not much traffic."
+    },
+    {
+      "id": "x04",
+      "base": "Turn left.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at the square" },
+        { "askVi": "Rồi sao nữa?", "ask": "Then what?", "add": "and the art gallery is on your right" }
+      ],
+      "full": "Turn left at the square, and the art gallery is on your right."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Những địa điểm trong khu phố em",
+      "questions": [
+        "What can you find in your neighbourhood?",
+        "Are there any interesting places near your home?",
+        "Tell me about the places on your street."
+      ],
+      "keywords": ["there is", "there are", "square", "market"],
+      "exampleAnswer": "There is a market, a small park and a temple. There are also many cafés on my street.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Điều em thích và không thích ở khu phố",
+      "questions": [
+        "What do you like and dislike about where you live? Why?",
+        "What is good and bad about your neighbourhood?",
+        "Is there anything you dislike about your street? Why?"
+      ],
+      "keywords": ["peaceful", "noisy", "dislike", "because"],
+      "exampleAnswer": "I like it because it's peaceful and green. However, I dislike the noise from the workshop.",
+      "expectsReason": true
+    },
+    {
+      "id": "w03",
+      "ideaVi": "So sánh khu phố của em với một nơi khác",
+      "questions": [
+        "How is your neighbourhood different from the city centre?",
+        "Compare where you live with your grandparents' place.",
+        "Which is more peaceful, your neighbourhood or the town centre?"
+      ],
+      "keywords": ["quieter", "busier", "more peaceful", "than"],
+      "exampleAnswer": "My neighbourhood is quieter and more peaceful than the city centre, but the city is more exciting.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Chỉ đường từ trường đến một nơi gần đó",
+      "questions": [
+        "How do I get from your school to the nearest park?",
+        "Can you give me directions from your school to a shop nearby?",
+        "Tell me the way from your school gate to the nearest bus stop."
+      ],
+      "keywords": ["go along", "turn left", "take the first turning", "on your right"],
+      "exampleAnswer": "Go out of the school gate and turn left. Take the first turning on the right. The park is on your left.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Một nơi nổi tiếng em muốn giới thiệu cho khách",
+      "questions": [
+        "Which famous place in your town should visitors see? Why?",
+        "Where would you take a visitor in your town, and why?",
+        "What place in your city is worth visiting? Why?"
+      ],
+      "keywords": ["famous", "art gallery", "square", "because"],
+      "exampleAnswer": "Visitors should see the old square because it's famous and there are many street shows at night.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What is the street outside your home like in the morning?", "keywords": ["busy", "noisy", "there are", "crowded"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should cities build more parks instead of shopping centres? Why or why not?", "keywords": ["parks", "should", "peaceful", "because"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your grandma wants to walk from your house to the nearest park. What do you tell her?", "keywords": ["go along", "turn", "on your left", "turning"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What is the area around your school like in the afternoon?", "keywords": ["quiet", "busy", "there is", "shops"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should streets in the city centre be only for walking and cycling? Why or why not?", "keywords": ["should", "quieter", "traffic", "because"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "A new classmate asks you how to get from school to the market. What do you say?", "keywords": ["go along", "cross", "on your right", "turning"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Chỉ đường cho khách du lịch",
+      "contextVi": "Một khách du lịch dừng lại hỏi em đường đến một địa điểm nổi tiếng trong thành phố. Em chỉ đường và giới thiệu thêm về nơi đó.",
+      "aiRole": "Tom, a tourist visiting your city for the first time",
+      "studentRoleVi": "Học sinh địa phương giúp khách du lịch",
+      "goalVi": "Chỉ đường rõ ràng đến một nơi, dùng ít nhất hai từ nối thứ tự, và nói một điều về nơi đó.",
+      "goal": "Give clear directions to one place, use at least two sequence words, and say one thing about the place.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất hai từ nối thứ tự", "words": ["first", "then", "after that", "finally"] },
+        { "kind": "example", "vi": "Nói một điều thú vị về nơi đó", "words": [] }
+      ],
+      "opener": "Excuse me. Could you tell me the way to the art gallery, please?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Thank you! Is it far from here?",
+        "What can I see there?",
+        "Great. Is there a good place to eat near the gallery?"
+      ],
+      "tipsVi": ["Dùng Go along..., Turn left..., It's on your right.", "Nối các bước với First, Then, Finally."],
+      "keywords": ["go along", "turn left", "on your right", "first", "finally"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Thành phố hay ngoại ô",
+      "contextVi": "Bạn của em vừa chuyển đến trung tâm thành phố và nghĩ ở đó tốt hơn khu ngoại ô nơi em sống. Hai bạn so sánh hai nơi.",
+      "aiRole": "Lan, a friend who just moved to the city centre",
+      "studentRoleVi": "Học sinh sống ở ngoại ô",
+      "goalVi": "So sánh khu ngoại ô và trung tâm thành phố, nêu lý do em thích nơi em sống, trả lời khi Lan nghĩ khác.",
+      "goal": "Compare the suburbs with the city centre, explain why you like where you live, and answer Lan's different opinion.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một câu so sánh hơn", "words": ["quieter", "more peaceful", "busier", "noisier", "more convenient"] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] }
+      ],
+      "opener": "I love my new flat in the city centre! Don't you think the city is better than the suburbs?",
+      "stance": "The city is more convenient. Everything is near, and there are more things to do.",
+      "turns": 5,
+      "fallback": [
+        "Really? What do you like about the suburbs?",
+        "But the city is more convenient. Everything is near, and there are more things to do.",
+        "Hmm, that's true. Is it noisy where you live?",
+        "OK, maybe I'll visit your neighbourhood this weekend."
+      ],
+      "tipsVi": ["Dùng so sánh hơn: quieter than, more peaceful than.", "Khi Lan nghĩ khác: \"That's true, but...\""],
+      "keywords": ["quieter", "more peaceful", "than", "because", "suburbs"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Đề xuất cho khu phố",
+      "contextVi": "Tổ dân phố đang hỏi ý kiến trẻ em về cách làm khu phố tốt hơn. Em nói chuyện với bác tổ trưởng.",
+      "aiRole": "Mr Binh, the head of your neighbourhood group",
+      "studentRoleVi": "Học sinh sống trong khu phố, đưa ra đề xuất",
+      "goalVi": "Nêu một vấn đề của khu phố, đề xuất cách cải thiện có lý do, trả lời khi bác tổ trưởng băn khoăn.",
+      "goal": "Name one problem in the neighbourhood, suggest an improvement with a reason, and answer Mr Binh's concern.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra đề xuất", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["narrow", "busy", "noisy", "square", "outdoor", "peaceful"] }
+      ],
+      "opener": "Hello! We want to make our neighbourhood better for children. What do you think we need?",
+      "stance": "We don't have much space. The streets are narrow, so we can't build a playground.",
+      "turns": 5,
+      "fallback": [
+        "I see. Why is that important for children?",
+        "But we don't have much space. The streets are narrow, so we can't build a playground.",
+        "That's a good idea. Who can help us?",
+        "Thank you. I'll tell the other neighbours."
+      ],
+      "tipsVi": ["Nói lịch sự với người lớn: \"I think we should...\", \"Could we...?\"", "Gợi ý ý tưởng nhỏ, dễ làm."],
+      "keywords": ["I think we should", "outdoor", "because", "children", "square"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Giới thiệu khu phố cho bạn qua thư",
+      "contextVi": "Một bạn qua thư sắp đến thăm thành phố của em. Bạn gọi điện hỏi khu phố em có gì và nên đi đâu.",
+      "aiRole": "Nick, your pen friend from England who will visit you",
+      "studentRoleVi": "Học sinh giới thiệu khu phố của mình",
+      "goalVi": "Giới thiệu khu phố, so sánh với một nơi khác, gợi ý một nơi nên đến và trả lời khi Nick có ý khác.",
+      "goal": "Describe your neighbourhood, compare it with another place, suggest a place to visit, and respond to Nick's different idea.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Gợi ý một nơi nên đến", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một câu so sánh hơn", "words": ["quieter", "busier", "more exciting", "more famous", "bigger"] }
+      ],
+      "opener": "Hi! I'm coming next month. What's your neighbourhood like? Where should we go?",
+      "stance": "I'd rather stay in the city centre. Neighbourhoods are boring for tourists.",
+      "turns": 5,
+      "fallback": [
+        "Sounds nice. Is it busy or quiet?",
+        "Hmm, I'd rather stay in the city centre. Neighbourhoods are boring for tourists.",
+        "OK, you've changed my mind. How do I get there from the railway station?",
+        "Perfect. See you next month!"
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["neighbourhood", "than", "famous", "because", "go along"]
+    }
+  ]
+}

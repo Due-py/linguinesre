@@ -1,0 +1,373 @@
+{
+  "grade": 12,
+  "unit": 9,
+  "title": "Career Paths",
+  "titleVi": "Con đường sự nghiệp",
+  "edition": "Tiếng Anh 12 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 116–127; Glossary tr. 154",
+  "vocab": [
+    { "id": "v01", "en": "pursue", "vi": "theo đuổi", "ipa": "/pəˈsjuː/", "ipaFrom": "glossary", "pos": "v", "example": "She wants to pursue a career in medicine.", "collocations": ["pursue a career", "pursue your passion"], "synonyms": ["follow"], "antonyms": ["give up"], "src": { "kind": "sgk", "page": 154 } },
+    { "id": "v02", "en": "passion", "vi": "niềm đam mê, say mê", "ipa": "/ˈpæʃn/", "ipaFrom": "glossary", "pos": "n", "example": "Music has always been my biggest passion.", "collocations": ["a passion for", "follow your passion"], "synonyms": ["love"], "antonyms": [], "src": { "kind": "sgk", "page": 154 } },
+    { "id": "v03", "en": "passionate", "vi": "có niềm đam mê với/dành cho", "ipa": "/ˈpæʃənət/", "ipaFrom": "glossary", "pos": "adj", "example": "My brother is passionate about cooking.", "collocations": ["passionate about"], "synonyms": ["enthusiastic"], "antonyms": [], "src": { "kind": "sgk", "page": 154 } },
+    { "id": "v04", "en": "in demand", "vi": "có nhu cầu, được mọi người mong muốn", "ipa": "/ɪn dɪˈmɑːnd/", "ipaFrom": "glossary", "pos": "phr", "example": "Nurses and software developers are in demand today.", "collocations": ["in high demand", "in-demand jobs"], "synonyms": ["wanted", "popular"], "antonyms": [], "src": { "kind": "sgk", "page": 154 } },
+    { "id": "v05", "en": "soft skills", "vi": "các kĩ năng mềm", "ipa": "/ˈsɒft skɪlz/", "ipaFrom": "glossary", "pos": "n", "example": "Teamwork and communication are important soft skills.", "collocations": ["develop soft skills", "improve soft skills"], "synonyms": [], "antonyms": ["hard skills"], "src": { "kind": "sgk", "page": 154 } },
+    { "id": "v06", "en": "work experience", "vi": "kinh nghiệm làm việc", "ipa": "/ˈwɜːk ɪkspɪəriəns/", "ipaFrom": "glossary", "pos": "n", "example": "A summer job is a good way to gain work experience.", "collocations": ["gain work experience", "relevant work experience"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 154 } },
+    { "id": "v07", "en": "take into account", "vi": "cân nhắc, xem xét", "ipa": "/teɪk ɪntə əˈkaʊnt/", "ipaFrom": "glossary", "pos": "phr v", "example": "Take your interests into account when you choose a job.", "collocations": ["take something into account"], "synonyms": ["consider"], "antonyms": ["ignore"], "src": { "kind": "sgk", "page": 154 } },
+    { "id": "v08", "en": "adapt", "vi": "thay đổi cho phù hợp, thích nghi", "ipa": "/əˈdæpt/", "ipaFrom": "glossary", "pos": "v", "example": "Workers must adapt to new technology.", "collocations": ["adapt to changes", "adapt quickly"], "synonyms": ["adjust"], "antonyms": [], "src": { "kind": "sgk", "page": 154 } },
+    { "id": "v09", "en": "obsolete", "vi": "lỗi thời, không còn được sử dụng", "ipa": "/ˈɒbsəliːt/", "ipaFrom": "glossary", "pos": "adj", "example": "Some jobs may become obsolete because of robots.", "collocations": ["become obsolete"], "synonyms": ["out of date"], "antonyms": ["modern"], "src": { "kind": "sgk", "page": 154 } },
+    { "id": "v10", "en": "CV (curriculum vitae)", "vi": "sơ yếu lí lịch", "ipa": "/ˌsiː ˈviː/", "ipaFrom": "glossary", "pos": "n", "example": "Write your skills and work experience in your CV.", "collocations": ["write a CV", "send your CV"], "synonyms": ["résumé"], "antonyms": [], "src": { "kind": "sgk", "page": 154 } },
+    { "id": "v11", "en": "go in for", "vi": "đam mê, theo đuổi một sở thích", "ipa": "/ˈɡəʊ ɪn fɔː/", "ipaFrom": "glossary", "pos": "phr v", "example": "My sister has always gone in for painting.", "collocations": ["go in for sports", "go in for music"], "synonyms": ["take up"], "antonyms": [], "src": { "kind": "sgk", "page": 154 } },
+    { "id": "v12", "en": "live up to", "vi": "làm theo sự mong muốn, kì vọng của ai đó", "ipa": "/ˈlɪv ʌp tə/", "ipaFrom": "glossary", "pos": "phr v", "example": "He worked hard to live up to his parents' expectations.", "collocations": ["live up to expectations"], "synonyms": ["meet"], "antonyms": ["let down"], "src": { "kind": "sgk", "page": 154 } },
+    { "id": "v13", "en": "put up with", "vi": "chịu đựng", "ipa": "/ˈpʊt ʌp wɪð/", "ipaFrom": "glossary", "pos": "phr v", "example": "Nurses have to put up with long working hours.", "collocations": ["put up with noise", "put up with stress"], "synonyms": ["tolerate"], "antonyms": [], "src": { "kind": "sgk", "page": 154 } },
+    { "id": "v14", "en": "get on with", "vi": "hoà hợp với, có mối quan hệ tốt với", "ipa": "/ˈɡet ɒn wɪð/", "ipaFrom": "glossary", "pos": "phr v", "example": "A good team leader gets on with everyone.", "collocations": ["get on well with", "get on with colleagues"], "synonyms": ["get along with"], "antonyms": [], "src": { "kind": "sgk", "page": 154 } },
+    { "id": "v15", "en": "cut down on", "vi": "cắt giảm, giảm bớt", "ipa": "/ˈkʌt daʊn ɒn/", "ipaFrom": "glossary", "pos": "phr v", "example": "The company cut down on staff after it bought new machines.", "collocations": ["cut down on costs", "cut down on staff"], "synonyms": ["reduce"], "antonyms": ["increase"], "src": { "kind": "sgk", "page": 154 } },
+    { "id": "v16", "en": "look down on", "vi": "coi thường người khác", "ipa": "/ˈlʊk daʊn ɒn/", "ipaFrom": "glossary", "pos": "phr v", "example": "We shouldn't look down on people who do manual jobs.", "collocations": ["look down on someone"], "synonyms": [], "antonyms": ["respect"], "src": { "kind": "sgk", "page": 154 } },
+    { "id": "v17", "en": "automate", "vi": "tự động hoá", "ipa": "/ˈɔːtəmeɪt/", "ipaFrom": "glossary", "pos": "v", "example": "Many factories automate simple tasks with robots.", "collocations": ["automate a process", "automated jobs"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 154 } },
+    { "id": "v18", "en": "character", "vi": "phẩm chất, đặc điểm tính cách", "ipa": "/ˈkærəktə/", "ipaFrom": "glossary", "pos": "n", "example": "Your character matters when you choose a career.", "collocations": ["a strong character", "personality and character"], "synonyms": ["personality"], "antonyms": [], "src": { "kind": "sgk", "page": 154 } },
+    { "id": "v19", "en": "fascinating", "vi": "cực kì thú vị và hấp dẫn", "ipa": "/ˈfæsɪneɪtɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "I find the work of a marine scientist fascinating.", "collocations": ["a fascinating job"], "synonyms": ["very interesting"], "antonyms": ["boring"], "src": { "kind": "sgk", "page": 154 } },
+    { "id": "v20", "en": "position", "vi": "vị trí việc làm", "ipa": "/pəˈzɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "She applied for the position of assistant teacher.", "collocations": ["apply for a position"], "synonyms": ["job", "post"], "antonyms": [], "src": { "kind": "sgk", "page": 154 } },
+    { "id": "v21", "en": "specialty", "vi": "chuyên ngành", "ipa": "/ˈspeʃəlti/", "ipaFrom": "glossary", "pos": "n", "example": "My cousin's specialty at university is computer science.", "collocations": ["choose a specialty"], "synonyms": ["major"], "antonyms": [], "src": { "kind": "sgk", "page": 154 } },
+    { "id": "v22", "en": "tutor", "vi": "gia sư, giáo viên dạy kèm nhóm học sinh", "ipa": "/ˈtjuːtə/", "ipaFrom": "glossary", "pos": "n", "example": "My older sister works as a maths tutor at weekends.", "collocations": ["a private tutor", "work as a tutor"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 154 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Three-word phrasal verbs: meaning",
+      "nameVi": "Cụm động từ ba từ: nghĩa",
+      "explainVi": "Cụm động từ ba từ gồm động từ + trạng từ + giới từ. Nhiều cụm có nghĩa đoán được (walk away from), nhưng nhiều cụm có nghĩa riêng, phải học thuộc: live up to (đáp ứng kỳ vọng), cut down on (giảm), get on with (hoà hợp), put up with (chịu đựng), go in for (thích, theo đuổi), look forward to (mong chờ), keep up with (theo kịp).",
+      "formula": "V + trạng từ + giới từ + tân ngữ (live up to / cut down on / get on with / put up with ...)",
+      "examples": [
+        "I'm looking forward to my first day at work.",
+        "We need to cut down on the time we spend on games.",
+        "Doctors must keep up with new medical research."
+      ],
+      "wrong": [
+        { "sentence": "I can't put up my noisy neighbours.", "fix": "I can't put up with my noisy neighbours.", "whyVi": "\"chịu đựng\" là put up with, không được bỏ giới từ \"with\"." },
+        { "sentence": "She gets on to all her colleagues.", "fix": "She gets on with all her colleagues.", "whyVi": "\"hoà hợp với\" là get on with." }
+      ],
+      "drills": [
+        { "prompt": "He tried to live ___ his parents' expectations.", "options": ["up to", "up with", "down on"], "answer": 0, "explainVi": "live up to: đáp ứng kỳ vọng." },
+        { "prompt": "The company wants to cut ___ costs.", "options": ["down on", "up with", "in for"], "answer": 0, "explainVi": "cut down on: cắt giảm." },
+        { "prompt": "Which phrasal verb means \"tolerate something unpleasant\"?", "options": ["put up with", "go in for", "look forward to"], "answer": 0, "explainVi": "put up with: chịu đựng điều khó chịu mà không phàn nàn." }
+      ],
+      "errorTag": "preposition",
+      "src": { "kind": "sgk", "page": 119 }
+    },
+    {
+      "id": "g02",
+      "name": "Three-word phrasal verbs: object position",
+      "nameVi": "Cụm động từ ba từ: vị trí tân ngữ",
+      "explainVi": "Với cụm động từ ba từ, tân ngữ (danh từ hoặc đại từ) luôn đứng ngay sau giới từ cuối cùng, không chen vào giữa cụm. Ví dụ: get on with HER, không nói get her on with.",
+      "formula": "S + V + trạng từ + giới từ + tân ngữ",
+      "examples": [
+        "She gets on with all the members of her team.",
+        "I can't put up with his bad behaviour any longer.",
+        "We're looking forward to the career fair."
+      ],
+      "wrong": [
+        { "sentence": "I get my boss on with very well.", "fix": "I get on with my boss very well.", "whyVi": "Tân ngữ (my boss) phải đứng sau giới từ with, không chen vào giữa cụm." },
+        { "sentence": "We look forward it to.", "fix": "We look forward to it.", "whyVi": "Đại từ it cũng đứng sau giới từ cuối: look forward to it." }
+      ],
+      "drills": [
+        { "prompt": "Which sentence is correct?", "options": ["I can't put up with the noise.", "I can't put the noise up with.", "I can't put up the noise with."], "answer": 0, "explainVi": "Tân ngữ (the noise) đứng sau giới từ cuối: put up with the noise." },
+        { "prompt": "Which sentence is correct?", "options": ["She gets on with them well.", "She gets them on with well.", "She gets on them with well."], "answer": 0, "explainVi": "Đại từ them đứng ngay sau with." }
+      ],
+      "errorTag": "word_order",
+      "src": { "kind": "sgk", "page": 119 }
+    },
+    {
+      "id": "g03",
+      "name": "be interested in / be good at + V-ing",
+      "nameVi": "Sau giới từ dùng V-ing khi nói về sở thích nghề nghiệp",
+      "explainVi": "Khi nói về sở thích và khả năng để chọn nghề, ta hay dùng be interested in, be good at, be passionate about, look forward to. Sau giới từ (in, at, about, to) động từ phải ở dạng V-ing.",
+      "formula": "S + be interested in / good at / passionate about + V-ing",
+      "examples": [
+        "I'm interested in becoming a software developer.",
+        "She is good at talking to people, so she wants to work in sales."
+      ],
+      "wrong": [
+        { "sentence": "I'm interested in become a pilot.", "fix": "I'm interested in becoming a pilot.", "whyVi": "Sau giới từ in, động từ phải ở dạng V-ing." },
+        { "sentence": "I look forward to hear from you.", "fix": "I look forward to hearing from you.", "whyVi": "\"to\" trong look forward to là giới từ, nên sau nó dùng V-ing." }
+      ],
+      "drills": [
+        { "prompt": "My brother is passionate about ___ games.", "options": ["designing", "design", "to design"], "answer": 0, "explainVi": "Sau giới từ about dùng V-ing: designing." },
+        { "prompt": "I'm good at ___ problems, so I may become an engineer.", "options": ["solving", "solve", "to solve"], "answer": 0, "explainVi": "Sau giới từ at dùng V-ing: solving." }
+      ],
+      "errorTag": "verb_form",
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sentence_stress",
+      "focus": "Trọng âm câu và nhịp điệu",
+      "tipVi": "Từ nội dung (động từ chính, danh từ, tính từ, trạng từ) thường được nhấn; từ ngữ pháp (liên từ, đại từ, giới từ, trợ động từ, mạo từ) thường đọc nhẹ và nhanh. Nhấn đúng từ giúp câu có nhịp tự nhiên.",
+      "words": ["career", "passion", "skills", "choose", "important", "carefully"],
+      "sentence": "I want to CHOOSE a CAREER that MATCHES my PASSION.",
+      "quiz": [
+        { "prompt": "Which word is usually NOT stressed in a sentence?", "options": ["the", "job", "interesting"], "answer": 0, "explainVi": "the là mạo từ (từ ngữ pháp) nên thường không được nhấn." },
+        { "prompt": "In \"She works in a big hospital\", which words are usually stressed?", "options": ["works, big, hospital", "She, in, a", "She, a, big"], "answer": 0, "explainVi": "works (động từ), big (tính từ), hospital (danh từ) là từ nội dung nên được nhấn." }
+      ],
+      "src": { "kind": "sgk", "page": 118 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "passion, passionate, obsolete, character, fascinating, automate nhấn âm đầu; pursue, position, adapt nhấn âm thứ hai.",
+      "words": ["passion", "passionate", "obsolete", "character", "fascinating", "automate", "pursue", "position", "adapt"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["pursue", "passion", "character"], "answer": 0, "explainVi": "pursue /pəˈsjuː/ nhấn âm thứ hai." },
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["obsolete", "position", "adapt"], "answer": 0, "explainVi": "obsolete /ˈɒbsəliːt/ nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p03",
+      "kind": "intonation",
+      "focus": "Ngữ điệu khi xin giải thích rõ hơn",
+      "tipVi": "Câu hỏi Yes/No như \"Could you be more specific?\" lên giọng ở cuối; câu hỏi Wh- như \"What do you mean by ...?\" xuống giọng ở cuối. Nhấn vào từ mình chưa hiểu.",
+      "words": ["Could you be more specific?", "What do you mean by soft skills?"],
+      "sentence": "Sorry, I'm confused. Could you explain that again?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "I'm not sure I understand ...", "vi": "Mình không chắc là mình hiểu ...", "useVi": "Khi muốn người khác giải thích lại một điều.", "example": "I'm not sure I understand the job application process.", "src": { "kind": "sgk", "page": 125 } },
+    { "id": "e02", "en": "Can you clarify ... for me?", "vi": "Bạn làm rõ ... giúp mình được không?", "useVi": "Khi xin giải thích rõ hơn một điểm cụ thể.", "example": "Can you clarify the working hours for me?", "src": { "kind": "sgk", "page": 125 } },
+    { "id": "e03", "en": "Could you be more specific?", "vi": "Bạn nói cụ thể hơn được không?", "useVi": "Khi câu trả lời còn chung chung.", "example": "You said the job needs soft skills. Could you be more specific?", "src": { "kind": "sgk", "page": 125 } },
+    { "id": "e04", "en": "What do you mean by ...?", "vi": "Ý bạn ... là gì?", "useVi": "Khi chưa hiểu một từ hoặc cụm từ người kia dùng.", "example": "What do you mean by \"work experience\"?", "src": { "kind": "sgk", "page": 125 } },
+    { "id": "e05", "en": "Sorry, I'm confused about ... Could you explain that again?", "vi": "Xin lỗi, mình còn rối về ... Bạn giải thích lại được không?", "useVi": "Khi đã nghe nhưng vẫn chưa hiểu.", "example": "Sorry, I'm confused about references. Could you explain that again?", "src": { "kind": "sgk", "page": 125 } },
+    { "id": "e06", "en": "In other words, ...", "vi": "Nói cách khác, ...", "useVi": "Khi giải thích lại một ý bằng lời dễ hiểu hơn.", "example": "In other words, you need to show what you can do.", "src": { "kind": "sgk", "page": 125 } },
+    { "id": "e07", "en": "Let me clarify that.", "vi": "Để mình nói rõ điều đó.", "useVi": "Khi thấy người nghe chưa hiểu và muốn giải thích.", "example": "Let me clarify that. A CV is a short summary of your skills.", "src": { "kind": "sgk", "page": 125 } },
+    { "id": "e08", "en": "To put it another way, ...", "vi": "Nói một cách khác, ...", "useVi": "Khi diễn đạt lại ý theo cách khác.", "example": "To put it another way, employers want people who can work in teams.", "src": { "kind": "sgk", "page": 125 } },
+    { "id": "e09", "en": "What I mean is ...", "vi": "Ý mình là ...", "useVi": "Khi muốn nói rõ ý của chính mình.", "example": "What I mean is that you should choose a job you enjoy.", "src": { "kind": "sgk", "page": 125 } },
+    { "id": "e10", "en": "I'm interested in ... because ...", "vi": "Mình quan tâm đến ... vì ...", "useVi": "Khi nói về nghề mình thích và lý do.", "example": "I'm interested in nursing because I like helping people.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "The most important thing for me is ...", "vi": "Điều quan trọng nhất với mình là ...", "useVi": "Khi nói tiêu chí chính khi chọn nghề.", "example": "The most important thing for me is to enjoy my work.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["I'm looking forward to", "starting", "my first job", "after university"], "vi": "Mình rất mong được bắt đầu công việc đầu tiên sau khi học đại học.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["She gets on with", "all the people", "in her team"], "vi": "Cô ấy hoà hợp với mọi người trong nhóm.", "grammarId": "g02" },
+    { "id": "b03", "chunks": ["You should take", "your interests", "into account", "when choosing", "a career"], "vi": "Bạn nên cân nhắc sở thích của mình khi chọn nghề.", "grammarId": null },
+    { "id": "b04", "chunks": ["I can't put up with", "a noisy office", "every day"], "vi": "Mình không thể chịu được một văn phòng ồn ào mỗi ngày.", "grammarId": "g02" },
+    { "id": "b05", "chunks": ["My sister", "has always", "gone in for", "music and art"], "vi": "Chị mình luôn đam mê âm nhạc và hội hoạ.", "grammarId": "g01" },
+    { "id": "b06", "chunks": ["Soft skills", "such as teamwork", "are in demand", "in every job"], "vi": "Kỹ năng mềm như làm việc nhóm được cần đến trong mọi nghề.", "grammarId": null },
+    { "id": "b07", "chunks": ["He tried hard", "to live up to", "his parents'", "expectations"], "vi": "Anh ấy đã cố gắng đáp ứng kỳ vọng của bố mẹ.", "grammarId": "g01" },
+    { "id": "b08", "chunks": ["I'm interested in", "becoming", "a software developer", "because I love coding"], "vi": "Mình muốn trở thành lập trình viên vì mình thích viết mã.", "grammarId": "g03" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I want to be a doctor.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in a big hospital" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because I like helping people" }
+      ],
+      "full": "I want to be a doctor in a big hospital because I like helping people."
+    },
+    {
+      "id": "x02",
+      "base": "I'm gaining work experience.",
+      "steps": [
+        { "askVi": "Bằng cách nào?", "ask": "How?", "add": "by working part-time" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at a café near my house" }
+      ],
+      "full": "I'm gaining work experience by working part-time at a café near my house."
+    },
+    {
+      "id": "x03",
+      "base": "Some jobs will become obsolete.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "in the next twenty years" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because machines can automate them" }
+      ],
+      "full": "Some jobs will become obsolete in the next twenty years because machines can automate them."
+    },
+    {
+      "id": "x04",
+      "base": "Teamwork is important.",
+      "steps": [
+        { "askVi": "Quan trọng cho việc gì?", "ask": "For what?", "add": "for every job" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because people need to work together" }
+      ],
+      "full": "Teamwork is important for every job because people need to work together."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Nghề em mơ ước",
+      "questions": [
+        "What job would you like to do in the future?",
+        "What do you want to be when you finish your studies?",
+        "Which career would you love to pursue?"
+      ],
+      "keywords": ["pursue", "passionate about", "I'm interested in", "career"],
+      "exampleAnswer": "I'd like to be a graphic designer because I'm passionate about drawing and using computers.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Những điều cần cân nhắc khi chọn nghề",
+      "questions": [
+        "What should you think about when choosing a career?",
+        "What things are important when deciding on a job?",
+        "How can young people choose the right career path?"
+      ],
+      "keywords": ["take into account", "character", "in demand", "salary"],
+      "exampleAnswer": "You should take your character and interests into account, and also think about which jobs are in demand.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Kỹ năng mềm",
+      "questions": [
+        "Which soft skills are the most useful at work?",
+        "What skills do you need to work well in a team?",
+        "Which soft skills would you like to improve?"
+      ],
+      "keywords": ["soft skills", "communication", "teamwork", "get on with"],
+      "exampleAnswer": "Communication and teamwork are the most useful, because you need to get on with your colleagues.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Lợi ích của việc làm thêm",
+      "questions": [
+        "Why is part-time work useful for students?",
+        "How can young people get work experience before they finish school?",
+        "What can teenagers learn from a summer job?"
+      ],
+      "keywords": ["work experience", "responsibility", "soft skills", "CV"],
+      "exampleAnswer": "A part-time job gives students work experience and soft skills, so their CV looks better later.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Nghề có nhu cầu cao trong tương lai",
+      "questions": [
+        "Which jobs will be in demand in the future?",
+        "What careers will be popular in twenty years?",
+        "Which new jobs might appear because of technology?"
+      ],
+      "keywords": ["in demand", "automate", "obsolete", "technology"],
+      "exampleAnswer": "Jobs in IT and health care will be in demand, because machines can't replace people who create software or care for patients.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "Which school subject could help you most in your future job, and how?", "keywords": ["subject", "useful", "career"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should schools invite workers from different jobs to talk to students? Why or why not?", "keywords": ["experience", "choose", "career"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend wants to leave school to become a professional gamer. What do you say to him?", "keywords": ["should", "take into account", "risk"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What kind of workplace would you like to work in, and what would you do there?", "keywords": ["office", "outdoors", "team"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should parents choose careers for their children? Why or why not?", "keywords": ["passion", "experience", "decide"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your cousin is very nervous before her first job interview. What do you say to her?", "keywords": ["prepare", "confident", "soft skills"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Trò chuyện ở ngày hội hướng nghiệp",
+      "contextVi": "Trường em tổ chức ngày hội hướng nghiệp. Một bạn cùng lớp hỏi em quan tâm đến nghề nào và vì sao.",
+      "aiRole": "Nam, a classmate at the school career fair",
+      "studentRoleVi": "Học sinh lớp 12 đang tìm hiểu nghề",
+      "goalVi": "Nói về một nghề em quan tâm, nêu một lý do và một kỹ năng cần có cho nghề đó.",
+      "goal": "Talk about one career you are interested in, give one reason, and name one skill the job needs.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do em thích nghề đó (because...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["pursue", "passion", "soft skills", "in demand", "work experience"] }
+      ],
+      "opener": "Wow, there are so many stands here! Which career are you most interested in?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Interesting! Why do you like it?",
+        "What skills do you think you need for that job?",
+        "Cool. What will you do to prepare for it?"
+      ],
+      "tipsVi": ["Mở đầu bằng \"I'm interested in + V-ing...\"", "Nói cụ thể kỹ năng: communication, teamwork, problem-solving."],
+      "keywords": ["I'm interested in", "passion", "soft skills", "because"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Mẹ muốn em học y",
+      "contextVi": "Mẹ muốn em thi vào ngành y, nhưng em muốn học thiết kế đồ hoạ. Em lịch sự giải thích lựa chọn của mình.",
+      "aiRole": "Mum, a caring mother who wants a safe future for her child",
+      "studentRoleVi": "Con trong gia đình, muốn học thiết kế đồ hoạ",
+      "goalVi": "Giải thích vì sao em chọn ngành khác, đưa ví dụ, và trả lời khi mẹ phản đối.",
+      "goal": "Explain why you want to study graphic design, give an example, and answer your mother's objection politely.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do em chọn ngành này", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ cụ thể (việc em đã làm, nghề có nhu cầu)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["passion", "pursue", "in demand", "live up to", "take into account"] }
+      ],
+      "opener": "Your exams are coming soon. Have you decided to apply for medicine like we talked about?",
+      "stance": "Doctors have stable jobs and earn more. Design is not a real career.",
+      "turns": 5,
+      "fallback": [
+        "Graphic design? Why do you want to do that?",
+        "But doctors have stable jobs and earn more. Design is not a real career, is it?",
+        "Hmm. And how will you find a job after university?",
+        "All right. Let's talk to a career adviser together."
+      ],
+      "tipsVi": ["Giữ thái độ lễ phép: \"I understand, Mum, but...\"", "Nêu ví dụ: thiết kế cho công ty, nội dung số, quảng cáo."],
+      "keywords": ["passion", "in demand", "I understand", "because"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Kỹ năng mềm có quan trọng không?",
+      "contextVi": "Một bạn trong nhóm học cho rằng chỉ cần điểm cao là đủ để có việc tốt, kỹ năng mềm không quan trọng. Em không đồng ý.",
+      "aiRole": "Thao, a hard-working classmate who only cares about grades",
+      "studentRoleVi": "Bạn cùng nhóm học",
+      "goalVi": "Giải thích vai trò của kỹ năng mềm, đưa ví dụ, và trả lời khi Thảo phản đối.",
+      "goal": "Explain why soft skills matter, give an example, and answer Thao's objection.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["soft skills", "get on with", "adapt", "work experience", "position"] }
+      ],
+      "opener": "Why are you joining so many clubs? Good grades are all you need to get a job.",
+      "stance": "Employers only care about good grades. Soft skills are not important.",
+      "turns": 5,
+      "fallback": [
+        "Really? What can clubs teach you?",
+        "But employers only care about good grades. Soft skills are not important.",
+        "Hmm. Can you give me an example?",
+        "OK, maybe I should join a club too."
+      ],
+      "tipsVi": ["Khi Thảo phản đối, mở đầu bằng \"I see your point, but...\"", "Ví dụ: làm việc nhóm, thuyết trình, xử lý vấn đề."],
+      "keywords": ["soft skills", "teamwork", "I see your point", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Rô bốt sẽ lấy hết việc làm?",
+      "contextVi": "Anh họ em làm trong ngành công nghệ. Anh nói đùa rằng rô bốt sẽ thay thế mọi công việc nên không cần lên kế hoạch nghề nghiệp. Em trao đổi với anh.",
+      "aiRole": "Khoa, an older cousin who works in IT",
+      "studentRoleVi": "Học sinh lớp 12 đang lên kế hoạch nghề nghiệp",
+      "goalVi": "Nói về kế hoạch nghề của em, nêu lý do vẫn cần chuẩn bị, và trả lời khi anh có ý kiến khác.",
+      "goal": "Talk about your career plan, explain why planning still matters, and respond to your cousin's different opinion.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "suggestion", "vi": "Nêu việc em sẽ làm để chuẩn bị", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["automate", "obsolete", "adapt", "soft skills", "in demand", "pursue"] }
+      ],
+      "opener": "So you're finishing school soon. Do you know what career you want?",
+      "stance": "Robots will take all our jobs, so it's pointless to plan a career.",
+      "turns": 5,
+      "fallback": [
+        "Sounds good. Why did you choose it?",
+        "Honestly, robots will take all our jobs, so it's pointless to plan a career.",
+        "Hmm, fair point. So how will you prepare?",
+        "Good plan. Let me know if you need help with your CV."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["automate", "adapt", "soft skills", "because"]
+    }
+  ]
+}

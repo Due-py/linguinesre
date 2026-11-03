@@ -1,0 +1,332 @@
+{
+  "grade": 9,
+  "unit": 10,
+  "title": "Planet Earth",
+  "titleVi": "Trái Đất",
+  "edition": "Tiếng Anh 9 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 104–113; Glossary tr. 139",
+  "vocab": [
+    { "id": "v01", "en": "habitat", "vi": "môi trường sống của động thực vật", "ipa": "/ˈhæbɪtæt/", "ipaFrom": "glossary", "pos": "n", "example": "Bamboo forests are the natural habitat of pandas.", "collocations": ["natural habitat", "habitat loss"], "synonyms": ["home"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v02", "en": "threat", "vi": "nỗi đe doạ", "ipa": "/θret/", "ipaFrom": "glossary", "pos": "n", "example": "Plastic is a big threat to sea animals.", "collocations": ["a threat to", "a serious threat"], "synonyms": ["danger"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v03", "en": "climate change", "vi": "biến đổi khí hậu", "ipa": "/ˈklaɪmət tʃeɪndʒ/", "ipaFrom": "glossary", "pos": "n", "example": "Climate change makes storms stronger.", "collocations": ["fight climate change", "the effects of climate change"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v04", "en": "nature reserve", "vi": "khu bảo tồn thiên nhiên", "ipa": "/ˈneɪtʃə rɪzɜːv/", "ipaFrom": "glossary", "pos": "n", "example": "Many rare birds live in the nature reserve.", "collocations": ["visit a nature reserve", "build a nature reserve"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v05", "en": "ecological balance", "vi": "cân bằng sinh thái", "ipa": "/ˌiːkəˈlɒdʒɪkl ˈbæləns/", "ipaFrom": "glossary", "pos": "n", "example": "Hunting too many animals can destroy the ecological balance.", "collocations": ["keep the ecological balance"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v06", "en": "food chain", "vi": "chuỗi thức ăn", "ipa": "/ˈfuːd tʃeɪn/", "ipaFrom": "glossary", "pos": "n", "example": "In the food chain, frogs eat insects and snakes eat frogs.", "collocations": ["part of the food chain"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v07", "en": "flora and fauna", "vi": "hệ thực vật và động vật", "ipa": "/ˌflɔːrə ən ˈfɔːnə/", "ipaFrom": "dictionary", "pos": "n", "example": "Con Dao is rich in flora and fauna.", "collocations": ["rich in flora and fauna", "protect flora and fauna"], "synonyms": ["plants and animals"], "antonyms": [], "src": { "kind": "sgk", "page": 106 } },
+    { "id": "v08", "en": "pesticide", "vi": "thuốc diệt cỏ", "ipa": "/ˈpestɪsaɪd/", "ipaFrom": "glossary", "pos": "n", "example": "Too much pesticide can kill bees and harm the soil.", "collocations": ["use pesticides", "spray pesticides"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v09", "en": "fertiliser", "vi": "phân bón", "ipa": "/ˈfɜːtəlaɪzə/", "ipaFrom": "glossary", "pos": "n", "example": "My grandma uses natural fertiliser in her garden.", "collocations": ["chemical fertiliser", "natural fertiliser"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v10", "en": "harm", "vi": "làm hại", "ipa": "/hɑːm/", "ipaFrom": "glossary", "pos": "v", "example": "Rubbish in the river harms the fish.", "collocations": ["harm the environment", "harm wildlife"], "synonyms": ["damage", "hurt"], "antonyms": ["protect"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v11", "en": "preserve", "vi": "bảo tồn", "ipa": "/prɪˈzɜːv/", "ipaFrom": "glossary", "pos": "v", "example": "We must preserve the forests for the next generation.", "collocations": ["preserve nature", "preserve habitats"], "synonyms": ["protect", "save"], "antonyms": ["destroy"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v12", "en": "essential", "vi": "vô cùng quan trọng", "ipa": "/ɪˈsenʃl/", "ipaFrom": "glossary", "pos": "adj", "example": "Clean water is essential for all living things.", "collocations": ["essential for", "an essential part"], "synonyms": ["vital"], "antonyms": ["unnecessary"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v13", "en": "vital", "vi": "quan trọng mức sống còn", "ipa": "/ˈvaɪtl/", "ipaFrom": "glossary", "pos": "adj", "example": "Trees are vital because they give us oxygen.", "collocations": ["vital for", "play a vital role"], "synonyms": ["essential"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v14", "en": "fascinating", "vi": "rất thú vị và hấp dẫn", "ipa": "/ˈfæsɪneɪtɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "I find life in the deep ocean fascinating.", "collocations": ["a fascinating place", "find something fascinating"], "synonyms": ["amazing"], "antonyms": ["boring"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v15", "en": "affect", "vi": "gây ảnh hưởng", "ipa": "/əˈfekt/", "ipaFrom": "glossary", "pos": "v", "example": "Air pollution affects our health.", "collocations": ["affect the weather", "badly affect"], "synonyms": ["influence"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v16", "en": "appreciate", "vi": "đánh giá cao", "ipa": "/əˈpriːʃieɪt/", "ipaFrom": "glossary", "pos": "v", "example": "After the trip, I appreciate nature much more.", "collocations": ["appreciate nature"], "synonyms": ["value"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v17", "en": "grassland", "vi": "khu vực đồng cỏ", "ipa": "/ˈɡrɑːslænd/", "ipaFrom": "glossary", "pos": "n", "example": "Zebras and lions live on the African grassland.", "collocations": ["wide grassland"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v18", "en": "landform", "vi": "dạng địa hình, địa mạo", "ipa": "/ˈlændfɔːm/", "ipaFrom": "glossary", "pos": "n", "example": "Mountains, hills and plains are different landforms.", "collocations": ["natural landforms"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v19", "en": "pole", "vi": "cực (bắc / nam)", "ipa": "/pəʊl/", "ipaFrom": "glossary", "pos": "n", "example": "The ice at the North Pole is melting.", "collocations": ["the North Pole", "the South Pole"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v20", "en": "observe", "vi": "quan sát, chú ý", "ipa": "/əbˈzɜːv/", "ipaFrom": "glossary", "pos": "v", "example": "Scientists observe the birds in the nature reserve every spring.", "collocations": ["observe animals", "observe the stars"], "synonyms": ["watch"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v21", "en": "outer space", "vi": "ngoài vũ trụ", "ipa": "/ˌaʊtə ˈspeɪs/", "ipaFrom": "glossary", "pos": "n", "example": "From outer space, the Earth looks blue.", "collocations": ["travel to outer space"], "synonyms": ["space"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v22", "en": "orbit", "vi": "quay quanh quỹ đạo", "ipa": "/ˈɔːbɪt/", "ipaFrom": "glossary", "pos": "v", "example": "The Earth orbits the Sun once a year.", "collocations": ["orbit the Sun"], "synonyms": ["go around"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Non-defining relative clauses",
+      "nameVi": "Mệnh đề quan hệ không xác định",
+      "explainVi": "Mệnh đề quan hệ không xác định chỉ thêm thông tin phụ về một người, vật đã rõ (thường là tên riêng hoặc vật duy nhất). Bỏ nó đi câu vẫn đủ nghĩa. Mệnh đề này đặt giữa hai dấu phẩy (khi nói, ngắt hơi nhẹ), dùng who, which, whose, KHÔNG dùng that và KHÔNG được bỏ đại từ quan hệ.",
+      "formula": "Danh từ đã rõ, who / which / whose + ..., phần còn lại của câu",
+      "examples": [
+        "Mars, which is called the Red Planet, is smaller than Earth.",
+        "My uncle, who works in a nature reserve, loves birds.",
+        "Cat Ba, whose forests are full of monkeys, is a national park."
+      ],
+      "wrong": [
+        { "sentence": "Earth, that is the third planet from the Sun, has liquid water.", "fix": "Earth, which is the third planet from the Sun, has liquid water.", "whyVi": "Mệnh đề không xác định không dùng that; dùng which cho vật." },
+        { "sentence": "My teacher, is a scientist, told us about climate change.", "fix": "My teacher, who is a scientist, told us about climate change.", "whyVi": "Không được bỏ who trong mệnh đề không xác định." }
+      ],
+      "drills": [
+        { "prompt": "The Pacific Ocean, ___ is the largest ocean, covers about 30% of the Earth.", "options": ["who", "which", "that"], "answer": 1, "explainVi": "Vật, mệnh đề không xác định: which (không dùng that)." },
+        { "prompt": "Mr An, ___ studies plants, gave us a talk.", "options": ["who", "which", "whose"], "answer": 0, "explainVi": "Mr An là người: who." },
+        { "prompt": "Viet Nam, ___ coastline is very long, has many beaches.", "options": ["which", "whose", "who"], "answer": 1, "explainVi": "Bờ biển CỦA Việt Nam: whose + coastline." },
+        { "prompt": "Which sentence is correct?", "options": ["The Moon, which orbits the Earth, has no air.", "The Moon, that orbits the Earth, has no air.", "The Moon, orbits the Earth, has no air."], "answer": 0, "explainVi": "Dùng which, không dùng that và không bỏ đại từ quan hệ." }
+      ],
+      "errorTag": "pronoun",
+      "src": { "kind": "sgk", "page": 107 }
+    },
+    {
+      "id": "g02",
+      "name": "First conditional for consequences",
+      "nameVi": "Câu điều kiện loại 1 để nói hậu quả",
+      "explainVi": "Dùng câu điều kiện loại 1 để nói điều có thể xảy ra trong tương lai nếu một việc xảy ra: mệnh đề if dùng hiện tại đơn, mệnh đề chính dùng will + động từ nguyên mẫu. Rất hữu ích khi nói về các mối đe dọa với Trái Đất.",
+      "formula": "If + S + V (hiện tại đơn), S + will / won't + V",
+      "examples": [
+        "If we cut down the forests, many animals will lose their habitats.",
+        "If farmers use fewer pesticides, more bees will survive."
+      ],
+      "wrong": [
+        { "sentence": "If we will save water, we will help the planet.", "fix": "If we save water, we will help the planet.", "whyVi": "Sau if dùng hiện tại đơn, không dùng will." },
+        { "sentence": "If the ice melts, the sea level rise.", "fix": "If the ice melts, the sea level will rise.", "whyVi": "Mệnh đề chính nói về kết quả tương lai: will rise." }
+      ],
+      "drills": [
+        { "prompt": "If people ___ rubbish into the sea, many fish will die.", "options": ["throw", "will throw", "threw"], "answer": 0, "explainVi": "Mệnh đề if dùng hiện tại đơn: throw." },
+        { "prompt": "If we plant more trees, the air ___ cleaner.", "options": ["is", "will be", "would be"], "answer": 1, "explainVi": "Kết quả trong tương lai: will be." },
+        { "prompt": "Which sentence is correct?", "options": ["If climate change continues, the poles will melt more.", "If climate change will continue, the poles melt more.", "If climate change continue, the poles will melt more."], "answer": 0, "explainVi": "if + hiện tại đơn (continues, có -s), mệnh đề chính will + V." }
+      ],
+      "errorTag": "conditional",
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sentence_stress",
+      "focus": "Nhịp điệu trong câu",
+      "tipVi": "Khi nói, ta nhấn mạnh từ mang nghĩa chính (danh từ, động từ chính, tính từ, trạng từ) và đọc lướt, nhẹ các từ nhỏ như the, a, is, are, and, from, of. Xen kẽ âm nhấn và âm lướt tạo nên nhịp điệu tiếng Anh.",
+      "words": ["Earth", "planet", "Sun", "oceans", "poles", "habitats"],
+      "sentence": "Polar bears live on the ice near the North Pole.",
+      "quiz": [
+        { "prompt": "In the sentence \"The Earth is round\", which word is usually NOT stressed?", "options": ["The", "Earth", "round"], "answer": 0, "explainVi": "\"The\" là từ chức năng nên đọc lướt; Earth và round mang nghĩa chính nên được nhấn." },
+        { "prompt": "In \"Plants give us food\", which word is usually NOT stressed?", "options": ["plants", "us", "food"], "answer": 1, "explainVi": "Đại từ \"us\" thường đọc nhẹ; plants và food là danh từ được nhấn." }
+      ],
+      "src": { "kind": "sgk", "page": 106 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "habitat, pesticide, fascinating, landform nhấn âm đầu; essential, preserve, affect, appreciate nhấn âm thứ hai; ecological nhấn âm thứ ba (e-co-LO-gi-cal).",
+      "words": ["habitat", "pesticide", "fascinating", "essential", "preserve", "appreciate", "ecological"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["habitat", "essential", "pesticide"], "answer": 1, "explainVi": "essential /ɪˈsenʃl/ nhấn âm thứ hai; habitat và pesticide nhấn âm đầu." },
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["appreciate", "preserve", "fascinating"], "answer": 2, "explainVi": "fascinating /ˈfæsɪneɪtɪŋ/ nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Why don't you give it a go?", "vi": "Sao bạn không thử xem?", "useVi": "Khi khuyến khích, thuyết phục ai đó thử làm một việc.", "example": "This film about the ocean is great. Why don't you give it a go?", "src": { "kind": "sgk", "page": 108 } },
+    { "id": "e02", "en": "OK, I'll think about that.", "vi": "Được, mình sẽ suy nghĩ về điều đó.", "useVi": "Khi đáp lại lời thuyết phục nhưng chưa quyết định ngay.", "example": "OK, I'll think about that.", "src": { "kind": "sgk", "page": 108 } },
+    { "id": "e03", "en": "How would you feel about ...?", "vi": "Bạn thấy thế nào về việc ...?", "useVi": "Khi lịch sự đề nghị ai đó làm một việc.", "example": "How would you feel about joining our tree-planting day?", "src": { "kind": "sgk", "page": 108 } },
+    { "id": "e04", "en": "Your contribution would really help us out.", "vi": "Sự đóng góp của bạn thực sự giúp ích cho chúng tôi.", "useVi": "Khi thuyết phục ai đó đóng góp hoặc giúp sức.", "example": "Even a small amount is fine. Your contribution would really help us out.", "src": { "kind": "sgk", "page": 108 } },
+    { "id": "e05", "en": "Alright. I'll ...", "vi": "Được rồi. Tôi sẽ ...", "useVi": "Khi đồng ý sau khi được thuyết phục.", "example": "Alright. I'll make a contribution.", "src": { "kind": "sgk", "page": 108 } },
+    { "id": "e06", "en": "One of the biggest threats to ... is ...", "vi": "Một trong những mối đe dọa lớn nhất với ... là ...", "useVi": "Khi nêu vấn đề môi trường nghiêm trọng.", "example": "One of the biggest threats to wildlife is habitat loss.", "src": { "kind": "team", "page": null } },
+    { "id": "e07", "en": "If we don't ..., ... will ...", "vi": "Nếu chúng ta không ..., ... sẽ ...", "useVi": "Khi cảnh báo hậu quả để thuyết phục người khác.", "example": "If we don't stop cutting trees, many birds will lose their homes.", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "It's essential to ...", "vi": "Việc ... là vô cùng quan trọng.", "useVi": "Khi nhấn mạnh một việc cần làm.", "example": "It's essential to protect the forests.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "I see what you mean, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi lịch sự nêu ý kiến khác.", "example": "I see what you mean, but one person can still make a difference.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["Mars,", "which is called", "the Red Planet,", "is very dry"], "vi": "Sao Hỏa, còn gọi là Hành tinh Đỏ, rất khô.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["My uncle,", "who works", "in a nature reserve,", "loves birds"], "vi": "Chú mình, người làm việc ở một khu bảo tồn thiên nhiên, rất yêu chim.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["Cat Ba,", "whose forests", "are full of monkeys,", "is a national park"], "vi": "Cát Bà, nơi có những khu rừng đầy khỉ, là một vườn quốc gia.", "grammarId": "g01" },
+    { "id": "b04", "chunks": ["If we cut down", "the forests,", "many animals will lose", "their habitats"], "vi": "Nếu chúng ta chặt phá rừng, nhiều loài động vật sẽ mất môi trường sống.", "grammarId": "g02" },
+    { "id": "b05", "chunks": ["If farmers use", "fewer pesticides,", "more bees", "will survive"], "vi": "Nếu nông dân dùng ít thuốc trừ sâu hơn, nhiều ong sẽ sống sót hơn.", "grammarId": "g02" },
+    { "id": "b06", "chunks": ["Clean water", "is essential", "for all", "living things"], "vi": "Nước sạch vô cùng quan trọng đối với mọi sinh vật.", "grammarId": null },
+    { "id": "b07", "chunks": ["One of the biggest threats", "to wildlife", "is", "climate change"], "vi": "Một trong những mối đe dọa lớn nhất với động vật hoang dã là biến đổi khí hậu.", "grammarId": null },
+    { "id": "b08", "chunks": ["I find", "the deep ocean", "fascinating"], "vi": "Mình thấy đại dương sâu thẳm rất hấp dẫn.", "grammarId": null }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "Pandas are losing their habitat.",
+      "steps": [
+        { "askVi": "Gấu trúc ở đâu?", "ask": "Where?", "add": "in China" },
+        { "askVi": "Vì sao chúng mất nơi sống?", "ask": "Why?", "add": "because people cut down bamboo forests" }
+      ],
+      "full": "Pandas in China are losing their habitat because people cut down bamboo forests."
+    },
+    {
+      "id": "x02",
+      "base": "We should protect the river.",
+      "steps": [
+        { "askVi": "Con sông nào?", "ask": "Which river?", "add": "near our school" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because many fish and birds live there" }
+      ],
+      "full": "We should protect the river near our school because many fish and birds live there."
+    },
+    {
+      "id": "x03",
+      "base": "I visited a nature reserve.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last spring" },
+        { "askVi": "Em đã làm gì ở đó?", "ask": "What did you do?", "add": "and observed many rare birds" }
+      ],
+      "full": "I visited a nature reserve last spring and observed many rare birds."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Một loài động vật em thấy thú vị",
+      "questions": [
+        "Which animal do you find the most fascinating, and why?",
+        "Tell me about an interesting animal and the place where it lives.",
+        "What animal would you like to learn more about?"
+      ],
+      "keywords": ["fascinating", "habitat", "which", "lives in"],
+      "exampleAnswer": "I find dolphins fascinating because they are very clever. They live in the ocean, which is their natural habitat.",
+      "expectsReason": true
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Những mối đe dọa với Trái Đất",
+      "questions": [
+        "What are the biggest dangers to our planet now?",
+        "What problems is planet Earth facing today?",
+        "Which environmental problem worries you the most?"
+      ],
+      "keywords": ["climate change", "threat", "pollution", "habitat loss"],
+      "exampleAnswer": "Climate change is a big threat. Pollution and habitat loss are also serious problems for wildlife.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Học sinh làm gì để bảo vệ hành tinh",
+      "questions": [
+        "What can students do every day to protect the planet?",
+        "How can young people help to preserve nature?",
+        "What small actions can you take to help planet Earth?"
+      ],
+      "keywords": ["preserve", "save", "plant", "reduce"],
+      "exampleAnswer": "We can save water and electricity, plant trees, and reduce plastic waste at school.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Vì sao cần giữ cân bằng sinh thái",
+      "questions": [
+        "Why is the ecological balance important?",
+        "What happens if one animal disappears from a food chain?",
+        "Why should we care about small animals like bees and frogs?"
+      ],
+      "keywords": ["ecological balance", "food chain", "affect", "if"],
+      "exampleAnswer": "If one animal disappears, the whole food chain is affected. For example, without bees, many plants can't grow.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Thiên nhiên quanh nơi em sống",
+      "questions": [
+        "What natural places are there around your town?",
+        "Is there a river, lake or forest near your home? What is it like?",
+        "What can you see in nature where you live?"
+      ],
+      "keywords": ["flora and fauna", "which", "grassland", "observe"],
+      "exampleAnswer": "There is a small lake near my house, which has a lot of ducks and fish. I like to observe the birds there.",
+      "expectsReason": false
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "Tell me about a time when you spent a day in nature.", "keywords": ["observed", "fascinating", "flora and fauna"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should people be allowed to keep wild birds in cages at home? Why or why not?", "keywords": ["habitat", "harm", "free"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend wants to pick some rare flowers in a nature reserve. What do you say to her?", "keywords": ["preserve", "harm", "shouldn't"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "Describe a park, forest or beach where you saw some interesting plants or animals.", "keywords": ["observed", "habitat", "which"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should students spend more school time learning outdoors in nature? Why or why not?", "keywords": ["appreciate", "observe", "essential"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your neighbour sprays a lot of chemicals on his vegetable garden every day. What do you say to him?", "keywords": ["pesticide", "harm", "fertiliser"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Thuyết phục bạn xem phim về Trái Đất",
+      "contextVi": "Em vừa xem một bộ phim tài liệu hay về Trái Đất. Em muốn rủ bạn Tom xem cùng, nhưng Tom chưa muốn lắm.",
+      "aiRole": "Tom, a classmate who doesn't usually watch documentaries",
+      "studentRoleVi": "Bạn cùng lớp, rủ Tom xem phim",
+      "goalVi": "Thuyết phục Tom xem phim: kể phim nói về gì, nêu lý do và một ví dụ thú vị trong phim.",
+      "goal": "Persuade Tom to watch a film about planet Earth: say what it is about, give a reason and one interesting example.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do Tom nên xem", "words": [] },
+        { "kind": "example", "vi": "Kể một ví dụ thú vị trong phim", "words": [] }
+      ],
+      "opener": "A documentary about planet Earth? Hmm, I don't really feel like watching it.",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Really? What is it about?",
+        "Hmm, can you tell me one interesting thing from the film?",
+        "OK, I'll think about that. Maybe I'll watch it this weekend."
+      ],
+      "tipsVi": ["Dùng \"Why don't you give it a go?\"", "Nhắc đến một con vật hoặc nơi thú vị trong phim."],
+      "keywords": ["fascinating", "habitat", "Why don't you", "because"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Kêu gọi đóng góp cho khu bảo tồn",
+      "contextVi": "Câu lạc bộ của em quyên góp để xây một khu bảo tồn thiên nhiên nhỏ. Em gặp một người dân địa phương để thuyết phục họ đóng góp.",
+      "aiRole": "Mrs Hanh, a local resident",
+      "studentRoleVi": "Thành viên câu lạc bộ, kêu gọi đóng góp",
+      "goalVi": "Giải thích vì sao cần khu bảo tồn, thuyết phục bà Hạnh, và trả lời khi bà còn nghi ngại.",
+      "goal": "Explain why the area needs a nature reserve, persuade Mrs Hanh to contribute, and answer her doubt.",
+      "requirements": [
+        { "kind": "reason", "vi": "Giải thích vì sao cần khu bảo tồn", "words": [] },
+        { "kind": "suggestion", "vi": "Đề nghị bà đóng góp hoặc giúp sức", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["nature reserve", "habitat", "preserve", "flora and fauna", "threat"] }
+      ],
+      "opener": "Hello there. My neighbour said you're collecting money for something?",
+      "stance": "The animals here are fine. I think the money should be spent on roads, not a nature reserve.",
+      "turns": 5,
+      "fallback": [
+        "A nature reserve? Why do we need one here?",
+        "Well, I think the animals are fine. The money should be spent on roads, not a nature reserve.",
+        "Hmm. How would the reserve help people in our town?",
+        "Alright. I'll make a small contribution."
+      ],
+      "tipsVi": ["Dùng \"How would you feel about...?\" và \"Your contribution would really help us out.\"", "Khi bà phản đối, nói lợi ích cho cả người dân."],
+      "keywords": ["nature reserve", "habitat", "contribution", "because"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Vườn thú: tốt hay không?",
+      "contextVi": "Trong giờ thảo luận, bạn Quân cho rằng nên đưa thật nhiều động vật hoang dã vào vườn thú để bảo vệ chúng. Em có ý kiến riêng.",
+      "aiRole": "Quan, a classmate in a class discussion",
+      "studentRoleVi": "Học sinh tham gia thảo luận",
+      "goalVi": "Nêu ý kiến của em về cách bảo vệ động vật hoang dã, đưa lý do, ví dụ, và trả lời khi Quân không đồng ý.",
+      "goal": "Give your view on the best way to protect wild animals, with a reason and an example, and answer Quan's view.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["habitat", "nature reserve", "ecological balance", "preserve", "food chain"] }
+      ],
+      "opener": "I think the best way to save wild animals is to put them all in zoos. Do you agree?",
+      "stance": "In a zoo, animals are safe from hunters and always have food, so it's better for them.",
+      "turns": 5,
+      "fallback": [
+        "Why do you think so?",
+        "But in a zoo, animals are safe from hunters and always have food. Isn't that better for them?",
+        "Hmm, can you give me an example?",
+        "OK, maybe both zoos and nature reserves are useful."
+      ],
+      "tipsVi": ["Nghĩ về môi trường sống tự nhiên và chuỗi thức ăn.", "Mở đầu phản biện bằng \"I see what you mean, but...\""],
+      "keywords": ["habitat", "nature reserve", "I see what you mean", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Nhà máy cạnh khu rừng",
+      "contextVi": "Thị trấn em định xây một nhà máy cạnh khu rừng. Một người bạn của gia đình làm ở ủy ban hỏi ý kiến của em.",
+      "aiRole": "Mr Tuan, a family friend who works for the town council",
+      "studentRoleVi": "Học sinh nêu ý kiến về kế hoạch",
+      "goalVi": "Nêu ý kiến về kế hoạch, giải thích ảnh hưởng tới thiên nhiên, đề xuất giải pháp, và trả lời khi chú Tuấn có ý khác.",
+      "goal": "Give your view on the factory plan, explain its effects on nature, suggest a solution, and respond to Mr Tuan's opinion.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do / ảnh hưởng", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất một giải pháp", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["habitat", "harm", "threat", "preserve", "ecological balance", "flora and fauna"] }
+      ],
+      "opener": "The town wants to build a new factory next to the forest. What do you think about the plan?",
+      "stance": "The factory will give hundreds of people jobs, and that is more important than a few trees.",
+      "turns": 5,
+      "fallback": [
+        "I see. What problems could the factory cause?",
+        "But the factory will give hundreds of people jobs. Isn't that more important than a few trees?",
+        "That's an interesting idea. How could we do that?",
+        "Thank you. I'll share your idea at the next meeting."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["habitat", "harm", "if", "because"]
+    }
+  ]
+}

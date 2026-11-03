@@ -1,0 +1,366 @@
+{
+  "grade": 7,
+  "unit": 3,
+  "title": "Community Service",
+  "titleVi": "Hoạt động vì cộng đồng",
+  "edition": "Tiếng Anh 7 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 28–37; Glossary tr. 136",
+  "vocab": [
+    { "id": "v01", "en": "community", "vi": "cộng đồng", "ipa": "/kəˈmjuːnəti/", "ipaFrom": "glossary", "pos": "n", "example": "Our community has a small library for children.", "collocations": ["local community", "help the community"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v02", "en": "community service", "vi": "dịch vụ cộng đồng", "ipa": "/kəˌmjuːnəti ˈsɜːvɪs/", "ipaFrom": "glossary", "pos": "n", "example": "Our school does community service every month.", "collocations": ["do community service"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v03", "en": "volunteer", "vi": "tình nguyện, người tình nguyện", "ipa": "/ˌvɒlənˈtɪə/", "ipaFrom": "glossary", "pos": "v, n", "example": "My sister volunteered at a hospital last summer.", "collocations": ["volunteer to help", "a young volunteer", "volunteer work"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v04", "en": "donate", "vi": "cho, tặng", "ipa": "/dəʊˈneɪt/", "ipaFrom": "glossary", "pos": "v", "example": "We donated our old textbooks to a school in the mountains.", "collocations": ["donate books", "donate clothes", "donate money"], "synonyms": ["give"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v05", "en": "clean-up activity", "vi": "hoạt động dọn rửa", "ipa": "/ˈkliːn ʌp ækˈtɪvəti/", "ipaFrom": "glossary", "pos": "n", "example": "Our class joined a clean-up activity at the beach.", "collocations": ["join a clean-up activity"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v06", "en": "litter", "vi": "rác (vứt bừa bãi)", "ipa": "/ˈlɪtə/", "ipaFrom": "dictionary", "pos": "n", "example": "We picked up litter around the school gate.", "collocations": ["pick up litter"], "synonyms": ["rubbish"], "antonyms": [], "src": { "kind": "sgk", "page": 30 } },
+    { "id": "v07", "en": "plant", "vi": "trồng cây", "ipa": "/plɑːnt/", "ipaFrom": "glossary", "pos": "v", "example": "Last spring, we planted fifty trees in the park.", "collocations": ["plant trees", "plant vegetables"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v08", "en": "collect", "vi": "thu thập, sưu tầm", "ipa": "/kəˈlekt/", "ipaFrom": "glossary", "pos": "v", "example": "We collected warm clothes for children in the mountains.", "collocations": ["collect books", "collect plastic bottles"], "synonyms": ["gather"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v09", "en": "exchange", "vi": "trao đổi", "ipa": "/ɪksˈtʃeɪndʒ/", "ipaFrom": "glossary", "pos": "v", "example": "Students can exchange used paper for notebooks.", "collocations": ["exchange used paper for notebooks"], "synonyms": ["swap"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v10", "en": "tutor", "vi": "phụ đạo, dạy học", "ipa": "/ˈtjuːtə/", "ipaFrom": "glossary", "pos": "v", "example": "My brother tutors two primary students in maths.", "collocations": ["tutor primary students", "tutor children"], "synonyms": ["teach"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v11", "en": "elderly", "vi": "lớn tuổi, cao tuổi", "ipa": "/ˈeldəli/", "ipaFrom": "glossary", "pos": "adj", "example": "We read books to elderly people every Sunday.", "collocations": ["the elderly", "elderly people"], "synonyms": ["old"], "antonyms": ["young"], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v12", "en": "nursing home", "vi": "viện dưỡng lão", "ipa": "/ˈnɜːsɪŋ həʊm/", "ipaFrom": "glossary", "pos": "n", "example": "Our club visited a nursing home last month.", "collocations": ["visit a nursing home"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v13", "en": "homeless", "vi": "vô gia cư, không có gia đình", "ipa": "/ˈhəʊmləs/", "ipaFrom": "glossary", "pos": "adj", "example": "They cooked meals for homeless people last winter.", "collocations": ["homeless children", "homeless people"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v14", "en": "orphanage", "vi": "trại trẻ mồ côi", "ipa": "/ˈɔːfənɪdʒ/", "ipaFrom": "glossary", "pos": "n", "example": "We grew vegetables for an orphanage near our town.", "collocations": ["visit an orphanage"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v15", "en": "rural area", "vi": "vùng nông thôn", "ipa": "/ˈrʊərəl ˈeəriə/", "ipaFrom": "glossary", "pos": "n", "example": "Many children in rural areas need more books.", "collocations": ["children in rural areas"], "synonyms": ["countryside"], "antonyms": ["city"], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v16", "en": "mountainous", "vi": "vùng núi", "ipa": "/ˈmaʊntənəs/", "ipaFrom": "glossary", "pos": "adj", "example": "We sent warm clothes to a mountainous area.", "collocations": ["mountainous areas"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v17", "en": "flooded", "vi": "bị lũ lụt", "ipa": "/ˈflʌdɪd/", "ipaFrom": "glossary", "pos": "adj", "example": "Volunteers brought food to the flooded villages.", "collocations": ["flooded areas", "a flooded village"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v18", "en": "provide", "vi": "cung cấp", "ipa": "/prəˈvaɪd/", "ipaFrom": "glossary", "pos": "v", "example": "The club provided free meals for poor children.", "collocations": ["provide food", "provide help"], "synonyms": ["give"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v19", "en": "skill", "vi": "kĩ năng", "ipa": "/skɪl/", "ipaFrom": "glossary", "pos": "n", "example": "Volunteering helps you learn new skills.", "collocations": ["learn new skills", "life skills"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v20", "en": "develop", "vi": "phát triển", "ipa": "/dɪˈveləp/", "ipaFrom": "glossary", "pos": "v", "example": "Working in a team develops your speaking skills.", "collocations": ["develop skills"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v21", "en": "proud", "vi": "tự hào", "ipa": "/praʊd/", "ipaFrom": "glossary", "pos": "adj", "example": "I felt proud after I helped the old man.", "collocations": ["feel proud", "be proud of"], "synonyms": [], "antonyms": ["ashamed"], "src": { "kind": "sgk", "page": 136 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "The past simple",
+      "nameVi": "Thì quá khứ đơn",
+      "explainVi": "Dùng thì quá khứ đơn để nói về việc đã làm xong trong quá khứ. Thường đi với yesterday, last week, last summer, two years ago, in 2020. Động từ có quy tắc thêm -ed (help → helped); động từ bất quy tắc phải học thuộc (teach → taught, give → gave, grow → grew).",
+      "formula": "S + V-ed / V2  ·  ... + yesterday / last ... / ... ago / in + năm",
+      "examples": [
+        "We planted trees in the park last spring.",
+        "Our club donated books to children in rural areas last year.",
+        "Tom taught English to small kids two summers ago."
+      ],
+      "wrong": [
+        { "sentence": "Last summer, we help the elderly.", "fix": "Last summer, we helped the elderly.", "whyVi": "Có \"last summer\" là việc đã xong trong quá khứ, động từ phải ở quá khứ: helped." },
+        { "sentence": "They teached English to children.", "fix": "They taught English to children.", "whyVi": "teach là động từ bất quy tắc: quá khứ là taught." }
+      ],
+      "drills": [
+        { "prompt": "We ___ old clothes to poor children last month.", "options": ["donated", "donate", "donating"], "answer": 0, "explainVi": "Có \"last month\" nên dùng quá khứ đơn: donated." },
+        { "prompt": "The Green Club ___ vegetables for an orphanage last year.", "options": ["grew", "grow", "growed"], "answer": 0, "explainVi": "grow là động từ bất quy tắc: grew." },
+        { "prompt": "Which sentence is correct?", "options": ["I volunteer at a nursing home two years ago.", "I volunteered at a nursing home two years ago.", "I volunteering at a nursing home two years ago."], "answer": 1, "explainVi": "Có \"two years ago\" nên dùng quá khứ: volunteered." }
+      ],
+      "errorTag": "verb_tense",
+      "src": { "kind": "sgk", "page": 31 }
+    },
+    {
+      "id": "g02",
+      "name": "Past simple questions and negatives with did",
+      "nameVi": "Câu hỏi và phủ định quá khứ đơn với did",
+      "explainVi": "Câu hỏi ở quá khứ dùng Did + chủ ngữ + động từ nguyên mẫu; câu hỏi có từ để hỏi dùng What/Where... + did + S + V. Câu phủ định dùng didn't + động từ nguyên mẫu. Khi đã có did/didn't thì KHÔNG chia động từ ở quá khứ nữa.",
+      "formula": "Did + S + V?  ·  What / Where / When + did + S + V?  ·  S + didn't + V",
+      "examples": [
+        "What did you do to help your community?",
+        "Did your class visit the nursing home?",
+        "We didn't have time to plant the trees."
+      ],
+      "wrong": [
+        { "sentence": "Did you donated any books?", "fix": "Did you donate any books?", "whyVi": "Sau did, động từ trở về nguyên mẫu: donate." },
+        { "sentence": "We didn't went to the park.", "fix": "We didn't go to the park.", "whyVi": "Sau didn't dùng động từ nguyên mẫu: go." }
+      ],
+      "drills": [
+        { "prompt": "What ___ you do last Sunday?", "options": ["did", "do", "were"], "answer": 0, "explainVi": "Hỏi về quá khứ (last Sunday) dùng did." },
+        { "prompt": "Did they ___ litter in the park?", "options": ["pick up", "picked up", "picking up"], "answer": 0, "explainVi": "Sau Did dùng động từ nguyên mẫu: pick up." },
+        { "prompt": "Which sentence is correct?", "options": ["She didn't joined the club.", "She didn't join the club.", "She not joined the club."], "answer": 1, "explainVi": "Phủ định quá khứ: didn't + động từ nguyên mẫu." }
+      ],
+      "errorTag": "verb_form",
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "ending",
+      "focus": "Đuôi -ed đọc /t/",
+      "tipVi": "Khi động từ kết thúc bằng âm vô thanh như /k/, /s/, /p/, đuôi -ed đọc là /t/ rất nhẹ, KHÔNG đọc thành \"ét\": cooked /kʊkt/, helped /helpt/.",
+      "words": ["cooked", "passed", "helped"],
+      "sentence": "We cooked soup and helped the old people.",
+      "quiz": [
+        { "prompt": "How do you say the -ed in \"helped\"?", "options": ["/t/", "/d/", "/ɪd/"], "answer": 0, "explainVi": "helped đọc là /helpt/: đuôi -ed là /t/." }
+      ],
+      "src": { "kind": "sgk", "page": 30 }
+    },
+    {
+      "id": "p02",
+      "kind": "ending",
+      "focus": "Đuôi -ed đọc /d/",
+      "tipVi": "Khi động từ kết thúc bằng âm hữu thanh như nguyên âm, /n/, /l/, đuôi -ed đọc là /d/, nối liền vào từ: cleaned /kliːnd/, watered, volunteered.",
+      "words": ["watered", "cleaned", "volunteered"],
+      "sentence": "Teenagers volunteered and cleaned the streets.",
+      "quiz": [
+        { "prompt": "Which word ends with the sound /d/?", "options": ["cleaned", "passed", "collected"], "answer": 0, "explainVi": "cleaned /kliːnd/ đọc /d/; passed đọc /t/; collected đọc /ɪd/." }
+      ],
+      "src": { "kind": "sgk", "page": 30 }
+    },
+    {
+      "id": "p03",
+      "kind": "ending",
+      "focus": "Đuôi -ed đọc /ɪd/",
+      "tipVi": "Khi động từ kết thúc bằng âm /t/ hoặc /d/, đuôi -ed đọc thành một âm tiết riêng /ɪd/: collected, donated, provided.",
+      "words": ["collected", "donated", "provided"],
+      "sentence": "Our school donated clothes and provided food.",
+      "quiz": [
+        { "prompt": "Which word ends with the sound /ɪd/?", "options": ["donated", "cooked", "watered"], "answer": 0, "explainVi": "donate kết thúc bằng /t/ nên donated đọc đuôi /ɪd/." },
+        { "prompt": "How many syllables does \"provided\" have?", "options": ["two", "three", "four"], "answer": 1, "explainVi": "provided /prəˈvaɪdɪd/ có 3 âm tiết: pro-vi-ded, vì -ed đọc /ɪd/." }
+      ],
+      "src": { "kind": "sgk", "page": 30 }
+    },
+    {
+      "id": "p04",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "tutor, elderly, orphanage, homeless nhấn âm đầu; donate, community nhấn âm thứ hai; volunteer nhấn âm cuối.",
+      "words": ["tutor", "elderly", "orphanage", "donate", "community", "volunteer"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the LAST syllable?", "options": ["volunteer", "elderly", "tutor"], "answer": 0, "explainVi": "volunteer /ˌvɒlənˈtɪə/ nhấn âm cuối." },
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["donate", "orphanage", "homeless"], "answer": 0, "explainVi": "donate /dəʊˈneɪt/ nhấn âm thứ hai; hai từ kia nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Sounds like great work!", "vi": "Nghe có vẻ là việc làm tuyệt vời!", "useVi": "Khi khen việc tốt mà bạn đã làm.", "example": "You taught English to thirty kids? Sounds like great work!", "src": { "kind": "sgk", "page": 32 } },
+    { "id": "e02", "en": "Wonderful!", "vi": "Tuyệt vời!", "useVi": "Khi khen ngắn gọn một việc làm hay.", "example": "You collected two hundred books? Wonderful!", "src": { "kind": "sgk", "page": 32 } },
+    { "id": "e03", "en": "That's fantastic!", "vi": "Thật tuyệt!", "useVi": "Khi tỏ ra thích thú, khen ý tưởng của người khác.", "example": "Your club grows vegetables for a nursing home? That's fantastic!", "src": { "kind": "sgk", "page": 28 } },
+    { "id": "e04", "en": "What did you do to help your community?", "vi": "Bạn đã làm gì để giúp cộng đồng?", "useVi": "Khi hỏi về hoạt động tình nguyện của người khác.", "example": "What did you do to help your community last month?", "src": { "kind": "sgk", "page": 32 } },
+    { "id": "e05", "en": "Well done!", "vi": "Làm tốt lắm!", "useVi": "Khi khen ai đó đã làm xong một việc tốt.", "example": "You cleaned the whole street? Well done!", "src": { "kind": "team", "page": null } },
+    { "id": "e06", "en": "I felt proud because ...", "vi": "Mình thấy tự hào vì ...", "useVi": "Khi kể cảm xúc sau khi giúp đỡ người khác.", "example": "I felt proud because the children loved our books.", "src": { "kind": "team", "page": null } },
+    { "id": "e07", "en": "Would you like to join us?", "vi": "Bạn có muốn tham gia cùng tụi mình không?", "useVi": "Khi rủ bạn tham gia hoạt động tình nguyện.", "example": "We're planting trees on Sunday. Would you like to join us?", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "We can help by ...", "vi": "Chúng ta có thể giúp bằng cách ...", "useVi": "Khi đề xuất cách giúp đỡ cộng đồng.", "example": "We can help by collecting old books for rural schools.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "It was a great experience.", "vi": "Đó là một trải nghiệm tuyệt vời.", "useVi": "Khi kể lại một hoạt động đã tham gia và cảm nghĩ của mình.", "example": "We visited a nursing home. It was a great experience.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["Last summer", "we taught English", "to children", "in a rural area"], "vi": "Mùa hè năm ngoái, chúng mình dạy tiếng Anh cho trẻ em ở vùng nông thôn.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["Our club", "donated warm clothes", "to an orphanage", "last winter"], "vi": "Câu lạc bộ của mình đã tặng quần áo ấm cho một trại trẻ mồ côi vào mùa đông năm ngoái.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["What did", "your class do", "for the community?"], "vi": "Lớp bạn đã làm gì cho cộng đồng?", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["We picked up", "litter", "along the river", "two weeks ago"], "vi": "Hai tuần trước, chúng mình nhặt rác dọc bờ sông.", "grammarId": "g01" },
+    { "id": "b05", "chunks": ["I felt proud", "after I helped", "the elderly man"], "vi": "Mình thấy tự hào sau khi giúp ông cụ.", "grammarId": "g01" },
+    { "id": "b06", "chunks": ["Did you", "visit the nursing home", "last Sunday?"], "vi": "Chủ nhật tuần trước bạn có đến viện dưỡng lão không?", "grammarId": "g02" },
+    { "id": "b07", "chunks": ["Volunteering", "helps teenagers", "develop new skills"], "vi": "Hoạt động tình nguyện giúp thanh thiếu niên phát triển kĩ năng mới.", "grammarId": null },
+    { "id": "b08", "chunks": ["We didn't", "throw away", "our old books"], "vi": "Chúng mình đã không vứt sách cũ đi.", "grammarId": "g02" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "We planted trees.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in the schoolyard" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last spring" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "to give the school more shade" }
+      ],
+      "full": "We planted trees in the schoolyard last spring to give the school more shade."
+    },
+    {
+      "id": "x02",
+      "base": "My class collected books.",
+      "steps": [
+        { "askVi": "Bao nhiêu?", "ask": "How many?", "add": "two hundred" },
+        { "askVi": "Cho ai?", "ask": "For whom?", "add": "for children in a mountainous area" }
+      ],
+      "full": "My class collected two hundred books for children in a mountainous area."
+    },
+    {
+      "id": "x03",
+      "base": "I visited a nursing home.",
+      "steps": [
+        { "askVi": "Với ai?", "ask": "Who with?", "add": "with my club" },
+        { "askVi": "Làm gì ở đó?", "ask": "What did you do there?", "add": "and read books to the elderly" },
+        { "askVi": "Cảm thấy thế nào?", "ask": "How did you feel?", "add": "I felt very happy" }
+      ],
+      "full": "I visited a nursing home with my club and read books to the elderly. I felt very happy."
+    },
+    {
+      "id": "x04",
+      "base": "Volunteering is useful.",
+      "steps": [
+        { "askVi": "Có ích cho ai?", "ask": "For whom?", "add": "for teenagers" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because they learn new skills" }
+      ],
+      "full": "Volunteering is useful for teenagers because they learn new skills."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Giúp người cao tuổi ở viện dưỡng lão",
+      "questions": [
+        "What can students do to help old people in a nursing home?",
+        "How can young people make elderly people happy?",
+        "What activities could your class do at a nursing home?"
+      ],
+      "keywords": ["elderly", "nursing home", "read books", "sing"],
+      "exampleAnswer": "We can read books to them, sing songs and talk with them, so they feel less lonely.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Những thứ có thể quyên góp",
+      "questions": [
+        "What things can students donate to children in rural areas?",
+        "What could you give to children who need help?",
+        "Which old things at home could you donate?"
+      ],
+      "keywords": ["donate", "books", "clothes", "rural areas"],
+      "exampleAnswer": "We can donate old textbooks, warm clothes and toys to children in rural areas.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Người tình nguyện học được gì",
+      "questions": [
+        "What can teenagers learn from volunteering?",
+        "How does community service help the volunteers themselves?",
+        "What skills can you develop when you volunteer?"
+      ],
+      "keywords": ["skills", "develop", "teamwork", "proud"],
+      "exampleAnswer": "Volunteers learn to work in a team and talk to new people, so they develop useful life skills.",
+      "expectsReason": true
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Giữ khu phố sạch đẹp",
+      "questions": [
+        "How can students keep their neighbourhood clean?",
+        "What can young people do to make their area cleaner?",
+        "What would you do on a clean-up day in your area?"
+      ],
+      "keywords": ["pick up litter", "clean-up activity", "plant", "recycle"],
+      "exampleAnswer": "We can pick up litter, plant flowers along the road and put recycling bins in the street.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Vì sao người tình nguyện thấy vui",
+      "questions": [
+        "Why do people feel happy after volunteering?",
+        "Why does helping others make you feel good?",
+        "Why do many volunteers want to do it again?"
+      ],
+      "keywords": ["proud", "happy", "useful", "because"],
+      "exampleAnswer": "They feel proud because they can see that their work makes other people's lives better.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What did you do last weekend that helped another person?", "keywords": ["helped", "cleaned", "taught", "gave"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should students get school points for doing community service? Why or why not?", "keywords": ["community service", "volunteer", "because"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend says volunteering is boring and useless. What do you say to him?", "keywords": ["skills", "proud", "help", "join"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What did your class do last term to help people in need?", "keywords": ["collected", "donated", "visited", "planted"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should young children do volunteer work with their parents? Why or why not?", "keywords": ["volunteer", "learn", "because"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your neighbour wants to throw away a box of old books and toys. What do you say to her?", "keywords": ["donate", "children", "rural areas", "orphanage"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Kể về hoạt động hè",
+      "contextVi": "Câu lạc bộ Green School đang tìm thành viên mới. Trưởng câu lạc bộ hỏi em đã làm hoạt động cộng đồng nào vào mùa hè năm ngoái.",
+      "aiRole": "Minh, the leader of the Green School Club",
+      "studentRoleVi": "Học sinh muốn vào câu lạc bộ",
+      "goalVi": "Kể về một hoạt động cộng đồng em đã làm: làm gì, ở đâu, với ai và em cảm thấy thế nào.",
+      "goal": "Tell Minh about a community activity you did last summer: what, where, who with, and how you felt.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng động từ ở thì quá khứ", "words": ["helped", "donated", "planted", "collected", "taught", "visited"] },
+        { "kind": "example", "vi": "Kể chi tiết một việc cụ thể", "words": [] }
+      ],
+      "opener": "Hi! Thanks for coming. What community activities did you do last summer?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "That's fantastic! Who did you do it with?",
+        "How did you feel after that?",
+        "Sounds like great work! I think you'll love our club."
+      ],
+      "tipsVi": ["Dùng thì quá khứ: \"Last summer, I...\"", "Kể cảm xúc: \"I felt proud because...\""],
+      "keywords": ["last summer", "helped", "volunteered", "proud", "because"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Rủ bạn đi dạy kèm",
+      "contextVi": "Câu lạc bộ của em dạy kèm miễn phí cho học sinh tiểu học vào chiều thứ Bảy. Em muốn rủ bạn thân tham gia, nhưng bạn ấy còn ngại.",
+      "aiRole": "Hoa, your best friend who is not sure about tutoring",
+      "studentRoleVi": "Thành viên câu lạc bộ, rủ bạn tham gia",
+      "goalVi": "Thuyết phục Hoa tham gia dạy kèm: nêu lợi ích, đưa ví dụ và trả lời khi Hoa lo lắng.",
+      "goal": "Persuade Hoa to join the free tutoring for primary students: give benefits, an example, and answer her worry.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lợi ích của việc dạy kèm", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ từ trải nghiệm của em", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["tutor", "volunteer", "skills", "develop", "proud"] }
+      ],
+      "opener": "You want me to teach little kids on Saturday afternoons? Hmm, I'm not sure.",
+      "stance": "I'm not good enough to teach anyone, and I need that time for my own homework.",
+      "turns": 5,
+      "fallback": [
+        "Why do you like doing it?",
+        "But I'm not good enough to teach anyone, and I need time for my homework.",
+        "Hmm. What did you teach the kids last time?",
+        "OK, I'll come with you this Saturday and see."
+      ],
+      "tipsVi": ["Khi Hoa lo lắng, mở đầu bằng \"I understand, but...\"", "Kể một việc em đã làm: \"Last week, I taught...\""],
+      "keywords": ["tutor", "skills", "proud", "I understand, but", "because"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Lên kế hoạch quyên góp",
+      "contextVi": "Lớp em muốn giúp học sinh ở một vùng núi. Em gặp cô chủ nhiệm để đề xuất cách giúp đỡ.",
+      "aiRole": "Ms Thu, your form teacher",
+      "studentRoleVi": "Lớp trưởng, đề xuất kế hoạch",
+      "goalVi": "Đề xuất một kế hoạch quyên góp, giải thích lý do và trả lời ý kiến của cô.",
+      "goal": "Suggest a donation plan for students in a mountainous area, explain why, and answer the teacher's opinion.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất cách giúp cụ thể", "words": [] },
+        { "kind": "reason", "vi": "Giải thích lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["donate", "collect", "mountainous", "rural area", "provide"] }
+      ],
+      "opener": "Hello. I heard the class wants to help students in a mountainous area. What's your plan?",
+      "stance": "Collecting old things takes a lot of work. Maybe it's easier to just give some money.",
+      "turns": 5,
+      "fallback": [
+        "That's a nice idea. Why do you think they need those things?",
+        "But collecting old things takes a lot of work. Isn't it easier to give money?",
+        "I see. How can the whole class take part?",
+        "Good. Let's tell the class tomorrow."
+      ],
+      "tipsVi": ["Nói lịch sự với thầy cô: \"I think we could...\"", "Khi cô gợi ý khác, giải thích ưu điểm của ý mình."],
+      "keywords": ["donate", "collect", "books", "warm clothes", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Tình nguyện ở viện dưỡng lão",
+      "contextVi": "Một viện dưỡng lão gần trường đang tìm tình nguyện viên. Em nói chuyện với cô nhân viên ở đó về việc nhóm em có thể làm.",
+      "aiRole": "Mrs Lan, a staff member at a local nursing home",
+      "studentRoleVi": "Học sinh muốn làm tình nguyện viên",
+      "goalVi": "Giới thiệu những việc nhóm em có thể làm, nêu lý do muốn giúp và trả lời khi cô có ý kiến khác.",
+      "goal": "Tell Mrs Lan what your group can do at the nursing home, why you want to help, and respond to her different opinion.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất việc nhóm em có thể làm", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["elderly", "volunteer", "nursing home", "proud", "community"] }
+      ],
+      "opener": "Hello. Thank you for coming. What would your group like to do here?",
+      "stance": "Many young volunteers come once and never come back. Teenagers are usually too busy.",
+      "turns": 5,
+      "fallback": [
+        "That sounds lovely. Why do you want to help the elderly?",
+        "But many young volunteers come once and never come back. Teenagers are very busy.",
+        "OK. How often can your group come?",
+        "Wonderful. Let's start next Sunday."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["elderly", "volunteer", "every", "because", "community"]
+    }
+  ]
+}

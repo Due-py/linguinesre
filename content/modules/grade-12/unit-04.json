@@ -1,0 +1,375 @@
+{
+  "grade": 12,
+  "unit": 4,
+  "title": "Urbanisation",
+  "titleVi": "Đô thị hoá",
+  "edition": "Tiếng Anh 12 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 48–59; Glossary tr. 149–150",
+  "vocab": [
+    { "id": "v01", "en": "urbanisation", "vi": "sự đô thị hoá", "ipa": "/ˌɜːbənaɪˈzeɪʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "Urbanisation has changed my home town a lot.", "collocations": ["rapid urbanisation", "the effects of urbanisation"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 49 } },
+    { "id": "v02", "en": "urban", "vi": "thuộc về đô thị", "ipa": "/ˈɜːbən/", "ipaFrom": "glossary", "pos": "adj", "example": "More than half of the world's population lives in urban areas.", "collocations": ["urban areas", "urban life"], "synonyms": [], "antonyms": ["rural"], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v03", "en": "resident", "vi": "người dân", "ipa": "/ˈrezɪdənt/", "ipaFrom": "glossary", "pos": "n", "example": "Local residents complained about the noise from the building site.", "collocations": ["local residents", "urban residents"], "synonyms": ["inhabitant"], "antonyms": [], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v04", "en": "housing", "vi": "nhà ở", "ipa": "/ˈhaʊzɪŋ/", "ipaFrom": "glossary", "pos": "n", "example": "There is a shortage of cheap housing in big cities.", "collocations": ["affordable housing", "housing prices"], "synonyms": ["homes"], "antonyms": [], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v05", "en": "afford", "vi": "có đủ tiền, có khả năng chi trả", "ipa": "/əˈfɔːd/", "ipaFrom": "glossary", "pos": "v", "example": "Many young couples can't afford to buy a flat in the city centre.", "collocations": ["can't afford to", "afford a house"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 149 } },
+    { "id": "v06", "en": "expand", "vi": "mở rộng (về diện tích)", "ipa": "/ɪkˈspænd/", "ipaFrom": "glossary", "pos": "v", "example": "The town has expanded into the nearby farmland.", "collocations": ["expand rapidly", "expand the roads"], "synonyms": ["grow"], "antonyms": ["shrink"], "src": { "kind": "sgk", "page": 149 } },
+    { "id": "v07", "en": "seek", "vi": "tìm kiếm", "ipa": "/siːk/", "ipaFrom": "glossary", "pos": "v", "example": "Many young people move to cities to seek better jobs.", "collocations": ["seek work", "seek opportunities"], "synonyms": ["look for"], "antonyms": [], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v08", "en": "unemployment", "vi": "tình trạng thất nghiệp, số người không có việc làm", "ipa": "/ˌʌnɪmˈplɔɪmənt/", "ipaFrom": "glossary", "pos": "n", "example": "Higher unemployment can lead to more crime in big cities.", "collocations": ["high unemployment", "the unemployment rate"], "synonyms": [], "antonyms": ["employment"], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v09", "en": "rush hour", "vi": "giờ cao điểm", "ipa": "/ˈrʌʃ aʊə/", "ipaFrom": "glossary", "pos": "n", "example": "The traffic is terrible during rush hour.", "collocations": ["during rush hour", "morning rush hour"], "synonyms": ["peak time"], "antonyms": [], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v10", "en": "leisure", "vi": "sự giải trí, thư giãn", "ipa": "/ˈleʒə/", "ipaFrom": "glossary", "pos": "n", "example": "The new shopping centre has many leisure activities for young people.", "collocations": ["leisure activities", "leisure facilities"], "synonyms": ["free time"], "antonyms": ["work"], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v11", "en": "gradually", "vi": "dần dần, từ từ", "ipa": "/ˈgrædʒuəli/", "ipaFrom": "glossary", "pos": "adv", "example": "The village has gradually become a busy town.", "collocations": ["increase gradually", "change gradually"], "synonyms": ["slowly"], "antonyms": ["suddenly"], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v12", "en": "rapidly", "vi": "rất nhanh, với tốc độ cao", "ipa": "/ˈræpɪdli/", "ipaFrom": "glossary", "pos": "adv", "example": "The city's population has grown rapidly since 2000.", "collocations": ["grow rapidly", "change rapidly"], "synonyms": ["quickly"], "antonyms": ["slowly"], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v13", "en": "decrease", "vi": "giảm, hạ xuống", "ipa": "/dɪˈkriːs/", "ipaFrom": "glossary", "pos": "v", "example": "The number of farmers in my village has decreased.", "collocations": ["decrease rapidly", "decrease by half"], "synonyms": ["fall", "go down"], "antonyms": ["increase"], "src": { "kind": "sgk", "page": 149 } },
+    { "id": "v14", "en": "proportion", "vi": "tỉ lệ", "ipa": "/prəˈpɔːʃn/", "ipaFrom": "glossary", "pos": "n", "example": "A large proportion of the population now lives in cities.", "collocations": ["a large proportion of", "the proportion of"], "synonyms": ["percentage"], "antonyms": [], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v15", "en": "concern", "vi": "sự lo lắng", "ipa": "/kənˈsɜːn/", "ipaFrom": "glossary", "pos": "n", "example": "Air pollution is a growing concern for city residents.", "collocations": ["a growing concern", "a major concern"], "synonyms": ["worry"], "antonyms": [], "src": { "kind": "sgk", "page": 149 } },
+    { "id": "v16", "en": "reliable", "vi": "đáng tin cậy", "ipa": "/rɪˈlaɪəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "Cities need reliable public transport.", "collocations": ["reliable public transport", "a reliable service"], "synonyms": ["dependable"], "antonyms": ["unreliable"], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v17", "en": "high-rise", "vi": "cao tầng", "ipa": "/ˈhaɪ raɪz/", "ipaFrom": "dictionary", "pos": "adj", "example": "Several high-rise buildings have appeared near my house.", "collocations": ["high-rise buildings", "high-rise flats"], "synonyms": ["tall"], "antonyms": [], "src": { "kind": "sgk", "page": 49 } },
+    { "id": "v18", "en": "traffic jam", "vi": "tắc đường", "ipa": "/ˈtræfɪk dʒæm/", "ipaFrom": "dictionary", "pos": "n", "example": "We were stuck in a traffic jam for an hour.", "collocations": ["get stuck in a traffic jam", "cause traffic jams"], "synonyms": ["congestion"], "antonyms": [], "src": { "kind": "sgk", "page": 49 } },
+    { "id": "v19", "en": "cost of living", "vi": "chi phí sinh hoạt", "ipa": "/ˌkɒst əv ˈlɪvɪŋ/", "ipaFrom": "dictionary", "pos": "n", "example": "The cost of living in big cities keeps going up.", "collocations": ["a high cost of living", "the rising cost of living"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 49 } },
+    { "id": "v20", "en": "infrastructure", "vi": "cơ sở hạ tầng", "ipa": "/ˈɪnfrəstrʌktʃə/", "ipaFrom": "dictionary", "pos": "n", "example": "The local authority has improved the town's infrastructure.", "collocations": ["improve the infrastructure", "transport infrastructure"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 51 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Present perfect for changes",
+      "nameVi": "Hiện tại hoàn thành để nói về sự thay đổi",
+      "explainVi": "Dùng thì hiện tại hoàn thành (have/has + V3) cho việc bắt đầu trong quá khứ và vẫn còn đến nay, hoặc việc vừa mới xong. Rất hợp để kể nơi mình sống đã thay đổi thế nào. Hay đi với since (mốc thời gian), for (khoảng thời gian), recently, so far, over the past few years.",
+      "formula": "S + have/has + V3 (+ since/for ...)",
+      "examples": [
+        "A lot of young people have moved to big cities to work.",
+        "My town has changed a lot since 2015.",
+        "Two new shopping centres have opened recently."
+      ],
+      "wrong": [
+        { "sentence": "My family has lived here since ten years.", "fix": "My family has lived here for ten years.", "whyVi": "Khoảng thời gian (ten years) dùng for; since đi với mốc thời gian (since 2015)." },
+        { "sentence": "Many high-rise buildings has appeared in my area.", "fix": "Many high-rise buildings have appeared in my area.", "whyVi": "Chủ ngữ số nhiều (buildings) dùng have, không dùng has." }
+      ],
+      "drills": [
+        { "prompt": "The city ___ rapidly over the past twenty years.", "options": ["has expanded", "expands", "is expanding"], "answer": 0, "explainVi": "Thay đổi từ quá khứ đến nay (over the past twenty years): hiện tại hoàn thành." },
+        { "prompt": "I have lived in this neighbourhood ___ 2018.", "options": ["since", "for", "in"], "answer": 0, "explainVi": "2018 là mốc thời gian: dùng since." },
+        { "prompt": "Housing prices ___ a lot recently.", "options": ["have increased", "has increased", "increase"], "answer": 0, "explainVi": "Chủ ngữ số nhiều (prices) + recently: have increased." }
+      ],
+      "errorTag": "verb_tense",
+      "src": { "kind": "sgk", "page": 50 }
+    },
+    {
+      "id": "g02",
+      "name": "The first time / the best ... ever + present perfect",
+      "nameVi": "Lần đầu tiên / ... nhất từng ... + hiện tại hoàn thành",
+      "explainVi": "Nói đây là lần thứ mấy mình làm một việc: It/This is the first/second time + S + have/has + V3. Nói về trải nghiệm có một không hai: ... the best/the worst/the only/the most ... + S + have/has ever + V3. Sau \"the first time\" không dùng quá khứ đơn khi câu chính ở hiện tại.",
+      "formula": "It/This is the first time + S + have/has + V3  ·  ... the best/most ... + S + have/has ever + V3",
+      "examples": [
+        "This is the first time I have ridden an electric bus.",
+        "It's the most crowded market I have ever visited."
+      ],
+      "wrong": [
+        { "sentence": "This is the first time I saw such a tall building.", "fix": "This is the first time I have seen such a tall building.", "whyVi": "Sau \"This is the first time\" dùng hiện tại hoàn thành: have seen." },
+        { "sentence": "It's the best park I ever visit.", "fix": "It's the best park I have ever visited.", "whyVi": "Sau \"the best ...\" dùng have/has ever + V3." }
+      ],
+      "drills": [
+        { "prompt": "It's the second time my parents ___ to Ho Chi Minh City.", "options": ["have been", "were", "are"], "answer": 0, "explainVi": "It's the second time + hiện tại hoàn thành: have been." },
+        { "prompt": "That is the worst traffic jam I have ever ___.", "options": ["seen", "saw", "see"], "answer": 0, "explainVi": "have ever + V3: seen." },
+        { "prompt": "Which sentence is correct?", "options": ["This is the first time I have taken the metro.", "This is the first time I take the metro.", "This is the first time I taking the metro."], "answer": 0, "explainVi": "This is the first time + have/has + V3: have taken." }
+      ],
+      "errorTag": "verb_tense",
+      "src": { "kind": "sgk", "page": 50 }
+    },
+    {
+      "id": "g03",
+      "name": "Double comparatives to show change",
+      "nameVi": "So sánh kép để nói về sự thay đổi",
+      "explainVi": "Dùng so sánh kép để nói một điều thay đổi dần: tính từ ngắn + er and + er (bigger and bigger), more and more + tính từ dài (more and more polluted), more and more + danh từ. Để nói hai điều cùng thay đổi: The + so sánh hơn + mệnh đề, the + so sánh hơn + mệnh đề (càng ... càng ...).",
+      "formula": "adj-er and adj-er · more and more + adj/n  ·  The + so sánh hơn + S + V, the + so sánh hơn + S + V",
+      "examples": [
+        "The roads are getting busier and busier.",
+        "The air is becoming more and more polluted.",
+        "The bigger the city gets, the more expensive housing becomes."
+      ],
+      "wrong": [
+        { "sentence": "The city is getting more and more big.", "fix": "The city is getting bigger and bigger.", "whyVi": "Tính từ ngắn (big) dùng bigger and bigger, không dùng more and more." },
+        { "sentence": "More people move here, the more crowded it becomes.", "fix": "The more people move here, the more crowded it becomes.", "whyVi": "Cấu trúc càng ... càng cần the ở cả hai vế." }
+      ],
+      "drills": [
+        { "prompt": "Housing in big cities is getting ___.", "options": ["more and more expensive", "expensiver and expensiver", "most expensive"], "answer": 0, "explainVi": "Tính từ dài (expensive): more and more expensive." },
+        { "prompt": "The ___ the city grows, the worse the traffic gets.", "options": ["faster", "fast", "fastest"], "answer": 0, "explainVi": "Cấu trúc càng ... càng: The + so sánh hơn: the faster." },
+        { "prompt": "Which sentence is correct?", "options": ["Our town is getting noisier and noisier.", "Our town is getting more noisier and noisier.", "Our town is getting noisy and noisy."], "answer": 0, "explainVi": "noisy là tính từ ngắn đuôi -y: noisier and noisier." }
+      ],
+      "errorTag": "comparison",
+      "src": { "kind": "sgk", "page": 51 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sentence_stress",
+      "focus": "Từ không nhấn trong câu nói liền",
+      "tipVi": "Khi nói liền, các từ ngữ pháp thường đọc nhẹ và nhanh: mạo từ (a, the), giới từ (of, to, for), đại từ (I, we, it), tính từ sở hữu (my, our), trợ động từ (have, be), liên từ (and, but), động từ khuyết thiếu (can, will). Nhấn vào từ mang nghĩa: danh từ, động từ chính, tính từ.",
+      "words": ["a", "the", "of", "to", "and", "can", "have", "my"],
+      "sentence": "The roads in my town have become busier.",
+      "quiz": [
+        { "prompt": "In \"The city has a lot of new parks\", which word is usually NOT stressed?", "options": ["of", "city", "parks"], "answer": 0, "explainVi": "of là giới từ, thường đọc nhẹ; city và parks là danh từ mang nghĩa nên được nhấn." },
+        { "prompt": "Which word is usually unstressed in connected speech?", "options": ["and", "traffic", "crowded"], "answer": 0, "explainVi": "and là liên từ nên thường đọc nhẹ; traffic và crowded là từ mang nghĩa." }
+      ],
+      "src": { "kind": "sgk", "page": 49 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "urban, resident, housing, gradually nhấn âm đầu; afford, expand, decrease, reliable nhấn âm thứ hai; unemployment nhấn âm thứ ba (dấu ˈ đứng trước plɔɪ).",
+      "words": ["urban", "resident", "housing", "gradually", "afford", "expand", "reliable", "unemployment"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["resident", "afford", "expand"], "answer": 0, "explainVi": "resident /ˈrezɪdənt/ nhấn âm đầu; afford và expand nhấn âm thứ hai." },
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["urban", "reliable", "gradually"], "answer": 1, "explainVi": "reliable /rɪˈlaɪəbl/ nhấn âm thứ hai; urban và gradually nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p03",
+      "kind": "intonation",
+      "focus": "Ngữ điệu khi phàn nàn lịch sự",
+      "tipVi": "Khi phàn nàn, giữ giọng bình tĩnh, xuống giọng ở cuối câu và nhấn vào vấn đề chính: I'm afraid there's a problem with the NOISE. Tránh lên giọng gắt, nghe sẽ thiếu lịch sự.",
+      "words": ["I'm afraid ...", "Excuse me, ...", "I'm sorry to say this, but ..."],
+      "sentence": "Excuse me, I want to complain about the noise at night.",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "I'm afraid I have a complaint to make ...", "vi": "Tôi e là tôi có điều muốn phàn nàn ...", "useVi": "Khi mở đầu lời phàn nàn một cách lịch sự.", "example": "I'm afraid I have a complaint to make about the rubbish in our street.", "src": { "kind": "sgk", "page": 57 } },
+    { "id": "e02", "en": "Excuse me, I want to complain about ...", "vi": "Xin lỗi, tôi muốn phàn nàn về ...", "useVi": "Khi nói thẳng vấn đề mình muốn phàn nàn.", "example": "Excuse me, I want to complain about the bus service.", "src": { "kind": "sgk", "page": 57 } },
+    { "id": "e03", "en": "I'm afraid there's a problem with/about ...", "vi": "Tôi e là có vấn đề với ...", "useVi": "Khi báo một vấn đề nhẹ nhàng.", "example": "I'm afraid there's a problem with the street lights.", "src": { "kind": "sgk", "page": 57 } },
+    { "id": "e04", "en": "I'm sorry to say this, but ...", "vi": "Tôi rất tiếc phải nói điều này, nhưng ...", "useVi": "Khi phàn nàn với hàng xóm hay người quen mà không muốn làm mất lòng.", "example": "I'm sorry to say this, but your music is too loud at night.", "src": { "kind": "sgk", "page": 57 } },
+    { "id": "e05", "en": "I'm so sorry, but this will never happen again.", "vi": "Tôi rất xin lỗi, chuyện này sẽ không xảy ra nữa.", "useVi": "Khi đáp lại lời phàn nàn một cách tích cực.", "example": "I'm so sorry, but this will never happen again. I'll turn it down now.", "src": { "kind": "sgk", "page": 57 } },
+    { "id": "e06", "en": "We promise never to make the same mistake again.", "vi": "Chúng tôi hứa sẽ không mắc lỗi đó nữa.", "useVi": "Khi xin lỗi và hứa sửa lỗi.", "example": "I'm sorry. We promise never to make the same mistake again.", "src": { "kind": "sgk", "page": 57 } },
+    { "id": "e07", "en": "Sorry, there is nothing we can do about it.", "vi": "Xin lỗi, chúng tôi không làm gì được.", "useVi": "Khi đáp lại lời phàn nàn mà mình không giải quyết được.", "example": "Sorry, there is nothing we can do about the traffic.", "src": { "kind": "sgk", "page": 57 } },
+    { "id": "e08", "en": "Over the past few years, ...", "vi": "Trong vài năm qua, ...", "useVi": "Khi kể sự thay đổi của nơi mình sống.", "example": "Over the past few years, many new flats have been built.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "On the one hand ..., on the other hand ...", "vi": "Một mặt ..., mặt khác ...", "useVi": "Khi nêu cả mặt tốt và mặt xấu của đô thị hoá.", "example": "On the one hand, there are more jobs. On the other hand, the air is dirtier.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but cities also have better hospitals.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["My town", "has changed a lot", "since", "I was a child"], "vi": "Thị trấn của mình đã thay đổi nhiều kể từ khi mình còn nhỏ.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["The roads", "are getting", "busier and busier", "every year"], "vi": "Đường sá mỗi năm một đông hơn.", "grammarId": "g03" },
+    { "id": "b03", "chunks": ["The bigger the city gets", "the more expensive", "housing becomes"], "vi": "Thành phố càng lớn thì nhà ở càng đắt.", "grammarId": "g03" },
+    { "id": "b04", "chunks": ["This is the first time", "I have taken", "an electric bus", "in the city"], "vi": "Đây là lần đầu tiên mình đi xe buýt điện trong thành phố.", "grammarId": "g02" },
+    { "id": "b05", "chunks": ["Many young people", "have moved", "to big cities", "to seek better jobs"], "vi": "Nhiều bạn trẻ đã chuyển lên thành phố lớn để tìm việc tốt hơn.", "grammarId": "g01" },
+    { "id": "b06", "chunks": ["It's the most crowded", "market", "I have ever", "visited"], "vi": "Đó là khu chợ đông đúc nhất mình từng đến.", "grammarId": "g02" },
+    { "id": "b07", "chunks": ["Local residents", "can't afford", "to buy", "their own homes"], "vi": "Người dân địa phương không đủ tiền mua nhà riêng.", "grammarId": null },
+    { "id": "b08", "chunks": ["The air", "is becoming", "more and more polluted", "during rush hour"], "vi": "Không khí ngày càng ô nhiễm vào giờ cao điểm.", "grammarId": "g03" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "My neighbourhood has changed.",
+      "steps": [
+        { "askVi": "Thay đổi nhiều không?", "ask": "How much?", "add": "a lot" },
+        { "askVi": "Từ khi nào?", "ask": "Since when?", "add": "since 2015" },
+        { "askVi": "Thay đổi thế nào?", "ask": "How?", "add": "because three high-rise buildings have appeared" }
+      ],
+      "full": "My neighbourhood has changed a lot since 2015 because three high-rise buildings have appeared."
+    },
+    {
+      "id": "x02",
+      "base": "The traffic is getting worse.",
+      "steps": [
+        { "askVi": "Tệ đến mức nào?", "ask": "How bad?", "add": "and worse" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "during rush hour" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because more people drive cars" }
+      ],
+      "full": "The traffic is getting worse and worse during rush hour because more people drive cars."
+    },
+    {
+      "id": "x03",
+      "base": "People move to the city.",
+      "steps": [
+        { "askVi": "Ai?", "ask": "Who?", "add": "Many young" },
+        { "askVi": "Để làm gì?", "ask": "Why?", "add": "to seek better jobs and education" }
+      ],
+      "full": "Many young people move to the city to seek better jobs and education."
+    },
+    {
+      "id": "x04",
+      "base": "Housing has become expensive.",
+      "steps": [
+        { "askVi": "Đắt đến mức nào?", "ask": "How expensive?", "add": "very" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in the city centre" },
+        { "askVi": "Kết quả là gì?", "ask": "What is the result?", "add": "so many residents can't afford it" }
+      ],
+      "full": "Housing has become very expensive in the city centre, so many residents can't afford it."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Nơi em sống đã thay đổi thế nào",
+      "questions": [
+        "How has the area where you live changed in recent years?",
+        "What is different about your neighbourhood now compared to five years ago?",
+        "Which changes have you noticed in your town lately?"
+      ],
+      "keywords": ["has changed", "high-rise", "since", "more and more"],
+      "exampleAnswer": "My area has changed a lot. Two high-rise buildings have appeared, and the roads are getting busier and busier.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Mặt tốt của cuộc sống đô thị",
+      "questions": [
+        "What are the good things about living in a city?",
+        "What advantages do urban residents have?",
+        "Why do some people love city life so much?"
+      ],
+      "keywords": ["jobs", "leisure", "reliable", "public transport"],
+      "exampleAnswer": "City residents have more jobs, better hospitals and lots of leisure activities like cinemas and parks.",
+      "expectsReason": true
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Vấn đề do đô thị hoá gây ra",
+      "questions": [
+        "What problems does urbanisation cause?",
+        "What are the biggest problems in fast-growing cities?",
+        "Which city problem worries you the most?"
+      ],
+      "keywords": ["traffic jam", "pollution", "cost of living", "housing"],
+      "exampleAnswer": "Urbanisation causes traffic jams and pollution, and the cost of living keeps going up.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Một trải nghiệm lần đầu ở thành phố",
+      "questions": [
+        "What is something you did for the first time in a big city?",
+        "Tell me about the most interesting place you have ever visited in a city.",
+        "What city experience have you never forgotten?"
+      ],
+      "keywords": ["the first time", "have ever", "visited", "crowded"],
+      "exampleAnswer": "I took the metro for the first time last summer. It's the most modern train I have ever seen.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Làm sao để thành phố đáng sống hơn",
+      "questions": [
+        "How can cities become better places to live?",
+        "What should local authorities do to improve city life?",
+        "What would make your town a more pleasant place?"
+      ],
+      "keywords": ["public transport", "parks", "infrastructure", "should"],
+      "exampleAnswer": "Cities should build more parks and reliable public transport so that people drive less.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What new shop or building has opened near your home recently?", "keywords": ["has opened", "recently", "new"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should big cities ban cars from the city centre at weekends? Why or why not?", "keywords": ["traffic jam", "pollution", "public transport"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your neighbour plays loud music late every night. What do you say to him?", "keywords": ["I'm sorry to say this", "complain", "noise"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What has changed in your school or its neighbourhood since you started studying there?", "keywords": ["has changed", "since", "more and more"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should cities build parks instead of shopping centres on empty land? Why or why not?", "keywords": ["leisure", "residents", "pollution"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "The bus to your school is late almost every morning. What do you say to the bus company?", "keywords": ["I want to complain", "rush hour", "reliable"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Kể về sự thay đổi của quê em",
+      "contextVi": "Một người bạn lâu rồi chưa về thăm quê em. Bạn hỏi nơi đó đã thay đổi thế nào.",
+      "aiRole": "Mark, a friend who has not visited your town for three years",
+      "studentRoleVi": "Người dân địa phương kể về sự thay đổi",
+      "goalVi": "Kể ít nhất hai thay đổi của quê em, nêu một điều em thích và một điều em không thích.",
+      "goal": "Describe at least two changes in your town, one change you like and one you don't like, with reasons.",
+      "requirements": [
+        { "kind": "example", "vi": "Kể ít nhất hai thay đổi cụ thể (has/have + V3)", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do em thích hoặc không thích", "words": [] }
+      ],
+      "opener": "Wow, it's been three years since my last visit! What has changed in your town?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Interesting! Do you like that change? Why?",
+        "Is there anything you don't like about the changes?",
+        "I see. What do you think your town will look like in ten years?"
+      ],
+      "tipsVi": ["Dùng hiện tại hoàn thành: has opened, have built.", "Dùng so sánh kép: busier and busier, more and more crowded."],
+      "keywords": ["has changed", "high-rise", "busier and busier", "because", "residents"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Sống ở thành phố hay ở quê?",
+      "contextVi": "Anh họ em vừa tốt nghiệp và nói sẽ ở lại quê vì thành phố quá đông đúc. Em nghĩ anh nên lên thành phố làm việc vài năm.",
+      "aiRole": "Hung, your cousin who has just finished university",
+      "studentRoleVi": "Em họ muốn thuyết phục anh lên thành phố",
+      "goalVi": "Thuyết phục anh Hùng: nêu lý do, đưa ví dụ, và trả lời khi anh phản đối.",
+      "goal": "Persuade your cousin Hung to work in the city for a few years: give reasons, an example, and answer his objection.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do nên lên thành phố", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["seek", "urban", "opportunities", "afford", "leisure"] }
+      ],
+      "opener": "I've decided to stay in our village and look for a job here. The city is too crowded for me.",
+      "stance": "The cost of living in the city is so high that I won't be able to save any money.",
+      "turns": 5,
+      "fallback": [
+        "Hmm, why do you think the city is better for me?",
+        "But the cost of living in the city is so high. I won't be able to save any money.",
+        "That's true. Do you know anyone who has done well there?",
+        "OK, I'll think about it. Maybe I'll try it for one year."
+      ],
+      "tipsVi": ["Khi anh phản đối, mở đầu bằng \"I see your point, but...\"", "Nêu cả mặt tốt và mặt xấu: On the one hand..., on the other hand..."],
+      "keywords": ["seek", "opportunities", "I see your point", "cost of living", "because"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Phàn nàn trong buổi họp tổ dân phố",
+      "contextVi": "Em dự buổi họp tổ dân phố do một cán bộ quy hoạch đô thị chủ trì. Khu em sống thường xuyên tắc đường giờ cao điểm. Em phàn nàn và đề xuất cách giải quyết.",
+      "aiRole": "Mrs Thu, an urban planner who chairs the community meeting",
+      "studentRoleVi": "Cư dân trẻ trong khu phố",
+      "goalVi": "Phàn nàn lịch sự về tắc đường, đề xuất một giải pháp và trả lời khi bà Thu nêu khó khăn.",
+      "goal": "Complain politely about traffic jams, suggest one solution, and respond to the planner's difficulty.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất một giải pháp", "words": [] },
+        { "kind": "reason", "vi": "Giải thích vì sao đây là vấn đề", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["rush hour", "traffic jam", "residents", "reliable", "infrastructure"] }
+      ],
+      "opener": "Good evening, everyone. Does anyone have a problem in the neighbourhood that they'd like to raise?",
+      "stance": "Building new roads costs a lot of money, and the city doesn't have enough budget this year.",
+      "turns": 5,
+      "fallback": [
+        "I understand. How does this problem affect you every day?",
+        "I'm afraid building new roads costs a lot of money, and we don't have enough budget this year.",
+        "That's a sensible idea. How can residents help?",
+        "Thank you. I'll include your suggestion in our report."
+      ],
+      "tipsVi": ["Mở đầu bằng \"I'm afraid there's a problem with...\"", "Khi bà Thu nêu khó khăn, đề xuất cách rẻ hơn."],
+      "keywords": ["I'm afraid", "rush hour", "traffic jam", "public transport", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Thảo luận về một khu đất trống",
+      "contextVi": "Gần trường em có một khu đất trống lớn. Trong dự án nhóm về đô thị hoá, em và một bạn thảo luận nên xây gì ở đó.",
+      "aiRole": "Phuong, a group member in a school project about urbanisation",
+      "studentRoleVi": "Thành viên nhóm dự án",
+      "goalVi": "Đề xuất nên xây gì, giải thích lợi ích cho người dân, và trả lời khi Phương có ý kiến khác.",
+      "goal": "Suggest what should be built on the empty land, explain how it helps residents, and respond to Phuong's different view.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất một công trình", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["residents", "housing", "leisure", "urban", "afford", "more and more"] }
+      ],
+      "opener": "There's a big empty piece of land near our school. What do you think should be built there?",
+      "stance": "The city needs more flats because housing is too expensive, so a park would waste the land.",
+      "turns": 5,
+      "fallback": [
+        "Interesting. How would that help the local residents?",
+        "But the city needs more flats because housing is too expensive. Wouldn't a park waste the land?",
+        "Hmm, good point. Is there a way to do both?",
+        "OK, let's put both ideas in our presentation."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["residents", "housing", "leisure", "because", "the more"]
+    }
+  ]
+}

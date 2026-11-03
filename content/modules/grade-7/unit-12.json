@@ -1,0 +1,355 @@
+{
+  "grade": 7,
+  "unit": 12,
+  "title": "English-Speaking Countries",
+  "titleVi": "Các nước nói tiếng Anh",
+  "edition": "Tiếng Anh 7 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 124–133; Glossary tr. 139",
+  "vocab": [
+    { "id": "v01", "en": "capital", "vi": "thủ đô", "ipa": "/ˈkæpɪtl/", "ipaFrom": "glossary", "pos": "n", "example": "Canberra is the capital of Australia.", "collocations": ["the capital of", "capital city"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v02", "en": "castle", "vi": "pháo đài", "ipa": "/ˈkɑːsl/", "ipaFrom": "glossary", "pos": "n", "example": "There is an old castle on the hill in Edinburgh.", "collocations": ["an ancient castle", "visit a castle"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v03", "en": "culture", "vi": "nền văn hoá", "ipa": "/ˈkʌltʃə/", "ipaFrom": "glossary", "pos": "n", "example": "I want to learn about the culture of Canada.", "collocations": ["local culture", "learn about the culture"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v04", "en": "landscape", "vi": "phong cảnh", "ipa": "/ˈlændskeɪp/", "ipaFrom": "glossary", "pos": "n", "example": "New Zealand has amazing landscapes with mountains and lakes.", "collocations": ["beautiful landscapes", "amazing landscapes"], "synonyms": ["scenery"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v05", "en": "local", "vi": "thuộc về địa phương", "ipa": "/ˈləʊkl/", "ipaFrom": "glossary", "pos": "adj", "example": "We tried some local food at the market.", "collocations": ["local people", "local food"], "synonyms": [], "antonyms": ["foreign"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v06", "en": "native", "vi": "(cái gì, con gì) nguyên thuỷ, nguyên gốc (của một vùng đất)", "ipa": "/ˈneɪtɪv/", "ipaFrom": "glossary", "pos": "adj", "example": "The kiwi is a bird native to New Zealand.", "collocations": ["native to", "native animals"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v07", "en": "island country", "vi": "đảo quốc", "ipa": "/ˈaɪlənd ˈkʌntri/", "ipaFrom": "glossary", "pos": "n", "example": "New Zealand is an island country in the Pacific Ocean.", "collocations": ["a small island country"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v08", "en": "symbol", "vi": "biểu tượng", "ipa": "/ˈsɪmbl/", "ipaFrom": "glossary", "pos": "n", "example": "The maple leaf is a symbol of Canada.", "collocations": ["a symbol of", "national symbol"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v09", "en": "historic", "vi": "thuộc về lịch sử", "ipa": "/hɪˈstɒrɪk/", "ipaFrom": "glossary", "pos": "adj", "example": "London has many historic buildings.", "collocations": ["a historic place", "historic buildings"], "synonyms": [], "antonyms": ["modern"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v10", "en": "ancient", "vi": "cổ, lâu đời", "ipa": "/ˈeɪnʃənt/", "ipaFrom": "glossary", "pos": "adj", "example": "Scotland is famous for its ancient castles.", "collocations": ["an ancient castle", "ancient times"], "synonyms": ["very old"], "antonyms": ["modern"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v11", "en": "tower", "vi": "tháp", "ipa": "/ˈtaʊə/", "ipaFrom": "glossary", "pos": "n", "example": "You can see the whole city from the top of the tower.", "collocations": ["a tall tower", "climb a tower"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v12", "en": "amazing", "vi": "ngạc nhiên (một cách thích thú)", "ipa": "/əˈmeɪzɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "The view from the mountain was amazing.", "collocations": ["an amazing view", "amazing landscapes"], "synonyms": ["wonderful"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v13", "en": "coastline", "vi": "đường bờ biển", "ipa": "/ˈkəʊstlaɪn/", "ipaFrom": "glossary", "pos": "n", "example": "Viet Nam has a long and beautiful coastline.", "collocations": ["a long coastline"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v14", "en": "kilt", "vi": "váy truyền thống của đàn ông Scotland", "ipa": "/kɪlt/", "ipaFrom": "glossary", "pos": "n", "example": "Scottish men sometimes wear kilts at weddings.", "collocations": ["wear a kilt", "Scottish kilt"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v15", "en": "penguin", "vi": "chim cánh cụt", "ipa": "/ˈpeŋɡwɪn/", "ipaFrom": "glossary", "pos": "n", "example": "We watched little penguins walk out of the sea.", "collocations": ["penguin watching"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v16", "en": "royal", "vi": "thuộc về hoàng gia", "ipa": "/ˈrɔɪəl/", "ipaFrom": "glossary", "pos": "adj", "example": "Many tourists visit the royal palace in London.", "collocations": ["the royal family", "a royal palace"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v17", "en": "sunset", "vi": "mặt trời lặn", "ipa": "/ˈsʌnset/", "ipaFrom": "glossary", "pos": "n", "example": "We had dinner on the beach and watched the sunset.", "collocations": ["watch the sunset", "a beautiful sunset"], "synonyms": [], "antonyms": ["sunrise"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v18", "en": "tattoo", "vi": "hình xăm", "ipa": "/təˈtuː/", "ipaFrom": "glossary", "pos": "n", "example": "Some Maori people in New Zealand have traditional tattoos.", "collocations": ["a traditional tattoo"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v19", "en": "Australia", "vi": "nước Úc", "ipa": "/ɒˈstreɪliə/", "ipaFrom": "glossary", "pos": "n", "example": "Kangaroos live in Australia.", "collocations": ["in Australia"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v20", "en": "Canada", "vi": "nước Canada", "ipa": "/ˈkænədə/", "ipaFrom": "glossary", "pos": "n", "example": "Canada is very cold in winter.", "collocations": ["in Canada"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v21", "en": "New Zealand", "vi": "nước Niu Zi Lân", "ipa": "/ˌnjuː ˈziːlənd/", "ipaFrom": "glossary", "pos": "n", "example": "My cousin studies in New Zealand.", "collocations": ["in New Zealand"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v22", "en": "the UK", "vi": "Vương quốc liên hiệp Anh", "ipa": "/ˌjuː ˈkeɪ/", "ipaFrom": "glossary", "pos": "n", "example": "Scotland is a part of the UK.", "collocations": ["in the UK"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Articles: a / an",
+      "nameVi": "Mạo từ a / an",
+      "explainVi": "Dùng a / an trước danh từ số ít đếm được khi nhắc lần đầu hoặc khi nói \"một cái bất kì\". Dùng an trước từ bắt đầu bằng ÂM nguyên âm (an island, an amazing view, an hour); dùng a trước âm phụ âm (a castle, a beautiful country). Xét theo âm đọc, không theo chữ cái.",
+      "formula": "a + âm phụ âm (a tower, a big country)  ·  an + âm nguyên âm (an island, an old castle)",
+      "examples": [
+        "New Zealand is an island country.",
+        "There is a castle near the town.",
+        "We waited for an hour to see the penguins."
+      ],
+      "wrong": [
+        { "sentence": "Canada is a amazing country.", "fix": "Canada is an amazing country.", "whyVi": "amazing bắt đầu bằng âm nguyên âm /ə/, nên dùng an." },
+        { "sentence": "My uncle is engineer in Australia.", "fix": "My uncle is an engineer in Australia.", "whyVi": "Nói nghề nghiệp của một người, cần a / an trước danh từ số ít." }
+      ],
+      "drills": [
+        { "prompt": "New Zealand is ___ island country.", "options": ["an", "a"], "answer": 0, "explainVi": "island bắt đầu bằng âm nguyên âm /aɪ/: an." },
+        { "prompt": "My aunt lives in ___ small town in Australia.", "options": ["a", "an"], "answer": 0, "explainVi": "small bắt đầu bằng âm phụ âm /s/: a." },
+        { "prompt": "Which is correct?", "options": ["an hour", "a hour"], "answer": 0, "explainVi": "Chữ h trong hour không đọc, từ bắt đầu bằng âm nguyên âm /aʊ/: an hour." }
+      ],
+      "errorTag": "article",
+      "src": { "kind": "sgk", "page": 127 }
+    },
+    {
+      "id": "g02",
+      "name": "Articles: the",
+      "nameVi": "Mạo từ the",
+      "explainVi": "Dùng the: (1) với so sánh nhất (the largest city); (2) với tên một số nơi như the USA, the UK; (3) khi tên nơi có danh từ chung như island, bridge, river, tower (the Tower Bridge); (4) khi nhắc lại vật đã nói trước đó hoặc vật người nghe biết rõ.",
+      "formula": "the + so sánh nhất · the + USA / UK · the + tên có river, bridge, tower... · the + vật đã nhắc",
+      "examples": [
+        "Toronto is the largest city in Canada.",
+        "My cousin is studying in the UK.",
+        "There is a tower in my town. The tower is very old."
+      ],
+      "wrong": [
+        { "sentence": "London is biggest city in the UK.", "fix": "London is the biggest city in the UK.", "whyVi": "So sánh nhất phải có the." },
+        { "sentence": "My friend lives in USA.", "fix": "My friend lives in the USA.", "whyVi": "Tên nước USA, UK đi với the." }
+      ],
+      "drills": [
+        { "prompt": "London is ___ biggest city in the UK.", "options": ["the", "a", "an"], "answer": 0, "explainVi": "So sánh nhất dùng the." },
+        { "prompt": "My uncle is working in ___ USA.", "options": ["the", "a", "an"], "answer": 0, "explainVi": "Tên nước USA đi với the." },
+        { "prompt": "There is a castle on the hill. ___ castle is 500 years old.", "options": ["The", "A", "An"], "answer": 0, "explainVi": "Nhắc lại vật đã nói ở câu trước: the." }
+      ],
+      "errorTag": "article",
+      "src": { "kind": "sgk", "page": 127 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "intonation",
+      "focus": "Lên giọng ở câu hỏi Yes / No",
+      "tipVi": "Câu hỏi Yes / No (bắt đầu bằng Is, Do, Can, Will...) lên giọng ở cuối câu ↗.",
+      "words": ["Is Canada big?", "Do you like kangaroos?"],
+      "sentence": "Do you want to visit Scotland?",
+      "quiz": [
+        { "prompt": "Which question usually has RISING intonation?", "options": ["Is Canada very cold?", "Where is Canada?", "How big is Canada?"], "answer": 0, "explainVi": "Is Canada very cold? là câu hỏi Yes / No nên lên giọng; hai câu kia là câu hỏi có từ để hỏi." }
+      ],
+      "src": { "kind": "sgk", "page": 126 }
+    },
+    {
+      "id": "p02",
+      "kind": "intonation",
+      "focus": "Xuống giọng ở câu hỏi có từ để hỏi",
+      "tipVi": "Câu hỏi bắt đầu bằng What, Where, How... xuống giọng ở cuối câu ↘.",
+      "words": ["Where is Sydney?", "What is the capital of Canada?"],
+      "sentence": "What is the most famous castle in Scotland?",
+      "quiz": [
+        { "prompt": "Which question usually has FALLING intonation?", "options": ["What is the capital of Australia?", "Is Canberra a big city?", "Can you speak French?"], "answer": 0, "explainVi": "Câu hỏi bắt đầu bằng What xuống giọng ở cuối." }
+      ],
+      "src": { "kind": "sgk", "page": 126 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm tên nước và từ mới",
+      "tipVi": "Canada, landscape, coastline nhấn âm đầu; Australia, historic, tattoo nhấn âm thứ hai: aus-TRA-lia, his-TO-ric, ta-TTOO.",
+      "words": ["Canada", "landscape", "coastline", "Australia", "historic", "tattoo"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["historic", "landscape", "coastline"], "answer": 0, "explainVi": "historic /hɪˈstɒrɪk/ nhấn âm thứ hai; landscape và coastline nhấn âm đầu." },
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["Canada", "Australia", "tattoo"], "answer": 0, "explainVi": "Canada /ˈkænədə/ nhấn âm đầu; Australia /ɒˈstreɪliə/ và tattoo /təˈtuː/ nhấn âm thứ hai." }
+      ],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Wow ... I didn't know that!", "vi": "Ồ ... mình không biết điều đó!", "useVi": "Khi ngạc nhiên vì nghe một điều mới.", "example": "Canada has thousands of lakes? Wow ... I didn't know that!", "src": { "kind": "sgk", "page": 128 } },
+    { "id": "e02", "en": "Amazing!", "vi": "Tuyệt quá! / Thật kinh ngạc!", "useVi": "Khi thấy một điều rất thú vị, đáng ngạc nhiên.", "example": "You saw penguins on the beach? Amazing!", "src": { "kind": "sgk", "page": 128 } },
+    { "id": "e03", "en": "This is new to me.", "vi": "Điều này mới với mình.", "useVi": "Khi nghe một sự thật mình chưa biết.", "example": "Scotland has more than 700 islands? This is new to me.", "src": { "kind": "sgk", "page": 129 } },
+    { "id": "e04", "en": "I know this.", "vi": "Mình biết điều này.", "useVi": "Khi sự thật người khác nói mình đã biết rồi.", "example": "Kangaroos live in Australia? I know this.", "src": { "kind": "sgk", "page": 129 } },
+    { "id": "e05", "en": "It was fantastic!", "vi": "Tuyệt vời lắm!", "useVi": "Khi kể về một chuyến đi rất vui.", "example": "How was your trip to Sydney? It was fantastic!", "src": { "kind": "sgk", "page": 124 } },
+    { "id": "e06", "en": "It sounds pretty exciting.", "vi": "Nghe khá thú vị đấy.", "useVi": "Khi đáp lại người kể về một trải nghiệm.", "example": "You went on a boat ride? It sounds pretty exciting.", "src": { "kind": "sgk", "page": 124 } },
+    { "id": "e07", "en": "I'd like to visit ... because ...", "vi": "Mình muốn đến ... vì ...", "useVi": "Khi nói nơi muốn đến và lý do.", "example": "I'd like to visit Canada because I want to see the lakes.", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "It's famous for ...", "vi": "Nơi đó nổi tiếng về ...", "useVi": "Khi giới thiệu điều nổi bật của một nơi.", "example": "Scotland is famous for its castles and kilts.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "Did you know that ...?", "vi": "Bạn có biết rằng ... không?", "useVi": "Khi muốn chia sẻ một sự thật thú vị.", "example": "Did you know that Canberra is the capital of Australia?", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "You can see ... and try ...", "vi": "Bạn có thể ngắm ... và thử ...", "useVi": "Khi gợi ý những việc nên làm ở một nơi.", "example": "In Hoi An, you can see the old town and try cao lau.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["I'd like to visit", "Scotland", "because it has", "many ancient castles"], "vi": "Mình muốn đến Scotland vì ở đó có nhiều lâu đài cổ.", "grammarId": null },
+    { "id": "b02", "chunks": ["London is", "the capital", "of the UK"], "vi": "London là thủ đô của Vương quốc Anh.", "grammarId": "g02" },
+    { "id": "b03", "chunks": ["New Zealand is", "an island country", "with amazing landscapes"], "vi": "New Zealand là một đảo quốc với phong cảnh tuyệt đẹp.", "grammarId": "g01" },
+    { "id": "b04", "chunks": ["There is a tower", "in my town", "The tower", "is very old"], "vi": "Ở thị trấn mình có một ngọn tháp. Ngọn tháp đó rất cổ.", "grammarId": "g02" },
+    { "id": "b05", "chunks": ["The kangaroo", "is a symbol", "of Australia"], "vi": "Kangaroo là một biểu tượng của nước Úc.", "grammarId": "g02" },
+    { "id": "b06", "chunks": ["Toronto is", "the largest city", "in Canada"], "vi": "Toronto là thành phố lớn nhất Canada.", "grammarId": "g02" },
+    { "id": "b07", "chunks": ["We watched", "an amazing sunset", "on the beach"], "vi": "Chúng mình ngắm hoàng hôn tuyệt đẹp trên bãi biển.", "grammarId": "g01" },
+    { "id": "b08", "chunks": ["Local people", "in Scotland", "sometimes wear kilts", "at festivals"], "vi": "Người dân Scotland đôi khi mặc váy kilt trong các lễ hội.", "grammarId": null }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I want to visit Australia.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "next summer" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because I want to see kangaroos and penguins" }
+      ],
+      "full": "I want to visit Australia next summer because I want to see kangaroos and penguins."
+    },
+    {
+      "id": "x02",
+      "base": "There is a castle.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "on a hill in Scotland" },
+        { "askVi": "Bao nhiêu tuổi?", "ask": "How old?", "add": "and it is about 800 years old" }
+      ],
+      "full": "There is a castle on a hill in Scotland, and it is about 800 years old."
+    },
+    {
+      "id": "x03",
+      "base": "Canada is a big country.",
+      "steps": [
+        { "askVi": "Có gì đặc biệt?", "ask": "What does it have?", "add": "with a very long coastline" },
+        { "askVi": "Thời tiết thế nào?", "ask": "What is the weather like?", "add": "and it is very cold in winter" }
+      ],
+      "full": "Canada is a big country with a very long coastline, and it is very cold in winter."
+    },
+    {
+      "id": "x04",
+      "base": "I watch videos.",
+      "steps": [
+        { "askVi": "Bằng tiếng gì?", "ask": "In what language?", "add": "in English" },
+        { "askVi": "Về chủ đề gì?", "ask": "About what?", "add": "about animals" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every weekend" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because they help me learn new words" }
+      ],
+      "full": "I watch videos in English about animals every weekend because they help me learn new words."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Nơi em muốn xem ở một nước nói tiếng Anh",
+      "questions": [
+        "What would you like to see in Australia?",
+        "What place in the UK would you like to visit?",
+        "Which famous place in an English-speaking country do you want to see?"
+      ],
+      "keywords": ["I'd like to", "castle", "tower", "landscape"],
+      "exampleAnswer": "I'd like to see the old castles in Scotland and the London Eye in the UK.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Giới thiệu thị trấn của em cho du khách",
+      "questions": [
+        "What can visitors see and do in your town?",
+        "What would you show a foreign friend in your town?",
+        "Which places in your town are good for tourists?"
+      ],
+      "keywords": ["You can see", "local", "historic", "try"],
+      "exampleAnswer": "Visitors can see the historic temple, walk along the river and try local food at the night market.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Biểu tượng của các nước nói tiếng Anh",
+      "questions": [
+        "What symbols of the UK do you know?",
+        "What do people think of when they hear about Scotland?",
+        "Which things are famous symbols of the USA?"
+      ],
+      "keywords": ["symbol", "famous for", "kilt", "castle"],
+      "exampleAnswer": "Scotland is famous for kilts, castles and bagpipes. They are symbols of Scottish culture.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Dùng tiếng Anh ngoài lớp học",
+      "questions": [
+        "When do you use English outside the classroom?",
+        "How do you practise English in your free time?",
+        "Where can you use your English in real life?"
+      ],
+      "keywords": ["videos", "songs", "tourists", "games"],
+      "exampleAnswer": "I listen to English songs, watch videos in English and sometimes talk to tourists in the park.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Vì sao mọi người thích đi du lịch nước ngoài",
+      "questions": [
+        "Why do people enjoy travelling to other countries?",
+        "What is good about visiting a foreign country?",
+        "Why do many tourists like to travel abroad?"
+      ],
+      "keywords": ["culture", "landscape", "local food", "because"],
+      "exampleAnswer": "People enjoy it because they can see new landscapes, try local food and learn about a different culture.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What do you know about Australia?", "keywords": ["capital", "kangaroo", "famous for"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should students learn about the history of English-speaking countries? Why or why not?", "keywords": ["culture", "history", "because"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend says she is going to visit London next summer. What do you say to her?", "keywords": ["Amazing", "You can see", "tower"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What do you know about the UK?", "keywords": ["capital", "royal", "famous for"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Is it a good idea for students to have an English-speaking pen friend? Why or why not?", "keywords": ["practise", "culture", "because"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your cousin shows you photos of a castle in Scotland. What do you say to him?", "keywords": ["Wow", "ancient", "castle"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Hỏi bạn về chuyến đi Úc",
+      "contextVi": "Phong vừa đi du lịch Úc về. Em muốn hỏi bạn về chuyến đi và chia sẻ cảm xúc khi nghe kể.",
+      "aiRole": "Phong, a friend who has just come back from a holiday in Australia",
+      "studentRoleVi": "Bạn của Phong, hỏi về chuyến đi",
+      "goalVi": "Hỏi Phong ít nhất hai câu về chuyến đi, thể hiện sự ngạc nhiên, và nói em muốn đến đâu ở Úc.",
+      "goal": "Ask Phong at least two questions about his trip, react with amazement, and say where you would like to go in Australia.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng cách bày tỏ ngạc nhiên hoặc từ của bài", "words": ["Amazing", "I didn't know that", "landscape", "penguin", "local"] },
+        { "kind": "reason", "vi": "Nói vì sao em muốn đến một nơi ở Úc", "words": [] }
+      ],
+      "opener": "Hi! I'm back from Australia. It was fantastic! What do you want to know about my trip?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "We went penguin watching on an island near Melbourne!",
+        "Yes, and the landscapes were amazing. Would you like to go there one day?",
+        "That sounds great. I hope you can go there soon!"
+      ],
+      "tipsVi": ["Hỏi bằng Did you ...? hoặc What did you ...?", "Đáp lại bằng \"Amazing!\" hoặc \"Wow ... I didn't know that!\""],
+      "keywords": ["Did you", "Amazing", "I'd like to", "because"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Chọn nước cho chuyến đi mơ ước",
+      "contextVi": "Nhóm em làm dự án \"Chuyến đi mơ ước\" đến một nước nói tiếng Anh. Mai muốn chọn Vương quốc Anh, em muốn chọn nước khác.",
+      "aiRole": "Mai, a classmate planning a dream trip for a class project",
+      "studentRoleVi": "Thành viên nhóm muốn chọn một nước khác",
+      "goalVi": "Đề xuất nước em chọn, nêu lý do và ví dụ, và trả lời lịch sự khi Mai muốn chọn Anh.",
+      "goal": "Suggest the country you want for the dream trip, give reasons and examples, and answer Mai politely when she prefers the UK.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do chọn nước đó", "words": [] },
+        { "kind": "example", "vi": "Kể ví dụ nơi sẽ đến hoặc việc sẽ làm", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["landscape", "culture", "capital", "native", "amazing"] }
+      ],
+      "opener": "For our dream trip project, I want to choose the UK. What country do you want to choose?",
+      "stance": "The UK is better because it has more historic castles and the royal family.",
+      "turns": 5,
+      "fallback": [
+        "Hmm, why do you want to go there?",
+        "But I think the UK is better. It has more historic castles and the royal family.",
+        "OK, that's a good point. What would we do there first?",
+        "Fine. Let's ask the group to vote."
+      ],
+      "tipsVi": ["Khi Mai phản đối, mở đầu bằng \"I see your point, but...\"", "Dùng \"It's famous for...\" để nêu điểm nổi bật."],
+      "keywords": ["famous for", "landscape", "culture", "I see your point", "because"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Học tiếng Anh qua phim với thầy giáo",
+      "contextVi": "Em hay xem phim, video bằng tiếng Anh. Thầy giáo tiếng Anh hỏi em cách học này có thật sự giúp ích không.",
+      "aiRole": "Mr Nam, your English teacher",
+      "studentRoleVi": "Học sinh học tiếng Anh qua phim, video",
+      "goalVi": "Giải thích vì sao xem phim, video tiếng Anh giúp em học, đưa ví dụ, và trả lời khi thầy có ý kiến khác.",
+      "goal": "Explain how watching films and videos in English helps you learn, give an example, and answer the teacher's different opinion.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["culture", "local", "native", "learn", "English-speaking"] }
+      ],
+      "opener": "I heard you watch a lot of videos in English. Do you think it really helps your English?",
+      "stance": "Watching films is just for fun. It won't help your English as much as doing grammar exercises.",
+      "turns": 5,
+      "fallback": [
+        "Interesting. How does it help you?",
+        "But I think watching films is just for fun. Grammar exercises help more, don't they?",
+        "That's a fair point. What kind of videos do you recommend?",
+        "Thank you. Maybe I'll show a short video in our next lesson."
+      ],
+      "tipsVi": ["Nói lịch sự với thầy: \"I think...\", \"For example...\"", "Có thể đồng ý một phần: \"Grammar is important, but...\""],
+      "keywords": ["learn", "new words", "culture", "for example", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Ngày các nước nói tiếng Anh",
+      "contextVi": "Trường em tổ chức Ngày các nước nói tiếng Anh. Một cô giáo khách mời từ New Zealand đến gian hàng của nhóm em và hỏi về nước nhóm em giới thiệu.",
+      "aiRole": "Ms Smith, a visiting teacher from New Zealand",
+      "studentRoleVi": "Học sinh giới thiệu một nước nói tiếng Anh",
+      "goalVi": "Giới thiệu một nước nói tiếng Anh, nêu điểm nổi bật và lý do nên đến, và trả lời khi cô có ý kiến khác.",
+      "goal": "Present an English-speaking country, say what it is famous for and why people should visit, and respond to the visitor's different opinion.",
+      "requirements": [
+        { "kind": "example", "vi": "Nêu ít nhất một nơi hoặc điều nổi bật", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do nên đến", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["capital", "landscape", "historic", "symbol", "culture", "local"] }
+      ],
+      "opener": "Hello! What a lovely stand. Which country are you presenting, and what is special about it?",
+      "stance": "I think tourists should only visit the big cities. The countryside is boring.",
+      "turns": 5,
+      "fallback": [
+        "Interesting! Why should people visit it?",
+        "But I think tourists should only visit the big cities. The countryside is boring, isn't it?",
+        "Hmm, you have a point. What local food should visitors try?",
+        "Thank you. You did a great job!"
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["famous for", "capital", "landscape", "the", "because"]
+    }
+  ]
+}

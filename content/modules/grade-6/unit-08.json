@@ -1,0 +1,368 @@
+{
+  "grade": 6,
+  "unit": 8,
+  "title": "Sports and Games",
+  "titleVi": "Thể thao và trò chơi",
+  "edition": "Tiếng Anh 6 Global Success, sách học sinh tập hai (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 16–25; Glossary tr. 70",
+  "vocab": [
+    { "id": "v01", "en": "sporty", "vi": "khoẻ mạnh, dáng thể thao", "ipa": "/ˈspɔːti/", "ipaFrom": "glossary", "pos": "adj", "example": "My cousin is very sporty. She swims every morning.", "collocations": ["a sporty person", "very sporty"], "synonyms": ["athletic"], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v02", "en": "fit", "vi": "mạnh khoẻ", "ipa": "/fɪt/", "ipaFrom": "glossary", "pos": "adj", "example": "I play badminton to keep fit.", "collocations": ["keep fit", "stay fit", "look fit"], "synonyms": ["healthy"], "antonyms": ["unfit"], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v03", "en": "gym", "vi": "trung tâm thể dục thể thao", "ipa": "/dʒɪm/", "ipaFrom": "glossary", "pos": "n", "example": "My dad goes to the gym three times a week.", "collocations": ["go to the gym", "at the gym", "gym rules"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v04", "en": "karate", "vi": "môn võ ka-ra-tê", "ipa": "/kəˈrɑːti/", "ipaFrom": "glossary", "pos": "n", "example": "I do karate at a club near my school.", "collocations": ["do karate", "karate club"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v05", "en": "aerobics", "vi": "thể dục nhịp điệu", "ipa": "/eəˈrəʊbɪks/", "ipaFrom": "glossary", "pos": "n", "example": "My mum does aerobics in the park every morning.", "collocations": ["do aerobics", "an aerobics class"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v06", "en": "racket", "vi": "cái vợt (cầu lông...)", "ipa": "/ˈrækɪt/", "ipaFrom": "glossary", "pos": "n", "example": "I need a new racket for badminton.", "collocations": ["tennis racket", "badminton racket"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v07", "en": "goggles", "vi": "kính bơi", "ipa": "/ˈɡɒɡlz/", "ipaFrom": "glossary", "pos": "n", "example": "Don't forget your goggles when you go swimming.", "collocations": ["swimming goggles", "wear goggles"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v08", "en": "equipment", "vi": "thiết bị, dụng cụ", "ipa": "/ɪˈkwɪpmənt/", "ipaFrom": "glossary", "pos": "n", "example": "The new gym has a lot of modern equipment.", "collocations": ["sports equipment", "gym equipment"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v09", "en": "competition", "vi": "cuộc đua", "ipa": "/ˌkɒmpəˈtɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "Our school has a swimming competition every summer.", "collocations": ["sports competition", "win a competition", "take part in a competition"], "synonyms": ["contest"], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v10", "en": "tournament", "vi": "giải đấu", "ipa": "/ˈtʊənəmənt/", "ipaFrom": "glossary", "pos": "n", "example": "Our class played in the school football tournament.", "collocations": ["football tournament", "win a tournament"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v11", "en": "score", "vi": "ghi bàn, ghi điểm", "ipa": "/skɔː/", "ipaFrom": "glossary", "pos": "v", "example": "Nam scored two goals in the match yesterday.", "collocations": ["score a goal", "score points"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v12", "en": "take place", "vi": "diễn ra, được tổ chức", "ipa": "/ˈteɪk pleɪs/", "ipaFrom": "glossary", "pos": "v phr", "example": "The school sports day takes place in March.", "collocations": ["take place every year", "take place in"], "synonyms": ["happen"], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v13", "en": "marathon", "vi": "cuộc đua ma-ra-tông", "ipa": "/ˈmærəθən/", "ipaFrom": "glossary", "pos": "n", "example": "My uncle ran a marathon in Ha Noi last year.", "collocations": ["run a marathon"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v14", "en": "last", "vi": "kéo dài", "ipa": "/lɑːst/", "ipaFrom": "glossary", "pos": "v", "example": "A basketball match doesn't last very long.", "collocations": ["last for two hours", "last 90 minutes"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v15", "en": "congratulation", "vi": "lời chúc mừng", "ipa": "/kənˌɡrætʃəˈleɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "Congratulations! You won the chess game.", "collocations": ["Congratulations!", "send congratulations"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v16", "en": "fantastic", "vi": "tuyệt", "ipa": "/fænˈtæstɪk/", "ipaFrom": "glossary", "pos": "adj", "example": "He scored a fantastic goal in the last minute.", "collocations": ["a fantastic goal", "a fantastic game"], "synonyms": ["great", "wonderful"], "antonyms": ["terrible"], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v17", "en": "career", "vi": "nghề nghiệp, sự nghiệp", "ipa": "/kəˈrɪə/", "ipaFrom": "glossary", "pos": "n", "example": "She started her tennis career when she was very young.", "collocations": ["sports career", "start a career"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v18", "en": "champion", "vi": "nhà vô địch", "ipa": "/ˈtʃæmpiən/", "ipaFrom": "dictionary", "pos": "n", "example": "Mai is the class chess champion this year.", "collocations": ["world champion", "class champion"], "synonyms": ["winner"], "antonyms": ["loser"], "src": { "kind": "sgk", "page": 18 } },
+    { "id": "v19", "en": "chess", "vi": "cờ vua", "ipa": "/tʃes/", "ipaFrom": "dictionary", "pos": "n", "example": "My grandpa and I play chess on Sunday afternoons.", "collocations": ["play chess", "a chess club"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 18 } },
+    { "id": "v20", "en": "table tennis", "vi": "bóng bàn", "ipa": "/ˈteɪbl tenɪs/", "ipaFrom": "dictionary", "pos": "n", "example": "We play table tennis at the club after school.", "collocations": ["play table tennis"], "synonyms": ["ping-pong"], "antonyms": [], "src": { "kind": "sgk", "page": 16 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "The past simple",
+      "nameVi": "Thì quá khứ đơn",
+      "explainVi": "Dùng thì quá khứ đơn để nói về việc đã xảy ra và đã kết thúc trong quá khứ (yesterday, last week, two days ago...). Động từ có quy tắc thêm -ed (play → played); động từ bất quy tắc phải học thuộc (go → went, win → won, have → had). Câu phủ định và câu hỏi dùng did / didn't, sau đó động từ trở về nguyên mẫu.",
+      "formula": "S + V-ed / V2  ·  S + didn't + V  ·  Did + S + V?  ·  was / were",
+      "examples": [
+        "I played table tennis with my brother yesterday.",
+        "We didn't go swimming last weekend because it rained.",
+        "Did you watch the football match last night?"
+      ],
+      "wrong": [
+        { "sentence": "Yesterday I play badminton with Lan.", "fix": "Yesterday I played badminton with Lan.", "whyVi": "Có yesterday (hôm qua) nên động từ phải ở quá khứ: played." },
+        { "sentence": "I didn't went to the gym last Sunday.", "fix": "I didn't go to the gym last Sunday.", "whyVi": "Sau didn't, động từ trở về nguyên mẫu: go, không phải went." },
+        { "sentence": "Did you won the game?", "fix": "Did you win the game?", "whyVi": "Câu hỏi đã có Did nên động từ chính dùng nguyên mẫu: win." }
+      ],
+      "drills": [
+        { "prompt": "We ___ football in the school yard yesterday afternoon.", "options": ["play", "played", "playing"], "answer": 1, "explainVi": "Có yesterday afternoon nên dùng quá khứ: played." },
+        { "prompt": "There ___ a great match on TV last night.", "options": ["is", "were", "was"], "answer": 2, "explainVi": "Last night là quá khứ, \"a great match\" số ít nên dùng was." },
+        { "prompt": "My brother ___ the race last week. He was very sad.", "options": ["didn't win", "didn't won", "not won"], "answer": 0, "explainVi": "Phủ định quá khứ: didn't + động từ nguyên mẫu (win)." },
+        { "prompt": "___ you go to the karate club last Saturday?", "options": ["Do", "Were", "Did"], "answer": 2, "explainVi": "Câu hỏi quá khứ với động từ thường (go): Did + S + V?" }
+      ],
+      "errorTag": "verb_tense",
+      "src": { "kind": "sgk", "page": 19 }
+    },
+    {
+      "id": "g02",
+      "name": "Imperatives",
+      "nameVi": "Câu mệnh lệnh",
+      "explainVi": "Dùng câu mệnh lệnh để bảo ai đó làm hoặc không làm việc gì, hoặc đưa ra chỉ dẫn, luật lệ. Câu khẳng định bắt đầu bằng động từ nguyên mẫu; câu phủ định bắt đầu bằng Don't + động từ nguyên mẫu. Không cần chủ ngữ.",
+      "formula": "V (nguyên mẫu) + ...  ·  Don't + V (nguyên mẫu) + ...",
+      "examples": [
+        "Put on your goggles before you swim.",
+        "Don't run near the swimming pool.",
+        "Pass the ball to Minh!"
+      ],
+      "wrong": [
+        { "sentence": "Not touch the equipment.", "fix": "Don't touch the equipment.", "whyVi": "Câu mệnh lệnh phủ định dùng Don't, không dùng Not." },
+        { "sentence": "Don't to shout in the gym.", "fix": "Don't shout in the gym.", "whyVi": "Sau Don't là động từ nguyên mẫu, không có \"to\"." },
+        { "sentence": "You wears sports shoes.", "fix": "Wear sports shoes.", "whyVi": "Câu mệnh lệnh bắt đầu bằng động từ nguyên mẫu, không cần chủ ngữ và không thêm -s." }
+      ],
+      "drills": [
+        { "prompt": "It's windy outside. ___ the window, please.", "options": ["Close", "Closes", "Closing"], "answer": 0, "explainVi": "Câu mệnh lệnh khẳng định bắt đầu bằng động từ nguyên mẫu: Close." },
+        { "prompt": "___ your mobile phone in the swimming pool!", "options": ["Use", "Don't use", "Not use"], "answer": 1, "explainVi": "Đây là điều KHÔNG được làm: Don't use." },
+        { "prompt": "Which gym rule is correct?", "options": ["Don't eats in the gym.", "Doesn't eat in the gym.", "Don't eat in the gym."], "answer": 2, "explainVi": "Don't + động từ nguyên mẫu: Don't eat." }
+      ],
+      "errorTag": "verb_form",
+      "src": { "kind": "sgk", "page": 20 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Âm /e/",
+      "tipVi": "Miệng mở vừa, lưỡi ở giữa, khoé miệng hơi kéo sang hai bên. Âm ngắn, giống \"e\" trong tiếng Việt.",
+      "words": ["chess", "tennis", "exercise", "contest"],
+      "sentence": "Ben plays tennis and chess every weekend.",
+      "quiz": [
+        { "prompt": "Which word has the sound /e/?", "options": ["racket", "tennis", "match"], "answer": 1, "explainVi": "tennis /ˈtenɪs/ có âm /e/; racket và match có âm /æ/." }
+      ],
+      "src": { "kind": "sgk", "page": 18 }
+    },
+    {
+      "id": "p02",
+      "kind": "sound",
+      "focus": "Âm /æ/",
+      "tipVi": "Mở miệng rộng hơn /e/, hàm dưới hạ xuống, lưỡi thấp. Âm nằm giữa \"e\" và \"a\" trong tiếng Việt. Phân biệt: bed /bed/ và bad /bæd/.",
+      "words": ["racket", "match", "marathon", "active"],
+      "sentence": "My dad is active. He ran a marathon last year.",
+      "quiz": [
+        { "prompt": "Which word has the sound /æ/?", "options": ["chess", "contest", "active"], "answer": 2, "explainVi": "active /ˈæktɪv/ có âm /æ/; chess và contest có âm /e/." },
+        { "prompt": "Which word does NOT have the sound /æ/?", "options": ["exercise", "racket", "match"], "answer": 0, "explainVi": "exercise /ˈeksəsaɪz/ bắt đầu bằng âm /e/, không phải /æ/." }
+      ],
+      "src": { "kind": "sgk", "page": 18 }
+    },
+    {
+      "id": "p03",
+      "kind": "ending",
+      "focus": "Cách đọc đuôi -ed: /t/, /d/, /ɪd/",
+      "tipVi": "Đuôi -ed đọc /ɪd/ sau âm /t/, /d/ (visited, started). Đọc /t/ sau các âm vô thanh như /p/, /k/, /s/, /ʃ/, /tʃ/ (watched, jumped). Các trường hợp còn lại đọc /d/ (played, scored).",
+      "words": ["played", "scored", "watched", "jumped", "visited", "started"],
+      "sentence": "We played well, and Nam scored a goal.",
+      "quiz": [
+        { "prompt": "In which word is -ed pronounced /ɪd/?", "options": ["played", "visited", "watched"], "answer": 1, "explainVi": "visited /ˈvɪzɪtɪd/: trước -ed là âm /t/ nên đọc /ɪd/." },
+        { "prompt": "In which word is -ed pronounced /t/?", "options": ["watched", "scored", "started"], "answer": 0, "explainVi": "watched /wɒtʃt/: trước -ed là âm vô thanh /tʃ/ nên đọc /t/." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "Âm tiết có dấu ˈ được đọc to và dài hơn. marathon, tournament nhấn âm đầu; karate, aerobics, equipment nhấn âm thứ hai; competition nhấn âm thứ ba.",
+      "words": ["marathon", "tournament", "karate", "aerobics", "equipment", "competition"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["karate", "tournament", "equipment"], "answer": 1, "explainVi": "tournament /ˈtʊənəmənt/ nhấn âm đầu; karate và equipment nhấn âm thứ hai." },
+        { "prompt": "Which word is stressed on the THIRD syllable?", "options": ["competition", "aerobics", "marathon"], "answer": 0, "explainVi": "competition /ˌkɒmpəˈtɪʃn/ nhấn âm thứ ba (ti)." }
+      ],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Congratulations!", "vi": "Chúc mừng bạn!", "useVi": "Khi bạn bè thắng cuộc, đạt giải hoặc có tin vui.", "example": "You won the swimming race? Congratulations!", "src": { "kind": "sgk", "page": 21 } },
+    { "id": "e02", "en": "Thank you.", "vi": "Cảm ơn bạn.", "useVi": "Khi đáp lại lời chúc mừng.", "example": "Congratulations on your prize! – Thank you, Nam.", "src": { "kind": "sgk", "page": 21 } },
+    { "id": "e03", "en": "What sports do you do?", "vi": "Bạn chơi những môn thể thao nào?", "useVi": "Khi hỏi bạn về các môn thể thao họ tập.", "example": "What sports do you do? – I do karate and play badminton.", "src": { "kind": "sgk", "page": 16 } },
+    { "id": "e04", "en": "I'm not good at ...", "vi": "Mình không giỏi ...", "useVi": "Khi nói về điều mình chưa làm tốt.", "example": "I'm not good at swimming, but I'm learning.", "src": { "kind": "sgk", "page": 16 } },
+    { "id": "e05", "en": "Well done!", "vi": "Làm tốt lắm!", "useVi": "Khi khen ai đó vừa làm tốt một việc.", "example": "Well done! That was a fantastic goal.", "src": { "kind": "team", "page": null } },
+    { "id": "e06", "en": "Don't worry. You can learn!", "vi": "Đừng lo. Bạn có thể học mà!", "useVi": "Khi động viên bạn thử một môn thể thao mới.", "example": "Don't worry. You can learn! I'll help you.", "src": { "kind": "team", "page": null } },
+    { "id": "e07", "en": "Let's play ... together.", "vi": "Mình cùng chơi ... nhé.", "useVi": "Khi rủ bạn cùng chơi một môn thể thao hoặc trò chơi.", "example": "Let's play table tennis together after school.", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "Bad luck! Maybe next time.", "vi": "Tiếc quá! Lần sau nhé.", "useVi": "Khi an ủi bạn vừa thua trận.", "example": "Bad luck! Maybe next time you will win.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "I see what you mean, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình lịch sự nêu ý của mình.", "example": "I see what you mean, but sport is good for our health too.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["Last Sunday", "I played", "badminton", "with my cousin"], "vi": "Chủ nhật tuần trước mình chơi cầu lông với anh họ.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["Put on", "your goggles", "before you", "jump into the pool"], "vi": "Hãy đeo kính bơi trước khi nhảy xuống bể.", "grammarId": "g02" },
+    { "id": "b03", "chunks": ["Don't run", "near the pool", "because the floor", "is wet"], "vi": "Đừng chạy gần bể bơi vì sàn bị ướt.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["We didn't win", "the match,", "but we", "had fun"], "vi": "Chúng mình không thắng trận đấu, nhưng chúng mình đã rất vui.", "grammarId": "g01" },
+    { "id": "b05", "chunks": ["Did you", "go to", "the gym", "last weekend?"], "vi": "Cuối tuần trước bạn có đi tập gym không?", "grammarId": "g01" },
+    { "id": "b06", "chunks": ["I do karate", "twice a week", "to keep fit"], "vi": "Mình tập karate hai lần một tuần để giữ sức khoẻ.", "grammarId": null },
+    { "id": "b07", "chunks": ["The school tournament", "takes place", "every year", "in April"], "vi": "Giải đấu của trường diễn ra hằng năm vào tháng Tư.", "grammarId": null },
+    { "id": "b08", "chunks": ["Nam scored", "a fantastic goal,", "so our class", "won the game"], "vi": "Nam ghi một bàn thắng tuyệt đẹp nên lớp mình thắng trận.", "grammarId": "g01" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I played football.",
+      "steps": [
+        { "askVi": "Với ai?", "ask": "Who with?", "add": "with my classmates" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in the school yard" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last Friday" }
+      ],
+      "full": "I played football with my classmates in the school yard last Friday."
+    },
+    {
+      "id": "x02",
+      "base": "I like swimming.",
+      "steps": [
+        { "askVi": "Em bơi ở đâu?", "ask": "Where do you swim?", "add": "at the pool near my house" },
+        { "askVi": "Vì sao em thích?", "ask": "Why?", "add": "because it keeps me fit" }
+      ],
+      "full": "I like swimming at the pool near my house because it keeps me fit."
+    },
+    {
+      "id": "x03",
+      "base": "Wear sports shoes.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in the gym" },
+        { "askVi": "Điều gì không được làm?", "ask": "What shouldn't we do?", "add": "and don't shout" }
+      ],
+      "full": "Wear sports shoes in the gym, and don't shout."
+    },
+    {
+      "id": "x04",
+      "base": "My sister won a race.",
+      "steps": [
+        { "askVi": "Cuộc đua gì?", "ask": "What kind of race?", "add": "swimming" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last month" },
+        { "askVi": "Gia đình cảm thấy thế nào?", "ask": "How did your family feel?", "add": "so we were very proud of her" }
+      ],
+      "full": "My sister won a swimming race last month, so we were very proud of her."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Kể về cuối tuần vừa rồi",
+      "questions": [
+        "What did you do last weekend?",
+        "How did you spend last Sunday?",
+        "Did you do any exercise last weekend? What did you do?"
+      ],
+      "keywords": ["played", "went", "with", "last"],
+      "exampleAnswer": "Last Sunday I went to the park with my dad. We played badminton for an hour, and then we had ice cream.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Luật lệ ở bể bơi và phòng tập",
+      "questions": [
+        "What are some rules at a swimming pool?",
+        "What should people do and not do at the gym?",
+        "Tell a new student the rules of the school sports ground."
+      ],
+      "keywords": ["don't", "wear", "goggles", "equipment"],
+      "exampleAnswer": "Wear your goggles and listen to the teacher. Don't run near the pool, and don't eat in the water.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Cách em giữ sức khoẻ",
+      "questions": [
+        "How do you keep fit?",
+        "What do you do to stay healthy and strong?",
+        "What exercise do you do every week?"
+      ],
+      "keywords": ["keep fit", "every", "do", "play"],
+      "exampleAnswer": "I keep fit by cycling to school and doing karate twice a week.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Lợi ích của các cuộc thi thể thao ở trường",
+      "questions": [
+        "Why do schools organise sports competitions?",
+        "What can students learn from a sports competition?",
+        "Why is it good to join a school tournament?"
+      ],
+      "keywords": ["competition", "team", "fit", "friends"],
+      "exampleAnswer": "Sports competitions help students keep fit and learn to work in a team, so they make new friends too.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Trò chơi trong nhà hay ngoài trời",
+      "questions": [
+        "Do you prefer chess or outdoor games? Why?",
+        "Which is more fun for you, board games or ball games? Why?",
+        "Why do some people like playing chess?"
+      ],
+      "keywords": ["chess", "outdoor", "because", "think"],
+      "exampleAnswer": "I prefer outdoor games because I can run with my friends, but chess is good when it rains.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What sport or game did you often play when you were in primary school?", "keywords": ["played", "with", "after school"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should every school have a gym for students? Why or why not?", "keywords": ["gym", "fit", "equipment"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend lost a badminton match and feels sad. What do you say to him?", "keywords": ["don't worry", "next time", "practise"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What sport or game did you try for the first time last year?", "keywords": ["tried", "first time", "with"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should students play sports at break time? Why or why not?", "keywords": ["break time", "fit", "tired"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your teammate missed an easy goal and feels sad. What do you say to her?", "keywords": ["don't worry", "well done", "next time"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Kể về một trận đấu cuối tuần",
+      "contextVi": "Sáng thứ Hai, bạn cùng lớp hỏi em đã làm gì vào cuối tuần. Em kể về một môn thể thao hoặc trò chơi em đã chơi.",
+      "aiRole": "Duy, a sporty classmate",
+      "studentRoleVi": "Học sinh kể về hoạt động thể thao cuối tuần",
+      "goalVi": "Kể em đã chơi môn gì, với ai, ở đâu, và kết quả ra sao (dùng thì quá khứ đơn).",
+      "goal": "Tell your classmate about a sport or game you played last weekend: what, who with, where and what happened.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một động từ ở quá khứ", "words": ["played", "went", "won", "scored", "had"] },
+        { "kind": "example", "vi": "Kể một chi tiết cụ thể về trận đấu", "words": [] }
+      ],
+      "opener": "Hi! How was your weekend? Did you play any sport?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Nice! Who did you play with?",
+        "Did you win? What happened?",
+        "Sounds fun. Let's play together next weekend!"
+      ],
+      "tipsVi": ["Dùng thì quá khứ: played, went, won, scored.", "Thêm thời gian: last Saturday, yesterday."],
+      "keywords": ["played", "last weekend", "won", "with"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Rủ bạn chơi thể thao thay vì chơi game",
+      "contextVi": "Bạn em ở nhà chơi trò chơi điện tử cả buổi chiều. Em muốn rủ bạn ra ngoài chơi một môn thể thao.",
+      "aiRole": "Khoa, a classmate who loves computer games",
+      "studentRoleVi": "Người bạn muốn rủ Khoa chơi thể thao",
+      "goalVi": "Rủ Khoa chơi một môn thể thao, nêu lý do và trả lời khi Khoa nói chơi game vui hơn.",
+      "goal": "Invite Khoa to play a sport with you, give reasons, and answer politely when he says computer games are more fun.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Rủ bạn chơi (Let's... / Why don't we...?)", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do nên chơi thể thao", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["fit", "sporty", "outdoor", "team", "fun"] }
+      ],
+      "opener": "Oh, hi! I'm playing a new computer game. It's really cool. Do you want to watch?",
+      "stance": "Computer games are more fun than sport, and I don't like getting tired.",
+      "turns": 5,
+      "fallback": [
+        "Play outside? Why? It's so comfortable here.",
+        "But computer games are more fun than sport, and I don't like getting tired.",
+        "Hmm, maybe you're right. What sport can we play?",
+        "OK, just for one hour. Let's go!"
+      ],
+      "tipsVi": ["Khi Khoa phản đối, dùng \"I see what you mean, but...\"", "Gợi ý một môn dễ chơi, nói rõ ở đâu và khi nào."],
+      "keywords": ["let's", "keep fit", "fun", "because"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Chọn môn cho ngày hội thể thao",
+      "contextVi": "Trường em sắp tổ chức ngày hội thể thao. Thầy giáo thể dục hỏi ý kiến học sinh nên có môn gì.",
+      "aiRole": "Mr Long, the PE teacher",
+      "studentRoleVi": "Học sinh đề xuất một môn thể thao",
+      "goalVi": "Đề xuất một môn cho ngày hội, nói luật chơi đơn giản và trả lời khi thầy lo môn đó nguy hiểm.",
+      "goal": "Suggest one sport for the school sports day, explain a simple rule, and answer the teacher's worry about safety.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất một môn", "words": [] },
+        { "kind": "reason", "vi": "Giải thích lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một câu mệnh lệnh để nêu luật", "words": ["don't", "wear", "pass", "listen"] }
+      ],
+      "opener": "Hello. Our sports day takes place next month. Which sport would you like to have?",
+      "stance": "That sport is a bit dangerous. Maybe chess is safer for everyone.",
+      "turns": 5,
+      "fallback": [
+        "Good idea. Why do you think students will like it?",
+        "Hmm, but that sport is a bit dangerous. Maybe chess is safer for everyone?",
+        "OK. What rules should the players follow?",
+        "Thank you. I'll put your idea on the list."
+      ],
+      "tipsVi": ["Nói lịch sự với thầy cô: \"I think we could...\"", "Dùng câu mệnh lệnh để nêu luật: Wear..., Don't..."],
+      "keywords": ["sports day", "rules", "don't", "safe"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Xin vào câu lạc bộ thể thao",
+      "contextVi": "Em muốn tham gia một câu lạc bộ thể thao ở nhà văn hoá gần nhà. Huấn luyện viên hỏi em vài câu trước khi nhận.",
+      "aiRole": "Coach Hai, the coach of a local sports club",
+      "studentRoleVi": "Học sinh muốn tham gia câu lạc bộ",
+      "goalVi": "Nói em muốn tham gia môn gì, kể kinh nghiệm thể thao trước đây, nêu lý do và trả lời khi huấn luyện viên lo em không có thời gian.",
+      "goal": "Tell the coach which sport you want to do, talk about a sport you did before, give reasons, and answer his worry about your time.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do muốn tham gia", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một động từ ở quá khứ", "words": ["played", "did", "learned", "won", "went"] }
+      ],
+      "opener": "Hi there. So you want to join our club. Which sport are you interested in?",
+      "stance": "Students have a lot of homework. I don't think you'll have time for training.",
+      "turns": 5,
+      "fallback": [
+        "I see. Did you do any sport before?",
+        "Students have a lot of homework. I don't think you'll have time for training. What do you think?",
+        "Fair enough. Why is this sport important to you?",
+        "Great. You can start next Monday. Bring your equipment!"
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["join", "played", "fit", "because"]
+    }
+  ]
+}

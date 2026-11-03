@@ -1,0 +1,369 @@
+{
+  "grade": 12,
+  "unit": 2,
+  "title": "A Multicultural World",
+  "titleVi": "Một thế giới đa văn hoá",
+  "edition": "Tiếng Anh 12 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 20–31; Glossary tr. 148",
+  "vocab": [
+    { "id": "v01", "en": "multicultural", "vi": "đa văn hoá", "ipa": "/ˌmʌltiˈkʌltʃərəl/", "ipaFrom": "glossary", "pos": "adj", "example": "Singapore is a multicultural country with four official languages.", "collocations": ["a multicultural society", "a multicultural city"], "synonyms": ["diverse"], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v02", "en": "diversity", "vi": "sự đa dạng", "ipa": "/daɪˈvɜːsəti/", "ipaFrom": "glossary", "pos": "n", "example": "Tasting food from many countries helps us learn about cultural diversity.", "collocations": ["cultural diversity", "respect diversity"], "synonyms": ["variety"], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v03", "en": "cultural", "vi": "thuộc về văn hoá", "ipa": "/ˈkʌltʃərəl/", "ipaFrom": "glossary", "pos": "adj", "example": "Our school holds a cultural festival every spring.", "collocations": ["cultural identity", "cultural festival"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v04", "en": "globalisation", "vi": "sự toàn cầu hoá", "ipa": "/ˌgləʊbəlaɪˈzeɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "Globalisation makes it easy to buy products from other countries.", "collocations": ["the effects of globalisation"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v05", "en": "culture shock", "vi": "sốc văn hoá", "ipa": "/ˈkʌltʃə ʃɒk/", "ipaFrom": "glossary", "pos": "n", "example": "Many students experience culture shock when they first study abroad.", "collocations": ["experience culture shock", "suffer from culture shock"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v06", "en": "custom", "vi": "phong tục", "ipa": "/ˈkʌstəm/", "ipaFrom": "glossary", "pos": "n", "example": "Giving lucky money at Tet is an old Vietnamese custom.", "collocations": ["a local custom", "an old custom"], "synonyms": ["tradition"], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v07", "en": "cuisine", "vi": "ẩm thực", "ipa": "/kwɪˈziːn/", "ipaFrom": "glossary", "pos": "n", "example": "Vietnamese cuisine is famous for its fresh herbs.", "collocations": ["local cuisine", "Vietnamese cuisine"], "synonyms": ["cooking"], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v08", "en": "identity", "vi": "bản sắc, đặc điểm nhận dạng", "ipa": "/aɪˈdentəti/", "ipaFrom": "glossary", "pos": "n", "example": "Language is an important part of our national identity.", "collocations": ["cultural identity", "national identity"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v09", "en": "keep up with", "vi": "bắt kịp với, theo kịp", "ipa": "/ˈkiːp ʌp wɪð/", "ipaFrom": "glossary", "pos": "phr v", "example": "Teenagers use social media to keep up with new trends.", "collocations": ["keep up with the news", "keep up with trends"], "synonyms": ["follow"], "antonyms": ["fall behind"], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v10", "en": "traditional", "vi": "truyền thống", "ipa": "/trəˈdɪʃənl/", "ipaFrom": "glossary", "pos": "adj", "example": "My grandmother still wears a traditional ao dai at Tet.", "collocations": ["traditional games", "traditional costumes"], "synonyms": [], "antonyms": ["modern"], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v11", "en": "staple", "vi": "cơ bản, chủ yếu", "ipa": "/ˈsteɪpl/", "ipaFrom": "glossary", "pos": "adj", "example": "Rice is the staple food of most Asian countries.", "collocations": ["staple food", "staple diet"], "synonyms": ["main", "basic"], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v12", "en": "speciality", "vi": "đặc sản", "ipa": "/ˌspeʃiˈæləti/", "ipaFrom": "glossary", "pos": "n", "example": "Cao lau is a speciality of Hoi An.", "collocations": ["a local speciality"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v13", "en": "appreciate", "vi": "thưởng thức, trân trọng", "ipa": "/əˈpriːʃieɪt/", "ipaFrom": "glossary", "pos": "v", "example": "Travelling helps us appreciate other cultures.", "collocations": ["appreciate other cultures", "appreciate the food"], "synonyms": ["value"], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v14", "en": "origin", "vi": "nguồn gốc", "ipa": "/ˈɒrɪdʒɪn/", "ipaFrom": "glossary", "pos": "n", "example": "Nobody knows the exact origin of this festival.", "collocations": ["the origin of", "country of origin"], "synonyms": ["beginning"], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v15", "en": "popularity", "vi": "sự phổ biến, sự thông dụng", "ipa": "/ˌpɒpjuˈlærəti/", "ipaFrom": "glossary", "pos": "n", "example": "The popularity of Korean food has grown quickly in Viet Nam.", "collocations": ["gain popularity", "the popularity of"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v16", "en": "festivity", "vi": "ngày hội", "ipa": "/feˈstɪvəti/", "ipaFrom": "glossary", "pos": "n", "example": "The New Year festivities begin with fireworks at midnight.", "collocations": ["New Year festivities", "join the festivities"], "synonyms": ["celebration"], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v17", "en": "trend", "vi": "xu hướng", "ipa": "/trend/", "ipaFrom": "glossary", "pos": "n", "example": "Wearing ao dai to school events is a new trend among students.", "collocations": ["a new trend", "follow a trend"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v18", "en": "celebrate", "vi": "tổ chức, mừng", "ipa": "/ˈselɪbreɪt/", "ipaFrom": "glossary", "pos": "v", "example": "Many families celebrate the Mid-Autumn Festival with mooncakes.", "collocations": ["celebrate a festival", "celebrate Tet"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v19", "en": "costume", "vi": "trang phục", "ipa": "/ˈkɒstjuːm/", "ipaFrom": "glossary", "pos": "n", "example": "The dancers wore colourful traditional costumes.", "collocations": ["traditional costume", "national costume"], "synonyms": ["clothes"], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v20", "en": "lifestyle", "vi": "lối sống", "ipa": "/ˈlaɪfstaɪl/", "ipaFrom": "glossary", "pos": "n", "example": "Living abroad changed his lifestyle a lot.", "collocations": ["a healthy lifestyle", "a modern lifestyle"], "synonyms": ["way of life"], "antonyms": [], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v21", "en": "tug of war", "vi": "trò chơi kéo co", "ipa": "/ˌtʌg əv ˈwɔː/", "ipaFrom": "glossary", "pos": "n", "example": "Students from five countries played tug of war at the festival.", "collocations": ["play tug of war"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 148 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Articles: a/an and the",
+      "nameVi": "Mạo từ a/an và the",
+      "explainVi": "Dùng a/an trước danh từ đếm được số ít khi người nghe chưa biết đó là cái nào (thường là nhắc lần đầu); an đứng trước âm nguyên âm. Dùng the khi người nghe đã biết mình nói cái nào: chỉ có một (the sun, the moon), đã nhắc ở trước, hoặc khi nói chơi nhạc cụ (play the piano).",
+      "formula": "a/an + danh từ số ít (chưa xác định)  ·  the + danh từ (đã xác định, duy nhất, đã nhắc, nhạc cụ)",
+      "examples": [
+        "There is an Indian restaurant near my school.",
+        "I bought a scarf and a hat. The scarf was for my mum.",
+        "My brother is learning to play the guitar."
+      ],
+      "wrong": [
+        { "sentence": "I want to visit a Eiffel Tower one day.", "fix": "I want to visit the Eiffel Tower one day.", "whyVi": "Chỉ có một tháp Eiffel, người nghe biết là cái nào nên dùng the." },
+        { "sentence": "She bought a umbrella at the market.", "fix": "She bought an umbrella at the market.", "whyVi": "umbrella bắt đầu bằng âm nguyên âm /ʌ/ nên dùng an." }
+      ],
+      "drills": [
+        { "prompt": "There is ___ old temple in my village.", "options": ["an", "a", "the"], "answer": 0, "explainVi": "Nhắc lần đầu, danh từ số ít, \"old\" bắt đầu bằng âm nguyên âm: an." },
+        { "prompt": "A boy found a wallet. He gave ___ wallet to the police.", "options": ["the", "a", "an"], "answer": 0, "explainVi": "Chiếc ví đã được nhắc ở câu trước nên dùng the." },
+        { "prompt": "___ moon looks very bright during the Mid-Autumn Festival.", "options": ["The", "A", "An"], "answer": 0, "explainVi": "Chỉ có một mặt trăng nên dùng the." }
+      ],
+      "errorTag": "article",
+      "src": { "kind": "sgk", "page": 22 }
+    },
+    {
+      "id": "g02",
+      "name": "The with special names; no article for general meaning",
+      "nameVi": "The với một số tên riêng; không dùng mạo từ khi nói chung",
+      "explainVi": "Dùng the với tên nước có kingdom, states hoặc tên số nhiều (the UK, the US, the Philippines) và với đại dương, biển, dãy núi (the Pacific, the Alps). Không dùng mạo từ với đa số tên nước, thành phố (Japan, Hue) và với danh từ số nhiều hoặc không đếm được khi nói chung chung (Rice is..., Tourists love...).",
+      "formula": "the + the UK / the US / the Philippines / the Pacific / the Alps  ·  Ø + danh từ số nhiều / không đếm được (nghĩa chung)",
+      "examples": [
+        "My cousin is studying in the UK.",
+        "Rice is a staple food in many Asian countries.",
+        "Foreign tourists often love Vietnamese street food."
+      ],
+      "wrong": [
+        { "sentence": "My parents have never been to the Japan.", "fix": "My parents have never been to Japan.", "whyVi": "Đa số tên nước không có the. Chỉ dùng the với the UK, the US, the Philippines..." },
+        { "sentence": "The rice is a staple food in Viet Nam.", "fix": "Rice is a staple food in Viet Nam.", "whyVi": "Nói về gạo nói chung (không đếm được, không xác định) thì không dùng mạo từ." }
+      ],
+      "drills": [
+        { "prompt": "My aunt works as a nurse in ___ Philippines.", "options": ["the", "a", "∅ (no article)"], "answer": 0, "explainVi": "Tên nước ở dạng số nhiều (the Philippines) đi với the." },
+        { "prompt": "___ Japanese food is very popular among Vietnamese teenagers.", "options": ["∅ (no article)", "The", "A"], "answer": 0, "explainVi": "Nói về món Nhật nói chung (không đếm được) thì không dùng mạo từ." },
+        { "prompt": "Which sentence is correct?", "options": ["She wants to swim in the Pacific one day.", "She wants to swim in Pacific one day.", "She wants to swim in a Pacific one day."], "answer": 0, "explainVi": "Tên đại dương đi với the: the Pacific." },
+        { "prompt": "Which sentence is correct?", "options": ["Many students travel to the US to study.", "Many students travel to US to study.", "Many students travel to a US to study."], "answer": 0, "explainVi": "the United States có \"states\" nên luôn đi với the: the US." }
+      ],
+      "errorTag": "article",
+      "src": { "kind": "sgk", "page": 22 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Nguyên âm đôi /ɔɪ/",
+      "tipVi": "Bắt đầu bằng /ɔ/ (miệng tròn, giống \"o\") rồi lướt nhanh sang /ɪ/, nghe giống \"oi\". Đọc trọn cả hai phần.",
+      "words": ["join", "enjoy", "Joyce", "destroyed"],
+      "sentence": "We enjoy joining the festival every year.",
+      "quiz": [
+        { "prompt": "Which word has the sound /ɔɪ/?", "options": ["enjoy", "energy", "engine"], "answer": 0, "explainVi": "enjoy /ɪnˈdʒɔɪ/ có /ɔɪ/; energy /ˈenədʒi/ và engine /ˈendʒɪn/ thì không." }
+      ],
+      "src": { "kind": "sgk", "page": 21 }
+    },
+    {
+      "id": "p02",
+      "kind": "sound",
+      "focus": "Nguyên âm đôi /aɪ/",
+      "tipVi": "Mở miệng rộng với /a/ rồi lướt lên /ɪ/, nghe giống \"ai\". Chú ý chữ i và y trong spicy, buy, identity đều đọc /aɪ/.",
+      "words": ["spicy", "buy", "identity", "finally"],
+      "sentence": "I'd like to buy some spicy food.",
+      "quiz": [
+        { "prompt": "Which word has the sound /aɪ/?", "options": ["buy", "build", "busy"], "answer": 0, "explainVi": "buy /baɪ/ có /aɪ/; build /bɪld/ và busy /ˈbɪzi/ có /ɪ/." }
+      ],
+      "src": { "kind": "sgk", "page": 21 }
+    },
+    {
+      "id": "p03",
+      "kind": "sound",
+      "focus": "Nguyên âm đôi /aʊ/",
+      "tipVi": "Mở miệng rộng với /a/ rồi tròn môi lướt sang /ʊ/, nghe giống \"ao\". Chữ ou và ow thường đọc /aʊ/ như trong around, crowded.",
+      "words": ["crowded", "around", "proud", "crowd"],
+      "sentence": "The market was crowded with people from around the world.",
+      "quiz": [
+        { "prompt": "Which word has the sound /aʊ/?", "options": ["crowd", "grow", "show"], "answer": 0, "explainVi": "crowd /kraʊd/ có /aʊ/; grow /grəʊ/ và show /ʃəʊ/ có /əʊ/." },
+        { "prompt": "Which word does NOT have the sound /aʊ/?", "options": ["around", "proud", "know"], "answer": 2, "explainVi": "know /nəʊ/ không có /aʊ/; around /əˈraʊnd/ và proud /praʊd/ có." }
+      ],
+      "src": { "kind": "sgk", "page": 21 }
+    },
+    {
+      "id": "p04",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "Âm tiết có dấu ˈ được đọc to và dài hơn. custom, costume, lifestyle nhấn âm đầu; cuisine, identity, diversity, traditional nhấn âm thứ hai.",
+      "words": ["custom", "costume", "lifestyle", "cuisine", "identity", "diversity", "traditional"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["custom", "cuisine", "identity"], "answer": 0, "explainVi": "custom /ˈkʌstəm/ nhấn âm đầu; cuisine và identity nhấn âm thứ hai." },
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["costume", "diversity", "lifestyle"], "answer": 1, "explainVi": "diversity /daɪˈvɜːsəti/ nhấn âm thứ hai; costume và lifestyle nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "I'd like you to meet ...", "vi": "Tôi muốn giới thiệu bạn với ...", "useVi": "Khi giới thiệu một người với người khác một cách lịch sự.", "example": "I'd like you to meet Kenji, our new classmate from Japan.", "src": { "kind": "sgk", "page": 28 } },
+    { "id": "e02", "en": "I'd like to introduce ...", "vi": "Tôi xin giới thiệu ...", "useVi": "Khi giới thiệu trang trọng, ví dụ trước cả lớp.", "example": "I'd like to introduce Ms Green, a teacher from New Zealand.", "src": { "kind": "sgk", "page": 28 } },
+    { "id": "e03", "en": "This is ...", "vi": "Đây là ...", "useVi": "Khi giới thiệu thân mật giữa bạn bè.", "example": "Nam, this is Anna. She's from Germany.", "src": { "kind": "sgk", "page": 28 } },
+    { "id": "e04", "en": "Have you met ...?", "vi": "Bạn đã gặp ... chưa?", "useVi": "Khi giới thiệu thân mật, hỏi xem hai người đã biết nhau chưa.", "example": "Have you met Leo? He's in the music club too.", "src": { "kind": "sgk", "page": 28 } },
+    { "id": "e05", "en": "It's nice to meet you.", "vi": "Rất vui được gặp bạn.", "useVi": "Khi đáp lại lời giới thiệu một cách lịch sự.", "example": "Hello, Mr Brown. It's nice to meet you.", "src": { "kind": "sgk", "page": 28 } },
+    { "id": "e06", "en": "Pleased / Happy to meet you.", "vi": "Rất vui được làm quen.", "useVi": "Khi đáp lại lời giới thiệu thân mật.", "example": "Hi, Anna. Pleased to meet you.", "src": { "kind": "sgk", "page": 28 } },
+    { "id": "e07", "en": "How do you do?", "vi": "Hân hạnh được gặp.", "useVi": "Khi đáp lại lời giới thiệu rất trang trọng, lần đầu gặp.", "example": "How do you do? I'm the class monitor.", "src": { "kind": "sgk", "page": 28 } },
+    { "id": "e08", "en": "In my culture, people usually ...", "vi": "Trong văn hoá của mình, mọi người thường ...", "useVi": "Khi giải thích một phong tục cho người nước ngoài.", "example": "In my culture, people usually visit their relatives at Tet.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "It's similar to / different from ...", "vi": "Nó giống / khác với ...", "useVi": "Khi so sánh phong tục, món ăn của hai nước.", "example": "Banh chung is a bit similar to Japanese rice cakes.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "You should try ... when you visit ...", "vi": "Bạn nên thử ... khi đến ...", "useVi": "Khi gợi ý món ăn, hoạt động cho khách.", "example": "You should try bun cha when you visit Ha Noi.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but traditions make us who we are.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["There is", "an Indian restaurant", "near", "my school"], "vi": "Có một nhà hàng Ấn Độ gần trường mình.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["Rice is", "a staple food", "in many", "Asian countries"], "vi": "Gạo là lương thực chính ở nhiều nước châu Á.", "grammarId": "g02" },
+    { "id": "b03", "chunks": ["Many students", "experience culture shock", "when they study", "in the US"], "vi": "Nhiều học sinh bị sốc văn hoá khi học ở Mỹ.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["Bun cha is", "a speciality", "of Ha Noi", "that tourists love"], "vi": "Bún chả là đặc sản của Hà Nội mà khách du lịch rất thích.", "grammarId": "g01" },
+    { "id": "b05", "chunks": ["Young people", "should keep", "their cultural identity", "in a global world"], "vi": "Người trẻ nên giữ bản sắc văn hoá trong thế giới toàn cầu.", "grammarId": null },
+    { "id": "b06", "chunks": ["I'd like you", "to meet", "my friend", "from the Philippines"], "vi": "Mình muốn giới thiệu bạn với bạn mình đến từ Philippines.", "grammarId": "g02" },
+    { "id": "b07", "chunks": ["Globalisation helps us", "appreciate", "other cultures", "and their cuisines"], "vi": "Toàn cầu hoá giúp chúng ta trân trọng các nền văn hoá khác và ẩm thực của họ.", "grammarId": null },
+    { "id": "b08", "chunks": ["At the festival", "we played", "tug of war", "and ate spring rolls"], "vi": "Ở lễ hội, chúng mình chơi kéo co và ăn nem.", "grammarId": null }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I tried a new dish.",
+      "steps": [
+        { "askVi": "Món của nước nào?", "ask": "What kind of dish?", "add": "Korean" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at the international food fair" },
+        { "askVi": "Em thấy thế nào?", "ask": "How was it?", "add": "and it was really tasty" }
+      ],
+      "full": "I tried a new Korean dish at the international food fair, and it was really tasty."
+    },
+    {
+      "id": "x02",
+      "base": "My family celebrates Tet.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at my grandparents' house" },
+        { "askVi": "Mọi người làm gì?", "ask": "How?", "add": "by making banh chung together" }
+      ],
+      "full": "My family celebrates Tet at my grandparents' house by making banh chung together."
+    },
+    {
+      "id": "x03",
+      "base": "Foreign visitors love pho.",
+      "steps": [
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it is tasty and cheap" },
+        { "askVi": "Thêm gì nữa?", "ask": "What else?", "add": "so it has become a symbol of Vietnamese cuisine" }
+      ],
+      "full": "Foreign visitors love pho because it is tasty and cheap, so it has become a symbol of Vietnamese cuisine."
+    },
+    {
+      "id": "x04",
+      "base": "I want to visit the UK.",
+      "steps": [
+        { "askVi": "Để làm gì?", "ask": "What for?", "add": "to learn about British customs" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "after I finish university" }
+      ],
+      "full": "I want to visit the UK to learn about British customs after I finish university."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Món ăn Việt Nam em giới thiệu cho khách nước ngoài",
+      "questions": [
+        "Which Vietnamese dish would you recommend to a foreign visitor?",
+        "What dish should every tourist taste in Viet Nam?",
+        "Which local food do you think foreigners would enjoy most?"
+      ],
+      "keywords": ["speciality", "cuisine", "tasty", "because"],
+      "exampleAnswer": "I would recommend banh mi because it is cheap, tasty and you can find it everywhere.",
+      "expectsReason": true
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Điều có thể làm khách nước ngoài bất ngờ ở Việt Nam",
+      "questions": [
+        "What might surprise a foreigner on a first visit to Viet Nam?",
+        "Which Vietnamese customs might confuse visitors from other countries?",
+        "What could feel strange to a tourist on their first day in Viet Nam?"
+      ],
+      "keywords": ["culture shock", "custom", "traffic", "different"],
+      "exampleAnswer": "The busy traffic might surprise them, and they may not know the custom of taking off shoes at home.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Xu hướng nước ngoài được giới trẻ yêu thích",
+      "questions": [
+        "Which foreign trends are popular with teenagers in your town?",
+        "What foreign music, films or fashions do your friends like?",
+        "Which international trends have you noticed among young people?"
+      ],
+      "keywords": ["trend", "popularity", "K-pop", "globalisation"],
+      "exampleAnswer": "K-pop and Korean food are very popular with my friends, and many of them follow Japanese anime.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Lợi ích của việc có bạn từ nền văn hoá khác",
+      "questions": [
+        "Why is it good to have friends from different cultures?",
+        "What can you learn from people with a different background?",
+        "How can meeting foreigners change the way you think?"
+      ],
+      "keywords": ["diversity", "appreciate", "open-minded", "learn"],
+      "exampleAnswer": "Friends from other cultures help us appreciate diversity and become more open-minded about different lifestyles.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Lễ hội nước ngoài em muốn tham gia",
+      "questions": [
+        "Which foreign festival would you like to experience, and why?",
+        "If you could join any festival abroad, which one would you choose?",
+        "Which festival in another country sounds most exciting to you?"
+      ],
+      "keywords": ["festival", "celebrate", "festivities", "because"],
+      "exampleAnswer": "I'd like to join the Lantern Festival in Taiwan because thousands of lanterns fly into the sky.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What do people in your family usually do during Tet?", "keywords": ["celebrate", "custom", "traditional"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should young people wear traditional costumes more often? Why or why not?", "keywords": ["traditional", "identity", "costume"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your best friend meets your cousin from Australia for the first time. How do you introduce them?", "keywords": ["this is", "I'd like you to meet", "nice to meet you"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "How does your family usually celebrate the Mid-Autumn Festival?", "keywords": ["celebrate", "festival", "custom"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should young people learn to play traditional folk games? Why or why not?", "keywords": ["traditional", "identity", "tug of war"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your teacher brings a visitor from India to your English club. What do you say to welcome him?", "keywords": ["nice to meet you", "welcome", "how do you do"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Lên kế hoạch cho Ngày hội Đa văn hoá",
+      "contextVi": "Trường em tổ chức Ngày hội Đa văn hoá. Mỗi lớp làm một gian hàng về một nước. Em bàn với một bạn cùng lớp xem lớp nên chọn nước nào và làm hoạt động gì.",
+      "aiRole": "Minh, a classmate planning the Cultural Diversity Day booth",
+      "studentRoleVi": "Học sinh đề xuất ý tưởng cho gian hàng",
+      "goalVi": "Đề xuất một nước cho gian hàng, nêu lý do và gợi ý ít nhất một hoạt động hoặc món ăn.",
+      "goal": "Suggest a country for your class booth, give a reason, and suggest at least one activity or food.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra đề xuất (I think we should..., Why don't we...)", "words": [] },
+        { "kind": "reason", "vi": "Nêu ít nhất một lý do (because...)", "words": [] },
+        { "kind": "example", "vi": "Gợi ý một hoạt động hoặc món ăn cụ thể", "words": [] }
+      ],
+      "opener": "Hi! Our class needs a country for the Cultural Diversity Day booth. Which country do you think we should choose?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Good idea. Why do you think that country is a good choice?",
+        "What can visitors do or eat at our booth?",
+        "Great. What should we wear on the day?"
+      ],
+      "tipsVi": ["Dùng mạo từ đúng: the UK, the US, nhưng Japan, Korea.", "Thêm lý do với \"because\" và ví dụ với \"for example\"."],
+      "keywords": ["cuisine", "traditional", "costume", "because", "for example"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Đồ ăn nhanh hay món truyền thống?",
+      "contextVi": "Lớp em chọn món ăn cho buổi liên hoan cuối kỳ. Một bạn muốn chỉ gọi đồ ăn nhanh nước ngoài. Em muốn có thêm món truyền thống Việt Nam.",
+      "aiRole": "Ly, a classmate who loves foreign fast food",
+      "studentRoleVi": "Bạn cùng lớp muốn có món truyền thống",
+      "goalVi": "Thuyết phục Ly chọn thêm món truyền thống: nêu lý do, đưa ví dụ, và trả lời khi Ly phản đối.",
+      "goal": "Persuade Ly to add traditional Vietnamese food to the class party: give reasons, an example, and answer her objection.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do nên có món truyền thống", "words": [] },
+        { "kind": "example", "vi": "Gợi ý một món cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["traditional", "speciality", "cuisine", "identity", "appreciate"] }
+      ],
+      "opener": "Let's just order pizza and fried chicken for the party. Everybody likes them, right?",
+      "stance": "Traditional food is old-fashioned. Teenagers today prefer modern food from abroad.",
+      "turns": 5,
+      "fallback": [
+        "Hmm, why do you want traditional food?",
+        "But traditional food is old-fashioned. Teenagers today prefer modern food from abroad.",
+        "OK, maybe. Which dish would you choose?",
+        "Fine, let's have both. Can you help me order it?"
+      ],
+      "tipsVi": ["Khi Ly phản đối, mở đầu bằng \"I see your point, but...\"", "Gợi ý một đặc sản cụ thể và nói vì sao ngon."],
+      "keywords": ["traditional", "speciality", "I see your point", "because", "tasty"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Giúp du khách hiểu phong tục mặc cả",
+      "contextVi": "Ở một khu chợ, em gặp một du khách người Anh đang bối rối vì người bán hàng trả giá với ông. Em giải thích phong tục mua bán ở chợ Việt Nam.",
+      "aiRole": "Mr Green, a British tourist at a local market",
+      "studentRoleVi": "Học sinh giúp đỡ du khách",
+      "goalVi": "Giải thích phong tục mặc cả, đưa lời khuyên, và trả lời khi du khách thấy việc này bất lịch sự.",
+      "goal": "Explain the custom of bargaining at Vietnamese markets, give advice, and answer the tourist's concern politely.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra lời khuyên (You should..., You can...)", "words": [] },
+        { "kind": "reason", "vi": "Giải thích vì sao người Việt mặc cả", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["custom", "culture shock", "traditional", "lifestyle", "appreciate"] }
+      ],
+      "opener": "Excuse me, can you help me? The seller keeps changing the price. I'm a bit confused.",
+      "stance": "In my country, arguing about the price feels rude. I don't want to upset the seller.",
+      "turns": 5,
+      "fallback": [
+        "Oh, I see. Is that normal here?",
+        "But in my country, arguing about the price feels rude. I don't want to upset the seller.",
+        "That makes sense. What price should I offer for this scarf?",
+        "Thank you so much. This is a real culture shock for me!"
+      ],
+      "tipsVi": ["Nói lịch sự với người lớn: \"You could...\", \"It's normal to...\"", "Dùng \"In my culture, people usually...\" để giải thích."],
+      "keywords": ["custom", "in my culture", "you should", "culture shock", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Giới trẻ có còn quan tâm truyền thống?",
+      "contextVi": "Trong một buổi giao lưu trực tuyến của câu lạc bộ tiếng Anh, một học sinh Canada hỏi em về việc giới trẻ Việt Nam giữ gìn truyền thống trong thời toàn cầu hoá.",
+      "aiRole": "Daniel, a Canadian student in an online English club exchange",
+      "studentRoleVi": "Học sinh Việt Nam tham gia giao lưu",
+      "goalVi": "Nêu ý kiến về việc giữ truyền thống, đưa ví dụ, và trả lời khi Daniel có ý kiến khác.",
+      "goal": "Give your opinion on how young Vietnamese people keep their traditions, give an example, and respond to Daniel's different view.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do cho ý kiến của em", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ về phong tục hoặc lễ hội", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["globalisation", "identity", "traditional", "custom", "trend", "diversity"] }
+      ],
+      "opener": "Hi! I'm curious about Viet Nam. Do young people there still care about their traditions?",
+      "stance": "Young people everywhere like the same things now, so local traditions don't really matter any more.",
+      "turns": 5,
+      "fallback": [
+        "Interesting. Can you give me an example?",
+        "But young people everywhere like the same things now. Do local traditions really matter any more?",
+        "Hmm, good point. How do you keep up with global trends too?",
+        "Thanks! I'd love to see a Vietnamese festival one day."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["identity", "globalisation", "traditional", "because", "for example"]
+    }
+  ]
+}

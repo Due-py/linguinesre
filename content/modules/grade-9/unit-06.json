@@ -1,0 +1,369 @@
+{
+  "grade": 9,
+  "unit": 6,
+  "title": "Vietnamese Lifestyle: Then and Now",
+  "titleVi": "Lối sống của người Việt: xưa và nay",
+  "edition": "Tiếng Anh 9 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 60–69; Glossary tr. 137–138",
+  "vocab": [
+    { "id": "v01", "en": "lifestyle", "vi": "lối sống", "ipa": "/ˈlaɪfstaɪl/", "ipaFrom": "glossary", "pos": "n", "example": "The lifestyle of young people has changed a lot.", "collocations": ["a healthy lifestyle", "a modern lifestyle"], "synonyms": ["way of life"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v02", "en": "extended", "vi": "nhiều thế hệ (trong một gia đình)", "ipa": "/ɪkˈstendɪd/", "ipaFrom": "glossary", "pos": "adj", "example": "In an extended family, grandparents, parents and children live together.", "collocations": ["an extended family"], "synonyms": [], "antonyms": ["nuclear"], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v03", "en": "nuclear", "vi": "hai thế hệ (trong một gia đình)", "ipa": "/ˈnjuːkliə/", "ipaFrom": "glossary", "pos": "adj", "example": "Many families in cities are nuclear families now.", "collocations": ["a nuclear family"], "synonyms": [], "antonyms": ["extended"], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v04", "en": "generation", "vi": "thế hệ", "ipa": "/ˌdʒenəˈreɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "Three generations live in my uncle's house.", "collocations": ["the younger generation", "three generations"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v05", "en": "gap", "vi": "khoảng cách", "ipa": "/ɡæp/", "ipaFrom": "glossary", "pos": "n", "example": "Talking more can help close the generation gap.", "collocations": ["generation gap", "close the gap"], "synonyms": ["difference"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v06", "en": "family-oriented", "vi": "hướng về, coi trọng gia đình", "ipa": "/ˈfæməli ˈɔːrientɪd/", "ipaFrom": "glossary", "pos": "adj", "example": "My dad is very family-oriented; he always eats dinner with us.", "collocations": ["a family-oriented person", "family-oriented events"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v07", "en": "democratic", "vi": "thuộc dân chủ", "ipa": "/ˌdeməˈkrætɪk/", "ipaFrom": "glossary", "pos": "adj", "example": "In my family, decisions are democratic; everyone can give an opinion.", "collocations": ["a democratic relationship"], "synonyms": ["equal"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v08", "en": "dependent", "vi": "lệ thuộc vào", "ipa": "/dɪˈpendənt/", "ipaFrom": "glossary", "pos": "adj", "example": "Young children are dependent on their parents.", "collocations": ["dependent on"], "synonyms": [], "antonyms": ["independent"], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v09", "en": "household", "vi": "hộ gia đình", "ipa": "/ˈhaʊshəʊld/", "ipaFrom": "glossary", "pos": "n", "example": "Most households now have a fridge and a washing machine.", "collocations": ["household chores", "a large household"], "synonyms": ["family"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v10", "en": "privacy", "vi": "sự riêng tư", "ipa": "/ˈprɪvəsi/", "ipaFrom": "glossary", "pos": "n", "example": "Teenagers often want more privacy in their own rooms.", "collocations": ["protect your privacy", "need privacy"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v11", "en": "opportunity", "vi": "cơ hội", "ipa": "/ˌɒpəˈtjuːnəti/", "ipaFrom": "glossary", "pos": "n", "example": "Girls today have more opportunities to study than in the past.", "collocations": ["have an opportunity to", "equal opportunities"], "synonyms": ["chance"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v12", "en": "pursue", "vi": "theo đuổi", "ipa": "/pəˈsjuː/", "ipaFrom": "glossary", "pos": "v", "example": "My sister wants to pursue a career in design.", "collocations": ["pursue a dream", "pursue your interests"], "synonyms": ["follow"], "antonyms": ["give up"], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v13", "en": "replace", "vi": "thay thế", "ipa": "/rɪˈpleɪs/", "ipaFrom": "glossary", "pos": "v", "example": "Smartphones have replaced many old tools, like maps and cameras.", "collocations": ["replace A with B"], "synonyms": ["take the place of"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v14", "en": "memorise", "vi": "ghi nhớ", "ipa": "/ˈmeməraɪz/", "ipaFrom": "glossary", "pos": "v", "example": "In the past, students had to memorise long poems.", "collocations": ["memorise new words", "memorise a poem"], "synonyms": ["learn by heart"], "antonyms": ["forget"], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v15", "en": "take notes", "vi": "ghi chép", "ipa": "/teɪk nəʊts/", "ipaFrom": "glossary", "pos": "v phr", "example": "I take notes on my tablet during the lesson.", "collocations": ["take notes in class"], "synonyms": ["write down"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v16", "en": "promise", "vi": "lời hứa, hứa", "ipa": "/ˈprɒmɪs/", "ipaFrom": "glossary", "pos": "n, v", "example": "I promise to call Grandma every Sunday.", "collocations": ["keep a promise", "make a promise"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v17", "en": "dye", "vi": "nhuộm", "ipa": "/daɪ/", "ipaFrom": "glossary", "pos": "v", "example": "Some ethnic groups dye cloth with leaves and plants.", "collocations": ["dye cloth", "dye your hair"], "synonyms": ["colour"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v18", "en": "trend", "vi": "xu hướng", "ipa": "/trend/", "ipaFrom": "glossary", "pos": "n", "example": "Wearing jeans became a trend in the 1990s.", "collocations": ["follow a trend", "a new trend"], "synonyms": ["fashion"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v19", "en": "western", "vi": "thuộc phương Tây", "ipa": "/ˈwestən/", "ipaFrom": "glossary", "pos": "adj", "example": "More people wear western clothes like T-shirts today.", "collocations": ["western clothes", "western food"], "synonyms": [], "antonyms": ["eastern"], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v20", "en": "depend on", "vi": "dựa vào, phụ thuộc vào", "ipa": "/dɪˈpend ɒn/", "ipaFrom": "dictionary", "pos": "phr v", "example": "Students today depend on the internet for information.", "collocations": ["depend on your parents"], "synonyms": ["rely on"], "antonyms": [], "src": { "kind": "sgk", "page": 62 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Verbs + to-infinitive",
+      "nameVi": "Động từ + to V",
+      "explainVi": "Sau một số động từ như want, promise, decide, agree, learn, plan, động từ theo sau ở dạng to + V nguyên mẫu. Dạng phủ định đặt not trước to: promise not to be late.",
+      "formula": "S + want / promise / decide / agree / learn / plan + (not) to + V",
+      "examples": [
+        "We decided to make a family tree for our project.",
+        "I promise not to use my phone at dinner.",
+        "My brother is learning to cook traditional dishes."
+      ],
+      "wrong": [
+        { "sentence": "We plan visiting my grandparents next week.", "fix": "We plan to visit my grandparents next week.", "whyVi": "Sau plan dùng to V: plan to visit." },
+        { "sentence": "I promise to not be late.", "fix": "I promise not to be late.", "whyVi": "not đứng trước to: promise not to." }
+      ],
+      "drills": [
+        { "prompt": "My parents agreed ___ me a new bike.", "options": ["to buy", "buying", "buy"], "answer": 0, "explainVi": "Sau agree dùng to V: to buy." },
+        { "prompt": "She wants ___ a career in music.", "options": ["to pursue", "pursuing", "pursues"], "answer": 0, "explainVi": "Sau want dùng to V: to pursue." },
+        { "prompt": "Which sentence is correct?", "options": ["We decided to interview our grandparents.", "We decided interviewing our grandparents.", "We decided interview our grandparents."], "answer": 0, "explainVi": "decide + to V: decided to interview." }
+      ],
+      "errorTag": "verb_form",
+      "src": { "kind": "sgk", "page": 63 }
+    },
+    {
+      "id": "g02",
+      "name": "Verbs + V-ing",
+      "nameVi": "Động từ + V-ing",
+      "explainVi": "Sau một số động từ như enjoy, fancy, finish, mind, avoid, suggest, động từ theo sau ở dạng V-ing. Dạng phủ định đặt not trước V-ing: Do you mind not talking...?",
+      "formula": "S + enjoy / fancy / finish / mind / avoid / suggest + (not) V-ing",
+      "examples": [
+        "My grandma enjoys telling stories about the old days.",
+        "I suggested making a poster about school life in the past.",
+        "Do you mind not playing music so loudly?"
+      ],
+      "wrong": [
+        { "sentence": "I enjoy to listen to folk music.", "fix": "I enjoy listening to folk music.", "whyVi": "Sau enjoy dùng V-ing." },
+        { "sentence": "We finished to write our report.", "fix": "We finished writing our report.", "whyVi": "Sau finish dùng V-ing: finished writing." }
+      ],
+      "drills": [
+        { "prompt": "My dad avoids ___ fast food.", "options": ["eating", "to eat", "eat"], "answer": 0, "explainVi": "Sau avoid dùng V-ing: eating." },
+        { "prompt": "Do you fancy ___ the museum this weekend?", "options": ["visiting", "to visit", "visit"], "answer": 0, "explainVi": "Sau fancy dùng V-ing: visiting." },
+        { "prompt": "Which sentence is correct?", "options": ["My teacher suggested using a mind map.", "My teacher suggested to use a mind map.", "My teacher suggested use a mind map."], "answer": 0, "explainVi": "suggest + V-ing: suggested using." }
+      ],
+      "errorTag": "verb_form",
+      "src": { "kind": "sgk", "page": 63 }
+    },
+    {
+      "id": "g03",
+      "name": "Used to for past habits",
+      "nameVi": "Used to: thói quen trong quá khứ",
+      "explainVi": "Dùng used to + V nguyên mẫu để nói về thói quen hoặc tình trạng ngày xưa, bây giờ không còn nữa. Rất hữu ích khi so sánh xưa và nay. Câu hỏi và phủ định dùng did / didn't + use to.",
+      "formula": "S + used to + V  ·  S + didn't use to + V  ·  Did + S + use to + V?",
+      "examples": [
+        "People used to travel by bicycle. Now they use motorbikes.",
+        "My grandparents didn't use to have a TV."
+      ],
+      "wrong": [
+        { "sentence": "My mum used to walking to school.", "fix": "My mum used to walk to school.", "whyVi": "Sau used to dùng động từ nguyên mẫu: walk." }
+      ],
+      "drills": [
+        { "prompt": "In the past, students ___ write with ink pens.", "options": ["used to", "use to", "using to"], "answer": 0, "explainVi": "Thói quen ngày xưa: used to + V." },
+        { "prompt": "Did your parents ___ live in an extended family?", "options": ["use to", "used to", "using to"], "answer": 0, "explainVi": "Sau did dùng use to (không có d)." }
+      ],
+      "errorTag": "verb_form",
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Âm /fl/ và /fr/",
+      "tipVi": "Cả hai bắt đầu bằng /f/: răng trên chạm nhẹ môi dưới rồi thổi hơi. /fl/: đầu lưỡi chạm ngay sau răng trên. /fr/: cong lưỡi về sau, không chạm vòm miệng. Đọc liền, không chèn âm \"ơ\" (không đọc \"phơ-lai\").",
+      "words": ["fruit", "flute", "frame", "flame", "free", "flea", "fright", "flight", "fresh", "flesh"],
+      "sentence": "My friend flew to France on a free flight.",
+      "quiz": [
+        { "prompt": "Which word begins with /fl/?", "options": ["flight", "fright", "fruit"], "answer": 0, "explainVi": "flight /flaɪt/ bắt đầu bằng /fl/; fright và fruit bắt đầu bằng /fr/." },
+        { "prompt": "Which word begins with /fr/?", "options": ["fresh", "flesh", "flame"], "answer": 0, "explainVi": "fresh /freʃ/ bắt đầu bằng /fr/." }
+      ],
+      "src": { "kind": "sgk", "page": 62 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới trong bài",
+      "tipVi": "lifestyle, privacy, memorise, household nhấn âm đầu; dependent, extended, pursue, replace nhấn âm thứ hai; democratic, opportunity nhấn âm thứ ba.",
+      "words": ["lifestyle", "privacy", "memorise", "household", "dependent", "extended", "pursue", "replace", "democratic", "opportunity"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the THIRD syllable?", "options": ["opportunity", "privacy", "dependent"], "answer": 0, "explainVi": "opportunity /ˌɒpəˈtjuːnəti/ nhấn âm thứ ba." },
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["pursue", "lifestyle", "household"], "answer": 0, "explainVi": "pursue /pəˈsjuː/ nhấn âm thứ hai; lifestyle và household nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p03",
+      "kind": "ending",
+      "focus": "Cách đọc used to",
+      "tipVi": "used to (thói quen xưa) đọc là /ˈjuːst tə/: âm s đọc là /s/, không đọc /z/, và \"to\" đọc nhẹ /tə/. Hai âm t nối liền thành một.",
+      "words": ["used to", "didn't use to"],
+      "sentence": "We used to play in the rice fields after school.",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "I will ...", "vi": "Mình sẽ ...", "useVi": "Khi hứa làm một việc cho ai đó.", "example": "I will send you the photos tonight.", "src": { "kind": "sgk", "page": 64 } },
+    { "id": "e02", "en": "I promise (not) to ...", "vi": "Mình hứa (sẽ không) ...", "useVi": "Khi hứa chắc chắn sẽ làm hoặc không làm việc gì.", "example": "I promise not to come home late again.", "src": { "kind": "sgk", "page": 64 } },
+    { "id": "e03", "en": "Great! I appreciate it.", "vi": "Tuyệt! Mình rất cảm kích.", "useVi": "Khi đáp lại lời hứa hoặc sự giúp đỡ của người khác.", "example": "Great! I appreciate it. See you tomorrow.", "src": { "kind": "sgk", "page": 64 } },
+    { "id": "e04", "en": "In the past, ... Now, ...", "vi": "Ngày xưa, ... Bây giờ, ...", "useVi": "Khi so sánh cuộc sống xưa và nay.", "example": "In the past, people wrote letters. Now, they send messages.", "src": { "kind": "team", "page": null } },
+    { "id": "e05", "en": "Compared with the past, ...", "vi": "So với ngày xưa, ...", "useVi": "Khi nêu một thay đổi so với trước.", "example": "Compared with the past, students have more ways to learn.", "src": { "kind": "team", "page": null } },
+    { "id": "e06", "en": "I think it's a change for the better because ...", "vi": "Mình nghĩ đó là thay đổi tốt vì ...", "useVi": "Khi đánh giá một thay đổi và nêu lý do.", "example": "I think it's a change for the better because girls have more opportunities now.", "src": { "kind": "team", "page": null } },
+    { "id": "e07", "en": "I prefer ... because ...", "vi": "Mình thích ... hơn vì ...", "useVi": "Khi chọn một cách và giải thích lý do.", "example": "I prefer taking notes on paper because it helps me remember.", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi lịch sự nêu ý khác.", "example": "I see your point, but some old traditions are still useful.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["We decided", "to interview", "our grandparents", "about the past"], "vi": "Chúng mình quyết định phỏng vấn ông bà về ngày xưa.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["I promise", "not to use", "my phone", "at dinner"], "vi": "Con hứa không dùng điện thoại trong bữa tối.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["My grandma", "enjoys telling", "stories", "about her childhood"], "vi": "Bà mình thích kể chuyện về tuổi thơ của bà.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["Our teacher", "suggested making", "a mind map", "for the lesson"], "vi": "Cô giáo gợi ý làm sơ đồ tư duy cho bài học.", "grammarId": "g02" },
+    { "id": "b05", "chunks": ["People", "used to travel", "by bicycle", "in the past"], "vi": "Ngày xưa người ta thường đi lại bằng xe đạp.", "grammarId": "g03" },
+    { "id": "b06", "chunks": ["Smartphones", "have replaced", "many old tools", "in our home"], "vi": "Điện thoại thông minh đã thay thế nhiều đồ dùng cũ trong nhà mình.", "grammarId": null },
+    { "id": "b07", "chunks": ["Three generations", "live together", "in an", "extended family"], "vi": "Ba thế hệ sống cùng nhau trong một gia đình nhiều thế hệ.", "grammarId": null },
+    { "id": "b08", "chunks": ["I usually", "take notes", "on my tablet", "in class"], "vi": "Mình thường ghi chép bằng máy tính bảng trong lớp.", "grammarId": null }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "My grandparents used to study.",
+      "steps": [
+        { "askVi": "Học ở đâu?", "ask": "Where?", "add": "in a small village school" },
+        { "askVi": "Học bằng gì?", "ask": "With what?", "add": "with only one old textbook" }
+      ],
+      "full": "My grandparents used to study in a small village school with only one old textbook."
+    },
+    {
+      "id": "x02",
+      "base": "I take notes.",
+      "steps": [
+        { "askVi": "Bằng gì?", "ask": "How?", "add": "on my tablet" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "in English lessons" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it is faster" }
+      ],
+      "full": "I take notes on my tablet in English lessons because it is faster."
+    },
+    {
+      "id": "x03",
+      "base": "My family decided to move.",
+      "steps": [
+        { "askVi": "Chuyển đi đâu?", "ask": "Where to?", "add": "to the city" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because my parents found new jobs" }
+      ],
+      "full": "My family decided to move to the city because my parents found new jobs."
+    },
+    {
+      "id": "x04",
+      "base": "Girls have more opportunities.",
+      "steps": [
+        { "askVi": "Cơ hội làm gì?", "ask": "To do what?", "add": "to pursue their dreams" },
+        { "askVi": "So với khi nào?", "ask": "Compared with when?", "add": "than in the past" }
+      ],
+      "full": "Girls have more opportunities to pursue their dreams than in the past."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Cách học xưa và nay",
+      "questions": [
+        "How was learning different when your parents were at school?",
+        "What did students use to study with in the past?",
+        "How do students today learn differently from students in the past?"
+      ],
+      "keywords": ["take notes", "memorise", "internet", "textbook"],
+      "exampleAnswer": "My parents used to memorise everything from one textbook. Now we search the internet and take notes on tablets.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Sống cùng ông bà",
+      "questions": [
+        "What are the good points of living with grandparents?",
+        "Why do some families like to have three generations under one roof?",
+        "What can children learn from living with their grandparents?"
+      ],
+      "keywords": ["extended", "generation", "family-oriented", "take care of"],
+      "exampleAnswer": "Children can learn traditions and good manners from grandparents, and everyone takes care of each other.",
+      "expectsReason": true
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Công nghệ thay đổi đời sống gia đình",
+      "questions": [
+        "How has technology changed family life?",
+        "What machines have replaced old tools in your home?",
+        "How do people communicate differently from twenty years ago?"
+      ],
+      "keywords": ["replace", "smartphone", "lifestyle", "household"],
+      "exampleAnswer": "Washing machines have replaced hand washing, and we video call our relatives instead of writing letters.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Kế hoạch và ước mơ của em",
+      "questions": [
+        "What do you plan to do after Grade 9?",
+        "What subject do you want to pursue in the future?",
+        "What have you decided to work harder on next year?"
+      ],
+      "keywords": ["plan", "decide", "pursue", "opportunity"],
+      "exampleAnswer": "I plan to study at a high school near my home, and I want to pursue science in the future.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Tuổi teen ngày nay độc lập hơn",
+      "questions": [
+        "Why do teenagers today want to make their own decisions?",
+        "Why are young people less dependent on their parents than before?",
+        "Why do parents and children sometimes disagree about lifestyle?"
+      ],
+      "keywords": ["independent", "privacy", "generation gap", "democratic"],
+      "exampleAnswer": "Teenagers today can find information online, so they feel more independent and want to decide things themselves.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What did you use to do as a small child that you don't do now?", "keywords": ["used to", "now", "change"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should students use tablets instead of paper notebooks in class? Why or why not?", "keywords": ["take notes", "replace", "memorise"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "You borrowed your friend's book and forgot to return it. What do you promise him?", "keywords": ["promise", "I will", "sorry"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What is one thing in your daily life that is different from five years ago?", "keywords": ["used to", "now", "lifestyle"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should teenagers help their parents make family decisions, like choosing a holiday? Why or why not?", "keywords": ["democratic", "opinion", "family"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your mum is worried because you came home late. What do you promise her?", "keywords": ["promise", "I will", "not to"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Thay đổi trong cách học của em",
+      "contextVi": "Cô giáo tiếng Anh làm khảo sát về cách học của học sinh. Cô hỏi em cách học của em đã thay đổi thế nào so với hồi tiểu học.",
+      "aiRole": "Ms Mai, your English teacher doing a class survey",
+      "studentRoleVi": "Học sinh chia sẻ về cách học",
+      "goalVi": "Kể cách học trước đây và bây giờ, đưa ví dụ và nói vì sao em thích cách học hiện tại.",
+      "goal": "Describe how your learning style has changed since primary school, with examples, and say why you like your current way.",
+      "requirements": [
+        { "kind": "example", "vi": "Đưa ví dụ về cách học trước và nay", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do (because...)", "words": [] }
+      ],
+      "opener": "Hi! I'm asking students about how they learn. How did you use to study in primary school?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "I see. And how do you study now?",
+        "Which way do you prefer, and why?",
+        "Thank you! Is there anything you want to change about your learning?"
+      ],
+      "tipsVi": ["Dùng \"I used to... Now I...\"", "Dùng \"I prefer... because...\""],
+      "keywords": ["used to", "take notes", "memorise", "now", "because"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Trò chuyện với ông về chuyện học thuộc",
+      "contextVi": "Ông em cho rằng học sinh nên học thuộc lòng mọi bài như ngày xưa. Em muốn chia sẻ cách học hiện nay của mình.",
+      "aiRole": "Grandpa Hung, who thinks students should learn everything by heart",
+      "studentRoleVi": "Cháu giải thích cách học của mình",
+      "goalVi": "Giải thích cách học của em, đưa ví dụ và lễ phép trả lời khi ông có ý kiến khác.",
+      "goal": "Explain how you study today, give an example, and answer your grandpa politely when he disagrees.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do cho cách học của em", "words": [] },
+        { "kind": "example", "vi": "Đưa ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["memorise", "take notes", "replace", "depend on", "opportunity"] }
+      ],
+      "opener": "When I was young, we memorised every lesson. How do you study these days?",
+      "stance": "Memorising is the best way. Students today depend too much on the internet.",
+      "turns": 5,
+      "fallback": [
+        "Hmm, and does that really help you remember?",
+        "I still think memorising is best. Students today depend too much on the internet.",
+        "Well, maybe you have a point. Do you still memorise anything?",
+        "Good. Keep studying hard, my dear."
+      ],
+      "tipsVi": ["Nói lễ phép: \"I see your point, Grandpa, but...\"", "Thừa nhận điều hay của cách học xưa."],
+      "keywords": ["memorise", "take notes", "I see your point", "because", "internet"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Bữa cơm gia đình không điện thoại",
+      "contextVi": "Em muốn cả nhà ăn tối cùng nhau và không dùng điện thoại một buổi mỗi tuần. Anh trai em lại thích ăn trong phòng riêng.",
+      "aiRole": "Khang, your older brother who prefers eating in his room with his phone",
+      "studentRoleVi": "Em muốn thuyết phục anh trai",
+      "goalVi": "Đề xuất bữa tối gia đình không điện thoại, nêu lý do và trả lời khi anh phản đối.",
+      "goal": "Suggest a phone-free family dinner once a week, give reasons, and answer your brother's objection.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra đề xuất cụ thể", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["family-oriented", "generation gap", "privacy", "promise", "lifestyle"] }
+      ],
+      "opener": "What's up? I'm going to eat in my room again tonight.",
+      "stance": "Family dinners are old-fashioned. I need my privacy and some time to relax with my phone.",
+      "turns": 5,
+      "fallback": [
+        "A family dinner without phones? Why?",
+        "But family dinners are old-fashioned. I need my privacy and time to relax.",
+        "Hmm, OK. How often would we do it?",
+        "Fine, I promise to join you on Sunday."
+      ],
+      "tipsVi": ["Dùng \"Why don't we...?\" hoặc \"I suggest...ing\"", "Tôn trọng ý anh: \"I understand you need privacy, but...\""],
+      "keywords": ["family", "together", "privacy", "because", "suggest"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Dự án triển lãm \"Xưa và nay\"",
+      "contextVi": "Nhóm em làm một triển lãm nhỏ về đời sống người Việt xưa và nay. Em thảo luận với một bạn trong nhóm để chọn chủ đề.",
+      "aiRole": "Lan, a group member in a school project about life then and now",
+      "studentRoleVi": "Thành viên nhóm dự án",
+      "goalVi": "Chọn một chủ đề (trang phục, đi lại, học tập...), so sánh xưa và nay, nêu lý do và trả lời khi Lan có ý kiến khác.",
+      "goal": "Choose a topic, compare life then and now, give a reason for your choice, and respond to Lan's different opinion.",
+      "requirements": [
+        { "kind": "example", "vi": "So sánh xưa và nay bằng ví dụ", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["lifestyle", "replace", "trend", "generation", "used to", "western"] }
+      ],
+      "opener": "We need a topic for our exhibition about life then and now. Which topic do you want to choose?",
+      "stance": "Everything modern is better. There is nothing from the past worth keeping.",
+      "turns": 5,
+      "fallback": [
+        "Good choice. What was it like in the past, and what is it like now?",
+        "Honestly, I think everything modern is better. Nothing from the past is worth keeping.",
+        "Hmm, that's true. What pictures or objects should we show?",
+        "Great. Let's start making the poster tomorrow."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["used to", "now", "because", "replace", "tradition"]
+    }
+  ]
+}

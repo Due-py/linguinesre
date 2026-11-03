@@ -1,0 +1,342 @@
+{
+  "grade": 6,
+  "unit": 12,
+  "title": "Robots",
+  "titleVi": "Người máy",
+  "edition": "Tiếng Anh 6 Global Success, sách học sinh tập hai (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 58–67; Glossary tr. 71",
+  "vocab": [
+    { "id": "v01", "en": "robot", "vi": "người máy", "ipa": "/ˈrəʊbɒt/", "ipaFrom": "glossary", "pos": "n", "example": "This robot can carry heavy boxes.", "collocations": ["home robot", "worker robot", "doctor robot"], "synonyms": ["machine"], "antonyms": ["human"], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v02", "en": "do the dishes", "vi": "rửa bát, đĩa", "ipa": "/duː ðə ˈdɪʃɪz/", "ipaFrom": "glossary", "pos": "v phr", "example": "I do the dishes after dinner every evening.", "collocations": ["help do the dishes"], "synonyms": ["wash up"], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v03", "en": "do the washing", "vi": "giặt giũ quần áo", "ipa": "/duː ðə ˈwɒʃɪŋ/", "ipaFrom": "glossary", "pos": "v phr", "example": "My mum does the washing on Sunday morning.", "collocations": ["do the washing every week"], "synonyms": ["wash clothes"], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v04", "en": "iron", "vi": "là, ủi (quần áo)", "ipa": "/ˈaɪən/", "ipaFrom": "glossary", "pos": "v", "example": "Can your robot iron my school uniform?", "collocations": ["iron clothes", "iron a shirt"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v05", "en": "put away", "vi": "cất, dọn", "ipa": "/pʊt əˈweɪ/", "ipaFrom": "glossary", "pos": "v", "example": "Please put away your toys before bedtime.", "collocations": ["put away toys", "put away clothes"], "synonyms": ["tidy up"], "antonyms": ["take out"], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v06", "en": "repair", "vi": "sửa chữa", "ipa": "/rɪˈpeə/", "ipaFrom": "glossary", "pos": "v", "example": "My uncle can repair broken bikes.", "collocations": ["repair a machine", "repair a bike"], "synonyms": ["fix"], "antonyms": ["break"], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v07", "en": "water", "vi": "tưới nước", "ipa": "/ˈwɔːtə/", "ipaFrom": "glossary", "pos": "v", "example": "I water the plants in our garden after school.", "collocations": ["water plants", "water the flowers"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v08", "en": "guard", "vi": "bảo vệ, người canh gác", "ipa": "/ɡɑːd/", "ipaFrom": "glossary", "pos": "v, n", "example": "This robot can work as a guard at night.", "collocations": ["work as a guard", "guard the house"], "synonyms": ["protect"], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v09", "en": "pick", "vi": "hái, thu hoạch (hoa, quả...)", "ipa": "/pɪk/", "ipaFrom": "glossary", "pos": "v", "example": "We picked oranges at my grandpa's farm.", "collocations": ["pick fruit", "pick flowers"], "synonyms": ["collect"], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v10", "en": "useful", "vi": "hữu ích", "ipa": "/ˈjuːsfl/", "ipaFrom": "glossary", "pos": "adj", "example": "A home robot is very useful for busy families.", "collocations": ["very useful", "useful for"], "synonyms": ["helpful"], "antonyms": ["useless"], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v11", "en": "feelings", "vi": "cảm xúc, tình cảm", "ipa": "/ˈfiːlɪŋz/", "ipaFrom": "glossary", "pos": "n", "example": "Robots can't understand our feelings.", "collocations": ["understand our feelings", "hurt someone's feelings"], "synonyms": ["emotions"], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v12", "en": "space station", "vi": "trạm vũ trụ", "ipa": "/speɪs ˈsteɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "Robots help people work on the space station.", "collocations": ["on the space station"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v13", "en": "broken", "vi": "bị hỏng, bị vỡ", "ipa": "/ˈbrəʊkən/", "ipaFrom": "glossary", "pos": "adj", "example": "The worker robot can repair broken machines.", "collocations": ["a broken machine", "broken toys"], "synonyms": [], "antonyms": ["working"], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v14", "en": "planet", "vi": "hành tinh", "ipa": "/ˈplænɪt/", "ipaFrom": "glossary", "pos": "n", "example": "Scientists send robots to other planets.", "collocations": ["another planet", "the red planet"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v15", "en": "height", "vi": "chiều cao", "ipa": "/haɪt/", "ipaFrom": "glossary", "pos": "n", "example": "The height of this robot is 150 cm.", "collocations": ["the height of"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v16", "en": "weight", "vi": "trọng lượng", "ipa": "/weɪt/", "ipaFrom": "glossary", "pos": "n", "example": "Its weight is only 20 kg, so it's easy to carry.", "collocations": ["the weight of"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v17", "en": "price", "vi": "giá, số tiền mua hoặc bán", "ipa": "/praɪs/", "ipaFrom": "glossary", "pos": "n", "example": "The price of the smallest robot is 200 dollars.", "collocations": ["a low price", "the price of"], "synonyms": ["cost"], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v18", "en": "age", "vi": "độ tuổi", "ipa": "/eɪdʒ/", "ipaFrom": "glossary", "pos": "n", "example": "Children at the age of ten can build simple robots.", "collocations": ["at the age of"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v19", "en": "understand", "vi": "hiểu", "ipa": "/ˌʌndəˈstænd/", "ipaFrom": "dictionary", "pos": "v", "example": "This robot can understand what we say.", "collocations": ["understand our feelings", "understand English"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 60 } },
+    { "id": "v20", "en": "smart", "vi": "thông minh", "ipa": "/smɑːt/", "ipaFrom": "dictionary", "pos": "adj", "example": "Shifa is the smartest robot in the show.", "collocations": ["a smart robot", "the smartest"], "synonyms": ["clever"], "antonyms": [], "src": { "kind": "sgk", "page": 58 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Superlative adjectives: short adjectives",
+      "nameVi": "So sánh nhất với tính từ ngắn",
+      "explainVi": "Dùng so sánh nhất để so sánh ba người, ba vật trở lên. Với tính từ ngắn: the + tính từ + -est (tall → the tallest). Tính từ tận cùng bằng e chỉ thêm -st (large → the largest). Phụ âm + nguyên âm + phụ âm thì gấp đôi phụ âm cuối (big → the biggest). Tận cùng bằng phụ âm + y thì đổi y thành i (heavy → the heaviest).",
+      "formula": "S + be + the + adj-est (+ of / in ...)",
+      "examples": [
+        "Hai is the tallest boy in my class.",
+        "This is the biggest robot in the show.",
+        "My grandma's house is the oldest house in the village."
+      ],
+      "wrong": [
+        { "sentence": "My robot is tallest in the class.", "fix": "My robot is the tallest in the class.", "whyVi": "So sánh nhất luôn có the trước tính từ." },
+        { "sentence": "This is the bigest box.", "fix": "This is the biggest box.", "whyVi": "big kết thúc bằng phụ âm + nguyên âm + phụ âm nên gấp đôi g: biggest." },
+        { "sentence": "H9 is the heavyest robot.", "fix": "H9 is the heaviest robot.", "whyVi": "heavy tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -est: heaviest." }
+      ],
+      "drills": [
+        { "prompt": "M10 is 80 cm tall. It's ___ of the three robots.", "options": ["the shortest", "shortest", "the shorter"], "answer": 0, "explainVi": "So sánh ba robot: the + short + -est = the shortest." },
+        { "prompt": "This robot costs only 200 dollars. It's the ___ in our shop.", "options": ["cheaper", "cheapest", "most cheap"], "answer": 1, "explainVi": "cheap là tính từ ngắn: the cheapest." },
+        { "prompt": "Summer is the ___ season in Ha Noi.", "options": ["hotest", "most hot", "hottest"], "answer": 2, "explainVi": "hot: phụ âm + nguyên âm + phụ âm nên gấp đôi t: hottest." },
+        { "prompt": "Which sentence is correct?", "options": ["It's the noisiest robot.", "It's the noisyest robot.", "It's noisiest robot."], "answer": 0, "explainVi": "noisy đổi y thành i: noisiest; và cần the trước tính từ." }
+      ],
+      "errorTag": "comparison",
+      "src": { "kind": "sgk", "page": 61 }
+    },
+    {
+      "id": "g02",
+      "name": "Can / can't for ability",
+      "nameVi": "Can / can't: nói về khả năng",
+      "explainVi": "Dùng can (có thể) và can't (không thể) để nói người hoặc máy móc làm được hay không làm được việc gì. Sau can / can't luôn là động từ nguyên mẫu. Câu hỏi: Can + S + V? – Yes, it can. / No, it can't.",
+      "formula": "S + can / can't + V (nguyên mẫu)  ·  Can + S + V?",
+      "examples": [
+        "My robot can do the washing.",
+        "It can't understand our feelings.",
+        "Can it water the plants? – Yes, it can."
+      ],
+      "wrong": [
+        { "sentence": "The robot can irons clothes.", "fix": "The robot can iron clothes.", "whyVi": "Sau can, động từ ở dạng nguyên mẫu, không thêm -s." },
+        { "sentence": "Does your robot can cook?", "fix": "Can your robot cook?", "whyVi": "Câu hỏi với can: đưa Can lên đầu câu, không dùng does." }
+      ],
+      "drills": [
+        { "prompt": "V10 ___ repair a broken machine. It's not that kind of robot.", "options": ["can", "can't", "cans"], "answer": 1, "explainVi": "Robot KHÔNG làm được việc này: can't." },
+        { "prompt": "Can your robot put away the toys? – Yes, it ___.", "options": ["does", "is", "can"], "answer": 2, "explainVi": "Trả lời ngắn câu hỏi Can: Yes, it can." },
+        { "prompt": "Robots can ___ heavy things.", "options": ["move", "moves", "to move"], "answer": 0, "explainVi": "Sau can dùng động từ nguyên mẫu: move." }
+      ],
+      "errorTag": "modal_verb",
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "intonation",
+      "focus": "Xuống giọng ở cuối câu trần thuật",
+      "tipVi": "Khi nói một câu trần thuật (câu kể, không phải câu hỏi), giọng thường đi xuống ở cuối câu. Nhấn vào từ quan trọng cuối câu rồi hạ giọng.",
+      "words": ["It's very useful.", "It can do the dishes.", "I love my robot."],
+      "sentence": "My robot can water the plants in the garden.",
+      "quiz": [
+        { "prompt": "At the end of a statement like \"My robot is very helpful.\", your voice usually ...", "options": ["goes down", "goes up"], "answer": 0, "explainVi": "Câu trần thuật thường xuống giọng ở cuối câu." }
+      ],
+      "src": { "kind": "sgk", "page": 60 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "robot, useful, broken, planet, feelings nhấn âm đầu; repair nhấn âm thứ hai; understand nhấn âm cuối (stand).",
+      "words": ["robot", "useful", "broken", "planet", "repair", "understand"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["robot", "repair", "planet"], "answer": 1, "explainVi": "repair /rɪˈpeə/ nhấn âm thứ hai; robot và planet nhấn âm đầu." },
+        { "prompt": "Which word is stressed on the LAST syllable?", "options": ["understand", "useful", "broken"], "answer": 0, "explainVi": "understand /ˌʌndəˈstænd/ nhấn âm cuối (stand)." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p03",
+      "kind": "intonation",
+      "focus": "Lên giọng ở câu hỏi Yes/No",
+      "tipVi": "Ngược với câu trần thuật, câu hỏi Yes/No như \"Can it cook?\" thường lên giọng ở cuối câu.",
+      "words": ["Can it cook?", "Can it swim?"],
+      "sentence": "Can your robot do the washing?",
+      "quiz": [
+        { "prompt": "At the end of \"Can your robot cook?\", your voice usually ...", "options": ["goes up", "goes down"], "answer": 0, "explainVi": "Câu hỏi Yes/No thường lên giọng ở cuối câu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "I agree with you.", "vi": "Mình đồng ý với bạn.", "useVi": "Khi đồng ý với ý kiến của người khác.", "example": "Robots are useful at home. – I agree with you.", "src": { "kind": "sgk", "page": 63 } },
+    { "id": "e02", "en": "I don't agree with him / her / you.", "vi": "Mình không đồng ý với anh ấy / cô ấy / bạn.", "useVi": "Khi không đồng ý với ý kiến của ai đó.", "example": "Nam says robots can feel sad. I don't agree with him.", "src": { "kind": "sgk", "page": 63 } },
+    { "id": "e03", "en": "It looks very useful!", "vi": "Trông nó rất hữu ích!", "useVi": "Khi khen một đồ vật hay một chiếc máy.", "example": "This robot can cook and clean. It looks very useful!", "src": { "kind": "sgk", "page": 58 } },
+    { "id": "e04", "en": "What can it do?", "vi": "Nó có thể làm gì?", "useVi": "Khi hỏi về khả năng của một người máy hay một chiếc máy.", "example": "That's a new robot. What can it do?", "src": { "kind": "sgk", "page": 58 } },
+    { "id": "e05", "en": "Can you tell us about ..., please?", "vi": "Bạn có thể kể cho chúng tôi về ... được không?", "useVi": "Khi lịch sự nhờ ai đó giới thiệu hoặc giải thích.", "example": "Can you tell us about this robot, please?", "src": { "kind": "sgk", "page": 58 } },
+    { "id": "e06", "en": "It can ..., but it can't ...", "vi": "Nó có thể ..., nhưng nó không thể ...", "useVi": "Khi so sánh việc làm được và không làm được.", "example": "It can water plants, but it can't understand our feelings.", "src": { "kind": "team", "page": null } },
+    { "id": "e07", "en": "That's true, but ...", "vi": "Đúng vậy, nhưng ...", "useVi": "Khi đồng ý một phần rồi nêu ý khác.", "example": "That's true, but robots can't play with children like parents can.", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "I'd like a robot that can ...", "vi": "Mình muốn có một người máy có thể ...", "useVi": "Khi nói về người máy mơ ước.", "example": "I'd like a robot that can help me with my homework.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "In my opinion, ...", "vi": "Theo mình, ...", "useVi": "Khi nêu ý kiến riêng của mình.", "example": "In my opinion, home robots are the most useful.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["My robot", "can do the dishes,", "but it can't", "iron clothes"], "vi": "Người máy của mình có thể rửa bát, nhưng nó không thể là quần áo.", "grammarId": "g02" },
+    { "id": "b02", "chunks": ["Robo-7 is", "the strongest", "robot", "in our school"], "vi": "Robo-7 là người máy khoẻ nhất trong trường mình.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["I'd like a robot", "that can", "put away", "my toys"], "vi": "Mình muốn có một người máy có thể cất đồ chơi của mình.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["My red robot", "is the fastest", "of all", "my toys"], "vi": "Người máy màu đỏ là món đồ chơi nhanh nhất trong tất cả đồ chơi của mình.", "grammarId": "g01" },
+    { "id": "b05", "chunks": ["Can your robot", "water", "the plants?"], "vi": "Người máy của bạn có tưới cây được không?", "grammarId": "g02" },
+    { "id": "b06", "chunks": ["This is", "the cheapest robot,", "so many families", "can buy it"], "vi": "Đây là người máy rẻ nhất, vì vậy nhiều gia đình có thể mua nó.", "grammarId": "g01" },
+    { "id": "b07", "chunks": ["Robots", "can't understand", "our feelings"], "vi": "Người máy không thể hiểu cảm xúc của chúng ta.", "grammarId": "g02" },
+    { "id": "b08", "chunks": ["The worker robot", "repairs", "broken machines", "in the factory"], "vi": "Người máy công nhân sửa những máy móc bị hỏng trong nhà máy.", "grammarId": null }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "My robot can help me.",
+      "steps": [
+        { "askVi": "Giúp việc gì?", "ask": "Help with what?", "add": "with the housework" },
+        { "askVi": "Ví dụ?", "ask": "For example?", "add": "like doing the dishes and watering plants" }
+      ],
+      "full": "My robot can help me with the housework, like doing the dishes and watering plants."
+    },
+    {
+      "id": "x02",
+      "base": "This robot is the lightest.",
+      "steps": [
+        { "askVi": "Nhẹ nhất trong số nào?", "ask": "Of which robots?", "add": "of all the robots in the shop" },
+        { "askVi": "Vì vậy thì sao?", "ask": "So what?", "add": "so my grandma can carry it" }
+      ],
+      "full": "This robot is the lightest of all the robots in the shop, so my grandma can carry it."
+    },
+    {
+      "id": "x03",
+      "base": "I'd like a robot.",
+      "steps": [
+        { "askVi": "Loại gì?", "ask": "What kind?", "add": "smart" },
+        { "askVi": "Nó làm được gì?", "ask": "What can it do?", "add": "that can teach me English" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because I want to speak English well" }
+      ],
+      "full": "I'd like a smart robot that can teach me English because I want to speak English well."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Ai làm việc nhà trong gia đình em",
+      "questions": [
+        "Who does the washing in your family?",
+        "Who usually does the dishes at your home?",
+        "Who cooks the meals in your family?"
+      ],
+      "keywords": ["do the washing", "do the dishes", "cook", "help"],
+      "exampleAnswer": "My mum usually does the washing, my dad cooks, and I do the dishes after dinner.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "So sánh nhất về những thứ quanh em",
+      "questions": [
+        "Who is the tallest person in your family?",
+        "Which is the biggest room in your home?",
+        "What is the oldest thing in your house?"
+      ],
+      "keywords": ["the tallest", "the biggest", "the oldest", "of"],
+      "exampleAnswer": "My dad is the tallest person in my family. He is about 1.75 metres tall.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Người máy làm việc ở đâu",
+      "questions": [
+        "What jobs can robots do in hospitals?",
+        "How can robots help doctors?",
+        "What can a worker robot do in a factory?"
+      ],
+      "keywords": ["can", "help", "move", "repair"],
+      "exampleAnswer": "In factories, robots can move heavy things and repair broken machines.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Điều người máy chưa làm được",
+      "questions": [
+        "Why can't robots do everything like humans?",
+        "Why do people still need to do some jobs themselves?",
+        "What can people do better than robots, and why?"
+      ],
+      "keywords": ["can't", "feelings", "understand", "because"],
+      "exampleAnswer": "Robots can't understand our feelings, so they can't be good friends or teachers like people.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Người máy trong vũ trụ",
+      "questions": [
+        "Why do people send robots to space stations?",
+        "Why are robots useful on other planets?",
+        "Why might robots work better than people in space?"
+      ],
+      "keywords": ["space station", "planet", "dangerous", "because"],
+      "exampleAnswer": "Robots are useful in space because it's dangerous for people, and robots don't need air or food.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What do you usually do to help your family on Sundays?", "keywords": ["do the dishes", "water", "put away"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should robots do students' homework? Why or why not?", "keywords": ["learn", "useful", "can't"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend says robots will take all our jobs. What do you say?", "keywords": ["agree", "don't agree", "can't"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What jobs do you do at home after school?", "keywords": ["water", "do the washing", "tidy"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should robots work as guards at schools? Why or why not?", "keywords": ["guard", "safe", "people"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your cousin says robots are dangerous for children. What do you say to him?", "keywords": ["agree", "don't agree", "useful"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Người máy mơ ước của em",
+      "contextVi": "Trong giờ học tiếng Anh, bạn cùng bàn hỏi em muốn có người máy như thế nào.",
+      "aiRole": "Tuan, your desk mate in English class",
+      "studentRoleVi": "Học sinh kể về người máy mơ ước",
+      "goalVi": "Kể người máy em muốn có: tên, những việc nó làm được và không làm được.",
+      "goal": "Tell your desk mate about the robot you would like to have: its name, what it can do and what it can't do.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng can và can't", "words": ["can", "can't"] },
+        { "kind": "example", "vi": "Kể ít nhất hai việc người máy làm được", "words": [] }
+      ],
+      "opener": "Our teacher wants us to write about a robot. What kind of robot would you like to have?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Cool! What can it do?",
+        "Is there anything it can't do?",
+        "Nice robot! I'd like one, too."
+      ],
+      "tipsVi": ["Dùng \"It can..., but it can't...\"", "Kể việc nhà: do the dishes, water plants, put away toys."],
+      "keywords": ["can", "can't", "do the dishes", "useful"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Người máy làm việc nhà: tốt hay không?",
+      "contextVi": "Em và bạn thảo luận cho bài nói nhóm: \"Người máy gia đình có ích nhất\". Bạn em lo người máy làm người ta lười.",
+      "aiRole": "Ngoc, a classmate in your speaking group",
+      "studentRoleVi": "Học sinh bảo vệ ý kiến người máy gia đình có ích",
+      "goalVi": "Nói vì sao người máy gia đình có ích, đưa ví dụ và trả lời khi Ngọc cho rằng người máy làm con người lười.",
+      "goal": "Explain why home robots are useful, give an example, and answer Ngoc when she says robots make people lazy.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng cụm đồng ý / không đồng ý", "words": ["I agree", "I don't agree", "That's true, but"] }
+      ],
+      "opener": "Our topic is \"Home robots are the most useful of all robots\". What do you think?",
+      "stance": "Home robots will make people lazy. Children won't learn to do housework.",
+      "turns": 5,
+      "fallback": [
+        "Why do you think they are so useful?",
+        "Hmm, but home robots will make people lazy. Children won't learn to do housework.",
+        "OK, I see your point. Can you give another example?",
+        "Good. Let's use your ideas in our talk."
+      ],
+      "tipsVi": ["Dùng \"I don't agree with you\" hoặc \"That's true, but...\"", "Ví dụ: bố mẹ bận, ông bà già yếu."],
+      "keywords": ["useful", "I don't agree", "because", "for example"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Có nên mua người máy cho thư viện?",
+      "contextVi": "Hội học sinh bàn xem có nên dùng tiền quỹ để mua một người máy giúp việc ở thư viện trường. Em thảo luận với chủ tịch hội.",
+      "aiRole": "Khanh, the president of the student council",
+      "studentRoleVi": "Thành viên hội học sinh",
+      "goalVi": "Nêu ý kiến về việc mua người máy cho thư viện, nêu lý do và trả lời khi Khánh có ý kiến khác.",
+      "goal": "Give your opinion about buying a robot for the school library, explain why, and answer Khanh's different opinion.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất người máy nên làm việc gì", "words": [] }
+      ],
+      "opener": "We have some money for the library. Some students want to buy a robot. What do you think?",
+      "stance": "A robot is too expensive. The money is better for new books.",
+      "turns": 5,
+      "fallback": [
+        "What can the robot do in the library?",
+        "But a robot is too expensive. I think the money is better for new books.",
+        "Hmm, that's a good point. Will students like it?",
+        "OK. Let's ask other members to vote."
+      ],
+      "tipsVi": ["Nói rõ người máy làm được gì: put away books, help find books.", "Khi Khánh phản đối, đồng ý một phần rồi nêu ý mình."],
+      "keywords": ["useful", "can", "put away", "That's true, but"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Chọn người máy tặng bà",
+      "contextVi": "Gia đình em muốn mua một người máy giúp bà làm việc nhà. Em đến cửa hàng và nói chuyện với nhân viên bán hàng.",
+      "aiRole": "Mr Hung, a shop assistant at a robot shop",
+      "studentRoleVi": "Khách hàng chọn người máy cho bà",
+      "goalVi": "Nói người máy cần làm được gì, so sánh các người máy (dùng so sánh nhất), và trả lời khi nhân viên gợi ý loại rẻ nhất.",
+      "goal": "Explain what the robot must do for your grandma, compare robots using superlatives, and answer when the assistant suggests the cheapest one.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do chọn người máy", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một tính từ so sánh nhất", "words": ["the smallest", "the lightest", "the cheapest", "the smartest", "the strongest"] }
+      ],
+      "opener": "Good morning! Are you looking for a robot? Who is it for?",
+      "stance": "The cheapest robot is the best choice. It can do the dishes, and it's only 200 dollars.",
+      "turns": 5,
+      "fallback": [
+        "I see. What do you want the robot to do?",
+        "Then the cheapest robot is the best choice. It can do the dishes, and it's only 200 dollars.",
+        "Fair enough. How about this one? It's the lightest robot in our shop.",
+        "Great choice. Your grandma will love it."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["can", "the smallest", "because", "useful"]
+    }
+  ]
+}

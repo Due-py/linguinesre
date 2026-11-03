@@ -6,11 +6,17 @@ import { signOut } from "@/app/(auth)/actions";
 
 export type NavItem = { href: string; label: string };
 
-/** Menu học sinh: chỉ gồm trang đã có thật. Giáo viên hiện mới có một trang chính nên chưa có menu. */
+/** Menu học sinh: chỉ gồm trang đã có thật. */
 export const STUDENT_NAV: NavItem[] = [
   { href: "/student", label: "Tổng quan" },
   { href: "/student/practice", label: "Luyện nói" },
   { href: "/student/history", label: "Lịch sử" },
+];
+
+/** Menu giáo viên: lớp học và duyệt nội dung Learning Module. */
+export const TEACHER_NAV: NavItem[] = [
+  { href: "/teacher", label: "Lớp học" },
+  { href: "/teacher/modules", label: "Duyệt nội dung" },
 ];
 
 /** Khung chung của khu vực đã đăng nhập. current: href của mục menu đang mở (đánh dấu bằng gạch chân và aria-current). */

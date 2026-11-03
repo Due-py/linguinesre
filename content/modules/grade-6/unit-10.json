@@ -1,0 +1,340 @@
+{
+  "grade": 6,
+  "unit": 10,
+  "title": "Our Houses in the Future",
+  "titleVi": "Ngôi nhà của chúng ta trong tương lai",
+  "edition": "Tiếng Anh 6 Global Success, sách học sinh tập hai (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 38–47; Glossary tr. 71",
+  "vocab": [
+    { "id": "v01", "en": "appliance", "vi": "thiết bị", "ipa": "/əˈplaɪəns/", "ipaFrom": "glossary", "pos": "n", "example": "A fridge is a very useful appliance in the kitchen.", "collocations": ["home appliance", "electric appliance", "modern appliances"], "synonyms": ["machine"], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v02", "en": "hi-tech", "vi": "công nghệ cao", "ipa": "/haɪ ˈtek/", "ipaFrom": "glossary", "pos": "adj", "example": "In the future, we might live in a hi-tech house.", "collocations": ["a hi-tech house", "hi-tech appliances"], "synonyms": ["modern"], "antonyms": ["old-fashioned"], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v03", "en": "solar energy", "vi": "năng lượng mặt trời", "ipa": "/ˌsəʊlər ˈenədʒi/", "ipaFrom": "glossary", "pos": "n", "example": "Our future house will use solar energy for its lights.", "collocations": ["use solar energy", "solar energy panels"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v04", "en": "washing machine", "vi": "máy giặt", "ipa": "/ˈwɒʃɪŋ məʃiːn/", "ipaFrom": "glossary", "pos": "n", "example": "The washing machine washes and dries our clothes.", "collocations": ["use the washing machine", "a new washing machine"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v05", "en": "dishwasher", "vi": "máy rửa bát", "ipa": "/ˈdɪʃwɒʃə/", "ipaFrom": "glossary", "pos": "n", "example": "After dinner, we put the dirty plates in the dishwasher.", "collocations": ["load the dishwasher"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v06", "en": "electric cooker", "vi": "bếp điện", "ipa": "/ɪˈlektrɪk ˈkʊkə/", "ipaFrom": "glossary", "pos": "n", "example": "My grandma cooks rice with an electric cooker.", "collocations": ["cook rice in an electric cooker"], "synonyms": ["rice cooker"], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v07", "en": "wireless", "vi": "không dây", "ipa": "/ˈwaɪələs/", "ipaFrom": "glossary", "pos": "adj", "example": "We will watch films on a big wireless TV.", "collocations": ["wireless TV", "wireless internet"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v08", "en": "housework", "vi": "công việc nhà", "ipa": "/ˈhaʊswɜːk/", "ipaFrom": "glossary", "pos": "n", "example": "Robots might do all the housework in the future.", "collocations": ["do the housework", "help with the housework"], "synonyms": ["chores"], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v09", "en": "look after", "vi": "trông nom, chăm sóc", "ipa": "/lʊk ˈɑːftər/", "ipaFrom": "glossary", "pos": "v", "example": "A robot will look after my little sister when Mum is busy.", "collocations": ["look after children", "look after the house"], "synonyms": ["take care of"], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v10", "en": "location", "vi": "địa điểm", "ipa": "/ləʊˈkeɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "The mountains are a quiet location for a house.", "collocations": ["a good location", "a quiet location"], "synonyms": ["place"], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v11", "en": "ocean", "vi": "đại dương", "ipa": "/ˈəʊʃn/", "ipaFrom": "glossary", "pos": "n", "example": "Some people might live under the ocean one day.", "collocations": ["in the ocean", "under the ocean"], "synonyms": ["sea"], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v12", "en": "space", "vi": "không gian vũ trụ", "ipa": "/speɪs/", "ipaFrom": "glossary", "pos": "n", "example": "Will people build houses in space?", "collocations": ["in space", "travel to space"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v13", "en": "cottage", "vi": "nhà tranh", "ipa": "/ˈkɒtɪdʒ/", "ipaFrom": "glossary", "pos": "n", "example": "My grandparents live in a small cottage in the countryside.", "collocations": ["a small cottage", "a cottage by the sea"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v14", "en": "UFO", "vi": "vật thể bay, đĩa bay không xác định", "ipa": "/ˌjuːefˈəʊ/", "ipaFrom": "glossary", "pos": "n", "example": "Phong's dream house looks like a UFO.", "collocations": ["look like a UFO"], "synonyms": ["flying saucer"], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v15", "en": "type", "vi": "kiểu, loại", "ipa": "/taɪp/", "ipaFrom": "glossary", "pos": "n", "example": "What type of house would you like to live in?", "collocations": ["type of house", "a new type"], "synonyms": ["kind"], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v16", "en": "dry", "vi": "làm khô, sấy khô", "ipa": "/draɪ/", "ipaFrom": "glossary", "pos": "v", "example": "This machine can wash and dry the dishes.", "collocations": ["dry clothes", "dry the dishes"], "synonyms": [], "antonyms": ["wet"], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v17", "en": "super", "vi": "siêu đẳng", "ipa": "/ˈsuːpə/", "ipaFrom": "glossary", "pos": "adj", "example": "My dad will drive a super car on the Moon.", "collocations": ["a super car", "a super robot"], "synonyms": ["amazing"], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v18", "en": "fridge", "vi": "tủ lạnh", "ipa": "/frɪdʒ/", "ipaFrom": "dictionary", "pos": "n", "example": "The fridge keeps our food fresh.", "collocations": ["in the fridge", "a smart fridge"], "synonyms": ["refrigerator"], "antonyms": [], "src": { "kind": "sgk", "page": 40 } },
+    { "id": "v19", "en": "smart TV", "vi": "tivi thông minh", "ipa": "/ˌsmɑːt tiː ˈviː/", "ipaFrom": "dictionary", "pos": "n", "example": "We can watch online videos on our smart TV.", "collocations": ["a big smart TV"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 38 } },
+    { "id": "v20", "en": "countryside", "vi": "vùng nông thôn", "ipa": "/ˈkʌntrisaɪd/", "ipaFrom": "dictionary", "pos": "n", "example": "I'd like to live in the countryside because it's quiet.", "collocations": ["in the countryside"], "synonyms": [], "antonyms": ["city"], "src": { "kind": "sgk", "page": 39 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Future simple",
+      "nameVi": "Thì tương lai đơn",
+      "explainVi": "Dùng will + động từ nguyên mẫu để nói về việc sẽ xảy ra trong tương lai. 'll là dạng viết tắt của will; won't là dạng viết tắt của will not. Câu hỏi: đưa Will lên đầu câu. Sau will, động từ không thêm -s, -ed hay -ing.",
+      "formula": "S + will ('ll) + V  ·  S + won't + V  ·  Will + S + V? – Yes, S will. / No, S won't.",
+      "examples": [
+        "Our house will have a big garden.",
+        "We won't use a car in the future.",
+        "Will your house be in the mountains? – Yes, it will."
+      ],
+      "wrong": [
+        { "sentence": "My house will has twenty rooms.", "fix": "My house will have twenty rooms.", "whyVi": "Sau will dùng động từ nguyên mẫu: have, không phải has." },
+        { "sentence": "Robots will to do the housework.", "fix": "Robots will do the housework.", "whyVi": "Sau will không có \"to\"." },
+        { "sentence": "Will you live in space? – Yes, I live.", "fix": "Will you live in space? – Yes, I will.", "whyVi": "Câu trả lời ngắn cho câu hỏi Will là: Yes, I will / No, I won't." }
+      ],
+      "drills": [
+        { "prompt": "In the future, our house ___ solar energy.", "options": ["use", "will use", "will uses"], "answer": 1, "explainVi": "Nói về tương lai: will + động từ nguyên mẫu (use)." },
+        { "prompt": "___ robots cook our meals in the future?", "options": ["Will", "Do", "Are"], "answer": 0, "explainVi": "Câu hỏi về tương lai: Will + S + V?" },
+        { "prompt": "I don't like big cities, so I ___ live in one.", "options": ["will", "won't", "am"], "answer": 1, "explainVi": "Không thích nên sẽ KHÔNG sống ở đó: won't." }
+      ],
+      "errorTag": "verb_tense",
+      "src": { "kind": "sgk", "page": 41 }
+    },
+    {
+      "id": "g02",
+      "name": "Might for future possibility",
+      "nameVi": "Might: có thể (khả năng trong tương lai)",
+      "explainVi": "Dùng might + động từ nguyên mẫu để nói về việc CÓ THỂ xảy ra trong tương lai, khi mình chưa chắc chắn. Phủ định: might not + V. So sánh: will = khá chắc chắn; might = chưa chắc.",
+      "formula": "S + might + V  ·  S + might not + V",
+      "examples": [
+        "We might live under the ocean one day.",
+        "My future house might have a robot.",
+        "People might not drive cars in 2100."
+      ],
+      "wrong": [
+        { "sentence": "We might lives in a UFO.", "fix": "We might live in a UFO.", "whyVi": "Sau might dùng động từ nguyên mẫu, không thêm -s." },
+        { "sentence": "They don't might travel by car.", "fix": "They might not travel by car.", "whyVi": "Phủ định của might là might not, không dùng don't." }
+      ],
+      "drills": [
+        { "prompt": "I'm not sure, but my house ___ be by the sea.", "options": ["might", "will", "won't"], "answer": 0, "explainVi": "\"I'm not sure\" (chưa chắc) nên dùng might." },
+        { "prompt": "Robots might ___ our clothes in the future.", "options": ["washes", "to wash", "wash"], "answer": 2, "explainVi": "Sau might dùng động từ nguyên mẫu: wash." },
+        { "prompt": "Which sentence is correct?", "options": ["People might not use keys.", "People might don't use keys.", "People not might use keys."], "answer": 0, "explainVi": "Phủ định: might not + V." }
+      ],
+      "errorTag": "modal_verb",
+      "src": { "kind": "sgk", "page": 42 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "word_stress",
+      "focus": "Trọng âm từ hai âm tiết",
+      "tipVi": "Nhiều danh từ hai âm tiết nhấn vào âm tiết thứ nhất: PICture, ROBot, BEDroom. Âm tiết được nhấn đọc to, rõ và dài hơn; âm tiết còn lại đọc nhẹ.",
+      "words": ["picture", "robot", "bedroom", "kitchen", "housework", "palace", "village", "mountains"],
+      "sentence": "The robot helps me clean the kitchen.",
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["kitchen", "machine", "village"], "answer": 1, "explainVi": "machine /məˈʃiːn/ nhấn âm thứ hai; kitchen và village nhấn âm đầu." },
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["outside", "hi-tech", "housework"], "answer": 2, "explainVi": "housework /ˈhaʊswɜːk/ nhấn âm đầu; outside /aʊtˈsaɪd/ và hi-tech /haɪ ˈtek/ nhấn âm thứ hai." }
+      ],
+      "src": { "kind": "sgk", "page": 40 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Trọng âm các từ mới nhiều âm tiết",
+      "tipVi": "dishwasher, wireless nhấn âm đầu; appliance, location, electric nhấn âm thứ hai. Nghe phiên âm: dấu ˈ đứng trước âm tiết được nhấn.",
+      "words": ["dishwasher", "wireless", "appliance", "location", "electric"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["appliance", "wireless", "dishwasher"], "answer": 0, "explainVi": "appliance /əˈplaɪəns/ nhấn âm thứ hai; wireless và dishwasher nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p03",
+      "kind": "intonation",
+      "focus": "Ngữ điệu câu hỏi Yes/No với Will",
+      "tipVi": "Câu hỏi Yes/No (bắt đầu bằng Will, Do, Is...) thường lên giọng ở cuối câu. Câu hỏi Wh- (Where, What) thường xuống giọng.",
+      "words": ["Will it be big?", "Where will it be?"],
+      "sentence": "Will your house have a garden?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Wow! Is that your ...? It looks great.", "vi": "Ồ! Đó là ... của bạn à? Trông tuyệt quá.", "useVi": "Khi ngạc nhiên và khen đồ vật mới của bạn.", "example": "Wow! Is that your new watch? It looks great.", "src": { "kind": "sgk", "page": 43 } },
+    { "id": "e02", "en": "Sounds great!", "vi": "Nghe hay quá!", "useVi": "Khi đáp lại một ý tưởng hay kế hoạch thú vị.", "example": "My house will have a pool on the roof. – Sounds great!", "src": { "kind": "sgk", "page": 38 } },
+    { "id": "e03", "en": "Fantastic!", "vi": "Tuyệt vời!", "useVi": "Khi rất thích hoặc ngạc nhiên vui vẻ với điều vừa nghe.", "example": "It'll have solar energy. – Fantastic!", "src": { "kind": "sgk", "page": 38 } },
+    { "id": "e04", "en": "What will it be like?", "vi": "Nó sẽ trông như thế nào?", "useVi": "Khi hỏi người khác mô tả một thứ trong tương lai.", "example": "Your dream house? What will it be like?", "src": { "kind": "sgk", "page": 38 } },
+    { "id": "e05", "en": "I'm not sure. It might ...", "vi": "Mình chưa chắc. Có thể nó ...", "useVi": "Khi trả lời về tương lai mà mình chưa chắc chắn.", "example": "I'm not sure. It might be in the countryside.", "src": { "kind": "sgk", "page": 43 } },
+    { "id": "e06", "en": "Really? That's amazing!", "vi": "Thật à? Thật tuyệt!", "useVi": "Khi ngạc nhiên trước một điều mới lạ.", "example": "Your robot can cook? Really? That's amazing!", "src": { "kind": "team", "page": null } },
+    { "id": "e07", "en": "In the future, I think ... will ...", "vi": "Trong tương lai, mình nghĩ ... sẽ ...", "useVi": "Khi nêu dự đoán của mình về tương lai.", "example": "In the future, I think houses will use solar energy.", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "I'd like to live ... because ...", "vi": "Mình muốn sống ở ... vì ...", "useVi": "Khi nói nơi mình muốn sống và lý do.", "example": "I'd like to live by the sea because I love swimming.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "Maybe, but ...", "vi": "Có thể, nhưng ...", "useVi": "Khi đồng ý một phần nhưng vẫn muốn nêu ý của mình.", "example": "Maybe, but a robot can save us a lot of time.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["My future house", "will be", "in the mountains"], "vi": "Ngôi nhà tương lai của mình sẽ ở trên núi.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["It might have", "a robot", "to do", "the housework"], "vi": "Nó có thể có một người máy để làm việc nhà.", "grammarId": "g02" },
+    { "id": "b03", "chunks": ["We won't", "need keys", "because the doors", "will know our faces"], "vi": "Chúng ta sẽ không cần chìa khoá vì cửa sẽ nhận ra khuôn mặt chúng ta.", "grammarId": "g01" },
+    { "id": "b04", "chunks": ["A dishwasher", "can wash", "and dry", "the dishes"], "vi": "Máy rửa bát có thể rửa và làm khô bát đĩa.", "grammarId": null },
+    { "id": "b05", "chunks": ["Will your house", "use", "solar energy?"], "vi": "Nhà của bạn sẽ dùng năng lượng mặt trời chứ?", "grammarId": "g01" },
+    { "id": "b06", "chunks": ["People might", "live", "under the ocean", "one day"], "vi": "Một ngày nào đó con người có thể sống dưới đại dương.", "grammarId": "g02" },
+    { "id": "b07", "chunks": ["I'd like to live", "in a cottage", "because it's quiet", "and green"], "vi": "Mình muốn sống trong một ngôi nhà tranh vì nó yên tĩnh và xanh.", "grammarId": null },
+    { "id": "b08", "chunks": ["The robot", "will look after", "my grandparents", "when we are out"], "vi": "Người máy sẽ chăm sóc ông bà mình khi cả nhà ra ngoài.", "grammarId": "g01" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "My house will be big.",
+      "steps": [
+        { "askVi": "Nó ở đâu?", "ask": "Where?", "add": "by the sea" },
+        { "askVi": "Nó sẽ có gì?", "ask": "What will it have?", "add": "and it will have a swimming pool" }
+      ],
+      "full": "My house will be big and by the sea, and it will have a swimming pool."
+    },
+    {
+      "id": "x02",
+      "base": "I might have a robot.",
+      "steps": [
+        { "askVi": "Loại người máy gì?", "ask": "What kind?", "add": "home" },
+        { "askVi": "Nó sẽ làm gì?", "ask": "What will it do?", "add": "to do the washing" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "when I am at school" }
+      ],
+      "full": "I might have a home robot to do the washing when I am at school."
+    },
+    {
+      "id": "x03",
+      "base": "We will use solar energy.",
+      "steps": [
+        { "askVi": "Dùng để làm gì?", "ask": "For what?", "add": "for our lights and TV" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it is clean and cheap" }
+      ],
+      "full": "We will use solar energy for our lights and TV because it is clean and cheap."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Ngôi nhà của ông bà hoặc người thân",
+      "questions": [
+        "What is your grandparents' house like?",
+        "Can you describe the home of someone in your family?",
+        "How is your grandparents' house different from yours?"
+      ],
+      "keywords": ["cottage", "garden", "countryside", "big"],
+      "exampleAnswer": "My grandparents live in a small cottage in the countryside. It has a big garden, but it doesn't have a dishwasher.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Thiết bị trong nhà giúp gì cho mình",
+      "questions": [
+        "What can a dishwasher help us to do?",
+        "How does a washing machine help your family?",
+        "Which appliance helps your parents the most at home?"
+      ],
+      "keywords": ["appliance", "wash", "dry", "cook"],
+      "exampleAnswer": "A washing machine helps my mum wash and dry our clothes, so she has more free time.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Những thứ có thể có trong nhà tương lai",
+      "questions": [
+        "What might you have in your room in the future?",
+        "What things might people have at home in 2050?",
+        "What new appliances might we use in the future?"
+      ],
+      "keywords": ["might", "robot", "wireless", "smart"],
+      "exampleAnswer": "I might have a wireless TV on the wall and a robot that can tidy my room.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Vị trí nhà: núi, biển hay thành phố",
+      "questions": [
+        "Would you like to live in a cottage in the countryside? Why?",
+        "Why might some people want to live by the sea?",
+        "Which location is better for a house, the mountains or the city? Why?"
+      ],
+      "keywords": ["location", "quiet", "fresh air", "because"],
+      "exampleAnswer": "I'd like to live in the mountains because the air is fresh and it's quiet, but the city has more shops.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Lợi ích của nhà công nghệ cao",
+      "questions": [
+        "Why do people like wireless appliances?",
+        "What is good about a hi-tech kitchen?",
+        "Why might hi-tech houses save people time?"
+      ],
+      "keywords": ["hi-tech", "save time", "easy", "because"],
+      "exampleAnswer": "Hi-tech appliances save time because they do the housework for us, so we can relax more.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What type of house do you live in now, and what do you like about it?", "keywords": ["house", "room", "garden"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Will children in the future do less housework than us? Why or why not?", "keywords": ["will", "robot", "housework"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend shows you her new wireless headphones. What do you say to her?", "keywords": ["wow", "looks great", "new"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "Which room in your home do you spend the most time in, and what do you do there?", "keywords": ["room", "usually", "relax"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Will people in the future still cook their own meals at home? Why or why not?", "keywords": ["will", "might", "cook"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your uncle shows you his new robot vacuum cleaner. What do you say to him?", "keywords": ["wow", "amazing", "housework"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Phỏng vấn về ngôi nhà tương lai",
+      "contextVi": "Lớp em làm khảo sát về ngôi nhà tương lai. Một bạn cùng lớp phỏng vấn em.",
+      "aiRole": "Nam, a classmate doing a class survey",
+      "studentRoleVi": "Học sinh trả lời phỏng vấn",
+      "goalVi": "Trả lời nhà em sẽ ở đâu, trông thế nào và có thiết bị gì; dùng will và might.",
+      "goal": "Answer the survey: say where your future house will be, what it will be like and what appliances it might have, using will and might.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng will hoặc might", "words": ["will", "won't", "might"] },
+        { "kind": "example", "vi": "Kể ít nhất một thiết bị trong nhà", "words": [] }
+      ],
+      "opener": "Hi! I'm doing a survey about future houses. Where will your house be?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Interesting! What will it be like?",
+        "What appliances might it have?",
+        "Sounds great! Thanks for answering my questions."
+      ],
+      "tipsVi": ["Chắc chắn thì dùng will, chưa chắc thì dùng might.", "Kể thiết bị: dishwasher, wireless TV, robot."],
+      "keywords": ["will", "might", "appliance", "robot"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Thiết kế ngôi nhà tương lai cùng nhóm",
+      "contextVi": "Nhóm em làm dự án \"Ngôi nhà mơ ước\". Em muốn nhà ở trên núi, còn bạn trong nhóm muốn nhà ở thành phố.",
+      "aiRole": "Lan, a group member in the dream house project",
+      "studentRoleVi": "Thành viên nhóm muốn chọn vị trí nhà",
+      "goalVi": "Đề xuất vị trí cho ngôi nhà, nêu lý do và ví dụ, rồi trả lời khi Lan muốn nhà ở thành phố.",
+      "goal": "Suggest a location for the dream house, give reasons and an example, and answer Lan's different opinion.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất vị trí", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["location", "solar energy", "hi-tech", "might", "will"] }
+      ],
+      "opener": "We need to choose a location for our dream house. Where do you think it should be?",
+      "stance": "A house in the city is better. It's near schools, shops and hospitals.",
+      "turns": 5,
+      "fallback": [
+        "Hmm, why do you like that location?",
+        "But I think a house in the city is better. It's near schools, shops and hospitals.",
+        "OK, that's true. What appliances will our house have?",
+        "Great. Let's draw it on our poster."
+      ],
+      "tipsVi": ["Khi Lan phản đối, dùng \"Maybe, but...\"", "Nêu ví dụ: fresh air, quiet, solar energy."],
+      "keywords": ["location", "will", "because", "Maybe, but"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Thuyết phục ông dùng thiết bị mới",
+      "contextVi": "Bố mẹ muốn mua máy rửa bát mới, nhưng ông em nghĩ thiết bị hiện đại làm người ta lười. Em nói chuyện với ông.",
+      "aiRole": "Grandpa, who likes doing things by hand",
+      "studentRoleVi": "Cháu muốn giải thích lợi ích của thiết bị",
+      "goalVi": "Giải thích thiết bị đó giúp gì, nêu lý do và trả lời lịch sự khi ông cho rằng thiết bị làm người ta lười.",
+      "goal": "Explain how a new appliance can help the family, give reasons, and answer Grandpa politely when he says appliances make people lazy.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do thiết bị có ích", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["dishwasher", "appliance", "housework", "save time", "dry"] }
+      ],
+      "opener": "Your parents want to buy a dishwasher. Why do we need a machine to wash the dishes?",
+      "stance": "Appliances make people lazy. I like doing the housework by hand.",
+      "turns": 5,
+      "fallback": [
+        "Hmm. How will it help us?",
+        "But appliances make people lazy. I like doing the housework by hand.",
+        "Well, maybe you're right. What will you do with the extra time?",
+        "All right. Let's try it, but you still help me in the garden!"
+      ],
+      "tipsVi": ["Nói lễ phép với ông: \"I understand, Grandpa, but...\"", "Ví dụ: tiết kiệm thời gian, mẹ được nghỉ ngơi."],
+      "keywords": ["save time", "housework", "dishwasher", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Giới thiệu ngôi nhà mơ ước ở triển lãm",
+      "contextVi": "Em tham gia triển lãm \"Ngôi nhà tương lai\" ở trường. Một kiến trúc sư đến xem và hỏi về mô hình của em.",
+      "aiRole": "Ms Thu, an architect visiting the school exhibition",
+      "studentRoleVi": "Học sinh giới thiệu mô hình ngôi nhà",
+      "goalVi": "Giới thiệu nhà em: vị trí, kiểu nhà, thiết bị; nêu lý do và trả lời khi cô có ý kiến khác.",
+      "goal": "Present your dream house model: location, type and appliances, with reasons, and answer the architect's different opinion.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do cho lựa chọn của em", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["will", "might", "location", "appliance", "solar energy", "hi-tech"] }
+      ],
+      "opener": "What an interesting model! Can you tell me about your house?",
+      "stance": "A hi-tech house is very expensive. Maybe a simple house is better for most families.",
+      "turns": 5,
+      "fallback": [
+        "Nice. Why did you choose that location?",
+        "But a hi-tech house is very expensive. Maybe a simple house is better for most families?",
+        "I see. Which room will be your favourite?",
+        "Well done. It's a creative idea!"
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["will", "might", "location", "because"]
+    }
+  ]
+}

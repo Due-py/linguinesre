@@ -1,0 +1,362 @@
+{
+  "grade": 12,
+  "unit": 1,
+  "title": "Life Stories We Admire",
+  "titleVi": "Những câu chuyện cuộc đời đáng ngưỡng mộ",
+  "edition": "Tiếng Anh 12 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 8–19; Glossary tr. 147–148",
+  "vocab": [
+    { "id": "v01", "en": "admire", "vi": "ngưỡng mộ", "ipa": "/ədˈmaɪə/", "ipaFrom": "glossary", "pos": "v", "example": "I admire my aunt because she never gives up.", "collocations": ["be admired for", "admire somebody for something"], "synonyms": ["look up to", "respect"], "antonyms": [], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v02", "en": "achievement", "vi": "thành tích, thành tựu", "ipa": "/əˈtʃiːvmənt/", "ipaFrom": "glossary", "pos": "n", "example": "Building a school in her village was her greatest achievement.", "collocations": ["an impressive achievement", "a great achievement"], "synonyms": ["success"], "antonyms": ["failure"], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v03", "en": "biography", "vi": "tiểu sử", "ipa": "/baɪˈɒgrəfi/", "ipaFrom": "glossary", "pos": "n", "example": "I am reading a biography of a famous Vietnamese doctor.", "collocations": ["write a biography", "a biography of"], "synonyms": ["life story"], "antonyms": [], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v04", "en": "account", "vi": "câu chuyện", "ipa": "/əˈkaʊnt/", "ipaFrom": "glossary", "pos": "n", "example": "Her diary gives a personal account of life during the war.", "collocations": ["a personal account", "give an account of"], "synonyms": ["story", "description"], "antonyms": [], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v05", "en": "hero", "vi": "anh hùng", "ipa": "/ˈhɪərəʊ/", "ipaFrom": "glossary", "pos": "n", "example": "She is considered a national hero in Viet Nam.", "collocations": ["a national hero", "a local hero"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v06", "en": "devote to", "vi": "cống hiến (cho)", "ipa": "/dɪˈvəʊt tə/", "ipaFrom": "glossary", "pos": "v", "example": "My grandmother devoted her life to teaching poor children.", "collocations": ["devote your life to", "devote time to"], "synonyms": ["dedicate to"], "antonyms": [], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v07", "en": "youth", "vi": "tuổi trẻ", "ipa": "/juːθ/", "ipaFrom": "glossary", "pos": "n", "example": "In his youth, my grandfather worked on a fishing boat.", "collocations": ["in his/her youth"], "synonyms": [], "antonyms": ["old age"], "src": { "kind": "sgk", "page": 148 } },
+    { "id": "v08", "en": "childhood", "vi": "tuổi thơ", "ipa": "/ˈtʃaɪldhʊd/", "ipaFrom": "glossary", "pos": "n", "example": "She had a difficult childhood because her family was very poor.", "collocations": ["a happy childhood", "a difficult childhood"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v09", "en": "attend college", "vi": "đi học (trường đại học, cao đẳng)", "ipa": "/əˈtend kɒlɪdʒ/", "ipaFrom": "glossary", "pos": "v", "example": "My father attended college in Hue in the 1990s.", "collocations": ["attend school", "attend college"], "synonyms": ["go to college"], "antonyms": [], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v10", "en": "drop out (of)", "vi": "bỏ học", "ipa": "/ˈdrɒp aʊt (ɒv)/", "ipaFrom": "glossary", "pos": "phr v", "example": "He dropped out of college after six months to start a company.", "collocations": ["drop out of school", "drop out of college"], "synonyms": ["leave school"], "antonyms": ["graduate"], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v11", "en": "genius", "vi": "thiên tài", "ipa": "/ˈdʒiːniəs/", "ipaFrom": "glossary", "pos": "n", "example": "Many people called him a creative genius.", "collocations": ["a creative genius", "a musical genius"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v12", "en": "carry out", "vi": "tiến hành", "ipa": "/ˈkæri aʊt/", "ipaFrom": "glossary", "pos": "phr v", "example": "The scientist carried out many experiments before she succeeded.", "collocations": ["carry out an experiment", "carry out a plan"], "synonyms": ["do", "conduct"], "antonyms": [], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v13", "en": "adopt", "vi": "nhận con nuôi", "ipa": "/əˈdɒpt/", "ipaFrom": "glossary", "pos": "v", "example": "The couple adopted a baby girl and loved her very much.", "collocations": ["adopt a child"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v14", "en": "bond", "vi": "kết thân (với ai)", "ipa": "/bɒnd/", "ipaFrom": "glossary", "pos": "v", "example": "The two boys bonded over their love of football.", "collocations": ["bond over something", "bond with somebody"], "synonyms": ["become close"], "antonyms": [], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v15", "en": "marriage", "vi": "cuộc hôn nhân", "ipa": "/ˈmærɪdʒ/", "ipaFrom": "glossary", "pos": "n", "example": "My grandparents had a long marriage of sixty years.", "collocations": ["a long marriage", "a happy marriage"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v16", "en": "pass away", "vi": "qua đời", "ipa": "/pɑːs əˈweɪ/", "ipaFrom": "glossary", "pos": "phr v", "example": "The famous writer passed away last year at the age of 90.", "collocations": ["pass away peacefully"], "synonyms": ["die"], "antonyms": [], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v17", "en": "death", "vi": "cái chết", "ipa": "/deθ/", "ipaFrom": "glossary", "pos": "n", "example": "After his death, his family published his letters.", "collocations": ["after somebody's death"], "synonyms": [], "antonyms": ["birth"], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v18", "en": "on top of the world", "vi": "rất vui sướng, hạnh phúc", "ipa": "/ɒn tɒp ɒv ðə wɜːld/", "ipaFrom": "glossary", "pos": "idiom", "example": "I felt on top of the world when our team won the contest.", "collocations": ["feel on top of the world"], "synonyms": ["on cloud nine", "over the moon"], "antonyms": [], "src": { "kind": "sgk", "page": 147 } },
+    { "id": "v19", "en": "impressive", "vi": "ấn tượng, gây ấn tượng mạnh", "ipa": "/ɪmˈpresɪv/", "ipaFrom": "dictionary", "pos": "adj", "example": "Winning three gold medals is an impressive achievement.", "collocations": ["an impressive achievement", "an impressive result"], "synonyms": ["amazing"], "antonyms": [], "src": { "kind": "sgk", "page": 10 } },
+    { "id": "v20", "en": "inspiring", "vi": "truyền cảm hứng", "ipa": "/ɪnˈspaɪərɪŋ/", "ipaFrom": "dictionary", "pos": "adj", "example": "Her life story is very inspiring for young people.", "collocations": ["an inspiring story", "an inspiring poem"], "synonyms": ["motivating"], "antonyms": ["boring"], "src": { "kind": "sgk", "page": 16 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Past simple vs. past continuous",
+      "nameVi": "Quá khứ đơn và quá khứ tiếp diễn",
+      "explainVi": "Quá khứ đơn (V2/V-ed) kể một việc đã xong trong quá khứ và các sự việc chính của câu chuyện. Quá khứ tiếp diễn (was/were + V-ing) tả việc đang diễn ra tại một thời điểm trong quá khứ, hoặc tả bối cảnh của câu chuyện (trời đang mưa, mọi người đang làm gì). Kể chuyện đời một người: dùng quá khứ đơn cho các mốc chính, quá khứ tiếp diễn cho khung cảnh.",
+      "formula": "Quá khứ đơn: S + V2/V-ed  ·  Quá khứ tiếp diễn: S + was/were + V-ing",
+      "examples": [
+        "My aunt opened a small bakery in 2010.",
+        "At nine o'clock last night, I was reading a biography.",
+        "It was raining heavily, so we stayed at home and watched an old film."
+      ],
+      "wrong": [
+        { "sentence": "At 10 p.m. last night, I was do my homework.", "fix": "At 10 p.m. last night, I was doing my homework.", "whyVi": "Quá khứ tiếp diễn là was/were + V-ing, không dùng động từ nguyên mẫu." },
+        { "sentence": "My grandparents were reading when I was arriving.", "fix": "My grandparents were reading when I arrived.", "whyVi": "Việc đến nơi là việc ngắn, đã xong ngay, nên dùng quá khứ đơn: arrived." }
+      ],
+      "drills": [
+        { "prompt": "At 7 a.m. yesterday, my mother ___ breakfast for the family.", "options": ["was making", "is making", "makes"], "answer": 0, "explainVi": "Việc đang diễn ra tại một thời điểm trong quá khứ (7 a.m. yesterday): was making." },
+        { "prompt": "Marie Curie ___ the Nobel Prize in 1903.", "options": ["won", "was winning", "wins"], "answer": 0, "explainVi": "Một việc đã xong trong quá khứ, có năm cụ thể: quá khứ đơn won." },
+        { "prompt": "Which sentence describes the setting of a story?", "options": ["The sun was shining and the birds were singing.", "She opened the door.", "He wrote a letter to his mother."], "answer": 0, "explainVi": "Bối cảnh câu chuyện dùng quá khứ tiếp diễn: was shining, were singing." },
+        { "prompt": "She ___ school and applied to college at the age of 18.", "options": ["finished", "was finishing", "finishes"], "answer": 0, "explainVi": "Hai sự việc chính nối tiếp nhau trong quá khứ: dùng quá khứ đơn finished, applied." }
+      ],
+      "errorTag": "verb_tense",
+      "src": { "kind": "sgk", "page": 10 }
+    },
+    {
+      "id": "g02",
+      "name": "Past continuous with when / while",
+      "nameVi": "Quá khứ tiếp diễn với when / while",
+      "explainVi": "Khi một việc ngắn xen vào giữa một việc dài đang diễn ra: việc dài dùng quá khứ tiếp diễn, việc ngắn dùng quá khứ đơn, thường nối bằng when. Khi hai việc cùng đang diễn ra một lúc, cả hai dùng quá khứ tiếp diễn, thường nối bằng while.",
+      "formula": "S + was/were + V-ing + when + S + V2/V-ed  ·  While + S + was/were + V-ing, S + was/were + V-ing",
+      "examples": [
+        "I was walking to school when I met my old teacher.",
+        "While my brother was cooking, my sister was cleaning the house."
+      ],
+      "wrong": [
+        { "sentence": "I was watching TV when the lights were going out.", "fix": "I was watching TV when the lights went out.", "whyVi": "Việc ngắn xen vào (đèn tắt) dùng quá khứ đơn: went out." },
+        { "sentence": "While I studied, my dad was watching the news.", "fix": "While I was studying, my dad was watching the news.", "whyVi": "Hai việc cùng đang diễn ra một lúc: cả hai dùng quá khứ tiếp diễn." }
+      ],
+      "drills": [
+        { "prompt": "I was cycling home when it suddenly ___ to rain.", "options": ["started", "was starting", "starts"], "answer": 0, "explainVi": "Trời bắt đầu mưa là việc ngắn xen vào: quá khứ đơn started." },
+        { "prompt": "While Lan ___ the piano, her friends were singing.", "options": ["was playing", "played", "plays"], "answer": 0, "explainVi": "Hai việc cùng đang diễn ra (while): was playing." },
+        { "prompt": "Which sentence is correct?", "options": ["She was writing her diary when the soldiers arrived.", "She was write her diary when the soldiers arrived.", "She writing her diary when the soldiers arrived."], "answer": 0, "explainVi": "Việc dài: was writing; việc ngắn xen vào: arrived." }
+      ],
+      "errorTag": "verb_tense",
+      "src": { "kind": "sgk", "page": 10 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Nguyên âm đôi /eɪ/",
+      "tipVi": "Bắt đầu bằng âm /e/ (gần như \"e\" tiếng Việt) rồi lướt nhẹ sang /ɪ/, giống \"ây\" nhưng mở miệng hơn. Đọc trọn cả hai phần, đừng cắt ngắn thành \"e\".",
+      "words": ["age", "saved", "translated", "against"],
+      "sentence": "The diary was saved and translated into many languages.",
+      "quiz": [
+        { "prompt": "Which word has the sound /eɪ/?", "options": ["saved", "said", "sad"], "answer": 0, "explainVi": "saved /seɪvd/ có /eɪ/; said /sed/ và sad /sæd/ thì không." }
+      ],
+      "src": { "kind": "sgk", "page": 9 }
+    },
+    {
+      "id": "p02",
+      "kind": "sound",
+      "focus": "Nguyên âm đôi /əʊ/",
+      "tipVi": "Bắt đầu bằng âm /ə/ (\"ơ\" nhẹ) rồi tròn môi lướt sang /ʊ/, giống \"âu\". Không đọc thành \"ô\" ngắn như tiếng Việt.",
+      "words": ["soldier", "wrote", "hero", "shows"],
+      "sentence": "The soldier wrote about a hero.",
+      "quiz": [
+        { "prompt": "Which word has the sound /əʊ/?", "options": ["hero", "her", "here"], "answer": 0, "explainVi": "hero /ˈhɪərəʊ/ kết thúc bằng /əʊ/; her /hɜː/ và here /hɪə/ thì không." },
+        { "prompt": "Which word does NOT have the sound /əʊ/?", "options": ["soldier", "shows", "cousin"], "answer": 2, "explainVi": "cousin /ˈkʌzn/ không có /əʊ/; soldier /ˈsəʊldʒə/ và shows /ʃəʊz/ có." }
+      ],
+      "src": { "kind": "sgk", "page": 9 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "Âm tiết có dấu ˈ trong phiên âm được đọc to và dài hơn. genius, childhood, marriage nhấn âm đầu; achievement, biography, admire, devote nhấn âm thứ hai.",
+      "words": ["genius", "childhood", "marriage", "achievement", "biography", "admire", "devote"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["genius", "achievement", "admire"], "answer": 0, "explainVi": "genius /ˈdʒiːniəs/ nhấn âm đầu; achievement và admire nhấn âm thứ hai." },
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["childhood", "biography", "marriage"], "answer": 1, "explainVi": "biography /baɪˈɒgrəfi/ nhấn âm thứ hai; childhood và marriage nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Ngữ điệu câu cảm thán khi chia vui",
+      "tipVi": "Khi chia vui, giọng lên cao ở từ chính rồi xuống ở cuối câu, nghe vui và chân thành: That's FANtastic! Good for YOU! Đọc đều đều sẽ nghe như không quan tâm.",
+      "words": ["That's fantastic!", "Good for you!", "Wow!"],
+      "sentence": "Wow! That's fantastic! I'm so happy for you.",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "I'm so happy ...", "vi": "Mình vui quá ...", "useVi": "Khi muốn chia sẻ niềm vui của mình với người khác.", "example": "I'm so happy! Our team won the school debate.", "src": { "kind": "sgk", "page": 16 } },
+    { "id": "e02", "en": "I'm on top of the world / on cloud nine / over the moon.", "vi": "Mình vui sướng vô cùng.", "useVi": "Khi rất, rất vui vì một tin tốt.", "example": "I passed the exam with a high score. I'm over the moon!", "src": { "kind": "sgk", "page": 17 } },
+    { "id": "e03", "en": "It was such a pleasure to ...", "vi": "Thật là vui khi được ...", "useVi": "Khi kể lại một trải nghiệm làm mình vui, tự hào.", "example": "It was such a pleasure to meet the author of my favourite book.", "src": { "kind": "sgk", "page": 16 } },
+    { "id": "e04", "en": "I was so pleased to ...", "vi": "Mình rất vui khi ...", "useVi": "Khi nói mình đã rất vui vì được làm một việc gì đó.", "example": "I was so pleased to see my old teacher again.", "src": { "kind": "sgk", "page": 17 } },
+    { "id": "e05", "en": "That's fantastic / amazing / great!", "vi": "Tuyệt quá!", "useVi": "Khi đáp lại tin vui của bạn.", "example": "You won first prize? That's fantastic!", "src": { "kind": "sgk", "page": 16 } },
+    { "id": "e06", "en": "I'm so happy / excited for you.", "vi": "Mình mừng cho bạn quá.", "useVi": "Khi muốn cho bạn thấy mình vui vì thành công của bạn.", "example": "You got into the university? I'm so happy for you.", "src": { "kind": "sgk", "page": 17 } },
+    { "id": "e07", "en": "Good for you!", "vi": "Giỏi quá! / Mừng cho bạn!", "useVi": "Khi khen và chúc mừng ngắn gọn.", "example": "You finished the marathon? Good for you!", "src": { "kind": "sgk", "page": 17 } },
+    { "id": "e08", "en": "I really admire ... because ...", "vi": "Mình rất ngưỡng mộ ... vì ...", "useVi": "Khi nói về người mình ngưỡng mộ và lý do.", "example": "I really admire my uncle because he helped many poor students.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "What impressed me most was ...", "vi": "Điều làm mình ấn tượng nhất là ...", "useVi": "Khi nêu chi tiết đáng nhớ nhất trong cuộc đời một người.", "example": "What impressed me most was her courage during the war.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "I see what you mean, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see what you mean, but ordinary people can be heroes too.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["I was reading", "a biography", "when my friend", "called me"], "vi": "Mình đang đọc một cuốn tiểu sử thì bạn mình gọi điện.", "grammarId": "g02" },
+    { "id": "b02", "chunks": ["She devoted", "her whole life", "to helping", "poor children"], "vi": "Bà ấy đã cống hiến cả cuộc đời để giúp đỡ trẻ em nghèo.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["While he was studying", "at college", "he started", "his own company"], "vi": "Khi đang học đại học, anh ấy đã thành lập công ty riêng.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["I really admire", "my grandfather", "because he worked hard", "all his life"], "vi": "Mình rất ngưỡng mộ ông vì ông đã làm việc chăm chỉ cả đời.", "grammarId": "g01" },
+    { "id": "b05", "chunks": ["One of her", "greatest achievements", "was opening", "a free school"], "vi": "Một trong những thành tựu lớn nhất của bà là mở một trường học miễn phí.", "grammarId": null },
+    { "id": "b06", "chunks": ["It was raining", "heavily", "when the soldiers", "found the diary"], "vi": "Trời đang mưa to thì những người lính tìm thấy cuốn nhật ký.", "grammarId": "g02" },
+    { "id": "b07", "chunks": ["He dropped out of", "college", "but later became", "very successful"], "vi": "Anh ấy bỏ học đại học nhưng sau đó đã trở nên rất thành công.", "grammarId": "g01" },
+    { "id": "b08", "chunks": ["I felt", "on top of the world", "when I heard", "the good news"], "vi": "Mình vui sướng vô cùng khi nghe tin tốt.", "grammarId": "g01" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I admire my teacher.",
+      "steps": [
+        { "askVi": "Thầy/cô dạy môn gì?", "ask": "Which teacher?", "add": "of literature" },
+        { "askVi": "Vì sao em ngưỡng mộ?", "ask": "Why?", "add": "because she never gives up on any student" }
+      ],
+      "full": "I admire my teacher of literature because she never gives up on any student."
+    },
+    {
+      "id": "x02",
+      "base": "My grandfather joined the army.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "when he was twenty" },
+        { "askVi": "Lúc đó gia đình đang làm gì?", "ask": "What was the family doing?", "add": "while my grandmother was looking after the children" }
+      ],
+      "full": "My grandfather joined the army when he was twenty, while my grandmother was looking after the children."
+    },
+    {
+      "id": "x03",
+      "base": "I was doing my homework.",
+      "steps": [
+        { "askVi": "Lúc mấy giờ?", "ask": "When?", "add": "at nine o'clock last night" },
+        { "askVi": "Chuyện gì xảy ra?", "ask": "What happened?", "add": "when the lights suddenly went out" }
+      ],
+      "full": "I was doing my homework at nine o'clock last night when the lights suddenly went out."
+    },
+    {
+      "id": "x04",
+      "base": "She wrote a diary.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "during the war" },
+        { "askVi": "Lúc đó cô ấy đang làm gì?", "ask": "What was she doing then?", "add": "while she was working in a field hospital" }
+      ],
+      "full": "She wrote a diary during the war while she was working in a field hospital."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Người trong gia đình mà em kính trọng",
+      "questions": [
+        "Which person in your family do you look up to most?",
+        "Who in your family has taught you the most important lessons?",
+        "Which older relative do you respect a lot, and what did they do?"
+      ],
+      "keywords": ["admire", "devote", "hard-working", "because"],
+      "exampleAnswer": "I look up to my grandmother. She raised five children alone and devoted her life to her family.",
+      "expectsReason": true
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Kỷ niệm tuổi thơ",
+      "questions": [
+        "What is one happy memory from your early childhood?",
+        "What games did you and your friends play when you were small?",
+        "Where did you spend most of your time as a young child?"
+      ],
+      "keywords": ["childhood", "when I was", "used to", "happy"],
+      "exampleAnswer": "When I was six, I often flew kites with my cousins in the fields near my grandparents' house.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Một việc bất ngờ xảy ra khi em đang làm gì đó",
+      "questions": [
+        "What were you doing when you last heard some really good news?",
+        "Tell me about a time something surprising happened while you were out.",
+        "What happened the last time your plans were suddenly interrupted?"
+      ],
+      "keywords": ["was doing", "when", "suddenly", "while"],
+      "exampleAnswer": "I was cooking dinner when my sister called. She told me she had passed her university exam.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Câu chuyện cuộc đời của một người nổi tiếng",
+      "questions": [
+        "Which famous person's life story do you find inspiring?",
+        "Whose biography would you like to read, and why?",
+        "Which historical figure from Viet Nam do you find interesting?"
+      ],
+      "keywords": ["biography", "inspiring", "achievement", "hero"],
+      "exampleAnswer": "I find Dang Thuy Tram's story inspiring because she devoted her youth to saving soldiers' lives.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Điều làm nên một người anh hùng",
+      "questions": [
+        "What makes someone a hero in your eyes?",
+        "Which qualities do you think heroes usually have?",
+        "Why do people admire heroes so much?"
+      ],
+      "keywords": ["brave", "devote", "help others", "admire"],
+      "exampleAnswer": "A hero is brave and helps others without expecting anything back, so people admire them.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What was your favourite place to play when you were a small child?", "keywords": ["childhood", "when I was", "often"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should students read about the lives of famous people? Why or why not?", "keywords": ["biography", "inspiring", "learn"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend has just won first prize in a writing contest. What do you say to her?", "keywords": ["fantastic", "happy for you", "good for you"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What did you usually do in the summer holidays when you were in primary school?", "keywords": ["childhood", "when I was", "usually"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should schools invite local heroes to talk to students? Why or why not?", "keywords": ["hero", "inspiring", "admire"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your cousin has just passed the university entrance exam. What do you say to him?", "keywords": ["amazing", "happy for you", "achievement"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Phỏng vấn cho báo tường",
+      "contextVi": "Báo tường của lớp có mục \"Người tôi ngưỡng mộ\". Một bạn trong ban biên tập phỏng vấn em về một người em ngưỡng mộ (người thân, thầy cô hoặc người nổi tiếng).",
+      "aiRole": "Hoa, a classmate who writes for the class wall newspaper",
+      "studentRoleVi": "Học sinh được phỏng vấn",
+      "goalVi": "Giới thiệu người em ngưỡng mộ, kể một việc người đó đã làm và nêu lý do em ngưỡng mộ.",
+      "goal": "Tell the interviewer about a person you admire, describe one thing they did in the past, and explain why you admire them.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu ít nhất một lý do (because...)", "words": [] },
+        { "kind": "example", "vi": "Kể một việc cụ thể người đó đã làm (quá khứ đơn)", "words": [] }
+      ],
+      "opener": "Hi! For our wall newspaper, I'm asking people about someone they admire. Who would you like to talk about?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Interesting! What did this person do that you remember most?",
+        "Why do you admire them so much?",
+        "Great. What have you learned from this person?"
+      ],
+      "tipsVi": ["Bắt đầu bằng \"I'd like to talk about...\"", "Kể việc đã qua bằng quá khứ đơn, thêm lý do với \"because\"."],
+      "keywords": ["admire", "because", "achievement", "devoted", "inspiring"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Người bình thường có đáng ngưỡng mộ?",
+      "contextVi": "Em và một bạn cùng lớp đang chọn người để viết bài \"Một tấm gương đáng ngưỡng mộ\". Em muốn viết về một người bình thường trong cộng đồng, còn bạn thì nghĩ chỉ người nổi tiếng mới đáng viết.",
+      "aiRole": "Tuan, a classmate who prefers writing about famous people",
+      "studentRoleVi": "Bạn cùng lớp muốn viết về một người bình thường",
+      "goalVi": "Thuyết phục Tuấn: nêu lý do, đưa ví dụ về việc người đó đã làm, và trả lời khi Tuấn phản đối.",
+      "goal": "Persuade Tuan to write about an ordinary person in your community: give a reason, an example of what they did, and answer his objection.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do người bình thường cũng đáng ngưỡng mộ", "words": [] },
+        { "kind": "example", "vi": "Kể một việc cụ thể người đó đã làm", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["admire", "hero", "devote", "achievement", "inspiring"] }
+      ],
+      "opener": "So, who should we write about? I think a famous person like a sports star is the best choice.",
+      "stance": "Ordinary people don't have big achievements, so readers won't find their stories interesting.",
+      "turns": 5,
+      "fallback": [
+        "Hmm, who do you have in mind? What did this person do?",
+        "But ordinary people don't have big achievements. Readers won't find the story interesting, will they?",
+        "OK, that's a fair point. Can you give me one more example of what this person did?",
+        "Alright, let's write about this person. What should our title be?"
+      ],
+      "tipsVi": ["Khi Tuấn phản đối, mở đầu bằng \"I see what you mean, but...\"", "Kể một việc cụ thể bằng quá khứ đơn để thuyết phục."],
+      "keywords": ["admire", "hero", "I see what you mean", "because", "for example"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Chọn nhân vật cho video của câu lạc bộ",
+      "contextVi": "Câu lạc bộ Lịch sử của trường làm video ngắn về cuộc đời một anh hùng dân tộc. Chủ nhiệm câu lạc bộ muốn chọn một nhân vật thật nổi tiếng; em có một đề xuất khác.",
+      "aiRole": "Linh, the leader of the school History Club",
+      "studentRoleVi": "Thành viên câu lạc bộ, người đề xuất nhân vật",
+      "goalVi": "Đề xuất một nhân vật, kể vài mốc chính trong cuộc đời người đó và trả lời băn khoăn của Linh.",
+      "goal": "Suggest a person for the club's video, tell some key events in their life, and answer Linh's concern.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra đề xuất (I suggest..., Why don't we...)", "words": [] },
+        { "kind": "reason", "vi": "Giải thích vì sao chọn người này", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["hero", "youth", "devote to", "biography", "achievement"] }
+      ],
+      "opener": "Hi! Our video needs a national hero. Who do you think we should choose?",
+      "stance": "Most students already know that person's story, so the video won't teach them anything new.",
+      "turns": 5,
+      "fallback": [
+        "Why do you think this person is a good choice?",
+        "But most students already know that story. The video won't teach them anything new, will it?",
+        "I see. Which part of their life should we show first?",
+        "Good idea. Let's start writing the script this week."
+      ],
+      "tipsVi": ["Kể các mốc chính bằng quá khứ đơn: was born, joined, became.", "Khi Linh lo, nêu một chi tiết ít người biết."],
+      "keywords": ["national hero", "youth", "devoted", "I suggest", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Giới thiệu một tấm gương Việt Nam cho bạn nước ngoài",
+      "contextVi": "Một học sinh trao đổi từ Úc hỏi em về một người Việt Nam mà em ngưỡng mộ. Em kể về cuộc đời người đó và trao đổi ý kiến với bạn.",
+      "aiRole": "Emma, an exchange student from Australia",
+      "studentRoleVi": "Học sinh Việt Nam giới thiệu một tấm gương",
+      "goalVi": "Kể về cuộc đời một người Việt Nam em ngưỡng mộ, nêu lý do, và trả lời khi Emma có ý kiến khác.",
+      "goal": "Tell Emma about the life of a Vietnamese person you admire, explain why, and respond to her different opinion.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do em ngưỡng mộ", "words": [] },
+        { "kind": "example", "vi": "Kể một sự việc trong cuộc đời người đó", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["admire", "youth", "hero", "achievement", "devote to", "childhood"] }
+      ],
+      "opener": "I'd love to learn about Viet Nam. Is there a Vietnamese person whose life story you really admire?",
+      "stance": "I think people from the past lived very different lives, so their stories aren't useful for teenagers today.",
+      "turns": 5,
+      "fallback": [
+        "That sounds interesting. What happened in this person's life?",
+        "But people from the past lived very different lives. Are their stories really useful for teenagers today?",
+        "Hmm, I hadn't thought of that. What lesson did you learn from this person?",
+        "Thanks for telling me. I'd like to read more about this person."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["admire", "hero", "youth", "because", "achievement"]
+    }
+  ]
+}

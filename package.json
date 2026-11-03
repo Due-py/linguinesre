@@ -12,6 +12,9 @@
     "content:check": "node scripts/check-content.mjs",
     "content:seed": "node scripts/seed-content.mjs",
     "content:approve": "node scripts/approve-content.mjs",
+    "module:check": "node scripts/check-modules.mjs",
+    "module:seed": "node scripts/seed-modules.mjs",
+    "module:approve": "node scripts/approve-module.mjs",
     "test:rls": "node scripts/test-rls.mjs",
     "test:sessions": "node scripts/test-sessions.mjs",
     "test:e2e": "node scripts/e2e-practice.mjs",
@@ -28,7 +31,8 @@
     "test:e2e-test": "node scripts/e2e-test.mjs",
     "test:e2e-modes": "node scripts/e2e-modes.mjs",
     "test:e2e-account": "node scripts/e2e-account.mjs",
-    "test:practice-lock": "node scripts/test-practice-lock.mjs"
+    "test:practice-lock": "node scripts/test-practice-lock.mjs",
+    "test:e2e-module": "node scripts/e2e-module.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

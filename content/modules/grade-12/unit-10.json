@@ -1,0 +1,355 @@
+{
+  "grade": 12,
+  "unit": 10,
+  "title": "Lifelong Learning",
+  "titleVi": "Học tập suốt đời",
+  "edition": "Tiếng Anh 12 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 128–139; Glossary tr. 155",
+  "vocab": [
+    { "id": "v01", "en": "lifelong learning", "vi": "học tập suốt đời", "ipa": "/ˌlaɪflɒŋ ˈlɜːnɪŋ/", "ipaFrom": "dictionary", "pos": "n", "example": "Lifelong learning helps people keep up with a changing world.", "collocations": ["lifelong learning habits", "a lifelong learner"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v02", "en": "acquire", "vi": "có được, đạt được", "ipa": "/əˈkwaɪə/", "ipaFrom": "glossary", "pos": "v", "example": "You can acquire new skills at any age.", "collocations": ["acquire knowledge", "acquire new skills"], "synonyms": ["gain", "get"], "antonyms": ["lose"], "src": { "kind": "sgk", "page": 155 } },
+    { "id": "v03", "en": "boost", "vi": "tăng cường, cải thiện", "ipa": "/buːst/", "ipaFrom": "glossary", "pos": "v", "example": "Learning a new language can boost your confidence.", "collocations": ["boost your confidence", "boost your career"], "synonyms": ["improve", "increase"], "antonyms": ["reduce"], "src": { "kind": "sgk", "page": 155 } },
+    { "id": "v04", "en": "broaden", "vi": "mở mang, mở rộng", "ipa": "/ˈbrɔːdn/", "ipaFrom": "glossary", "pos": "v", "example": "Travelling and reading broaden your knowledge of the world.", "collocations": ["broaden your horizons", "broaden your knowledge"], "synonyms": ["widen", "expand"], "antonyms": ["narrow"], "src": { "kind": "sgk", "page": 155 } },
+    { "id": "v05", "en": "widen", "vi": "mở rộng, tăng thêm", "ipa": "/ˈwaɪdn/", "ipaFrom": "glossary", "pos": "v", "example": "Online courses can widen your choice of subjects.", "collocations": ["widen your vocabulary", "widen your interests"], "synonyms": ["broaden"], "antonyms": ["narrow"], "src": { "kind": "sgk", "page": 155 } },
+    { "id": "v06", "en": "brush up", "vi": "ôn lại, học lại", "ipa": "/ˈbrʌʃ ʌp/", "ipaFrom": "glossary", "pos": "phr v", "example": "I need to brush up on my English before the trip.", "collocations": ["brush up on your English", "brush up on your skills"], "synonyms": ["revise", "review"], "antonyms": [], "src": { "kind": "sgk", "page": 155 } },
+    { "id": "v07", "en": "distance learning", "vi": "học từ xa", "ipa": "/ˌdɪstəns ˈlɜːnɪŋ/", "ipaFrom": "glossary", "pos": "n", "example": "Distance learning lets my aunt study while she works.", "collocations": ["a distance learning course"], "synonyms": ["online learning", "remote learning"], "antonyms": ["face-to-face learning"], "src": { "kind": "sgk", "page": 155 } },
+    { "id": "v08", "en": "adult education", "vi": "giáo dục cho người lớn", "ipa": "/ˌædʌlt edʒuˈkeɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "The city offers adult education classes in computer skills.", "collocations": ["adult education classes", "adult education centre"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 155 } },
+    { "id": "v09", "en": "night school", "vi": "lớp học buổi tối (dành cho người lớn)", "ipa": "/ˈnaɪt skuːl/", "ipaFrom": "glossary", "pos": "n", "example": "My uncle went to night school to learn accounting.", "collocations": ["go to night school", "attend night school"], "synonyms": ["evening classes"], "antonyms": [], "src": { "kind": "sgk", "page": 155 } },
+    { "id": "v10", "en": "well-rounded", "vi": "được phát triển một cách toàn diện", "ipa": "/ˌwel ˈraʊndɪd/", "ipaFrom": "glossary", "pos": "adj", "example": "Sports and art help students become well-rounded people.", "collocations": ["a well-rounded person", "a well-rounded education"], "synonyms": ["all-round"], "antonyms": ["one-sided"], "src": { "kind": "sgk", "page": 155 } },
+    { "id": "v11", "en": "determination", "vi": "sự quyết tâm", "ipa": "/dɪˌtɜːmɪˈneɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "With determination, she finished her degree at the age of 60.", "collocations": ["strong determination", "with determination"], "synonyms": ["willpower"], "antonyms": [], "src": { "kind": "sgk", "page": 155 } },
+    { "id": "v12", "en": "distraction", "vi": "sự phân tâm, sự sao lãng", "ipa": "/dɪˈstrækʃn/", "ipaFrom": "glossary", "pos": "n", "example": "My phone is the biggest distraction when I study.", "collocations": ["avoid distractions", "a big distraction"], "synonyms": [], "antonyms": ["focus"], "src": { "kind": "sgk", "page": 155 } },
+    { "id": "v13", "en": "informed", "vi": "có kiến thức về, có hiểu biết", "ipa": "/ɪnˈfɔːmd/", "ipaFrom": "glossary", "pos": "adj", "example": "Reading the news helps you stay informed.", "collocations": ["stay informed", "make informed decisions"], "synonyms": ["knowledgeable"], "antonyms": ["uninformed"], "src": { "kind": "sgk", "page": 155 } },
+    { "id": "v14", "en": "relevant", "vi": "phù hợp, thích hợp", "ipa": "/ˈreləvənt/", "ipaFrom": "glossary", "pos": "adj", "example": "Choose courses that are relevant to your job.", "collocations": ["relevant to", "relevant skills"], "synonyms": ["suitable"], "antonyms": ["irrelevant"], "src": { "kind": "sgk", "page": 155 } },
+    { "id": "v15", "en": "maintain", "vi": "duy trì, giữ được", "ipa": "/meɪnˈteɪn/", "ipaFrom": "glossary", "pos": "v", "example": "Doing puzzles helps older people maintain a good memory.", "collocations": ["maintain your skills", "maintain good health"], "synonyms": ["keep"], "antonyms": ["lose"], "src": { "kind": "sgk", "page": 155 } },
+    { "id": "v16", "en": "hardship", "vi": "sự khó khăn, vất vả", "ipa": "/ˈhɑːdʃɪp/", "ipaFrom": "glossary", "pos": "n", "example": "He kept studying in spite of many hardships.", "collocations": ["face hardship", "overcome hardships"], "synonyms": ["difficulty"], "antonyms": [], "src": { "kind": "sgk", "page": 155 } },
+    { "id": "v17", "en": "complex", "vi": "phức tạp", "ipa": "/ˈkɒmpleks/", "ipaFrom": "glossary", "pos": "adj", "example": "Some online courses explain complex ideas very simply.", "collocations": ["complex problems", "complex skills"], "synonyms": ["complicated"], "antonyms": ["simple"], "src": { "kind": "sgk", "page": 155 } },
+    { "id": "v18", "en": "wonder", "vi": "thắc mắc, băn khoăn", "ipa": "/ˈwʌndə/", "ipaFrom": "glossary", "pos": "v", "example": "I often wonder how planes stay in the air.", "collocations": ["wonder why", "wonder how"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 155 } },
+    { "id": "v19", "en": "martial art", "vi": "võ thuật", "ipa": "/ˌmɑːʃl ˈɑːt/", "ipaFrom": "glossary", "pos": "n", "example": "My dad started learning a martial art at the age of 40.", "collocations": ["learn a martial art", "practise martial arts"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 155 } },
+    { "id": "v20", "en": "self-motivated", "vi": "tự tạo động lực", "ipa": "/ˌself ˈməʊtɪveɪtɪd/", "ipaFrom": "dictionary", "pos": "adj", "example": "Lifelong learners are self-motivated and curious.", "collocations": ["self-motivated learning", "a self-motivated learner"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Reported speech: orders and requests",
+      "nameVi": "Câu tường thuật: mệnh lệnh và yêu cầu",
+      "explainVi": "Khi thuật lại mệnh lệnh hoặc lời nhờ, dùng động từ tường thuật (tell, ask, order, remind, warn...) + người nghe + to V. Mệnh lệnh phủ định dùng not to V. Không giữ dấu ngoặc kép và đổi đại từ cho phù hợp.",
+      "formula": "S + told/asked/ordered/reminded + O + (not) to V",
+      "examples": [
+        "\"Turn off your phones,\" the teacher said. → The teacher told us to turn off our phones.",
+        "\"Could you help me with this app?\" Grandma asked me. → Grandma asked me to help her with the app.",
+        "\"Don't be late,\" Mum said to me. → Mum told me not to be late."
+      ],
+      "wrong": [
+        { "sentence": "The teacher told us don't use our phones.", "fix": "The teacher told us not to use our phones.", "whyVi": "Mệnh lệnh phủ định khi tường thuật dùng not to V, không dùng don't." },
+        { "sentence": "My mum asked me that I clean my room.", "fix": "My mum asked me to clean my room.", "whyVi": "Thuật lại lời nhờ: asked + người + to V." }
+      ],
+      "drills": [
+        { "prompt": "\"Sit down, please,\" the coach said to us. → The coach told us ___ down.", "options": ["to sit", "sit", "sitting"], "answer": 0, "explainVi": "told + người + to V: told us to sit down." },
+        { "prompt": "\"Don't stay up late,\" Dad said. → Dad told me ___ up late.", "options": ["not to stay", "to not stayed", "don't stay"], "answer": 0, "explainVi": "Phủ định: not to V." },
+        { "prompt": "\"Can you lend me your notes?\" Lan asked me. → Lan asked me ___ her my notes.", "options": ["to lend", "lend", "lending"], "answer": 0, "explainVi": "asked + người + to V: asked me to lend her my notes." }
+      ],
+      "errorTag": "verb_form",
+      "src": { "kind": "sgk", "page": 131 }
+    },
+    {
+      "id": "g02",
+      "name": "Reported speech: offers and advice",
+      "nameVi": "Câu tường thuật: lời đề nghị và lời khuyên",
+      "explainVi": "Lời khuyên, động viên: advise / encourage / persuade + người + to V. Lời đề nghị giúp, đồng ý: offer / agree / propose + to V, KHÔNG có người nghe ở giữa (không nói offered me to...).",
+      "formula": "S + advised/encouraged + O + to V  ·  S + offered/agreed + to V",
+      "examples": [
+        "\"You should join an English club,\" my teacher said. → My teacher advised me to join an English club.",
+        "\"I'll teach you to swim,\" my uncle said. → My uncle offered to teach me to swim.",
+        "My parents agreed to pay for my online course."
+      ],
+      "wrong": [
+        { "sentence": "My brother offered me to drive me to school.", "fix": "My brother offered to drive me to school.", "whyVi": "offer + to V, không có người nghe đứng ngay sau offer." },
+        { "sentence": "The doctor advised my grandpa keep his brain active.", "fix": "The doctor advised my grandpa to keep his brain active.", "whyVi": "advise + người + to V: cần có \"to\"." }
+      ],
+      "drills": [
+        { "prompt": "\"I'll help you with your project,\" Minh said. → Minh ___ to help me with my project.", "options": ["offered", "advised", "told"], "answer": 0, "explainVi": "Lời đề nghị giúp đỡ: offered to help." },
+        { "prompt": "\"You should read more books,\" my teacher said. → My teacher advised me ___ more books.", "options": ["to read", "read", "reading"], "answer": 0, "explainVi": "advised + người + to V: advised me to read." },
+        { "prompt": "Which sentence is correct?", "options": ["Mai's parents agreed to pay for the course.", "Mai's parents agreed her to pay for the course.", "Mai's parents agreed paying for the course."], "answer": 0, "explainVi": "agree + to V, không có tân ngữ ở giữa." }
+      ],
+      "errorTag": "verb_form",
+      "src": { "kind": "sgk", "page": 131 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "intonation",
+      "focus": "Ngữ điệu câu hỏi Yes/No và câu hỏi Wh-",
+      "tipVi": "Câu hỏi Yes/No lên giọng ở cuối câu. Câu hỏi Wh- (What, Where, Why, How...) xuống giọng ở cuối câu.",
+      "words": ["Do you study online? ↗", "Is the course free? ↗", "What are you learning? ↘", "Why did you choose it? ↘"],
+      "sentence": "What would you like to learn next year?",
+      "quiz": [
+        { "prompt": "Which question usually has RISING intonation at the end?", "options": ["Are you free on Sunday?", "Where do you study?", "What time does the class start?"], "answer": 0, "explainVi": "Câu hỏi Yes/No (Are you...?) lên giọng ở cuối; câu hỏi Wh- xuống giọng." },
+        { "prompt": "A Wh-question usually ends with ...", "options": ["falling intonation", "rising intonation"], "answer": 0, "explainVi": "Câu hỏi Wh- thường xuống giọng ở cuối câu." }
+      ],
+      "src": { "kind": "sgk", "page": 130 }
+    },
+    {
+      "id": "p02",
+      "kind": "intonation",
+      "focus": "Ngữ điệu câu hỏi lựa chọn và câu hỏi đuôi",
+      "tipVi": "Câu hỏi lựa chọn: lên giọng ở lựa chọn trước \"or\", xuống giọng ở cuối câu. Câu hỏi đuôi: xuống giọng khi gần như chắc chắn câu trả lời; lên giọng khi không chắc.",
+      "words": ["Online ↗ or face-to-face? ↘", "It's useful, isn't it? ↘", "You've done it before, haven't you? ↗"],
+      "sentence": "Do you prefer books or videos?",
+      "quiz": [
+        { "prompt": "In a choice question, the voice at the very end of the sentence usually ...", "options": ["falls", "rises"], "answer": 0, "explainVi": "Câu hỏi lựa chọn lên giọng ở từng lựa chọn trước \"or\" và xuống giọng ở cuối câu." },
+        { "prompt": "You are almost sure of the answer: \"It's easy, isn't it?\" The tag \"isn't it\" ...", "options": ["falls", "rises"], "answer": 0, "explainVi": "Khi gần như chắc chắn, câu hỏi đuôi xuống giọng." }
+      ],
+      "src": { "kind": "sgk", "page": 130 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "relevant, broaden, hardship, complex nhấn âm đầu; acquire, distraction, maintain, informed nhấn âm thứ hai; determination nhấn âm thứ tư.",
+      "words": ["relevant", "broaden", "hardship", "acquire", "distraction", "maintain", "informed", "determination"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["relevant", "acquire", "maintain"], "answer": 0, "explainVi": "relevant /ˈreləvənt/ nhấn âm đầu." },
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["distraction", "broaden", "hardship"], "answer": 0, "explainVi": "distraction /dɪˈstrækʃn/ nhấn âm thứ hai." }
+      ],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "I can't thank you enough for ...", "vi": "Mình cảm ơn bạn ... nhiều lắm.", "useVi": "Khi cảm ơn rất chân thành, trang trọng.", "example": "I can't thank you enough for helping me with my English.", "src": { "kind": "sgk", "page": 137 } },
+    { "id": "e02", "en": "I'm really grateful for ...", "vi": "Mình thật sự biết ơn vì ...", "useVi": "Khi bày tỏ lòng biết ơn một cách trang trọng.", "example": "I'm really grateful for your advice about the course.", "src": { "kind": "sgk", "page": 137 } },
+    { "id": "e03", "en": "I really appreciate it.", "vi": "Mình rất trân trọng điều đó.", "useVi": "Khi cảm ơn ai đó đã giúp mình.", "example": "Thanks for lending me your notes. I really appreciate it.", "src": { "kind": "sgk", "page": 137 } },
+    { "id": "e04", "en": "Thanks a million!", "vi": "Cảm ơn rất nhiều!", "useVi": "Khi cảm ơn bạn bè một cách thân mật.", "example": "You fixed my laptop? Thanks a million!", "src": { "kind": "sgk", "page": 137 } },
+    { "id": "e05", "en": "It's my pleasure. / My pleasure.", "vi": "Rất hân hạnh.", "useVi": "Khi đáp lại lời cảm ơn một cách trang trọng.", "example": "It's my pleasure. I'm glad the class was useful.", "src": { "kind": "sgk", "page": 137 } },
+    { "id": "e06", "en": "Don't mention it.", "vi": "Không có gì đâu.", "useVi": "Khi đáp lại lời cảm ơn của bạn bè.", "example": "Don't mention it. I'm happy to help.", "src": { "kind": "sgk", "page": 137 } },
+    { "id": "e07", "en": "No problem. / Glad to help.", "vi": "Không vấn đề gì. / Rất vui được giúp.", "useVi": "Khi đáp lại lời cảm ơn một cách thân mật.", "example": "No problem. Glad to help!", "src": { "kind": "sgk", "page": 137 } },
+    { "id": "e08", "en": "Thank you for inviting me to ...", "vi": "Cảm ơn bạn đã mời mình ...", "useVi": "Khi cảm ơn ai đó đã mời mình tham gia.", "example": "Thank you for inviting me to the coding club.", "src": { "kind": "sgk", "page": 136 } },
+    { "id": "e09", "en": "My teacher advised me to ...", "vi": "Thầy/cô khuyên mình nên ...", "useVi": "Khi thuật lại một lời khuyên mình đã nhận.", "example": "My teacher advised me to read English news every day.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "It's never too late to ...", "vi": "Không bao giờ là quá muộn để ...", "useVi": "Khi động viên ai đó bắt đầu học điều mới.", "example": "It's never too late to learn a new language.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "I'd like to learn ... because ...", "vi": "Mình muốn học ... vì ...", "useVi": "Khi nói về kỹ năng mình muốn học và lý do.", "example": "I'd like to learn photography because I love travelling.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["My teacher", "told me", "to read", "for 30 minutes", "every day"], "vi": "Thầy giáo bảo mình đọc sách 30 phút mỗi ngày.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["My mum", "asked me", "not to use", "my phone", "while studying"], "vi": "Mẹ dặn mình không dùng điện thoại khi học.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["My brother", "offered", "to teach me", "how to swim"], "vi": "Anh trai mình đề nghị dạy mình bơi.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["The doctor", "advised my grandpa", "to keep", "his brain active"], "vi": "Bác sĩ khuyên ông mình giữ cho đầu óc luôn hoạt động.", "grammarId": "g02" },
+    { "id": "b05", "chunks": ["Lifelong learning", "helps people", "become", "well-rounded"], "vi": "Học tập suốt đời giúp con người phát triển toàn diện.", "grammarId": null },
+    { "id": "b06", "chunks": ["I want to", "brush up on", "my English", "before the summer course"], "vi": "Mình muốn ôn lại tiếng Anh trước khoá học hè.", "grammarId": null },
+    { "id": "b07", "chunks": ["Distance learning", "requires", "strong determination", "and self-discipline"], "vi": "Học từ xa đòi hỏi quyết tâm cao và tính tự giác.", "grammarId": null },
+    { "id": "b08", "chunks": ["Our coach", "encouraged us", "to keep practising", "after the match"], "vi": "Huấn luyện viên động viên chúng mình tiếp tục luyện tập sau trận đấu.", "grammarId": "g02" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I want to learn to cook.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "this summer" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because I want to help my parents" }
+      ],
+      "full": "I want to learn to cook this summer because I want to help my parents."
+    },
+    {
+      "id": "x02",
+      "base": "My grandma takes classes.",
+      "steps": [
+        { "askVi": "Lớp gì?", "ask": "What kind?", "add": "online English" },
+        { "askVi": "Bao lâu một lần?", "ask": "How often?", "add": "twice a week" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because she wants to talk to her grandchildren abroad" }
+      ],
+      "full": "My grandma takes online English classes twice a week because she wants to talk to her grandchildren abroad."
+    },
+    {
+      "id": "x03",
+      "base": "My teacher advised me to read more.",
+      "steps": [
+        { "askVi": "Đọc gì?", "ask": "What?", "add": "English books" },
+        { "askVi": "Để làm gì?", "ask": "What for?", "add": "to widen my vocabulary" }
+      ],
+      "full": "My teacher advised me to read more English books to widen my vocabulary."
+    },
+    {
+      "id": "x04",
+      "base": "Learning new things is good.",
+      "steps": [
+        { "askVi": "Tốt cho ai?", "ask": "For whom?", "add": "for people of all ages" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it keeps the brain active" }
+      ],
+      "full": "Learning new things is good for people of all ages because it keeps the brain active."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Điều em muốn học ngoài trường",
+      "questions": [
+        "What would you like to learn outside school?",
+        "Which hobby or skill would you like to try next?",
+        "What is something new you hope to learn soon?"
+      ],
+      "keywords": ["acquire", "martial art", "I'd like to learn", "skill"],
+      "exampleAnswer": "I'd like to learn a martial art because it keeps me fit and helps me feel more confident.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Cách em tự học",
+      "questions": [
+        "How do you usually learn new things on your own?",
+        "Which ways of learning work best for you?",
+        "Do you prefer learning from videos, books or people?"
+      ],
+      "keywords": ["online course", "videos", "practise", "self-motivated"],
+      "exampleAnswer": "I usually watch short videos and then practise by myself, because I learn best by doing.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Lợi ích của việc học suốt đời",
+      "questions": [
+        "What are the benefits of learning throughout your life?",
+        "How can learning new things help adults at work?",
+        "Why should people keep learning after they leave school?"
+      ],
+      "keywords": ["boost", "broaden", "informed", "relevant"],
+      "exampleAnswer": "Learning throughout life keeps our skills relevant, boosts our confidence and helps us stay informed.",
+      "expectsReason": true
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Khó khăn khi tiếp tục học",
+      "questions": [
+        "What makes it hard for adults to keep learning?",
+        "What problems do people face when they study online?",
+        "Why do some people give up learning new skills?"
+      ],
+      "keywords": ["distraction", "time", "determination", "hardship"],
+      "exampleAnswer": "Adults are often busy with work and family, and online there are many distractions, so they need strong determination.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Lời khuyên em đã nhận về việc học",
+      "questions": [
+        "What advice have your parents given you about studying?",
+        "What did your teachers tell you to do before exams?",
+        "What have older people encouraged you to learn?"
+      ],
+      "keywords": ["advised me to", "told me to", "encouraged me to", "asked me not to"],
+      "exampleAnswer": "My parents advised me to make a study plan, and they told me not to stay up too late before exams.",
+      "expectsReason": false
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What is the most interesting thing you have learned outside the classroom?", "keywords": ["learned", "online", "practise"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should older people learn to use smartphones and the Internet? Why or why not?", "keywords": ["stay informed", "family", "lifelong learning"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend says she is too old to start learning the piano at seventeen. What do you say to her?", "keywords": ["never too late", "practise", "determination"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What new skill did you learn last year, and how did you learn it?", "keywords": ["skill", "video", "teacher"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should companies pay for their workers to take new courses? Why or why not?", "keywords": ["relevant", "skills", "boost"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your uncle wants to learn English but says he has no time after work. What do you say to him?", "keywords": ["distance learning", "app", "a few minutes"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Kế hoạch học kỹ năng mới dịp hè",
+      "contextVi": "Sắp đến kỳ nghỉ hè. Bạn cùng lớp hỏi em định học thêm kỹ năng gì và học như thế nào.",
+      "aiRole": "Lan, a classmate who is planning her summer",
+      "studentRoleVi": "Bạn cùng lớp, người kể về kế hoạch học hè",
+      "goalVi": "Kể một kỹ năng em muốn học, nói em sẽ học thế nào và vì sao.",
+      "goal": "Talk about one skill you want to learn this summer, how you will learn it, and why.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do em muốn học (because...)", "words": [] },
+        { "kind": "example", "vi": "Nói cụ thể cách học (khoá học, video, người dạy)", "words": [] }
+      ],
+      "opener": "Summer is almost here! Are you going to learn anything new this summer?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "That sounds fun! Why did you choose it?",
+        "How are you going to learn it?",
+        "Nice. Maybe I can join you sometimes!"
+      ],
+      "tipsVi": ["Mở đầu bằng \"I'd like to learn ... because ...\"", "Nói rõ cách học: online course, night school, a tutor, videos."],
+      "keywords": ["I'd like to learn", "online course", "because", "acquire"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Học trực tuyến có phải học thật?",
+      "contextVi": "Bạn em cho rằng học qua khoá học trực tuyến không có giá trị, phải có giáo viên trên lớp mới học được. Em có ý kiến khác.",
+      "aiRole": "Duc, a classmate who doesn't trust online courses",
+      "studentRoleVi": "Bạn cùng lớp đang học một khoá trực tuyến",
+      "goalVi": "Giải thích lợi ích của học trực tuyến, đưa ví dụ, và trả lời khi Đức phản đối.",
+      "goal": "Explain the benefits of online courses, give an example, and answer Duc's objection politely.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["distance learning", "self-motivated", "determination", "distraction", "acquire"] }
+      ],
+      "opener": "You're taking an online course? You can't really learn anything without a real teacher.",
+      "stance": "You can't really learn anything from online courses. You need a real teacher.",
+      "turns": 5,
+      "fallback": [
+        "Really? What's so good about it?",
+        "But you can't really learn from online courses. You need a real teacher, don't you?",
+        "Hmm. Isn't it easy to get distracted at home?",
+        "OK, maybe I'll try a free course and see."
+      ],
+      "tipsVi": ["Khi Đức phản đối, mở đầu bằng \"I see your point, but...\"", "Nêu cách tránh sao lãng: tắt điện thoại, lập lịch học."],
+      "keywords": ["distance learning", "self-motivated", "I see your point", "because"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Dạy bà gọi video",
+      "contextVi": "Bà của em muốn gọi video cho cô ở nước ngoài nhưng ngại học dùng điện thoại thông minh. Em động viên và đề nghị dạy bà.",
+      "aiRole": "Grandma, a kind grandmother who is nervous about technology",
+      "studentRoleVi": "Cháu của bà",
+      "goalVi": "Động viên bà học, đề nghị giúp, và trả lời khi bà nói mình đã quá già.",
+      "goal": "Encourage your grandmother to learn, offer to help her, and answer her worry that she is too old.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề nghị cách học hoặc cách giúp bà", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do bà nên học", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["never too late", "lifelong learning", "maintain", "acquire", "informed"] }
+      ],
+      "opener": "Your aunt wants to video call me every week, but these smartphones are so hard to use.",
+      "stance": "I'm too old to learn new things. My memory isn't good any more.",
+      "turns": 5,
+      "fallback": [
+        "Do you really think I can learn it?",
+        "But I'm too old to learn new things. My memory isn't good any more.",
+        "Hmm. How long will it take me?",
+        "All right, dear. Let's start this weekend."
+      ],
+      "tipsVi": ["Nói nhẹ nhàng, lễ phép: \"Don't worry, Grandma...\"", "Chia nhỏ các bước: mở ứng dụng, chọn tên, bấm nút gọi."],
+      "keywords": ["never too late", "I'll show you", "step by step", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Có việc rồi thì còn cần học?",
+      "contextVi": "Bác hàng xóm mở một tiệm bánh nhỏ. Bác nói đã có nghề ổn định nên không cần học thêm gì nữa. Em trò chuyện với bác về việc học tập suốt đời.",
+      "aiRole": "Mr Tam, a neighbour who runs a small bakery",
+      "studentRoleVi": "Học sinh lớp 12, hàng xóm của bác Tâm",
+      "goalVi": "Gợi ý một điều bác có thể học, nêu lợi ích, và trả lời khi bác có ý kiến khác.",
+      "goal": "Suggest something Mr Tam could learn, explain the benefit, and respond to his different opinion.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Gợi ý một kỹ năng hoặc khoá học", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["lifelong learning", "relevant", "boost", "acquire", "distance learning", "adult education"] }
+      ],
+      "opener": "Hello! I heard you're finishing school soon. Are you happy to stop studying at last?",
+      "stance": "Once you have a stable job, you don't need to study any more.",
+      "turns": 5,
+      "fallback": [
+        "Really? But what about after you get a job?",
+        "Well, I think once you have a stable job, you don't need to study any more.",
+        "Hmm. What could someone like me learn?",
+        "Maybe you're right. I'll think about it."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["lifelong learning", "relevant", "boost", "because"]
+    }
+  ]
+}

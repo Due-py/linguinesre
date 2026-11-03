@@ -1,0 +1,353 @@
+{
+  "grade": 7,
+  "unit": 11,
+  "title": "Travelling in the Future",
+  "titleVi": "Đi lại trong tương lai",
+  "edition": "Tiếng Anh 7 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 114–123; Glossary tr. 139",
+  "vocab": [
+    { "id": "v01", "en": "mode of travel", "vi": "phương thức đi lại", "ipa": "/məʊd əv ˈtrævl/", "ipaFrom": "glossary", "pos": "n phr", "example": "The bicycle is my favourite mode of travel.", "collocations": ["a new mode of travel", "a future mode of travel"], "synonyms": ["means of transport"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v02", "en": "driverless", "vi": "không người lái", "ipa": "/ˈdraɪvələs/", "ipaFrom": "glossary", "pos": "adj", "example": "Driverless cars can take you home without a driver.", "collocations": ["a driverless car", "a driverless bus"], "synonyms": ["self-driving"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v03", "en": "eco-friendly", "vi": "thân thiện với môi trường", "ipa": "/ˌiːkəʊ ˈfrendli/", "ipaFrom": "glossary", "pos": "adj", "example": "Electric buses are more eco-friendly than petrol buses.", "collocations": ["an eco-friendly vehicle"], "synonyms": ["green"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v04", "en": "convenient", "vi": "thuận tiện, tiện lợi", "ipa": "/kənˈviːniənt/", "ipaFrom": "glossary", "pos": "adj", "example": "The metro is convenient because it stops near my school.", "collocations": ["very convenient", "convenient to use"], "synonyms": ["handy"], "antonyms": ["inconvenient"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v05", "en": "comfortable", "vi": "thoải mái, đủ tiện nghi", "ipa": "/ˈkʌmftəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "The seats in the new train are very comfortable.", "collocations": ["comfortable seats"], "synonyms": [], "antonyms": ["uncomfortable"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v06", "en": "economical", "vi": "tiết kiệm nhiên liệu", "ipa": "/ˌiːkəˈnɒmɪkl/", "ipaFrom": "glossary", "pos": "adj", "example": "My dad wants an economical car that uses little fuel.", "collocations": ["an economical car"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v07", "en": "fume", "vi": "khói", "ipa": "/fjuːm/", "ipaFrom": "glossary", "pos": "n", "example": "Fumes from motorbikes make the air dirty.", "collocations": ["produce fumes", "car fumes"], "synonyms": ["smoke"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v08", "en": "run on", "vi": "chạy bằng (nhiên liệu nào)", "ipa": "/rʌn ɒn/", "ipaFrom": "glossary", "pos": "phr v", "example": "This scooter runs on electricity.", "collocations": ["run on electricity", "run on solar energy"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v09", "en": "solar-powered", "vi": "chạy bằng năng lượng mặt trời", "ipa": "/ˌsəʊlə-ˈpaʊəd/", "ipaFrom": "glossary", "pos": "adj", "example": "A solar-powered boat doesn't need petrol.", "collocations": ["a solar-powered ship", "a solar-powered bus"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v10", "en": "bamboo-copter", "vi": "chong chóng tre", "ipa": "/ˌbæmˈbuː-ˈkɒptə(r)/", "ipaFrom": "glossary", "pos": "n", "example": "With a bamboo-copter on your head, you can fly to school.", "collocations": ["fly with a bamboo-copter"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v11", "en": "hyperloop", "vi": "hệ thống giao thông tốc độ cao", "ipa": "/ˈhaɪpəluːp/", "ipaFrom": "glossary", "pos": "n", "example": "A hyperloop will take people between cities in minutes.", "collocations": ["travel by hyperloop"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v12", "en": "teleporter", "vi": "phương tiện di chuyển tức thời", "ipa": "/ˈtelɪpɔːtə/", "ipaFrom": "glossary", "pos": "n", "example": "With a teleporter, you could appear in Paris in a second.", "collocations": ["travel by teleporter"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v13", "en": "autopilot", "vi": "lái tự động", "ipa": "/ˈɔːtəʊpaɪlət/", "ipaFrom": "glossary", "pos": "adj, n", "example": "The plane flies on autopilot for most of the trip.", "collocations": ["on autopilot", "an autopilot car"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v14", "en": "skyTran", "vi": "hệ thống tàu điện trên không", "ipa": "/skaɪtræn/", "ipaFrom": "glossary", "pos": "n", "example": "A skyTran runs above the streets, so there are no traffic jams.", "collocations": ["take a skyTran"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v15", "en": "solowheel", "vi": "phương tiện tự hành cá nhân 1 bánh", "ipa": "/ˈsəʊləʊwiːl/", "ipaFrom": "glossary", "pos": "n", "example": "A solowheel has only one wheel and runs on electricity.", "collocations": ["ride a solowheel"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v16", "en": "walkcar", "vi": "ô tô tự hành dùng chân", "ipa": "/wɔːkkɑː/", "ipaFrom": "glossary", "pos": "n", "example": "A walkcar is small enough to carry in your bag.", "collocations": ["ride a walkcar"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v17", "en": "pedal", "vi": "đạp (xe đạp)", "ipa": "/ˈpedl/", "ipaFrom": "glossary", "pos": "v", "example": "You have to pedal hard to go up the hill.", "collocations": ["pedal a bike"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v18", "en": "sail", "vi": "lướt buồm", "ipa": "/seɪl/", "ipaFrom": "glossary", "pos": "v", "example": "In the future, ships will sail using wind and sun.", "collocations": ["sail across the sea"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v19", "en": "appear", "vi": "xuất hiện", "ipa": "/əˈpɪə(r)/", "ipaFrom": "glossary", "pos": "v", "example": "With a teleporter, you disappear here and appear in another city.", "collocations": ["appear in seconds"], "synonyms": [], "antonyms": ["disappear"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v20", "en": "disappear", "vi": "biến mất", "ipa": "/ˌdɪsəˈpɪə/", "ipaFrom": "glossary", "pos": "v", "example": "I think petrol cars will disappear one day.", "collocations": ["disappear from the roads"], "synonyms": [], "antonyms": ["appear"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v21", "en": "flying car", "vi": "ô tô bay", "ipa": "/ˌflaɪɪŋ ˈkɑː/", "ipaFrom": "dictionary", "pos": "n", "example": "A flying car could fly over traffic jams.", "collocations": ["travel by flying car"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 116 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "The future simple",
+      "nameVi": "Thì tương lai đơn",
+      "explainVi": "Dùng will + động từ nguyên mẫu để nói về việc sẽ làm trong tương lai hoặc để dự đoán. Phủ định là won't (will not). Câu hỏi: Will + chủ ngữ + V? Trả lời: Yes, I will. / No, I won't. Sau will không thêm -s, không dùng to.",
+      "formula": "S + will / won't + V (nguyên mẫu)  ·  Will + S + V?",
+      "examples": [
+        "I think people will travel by flying car in the future.",
+        "Driverless buses won't need drivers.",
+        "Will you ride a solowheel? No, I won't. It looks difficult."
+      ],
+      "wrong": [
+        { "sentence": "In the future, people travel by hyperloop.", "fix": "In the future, people will travel by hyperloop.", "whyVi": "Dự đoán tương lai cần will trước động từ." },
+        { "sentence": "Flying cars will makes traffic better.", "fix": "Flying cars will make traffic better.", "whyVi": "Sau will, động từ ở dạng nguyên mẫu: make." },
+        { "sentence": "I will to buy an electric car.", "fix": "I will buy an electric car.", "whyVi": "Sau will không có \"to\"." }
+      ],
+      "drills": [
+        { "prompt": "In the future, people ___ by flying car.", "options": ["will travel", "will travels", "travelling"], "answer": 0, "explainVi": "will + động từ nguyên mẫu: will travel." },
+        { "prompt": "Petrol cars are not eco-friendly, so they ___ be popular.", "options": ["won't", "will", "don't"], "answer": 0, "explainVi": "Không thân thiện môi trường nên sẽ KHÔNG phổ biến: won't." },
+        { "prompt": "___ we have driverless buses in ten years?", "options": ["Will", "Do", "Are"], "answer": 0, "explainVi": "Câu hỏi về tương lai: Will + chủ ngữ + V?" }
+      ],
+      "errorTag": "verb_tense",
+      "src": { "kind": "sgk", "page": 117 }
+    },
+    {
+      "id": "g02",
+      "name": "Possessive pronouns",
+      "nameVi": "Đại từ sở hữu",
+      "explainVi": "Đại từ sở hữu (mine, yours, his, hers, ours, theirs) thay cho \"tính từ sở hữu + danh từ\" để không lặp lại danh từ: my bike → mine, her helmet → hers. Sau đại từ sở hữu KHÔNG có danh từ.",
+      "formula": "my + N = mine · your + N = yours · his + N = his · her + N = hers · our + N = ours · their + N = theirs",
+      "examples": [
+        "This helmet is mine, and that one is yours.",
+        "Our bus is late, but theirs is on time.",
+        "My dream car is blue. Hers is red."
+      ],
+      "wrong": [
+        { "sentence": "This bike is my.", "fix": "This bike is mine.", "whyVi": "Đứng một mình (không có danh từ theo sau) thì dùng mine, không dùng my." },
+        { "sentence": "That bag is hers bag.", "fix": "That bag is hers.", "whyVi": "Sau đại từ sở hữu không có danh từ; hoặc nói \"her bag\"." }
+      ],
+      "drills": [
+        { "prompt": "This helmet is my helmet. → This helmet is ___.", "options": ["mine", "my", "me"], "answer": 0, "explainVi": "my helmet = mine." },
+        { "prompt": "Is this their car? – Yes, it's ___.", "options": ["theirs", "their", "them"], "answer": 0, "explainVi": "their car = theirs." },
+        { "prompt": "Which sentence is correct?", "options": ["That bag is her.", "That bag is hers.", "That bag is she's."], "answer": 1, "explainVi": "her bag = hers." }
+      ],
+      "errorTag": "pronoun",
+      "src": { "kind": "sgk", "page": 118 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sentence_stress",
+      "focus": "Trọng âm câu",
+      "tipVi": "Trong câu, ta thường nhấn các từ mang nghĩa: danh từ, động từ chính, tính từ, trạng từ và trợ động từ phủ định (won't, don't). Không nhấn giới từ, đại từ, mạo từ và trợ động từ (will, can...).",
+      "words": ["cars", "travel", "future", "faster", "won't", "don't"],
+      "sentence": "We won't need petrol cars in the future.",
+      "quiz": [
+        { "prompt": "In \"I will go by car.\", which word is usually NOT stressed?", "options": ["will", "go", "car"], "answer": 0, "explainVi": "will là trợ động từ nên thường không nhấn; go (động từ chính) và car (danh từ) được nhấn." },
+        { "prompt": "Which word is usually stressed in a sentence?", "options": ["won't", "the", "by"], "answer": 0, "explainVi": "Trợ động từ phủ định như won't được nhấn; mạo từ the và giới từ by thì không." }
+      ],
+      "src": { "kind": "sgk", "page": 116 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Trọng âm các từ mới",
+      "tipVi": "driverless, hyperloop, teleporter, comfortable nhấn âm đầu; convenient nhấn âm thứ hai: con-VE-ni-ent; economical nhấn âm thứ ba: e-co-NO-mi-cal.",
+      "words": ["driverless", "hyperloop", "teleporter", "comfortable", "convenient", "economical"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["convenient", "comfortable", "hyperloop"], "answer": 0, "explainVi": "convenient /kənˈviːniənt/ nhấn âm thứ hai; comfortable và hyperloop nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p03",
+      "kind": "sound",
+      "focus": "won't /wəʊnt/ và want /wɒnt/",
+      "tipVi": "won't đọc /wəʊnt/ với âm \"âu\" dài (giống \"guâun\"); want đọc /wɒnt/ với âm \"o\" ngắn. Đọc sai sẽ làm người nghe hiểu ngược nghĩa: \"I won't go\" (mình sẽ không đi) khác \"I want to go\" (mình muốn đi).",
+      "words": ["won't", "want", "don't"],
+      "sentence": "I want a flying car, but I won't drive it in the city.",
+      "quiz": [
+        { "prompt": "Which word is pronounced /wəʊnt/?", "options": ["won't", "want", "went"], "answer": 0, "explainVi": "won't /wəʊnt/; want là /wɒnt/, went là /went/." }
+      ],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Do you think we will ...?", "vi": "Bạn có nghĩ chúng ta sẽ ... không?", "useVi": "Khi hỏi ý kiến người khác về một dự đoán.", "example": "Do you think we will travel by hyperloop one day?", "src": { "kind": "sgk", "page": 119 } },
+    { "id": "e02", "en": "We certainly will.", "vi": "Chắc chắn là có.", "useVi": "Khi rất tin điều đó sẽ xảy ra.", "example": "Electric buses everywhere? We certainly will.", "src": { "kind": "sgk", "page": 119 } },
+    { "id": "e03", "en": "It probably won't.", "vi": "Có lẽ là không.", "useVi": "Khi nghĩ điều đó khó xảy ra.", "example": "Will a teleporter be cheap? It probably won't.", "src": { "kind": "sgk", "page": 119 } },
+    { "id": "e04", "en": "It sounds dangerous.", "vi": "Nghe có vẻ nguy hiểm.", "useVi": "Khi lo lắng về một phương tiện hay ý tưởng.", "example": "Flying with a bamboo-copter? It sounds dangerous.", "src": { "kind": "sgk", "page": 119 } },
+    { "id": "e05", "en": "I can't wait to ...", "vi": "Mình rất nóng lòng được ...", "useVi": "Khi rất mong chờ làm điều gì đó.", "example": "I can't wait to ride a driverless bus.", "src": { "kind": "sgk", "page": 119 } },
+    { "id": "e06", "en": "I hope we'll have ... soon.", "vi": "Mình mong chúng ta sớm có ...", "useVi": "Khi nói mong muốn về điều sẽ có trong tương lai.", "example": "I hope we'll have a skyTran in our city soon.", "src": { "kind": "sgk", "page": 114 } },
+    { "id": "e07", "en": "I don't think ... will ...", "vi": "Mình không nghĩ ... sẽ ...", "useVi": "Khi đưa ra dự đoán phủ định một cách nhẹ nhàng.", "example": "I don't think teleporters will be popular.", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "It will be ... because ...", "vi": "Nó sẽ ... vì ...", "useVi": "Khi dự đoán và nêu lý do.", "example": "It will be popular because it is fast and eco-friendly.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but bikes are cheap and healthy.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["In the future", "people will travel", "by flying car"], "vi": "Trong tương lai, mọi người sẽ đi lại bằng ô tô bay.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["Driverless cars", "won't produce", "any fumes"], "vi": "Ô tô không người lái sẽ không thải ra khói.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["This helmet", "is mine", "and that one", "is yours"], "vi": "Chiếc mũ bảo hiểm này là của mình, còn chiếc kia là của bạn.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["Will you", "travel by hyperloop", "one day?"], "vi": "Một ngày nào đó bạn sẽ đi bằng hyperloop chứ?", "grammarId": "g01" },
+    { "id": "b05", "chunks": ["A solar-powered bus", "runs on", "energy from the sun"], "vi": "Xe buýt chạy bằng năng lượng mặt trời dùng năng lượng từ mặt trời.", "grammarId": null },
+    { "id": "b06", "chunks": ["I don't think", "teleporters", "will be popular", "because they are scary"], "vi": "Mình không nghĩ máy dịch chuyển tức thời sẽ phổ biến vì chúng đáng sợ.", "grammarId": "g01" },
+    { "id": "b07", "chunks": ["My bike is old", "but hers", "is new"], "vi": "Xe đạp của mình cũ, nhưng xe của bạn ấy thì mới.", "grammarId": "g02" },
+    { "id": "b08", "chunks": ["Bamboo-copters", "will be", "fun and convenient", "to use"], "vi": "Chong chóng tre sẽ vui và tiện lợi khi dùng.", "grammarId": "g01" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "People will travel by hyperloop.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "In the future" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it is fast and eco-friendly" }
+      ],
+      "full": "In the future, people will travel by hyperloop because it is fast and eco-friendly."
+    },
+    {
+      "id": "x02",
+      "base": "My dream vehicle will fly.",
+      "steps": [
+        { "askVi": "Bay qua đâu?", "ask": "Over what?", "add": "over traffic jams" },
+        { "askVi": "Chạy bằng gì?", "ask": "What will it run on?", "add": "and it will run on electricity" },
+        { "askVi": "Vậy thì sao?", "ask": "So?", "add": "so it won't produce fumes" }
+      ],
+      "full": "My dream vehicle will fly over traffic jams, and it will run on electricity, so it won't produce fumes."
+    },
+    {
+      "id": "x03",
+      "base": "Driverless cars will be popular.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "in ten years" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because they will be safe and convenient" }
+      ],
+      "full": "Driverless cars will be popular in ten years because they will be safe and convenient."
+    },
+    {
+      "id": "x04",
+      "base": "I won't ride a solowheel.",
+      "steps": [
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because I am afraid of falling off" },
+        { "askVi": "Thay vào đó em sẽ làm gì?", "ask": "What will you do instead?", "add": "so I will ride my bike instead" }
+      ],
+      "full": "I won't ride a solowheel because I am afraid of falling off, so I will ride my bike instead."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Ô tô trong tương lai sẽ như thế nào",
+      "questions": [
+        "What will cars be like in thirty years?",
+        "How will cars change in the future?",
+        "What new things will future cars be able to do?"
+      ],
+      "keywords": ["will", "driverless", "run on", "fly"],
+      "exampleAnswer": "Cars will be driverless, and they will run on electricity. Some cars will even fly.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Các phương tiện thân thiện với môi trường",
+      "questions": [
+        "Which modes of travel are eco-friendly?",
+        "What kinds of transport don't produce fumes?",
+        "How can people travel without polluting the air?"
+      ],
+      "keywords": ["eco-friendly", "fumes", "solar-powered", "bike"],
+      "exampleAnswer": "Bikes, electric buses and solar-powered ships are eco-friendly because they don't produce fumes.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Em có muốn đi ô tô bay không",
+      "questions": [
+        "Will you try a flying car when it is available? Why or why not?",
+        "Would you feel safe in a flying car? Why?",
+        "Do you think flying cars will be safe? Why or why not?"
+      ],
+      "keywords": ["flying car", "safe", "dangerous", "because"],
+      "exampleAnswer": "Yes, I will, because it will be fast and fun. But I think it will be expensive at first.",
+      "expectsReason": true
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Học sinh sẽ đi học bằng gì trong tương lai",
+      "questions": [
+        "How will students go to school in the future?",
+        "What will the school bus of the future be like?",
+        "Which future vehicle will children use to get to school?"
+      ],
+      "keywords": ["will", "driverless bus", "walkcar", "solowheel"],
+      "exampleAnswer": "I think students will go to school by driverless bus or by walkcar.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Vì sao cần phương tiện đi lại mới",
+      "questions": [
+        "What problems do today's cars and motorbikes cause?",
+        "Why do we need new modes of travel?",
+        "What is wrong with the way people travel today?"
+      ],
+      "keywords": ["fumes", "traffic jam", "pollution", "because"],
+      "exampleAnswer": "Cars and motorbikes produce fumes and cause traffic jams, so we need cleaner and faster modes of travel.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "How will you travel to work when you grow up?", "keywords": ["will", "by", "because"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Will people still need driving licences in the future? Why or why not?", "keywords": ["driverless", "will", "because"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend thinks a solowheel is too dangerous. What do you say to him?", "keywords": ["safe", "helmet", "I see your point"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "How will you travel when you go on holiday in the future?", "keywords": ["will", "hyperloop", "by"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Will trains still be popular in fifty years? Why or why not?", "keywords": ["will", "convenient", "because"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your grandma is afraid of driverless buses. What do you say to her?", "keywords": ["safe", "driverless", "will"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Khảo sát về phương tiện tương lai",
+      "contextVi": "Mark đang làm khảo sát trong lớp: các bạn muốn dùng phương tiện nào trong tương lai. Bạn hỏi ý kiến em.",
+      "aiRole": "Mark, a classmate doing a survey about future transport",
+      "studentRoleVi": "Bạn cùng lớp trả lời khảo sát",
+      "goalVi": "Chọn một phương tiện tương lai em muốn dùng, tả nó, và nêu lý do.",
+      "goal": "Choose a future mode of travel you would like to use, describe it, and give a reason.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do (because...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["eco-friendly", "convenient", "run on", "driverless", "hyperloop"] }
+      ],
+      "opener": "Hi! I'm doing a survey. Which future mode of travel would you like to use?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Cool! What will it run on?",
+        "Why do you like it more than other vehicles?",
+        "Thanks! I'll add your answer to my survey."
+      ],
+      "tipsVi": ["Dùng \"It will...\" để tả phương tiện.", "Thêm lý do với \"because\"."],
+      "keywords": ["will", "run on", "eco-friendly", "because"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Xe đạp có biến mất không?",
+      "contextVi": "Nam rất mê công nghệ và cho rằng trong tương lai không ai đi xe đạp nữa. Em nghĩ khác.",
+      "aiRole": "Nam, a classmate who loves new technology",
+      "studentRoleVi": "Bạn cùng lớp tin rằng xe đạp vẫn hữu ích",
+      "goalVi": "Giải thích vì sao xe đạp vẫn được dùng trong tương lai, đưa ví dụ, và trả lời lịch sự khi Nam phản đối.",
+      "goal": "Explain why people will still ride bikes in the future, give an example, and answer Nam's objection politely.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["eco-friendly", "fumes", "pedal", "economical", "will"] }
+      ],
+      "opener": "I'm sure bicycles will disappear soon. Who wants to pedal when we have flying cars?",
+      "stance": "In the future, nobody will ride bicycles because flying cars will be cheap and fast.",
+      "turns": 5,
+      "fallback": [
+        "Really? Why do you think people will still ride bikes?",
+        "But flying cars will be cheap and fast. Nobody will ride bicycles, right?",
+        "Hmm, OK. Can you give me an example?",
+        "Fine, maybe bikes won't disappear after all."
+      ],
+      "tipsVi": ["Mở đầu khi phản đối: \"I see your point, but...\"", "Nói về sức khỏe, giá rẻ, không có khói."],
+      "keywords": ["will", "eco-friendly", "fumes", "I see your point", "because"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Trình bày phương tiện mơ ước ở hội thi khoa học",
+      "contextVi": "Em mang ý tưởng một phương tiện tương lai đến hội thi khoa học của trường. Một giám khảo hỏi em về ý tưởng.",
+      "aiRole": "Dr Lee, a judge at the school science fair",
+      "studentRoleVi": "Học sinh trình bày ý tưởng phương tiện tương lai",
+      "goalVi": "Tả phương tiện của em, nêu ưu điểm, và trả lời khi giám khảo lo về giá tiền.",
+      "goal": "Describe your future vehicle, explain its advantages, and answer the judge's concern about the price.",
+      "requirements": [
+        { "kind": "example", "vi": "Tả cụ thể phương tiện (chạy bằng gì, mấy bánh, ...)", "words": [] },
+        { "kind": "reason", "vi": "Nêu ưu điểm, lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["run on", "solar-powered", "eco-friendly", "comfortable", "convenient"] }
+      ],
+      "opener": "Hello! Tell me about your vehicle. What is it, and how will it work?",
+      "stance": "Your vehicle sounds too expensive. I don't think many people will buy it.",
+      "turns": 5,
+      "fallback": [
+        "Interesting. What are its main advantages?",
+        "Your vehicle sounds too expensive. I don't think many people will buy it.",
+        "That's a good answer. Who will use it most?",
+        "Thank you. That's a very creative idea."
+      ],
+      "tipsVi": ["Nói lịch sự với giám khảo, dùng will để tả.", "Khi bị hỏi về giá, nêu lợi ích lâu dài."],
+      "keywords": ["will", "run on", "eco-friendly", "convenient", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Góp ý phương tiện mới cho thành phố",
+      "contextVi": "Thành phố muốn hỏi ý kiến học sinh: nên xây phương tiện đi lại mới nào để giảm tắc đường và ô nhiễm. Em nói chuyện với một cán bộ thành phố.",
+      "aiRole": "Ms Hanh, a city officer who is asking students for ideas",
+      "studentRoleVi": "Học sinh góp ý cho thành phố",
+      "goalVi": "Đề xuất một phương tiện mới cho thành phố, nêu lý do, và trả lời khi cô có ý kiến khác.",
+      "goal": "Suggest a new mode of travel for the city, give reasons, and respond to the officer's different opinion.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất một phương tiện", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["skyTran", "hyperloop", "driverless", "eco-friendly", "fumes", "convenient"] }
+      ],
+      "opener": "Our city has too many traffic jams. Which new mode of travel do you think we should build?",
+      "stance": "New transport is too expensive. We should just build more roads for cars.",
+      "turns": 5,
+      "fallback": [
+        "Interesting. Why do you think it will work in our city?",
+        "But new transport is too expensive. Why don't we just build more roads for cars?",
+        "Hmm, you have a point. How will students use it?",
+        "Thank you. I'll share your idea at our next meeting."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["will", "eco-friendly", "traffic jams", "fumes", "because"]
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "grade": 10,
+  "unit": 8,
+  "title": "New Ways to Learn",
+  "titleVi": "Những cách học mới",
+  "edition": "Tiếng Anh 10 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 86–95; Glossary tr. 129–130",
+  "vocab": [
+    { "id": "v01", "en": "blended learning", "vi": "phương pháp học tập kết hợp", "ipa": "/ˌblendɪd ˈlɜːnɪŋ/", "ipaFrom": "glossary", "pos": "n", "example": "With blended learning, we watch videos at home and discuss them in class.", "collocations": ["a blended learning class", "use blended learning"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v02", "en": "online learning", "vi": "học trực tuyến", "ipa": "/ˌɒnˈlaɪn ˈlɜːnɪŋ/", "ipaFrom": "glossary", "pos": "n", "example": "Online learning lets me study at my own pace.", "collocations": ["online learning platform", "the benefits of online learning"], "synonyms": ["e-learning"], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v03", "en": "face-to-face", "vi": "trực tiếp", "ipa": "/ˌfeɪs tə ˈfeɪs/", "ipaFrom": "glossary", "pos": "adj", "example": "I understand maths better in face-to-face lessons.", "collocations": ["face-to-face lessons", "face-to-face learning"], "synonyms": ["in person"], "antonyms": ["online"], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v04", "en": "digital", "vi": "kĩ thuật số", "ipa": "/ˈdɪdʒɪtl/", "ipaFrom": "glossary", "pos": "adj", "example": "Our school library now has many digital books.", "collocations": ["digital devices", "digital learning resources"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v05", "en": "distraction", "vi": "sự xao nhãng, sự mất tập trung", "ipa": "/dɪˈstrækʃn/", "ipaFrom": "glossary", "pos": "n", "example": "Social media can be a big distraction when you study online.", "collocations": ["a big distraction", "avoid distractions"], "synonyms": [], "antonyms": ["focus"], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v06", "en": "focus", "vi": "tập trung", "ipa": "/ˈfəʊkəs/", "ipaFrom": "glossary", "pos": "v", "example": "I can focus better when my phone is in another room.", "collocations": ["focus on", "focus on your studies"], "synonyms": ["concentrate"], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v07", "en": "communicate", "vi": "giao tiếp, trao đổi", "ipa": "/kəˈmjuːnɪkeɪt/", "ipaFrom": "glossary", "pos": "v", "example": "We communicate with our teacher through a class chat group.", "collocations": ["communicate with", "communicate online"], "synonyms": ["talk"], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v08", "en": "exchange", "vi": "trao đổi", "ipa": "/ɪksˈtʃeɪndʒ/", "ipaFrom": "glossary", "pos": "v", "example": "We exchange ideas on an online forum after class.", "collocations": ["exchange ideas", "exchange information"], "synonyms": ["share"], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v09", "en": "control", "vi": "sự kiểm soát", "ipa": "/kənˈtrəʊl/", "ipaFrom": "glossary", "pos": "n", "example": "Online learning gives students more control over their study time.", "collocations": ["have control over", "self-control"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v10", "en": "high-speed", "vi": "tốc độ cao", "ipa": "/ˌhaɪ ˈspiːd/", "ipaFrom": "glossary", "pos": "adj", "example": "You need a high-speed Internet connection for video lessons.", "collocations": ["high-speed Internet"], "synonyms": ["fast"], "antonyms": ["slow"], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v11", "en": "flow chart", "vi": "lưu đồ, sơ đồ quy trình", "ipa": "/ˈfləʊ tʃɑːt/", "ipaFrom": "glossary", "pos": "n", "example": "Our group made a flow chart to show the steps of the project.", "collocations": ["draw a flow chart"], "synonyms": ["diagram"], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v12", "en": "immediately", "vi": "ngay lập tức", "ipa": "/ɪˈmiːdiətli/", "ipaFrom": "glossary", "pos": "adv", "example": "In a real classroom, the teacher can answer your questions immediately.", "collocations": ["answer immediately"], "synonyms": ["at once"], "antonyms": ["later"], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v13", "en": "install", "vi": "lắp đặt", "ipa": "/ɪnˈstɔːl/", "ipaFrom": "glossary", "pos": "v", "example": "I installed a dictionary app on my tablet.", "collocations": ["install an app", "install software"], "synonyms": ["set up"], "antonyms": ["uninstall"], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v14", "en": "original", "vi": "sáng tạo, độc đáo", "ipa": "/əˈrɪdʒənl/", "ipaFrom": "glossary", "pos": "adj", "example": "Our teacher liked our original idea for the science project.", "collocations": ["an original idea", "original work"], "synonyms": ["creative"], "antonyms": ["copied"], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v15", "en": "real-world", "vi": "thực tế", "ipa": "/ˈriːəl wɜːld/", "ipaFrom": "glossary", "pos": "adj", "example": "Field trips give students real-world experiences.", "collocations": ["real-world problems", "real-world experiences"], "synonyms": ["practical"], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v16", "en": "resource", "vi": "nguồn lực", "ipa": "/rɪˈsɔːs/", "ipaFrom": "glossary", "pos": "n", "example": "The Internet has many free resources for learning English.", "collocations": ["learning resources", "online resources"], "synonyms": ["material"], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v17", "en": "schedule", "vi": "lịch trình", "ipa": "/ˈʃedjuːl/", "ipaFrom": "glossary", "pos": "n", "example": "I make a study schedule before every exam.", "collocations": ["a study schedule", "a busy schedule"], "synonyms": ["timetable", "plan"], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v18", "en": "strategy", "vi": "chiến lược", "ipa": "/ˈstrætədʒi/", "ipaFrom": "glossary", "pos": "n", "example": "Making mind maps is a good strategy for remembering new words.", "collocations": ["learning strategy", "a good strategy"], "synonyms": ["plan", "method"], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v19", "en": "teamwork", "vi": "hoạt động nhóm", "ipa": "/ˈtiːmwɜːk/", "ipaFrom": "glossary", "pos": "n", "example": "Group projects help us improve our teamwork.", "collocations": ["good teamwork", "teamwork skills"], "synonyms": ["cooperation"], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v20", "en": "voice recorder", "vi": "máy thu âm", "ipa": "/vɔɪs rɪˈkɔːdə/", "ipaFrom": "glossary", "pos": "n", "example": "I use a voice recorder to check my English pronunciation.", "collocations": ["use a voice recorder"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v21", "en": "prepare", "vi": "chuẩn bị", "ipa": "/prɪˈpeə/", "ipaFrom": "dictionary", "pos": "v", "example": "Our teacher asks us to prepare the lesson before class.", "collocations": ["prepare for a test", "prepare a lesson"], "synonyms": ["get ready"], "antonyms": [], "src": { "kind": "sgk", "page": 88 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Defining relative clauses (who, that, which, whose)",
+      "nameVi": "Mệnh đề quan hệ xác định",
+      "explainVi": "Mệnh đề quan hệ xác định cho biết thông tin CẦN THIẾT để biết đang nói về người/vật nào. Không có dấu phẩy. who/that thay cho người; which/that thay cho vật; whose + danh từ chỉ sở hữu (của người đó). Bỏ mệnh đề đi thì câu không rõ nghĩa.",
+      "formula": "N (người) + who/that + V ...  ·  N (vật) + which/that + ...  ·  N + whose + N + V ...",
+      "examples": [
+        "I learn best from a teacher who explains things clearly.",
+        "The app that I use most helps me learn new words.",
+        "Students whose phones are always on often can't focus."
+      ],
+      "wrong": [
+        { "sentence": "The teacher which teaches us English is very kind.", "fix": "The teacher who teaches us English is very kind.", "whyVi": "Thay cho người dùng who (hoặc that), không dùng which." },
+        { "sentence": "The website who I use is free.", "fix": "The website which I use is free.", "whyVi": "Thay cho vật dùng which hoặc that." },
+        { "sentence": "I have a friend who his brother is a teacher.", "fix": "I have a friend whose brother is a teacher.", "whyVi": "Chỉ sở hữu dùng whose, không dùng who + his." }
+      ],
+      "drills": [
+        { "prompt": "The boy ___ designed this app is only 15 years old.", "options": ["who", "which", "whose"], "answer": 0, "explainVi": "Thay cho người (the boy) làm chủ ngữ: who." },
+        { "prompt": "This is the website ___ helps me with pronunciation.", "options": ["which", "who", "whose"], "answer": 0, "explainVi": "Thay cho vật (the website): which." },
+        { "prompt": "Peter is the student ___ sister teaches online maths.", "options": ["whose", "who", "which"], "answer": 0, "explainVi": "Chị gái CỦA Peter: dùng whose + danh từ." }
+      ],
+      "errorTag": "pronoun",
+      "src": { "kind": "sgk", "page": 88 }
+    },
+    {
+      "id": "g02",
+      "name": "Non-defining relative clauses",
+      "nameVi": "Mệnh đề quan hệ không xác định",
+      "explainVi": "Mệnh đề quan hệ không xác định chỉ thêm thông tin PHỤ về người/vật đã rõ (tên riêng, my mum, Da Nang...). Đặt giữa hai dấu phẩy, bỏ đi câu vẫn đủ nghĩa. Dùng who, which, whose; KHÔNG dùng that.",
+      "formula": "N (đã rõ), who/which/whose ..., V ...",
+      "examples": [
+        "My friend Nam, who is good at maths, often helps me.",
+        "We often go to Da Nang, which is in the middle of Viet Nam.",
+        "Online learning is flexible, which means I can study anytime."
+      ],
+      "wrong": [
+        { "sentence": "My English teacher, that is from Hue, gives us fun videos.", "fix": "My English teacher, who is from Hue, gives us fun videos.", "whyVi": "Sau dấu phẩy (mệnh đề không xác định) không dùng that." },
+        { "sentence": "Lan who is my best friend studies online.", "fix": "Lan, who is my best friend, studies online.", "whyVi": "Lan là tên riêng, đã rõ người: thông tin thêm phải đặt giữa hai dấu phẩy." }
+      ],
+      "drills": [
+        { "prompt": "My cousin, ___ studies in Japan, calls me every week.", "options": ["who", "that", "which"], "answer": 0, "explainVi": "Mệnh đề không xác định về người: who (không dùng that sau dấu phẩy)." },
+        { "prompt": "Which sentence is correct?", "options": ["Ha Noi, that is the capital, is very busy.", "Ha Noi, which is the capital, is very busy.", "Ha Noi which is the capital is very busy."], "answer": 1, "explainVi": "Tên riêng + dấu phẩy + which; không dùng that." }
+      ],
+      "errorTag": "pronoun",
+      "src": { "kind": "sgk", "page": 88 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sentence_stress",
+      "focus": "Trọng âm câu",
+      "tipVi": "Trong câu, ta nhấn các từ mang nghĩa chính (động từ chính, danh từ, tính từ, trạng từ) và đọc nhẹ, nhanh các từ nhỏ như a, the, to, for, on, my. Ví dụ: I 'watch 'videos to 'learn 'English.",
+      "words": ["finish", "project", "history", "revising", "exam", "installed", "apps", "phone"],
+      "sentence": "We 'use 'tablets to 'learn 'English at 'home.",
+      "quiz": [
+        { "prompt": "Which word is usually NOT stressed in a sentence?", "options": ["the", "project", "finish"], "answer": 0, "explainVi": "the là từ chức năng nên đọc nhẹ; project (danh từ) và finish (động từ chính) được nhấn." }
+      ],
+      "src": { "kind": "sgk", "page": 87 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Trọng âm các từ mới trong bài",
+      "tipVi": "digital, strategy, schedule, teamwork nhấn âm đầu; distraction, install, original, immediately nhấn âm thứ hai.",
+      "words": ["digital", "strategy", "schedule", "teamwork", "distraction", "install", "original", "immediately"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["digital", "distraction", "install"], "answer": 0, "explainVi": "digital /ˈdɪdʒɪtl/ nhấn âm đầu; distraction /dɪˈstrækʃn/ và install /ɪnˈstɔːl/ nhấn âm thứ hai." },
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["original", "strategy", "teamwork"], "answer": 0, "explainVi": "original /əˈrɪdʒənl/ nhấn âm thứ hai; strategy và teamwork nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p03",
+      "kind": "intonation",
+      "focus": "Ngữ điệu khi hướng dẫn từng bước",
+      "tipVi": "Câu hướng dẫn (câu mệnh lệnh) xuống giọng ở cuối: First, open the app. Câu hỏi Wh- như What do I do next? cũng xuống giọng. Ngừng ngắn sau First, Second, Then.",
+      "words": ["First, open the app.", "Then, click 'Search'.", "What do I do next?"],
+      "sentence": "First, open the app. Then, type your name and click 'Start'.",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Can you show me how to ...?", "vi": "Bạn chỉ mình cách ... được không?", "useVi": "Khi nhờ người khác hướng dẫn cách làm.", "example": "Can you show me how to join the online class?", "src": { "kind": "sgk", "page": 93 } },
+    { "id": "e02", "en": "First, ...", "vi": "Đầu tiên, ...", "useVi": "Bắt đầu hướng dẫn bước thứ nhất.", "example": "First, go to the App Store on your phone.", "src": { "kind": "sgk", "page": 93 } },
+    { "id": "e03", "en": "Second, ..., then ...", "vi": "Thứ hai, ..., rồi ...", "useVi": "Nêu các bước tiếp theo theo thứ tự.", "example": "Second, type the name of the app, then click 'Search'.", "src": { "kind": "sgk", "page": 93 } },
+    { "id": "e04", "en": "What do I do next?", "vi": "Tiếp theo mình làm gì?", "useVi": "Hỏi bước tiếp theo khi được hướng dẫn.", "example": "OK, I can see the app. What do I do next?", "src": { "kind": "sgk", "page": 93 } },
+    { "id": "e05", "en": "Now, click ... and wait until ...", "vi": "Bây giờ, bấm ... và đợi đến khi ...", "useVi": "Hướng dẫn bước cuối và báo khi nào xong.", "example": "Now, click 'Get' and wait until the download is complete.", "src": { "kind": "sgk", "page": 93 } },
+    { "id": "e06", "en": "Finally, ...", "vi": "Cuối cùng, ...", "useVi": "Nêu bước cuối cùng.", "example": "Finally, log in with your student account.", "src": { "kind": "team", "page": null } },
+    { "id": "e07", "en": "Make sure you ...", "vi": "Nhớ phải ... nhé.", "useVi": "Nhắc một điều quan trọng khi hướng dẫn.", "example": "Make sure you turn off notifications during the lesson.", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "One advantage of ... is that ...", "vi": "Một ưu điểm của ... là ...", "useVi": "Khi nêu ưu điểm.", "example": "One advantage of online learning is that we can study anytime.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "On the other hand, ...", "vi": "Mặt khác, ...", "useVi": "Khi nêu mặt ngược lại, nhược điểm.", "example": "On the other hand, it is easy to get distracted at home.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "I prefer ... because ...", "vi": "Mình thích ... hơn vì ...", "useVi": "Khi so sánh và chọn một cách học.", "example": "I prefer face-to-face lessons because I can ask questions immediately.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["I learn best", "from a teacher", "who explains", "things clearly"], "vi": "Mình học tốt nhất với thầy cô giải thích rõ ràng.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["The app", "that I use most", "helps me", "learn new words"], "vi": "Ứng dụng mình dùng nhiều nhất giúp mình học từ mới.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["My friend Nam,", "who is good at maths,", "often helps me", "with my homework"], "vi": "Bạn Nam của mình, người giỏi toán, thường giúp mình làm bài tập.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["Students", "whose phones are on", "can't focus", "in class"], "vi": "Những học sinh để điện thoại bật thì không tập trung được trong lớp.", "grammarId": "g01" },
+    { "id": "b05", "chunks": ["Online learning", "is flexible,", "which means", "I can study anytime"], "vi": "Học trực tuyến linh hoạt, nghĩa là mình có thể học bất cứ lúc nào.", "grammarId": "g02" },
+    { "id": "b06", "chunks": ["Blended learning", "combines", "online lessons", "with face-to-face classes"], "vi": "Học kết hợp kết hợp bài học trực tuyến với lớp học trực tiếp.", "grammarId": null },
+    { "id": "b07", "chunks": ["I make", "a study schedule", "so that I can", "focus on one subject", "at a time"], "vi": "Mình lập lịch học để có thể tập trung vào từng môn một.", "grammarId": null }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I use an app.",
+      "steps": [
+        { "askVi": "Ứng dụng gì?", "ask": "What kind of app?", "add": "a dictionary app" },
+        { "askVi": "Trên thiết bị nào?", "ask": "On what?", "add": "on my phone" },
+        { "askVi": "Bao lâu một lần?", "ask": "How often?", "add": "every day" },
+        { "askVi": "Để làm gì?", "ask": "What for?", "add": "to check new words" }
+      ],
+      "full": "I use a dictionary app on my phone every day to check new words."
+    },
+    {
+      "id": "x02",
+      "base": "I like online lessons.",
+      "steps": [
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because I can watch the videos again" },
+        { "askVi": "Khi nào em xem lại?", "ask": "When?", "add": "when I don't understand" }
+      ],
+      "full": "I like online lessons because I can watch the videos again when I don't understand."
+    },
+    {
+      "id": "x03",
+      "base": "We do group projects.",
+      "steps": [
+        { "askVi": "Môn gì?", "ask": "In which subject?", "add": "in history" },
+        { "askVi": "Bằng cách nào?", "ask": "How?", "add": "with a shared online document" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it improves our teamwork" }
+      ],
+      "full": "We do group projects in history with a shared online document because it improves our teamwork."
+    },
+    {
+      "id": "x04",
+      "base": "My phone is a distraction.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "when I study at home" },
+        { "askVi": "Em làm gì?", "ask": "What do you do?", "add": "so I put it in another room" }
+      ],
+      "full": "My phone is a distraction when I study at home, so I put it in another room."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Ưu điểm của học trực tuyến",
+      "questions": [
+        "What are the advantages of online learning?",
+        "What is good about studying online?",
+        "How can online learning help students?"
+      ],
+      "keywords": ["flexible", "anytime", "resources", "at my own pace"],
+      "exampleAnswer": "Online learning is flexible. We can study anytime and find a lot of useful resources on the Internet.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Nhược điểm của học trực tuyến",
+      "questions": [
+        "What are the disadvantages of online learning?",
+        "What problems do students have when they study online?",
+        "What can go wrong during an online lesson?"
+      ],
+      "keywords": ["distraction", "connection", "focus", "eyes"],
+      "exampleAnswer": "Students can get distracted by games, and a slow Internet connection can stop the lesson.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Điều tốt của học trực tiếp trên lớp",
+      "questions": [
+        "What do you like about learning in a real classroom?",
+        "What are the benefits of face-to-face lessons?",
+        "What can you do in a classroom that is hard to do online?"
+      ],
+      "keywords": ["face-to-face", "immediately", "group work", "friends"],
+      "exampleAnswer": "In face-to-face lessons, I can ask my teacher questions immediately and work in groups with my friends.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Dùng thiết bị số để học",
+      "questions": [
+        "How do you use digital devices for learning?",
+        "What digital tools do you use to study?",
+        "How does technology help you with your schoolwork?"
+      ],
+      "keywords": ["laptop", "tablet", "app", "digital"],
+      "exampleAnswer": "I use my laptop to watch lessons, and I use an app that helps me practise English pronunciation.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Vì sao học kết hợp là ý hay",
+      "questions": [
+        "Why is blended learning a good idea?",
+        "Why do many schools now mix online and classroom learning?",
+        "What makes blended learning useful for students?"
+      ],
+      "keywords": ["blended learning", "own pace", "face-to-face", "because"],
+      "exampleAnswer": "Blended learning is useful because students can study online at their own pace and still meet teachers face to face.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "How do you usually prepare for a new lesson before class?", "keywords": ["prepare", "read", "videos"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should all homework be done online? Why or why not?", "keywords": ["online", "digital", "eyes"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your grandmother wants to join a video call with you but doesn't know how. What do you tell her?", "keywords": ["first", "then", "click"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "How do you usually review what you learnt after school?", "keywords": ["notes", "schedule", "strategy"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should schools use digital textbooks instead of paper books? Why or why not?", "keywords": ["digital", "resources", "cheaper"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your new classmate doesn't know how to use the school's learning website. What do you tell him?", "keywords": ["first", "log in", "next"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Hướng dẫn bạn cài ứng dụng học tập",
+      "contextVi": "Bạn Tâm muốn luyện nói tiếng Anh nhưng chưa biết cài ứng dụng học trên điện thoại. Em hướng dẫn bạn từng bước.",
+      "aiRole": "Tam, a classmate who wants to install a study app",
+      "studentRoleVi": "Bạn cùng lớp hướng dẫn Tâm cài ứng dụng",
+      "goalVi": "Hướng dẫn Tâm cài ứng dụng theo từng bước và nói vì sao ứng dụng đó hữu ích.",
+      "goal": "Give Tam step-by-step instructions to install a study app and explain why the app is useful.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng từ chỉ thứ tự và từ của bài", "words": ["first", "then", "next", "finally", "install", "click"] },
+        { "kind": "reason", "vi": "Nói vì sao ứng dụng hữu ích (because...)", "words": [] }
+      ],
+      "opener": "Hi! Can you show me how to install that English app you use?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "OK, I've done that. What do I do next?",
+        "Great, it's downloading. Why do you like this app so much?",
+        "Thanks! How often do you use it?"
+      ],
+      "tipsVi": ["Dùng First, Then, Next, Finally để nói các bước.", "Câu hướng dẫn bắt đầu bằng động từ: Open..., Type..., Click..."],
+      "keywords": ["First", "Then", "install", "click", "because"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Học trực tuyến hay học trên lớp?",
+      "contextVi": "Bạn Linh nghĩ học trực tuyến tốt hơn hẳn và không cần đến lớp nữa. Em có ý kiến khác.",
+      "aiRole": "Linh, a classmate who loves online learning",
+      "studentRoleVi": "Bạn cùng lớp có ý kiến khác Linh",
+      "goalVi": "Nêu ý kiến của em về học trực tuyến và học trực tiếp, đưa ví dụ, và trả lời khi Linh phản đối.",
+      "goal": "Give your opinion about online and face-to-face learning, give an example, and answer Linh's objection.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do (because...)", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ từ trải nghiệm của em", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["face-to-face", "distraction", "focus", "teamwork", "immediately", "blended learning"] }
+      ],
+      "opener": "I think online learning is the best. Why do we even need to go to school?",
+      "stance": "Online learning is better because we can learn at home, so we don't need classrooms any more.",
+      "turns": 5,
+      "fallback": [
+        "Really? What's so good about learning in a classroom?",
+        "But online learning is better. We can learn at home, so we don't need classrooms any more.",
+        "Hmm, maybe. Can you give me an example from your own experience?",
+        "OK, maybe blended learning is the best of both."
+      ],
+      "tipsVi": ["Khi Linh phản đối, dùng \"I see your point, but...\"", "Thử dùng mệnh đề quan hệ: \"a teacher who can answer immediately\"."],
+      "keywords": ["face-to-face", "who", "which", "because", "On the other hand"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Xin bố cho dùng máy tính bảng để học",
+      "contextVi": "Lớp em bắt đầu học kết hợp và cần máy tính bảng. Bố lo em sẽ chơi game thay vì học.",
+      "aiRole": "Dad, who worries about screen time",
+      "studentRoleVi": "Con muốn dùng máy tính bảng để học",
+      "goalVi": "Giải thích em sẽ dùng máy tính bảng để học thế nào, đề xuất quy tắc, và trả lời khi bố lo lắng.",
+      "goal": "Explain how you will use the tablet for learning, suggest some rules, and answer Dad's worry.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất quy tắc dùng máy (I will..., we can...)", "words": [] },
+        { "kind": "reason", "vi": "Giải thích vì sao cần máy", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["schedule", "focus", "distraction", "resources", "blended learning", "digital"] }
+      ],
+      "opener": "Your teacher says your class needs tablets now. What will you use it for?",
+      "stance": "Tablets are just a distraction. You'll play games instead of studying.",
+      "turns": 5,
+      "fallback": [
+        "I see. Why can't you just use books?",
+        "But tablets are just a distraction. I think you'll play games instead of studying.",
+        "Hmm. What rules will you follow?",
+        "All right. Let's try it for one month."
+      ],
+      "tipsVi": ["Nói chuyện lễ phép: \"I understand, Dad, but...\"", "Đề xuất cụ thể: lịch học, giờ cất máy."],
+      "keywords": ["schedule", "focus", "I promise", "because", "resources"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Đề xuất học kết hợp cho môn tiếng Anh",
+      "contextVi": "Trường đang hỏi ý kiến học sinh về việc đưa học kết hợp vào giờ tiếng Anh. Em gặp thầy tổ trưởng để nêu ý kiến.",
+      "aiRole": "Mr Hung, the head of the English department",
+      "studentRoleVi": "Học sinh đại diện lớp",
+      "goalVi": "Nêu ý kiến về học kết hợp, đề xuất cách làm, và trả lời khi thầy có ý kiến khác.",
+      "goal": "Give your view on blended learning for English, suggest how to do it, and respond to the teacher's different opinion.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất cách học kết hợp", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["blended learning", "online", "face-to-face", "resources", "focus", "control"] }
+      ],
+      "opener": "Thank you for coming. What do you think about using blended learning in our English classes?",
+      "stance": "Teenagers can't control themselves online, so all lessons should stay in the classroom.",
+      "turns": 5,
+      "fallback": [
+        "I see. How would it work in practice?",
+        "But I think teenagers can't control themselves online, so all lessons should stay in the classroom.",
+        "That's a fair answer. How can teachers check that students really study?",
+        "Thank you. I'll share your ideas at the next teachers' meeting."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["blended learning", "which", "who", "because", "schedule"]
+    }
+  ]
+}

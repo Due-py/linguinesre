@@ -1,0 +1,354 @@
+{
+  "grade": 8,
+  "unit": 5,
+  "title": "Our Customs and Traditions",
+  "titleVi": "Phong tục và truyền thống của chúng ta",
+  "edition": "Tiếng Anh 8 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 50–59; Glossary tr. 137",
+  "vocab": [
+    { "id": "v01", "en": "custom", "vi": "phong tục", "ipa": "/ˈkʌstəm/", "ipaFrom": "dictionary", "pos": "n", "example": "Giving lucky money is a Tet custom in Viet Nam.", "collocations": ["a local custom", "follow a custom"], "synonyms": ["tradition"], "antonyms": [], "src": { "kind": "sgk", "page": 52 } },
+    { "id": "v02", "en": "tradition", "vi": "truyền thống", "ipa": "/trəˈdɪʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "It's a tradition in my family to visit our grandparents on the first day of Tet.", "collocations": ["keep a tradition", "break with tradition", "a family tradition"], "synonyms": ["custom"], "antonyms": [], "src": { "kind": "sgk", "page": 52 } },
+    { "id": "v03", "en": "family reunion", "vi": "cuộc sum họp gia đình", "ipa": "/ˌfæməli ˌriːˈjuːniən/", "ipaFrom": "glossary", "pos": "n", "example": "We have a big family reunion on New Year's Eve.", "collocations": ["have a family reunion", "a Tet family reunion"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v04", "en": "family bonding", "vi": "sự gắn kết tình cảm gia đình", "ipa": "/ˌfæməli ˈbɒndɪŋ/", "ipaFrom": "glossary", "pos": "n", "example": "Cooking together is good for family bonding.", "collocations": ["strengthen family bonding"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v05", "en": "ceremony", "vi": "nghi thức, nghi lễ", "ipa": "/ˈserəməni/", "ipaFrom": "glossary", "pos": "n", "example": "My cousin's wedding ceremony was in the village hall.", "collocations": ["a wedding ceremony", "an opening ceremony"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v06", "en": "offering", "vi": "đồ thờ cúng", "ipa": "/ˈɒfərɪŋ/", "ipaFrom": "glossary", "pos": "n", "example": "My mum puts fruit and flowers on the altar as offerings.", "collocations": ["food offerings", "prepare offerings"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v07", "en": "worship", "vi": "thờ phụng, tôn kính, tôn sùng", "ipa": "/ˈwɜːʃɪp/", "ipaFrom": "glossary", "pos": "v", "example": "Many Vietnamese families worship their ancestors at home.", "collocations": ["worship ancestors", "whale worship"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v08", "en": "pray", "vi": "cầu nguyện, lễ bái", "ipa": "/preɪ/", "ipaFrom": "glossary", "pos": "v", "example": "People go to the pagoda to pray for good health.", "collocations": ["pray for good luck", "pray for health"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v09", "en": "bamboo pole", "vi": "cây nêu", "ipa": "/bæmˈbuː pəʊl/", "ipaFrom": "glossary", "pos": "n", "example": "People put up a bamboo pole in the yard before Tet.", "collocations": ["put up a bamboo pole"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v10", "en": "chase away", "vi": "xua đuổi", "ipa": "/tʃeɪs əˈweɪ/", "ipaFrom": "glossary", "pos": "phr v", "example": "People believe the loud drums chase away bad luck.", "collocations": ["chase away bad luck", "chase away bad spirits"], "synonyms": ["drive away"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v11", "en": "ornamental tree", "vi": "cây cảnh", "ipa": "/ˌɔːnəˈmentl triː/", "ipaFrom": "glossary", "pos": "n", "example": "My dad bought a small ornamental tree for the living room.", "collocations": ["buy an ornamental tree"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v12", "en": "decorative", "vi": "có tính trang trí, để trang trí", "ipa": "/ˈdekərətɪv/", "ipaFrom": "glossary", "pos": "adj", "example": "We hang decorative lanterns on the front door.", "collocations": ["decorative items", "decorative lights"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v13", "en": "lantern", "vi": "đèn lồng", "ipa": "/ˈlæntən/", "ipaFrom": "glossary", "pos": "n", "example": "Children carry star-shaped lanterns at the Mid-Autumn Festival.", "collocations": ["make a lantern", "a paper lantern"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v14", "en": "festival goer", "vi": "người đi xem lễ hội", "ipa": "/ˈfestɪvl ˌɡəʊə/", "ipaFrom": "glossary", "pos": "n", "example": "Thousands of festival goers came to watch the boat race.", "collocations": ["crowds of festival goers"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v15", "en": "contestant", "vi": "thí sinh, người thi đấu", "ipa": "/kənˈtestənt/", "ipaFrom": "glossary", "pos": "n", "example": "Each contestant has to cook rice in an hour.", "collocations": ["a young contestant"], "synonyms": ["competitor"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v16", "en": "martial arts", "vi": "võ thuật", "ipa": "/ˌmɑːʃl ˈɑːts/", "ipaFrom": "glossary", "pos": "n", "example": "The festival has a martial arts show every morning.", "collocations": ["practise martial arts", "a martial arts show"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v17", "en": "longevity", "vi": "sự sống lâu, tuổi thọ", "ipa": "/lɒnˈdʒevəti/", "ipaFrom": "glossary", "pos": "n", "example": "We had a party to wish our grandma longevity.", "collocations": ["a longevity party", "wish somebody longevity"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v18", "en": "table manners", "vi": "phép tắc ăn uống", "ipa": "/ˈteɪbl ˌmænəz/", "ipaFrom": "glossary", "pos": "n", "example": "My parents taught me good table manners when I was small.", "collocations": ["good table manners"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v19", "en": "admire", "vi": "khâm phục, ngưỡng mộ", "ipa": "/ədˈmaɪə/", "ipaFrom": "glossary", "pos": "v", "example": "Visitors stop to admire the peach blossoms.", "collocations": ["admire the view", "admire the flowers"], "synonyms": ["look at with pleasure"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v20", "en": "young rice", "vi": "cốm", "ipa": "/jʌŋ raɪs/", "ipaFrom": "glossary", "pos": "n", "example": "In autumn, my grandma buys young rice wrapped in lotus leaves.", "collocations": ["green young rice"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v21", "en": "release", "vi": "thả", "ipa": "/rɪˈliːs/", "ipaFrom": "glossary", "pos": "v", "example": "Some families release carp into a river before Tet.", "collocations": ["release carp", "release lanterns"], "synonyms": ["set free"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Zero article",
+      "nameVi": "Không dùng mạo từ (mạo từ zero)",
+      "explainVi": "Đôi khi danh từ đứng một mình, không có a / an hay the. Dùng mạo từ zero: với danh từ không đếm được hoặc trừu tượng (Sugar is not good for your teeth), khi nói chung chung với danh từ số nhiều (Students should work hard), và với phương tiện đi lại sau by (by boat, by bus).",
+      "formula": "Ø + N không đếm được / N số nhiều (nói chung)  ·  by + Ø + phương tiện (by bus, by train)",
+      "examples": [
+        "Children love festivals.",
+        "We went to Hue by train.",
+        "Rice is important in Vietnamese culture."
+      ],
+      "wrong": [
+        { "sentence": "We travelled there by the boat.", "fix": "We travelled there by boat.", "whyVi": "Sau by chỉ phương tiện đi lại, không dùng mạo từ." },
+        { "sentence": "The rice is important in Vietnamese culture.", "fix": "Rice is important in Vietnamese culture.", "whyVi": "Nói chung chung về danh từ không đếm được (rice) thì không dùng the." }
+      ],
+      "drills": [
+        { "prompt": "We went to Can Tho by ___ bus.", "options": ["Ø (no article)", "a", "the"], "answer": 0, "explainVi": "by + phương tiện: không dùng mạo từ (by bus)." },
+        { "prompt": "My family visits my grandparents in ___ January.", "options": ["Ø (no article)", "the", "a"], "answer": 0, "explainVi": "Trước tên tháng không dùng mạo từ: in January." },
+        { "prompt": "Which sentence is correct?", "options": ["We travelled there by the boat.", "We travelled there by boat.", "We travelled there by a boat."], "answer": 1, "explainVi": "by + phương tiện, không có mạo từ: by boat." },
+        { "prompt": "It is a custom in my family to have ___ breakfast together on Sundays.", "options": ["Ø (no article)", "a", "an"], "answer": 0, "explainVi": "Trước tên bữa ăn (breakfast, lunch, dinner) thường không dùng mạo từ." }
+      ],
+      "errorTag": "article",
+      "src": { "kind": "sgk", "page": 53 }
+    },
+    {
+      "id": "g02",
+      "name": "Giving advice: should, It's a good idea to, Don't",
+      "nameVi": "Đưa lời khuyên: should, It's a good idea to, Don't",
+      "explainVi": "Khi khuyên ai làm gì, dùng (perhaps) you should + V nguyên mẫu, hoặc It's a good idea to + V. Khuyên không nên làm gì, dùng Don't + V hoặc You shouldn't + V.",
+      "formula": "(Perhaps) you should + V  ·  It's a good idea to + V  ·  Don't + V",
+      "examples": [
+        "Perhaps you should wait for the oldest person to start eating.",
+        "It's a good idea to bring a small gift.",
+        "Don't wear shorts when you visit a pagoda."
+      ],
+      "wrong": [
+        { "sentence": "You should to wait for the host.", "fix": "You should wait for the host.", "whyVi": "Sau should không có to." },
+        { "sentence": "It's a good idea hand the bowl with both hands.", "fix": "It's a good idea to hand the bowl with both hands.", "whyVi": "Sau It's a good idea cần to + V." }
+      ],
+      "drills": [
+        { "prompt": "You should ___ for the host to start eating.", "options": ["wait", "to wait", "waiting"], "answer": 0, "explainVi": "should + V nguyên mẫu: should wait." },
+        { "prompt": "It's a good idea ___ a small gift when you visit a family.", "options": ["to bring", "bring", "bringing"], "answer": 0, "explainVi": "It's a good idea + to V: to bring." },
+        { "prompt": "___ hit your bowl with your chopsticks. It may bring bad luck.", "options": ["Don't", "Not", "No"], "answer": 0, "explainVi": "Khuyên không nên làm gì dùng Don't + V." }
+      ],
+      "errorTag": "modal_verb",
+      "src": { "kind": "sgk", "page": 54 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Âm /n/",
+      "tipVi": "/n/: đầu lưỡi chạm vào phần lợi ngay sau răng trên, hơi đi ra mũi. Ở cuối từ, nhớ giữ lưỡi ở vị trí đó: thin, land, tradition.",
+      "words": ["thin", "land", "ceremony", "longevity", "tradition", "lantern"],
+      "sentence": "The ceremony is an old tradition in our town.",
+      "quiz": [
+        { "prompt": "Which word ends with the sound /n/, not /ŋ/?", "options": ["tradition", "offering", "thing"], "answer": 0, "explainVi": "tradition /trəˈdɪʃn/ kết thúc bằng /n/; offering và thing kết thúc bằng /ŋ/." }
+      ],
+      "src": { "kind": "sgk", "page": 52 }
+    },
+    {
+      "id": "p02",
+      "kind": "sound",
+      "focus": "Âm /ŋ/",
+      "tipVi": "/ŋ/: cuống lưỡi chạm vào vòm miệng mềm phía sau, hơi đi ra mũi, giống \"ng\" trong tiếng Việt. Không đọc thêm /ɡ/ ở cuối: thing, offering.",
+      "words": ["thing", "thank", "single", "language", "offering", "worshipping"],
+      "sentence": "Thank you for bringing the offering and singing a song.",
+      "quiz": [
+        { "prompt": "Which word has the sound /ŋ/?", "options": ["thank", "than", "ten"], "answer": 0, "explainVi": "thank /θæŋk/ có /ŋ/; than /ðæn/ và ten /ten/ có /n/." }
+      ],
+      "src": { "kind": "sgk", "page": 52 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "ceremony, decorative, lantern, offering nhấn âm đầu; contestant, longevity, admire nhấn âm thứ hai.",
+      "words": ["ceremony", "decorative", "lantern", "contestant", "longevity", "admire"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["contestant", "ceremony", "lantern"], "answer": 0, "explainVi": "contestant /kənˈtestənt/ nhấn âm thứ hai; ceremony và lantern nhấn âm đầu." },
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["decorative", "admire", "longevity"], "answer": 0, "explainVi": "decorative /ˈdekərətɪv/ nhấn âm đầu; admire và longevity nhấn âm thứ hai." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "sentence_stress",
+      "focus": "Nhấn từ quan trọng khi khuyên",
+      "tipVi": "Khi khuyên, nhấn mạnh từ khuyên (should, don't) và động từ chính, đọc nhẹ các từ nhỏ như you, the, to. Ví dụ: You SHOULD WAIT for the HOST.",
+      "words": ["You should wait.", "Don't hit the bowl."],
+      "sentence": "You should wait for the host to start eating.",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Perhaps you should ...", "vi": "Có lẽ bạn nên ...", "useVi": "Khi khuyên ai đó một cách nhẹ nhàng.", "example": "Perhaps you should bring a warm coat to Sa Pa.", "src": { "kind": "sgk", "page": 54 } },
+    { "id": "e02", "en": "It's a good idea to ...", "vi": "Bạn nên ... thì hay đấy.", "useVi": "Khi gợi ý một việc nên làm.", "example": "It's a good idea to take off your shoes before you go in.", "src": { "kind": "sgk", "page": 54 } },
+    { "id": "e03", "en": "Don't ...", "vi": "Đừng ...", "useVi": "Khi khuyên ai không nên làm việc gì.", "example": "Don't point your chopsticks at other people.", "src": { "kind": "sgk", "page": 54 } },
+    { "id": "e04", "en": "I'll remember that.", "vi": "Mình sẽ nhớ điều đó.", "useVi": "Khi nhận lời khuyên và cảm ơn người khuyên.", "example": "Sure. I'll remember that. Thanks!", "src": { "kind": "sgk", "page": 54 } },
+    { "id": "e05", "en": "It's a tradition in my family to ...", "vi": "Gia đình mình có truyền thống ...", "useVi": "Khi giới thiệu một truyền thống của gia đình.", "example": "It's a tradition in my family to have a big dinner on New Year's Eve.", "src": { "kind": "team", "page": null } },
+    { "id": "e06", "en": "In my country, people usually ...", "vi": "Ở nước mình, mọi người thường ...", "useVi": "Khi giới thiệu phong tục cho người nước ngoài.", "example": "In my country, people usually visit relatives during Tet.", "src": { "kind": "team", "page": null } },
+    { "id": "e07", "en": "We do this because ...", "vi": "Chúng mình làm vậy vì ...", "useVi": "Khi giải thích ý nghĩa của một phong tục.", "example": "We do this because we want to show respect to our ancestors.", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "You shouldn't ...", "vi": "Bạn không nên ...", "useVi": "Khi khuyên ai tránh làm một việc.", "example": "You shouldn't sweep the floor on the first day of Tet.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["It's a tradition", "in my family", "to have a reunion", "on New Year's Eve"], "vi": "Gia đình mình có truyền thống sum họp vào đêm Giao thừa.", "grammarId": null },
+    { "id": "b02", "chunks": ["Perhaps you should", "wait for", "the oldest person", "to start eating"], "vi": "Có lẽ bạn nên đợi người lớn tuổi nhất bắt đầu ăn.", "grammarId": "g02" },
+    { "id": "b03", "chunks": ["Children", "love", "festivals and", "lucky money"], "vi": "Trẻ em thích lễ hội và tiền lì xì.", "grammarId": "g01" },
+    { "id": "b04", "chunks": ["We went", "to the flower village", "by bus", "last Sunday"], "vi": "Chúng mình đi đến làng hoa bằng xe buýt Chủ nhật tuần trước.", "grammarId": "g01" },
+    { "id": "b05", "chunks": ["People hang", "decorative items", "on the bamboo pole", "to chase away bad luck"], "vi": "Người ta treo đồ trang trí lên cây nêu để xua đuổi điều xui.", "grammarId": null },
+    { "id": "b06", "chunks": ["It's a good idea", "to hand", "the bowl", "with both hands"], "vi": "Bạn nên đưa bát bằng cả hai tay.", "grammarId": "g02" },
+    { "id": "b07", "chunks": ["Don't hit", "your bowl", "with your chopsticks"], "vi": "Đừng gõ đũa vào bát.", "grammarId": "g02" },
+    { "id": "b08", "chunks": ["Family reunions", "are good", "for family bonding"], "vi": "Những buổi sum họp gia đình rất tốt cho sự gắn kết gia đình.", "grammarId": "g01" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "We visit our grandparents.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "on the first day of Tet" },
+        { "askVi": "Mang gì theo?", "ask": "What do you bring?", "add": "with a box of cakes" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "to wish them good health" }
+      ],
+      "full": "We visit our grandparents on the first day of Tet with a box of cakes to wish them good health."
+    },
+    {
+      "id": "x02",
+      "base": "My mum prepares offerings.",
+      "steps": [
+        { "askVi": "Đồ cúng gồm gì?", "ask": "What kind?", "add": "of fruit and flowers" },
+        { "askVi": "Để làm gì?", "ask": "What for?", "add": "to worship our ancestors" }
+      ],
+      "full": "My mum prepares offerings of fruit and flowers to worship our ancestors."
+    },
+    {
+      "id": "x03",
+      "base": "We made lanterns.",
+      "steps": [
+        { "askVi": "Đèn lồng thế nào?", "ask": "What kind?", "add": "colourful star-shaped" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "before the Mid-Autumn Festival" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at school" }
+      ],
+      "full": "We made colourful star-shaped lanterns at school before the Mid-Autumn Festival."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Một buổi sum họp gia đình",
+      "questions": [
+        "What does your family do at a family reunion?",
+        "How does your family spend time together on special occasions?",
+        "Tell me about a family gathering you enjoyed."
+      ],
+      "keywords": ["family reunion", "cook", "relatives", "family bonding"],
+      "exampleAnswer": "At our family reunion, my aunts cook a big meal and the children play games. Everyone talks and laughs a lot.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Phép tắc ăn uống trong gia đình",
+      "questions": [
+        "What table manners do Vietnamese children learn?",
+        "What should you do and not do at a family meal?",
+        "Which table manners are important in your family?"
+      ],
+      "keywords": ["table manners", "wait", "both hands", "chopsticks"],
+      "exampleAnswer": "We wait for the oldest person to start eating. We also hand bowls with both hands and don't play with our chopsticks.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Một lễ hội ở địa phương",
+      "questions": [
+        "What can festival goers see and do at a local festival?",
+        "What happens at a festival in your area?",
+        "What activities do people enjoy at a traditional festival?"
+      ],
+      "keywords": ["festival goer", "martial arts", "contestant", "admire"],
+      "exampleAnswer": "Festival goers can watch martial arts shows, cheer for the contestants in boat races and admire the lanterns.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Vì sao cần giữ gìn phong tục",
+      "questions": [
+        "Why should we keep our traditions?",
+        "Why are customs important for a family?",
+        "What can young people learn from old customs?"
+      ],
+      "keywords": ["tradition", "custom", "respect", "family bonding"],
+      "exampleAnswer": "Customs connect us with our grandparents and ancestors. They also teach young people to respect others.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Lời khuyên cho khách nước ngoài dịp Tết",
+      "questions": [
+        "What advice would you give a foreign visitor during Tet?",
+        "What should a tourist know before visiting a Vietnamese family at Tet?",
+        "What shouldn't visitors do when they celebrate Tet with a local family?"
+      ],
+      "keywords": ["should", "It's a good idea to", "Don't", "lucky money"],
+      "exampleAnswer": "It's a good idea to bring a small gift. You should wish everyone good health, and don't say sad things.",
+      "expectsReason": false
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What do you usually do on the first day of Tet?", "keywords": ["visit", "lucky money", "relatives"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should families eat dinner together every day? Why or why not?", "keywords": ["family bonding", "talk", "busy"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your foreign friend is going to visit a pagoda with you. What advice do you give her?", "keywords": ["should", "Don't", "quiet"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What do you usually do at the Mid-Autumn Festival?", "keywords": ["lantern", "mooncakes", "lion dance"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should students learn traditional crafts like making lanterns at school? Why or why not?", "keywords": ["lantern", "tradition", "skills"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your cousin from abroad is going to a wedding ceremony in your village. What advice do you give him?", "keywords": ["It's a good idea to", "should", "Don't"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Kể về một dịp đặc biệt trong gia đình",
+      "contextVi": "Elena, một bạn qua thư người Anh, đang làm dự án về truyền thống gia đình ở các nước. Bạn ấy gọi video hỏi em về một dịp đặc biệt của gia đình em.",
+      "aiRole": "Elena, a pen friend from the UK doing a school project",
+      "studentRoleVi": "Bạn qua thư người Việt",
+      "goalVi": "Kể về một dịp đặc biệt của gia đình: mọi người làm gì và vì sao dịp đó quan trọng.",
+      "goal": "Describe a special family event: what people do and why it is important to your family.",
+      "requirements": [
+        { "kind": "example", "vi": "Kể ít nhất một hoạt động cụ thể", "words": [] },
+        { "kind": "reason", "vi": "Nói vì sao dịp đó quan trọng (because...)", "words": [] }
+      ],
+      "opener": "Hi! I'm doing a project about family traditions around the world. What special event does your family have?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "How lovely! What do people do on that day?",
+        "Why is this event important to your family?",
+        "Thank you! I'll put this in my project."
+      ],
+      "tipsVi": ["Mở đầu: \"It's a tradition in my family to...\"", "Giải thích ý nghĩa với \"We do this because...\"."],
+      "keywords": ["tradition", "family reunion", "because", "every year"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Sum họp gia đình có chán không?",
+      "contextVi": "Bạn em không muốn về dự buổi sum họp gia đình cuối tuần vì thấy chán và chỉ muốn ở nhà chơi game.",
+      "aiRole": "Khoa, a friend who doesn't want to go to his family reunion",
+      "studentRoleVi": "Bạn thân khuyên Khoa đi dự sum họp",
+      "goalVi": "Khuyên Khoa đi dự buổi sum họp: nêu lý do, ví dụ, và trả lời khi Khoa phản đối.",
+      "goal": "Advise Khoa to go to his family reunion: give reasons and an example, and answer his objection politely.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa lời khuyên (you should..., it's a good idea to...)", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["family reunion", "family bonding", "tradition", "relatives"] }
+      ],
+      "opener": "My parents want me to go to a family reunion this Sunday. I really don't want to go.",
+      "stance": "Family reunions are boring. I'd rather stay at home and play games.",
+      "turns": 5,
+      "fallback": [
+        "Why do you think I should go?",
+        "But family reunions are boring. I'd rather stay at home and play games.",
+        "Hmm, maybe. What can I do there to have fun?",
+        "OK, I'll go. Thanks for the advice."
+      ],
+      "tipsVi": ["Khuyên: \"Perhaps you should...\", \"It's a good idea to...\"", "Khi Khoa phản đối, mở đầu bằng \"I see your point, but...\""],
+      "keywords": ["should", "family bonding", "I see your point", "because"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Phép tắc ăn uống cho bạn nước ngoài",
+      "contextVi": "Tom, bạn người Mỹ, sắp ăn tối với gia đình một người bạn Việt. Em khuyên Tom về phép tắc ăn uống, nhưng Tom thấy lạ.",
+      "aiRole": "Tom, an exchange student from the USA",
+      "studentRoleVi": "Bạn người Việt cho lời khuyên",
+      "goalVi": "Khuyên Tom ít nhất hai điều về phép tắc ăn uống, giải thích lý do, trả lời khi Tom thắc mắc.",
+      "goal": "Give Tom at least two pieces of advice about Vietnamese table manners, explain why, and answer his question.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ít nhất hai lời khuyên", "words": [] },
+        { "kind": "reason", "vi": "Giải thích lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["table manners", "custom", "tradition", "respect"] }
+      ],
+      "opener": "I'm having dinner with Nam's family tomorrow. Can you tell me a bit about Vietnamese table manners?",
+      "stance": "In my country, everyone starts eating as soon as the food is on the table. Why should I wait?",
+      "turns": 5,
+      "fallback": [
+        "OK. What else should I know?",
+        "But in my country, everyone starts eating as soon as the food is on the table. Why should I wait?",
+        "I see. Is there anything I shouldn't do?",
+        "Thanks! I'll remember that."
+      ],
+      "tipsVi": ["Dùng \"Perhaps you should...\", \"Don't...\"", "Giải thích ý nghĩa: thể hiện sự tôn trọng người lớn tuổi."],
+      "keywords": ["should", "Don't", "respect", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Một truyền thống mới cho lớp",
+      "contextVi": "Lớp em muốn tạo một truyền thống mới cho mỗi dịp Trung thu. Em bàn với lớp phó văn nghệ xem nên làm gì.",
+      "aiRole": "Hoa, the class's arts and events monitor",
+      "studentRoleVi": "Học sinh đề xuất truyền thống mới",
+      "goalVi": "Đề xuất một hoạt động truyền thống cho lớp, nêu lý do, và trả lời khi Hoa muốn tổ chức tiệc hiện đại.",
+      "goal": "Suggest a traditional activity for the class at Mid-Autumn, give reasons, and respond when Hoa prefers a modern party.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất hoạt động", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["tradition", "custom", "lantern", "decorative", "admire", "family bonding"] }
+      ],
+      "opener": "Our class wants to start a new tradition for every Mid-Autumn Festival. What should we do?",
+      "stance": "Old traditions are a bit boring. Let's just have a modern party with pizza and music.",
+      "turns": 5,
+      "fallback": [
+        "Nice idea. Why do you think it's a good tradition?",
+        "Old traditions are a bit boring, though. Why don't we just have a modern party with pizza and music?",
+        "OK, you have a point. What do we need to prepare?",
+        "Great. Let's tell the class tomorrow."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["tradition", "lantern", "should", "because"]
+    }
+  ]
+}

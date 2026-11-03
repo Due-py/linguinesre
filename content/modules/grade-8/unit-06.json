@@ -1,0 +1,384 @@
+{
+  "grade": 8,
+  "unit": 6,
+  "title": "Lifestyles",
+  "titleVi": "Lối sống",
+  "edition": "Tiếng Anh 8 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 60–69; Glossary tr. 137",
+  "vocab": [
+    { "id": "v01", "en": "lifestyle", "vi": "lối sống", "ipa": "/ˈlaɪfstaɪl/", "ipaFrom": "glossary", "pos": "n", "example": "Eating well and sleeping enough are part of a healthy lifestyle.", "collocations": ["a healthy lifestyle", "a traditional lifestyle"], "synonyms": ["way of life"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v02", "en": "habit", "vi": "thói quen", "ipa": "/ˈhæbɪt/", "ipaFrom": "glossary", "pos": "n", "example": "Reading before bed is a good habit.", "collocations": ["a good habit", "a bad habit", "change a habit"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v03", "en": "in the habit of", "vi": "có thói quen làm gì", "ipa": "/ɪn ðə ˈhæbɪt əv/", "ipaFrom": "glossary", "pos": "phr", "example": "My dad is in the habit of drinking tea every morning.", "collocations": ["be in the habit of doing something"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v04", "en": "in a hurry", "vi": "đang vội", "ipa": "/ɪn ə ˈhʌri/", "ipaFrom": "glossary", "pos": "phr", "example": "I was in a hurry, so I ate my breakfast on the bus.", "collocations": ["be in a hurry"], "synonyms": ["in a rush"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v05", "en": "greet", "vi": "chào, chào hỏi", "ipa": "/ɡriːt/", "ipaFrom": "glossary", "pos": "v", "example": "In Viet Nam, students stand up to greet their teacher.", "collocations": ["greet each other", "greet the teacher"], "synonyms": ["say hello"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v06", "en": "impact", "vi": "sự ảnh hưởng", "ipa": "/ˈɪmpækt/", "ipaFrom": "glossary", "pos": "n", "example": "Smartphones have a big impact on teenagers' lives.", "collocations": ["have an impact on", "a big impact"], "synonyms": ["effect"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v07", "en": "independent", "vi": "độc lập", "ipa": "/ˌɪndɪˈpendənt/", "ipaFrom": "glossary", "pos": "adj", "example": "Cooking for yourself helps you become more independent.", "collocations": ["become independent", "an independent learner"], "synonyms": [], "antonyms": ["dependent"], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v08", "en": "interact", "vi": "tương tác", "ipa": "/ˌɪntərˈækt/", "ipaFrom": "glossary", "pos": "v", "example": "In online lessons, it is harder to interact with classmates.", "collocations": ["interact with others", "interact face to face"], "synonyms": ["communicate"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v09", "en": "maintain", "vi": "duy trì, gìn giữ", "ipa": "/meɪnˈteɪn/", "ipaFrom": "glossary", "pos": "v", "example": "The village tries to maintain its traditional lifestyle.", "collocations": ["maintain a tradition", "maintain a lifestyle"], "synonyms": ["keep"], "antonyms": ["lose"], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v10", "en": "revive", "vi": "làm sống lại, hồi sinh", "ipa": "/rɪˈvaɪv/", "ipaFrom": "glossary", "pos": "v", "example": "Young people are helping to revive the old pottery craft.", "collocations": ["revive a tradition", "revive a craft"], "synonyms": ["bring back"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v11", "en": "online learning", "vi": "việc học trực tuyến", "ipa": "/ˌɒnˈlaɪn ˈlɜːnɪŋ/", "ipaFrom": "glossary", "pos": "n", "example": "Online learning lets students study from home.", "collocations": ["choose online learning"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v12", "en": "offline", "vi": "trực tiếp", "ipa": "/ˌɒfˈlaɪn/", "ipaFrom": "glossary", "pos": "adj, adv", "example": "I prefer offline lessons because I can see my friends.", "collocations": ["offline lessons", "meet offline"], "synonyms": ["face to face"], "antonyms": ["online"], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v13", "en": "street food", "vi": "thức ăn đường phố", "ipa": "/striːt fuːd/", "ipaFrom": "glossary", "pos": "n", "example": "Banh mi is a famous street food in Viet Nam.", "collocations": ["sell street food", "try street food"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v14", "en": "serve", "vi": "phục vụ", "ipa": "/sɜːv/", "ipaFrom": "glossary", "pos": "v", "example": "This small shop serves delicious noodle soup.", "collocations": ["serve food", "serve customers"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v15", "en": "staple", "vi": "cơ bản, chủ yếu", "ipa": "/ˈsteɪpl/", "ipaFrom": "glossary", "pos": "adj", "example": "Rice is the staple food of Vietnamese people.", "collocations": ["staple food"], "synonyms": ["main"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v16", "en": "tribal", "vi": "thuộc bộ tộc, thành bộ lạc", "ipa": "/ˈtraɪbl/", "ipaFrom": "glossary", "pos": "adj", "example": "We watched a tribal dance at the cultural festival.", "collocations": ["tribal dance", "tribal groups"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v17", "en": "make craft", "vi": "làm hàng thủ công", "ipa": "/meɪk krɑːft/", "ipaFrom": "glossary", "pos": "phr", "example": "The villagers make crafts from bamboo and sell them to tourists.", "collocations": ["make crafts from bamboo"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v18", "en": "nomadic", "vi": "du mục", "ipa": "/nəʊˈmædɪk/", "ipaFrom": "glossary", "pos": "adj", "example": "Nomadic people move from place to place with their animals.", "collocations": ["a nomadic lifestyle", "nomadic people"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v19", "en": "experience", "vi": "kinh nghiệm, trải nghiệm", "ipa": "/ɪkˈspɪəriəns/", "ipaFrom": "glossary", "pos": "n, v", "example": "Sleeping in an igloo was an amazing experience.", "collocations": ["a new experience", "experience a different culture"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v20", "en": "dogsled", "vi": "xe trượt tuyết chó kéo", "ipa": "/ˈdɒɡsled/", "ipaFrom": "glossary", "pos": "n", "example": "In Alaska, some people still travel by dogsled.", "collocations": ["ride a dogsled", "travel by dogsled"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v21", "en": "igloo", "vi": "lều tuyết", "ipa": "/ˈɪɡluː/", "ipaFrom": "glossary", "pos": "n", "example": "An igloo is a house made of blocks of snow.", "collocations": ["build an igloo", "stay in an igloo"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Future simple",
+      "nameVi": "Thì tương lai đơn",
+      "explainVi": "Dùng will / won't + V nguyên mẫu để nói về việc có thể xảy ra trong tương lai, dự đoán, hoặc kết quả của một điều kiện. Sau will không thêm -s, -ed, -ing; will dùng cho mọi chủ ngữ.",
+      "formula": "S + will / won't + V (nguyên mẫu)  ·  Will + S + V...?",
+      "examples": [
+        "I think more people will choose online learning.",
+        "We won't watch the tribal dance because it's too late.",
+        "Will they stay in an igloo when they visit Alaska?"
+      ],
+      "wrong": [
+        { "sentence": "She will visits the village next month.", "fix": "She will visit the village next month.", "whyVi": "Sau will, động từ ở dạng nguyên mẫu, không thêm -s." },
+        { "sentence": "In the future, people will to eat less street food.", "fix": "In the future, people will eat less street food.", "whyVi": "Sau will không có to." }
+      ],
+      "drills": [
+        { "prompt": "I think online learning ___ more popular in the future.", "options": ["will become", "became", "becoming"], "answer": 0, "explainVi": "Dự đoán về tương lai: will + V nguyên mẫu." },
+        { "prompt": "Which sentence is correct?", "options": ["She will visits the village.", "She will visit the village.", "She wills visit the village."], "answer": 1, "explainVi": "will + V nguyên mẫu, will không đổi theo chủ ngữ." },
+        { "prompt": "I'm not sure, but I think it ___ tomorrow.", "options": ["will rain", "rained", "raining"], "answer": 0, "explainVi": "Dự đoán thời tiết ngày mai: will rain." }
+      ],
+      "errorTag": "verb_tense",
+      "src": { "kind": "sgk", "page": 63 }
+    },
+    {
+      "id": "g02",
+      "name": "First conditional",
+      "nameVi": "Câu điều kiện loại 1",
+      "explainVi": "Câu điều kiện loại 1 nói về điều có thể xảy ra trong tương lai và kết quả của nó. Mệnh đề if dùng hiện tại đơn, mệnh đề chính dùng will / won't + V. Nếu mệnh đề if đứng trước thì có dấu phẩy.",
+      "formula": "If + S + V (hiện tại đơn), S + will / won't + V",
+      "examples": [
+        "If you eat too much street food, you will feel unwell.",
+        "If it rains tomorrow, we will stay at home.",
+        "You won't feel tired in class if you go to bed early."
+      ],
+      "wrong": [
+        { "sentence": "If he will study harder, he will pass the test.", "fix": "If he studies harder, he will pass the test.", "whyVi": "Mệnh đề if dùng hiện tại đơn, không dùng will." },
+        { "sentence": "If you skip breakfast, you feel hungry in class.", "fix": "If you skip breakfast, you will feel hungry in class.", "whyVi": "Nói về kết quả trong tương lai, mệnh đề chính dùng will." }
+      ],
+      "drills": [
+        { "prompt": "If you ___ breakfast, you will feel hungry in class.", "options": ["skip", "will skip", "skipped"], "answer": 0, "explainVi": "Mệnh đề if dùng hiện tại đơn: skip." },
+        { "prompt": "If it rains tomorrow, we ___ at home.", "options": ["will stay", "stayed", "staying"], "answer": 0, "explainVi": "Mệnh đề chính dùng will + V: will stay." },
+        { "prompt": "Which sentence is correct?", "options": ["If he will study harder, he passes.", "If he studies harder, he will pass.", "If he study harder, he will pass."], "answer": 1, "explainVi": "If + hiện tại đơn (he studies), mệnh đề chính will + V." }
+      ],
+      "errorTag": "conditional",
+      "src": { "kind": "sgk", "page": 64 }
+    },
+    {
+      "id": "g03",
+      "name": "Unless in conditional sentences",
+      "nameVi": "Dùng unless trong câu điều kiện",
+      "explainVi": "Unless nghĩa là \"nếu ... không\" hoặc \"trừ khi\". Sau unless dùng câu khẳng định, không thêm not nữa. Ví dụ: You will fail the test unless you study harder = If you don't study harder, you will fail.",
+      "formula": "Unless + S + V (hiện tại đơn, khẳng định), S + will / won't + V",
+      "examples": [
+        "You will be late unless you hurry.",
+        "Unless we maintain our traditions, we will lose them."
+      ],
+      "wrong": [
+        { "sentence": "Unless you don't hurry, you will miss the bus.", "fix": "Unless you hurry, you will miss the bus.", "whyVi": "unless đã có nghĩa phủ định, không dùng thêm don't." },
+        { "sentence": "Unless you will go to bed early, you will be tired.", "fix": "Unless you go to bed early, you will be tired.", "whyVi": "Sau unless dùng hiện tại đơn, không dùng will." }
+      ],
+      "drills": [
+        { "prompt": "___ you hurry, you will miss the bus.", "options": ["Unless", "If", "When"], "answer": 0, "explainVi": "Nếu KHÔNG nhanh lên thì sẽ lỡ xe buýt: dùng Unless." },
+        { "prompt": "Unless you go to bed early, you ___ tired tomorrow.", "options": ["will be", "won't be", "are"], "answer": 0, "explainVi": "Nếu không đi ngủ sớm thì sẽ mệt: will be." },
+        { "prompt": "\"Unless\" means ___.", "options": ["if ... not", "because", "so that"], "answer": 0, "explainVi": "unless = if ... not (nếu ... không)." }
+      ],
+      "errorTag": "conditional",
+      "src": { "kind": "sgk", "page": 64 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Âm /br/",
+      "tipVi": "Mím hai môi bật /b/ (dây thanh rung) rồi chuyển ngay sang /r/, lưỡi cong nhẹ, không chạm vòm miệng. Đọc liền, không chèn âm \"ơ\" (không đọc thành \"bơ-rếch-phớt\").",
+      "words": ["bridge", "broccoli", "breakfast", "algebra", "celebrate", "bring"],
+      "sentence": "My brother brings bread for breakfast.",
+      "quiz": [
+        { "prompt": "Which word has the sound /br/?", "options": ["breakfast", "practise", "bed"], "answer": 0, "explainVi": "breakfast /ˈbrekfəst/ có /br/; practise có /pr/, bed chỉ có /b/." }
+      ],
+      "src": { "kind": "sgk", "page": 62 }
+    },
+    {
+      "id": "p02",
+      "kind": "sound",
+      "focus": "Âm /pr/",
+      "tipVi": "Mím hai môi bật hơi /p/ (dây thanh không rung) rồi chuyển ngay sang /r/. Đọc liền, không chèn âm \"ơ\" (không đọc thành \"pơ-rét-zần\").",
+      "words": ["present", "practise", "precious", "programme", "express", "pray"],
+      "sentence": "We practise for the school programme every Friday.",
+      "quiz": [
+        { "prompt": "Which word has the sound /pr/?", "options": ["express", "bridge", "brother"], "answer": 0, "explainVi": "express /ɪkˈspres/ có /pr/; bridge và brother có /br/." },
+        { "prompt": "Which word does NOT have the sound /pr/?", "options": ["precious", "algebra", "programme"], "answer": 1, "explainVi": "algebra /ˈældʒɪbrə/ có /br/, không có /pr/." }
+      ],
+      "src": { "kind": "sgk", "page": 62 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "lifestyle, habit, impact nhấn âm đầu; maintain, revive nhấn âm thứ hai; independent, interact nhấn âm thứ ba.",
+      "words": ["lifestyle", "habit", "maintain", "revive", "independent", "interact"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["lifestyle", "maintain", "revive"], "answer": 0, "explainVi": "lifestyle /ˈlaɪfstaɪl/ nhấn âm đầu; maintain và revive nhấn âm thứ hai." },
+        { "prompt": "Which word is stressed on the THIRD syllable?", "options": ["independent", "experience", "habit"], "answer": 0, "explainVi": "independent /ˌɪndɪˈpendənt/ nhấn âm thứ ba; experience nhấn âm thứ hai, habit nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Ngữ điệu khi khẳng định chắc chắn",
+      "tipVi": "Khi nói Sure. hoặc Yes, certainly. để thể hiện chắc chắn, xuống giọng dứt khoát ở cuối. Giọng lên ở cuối sẽ nghe như mình còn đang phân vân.",
+      "words": ["Sure.", "Yes, certainly."],
+      "sentence": "Yes, certainly. Vietnamese people love street food.",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Sure.", "vi": "Chắc chắn rồi. / Được chứ.", "useVi": "Khi đồng ý ngay hoặc khẳng định điều gì là đúng.", "example": "Sure. I'll help you with your maths homework.", "src": { "kind": "sgk", "page": 64 } },
+    { "id": "e02", "en": "Yes, certainly.", "vi": "Vâng, chắc chắn rồi.", "useVi": "Khi khẳng định chắc chắn một điều người khác vừa nói.", "example": "Yes, certainly. Pho is popular all over the country.", "src": { "kind": "sgk", "page": 64 } },
+    { "id": "e03", "en": "You're welcome.", "vi": "Bạn cứ tự nhiên. / Không có gì.", "useVi": "Khi vui vẻ đồng ý cho ai đó đến hoặc đáp lại lời cảm ơn.", "example": "Sure. You're welcome to come on Sunday.", "src": { "kind": "sgk", "page": 64 } },
+    { "id": "e04", "en": "I'm sure (that) ...", "vi": "Mình chắc chắn rằng ...", "useVi": "Khi nói điều mình tin chắc.", "example": "I'm sure that street food will still be popular in twenty years.", "src": { "kind": "team", "page": null } },
+    { "id": "e05", "en": "I'm not sure, but I think ...", "vi": "Mình không chắc, nhưng mình nghĩ ...", "useVi": "Khi đưa ra dự đoán mà chưa chắc chắn.", "example": "I'm not sure, but I think more students will learn online.", "src": { "kind": "team", "page": null } },
+    { "id": "e06", "en": "In the future, I think ... will ...", "vi": "Trong tương lai, mình nghĩ ... sẽ ...", "useVi": "Khi nêu dự đoán về tương lai.", "example": "In the future, I think robots will cook for us.", "src": { "kind": "team", "page": null } },
+    { "id": "e07", "en": "One advantage of ... is that ...", "vi": "Một ưu điểm của ... là ...", "useVi": "Khi nêu mặt tốt của một lối sống hay một cách học.", "example": "One advantage of online learning is that we can study at home.", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "We should maintain ... because ...", "vi": "Chúng ta nên giữ gìn ... vì ...", "useVi": "Khi nói vì sao cần giữ một nét sống truyền thống.", "example": "We should maintain our greetings because they show respect.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["I think", "more students", "will choose", "online learning"], "vi": "Mình nghĩ sẽ có nhiều học sinh chọn học trực tuyến hơn.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["If you skip", "breakfast,", "you will feel", "hungry in class"], "vi": "Nếu bỏ bữa sáng, bạn sẽ thấy đói trong lớp.", "grammarId": "g02" },
+    { "id": "b03", "chunks": ["Unless we maintain", "our traditions,", "we will", "lose them"], "vi": "Nếu không giữ gìn truyền thống, chúng ta sẽ mất chúng.", "grammarId": "g03" },
+    { "id": "b04", "chunks": ["Many adults", "are in the habit of", "having breakfast", "outside"], "vi": "Nhiều người lớn có thói quen ăn sáng ở ngoài.", "grammarId": null },
+    { "id": "b05", "chunks": ["Students", "stand up", "to greet", "their teachers"], "vi": "Học sinh đứng dậy để chào thầy cô.", "grammarId": null },
+    { "id": "b06", "chunks": ["If you are", "not in a hurry,", "we will have", "a coffee together"], "vi": "Nếu bạn không vội, chúng mình sẽ uống cà phê cùng nhau.", "grammarId": "g02" },
+    { "id": "b07", "chunks": ["Young people", "will help", "to revive", "the old craft"], "vi": "Những người trẻ sẽ giúp hồi sinh nghề thủ công xưa.", "grammarId": "g01" },
+    { "id": "b08", "chunks": ["Smartphones", "have a big impact", "on our lifestyle"], "vi": "Điện thoại thông minh có ảnh hưởng lớn đến lối sống của chúng ta.", "grammarId": null }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I have breakfast.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at a street food stall" },
+        { "askVi": "Với ai?", "ask": "Who with?", "add": "with my dad" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every Sunday morning" }
+      ],
+      "full": "I have breakfast at a street food stall with my dad every Sunday morning."
+    },
+    {
+      "id": "x02",
+      "base": "I will learn a craft.",
+      "steps": [
+        { "askVi": "Nghề gì?", "ask": "Which craft?", "add": "how to make bamboo baskets" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "this summer" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because I want to help revive it" }
+      ],
+      "full": "I will learn how to make bamboo baskets this summer because I want to help revive it."
+    },
+    {
+      "id": "x03",
+      "base": "You will feel tired.",
+      "steps": [
+        { "askVi": "Nếu làm gì?", "ask": "If what?", "add": "if you go to bed after midnight" },
+        { "askVi": "Khi nào sẽ mệt?", "ask": "When?", "add": "in class the next day" }
+      ],
+      "full": "You will feel tired in class the next day if you go to bed after midnight."
+    },
+    {
+      "id": "x04",
+      "base": "My family maintains a habit.",
+      "steps": [
+        { "askVi": "Thói quen gì?", "ask": "What habit?", "add": "of eating dinner together" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it helps us talk more" }
+      ],
+      "full": "My family maintains a habit of eating dinner together because it helps us talk more."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Thói quen lành mạnh hằng ngày",
+      "questions": [
+        "What healthy habits do you have?",
+        "What do you do every day to stay healthy?",
+        "Which good habits help you in your daily life?"
+      ],
+      "keywords": ["habit", "in the habit of", "exercise", "sleep"],
+      "exampleAnswer": "I'm in the habit of drinking a lot of water and going for a walk after dinner.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Công nghệ thay đổi lối sống",
+      "questions": [
+        "How has technology changed the way your family lives?",
+        "What impact do smartphones have on our daily life?",
+        "How does the internet change the way people interact?"
+      ],
+      "keywords": ["impact", "interact", "online", "lifestyle"],
+      "exampleAnswer": "Smartphones have a big impact. My family buys food online and we interact with relatives by video calls.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Kế hoạch sắp tới",
+      "questions": [
+        "What will you do this summer?",
+        "What are your plans for the next long holiday?",
+        "Where will you go on your next trip?"
+      ],
+      "keywords": ["will", "visit", "learn", "experience"],
+      "exampleAnswer": "This summer, I will visit my aunt in Da Lat and I will learn to make crafts from bamboo.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Hậu quả của việc ngủ quá muộn",
+      "questions": [
+        "What will happen if students stay up late every night?",
+        "How will you feel the next morning if you sleep very late?",
+        "What problems will teenagers have if they don't get enough sleep?"
+      ],
+      "keywords": ["If", "will", "tired", "concentrate"],
+      "exampleAnswer": "If students stay up late every night, they will feel tired and they won't concentrate in class.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Giữ gìn lối sống truyền thống",
+      "questions": [
+        "How can we maintain traditional lifestyles in modern life?",
+        "What can young people do to keep old ways of life alive?",
+        "Which traditional activities should we revive, and why?"
+      ],
+      "keywords": ["maintain", "revive", "tradition", "craft"],
+      "exampleAnswer": "We can maintain them by learning old crafts from our grandparents and teaching them to younger children.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What will you do on your next birthday?", "keywords": ["will", "party", "friends"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should students use smartphones in class for learning? Why or why not?", "keywords": ["online", "interact", "concentrate"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend always eats breakfast in a hurry on the way to school. What do you say to him?", "keywords": ["in a hurry", "If", "should"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What will you do during the next school holiday?", "keywords": ["will", "visit", "relax"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should families eat street food often? Why or why not?", "keywords": ["street food", "healthy", "cheap"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your classmate never does exercise and uses his phone all evening. What do you say to him?", "keywords": ["habit", "If", "should"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Giới thiệu lối sống Việt Nam",
+      "contextVi": "Tom, một học sinh người Anh vừa đến Việt Nam, muốn biết cuộc sống hằng ngày ở đây có gì khác với nước bạn ấy.",
+      "aiRole": "Tom, a British student who has just arrived in Viet Nam",
+      "studentRoleVi": "Học sinh người Việt giới thiệu lối sống",
+      "goalVi": "Giới thiệu ít nhất hai nét trong lối sống Việt Nam (chào hỏi, ăn sáng, thức ăn đường phố...) và giải thích.",
+      "goal": "Tell Tom about at least two parts of Vietnamese daily life (greetings, breakfast, street food...) and explain them.",
+      "requirements": [
+        { "kind": "example", "vi": "Đưa ít nhất một ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["greet", "street food", "in the habit of", "lifestyle", "serve"] }
+      ],
+      "opener": "Hi! I've just arrived in Viet Nam. What is daily life like here?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Interesting! How do students greet their teachers here?",
+        "I see. What do people usually eat for breakfast?",
+        "Sounds great. Can you take me to try some street food?"
+      ],
+      "tipsVi": ["Dùng \"In Viet Nam, people usually...\"", "Khẳng định chắc chắn: \"Sure.\", \"Yes, certainly.\""],
+      "keywords": ["greet", "street food", "usually", "Sure"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Học trực tuyến hay học ở lớp?",
+      "contextVi": "Trường em hỏi ý kiến học sinh về việc học trực tuyến hoàn toàn. Bạn em rất thích ý tưởng này, còn em muốn học ở lớp.",
+      "aiRole": "Mai, a classmate who loves online learning",
+      "studentRoleVi": "Học sinh muốn học trực tiếp ở lớp",
+      "goalVi": "Giải thích vì sao em thích học ở lớp: nêu lý do, ví dụ, và trả lời khi Mai phản đối.",
+      "goal": "Explain why you prefer learning in the classroom: give reasons and an example, and answer Mai's objection.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "example", "vi": "Đưa ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["online learning", "offline", "interact", "independent", "impact"] }
+      ],
+      "opener": "Our school might switch to online learning next term. Isn't that great? What do you think?",
+      "stance": "Online learning is better. We can learn at home and sleep longer.",
+      "turns": 5,
+      "fallback": [
+        "Really? Why do you prefer the classroom?",
+        "But online learning is better. We can learn at home and sleep longer.",
+        "Hmm, good point. What will happen if we only learn online?",
+        "OK, maybe we need both. Let's write our ideas for the school."
+      ],
+      "tipsVi": ["Dùng câu điều kiện: \"If we learn online all the time, we will...\"", "Khi Mai phản đối, mở đầu bằng \"I see your point, but...\""],
+      "keywords": ["interact", "If", "will", "I see your point"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Hồi sinh nghề truyền thống",
+      "contextVi": "Thị trấn của em muốn hồi sinh nghề đan giỏ tre. Em muốn tham gia lớp học nghề, nhưng một người bạn nghĩ nghề cũ không còn ích lợi.",
+      "aiRole": "Quan, a friend who thinks traditional crafts are useless",
+      "studentRoleVi": "Học sinh muốn tham gia hồi sinh nghề truyền thống",
+      "goalVi": "Giải thích vì sao nên hồi sinh nghề truyền thống, đề xuất cách làm, và trả lời khi Quan phản đối.",
+      "goal": "Explain why your town should revive its traditional craft, suggest how teens can help, and answer Quan's objection.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do nên hồi sinh nghề", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất cách học sinh có thể giúp", "words": [] }
+      ],
+      "opener": "I heard you want to join the bamboo basket class this summer. Why would you want to do that?",
+      "stance": "Traditional crafts are old-fashioned. Nobody will buy them in the future.",
+      "turns": 5,
+      "fallback": [
+        "Why is it important to you?",
+        "But traditional crafts are old-fashioned. Nobody will buy them in the future, right?",
+        "Hmm, I didn't think of that. How can teenagers help?",
+        "OK, maybe I'll join the class with you."
+      ],
+      "tipsVi": ["Dùng \"If we revive..., we will...\" và \"Unless we..., we will...\"", "Gợi ý: bán hàng online, giới thiệu cho du khách."],
+      "keywords": ["revive", "maintain", "Unless", "will"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Lối sống 20 năm nữa",
+      "contextVi": "Em trò chuyện với một bạn qua thư về lối sống của tuổi teen trong 20 năm tới.",
+      "aiRole": "Sophie, a pen friend from France",
+      "studentRoleVi": "Bạn qua thư người Việt",
+      "goalVi": "Dự đoán lối sống trong 20 năm tới, nêu lý do, và trả lời khi Sophie cho rằng con người sẽ không cần ra ngoài nữa.",
+      "goal": "Predict how teenagers' lifestyles will change in 20 years, give reasons, and respond when Sophie says people won't need to go out.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do cho dự đoán", "words": [] },
+        { "kind": "example", "vi": "Đưa ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["lifestyle", "impact", "interact", "online learning", "maintain", "habit"] }
+      ],
+      "opener": "I'm writing an essay about the future. How do you think teenagers will live in twenty years?",
+      "stance": "I think people won't need to go out at all in the future, because robots will do everything for us.",
+      "turns": 5,
+      "fallback": [
+        "That's interesting. Why do you think so?",
+        "I think people won't need to go out at all, because robots will do everything for us. Do you agree?",
+        "Good point. Which traditions do you think we will still maintain?",
+        "Thanks! That's really useful for my essay."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["will", "If", "lifestyle", "because"]
+    }
+  ]
+}

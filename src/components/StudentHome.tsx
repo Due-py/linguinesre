@@ -3,6 +3,8 @@ import { ArrowRight, CircleAlert, CircleCheck, CircleDashed, Circle, Flag, Timer
 import SessionList from "@/components/SessionList";
 import Waveform from "@/components/Waveform";
 import type { TodayTask } from "@/lib/practice";
+import type { ModuleToday } from "@/lib/module/server";
+import { DAY_INFO } from "@/lib/module/plan";
 import type { Focus, SessionRow } from "@/lib/sessions";
 import { FOCUS_MIN_SESSIONS } from "@/lib/summary";
 import { REACTION_MIN_SESSIONS, type ReactionPoint } from "@/lib/reaction";
@@ -13,6 +15,8 @@ export type RoadmapUnit = {
   title: string;
   titleVi: string;
   state: "done" | "in_progress" | "next" | "todo";
+  /** Unit có Learning Module 14 ngày thì đi vào module thay vì buổi luyện 5 câu. */
+  moduleId?: string | null;
 };
 
 export type StudentHomeProps = {
@@ -21,6 +25,7 @@ export type StudentHomeProps = {
   classes: { id: string; name: string }[];
   joinFailed?: boolean;
   today: TodayTask;
+  module?: ModuleToday | null;
   roadmap: RoadmapUnit[];
   recent: SessionRow[];
   focus: Focus;
@@ -54,7 +59,7 @@ const sessionHref = (s: SessionRow) => (s.status === "completed" ? `/student/ses
  * điểm cần cải thiện (chỉ khi đủ số buổi), buổi gần đây. Lớp học và hồ sơ nằm ở trang Tài khoản.
  * Chưa có dữ liệu thì hiện trạng thái bắt đầu.
  */
-export default function StudentHome({ name, grade, classes, joinFailed, today, roadmap, recent, focus, reaction }: StudentHomeProps) {
+export default function StudentHome({ name, grade, classes, joinFailed, today, module, roadmap, recent, focus, reaction }: StudentHomeProps) {
   return (
     <div className="grid gap-12">
       <section
@@ -90,6 +95,33 @@ export default function StudentHome({ name, grade, classes, joinFailed, today, r
         </div>
       </section>
 
+      {module && (
+        <section aria-labelledby="module-today" className="grid gap-3 rounded-2xl border border-line bg-surface px-6 py-6 shadow-card sm:px-8">
+          <p className="text-sm font-bold text-brand-strong">Lộ trình 14 ngày · Unit {module.unitNo}</p>
+          <h2 id="module-today" className="text-2xl font-extrabold tracking-tight">
+            {module.nextDay === null ? (
+              <>
+                Đã học xong <span lang="en">{module.title}</span>
+              </>
+            ) : (
+              <>
+                <span lang="en">{module.title}</span>, ngày {module.nextDay}: {DAY_INFO[module.nextDay].titleVi}
+              </>
+            )}
+          </h2>
+          <p className="text-muted">
+            {module.nextDay === null
+              ? "Xem kết quả so sánh đầu và cuối module."
+              : module.started
+                ? `Khoảng ${DAY_INFO[module.nextDay].minutes} phút. Mỗi ngày một bài là vừa đủ.`
+                : "Mỗi Unit học trong 14 ngày, mỗi ngày 15–25 phút: kiến thức, nói có hướng dẫn, phản xạ, roleplay, rồi tự nói không gợi ý."}
+          </p>
+          <Link href={`/student/module/${module.id}`} className="inline-flex min-h-12 w-fit items-center gap-2 rounded-full bg-brand px-6 font-bold text-on-brand shadow-button hover:bg-brand-strong">
+            {module.inProgress ? "Học tiếp" : module.nextDay === null ? "Xem kết quả" : module.started ? "Vào bài hôm nay" : "Bắt đầu lộ trình"}
+            <ArrowRight className="size-5" aria-hidden />
+          </Link>
+        </section>
+      )}
       {joinFailed && (
         <p role="alert" className="flex items-start gap-2 rounded-xl bg-warn-soft px-4 py-3 text-sm font-semibold text-warn">
           <CircleAlert className="mt-0.5 size-4 shrink-0" aria-hidden />
@@ -123,7 +155,7 @@ export default function StudentHome({ name, grade, classes, joinFailed, today, r
             <ul className="divide-y divide-line border-y border-line">
               {roadmap.map((u) => (
                 <li key={u.id}>
-                  <Link href={`/student/practice/${u.id}`} className="group grid grid-cols-[auto_1fr_auto] items-center gap-4 py-4">
+                  <Link href={u.moduleId ? `/student/module/${u.moduleId}` : `/student/practice/${u.id}`} className="group grid grid-cols-[auto_1fr_auto] items-center gap-4 py-4">
                     <span className="grid size-10 place-items-center rounded-xl bg-sunken font-extrabold tabular-nums">{u.unitNo}</span>
                     <span className="grid">
                       <span lang="en" className="font-extrabold group-hover:underline">

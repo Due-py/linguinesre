@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import AppShell from "@/components/AppShell";
+import AppShell, { TEACHER_NAV } from "@/components/AppShell";
 import TeacherHome, { type ClassRow } from "@/components/TeacherHome";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
@@ -27,7 +27,7 @@ export default async function TeacherPage() {
   }));
 
   return (
-    <AppShell name={profile.displayName ?? ""} roleLabel="Giáo viên" homeHref="/teacher">
+    <AppShell name={profile.displayName ?? ""} roleLabel="Giáo viên" homeHref="/teacher" nav={TEACHER_NAV} current="/teacher">
       <TeacherHome name={profile.displayName ?? ""} classes={classes} />
     </AppShell>
   );

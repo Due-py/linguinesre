@@ -1,0 +1,366 @@
+{
+  "grade": 10,
+  "unit": 3,
+  "title": "Music",
+  "titleVi": "Âm nhạc",
+  "edition": "Tiếng Anh 10 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 28–37; Glossary tr. 125",
+  "vocab": [
+    { "id": "v01", "en": "musical instrument", "vi": "nhạc cụ", "ipa": "/ˌmjuːzɪkl ˈɪnstrəmənt/", "ipaFrom": "glossary", "pos": "n", "example": "The guitar is the most popular musical instrument in my class.", "collocations": ["play a musical instrument", "traditional musical instruments"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v02", "en": "moon-shaped lute", "vi": "đàn nguyệt", "ipa": "/ˈmuːn ʃeɪpt luːt/", "ipaFrom": "glossary", "pos": "n", "example": "My grandfather can play the moon-shaped lute very well.", "collocations": ["play the moon-shaped lute"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v03", "en": "bamboo clapper", "vi": "phách", "ipa": "/ˌbæmˈbuː ˈklæpə/", "ipaFrom": "glossary", "pos": "n", "example": "The bamboo clappers keep the rhythm in traditional performances.", "collocations": ["play the bamboo clappers"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v04", "en": "trumpet", "vi": "kèn trumpet", "ipa": "/ˈtrʌmpɪt/", "ipaFrom": "glossary", "pos": "n", "example": "My cousin plays the trumpet in the school band.", "collocations": ["play the trumpet"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v05", "en": "concert", "vi": "buổi hoà nhạc", "ipa": "/ˈkɒnsət/", "ipaFrom": "glossary", "pos": "n", "example": "We went to an open-air concert in the city centre last month.", "collocations": ["go to a concert", "a live concert"], "synonyms": ["show"], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v06", "en": "performance", "vi": "buổi biểu diễn, buổi trình diễn", "ipa": "/pəˈfɔːməns/", "ipaFrom": "glossary", "pos": "n", "example": "Her performance at the school festival was amazing.", "collocations": ["a live performance", "give a performance"], "synonyms": ["show"], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v07", "en": "perform", "vi": "biểu diễn", "ipa": "/pəˈfɔːm/", "ipaFrom": "dictionary", "pos": "v", "example": "Our class is going to perform two songs on Teachers' Day.", "collocations": ["perform on stage", "perform live"], "synonyms": ["play"], "antonyms": [], "src": { "kind": "sgk", "page": 30 } },
+    { "id": "v08", "en": "live", "vi": "trực tiếp", "ipa": "/laɪv/", "ipaFrom": "glossary", "pos": "adj, adv", "example": "I prefer watching bands perform live to watching them on TV.", "collocations": ["live music", "perform live"], "synonyms": [], "antonyms": ["recorded"], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v09", "en": "audience", "vi": "khán giả", "ipa": "/ˈɔːdiəns/", "ipaFrom": "dictionary", "pos": "n", "example": "The audience clapped loudly after the last song.", "collocations": ["a large audience", "the TV audience"], "synonyms": ["viewers"], "antonyms": [], "src": { "kind": "sgk", "page": 30 } },
+    { "id": "v10", "en": "talented", "vi": "tài năng", "ipa": "/ˈtæləntɪd/", "ipaFrom": "glossary", "pos": "adj", "example": "She is a talented singer who writes her own songs.", "collocations": ["a talented musician", "very talented"], "synonyms": ["gifted"], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v11", "en": "competition", "vi": "cuộc tranh tài, cuộc thi", "ipa": "/ˌkɒmpəˈtɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "He won first prize in a singing competition.", "collocations": ["a music competition", "win a competition"], "synonyms": ["contest"], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v12", "en": "judge", "vi": "giám khảo", "ipa": "/dʒʌdʒ/", "ipaFrom": "glossary", "pos": "n", "example": "The judges were impressed by her strong voice.", "collocations": ["the judges' comments", "a judge on a TV show"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v13", "en": "participant", "vi": "người tham dự, thí sinh", "ipa": "/pɑːˈtɪsɪpənt/", "ipaFrom": "glossary", "pos": "n", "example": "Each participant has to sing one song alone.", "collocations": ["the youngest participant"], "synonyms": ["contestant"], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v14", "en": "eliminate", "vi": "loại ra, loại trừ", "ipa": "/ɪˈlɪmɪneɪt/", "ipaFrom": "glossary", "pos": "v", "example": "Two singers were eliminated in the first round.", "collocations": ["be eliminated from the show"], "synonyms": ["remove"], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v15", "en": "single", "vi": "đĩa đơn", "ipa": "/ˈsɪŋgl/", "ipaFrom": "glossary", "pos": "n", "example": "The band released a new single last week.", "collocations": ["release a single", "a new single"], "synonyms": [], "antonyms": ["album"], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v16", "en": "upload", "vi": "tải lên", "ipa": "/ˌʌpˈləʊd/", "ipaFrom": "glossary", "pos": "v", "example": "He uploads a cover song to his channel every week.", "collocations": ["upload a video", "upload songs"], "synonyms": ["post"], "antonyms": ["download"], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v17", "en": "social media", "vi": "mạng xã hội", "ipa": "/ˌsəʊʃl ˈmiːdiə/", "ipaFrom": "glossary", "pos": "n", "example": "Many young singers become famous on social media.", "collocations": ["share on social media", "post on social media"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v18", "en": "comment", "vi": "lời bình luận", "ipa": "/ˈkɒment/", "ipaFrom": "glossary", "pos": "n", "example": "Her video received thousands of good comments.", "collocations": ["leave a comment", "positive comments"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v19", "en": "delay", "vi": "hoãn lại", "ipa": "/dɪˈleɪ/", "ipaFrom": "glossary", "pos": "v", "example": "The outdoor show was delayed because of the heavy rain.", "collocations": ["delay a concert"], "synonyms": ["put off"], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v20", "en": "reach", "vi": "đạt được", "ipa": "/riːtʃ/", "ipaFrom": "glossary", "pos": "v", "example": "Their new music video reached one million views in two days.", "collocations": ["reach the final", "reach a million views"], "synonyms": ["achieve"], "antonyms": [], "src": { "kind": "sgk", "page": 125 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Compound sentences",
+      "nameVi": "Câu ghép",
+      "explainVi": "Câu ghép gồm hai (hoặc nhiều) mệnh đề độc lập, mỗi mệnh đề có chủ ngữ và động từ riêng, nối bằng liên từ: and (thêm ý), but (ý trái ngược), or (lựa chọn), so (kết quả). Thường có dấu phẩy trước liên từ.",
+      "formula": "Mệnh đề 1, + and / but / or / so + mệnh đề 2",
+      "examples": [
+        "I love pop music, and my sister likes rock.",
+        "I wanted to go to the concert, but the tickets were sold out.",
+        "It was raining, so the show was delayed."
+      ],
+      "wrong": [
+        { "sentence": "I practised every day, but I won the competition.", "fix": "I practised every day, so I won the competition.", "whyVi": "Thắng cuộc là KẾT QUẢ của việc tập luyện: dùng so, không dùng but." },
+        { "sentence": "She can sing, and. She can play the guitar.", "fix": "She can sing, and she can play the guitar.", "whyVi": "Liên từ and nối hai mệnh đề thành một câu, không đứng cuối câu." }
+      ],
+      "drills": [
+        { "prompt": "He didn't go to a music school, ___ he plays three instruments.", "options": ["but", "so", "or"], "answer": 0, "explainVi": "Hai ý trái ngược (không học trường nhạc nhưng chơi được ba nhạc cụ): but." },
+        { "prompt": "You can buy the tickets online, ___ you can buy them at the gate.", "options": ["or", "so", "but"], "answer": 0, "explainVi": "Hai lựa chọn: or." },
+        { "prompt": "The singer was ill, ___ the concert was cancelled.", "options": ["so", "but", "or"], "answer": 0, "explainVi": "Buổi diễn bị huỷ là kết quả của việc ca sĩ bị ốm: so." },
+        { "prompt": "Which sentence is a compound sentence?", "options": ["I like jazz, and my brother likes K-pop.", "I like jazz and K-pop.", "My favourite music is jazz."], "answer": 0, "explainVi": "Câu ghép có hai mệnh đề, mỗi mệnh đề có chủ ngữ và động từ riêng: I like... / my brother likes..." }
+      ],
+      "errorTag": "conjunction",
+      "src": { "kind": "sgk", "page": 30 }
+    },
+    {
+      "id": "g02",
+      "name": "To-infinitives and bare infinitives",
+      "nameVi": "Động từ nguyên mẫu có to và không to",
+      "explainVi": "Sau một số động từ như decide, expect, plan, want, promise, agree, hope, hesitate, ask ta dùng to + V. Sau make, let, hear, notice (+ người/vật) ta dùng động từ nguyên mẫu không to.",
+      "formula": "decide/want/hope/plan/promise... + to V  ·  make/let/hear/notice + O + V (không to)",
+      "examples": [
+        "I hope to see my favourite band live one day.",
+        "My parents let me go to the concert with my friends.",
+        "We heard the band play our favourite song."
+      ],
+      "wrong": [
+        { "sentence": "My mum made me to practise the piano.", "fix": "My mum made me practise the piano.", "whyVi": "Sau make + người, động từ không có to." },
+        { "sentence": "They decided delay the show.", "fix": "They decided to delay the show.", "whyVi": "Sau decide phải có to + V." },
+        { "sentence": "I want learning the guitar.", "fix": "I want to learn the guitar.", "whyVi": "Sau want dùng to + V, không dùng V-ing." }
+      ],
+      "drills": [
+        { "prompt": "The fans planned ___ the singer a birthday card.", "options": ["to send", "send", "sending"], "answer": 0, "explainVi": "plan + to V: to send." },
+        { "prompt": "The teacher let us ___ music during the break.", "options": ["listen to", "to listen to", "listening to"], "answer": 0, "explainVi": "let + người + V không to: listen to." },
+        { "prompt": "The sad song made everyone ___.", "options": ["cry", "to cry", "crying"], "answer": 0, "explainVi": "make + người + V không to: cry." },
+        { "prompt": "She promised ___ at the school festival.", "options": ["to perform", "perform", "performs"], "answer": 0, "explainVi": "promise + to V: to perform." }
+      ],
+      "errorTag": "verb_form",
+      "src": { "kind": "sgk", "page": 30 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "word_stress",
+      "focus": "Danh từ, tính từ hai âm tiết: nhấn âm đầu",
+      "tipVi": "Phần lớn danh từ và tính từ hai âm tiết có trọng âm ở âm tiết thứ nhất: SINGer, PROgramme, COMmon, CAREful. Đọc âm đầu to và dài hơn.",
+      "words": ["singer", "programme", "common", "careful", "concert", "single", "trumpet"],
+      "sentence": "The singer is careful with every single note.",
+      "quiz": [
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["singer", "relax", "decide"], "answer": 0, "explainVi": "singer là danh từ, nhấn âm đầu; relax và decide là động từ, nhấn âm thứ hai." }
+      ],
+      "src": { "kind": "sgk", "page": 29 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Động từ hai âm tiết: nhấn âm thứ hai",
+      "tipVi": "Phần lớn động từ hai âm tiết có trọng âm ở âm tiết thứ hai: reLAX, perFORM, atTRACT, deCIDE. Âm tiết đầu đọc nhẹ, nhanh.",
+      "words": ["relax", "perform", "attract", "decide", "delay", "upload"],
+      "sentence": "They decided to delay the show and relax.",
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["perform", "common", "careful"], "answer": 0, "explainVi": "perform là động từ, nhấn âm thứ hai /pəˈfɔːm/." },
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["delay", "concert", "single"], "answer": 0, "explainVi": "delay /dɪˈleɪ/ nhấn âm thứ hai; concert và single nhấn âm đầu." }
+      ],
+      "src": { "kind": "sgk", "page": 29 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm từ dài trong bài",
+      "tipVi": "performance và participant nhấn âm thứ hai; competition nhấn âm thứ ba; talented và audience nhấn âm đầu.",
+      "words": ["performance", "participant", "competition", "talented", "audience"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the THIRD syllable?", "options": ["competition", "performance", "talented"], "answer": 0, "explainVi": "competition /ˌkɒmpəˈtɪʃn/ nhấn âm thứ ba." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Ngữ điệu khi rủ rê, gợi ý",
+      "tipVi": "Câu gợi ý dạng Yes/No (Shall we...?) lên giọng ở cuối. Câu Why don't we...? và How about...? thường xuống giọng ở cuối, nghe thân thiện.",
+      "words": ["Shall we go?", "How about Saturday?", "Why don't we go together?"],
+      "sentence": "Shall we go to the music show on Saturday?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Shall we ...?", "vi": "Chúng ta ... nhé?", "useVi": "Khi rủ bạn cùng làm gì.", "example": "Shall we listen to the new single together?", "src": { "kind": "sgk", "page": 34 } },
+    { "id": "e02", "en": "Why don't we ...?", "vi": "Sao chúng ta không ...?", "useVi": "Khi gợi ý nhẹ nhàng một hoạt động.", "example": "Why don't we go to the open-air concert on Sunday?", "src": { "kind": "sgk", "page": 34 } },
+    { "id": "e03", "en": "What / How about ...?", "vi": "Thế còn ... thì sao?", "useVi": "Khi đưa ra một gợi ý khác.", "example": "How about watching the music show online?", "src": { "kind": "sgk", "page": 34 } },
+    { "id": "e04", "en": "Let's ...", "vi": "Chúng ta hãy ...", "useVi": "Khi rủ cả nhóm làm gì ngay.", "example": "Let's practise the song one more time.", "src": { "kind": "sgk", "page": 34 } },
+    { "id": "e05", "en": "Yes, I'd love to.", "vi": "Ừ, mình rất thích.", "useVi": "Khi đồng ý vui vẻ với lời rủ.", "example": "A concert on Saturday? Yes, I'd love to.", "src": { "kind": "sgk", "page": 34 } },
+    { "id": "e06", "en": "That's a good idea.", "vi": "Ý hay đấy.", "useVi": "Khi đồng ý với gợi ý.", "example": "Book the tickets online? That's a good idea.", "src": { "kind": "sgk", "page": 34 } },
+    { "id": "e07", "en": "I don't feel like it.", "vi": "Mình không thích lắm / không muốn.", "useVi": "Khi từ chối một lời rủ.", "example": "Go out tonight? Sorry, I don't feel like it. I'm tired.", "src": { "kind": "sgk", "page": 34 } },
+    { "id": "e08", "en": "I really want to ..., but ...", "vi": "Mình rất muốn ..., nhưng ...", "useVi": "Khi từ chối lịch sự và nêu lý do.", "example": "I really want to come, but I have a test on Monday.", "src": { "kind": "sgk", "page": 34 } },
+    { "id": "e09", "en": "I'm a big fan of ...", "vi": "Mình rất hâm mộ ...", "useVi": "Khi nói về ca sĩ, ban nhạc mình thích.", "example": "I'm a big fan of Vietnamese indie music.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "It makes me feel ...", "vi": "Nó làm mình thấy ...", "useVi": "Khi nói cảm xúc của mình khi nghe nhạc.", "example": "Slow music makes me feel calm after school.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["I like pop music,", "but my brother", "prefers rock"], "vi": "Mình thích nhạc pop, còn anh mình thích nhạc rock hơn.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["It was raining heavily,", "so the band", "delayed the concert"], "vi": "Trời mưa to nên ban nhạc đã hoãn buổi hoà nhạc.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["My parents", "let me", "join the school band"], "vi": "Bố mẹ cho mình tham gia ban nhạc của trường.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["I hope", "to learn", "the moon-shaped lute", "one day"], "vi": "Mình mong một ngày nào đó được học đàn nguyệt.", "grammarId": "g02" },
+    { "id": "b05", "chunks": ["The judges", "eliminated two participants", "after the first round"], "vi": "Ban giám khảo đã loại hai thí sinh sau vòng đầu tiên.", "grammarId": null },
+    { "id": "b06", "chunks": ["You can watch it live,", "or you can", "watch it online"], "vi": "Bạn có thể xem trực tiếp, hoặc xem trên mạng.", "grammarId": "g01" },
+    { "id": "b07", "chunks": ["His new single", "reached a million views", "in just two days"], "vi": "Đĩa đơn mới của anh ấy đạt một triệu lượt xem chỉ trong hai ngày.", "grammarId": null },
+    { "id": "b08", "chunks": ["This song", "always makes me", "feel happy"], "vi": "Bài hát này luôn làm mình thấy vui.", "grammarId": "g02" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I listen to music.",
+      "steps": [
+        { "askVi": "Loại nhạc gì?", "ask": "What kind?", "add": "pop" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "when I do my homework" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it helps me relax" }
+      ],
+      "full": "I listen to pop music when I do my homework because it helps me relax."
+    },
+    {
+      "id": "x02",
+      "base": "We went to a concert.",
+      "steps": [
+        { "askVi": "Buổi diễn thế nào?", "ask": "What kind of concert?", "add": "an open-air" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in the city centre" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last weekend" }
+      ],
+      "full": "We went to an open-air concert in the city centre last weekend."
+    },
+    {
+      "id": "x03",
+      "base": "I want to learn the guitar.",
+      "steps": [
+        { "askVi": "Học ở đâu?", "ask": "Where?", "add": "at a music club" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "so I can play songs for my friends" }
+      ],
+      "full": "I want to learn the guitar at a music club so I can play songs for my friends."
+    },
+    {
+      "id": "x04",
+      "base": "She uploads videos.",
+      "steps": [
+        { "askVi": "Video gì?", "ask": "What videos?", "add": "cover song" },
+        { "askVi": "Lên đâu?", "ask": "Where?", "add": "to social media" },
+        { "askVi": "Thường xuyên thế nào?", "ask": "How often?", "add": "every Friday" }
+      ],
+      "full": "She uploads cover song videos to social media every Friday."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Thể loại nhạc em thích nhất và lý do",
+      "questions": [
+        "What type of music do you like best, and why?",
+        "Which music style makes you feel happy? Why?",
+        "Why do you like your favourite kind of music?"
+      ],
+      "keywords": ["pop", "relax", "makes me feel", "because"],
+      "exampleAnswer": "I like ballads best because the lyrics are meaningful and slow songs make me feel calm.",
+      "expectsReason": true
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Nhạc cụ em muốn học",
+      "questions": [
+        "Which musical instrument would you like to learn?",
+        "If you could play any instrument, which one would you choose?",
+        "Is there an instrument you hope to play one day?"
+      ],
+      "keywords": ["musical instrument", "hope to", "guitar", "moon-shaped lute"],
+      "exampleAnswer": "I'd like to learn the piano, and I hope to play it at my sister's wedding one day.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Một buổi biểu diễn em từng xem hoặc muốn xem",
+      "questions": [
+        "Have you ever been to a live concert? What was it like?",
+        "What is the best music show you have ever seen?",
+        "Which singer or band would you like to see perform live?"
+      ],
+      "keywords": ["concert", "live", "performance", "audience"],
+      "exampleAnswer": "I went to a live concert in the park last year. The audience sang along, and it was exciting.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Ý kiến về các cuộc thi âm nhạc trên truyền hình",
+      "questions": [
+        "What do you think about TV singing competitions?",
+        "Why are talent shows on TV so popular?",
+        "Do you enjoy watching singing contests on TV? Why or why not?"
+      ],
+      "keywords": ["competition", "judges", "talented", "participants"],
+      "exampleAnswer": "I enjoy them because talented young people get a chance, but the judges are sometimes too strict.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Cách em tìm nghe bài hát mới",
+      "questions": [
+        "How do you usually find new songs?",
+        "Where do you discover new music, on the radio or online?",
+        "How do you hear about new singles from your favourite artists?"
+      ],
+      "keywords": ["social media", "single", "upload", "app"],
+      "exampleAnswer": "I usually find new songs on social media, and I follow my favourite singers to hear their new singles.",
+      "expectsReason": false
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "Tell me about a song you know very well and when you first heard it.", "keywords": ["song", "first heard", "makes me feel"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should every high school have its own music club? Why or why not?", "keywords": ["should", "talented", "because"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend wants to buy an expensive concert ticket, but she has a big test the next morning. What do you say to her?", "keywords": ["but", "should", "concert"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "Tell me about a singer or a band you liked when you were younger.", "keywords": ["singer", "single", "liked"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should students be allowed to listen to music while they do tests? Why or why not?", "keywords": ["should", "relax", "because"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your little sister plays loud music late at night when everyone is sleeping. What do you say to her?", "keywords": ["let", "headphones", "so"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Rủ bạn đi xem ca nhạc cuối tuần",
+      "contextVi": "Cuối tuần này có một chương trình ca nhạc ở nhà văn hoá thành phố. Bạn em đang chán và hỏi em có ý tưởng gì cho tối thứ Bảy.",
+      "aiRole": "Ann, your classmate",
+      "studentRoleVi": "Bạn cùng lớp, người rủ đi xem ca nhạc",
+      "goalVi": "Rủ bạn đi xem ca nhạc, nói về buổi diễn và thống nhất thời gian, cách đi.",
+      "goal": "Suggest going to the music show together, say something about it, and agree on the time and how to get there.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra lời rủ (Shall we...?, Why don't we...?)", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do nên đi xem (because...)", "words": [] }
+      ],
+      "opener": "I'm so bored this weekend. Have you got any ideas for Saturday evening?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Oh, that sounds fun! Why do you want to see it?",
+        "Great. What time shall we meet?",
+        "Perfect. How shall we get there?"
+      ],
+      "tipsVi": ["Dùng các cụm của bài: \"Shall we...?\", \"How about...?\", \"Let's...\"", "Nói lý do: ban nhạc nổi tiếng, nhạc sống, vé rẻ."],
+      "keywords": ["Shall we", "concert", "live", "because", "Let's"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Chọn tiết mục cho văn nghệ trường",
+      "contextVi": "Lớp em chuẩn bị một tiết mục văn nghệ cho lễ hội trường. Em muốn thêm một bài có nhạc cụ dân tộc, nhưng một bạn chỉ muốn hát nhạc pop.",
+      "aiRole": "Khoa, a classmate in charge of the class performance",
+      "studentRoleVi": "Thành viên lớp, đề xuất thêm nhạc cụ dân tộc",
+      "goalVi": "Đề xuất tiết mục, giải thích lý do, đưa ví dụ và trả lời khi Khoa không đồng ý.",
+      "goal": "Suggest adding traditional instruments to the class performance, give reasons and an example, and answer Khoa's objection.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra đề xuất", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["moon-shaped lute", "bamboo clapper", "musical instrument", "audience", "perform"] }
+      ],
+      "opener": "We need to choose our songs for the school festival. What do you think we should perform?",
+      "stance": "Traditional music is boring. Young people only want to hear pop songs.",
+      "turns": 5,
+      "fallback": [
+        "Hmm, interesting. Why do you want to do that?",
+        "But traditional music is boring. Young people only want to hear pop songs.",
+        "OK, maybe. Who in our class can play it?",
+        "Fine, let's try it at the next practice."
+      ],
+      "tipsVi": ["Phản biện lịch sự: \"I'm not sure about that.\", \"I see your point, but...\"", "Gợi ý kết hợp: hát pop nhưng có đàn nguyệt, phách."],
+      "keywords": ["Why don't we", "traditional", "audience", "but", "because"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Xin mẹ cho học đàn guitar",
+      "contextVi": "Em muốn đăng ký học guitar ở câu lạc bộ âm nhạc vào tối thứ Năm. Mẹ em lo việc học đàn sẽ làm em mất thời gian học bài.",
+      "aiRole": "your mother",
+      "studentRoleVi": "Con, muốn học guitar",
+      "goalVi": "Thuyết phục mẹ: nêu lý do, đề xuất cách sắp xếp thời gian và trả lời khi mẹ lo lắng.",
+      "goal": "Persuade your mother to let you learn the guitar: give reasons, suggest how you will manage your time and answer her worry.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do em muốn học", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất cách sắp xếp thời gian", "words": [] }
+      ],
+      "opener": "Your teacher told me you want to join the guitar class. Why do you want to learn it?",
+      "stance": "Learning the guitar will take too much time from your studies.",
+      "turns": 5,
+      "fallback": [
+        "I see. But how often are the lessons?",
+        "I'm worried. Learning the guitar will take too much time from your studies.",
+        "Well, that sounds sensible. What will you do if your marks go down?",
+        "All right. Let's try it for one term."
+      ],
+      "tipsVi": ["Dùng \"I promise to...\" để hứa với mẹ.", "Nói lợi ích: giảm căng thẳng, tự tin hơn."],
+      "keywords": ["I promise to", "relax", "only once a week", "but", "so"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Giới thiệu âm nhạc Việt Nam cho bạn nước ngoài",
+      "contextVi": "Một bạn học sinh trao đổi từ Pháp mới đến lớp em. Bạn muốn biết về âm nhạc ở Việt Nam và hỏi nên đi xem buổi biểu diễn nào. Bạn nghĩ xem nhạc trên mạng thì tốt hơn đi xem trực tiếp.",
+      "aiRole": "Lucas, an exchange student from France",
+      "studentRoleVi": "Học sinh Việt Nam giới thiệu âm nhạc",
+      "goalVi": "Giới thiệu một loại nhạc hoặc buổi diễn, gợi ý cho Lucas, nêu lý do và trả lời ý kiến khác của bạn.",
+      "goal": "Tell Lucas about music in Viet Nam, suggest a show to see, give a reason, and respond to his different opinion.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Gợi ý một buổi diễn hoặc loại nhạc", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["live", "performance", "musical instrument", "concert", "audience", "talented"] }
+      ],
+      "opener": "I'd love to learn about music in Viet Nam. What kind of music do young people here listen to?",
+      "stance": "I think watching music online is better than going to live shows. It's cheaper and easier.",
+      "turns": 5,
+      "fallback": [
+        "Cool! Is there a show you think I should see?",
+        "Hmm, but I think watching music online is better than going to live shows. It's cheaper and easier.",
+        "OK, you've got a point. How can I buy tickets?",
+        "Thanks! Maybe we can go together."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["live", "performance", "Why don't you", "because", "but"]
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "grade": 12,
+  "unit": 7,
+  "title": "The World of Mass Media",
+  "titleVi": "Thế giới truyền thông đại chúng",
+  "edition": "Tiếng Anh 12 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 88–99; Glossary tr. 152–153",
+  "vocab": [
+    { "id": "v01", "en": "mass media", "vi": "phương tiện truyền thông đại chúng", "ipa": "/ˌmæs ˈmiːdiə/", "ipaFrom": "glossary", "pos": "n", "example": "TV, radio and the Internet are all types of mass media.", "collocations": ["traditional mass media", "the role of mass media"], "synonyms": ["the media"], "antonyms": [], "src": { "kind": "sgk", "page": 152 } },
+    { "id": "v02", "en": "the press", "vi": "báo chí", "ipa": "/ðə pres/", "ipaFrom": "glossary", "pos": "n", "example": "The story about the flood was in the press for weeks.", "collocations": ["in the press", "freedom of the press"], "synonyms": ["newspapers"], "antonyms": [], "src": { "kind": "sgk", "page": 152 } },
+    { "id": "v03", "en": "broadcast", "vi": "(chương trình) phát sóng", "ipa": "/ˈbrɔːdkɑːst/", "ipaFrom": "glossary", "pos": "n, v", "example": "The football match was broadcast live on TV.", "collocations": ["broadcast live", "a news broadcast"], "synonyms": ["air"], "antonyms": [], "src": { "kind": "sgk", "page": 152 } },
+    { "id": "v04", "en": "fake news", "vi": "tin giả, tin bịa đặt", "ipa": "/ˌfeɪk ˈnjuːz/", "ipaFrom": "glossary", "pos": "n", "example": "Fake news can make people afraid for no reason.", "collocations": ["spread fake news", "spot fake news"], "synonyms": ["false information"], "antonyms": ["real news"], "src": { "kind": "sgk", "page": 152 } },
+    { "id": "v05", "en": "fact-check", "vi": "kiểm chứng thông tin", "ipa": "/ˈfækt tʃek/", "ipaFrom": "glossary", "pos": "v", "example": "Always fact-check a story before you share it.", "collocations": ["fact-check a story", "fact-check information"], "synonyms": ["check", "verify"], "antonyms": [], "src": { "kind": "sgk", "page": 152 } },
+    { "id": "v06", "en": "credible", "vi": "đáng tin cậy", "ipa": "/ˈkredəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "A credible news website tells you where its information comes from.", "collocations": ["a credible source", "credible information"], "synonyms": ["believable", "reliable"], "antonyms": ["unbelievable"], "src": { "kind": "sgk", "page": 152 } },
+    { "id": "v07", "en": "reliable", "vi": "xác thực", "ipa": "/rɪˈlaɪəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "Is this website a reliable place to get health information?", "collocations": ["reliable information", "a reliable source"], "synonyms": ["trustworthy"], "antonyms": ["unreliable"], "src": { "kind": "sgk", "page": 152 } },
+    { "id": "v08", "en": "source", "vi": "nguồn tin", "ipa": "/sɔːs/", "ipaFrom": "glossary", "pos": "n", "example": "Check the source before you believe a story.", "collocations": ["a news source", "check the source"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 152 } },
+    { "id": "v09", "en": "bias", "vi": "thiên kiến, thiên vị", "ipa": "/ˈbaɪəs/", "ipaFrom": "glossary", "pos": "n", "example": "Good reporters try to write without bias.", "collocations": ["media bias", "bias against"], "synonyms": ["prejudice"], "antonyms": ["fairness"], "src": { "kind": "sgk", "page": 152 } },
+    { "id": "v10", "en": "advert", "vi": "quảng cáo", "ipa": "/ˈædvɜːt/", "ipaFrom": "glossary", "pos": "n", "example": "There are too many adverts in this video.", "collocations": ["place an advert", "an online advert"], "synonyms": ["advertisement", "ad"], "antonyms": [], "src": { "kind": "sgk", "page": 152 } },
+    { "id": "v11", "en": "interactive", "vi": "có thể tương tác được", "ipa": "/ˌɪntərˈæktɪv/", "ipaFrom": "glossary", "pos": "adj", "example": "Online news is interactive because readers can leave comments.", "collocations": ["interactive media", "an interactive website"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 152 } },
+    { "id": "v12", "en": "spread", "vi": "lan truyền", "ipa": "/spred/", "ipaFrom": "glossary", "pos": "v", "example": "News spreads very fast on social media.", "collocations": ["spread quickly", "spread fake news"], "synonyms": ["go viral"], "antonyms": [], "src": { "kind": "sgk", "page": 152 } },
+    { "id": "v13", "en": "viewer", "vi": "người xem", "ipa": "/ˈvjuːə/", "ipaFrom": "glossary", "pos": "n", "example": "The new show has millions of young viewers.", "collocations": ["TV viewers", "young viewers"], "synonyms": ["audience"], "antonyms": [], "src": { "kind": "sgk", "page": 153 } },
+    { "id": "v14", "en": "update", "vi": "cập nhật", "ipa": "/ˌʌpˈdeɪt/", "ipaFrom": "glossary", "pos": "v", "example": "News websites update their stories every few minutes.", "collocations": ["update the news", "keep someone updated"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 153 } },
+    { "id": "v15", "en": "accessible", "vi": "có thể tiếp cận được", "ipa": "/əkˈsesəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "Online news is accessible to anyone with a phone.", "collocations": ["easily accessible", "accessible to everyone"], "synonyms": ["available"], "antonyms": ["inaccessible"], "src": { "kind": "sgk", "page": 152 } },
+    { "id": "v16", "en": "audio", "vi": "bằng/có âm thanh", "ipa": "/ˈɔːdiəʊ/", "ipaFrom": "glossary", "pos": "adj", "example": "I listen to audio books on the bus.", "collocations": ["audio books", "audio content"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 152 } },
+    { "id": "v17", "en": "visual", "vi": "bằng/có hình ảnh", "ipa": "/ˈvɪʒuəl/", "ipaFrom": "glossary", "pos": "adj", "example": "Short videos are a very visual way to share news.", "collocations": ["visual content", "visual media"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 153 } },
+    { "id": "v18", "en": "digital billboard", "vi": "bảng quảng cáo kĩ thuật số", "ipa": "/ˈdɪdʒɪtl ˈbɪlbɔːd/", "ipaFrom": "glossary", "pos": "np", "example": "A huge digital billboard shows adverts at the crossroads.", "collocations": ["a giant digital billboard"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 152 } },
+    { "id": "v19", "en": "publicity", "vi": "sự quan tâm, chú ý của công chúng", "ipa": "/pʌbˈlɪsəti/", "ipaFrom": "glossary", "pos": "n", "example": "The charity event got a lot of publicity on social media.", "collocations": ["get publicity", "good publicity"], "synonyms": ["attention"], "antonyms": [], "src": { "kind": "sgk", "page": 152 } },
+    { "id": "v20", "en": "instant", "vi": "nhanh chóng, ngay lập tức", "ipa": "/ˈɪnstənt/", "ipaFrom": "glossary", "pos": "adj", "example": "Social media gives us instant news from around the world.", "collocations": ["instant news", "instant messages"], "synonyms": ["immediate"], "antonyms": ["slow"], "src": { "kind": "sgk", "page": 152 } },
+    { "id": "v21", "en": "distribute", "vi": "phân phát, phân phối", "ipa": "/dɪˈstrɪbjuːt/", "ipaFrom": "glossary", "pos": "v", "example": "Volunteers distribute free newspapers at the station.", "collocations": ["distribute leaflets", "distribute information"], "synonyms": ["hand out"], "antonyms": ["collect"], "src": { "kind": "sgk", "page": 152 } },
+    { "id": "v22", "en": "as opposed to", "vi": "khác với, đối lập với", "ipa": "/æz əˈpəʊzd tuː/", "ipaFrom": "glossary", "pos": "phr", "example": "I prefer online news, as opposed to printed newspapers.", "collocations": [], "synonyms": ["compared with"], "antonyms": [], "src": { "kind": "sgk", "page": 152 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Adverbial clauses of manner (as, as if, like)",
+      "nameVi": "Mệnh đề trạng ngữ chỉ cách thức",
+      "explainVi": "Mệnh đề chỉ cách thức cho biết một việc được làm như thế nào, bắt đầu bằng as, as if, like. Dùng as if khi so sánh với điều không có thật hoặc chỉ là cảm giác; sau as if dùng \"were\" cho mọi chủ ngữ khi nói điều không thật.",
+      "formula": "Mệnh đề chính + as / as if / like + mệnh đề phụ  ·  ... as if + S + were ...",
+      "examples": [
+        "She speaks on the radio as if she were a professional presenter.",
+        "Write the news report as your teacher showed you.",
+        "He looks like he hasn't slept all night."
+      ],
+      "wrong": [
+        { "sentence": "He talks as if he was the boss of the Media Club.", "fix": "He talks as if he were the boss of the Media Club.", "whyVi": "Điều không có thật sau as if dùng \"were\" cho mọi chủ ngữ, kể cả he." },
+        { "sentence": "Do the project as if the teacher told us.", "fix": "Do the project as the teacher told us.", "whyVi": "Làm ĐÚNG NHƯ cô dặn (việc có thật) thì dùng as, không dùng as if." }
+      ],
+      "drills": [
+        { "prompt": "The reporter was shaking ___ she were very cold.", "options": ["as if", "so that", "such"], "answer": 0, "explainVi": "So sánh với cảm giác không chắc thật: as if." },
+        { "prompt": "He acts as if he ___ a famous YouTuber.", "options": ["were", "is being", "be"], "answer": 0, "explainVi": "Sau as if, nói điều không có thật dùng were." },
+        { "prompt": "Please fill in the form ___ I explained.", "options": ["as", "as if", "so"], "answer": 0, "explainVi": "Làm theo đúng cách đã được giải thích (việc thật): dùng as." }
+      ],
+      "errorTag": "conjunction",
+      "src": { "kind": "sgk", "page": 91 }
+    },
+    {
+      "id": "g02",
+      "name": "Adverbial clauses of result (so ... that, such ... that)",
+      "nameVi": "Mệnh đề trạng ngữ chỉ kết quả",
+      "explainVi": "Mệnh đề chỉ kết quả cho biết hậu quả của một việc. Dùng so + tính từ/trạng từ + that; dùng such + (a/an) + tính từ + danh từ + that. Với many/much/few/little + danh từ thì dùng so.",
+      "formula": "S + V + so + adj/adv + that + mệnh đề  ·  S + V + such (a/an) + adj + N + that + mệnh đề",
+      "examples": [
+        "The video was so funny that it spread all over the Internet.",
+        "It was such a useful programme that I told all my friends.",
+        "There were so many adverts that I stopped watching."
+      ],
+      "wrong": [
+        { "sentence": "It was so an interesting show that we watched it twice.", "fix": "It was such an interesting show that we watched it twice.", "whyVi": "Trước a/an + tính từ + danh từ dùng such, không dùng so." },
+        { "sentence": "The news spread such quickly that everyone knew.", "fix": "The news spread so quickly that everyone knew.", "whyVi": "Trước trạng từ (quickly) dùng so." }
+      ],
+      "drills": [
+        { "prompt": "The story was ___ shocking that many people shared it.", "options": ["so", "such", "such a"], "answer": 0, "explainVi": "Trước tính từ đứng một mình (shocking) dùng so." },
+        { "prompt": "It was ___ boring advert that I skipped it.", "options": ["such a", "so", "so a"], "answer": 0, "explainVi": "Trước a + tính từ + danh từ: such a boring advert." },
+        { "prompt": "There is ___ much fake news online that we must be careful.", "options": ["so", "such", "such a"], "answer": 0, "explainVi": "Với much + danh từ dùng so: so much fake news." }
+      ],
+      "errorTag": "word_choice",
+      "src": { "kind": "sgk", "page": 91 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Nối âm /r/ giữa hai nguyên âm",
+      "tipVi": "Khi từ trước kết thúc bằng nguyên âm /ɑː/, /ɔː/, /ɜː/, /ə/, /ɪə/, /eə/ hoặc /ʊə/ (thường viết có chữ r) và từ sau bắt đầu bằng nguyên âm, ta chèn âm /r/ nhẹ để nối hai từ cho liền.",
+      "words": ["more adverts", "sure an", "far away", "for example", "were a", "offer any", "consider all"],
+      "sentence": "We need more information for our school news.",
+      "quiz": [
+        { "prompt": "In which phrase can a linking /r/ appear?", "options": ["more adverts", "more news", "more videos"], "answer": 0, "explainVi": "Từ sau (adverts) bắt đầu bằng nguyên âm nên có /r/ nối: more‿adverts." },
+        { "prompt": "Which phrase has NO linking /r/?", "options": ["far away", "for example", "for TV"], "answer": 2, "explainVi": "TV bắt đầu bằng phụ âm /t/ nên không nối /r/." }
+      ],
+      "src": { "kind": "sgk", "page": 90 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "credible, broadcast, advert nhấn âm đầu; reliable, publicity, accessible, distribute nhấn âm thứ hai; interactive nhấn âm thứ ba.",
+      "words": ["credible", "broadcast", "advert", "reliable", "publicity", "accessible", "distribute", "interactive"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["credible", "reliable", "broadcast"], "answer": 1, "explainVi": "reliable /rɪˈlaɪəbl/ nhấn âm thứ hai." },
+        { "prompt": "Which word is stressed on the THIRD syllable?", "options": ["interactive", "publicity", "accessible"], "answer": 0, "explainVi": "interactive /ˌɪntərˈæktɪv/ nhấn âm thứ ba." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p03",
+      "kind": "intonation",
+      "focus": "Ngữ điệu câu hỏi đuôi khi bắt chuyện",
+      "tipVi": "Khi bắt chuyện bằng câu hỏi đuôi mà em chắc người kia đồng ý (It's hot today, isn't it?), xuống giọng ở phần đuôi. Giọng thân thiện, không cần chờ câu trả lời dài.",
+      "words": ["It's a lovely day, isn't it?", "Nice place, isn't it?"],
+      "sentence": "The new school podcast is great, isn't it?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "How has your day been so far?", "vi": "Hôm nay của bạn thế nào rồi?", "useVi": "Khi mở đầu một cuộc trò chuyện xã giao.", "example": "Hi, Minh! How has your day been so far?", "src": { "kind": "sgk", "page": 97 } },
+    { "id": "e02", "en": "It's a lovely day, isn't it?", "vi": "Hôm nay trời đẹp nhỉ?", "useVi": "Khi bắt chuyện bằng chủ đề thời tiết.", "example": "It's a lovely day, isn't it? Perfect for the school fair.", "src": { "kind": "sgk", "page": 97 } },
+    { "id": "e03", "en": "I like your ...!", "vi": "Mình thích ... của bạn!", "useVi": "Khi khen một điều mình thấy để bắt chuyện.", "example": "I like your bag! Where did you get it?", "src": { "kind": "sgk", "page": 97 } },
+    { "id": "e04", "en": "I heard on the radio today that ...", "vi": "Hôm nay mình nghe trên đài rằng ...", "useVi": "Khi bắt chuyện bằng một tin tức.", "example": "I heard on the radio today that the book fair starts on Friday.", "src": { "kind": "sgk", "page": 97 } },
+    { "id": "e05", "en": "Did you catch the news today?", "vi": "Hôm nay bạn có xem tin tức không?", "useVi": "Khi muốn nói chuyện về sự kiện thời sự.", "example": "Did you catch the news today? There was a big storm in the north.", "src": { "kind": "sgk", "page": 97 } },
+    { "id": "e06", "en": "Have you watched ...?", "vi": "Bạn đã xem ... chưa?", "useVi": "Khi bắt chuyện về phim, chương trình hoặc video.", "example": "Have you watched the new science show on VTV?", "src": { "kind": "sgk", "page": 97 } },
+    { "id": "e07", "en": "How was your weekend?", "vi": "Cuối tuần của bạn thế nào?", "useVi": "Khi hỏi thăm để bắt đầu trò chuyện.", "example": "How was your weekend? Did you do anything fun?", "src": { "kind": "sgk", "page": 97 } },
+    { "id": "e08", "en": "According to ...", "vi": "Theo ...", "useVi": "Khi nói thông tin lấy từ nguồn nào.", "example": "According to the school website, the trip is next Monday.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "Let's check the source first.", "vi": "Mình kiểm tra nguồn tin trước đã.", "useVi": "Khi nghi ngờ một tin và muốn kiểm chứng.", "example": "That sounds strange. Let's check the source first.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "Compared with ..., ...", "vi": "So với ..., ...", "useVi": "Khi so sánh hai loại phương tiện truyền thông.", "example": "Compared with newspapers, online news is much faster.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi lịch sự giữ ý kiến của mình trước ý kiến khác.", "example": "I see your point, but many old people still read newspapers.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["The news spread", "so quickly", "that everyone", "knew about it", "by lunchtime"], "vi": "Tin lan nhanh đến mức tới giờ trưa ai cũng biết.", "grammarId": "g02" },
+    { "id": "b02", "chunks": ["It was", "such an interesting programme", "that I watched", "it twice"], "vi": "Đó là một chương trình thú vị đến mức mình xem hai lần.", "grammarId": "g02" },
+    { "id": "b03", "chunks": ["He talks", "as if he were", "a famous", "TV presenter"], "vi": "Cậu ấy nói chuyện như thể mình là người dẫn chương trình truyền hình nổi tiếng.", "grammarId": "g01" },
+    { "id": "b04", "chunks": ["You should", "fact-check the news", "before you", "share it online"], "vi": "Bạn nên kiểm chứng tin trước khi chia sẻ lên mạng.", "grammarId": null },
+    { "id": "b05", "chunks": ["Online news", "is updated", "every few minutes", "as opposed to", "printed newspapers"], "vi": "Tin trực tuyến được cập nhật vài phút một lần, khác với báo in.", "grammarId": null },
+    { "id": "b06", "chunks": ["Please write", "the report", "as your teacher", "showed you"], "vi": "Hãy viết bản tin theo cách thầy cô đã hướng dẫn.", "grammarId": "g01" },
+    { "id": "b07", "chunks": ["There were", "so many adverts", "that I", "stopped watching", "the video"], "vi": "Có quá nhiều quảng cáo nên mình đã ngừng xem video.", "grammarId": "g02" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I read the news.",
+      "steps": [
+        { "askVi": "Đọc ở đâu?", "ask": "Where?", "add": "on my phone" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every morning" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it is quick and easy" }
+      ],
+      "full": "I read the news on my phone every morning because it is quick and easy."
+    },
+    {
+      "id": "x02",
+      "base": "Fake news spreads.",
+      "steps": [
+        { "askVi": "Lan nhanh thế nào?", "ask": "How fast?", "add": "very quickly" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "on social media" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because people share it without checking" }
+      ],
+      "full": "Fake news spreads very quickly on social media because people share it without checking."
+    },
+    {
+      "id": "x03",
+      "base": "I watch a programme.",
+      "steps": [
+        { "askVi": "Chương trình gì?", "ask": "What kind?", "add": "science" },
+        { "askVi": "Xem trên kênh nào?", "ask": "Where?", "add": "on TV" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every Sunday" }
+      ],
+      "full": "I watch a science programme on TV every Sunday."
+    },
+    {
+      "id": "x04",
+      "base": "Adverts are everywhere.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "on buses and digital billboards" },
+        { "askVi": "Kết quả là gì?", "ask": "So what?", "add": "so we see them all day" }
+      ],
+      "full": "Adverts are everywhere on buses and digital billboards, so we see them all day."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Cách em theo dõi tin tức",
+      "questions": [
+        "How do you usually find out what is happening in the world?",
+        "Which media do you use to follow the news?",
+        "Which news app or channel do you check most often?"
+      ],
+      "keywords": ["online", "the press", "update", "social media"],
+      "exampleAnswer": "I usually read the news on an app because it is updated every few minutes, and sometimes I watch TV with my parents.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Cách nhận biết tin đáng tin cậy",
+      "questions": [
+        "How can you tell if a news story is reliable?",
+        "What do you do to check whether information online is true?",
+        "How can people avoid believing fake news?"
+      ],
+      "keywords": ["source", "fact-check", "credible", "reliable"],
+      "exampleAnswer": "I check the source, look for the same story on credible websites, and fact-check it before I share it.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Ưu điểm của truyền thông số so với truyền thông truyền thống",
+      "questions": [
+        "In what ways is digital media better than traditional media?",
+        "What can digital media do that newspapers and radio cannot?",
+        "Why do people say online news is more convenient than TV news?"
+      ],
+      "keywords": ["instant", "interactive", "accessible", "as opposed to"],
+      "exampleAnswer": "Digital media is instant and interactive, so readers can get news anywhere and share their opinions, as opposed to printed newspapers.",
+      "expectsReason": true
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Ảnh hưởng của quảng cáo",
+      "questions": [
+        "How do adverts affect what young people buy?",
+        "Do adverts make you want to buy things? Why?",
+        "Why are adverts on social media so effective?"
+      ],
+      "keywords": ["advert", "publicity", "influence", "buy"],
+      "exampleAnswer": "Adverts on social media are so attractive that many teenagers buy things they don't really need.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Mặt tốt và mặt xấu của mạng xã hội",
+      "questions": [
+        "What are the good and bad sides of social media for teenagers?",
+        "How does social media help and harm young people?",
+        "What are the main advantages and disadvantages of social media?"
+      ],
+      "keywords": ["instant", "fake news", "connect", "waste time"],
+      "exampleAnswer": "Social media helps us connect with friends instantly, but it can spread fake news and waste a lot of our time.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What kind of news do you find most interesting, and where do you read it?", "keywords": ["online", "sports", "app"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should people trust news from social media as much as news from the press? Why or why not?", "keywords": ["credible", "source", "fake news"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend spends three hours every night watching short videos. What do you say to him?", "keywords": ["should", "time", "sleep"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What was the last piece of news you read or heard, and where did you find it?", "keywords": ["the press", "radio", "website"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should children under twelve be allowed to use social media? Why or why not?", "keywords": ["age", "dangerous", "parents"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your little sister wants to buy a toy only because a famous YouTuber advertised it. What do you say to her?", "keywords": ["advert", "need", "think"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Bắt chuyện ở thư viện trường",
+      "contextVi": "Em gặp một bạn mới vào câu lạc bộ Truyền thông của trường ở thư viện. Hai bạn chưa thân. Em bắt chuyện và hỏi bạn về loại phương tiện truyền thông bạn thích.",
+      "aiRole": "Hoa, a new member of the school Media Club",
+      "studentRoleVi": "Thành viên câu lạc bộ Truyền thông, người bắt chuyện",
+      "goalVi": "Bắt chuyện thân thiện, nói về loại truyền thông em thích, nêu lý do và một ví dụ.",
+      "goal": "Make small talk with a new club member, talk about the media you like, and give a reason and an example.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do em thích loại truyền thông đó (because...)", "words": [] },
+        { "kind": "example", "vi": "Kể một chương trình, kênh hoặc trang cụ thể", "words": [] }
+      ],
+      "opener": "Oh, hi! You're in the Media Club too, aren't you? I'm still new here.",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Nice to meet you! What kind of media do you like most?",
+        "Why do you like it?",
+        "Cool. Can you tell me a channel or programme I should try?"
+      ],
+      "tipsVi": ["Mở đầu bằng câu xã giao: \"How has your day been so far?\"", "Kể tên kênh, chương trình cụ thể để làm ví dụ."],
+      "keywords": ["podcast", "online news", "because", "for example"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Báo in đã hết thời?",
+      "contextVi": "Trong giờ ra chơi, một bạn cùng lớp nói báo in và đài phát thanh đã lỗi thời, không ai cần nữa. Em có ý kiến khác.",
+      "aiRole": "Tuan, a classmate who only uses social media",
+      "studentRoleVi": "Bạn cùng lớp cho rằng truyền thông truyền thống vẫn có giá trị",
+      "goalVi": "Nêu ít nhất một lợi ích của truyền thông truyền thống, đưa ví dụ, và trả lời khi Tuấn phản đối.",
+      "goal": "Explain at least one benefit of traditional media, give an example, and answer Tuan's objection politely.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["the press", "credible", "reliable", "source", "broadcast", "bias"] }
+      ],
+      "opener": "Who still reads newspapers? I get everything I need from social media.",
+      "stance": "Printed newspapers and radio are dead. Nobody needs them any more.",
+      "turns": 5,
+      "fallback": [
+        "Really? Why would anyone still use them?",
+        "Come on, printed newspapers and radio are dead. Nobody needs them any more.",
+        "Hmm, OK. But aren't they too slow?",
+        "Fair enough. Maybe I'll check a newspaper website next time."
+      ],
+      "tipsVi": ["Khi Tuấn phản đối, mở đầu bằng \"I see your point, but...\"", "Nghĩ đến độ tin cậy, người lớn tuổi, vùng không có Internet."],
+      "keywords": ["reliable", "the press", "I see your point", "because"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Đề xuất podcast cho trường",
+      "contextVi": "Em gặp thầy phụ trách câu lạc bộ Truyền thông để đề xuất làm một podcast hằng tuần của trường.",
+      "aiRole": "Mr Duc, the teacher in charge of the Media Club",
+      "studentRoleVi": "Học sinh đề xuất làm podcast",
+      "goalVi": "Đề xuất làm podcast, giải thích lợi ích, và trả lời khi thầy băn khoăn.",
+      "goal": "Suggest a weekly school podcast, explain why it is useful, and answer the teacher's concern.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra đề xuất", "words": [] },
+        { "kind": "reason", "vi": "Giải thích lợi ích", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["audio", "update", "accessible", "interactive", "viewer"] }
+      ],
+      "opener": "Hello. You wanted to talk to me about an idea for the Media Club?",
+      "stance": "Students don't listen to podcasts. A paper newsletter is better.",
+      "turns": 5,
+      "fallback": [
+        "A podcast? What would it be about?",
+        "But I think students don't listen to podcasts. A paper newsletter is better.",
+        "I see. Who would make it every week?",
+        "All right. Bring me a plan for the first episode next week."
+      ],
+      "tipsVi": ["Nói lịch sự với thầy cô: \"Could we...?\", \"I think it would be...\"", "Nêu ví dụ nội dung: tin trường, phỏng vấn thầy cô, lời khuyên học tập."],
+      "keywords": ["podcast", "audio", "accessible", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Video lan truyền về chế độ ăn",
+      "contextVi": "Anh trai em xem một video lan truyền trên mạng nói rằng chỉ ăn trái cây trong một tháng sẽ rất khoẻ, và muốn thử ngay. Em muốn anh kiểm chứng thông tin trước.",
+      "aiRole": "An, an older brother who believes a viral video",
+      "studentRoleVi": "Em trong gia đình",
+      "goalVi": "Giải thích vì sao cần kiểm chứng video, gợi ý cách kiểm tra, và trả lời khi anh có ý kiến khác.",
+      "goal": "Explain why your brother should check the video, suggest how to check it, and respond to his different opinion.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Gợi ý cách kiểm chứng thông tin", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["fake news", "source", "fact-check", "credible", "reliable", "spread"] }
+      ],
+      "opener": "Look at this video! It says eating only fruit for a month makes you super healthy. I'm going to try it.",
+      "stance": "Millions of people watched it, so it must be true.",
+      "turns": 5,
+      "fallback": [
+        "Why not? It looks very convincing.",
+        "Millions of people watched it, so it must be true, right?",
+        "Hmm. So how can I check it?",
+        "OK, I'll ask a doctor before I try it."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["fact-check", "source", "credible", "because"]
+    }
+  ]
+}

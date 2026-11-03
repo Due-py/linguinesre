@@ -1,0 +1,377 @@
+{
+  "grade": 11,
+  "unit": 8,
+  "title": "Becoming Independent",
+  "titleVi": "Trở nên tự lập",
+  "edition": "Tiếng Anh 11 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 86–95; Glossary tr. 129–130",
+  "vocab": [
+    { "id": "v01", "en": "independent", "vi": "độc lập, không lệ thuộc", "ipa": "/ˌɪndɪˈpendənt/", "ipaFrom": "glossary", "pos": "adj", "example": "My sister became more independent after she moved to the city.", "collocations": ["become independent", "independent learner"], "synonyms": ["self-reliant"], "antonyms": ["dependent"], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v02", "en": "independence", "vi": "sự độc lập", "ipa": "/ˌɪndɪˈpendəns/", "ipaFrom": "glossary", "pos": "n", "example": "Teenagers want more independence from their parents.", "collocations": ["teen independence", "gain independence"], "synonyms": ["freedom"], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v03", "en": "confidence", "vi": "sự tự tin", "ipa": "/ˈkɒnfɪdəns/", "ipaFrom": "glossary", "pos": "n", "example": "Cooking for my family gave me more confidence.", "collocations": ["have the confidence to", "gain confidence"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v04", "en": "responsibility", "vi": "sự chịu trách nhiệm, trách nhiệm", "ipa": "/rɪˌspɒnsəˈbɪləti/", "ipaFrom": "glossary", "pos": "n", "example": "Feeding the dog is my responsibility.", "collocations": ["take responsibility for", "household responsibilities"], "synonyms": ["duty"], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v05", "en": "responsible", "vi": "có trách nhiệm", "ipa": "/rɪˈspɒnsəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "My parents think I am responsible enough to stay home alone.", "collocations": ["be responsible for", "responsible with money"], "synonyms": ["reliable"], "antonyms": ["irresponsible"], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v06", "en": "trust", "vi": "sự tin tưởng, lòng tin", "ipa": "/trʌst/", "ipaFrom": "dictionary", "pos": "n", "example": "It takes time to earn your parents' trust.", "collocations": ["earn someone's trust", "have trust in"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 88 } },
+    { "id": "v07", "en": "self-motivated", "vi": "có động lực, năng nổ", "ipa": "/ˌself ˈməʊtɪveɪtɪd/", "ipaFrom": "glossary", "pos": "adj", "example": "Self-motivated students do their homework without reminders.", "collocations": ["highly self-motivated"], "synonyms": [], "antonyms": ["lazy"], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v08", "en": "self-study", "vi": "sự tự học", "ipa": "/ˌself ˈstʌdi/", "ipaFrom": "glossary", "pos": "n", "example": "I do an hour of self-study every evening.", "collocations": ["self-study course", "self-study skills"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v09", "en": "life skill", "vi": "kĩ năng sống", "ipa": "/ˈlaɪf skɪl/", "ipaFrom": "glossary", "pos": "n", "example": "Doing the laundry is a basic life skill.", "collocations": ["basic life skills", "learn life skills"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v10", "en": "time-management skills", "vi": "kĩ năng quản lí thời gian", "ipa": "/ˈtaɪm ˌmænɪdʒmənt skɪlz/", "ipaFrom": "glossary", "pos": "np", "example": "Good time-management skills help me finish my homework early.", "collocations": ["improve time-management skills"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v11", "en": "money-management skills", "vi": "kĩ năng quản lí tiền", "ipa": "/ˌmʌni mænɪdʒmənt ˈskɪlz/", "ipaFrom": "glossary", "pos": "np", "example": "A part-time job can help you build money-management skills.", "collocations": ["develop money-management skills"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v12", "en": "decision-making skills", "vi": "kĩ năng đưa ra quyết định", "ipa": "/dɪˈsɪʒn ˌmeɪkɪŋ ˈskɪlz/", "ipaFrom": "glossary", "pos": "np", "example": "Team projects help us practise our decision-making skills.", "collocations": ["good decision-making skills"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v13", "en": "learning goal", "vi": "mục tiêu học tập", "ipa": "/ˈlɜːnɪŋ ˌɡəʊl/", "ipaFrom": "glossary", "pos": "np", "example": "My learning goal this month is to read two English books.", "collocations": ["set a learning goal", "achieve a learning goal"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v14", "en": "achieve", "vi": "đạt được, giành được", "ipa": "/əˈtʃiːv/", "ipaFrom": "glossary", "pos": "v", "example": "He worked hard to achieve his goal.", "collocations": ["achieve a goal", "achieve success"], "synonyms": ["reach"], "antonyms": ["fail"], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v15", "en": "manage", "vi": "quản lí", "ipa": "/ˈmænɪdʒ/", "ipaFrom": "glossary", "pos": "v", "example": "It's important to learn how to manage your time and money.", "collocations": ["manage your time", "manage money"], "synonyms": ["handle"], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v16", "en": "deal with", "vi": "giải quyết, đối phó", "ipa": "/ˈdiːl wɪð/", "ipaFrom": "glossary", "pos": "phr v", "example": "I'm learning to deal with small problems by myself.", "collocations": ["deal with problems", "deal with difficult situations"], "synonyms": ["handle"], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v17", "en": "get around", "vi": "đi lại", "ipa": "/ˌɡet əˈraʊnd/", "ipaFrom": "glossary", "pos": "phr v", "example": "I can get around the city by bus on my own.", "collocations": ["get around by bus", "get around the city"], "synonyms": ["travel"], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v18", "en": "come up with", "vi": "nghĩ ra, nảy ra", "ipa": "/ˌkʌm ˈʌp wɪð/", "ipaFrom": "glossary", "pos": "phr v", "example": "We came up with a plan to save money for the trip.", "collocations": ["come up with an idea", "come up with a solution"], "synonyms": ["think of"], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v19", "en": "carry out", "vi": "tiến hành", "ipa": "/ˌkæri ˈaʊt/", "ipaFrom": "glossary", "pos": "phr v", "example": "Make a plan first, then carry it out step by step.", "collocations": ["carry out a plan", "carry out a task"], "synonyms": ["do", "complete"], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v20", "en": "make use of", "vi": "tận dụng", "ipa": "/ˌmeɪk ˈjuːs əv/", "ipaFrom": "glossary", "pos": "phr v", "example": "I make use of my free time to practise English.", "collocations": ["make use of your time", "make good use of"], "synonyms": ["use"], "antonyms": ["waste"], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v21", "en": "get into the habit of", "vi": "tạo thói quen", "ipa": "/ˈɡet ɪntə ðə ˈhæbɪt əv/", "ipaFrom": "glossary", "pos": "phr v", "example": "I got into the habit of making my bed every morning.", "collocations": ["get into the habit of planning"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 129 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Cleft sentences focusing on a person: It is/was ... who/that ...",
+      "nameVi": "Câu chẻ nhấn mạnh người: It is/was ... who/that ...",
+      "explainVi": "Câu chẻ dùng để làm nổi bật một phần của câu. Muốn nhấn mạnh NGƯỜI làm việc gì, đặt người đó sau It is (hiện tại) hoặc It was (quá khứ), rồi dùng who hoặc that để nối phần còn lại.",
+      "formula": "It is / It was + người + who / that + V ...",
+      "examples": [
+        "It was my grandma who taught me how to cook.",
+        "It is my parents who still drive me to school.",
+        "It was Nam that helped me install the app."
+      ],
+      "wrong": [
+        { "sentence": "It was my dad which taught me to swim.", "fix": "It was my dad who taught me to swim.", "whyVi": "Nhấn mạnh người thì dùng who hoặc that, không dùng which." },
+        { "sentence": "It were my friends who helped me.", "fix": "It was my friends who helped me.", "whyVi": "Câu chẻ luôn bắt đầu bằng It is / It was, kể cả khi phần nhấn mạnh là số nhiều." }
+      ],
+      "drills": [
+        { "prompt": "It was my grandma ___ taught me how to sew.", "options": ["who", "which", "where"], "answer": 0, "explainVi": "Nhấn mạnh người (my grandma) dùng who." },
+        { "prompt": "It ___ my brother who fixed my bike yesterday.", "options": ["was", "were", "are"], "answer": 0, "explainVi": "Việc xảy ra hôm qua, câu chẻ dùng It was (không dùng were/are sau It)." },
+        { "prompt": "Which sentence focuses on Nam?", "options": ["It was Nam who showed me the app.", "It was the app that Nam showed me.", "It was yesterday that Nam showed me the app."], "answer": 0, "explainVi": "Phần đứng sau It was là phần được nhấn mạnh: Nam." }
+      ],
+      "errorTag": "word_order",
+      "src": { "kind": "sgk", "page": 88 }
+    },
+    {
+      "id": "g02",
+      "name": "Cleft sentences focusing on a thing, time or place: It is/was ... that ...",
+      "nameVi": "Câu chẻ nhấn mạnh vật, thời gian, nơi chốn: It is/was ... that ...",
+      "explainVi": "Muốn nhấn mạnh một vật, một thời điểm hoặc một nơi, đặt phần đó sau It is / It was và dùng that để nối phần còn lại của câu.",
+      "formula": "It is / It was + vật / thời gian / nơi chốn + that + S + V ...",
+      "examples": [
+        "It was the time-management app that helped me most.",
+        "It was last summer that I learnt to cook.",
+        "It is in the library that I do my self-study."
+      ],
+      "wrong": [
+        { "sentence": "It was last summer who I learnt to swim.", "fix": "It was last summer that I learnt to swim.", "whyVi": "Nhấn mạnh thời gian dùng that, không dùng who." },
+        { "sentence": "Was the app that helped me.", "fix": "It was the app that helped me.", "whyVi": "Câu chẻ phải có It ở đầu câu." }
+      ],
+      "drills": [
+        { "prompt": "It was last summer ___ I learnt to swim.", "options": ["that", "who", "which"], "answer": 0, "explainVi": "Nhấn mạnh thời gian (last summer) dùng that." },
+        { "prompt": "It is time-management skills ___ teenagers need most.", "options": ["that", "who", "where"], "answer": 0, "explainVi": "Nhấn mạnh một sự vật dùng that." },
+        { "prompt": "Which sentence focuses on the TIME?", "options": ["It was on Sunday that I did the laundry.", "It was I who did the laundry on Sunday.", "It was the laundry that I did on Sunday."], "answer": 0, "explainVi": "Phần sau It was là \"on Sunday\", tức là thời gian." }
+      ],
+      "errorTag": "word_order",
+      "src": { "kind": "sgk", "page": 88 }
+    },
+    {
+      "id": "g03",
+      "name": "Giving instructions: imperatives and sequencing words",
+      "nameVi": "Hướng dẫn: câu mệnh lệnh và từ chỉ thứ tự",
+      "explainVi": "Khi hướng dẫn cách làm một việc, dùng câu mệnh lệnh (động từ nguyên mẫu đứng đầu câu, phủ định là Don't + V) và các từ chỉ thứ tự như First of all, Then, After that, Finally. Có thể dùng thêm You should..., Make sure...",
+      "formula": "First of all, + V ... Then, + V ... After that, + V ... Finally, + V ...  ·  Don't + V ...",
+      "examples": [
+        "First of all, sort your clothes by colour.",
+        "Then, add the washing powder.",
+        "Finally, don't forget to hang your clothes."
+      ],
+      "wrong": [
+        { "sentence": "First of all, you sorting the clothes.", "fix": "First of all, sort the clothes.", "whyVi": "Câu mệnh lệnh dùng động từ nguyên mẫu ở đầu câu: sort." },
+        { "sentence": "Not forget to turn off the cooker.", "fix": "Don't forget to turn off the cooker.", "whyVi": "Câu mệnh lệnh phủ định dùng Don't + V." }
+      ],
+      "drills": [
+        { "prompt": "First of all, ___ the rice to clean it.", "options": ["rinse", "rinsing", "to rinsing"], "answer": 0, "explainVi": "Câu mệnh lệnh: động từ nguyên mẫu rinse." },
+        { "prompt": "Which word shows the LAST step?", "options": ["Finally", "First of all", "Then"], "answer": 0, "explainVi": "Finally dùng cho bước cuối cùng." },
+        { "prompt": "___ forget to turn off the rice cooker.", "options": ["Don't", "Not", "No"], "answer": 0, "explainVi": "Mệnh lệnh phủ định: Don't + V." }
+      ],
+      "errorTag": "verb_form",
+      "src": { "kind": "sgk", "page": 91 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "intonation",
+      "focus": "Ngữ điệu xuống-lên trong lời mời, gợi ý, đề nghị lịch sự",
+      "tipVi": "Khi mời, gợi ý hoặc nhờ ai làm gì, giọng xuống rồi lên ở cuối câu (fall-rise). Ngữ điệu này làm câu nghe thân thiện và lịch sự hơn.",
+      "words": ["Would you like some tea?", "Why don't we walk to school?", "Could you help me, please?", "Shall we start now?"],
+      "sentence": "Would you like me to show you the app?",
+      "quiz": [
+        { "prompt": "Which intonation makes invitations and polite requests sound friendlier?", "options": ["Fall-rise intonation", "Flat intonation with no change"], "answer": 0, "explainVi": "SGK: lời mời, gợi ý, đề nghị thường dùng ngữ điệu xuống-lên để nghe lịch sự hơn." },
+        { "prompt": "Which sentence should you say with fall-rise intonation?", "options": ["Would you like to come to my party?", "I live near the school.", "My brother is fifteen."], "answer": 0, "explainVi": "Đây là lời mời nên dùng ngữ điệu xuống-lên; hai câu kia là câu kể." }
+      ],
+      "src": { "kind": "sgk", "page": 87 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "confidence, manage nhấn âm đầu. achieve, responsible nhấn âm thứ hai. independent nhấn âm thứ ba. responsibility nhấn âm thứ tư.",
+      "words": ["confidence", "manage", "achieve", "responsible", "independent", "responsibility"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["confidence", "achieve", "responsible"], "answer": 0, "explainVi": "confidence /ˈkɒnfɪdəns/ nhấn âm đầu." },
+        { "prompt": "Where is the main stress in \"independent\" /ˌɪndɪˈpendənt/?", "options": ["the first syllable", "the second syllable", "the third syllable"], "answer": 2, "explainVi": "Dấu ˈ đứng trước \"pen\", là âm tiết thứ ba." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p03",
+      "kind": "sentence_stress",
+      "focus": "Nhấn vào phần được nhấn mạnh trong câu chẻ",
+      "tipVi": "Trong câu chẻ, đọc to và rõ phần đứng sau It is / It was, vì đó là thông tin em muốn làm nổi bật: It was MY GRANDMA who taught me.",
+      "words": ["It was MY MUM who called.", "It was LAST WEEK that I started."],
+      "sentence": "It was my grandpa who taught me how to ride a bike.",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Good luck! / Best wishes!", "vi": "Chúc may mắn!", "useVi": "Khi chúc ai đó trước một việc quan trọng như kì thi.", "example": "You have your exam tomorrow? Good luck!", "src": { "kind": "sgk", "page": 93 } },
+    { "id": "e02", "en": "I wish you every success in your new ...", "vi": "Chúc bạn thành công với ... mới.", "useVi": "Khi chúc ai đó bắt đầu một việc mới.", "example": "I wish you every success in your new school.", "src": { "kind": "sgk", "page": 93 } },
+    { "id": "e03", "en": "Have a great time!", "vi": "Chúc bạn vui vẻ!", "useVi": "Khi chúc ai đó đi chơi, đi du lịch vui vẻ.", "example": "You're going to Da Lat? Have a great time!", "src": { "kind": "sgk", "page": 93 } },
+    { "id": "e04", "en": "Get well soon! / Hope you feel better soon.", "vi": "Mau khỏe nhé! / Mong bạn sớm khỏe lại.", "useVi": "Khi chúc người đang ốm.", "example": "I heard you have a cold. Hope you feel better soon.", "src": { "kind": "sgk", "page": 93 } },
+    { "id": "e05", "en": "Thanks so much.", "vi": "Cảm ơn nhiều nhé.", "useVi": "Khi đáp lại lời chúc.", "example": "Thanks so much. I'll do my best.", "src": { "kind": "sgk", "page": 93 } },
+    { "id": "e06", "en": "Thank you for your wishes.", "vi": "Cảm ơn lời chúc của bạn.", "useVi": "Khi cảm ơn ai đó đã chúc mình.", "example": "Thank you for your wishes. I feel much better now.", "src": { "kind": "sgk", "page": 93 } },
+    { "id": "e07", "en": "Same to you!", "vi": "Bạn cũng vậy nhé!", "useVi": "Khi đáp lại bằng lời chúc giống như vậy.", "example": "Happy New Year! – Thanks, same to you!", "src": { "kind": "sgk", "page": 93 } },
+    { "id": "e08", "en": "First of all, ... Then, ... Finally, ...", "vi": "Đầu tiên, ... Sau đó, ... Cuối cùng, ...", "useVi": "Khi hướng dẫn từng bước làm một việc.", "example": "First of all, rinse the rice. Then, add water. Finally, turn on the cooker.", "src": { "kind": "sgk", "page": 91 } },
+    { "id": "e09", "en": "Make sure ...", "vi": "Nhớ chắc chắn là ...", "useVi": "Khi nhắc một điều quan trọng trong lúc hướng dẫn.", "example": "Make sure you turn off the iron after using it.", "src": { "kind": "sgk", "page": 91 } },
+    { "id": "e10", "en": "If I were you, I would ...", "vi": "Nếu mình là bạn, mình sẽ ...", "useVi": "Khi đưa lời khuyên nhẹ nhàng.", "example": "If I were you, I would write a to-do list every evening.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "I can ... by myself.", "vi": "Mình có thể tự ...", "useVi": "Khi nói về việc mình tự làm được, không cần ai giúp.", "example": "I can iron my school uniform by myself.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["It was my dad", "who taught me", "how to ride", "a bike"], "vi": "Chính bố là người đã dạy mình đi xe đạp.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["It is", "time-management skills", "that teenagers", "need most"], "vi": "Chính kĩ năng quản lí thời gian là điều tuổi teen cần nhất.", "grammarId": "g02" },
+    { "id": "b03", "chunks": ["It was last summer", "that I learnt", "to cook", "for my family"], "vi": "Chính mùa hè năm ngoái mình đã học nấu ăn cho gia đình.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["First of all", "sort your clothes", "by colour"], "vi": "Đầu tiên, phân loại quần áo theo màu.", "grammarId": "g03" },
+    { "id": "b05", "chunks": ["I use", "a time-management app", "to plan", "my weekly schedule"], "vi": "Mình dùng một ứng dụng quản lí thời gian để lên lịch hằng tuần.", "grammarId": null },
+    { "id": "b06", "chunks": ["Self-motivated students", "set learning goals", "and achieve them", "without help"], "vi": "Học sinh tự giác tự đặt mục tiêu học tập và đạt được chúng mà không cần ai giúp.", "grammarId": null },
+    { "id": "b07", "chunks": ["It was my mum", "who encouraged me", "to get around", "by bus"], "vi": "Chính mẹ là người khuyến khích mình đi lại bằng xe buýt.", "grammarId": "g01" },
+    { "id": "b08", "chunks": ["Don't forget", "to turn off", "the rice cooker", "after dinner"], "vi": "Đừng quên tắt nồi cơm điện sau bữa tối.", "grammarId": "g03" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I can cook.",
+      "steps": [
+        { "askVi": "Nấu món gì?", "ask": "What?", "add": "simple meals" },
+        { "askVi": "Cho ai?", "ask": "For whom?", "add": "for my family" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "at the weekend" }
+      ],
+      "full": "I can cook simple meals for my family at the weekend."
+    },
+    {
+      "id": "x02",
+      "base": "I save money.",
+      "steps": [
+        { "askVi": "Để ở đâu?", "ask": "Where?", "add": "in a small box" },
+        { "askVi": "Bao lâu một lần?", "ask": "How often?", "add": "every week" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because I want to buy a new bike" }
+      ],
+      "full": "I save money in a small box every week because I want to buy a new bike."
+    },
+    {
+      "id": "x03",
+      "base": "I get around by bus.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in my town" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it is cheap and safe" }
+      ],
+      "full": "I get around by bus in my town because it is cheap and safe."
+    },
+    {
+      "id": "x04",
+      "base": "It was my sister who helped me.",
+      "steps": [
+        { "askVi": "Giúp việc gì?", "ask": "With what?", "add": "with my homework" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "when I was in grade 6" }
+      ],
+      "full": "It was my sister who helped me with my homework when I was in grade 6."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Một kĩ năng sống em muốn học tiếp theo",
+      "questions": [
+        "Which life skill would you like to learn next?",
+        "What is one thing you can't do yet but want to learn?",
+        "Which everyday skill do you want to get better at this year?"
+      ],
+      "keywords": ["life skill", "cook", "manage", "learn"],
+      "exampleAnswer": "I want to learn to manage my money because I often spend all my pocket money in a few days.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Cách em dùng tiền tiêu vặt",
+      "questions": [
+        "How do you usually spend your pocket money?",
+        "What do you do with the money your family gives you?",
+        "Do you save any of your pocket money, or do you spend it all?"
+      ],
+      "keywords": ["pocket money", "save", "spend", "money-management skills"],
+      "exampleAnswer": "I spend some on snacks and books, and I save the rest in a box for something special.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Bố mẹ có nên để con tự quyết định",
+      "questions": [
+        "Should parents let teenagers make their own decisions?",
+        "Is it good for teenagers to decide things without their parents?",
+        "Why should teens be allowed to make some choices for themselves?"
+      ],
+      "keywords": ["decision-making skills", "responsible", "mistakes", "trust"],
+      "exampleAnswer": "Yes, for small things. Teens learn from their mistakes, and it shows that their parents trust them.",
+      "expectsReason": true
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Hướng dẫn nấu cơm bằng nồi cơm điện",
+      "questions": [
+        "How do you cook rice in a rice cooker?",
+        "Can you explain how to cook rice step by step?",
+        "What are the steps to make rice with a rice cooker?"
+      ],
+      "keywords": ["first of all", "measure", "then", "finally"],
+      "exampleAnswer": "First of all, rinse the rice. Then add water and put the bowl in the cooker. Finally, turn it on and wait.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Vì sao tuổi teen cần tự lập",
+      "questions": [
+        "Why is it important for teenagers to become independent?",
+        "How does being independent help young people in the future?",
+        "What are the advantages of learning to do things by yourself?"
+      ],
+      "keywords": ["independent", "confidence", "deal with", "responsibility"],
+      "exampleAnswer": "Independent teens can deal with problems on their own, so they feel more confident when they leave home.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What is something you have recently learnt to do on your own?", "keywords": ["by myself", "learn", "life skill"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should teenagers do their own laundry? Why or why not?", "keywords": ["life skill", "responsible", "independent"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend is going to take an important exam tomorrow. What do you say to her?", "keywords": ["good luck", "best wishes", "you can do it"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What is one job at home that you are responsible for?", "keywords": ["responsible", "every day", "help"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should teenagers manage their own pocket money? Why or why not?", "keywords": ["money-management skills", "save", "responsible"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your classmate is ill and can't come to school this week. What do you say to him?", "keywords": ["get well soon", "hope", "feel better"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Dạy em họ giặt quần áo",
+      "contextVi": "Em họ 10 tuổi của em muốn tự giặt quần áo bằng máy giặt nhưng chưa biết làm. Em hướng dẫn em ấy từng bước.",
+      "aiRole": "Bin, your 10-year-old cousin who wants to learn to do the laundry",
+      "studentRoleVi": "Anh/chị họ hướng dẫn cách giặt quần áo",
+      "goalVi": "Hướng dẫn Bin giặt quần áo theo từng bước, dùng từ chỉ thứ tự và một lời nhắc quan trọng.",
+      "goal": "Give Bin step-by-step instructions for doing the laundry, using sequencing words and at least one important reminder.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất hai từ chỉ thứ tự hoặc lời nhắc", "words": ["first of all", "then", "after that", "finally", "make sure", "don't forget"] },
+        { "kind": "suggestion", "vi": "Đưa ra ít nhất một lời khuyên (You should...)", "words": [] }
+      ],
+      "opener": "I want to wash my clothes by myself today. What should I do first?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "OK, I did that. What's next?",
+        "Got it. Is there anything I should be careful about?",
+        "Thanks! I think I can do it by myself now."
+      ],
+      "tipsVi": ["Dùng câu mệnh lệnh: \"Sort...\", \"Add...\", \"Don't put...\"", "Nối các bước bằng First of all, Then, After that, Finally."],
+      "keywords": ["first of all", "then", "finally", "make sure", "washing machine"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Xin mẹ cho tự đi xe buýt",
+      "contextVi": "Em muốn tự đi xe buýt đến trung tâm tiếng Anh thay vì để mẹ chở. Mẹ còn lo lắng. Em thuyết phục mẹ rằng em đủ trách nhiệm.",
+      "aiRole": "Your mum, who worries about you taking the bus alone",
+      "studentRoleVi": "Con muốn tự đi lại bằng xe buýt",
+      "goalVi": "Thuyết phục mẹ cho em tự đi xe buýt: nêu lý do, đề xuất cách giữ an toàn, và trả lời khi mẹ lo lắng.",
+      "goal": "Persuade your mum to let you take the bus alone: give reasons, suggest ways to stay safe, and answer her worry.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do em muốn tự đi", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất cách giữ an toàn hoặc giữ liên lạc", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["independent", "responsible", "get around", "trust", "confidence"] }
+      ],
+      "opener": "You want to take the bus to your English class alone? Hmm, I'm not sure about that.",
+      "stance": "The city is busy and dangerous. I think it's safer if I drive you there.",
+      "turns": 5,
+      "fallback": [
+        "Why do you want to go by yourself?",
+        "But the city is busy and dangerous. I think it's safer if I drive you there.",
+        "OK, that sounds more careful. How will I know you're safe?",
+        "All right, let's try it next week. Call me when you arrive."
+      ],
+      "tipsVi": ["Nói nhẹ nhàng với mẹ: \"I understand, Mum, but...\"", "Đưa ra cách cụ thể: nhắn tin khi đến nơi, đi cùng bạn."],
+      "keywords": ["independent", "responsible", "get around", "call you", "I understand"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Đề xuất buổi học kĩ năng sống",
+      "contextVi": "Em đề xuất với thầy phụ trách Đoàn trường tổ chức một buổi học kĩ năng sống cho học sinh lớp 10, 11. Thầy có ý kiến khác.",
+      "aiRole": "Mr Quang, the teacher in charge of student activities",
+      "studentRoleVi": "Học sinh đề xuất buổi học kĩ năng sống",
+      "goalVi": "Đề xuất một buổi học kĩ năng sống, nói kĩ năng nào cần học và vì sao, và trả lời khi thầy có ý kiến khác.",
+      "goal": "Suggest a life-skills workshop, say which skills to teach and why, and reply when the teacher disagrees.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất nội dung buổi học", "words": [] },
+        { "kind": "reason", "vi": "Giải thích vì sao học sinh cần kĩ năng đó", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["life skill", "time-management skills", "money-management skills", "decision-making skills", "independent"] }
+      ],
+      "opener": "Hello. I heard you have an idea for a student activity. Tell me about it.",
+      "stance": "Life skills should be taught by parents at home. School is only for academic subjects.",
+      "turns": 5,
+      "fallback": [
+        "Interesting. Why do students need that?",
+        "But life skills should be taught by parents at home. School is only for academic subjects.",
+        "Hmm, you have a point. Who could teach the workshop?",
+        "All right. Write a short plan, and I'll show it to the principal."
+      ],
+      "tipsVi": ["Nói lịch sự với thầy cô: \"I think...\", \"Could we...?\"", "Khi thầy phản đối, nêu ví dụ cụ thể về học sinh thiếu kĩ năng."],
+      "keywords": ["life skills", "workshop", "because", "for example", "independent"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Tự lên kế hoạch đi cắm trại",
+      "contextVi": "Em và một bạn thân muốn đi cắm trại cuối tuần cùng lớp. Bạn em muốn nhờ bố mẹ lo hết mọi thứ. Em muốn hai bạn tự lên kế hoạch.",
+      "aiRole": "Linh, your close friend in the same class",
+      "studentRoleVi": "Bạn thân muốn tự lên kế hoạch",
+      "goalVi": "Thuyết phục Linh tự lên kế hoạch, đề xuất các bước chuẩn bị, và trả lời khi Linh có ý kiến khác.",
+      "goal": "Persuade Linh that you two should plan the trip yourselves, suggest steps to prepare, and respond to her different view.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất cách chuẩn bị", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do nên tự lên kế hoạch", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["independent", "responsible", "come up with", "carry out", "manage", "confidence"] }
+      ],
+      "opener": "Our class camping trip is next weekend! I'm going to ask my parents to prepare everything for us. OK?",
+      "stance": "Let's ask our parents to plan everything. It's easier and safer that way.",
+      "turns": 5,
+      "fallback": [
+        "Why do you want us to do it ourselves?",
+        "But it's easier and safer if our parents plan everything, isn't it?",
+        "OK, maybe you're right. What should we do first?",
+        "Great. Let's make a list tonight and show it to our parents."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["independent", "plan", "first of all", "because", "responsible"]
+    }
+  ]
+}

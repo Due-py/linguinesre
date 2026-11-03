@@ -1,0 +1,362 @@
+{
+  "grade": 7,
+  "unit": 6,
+  "title": "A Visit to a School",
+  "titleVi": "Thăm một ngôi trường",
+  "edition": "Tiếng Anh 7 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 60–69; Glossary tr. 137",
+  "vocab": [
+    { "id": "v01", "en": "lower secondary school", "vi": "trường trung học cơ sở", "ipa": "/ˈləʊə ˈsekəndri skuːl/", "ipaFrom": "glossary", "pos": "n", "example": "My cousin goes to a lower secondary school in Hue.", "collocations": ["a lower secondary school student"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v02", "en": "facility", "vi": "thiết bị, tiện nghi", "ipa": "/fəˈsɪləti/", "ipaFrom": "glossary", "pos": "n", "example": "Our school has modern facilities like a gym and a lab.", "collocations": ["school facilities", "modern facilities"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v03", "en": "laboratory", "vi": "phòng thí nghiệm", "ipa": "/ləˈbɒrətri/", "ipaFrom": "glossary", "pos": "n", "example": "We do science experiments in the laboratory.", "collocations": ["a science laboratory"], "synonyms": ["lab"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v04", "en": "projector", "vi": "máy chiếu", "ipa": "/prəˈdʒektə/", "ipaFrom": "glossary", "pos": "n", "example": "Our teacher uses a projector to show us videos.", "collocations": ["use a projector"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v05", "en": "equipment", "vi": "đồ dùng, thiết bị", "ipa": "/ɪˈkwɪpmənt/", "ipaFrom": "glossary", "pos": "n", "example": "The gym has a lot of new sports equipment.", "collocations": ["sports equipment", "modern equipment"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v06", "en": "library", "vi": "thư viện", "ipa": "/ˈlaɪbrəri/", "ipaFrom": "dictionary", "pos": "n", "example": "I borrow two books from the school library every week.", "collocations": ["the school library"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 60 } },
+    { "id": "v07", "en": "gym", "vi": "phòng tập thể dục", "ipa": "/dʒɪm/", "ipaFrom": "dictionary", "pos": "n", "example": "We play badminton in the gym when it rains.", "collocations": ["the school gym"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 60 } },
+    { "id": "v08", "en": "computer room", "vi": "phòng máy tính", "ipa": "/kəmˈpjuːtə ruːm/", "ipaFrom": "dictionary", "pos": "n", "example": "We have IT lessons in the computer room on Tuesdays.", "collocations": ["in the computer room"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 60 } },
+    { "id": "v09", "en": "playground", "vi": "sân chơi, sân trường", "ipa": "/ˈpleɪɡraʊnd/", "ipaFrom": "dictionary", "pos": "n", "example": "The students play football in the playground at break time.", "collocations": ["in the playground"], "synonyms": ["schoolyard"], "antonyms": [], "src": { "kind": "sgk", "page": 63 } },
+    { "id": "v10", "en": "outdoor", "vi": "ngoài trời", "ipa": "/ˈaʊtdɔː/", "ipaFrom": "glossary", "pos": "adj", "example": "Our school has many outdoor activities in spring.", "collocations": ["outdoor activities"], "synonyms": [], "antonyms": ["indoor"], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v11", "en": "entrance exam", "vi": "kì thi đầu vào", "ipa": "/ˈentrəns ɪɡˈzæm/", "ipaFrom": "glossary", "pos": "n", "example": "Students must pass an entrance exam to study at that school.", "collocations": ["pass an entrance exam", "take an entrance exam"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v12", "en": "midterm", "vi": "giữa học kì", "ipa": "/ˌmɪdˈtɜːm/", "ipaFrom": "glossary", "pos": "n", "example": "Our midterm test is in November.", "collocations": ["midterm test", "midterm exam"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v13", "en": "gifted", "vi": "năng khiếu", "ipa": "/ˈɡɪftɪd/", "ipaFrom": "glossary", "pos": "adj", "example": "This school has special classes for gifted students.", "collocations": ["gifted students", "a gifted school"], "synonyms": ["talented"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v14", "en": "talented", "vi": "tài năng", "ipa": "/ˈtæləntɪd/", "ipaFrom": "glossary", "pos": "adj", "example": "Many talented artists studied at this school.", "collocations": ["a talented student", "very talented"], "synonyms": ["gifted"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v15", "en": "well-known", "vi": "nổi tiếng", "ipa": "/ˌwel ˈnəʊn/", "ipaFrom": "glossary", "pos": "adj", "example": "Quoc Hoc - Hue is a well-known school in Viet Nam.", "collocations": ["a well-known school"], "synonyms": ["famous"], "antonyms": ["unknown"], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v16", "en": "opportunity", "vi": "thời điểm, cơ hội", "ipa": "/ˌɒpəˈtjuːnəti/", "ipaFrom": "glossary", "pos": "n", "example": "The school trip is a great opportunity to make new friends.", "collocations": ["a great opportunity", "have an opportunity to"], "synonyms": ["chance"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v17", "en": "celebrate", "vi": "làm lễ kỉ niệm", "ipa": "/ˈselɪbreɪt/", "ipaFrom": "glossary", "pos": "v", "example": "We celebrate Teachers' Day on November 20th.", "collocations": ["celebrate Teachers' Day", "celebrate a birthday"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v18", "en": "share", "vi": "chia sẻ", "ipa": "/ʃeə/", "ipaFrom": "glossary", "pos": "v", "example": "We shared ideas for our project with the other class.", "collocations": ["share ideas", "share with"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v19", "en": "extra", "vi": "thêm", "ipa": "/ˈekstrə/", "ipaFrom": "glossary", "pos": "adj", "example": "Some students take extra English classes after school.", "collocations": ["extra classes", "extra time"], "synonyms": ["more"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v20", "en": "private", "vi": "riêng, tư", "ipa": "/ˈpraɪvət/", "ipaFrom": "glossary", "pos": "adj", "example": "My cousin studies at a private school.", "collocations": ["a private school"], "synonyms": [], "antonyms": ["public"], "src": { "kind": "sgk", "page": 137 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Prepositions of time: at, in, on",
+      "nameVi": "Giới từ chỉ thời gian: at, in, on",
+      "explainVi": "at + giờ hoặc thời điểm (at six o'clock, at noon, at break time). in + buổi, tháng, năm (in the morning, in December, in 2020). on + thứ, ngày cụ thể, ngày lễ (on Monday, on January 18th, on Christmas Day).",
+      "formula": "at + giờ / thời điểm  ·  in + buổi / tháng / năm  ·  on + thứ / ngày",
+      "examples": [
+        "Our lessons start at 7 a.m.",
+        "We have a sports day in March.",
+        "We celebrate Teachers' Day on November 20th."
+      ],
+      "wrong": [
+        { "sentence": "The school year starts in September 5th.", "fix": "The school year starts on September 5th.", "whyVi": "Có ngày cụ thể (September 5th) thì dùng on." },
+        { "sentence": "We play football in break time.", "fix": "We play football at break time.", "whyVi": "Với thời điểm như break time, noon thì dùng at." }
+      ],
+      "drills": [
+        { "prompt": "Our English club meets ___ Friday afternoons.", "options": ["on", "in", "at"], "answer": 0, "explainVi": "Có thứ trong tuần (Friday) thì dùng on." },
+        { "prompt": "The midterm tests are ___ November.", "options": ["in", "on", "at"], "answer": 0, "explainVi": "Tháng thì dùng in." },
+        { "prompt": "We have lunch ___ noon.", "options": ["at", "in", "on"], "answer": 0, "explainVi": "at noon: vào buổi trưa (thời điểm)." },
+        { "prompt": "They built our school ___ 1995.", "options": ["in", "on", "at"], "answer": 0, "explainVi": "Năm thì dùng in." }
+      ],
+      "errorTag": "preposition",
+      "src": { "kind": "sgk", "page": 63 }
+    },
+    {
+      "id": "g02",
+      "name": "Prepositions of place: at, in, on",
+      "nameVi": "Giới từ chỉ nơi chốn: at, in, on",
+      "explainVi": "at + một địa điểm chung (at home, at school, at work). in + bên trong một không gian (in the classroom, in the school garden, in the playground). on + trên bề mặt hoặc tầng nhà (on the board, on the wall, on the second floor).",
+      "formula": "at + home / school / work  ·  in + phòng, vườn, sân  ·  on + bề mặt / floor",
+      "examples": [
+        "My parents are at work now.",
+        "The students are watering flowers in the school garden.",
+        "Our classroom is on the third floor."
+      ],
+      "wrong": [
+        { "sentence": "The library is in the second floor.", "fix": "The library is on the second floor.", "whyVi": "Nói về tầng nhà dùng on." },
+        { "sentence": "My little sister has lunch in school.", "fix": "My little sister has lunch at school.", "whyVi": "Với nơi chung như school, home, work dùng at." }
+      ],
+      "drills": [
+        { "prompt": "There are some beautiful posters ___ the wall.", "options": ["on", "in", "at"], "answer": 0, "explainVi": "Trên bề mặt tường dùng on." },
+        { "prompt": "The students are playing ___ the playground.", "options": ["in", "on", "at"], "answer": 0, "explainVi": "in the playground: ở trong sân chơi." },
+        { "prompt": "Which sentence is correct?", "options": ["My mum is at home now.", "My mum is in home now.", "My mum is on home now."], "answer": 0, "explainVi": "Cụm cố định: at home." }
+      ],
+      "errorTag": "preposition",
+      "src": { "kind": "sgk", "page": 63 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Âm /tʃ/",
+      "tipVi": "Lưỡi chạm vòm miệng trên rồi bật mạnh hơi ra như \"ch\" nhưng có hơi gió, KHÔNG rung cổ họng. Thường gặp ở ch, tch: children, lunch, teacher.",
+      "words": ["cherry", "cheaper", "children", "lunch", "teacher"],
+      "sentence": "The children eat cherries at lunch.",
+      "quiz": [
+        { "prompt": "Which word has the sound /tʃ/?", "options": ["teacher", "large", "project"], "answer": 0, "explainVi": "teacher /ˈtiːtʃə/ có âm /tʃ/; large và project có âm /dʒ/." }
+      ],
+      "src": { "kind": "sgk", "page": 62 }
+    },
+    {
+      "id": "p02",
+      "kind": "sound",
+      "focus": "Âm /dʒ/",
+      "tipVi": "Khẩu hình giống /tʃ/ nhưng rung cổ họng. Chữ j, g (trước e, i, y) và -ge thường đọc /dʒ/: jam, gym, juice, large, project, intelligent.",
+      "words": ["jam", "gym", "juice", "large", "project", "intelligent"],
+      "sentence": "John drinks orange juice in the gym.",
+      "quiz": [
+        { "prompt": "Which word has the sound /dʒ/?", "options": ["gym", "children", "lunch"], "answer": 0, "explainVi": "gym /dʒɪm/ có âm /dʒ/; children và lunch có âm /tʃ/." },
+        { "prompt": "Which word does NOT have the sound /dʒ/?", "options": ["juice", "large", "cherry"], "answer": 2, "explainVi": "cherry /ˈtʃeri/ có âm /tʃ/, không phải /dʒ/." }
+      ],
+      "src": { "kind": "sgk", "page": 62 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "talented, gifted, outdoor, library nhấn âm đầu; facility, laboratory, projector, equipment nhấn âm thứ hai; opportunity nhấn âm thứ ba.",
+      "words": ["talented", "gifted", "facility", "laboratory", "projector", "equipment", "opportunity"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["talented", "projector", "facility"], "answer": 0, "explainVi": "talented /ˈtæləntɪd/ nhấn âm đầu; hai từ kia nhấn âm thứ hai." },
+        { "prompt": "Which word is stressed on the THIRD syllable?", "options": ["opportunity", "laboratory", "equipment"], "answer": 0, "explainVi": "opportunity /ˌɒpəˈtjuːnəti/ nhấn âm thứ ba." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Lên giọng ở câu hỏi xin thêm thông tin",
+      "tipVi": "Câu hỏi Can you ...? (trả lời Yes/No) lên giọng ở cuối, nghe lịch sự và quan tâm: Can you tell me more? ↗",
+      "words": ["Can you tell me more?", "Can you tell me why?"],
+      "sentence": "Sounds great! Can you tell me more?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Can you tell me more?", "vi": "Bạn kể thêm cho mình được không?", "useVi": "Khi muốn biết thêm chi tiết về một kế hoạch hoặc sự việc.", "example": "A school trip? Sounds great! Can you tell me more?", "src": { "kind": "sgk", "page": 64 } },
+    { "id": "e02", "en": "Can you tell me why?", "vi": "Bạn cho mình biết lý do được không?", "useVi": "Khi muốn hỏi lý do của một việc.", "example": "You chose that school? Can you tell me why?", "src": { "kind": "sgk", "page": 64 } },
+    { "id": "e03", "en": "Can you tell me how?", "vi": "Bạn cho mình biết bằng cách nào được không?", "useVi": "Khi muốn hỏi cách làm một việc.", "example": "You built a robot? Can you tell me how?", "src": { "kind": "sgk", "page": 64 } },
+    { "id": "e04", "en": "Are you doing anything this Sunday?", "vi": "Chủ nhật này bạn có bận gì không?", "useVi": "Khi hỏi bạn có rảnh không trước khi mời.", "example": "Are you doing anything this Sunday? Let's go to the library.", "src": { "kind": "sgk", "page": 64 } },
+    { "id": "e05", "en": "Would you like to go with us to ...?", "vi": "Bạn có muốn đi ... cùng tụi mình không?", "useVi": "Khi mời bạn đi cùng.", "example": "Would you like to go with us to the science fair?", "src": { "kind": "sgk", "page": 64 } },
+    { "id": "e06", "en": "Sounds great!", "vi": "Nghe hay đấy!", "useVi": "Khi đồng ý vui vẻ với một lời mời hay ý tưởng.", "example": "A visit to the museum? Sounds great!", "src": { "kind": "sgk", "page": 64 } },
+    { "id": "e07", "en": "What else ...?", "vi": "Còn ... gì nữa?", "useVi": "Khi muốn hỏi thêm những việc khác.", "example": "What else will you do there?", "src": { "kind": "sgk", "page": 60 } },
+    { "id": "e08", "en": "Thanks for reminding me.", "vi": "Cảm ơn bạn đã nhắc mình.", "useVi": "Khi ai đó nhắc em một việc em suýt quên.", "example": "Oh, my camera! Thanks for reminding me.", "src": { "kind": "sgk", "page": 60 } },
+    { "id": "e09", "en": "Our school has ...", "vi": "Trường mình có ...", "useVi": "Khi giới thiệu cơ sở vật chất của trường.", "example": "Our school has a big library and a modern computer room.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "It's on the ... floor.", "vi": "Nó ở tầng ...", "useVi": "Khi chỉ đường đến một phòng trong trường.", "example": "The art room? It's on the second floor.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["Our school day", "starts", "at seven o'clock", "in the morning"], "vi": "Ngày học của chúng mình bắt đầu lúc bảy giờ sáng.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["The library", "is on", "the second floor"], "vi": "Thư viện ở tầng hai.", "grammarId": "g02" },
+    { "id": "b03", "chunks": ["We celebrate", "Teachers' Day", "on November 20th"], "vi": "Chúng mình kỉ niệm Ngày Nhà giáo vào ngày 20 tháng 11.", "grammarId": "g01" },
+    { "id": "b04", "chunks": ["The students", "are watering flowers", "in the school garden"], "vi": "Học sinh đang tưới hoa trong vườn trường.", "grammarId": "g02" },
+    { "id": "b05", "chunks": ["Our school has", "modern facilities", "like a gym", "and a laboratory"], "vi": "Trường mình có cơ sở vật chất hiện đại như phòng tập thể dục và phòng thí nghiệm.", "grammarId": null },
+    { "id": "b06", "chunks": ["Students must pass", "an entrance exam", "to study", "at that school"], "vi": "Học sinh phải thi đỗ kì thi đầu vào để học ở trường đó.", "grammarId": null },
+    { "id": "b07", "chunks": ["We play badminton", "in the playground", "at break time"], "vi": "Chúng mình chơi cầu lông ở sân trường vào giờ ra chơi.", "grammarId": "g01" },
+    { "id": "b08", "chunks": ["Our midterm tests", "are", "in November"], "vi": "Các bài kiểm tra giữa kì của chúng mình vào tháng Mười một.", "grammarId": "g01" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "We have English lessons.",
+      "steps": [
+        { "askVi": "Vào thứ mấy?", "ask": "Which day?", "add": "on Mondays" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in the computer room" },
+        { "askVi": "Vì sao ở đó?", "ask": "Why there?", "add": "because we use a projector" }
+      ],
+      "full": "We have English lessons on Mondays in the computer room because we use a projector."
+    },
+    {
+      "id": "x02",
+      "base": "My class visited a school.",
+      "steps": [
+        { "askVi": "Trường nào?", "ask": "Which school?", "add": "a well-known lower secondary school" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "in October" },
+        { "askVi": "Làm gì ở đó?", "ask": "What did you do?", "add": "and shared ideas with the students there" }
+      ],
+      "full": "My class visited a well-known lower secondary school in October and shared ideas with the students there."
+    },
+    {
+      "id": "x03",
+      "base": "I read books.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in the school library" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "at break time" }
+      ],
+      "full": "I read books in the school library at break time."
+    },
+    {
+      "id": "x04",
+      "base": "The school has a garden.",
+      "steps": [
+        { "askVi": "Vườn thế nào?", "ask": "What kind?", "add": "large" },
+        { "askVi": "Học sinh làm gì ở đó?", "ask": "What do students do there?", "add": "where students grow vegetables" }
+      ],
+      "full": "The school has a large garden where students grow vegetables."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Các ngày lễ, sự kiện ở trường và thời gian",
+      "questions": [
+        "What special days does your school celebrate, and when?",
+        "When does your school hold its sports day or festivals?",
+        "Which school events happen in the autumn or in the spring?"
+      ],
+      "keywords": ["celebrate", "in", "on", "Teachers' Day"],
+      "exampleAnswer": "We celebrate Teachers' Day on November 20th, and we have a sports day in March.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Nơi học thể dục, thể thao ở trường",
+      "questions": [
+        "Where do you have PE lessons at your school?",
+        "Where do students play sports at your school?",
+        "Which part of your school do you use for sports?"
+      ],
+      "keywords": ["gym", "playground", "in", "outdoor"],
+      "exampleAnswer": "We have PE lessons in the playground, but when it rains we go to the gym.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Học sinh dùng máy tính ở trường",
+      "questions": [
+        "How do students use computers at your school?",
+        "What do you do in the computer room?",
+        "How does technology help you learn at school?"
+      ],
+      "keywords": ["computer room", "projector", "project", "search"],
+      "exampleAnswer": "We learn IT in the computer room, and our teachers use projectors to show pictures and videos.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Vì sao học sinh muốn học trường năng khiếu, trường nổi tiếng",
+      "questions": [
+        "Why do some students want to study at a gifted school?",
+        "What are the good things about studying at a well-known school?",
+        "Why do students take entrance exams for special schools?"
+      ],
+      "keywords": ["gifted", "well-known", "entrance exam", "opportunity"],
+      "exampleAnswer": "They want good teachers and modern facilities, and it gives them more opportunities in the future.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Lợi ích của vườn trường",
+      "questions": [
+        "Why is a school garden useful?",
+        "What can students learn from working in a school garden?",
+        "Why should every school have a garden?"
+      ],
+      "keywords": ["garden", "grow", "outdoor", "learn"],
+      "exampleAnswer": "A school garden is useful because students learn how to grow plants and spend more time outdoors.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What do you usually do on the first day of a new school year?", "keywords": ["on", "meet", "classroom", "teacher"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should students wear school uniforms every day? Why or why not?", "keywords": ["uniform", "because", "students"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend invites you to visit a school club, but you need more information. What do you say?", "keywords": ["Can you tell me more", "when", "where"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What does your class usually do at school on Teachers' Day?", "keywords": ["celebrate", "on", "flowers", "sing"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should schools open their libraries at the weekend? Why or why not?", "keywords": ["library", "at the weekend", "because"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "A new classmate asks when and where the English club meets. What do you say?", "keywords": ["on", "at", "in", "floor"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Hỏi thêm về chuyến thăm trường",
+      "contextVi": "Bạn em rủ em đi thăm một trường THCS nổi tiếng vào Chủ nhật. Em muốn biết thêm chi tiết trước khi đồng ý.",
+      "aiRole": "Mi, a friend who is planning a school visit",
+      "studentRoleVi": "Bạn được mời, hỏi thêm chi tiết",
+      "goalVi": "Hỏi thêm về chuyến đi: khi nào, ở đâu, sẽ làm gì; rồi trả lời có đi hay không.",
+      "goal": "Ask Mi for details about the school visit (when, where, what you will do), then say if you will go.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng cách hỏi thêm thông tin của bài", "words": ["Can you tell me more", "Can you tell me why", "Can you tell me how", "What else"] }
+      ],
+      "opener": "Are you doing anything this Sunday? Would you like to visit Binh Minh Lower Secondary School with us?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "We'll leave at 7 a.m. and visit the library and the gym.",
+        "We'll also meet their Go Green Club and take photos.",
+        "Great! See you at the school gate on Sunday."
+      ],
+      "tipsVi": ["Hỏi: \"Can you tell me more?\", \"What else will we do?\"", "Trả lời: \"Sounds great!\" hoặc lịch sự từ chối."],
+      "keywords": ["Can you tell me more", "What else", "Sounds great", "at", "on"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Giới thiệu trường mình với khách",
+      "contextVi": "Một nhóm học sinh trường khác đến thăm trường em. Em dẫn một bạn đi tham quan và giới thiệu trường.",
+      "aiRole": "Phong, a visiting student from a large city school",
+      "studentRoleVi": "Học sinh hướng dẫn, giới thiệu trường mình",
+      "goalVi": "Giới thiệu các phòng và hoạt động của trường, nói rõ ở đâu, khi nào, và trả lời khi Phong có ý kiến khác.",
+      "goal": "Show Phong around your school: describe places and activities (where and when) and respond to his different opinion.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng giới từ chỉ nơi chốn hoặc thời gian", "words": ["in", "on", "at"] },
+        { "kind": "reason", "vi": "Nêu lý do em thích trường mình", "words": [] }
+      ],
+      "opener": "Hi! Thanks for showing me around. What can we see first?",
+      "stance": "Your school is quite small. I think big schools with lots of facilities are much better.",
+      "turns": 5,
+      "fallback": [
+        "Nice! When do students use it?",
+        "Hmm, your school is quite small. I think big schools with lots of facilities are better.",
+        "OK, that's true. What else do you like about your school?",
+        "Thank you. It was a great visit!"
+      ],
+      "tipsVi": ["Khi Phong chê, mở đầu bằng \"Maybe, but...\"", "Nói vị trí: \"It's on the second floor\", \"in the garden\"."],
+      "keywords": ["library", "on the second floor", "in the garden", "because", "Maybe, but"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Chọn nơi tổ chức hoạt động lớp",
+      "contextVi": "Lớp em chuẩn bị một buổi sinh hoạt tiếng Anh. Em muốn tổ chức ở vườn trường, nhưng cô chủ nhiệm muốn ở trong lớp.",
+      "aiRole": "Ms Hien, your form teacher",
+      "studentRoleVi": "Lớp trưởng, đề xuất nơi tổ chức",
+      "goalVi": "Đề xuất nơi và thời gian tổ chức, giải thích lý do và trả lời khi cô có ý kiến khác.",
+      "goal": "Suggest a place and time for the class English activity, explain why, and answer the teacher's different opinion.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất nơi và thời gian cụ thể", "words": [] },
+        { "kind": "reason", "vi": "Giải thích lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["outdoor", "school garden", "playground", "facilities", "projector"] }
+      ],
+      "opener": "So, where and when do you want to have our English activity?",
+      "stance": "The classroom is better. We have a projector there, and it might rain outside.",
+      "turns": 5,
+      "fallback": [
+        "I see. Why do you want to have it there?",
+        "But the classroom is better. We have a projector, and it might rain outside.",
+        "Hmm. What will we do if it rains?",
+        "All right. Let's plan it together tomorrow."
+      ],
+      "tipsVi": ["Nói lễ phép: \"I think we could...\"", "Dùng at/in/on khi nói thời gian và nơi chốn."],
+      "keywords": ["in the school garden", "on Friday", "outdoor", "because", "if it rains"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Trò chuyện với giáo viên nước ngoài",
+      "contextVi": "Một giáo viên tình nguyện người Anh mới đến dạy ở trường em. Thầy muốn biết về một ngày học và cơ sở vật chất của trường.",
+      "aiRole": "Mr Brown, a volunteer English teacher from the UK",
+      "studentRoleVi": "Học sinh, giới thiệu về trường",
+      "goalVi": "Kể về một ngày học và các phòng học của trường, nêu điều em thích và trả lời khi thầy có ý kiến khác.",
+      "goal": "Tell Mr Brown about a school day and the school facilities, say what you like, and respond to his different opinion.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng giới từ thời gian và nơi chốn", "words": ["at", "in", "on"] },
+        { "kind": "reason", "vi": "Nêu lý do cho ý kiến của mình", "words": [] }
+      ],
+      "opener": "Hello! I'm new here. Can you tell me about a normal school day at this school?",
+      "stance": "I think a school only needs good teachers. Labs and gyms are not very important.",
+      "turns": 5,
+      "fallback": [
+        "Interesting. Which place in the school do you like best?",
+        "Hmm, I think a school only needs good teachers. Labs and gyms are not so important.",
+        "Good point. When do students have outdoor activities?",
+        "Thank you. That's very helpful!"
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["at", "in", "on", "facilities", "because"]
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import StudentHome, { type RoadmapUnit } from "@/components/StudentHome";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { listUnitsForGrade, todayTask } from "@/lib/practice";
+import { listModules, moduleToday } from "@/lib/module/server";
 import { improvementFocus, listSessions, reactionSessions } from "@/lib/sessions";
 import { reactionTrend } from "@/lib/reaction";
 import ResearchHome from "@/components/ResearchHome";
@@ -43,14 +44,17 @@ export default async function StudentPage({ searchParams }: { searchParams: Prom
 
   // RLS: học sinh chỉ thấy lớp mình đã vào và buổi luyện của mình.
   const supabase = await createClient();
-  const [{ data: classes }, today, units, sessions, focus, reactionData] = await Promise.all([
+  const [{ data: classes }, today, units, sessions, focus, reactionData, modules, module] = await Promise.all([
     supabase.from("classes").select("id, name").eq("status", "active").order("created_at"),
     profile.grade ? todayTask(profile.id, profile.grade) : Promise.resolve({ kind: "none" as const }),
     profile.grade ? listUnitsForGrade(profile.grade) : Promise.resolve([]),
     listSessions(profile.id, 50),
     improvementFocus(profile.id),
     reactionSessions(profile.id),
+    profile.grade ? listModules(profile.grade) : Promise.resolve([]),
+    profile.grade ? moduleToday(profile.id, profile.grade) : Promise.resolve(null),
   ]);
+  const moduleOf = new Map(modules.map((m) => [m.unitId, m.id]));
 
   // Lộ trình: Unit có buổi hoàn thành = xong; có buổi dở = đang làm; Unit của "việc hôm nay" = tiếp theo.
   const nextHref = today.kind === "start" ? today.href : null;
@@ -63,7 +67,7 @@ export default async function StudentPage({ searchParams }: { searchParams: Prom
         : nextHref === `/student/practice/${u.id}`
           ? "next"
           : "todo";
-    return { id: u.id, unitNo: u.unitNo, title: u.title, titleVi: u.titleVi, state };
+    return { id: u.id, unitNo: u.unitNo, title: u.title, titleVi: u.titleVi, state, moduleId: moduleOf.get(u.id) ?? null };
   });
 
   return (
@@ -74,6 +78,7 @@ export default async function StudentPage({ searchParams }: { searchParams: Prom
         classes={classes ?? []}
         joinFailed={join === "failed"}
         today={today}
+        module={module}
         roadmap={roadmap}
         recent={sessions.slice(0, 3)}
         focus={focus}

@@ -1,0 +1,385 @@
+{
+  "grade": 7,
+  "unit": 8,
+  "title": "Films",
+  "titleVi": "Phim ảnh",
+  "edition": "Tiếng Anh 7 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 82–91; Glossary tr. 138",
+  "vocab": [
+    { "id": "v01", "en": "comedy", "vi": "phim hài", "ipa": "/ˈkɒmədi/", "ipaFrom": "glossary", "pos": "n", "example": "We watched a comedy and laughed a lot.", "collocations": ["a family comedy", "a funny comedy"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v02", "en": "documentary", "vi": "phim tài liệu", "ipa": "/ˌdɒkjəˈmentri/", "ipaFrom": "glossary", "pos": "n", "example": "I saw a documentary about sea turtles last night.", "collocations": ["a documentary about animals", "a nature documentary"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v03", "en": "horror film", "vi": "phim kinh dị", "ipa": "/ˈhɒrə fɪlm/", "ipaFrom": "glossary", "pos": "n", "example": "My sister never watches horror films because they scare her.", "collocations": ["a scary horror film"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v04", "en": "science fiction", "vi": "thể loại phim khoa học viễn tưởng", "ipa": "/ˈsaɪəns ˈfɪkʃən/", "ipaFrom": "glossary", "pos": "n", "example": "In this science fiction film, people live on Mars.", "collocations": ["a science fiction film"], "synonyms": ["sci-fi"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v05", "en": "fantasy", "vi": "phim giả tưởng", "ipa": "/ˈfæntəsi/", "ipaFrom": "glossary", "pos": "n", "example": "I love fantasies with dragons and magic.", "collocations": ["a fantasy film"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v06", "en": "acting", "vi": "diễn xuất", "ipa": "/ˈæktɪŋ/", "ipaFrom": "glossary", "pos": "n", "example": "The story was simple, but the acting was great.", "collocations": ["great acting", "the acting is excellent"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v07", "en": "star", "vi": "đóng vai chính", "ipa": "/stɑː/", "ipaFrom": "glossary", "pos": "v", "example": "Who stars in the new cartoon film?", "collocations": ["star in a film"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v08", "en": "director", "vi": "người đạo diễn (phim, kịch, ...)", "ipa": "/dɪˈrektə/", "ipaFrom": "glossary", "pos": "n", "example": "The director of this film is very young.", "collocations": ["a famous director", "film director"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v09", "en": "review", "vi": "bài phê bình (về một bộ phim)", "ipa": "/rɪˈvjuː/", "ipaFrom": "glossary", "pos": "n", "example": "The film got good reviews, so we decided to see it.", "collocations": ["good reviews", "read a review"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v10", "en": "must-see", "vi": "bộ phim hấp dẫn, cần xem", "ipa": "/ˈmʌst-siː/", "ipaFrom": "glossary", "pos": "n", "example": "This cartoon is a must-see for all families.", "collocations": ["a must-see for teens"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v11", "en": "gripping", "vi": "hấp dẫn, thú vị", "ipa": "/ˈɡrɪpɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "The story was so gripping that I didn't want it to end.", "collocations": ["a gripping story"], "synonyms": ["exciting"], "antonyms": ["dull"], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v12", "en": "moving", "vi": "cảm động", "ipa": "/ˈmuːvɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "The ending of the film was very moving.", "collocations": ["a moving story", "a moving scene"], "synonyms": ["touching"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v13", "en": "dull", "vi": "buồn tẻ, chán ngắt", "ipa": "/dʌl/", "ipaFrom": "glossary", "pos": "adj", "example": "The first half of the film was a bit dull.", "collocations": ["a dull story"], "synonyms": ["boring"], "antonyms": ["gripping"], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v14", "en": "confusing", "vi": "khó hiểu, gây bối rối", "ipa": "/kənˈfjuːzɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "The story was confusing, so I watched it again.", "collocations": ["a confusing ending"], "synonyms": [], "antonyms": ["clear"], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v15", "en": "enjoyable", "vi": "thú vị, thích thú", "ipa": "/ɪnˈdʒɔɪəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "We had an enjoyable evening at the cinema.", "collocations": ["an enjoyable film"], "synonyms": ["fun"], "antonyms": ["boring"], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v16", "en": "frightening", "vi": "làm sợ hãi, rùng rợn", "ipa": "/ˈfraɪtnɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "Some scenes were frightening for my little brother.", "collocations": ["a frightening scene"], "synonyms": ["scary"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v17", "en": "scary", "vi": "sợ hãi, rùng rợn", "ipa": "/ˈskeəri/", "ipaFrom": "glossary", "pos": "adj", "example": "That film is too scary for young children.", "collocations": ["too scary", "a scary film"], "synonyms": ["frightening"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v18", "en": "shocking", "vi": "làm sửng sốt", "ipa": "/ˈʃɒkɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "The end of the story was really shocking.", "collocations": ["a shocking ending"], "synonyms": ["surprising"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v19", "en": "violent", "vi": "có nhiều cảnh bạo lực", "ipa": "/ˈvaɪələnt/", "ipaFrom": "glossary", "pos": "adj", "example": "My parents don't let me watch violent films.", "collocations": ["a violent film", "too violent"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v20", "en": "funny", "vi": "buồn cười, hài hước", "ipa": "/ˈfʌni/", "ipaFrom": "dictionary", "pos": "adj", "example": "The cartoon was so funny that we couldn't stop laughing.", "collocations": ["really funny", "a funny scene"], "synonyms": ["amusing"], "antonyms": ["serious"], "src": { "kind": "sgk", "page": 83 } },
+    { "id": "v21", "en": "boring", "vi": "nhàm chán", "ipa": "/ˈbɔːrɪŋ/", "ipaFrom": "dictionary", "pos": "adj", "example": "I think some documentaries are boring, but this one was great.", "collocations": ["a boring film"], "synonyms": ["dull"], "antonyms": ["exciting"], "src": { "kind": "sgk", "page": 83 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Although / though",
+      "nameVi": "Mặc dù (although / though)",
+      "explainVi": "Dùng although hoặc though trước một mệnh đề để nối hai ý trái ngược nhau trong CÙNG một câu. Mệnh đề có although đứng đầu câu thì có dấu phẩy ngăn cách. Đã dùng although thì KHÔNG dùng thêm but.",
+      "formula": "Although / Though + S + V, S + V  ·  S + V although / though + S + V",
+      "examples": [
+        "Although the film was long, I enjoyed every minute.",
+        "I liked the story though the ending was sad.",
+        "Though it rained, we still went to the cinema."
+      ],
+      "wrong": [
+        { "sentence": "Although the film was dull, but I watched it to the end.", "fix": "Although the film was dull, I watched it to the end.", "whyVi": "Đã có although thì không dùng but trong cùng câu." },
+        { "sentence": "Although the tickets were expensive. We bought them.", "fix": "Although the tickets were expensive, we bought them.", "whyVi": "Mệnh đề có although không đứng một mình; nối với mệnh đề chính bằng dấu phẩy." }
+      ],
+      "drills": [
+        { "prompt": "___ the film was long, I enjoyed it.", "options": ["Although", "However", "Because"], "answer": 0, "explainVi": "Hai ý trái ngược trong cùng một câu: Although + mệnh đề." },
+        { "prompt": "I went to the cinema ___ I was very tired.", "options": ["though", "however", "so"], "answer": 0, "explainVi": "Mệt nhưng vẫn đi xem: hai ý trái ngược trong một câu, dùng though." },
+        { "prompt": "Which sentence is correct?", "options": ["Although the story was dull, but the acting was great.", "Although the story was dull, the acting was great.", "Although the story was dull. The acting was great."], "answer": 1, "explainVi": "Although + mệnh đề, dấu phẩy, rồi mệnh đề chính; không thêm but." }
+      ],
+      "errorTag": "conjunction",
+      "src": { "kind": "sgk", "page": 85 }
+    },
+    {
+      "id": "g02",
+      "name": "However",
+      "nameVi": "Tuy nhiên (however)",
+      "explainVi": "Dùng however để nêu ý trái ngược giữa HAI câu riêng. However thường đứng đầu câu thứ hai và có dấu phẩy ngay sau nó. Không dùng however để nối hai mệnh đề trong cùng một câu như although.",
+      "formula": "S + V. However, S + V.",
+      "examples": [
+        "The film got bad reviews. However, I loved it.",
+        "I don't like horror films. However, my brother watches them every week."
+      ],
+      "wrong": [
+        { "sentence": "However the film was long, it was gripping.", "fix": "Although the film was long, it was gripping.", "whyVi": "Nối hai ý trong cùng một câu thì dùng although, không dùng however." },
+        { "sentence": "The story was dull, however I liked the music.", "fix": "The story was dull. However, I liked the music.", "whyVi": "However mở đầu câu mới và có dấu phẩy theo sau." }
+      ],
+      "drills": [
+        { "prompt": "The film was very long. ___, it was never boring.", "options": ["However", "Although", "Because"], "answer": 0, "explainVi": "Ý trái ngược ở câu thứ hai, có dấu phẩy sau: However." },
+        { "prompt": "Which sentence is correct?", "options": ["The film got bad reviews. However, I loved it.", "The film got bad reviews however I loved it.", "However the film got bad reviews, I loved it."], "answer": 0, "explainVi": "However đứng đầu câu thứ hai, sau nó là dấu phẩy." },
+        { "prompt": "I don't like horror films. ___, my brother loves them.", "options": ["However", "Though", "So"], "answer": 0, "explainVi": "Hai câu riêng, ý trái ngược: However + dấu phẩy." }
+      ],
+      "errorTag": "conjunction",
+      "src": { "kind": "sgk", "page": 85 }
+    },
+    {
+      "id": "g03",
+      "name": "Adjectives ending in -ing and -ed",
+      "nameVi": "Tính từ đuôi -ing và -ed",
+      "explainVi": "Tính từ đuôi -ing (boring, confusing, frightening) tả bộ phim, câu chuyện: nó gây ra cảm giác gì. Tính từ đuôi -ed (bored, confused, frightened) tả cảm giác của người xem. The film was boring, so I was bored.",
+      "formula": "The film / story + is + V-ing (adj)  ·  I / We + am / are + V-ed (adj)",
+      "examples": [
+        "The film was so boring that I was bored after ten minutes.",
+        "The story was confusing, and many people were confused."
+      ],
+      "wrong": [
+        { "sentence": "I was very boring during the film.", "fix": "I was very bored during the film.", "whyVi": "Nói cảm giác của mình thì dùng đuôi -ed: bored." },
+        { "sentence": "The ending was very moved.", "fix": "The ending was very moving.", "whyVi": "Tả cái kết của phim (gây cảm động) thì dùng đuôi -ing: moving." }
+      ],
+      "drills": [
+        { "prompt": "The ending was so ___ that I cried.", "options": ["moving", "moved"], "answer": 0, "explainVi": "Tả cái kết của phim: đuôi -ing, moving." },
+        { "prompt": "I was ___ because the film was too slow.", "options": ["bored", "boring"], "answer": 0, "explainVi": "Tả cảm giác của người xem: đuôi -ed, bored." },
+        { "prompt": "Which sentence is correct?", "options": ["I was very confusing by the story.", "I was very confused by the story."], "answer": 1, "explainVi": "Người xem cảm thấy bối rối: confused." }
+      ],
+      "errorTag": "word_choice",
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Âm /ɪə/",
+      "tipVi": "/ɪə/ là nguyên âm đôi: bắt đầu bằng \"i\" rồi trượt nhẹ sang \"ơ\", giống \"ia\" trong \"kia\". Các chữ ea, ere, ear thường đọc là /ɪə/: idea, here, ear.",
+      "words": ["idea", "pier", "really", "fear", "ear"],
+      "sentence": "I really have no idea who is near here.",
+      "quiz": [
+        { "prompt": "Which word has the sound /ɪə/?", "options": ["near", "chair", "care"], "answer": 0, "explainVi": "near /nɪə/ có /ɪə/; chair và care có /eə/." }
+      ],
+      "src": { "kind": "sgk", "page": 84 }
+    },
+    {
+      "id": "p02",
+      "kind": "sound",
+      "focus": "Âm /eə/",
+      "tipVi": "/eə/ bắt đầu bằng \"e\" mở miệng rộng rồi trượt sang \"ơ\", giống \"e-ơ\" đọc liền. Các chữ air, are, ear (trong bear), eir thường đọc là /eə/: hair, share, their.",
+      "words": ["nightmare", "their", "share", "hair", "chair"],
+      "sentence": "They share their chairs at the scary film.",
+      "quiz": [
+        { "prompt": "Which word has the sound /eə/?", "options": ["hair", "here", "her"], "answer": 0, "explainVi": "hair /heə/ có /eə/; here có /ɪə/, her có /ɜː/." },
+        { "prompt": "Which word does NOT have the sound /eə/?", "options": ["scary", "their", "fear"], "answer": 2, "explainVi": "fear /fɪə/ có /ɪə/; scary /ˈskeəri/ và their có /eə/." }
+      ],
+      "src": { "kind": "sgk", "page": 84 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm các từ tả phim",
+      "tipVi": "comedy, violent, gripping nhấn âm đầu; confusing, enjoyable nhấn âm thứ hai; documentary nhấn âm thứ ba: doc-u-MEN-ta-ry.",
+      "words": ["comedy", "violent", "confusing", "enjoyable", "documentary"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["comedy", "confusing", "enjoyable"], "answer": 0, "explainVi": "comedy /ˈkɒmədi/ nhấn âm đầu; confusing và enjoyable nhấn âm thứ hai." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Ngữ điệu câu hỏi về phim",
+      "tipVi": "Câu hỏi bắt đầu bằng What, Who thường xuống giọng ở cuối. Nhấn vào từ chính: WHAT'S it aBOUT? WHO STARS in it?",
+      "words": ["What's it about?", "Who stars in it?"],
+      "sentence": "What kind of films do you like?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "How about going to ...?", "vi": "Hay là mình đi ... nhé?", "useVi": "Khi gợi ý, rủ bạn đi đâu đó.", "example": "How about going to the cinema on Sunday?", "src": { "kind": "sgk", "page": 86 } },
+    { "id": "e02", "en": "That's a great idea.", "vi": "Ý hay đấy.", "useVi": "Khi đồng ý với lời gợi ý.", "example": "Watch a comedy tonight? That's a great idea.", "src": { "kind": "sgk", "page": 86 } },
+    { "id": "e03", "en": "Let's go to see ...", "vi": "Mình cùng đi xem ... nhé.", "useVi": "Khi rủ bạn đi xem một bộ phim.", "example": "Let's go to see the new cartoon this weekend.", "src": { "kind": "sgk", "page": 86 } },
+    { "id": "e04", "en": "I'd love to, but ...", "vi": "Mình rất muốn, nhưng ...", "useVi": "Khi từ chối lời rủ một cách lịch sự và nêu lý do.", "example": "I'd love to, but I have to study for my test.", "src": { "kind": "sgk", "page": 86 } },
+    { "id": "e05", "en": "What's it about?", "vi": "Phim nói về gì?", "useVi": "Khi hỏi nội dung một bộ phim.", "example": "A new fantasy? What's it about?", "src": { "kind": "sgk", "page": 82 } },
+    { "id": "e06", "en": "Who stars in it?", "vi": "Ai đóng vai chính?", "useVi": "Khi hỏi diễn viên chính của bộ phim.", "example": "I want to see that film. Who stars in it?", "src": { "kind": "sgk", "page": 82 } },
+    { "id": "e07", "en": "What are the reviews like?", "vi": "Mọi người nhận xét về phim thế nào?", "useVi": "Khi hỏi phim được đánh giá tốt hay không.", "example": "It sounds interesting. What are the reviews like?", "src": { "kind": "sgk", "page": 82 } },
+    { "id": "e08", "en": "It's about ...", "vi": "Phim kể về ...", "useVi": "Khi kể ngắn gọn nội dung bộ phim.", "example": "It's about a boy who can talk to animals.", "src": { "kind": "sgk", "page": 82 } },
+    { "id": "e09", "en": "I'd recommend it because ...", "vi": "Mình khuyên bạn xem vì ...", "useVi": "Khi giới thiệu một bộ phim cho người khác và nêu lý do.", "example": "I'd recommend it because the story is gripping.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "I see what you mean, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác về bộ phim và mình muốn lịch sự giữ ý của mình.", "example": "I see what you mean, but the acting was excellent.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["Although the film", "was long", "I enjoyed", "every minute of it"], "vi": "Mặc dù bộ phim dài, mình thích từng phút.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["The story was dull.", "However,", "the acting", "was excellent"], "vi": "Cốt truyện buồn tẻ. Tuy nhiên, diễn xuất rất xuất sắc.", "grammarId": "g02" },
+    { "id": "b03", "chunks": ["My favourite type", "of film", "is comedy", "because it makes me laugh"], "vi": "Thể loại phim mình thích nhất là phim hài vì nó làm mình cười.", "grammarId": null },
+    { "id": "b04", "chunks": ["I didn't like", "the film", "though the music", "was great"], "vi": "Mình không thích bộ phim, dù nhạc phim rất hay.", "grammarId": "g01" },
+    { "id": "b05", "chunks": ["The documentary", "was so moving", "that many people", "cried"], "vi": "Bộ phim tài liệu cảm động đến mức nhiều người đã khóc.", "grammarId": null },
+    { "id": "b06", "chunks": ["How about going", "to the cinema", "this Saturday?"], "vi": "Thứ Bảy này mình đi xem phim nhé?", "grammarId": null },
+    { "id": "b07", "chunks": ["I was bored", "because the film", "was too slow"], "vi": "Mình thấy chán vì bộ phim quá chậm.", "grammarId": "g03" },
+    { "id": "b08", "chunks": ["Science fiction films", "are often gripping", "although some", "are confusing"], "vi": "Phim khoa học viễn tưởng thường hấp dẫn, mặc dù một số phim khó hiểu.", "grammarId": "g01" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I watched a film.",
+      "steps": [
+        { "askVi": "Phim loại gì?", "ask": "What kind of film?", "add": "a funny comedy" },
+        { "askVi": "Xem cùng ai?", "ask": "Who with?", "add": "with my cousins" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last Sunday" }
+      ],
+      "full": "I watched a funny comedy with my cousins last Sunday."
+    },
+    {
+      "id": "x02",
+      "base": "I like documentaries.",
+      "steps": [
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because I can learn about the world" },
+        { "askVi": "Ví dụ?", "ask": "For example?", "add": "for example, films about animals" }
+      ],
+      "full": "I like documentaries because I can learn about the world, for example, films about animals."
+    },
+    {
+      "id": "x03",
+      "base": "The film was long.",
+      "steps": [
+        { "askVi": "Mặc dù dài, phim thế nào?", "ask": "But how was it?", "add": "it was really gripping" },
+        { "askVi": "Còn đoạn kết?", "ask": "What about the ending?", "add": "and the ending was moving" }
+      ],
+      "full": "Although the film was long, it was really gripping and the ending was moving."
+    },
+    {
+      "id": "x04",
+      "base": "Let's watch a film.",
+      "steps": [
+        { "askVi": "Phim nào?", "ask": "Which film?", "add": "the new fantasy film" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at the cinema near my house" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "tonight" }
+      ],
+      "full": "Let's watch the new fantasy film at the cinema near my house tonight."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Thể loại phim em thích",
+      "questions": [
+        "What type of films do you enjoy most?",
+        "Which kind of film do you choose when you go to the cinema?",
+        "Do you prefer comedies or science fiction films?"
+      ],
+      "keywords": ["comedy", "fantasy", "science fiction", "because"],
+      "exampleAnswer": "I enjoy comedies most because they are funny and make me relax after school.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Kể về một bộ phim em mới xem",
+      "questions": [
+        "What film did you see recently, and what was it about?",
+        "Can you tell me about a film you watched last month?",
+        "What was the best film you saw this year?"
+      ],
+      "keywords": ["It's about", "stars", "gripping", "moving"],
+      "exampleAnswer": "I saw a fantasy film last week. It's about a girl who can fly. The story was gripping.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Điểm hay và điểm chưa hay của một bộ phim",
+      "questions": [
+        "What did you like and dislike about the last film you saw?",
+        "Was there anything you didn't like about your favourite film?",
+        "Which part of a film you saw was good, and which part was not so good?"
+      ],
+      "keywords": ["although", "however", "acting", "story"],
+      "exampleAnswer": "Although the story was a bit confusing, the acting was excellent. However, the ending was too sad.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Vì sao nhiều người thích phim hài",
+      "questions": [
+        "Why do people enjoy watching comedies?",
+        "Why are funny films so popular?",
+        "Why do many families choose comedies at the weekend?"
+      ],
+      "keywords": ["funny", "relax", "laugh", "enjoyable"],
+      "exampleAnswer": "People enjoy comedies because they are funny and help everyone relax and laugh together.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Phim tài liệu có ích cho học sinh",
+      "questions": [
+        "Why are documentaries useful for students?",
+        "What can we learn from watching documentaries?",
+        "Why should teachers show documentaries in class?"
+      ],
+      "keywords": ["documentary", "learn", "real life", "interesting"],
+      "exampleAnswer": "Documentaries show real life, so students can learn about animals, history and other countries in an interesting way.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "Tell me about a film you watched with your family. What was it about?", "keywords": ["It's about", "comedy", "enjoyable"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Is it better to watch a film at the cinema than on a phone? Why or why not?", "keywords": ["cinema", "although", "because"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend invites you to a horror film, but you don't like scary films. What do you say?", "keywords": ["I'd love to, but", "scary", "How about"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "Tell me about a film you watched with your friends. Who starred in it?", "keywords": ["stars", "It's about", "gripping"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should students watch films in English to learn the language? Why or why not?", "keywords": ["learn", "although", "because"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your cousin suggests watching a documentary tonight, but you have a lot of homework. What do you say?", "keywords": ["I'd love to, but", "homework", "How about"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Rủ bạn đi xem phim cuối tuần",
+      "contextVi": "Mi rảnh vào thứ Bảy và muốn đi xem phim với em. Hai bạn cần chọn một bộ phim.",
+      "aiRole": "Mi, a classmate who wants to see a film this weekend",
+      "studentRoleVi": "Bạn của Mi, người gợi ý bộ phim",
+      "goalVi": "Gợi ý một bộ phim, nói đó là thể loại gì, nội dung chính, và vì sao nên xem.",
+      "goal": "Suggest a film, say what type it is and what it is about, and give a reason to see it.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Gợi ý một bộ phim (How about...? / Let's...)", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do nên xem (because...)", "words": [] }
+      ],
+      "opener": "Hey, I'm free this Saturday. Do you want to see a film? What should we watch?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Sounds good. What kind of film is it, and what's it about?",
+        "Who stars in it? Are the reviews good?",
+        "Great! Let's meet at the cinema at three o'clock."
+      ],
+      "tipsVi": ["Dùng \"How about going to see...?\" hoặc \"Let's go to see...\"", "Dùng tính từ tả phim: gripping, funny, moving."],
+      "keywords": ["How about", "comedy", "It's about", "gripping", "because"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Bảo vệ bộ phim em thích",
+      "contextVi": "Em rất thích một bộ phim, nhưng Nam xem rồi và nói phim chán. Em muốn giải thích vì sao bộ phim vẫn đáng xem.",
+      "aiRole": "Nam, a classmate who didn't enjoy the film you love",
+      "studentRoleVi": "Bạn cùng lớp thích bộ phim đó",
+      "goalVi": "Giải thích vì sao em thích bộ phim, đưa ví dụ về một cảnh hay, và trả lời lịch sự khi Nam chê phim.",
+      "goal": "Explain why you like the film, give an example of a good scene, and answer Nam's criticism politely.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do em thích bộ phim", "words": [] },
+        { "kind": "example", "vi": "Đưa ví dụ về một cảnh hoặc một nhân vật", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["gripping", "moving", "acting", "although", "however"] }
+      ],
+      "opener": "I saw that film you love last night. Honestly, I didn't enjoy it much. Why do you like it so much?",
+      "stance": "The film was too long and dull, so it's not worth watching.",
+      "turns": 5,
+      "fallback": [
+        "Hmm, really? What part did you like best?",
+        "But I think the film was too long and dull. It's not worth watching.",
+        "OK, maybe the acting was good. Anything else?",
+        "Fine, maybe I'll watch it again some day."
+      ],
+      "tipsVi": ["Dùng \"Although ..., ...\" để nhận một điểm chưa hay nhưng vẫn giữ ý mình.", "Mở đầu khi phản đối: \"I see what you mean, but...\""],
+      "keywords": ["although", "acting", "gripping", "I see what you mean", "because"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Chọn phim cho Ngày điện ảnh của lớp",
+      "contextVi": "Lớp em có một buổi chiếu phim cuối học kì. Thầy chủ nhiệm hỏi ý kiến em nên chiếu thể loại phim nào.",
+      "aiRole": "Mr Hung, your class teacher",
+      "studentRoleVi": "Học sinh đề xuất bộ phim cho lớp",
+      "goalVi": "Đề xuất một thể loại phim, giải thích lợi ích cho cả lớp, và trả lời khi thầy có ý kiến khác.",
+      "goal": "Suggest a type of film for the class film day, explain how it is good for the class, and answer the teacher's concern.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra đề xuất", "words": [] },
+        { "kind": "reason", "vi": "Giải thích lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["comedy", "documentary", "fantasy", "enjoyable", "moving"] }
+      ],
+      "opener": "We will watch a film together at the end of the term. What type of film do you think we should watch?",
+      "stance": "Comedies and fantasies are just for fun. I think students should watch a documentary so they can learn something.",
+      "turns": 5,
+      "fallback": [
+        "Interesting. Why do you think the class will like it?",
+        "Hmm, comedies are just for fun. I think a documentary is better because students can learn something.",
+        "That's a fair point. How long should the film be?",
+        "Thank you. I'll ask the class to vote tomorrow."
+      ],
+      "tipsVi": ["Nói lịch sự với thầy cô: \"I think we could...\"", "Khi thầy có ý khác, có thể dùng \"Although..., ...\" để dung hòa hai ý."],
+      "keywords": ["I think", "comedy", "documentary", "although", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Câu lạc bộ Điện ảnh chọn phim cho học sinh lớp 6",
+      "contextVi": "Câu lạc bộ Điện ảnh của trường sẽ chiếu một bộ phim cho các bạn lớp 6. Em thảo luận với trưởng câu lạc bộ để chọn phim phù hợp.",
+      "aiRole": "Linh, the leader of the school's film club",
+      "studentRoleVi": "Thành viên câu lạc bộ Điện ảnh",
+      "goalVi": "Đề xuất một bộ phim phù hợp với học sinh lớp 6, nêu lý do, và trả lời khi Linh muốn chọn phim khác.",
+      "goal": "Suggest a suitable film for grade 6 students, give reasons, and respond when Linh wants a different film.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất một bộ phim", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["scary", "violent", "funny", "moving", "although", "however"] }
+      ],
+      "opener": "We're showing a film to the grade 6 students next Friday. Which film do you think we should choose?",
+      "stance": "Horror films are the most popular, so we should show a horror film.",
+      "turns": 5,
+      "fallback": [
+        "OK. Why is it a good film for younger students?",
+        "But horror films are the most popular. I think we should show a horror film.",
+        "Hmm, you have a point. How can we make the film day more fun?",
+        "Good. Let's tell the other members tomorrow."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["scary", "funny", "although", "however", "because"]
+    }
+  ]
+}

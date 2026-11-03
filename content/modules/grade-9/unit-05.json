@@ -1,0 +1,351 @@
+{
+  "grade": 9,
+  "unit": 5,
+  "title": "Our Experiences",
+  "titleVi": "Những trải nghiệm của chúng ta",
+  "edition": "Tiếng Anh 9 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 50–59; Glossary tr. 137",
+  "vocab": [
+    { "id": "v01", "en": "experience", "vi": "sự trải nghiệm", "ipa": "/ɪkˈspɪəriəns/", "ipaFrom": "glossary", "pos": "n", "example": "Going camping with my class was a great experience.", "collocations": ["a great experience", "share an experience"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v02", "en": "memorable", "vi": "đáng nhớ", "ipa": "/ˈmemərəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "Our trip to Sa Pa was the most memorable trip of the year.", "collocations": ["a memorable day", "a memorable trip"], "synonyms": ["unforgettable"], "antonyms": ["forgettable"], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v03", "en": "embarrassing", "vi": "làm ai bối rối, ngượng ngùng", "ipa": "/ɪmˈbærəsɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "It was embarrassing when I called my teacher \"Mum\".", "collocations": ["an embarrassing moment", "an embarrassing mistake"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v04", "en": "exhilarating", "vi": "đầy phấn khích", "ipa": "/ɪɡˈzɪləreɪtɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "Riding the zip line over the river was exhilarating.", "collocations": ["an exhilarating experience", "an exhilarating ride"], "synonyms": ["exciting", "thrilling"], "antonyms": ["boring"], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v05", "en": "thrilling", "vi": "rất phấn khích và rất vui", "ipa": "/ˈθrɪlɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "The football final was thrilling from start to finish.", "collocations": ["a thrilling game", "a thrilling adventure"], "synonyms": ["exciting"], "antonyms": ["dull"], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v06", "en": "touching", "vi": "gây xúc động, tạo cảm giác đồng cảm", "ipa": "/ˈtʌtʃɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "My friend's goodbye letter was very touching.", "collocations": ["a touching moment", "a touching story"], "synonyms": ["moving"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v07", "en": "unpleasant", "vi": "không thoải mái, không vui vẻ", "ipa": "/ʌnˈpleznt/", "ipaFrom": "glossary", "pos": "adj", "example": "Getting lost in the rain was an unpleasant experience.", "collocations": ["an unpleasant experience", "an unpleasant smell"], "synonyms": ["bad"], "antonyms": ["pleasant"], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v08", "en": "amazing", "vi": "ngạc nhiên ở mức đáng ngưỡng mộ", "ipa": "/əˈmeɪzɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "The view from the top of the mountain was amazing.", "collocations": ["an amazing view", "an amazing trip"], "synonyms": ["wonderful"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v09", "en": "brilliant", "vi": "rất ấn tượng, rất thông minh", "ipa": "/ˈbrɪliənt/", "ipaFrom": "glossary", "pos": "adj", "example": "We had a brilliant day at the beach.", "collocations": ["a brilliant idea", "a brilliant day"], "synonyms": ["excellent"], "antonyms": ["terrible"], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v10", "en": "confidence", "vi": "niềm tin, sự tin tưởng, sự tự tin", "ipa": "/ˈkɒnfɪdəns/", "ipaFrom": "glossary", "pos": "n", "example": "Speaking in front of the class gave me more confidence.", "collocations": ["gain confidence", "build confidence"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v11", "en": "explore", "vi": "khám phá, tìm tòi và học hỏi", "ipa": "/ɪkˈsplɔː/", "ipaFrom": "glossary", "pos": "v", "example": "We explored a cave with our guide.", "collocations": ["explore a cave", "explore nature"], "synonyms": ["discover"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v12", "en": "eco-tour", "vi": "du lịch sinh thái", "ipa": "/ˈiːkəʊ ˌtʊə/", "ipaFrom": "glossary", "pos": "n", "example": "On the eco-tour, we planted trees and watched birds.", "collocations": ["take an eco-tour", "go on an eco-tour"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v13", "en": "performance", "vi": "buổi biểu diễn", "ipa": "/pəˈfɔːməns/", "ipaFrom": "glossary", "pos": "n", "example": "Our class gave a dance performance at the school festival.", "collocations": ["give a performance", "a school performance"], "synonyms": ["show"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v14", "en": "snorkelling", "vi": "môn thể thao bơi lặn dưới nước có bộ lặn và ống thở", "ipa": "/ˈsnɔːkəlɪŋ/", "ipaFrom": "glossary", "pos": "n", "example": "I saw many colourful fish when I went snorkelling.", "collocations": ["go snorkelling", "try snorkelling"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v15", "en": "coral reef", "vi": "rặng san hô", "ipa": "/ˈkɒrəl riːf/", "ipaFrom": "glossary", "pos": "n", "example": "The coral reef near the island is full of life.", "collocations": ["protect a coral reef", "explore a coral reef"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v16", "en": "campus", "vi": "khuôn viên (của một trường học)", "ipa": "/ˈkæmpəs/", "ipaFrom": "glossary", "pos": "n", "example": "We toured the university campus during the summer course.", "collocations": ["tour a campus", "on campus"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v17", "en": "learn by rote", "vi": "học vẹt", "ipa": "/lɜːn baɪ rəʊt/", "ipaFrom": "glossary", "pos": "v phr", "example": "If you learn by rote, you may forget everything after the test.", "collocations": [], "synonyms": ["memorise"], "antonyms": ["learn by doing"], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v18", "en": "tribal dance", "vi": "điệu múa của bộ tộc", "ipa": "/ˈtraɪbl dɑːns/", "ipaFrom": "glossary", "pos": "n", "example": "The villagers taught us a tribal dance around the fire.", "collocations": ["join a tribal dance"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v19", "en": "helpless", "vi": "bất lực, không tự xoay xở được", "ipa": "/ˈhelpləs/", "ipaFrom": "dictionary", "pos": "adj", "example": "I felt helpless when my bike broke on the way home.", "collocations": ["feel helpless"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 52 } },
+    { "id": "v20", "en": "put up", "vi": "dựng (lều)", "ipa": "/pʊt ˈʌp/", "ipaFrom": "dictionary", "pos": "phr v", "example": "It took us an hour to put up our tent.", "collocations": ["put up a tent"], "synonyms": [], "antonyms": ["take down"], "src": { "kind": "sgk", "page": 52 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "The present perfect",
+      "nameVi": "Thì hiện tại hoàn thành",
+      "explainVi": "Dùng thì hiện tại hoàn thành để nói về việc đã xảy ra ở một thời điểm không nói rõ trong quá khứ, và để kể trải nghiệm (đã từng / chưa từng). Thường đi với ever, never, before, once, twice, several times. Chủ ngữ he, she, it dùng has; các chủ ngữ khác dùng have. Động từ ở dạng quá khứ phân từ (V3).",
+      "formula": "S + have / has + V3  ·  Have / Has + S + ever + V3?",
+      "examples": [
+        "I have tried snorkelling twice.",
+        "Have you ever taken an eco-tour?",
+        "She has never performed on stage before."
+      ],
+      "wrong": [
+        { "sentence": "I have went to Da Lat once.", "fix": "I have been to Da Lat once.", "whyVi": "Sau have dùng quá khứ phân từ; went là quá khứ đơn. Kể trải nghiệm đi đâu dùng have been to." },
+        { "sentence": "He have never seen the sea.", "fix": "He has never seen the sea.", "whyVi": "Chủ ngữ he đi với has." }
+      ],
+      "drills": [
+        { "prompt": "I ___ never ___ a tribal dance before.", "options": ["have; seen", "has; seen", "have; saw"], "answer": 0, "explainVi": "I + have + V3: have seen." },
+        { "prompt": "___ you ever ___ a coral reef?", "options": ["Have; explored", "Has; explored", "Did; explored"], "answer": 0, "explainVi": "Câu hỏi trải nghiệm: Have you ever + V3?" },
+        { "prompt": "My sister ___ in a school performance three times.", "options": ["has sung", "have sung", "sing"], "answer": 0, "explainVi": "Chủ ngữ số ít + has + V3: has sung." },
+        { "prompt": "Which sentence is correct?", "options": ["We have visited that campus once.", "We have visit that campus once.", "We has visited that campus once."], "answer": 0, "explainVi": "We + have + V3: have visited." }
+      ],
+      "errorTag": "verb_tense",
+      "src": { "kind": "sgk", "page": 53 }
+    },
+    {
+      "id": "g02",
+      "name": "Present perfect or past simple",
+      "nameVi": "Hiện tại hoàn thành hay quá khứ đơn",
+      "explainVi": "Khi hỏi hoặc nói về trải nghiệm chung, không nói thời gian, dùng hiện tại hoàn thành: Have you ever...? Khi kể chi tiết hoặc nói rõ thời gian (yesterday, last summer, in 2023, two days ago), chuyển sang quá khứ đơn. Ví dụ: Have you ever been snorkelling? Yes, I have. I went snorkelling last summer.",
+      "formula": "Have you ever + V3? → Yes, I have. I + V2 + thời gian cụ thể (last..., ... ago, in ...)",
+      "examples": [
+        "I have been to Ha Long Bay. I went there last summer.",
+        "Have you ever given a performance? Yes, I sang at the school festival last year."
+      ],
+      "wrong": [
+        { "sentence": "I have gone snorkelling last summer.", "fix": "I went snorkelling last summer.", "whyVi": "Có last summer (thời gian cụ thể) nên dùng quá khứ đơn." },
+        { "sentence": "We have visited Hue in 2022.", "fix": "We visited Hue in 2022.", "whyVi": "Có in 2022 (thời gian cụ thể) nên dùng quá khứ đơn." }
+      ],
+      "drills": [
+        { "prompt": "We ___ the museum two days ago.", "options": ["visited", "have visited", "visit"], "answer": 0, "explainVi": "Có two days ago nên dùng quá khứ đơn: visited." },
+        { "prompt": "A: Have you ever taken an eco-tour? B: Yes, I ___ one in Cuc Phuong last year.", "options": ["took", "have taken", "take"], "answer": 0, "explainVi": "Kể chi tiết, có last year: dùng quá khứ đơn took." },
+        { "prompt": "I ___ a tent for the first time last weekend.", "options": ["put up", "have put up", "puts up"], "answer": 0, "explainVi": "Có last weekend nên dùng quá khứ đơn; quá khứ của put vẫn là put." }
+      ],
+      "errorTag": "verb_tense",
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Âm /j/ và /w/",
+      "tipVi": "/j/: nâng mặt lưỡi lên gần vòm miệng như khi bắt đầu nói \"i\", rồi lướt nhanh sang nguyên âm sau (yes gần giống \"iét\"). /w/: tròn môi, đẩy môi ra trước như khi nói \"u\" rồi mở nhanh (we gần giống \"uy\"). Không đọc /w/ thành /v/.",
+      "words": ["yellow", "yesterday", "yahoo", "yogurt", "yield", "watching", "sandwich", "highway", "crossword", "forward"],
+      "sentence": "Yesterday we watched a wonderful show.",
+      "quiz": [
+        { "prompt": "Which word begins with the sound /j/?", "options": ["yogurt", "jogging", "window"], "answer": 0, "explainVi": "yogurt bắt đầu bằng /j/; jogging bắt đầu bằng /dʒ/, window bắt đầu bằng /w/." },
+        { "prompt": "Which word does NOT begin with the sound /w/?", "options": ["write", "wonderful", "week"], "answer": 0, "explainVi": "write /raɪt/ có chữ w câm, bắt đầu bằng /r/." }
+      ],
+      "src": { "kind": "sgk", "page": 52 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các tính từ chỉ cảm xúc và từ mới",
+      "tipVi": "memorable, confidence, snorkelling, touching nhấn âm đầu; experience, performance, embarrassing, exhilarating, unpleasant nhấn âm thứ hai.",
+      "words": ["memorable", "confidence", "snorkelling", "touching", "experience", "performance", "embarrassing", "exhilarating", "unpleasant"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["memorable", "experience", "performance"], "answer": 0, "explainVi": "memorable /ˈmemərəbl/ nhấn âm đầu; hai từ kia nhấn âm thứ hai." },
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["exhilarating", "confidence", "snorkelling"], "answer": 0, "explainVi": "exhilarating /ɪɡˈzɪləreɪtɪŋ/ nhấn âm thứ hai." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p03",
+      "kind": "intonation",
+      "focus": "Lên giọng ở câu hỏi Have you ever...?",
+      "tipVi": "Câu hỏi Yes/No như \"Have you ever...?\" thường lên giọng ở cuối câu. Nhấn vào ever và động từ chính.",
+      "words": ["Have you ever tried it?", "Have you been there?"],
+      "sentence": "Have you ever been snorkelling?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "I'm really sorry.", "vi": "Mình thật sự xin lỗi.", "useVi": "Khi xin lỗi chân thành vì đã làm sai.", "example": "I'm really sorry. I forgot to bring your book.", "src": { "kind": "sgk", "page": 54 } },
+    { "id": "e02", "en": "That's okay.", "vi": "Không sao đâu.", "useVi": "Khi đáp lại lời xin lỗi.", "example": "That's okay. You can bring it tomorrow.", "src": { "kind": "sgk", "page": 54 } },
+    { "id": "e03", "en": "Oops, my mistake.", "vi": "Ôi, lỗi của mình.", "useVi": "Khi nhận ra mình làm sai một việc nhỏ.", "example": "Oops, my mistake. I'll fix it right now.", "src": { "kind": "sgk", "page": 54 } },
+    { "id": "e04", "en": "Have you ever ...?", "vi": "Bạn đã bao giờ ... chưa?", "useVi": "Khi hỏi về trải nghiệm của người khác.", "example": "Have you ever slept in a tent?", "src": { "kind": "team", "page": null } },
+    { "id": "e05", "en": "What was it like?", "vi": "Nó như thế nào?", "useVi": "Khi muốn bạn kể thêm cảm nhận về một trải nghiệm.", "example": "You went to a summer camp? What was it like?", "src": { "kind": "team", "page": null } },
+    { "id": "e06", "en": "It was the best experience I've ever had.", "vi": "Đó là trải nghiệm tuyệt nhất mình từng có.", "useVi": "Khi nhấn mạnh một trải nghiệm rất tuyệt.", "example": "Snorkelling in Nha Trang was the best experience I've ever had.", "src": { "kind": "team", "page": null } },
+    { "id": "e07", "en": "I felt ... when ...", "vi": "Mình cảm thấy ... khi ...", "useVi": "Khi kể cảm xúc trong một trải nghiệm.", "example": "I felt so embarrassed when I fell off the stage.", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "I've never ... before.", "vi": "Trước đây mình chưa bao giờ ...", "useVi": "Khi nói việc mình làm lần đầu.", "example": "I've never tried rock climbing before.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "You should give it a try.", "vi": "Bạn nên thử một lần.", "useVi": "Khi khuyến khích ai thử điều mới.", "example": "Snorkelling is easy. You should give it a try.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "I know how you feel, but ...", "vi": "Mình hiểu cảm giác của bạn, nhưng ...", "useVi": "Khi đồng cảm rồi nêu ý khác hoặc động viên.", "example": "I know how you feel, but the instructor will help you.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["I have", "never tried", "snorkelling", "before"], "vi": "Trước đây mình chưa bao giờ thử lặn với ống thở.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["Have you", "ever taken", "an eco-tour"], "vi": "Bạn đã bao giờ đi du lịch sinh thái chưa?", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["She has", "given", "three performances", "this year"], "vi": "Năm nay bạn ấy đã biểu diễn ba lần.", "grammarId": "g01" },
+    { "id": "b04", "chunks": ["I went camping", "last summer", "and it was", "exhilarating"], "vi": "Mùa hè năm ngoái mình đi cắm trại và thật phấn khích.", "grammarId": "g02" },
+    { "id": "b05", "chunks": ["The summer course", "helped me", "gain more", "confidence"], "vi": "Khóa học hè giúp mình tự tin hơn.", "grammarId": null },
+    { "id": "b06", "chunks": ["It was", "the most memorable", "trip", "I have ever had"], "vi": "Đó là chuyến đi đáng nhớ nhất mình từng có.", "grammarId": "g01" },
+    { "id": "b07", "chunks": ["I felt", "embarrassed", "when I forgot", "my lines"], "vi": "Mình thấy ngượng khi quên lời thoại.", "grammarId": null },
+    { "id": "b08", "chunks": ["We explored", "a coral reef", "with our", "instructor"], "vi": "Chúng mình đã khám phá một rặng san hô cùng người hướng dẫn.", "grammarId": "g02" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I went camping.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in Ba Vi National Park" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last summer" },
+        { "askVi": "Em thấy thế nào?", "ask": "How was it?", "add": "and it was really thrilling" }
+      ],
+      "full": "I went camping in Ba Vi National Park last summer, and it was really thrilling."
+    },
+    {
+      "id": "x02",
+      "base": "I have tried snorkelling.",
+      "steps": [
+        { "askVi": "Mấy lần?", "ask": "How many times?", "add": "twice" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in Nha Trang" }
+      ],
+      "full": "I have tried snorkelling twice in Nha Trang."
+    },
+    {
+      "id": "x03",
+      "base": "I felt embarrassed.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "when I forgot the words" },
+        { "askVi": "Trong dịp gì?", "ask": "During what?", "add": "during our class performance" }
+      ],
+      "full": "I felt embarrassed when I forgot the words during our class performance."
+    },
+    {
+      "id": "x04",
+      "base": "The course was useful.",
+      "steps": [
+        { "askVi": "Khóa học gì?", "ask": "Which course?", "add": "summer English" },
+        { "askVi": "Vì sao có ích?", "ask": "Why?", "add": "because I made friends from many countries" }
+      ],
+      "full": "The summer English course was useful because I made friends from many countries."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Trải nghiệm tuyệt nhất của em",
+      "questions": [
+        "What is the best experience you have ever had?",
+        "Which day in your life do you remember most clearly?",
+        "Can you tell me about an experience that made you very happy?"
+      ],
+      "keywords": ["memorable", "experience", "exhilarating", "ever"],
+      "exampleAnswer": "The best experience I've ever had was a camping trip with my class. We put up tents and sang around the fire.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Hoạt động em muốn thử lần đầu",
+      "questions": [
+        "Which outdoor activity would you like to try for the first time?",
+        "Is there a sport or hobby you hope to try one day?",
+        "What new thing do you want to experience this summer?"
+      ],
+      "keywords": ["never", "try", "snorkelling", "explore"],
+      "exampleAnswer": "I've never tried snorkelling, so I'd like to explore a coral reef this summer.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Lợi ích của trại hè với tuổi teen",
+      "questions": [
+        "Why are summer camps good for teenagers?",
+        "How can a summer course change a student?",
+        "What do young people learn from living away from home for a few days?"
+      ],
+      "keywords": ["confidence", "skills", "independent", "friends"],
+      "exampleAnswer": "Summer camps help teenagers become more independent because they have to look after themselves and work with new friends.",
+      "expectsReason": true
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Học được gì từ trải nghiệm không vui",
+      "questions": [
+        "What can we learn from an unpleasant experience?",
+        "How can a mistake help you grow?",
+        "Why is it useful to remember the times when things went wrong?"
+      ],
+      "keywords": ["unpleasant", "learn", "mistake", "helpless"],
+      "exampleAnswer": "An unpleasant experience teaches us to be more careful, so next time we know what to do.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Du lịch sinh thái",
+      "questions": [
+        "What can students do on an eco-tour?",
+        "What makes an eco-tour different from a normal trip?",
+        "Where in Viet Nam would you like to go on an eco-tour?"
+      ],
+      "keywords": ["eco-tour", "explore", "nature", "wildlife"],
+      "exampleAnswer": "On an eco-tour, students can explore forests, learn about wildlife and help clean the beach.",
+      "expectsReason": false
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "Tell me about a time you felt really proud of yourself.", "keywords": ["confidence", "experience", "memorable"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should every student take part in at least one school performance? Why or why not?", "keywords": ["performance", "confidence", "experience"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "You arrive late to class because you missed the bus. What do you say to your teacher?", "keywords": ["I'm really sorry", "late", "bus"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "Tell me about a time you felt really nervous but did it anyway.", "keywords": ["nervous", "experience", "confidence"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should schools take students on more outdoor trips? Why or why not?", "keywords": ["explore", "experience", "eco-tour"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "You broke your friend's pen by accident. What do you say to her?", "keywords": ["sorry", "my mistake", "buy"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Kể về một trải nghiệm mùa hè",
+      "contextVi": "Thầy giáo tiếng Anh đang hỏi học sinh về những trải nghiệm trong kì nghỉ hè: một khóa học, một chuyến đi hay một câu lạc bộ.",
+      "aiRole": "Mr Brown, an English teacher asking students about their summer",
+      "studentRoleVi": "Học sinh kể về trải nghiệm của mình",
+      "goalVi": "Kể một trải nghiệm: em đi đâu, làm gì, cảm thấy thế nào và có nên giới thiệu cho bạn khác không.",
+      "goal": "Talk about one summer experience: where you went, what you did, how you felt, and whether you would recommend it.",
+      "requirements": [
+        { "kind": "example", "vi": "Kể ít nhất một việc cụ thể em đã làm", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do em thích hoặc không thích", "words": [] }
+      ],
+      "opener": "Hi! Did you do anything interesting last summer? Have you ever taken a summer course or gone to a camp?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "That sounds great! What did you do there?",
+        "How did you feel about it?",
+        "Would you recommend it to other students? Why?"
+      ],
+      "tipsVi": ["Dùng quá khứ đơn khi kể chi tiết: I went..., we visited...", "Dùng tính từ cảm xúc: thrilling, memorable, embarrassing."],
+      "keywords": ["experience", "memorable", "I have", "because", "felt"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Động viên bạn thử lặn biển",
+      "contextVi": "Trong chuyến đi biển của lớp, có buổi học lặn với ống thở cùng người hướng dẫn. Bạn Vy sợ và muốn ngồi trên bờ. Em muốn động viên bạn thử.",
+      "aiRole": "Vy, a classmate who is afraid to try snorkelling on the class trip",
+      "studentRoleVi": "Bạn cùng lớp động viên Vy",
+      "goalVi": "Động viên Vy thử lặn: nêu lý do, kể trải nghiệm hoặc ví dụ, và trả lời khi Vy còn lo lắng.",
+      "goal": "Encourage Vy to try snorkelling: give reasons, share an experience or example, and answer her worries kindly.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do nên thử", "words": [] },
+        { "kind": "example", "vi": "Kể trải nghiệm hoặc ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["snorkelling", "coral reef", "exhilarating", "confidence", "experience"] }
+      ],
+      "opener": "I don't think I'll join the snorkelling lesson. I'll just stay on the beach.",
+      "stance": "It's dangerous, and I might look silly in front of everyone. I'd rather stay on the beach.",
+      "turns": 5,
+      "fallback": [
+        "Hmm, but why should I try it?",
+        "It's dangerous, and I might look silly in front of everyone. I'd rather stay here.",
+        "Really? Have you ever tried it yourself?",
+        "OK, I'll try. Will you stay near me?"
+      ],
+      "tipsVi": ["Đồng cảm trước: \"I know how you feel, but...\"", "Dùng \"Have you ever...?\" và \"You should give it a try.\""],
+      "keywords": ["snorkelling", "exhilarating", "I know how you feel", "instructor", "because"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Xin lỗi vì nộp bài muộn",
+      "contextVi": "Em nộp bài dự án môn Khoa học muộn một ngày. Em gặp thầy để xin lỗi, giải thích và đề xuất cách khắc phục.",
+      "aiRole": "Mr Duc, your science teacher",
+      "studentRoleVi": "Học sinh nộp bài muộn",
+      "goalVi": "Xin lỗi lịch sự, giải thích lý do, đề xuất cách khắc phục và trả lời khi thầy nói việc này chưa công bằng.",
+      "goal": "Apologise politely for the late project, explain why, suggest a way to make up for it, and answer the teacher's concern.",
+      "requirements": [
+        { "kind": "reason", "vi": "Giải thích lý do nộp muộn", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất cách khắc phục", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một cách xin lỗi của bài", "words": ["I'm really sorry", "my mistake", "sorry"] }
+      ],
+      "opener": "Your project was due yesterday, but I only got it this morning. What happened?",
+      "stance": "Other students finished on time, so it isn't fair if I accept your project without a lower mark.",
+      "turns": 5,
+      "fallback": [
+        "I see. Why didn't you tell me earlier?",
+        "But other students finished on time. It isn't fair if I accept it without a lower mark.",
+        "Hmm, that's a fair idea. What will you do next time?",
+        "All right. Thank you for being honest."
+      ],
+      "tipsVi": ["Bắt đầu bằng \"I'm really sorry...\"", "Nói lễ phép, nhận lỗi và đưa ra cách khắc phục cụ thể."],
+      "keywords": ["I'm really sorry", "because", "next time", "I promise", "deadline"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Chọn hoạt động cuối năm",
+      "contextVi": "Lớp em chọn hoạt động cuối năm: đi công viên giải trí hoặc đi cắm trại hai ngày. Em thảo luận với lớp trưởng.",
+      "aiRole": "Hoa, the class monitor planning the end-of-year activity",
+      "studentRoleVi": "Học sinh trong lớp góp ý",
+      "goalVi": "Chọn một hoạt động, nêu lý do và ví dụ, và trả lời khi Hoa có ý kiến khác.",
+      "goal": "Choose one end-of-year activity, explain why with an example, and respond to Hoa's different opinion.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "example", "vi": "Đưa ví dụ hoặc kể trải nghiệm", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["experience", "memorable", "explore", "confidence", "thrilling", "put up"] }
+      ],
+      "opener": "We need to choose: a day at the amusement park or a two-day camping trip. Which one do you prefer?",
+      "stance": "The amusement park is more fun and much easier. Camping is tiring and uncomfortable.",
+      "turns": 5,
+      "fallback": [
+        "OK. Why do you think that's the better choice?",
+        "But I think the amusement park is more fun. Camping is tiring and uncomfortable, isn't it?",
+        "Hmm, good point. Have you ever done something like that before?",
+        "Thanks. I'll tell the class about your idea."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["experience", "memorable", "because", "I have", "together"]
+    }
+  ]
+}

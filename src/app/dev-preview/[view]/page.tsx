@@ -6,6 +6,13 @@ import Logo from "@/components/Logo";
 import StudentHome from "@/components/StudentHome";
 import TeacherHome from "@/components/TeacherHome";
 import FeedbackPreview, { ReportPreview } from "./FeedbackPreview";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
+import LessonRunner from "@/components/module/LessonRunner";
+import { ReportView } from "@/components/module/Panels";
+import { moduleSchema } from "@/lib/module/schema";
+import { buildLesson } from "@/lib/module/plan";
+import { moduleReport } from "@/lib/module/report";
 
 /**
  * CHỈ DÙNG KHI PHÁT TRIỂN: xem giao diện các trang cần đăng nhập bằng dữ liệu mẫu, khi chưa nối Supabase.
@@ -114,6 +121,25 @@ export default async function Preview({ params }: { params: Promise<{ view: stri
       return <FeedbackPreview />;
     case "session-report":
       return <ReportPreview />;
+    case "module-lesson":
+    case "module-report": {
+      // Nội dung mẫu lớp 8 Unit 7; câu hỏi Unit và lịch sử là dữ liệu mẫu chỉ để xem bố cục. ?day= không dùng: xem ngày 6.
+      const m = moduleSchema.parse(JSON.parse(readFileSync(join(process.cwd(), "content/modules/grade-8/unit-07.json"), "utf8")));
+      if (view === "module-report") {
+        const a = (day: number, ref: string, thinkMs: number, words: number) => ({
+          day, t: "speak" as const, ref, attemptNo: 1, set: null, area: null, correct: null, test: true, measures: { words, thinkMs, clarity: 0.9 }, check: { reason: "yes" as const }, ai: null,
+        });
+        const r = moduleReport(m, [a(1, "i01", 6200, 5), a(1, "i02", 7400, 7), a(13, "i04", 3900, 14), a(13, "i05", 4100, 16)]);
+        return (
+          <AppShell name="Minh Anh" roleLabel="Học sinh" homeHref="#" nav={STUDENT_NAV} current="/student/practice">
+            <ReportView r={r} />
+          </AppShell>
+        );
+      }
+      const qs = m.variations.map((v, i) => ({ id: `00000000-0000-0000-0000-00000000000${i}`, key: `q0${i + 1}`, text: v.questions[0], difficulty: (i % 3) + 1, keywords: v.keywords, expectsReason: v.expectsReason, hints: [{ level: 1 as const, title: "Hướng nghĩ", body: v.ideaVi, lang: "vi" as const }] }));
+      const lesson = buildLesson({ day: 6, module: m, unitQuestions: qs, history: [], seed: "preview", now: Date.parse("2026-11-20T00:00:00Z") });
+      return <LessonRunner lessonId="preview" moduleId="preview" day={6} titleVi={lesson.titleVi} notesVi={["Ví dụ ghi chú: bài hôm nay có nhiều câu khó hơn vì kết quả ngày 3 tốt."]} steps={lesson.steps} content={m} rows={[]} startAt={0} />;
+    }
     default:
       notFound();
   }

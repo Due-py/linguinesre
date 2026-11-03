@@ -1,0 +1,364 @@
+{
+  "grade": 6,
+  "unit": 5,
+  "title": "Natural Wonders of Viet Nam",
+  "titleVi": "Kì quan thiên nhiên Việt Nam",
+  "edition": "Tiếng Anh 6 Global Success, sách học sinh tập một (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 48–57; Glossary tr. 71",
+  "vocab": [
+    { "id": "v01", "en": "natural wonder", "vi": "kì quan thiên nhiên", "ipa": "/ˈnætʃrəl ˈwʌndə/", "ipaFrom": "glossary", "pos": "n", "example": "Ha Long Bay is a famous natural wonder of Viet Nam.", "collocations": ["visit a natural wonder"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v02", "en": "landscape", "vi": "phong cảnh", "ipa": "/ˈlændskeɪp/", "ipaFrom": "glossary", "pos": "n", "example": "The landscape in Sa Pa is green and beautiful.", "collocations": ["a beautiful landscape"], "synonyms": ["scenery"], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v03", "en": "amazing", "vi": "tuyệt vời", "ipa": "/əˈmeɪzɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "The view from the top of the mountain is amazing.", "collocations": ["an amazing view", "an amazing place"], "synonyms": ["wonderful"], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v04", "en": "waterfall", "vi": "thác nước", "ipa": "/ˈwɔːtəfɔːl/", "ipaFrom": "glossary", "pos": "n", "example": "Ban Gioc is a big waterfall in Cao Bang.", "collocations": ["a high waterfall"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v05", "en": "island", "vi": "đảo, hòn đảo", "ipa": "/ˈaɪlənd/", "ipaFrom": "glossary", "pos": "n", "example": "We went to Phu Quoc Island by plane.", "collocations": ["a small island", "on the island"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v06", "en": "desert", "vi": "sa mạc", "ipa": "/ˈdezət/", "ipaFrom": "glossary", "pos": "n", "example": "It is very hot and dry in the desert.", "collocations": ["a hot desert"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v07", "en": "rock", "vi": "tảng đá, phiến đá", "ipa": "/rɒk/", "ipaFrom": "glossary", "pos": "n", "example": "There are many big rocks on the beach.", "collocations": ["rock columns", "climb on the rocks"], "synonyms": ["stone"], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v08", "en": "mountain range", "vi": "dãy núi", "ipa": "/ˈmaʊntən ˌreɪndʒ/", "ipaFrom": "glossary", "pos": "n", "example": "Hoang Lien Son is a long mountain range in the north.", "collocations": ["a high mountain range"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v09", "en": "man-made", "vi": "nhân tạo", "ipa": "/ˌmæn ˈmeɪd/", "ipaFrom": "glossary", "pos": "adj", "example": "This lake is man-made. People built it ten years ago.", "collocations": ["man-made lake"], "synonyms": [], "antonyms": ["natural"], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v10", "en": "boat", "vi": "con thuyền", "ipa": "/bəʊt/", "ipaFrom": "glossary", "pos": "n", "example": "We explored the cave by boat.", "collocations": ["by boat", "take a boat trip"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v11", "en": "backpack", "vi": "ba-lô", "ipa": "/ˈbækpæk/", "ipaFrom": "glossary", "pos": "n", "example": "I put water and snacks in my backpack.", "collocations": ["pack a backpack"], "synonyms": ["rucksack"], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v12", "en": "compass", "vi": "la bàn", "ipa": "/ˈkʌmpəs/", "ipaFrom": "glossary", "pos": "n", "example": "A compass helps you find the way in the forest.", "collocations": ["use a compass"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v13", "en": "suncream", "vi": "kem chống nắng", "ipa": "/ˈsʌnkriːm/", "ipaFrom": "glossary", "pos": "n", "example": "You must put on suncream at the beach.", "collocations": ["put on suncream"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v14", "en": "plaster", "vi": "băng, gạc y tế", "ipa": "/ˈplɑːstə/", "ipaFrom": "glossary", "pos": "n", "example": "I cut my finger, so I need a plaster.", "collocations": ["put a plaster on"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v15", "en": "litter", "vi": "vứt rác (bừa bãi)", "ipa": "/ˈlɪtə/", "ipaFrom": "glossary", "pos": "v", "example": "Visitors mustn't litter in the national park.", "collocations": ["don't litter"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v16", "en": "join in", "vi": "tham gia", "ipa": "/dʒɔɪn ɪn/", "ipaFrom": "glossary", "pos": "v", "example": "Tourists can join in the local festival.", "collocations": ["join in the fun", "join in an activity"], "synonyms": ["take part in"], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v17", "en": "cave", "vi": "hang động", "ipa": "/keɪv/", "ipaFrom": "dictionary", "pos": "n", "example": "Son Doong is one of the biggest caves in the world.", "collocations": ["explore a cave"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 49 } },
+    { "id": "v18", "en": "forest", "vi": "rừng", "ipa": "/ˈfɒrɪst/", "ipaFrom": "dictionary", "pos": "n", "example": "Cuc Phuong National Park has a big forest.", "collocations": ["in the forest", "a rain forest"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 49 } },
+    { "id": "v19", "en": "scenery", "vi": "cảnh vật, phong cảnh", "ipa": "/ˈsiːnəri/", "ipaFrom": "dictionary", "pos": "n", "example": "The scenery around the lake is wonderful.", "collocations": ["beautiful scenery"], "synonyms": ["landscape"], "antonyms": [], "src": { "kind": "sgk", "page": 49 } },
+    { "id": "v20", "en": "sleeping bag", "vi": "túi ngủ", "ipa": "/ˈsliːpɪŋ bæɡ/", "ipaFrom": "dictionary", "pos": "n", "example": "Bring a warm sleeping bag when you go camping.", "collocations": ["a warm sleeping bag"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 50 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Countable and uncountable nouns",
+      "nameVi": "Danh từ đếm được và không đếm được",
+      "explainVi": "Danh từ đếm được có số ít và số nhiều: a rock, two islands. Danh từ không đếm được không có dạng số nhiều: water, suncream, food. Với danh từ đếm được dùng many, a few; với danh từ không đếm được dùng much, a little; some dùng được cho cả hai trong câu khẳng định.",
+      "formula": "many / a few + danh từ số nhiều  ·  much / a little + danh từ không đếm được  ·  some + cả hai",
+      "examples": [
+        "There are many islands in Ha Long Bay.",
+        "We don't have much time, so let's hurry.",
+        "Please bring a little suncream and a few plasters."
+      ],
+      "wrong": [
+        { "sentence": "There are much waterfalls in this area.", "fix": "There are many waterfalls in this area.", "whyVi": "waterfalls đếm được, số nhiều nên dùng many." },
+        { "sentence": "I need a few water.", "fix": "I need a little water.", "whyVi": "water không đếm được nên dùng a little." },
+        { "sentence": "We saw three cave and two waterfall.", "fix": "We saw three caves and two waterfalls.", "whyVi": "Danh từ đếm được, số lượng nhiều hơn một phải thêm -s." }
+      ],
+      "drills": [
+        { "prompt": "How ___ bottles of water do we need for the trip?", "options": ["many", "much", "a little"], "answer": 0, "explainVi": "bottles đếm được, số nhiều: How many." },
+        { "prompt": "There isn't ___ rain in the desert.", "options": ["much", "many", "a few"], "answer": 0, "explainVi": "rain không đếm được, câu phủ định: much." },
+        { "prompt": "I have ___ questions about the trip.", "options": ["a few", "a little", "much"], "answer": 0, "explainVi": "questions đếm được, số nhiều: a few." },
+        { "prompt": "Which noun is uncountable?", "options": ["suncream", "island", "backpack"], "answer": 0, "explainVi": "suncream là danh từ không đếm được; island và backpack đếm được." }
+      ],
+      "errorTag": "plural",
+      "src": { "kind": "sgk", "page": 51 }
+    },
+    {
+      "id": "g02",
+      "name": "Modal verb: must / mustn't",
+      "nameVi": "Động từ khuyết thiếu must / mustn't",
+      "explainVi": "Dùng must để nói việc rất cần thiết, rất quan trọng phải làm. Dùng mustn't để nói việc không được phép làm. Sau must/mustn't là động từ nguyên mẫu, không có to, không thêm -s, kể cả với he/she/it.",
+      "formula": "S + must / mustn't + V (nguyên mẫu)",
+      "examples": [
+        "You must stay with your group in the cave.",
+        "Visitors mustn't climb on the rocks.",
+        "She must bring a compass."
+      ],
+      "wrong": [
+        { "sentence": "You must to bring a raincoat.", "fix": "You must bring a raincoat.", "whyVi": "Sau must không có to." },
+        { "sentence": "He musts take a backpack.", "fix": "He must take a backpack.", "whyVi": "must không thêm -s, kể cả khi chủ ngữ là he." },
+        { "sentence": "You mustn't swimming in this lake.", "fix": "You mustn't swim in this lake.", "whyVi": "Sau mustn't là động từ nguyên mẫu: swim." }
+      ],
+      "drills": [
+        { "prompt": "You ___ litter. Keep the beach clean!", "options": ["mustn't", "must", "musts"], "answer": 0, "explainVi": "Vứt rác là việc không được làm: mustn't." },
+        { "prompt": "It's very sunny. You ___ put on suncream.", "options": ["must", "mustn't", "must to"], "answer": 0, "explainVi": "Trời nắng, cần bôi kem chống nắng: must + put on." },
+        { "prompt": "Which sentence is correct?", "options": ["She must wear warm clothes.", "She musts wear warm clothes.", "She must wears warm clothes."], "answer": 0, "explainVi": "must + động từ nguyên mẫu, không thêm -s: must wear." }
+      ],
+      "errorTag": "modal_verb",
+      "src": { "kind": "sgk", "page": 52 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Âm /t/",
+      "tipVi": "Đầu lưỡi chạm vào chân răng trên rồi bật hơi ra, cổ họng KHÔNG rung. Ở cuối từ như desert, boat, phải bật nhẹ /t/, không nuốt mất âm.",
+      "words": ["mountain", "waterfall", "desert", "plaster"],
+      "sentence": "We took a boat to the waterfall at the foot of the mountain.",
+      "quiz": [
+        { "prompt": "Which word ends with the sound /t/?", "options": ["desert", "island", "guide"], "answer": 0, "explainVi": "desert /ˈdezət/ kết thúc bằng /t/; island và guide kết thúc bằng /d/." }
+      ],
+      "src": { "kind": "sgk", "page": 51 }
+    },
+    {
+      "id": "p02",
+      "kind": "sound",
+      "focus": "Âm /d/",
+      "tipVi": "Đặt lưỡi giống /t/ nhưng cổ họng rung (âm hữu thanh). Cuối từ như island, guide, đọc nhẹ âm /d/, đừng đọc thành /t/.",
+      "words": ["wonder", "island", "guide", "holiday"],
+      "sentence": "Our guide showed us a wonderful island on holiday.",
+      "quiz": [
+        { "prompt": "Which word ends with the sound /d/?", "options": ["island", "boat", "plaster"], "answer": 0, "explainVi": "island /ˈaɪlənd/ kết thúc bằng /d/; boat kết thúc bằng /t/." },
+        { "prompt": "Which word does NOT have the sound /d/?", "options": ["waterfall", "wonder", "holiday"], "answer": 0, "explainVi": "waterfall /ˈwɔːtəfɔːl/ có /t/, không có /d/." }
+      ],
+      "src": { "kind": "sgk", "page": 51 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ về thiên nhiên",
+      "tipVi": "waterfall, landscape, backpack, island, desert nhấn âm đầu; amazing nhấn âm thứ hai: a-MA-zing. Trong island, chữ s không đọc: /ˈaɪlənd/.",
+      "words": ["waterfall", "landscape", "backpack", "island", "desert", "amazing"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["amazing", "landscape", "desert"], "answer": 0, "explainVi": "amazing /əˈmeɪzɪŋ/ nhấn âm thứ hai." },
+        { "prompt": "In which word is the letter \"s\" silent?", "options": ["island", "desert", "suncream"], "answer": 0, "explainVi": "island đọc là /ˈaɪlənd/, không có âm /s/." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Ngữ điệu khi đưa ra gợi ý",
+      "tipVi": "Câu gợi ý How about...? thường lên giọng ở cuối để nghe thân thiện, như đang hỏi ý kiến người kia.",
+      "words": ["How about Sunday?", "How about 8 o'clock?"],
+      "sentence": "How about going to the waterfall this weekend?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Let's go for a ... this ...", "vi": "Chúng ta đi ... vào ... nhé.", "useVi": "Khi rủ bạn đi chơi và hẹn gặp.", "example": "Let's go for a boat trip this Saturday.", "src": { "kind": "sgk", "page": 53 } },
+    { "id": "e02", "en": "That's fine.", "vi": "Được đấy.", "useVi": "Khi đồng ý với lời rủ hoặc lời hẹn.", "example": "That's fine. Where shall we meet?", "src": { "kind": "sgk", "page": 53 } },
+    { "id": "e03", "en": "How about ...?", "vi": "... thì sao?", "useVi": "Khi gợi ý thời gian hoặc địa điểm hẹn.", "example": "How about 7 o'clock at the bus stop?", "src": { "kind": "sgk", "page": 53 } },
+    { "id": "e04", "en": "Sure.", "vi": "Chắc chắn rồi.", "useVi": "Khi đồng ý ngay với gợi ý của bạn.", "example": "Sure. I'll see you there.", "src": { "kind": "sgk", "page": 53 } },
+    { "id": "e05", "en": "You must ... / You mustn't ...", "vi": "Bạn phải ... / Bạn không được ...", "useVi": "Khi nói quy định hoặc lời dặn quan trọng.", "example": "You must stay with the group, and you mustn't swim alone.", "src": { "kind": "sgk", "page": 53 } },
+    { "id": "e06", "en": "Don't forget to bring ...", "vi": "Đừng quên mang ...", "useVi": "Khi nhắc bạn mang đồ cần thiết cho chuyến đi.", "example": "Don't forget to bring your suncream and a hat.", "src": { "kind": "team", "page": null } },
+    { "id": "e07", "en": "It's famous for ...", "vi": "Nơi đó nổi tiếng về ...", "useVi": "Khi giới thiệu điều đặc biệt của một nơi.", "example": "Phong Nha is famous for its amazing caves.", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "I'd love to visit ... because ...", "vi": "Mình rất muốn đến ... vì ...", "useVi": "Khi nói nơi em muốn đến và lý do.", "example": "I'd love to visit Mui Ne because I want to see the sand dunes.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["You must", "bring a compass", "when you go", "into the forest"], "vi": "Bạn phải mang la bàn khi vào rừng.", "grammarId": "g02" },
+    { "id": "b02", "chunks": ["Visitors mustn't", "litter", "on the island"], "vi": "Du khách không được xả rác trên đảo.", "grammarId": "g02" },
+    { "id": "b03", "chunks": ["There are", "many amazing caves", "in Quang Binh"], "vi": "Ở Quảng Bình có nhiều hang động tuyệt đẹp.", "grammarId": "g01" },
+    { "id": "b04", "chunks": ["We don't have", "much time,", "so let's go", "by boat"], "vi": "Chúng ta không có nhiều thời gian, nên hãy đi bằng thuyền.", "grammarId": "g01" },
+    { "id": "b05", "chunks": ["Ha Long Bay", "is famous for", "its beautiful islands", "and rocks"], "vi": "Vịnh Hạ Long nổi tiếng với những hòn đảo và núi đá đẹp.", "grammarId": null },
+    { "id": "b06", "chunks": ["Please put", "a little suncream", "and a few plasters", "in your backpack"], "vi": "Hãy để một ít kem chống nắng và vài miếng băng dán vào ba lô.", "grammarId": "g01" },
+    { "id": "b07", "chunks": ["You mustn't", "climb the mountain", "alone"], "vi": "Bạn không được leo núi một mình.", "grammarId": "g02" },
+    { "id": "b08", "chunks": ["I'd love to see", "the waterfall", "because the landscape", "is amazing"], "vi": "Mình rất muốn ngắm thác nước vì phong cảnh ở đó tuyệt đẹp.", "grammarId": null }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I want to visit a cave.",
+      "steps": [
+        { "askVi": "Hang nào?", "ask": "Which cave?", "add": "Son Doong" },
+        { "askVi": "Đi với ai?", "ask": "Who with?", "add": "with my family" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it is the biggest cave in the world" }
+      ],
+      "full": "I want to visit Son Doong cave with my family because it is the biggest cave in the world."
+    },
+    {
+      "id": "x02",
+      "base": "You must bring water.",
+      "steps": [
+        { "askVi": "Bao nhiêu?", "ask": "How much?", "add": "a lot of" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it is very hot" }
+      ],
+      "full": "You must bring a lot of water because it is very hot."
+    },
+    {
+      "id": "x03",
+      "base": "We went to an island.",
+      "steps": [
+        { "askVi": "Đảo thế nào?", "ask": "What kind?", "add": "small" },
+        { "askVi": "Đi bằng gì?", "ask": "How?", "add": "by boat" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last summer" }
+      ],
+      "full": "We went to a small island by boat last summer."
+    },
+    {
+      "id": "x04",
+      "base": "Visitors mustn't litter.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in the national park" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because rubbish can hurt the animals" }
+      ],
+      "full": "Visitors mustn't litter in the national park because rubbish can hurt the animals."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Một kì quan thiên nhiên em biết",
+      "questions": [
+        "What do you know about a natural wonder in Viet Nam?",
+        "Can you describe a beautiful place in nature that you know?",
+        "Tell me about a famous natural place in our country."
+      ],
+      "keywords": ["famous for", "island", "cave", "amazing"],
+      "exampleAnswer": "Ha Long Bay is in Quang Ninh. It is famous for its thousands of islands and amazing caves.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Đồ cần mang cho chuyến đi cắm trại",
+      "questions": [
+        "What should you pack for a camping trip?",
+        "What things do people need for a night in the forest?",
+        "Which items do you pack for an overnight trip?"
+      ],
+      "keywords": ["sleeping bag", "compass", "plaster", "backpack"],
+      "exampleAnswer": "I pack a sleeping bag, a compass, some plasters and a lot of water in my backpack.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Quy định khi tham quan một hang động",
+      "questions": [
+        "What rules must visitors follow in a cave?",
+        "What must you do and not do inside a cave?",
+        "What mustn't tourists do when they visit a cave?"
+      ],
+      "keywords": ["must", "mustn't", "stay with", "touch"],
+      "exampleAnswer": "You must stay with the guide. You mustn't touch the rocks or litter inside the cave.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Nơi thiên nhiên em muốn đến và lý do",
+      "questions": [
+        "Which place in nature would you most like to see? Why?",
+        "Where in Viet Nam would you like to go for your next holiday, and why?",
+        "Why would you like to visit a mountain or an island?"
+      ],
+      "keywords": ["waterfall", "landscape", "because", "I'd love to"],
+      "exampleAnswer": "I'd love to see Ban Gioc Waterfall because the landscape there is amazing.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Vì sao cần giữ gìn kì quan thiên nhiên",
+      "questions": [
+        "Why must we protect natural wonders?",
+        "Why is it important to keep beaches and caves clean?",
+        "What happens if tourists litter at beautiful places?"
+      ],
+      "keywords": ["litter", "protect", "animals", "because"],
+      "exampleAnswer": "We must protect them because they are beautiful, and rubbish can hurt animals and plants.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "Describe a beach, river or forest that you know well.", "keywords": ["beautiful", "sand", "trees", "there are"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should students go on school trips to natural places? Why or why not?", "keywords": ["should", "learn", "nature", "because"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend wants to swim in a deep lake alone. What do you say to her?", "keywords": ["mustn't", "dangerous", "alone", "with"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "Describe a mountain, lake or island you know.", "keywords": ["high", "beautiful", "rocks", "there is"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should tourists pay money to visit natural wonders? Why or why not?", "keywords": ["should", "protect", "money", "because"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your cousin wants to go into a cave without a guide. What do you say to him?", "keywords": ["mustn't", "guide", "dangerous", "must"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Hẹn bạn đi dã ngoại",
+      "contextVi": "Em muốn rủ một bạn cùng lớp đi dã ngoại ở một thác nước gần thành phố vào cuối tuần. Hai bạn hẹn ngày, giờ và đồ cần mang.",
+      "aiRole": "Duong, a classmate who likes outdoor activities",
+      "studentRoleVi": "Học sinh rủ bạn đi chơi",
+      "goalVi": "Rủ bạn đi, hẹn thời gian và nói ít nhất hai thứ cần mang.",
+      "goal": "Invite your classmate to a picnic at a waterfall, agree on a time, and name at least two things to bring.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Rủ bạn và gợi ý thời gian (Let's..., How about...?)", "words": [] },
+        { "kind": "keyword", "vi": "Nói ít nhất hai thứ cần mang", "words": ["backpack", "suncream", "plaster", "compass", "water"] }
+      ],
+      "opener": "Hi! Do you have any plans for this weekend?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "That sounds great! What time can we meet?",
+        "OK. What should I bring?",
+        "Perfect. See you then!"
+      ],
+      "tipsVi": ["Dùng Let's go for..., How about...?", "Kể đồ cần mang bằng You must bring..."],
+      "keywords": ["let's", "how about", "must bring", "suncream", "backpack"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Hướng dẫn viên ở hang động",
+      "contextVi": "Em là hướng dẫn viên nhỏ tuổi ở một hang động nổi tiếng. Một du khách muốn đi riêng và chụp ảnh khắp nơi.",
+      "aiRole": "Mr Brown, a tourist who wants to explore the cave on his own",
+      "studentRoleVi": "Hướng dẫn viên nhỏ tuổi",
+      "goalVi": "Nói ít nhất hai quy định, giải thích lý do và trả lời khi du khách muốn làm khác.",
+      "goal": "Tell the tourist at least two cave rules, explain why, and answer him politely when he wants to do things differently.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng must / mustn't", "words": ["must", "mustn't"] },
+        { "kind": "reason", "vi": "Giải thích lý do của quy định", "words": [] }
+      ],
+      "opener": "Hello! This cave looks amazing. Can I just walk around and take photos by myself?",
+      "stance": "I'm an adult. I can go alone, and I want to touch the rocks for my photos.",
+      "turns": 5,
+      "fallback": [
+        "Oh, OK. Why is that a rule?",
+        "But I'm an adult. I can go alone, and I want to touch the rocks for my photos.",
+        "Alright, I understand. Is there anything else I must do?",
+        "Thank you. Let's go with the group then."
+      ],
+      "tipsVi": ["Nói lịch sự: \"I'm sorry, but you mustn't...\"", "Giải thích: \"because it's dangerous / because the rocks are very old\"."],
+      "keywords": ["must", "mustn't", "because", "guide", "dangerous"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Chọn nơi cho chuyến đi của lớp",
+      "contextVi": "Lớp em chọn nơi đi tham quan cuối năm. Em muốn đến một nơi thiên nhiên, còn một bạn muốn đi khu vui chơi trong thành phố.",
+      "aiRole": "Thu, a classmate who prefers the city amusement park",
+      "studentRoleVi": "Học sinh đề xuất đến một nơi thiên nhiên",
+      "goalVi": "Đề xuất một nơi thiên nhiên, nêu điều thú vị ở đó và trả lời khi Thu muốn đi nơi khác.",
+      "goal": "Suggest a natural place for the class trip, say what is special there, and respond to Thu's different idea.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất một nơi", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["natural wonder", "landscape", "amazing", "waterfall", "island", "cave"] }
+      ],
+      "opener": "We need to choose a place for our class trip. Where do you want to go?",
+      "stance": "An amusement park is more fun. Nature trips are hot and tiring.",
+      "turns": 5,
+      "fallback": [
+        "Hmm, what can we do there?",
+        "I think an amusement park is more fun. Nature trips are hot and tiring.",
+        "OK, that's a good point. What must we bring?",
+        "Let's tell our teacher your idea."
+      ],
+      "tipsVi": ["Nêu điều đặc biệt: \"It's famous for...\"", "Khi Thu phản đối: \"I see your point, but...\""],
+      "keywords": ["famous for", "amazing", "because", "we can", "must bring"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Chuẩn bị leo núi cùng gia đình",
+      "contextVi": "Gia đình em sắp leo núi Fansipan. Em giúp anh họ chuẩn bị đồ và nói các điều cần nhớ trên núi.",
+      "aiRole": "Bao, your cousin who is going on the mountain trip with you",
+      "studentRoleVi": "Học sinh nhắc anh họ chuẩn bị",
+      "goalVi": "Nói những thứ cần mang và điều không được làm, giải thích lý do, trả lời khi Bao có ý khác.",
+      "goal": "Tell your cousin what to bring and what not to do on the mountain, give reasons, and answer his different idea.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng must / mustn't", "words": ["must", "mustn't"] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "suggestion", "vi": "Gợi ý thêm một thứ nên mang", "words": [] }
+      ],
+      "opener": "We're climbing Fansipan tomorrow! I'm only taking my phone and some snacks. Is that OK?",
+      "stance": "I don't need warm clothes. It's summer, so it will be hot on the mountain.",
+      "turns": 5,
+      "fallback": [
+        "Oh. What else must I take?",
+        "But it's summer. I don't need warm clothes. It will be hot on the mountain.",
+        "OK, I'll take my jacket. Is there anything we mustn't do up there?",
+        "Got it. Thanks for your help!"
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["must", "mustn't", "backpack", "because", "warm clothes"]
+    }
+  ]
+}

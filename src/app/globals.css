@@ -155,6 +155,16 @@ h3 {
   animation: countdown 6s linear infinite;
 }
 
+/* Speed Q&A trong module: vạch dài dần tới mục tiêu thời gian bắt đầu nói của riêng học sinh (thời lượng đặt inline). */
+@keyframes grow {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

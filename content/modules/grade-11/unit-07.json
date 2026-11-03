@@ -1,0 +1,354 @@
+{
+  "grade": 11,
+  "unit": 7,
+  "title": "Education Options for School-leavers",
+  "titleVi": "Lựa chọn học tập sau khi tốt nghiệp",
+  "edition": "Tiếng Anh 11 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 76–85; Glossary tr. 128–129",
+  "vocab": [
+    { "id": "v01", "en": "school-leaver", "vi": "học sinh tốt nghiệp trung học phổ thông", "ipa": "/ˈskuːl liːvə/", "ipaFrom": "glossary", "pos": "n", "example": "Many school-leavers are not sure what to do next.", "collocations": ["school-leavers' options"], "synonyms": ["high school graduate"], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v02", "en": "higher education", "vi": "giáo dục đại học", "ipa": "/ˌhaɪər edʒuˈkeɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "My sister wants to continue to higher education after grade 12.", "collocations": ["pursue higher education", "higher education institutions"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v03", "en": "academic", "vi": "có tính chất học thuật, liên quan tới học tập", "ipa": "/ˌækəˈdemɪk/", "ipaFrom": "glossary", "pos": "adj", "example": "Maths and literature are academic subjects.", "collocations": ["academic subjects", "academic study"], "synonyms": [], "antonyms": ["practical"], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v04", "en": "vocational school", "vi": "trường dạy nghề", "ipa": "/vəʊˈkeɪʃənl skuːl/", "ipaFrom": "glossary", "pos": "n", "example": "He learnt to cook at a vocational school.", "collocations": ["go to a vocational school", "vocational school courses"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v05", "en": "apprenticeship", "vi": "thời gian học nghề, học việc thực tế", "ipa": "/əˈprentɪʃɪp/", "ipaFrom": "glossary", "pos": "n", "example": "She did a two-year apprenticeship at a bakery.", "collocations": ["do an apprenticeship", "start an apprenticeship"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v06", "en": "apprentice", "vi": "người học việc", "ipa": "/əˈprentɪs/", "ipaFrom": "dictionary", "pos": "n", "example": "The apprentice works with an experienced chef every day.", "collocations": ["work as an apprentice"], "synonyms": ["trainee"], "antonyms": [], "src": { "kind": "sgk", "page": 81 } },
+    { "id": "v07", "en": "trade", "vi": "nghề (cần đào tạo kĩ năng)", "ipa": "/treɪd/", "ipaFrom": "dictionary", "pos": "n", "example": "My uncle learnt a trade and became an electrician.", "collocations": ["learn a trade", "a skilled trade"], "synonyms": ["job"], "antonyms": [], "src": { "kind": "sgk", "page": 80 } },
+    { "id": "v08", "en": "mechanic", "vi": "thợ cơ khí", "ipa": "/məˈkænɪk/", "ipaFrom": "glossary", "pos": "n", "example": "The mechanic fixed my dad's car in an hour.", "collocations": ["car mechanic"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v09", "en": "professional", "vi": "chuyên nghiệp, nhà nghề", "ipa": "/prəˈfeʃənl/", "ipaFrom": "glossary", "pos": "adj", "example": "She took a professional cooking course.", "collocations": ["professional course", "professional training"], "synonyms": [], "antonyms": ["amateur"], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v10", "en": "qualification", "vi": "trình độ chuyên môn, văn bằng", "ipa": "/ˌkwɒlɪfɪˈkeɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "You need the right qualification to become a nurse.", "collocations": ["get a qualification", "the right qualification"], "synonyms": ["certificate"], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v11", "en": "bachelor's degree", "vi": "bằng cử nhân", "ipa": "/ˈbætʃələz dɪɡriː/", "ipaFrom": "glossary", "pos": "n", "example": "A bachelor's degree usually takes four years.", "collocations": ["get a bachelor's degree"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v12", "en": "master's degree", "vi": "bằng thạc sĩ", "ipa": "/ˈmɑːstəz dɪɡriː/", "ipaFrom": "glossary", "pos": "n", "example": "After working for two years, she studied for a master's degree.", "collocations": ["do a master's degree"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v13", "en": "doctorate", "vi": "bằng tiến sĩ", "ipa": "/ˈdɒktərət/", "ipaFrom": "glossary", "pos": "n", "example": "My teacher has a doctorate in biology.", "collocations": ["have a doctorate"], "synonyms": ["PhD"], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v14", "en": "entrance exam", "vi": "kì thi đầu vào", "ipa": "/ˈentrəns ɪɡˌzæm/", "ipaFrom": "glossary", "pos": "np", "example": "He is studying hard for the university entrance exam.", "collocations": ["pass the entrance exam", "university entrance exam"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v15", "en": "graduation", "vi": "khi tốt nghiệp, lễ tốt nghiệp", "ipa": "/ˌɡrædʒuˈeɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "Many students look for jobs right after graduation.", "collocations": ["after graduation", "graduation ceremony"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v16", "en": "institution", "vi": "cơ sở, viện (đào tạo)", "ipa": "/ˌɪnstɪˈtjuːʃn/", "ipaFrom": "glossary", "pos": "n", "example": "There are many training institutions in big cities.", "collocations": ["educational institution", "training institution"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v17", "en": "formal", "vi": "chính quy, có hệ thống", "ipa": "/ˈfɔːml/", "ipaFrom": "glossary", "pos": "adj", "example": "He has no formal training, but he is a great cook.", "collocations": ["formal education", "formal training"], "synonyms": [], "antonyms": ["informal"], "src": { "kind": "sgk", "page": 129 } },
+    { "id": "v18", "en": "brochure", "vi": "ấn phẩm quảng cáo, giới thiệu", "ipa": "/ˈbrəʊʃə/", "ipaFrom": "glossary", "pos": "n", "example": "I read the school brochure to learn about its courses.", "collocations": ["school brochure", "read a brochure"], "synonyms": ["leaflet"], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v19", "en": "manage", "vi": "cố gắng (làm được việc gì đó)", "ipa": "/ˈmænɪdʒ/", "ipaFrom": "glossary", "pos": "v", "example": "She managed to pass the exam after a lot of hard work.", "collocations": ["manage to do something"], "synonyms": ["succeed in"], "antonyms": ["fail"], "src": { "kind": "sgk", "page": 129 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Perfect gerunds (having + past participle)",
+      "nameVi": "Danh động từ hoàn thành (having + V3)",
+      "explainVi": "Having + V3 nói về việc đã xảy ra TRƯỚC hành động của động từ chính, nhấn mạnh việc đã làm xong trong quá khứ. Có thể dùng làm chủ ngữ của câu, hoặc đứng sau một số động từ (admit, deny, forget, mention, regret, remember) và sau giới từ (proud of, about...).",
+      "formula": "Having + V3 + ... (làm chủ ngữ)  ·  admit / regret / remember ... + having + V3  ·  giới từ + having + V3",
+      "examples": [
+        "Having worked in a restaurant helped him choose a cooking course.",
+        "She regrets not having studied harder in grade 10.",
+        "I'm proud of having passed the swimming test."
+      ],
+      "wrong": [
+        { "sentence": "He denied have taken my pen.", "fix": "He denied having taken my pen.", "whyVi": "Sau deny dùng having + V3, không dùng have + V3." },
+        { "sentence": "She is proud of had won the prize.", "fix": "She is proud of having won the prize.", "whyVi": "Sau giới từ (of) dùng having + V3." }
+      ],
+      "drills": [
+        { "prompt": "Mai regrets not ___ harder for the entrance exam.", "options": ["having studied", "have studied", "had studied"], "answer": 0, "explainVi": "Sau regret (not) dùng having + V3: having studied." },
+        { "prompt": "He admitted ___ the brochure at home.", "options": ["having left", "have left", "had left"], "answer": 0, "explainVi": "Sau admit dùng having + V3: having left." },
+        { "prompt": "___ worked in a garage helped my brother become a mechanic.", "options": ["Having", "Had", "Have"], "answer": 0, "explainVi": "Danh động từ hoàn thành làm chủ ngữ: Having worked..." },
+        { "prompt": "Which sentence is correct?", "options": ["I'm proud of having finished the course.", "I'm proud of have finished the course.", "I'm proud of had finished the course."], "answer": 0, "explainVi": "Sau giới từ of dùng having + V3." }
+      ],
+      "errorTag": "verb_form",
+      "src": { "kind": "sgk", "page": 78 }
+    },
+    {
+      "id": "g02",
+      "name": "Perfect participle clauses",
+      "nameVi": "Mệnh đề phân từ hoàn thành (Having + V3, ...)",
+      "explainVi": "Mệnh đề Having + V3 đứng đầu câu để nói một việc xảy ra TRƯỚC việc trong mệnh đề chính, hoặc để nêu LÝ DO cho việc trong mệnh đề chính. Hai vế phải cùng chủ ngữ. Dạng phủ định: Not having + V3.",
+      "formula": "Having + V3 (...), S + V  ·  Not having + V3 (...), S + V",
+      "examples": [
+        "Having finished school, my cousin started an apprenticeship.",
+        "Having read the brochure, Lan decided to apply for the course.",
+        "Not having passed the exam, he took a vocational course."
+      ],
+      "wrong": [
+        { "sentence": "Having finish the course, she got a job.", "fix": "Having finished the course, she got a job.", "whyVi": "Sau having phải là V3 (quá khứ phân từ): finished." },
+        { "sentence": "Having finished the course, a job was offered to her.", "fix": "Having finished the course, she was offered a job.", "whyVi": "Người hoàn thành khóa học là \"she\", nên mệnh đề chính phải có cùng chủ ngữ \"she\"." }
+      ],
+      "drills": [
+        { "prompt": "___ finished school, my brother started an apprenticeship.", "options": ["Having", "Had", "Have"], "answer": 0, "explainVi": "Mệnh đề phân từ hoàn thành bắt đầu bằng Having + V3." },
+        { "prompt": "Having ___ the brochure, Nam called the school.", "options": ["read", "reading", "to read"], "answer": 0, "explainVi": "Sau having là V3: read (đọc là /red/)." },
+        { "prompt": "Which sentence is correct?", "options": ["Not having passed the exam, he took a vocational course.", "Having not pass the exam, he took a vocational course.", "Not had passed the exam, he took a vocational course."], "answer": 0, "explainVi": "Phủ định: Not having + V3 (passed)." }
+      ],
+      "errorTag": "verb_form",
+      "src": { "kind": "sgk", "page": 78 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "intonation",
+      "focus": "Ngữ điệu lên ở câu hỏi Yes/No",
+      "tipVi": "Câu hỏi Yes/No (bắt đầu bằng Do, Did, Is, Are, Have, Can...) thường lên giọng ở cuối câu.",
+      "words": ["Do you like it?", "Is it expensive?", "Have you decided?"],
+      "sentence": "Do you want to study at a vocational school?",
+      "quiz": [
+        { "prompt": "Which question usually has RISING intonation at the end?", "options": ["Do you want to go to university?", "What do you want to study?", "Where is the vocational school?"], "answer": 0, "explainVi": "Câu hỏi Yes/No (Do you...?) thường lên giọng ở cuối; câu hỏi Wh- thường xuống giọng." }
+      ],
+      "src": { "kind": "sgk", "page": 77 }
+    },
+    {
+      "id": "p02",
+      "kind": "intonation",
+      "focus": "Ngữ điệu xuống ở câu hỏi Wh-",
+      "tipVi": "Câu hỏi bắt đầu bằng What, Where, When, How, Why... thường xuống giọng ở cuối câu.",
+      "words": ["What are your plans?", "Where do you want to study?", "How long is the course?"],
+      "sentence": "What do you want to do after leaving school?",
+      "quiz": [
+        { "prompt": "How does your voice usually go at the end of \"Where do you want to study?\"", "options": ["It goes down.", "It goes up."], "answer": 0, "explainVi": "Câu hỏi Wh- (Where...?) thường xuống giọng ở cuối câu." },
+        { "prompt": "Which question usually has FALLING intonation at the end?", "options": ["Is the course expensive?", "How much does the course cost?", "Did you talk to your parents?"], "answer": 1, "explainVi": "How much...? là câu hỏi Wh- nên xuống giọng ở cuối." }
+      ],
+      "src": { "kind": "sgk", "page": 77 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "mechanic, professional, apprenticeship nhấn âm thứ hai. academic, graduation, institution nhấn âm thứ ba. doctorate, brochure, formal nhấn âm đầu.",
+      "words": ["mechanic", "professional", "apprenticeship", "academic", "graduation", "institution", "doctorate"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["mechanic", "graduation", "doctorate"], "answer": 0, "explainVi": "mechanic /məˈkænɪk/ nhấn âm thứ hai." },
+        { "prompt": "Where is the main stress in \"academic\" /ˌækəˈdemɪk/?", "options": ["the first syllable", "the second syllable", "the third syllable"], "answer": 2, "explainVi": "Dấu ˈ đứng trước \"dem\", là âm tiết thứ ba." }
+      ],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Will you be available on / at ...?", "vi": "Thầy/cô có rảnh vào ... không ạ?", "useVi": "Khi hỏi người khác có thời gian vào một ngày, giờ nào đó.", "example": "Will you be available on Friday afternoon?", "src": { "kind": "sgk", "page": 83 } },
+    { "id": "e02", "en": "I'd like to make an appointment with you on / at ...", "vi": "Em muốn hẹn gặp thầy/cô vào ...", "useVi": "Khi đặt lịch hẹn một cách lịch sự.", "example": "I'd like to make an appointment with you on Monday morning.", "src": { "kind": "sgk", "page": 83 } },
+    { "id": "e03", "en": "Would ... suit you?", "vi": "... có tiện cho bạn không?", "useVi": "Khi đề nghị một thời gian và hỏi người kia có tiện không.", "example": "Would 3 p.m. on Tuesday suit you?", "src": { "kind": "sgk", "page": 83 } },
+    { "id": "e04", "en": "When's convenient for you?", "vi": "Khi nào thì tiện cho bạn?", "useVi": "Khi để người kia chọn thời gian.", "example": "I'd like to ask about the course. When's convenient for you?", "src": { "kind": "sgk", "page": 83 } },
+    { "id": "e05", "en": "All right, I'll see you then.", "vi": "Được rồi, hẹn gặp bạn lúc đó.", "useVi": "Khi đồng ý với thời gian hẹn.", "example": "Saturday at 9? All right, I'll see you then.", "src": { "kind": "sgk", "page": 83 } },
+    { "id": "e06", "en": "Sorry, I've got another appointment at that time. How about ...?", "vi": "Xin lỗi, lúc đó mình có hẹn khác rồi. ... thì sao?", "useVi": "Khi từ chối thời gian hẹn và đề nghị thời gian khác.", "example": "Sorry, I've got another appointment at that time. How about Thursday?", "src": { "kind": "sgk", "page": 83 } },
+    { "id": "e07", "en": "I'm afraid I can't make it at that time. Are you free on / at ...?", "vi": "Mình e là lúc đó mình không đến được. Bạn có rảnh vào ... không?", "useVi": "Khi từ chối lịch sự và hỏi thời gian khác.", "example": "I'm afraid I can't make it at that time. Are you free on Sunday?", "src": { "kind": "sgk", "page": 83 } },
+    { "id": "e08", "en": "I couldn't agree more.", "vi": "Mình hoàn toàn đồng ý.", "useVi": "Khi rất đồng ý với ý kiến của người khác.", "example": "Vocational courses are cheaper? I couldn't agree more.", "src": { "kind": "sgk", "page": 80 } },
+    { "id": "e09", "en": "So, we've decided ...", "vi": "Vậy là chúng ta đã quyết định ...", "useVi": "Khi tóm tắt để kết thúc một cuộc thảo luận.", "example": "So, we've decided on three main benefits of apprenticeships.", "src": { "kind": "sgk", "page": 81 } },
+    { "id": "e10", "en": "It was a very useful discussion.", "vi": "Đó là một cuộc thảo luận rất bổ ích.", "useVi": "Khi kết thúc cuộc thảo luận một cách lịch sự.", "example": "Thanks, everyone. It was a very useful discussion.", "src": { "kind": "sgk", "page": 81 } },
+    { "id": "e11", "en": "I'm hoping to ...", "vi": "Mình đang hy vọng sẽ ...", "useVi": "Khi nói về dự định, mong muốn trong tương lai.", "example": "I'm hoping to study engineering at university.", "src": { "kind": "sgk", "page": 76 } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["Having finished", "grade 12", "my sister went", "to a vocational school"], "vi": "Học xong lớp 12, chị mình vào học một trường nghề.", "grammarId": "g02" },
+    { "id": "b02", "chunks": ["I don't regret", "having joined", "the science club", "last year"], "vi": "Mình không hối tiếc vì đã tham gia câu lạc bộ khoa học năm ngoái.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["Having talked", "to my teacher", "I decided", "to study engineering"], "vi": "Sau khi nói chuyện với thầy, mình quyết định học ngành kĩ thuật.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["He was proud of", "having passed", "the entrance exam"], "vi": "Bạn ấy tự hào vì đã thi đỗ kì thi đầu vào.", "grammarId": "g01" },
+    { "id": "b05", "chunks": ["A vocational school", "is a good choice", "for students who", "like practical work"], "vi": "Trường nghề là lựa chọn tốt cho những bạn thích công việc thực hành.", "grammarId": null },
+    { "id": "b06", "chunks": ["Not having read", "the brochure", "she didn't know", "about the course"], "vi": "Vì chưa đọc tờ giới thiệu, bạn ấy không biết về khóa học.", "grammarId": "g02" },
+    { "id": "b07", "chunks": ["Many school-leavers", "want to get", "a bachelor's degree", "at university"], "vi": "Nhiều học sinh tốt nghiệp muốn lấy bằng cử nhân ở đại học.", "grammarId": null },
+    { "id": "b08", "chunks": ["My cousin", "remembers having visited", "an education fair", "in grade 11"], "vi": "Anh họ mình nhớ đã đi một hội chợ giáo dục hồi lớp 11.", "grammarId": "g01" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I want to study.",
+      "steps": [
+        { "askVi": "Học ngành gì?", "ask": "What?", "add": "engineering" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at a university in Da Nang" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because I love building things" }
+      ],
+      "full": "I want to study engineering at a university in Da Nang because I love building things."
+    },
+    {
+      "id": "x02",
+      "base": "My brother is an apprentice.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at a car repair shop" },
+        { "askVi": "Anh ấy học gì?", "ask": "What does he learn?", "add": "and he learns to fix engines" }
+      ],
+      "full": "My brother is an apprentice at a car repair shop, and he learns to fix engines."
+    },
+    {
+      "id": "x03",
+      "base": "She found a job.",
+      "steps": [
+        { "askVi": "Sau khi đã làm xong việc gì?", "ask": "After what?", "add": "Having finished her course" },
+        { "askVi": "Công việc gì?", "ask": "What job?", "add": "as a chef" }
+      ],
+      "full": "Having finished her course, she found a job as a chef."
+    },
+    {
+      "id": "x04",
+      "base": "Vocational courses are useful.",
+      "steps": [
+        { "askVi": "Hữu ích cho ai?", "ask": "Who for?", "add": "for students who like hands-on work" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because they can start working sooner" }
+      ],
+      "full": "Vocational courses are useful for students who like hands-on work because they can start working sooner."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Em chọn đại học hay trường nghề",
+      "questions": [
+        "Would you rather go to university or to a vocational school?",
+        "Which option suits you better: academic study or vocational training?",
+        "If you had to choose today, would you pick university or a vocational course?"
+      ],
+      "keywords": ["university", "vocational school", "practical", "academic"],
+      "exampleAnswer": "I'd choose university because I enjoy academic subjects and want a bachelor's degree in biology.",
+      "expectsReason": true
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Lợi ích của việc học nghề, học việc",
+      "questions": [
+        "What are the benefits of an apprenticeship?",
+        "Why do some school-leavers choose to become apprentices?",
+        "How can an apprenticeship help a young person start a career?"
+      ],
+      "keywords": ["apprenticeship", "earn", "skills", "experience"],
+      "exampleAnswer": "Apprentices learn real skills from experienced workers, and they can earn money while they are training.",
+      "expectsReason": true
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Cách em chuẩn bị cho kì thi",
+      "questions": [
+        "How are you preparing for the entrance exam?",
+        "What do you do to get ready for the university entrance exam?",
+        "What is your plan to prepare for your final exams?"
+      ],
+      "keywords": ["entrance exam", "practise", "revise", "plan"],
+      "exampleAnswer": "I practise old tests every weekend and study with a friend twice a week.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Điều em muốn biết khi chọn trường",
+      "questions": [
+        "What do you want to know before choosing a school after grade 12?",
+        "What information do you look for when you choose a university or college?",
+        "Which things are important to you when you compare different institutions?"
+      ],
+      "keywords": ["course", "fees", "qualification", "brochure"],
+      "exampleAnswer": "I want to know about the courses, the fees and what qualification I will get at the end.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Một người em biết đã học nghề",
+      "questions": [
+        "Do you know someone who studied at a vocational school?",
+        "Tell me about a person you know who learnt a trade.",
+        "Who in your family has a job that needed special training?"
+      ],
+      "keywords": ["mechanic", "trained", "having finished", "professional"],
+      "exampleAnswer": "My uncle is a mechanic. Having finished a two-year vocational course, he opened his own repair shop.",
+      "expectsReason": false
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What school subject do you enjoy most, and how could it help you later?", "keywords": ["subject", "study", "future"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should students choose their own course without asking their parents? Why or why not?", "keywords": ["choose", "parents", "interested"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend failed the university entrance exam and feels very sad. What do you say?", "keywords": ["vocational school", "try again", "apprenticeship"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What skill have you learnt outside school, and how could it help your future career?", "keywords": ["skill", "learnt", "career"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should vocational schools be free for all students? Why or why not?", "keywords": ["vocational school", "cost", "skills"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your cousin wants to leave school now to work in a café. What do you say to him?", "keywords": ["qualification", "finish school", "future"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Hẹn gặp cô tư vấn hướng nghiệp",
+      "contextVi": "Em muốn hỏi cô tư vấn hướng nghiệp của trường về các khóa học ở trường nghề. Em gặp cô ở hành lang để xin một cuộc hẹn.",
+      "aiRole": "Ms Ha, the career advisor at your school",
+      "studentRoleVi": "Học sinh lớp 11 muốn hẹn gặp cô tư vấn",
+      "goalVi": "Xin hẹn gặp cô, nói rõ em muốn hỏi về điều gì, và thống nhất một thời gian khác khi cô bận.",
+      "goal": "Make an appointment with the career advisor, say what you want to ask about, and agree on a new time when she is busy.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nói rõ vì sao em muốn gặp cô", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một cụm hẹn gặp của bài", "words": ["appointment", "available", "suit you", "convenient", "free on"] }
+      ],
+      "opener": "Hello! You wanted to see me? How can I help you?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Of course. What would you like to talk about?",
+        "I'm sorry, I'm busy at that time. When else are you free?",
+        "That works for me. See you then in the staffroom!"
+      ],
+      "tipsVi": ["Dùng \"I'd like to make an appointment...\" hoặc \"Will you be available on...?\"", "Khi cô bận, đề nghị thời gian khác: \"Are you free on...?\""],
+      "keywords": ["appointment", "available", "vocational", "course", "free on"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Đại học có phải con đường duy nhất?",
+      "contextVi": "Trong giờ ra chơi, một bạn cùng lớp nói rằng chỉ có học đại học mới thành công. Em có suy nghĩ khác và muốn trao đổi với bạn.",
+      "aiRole": "Huy, a classmate who thinks university is the only way to succeed",
+      "studentRoleVi": "Bạn cùng lớp có quan điểm khác về trường nghề",
+      "goalVi": "Giải thích lợi ích của trường nghề hoặc học việc, đưa ví dụ, và trả lời khi Huy phản đối.",
+      "goal": "Explain the benefits of vocational school or apprenticeships, give an example, and answer Huy's objection politely.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do (because...)", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ cụ thể (một nghề hoặc một người em biết)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["vocational school", "apprenticeship", "qualification", "practical", "trade"] }
+      ],
+      "opener": "I think everyone should go to university. Why would anyone choose a vocational school?",
+      "stance": "Only people with a bachelor's degree can get good jobs. Vocational schools are for weak students.",
+      "turns": 5,
+      "fallback": [
+        "Really? Why do you think it's a good choice?",
+        "But only people with a bachelor's degree can get good jobs. Vocational schools are for weak students.",
+        "Hmm, can you give me an example of a good job like that?",
+        "OK, I didn't think about it that way. Thanks for explaining."
+      ],
+      "tipsVi": ["Khi Huy phản đối, mở đầu bằng \"I see your point, but...\"", "Đưa ví dụ: thợ cơ khí, đầu bếp, thợ điện, người làm nghề lành nghề."],
+      "keywords": ["vocational school", "practical skills", "earn money", "for example", "I see your point"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Du học hay học trong nước",
+      "contextVi": "Chú của em nghĩ em nên đi du học sau lớp 12. Em muốn học ở một trường đại học trong nước và giải thích lựa chọn của mình.",
+      "aiRole": "Uncle Tuan, who thinks studying abroad is always better",
+      "studentRoleVi": "Cháu của chú Tuấn, muốn học đại học trong nước",
+      "goalVi": "Giải thích vì sao em muốn học trong nước, nêu một kế hoạch cụ thể, và trả lời lịch sự khi chú có ý kiến khác.",
+      "goal": "Explain why you want to study at a university in Viet Nam, describe your plan, and reply politely to your uncle's view.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu ít nhất một lý do", "words": [] },
+        { "kind": "suggestion", "vi": "Nói một kế hoạch cụ thể (ví dụ học thạc sĩ ở nước ngoài sau này)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["higher education", "institution", "bachelor's degree", "master's degree", "qualification"] }
+      ],
+      "opener": "So, have you thought about studying abroad after grade 12? I think it's the best choice.",
+      "stance": "Studying abroad is always better. Degrees from foreign universities are more valuable.",
+      "turns": 5,
+      "fallback": [
+        "I see. Why do you prefer to stay in Viet Nam?",
+        "But studying abroad is always better. Degrees from foreign universities are more valuable.",
+        "That sounds sensible. What will you do after your bachelor's degree?",
+        "Well, you've thought about it carefully. I'm proud of you."
+      ],
+      "tipsVi": ["Nói lịch sự với người lớn: \"I understand, but...\"", "Có thể dùng Having + V3: \"Having talked to my teachers, I...\""],
+      "keywords": ["university", "bachelor's degree", "master's degree", "because", "I understand"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Tư vấn cho em họ lớp 9",
+      "contextVi": "Em họ của em đang học lớp 9 và phân vân có nên vào trường nghề sau khi tốt nghiệp THCS. Em ấy hỏi ý kiến của em.",
+      "aiRole": "Bao, your younger cousin in grade 9",
+      "studentRoleVi": "Anh/chị họ đang học lớp 11",
+      "goalVi": "Cho Bảo lời khuyên có lý do, đưa ví dụ, và trả lời khi Bảo lo lắng điều khác.",
+      "goal": "Give Bao advice about choosing a school with reasons and an example, and respond to his worry.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra lời khuyên", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["vocational school", "apprenticeship", "qualification", "trade", "academic", "professional"] }
+      ],
+      "opener": "I really like fixing things, but I don't like studying maths. Should I go to a vocational school after grade 9?",
+      "stance": "My friends say vocational school is for people who aren't smart. I don't want them to laugh at me.",
+      "turns": 5,
+      "fallback": [
+        "Why do you think that would be good for me?",
+        "But my friends say vocational school is for people who aren't smart. I don't want them to laugh at me.",
+        "Hmm, that makes me feel better. What should I do first?",
+        "Thanks. I'll talk to my parents about it tonight."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["vocational school", "skills", "because", "if I were you", "qualification"]
+    }
+  ]
+}

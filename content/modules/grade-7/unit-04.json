@@ -1,0 +1,362 @@
+{
+  "grade": 7,
+  "unit": 4,
+  "title": "Music and Arts",
+  "titleVi": "Âm nhạc và nghệ thuật",
+  "edition": "Tiếng Anh 7 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 40–49; Glossary tr. 137",
+  "vocab": [
+    { "id": "v01", "en": "musical instrument", "vi": "nhạc cụ", "ipa": "/ˌmjuːzɪkl ˈɪnstrəmənt/", "ipaFrom": "glossary", "pos": "n", "example": "The guitar is my favourite musical instrument.", "collocations": ["play a musical instrument", "learn a musical instrument"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v02", "en": "folk music", "vi": "nhạc dân gian, nhạc truyền thống", "ipa": "/ˈfəʊk mjuːzɪk/", "ipaFrom": "glossary", "pos": "n", "example": "My grandparents love listening to folk music.", "collocations": ["Vietnamese folk music", "a folk music show"], "synonyms": ["traditional music"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v03", "en": "country music", "vi": "nhạc đồng quê", "ipa": "/ˈkʌntri mjuːzɪk/", "ipaFrom": "glossary", "pos": "n", "example": "Country music often tells stories about simple life.", "collocations": ["listen to country music"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v04", "en": "concert", "vi": "buổi hoà nhạc", "ipa": "/ˈkɒnsət/", "ipaFrom": "glossary", "pos": "n", "example": "We went to a concert in the city centre last night.", "collocations": ["go to a concert", "a live concert", "concert hall"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v05", "en": "perform", "vi": "biểu diễn, trình diễn", "ipa": "/pəˈfɔːm/", "ipaFrom": "glossary", "pos": "v", "example": "Our school choir performs every month.", "collocations": ["perform a song", "perform on stage"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v06", "en": "performance", "vi": "sự trình diễn, buổi biểu diễn", "ipa": "/pəˈfɔːməns/", "ipaFrom": "glossary", "pos": "n", "example": "The dance performance was the best part of the festival.", "collocations": ["a great performance", "a musical performance"], "synonyms": ["show"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v07", "en": "musician", "vi": "nhạc công, nhạc sĩ", "ipa": "/mjuːˈzɪʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "The musicians played very well at the festival.", "collocations": ["a talented musician"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 42 } },
+    { "id": "v08", "en": "composer", "vi": "nhà soạn nhạc, nhạc sĩ", "ipa": "/kəmˈpəʊzə/", "ipaFrom": "glossary", "pos": "n", "example": "Van Cao was a famous Vietnamese composer.", "collocations": ["a great composer", "a famous composer"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v09", "en": "compose", "vi": "soạn, biên soạn", "ipa": "/kəmˈpəʊz/", "ipaFrom": "glossary", "pos": "v", "example": "He composed his first song at the age of twelve.", "collocations": ["compose music", "compose a song"], "synonyms": ["write"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v10", "en": "anthem", "vi": "bài quốc ca", "ipa": "/ˈænθəm/", "ipaFrom": "glossary", "pos": "n", "example": "We sing the national anthem every Monday morning.", "collocations": ["the national anthem", "sing the anthem"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v11", "en": "painter", "vi": "họa sĩ", "ipa": "/ˈpeɪntə/", "ipaFrom": "dictionary", "pos": "n", "example": "My aunt is a painter. She paints landscapes.", "collocations": ["a famous painter"], "synonyms": ["artist"], "antonyms": [], "src": { "kind": "sgk", "page": 42 } },
+    { "id": "v12", "en": "portrait", "vi": "bức chân dung", "ipa": "/ˈpɔːtreɪt/", "ipaFrom": "glossary", "pos": "n", "example": "She painted a portrait of her grandmother.", "collocations": ["paint a portrait", "draw a portrait"], "synonyms": [], "antonyms": ["landscape"], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v13", "en": "sculpture", "vi": "điêu khắc, tác phẩm điêu khắc", "ipa": "/ˈskʌlptʃə/", "ipaFrom": "glossary", "pos": "n", "example": "There is a stone sculpture in front of the museum.", "collocations": ["a stone sculpture"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v14", "en": "photography", "vi": "nhiếp ảnh", "ipa": "/fəˈtɒɡrəfi/", "ipaFrom": "glossary", "pos": "n", "example": "My brother joined a photography club this year.", "collocations": ["a photography club", "nature photography"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v15", "en": "exhibition", "vi": "cuộc triển lãm", "ipa": "/ˌeksɪˈbɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "Our school has an art exhibition every spring.", "collocations": ["an art exhibition", "a photo exhibition"], "synonyms": ["show"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v16", "en": "gallery", "vi": "phòng triển lãm tranh", "ipa": "/ˈɡæləri/", "ipaFrom": "glossary", "pos": "n", "example": "Let's go to the art gallery this weekend.", "collocations": ["an art gallery"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v17", "en": "puppet", "vi": "con rối", "ipa": "/ˈpʌpɪt/", "ipaFrom": "glossary", "pos": "n", "example": "The children made puppets from old socks.", "collocations": ["a puppet show", "puppet theatre"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v18", "en": "water puppetry", "vi": "múa rối nước", "ipa": "/ˈwɔːtə ˈpʌpɪtri/", "ipaFrom": "glossary", "pos": "n", "example": "Water puppetry is a traditional art form in Viet Nam.", "collocations": ["a water puppetry show"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v19", "en": "originate", "vi": "bắt nguồn, xuất phát từ", "ipa": "/əˈrɪdʒɪneɪt/", "ipaFrom": "glossary", "pos": "v", "example": "This dance originated in a small village.", "collocations": ["originate in", "originate from"], "synonyms": ["come from"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v20", "en": "prefer", "vi": "thích hơn", "ipa": "/prɪˈfɜː/", "ipaFrom": "glossary", "pos": "v", "example": "I prefer drawing to taking photos.", "collocations": ["prefer A to B", "I'd prefer to"], "synonyms": ["like better"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Comparisons: like, different from",
+      "nameVi": "So sánh: like (giống), different from (khác)",
+      "explainVi": "Dùng like để nói một thứ giống một thứ khác. Dùng different from để nói hai thứ không giống nhau. Nhớ dùng giới từ from sau different.",
+      "formula": "A + is / looks / sounds + like + B  ·  A + is + different from + B",
+      "examples": [
+        "This song sounds like a folk song.",
+        "Painting portraits is different from painting landscapes.",
+        "My taste in music is different from my brother's."
+      ],
+      "wrong": [
+        { "sentence": "Modern art is different with folk art.", "fix": "Modern art is different from folk art.", "whyVi": "Sau different dùng giới từ from." },
+        { "sentence": "Her voice is like as a singer's voice.", "fix": "Her voice is like a singer's voice.", "whyVi": "like đã có nghĩa là \"giống\", không thêm as." }
+      ],
+      "drills": [
+        { "prompt": "You like folk songs; I like pop music. Your taste is different ___ mine.", "options": ["from", "like", "as"], "answer": 0, "explainVi": "different from: khác với." },
+        { "prompt": "This picture looks ___ a photo. It's so real!", "options": ["like", "different", "as"], "answer": 0, "explainVi": "Bức tranh GIỐNG ảnh chụp: dùng like." },
+        { "prompt": "Which sentence is correct?", "options": ["My sister is like my mum.", "My sister is like as my mum.", "My sister is like to my mum."], "answer": 0, "explainVi": "like + danh từ: is like my mum." }
+      ],
+      "errorTag": "comparison",
+      "src": { "kind": "sgk", "page": 43 }
+    },
+    {
+      "id": "g02",
+      "name": "Comparisons: (not) as + adjective + as",
+      "nameVi": "So sánh bằng và không bằng: (not) as ... as",
+      "explainVi": "as + tính từ + as: hai thứ giống nhau ở một điểm (bằng nhau). not as + tính từ + as: một thứ \"kém\" hơn thứ kia. Tính từ ở giữa giữ nguyên, không thêm -er hay more.",
+      "formula": "A + is (not) + as + adj + as + B",
+      "examples": [
+        "Taking photos is not as fun as painting for me.",
+        "This concert is as good as last year's.",
+        "Classical music is not as exciting as rock."
+      ],
+      "wrong": [
+        { "sentence": "Drawing is as easy than painting.", "fix": "Drawing is as easy as painting.", "whyVi": "Cấu trúc là as ... as, không dùng than." },
+        { "sentence": "Folk music is not as louder as rock.", "fix": "Folk music is not as loud as rock.", "whyVi": "Giữa as ... as dùng tính từ nguyên dạng: loud." }
+      ],
+      "drills": [
+        { "prompt": "Photography is not as difficult ___ painting.", "options": ["as", "than", "from"], "answer": 0, "explainVi": "Cấu trúc not as + tính từ + as." },
+        { "prompt": "The film was as ___ as the book.", "options": ["good", "better", "best"], "answer": 0, "explainVi": "Giữa as ... as dùng tính từ nguyên dạng: good." },
+        { "prompt": "Rock is more exciting than classical music. → Classical music is ___ rock.", "options": ["not as exciting as", "as exciting as", "not as exciting than"], "answer": 0, "explainVi": "Nhạc cổ điển kém sôi động hơn: not as exciting as." }
+      ],
+      "errorTag": "comparison",
+      "src": { "kind": "sgk", "page": 43 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Âm /ʃ/",
+      "tipVi": "Chu môi ra phía trước, lưỡi nâng gần vòm miệng rồi thổi hơi ra như khi nói \"suỵt\". Không rung cổ họng. Thường gặp ở sh, -cian, -tion: show, musician, nation.",
+      "words": ["musician", "show", "share", "nation"],
+      "sentence": "The musician shared a short show with us.",
+      "quiz": [
+        { "prompt": "Which word has the sound /ʃ/?", "options": ["musician", "television", "visual"], "answer": 0, "explainVi": "musician /mjuːˈzɪʃn/ có âm /ʃ/; television và visual có âm /ʒ/." }
+      ],
+      "src": { "kind": "sgk", "page": 42 }
+    },
+    {
+      "id": "p02",
+      "kind": "sound",
+      "focus": "Âm /ʒ/",
+      "tipVi": "Khẩu hình giống /ʃ/ nhưng rung cổ họng. Thường gặp ở chữ s trong -sion, -sual: television, decision, visual, unusual.",
+      "words": ["television", "visual", "unusual", "decision"],
+      "sentence": "We made a decision to watch television.",
+      "quiz": [
+        { "prompt": "Which word has the sound /ʒ/?", "options": ["decision", "nation", "share"], "answer": 0, "explainVi": "decision /dɪˈsɪʒn/ có âm /ʒ/; nation và share có âm /ʃ/." },
+        { "prompt": "Which word does NOT have the sound /ʒ/?", "options": ["unusual", "television", "show"], "answer": 2, "explainVi": "show /ʃəʊ/ có âm /ʃ/, không phải /ʒ/." }
+      ],
+      "src": { "kind": "sgk", "page": 42 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "concert, gallery, portrait, puppet nhấn âm đầu; perform, prefer, composer, photography nhấn âm thứ hai; exhibition nhấn âm thứ ba.",
+      "words": ["concert", "gallery", "portrait", "perform", "prefer", "photography", "exhibition"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["concert", "prefer", "gallery"], "answer": 1, "explainVi": "prefer /prɪˈfɜː/ nhấn âm thứ hai." },
+        { "prompt": "Which word is stressed on the THIRD syllable?", "options": ["exhibition", "photography", "performance"], "answer": 0, "explainVi": "exhibition /ˌeksɪˈbɪʃn/ nhấn âm thứ ba; hai từ kia nhấn âm thứ hai." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Ngữ điệu câu hỏi lựa chọn (A or B?)",
+      "tipVi": "Câu hỏi lựa chọn lên giọng ở lựa chọn thứ nhất và xuống giọng ở lựa chọn cuối: pop ↗ or folk music ↘?",
+      "words": ["pop or folk?", "singing or dancing?"],
+      "sentence": "Which do you prefer, painting or taking photos?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Which do you prefer, ... or ...?", "vi": "Bạn thích ... hay ... hơn?", "useVi": "Khi hỏi bạn thích cái nào hơn trong hai lựa chọn.", "example": "Which do you prefer, singing or dancing?", "src": { "kind": "sgk", "page": 45 } },
+    { "id": "e02", "en": "I prefer ...", "vi": "Mình thích ... hơn.", "useVi": "Khi trả lời mình thích lựa chọn nào hơn.", "example": "I prefer dancing. It's more fun with friends.", "src": { "kind": "sgk", "page": 45 } },
+    { "id": "e03", "en": "Which do you like better, ... or ...?", "vi": "Bạn thích ... hay ... hơn?", "useVi": "Một cách khác để hỏi về sự lựa chọn.", "example": "Which do you like better, portraits or landscapes?", "src": { "kind": "sgk", "page": 45 } },
+    { "id": "e04", "en": "I like ... better.", "vi": "Mình thích ... hơn.", "useVi": "Khi trả lời câu hỏi \"Which do you like better...?\".", "example": "I like landscapes better.", "src": { "kind": "sgk", "page": 45 } },
+    { "id": "e05", "en": "It has a better beat.", "vi": "Nó có nhịp hay hơn.", "useVi": "Khi giải thích vì sao mình thích một bài hát, một loại nhạc.", "example": "I prefer this song. It has a better beat.", "src": { "kind": "sgk", "page": 45 } },
+    { "id": "e06", "en": "Sounds good, but I'd prefer to ...", "vi": "Nghe hay đấy, nhưng mình muốn ... hơn.", "useVi": "Khi lịch sự từ chối một gợi ý và đưa ra ý khác.", "example": "Sounds good, but I'd prefer to go to the concert.", "src": { "kind": "sgk", "page": 40 } },
+    { "id": "e07", "en": "What kind of music are you into?", "vi": "Bạn mê thể loại nhạc nào?", "useVi": "Khi hỏi về gu âm nhạc của người khác.", "example": "What kind of music are you into these days?", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "Would you like to come to ... with me?", "vi": "Bạn có muốn đi ... với mình không?", "useVi": "Khi mời bạn đi xem biểu diễn hoặc triển lãm.", "example": "Would you like to come to the concert with me?", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "It's not as ... as ..., but ...", "vi": "Nó không ... bằng ..., nhưng ...", "useVi": "Khi so sánh hai thứ một cách công bằng.", "example": "It's not as famous as pop music, but it's beautiful.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "I'm a big fan of ...", "vi": "Mình rất hâm mộ ...", "useVi": "Khi nói mình rất thích một nghệ sĩ hay một loại hình nghệ thuật.", "example": "I'm a big fan of water puppetry.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["Taking photos", "is not as difficult", "as painting"], "vi": "Chụp ảnh không khó bằng vẽ tranh.", "grammarId": "g02" },
+    { "id": "b02", "chunks": ["My taste in music", "is different from", "my parents' taste"], "vi": "Gu âm nhạc của mình khác với gu của bố mẹ.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["This song", "sounds like", "a folk song", "from the north"], "vi": "Bài hát này nghe giống một bài dân ca miền Bắc.", "grammarId": "g01" },
+    { "id": "b04", "chunks": ["I prefer", "folk music", "because it has", "a better beat"], "vi": "Mình thích nhạc dân gian hơn vì nó có nhịp hay hơn.", "grammarId": null },
+    { "id": "b05", "chunks": ["The school choir", "performs", "every month", "in the hall"], "vi": "Dàn hợp xướng của trường biểu diễn mỗi tháng ở hội trường.", "grammarId": null },
+    { "id": "b06", "chunks": ["Our art exhibition", "was as good as", "last year's"], "vi": "Triển lãm mỹ thuật của chúng mình hay bằng năm ngoái.", "grammarId": "g02" },
+    { "id": "b07", "chunks": ["Water puppetry", "is a traditional art form", "in Viet Nam"], "vi": "Múa rối nước là một loại hình nghệ thuật truyền thống ở Việt Nam.", "grammarId": null },
+    { "id": "b08", "chunks": ["Classical music", "is not as exciting", "as rock", "for teenagers"], "vi": "Với thanh thiếu niên, nhạc cổ điển không sôi động bằng nhạc rock.", "grammarId": "g02" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I play the guitar.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "in my free time" },
+        { "askVi": "Với ai?", "ask": "Who with?", "add": "with my cousin" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it helps me relax" }
+      ],
+      "full": "I play the guitar in my free time with my cousin because it helps me relax."
+    },
+    {
+      "id": "x02",
+      "base": "We went to an exhibition.",
+      "steps": [
+        { "askVi": "Triển lãm gì?", "ask": "What kind?", "add": "photo" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at the city gallery" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last Saturday" }
+      ],
+      "full": "We went to a photo exhibition at the city gallery last Saturday."
+    },
+    {
+      "id": "x03",
+      "base": "I like folk music.",
+      "steps": [
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it tells stories about Vietnamese life" },
+        { "askVi": "So với nhạc pop thì sao?", "ask": "Is it as popular as pop?", "add": "it is not as popular as pop music" }
+      ],
+      "full": "I like folk music because it tells stories about Vietnamese life, but it is not as popular as pop music."
+    },
+    {
+      "id": "x04",
+      "base": "She painted a portrait.",
+      "steps": [
+        { "askVi": "Chân dung của ai?", "ask": "Of whom?", "add": "of her grandmother" },
+        { "askVi": "Cho dịp gì?", "ask": "For what?", "add": "for the school exhibition" }
+      ],
+      "full": "She painted a portrait of her grandmother for the school exhibition."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Hoạt động âm nhạc, mỹ thuật ở trường em",
+      "questions": [
+        "What music and art activities does your school have?",
+        "What do students do in music and art classes at your school?",
+        "Are there any art clubs at your school? What do they do?"
+      ],
+      "keywords": ["choir", "club", "perform", "exhibition"],
+      "exampleAnswer": "We have music and art lessons every week. There is also a choir, and it performs every month.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Nghe nhạc trong những lúc khác nhau",
+      "questions": [
+        "What music do you listen to when you study?",
+        "What kind of songs help you relax?",
+        "What do you like listening to on the way to school?"
+      ],
+      "keywords": ["pop", "classical", "relax", "folk music"],
+      "exampleAnswer": "I listen to soft piano music when I study. It helps me relax and focus.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "So sánh hát và múa",
+      "questions": [
+        "Is singing as difficult as dancing?",
+        "Which is harder for you, singing or dancing?",
+        "Do you think dancing is very different from singing?"
+      ],
+      "keywords": ["as ... as", "different from", "prefer", "because"],
+      "exampleAnswer": "For me, singing is not as difficult as dancing because I can't remember the dance moves.",
+      "expectsReason": true
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Đi phòng tranh, triển lãm",
+      "questions": [
+        "Would you like to visit an art gallery? Why?",
+        "Why do people go to art exhibitions?",
+        "What would you like to see at an art exhibition, and why?"
+      ],
+      "keywords": ["gallery", "exhibition", "portrait", "photography"],
+      "exampleAnswer": "I'd like to visit a gallery because I love portraits. Looking at good paintings gives me new ideas.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Lợi ích của việc chơi nhạc cụ",
+      "questions": [
+        "Why is learning a musical instrument useful?",
+        "What are the benefits of playing an instrument?",
+        "How can playing music help students?"
+      ],
+      "keywords": ["musical instrument", "relax", "patient", "creative"],
+      "exampleAnswer": "Playing an instrument helps us relax after school, and it teaches us to be patient.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What songs or art activities did you enjoy when you were a small child?", "keywords": ["sing", "draw", "enjoyed", "liked"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should every student learn to play a musical instrument at school? Why or why not?", "keywords": ["musical instrument", "learn", "because"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend wants to go to a pop concert, but you prefer a folk music show. What do you say?", "keywords": ["prefer", "folk music", "not as ... as"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What music does your family like to listen to at home?", "keywords": ["like", "folk music", "pop", "listen"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should schools hold an art exhibition every year? Why or why not?", "keywords": ["exhibition", "students", "because"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your cousin says painting is much easier than playing the guitar. What do you say to him?", "keywords": ["not as ... as", "different from", "practice"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Nói về sở thích nghệ thuật",
+      "contextVi": "Giờ ra chơi, một bạn người nước ngoài trong lớp hỏi em thích loại hình âm nhạc, nghệ thuật nào hơn.",
+      "aiRole": "Nick, an English-speaking classmate who loves music",
+      "studentRoleVi": "Học sinh trong lớp, nói về sở thích của mình",
+      "goalVi": "Trả lời Nick em thích cái nào hơn và giải thích vì sao.",
+      "goal": "Tell Nick which kinds of music and art you prefer and explain why.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng cách nói chọn lựa của bài", "words": ["prefer", "like better"] },
+        { "kind": "reason", "vi": "Nêu ít nhất một lý do (because...)", "words": [] }
+      ],
+      "opener": "Hi! I'm curious. Which do you prefer, pop music or folk music?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Interesting! Why do you like it?",
+        "And which do you like better, painting or taking photos?",
+        "Cool. Maybe we can go to an exhibition together one day."
+      ],
+      "tipsVi": ["Trả lời bằng \"I prefer...\" hoặc \"I like ... better.\"", "Thêm lý do: \"because it has a better beat\"."],
+      "keywords": ["prefer", "like better", "because", "folk music", "painting"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Rủ bạn đi xem nhạc dân gian",
+      "contextVi": "Cuối tuần này có một buổi biểu diễn nhạc dân gian ở nhà văn hóa. Em muốn rủ bạn đi, nhưng bạn chỉ thích nhạc pop.",
+      "aiRole": "Lan, a classmate who only listens to pop music",
+      "studentRoleVi": "Bạn cùng lớp, rủ Lan đi xem nhạc dân gian",
+      "goalVi": "Mời Lan đi xem, nêu lý do buổi diễn đáng xem và trả lời khi Lan chê nhạc dân gian.",
+      "goal": "Invite Lan to the folk music show, explain why it is worth seeing, and answer her opinion politely.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do nên đi xem", "words": [] },
+        { "kind": "keyword", "vi": "Dùng một cấu trúc so sánh của bài", "words": ["as ... as", "different from", "like"] }
+      ],
+      "opener": "A folk music show? Hmm, why do you want to go to that?",
+      "stance": "Folk music is old-fashioned. It's not as exciting as pop music.",
+      "turns": 5,
+      "fallback": [
+        "What's special about it?",
+        "But I think folk music is old-fashioned. It's not as exciting as pop.",
+        "Hmm. Is it really different from what my grandparents listen to?",
+        "OK, I'll come with you. What time does it start?"
+      ],
+      "tipsVi": ["Khi Lan chê, mở đầu bằng \"Maybe, but...\"", "Dùng so sánh: \"It's different from...\", \"It's as fun as...\""],
+      "keywords": ["folk music", "performance", "different from", "as ... as", "because"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Đề xuất vẽ tranh tường",
+      "contextVi": "Bức tường gần cổng trường đã cũ và xấu. Em gặp thầy dạy Mỹ thuật để đề xuất cho học sinh vẽ tranh tường.",
+      "aiRole": "Mr Hung, the art teacher",
+      "studentRoleVi": "Học sinh, đề xuất vẽ tranh tường",
+      "goalVi": "Đề xuất vẽ tranh tường, mô tả ý tưởng, giải thích lợi ích và trả lời băn khoăn của thầy.",
+      "goal": "Suggest painting the old school wall, describe your idea, explain the benefits, and answer the teacher's concern.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra đề xuất cụ thể", "words": [] },
+        { "kind": "reason", "vi": "Giải thích lợi ích", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["painting", "artist", "exhibition", "creative", "painter"] }
+      ],
+      "opener": "Hello. You wanted to talk to me about the old wall near the gate?",
+      "stance": "Paintings on walls can make the school look messy. A clean white wall is better.",
+      "turns": 5,
+      "fallback": [
+        "Interesting. What would you like to paint on it?",
+        "But paintings on walls can look messy. Isn't a clean white wall better?",
+        "Hmm. Who will do the painting?",
+        "OK. Bring me a small drawing of your idea next week."
+      ],
+      "tipsVi": ["Nói lễ phép: \"I think we could...\"", "Mô tả ý tưởng: màu sắc, hình ảnh, ai sẽ vẽ."],
+      "keywords": ["painting", "colourful", "students", "because", "I think we could"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Phỏng vấn trên đài phát thanh trường",
+      "contextVi": "Câu lạc bộ phát thanh của trường phỏng vấn em về loại hình nghệ thuật em yêu thích nhất.",
+      "aiRole": "Phong, a student host of the school radio club",
+      "studentRoleVi": "Học sinh được phỏng vấn",
+      "goalVi": "Giới thiệu loại hình nghệ thuật em thích, so sánh với một loại khác và trả lời khi bạn dẫn có ý kiến khác.",
+      "goal": "Talk about your favourite art form, compare it with another one, and respond to the host's different opinion.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do em thích", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ hoặc cấu trúc của bài", "words": ["prefer", "as ... as", "different from", "perform", "photography"] }
+      ],
+      "opener": "Welcome to our school radio! Today we're talking about arts. What's your favourite art form?",
+      "stance": "Taking photos with a phone is so easy now. I don't think it's real art.",
+      "turns": 5,
+      "fallback": [
+        "Nice! Why do you love it?",
+        "Hmm, but taking photos with a phone is so easy now. Is it really art?",
+        "Good point. How is it different from other art forms?",
+        "Thank you for talking with us today!"
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["prefer", "different from", "as ... as", "because", "creative"]
+    }
+  ]
+}

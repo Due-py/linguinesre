@@ -1,0 +1,384 @@
+{
+  "grade": 8,
+  "unit": 3,
+  "title": "Teenagers",
+  "titleVi": "Tuổi thiếu niên",
+  "edition": "Tiếng Anh 8 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 28–37; Glossary tr. 136–137",
+  "vocab": [
+    { "id": "v01", "en": "account", "vi": "tài khoản", "ipa": "/əˈkaʊnt/", "ipaFrom": "glossary", "pos": "n", "example": "You need an account to join our class forum.", "collocations": ["create an account", "log on to an account"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v02", "en": "browse", "vi": "đọc lướt, tìm (trên mạng)", "ipa": "/braʊz/", "ipaFrom": "glossary", "pos": "v", "example": "I browsed the school website to find the club timetable.", "collocations": ["browse a website", "browse the internet"], "synonyms": ["surf"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v03", "en": "bully", "vi": "bắt nạt", "ipa": "/ˈbʊli/", "ipaFrom": "glossary", "pos": "v", "example": "Nobody should bully younger students.", "collocations": ["bully someone", "be bullied"], "synonyms": ["pick on"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v04", "en": "concentrate", "vi": "tập trung (vào)", "ipa": "/ˈkɒnsntreɪt/", "ipaFrom": "glossary", "pos": "v", "example": "I can't concentrate on my homework when the TV is on.", "collocations": ["concentrate on", "find it hard to concentrate"], "synonyms": ["focus"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v05", "en": "connect", "vi": "kết nối", "ipa": "/kəˈnekt/", "ipaFrom": "glossary", "pos": "v", "example": "I use social media to connect with friends from my old school.", "collocations": ["connect with friends"], "synonyms": ["keep in touch"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v06", "en": "enjoyable", "vi": "thú vị, gây hứng thú", "ipa": "/ɪnˈdʒɔɪəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "The music club activities are very enjoyable.", "collocations": ["an enjoyable activity", "find something enjoyable"], "synonyms": ["fun"], "antonyms": ["boring"], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v07", "en": "expectation", "vi": "sự mong chờ, kì vọng", "ipa": "/ˌekspekˈteɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "My parents have high expectations of me.", "collocations": ["high expectations", "meet someone's expectations"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v08", "en": "focused", "vi": "chuyên tâm, tập trung", "ipa": "/ˈfəʊkəst/", "ipaFrom": "glossary", "pos": "adj", "example": "I turn off my phone to stay focused in class.", "collocations": ["stay focused", "be focused on"], "synonyms": [], "antonyms": ["distracted"], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v09", "en": "forum", "vi": "diễn đàn", "ipa": "/ˈfɔːrəm/", "ipaFrom": "glossary", "pos": "n", "example": "We post questions about homework on our class forum.", "collocations": ["a class forum", "post on a forum"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v10", "en": "log on to", "vi": "đăng nhập", "ipa": "/lɒɡ (ən tə)/", "ipaFrom": "glossary", "pos": "v", "example": "I log on to my account to read the teacher's messages.", "collocations": ["log on to an account", "log on to a website"], "synonyms": ["sign in"], "antonyms": ["log off"], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v11", "en": "mature", "vi": "chín chắn, trưởng thành", "ipa": "/məˈtʃʊə/", "ipaFrom": "glossary", "pos": "adj", "example": "My brother became more mature after he joined the scouts.", "collocations": ["act mature", "more mature"], "synonyms": ["grown-up"], "antonyms": ["childish"], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v12", "en": "notification", "vi": "sự thông báo", "ipa": "/ˌnəʊtɪfɪˈkeɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "I turn off notifications when I do my homework.", "collocations": ["check notifications", "turn off notifications"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v13", "en": "peer", "vi": "người ngang hàng, bạn đồng lứa", "ipa": "/pɪə/", "ipaFrom": "glossary", "pos": "n", "example": "Teenagers often want to be like their peers.", "collocations": ["peer pressure"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v14", "en": "pressure", "vi": "áp lực", "ipa": "/ˈpreʃə/", "ipaFrom": "glossary", "pos": "n", "example": "We have a lot of pressure before the exams.", "collocations": ["peer pressure", "pressure from parents", "under pressure"], "synonyms": ["stress"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v15", "en": "schoolwork", "vi": "bài làm trên lớp", "ipa": "/ˈskuːlwɜːk/", "ipaFrom": "glossary", "pos": "n", "example": "Too much schoolwork can make students tired.", "collocations": ["do schoolwork", "problems with schoolwork"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v16", "en": "stress", "vi": "căng thẳng", "ipa": "/ˈstres/", "ipaFrom": "glossary", "pos": "n", "example": "Playing sport helps me deal with stress.", "collocations": ["deal with stress", "reduce stress"], "synonyms": ["pressure"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v17", "en": "stressful", "vi": "căng thẳng, tạo áp lực", "ipa": "/ˈstresfl/", "ipaFrom": "glossary", "pos": "adj", "example": "The week before the midterm tests is always stressful.", "collocations": ["a stressful week", "find something stressful"], "synonyms": [], "antonyms": ["relaxing"], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v18", "en": "upload", "vi": "tải lên", "ipa": "/ˌʌpˈləʊd/", "ipaFrom": "glossary", "pos": "v", "example": "Our teacher uploaded photos of the school trip.", "collocations": ["upload a photo", "upload a video"], "synonyms": ["post"], "antonyms": ["download"], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v19", "en": "user-friendly", "vi": "thân thiện với người dùng, dễ dùng", "ipa": "/ˌjuːzə ˈfrendli/", "ipaFrom": "glossary", "pos": "adj", "example": "This app is user-friendly, so my grandma can use it too.", "collocations": ["a user-friendly app", "a user-friendly website"], "synonyms": ["easy to use"], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v20", "en": "social media", "vi": "mạng xã hội", "ipa": "/ˌsəʊʃl ˈmiːdiə/", "ipaFrom": "dictionary", "pos": "n", "example": "Many teenagers use social media to share photos.", "collocations": ["use social media", "post on social media"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 32 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Simple sentences",
+      "nameVi": "Câu đơn",
+      "explainVi": "Câu đơn chỉ có một mệnh đề độc lập: một chủ ngữ và một động từ chính (chủ ngữ có thể gồm nhiều người: My friends and I...). Câu đơn phải có đủ chủ ngữ và động từ thì mới đứng một mình được.",
+      "formula": "S + V (+ O / bổ ngữ)",
+      "examples": [
+        "Teenagers love music.",
+        "My friends and I joined the chess club last year.",
+        "She checks her notifications after school."
+      ],
+      "wrong": [
+        { "sentence": "Uploads photos to the class forum every day.", "fix": "She uploads photos to the class forum every day.", "whyVi": "Câu thiếu chủ ngữ; câu đơn phải có cả chủ ngữ và động từ." },
+        { "sentence": "My sister very stressed before exams.", "fix": "My sister is very stressed before exams.", "whyVi": "Câu thiếu động từ is." }
+      ],
+      "drills": [
+        { "prompt": "Which is a simple sentence?", "options": ["Teens love music.", "Teens love music, so they join the club.", "I was tired, but I finished my homework."], "answer": 0, "explainVi": "\"Teens love music.\" chỉ có một mệnh đề; hai câu kia có hai mệnh đề nối bằng so, but." },
+        { "prompt": "Which is NOT a complete sentence?", "options": ["My friends and I joined the art club.", "Uploads photos every day.", "She checks her notifications after school."], "answer": 1, "explainVi": "\"Uploads photos every day.\" thiếu chủ ngữ nên chưa thành câu." },
+        { "prompt": "How many independent clauses does a simple sentence have?", "options": ["one", "two", "three"], "answer": 0, "explainVi": "Câu đơn chỉ có một mệnh đề độc lập." }
+      ],
+      "errorTag": "missing_word",
+      "src": { "kind": "sgk", "page": 31 }
+    },
+    {
+      "id": "g02",
+      "name": "Compound sentences with for, and, but, or, so",
+      "nameVi": "Câu ghép với liên từ for, and, but, or, so",
+      "explainVi": "Câu ghép gồm hai mệnh đề độc lập nối bằng liên từ: and (và, thêm ý), but (nhưng, ý trái ngược), or (hoặc, nếu không thì), so (vì vậy, kết quả), for (vì, lý do). Thường có dấu phẩy trước liên từ.",
+      "formula": "Mệnh đề 1, + for / and / but / or / so + mệnh đề 2",
+      "examples": [
+        "I wanted to join the chess club, but it was full.",
+        "She was tired, so she went to bed early.",
+        "Hurry up, or you will be late for the club meeting."
+      ],
+      "wrong": [
+        { "sentence": "I felt stressed, but I talked to my mum.", "fix": "I felt stressed, so I talked to my mum.", "whyVi": "Nói chuyện với mẹ là KẾT QUẢ của việc căng thẳng nên dùng so, không dùng but." },
+        { "sentence": "He is a club member, so he never joins any activities.", "fix": "He is a club member, but he never joins any activities.", "whyVi": "Hai ý trái ngược nhau nên dùng but." }
+      ],
+      "drills": [
+        { "prompt": "I wanted to join the chess club, ___ it was full.", "options": ["but", "so", "or"], "answer": 0, "explainVi": "Hai ý trái ngược (muốn vào nhưng đã đủ người): dùng but." },
+        { "prompt": "She was very tired, ___ she went to bed early.", "options": ["so", "for", "but"], "answer": 0, "explainVi": "Đi ngủ sớm là kết quả của việc mệt: dùng so." },
+        { "prompt": "Turn off your phone, ___ you can't concentrate.", "options": ["or", "and", "so"], "answer": 0, "explainVi": "or ở đây nghĩa là \"nếu không thì\"." },
+        { "prompt": "Mai joined the music club, ___ she loves singing.", "options": ["for", "or", "but"], "answer": 0, "explainVi": "for nghĩa là \"vì\", nêu lý do Mai vào câu lạc bộ âm nhạc." }
+      ],
+      "errorTag": "conjunction",
+      "src": { "kind": "sgk", "page": 31 }
+    },
+    {
+      "id": "g03",
+      "name": "Compound sentences with however, therefore, otherwise",
+      "nameVi": "Câu ghép với trạng từ nối however, therefore, otherwise",
+      "explainVi": "Hai mệnh đề độc lập cũng có thể nối bằng trạng từ nối: however (tuy nhiên), therefore (vì vậy), otherwise (nếu không thì). Thường đặt dấu chấm phẩy trước và dấu phẩy sau trạng từ nối.",
+      "formula": "Mệnh đề 1; however / therefore / otherwise, mệnh đề 2",
+      "examples": [
+        "Lan practises the piano every day; therefore, she plays very well.",
+        "Social media is useful; however, it can waste our time.",
+        "You should sleep early; otherwise, you'll feel tired in class."
+      ],
+      "wrong": [
+        { "sentence": "He felt stressed; however, he talked to his teacher.", "fix": "He felt stressed; therefore, he talked to his teacher.", "whyVi": "Nói chuyện với thầy cô là kết quả của việc căng thẳng nên dùng therefore." },
+        { "sentence": "Study harder; therefore, you may fail the test.", "fix": "Study harder; otherwise, you may fail the test.", "whyVi": "Nghĩa là \"nếu không thì\" nên dùng otherwise." }
+      ],
+      "drills": [
+        { "prompt": "He felt stressed; ___, he talked to his teacher.", "options": ["therefore", "however", "otherwise"], "answer": 0, "explainVi": "Kết quả của việc căng thẳng: dùng therefore." },
+        { "prompt": "The forum is useful; ___, some posts are not true.", "options": ["however", "therefore", "otherwise"], "answer": 0, "explainVi": "Hai ý trái ngược: dùng however." },
+        { "prompt": "Write down your password; ___, you may forget it.", "options": ["otherwise", "however", "therefore"], "answer": 0, "explainVi": "otherwise nghĩa là \"nếu không thì\"." }
+      ],
+      "errorTag": "conjunction",
+      "src": { "kind": "sgk", "page": 31 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Âm /ʊə/",
+      "tipVi": "/ʊə/ là nguyên âm đôi: bắt đầu bằng /ʊ/ (u ngắn) rồi trượt nhẹ sang /ə/ (ơ). Đọc liền một hơi: sure /ʃʊə/, mature /məˈtʃʊə/.",
+      "words": ["sure", "tourist", "ensure", "tournament", "mature"],
+      "sentence": "I'm sure our team will win the chess tournament.",
+      "quiz": [
+        { "prompt": "Which word has the sound /ʊə/?", "options": ["mature", "media", "forum"], "answer": 0, "explainVi": "mature /məˈtʃʊə/ có âm /ʊə/; media /ˈmiːdiə/ và forum /ˈfɔːrəm/ không có." }
+      ],
+      "src": { "kind": "sgk", "page": 30 }
+    },
+    {
+      "id": "p02",
+      "kind": "sound",
+      "focus": "Âm /ɔɪ/",
+      "tipVi": "/ɔɪ/ là nguyên âm đôi: bắt đầu bằng /ɔ/ (o tròn môi) rồi trượt sang /ɪ/ (i ngắn), gần giống \"oi\" trong tiếng Việt: boy, toy, choice.",
+      "words": ["boy", "toy", "avoid", "choice", "enjoyable", "noisy"],
+      "sentence": "The boys made a noisy choice of music.",
+      "quiz": [
+        { "prompt": "Which word has the sound /ɔɪ/?", "options": ["choice", "chose", "church"], "answer": 0, "explainVi": "choice /tʃɔɪs/ có âm /ɔɪ/; chose /tʃəʊz/ và church /tʃɜːtʃ/ thì không." },
+        { "prompt": "Which word does NOT have the sound /ɔɪ/?", "options": ["avoid", "enjoyable", "account"], "answer": 2, "explainVi": "account /əˈkaʊnt/ có âm /aʊ/; avoid và enjoyable có âm /ɔɪ/." }
+      ],
+      "src": { "kind": "sgk", "page": 30 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "concentrate, pressure, forum nhấn âm đầu; account, connect, upload nhấn âm thứ hai; expectation, notification nhấn vào âm -ta-, -ca- (ngay trước -tion).",
+      "words": ["concentrate", "pressure", "account", "connect", "expectation", "notification"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["concentrate", "connect", "expectation"], "answer": 0, "explainVi": "concentrate /ˈkɒnsntreɪt/ nhấn âm đầu." },
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["account", "forum", "pressure"], "answer": 0, "explainVi": "account /əˈkaʊnt/ nhấn âm thứ hai; forum và pressure nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Ngữ điệu lời đề nghị lịch sự",
+      "tipVi": "Câu đề nghị Can you...? / Could you...? thường lên giọng ở cuối câu. Thêm please và nói chậm, nhẹ nhàng để lịch sự hơn.",
+      "words": ["Can you help me, please?", "Could you tell me more, please?"],
+      "sentence": "Could you tell me when the art club meets, please?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Can you tell me more about ..., please?", "vi": "Bạn có thể cho mình biết thêm về ... được không?", "useVi": "Khi lịch sự xin thêm thông tin.", "example": "Can you tell me more about the drama club, please?", "src": { "kind": "sgk", "page": 32 } },
+    { "id": "e02", "en": "Could you ..., please?", "vi": "Bạn/Thầy/Cô có thể ... được không ạ?", "useVi": "Khi đề nghị ai đó giúp mình một cách rất lịch sự.", "example": "Could you show me the way to the library, please?", "src": { "kind": "sgk", "page": 32 } },
+    { "id": "e03", "en": "Certainly.", "vi": "Chắc chắn rồi. / Được chứ.", "useVi": "Khi đồng ý giúp người khác.", "example": "Certainly. The club meets on Tuesday afternoons.", "src": { "kind": "sgk", "page": 32 } },
+    { "id": "e04", "en": "I feel stressed when ...", "vi": "Mình thấy căng thẳng khi ...", "useVi": "Khi nói điều làm mình căng thẳng.", "example": "I feel stressed when I have three tests in one week.", "src": { "kind": "team", "page": null } },
+    { "id": "e05", "en": "It helps me relax.", "vi": "Việc đó giúp mình thư giãn.", "useVi": "Khi nói một hoạt động giúp mình bớt căng thẳng.", "example": "I play the guitar after dinner. It helps me relax.", "src": { "kind": "team", "page": null } },
+    { "id": "e06", "en": "I'd like to join ... because ...", "vi": "Mình muốn tham gia ... vì ...", "useVi": "Khi nói mình muốn vào câu lạc bộ nào và lý do.", "example": "I'd like to join the language club because I want to speak English better.", "src": { "kind": "team", "page": null } },
+    { "id": "e07", "en": "What do you think I should do?", "vi": "Bạn nghĩ mình nên làm gì?", "useVi": "Khi xin lời khuyên.", "example": "I can't concentrate at home. What do you think I should do?", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "Don't worry. You can ...", "vi": "Đừng lo. Bạn có thể ...", "useVi": "Khi an ủi và đưa ra gợi ý cho bạn.", "example": "Don't worry. You can talk to our teacher about it.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["I wanted to join", "the chess club,", "but it", "was already full"], "vi": "Mình muốn vào câu lạc bộ cờ vua nhưng nó đã đủ người.", "grammarId": "g02" },
+    { "id": "b02", "chunks": ["She had a test", "the next day,", "so she turned off", "her phone"], "vi": "Bạn ấy có bài kiểm tra vào hôm sau nên đã tắt điện thoại.", "grammarId": "g02" },
+    { "id": "b03", "chunks": ["Social media is useful;", "however,", "it can waste", "a lot of time"], "vi": "Mạng xã hội hữu ích; tuy nhiên, nó có thể làm mất nhiều thời gian.", "grammarId": "g03" },
+    { "id": "b04", "chunks": ["You should sleep early;", "otherwise,", "you will feel tired", "in class"], "vi": "Bạn nên ngủ sớm; nếu không, bạn sẽ thấy mệt trong lớp.", "grammarId": "g03" },
+    { "id": "b05", "chunks": ["My friends and I", "upload our drawings", "to the class forum"], "vi": "Mình và các bạn tải tranh vẽ lên diễn đàn lớp.", "grammarId": "g01" },
+    { "id": "b06", "chunks": ["I log on to", "my account", "and check", "my notifications"], "vi": "Mình đăng nhập tài khoản và kiểm tra thông báo.", "grammarId": null },
+    { "id": "b07", "chunks": ["Exams are stressful;", "therefore,", "we need", "time to relax"], "vi": "Thi cử căng thẳng; vì vậy, chúng ta cần thời gian thư giãn.", "grammarId": "g03" },
+    { "id": "b08", "chunks": ["Can you tell me", "more about", "the music club,", "please?"], "vi": "Bạn có thể cho mình biết thêm về câu lạc bộ âm nhạc được không?", "grammarId": null }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I joined a club.",
+      "steps": [
+        { "askVi": "Câu lạc bộ gì?", "ask": "Which club?", "add": "the arts and crafts" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last month" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because I love making things" }
+      ],
+      "full": "I joined the arts and crafts club last month because I love making things."
+    },
+    {
+      "id": "x02",
+      "base": "I feel stressed.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "before the midterm tests" },
+        { "askVi": "Em làm gì khi đó?", "ask": "What do you do?", "add": "so I go for a walk with my dog" }
+      ],
+      "full": "I feel stressed before the midterm tests, so I go for a walk with my dog."
+    },
+    {
+      "id": "x03",
+      "base": "I use social media.",
+      "steps": [
+        { "askVi": "Để làm gì?", "ask": "What for?", "add": "to connect with my cousins" },
+        { "askVi": "Bao lâu?", "ask": "How long?", "add": "for about thirty minutes a day" }
+      ],
+      "full": "I use social media to connect with my cousins for about thirty minutes a day."
+    },
+    {
+      "id": "x04",
+      "base": "I turn off notifications.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "when I do my homework" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because I want to stay focused" }
+      ],
+      "full": "I turn off notifications when I do my homework because I want to stay focused."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Hoạt động của một câu lạc bộ ở trường",
+      "questions": [
+        "What activities does your favourite school club do?",
+        "What do members of a club at your school usually do together?",
+        "Tell me about the activities of one club at your school."
+      ],
+      "keywords": ["club", "members", "competition", "enjoyable"],
+      "exampleAnswer": "Our English club meets every Friday. We play word games, watch short films and sometimes have speaking competitions.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Em làm gì khi lên mạng",
+      "questions": [
+        "What do you usually post or share online?",
+        "How do you use the internet to connect with friends?",
+        "What do you do when you log on to your favourite app?"
+      ],
+      "keywords": ["upload", "browse", "connect", "notifications"],
+      "exampleAnswer": "I log on to check notifications, then I browse my friends' posts and sometimes upload my drawings.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Nguồn gốc áp lực của học sinh",
+      "questions": [
+        "Where does the pressure on students come from?",
+        "Why do some young people find tests stressful?",
+        "What causes stress for students your age?"
+      ],
+      "keywords": ["pressure", "expectations", "schoolwork", "peers"],
+      "exampleAnswer": "Students feel pressure from schoolwork and tests. Some parents also have very high expectations, so students worry a lot.",
+      "expectsReason": true
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Giữ tập trung khi học",
+      "questions": [
+        "How do you stay focused when you do your homework?",
+        "What helps you concentrate in class?",
+        "What do you do to avoid distractions while studying?"
+      ],
+      "keywords": ["concentrate", "focused", "turn off", "notifications"],
+      "exampleAnswer": "I turn off notifications and put my phone in another room, so I can concentrate better.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Vì sao bắt nạt là vấn đề nghiêm trọng",
+      "questions": [
+        "Why is bullying a serious problem at school?",
+        "How does bullying hurt young people?",
+        "Why should students speak up when they see bullying?"
+      ],
+      "keywords": ["bully", "sad", "afraid", "teacher"],
+      "exampleAnswer": "Bullying makes students feel sad and afraid, so they may stop going to school. We should tell a teacher.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What do you usually do when you have a break between lessons?", "keywords": ["chat", "play", "library"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should schools let students create their own clubs? Why or why not?", "keywords": ["club", "interests", "leaders"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend is often bullied by an older student. What do you say to your friend?", "keywords": ["bully", "tell a teacher", "don't worry"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What do you usually talk about with your classmates at lunchtime?", "keywords": ["films", "games", "schoolwork"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should parents check their children's social media accounts? Why or why not?", "keywords": ["account", "safe", "privacy"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your cousin feels nervous before his first day at a new school. What do you say to him?", "keywords": ["don't worry", "make friends", "join a club"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Hỏi về câu lạc bộ",
+      "contextVi": "Trường em có ngày giới thiệu câu lạc bộ. Em đến gian hàng của câu lạc bộ Mỹ thuật và Thủ công để hỏi thông tin.",
+      "aiRole": "Linh, leader of the school's arts and crafts club",
+      "studentRoleVi": "Học sinh muốn tìm hiểu câu lạc bộ",
+      "goalVi": "Hỏi lịch sinh hoạt và hoạt động của câu lạc bộ một cách lịch sự, rồi nói vì sao em muốn tham gia.",
+      "goal": "Politely ask about the club's meeting times and activities, then say why you want to join.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nói vì sao em muốn tham gia (because...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một cách hỏi lịch sự", "words": ["Can you", "Could you", "please"] }
+      ],
+      "opener": "Hi there! Welcome to the arts and crafts club. What would you like to know?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Certainly. We meet every Wednesday afternoon. What else would you like to know?",
+        "We make paper flowers, cards and small gifts. Why are you interested in our club?",
+        "Great! Would you like to join our next meeting?"
+      ],
+      "tipsVi": ["Hỏi lịch sự: \"Can you tell me more about..., please?\"", "Nêu lý do muốn tham gia với \"because...\"."],
+      "keywords": ["Could you", "please", "join", "because"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Câu lạc bộ có tốn thời gian?",
+      "contextVi": "Em rủ một bạn cùng lớp tham gia câu lạc bộ với mình, nhưng bạn nghĩ học sinh chỉ nên tập trung học.",
+      "aiRole": "Phong, a hard-working classmate who only wants to study",
+      "studentRoleVi": "Bạn cùng lớp rủ Phong tham gia câu lạc bộ",
+      "goalVi": "Thuyết phục Phong tham gia câu lạc bộ: nêu lợi ích, ví dụ, và trả lời khi Phong phản đối.",
+      "goal": "Persuade Phong to join a school club: give benefits and an example, and answer his objection politely.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lợi ích của câu lạc bộ", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["stress", "pressure", "enjoyable", "relax", "connect"] }
+      ],
+      "opener": "You keep asking me to join your club. Can you tell me why I should?",
+      "stance": "Clubs take too much time. Students should only focus on their schoolwork.",
+      "turns": 5,
+      "fallback": [
+        "Hmm. What do members actually do there?",
+        "But clubs take too much time. I think students should only focus on schoolwork.",
+        "OK, that makes sense. How much time does it take each week?",
+        "Fine, I'll come to one meeting and see."
+      ],
+      "tipsVi": ["Khi Phong phản đối, mở đầu bằng \"I see your point; however,...\"", "Nói về lợi ích: giảm căng thẳng, kết bạn, học kỹ năng mới."],
+      "keywords": ["however", "relax", "make friends", "because"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Nói chuyện với mẹ về mạng xã hội",
+      "contextVi": "Mẹ em lo em dùng mạng xã hội quá nhiều và muốn em ngừng dùng. Em muốn giải thích cách em dùng mạng một cách hợp lý.",
+      "aiRole": "Your mother, who worries about social media",
+      "studentRoleVi": "Con trong gia đình, giải thích cách dùng mạng xã hội",
+      "goalVi": "Giải thích em dùng mạng xã hội để làm gì, đề xuất một quy tắc hợp lý, và trả lời khi mẹ phản đối.",
+      "goal": "Explain how you use social media, suggest a fair rule, and answer Mum's worry politely.",
+      "requirements": [
+        { "kind": "example", "vi": "Đưa ví dụ em dùng mạng để làm gì", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất một quy tắc (ví dụ: chỉ dùng 30 phút mỗi ngày)", "words": [] }
+      ],
+      "opener": "I see you on your phone every evening. What do you do online all the time?",
+      "stance": "Social media is a waste of time for teenagers. You should stop using it.",
+      "turns": 5,
+      "fallback": [
+        "I see. But how much time do you spend on it?",
+        "I still think social media is a waste of time for teenagers. Maybe you should stop using it.",
+        "Hmm, that sounds fair. How will you keep the rule?",
+        "OK, let's try it for one month."
+      ],
+      "tipsVi": ["Nói lịch sự, bình tĩnh với mẹ.", "Đề xuất cụ thể: giờ dùng, nơi để điện thoại khi học."],
+      "keywords": ["connect", "upload", "however", "I promise"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Lời khuyên cho em lớp 6",
+      "contextVi": "Một em lớp 6 trong câu lạc bộ của em thấy rất căng thẳng vì sắp thi giữa kỳ và muốn bỏ hết sở thích để học. Em cho em ấy lời khuyên.",
+      "aiRole": "Bao, a grade 6 student who feels stressed about the midterm tests",
+      "studentRoleVi": "Anh/chị lớp 8 trong câu lạc bộ",
+      "goalVi": "Cho Bao lời khuyên để bớt căng thẳng, giải thích vì sao, và trả lời khi Bao muốn bỏ hết sở thích.",
+      "goal": "Give Bao advice to reduce stress, explain why, and respond when he wants to stop all his hobbies.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra lời khuyên", "words": [] },
+        { "kind": "reason", "vi": "Giải thích vì sao", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["stress", "stressful", "concentrate", "focused", "pressure", "relax"] }
+      ],
+      "opener": "The midterm tests are next week, and I'm really worried. I can't sleep well. What can I do?",
+      "stance": "I think I should stop all my hobbies and study all day until the tests.",
+      "turns": 5,
+      "fallback": [
+        "That's a good idea. Why will it help me?",
+        "But I think I should stop all my hobbies and study all day until the tests. Is that better?",
+        "Hmm, OK. What should I do the night before the test?",
+        "Thank you. I feel much better now."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["stress", "relax", "otherwise", "because"]
+    }
+  ]
+}

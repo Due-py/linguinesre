@@ -1,0 +1,365 @@
+{
+  "grade": 10,
+  "unit": 6,
+  "title": "Gender Equality",
+  "titleVi": "Bình đẳng giới",
+  "edition": "Tiếng Anh 10 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 66–75; Glossary tr. 128",
+  "vocab": [
+    { "id": "v01", "en": "equal", "vi": "bằng nhau, bình đẳng", "ipa": "/ˈiːkwəl/", "ipaFrom": "glossary", "pos": "adj", "example": "Boys and girls should have equal chances to join every school club.", "collocations": ["equal rights", "equal opportunities", "equal pay"], "synonyms": ["the same"], "antonyms": ["unequal"], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v02", "en": "equality", "vi": "sự bình đẳng", "ipa": "/iˈkwɒləti/", "ipaFrom": "glossary", "pos": "n", "example": "Our school supports gender equality in sport and in class activities.", "collocations": ["gender equality", "promote equality"], "synonyms": [], "antonyms": ["inequality"], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v03", "en": "gender", "vi": "giới, giới tính", "ipa": "/ˈdʒendə/", "ipaFrom": "dictionary", "pos": "n", "example": "Nobody should lose a job because of their gender.", "collocations": ["gender equality", "gender roles"], "synonyms": ["sex"], "antonyms": [], "src": { "kind": "sgk", "page": 67 } },
+    { "id": "v04", "en": "treat", "vi": "đối xử", "ipa": "/triːt/", "ipaFrom": "dictionary", "pos": "v", "example": "Our teachers treat boys and girls in the same way.", "collocations": ["treat equally", "treat somebody fairly"], "synonyms": ["deal with"], "antonyms": [], "src": { "kind": "sgk", "page": 67 } },
+    { "id": "v05", "en": "kindergarten", "vi": "trường mẫu giáo", "ipa": "/ˈkɪndəgɑːtn/", "ipaFrom": "glossary", "pos": "n", "example": "My uncle works as a kindergarten teacher, and the children love him.", "collocations": ["kindergarten teacher", "go to kindergarten"], "synonyms": ["nursery school"], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v06", "en": "surgeon", "vi": "bác sĩ phẫu thuật", "ipa": "/ˈsɜːdʒən/", "ipaFrom": "glossary", "pos": "n", "example": "She studied for many years to become a surgeon.", "collocations": ["a skilful surgeon", "become a surgeon"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v07", "en": "operation", "vi": "cuộc phẫu thuật", "ipa": "/ˌɒpəˈreɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "The doctor performed a long operation on my grandpa last week.", "collocations": ["perform an operation", "have an operation"], "synonyms": ["surgery"], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v08", "en": "patient", "vi": "bệnh nhân", "ipa": "/ˈpeɪʃnt/", "ipaFrom": "glossary", "pos": "n", "example": "A good doctor listens carefully to every patient.", "collocations": ["take care of patients"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v09", "en": "pilot", "vi": "phi công", "ipa": "/ˈpaɪlət/", "ipaFrom": "glossary", "pos": "n", "example": "More and more women are working as airline pilots.", "collocations": ["airline pilot", "fighter pilot"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v10", "en": "firefighter", "vi": "lính cứu hoả / chữa cháy", "ipa": "/ˈfaɪəfaɪtə/", "ipaFrom": "glossary", "pos": "n", "example": "A firefighter must stay calm in dangerous situations.", "collocations": ["a brave firefighter"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v11", "en": "secretary", "vi": "thư kí", "ipa": "/ˈsekrətri/", "ipaFrom": "glossary", "pos": "n", "example": "The secretary keeps notes at every class meeting.", "collocations": ["class secretary", "work as a secretary"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v12", "en": "shop assistant", "vi": "nhân viên, người bán hàng", "ipa": "/ʃɒp əˈsɪstənt/", "ipaFrom": "glossary", "pos": "n", "example": "The shop assistant helped me find a jacket in my size.", "collocations": ["work as a shop assistant"], "synonyms": ["salesperson"], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v13", "en": "officer", "vi": "sĩ quan", "ipa": "/ˈɒfɪsə/", "ipaFrom": "glossary", "pos": "n", "example": "Her mother is an officer in the army.", "collocations": ["police officer", "army officer"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v14", "en": "skilful", "vi": "lành nghề, khéo léo", "ipa": "/ˈskɪlfl/", "ipaFrom": "glossary", "pos": "adj", "example": "My aunt is a skilful mechanic who can repair any motorbike.", "collocations": ["a skilful worker", "skilful hands"], "synonyms": ["skilled"], "antonyms": ["unskilled"], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v15", "en": "physical", "vi": "(thuộc) thể chất", "ipa": "/ˈfɪzɪkl/", "ipaFrom": "glossary", "pos": "adj", "example": "Some jobs need a lot of physical strength.", "collocations": ["physical strength", "physical work"], "synonyms": [], "antonyms": ["mental"], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v16", "en": "mental", "vi": "(thuộc) tinh thần, tâm thần", "ipa": "/ˈmentl/", "ipaFrom": "glossary", "pos": "adj", "example": "Doctors need mental strength to work long hours.", "collocations": ["mental strength", "mental health"], "synonyms": [], "antonyms": ["physical"], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v17", "en": "eyesight", "vi": "thị lực", "ipa": "/ˈaɪsaɪt/", "ipaFrom": "glossary", "pos": "n", "example": "Pilots must have very good eyesight.", "collocations": ["good eyesight", "poor eyesight"], "synonyms": ["vision"], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v18", "en": "cosmonaut", "vi": "nhà du hành vũ trụ", "ipa": "/ˈkɒzmənɔːt/", "ipaFrom": "glossary", "pos": "n", "example": "The cosmonaut trained for years before her flight into space.", "collocations": ["a female cosmonaut"], "synonyms": ["astronaut"], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v19", "en": "domestic violence", "vi": "bạo lực gia đình", "ipa": "/dəˈmestɪk ˈvaɪələns/", "ipaFrom": "glossary", "pos": "n", "example": "Domestic violence is never acceptable in any family.", "collocations": ["stop domestic violence", "victims of domestic violence"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v20", "en": "victim", "vi": "nạn nhân", "ipa": "/ˈvɪktɪm/", "ipaFrom": "glossary", "pos": "n", "example": "The victims of violence should be given help and support.", "collocations": ["help the victims"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 128 } },
+    { "id": "v21", "en": "uneducated", "vi": "được học ít, không được học", "ipa": "/ʌnˈedʒukeɪtɪd/", "ipaFrom": "glossary", "pos": "adj", "example": "In the past, many girls in poor areas stayed uneducated.", "collocations": ["uneducated girls"], "synonyms": [], "antonyms": ["educated"], "src": { "kind": "sgk", "page": 128 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Passive voice with modals",
+      "nameVi": "Câu bị động với động từ khuyết thiếu",
+      "explainVi": "Dùng câu bị động khi muốn nhấn mạnh việc được làm, không cần nói rõ ai làm. Với động từ khuyết thiếu (can, could, may, might, must, ought to, should), câu bị động có dạng: modal + be + V3/V-ed. Chữ be luôn giữ nguyên, không đổi thành is/are. Muốn nói ai làm thì thêm by + người làm ở cuối câu.",
+      "formula": "S + can/could/may/might/must/ought to/should + be + V3/V-ed (+ by ...)",
+      "examples": [
+        "Girls and boys should be given the same chances in sport.",
+        "Housework can be done by every member of the family.",
+        "Class jobs must be shared fairly."
+      ],
+      "wrong": [
+        { "sentence": "Girls should given more chances to study science.", "fix": "Girls should be given more chances to study science.", "whyVi": "Câu bị động với modal phải có be: should be given." },
+        { "sentence": "Housework can be share by everyone.", "fix": "Housework can be shared by everyone.", "whyVi": "Sau be phải là quá khứ phân từ (V3): shared." },
+        { "sentence": "Women should are paid the same as men.", "fix": "Women should be paid the same as men.", "whyVi": "Sau should luôn dùng be nguyên mẫu, không dùng are." }
+      ],
+      "drills": [
+        { "prompt": "Women ___ the same pay as men for the same job.", "options": ["should be given", "should give", "should be give"], "answer": 0, "explainVi": "Phụ nữ ĐƯỢC trả lương: bị động should + be + V3 (given)." },
+        { "prompt": "Housework ___ by all family members.", "options": ["can be done", "can do", "can be did"], "answer": 0, "explainVi": "Việc nhà được làm: can + be + V3 (done)." },
+        { "prompt": "Which sentence is correct?", "options": ["The report must be finish by April.", "The report must be finished by April.", "The report must finished by April."], "answer": 1, "explainVi": "must + be + V3: must be finished." },
+        { "prompt": "Men ___ as kindergarten teachers too.", "options": ["can work", "can be worked"], "answer": 0, "explainVi": "Đàn ông tự làm việc (chủ động), nên dùng can work, không dùng bị động." }
+      ],
+      "errorTag": "verb_form",
+      "src": { "kind": "sgk", "page": 68 }
+    },
+    {
+      "id": "g02",
+      "name": "Present simple passive (am/is/are + past participle)",
+      "nameVi": "Bị động thì hiện tại đơn",
+      "explainVi": "Dùng khi nói về việc thường được làm, được đối xử thế nào. Chủ ngữ số ít dùng is, số nhiều dùng are, rồi đến động từ ở dạng V3/V-ed. Rất hay dùng khi kể về lớp em: được chọn, được đối xử, được giao việc.",
+      "formula": "S + am/is/are + V3/V-ed (+ by ...)",
+      "examples": [
+        "In my class, boys and girls are treated equally.",
+        "Our class monitor is chosen by all the students."
+      ],
+      "wrong": [
+        { "sentence": "Boys and girls is treated equally in my school.", "fix": "Boys and girls are treated equally in my school.", "whyVi": "Chủ ngữ số nhiều (boys and girls) đi với are." },
+        { "sentence": "The cooking is do by my dad.", "fix": "The cooking is done by my dad.", "whyVi": "Sau is phải là V3: done." }
+      ],
+      "drills": [
+        { "prompt": "Our class leaders ___ by the students every year.", "options": ["are chosen", "is chosen", "are choose"], "answer": 0, "explainVi": "Chủ ngữ số nhiều (leaders) + are + V3 (chosen)." },
+        { "prompt": "In my family, the washing-up ___ by my brother.", "options": ["is done", "are done", "is do"], "answer": 0, "explainVi": "the washing-up là số ít: is + done." }
+      ],
+      "errorTag": "subject_verb",
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "word_stress",
+      "focus": "Trọng âm tính từ ba âm tiết",
+      "tipVi": "Tính từ ba âm tiết không có một quy tắc chung: medical, opposite, physical nhấn âm đầu; expensive, fantastic, important nhấn âm thứ hai. Hãy học trọng âm cùng với từ và đọc âm được nhấn to, dài hơn.",
+      "words": ["expensive", "fantastic", "medical", "opposite", "physical", "important"],
+      "sentence": "A medical career can be expensive but fantastic.",
+      "quiz": [
+        { "prompt": "Which adjective is stressed on the FIRST syllable?", "options": ["medical", "expensive", "fantastic"], "answer": 0, "explainVi": "medical /ˈmedɪkl/ nhấn âm đầu; expensive và fantastic nhấn âm thứ hai." },
+        { "prompt": "Which adjective is stressed on the SECOND syllable?", "options": ["opposite", "physical", "important"], "answer": 2, "explainVi": "important /ɪmˈpɔːtnt/ nhấn âm thứ hai; opposite và physical nhấn âm đầu." }
+      ],
+      "src": { "kind": "sgk", "page": 67 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Trọng âm động từ ba âm tiết",
+      "tipVi": "organise, benefit, celebrate nhấn âm đầu; develop, encourage, discover nhấn âm thứ hai. Âm không nhấn thường đọc nhẹ thành /ə/ hoặc /ɪ/.",
+      "words": ["organise", "benefit", "develop", "encourage", "celebrate", "discover"],
+      "sentence": "Our school will organise a talk to encourage girls to study science.",
+      "quiz": [
+        { "prompt": "Which verb is stressed on the SECOND syllable?", "options": ["develop", "organise", "benefit"], "answer": 0, "explainVi": "develop /dɪˈveləp/ nhấn âm thứ hai; organise và benefit nhấn âm đầu." },
+        { "prompt": "Which verb is stressed on the FIRST syllable?", "options": ["celebrate", "discover", "encourage"], "answer": 0, "explainVi": "celebrate /ˈselɪbreɪt/ nhấn âm đầu; discover và encourage nhấn âm thứ hai." }
+      ],
+      "src": { "kind": "sgk", "page": 67 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới trong bài",
+      "tipVi": "Nhìn dấu ˈ trong phiên âm: kindergarten, firefighter, secretary, surgeon nhấn âm đầu; equality nhấn âm thứ hai; uneducated nhấn âm thứ hai (ed).",
+      "words": ["kindergarten", "firefighter", "secretary", "surgeon", "equality", "uneducated"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["equality", "secretary", "firefighter"], "answer": 0, "explainVi": "equality /iˈkwɒləti/ nhấn âm thứ hai; secretary và firefighter nhấn âm đầu." },
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["kindergarten", "uneducated", "equality"], "answer": 0, "explainVi": "kindergarten /ˈkɪndəgɑːtn/ nhấn âm đầu; uneducated /ʌnˈedʒukeɪtɪd/ nhấn âm thứ hai." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Ngữ điệu khi đồng ý và không đồng ý",
+      "tipVi": "Khi đồng ý, xuống giọng chắc chắn ở cuối: Absolutely. Khi không đồng ý, nói chậm và nhẹ nhàng ở phần đầu (I'm afraid...) rồi nhấn vào ý chính để giữ lịch sự.",
+      "words": ["Absolutely.", "I couldn't agree more.", "I'm afraid I disagree."],
+      "sentence": "I'm afraid I disagree. Women can be great pilots too.",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "You're right.", "vi": "Bạn nói đúng.", "useVi": "Khi đồng ý với ý kiến của người khác.", "example": "You're right. Housework should be shared by everyone.", "src": { "kind": "sgk", "page": 73 } },
+    { "id": "e02", "en": "I couldn't agree more.", "vi": "Mình hoàn toàn đồng ý.", "useVi": "Khi đồng ý rất mạnh.", "example": "I couldn't agree more. Girls should be given the same chances.", "src": { "kind": "sgk", "page": 73 } },
+    { "id": "e03", "en": "Absolutely.", "vi": "Chắc chắn rồi. / Hoàn toàn đúng.", "useVi": "Khi đồng ý ngắn gọn, dứt khoát.", "example": "Absolutely. Anyone can be a good surgeon with the right training.", "src": { "kind": "sgk", "page": 73 } },
+    { "id": "e04", "en": "That's not true.", "vi": "Điều đó không đúng.", "useVi": "Khi không đồng ý rõ ràng (nên dùng với bạn bè, nói nhẹ nhàng).", "example": "That's not true. Many women are skilful engineers.", "src": { "kind": "sgk", "page": 73 } },
+    { "id": "e05", "en": "I'm afraid I disagree.", "vi": "Mình e là mình không đồng ý.", "useVi": "Khi không đồng ý một cách lịch sự.", "example": "I'm afraid I disagree. Men can be great kindergarten teachers.", "src": { "kind": "sgk", "page": 73 } },
+    { "id": "e06", "en": "I'm sorry, but ...", "vi": "Xin lỗi, nhưng ...", "useVi": "Khi muốn phản đối nhẹ nhàng rồi nêu ý của mình.", "example": "I'm sorry, but I think that job can be done by women too.", "src": { "kind": "sgk", "page": 73 } },
+    { "id": "e07", "en": "In my opinion, ...", "vi": "Theo mình, ...", "useVi": "Khi nêu ý kiến riêng.", "example": "In my opinion, class jobs should be shared fairly.", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "It depends on the person, not the gender.", "vi": "Điều đó phụ thuộc vào từng người, không phải giới tính.", "useVi": "Khi muốn nói khả năng làm việc không do giới tính quyết định.", "example": "Can girls be good firefighters? It depends on the person, not the gender.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "For example, ...", "vi": "Ví dụ, ...", "useVi": "Khi đưa ví dụ để ý kiến thuyết phục hơn.", "example": "For example, my aunt is a pilot and she loves her job.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but strength is not the only thing a firefighter needs.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["Girls", "should be given", "the same chances", "to study science"], "vi": "Con gái nên được trao cơ hội học khoa học như nhau.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["Housework", "can be done", "by both men", "and women"], "vi": "Việc nhà có thể được làm bởi cả nam và nữ.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["In my class,", "boys and girls", "are treated", "equally"], "vi": "Ở lớp mình, con trai và con gái được đối xử bình đẳng.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["Women", "shouldn't be stopped", "from becoming", "pilots"], "vi": "Phụ nữ không nên bị ngăn cản trở thành phi công.", "grammarId": "g01" },
+    { "id": "b05", "chunks": ["A good surgeon", "needs", "good eyesight", "and mental strength"], "vi": "Một bác sĩ phẫu thuật giỏi cần thị lực tốt và sức mạnh tinh thần.", "grammarId": null },
+    { "id": "b06", "chunks": ["I think", "anyone can become", "a skilful firefighter", "with good training"], "vi": "Mình nghĩ ai cũng có thể trở thành lính cứu hỏa giỏi nếu được huấn luyện tốt.", "grammarId": null },
+    { "id": "b07", "chunks": ["Class jobs", "must be shared", "fairly", "between boys and girls"], "vi": "Việc của lớp phải được chia công bằng giữa con trai và con gái.", "grammarId": "g01" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I want to be a pilot.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "after I finish university" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because I love flying" }
+      ],
+      "full": "I want to be a pilot after I finish university because I love flying."
+    },
+    {
+      "id": "x02",
+      "base": "Boys can cook.",
+      "steps": [
+        { "askVi": "Nấu gì?", "ask": "Cook what?", "add": "family meals" },
+        { "askVi": "Giỏi như ai?", "ask": "How well?", "add": "as well as girls" }
+      ],
+      "full": "Boys can cook family meals as well as girls."
+    },
+    {
+      "id": "x03",
+      "base": "Girls should be given chances.",
+      "steps": [
+        { "askVi": "Cơ hội làm gì?", "ask": "Chances to do what?", "add": "to play sport" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at school" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because sport keeps everyone healthy" }
+      ],
+      "full": "Girls should be given chances to play sport at school because sport keeps everyone healthy."
+    },
+    {
+      "id": "x04",
+      "base": "My aunt is a doctor.",
+      "steps": [
+        { "askVi": "Cô ấy là bác sĩ như thế nào?", "ask": "What kind of doctor?", "add": "skilful" },
+        { "askVi": "Làm ở đâu?", "ask": "Where?", "add": "at a big hospital" },
+        { "askVi": "Cô ấy làm được gì?", "ask": "What does she do?", "add": "and she helps many patients" }
+      ],
+      "full": "My aunt is a skilful doctor at a big hospital, and she helps many patients."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Chia việc nhà trong gia đình",
+      "questions": [
+        "Who does the housework in your family?",
+        "How is the housework shared in your home?",
+        "Which household chores do the men in your family do?"
+      ],
+      "keywords": ["housework", "shared", "cook", "equally"],
+      "exampleAnswer": "In my family, the housework is shared. My dad cooks dinner, and my mum and I do the washing.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Những nghề cả nam và nữ đều làm tốt",
+      "questions": [
+        "Which jobs can be done well by both men and women?",
+        "Can you name some jobs that men and women can do equally well?",
+        "What jobs do you think are suitable for everyone?"
+      ],
+      "keywords": ["pilot", "surgeon", "skilful", "can be done"],
+      "exampleAnswer": "Jobs like surgeons, pilots and teachers can be done well by both men and women if they are skilful.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Vì sao bình đẳng giới quan trọng",
+      "questions": [
+        "Why is gender equality important?",
+        "Why should men and women have equal rights?",
+        "What happens to a society when people are not treated equally?"
+      ],
+      "keywords": ["equality", "equal rights", "talent", "develop"],
+      "exampleAnswer": "Gender equality is important because everyone can use their talents, so society develops faster and people are happier.",
+      "expectsReason": true
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Giúp trẻ em gái ở vùng khó khăn được đi học",
+      "questions": [
+        "What can be done to help girls in rural areas go to school?",
+        "How can more children in poor areas be given an education?",
+        "What should be done so that no child stays uneducated?"
+      ],
+      "keywords": ["should be given", "education", "rural areas", "uneducated"],
+      "exampleAnswer": "More schools should be built in rural areas, and poor families should be given money for books and uniforms.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Một người làm nghề mà nhiều người nghĩ chỉ dành cho giới kia",
+      "questions": [
+        "Do you know a woman who does a job that people think is for men?",
+        "Tell me about a man who works in a job usually done by women.",
+        "Who is someone you know that does an unusual job for their gender?"
+      ],
+      "keywords": ["officer", "kindergarten teacher", "skilful", "respect"],
+      "exampleAnswer": "My aunt is a police officer. She is brave and skilful, and people in our town respect her.",
+      "expectsReason": false
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What jobs or duties do you have in your class this year?", "keywords": ["monitor", "secretary", "duty"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should boys learn to cook and look after younger children? Why or why not?", "keywords": ["housework", "equal", "should"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your little brother says washing the dishes is a girls' job. What do you say to him?", "keywords": ["housework", "shared", "everyone"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What tasks do you usually do when your group works on a project?", "keywords": ["leader", "notes", "present"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should girls be encouraged to study engineering or computer science? Why or why not?", "keywords": ["equal", "chances", "skilful"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your friend laughs at a boy who wants to join the dance club. What do you say to your friend?", "keywords": ["gender", "treat", "anyone"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Nói chuyện về nghề tương lai",
+      "contextVi": "Trường em tổ chức ngày hướng nghiệp. Em gặp cô tư vấn để nói về nghề em muốn làm và những kỹ năng nghề đó cần.",
+      "aiRole": "Ms Lan, the school career adviser",
+      "studentRoleVi": "Học sinh lớp 10 đến hỏi về nghề nghiệp",
+      "goalVi": "Nói nghề em muốn làm, kỹ năng nghề đó cần và lý do em chọn nghề đó.",
+      "goal": "Tell the career adviser which job you want, what skills it needs, and why you chose it.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu ít nhất một lý do (because...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["skilful", "physical", "mental", "eyesight", "surgeon", "pilot"] }
+      ],
+      "opener": "Hello! Welcome to Career Day. What job are you interested in?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "That's a great choice. What skills do you think that job needs?",
+        "I see. Why do you want to do this job?",
+        "Wonderful. What can you do now at school to prepare for it?"
+      ],
+      "tipsVi": ["Mở đầu: \"I'm interested in becoming a...\"", "Nói về kỹ năng: \"It needs good eyesight / mental strength...\""],
+      "keywords": ["I'd like to be", "skilful", "because", "strength", "prepare"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Con gái làm lính cứu hỏa được không?",
+      "contextVi": "Bạn em, Minh, xem tin về một nữ lính cứu hỏa và nói nghề này chỉ hợp với đàn ông. Em có ý kiến khác.",
+      "aiRole": "Minh, a classmate who thinks some jobs are only for men",
+      "studentRoleVi": "Bạn cùng lớp có ý kiến khác Minh",
+      "goalVi": "Thuyết phục Minh rằng phụ nữ cũng làm tốt nghề lính cứu hỏa: nêu lý do, ví dụ và trả lời khi Minh phản đối.",
+      "goal": "Persuade Minh that women can be good firefighters: give reasons and an example, and answer his objection politely.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do (because...)", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["firefighter", "physical", "mental", "skilful", "equal", "treat"] }
+      ],
+      "opener": "Did you see the news about the woman firefighter? I don't think that's a job for women.",
+      "stance": "Firefighting needs a lot of physical strength, so it should be done only by men.",
+      "turns": 5,
+      "fallback": [
+        "Really? Why do you think women can do it?",
+        "But firefighting needs a lot of physical strength. I think it should be done only by men.",
+        "Hmm, maybe. Can you give me an example?",
+        "OK, you've made me think again. Maybe it depends on the person."
+      ],
+      "tipsVi": ["Khi Minh phản đối, mở đầu bằng \"I see your point, but...\"", "Nhắc đến sức mạnh tinh thần, kỹ năng và huấn luyện, không chỉ sức mạnh cơ bắp."],
+      "keywords": ["I'm afraid I disagree", "mental strength", "training", "because", "for example"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Thuyết phục ông về chuyện việc nhà",
+      "contextVi": "Trong bữa cơm, ông nói con trai không cần làm việc nhà vì đó là việc của phụ nữ. Em muốn lễ phép nói rằng ai cũng nên chia sẻ việc nhà.",
+      "aiRole": "Grandpa, a kind but traditional family member",
+      "studentRoleVi": "Cháu của ông",
+      "goalVi": "Lễ phép giải thích vì sao việc nhà nên được chia đều, đề xuất cách chia việc và trả lời khi ông có ý khác.",
+      "goal": "Politely explain why housework should be shared, suggest how to share it, and answer Grandpa's different opinion.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do việc nhà nên được chia đều", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất cách chia việc trong nhà", "words": [] },
+        { "kind": "keyword", "vi": "Dùng câu bị động với modal hoặc từ của bài", "words": ["should be shared", "can be done", "equal", "treat"] }
+      ],
+      "opener": "Why is your brother washing the dishes? In my day, boys never did housework.",
+      "stance": "Housework is women's work. Boys should spend their time studying, not cooking.",
+      "turns": 5,
+      "fallback": [
+        "Hmm. Why do you think boys should help at home?",
+        "But housework is women's work. Boys should spend their time studying, not cooking.",
+        "Well, that's a new idea for me. So how would you share the work?",
+        "All right, let's try your idea this week."
+      ],
+      "tipsVi": ["Nói lễ phép với ông: \"I understand, Grandpa, but...\"", "Dùng câu: \"Housework should be shared by everyone.\""],
+      "keywords": ["should be shared", "everyone", "because", "I understand, but", "equal"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Chọn đội bóng cho ngày hội thể thao",
+      "contextVi": "Trường em sắp có ngày hội thể thao. Em đề nghị thầy giáo thể dục cho lớp lập đội bóng đá chung cả nam và nữ.",
+      "aiRole": "Mr Tuan, the PE teacher",
+      "studentRoleVi": "Học sinh đại diện lớp",
+      "goalVi": "Đề xuất lập đội chung nam nữ, nêu lý do, và trả lời khi thầy lo ngại.",
+      "goal": "Suggest a mixed football team for Sports Day, give reasons, and respond to the teacher's concern.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra đề xuất", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["equal", "equality", "treat", "should be given", "gender"] }
+      ],
+      "opener": "Hi there. I heard your class has an idea for Sports Day. What is it?",
+      "stance": "Mixed teams may not be safe, so girls should only play in girls' games.",
+      "turns": 5,
+      "fallback": [
+        "Interesting. Why do you think that is a good idea?",
+        "But mixed teams may not be safe. I think girls should only play in girls' games.",
+        "That's a fair point. How can we make the games safe for everyone?",
+        "OK. I'll talk to the other teachers about it."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["equal chances", "should be given", "safe", "because", "everyone"]
+    }
+  ]
+}

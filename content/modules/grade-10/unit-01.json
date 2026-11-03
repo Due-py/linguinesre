@@ -1,0 +1,399 @@
+{
+  "grade": 10,
+  "unit": 1,
+  "title": "Family Life",
+  "titleVi": "Cuộc sống gia đình",
+  "edition": "Tiếng Anh 10 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 8–17; Glossary tr. 124",
+  "vocab": [
+    { "id": "v01", "en": "housework", "vi": "việc nhà", "ipa": "/ˈhaʊswɜːk/", "ipaFrom": "dictionary", "pos": "n", "example": "Everybody in my family does some housework at the weekend.", "collocations": ["do the housework", "share the housework"], "synonyms": ["household chores"], "antonyms": [], "src": { "kind": "sgk", "page": 10 } },
+    { "id": "v02", "en": "chore", "vi": "việc vặt trong nhà", "ipa": "/tʃɔː/", "ipaFrom": "dictionary", "pos": "n", "example": "Feeding the cat is the easiest chore in our house.", "collocations": ["household chores", "do chores"], "synonyms": ["task"], "antonyms": [], "src": { "kind": "sgk", "page": 8 } },
+    { "id": "v03", "en": "breadwinner", "vi": "người trụ cột đi làm nuôi gia đình", "ipa": "/ˈbredwɪnə/", "ipaFrom": "glossary", "pos": "n", "example": "My father is the breadwinner, but he still cooks dinner on Sundays.", "collocations": ["the main breadwinner"], "synonyms": [], "antonyms": ["homemaker"], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v04", "en": "homemaker", "vi": "người nội trợ", "ipa": "/ˈhəʊmmeɪkə/", "ipaFrom": "glossary", "pos": "n", "example": "My aunt is a homemaker, so she looks after the house and the children.", "collocations": ["a full-time homemaker"], "synonyms": [], "antonyms": ["breadwinner"], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v05", "en": "laundry", "vi": "quần áo, đồ giặt là", "ipa": "/ˈlɔːndri/", "ipaFrom": "glossary", "pos": "n", "example": "I do the laundry every Saturday morning.", "collocations": ["do the laundry", "hang out the laundry"], "synonyms": ["washing"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v06", "en": "washing-up", "vi": "rửa chén bát", "ipa": "/ˌwɒʃɪŋ ˈʌp/", "ipaFrom": "glossary", "pos": "n", "example": "My brother and I take turns doing the washing-up after dinner.", "collocations": ["do the washing-up"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v07", "en": "grocery", "vi": "thực phẩm và tạp hoá", "ipa": "/ˈgrəʊsəri/", "ipaFrom": "glossary", "pos": "n", "example": "We buy groceries at the market near our house.", "collocations": ["shop for groceries", "grocery shopping"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v08", "en": "heavy lifting", "vi": "mang vác nặng", "ipa": "/ˌhevi ˈlɪftɪŋ/", "ipaFrom": "glossary", "pos": "n", "example": "My uncle does the heavy lifting when we move the furniture.", "collocations": ["do the heavy lifting"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v09", "en": "rubbish", "vi": "rác rưởi", "ipa": "/ˈrʌbɪʃ/", "ipaFrom": "glossary", "pos": "n", "example": "It's my job to put out the rubbish every evening.", "collocations": ["put out the rubbish", "take out the rubbish"], "synonyms": ["trash"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v10", "en": "responsibility", "vi": "trách nhiệm", "ipa": "/rɪˌspɒnsəˈbɪləti/", "ipaFrom": "glossary", "pos": "n", "example": "Watering the plants is my responsibility this month.", "collocations": ["take responsibility for", "a sense of responsibility"], "synonyms": ["duty"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v11", "en": "routine", "vi": "lệ thường, công việc hằng ngày", "ipa": "/ruːˈtiːn/", "ipaFrom": "glossary", "pos": "n", "example": "Our family routine is to have breakfast together at 6.30.", "collocations": ["daily routine", "family routines"], "synonyms": ["habit"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v12", "en": "benefit", "vi": "lợi ích", "ipa": "/ˈbenɪfɪt/", "ipaFrom": "glossary", "pos": "n", "example": "One benefit of doing chores is that you learn life skills.", "collocations": ["the benefits of", "get a benefit from"], "synonyms": ["advantage"], "antonyms": ["disadvantage"], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v13", "en": "bond", "vi": "sự gắn bó, kết nối", "ipa": "/bɒnd/", "ipaFrom": "glossary", "pos": "n", "example": "Cooking together builds a strong bond between my mum and me.", "collocations": ["family bonds", "a strong bond"], "synonyms": ["connection"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v14", "en": "strengthen", "vi": "củng cố, làm mạnh thêm", "ipa": "/ˈstreŋθn/", "ipaFrom": "glossary", "pos": "v", "example": "Family dinners help strengthen our relationships.", "collocations": ["strengthen family bonds"], "synonyms": ["build"], "antonyms": ["weaken"], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v15", "en": "gratitude", "vi": "sự biết ơn, lòng biết ơn", "ipa": "/ˈgrætɪtjuːd/", "ipaFrom": "glossary", "pos": "n", "example": "I help my parents at home to show my gratitude.", "collocations": ["show gratitude", "a feeling of gratitude"], "synonyms": ["thanks"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v16", "en": "character", "vi": "tính cách", "ipa": "/ˈkærəktə/", "ipaFrom": "glossary", "pos": "n", "example": "Doing chores can build a child's character.", "collocations": ["build character", "a strong character"], "synonyms": ["personality"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v17", "en": "manner", "vi": "tác phong, cách ứng xử", "ipa": "/ˈmænə/", "ipaFrom": "glossary", "pos": "n", "example": "My grandma always teaches us good table manners.", "collocations": ["good manners", "table manners"], "synonyms": ["behaviour"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v18", "en": "value", "vi": "giá trị", "ipa": "/ˈvæljuː/", "ipaFrom": "glossary", "pos": "n", "example": "Honesty is an important family value for us.", "collocations": ["family values", "traditional values"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v19", "en": "support", "vi": "ủng hộ, hỗ trợ", "ipa": "/səˈpɔːt/", "ipaFrom": "glossary", "pos": "n, v", "example": "My parents always support me when I have a problem at school.", "collocations": ["support each other", "give support"], "synonyms": ["help"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v20", "en": "truthful", "vi": "trung thực", "ipa": "/ˈtruːθfl/", "ipaFrom": "glossary", "pos": "adj", "example": "My parents want us to be truthful and kind.", "collocations": ["be truthful with"], "synonyms": ["honest"], "antonyms": ["dishonest"], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v21", "en": "cheer up", "vi": "cổ vũ, làm cho (ai đó) vui lên", "ipa": "/ˌtʃɪə ˈʌp/", "ipaFrom": "glossary", "pos": "v", "example": "When my sister feels sad, I tell her jokes to cheer her up.", "collocations": ["cheer somebody up"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Present simple vs. present continuous",
+      "nameVi": "Hiện tại đơn và hiện tại tiếp diễn",
+      "explainVi": "Hiện tại đơn dùng cho thói quen, việc làm thường xuyên (every day, usually, twice a week). Hiện tại tiếp diễn (am/is/are + V-ing) dùng cho việc đang xảy ra lúc nói (now, at the moment) hoặc quanh thời điểm này (today, these days). Chủ ngữ số ít (he, she, my mum) ở hiện tại đơn thì động từ thêm -s/-es.",
+      "formula": "S + V(s/es) + usually/every day  ·  S + am/is/are + V-ing + now/at the moment/today",
+      "examples": [
+        "My dad usually cooks dinner, but today he is working late.",
+        "I do the washing-up every evening.",
+        "Look! My little brother is putting out the rubbish."
+      ],
+      "wrong": [
+        { "sentence": "My mum is cooking dinner every day.", "fix": "My mum cooks dinner every day.", "whyVi": "\"every day\" chỉ thói quen nên dùng hiện tại đơn, không dùng tiếp diễn." },
+        { "sentence": "I can't talk now. I clean my room.", "fix": "I can't talk now. I'm cleaning my room.", "whyVi": "Việc đang làm ngay lúc nói dùng hiện tại tiếp diễn: am + V-ing." },
+        { "sentence": "My sister do the laundry twice a week.", "fix": "My sister does the laundry twice a week.", "whyVi": "Chủ ngữ số ít (my sister) ở hiện tại đơn: do thành does." }
+      ],
+      "drills": [
+        { "prompt": "My grandfather ___ the plants every morning.", "options": ["waters", "is watering", "water"], "answer": 0, "explainVi": "\"every morning\" là thói quen, chủ ngữ số ít: waters." },
+        { "prompt": "Please be quiet. The baby ___ now.", "options": ["is sleeping", "sleeps", "sleep"], "answer": 0, "explainVi": "\"now\": việc đang xảy ra lúc nói, dùng is sleeping." },
+        { "prompt": "We usually eat out on Sundays, but this Sunday we ___ at home.", "options": ["are eating", "eat", "eats"], "answer": 0, "explainVi": "Khác với thói quen, riêng Chủ nhật này: dùng hiện tại tiếp diễn are eating." },
+        { "prompt": "Which sentence is correct?", "options": ["He is doing the laundry twice a week.", "He does the laundry twice a week.", "He do the laundry twice a week."], "answer": 1, "explainVi": "\"twice a week\" là thói quen; chủ ngữ he nên dùng does." }
+      ],
+      "errorTag": "verb_tense",
+      "src": { "kind": "sgk", "page": 10 }
+    },
+    {
+      "id": "g02",
+      "name": "Stative verbs are not used in the continuous",
+      "nameVi": "Động từ chỉ trạng thái không dùng ở thì tiếp diễn",
+      "explainVi": "Một số động từ chỉ cảm xúc, suy nghĩ, nhu cầu như like, love, need, want, know, agree thường không dùng dạng V-ing, kể cả khi nói về lúc này. Ta dùng hiện tại đơn.",
+      "formula": "S + like/love/need/want/know/agree (hiện tại đơn), không dùng am/is/are + V-ing",
+      "examples": [
+        "I know how to cook rice now.",
+        "My brother needs some help with his homework at the moment."
+      ],
+      "wrong": [
+        { "sentence": "I am needing a new schoolbag.", "fix": "I need a new schoolbag.", "whyVi": "need là động từ chỉ trạng thái, không dùng dạng -ing." },
+        { "sentence": "We are agreeing with Dad's chore plan.", "fix": "We agree with Dad's chore plan.", "whyVi": "agree chỉ ý kiến, không dùng ở thì tiếp diễn." }
+      ],
+      "drills": [
+        { "prompt": "I ___ cooking with my mum at the weekend.", "options": ["love", "am loving", "loving"], "answer": 0, "explainVi": "love chỉ cảm xúc, dùng hiện tại đơn: love." },
+        { "prompt": "Right now, my sister ___ the answer to this question.", "options": ["knows", "is knowing", "know"], "answer": 0, "explainVi": "know không dùng tiếp diễn, kể cả với right now; chủ ngữ số ít nên là knows." },
+        { "prompt": "Which sentence is correct?", "options": ["She is wanting to help her parents.", "She wants to help her parents.", "She want to help her parents."], "answer": 1, "explainVi": "want là động từ trạng thái, chủ ngữ she: wants." }
+      ],
+      "errorTag": "verb_form",
+      "src": { "kind": "sgk", "page": 10 }
+    },
+    {
+      "id": "g03",
+      "name": "Should / shouldn't for opinions and advice",
+      "nameVi": "Dùng should / shouldn't để nêu ý kiến, lời khuyên",
+      "explainVi": "Khi nói trẻ em, thanh thiếu niên NÊN hay KHÔNG NÊN làm việc nhà, ta dùng should / shouldn't. Sau should luôn là động từ nguyên mẫu, không có to, không thêm -s.",
+      "formula": "S + should / shouldn't + V (nguyên mẫu)",
+      "examples": [
+        "I think teenagers should do some housework every day.",
+        "Children shouldn't do the heavy lifting."
+      ],
+      "wrong": [
+        { "sentence": "Children should to help their parents.", "fix": "Children should help their parents.", "whyVi": "Sau should không có to." },
+        { "sentence": "My brother should does the washing-up.", "fix": "My brother should do the washing-up.", "whyVi": "Sau should, động từ ở dạng nguyên mẫu: do." }
+      ],
+      "drills": [
+        { "prompt": "Teenagers ___ learn how to cook simple meals.", "options": ["should", "should to", "shoulds"], "answer": 0, "explainVi": "should + động từ nguyên mẫu: should learn." },
+        { "prompt": "Young children ___ carry heavy things. It's dangerous.", "options": ["shouldn't", "should", "don't should"], "answer": 0, "explainVi": "Việc nguy hiểm thì KHÔNG NÊN làm: shouldn't." },
+        { "prompt": "Which sentence is correct?", "options": ["Everyone should shares the housework.", "Everyone should share the housework.", "Everyone should sharing the housework."], "answer": 1, "explainVi": "should + động từ nguyên mẫu: should share." }
+      ],
+      "errorTag": "modal_verb",
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Âm /br/",
+      "tipVi": "Mím môi bật /b/ rồi chuyển ngay sang /r/ (lưỡi cong lên, không chạm vòm miệng). Đọc liền một hơi, không chèn âm \"ơ\" (không đọc thành \"bơ-rét\").",
+      "words": ["breadwinner", "breakfast", "brown", "brush", "brain", "bread"],
+      "sentence": "My brother eats brown bread for breakfast.",
+      "quiz": [
+        { "prompt": "Which word begins with the sound /br/?", "options": ["brain", "crane", "train"], "answer": 0, "explainVi": "brain bắt đầu bằng /br/; crane là /kr/, train là /tr/." }
+      ],
+      "src": { "kind": "sgk", "page": 9 }
+    },
+    {
+      "id": "p02",
+      "kind": "sound",
+      "focus": "Âm /kr/",
+      "tipVi": "Bật /k/ ở cuống lưỡi rồi nối ngay sang /r/. Không chèn \"ơ\" vào giữa (không đọc \"cơ-ram\").",
+      "words": ["crash", "crane", "cream", "create"],
+      "sentence": "We created a new ice cream for the class party.",
+      "quiz": [
+        { "prompt": "Which word begins with the sound /kr/?", "options": ["tree", "cream", "bread"], "answer": 1, "explainVi": "cream bắt đầu bằng /kr/; tree là /tr/, bread là /br/." }
+      ],
+      "src": { "kind": "sgk", "page": 9 }
+    },
+    {
+      "id": "p03",
+      "kind": "sound",
+      "focus": "Âm /tr/",
+      "tipVi": "Đầu lưỡi chạm sau răng trên để bật /t/, rồi cong lưỡi ra /r/ ngay. Âm /tr/ tiếng Anh khác \"tr\" tiếng Việt: nghe gần giống \"ch\" nhẹ.",
+      "words": ["track", "tree", "train", "trash", "tread", "truthful"],
+      "sentence": "Try to be truthful and take out the trash.",
+      "quiz": [
+        { "prompt": "Which word begins with the sound /tr/?", "options": ["truthful", "crash", "brown"], "answer": 0, "explainVi": "truthful /ˈtruːθfl/ bắt đầu bằng /tr/." }
+      ],
+      "src": { "kind": "sgk", "page": 9 }
+    },
+    {
+      "id": "p04",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới trong bài",
+      "tipVi": "Âm tiết có dấu ˈ được đọc to và dài hơn. breadwinner, homemaker, gratitude, laundry nhấn âm đầu; routine, support nhấn âm thứ hai; responsibility nhấn âm thứ tư.",
+      "words": ["breadwinner", "homemaker", "gratitude", "laundry", "routine", "support", "responsibility"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["routine", "breadwinner", "laundry"], "answer": 0, "explainVi": "routine /ruːˈtiːn/ nhấn âm thứ hai; hai từ còn lại nhấn âm đầu." },
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["support", "gratitude", "routine"], "answer": 1, "explainVi": "gratitude /ˈgrætɪtjuːd/ nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p05",
+      "kind": "intonation",
+      "focus": "Ngữ điệu câu hỏi xin ý kiến (Yes/No)",
+      "tipVi": "Câu hỏi Yes/No như \"Do you think...?\" thường lên giọng ở cuối câu. Nhấn vào từ quan trọng: Do you think teenagers should do HOUSEwork?",
+      "words": ["Do you think so?", "Do you agree?"],
+      "sentence": "Do you think boys should learn to cook?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "I strongly believe that ...", "vi": "Mình tin chắc rằng ...", "useVi": "Khi nêu một ý kiến mạnh, rất chắc chắn.", "example": "I strongly believe that every family member should help at home.", "src": { "kind": "sgk", "page": 15 } },
+    { "id": "e02", "en": "I have no doubt that ...", "vi": "Mình không nghi ngờ gì rằng ...", "useVi": "Khi rất chắc chắn về điều mình nói.", "example": "I have no doubt that cooking together makes families closer.", "src": { "kind": "sgk", "page": 15 } },
+    { "id": "e03", "en": "I'm sure that ...", "vi": "Mình chắc chắn rằng ...", "useVi": "Khi nêu ý kiến chắc chắn.", "example": "I'm sure that children learn a lot from doing chores.", "src": { "kind": "sgk", "page": 15 } },
+    { "id": "e04", "en": "In my opinion, ...", "vi": "Theo ý mình, ...", "useVi": "Khi nêu ý kiến ở mức bình thường, không quá mạnh.", "example": "In my opinion, parents shouldn't do all the housework.", "src": { "kind": "sgk", "page": 15 } },
+    { "id": "e05", "en": "To my mind, ...", "vi": "Theo mình nghĩ, ...", "useVi": "Một cách khác để nêu ý kiến nhẹ nhàng.", "example": "To my mind, a chore schedule is fair for everyone.", "src": { "kind": "sgk", "page": 15 } },
+    { "id": "e06", "en": "I suppose that ...", "vi": "Mình cho rằng ...", "useVi": "Khi đoán hoặc nêu ý kiến chưa thật chắc.", "example": "I suppose that busy students can still do small chores.", "src": { "kind": "sgk", "page": 15 } },
+    { "id": "e07", "en": "I'm not sure about that.", "vi": "Mình không chắc về điều đó.", "useVi": "Khi lịch sự không đồng ý hoặc còn băn khoăn với ý người khác.", "example": "I'm not sure about that. Students also need time to rest.", "src": { "kind": "sgk", "page": 15 } },
+    { "id": "e08", "en": "Do you mean ...?", "vi": "Ý bạn là ... phải không?", "useVi": "Khi muốn hỏi lại cho rõ ý người kia.", "example": "Do you mean everybody has to cook, even the little kids?", "src": { "kind": "sgk", "page": 15 } },
+    { "id": "e09", "en": "It's my turn to ...", "vi": "Đến lượt mình ...", "useVi": "Khi nói về việc nhà chia theo lượt.", "example": "It's my turn to do the washing-up tonight.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "I'm in charge of ...", "vi": "Mình phụ trách ...", "useVi": "Khi nói việc mình chịu trách nhiệm trong nhà.", "example": "I'm in charge of putting out the rubbish.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "Let me give you a hand.", "vi": "Để mình giúp một tay.", "useVi": "Khi đề nghị giúp ai đó làm việc.", "example": "You look busy, Mum. Let me give you a hand.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["My father", "usually does", "the heavy lifting", "in our family"], "vi": "Bố mình thường làm việc mang vác nặng trong gia đình.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["I can't go out now", "because I'm", "doing the laundry"], "vi": "Mình không ra ngoài được bây giờ vì mình đang giặt quần áo.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["Teenagers should", "share the housework", "with their parents"], "vi": "Thanh thiếu niên nên chia sẻ việc nhà với bố mẹ.", "grammarId": "g03" },
+    { "id": "b04", "chunks": ["Doing chores together", "strengthens", "our family bonds"], "vi": "Cùng làm việc nhà giúp gắn kết gia đình chúng mình hơn.", "grammarId": null },
+    { "id": "b05", "chunks": ["My mum", "is working late today", "so I'm cooking", "dinner"], "vi": "Hôm nay mẹ mình làm muộn nên mình đang nấu bữa tối.", "grammarId": "g01" },
+    { "id": "b06", "chunks": ["I help my parents", "at home", "to show my gratitude"], "vi": "Mình giúp bố mẹ việc nhà để thể hiện lòng biết ơn.", "grammarId": null },
+    { "id": "b07", "chunks": ["I need", "some help", "with the washing-up"], "vi": "Mình cần người giúp rửa bát.", "grammarId": "g02" },
+    { "id": "b08", "chunks": ["In my opinion,", "children shouldn't", "do the heavy lifting"], "vi": "Theo mình, trẻ em không nên làm việc mang vác nặng.", "grammarId": "g03" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I do the washing-up.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "after dinner" },
+        { "askVi": "Thường xuyên thế nào?", "ask": "How often?", "add": "every evening" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because my parents are tired after work" }
+      ],
+      "full": "I do the washing-up after dinner every evening because my parents are tired after work."
+    },
+    {
+      "id": "x02",
+      "base": "My sister is cooking.",
+      "steps": [
+        { "askVi": "Nấu gì?", "ask": "What?", "add": "fried rice" },
+        { "askVi": "Cho ai?", "ask": "For whom?", "add": "for the whole family" },
+        { "askVi": "Vì sao hôm nay chị nấu?", "ask": "Why today?", "add": "because Mum is working late" }
+      ],
+      "full": "My sister is cooking fried rice for the whole family because Mum is working late."
+    },
+    {
+      "id": "x03",
+      "base": "Children should do chores.",
+      "steps": [
+        { "askVi": "Việc gì?", "ask": "What kind?", "add": "simple" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because they learn useful life skills" }
+      ],
+      "full": "Children should do simple chores because they learn useful life skills."
+    },
+    {
+      "id": "x04",
+      "base": "We have dinner together.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every Sunday" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at my grandparents' house" },
+        { "askVi": "Để làm gì?", "ask": "What for?", "add": "to strengthen our family bonds" }
+      ],
+      "full": "We have dinner together every Sunday at my grandparents' house to strengthen our family bonds."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Những việc nhà em phụ trách",
+      "questions": [
+        "Which household chores are you responsible for?",
+        "How do you help with the housework at home?",
+        "What jobs around the house do you usually do?"
+      ],
+      "keywords": ["do the laundry", "washing-up", "put out the rubbish", "responsibility"],
+      "exampleAnswer": "I usually do the washing-up after dinner, and I put out the rubbish every evening.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Dạo này các thành viên trong gia đình đang làm gì",
+      "questions": [
+        "What are your family members busy with these days?",
+        "Is anyone in your family learning something new at the moment?",
+        "What is different about your family's routine this month?"
+      ],
+      "keywords": ["these days", "at the moment", "is learning", "routine"],
+      "exampleAnswer": "These days my dad is working late, so my mum and I are cooking dinner together.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Lợi ích của việc làm việc nhà với thanh thiếu niên",
+      "questions": [
+        "What are the benefits of doing housework for teenagers?",
+        "How can doing chores help young people later in life?",
+        "What life skills do children learn from housework?"
+      ],
+      "keywords": ["benefit", "life skills", "responsibility", "character"],
+      "exampleAnswer": "Doing chores teaches us life skills like cooking, and it builds a sense of responsibility.",
+      "expectsReason": true
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Những việc gia đình em cùng làm để gắn kết hơn",
+      "questions": [
+        "What does your family do together to strengthen your bond?",
+        "How do the people in your family stay close to each other?",
+        "Which family activity makes you feel closest to your parents?"
+      ],
+      "keywords": ["bond", "strengthen", "together", "support"],
+      "exampleAnswer": "We have dinner together every evening and share stories about our day, so we feel very close.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Cách bố mẹ chia việc kiếm tiền và việc nhà",
+      "questions": [
+        "Who is the breadwinner in your family, and who does most of the housework?",
+        "How do your parents divide the work at home?",
+        "Do both of your parents go out to work, or does one stay at home?"
+      ],
+      "keywords": ["breadwinner", "homemaker", "divide", "share"],
+      "exampleAnswer": "Both my parents are breadwinners, so they share the housework equally, and I help them too.",
+      "expectsReason": false
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "Tell me about one chore you do at the weekend and how you do it.", "keywords": ["chore", "usually", "every weekend"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should parents give their children pocket money for doing housework? Why or why not?", "keywords": ["should", "responsibility", "because"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend complains that his parents ask him to wash the dishes every night. What do you say to him?", "keywords": ["washing-up", "help", "should"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "Tell me about one thing you do to help your grandparents or parents at home.", "keywords": ["help", "usually", "chore"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should teenagers learn to cook before they finish high school? Why or why not?", "keywords": ["should", "life skills", "because"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your cousin says that housework is only a job for mothers. What do you say to her?", "keywords": ["share", "housework", "everyone"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Chia việc chuẩn bị bữa tiệc gia đình",
+      "contextVi": "Cuối tuần này gia đình em mời ông bà đến ăn tối. Chị gái em muốn cùng em lên kế hoạch chia việc nhà trước bữa tiệc.",
+      "aiRole": "Linh, your older sister",
+      "studentRoleVi": "Em trong gia đình, cùng chị chia việc",
+      "goalVi": "Đề xuất ai làm việc gì (dọn nhà, đi chợ, nấu ăn, rửa bát) và nêu lý do.",
+      "goal": "Plan who does which chores before the family dinner this weekend, giving at least one reason.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất cách chia việc (I think you should..., I can...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["groceries", "laundry", "washing-up", "rubbish", "heavy lifting"] }
+      ],
+      "opener": "Grandma and Grandpa are coming on Sunday! There's so much to do. Which chores can you take?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "OK, good. Why do you want to do that one?",
+        "Fine. And what should I do, do you think?",
+        "Great plan. Who will do the washing-up after dinner?"
+      ],
+      "tipsVi": ["Dùng \"I can...\" để nhận việc và \"You should...\" để đề xuất cho chị.", "Nêu lý do với \"because\"."],
+      "keywords": ["do the grocery shopping", "clean the house", "washing-up", "because"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Học sinh có nên làm việc nhà?",
+      "contextVi": "Trong giờ ra chơi, một bạn cùng lớp nói học sinh lớp 10 chỉ nên tập trung học, không nên làm việc nhà. Em có ý kiến khác.",
+      "aiRole": "Tu, a classmate who thinks students should only study",
+      "studentRoleVi": "Bạn cùng lớp, cho rằng học sinh nên làm việc nhà",
+      "goalVi": "Nêu ý kiến của em, đưa lý do và ví dụ, lịch sự phản biện khi bạn không đồng ý.",
+      "goal": "Give your opinion that teenagers should do housework, with reasons and an example, and answer Tu's objection politely.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do (because...)", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["responsibility", "benefit", "life skills", "bond", "share"] }
+      ],
+      "opener": "Honestly, I think housework is a waste of time for us. Do you do any chores at home?",
+      "stance": "Teenagers should spend all their time studying, because good grades are more important than chores.",
+      "turns": 5,
+      "fallback": [
+        "Really? Why do you do that?",
+        "But I think we should spend all our time studying. Good grades are more important, aren't they?",
+        "Hmm. Can you give me an example of a useful chore?",
+        "OK, maybe I can do one small chore. Which one should I start with?"
+      ],
+      "tipsVi": ["Mở đầu phản biện bằng \"I'm not sure about that.\" hoặc \"I see your point, but...\"", "Dùng cụm \"I strongly believe that...\" để nêu ý kiến mạnh."],
+      "keywords": ["I strongly believe", "responsibility", "life skills", "because", "for example"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Xin bố cho đi chợ một mình",
+      "contextVi": "Em muốn tự đi chợ mua thực phẩm cho gia đình vào sáng thứ Bảy để giúp mẹ. Bố em lo em còn nhỏ và chưa biết chọn đồ.",
+      "aiRole": "Mr Minh, your father",
+      "studentRoleVi": "Con, muốn nhận thêm việc nhà",
+      "goalVi": "Thuyết phục bố để em đi chợ: nêu lý do, nói em sẽ làm thế nào, trả lời khi bố lo lắng.",
+      "goal": "Persuade your father to let you do the grocery shopping on Saturday: give reasons, explain your plan and answer his worry.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do em muốn làm", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất cách làm để bố yên tâm", "words": [] }
+      ],
+      "opener": "Your mum says you want to do the grocery shopping on Saturday. Why do you want to do that?",
+      "stance": "You're too young to do the shopping alone. I'd rather do it myself.",
+      "turns": 5,
+      "fallback": [
+        "That's kind of you. But do you know what to buy?",
+        "I'm still worried. You're too young to do the shopping alone. I'd rather do it myself.",
+        "Hmm, that's a good idea. How will you carry everything home?",
+        "All right, let's try it this Saturday."
+      ],
+      "tipsVi": ["Nói với bố mẹ lịch sự: \"Could I...?\", \"I promise I'll...\"", "Đề xuất cách làm cụ thể: viết danh sách, đi cùng bạn."],
+      "keywords": ["groceries", "shopping list", "responsibility", "I promise", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Kể về gia đình cho bạn trao đổi",
+      "contextVi": "Một bạn học sinh trao đổi từ Anh đang ở lớp em. Bạn hỏi về cuộc sống gia đình ở Việt Nam và kể rằng ở nhà bạn, trẻ em gần như không làm việc nhà.",
+      "aiRole": "Emma, an exchange student from the UK",
+      "studentRoleVi": "Học sinh Việt Nam kể về gia đình mình",
+      "goalVi": "Kể cách gia đình em chia việc nhà, nêu ý kiến có lý do và trả lời khi Emma có ý kiến khác.",
+      "goal": "Describe how your family shares the housework, give your opinion with a reason, and respond to Emma's different view.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do cho ý kiến", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["housework", "breadwinner", "routine", "responsibility", "bond", "share"] }
+      ],
+      "opener": "I'm curious about family life in Viet Nam. Who does the housework in your family?",
+      "stance": "In my family, parents do all the housework. Children should just enjoy their childhood.",
+      "turns": 5,
+      "fallback": [
+        "Interesting! What do you do to help?",
+        "In my family, parents do all the housework. I think children should just enjoy their childhood.",
+        "Hmm, I see. What do you think is the biggest benefit of doing chores?",
+        "Thanks for telling me. Maybe I'll help my mum more when I go home."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["housework", "share", "responsibility", "because", "In my opinion"]
+    }
+  ]
+}

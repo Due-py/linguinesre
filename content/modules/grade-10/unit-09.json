@@ -1,0 +1,372 @@
+{
+  "grade": 10,
+  "unit": 9,
+  "title": "Protecting the Environment",
+  "titleVi": "Bảo vệ môi trường",
+  "edition": "Tiếng Anh 10 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 100–109; Glossary tr. 130–131",
+  "vocab": [
+    { "id": "v01", "en": "balance", "vi": "sự cân bằng", "ipa": "/ˈbæləns/", "ipaFrom": "glossary", "pos": "n", "example": "Pollution can upset the balance of nature in a river.", "collocations": ["the balance of nature", "keep the balance"], "synonyms": [], "antonyms": ["imbalance"], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v02", "en": "biodiversity", "vi": "đa dạng sinh học", "ipa": "/ˌbaɪəʊdaɪˈvɜːsəti/", "ipaFrom": "glossary", "pos": "n", "example": "National parks help protect the biodiversity of our country.", "collocations": ["protect biodiversity", "loss of biodiversity"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v03", "en": "climate change", "vi": "sự thay đổi khí hậu", "ipa": "/ˈklaɪmət ˌtʃeɪndʒ/", "ipaFrom": "glossary", "pos": "n", "example": "Climate change is making our summers hotter and drier.", "collocations": ["fight climate change", "the effects of climate change"], "synonyms": ["global warming"], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v04", "en": "consequence", "vi": "hậu quả", "ipa": "/ˈkɒnsɪkwəns/", "ipaFrom": "glossary", "pos": "n", "example": "Floods are one consequence of cutting down forests.", "collocations": ["serious consequences", "as a consequence"], "synonyms": ["result", "effect"], "antonyms": ["cause"], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v05", "en": "deforestation", "vi": "nạn phá rừng", "ipa": "/diːˌfɒrɪˈsteɪʃən/", "ipaFrom": "glossary", "pos": "n", "example": "Deforestation destroys the homes of many wild animals.", "collocations": ["stop deforestation", "the causes of deforestation"], "synonyms": [], "antonyms": ["planting trees"], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v06", "en": "ecosystem", "vi": "hệ sinh thái", "ipa": "/ˈiːkəʊˌsɪstəm/", "ipaFrom": "glossary", "pos": "n", "example": "Plastic waste can damage the whole ecosystem of a lake.", "collocations": ["protect the ecosystem", "a marine ecosystem"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v07", "en": "endangered", "vi": "bị nguy hiểm", "ipa": "/ɪnˈdeɪndʒəd/", "ipaFrom": "glossary", "pos": "adj", "example": "The saola is one of the most endangered animals in Viet Nam.", "collocations": ["endangered animals", "endangered species"], "synonyms": ["at risk"], "antonyms": ["safe"], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v08", "en": "environmental protection", "vi": "bảo vệ môi trường", "ipa": "/ɪnˌvaɪrənˈmentəl prəˈtekʃən/", "ipaFrom": "glossary", "pos": "np", "example": "Our club does research on environmental protection in our town.", "collocations": ["promote environmental protection"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v09", "en": "extreme", "vi": "cực đoan, khắc nghiệt", "ipa": "/ɪkˈstriːm/", "ipaFrom": "glossary", "pos": "adj", "example": "Extreme weather like storms and droughts is becoming more common.", "collocations": ["extreme weather", "extreme heat"], "synonyms": ["severe"], "antonyms": ["mild"], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v10", "en": "giant", "vi": "to lớn, khổng lồ", "ipa": "/ˈdʒaɪənt/", "ipaFrom": "glossary", "pos": "adj", "example": "Giant pandas eat bamboo most of the day.", "collocations": ["giant panda", "giant tortoise"], "synonyms": ["huge"], "antonyms": ["tiny"], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v11", "en": "habitat", "vi": "môi trường sống", "ipa": "/ˈhæbɪtæt/", "ipaFrom": "glossary", "pos": "n", "example": "When forests are cut down, animals lose their natural habitat.", "collocations": ["natural habitat", "destroy habitats"], "synonyms": ["home"], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v12", "en": "heatwave", "vi": "sóng nhiệt, đợt không khí nóng", "ipa": "/ˈhiːtˌweɪv/", "ipaFrom": "glossary", "pos": "n", "example": "During the heatwave, it was 40 degrees in my city.", "collocations": ["a long heatwave", "summer heatwave"], "synonyms": [], "antonyms": ["cold spell"], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v13", "en": "ice melting", "vi": "sự tan băng", "ipa": "/aɪs meltɪŋ/", "ipaFrom": "glossary", "pos": "n", "example": "Ice melting at the poles makes the sea level rise.", "collocations": ["polar ice melting"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v14", "en": "issue", "vi": "vấn đề", "ipa": "/ˈɪʃuː/", "ipaFrom": "glossary", "pos": "n", "example": "Air pollution is a serious issue in big cities.", "collocations": ["environmental issues", "global issues"], "synonyms": ["problem"], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v15", "en": "practical", "vi": "thực tế, thiết thực", "ipa": "/ˈpræktɪkəl/", "ipaFrom": "glossary", "pos": "adj", "example": "Turning off the lights is a practical way to save energy.", "collocations": ["practical actions", "practical advice"], "synonyms": ["useful"], "antonyms": ["impractical"], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v16", "en": "panda", "vi": "gấu trúc", "ipa": "/ˈpændə/", "ipaFrom": "glossary", "pos": "n", "example": "Pandas need large bamboo forests to survive.", "collocations": ["giant panda"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v17", "en": "gorilla", "vi": "khỉ đột", "ipa": "/gəˈrɪlə/", "ipaFrom": "glossary", "pos": "n", "example": "Gorillas live in the forests of Africa.", "collocations": ["mountain gorilla"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 130 } },
+    { "id": "v18", "en": "respiratory", "vi": "thuộc về hô hấp", "ipa": "/rɪˈspɪrətəri/", "ipaFrom": "glossary", "pos": "adj", "example": "Dirty air can cause respiratory problems for children.", "collocations": ["respiratory problems", "respiratory diseases"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v19", "en": "tortoise", "vi": "con rùa", "ipa": "/ˈtɔːtəs/", "ipaFrom": "glossary", "pos": "n", "example": "Some tortoises can live for more than a hundred years.", "collocations": ["giant tortoise"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v20", "en": "trade", "vi": "buôn bán", "ipa": "/treɪd/", "ipaFrom": "glossary", "pos": "n", "example": "The illegal trade in wild animals must be stopped.", "collocations": ["illegal wildlife trade"], "synonyms": ["selling"], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v21", "en": "upset", "vi": "làm rối loạn, xáo trộn", "ipa": "/ʌpˈset/", "ipaFrom": "glossary", "pos": "v", "example": "Too many tourists can upset the life of animals on the island.", "collocations": ["upset the balance"], "synonyms": ["disturb"], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v22", "en": "wildlife", "vi": "động vật hoang dã", "ipa": "/ˈwaɪldlaɪf/", "ipaFrom": "glossary", "pos": "n", "example": "We visited a centre that protects wildlife in Cuc Phuong.", "collocations": ["protect wildlife", "wildlife organisation"], "synonyms": ["wild animals"], "antonyms": [], "src": { "kind": "sgk", "page": 131 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Reported speech: statements",
+      "nameVi": "Câu tường thuật: câu kể",
+      "explainVi": "Dùng câu tường thuật để kể lại lời người khác đã nói. Thường lùi thì một bậc (hiện tại → quá khứ, will → would, can → could), đổi đại từ (I → he/she, we → they) và đổi trạng từ thời gian (tomorrow → the following day, next week → the following week, today → that day).",
+      "formula": "S + said (that) + S + V (lùi thì)  ·  will → would, am/is → was, can → could",
+      "examples": [
+        "\"I will plant a tree tomorrow,\" Lan said. → Lan said she would plant a tree the following day.",
+        "\"We are cleaning the beach,\" they said. → They said they were cleaning the beach.",
+        "\"I can help you,\" Nam said. → Nam said he could help me."
+      ],
+      "wrong": [
+        { "sentence": "My teacher said that we will plant trees the following day.", "fix": "My teacher said that we would plant trees the following day.", "whyVi": "Động từ tường thuật ở quá khứ (said) nên will lùi thành would." },
+        { "sentence": "Mai said she will join the club next week.", "fix": "Mai said she would join the club the following week.", "whyVi": "Lùi thì will → would và đổi next week → the following week." }
+      ],
+      "drills": [
+        { "prompt": "\"I am worried about climate change,\" Minh said. → Minh said he ___ worried about climate change.", "options": ["was", "is", "will be"], "answer": 0, "explainVi": "am lùi thì thành was." },
+        { "prompt": "\"We will recycle paper tomorrow,\" she said. → She said they would recycle paper ___.", "options": ["the following day", "tomorrow", "yesterday"], "answer": 0, "explainVi": "tomorrow đổi thành the following day." },
+        { "prompt": "\"I can join the clean-up,\" Hoa said. → Hoa said she ___ join the clean-up.", "options": ["could", "can", "will"], "answer": 0, "explainVi": "can lùi thì thành could." }
+      ],
+      "errorTag": "verb_tense",
+      "src": { "kind": "sgk", "page": 102 }
+    },
+    {
+      "id": "g02",
+      "name": "Reported speech: questions",
+      "nameVi": "Câu tường thuật: câu hỏi",
+      "explainVi": "Khi tường thuật câu hỏi, dùng asked, đưa câu về trật tự câu kể (chủ ngữ đứng trước động từ), bỏ dấu chấm hỏi và lùi thì. Câu hỏi Wh- giữ từ để hỏi; câu hỏi Yes/No dùng if hoặc whether.",
+      "formula": "S + asked (me) + Wh-word / if + S + V (lùi thì)",
+      "examples": [
+        "\"Where do you live?\" → He asked me where I lived.",
+        "\"Do you recycle bottles?\" → She asked me if I recycled bottles."
+      ],
+      "wrong": [
+        { "sentence": "She asked me where did I live.", "fix": "She asked me where I lived.", "whyVi": "Câu hỏi tường thuật dùng trật tự câu kể, không đảo trợ động từ did." },
+        { "sentence": "He asked me do I like pandas.", "fix": "He asked me if I liked pandas.", "whyVi": "Câu hỏi Yes/No: dùng if, trật tự câu kể và lùi thì." }
+      ],
+      "drills": [
+        { "prompt": "\"What are you doing?\" → Mum asked me what ___.", "options": ["I was doing", "was I doing", "am I doing"], "answer": 0, "explainVi": "Trật tự câu kể (I was doing), lùi thì am → was." },
+        { "prompt": "\"Is the river clean?\" → The visitor asked ___ the river was clean.", "options": ["if", "what", "that"], "answer": 0, "explainVi": "Câu hỏi Yes/No tường thuật bằng if." },
+        { "prompt": "Mai ___ her teacher where she could find the information.", "options": ["asked", "said", "told that"], "answer": 0, "explainVi": "Tường thuật câu hỏi dùng asked." }
+      ],
+      "errorTag": "word_order",
+      "src": { "kind": "sgk", "page": 102 }
+    },
+    {
+      "id": "g03",
+      "name": "told / asked / advised + someone + to V",
+      "nameVi": "Tường thuật lời khuyên, yêu cầu: told/asked/advised + người + to V",
+      "explainVi": "Khi kể lại lời khuyên hoặc yêu cầu, dùng told/asked/advised + người + to + động từ nguyên mẫu. Phủ định thêm not trước to.",
+      "formula": "S + told/asked/advised + O + (not) to + V",
+      "examples": [
+        "My mum told me to turn off the tap.",
+        "The teacher advised us not to use plastic bags."
+      ],
+      "wrong": [
+        { "sentence": "My teacher told me do some research.", "fix": "My teacher told me to do some research.", "whyVi": "Sau told + người phải có to + V." },
+        { "sentence": "She advised us to not waste water.", "fix": "She advised us not to waste water.", "whyVi": "Phủ định đặt not trước to: not to waste." }
+      ],
+      "drills": [
+        { "prompt": "The ranger told us ___ the animals.", "options": ["not to feed", "to not feeding", "don't feed"], "answer": 0, "explainVi": "told + người + not to + V." },
+        { "prompt": "My teacher asked me ___ a presentation on wildlife.", "options": ["to give", "give", "giving"], "answer": 0, "explainVi": "asked + người + to + V." }
+      ],
+      "errorTag": "verb_form",
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sentence_stress",
+      "focus": "Nhịp điệu (rhythm) trong câu",
+      "tipVi": "Tiếng Anh có nhịp: các từ được nhấn (động từ chính, danh từ, tính từ, từ phủ định như don't) cách nhau khá đều; các từ nhỏ (the, to, a, with) đọc nhanh, nhẹ để giữ nhịp.",
+      "words": ["don't", "pick", "flowers", "park", "students", "clean", "playground", "documentary", "pollution"],
+      "sentence": "We 'plant 'trees in the 'park every 'Sunday.",
+      "quiz": [
+        { "prompt": "In a sentence with natural rhythm, which word is usually NOT stressed?", "options": ["the", "flowers", "pick"], "answer": 0, "explainVi": "the là từ chức năng nên đọc nhẹ; flowers (danh từ) và pick (động từ chính) được nhấn." },
+        { "prompt": "Where is the stress in \"documentary\" /ˌdɒkjuˈmentri/?", "options": ["doc-", "-men-", "-ta-"], "answer": 1, "explainVi": "Dấu ˈ đứng trước \"men\": docuˈmentary." }
+      ],
+      "src": { "kind": "sgk", "page": 101 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Trọng âm các từ mới trong bài",
+      "tipVi": "consequence, habitat, ecosystem, wildlife nhấn âm đầu; endangered, extreme nhấn âm thứ hai; biodiversity, deforestation nhấn trọng âm chính gần cuối từ.",
+      "words": ["consequence", "habitat", "ecosystem", "endangered", "extreme", "biodiversity", "deforestation"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["consequence", "endangered", "extreme"], "answer": 0, "explainVi": "consequence /ˈkɒnsɪkwəns/ nhấn âm đầu; endangered /ɪnˈdeɪndʒəd/ và extreme /ɪkˈstriːm/ nhấn âm thứ hai." },
+        { "prompt": "Where is the primary stress in \"deforestation\" /diːˌfɒrɪˈsteɪʃən/?", "options": ["de-", "-for-", "-sta-"], "answer": 2, "explainVi": "Dấu ˈ đứng trước \"steɪ\": trọng âm chính là -sta-, ngay trước -tion." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p03",
+      "kind": "intonation",
+      "focus": "Ngữ điệu khi xin lỗi",
+      "tipVi": "Lời xin lỗi thật lòng thường nói chậm, xuống giọng ở cuối: I'm sorry I'm late. Khi đáp lại, nói nhẹ nhàng, thân thiện: Never mind. / That's all right.",
+      "words": ["I'm sorry to keep you waiting.", "Never mind.", "That's all right."],
+      "sentence": "I'd like to apologise for forgetting our meeting.",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "(I hope you'll) excuse me for ...", "vi": "(Mong bạn) bỏ qua cho mình vì ...", "useVi": "Xin lỗi một cách lịch sự.", "example": "I hope you'll excuse me for being late to the meeting.", "src": { "kind": "sgk", "page": 107 } },
+    { "id": "e02", "en": "Sorry for ...", "vi": "Xin lỗi vì ...", "useVi": "Xin lỗi ngắn gọn, thân mật.", "example": "Sorry for forgetting the posters.", "src": { "kind": "sgk", "page": 107 } },
+    { "id": "e03", "en": "I'm sorry to ...", "vi": "Mình xin lỗi đã ...", "useVi": "Xin lỗi về việc mình làm phiền người khác.", "example": "I'm sorry to keep you waiting so long.", "src": { "kind": "sgk", "page": 107 } },
+    { "id": "e04", "en": "I'd like to apologise for ...", "vi": "Em/Tôi xin lỗi vì ...", "useVi": "Xin lỗi trang trọng, ví dụ với thầy cô.", "example": "I'd like to apologise for handing in my report late.", "src": { "kind": "sgk", "page": 107 } },
+    { "id": "e05", "en": "Please accept my apology for ...", "vi": "Xin hãy nhận lời xin lỗi của tôi vì ...", "useVi": "Xin lỗi rất trang trọng.", "example": "Please accept my apology for the mistake in our poster.", "src": { "kind": "sgk", "page": 107 } },
+    { "id": "e06", "en": "Don't mention it.", "vi": "Không có gì đâu.", "useVi": "Đáp lại lời xin lỗi, cho thấy không sao.", "example": "Don't mention it. It happens to everyone.", "src": { "kind": "sgk", "page": 107 } },
+    { "id": "e07", "en": "Never mind.", "vi": "Không sao đâu.", "useVi": "Đáp lại lời xin lỗi nhẹ nhàng.", "example": "Never mind. We still have time to finish.", "src": { "kind": "sgk", "page": 107 } },
+    { "id": "e08", "en": "That's all right.", "vi": "Được rồi, không sao.", "useVi": "Chấp nhận lời xin lỗi.", "example": "That's all right. Just bring them tomorrow.", "src": { "kind": "sgk", "page": 107 } },
+    { "id": "e09", "en": "Don't worry about it.", "vi": "Đừng lo về chuyện đó.", "useVi": "Đáp lại lời xin lỗi, giúp người kia yên tâm.", "example": "Don't worry about it. I've got a spare copy.", "src": { "kind": "sgk", "page": 107 } },
+    { "id": "e10", "en": "One solution is to ...", "vi": "Một giải pháp là ...", "useVi": "Khi đề xuất cách giải quyết một vấn đề môi trường.", "example": "One solution is to plant more trees around the city.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "He/She told us that ...", "vi": "Thầy/cô ấy nói với chúng mình rằng ...", "useVi": "Khi kể lại lời người khác.", "example": "Our teacher told us that pandas were still endangered.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["My teacher said", "that we should", "save water", "every day"], "vi": "Cô giáo nói rằng chúng ta nên tiết kiệm nước mỗi ngày.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["She asked me", "what I was doing", "to protect", "the environment"], "vi": "Cô ấy hỏi mình đang làm gì để bảo vệ môi trường.", "grammarId": "g02" },
+    { "id": "b03", "chunks": ["He asked", "if I had seen", "the documentary", "about pandas"], "vi": "Anh ấy hỏi mình đã xem phim tài liệu về gấu trúc chưa.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["The expert said", "climate change", "was causing", "more extreme weather"], "vi": "Chuyên gia nói biến đổi khí hậu đang gây ra nhiều thời tiết khắc nghiệt hơn.", "grammarId": "g01" },
+    { "id": "b05", "chunks": ["My mum told me", "to turn off", "the tap", "while brushing my teeth"], "vi": "Mẹ bảo mình khóa vòi nước khi đánh răng.", "grammarId": "g03" },
+    { "id": "b06", "chunks": ["Deforestation", "destroys", "the habitats", "of many wild animals"], "vi": "Nạn phá rừng phá hủy môi trường sống của nhiều loài động vật hoang dã.", "grammarId": null },
+    { "id": "b07", "chunks": ["We must", "protect biodiversity", "to keep", "the balance of nature"], "vi": "Chúng ta phải bảo vệ đa dạng sinh học để giữ cân bằng tự nhiên.", "grammarId": null }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "Heatwaves are common.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in my city" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "in summer" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because of climate change" }
+      ],
+      "full": "Heatwaves are common in my city in summer because of climate change."
+    },
+    {
+      "id": "x02",
+      "base": "Mai said she would plant trees.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in the schoolyard" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "the following week" }
+      ],
+      "full": "Mai said she would plant trees in the schoolyard the following week."
+    },
+    {
+      "id": "x03",
+      "base": "Pandas are endangered.",
+      "steps": [
+        { "askVi": "Loại gấu trúc nào?", "ask": "What kind of pandas?", "add": "Giant" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because people destroy their bamboo forests" }
+      ],
+      "full": "Giant pandas are endangered because people destroy their bamboo forests."
+    },
+    {
+      "id": "x04",
+      "base": "We can reduce air pollution.",
+      "steps": [
+        { "askVi": "Bằng cách nào?", "ask": "How?", "add": "by cycling to school" },
+        { "askVi": "Vì sao cách đó có ích?", "ask": "Why does it help?", "add": "because motorbikes produce a lot of smoke" }
+      ],
+      "full": "We can reduce air pollution by cycling to school because motorbikes produce a lot of smoke."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Hậu quả của biến đổi khí hậu",
+      "questions": [
+        "What are the consequences of climate change?",
+        "How does climate change affect our lives?",
+        "What problems does global warming cause in Viet Nam?"
+      ],
+      "keywords": ["heatwave", "extreme", "ice melting", "flood"],
+      "exampleAnswer": "Climate change causes extreme weather like heatwaves and floods, and ice melting makes the sea level rise.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Vì sao phá rừng là vấn đề nghiêm trọng",
+      "questions": [
+        "Why is deforestation a serious problem?",
+        "Why shouldn't people cut down so many trees?",
+        "Why is it dangerous for wildlife when forests disappear?"
+      ],
+      "keywords": ["deforestation", "habitat", "wildlife", "flood"],
+      "exampleAnswer": "Deforestation is serious because animals lose their habitats, and without trees there are more floods.",
+      "expectsReason": true
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Cách bảo vệ động vật hoang dã",
+      "questions": [
+        "How can we protect wildlife?",
+        "What can people do to save endangered animals?",
+        "What should be done to stop the illegal wildlife trade?"
+      ],
+      "keywords": ["habitat", "hunting", "trade", "national parks"],
+      "exampleAnswer": "We should stop illegal hunting, protect habitats in national parks and never buy products made from wild animals.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Những việc thiết thực học sinh có thể làm",
+      "questions": [
+        "What practical things can students do for the environment?",
+        "What simple actions can teenagers take to help the planet?",
+        "What could your class do this month to protect the environment?"
+      ],
+      "keywords": ["practical", "save energy", "plant trees", "reuse"],
+      "exampleAnswer": "Students can save electricity, bring reusable bottles and plant trees around the school.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Vì sao đa dạng sinh học quan trọng",
+      "questions": [
+        "Why is biodiversity important?",
+        "Why do we need many different kinds of plants and animals?",
+        "Why is it a problem when many species disappear?"
+      ],
+      "keywords": ["biodiversity", "ecosystem", "balance", "food"],
+      "exampleAnswer": "Biodiversity is important because it keeps the balance of nature, and people get food and medicine from many plants and animals.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What did you do last week that was good for the environment?", "keywords": ["recycle", "save", "practical"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should people be banned from keeping wild animals as pets? Why or why not?", "keywords": ["wildlife", "habitat", "trade"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your neighbour often burns plastic in his garden. What do you say to him politely?", "keywords": ["smoke", "respiratory", "recycle"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What is one green habit that you started this year?", "keywords": ["habit", "reuse", "save"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should cities stop building new roads through forests? Why or why not?", "keywords": ["deforestation", "habitat", "biodiversity"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your classmate throws food waste into the school pond. What do you say to her?", "keywords": ["pollution", "fish", "ecosystem"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Chọn chủ đề thuyết trình cho câu lạc bộ Xanh",
+      "contextVi": "Câu lạc bộ Xanh của trường sắp có buổi thuyết trình về một vấn đề môi trường. Cô phụ trách hỏi em muốn trình bày vấn đề gì.",
+      "aiRole": "Ms Hoa, the teacher in charge of the Green Club",
+      "studentRoleVi": "Thành viên câu lạc bộ",
+      "goalVi": "Chọn một vấn đề môi trường, nêu lý do chọn và đề xuất một giải pháp.",
+      "goal": "Choose an environmental problem for the presentation, explain why, and suggest one solution.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do chọn vấn đề (because...)", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất một giải pháp (One solution is to...)", "words": [] }
+      ],
+      "opener": "Hello! Which environmental problem would you like to present to the club?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Good choice. Why did you choose that problem?",
+        "I see. What solution can you suggest?",
+        "Great. What pictures or examples will you show?"
+      ],
+      "tipsVi": ["Mở đầu: \"I'd like to talk about...\"", "Đề xuất: \"One solution is to...\""],
+      "keywords": ["deforestation", "climate change", "because", "One solution is", "protect"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Thuyết phục bạn không mua đồ làm từ động vật hoang dã",
+      "contextVi": "Trong chuyến tham quan, bạn Đức muốn mua một chiếc vòng làm từ mai rùa ở chợ lưu niệm. Em muốn ngăn bạn.",
+      "aiRole": "Duc, a classmate on a school trip",
+      "studentRoleVi": "Bạn cùng lớp muốn thuyết phục Đức",
+      "goalVi": "Thuyết phục Đức không mua: nêu lý do, đưa ví dụ, và trả lời khi Đức phản đối.",
+      "goal": "Persuade Duc not to buy the bracelet: give reasons and an example, and answer his objection.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do (because...)", "words": [] },
+        { "kind": "suggestion", "vi": "Gợi ý món quà khác", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["endangered", "trade", "wildlife", "tortoise", "habitat", "consequence"] }
+      ],
+      "opener": "Look at this bracelet! It's made from a turtle shell. I'm going to buy it for my sister.",
+      "stance": "It's only one small bracelet. Buying one won't hurt any animals.",
+      "turns": 5,
+      "fallback": [
+        "Why not? It's really beautiful.",
+        "But it's only one small bracelet. Buying one won't hurt any animals.",
+        "Hmm, I didn't know that. So what should I buy instead?",
+        "OK, I'll buy a handmade one instead."
+      ],
+      "tipsVi": ["Khi Đức phản đối, dùng \"I see your point, but...\"", "Nói về buôn bán động vật hoang dã: \"If people keep buying them...\""],
+      "keywords": ["endangered", "illegal trade", "because", "instead", "wildlife"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Xin lỗi và báo lại lời cô giáo cho nhóm",
+      "contextVi": "Em đến muộn buổi họp nhóm dự án về nạn phá rừng vì phải gặp cô giáo. Em xin lỗi trưởng nhóm và kể lại cô đã nói gì.",
+      "aiRole": "Lan, the leader of your project group",
+      "studentRoleVi": "Thành viên nhóm đến muộn",
+      "goalVi": "Xin lỗi, kể lại lời cô giáo bằng câu tường thuật, và bảo vệ chủ đề của nhóm khi Lan muốn đổi.",
+      "goal": "Apologise for being late, report what the teacher said, and defend the group's topic when Lan wants to change it.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng câu xin lỗi và câu tường thuật", "words": ["sorry", "apologise", "said", "told", "asked"] },
+        { "kind": "reason", "vi": "Nêu lý do nên giữ chủ đề", "words": [] }
+      ],
+      "opener": "There you are! We started twenty minutes ago. What happened?",
+      "stance": "Maybe we should choose an easier topic. Deforestation is too big for students.",
+      "turns": 5,
+      "fallback": [
+        "That's all right. So what did the teacher say?",
+        "Hmm. Maybe we should choose an easier topic. Deforestation is too big for students.",
+        "OK, that makes sense. What should we do first?",
+        "Great. Let's start right now."
+      ],
+      "tipsVi": ["Xin lỗi: \"I'm sorry to keep you waiting...\"", "Kể lại: \"She told us to...\", \"She said that...\""],
+      "keywords": ["I'm sorry", "She said", "told us to", "because", "deforestation"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Nói chuyện với ông về biến đổi khí hậu",
+      "contextVi": "Sau bản tin về đợt nắng nóng kỷ lục, ông em nói thời tiết lúc nào cũng thay đổi, con người không gây ra chuyện đó. Em nói chuyện với ông.",
+      "aiRole": "Grandpa, who doubts that people cause climate change",
+      "studentRoleVi": "Cháu của ông",
+      "goalVi": "Giải thích hậu quả của biến đổi khí hậu, đề xuất việc gia đình có thể làm, và trả lời khi ông có ý kiến khác.",
+      "goal": "Explain the consequences of climate change, suggest what the family can do, and respond to Grandpa's different opinion.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do, hậu quả", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất việc gia đình có thể làm", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["climate change", "heatwave", "extreme", "consequence", "deforestation", "balance"] }
+      ],
+      "opener": "Another heatwave on the news! Well, the weather has always been hot in summer.",
+      "stance": "The weather has always changed. I don't think people can cause climate change.",
+      "turns": 5,
+      "fallback": [
+        "Hmm. What do you think is different now?",
+        "But the weather has always changed. I don't think people can cause climate change.",
+        "Well, maybe you're right. What can our family do?",
+        "All right, let's try that together."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["climate change", "extreme weather", "because", "we can", "consequence"]
+    }
+  ]
+}

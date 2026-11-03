@@ -6,6 +6,8 @@ const LIMITS = {
   transcribe: { perMinute: 20, perDay: 300 },
   feedback: { perMinute: 20, perDay: 300 },
   tts: { perMinute: 60, perDay: 600 },
+  /** AI đóng vai trong Micro-Roleplay của Learning Module. */
+  roleplay: { perMinute: 10, perDay: 80 },
 } as const;
 export type UsageKind = keyof typeof LIMITS;
 

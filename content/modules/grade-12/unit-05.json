@@ -1,0 +1,354 @@
+{
+  "grade": 12,
+  "unit": 5,
+  "title": "The World of Work",
+  "titleVi": "Thế giới việc làm",
+  "edition": "Tiếng Anh 12 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 60–71; Glossary tr. 150–151",
+  "vocab": [
+    { "id": "v01", "en": "part-time", "vi": "bán thời gian", "ipa": "/ˌpɑːt ˈtaɪm/", "ipaFrom": "glossary", "pos": "adj", "example": "My sister has a part-time job at a bookshop.", "collocations": ["a part-time job", "work part-time"], "synonyms": [], "antonyms": ["full-time"], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v02", "en": "well-paid", "vi": "được trả lương cao", "ipa": "/ˌwel ˈpeɪd/", "ipaFrom": "glossary", "pos": "adj", "example": "Being a pilot is a well-paid but stressful job.", "collocations": ["a well-paid job"], "synonyms": [], "antonyms": ["badly paid"], "src": { "kind": "sgk", "page": 151 } },
+    { "id": "v03", "en": "unpaid", "vi": "không được trả lương", "ipa": "/ˌʌnˈpeɪd/", "ipaFrom": "glossary", "pos": "adj", "example": "She did an unpaid job at a charity last summer.", "collocations": ["unpaid work", "an unpaid job"], "synonyms": ["voluntary"], "antonyms": ["paid"], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v04", "en": "rewarding", "vi": "xứng đáng", "ipa": "/rɪˈwɔːdɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "Teaching young children is a very rewarding job.", "collocations": ["a rewarding job", "a rewarding experience"], "synonyms": ["satisfying"], "antonyms": [], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v05", "en": "challenging", "vi": "thách thức", "ipa": "/ˈtʃælɪndʒɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "Working as a doctor is challenging but interesting.", "collocations": ["a challenging job", "physically challenging"], "synonyms": ["difficult"], "antonyms": ["easy"], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v06", "en": "stressful", "vi": "áp lực, căng thẳng", "ipa": "/ˈstresfl/", "ipaFrom": "glossary", "pos": "adj", "example": "Working in a busy hospital can be very stressful.", "collocations": ["a stressful job", "a stressful day"], "synonyms": [], "antonyms": ["relaxing"], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v07", "en": "repetitive", "vi": "lặp đi lặp lại", "ipa": "/rɪˈpetətɪv/", "ipaFrom": "glossary", "pos": "adj", "example": "Factory work can be repetitive because you do the same task all day.", "collocations": ["repetitive work", "a repetitive task"], "synonyms": ["boring"], "antonyms": ["varied"], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v08", "en": "flexible", "vi": "linh hoạt", "ipa": "/ˈfleksəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "I'd like a job with flexible working hours.", "collocations": ["flexible hours", "flexible working"], "synonyms": [], "antonyms": ["fixed"], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v09", "en": "nine-to-five", "vi": "giờ hành chính", "ipa": "/ˈnaɪn tə faɪv/", "ipaFrom": "glossary", "pos": "adj", "example": "My dad has a nine-to-five job in an office.", "collocations": ["a nine-to-five job"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v10", "en": "overtime", "vi": "ngoài giờ", "ipa": "/ˈəʊvətaɪm/", "ipaFrom": "glossary", "pos": "adv", "example": "He often works overtime before the new year.", "collocations": ["work overtime"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v11", "en": "shift", "vi": "ca làm việc", "ipa": "/ʃɪft/", "ipaFrom": "glossary", "pos": "n", "example": "Nurses sometimes have to work the night shift.", "collocations": ["a night shift", "work in shifts"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v12", "en": "wage", "vi": "tiền công (trả theo giờ hoặc theo khối lượng công việc)", "ipa": "/weɪdʒ/", "ipaFrom": "glossary", "pos": "n", "example": "The café pays a good hourly wage to students.", "collocations": ["an hourly wage", "a low wage"], "synonyms": ["pay"], "antonyms": [], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v13", "en": "bonus", "vi": "tiền thưởng", "ipa": "/ˈbəʊnəs/", "ipaFrom": "glossary", "pos": "n", "example": "Workers get a bonus if they do a good job.", "collocations": ["a generous bonus", "get a bonus"], "synonyms": ["reward"], "antonyms": [], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v14", "en": "vacancy", "vi": "vị trí công việc còn trống", "ipa": "/ˈveɪkənsi/", "ipaFrom": "glossary", "pos": "n", "example": "The bookshop has a vacancy for a part-time assistant.", "collocations": ["a job vacancy", "fill a vacancy"], "synonyms": ["opening"], "antonyms": [], "src": { "kind": "sgk", "page": 151 } },
+    { "id": "v15", "en": "application letter", "vi": "thư xin việc", "ipa": "/ˌæplɪˈkeɪʃn ˈletə/", "ipaFrom": "glossary", "pos": "n", "example": "I sent my application letter to the café yesterday.", "collocations": ["write an application letter", "submit an application letter"], "synonyms": ["cover letter"], "antonyms": [], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v16", "en": "employ", "vi": "tuyển dụng", "ipa": "/ɪmˈplɔɪ/", "ipaFrom": "glossary", "pos": "v", "example": "The company plans to employ fifty more workers.", "collocations": ["employ staff", "be employed by"], "synonyms": ["hire"], "antonyms": ["fire"], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v17", "en": "on-the-job", "vi": "trong công việc, khi đang làm việc", "ipa": "/ɒn ðə ˈdʒɒb/", "ipaFrom": "glossary", "pos": "adj", "example": "New staff receive on-the-job training in their first week.", "collocations": ["on-the-job training"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v18", "en": "casual", "vi": "theo thời vụ, tạm thời", "ipa": "/ˈkæʒuəl/", "ipaFrom": "glossary", "pos": "adj", "example": "Many students do casual work during the summer holidays.", "collocations": ["casual work", "casual staff"], "synonyms": ["temporary"], "antonyms": ["permanent"], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v19", "en": "wait on tables", "vi": "phục vụ đồ ăn thức uống cho khách trong nhà hàng", "ipa": "/weɪt ɒn ˈteɪblz/", "ipaFrom": "glossary", "pos": "phr v", "example": "My cousin waits on tables at a restaurant at weekends.", "collocations": [], "synonyms": ["serve customers"], "antonyms": [], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v20", "en": "footstep", "vi": "bước chân; truyền thống gia đình", "ipa": "/ˈfʊtstep/", "ipaFrom": "glossary", "pos": "n", "example": "She wants to follow in her mother's footsteps and become a teacher.", "collocations": ["follow in somebody's footsteps"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 150 } },
+    { "id": "v21", "en": "relevant", "vi": "liên quan, phù hợp", "ipa": "/ˈreləvənt/", "ipaFrom": "dictionary", "pos": "adj", "example": "This job requires relevant experience in sales.", "collocations": ["relevant experience", "relevant qualifications"], "synonyms": ["related"], "antonyms": ["irrelevant"], "src": { "kind": "sgk", "page": 62 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Simple and compound sentences",
+      "nameVi": "Câu đơn và câu ghép",
+      "explainVi": "Câu đơn có một mệnh đề độc lập. Câu ghép có hai (hoặc nhiều) mệnh đề độc lập, nối bằng liên từ and, but, or, so, yet; bằng cặp not only ... but also; hoặc bằng trạng từ nối như moreover, as a result, in fact, on the other hand (thường có dấu chấm phẩy trước và dấu phẩy sau). Câu ghép giúp câu trả lời dài và mạch lạc hơn.",
+      "formula": "Mệnh đề 1, and/but/or/so + mệnh đề 2  ·  Mệnh đề 1; moreover/as a result, mệnh đề 2",
+      "examples": [
+        "Being a nurse is tiring, but it is very rewarding.",
+        "The job is well-paid; moreover, the hours are flexible.",
+        "He worked overtime every day, so he was always tired."
+      ],
+      "wrong": [
+        { "sentence": "The job is stressful, so but I like it.", "fix": "The job is stressful, but I like it.", "whyVi": "Chỉ dùng một liên từ để nối hai mệnh đề; ý tương phản dùng but." },
+        { "sentence": "This job requires not only language skills and communication skills.", "fix": "This job requires not only language skills but also communication skills.", "whyVi": "Cặp liên từ là not only ... but also." }
+      ],
+      "drills": [
+        { "prompt": "The work is repetitive, ___ the wage is quite good.", "options": ["but", "so", "or"], "answer": 0, "explainVi": "Hai ý trái ngược (nhàm chán nhưng lương tốt): but." },
+        { "prompt": "She loves children, ___ she wants to become a teacher.", "options": ["so", "but", "or"], "answer": 0, "explainVi": "Ý sau là kết quả của ý trước: so." },
+        { "prompt": "Which sentence is a compound sentence?", "options": ["I applied for the job, and they invited me to an interview.", "I applied for the job last week.", "Because I need money, I applied for the job."], "answer": 0, "explainVi": "Hai mệnh đề độc lập nối bằng and là câu ghép. Câu có because là câu phức." }
+      ],
+      "errorTag": "conjunction",
+      "src": { "kind": "sgk", "page": 63 }
+    },
+    {
+      "id": "g02",
+      "name": "Complex sentences",
+      "nameVi": "Câu phức",
+      "explainVi": "Câu phức có một mệnh đề độc lập và ít nhất một mệnh đề phụ bắt đầu bằng when, while, because, although, if, so that. Mệnh đề phụ đứng trước thì thêm dấu phẩy. Với although, không dùng thêm but trong cùng câu.",
+      "formula": "Mệnh đề chính + because/although/if/when/so that + mệnh đề phụ  ·  Although/If/When + mệnh đề phụ, mệnh đề chính",
+      "examples": [
+        "Although the job is well-paid, I wouldn't choose it.",
+        "I want to become a doctor because I want to help sick people.",
+        "My cousin took a cooking course so that she could open a café."
+      ],
+      "wrong": [
+        { "sentence": "Although the job is stressful, but it is well-paid.", "fix": "Although the job is stressful, it is well-paid.", "whyVi": "Đã có although thì không dùng thêm but." },
+        { "sentence": "Because I love books. I applied for a job at the library.", "fix": "Because I love books, I applied for a job at the library.", "whyVi": "Mệnh đề phụ không đứng một mình thành câu; nối vào mệnh đề chính bằng dấu phẩy." }
+      ],
+      "drills": [
+        { "prompt": "___ he left school with no qualifications, he found a good job.", "options": ["Although", "Because", "So that"], "answer": 0, "explainVi": "Hai ý trái ngược (không có bằng cấp mà vẫn tìm được việc tốt): Although." },
+        { "prompt": "If you learn English well, you ___ a better chance of getting a job.", "options": ["will have", "had", "having"], "answer": 0, "explainVi": "Câu điều kiện loại 1: If + hiện tại đơn, will + V: will have." },
+        { "prompt": "She saved money ___ she could pay for a training course.", "options": ["so that", "although", "but"], "answer": 0, "explainVi": "Chỉ mục đích (để có thể): so that." }
+      ],
+      "errorTag": "conjunction",
+      "src": { "kind": "sgk", "page": 63 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sentence_stress",
+      "focus": "Nhấn trợ động từ và động từ khuyết thiếu",
+      "tipVi": "Thường thì trợ động từ (do, have, be) và động từ khuyết thiếu (can, will) đọc nhẹ. Nhưng chúng được nhấn khi: đứng cuối câu trả lời ngắn (Yes, I CAN.), ở dạng phủ định rút gọn (HAVEN'T, CAN'T), hoặc khi muốn phản bác ý trước (He WAS interested).",
+      "words": ["can", "can't", "have", "haven't", "does", "was"],
+      "sentence": "A: Have you applied for the job? B: Yes, I have.",
+      "quiz": [
+        { "prompt": "A: Can you work at weekends? B: Yes, I can. Is \"can\" in B's answer stressed?", "options": ["Yes, it is stressed.", "No, it is not stressed."], "answer": 0, "explainVi": "Trong câu trả lời ngắn, động từ khuyết thiếu không có động từ chính theo sau nên được nhấn." },
+        { "prompt": "In which sentence is the auxiliary verb usually stressed?", "options": ["She hasn't sent her application yet.", "She has sent her application.", "Has she sent her application?"], "answer": 0, "explainVi": "Trợ động từ ở dạng phủ định rút gọn (hasn't) được nhấn." }
+      ],
+      "src": { "kind": "sgk", "page": 62 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "challenging, stressful, flexible, vacancy nhấn âm đầu; repetitive, rewarding, employ nhấn âm thứ hai.",
+      "words": ["challenging", "stressful", "flexible", "vacancy", "repetitive", "rewarding", "employ"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["flexible", "rewarding", "employ"], "answer": 0, "explainVi": "flexible /ˈfleksəbl/ nhấn âm đầu; rewarding và employ nhấn âm thứ hai." },
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["vacancy", "repetitive", "challenging"], "answer": 1, "explainVi": "repetitive /rɪˈpetətɪv/ nhấn âm thứ hai; vacancy và challenging nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p03",
+      "kind": "intonation",
+      "focus": "Ngữ điệu câu hỏi Yes/No khi hỏi về công việc",
+      "tipVi": "Câu hỏi Yes/No thường lên giọng ở cuối câu: Is the job part-TIME? Can I work at WEEKends? Lên giọng nghe lịch sự và rõ đây là câu hỏi.",
+      "words": ["Is it part-time?", "Do I need experience?", "Can I start next week?"],
+      "sentence": "Excuse me, is the vacancy still available?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "I'm really worried / nervous about ...", "vi": "Mình thật sự lo lắng / hồi hộp về ...", "useVi": "Khi nói ra nỗi lo của mình.", "example": "I'm really nervous about my job interview tomorrow.", "src": { "kind": "sgk", "page": 69 } },
+    { "id": "e02", "en": "I can't concentrate on anything.", "vi": "Mình không tập trung được vào việc gì cả.", "useVi": "Khi lo đến mức không làm được việc khác.", "example": "The interview is tomorrow, and I can't concentrate on anything.", "src": { "kind": "sgk", "page": 69 } },
+    { "id": "e03", "en": "I couldn't sleep last night.", "vi": "Tối qua mình không ngủ được.", "useVi": "Khi kể nỗi lo đã làm mình mất ngủ.", "example": "I couldn't sleep last night because of my presentation.", "src": { "kind": "sgk", "page": 69 } },
+    { "id": "e04", "en": "I can't help / stop thinking about it.", "vi": "Mình cứ nghĩ mãi về chuyện đó.", "useVi": "Khi một nỗi lo cứ lặp lại trong đầu.", "example": "I sent the email to the wrong person. I can't stop thinking about it.", "src": { "kind": "sgk", "page": 69 } },
+    { "id": "e05", "en": "I'm afraid that I'll make a mistake during ...", "vi": "Mình sợ sẽ mắc lỗi trong ...", "useVi": "Khi lo sẽ làm sai trong một sự kiện sắp tới.", "example": "I'm afraid that I'll make a mistake during my first shift.", "src": { "kind": "sgk", "page": 69 } },
+    { "id": "e06", "en": "Stop worrying / thinking about it.", "vi": "Đừng lo / nghĩ về nó nữa.", "useVi": "Khi an ủi người đang lo lắng.", "example": "Stop worrying about it. You've prepared really well.", "src": { "kind": "sgk", "page": 69 } },
+    { "id": "e07", "en": "You'll be fine.", "vi": "Bạn sẽ ổn thôi.", "useVi": "Khi động viên ai đó trước một việc khó.", "example": "Don't worry. You'll be fine.", "src": { "kind": "sgk", "page": 69 } },
+    { "id": "e08", "en": "You've got nothing to worry about.", "vi": "Bạn chẳng có gì phải lo cả.", "useVi": "Khi trấn an người khác rằng mọi việc đều ổn.", "example": "Your English is great. You've got nothing to worry about.", "src": { "kind": "sgk", "page": 69 } },
+    { "id": "e09", "en": "I'd like a job that ... because ...", "vi": "Mình muốn một công việc ... vì ...", "useVi": "Khi nói về công việc mơ ước và lý do.", "example": "I'd like a job that lets me travel because I love meeting people.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "The main advantage / disadvantage of ... is ...", "vi": "Ưu điểm / Nhược điểm chính của ... là ...", "useVi": "Khi so sánh mặt tốt và mặt xấu của một nghề.", "example": "The main disadvantage of this job is the long hours.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but money isn't everything.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["Being a nurse", "is tiring", "but it is", "very rewarding"], "vi": "Làm y tá thì mệt nhưng rất đáng làm.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["Although the job", "is well-paid", "I wouldn't choose it", "because it is stressful"], "vi": "Dù công việc lương cao, mình sẽ không chọn vì nó căng thẳng.", "grammarId": "g02" },
+    { "id": "b03", "chunks": ["I'd like a job", "with flexible hours", "so that I can", "study at the same time"], "vi": "Mình muốn một công việc giờ giấc linh hoạt để có thể vừa học.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["The bookshop", "has a vacancy", "for a part-time", "assistant"], "vi": "Hiệu sách có một vị trí trống cho nhân viên bán thời gian.", "grammarId": null },
+    { "id": "b05", "chunks": ["Factory work", "can be repetitive", "so many workers", "feel bored"], "vi": "Công việc ở nhà máy có thể lặp đi lặp lại nên nhiều công nhân thấy chán.", "grammarId": "g01" },
+    { "id": "b06", "chunks": ["If you work hard", "the company", "will give you", "a bonus"], "vi": "Nếu bạn làm việc chăm chỉ, công ty sẽ thưởng cho bạn.", "grammarId": "g02" },
+    { "id": "b07", "chunks": ["She wants to", "follow in", "her mother's footsteps", "and become a teacher"], "vi": "Cô ấy muốn nối nghiệp mẹ và trở thành giáo viên.", "grammarId": "g01" },
+    { "id": "b08", "chunks": ["New staff", "get on-the-job training", "in their", "first week"], "vi": "Nhân viên mới được đào tạo tại chỗ trong tuần đầu tiên.", "grammarId": null }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I want to become a nurse.",
+      "steps": [
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because I want to help sick people" },
+        { "askVi": "Có khó khăn gì không?", "ask": "Any problems?", "add": "although the work can be stressful" }
+      ],
+      "full": "I want to become a nurse because I want to help sick people, although the work can be stressful."
+    },
+    {
+      "id": "x02",
+      "base": "My cousin works at a café.",
+      "steps": [
+        { "askVi": "Làm kiểu gì?", "ask": "What kind of job?", "add": "part-time" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "at weekends" },
+        { "askVi": "Kết quả là gì?", "ask": "What is the result?", "add": "so she earns money for her studies" }
+      ],
+      "full": "My cousin works part-time at a café at weekends, so she earns money for her studies."
+    },
+    {
+      "id": "x03",
+      "base": "The job is well-paid.",
+      "steps": [
+        { "askVi": "Có gì khác không?", "ask": "Anything else?", "add": "and the hours are flexible" },
+        { "askVi": "Nhưng sao?", "ask": "But?", "add": "but you have to work overtime sometimes" }
+      ],
+      "full": "The job is well-paid and the hours are flexible, but you have to work overtime sometimes."
+    },
+    {
+      "id": "x04",
+      "base": "I applied for the job.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last week" },
+        { "askVi": "Bằng cách nào?", "ask": "How?", "add": "by sending an application letter" },
+        { "askVi": "Kết quả?", "ask": "What happened?", "add": "and they invited me to an interview" }
+      ],
+      "full": "I applied for the job last week by sending an application letter, and they invited me to an interview."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Công việc mơ ước của em",
+      "questions": [
+        "What is your dream job, and why?",
+        "Which career would make you happiest in the future?",
+        "What kind of work do you hope to do after you finish school?"
+      ],
+      "keywords": ["rewarding", "because", "I'd like", "career"],
+      "exampleAnswer": "My dream job is a vet because I love animals, although the work can be challenging.",
+      "expectsReason": true
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Công việc của người thân",
+      "questions": [
+        "What does someone in your family do for a living?",
+        "Tell me about the job of a relative you know well.",
+        "What is a typical working day like for one of your parents?"
+      ],
+      "keywords": ["nine-to-five", "shift", "overtime", "works as"],
+      "exampleAnswer": "My uncle works as a nurse. He works in shifts, and sometimes he has to work at night.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Ưu và nhược điểm của một nghề",
+      "questions": [
+        "What are the good and bad points of being a doctor?",
+        "What do you think is easy and difficult about a doctor's job?",
+        "Would you like to be a doctor? What would you enjoy and dislike?"
+      ],
+      "keywords": ["rewarding", "stressful", "although", "but"],
+      "exampleAnswer": "Being a doctor is rewarding because you save lives, but it is stressful and the hours are long.",
+      "expectsReason": true
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Chuẩn bị cho buổi phỏng vấn xin việc",
+      "questions": [
+        "How should a student prepare for a job interview?",
+        "What should you do before your first interview?",
+        "What tips would you give someone going to an interview?"
+      ],
+      "keywords": ["prepare", "relevant", "arrive early", "should"],
+      "exampleAnswer": "You should learn about the company, prepare answers to common questions and arrive ten minutes early.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Việc làm thêm của học sinh",
+      "questions": [
+        "What part-time jobs can students do in your town?",
+        "Which casual jobs are common for teenagers where you live?",
+        "Where can a student find holiday work in your area?"
+      ],
+      "keywords": ["part-time", "casual", "wait on tables", "wage"],
+      "exampleAnswer": "Students can wait on tables in cafés, work at bookshops or teach young children English.",
+      "expectsReason": false
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What job did you want to do when you were a small child?", "keywords": ["wanted to", "because", "when I was"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should companies pay students who do internships? Why or why not?", "keywords": ["unpaid", "experience", "wage"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend found a spelling mistake in the application letter she has just sent. What do you say to her?", "keywords": ["you'll be fine", "don't worry", "stop worrying"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What job does a family member do, and what does he or she do every day?", "keywords": ["works as", "every day", "shift"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should students choose the same jobs as their parents? Why or why not?", "keywords": ["footsteps", "rewarding", "because"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your cousin is worried because he made a mistake at work today. What do you say to him?", "keywords": ["nothing to worry about", "you'll be fine", "everyone makes mistakes"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Gọi điện hỏi về việc làm thêm",
+      "contextVi": "Một hiệu sách gần trường đăng tin tuyển nhân viên bán thời gian dịp hè. Em gọi điện để hỏi thông tin về công việc.",
+      "aiRole": "Ms Lan, the manager of a local bookshop",
+      "studentRoleVi": "Học sinh muốn xin việc làm thêm",
+      "goalVi": "Hỏi ít nhất hai thông tin về công việc và giới thiệu ngắn gọn vì sao em phù hợp.",
+      "goal": "Ask at least two questions about the part-time job and briefly explain why you are suitable.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nói vì sao em phù hợp (because...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["vacancy", "part-time", "shift", "wage", "flexible"] }
+      ],
+      "opener": "Hello, Book Corner. How can I help you?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Yes, we still have a vacancy. What would you like to know about it?",
+        "Good question. Why do you think you would be good at this job?",
+        "Thank you. Can you send us an application letter this week?"
+      ],
+      "tipsVi": ["Mở đầu: \"Hello, I'm calling about the part-time vacancy.\"", "Câu hỏi Yes/No lên giọng ở cuối câu."],
+      "keywords": ["vacancy", "part-time", "working hours", "because", "experience"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Lương cao hay công việc ý nghĩa?",
+      "contextVi": "Em và một bạn cùng lớp bàn về việc chọn nghề. Bạn em nghĩ chỉ nên chọn nghề lương cao. Em nghĩ công việc ý nghĩa cũng rất quan trọng.",
+      "aiRole": "Duc, a classmate who thinks salary is the most important thing",
+      "studentRoleVi": "Bạn cùng lớp có quan điểm khác",
+      "goalVi": "Nêu quan điểm của em, đưa ví dụ về một nghề, và trả lời khi Đức phản đối.",
+      "goal": "Explain why a rewarding job matters, give an example of a job, and answer Duc's objection.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do cho ý kiến của em", "words": [] },
+        { "kind": "example", "vi": "Đưa ví dụ về một nghề cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["rewarding", "well-paid", "stressful", "challenging", "although"] }
+      ],
+      "opener": "I've decided: I'll choose whatever job pays the most. Money is all that matters, right?",
+      "stance": "Without a high salary, you can't afford a house or help your family, so money must come first.",
+      "turns": 5,
+      "fallback": [
+        "Really? What else is important in a job?",
+        "But without a high salary, you can't afford a house or help your family. Money must come first.",
+        "Hmm, OK. Can you name a job that is rewarding and also pays enough?",
+        "Maybe you're right. I'll think about it more."
+      ],
+      "tipsVi": ["Khi Đức phản đối, mở đầu bằng \"I see your point, but...\"", "Dùng although để nêu cả hai mặt."],
+      "keywords": ["rewarding", "well-paid", "I see your point", "although", "because"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Xin phép bố mẹ đi làm thêm",
+      "contextVi": "Em muốn làm thêm ở một quán cà phê vào cuối tuần trong kỳ nghỉ hè. Em nói chuyện với bố để xin phép.",
+      "aiRole": "Your father, who is worried about your studies",
+      "studentRoleVi": "Học sinh muốn đi làm thêm",
+      "goalVi": "Giải thích vì sao em muốn đi làm thêm, nêu lợi ích, và trả lời nỗi lo của bố.",
+      "goal": "Explain why you want a summer part-time job, give the benefits, and answer your father's worry.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do muốn đi làm thêm", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất cách sắp xếp thời gian", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["part-time", "wait on tables", "shift", "on-the-job", "experience"] }
+      ],
+      "opener": "Your mum told me you want to work at a café this summer. Why do you want to do that?",
+      "stance": "Working will make you too tired to study, and you are going into your final year soon.",
+      "turns": 5,
+      "fallback": [
+        "I see. What will you learn from this job?",
+        "But working will make you too tired to study, and your final year is coming soon.",
+        "That sounds reasonable. How many hours will you work each week?",
+        "All right. You can try it, but your studies come first."
+      ],
+      "tipsVi": ["Nói lễ phép với bố mẹ: \"I promise...\", \"I'll make sure...\"", "Đề xuất số giờ làm cụ thể để bố yên tâm."],
+      "keywords": ["part-time", "experience", "I promise", "so that", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Hướng nghiệp với cô tư vấn",
+      "contextVi": "Trường em có buổi tư vấn hướng nghiệp cho học sinh lớp 12. Em nói chuyện với cô tư vấn về nghề em muốn theo đuổi.",
+      "aiRole": "Ms Hanh, the school careers adviser",
+      "studentRoleVi": "Học sinh lớp 12 được tư vấn",
+      "goalVi": "Nói nghề em muốn làm, giải thích lý do, nêu một khó khăn của nghề, và trả lời khi cô có ý kiến khác.",
+      "goal": "Tell the adviser which job you want, explain why, name one difficulty of the job, and respond to her different view.",
+      "requirements": [
+        { "kind": "reason", "vi": "Giải thích lý do chọn nghề", "words": [] },
+        { "kind": "example", "vi": "Kể một trải nghiệm hoặc ví dụ liên quan", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["rewarding", "challenging", "relevant", "flexible", "stressful", "although"] }
+      ],
+      "opener": "Good morning. Have you thought about what job you'd like to do in the future?",
+      "stance": "That job has very few vacancies right now, so maybe you should choose a safer career.",
+      "turns": 5,
+      "fallback": [
+        "That's interesting. What makes you want to do that job?",
+        "But that job has very few vacancies right now. Maybe you should choose a safer career.",
+        "I understand. What skills do you need to prepare?",
+        "Good. Let's make a plan for your next steps."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["rewarding", "challenging", "although", "because", "skills"]
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "grade": 7,
+  "unit": 5,
+  "title": "Food and Drink",
+  "titleVi": "Đồ ăn và thức uống",
+  "edition": "Tiếng Anh 7 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 50–59; Glossary tr. 137",
+  "vocab": [
+    { "id": "v01", "en": "dish", "vi": "món ăn", "ipa": "/dɪʃ/", "ipaFrom": "glossary", "pos": "n", "example": "Pho is a famous Vietnamese dish.", "collocations": ["a traditional dish", "my favourite dish"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v02", "en": "ingredient", "vi": "thành phần (nguyên liệu để tạo một món ăn)", "ipa": "/ɪnˈɡriːdiənt/", "ipaFrom": "glossary", "pos": "n", "example": "Rice flour is the main ingredient of this cake.", "collocations": ["the main ingredient", "fresh ingredients"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v03", "en": "recipe", "vi": "công thức làm món ăn", "ipa": "/ˈresɪpi/", "ipaFrom": "glossary", "pos": "n", "example": "My grandma has a special recipe for fish soup.", "collocations": ["follow a recipe", "a recipe for"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v04", "en": "spring rolls", "vi": "nem rán", "ipa": "/sprɪŋ rəʊlz/", "ipaFrom": "glossary", "pos": "n", "example": "We always make spring rolls for Tet.", "collocations": ["make spring rolls", "fried spring rolls"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v05", "en": "noodles", "vi": "mì, mì sợi, phở", "ipa": "/ˈnuːdlz/", "ipaFrom": "glossary", "pos": "n", "example": "I often have beef noodle soup for breakfast.", "collocations": ["beef noodle soup", "a bowl of noodles"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v06", "en": "omelette", "vi": "trứng tráng", "ipa": "/ˈɒmlət/", "ipaFrom": "glossary", "pos": "n", "example": "You need three eggs to make this omelette.", "collocations": ["make an omelette"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v07", "en": "pancake", "vi": "bánh kếp", "ipa": "/ˈpænkeɪk/", "ipaFrom": "glossary", "pos": "n", "example": "My sister makes pancakes with milk and flour.", "collocations": ["make pancakes"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v08", "en": "shrimp", "vi": "con tôm", "ipa": "/ʃrɪmp/", "ipaFrom": "glossary", "pos": "n", "example": "This soup is cooked with shrimp and vegetables.", "collocations": ["shrimp soup", "fried shrimp"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v09", "en": "pork", "vi": "thịt lợn", "ipa": "/pɔːk/", "ipaFrom": "glossary", "pos": "n", "example": "My mum cooks pork in fish sauce.", "collocations": ["pork cooked in fish sauce", "roast pork"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v10", "en": "beef", "vi": "thịt bò", "ipa": "/biːf/", "ipaFrom": "glossary", "pos": "n", "example": "We need a kilo of beef for the noodle soup.", "collocations": ["a kilo of beef", "beef noodle soup"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v11", "en": "eel", "vi": "con lươn", "ipa": "/iːl/", "ipaFrom": "glossary", "pos": "n", "example": "Eel soup is a popular dish in Nghe An.", "collocations": ["eel soup"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v12", "en": "soup", "vi": "xúp, canh, cháo", "ipa": "/suːp/", "ipaFrom": "glossary", "pos": "n", "example": "We often have vegetable soup with rice.", "collocations": ["a bowl of soup", "vegetable soup"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v13", "en": "sauce", "vi": "nước chấm, nước xốt", "ipa": "/sɔːs/", "ipaFrom": "glossary", "pos": "n", "example": "Spring rolls taste better with sweet and sour sauce.", "collocations": ["fish sauce", "dipping sauce"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v14", "en": "fried", "vi": "được chiên / rán", "ipa": "/fraɪd/", "ipaFrom": "glossary", "pos": "adj", "example": "Fried tofu with tomato sauce is my favourite.", "collocations": ["fried tofu", "fried vegetables"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v15", "en": "roast", "vi": "(được) quay, nướng", "ipa": "/rəʊst/", "ipaFrom": "glossary", "pos": "adj", "example": "We had roast chicken for dinner on Sunday.", "collocations": ["roast chicken", "roast pork"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v16", "en": "flour", "vi": "bột", "ipa": "/flaʊə/", "ipaFrom": "glossary", "pos": "n", "example": "Pancakes need flour, eggs and milk.", "collocations": ["200 grams of flour", "rice flour"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v17", "en": "butter", "vi": "bơ", "ipa": "/ˈbʌtə/", "ipaFrom": "glossary", "pos": "n", "example": "Put a little butter in the pan first.", "collocations": ["bread and butter"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v18", "en": "teaspoon", "vi": "khối lượng đựng trong một thìa nhỏ dùng để quấy trà", "ipa": "/ˈtiːspuːn/", "ipaFrom": "glossary", "pos": "n", "example": "Add a teaspoon of salt to the soup.", "collocations": ["a teaspoon of salt"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v19", "en": "tablespoon", "vi": "khối lượng đựng trong một thìa / muỗng xúp", "ipa": "/ˈteɪblspuːn/", "ipaFrom": "glossary", "pos": "n", "example": "The recipe needs two tablespoons of sugar.", "collocations": ["a tablespoon of sugar"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v20", "en": "green tea", "vi": "chè xanh, trà xanh", "ipa": "/ˌɡriːn ˈtiː/", "ipaFrom": "glossary", "pos": "n", "example": "My grandpa drinks green tea every morning.", "collocations": ["a cup of green tea"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v21", "en": "lemonade", "vi": "nước chanh", "ipa": "/ˌleməˈneɪd/", "ipaFrom": "glossary", "pos": "n", "example": "A glass of cold lemonade is perfect on a hot day.", "collocations": ["a glass of lemonade"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } },
+    { "id": "v22", "en": "mineral water", "vi": "nước khoáng", "ipa": "/ˈmɪnərəl ˈwɔːtə/", "ipaFrom": "glossary", "pos": "n", "example": "How much is a bottle of mineral water?", "collocations": ["a bottle of mineral water"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 137 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "some, a lot of, lots of",
+      "nameVi": "Lượng từ some, a lot of, lots of",
+      "explainVi": "Dùng some (một ít, một vài), a lot of / lots of (nhiều) để nói về số lượng. Chúng đi được với cả danh từ đếm được số nhiều (apples, eggs) và danh từ không đếm được (water, sugar, rice). Trong câu phủ định và câu hỏi, ta thường dùng any thay cho some.",
+      "formula": "some / a lot of / lots of + danh từ số nhiều hoặc không đếm được  ·  not ... any / Are there any ...?",
+      "examples": [
+        "I need some eggs for this recipe.",
+        "There's some juice in the fridge.",
+        "Vietnamese people eat a lot of rice.",
+        "There aren't any onions left."
+      ],
+      "wrong": [
+        { "sentence": "I need some apple for this pie.", "fix": "I need some apples for this pie.", "whyVi": "apple là danh từ đếm được, đi với some thì phải ở số nhiều: apples." },
+        { "sentence": "She puts a lot of sugars in her tea.", "fix": "She puts a lot of sugar in her tea.", "whyVi": "sugar là danh từ không đếm được, không thêm -s." }
+      ],
+      "drills": [
+        { "prompt": "There are ___ eggs in the fridge, so we can make an omelette.", "options": ["some", "much", "a"], "answer": 0, "explainVi": "eggs là danh từ đếm được số nhiều trong câu khẳng định: some eggs." },
+        { "prompt": "Linh is very busy. She has got ___ homework today.", "options": ["lots of", "a", "many"], "answer": 0, "explainVi": "homework không đếm được, nói \"nhiều\" dùng lots of." },
+        { "prompt": "There aren't ___ biscuits on the plate.", "options": ["any", "a", "much"], "answer": 0, "explainVi": "Câu phủ định với danh từ số nhiều dùng any." },
+        { "prompt": "Which sentence is correct?", "options": ["I need some apple for this recipe.", "I need some apples for this recipe.", "I need a apples for this recipe."], "answer": 1, "explainVi": "some + danh từ đếm được số nhiều: some apples." }
+      ],
+      "errorTag": "plural",
+      "src": { "kind": "sgk", "page": 53 }
+    },
+    {
+      "id": "g02",
+      "name": "How many / How much",
+      "nameVi": "Hỏi số lượng với How many / How much",
+      "explainVi": "How many + danh từ đếm được số nhiều (eggs, apples, bananas). How much + danh từ không đếm được (water, flour, milk). How much cũng dùng để hỏi giá tiền.",
+      "formula": "How many + N (số nhiều) + do/does/did ...?  ·  How much + N (không đếm được) + ...?",
+      "examples": [
+        "How many eggs do we need?",
+        "How much milk do you drink every day?",
+        "How much is a glass of lemonade?"
+      ],
+      "wrong": [
+        { "sentence": "How much eggs do we need?", "fix": "How many eggs do we need?", "whyVi": "eggs đếm được nên dùng How many." },
+        { "sentence": "How many water do you drink?", "fix": "How much water do you drink?", "whyVi": "water không đếm được nên dùng How much." }
+      ],
+      "drills": [
+        { "prompt": "___ water do you drink every day?", "options": ["How much", "How many"], "answer": 0, "explainVi": "water không đếm được: How much." },
+        { "prompt": "___ spring rolls did your mum make?", "options": ["How many", "How much"], "answer": 0, "explainVi": "spring rolls đếm được, số nhiều: How many." },
+        { "prompt": "How much ___ do we need for the pancakes?", "options": ["flour", "eggs", "onions"], "answer": 0, "explainVi": "How much đi với danh từ không đếm được: flour." }
+      ],
+      "errorTag": "word_choice",
+      "src": { "kind": "sgk", "page": 54 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Âm /ɒ/",
+      "tipVi": "/ɒ/ là âm \"o\" ngắn, miệng mở tròn, đọc nhanh và gọn: not, lot, fond, hot.",
+      "words": ["fond", "lot", "not", "hot"],
+      "sentence": "This soup is not very hot.",
+      "quiz": [
+        { "prompt": "Which word has the sound /ɒ/?", "options": ["not", "pork", "short"], "answer": 0, "explainVi": "not /nɒt/ có âm /ɒ/ ngắn; pork và short có âm /ɔː/ dài." }
+      ],
+      "src": { "kind": "sgk", "page": 52 }
+    },
+    {
+      "id": "p02",
+      "kind": "sound",
+      "focus": "Âm /ɔː/",
+      "tipVi": "/ɔː/ là âm \"o\" kéo dài, môi tròn và hơi chu ra: short, call, water, pork, sauce. Đọc dài hơn hẳn /ɒ/.",
+      "words": ["short", "call", "water", "pork", "sauce"],
+      "sentence": "I'd like some pork with fish sauce.",
+      "quiz": [
+        { "prompt": "Which word has the sound /ɔː/?", "options": ["sauce", "lot", "fond"], "answer": 0, "explainVi": "sauce /sɔːs/ có âm /ɔː/ dài." },
+        { "prompt": "Which word does NOT have the sound /ɔː/?", "options": ["call", "water", "hot"], "answer": 2, "explainVi": "hot /hɒt/ có âm /ɒ/ ngắn." }
+      ],
+      "src": { "kind": "sgk", "page": 52 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "omelette, pancake, recipe, butter, tablespoon nhấn âm đầu; ingredient nhấn âm thứ hai; lemonade nhấn âm cuối.",
+      "words": ["omelette", "pancake", "recipe", "tablespoon", "ingredient", "lemonade"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["ingredient", "recipe", "pancake"], "answer": 0, "explainVi": "ingredient /ɪnˈɡriːdiənt/ nhấn âm thứ hai." },
+        { "prompt": "Which word is stressed on the LAST syllable?", "options": ["lemonade", "omelette", "butter"], "answer": 0, "explainVi": "lemonade /ˌleməˈneɪd/ nhấn âm cuối." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Xuống giọng ở câu hỏi giá tiền",
+      "tipVi": "Câu hỏi How much ...? xuống giọng ở cuối câu. Nhấn vào món mình hỏi: How much is a bowl of NOODLES? ↘",
+      "words": ["How much is it?", "How much are they?"],
+      "sentence": "How much is a bowl of noodles?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "How much is ...?", "vi": "... giá bao nhiêu?", "useVi": "Khi hỏi giá của một món (số ít).", "example": "How much is a glass of lemonade?", "src": { "kind": "sgk", "page": 55 } },
+    { "id": "e02", "en": "It's ... dong.", "vi": "Nó giá ... đồng.", "useVi": "Khi trả lời giá của một món.", "example": "It's 15,000 dong.", "src": { "kind": "sgk", "page": 55 } },
+    { "id": "e03", "en": "How much are ...?", "vi": "... giá bao nhiêu?", "useVi": "Khi hỏi giá của nhiều món hoặc danh từ số nhiều.", "example": "How much are three spring rolls?", "src": { "kind": "sgk", "page": 55 } },
+    { "id": "e04", "en": "They're ... dong.", "vi": "Chúng giá ... đồng.", "useVi": "Khi trả lời giá của nhiều món.", "example": "They're 30,000 dong.", "src": { "kind": "sgk", "page": 55 } },
+    { "id": "e05", "en": "What can I get you today?", "vi": "Hôm nay quý khách dùng gì ạ?", "useVi": "Câu người phục vụ dùng để hỏi khách gọi món.", "example": "Good evening. What can I get you today?", "src": { "kind": "sgk", "page": 50 } },
+    { "id": "e06", "en": "Would you like anything to drink?", "vi": "Bạn có muốn uống gì không?", "useVi": "Khi mời hoặc hỏi người khác muốn uống gì.", "example": "Would you like anything to drink? We have juice and green tea.", "src": { "kind": "sgk", "page": 50 } },
+    { "id": "e07", "en": "I'd like some ...", "vi": "Mình muốn một ít ...", "useVi": "Khi gọi món một cách lịch sự.", "example": "I'd like some fried rice and a glass of lemonade.", "src": { "kind": "sgk", "page": 50 } },
+    { "id": "e08", "en": "It tastes ...", "vi": "Nó có vị ...", "useVi": "Khi mô tả mùi vị của món ăn.", "example": "This soup tastes a bit salty.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "First, ... Then, ... Finally, ...", "vi": "Đầu tiên, ... Sau đó, ... Cuối cùng, ...", "useVi": "Khi kể các bước làm một món ăn.", "example": "First, beat the eggs. Then, add some salt. Finally, fry them.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "Can I have ..., please?", "vi": "Cho mình ... nhé?", "useVi": "Khi xin hoặc gọi một món ăn, đồ uống.", "example": "Can I have a bowl of beef noodle soup, please?", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["We need", "some eggs", "and a lot of flour", "for the pancakes"], "vi": "Chúng ta cần vài quả trứng và nhiều bột để làm bánh kếp.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["How many eggs", "do we need", "for the omelette?"], "vi": "Chúng ta cần bao nhiêu quả trứng để làm trứng tráng?", "grammarId": "g02" },
+    { "id": "b03", "chunks": ["How much", "is a bowl of", "eel soup?"], "vi": "Một bát súp lươn giá bao nhiêu?", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["My mum", "cooks pork", "in fish sauce", "on Sundays"], "vi": "Mẹ mình nấu thịt lợn kho nước mắm vào các ngày Chủ nhật.", "grammarId": null },
+    { "id": "b05", "chunks": ["Vietnamese people", "eat lots of", "rice and vegetables"], "vi": "Người Việt Nam ăn nhiều cơm và rau.", "grammarId": "g01" },
+    { "id": "b06", "chunks": ["I'd like", "some spring rolls", "and a glass of", "lemonade"], "vi": "Mình muốn vài cái nem rán và một cốc nước chanh.", "grammarId": "g01" },
+    { "id": "b07", "chunks": ["There isn't", "any butter", "in the fridge"], "vi": "Trong tủ lạnh không còn chút bơ nào.", "grammarId": "g01" },
+    { "id": "b08", "chunks": ["How much water", "do you drink", "every day?"], "vi": "Mỗi ngày bạn uống bao nhiêu nước?", "grammarId": "g02" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I like noodles.",
+      "steps": [
+        { "askVi": "Loại nào?", "ask": "What kind?", "add": "beef noodle soup" },
+        { "askVi": "Khi nào em ăn?", "ask": "When?", "add": "for breakfast" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it is hot and tasty" }
+      ],
+      "full": "I like noodles, especially beef noodle soup for breakfast, because it is hot and tasty."
+    },
+    {
+      "id": "x02",
+      "base": "My dad makes an omelette.",
+      "steps": [
+        { "askVi": "Với nguyên liệu gì?", "ask": "With what?", "add": "with three eggs and some onions" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every Sunday morning" }
+      ],
+      "full": "My dad makes an omelette with three eggs and some onions every Sunday morning."
+    },
+    {
+      "id": "x03",
+      "base": "We had dinner.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at a Vietnamese restaurant" },
+        { "askVi": "Ăn món gì?", "ask": "What did you eat?", "add": "and ordered roast chicken and fried tofu" },
+        { "askVi": "Uống gì?", "ask": "What did you drink?", "add": "with green tea" }
+      ],
+      "full": "We had dinner at a Vietnamese restaurant and ordered roast chicken and fried tofu with green tea."
+    },
+    {
+      "id": "x04",
+      "base": "Spring rolls are popular.",
+      "steps": [
+        { "askVi": "Phổ biến khi nào?", "ask": "When?", "add": "at Tet" },
+        { "askVi": "Ăn kèm gì?", "ask": "Eaten with what?", "add": "and people eat them with sweet and sour sauce" }
+      ],
+      "full": "Spring rolls are popular at Tet, and people eat them with sweet and sour sauce."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Bữa tối của gia đình em",
+      "questions": [
+        "What dishes does your family usually have for dinner?",
+        "What does a typical family dinner in your home look like?",
+        "What do you usually eat with rice at dinner?"
+      ],
+      "keywords": ["rice", "soup", "pork", "vegetables"],
+      "exampleAnswer": "We usually have rice, vegetable soup and some fish or pork cooked in fish sauce.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Nguyên liệu làm trứng tráng",
+      "questions": [
+        "What do you need to make an omelette?",
+        "What ingredients are in a good omelette?",
+        "How many eggs and what else do you use for an omelette?"
+      ],
+      "keywords": ["eggs", "butter", "salt", "pepper"],
+      "exampleAnswer": "You need three eggs, some butter, a teaspoon of salt and a little pepper.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Gọi món khi đi ăn ngoài",
+      "questions": [
+        "What do you like to order at a restaurant?",
+        "What dishes do you usually choose when you eat out?",
+        "If you go to a Vietnamese restaurant, what will you order?"
+      ],
+      "keywords": ["order", "I'd like", "noodles", "spring rolls"],
+      "exampleAnswer": "I usually order beef noodle soup and some spring rolls, and I'd like a glass of lemonade too.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Món đặc sản nơi em sống",
+      "questions": [
+        "What local dish should visitors try in your area? Why?",
+        "Which food from your area would tourists love? Why?",
+        "What makes the food in your area special?"
+      ],
+      "keywords": ["dish", "ingredient", "famous", "because"],
+      "exampleAnswer": "Visitors should try eel soup because it is hot, tasty and you can't find it in many other places.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Vì sao đồ ăn đường phố được ưa thích",
+      "questions": [
+        "Why do people like eating street food?",
+        "What makes street food so popular?",
+        "Why do many students buy snacks near the school gate?"
+      ],
+      "keywords": ["cheap", "tasty", "fast", "because"],
+      "exampleAnswer": "Street food is cheap, tasty and fast, so people can eat it when they are busy.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What did you eat and drink at your last birthday party?", "keywords": ["cake", "some", "a lot of", "juice"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should children help their parents cook dinner? Why or why not?", "keywords": ["cook", "learn", "recipe", "because"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "You are at a food stall and want to know the price of a bowl of noodles. What do you say?", "keywords": ["How much", "bowl", "noodles"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What food and drinks does your family buy for Tet?", "keywords": ["spring rolls", "some", "a lot of", "fruit"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should school canteens sell fried snacks? Why or why not?", "keywords": ["fried", "healthy", "because"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your foreign friend doesn't know what to order at a Vietnamese restaurant. What do you say?", "keywords": ["try", "I'd like", "spring rolls", "noodles"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Gọi món ở quán ăn",
+      "contextVi": "Em và gia đình đến một quán ăn sáng. Em gọi món cho mình và hỏi giá.",
+      "aiRole": "A friendly waiter at a small breakfast restaurant",
+      "studentRoleVi": "Khách hàng, gọi món và hỏi giá",
+      "goalVi": "Gọi một món ăn và một đồ uống, hỏi giá của ít nhất một món.",
+      "goal": "Order one dish and one drink, and ask the price of at least one item.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng cách gọi món và hỏi giá của bài", "words": ["I'd like", "How much", "Can I have"] }
+      ],
+      "opener": "Good morning! What can I get you today?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Sure. Would you like anything to drink?",
+        "OK. Anything else?",
+        "Great. I'll be right back with your order."
+      ],
+      "tipsVi": ["Gọi món: \"I'd like...\" hoặc \"Can I have..., please?\"", "Hỏi giá: \"How much is...?\""],
+      "keywords": ["I'd like", "How much", "noodles", "green tea", "please"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Chuẩn bị đồ ăn cho tiệc lớp",
+      "contextVi": "Lớp em tổ chức tiệc cuối học kì. Em và một bạn trong ban tổ chức bàn về đồ ăn, thức uống.",
+      "aiRole": "Duc, a classmate in the party team",
+      "studentRoleVi": "Thành viên ban tổ chức tiệc",
+      "goalVi": "Đề xuất đồ ăn, thức uống cho tiệc, nói số lượng cần mua và trả lời khi Duc có ý kiến khác.",
+      "goal": "Suggest food and drinks for the class party, say how much to buy, and respond to Duc's different opinion.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất món ăn, đồ uống", "words": [] },
+        { "kind": "reason", "vi": "Giải thích vì sao chọn", "words": [] },
+        { "kind": "keyword", "vi": "Dùng từ chỉ số lượng của bài", "words": ["some", "a lot of", "lots of", "How many", "How much"] }
+      ],
+      "opener": "We have forty students for the party. What food and drinks should we get?",
+      "stance": "Let's just buy lots of fried chicken and soft drinks. Everyone loves them.",
+      "turns": 5,
+      "fallback": [
+        "Good idea. Why do you choose that?",
+        "Hmm, I think we should just buy lots of fried chicken and soft drinks. Everyone loves them.",
+        "OK. How many bottles of water do we need?",
+        "Great. Let's tell the class tomorrow."
+      ],
+      "tipsVi": ["Khi Duc đề xuất khác, mở đầu bằng \"That's a good idea, but...\"", "Dùng some, a lot of, lots of khi nói số lượng."],
+      "keywords": ["some", "a lot of", "fruit", "water", "because"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Tự làm nem rán cùng mẹ",
+      "contextVi": "Cuối tuần này nhà em có khách. Em muốn cùng mẹ tự làm nem rán, nhưng mẹ định mua sẵn cho nhanh.",
+      "aiRole": "Your mum, who is very busy this weekend",
+      "studentRoleVi": "Con, muốn tự làm nem rán",
+      "goalVi": "Thuyết phục mẹ cùng làm nem: nêu lý do, kể nguyên liệu cần mua và trả lời khi mẹ lo mất thời gian.",
+      "goal": "Persuade your mum to make spring rolls at home: give reasons, list the ingredients, and answer her worry.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do nên tự làm", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["ingredient", "pork", "shrimp", "spring rolls", "recipe"] }
+      ],
+      "opener": "We have guests on Sunday. I think I'll just buy some spring rolls from the market.",
+      "stance": "Making spring rolls takes too much time. Buying them is easier.",
+      "turns": 5,
+      "fallback": [
+        "Make them at home? Why?",
+        "But making spring rolls takes too much time. Buying them is easier.",
+        "Hmm. What ingredients do we need, then?",
+        "OK, let's make them together on Saturday afternoon."
+      ],
+      "tipsVi": ["Nói nhẹ nhàng: \"Mum, I think...\"", "Kể nguyên liệu: some pork, some shrimp, a lot of vegetables."],
+      "keywords": ["spring rolls", "ingredients", "some", "together", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Giới thiệu món Việt cho bạn nước ngoài",
+      "contextVi": "Một học sinh trao đổi người Úc mới đến trường em. Bạn ấy muốn thử món ăn Việt Nam nhưng còn lo lắng.",
+      "aiRole": "Susie, an exchange student from Australia",
+      "studentRoleVi": "Học sinh Việt Nam, giới thiệu món ăn",
+      "goalVi": "Giới thiệu một món ăn Việt, kể nguyên liệu, nêu lý do nên thử và trả lời khi Susie có ý kiến khác.",
+      "goal": "Recommend a Vietnamese dish to Susie, describe its ingredients, give a reason, and respond to her different opinion.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Gợi ý một món cụ thể", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do nên thử", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["dish", "ingredient", "sauce", "noodles", "beef", "shrimp"] }
+      ],
+      "opener": "I want to try some Vietnamese food, but I don't know where to start. What should I eat?",
+      "stance": "I think Vietnamese food has too much fish sauce. The smell is too strong for me.",
+      "turns": 5,
+      "fallback": [
+        "Sounds interesting. What's in it?",
+        "Hmm, but I think Vietnamese food has too much fish sauce. The smell is strong for me.",
+        "OK. Where can I try it, and how much is it?",
+        "Great, I'll try it this weekend!"
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["dish", "ingredients", "try", "because", "How much"]
+    }
+  ]
+}

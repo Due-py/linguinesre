@@ -1,0 +1,362 @@
+{
+  "grade": 9,
+  "unit": 7,
+  "title": "Natural Wonders of the World",
+  "titleVi": "Những kỳ quan thiên nhiên thế giới",
+  "edition": "Tiếng Anh 9 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 72–81; Glossary tr. 138",
+  "vocab": [
+    { "id": "v01", "en": "natural wonder", "vi": "kỳ quan thiên nhiên", "ipa": "/ˌnætʃrəl ˈwʌndə/", "ipaFrom": "dictionary", "pos": "n", "example": "Ha Long Bay is a natural wonder that many tourists want to see.", "collocations": ["natural wonders of the world", "visit a natural wonder"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 72 } },
+    { "id": "v02", "en": "majestic", "vi": "uy nghi, tráng lệ", "ipa": "/məˈdʒestɪk/", "ipaFrom": "glossary", "pos": "adj", "example": "We looked up at the majestic mountains in the morning light.", "collocations": ["majestic mountains", "a majestic view"], "synonyms": ["magnificent", "grand"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v03", "en": "paradise", "vi": "thiên đường, nơi đẹp tuyệt trần", "ipa": "/ˈpærədaɪs/", "ipaFrom": "glossary", "pos": "n", "example": "With white sand and clear water, the island is a paradise.", "collocations": ["a tropical paradise", "a paradise for divers"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v04", "en": "peak", "vi": "đỉnh, đỉnh núi", "ipa": "/piːk/", "ipaFrom": "glossary", "pos": "n", "example": "It took us six hours to reach the peak of Fansipan.", "collocations": ["reach the peak", "a snowy peak"], "synonyms": ["top", "summit"], "antonyms": ["foot"], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v05", "en": "biodiversity", "vi": "sự đa dạng sinh học", "ipa": "/ˌbaɪəʊdaɪˈvɜːsəti/", "ipaFrom": "glossary", "pos": "n", "example": "Cuc Phuong National Park is famous for its biodiversity.", "collocations": ["rich biodiversity", "protect biodiversity"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v06", "en": "ecosystem", "vi": "hệ sinh thái", "ipa": "/ˈiːkəʊsɪstəm/", "ipaFrom": "glossary", "pos": "n", "example": "Plastic waste can damage the ecosystem of a coral reef.", "collocations": ["a fragile ecosystem", "damage the ecosystem"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v07", "en": "travel destination", "vi": "điểm đến du lịch", "ipa": "/ˈtrævl ˌdestɪˈneɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "Da Lat is a popular travel destination for young people.", "collocations": ["a popular travel destination", "a top travel destination"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v08", "en": "locate", "vi": "định vị, đặt ở", "ipa": "/ləʊˈkeɪt/", "ipaFrom": "glossary", "pos": "v", "example": "The waterfall is located deep in the forest.", "collocations": ["be located in", "be located near"], "synonyms": ["situate"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v09", "en": "location", "vi": "địa điểm, nơi chốn", "ipa": "/ləʊˈkeɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "This beach is a perfect location for a summer camp.", "collocations": ["a perfect location", "the exact location"], "synonyms": ["place", "site"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v10", "en": "sustainable", "vi": "bền vững", "ipa": "/səˈsteɪnəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "Sustainable tourism protects nature for our children.", "collocations": ["sustainable tourism", "sustainable development"], "synonyms": [], "antonyms": ["harmful"], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v11", "en": "permit", "vi": "cho phép", "ipa": "/pəˈmɪt/", "ipaFrom": "glossary", "pos": "v", "example": "Visitors are not permitted to feed the animals in the park.", "collocations": ["be permitted to", "permit visitors to"], "synonyms": ["allow"], "antonyms": ["ban", "forbid"], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v12", "en": "permission", "vi": "sự cho phép", "ipa": "/pəˈmɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "You need permission to camp near the lake.", "collocations": ["ask for permission", "get permission"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v13", "en": "access", "vi": "tiếp cận, đến được", "ipa": "/ˈækses/", "ipaFrom": "glossary", "pos": "n", "example": "The only access to the cave is by boat.", "collocations": ["easy access", "access to the island"], "synonyms": ["entry"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v14", "en": "feature", "vi": "đặc điểm", "ipa": "/ˈfiːtʃə/", "ipaFrom": "glossary", "pos": "n", "example": "The main feature of the area is its tall limestone cliffs.", "collocations": ["a special feature", "natural features"], "synonyms": ["characteristic"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v15", "en": "annual", "vi": "(xảy ra) hằng năm", "ipa": "/ˈænjuəl/", "ipaFrom": "glossary", "pos": "adj", "example": "Our school has an annual trip to a national park.", "collocations": ["an annual festival", "an annual trip"], "synonyms": ["yearly"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v16", "en": "urgent", "vi": "gấp, cấp bách", "ipa": "/ˈɜːdʒənt/", "ipaFrom": "glossary", "pos": "adj", "example": "There is an urgent need to clean up the beach.", "collocations": ["an urgent need", "urgent action"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v17", "en": "possess", "vi": "có, sở hữu", "ipa": "/pəˈzes/", "ipaFrom": "glossary", "pos": "v", "example": "Viet Nam possesses many beautiful caves and bays.", "collocations": ["possess natural beauty"], "synonyms": ["have", "own"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v18", "en": "coral", "vi": "san hô", "ipa": "/ˈkɒrəl/", "ipaFrom": "glossary", "pos": "n, adj", "example": "Divers come to Nha Trang to see the colourful coral.", "collocations": ["coral reef", "coral island"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v19", "en": "support", "vi": "ủng hộ, giúp đỡ", "ipa": "/səˈpɔːt/", "ipaFrom": "glossary", "pos": "v", "example": "Tourists can support local people by buying their products.", "collocations": ["support local people", "support sustainable development"], "synonyms": ["help"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v20", "en": "crazy", "vi": "thích mê", "ipa": "/ˈkreɪzi/", "ipaFrom": "glossary", "pos": "adj", "example": "My brother is crazy about climbing mountains.", "collocations": ["be crazy about"], "synonyms": ["keen on"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Reported speech: Yes/No questions",
+      "nameVi": "Câu tường thuật dạng câu hỏi Yes/No",
+      "explainVi": "Khi kể lại câu hỏi Yes/No của người khác, dùng asked (+ người được hỏi) hoặc wanted to know, rồi thêm if hoặc whether. Phần sau if/whether viết theo trật tự câu kể: chủ ngữ đứng trước động từ, không đảo trợ động từ lên trước và không dùng do/does/did, không có dấu hỏi.",
+      "formula": "S + asked (+ O) / wanted to know + if / whether + S + V",
+      "examples": [
+        "\"Are you tired?\" → She asked me if I was tired.",
+        "\"Do you like caves?\" → He wanted to know whether I liked caves.",
+        "\"Is the lake deep?\" → They asked the guide if the lake was deep."
+      ],
+      "wrong": [
+        { "sentence": "She asked me was I tired.", "fix": "She asked me if I was tired.", "whyVi": "Câu hỏi Yes/No khi tường thuật cần if/whether, và chủ ngữ đứng trước động từ." },
+        { "sentence": "He asked me if did I like caves.", "fix": "He asked me if I liked caves.", "whyVi": "Sau if không dùng did và không đảo ngữ; động từ lùi về quá khứ: liked." }
+      ],
+      "drills": [
+        { "prompt": "\"Do you enjoy hiking?\" → My uncle asked me ___ I enjoyed hiking.", "options": ["if", "that", "what"], "answer": 0, "explainVi": "Tường thuật câu hỏi Yes/No dùng if (hoặc whether)." },
+        { "prompt": "\"Is the island far?\" → She wanted to know ___.", "options": ["was the island far", "if the island was far", "if was the island far"], "answer": 1, "explainVi": "Sau if dùng trật tự câu kể: the island was far." },
+        { "prompt": "Which sentence is correct?", "options": ["He asked did I visit Sa Pa.", "He asked whether I visited Sa Pa.", "He asked whether did I visit Sa Pa."], "answer": 1, "explainVi": "Không dùng did trong câu hỏi tường thuật; whether + I visited." },
+        { "prompt": "\"Can you swim?\" the guide asked us. → The guide ___ us if we could swim.", "options": ["said", "told", "asked"], "answer": 2, "explainVi": "Tường thuật câu hỏi dùng động từ ask: asked us if..." }
+      ],
+      "errorTag": "word_order",
+      "src": { "kind": "sgk", "page": 75 }
+    },
+    {
+      "id": "g02",
+      "name": "Tense changes in reported questions",
+      "nameVi": "Lùi thì trong câu hỏi tường thuật",
+      "explainVi": "Khi động từ tường thuật ở quá khứ (asked, wanted to know), động từ trong câu hỏi thường lùi một thì: am/is → was, are → were, V hiện tại → V quá khứ, will → would, can → could. Từ chỉ thời gian, nơi chốn cũng đổi: this → that, here → there.",
+      "formula": "is/are → was/were · V → V2/ed · will → would · can → could · this → that · here → there",
+      "examples": [
+        "\"Will it rain tomorrow?\" → I asked if it would rain the next day.",
+        "\"Can we camp here?\" → They asked if they could camp there.",
+        "\"Are you going to Phu Quoc this summer?\" → She asked if I was going to Phu Quoc that summer."
+      ],
+      "wrong": [
+        { "sentence": "She asked me if I will join the trip.", "fix": "She asked me if I would join the trip.", "whyVi": "Động từ tường thuật ở quá khứ (asked) nên will lùi thành would." },
+        { "sentence": "He wanted to know if we can see the peak.", "fix": "He wanted to know if we could see the peak.", "whyVi": "can lùi thành could sau wanted to know." }
+      ],
+      "drills": [
+        { "prompt": "\"Will you visit Ban Gioc Waterfall?\" → She asked me if I ___ Ban Gioc Waterfall.", "options": ["will visit", "would visit", "visiting"], "answer": 1, "explainVi": "will lùi thành would trong câu tường thuật." },
+        { "prompt": "\"Are you happy with the tour?\" → The guide asked if we ___ happy with the tour.", "options": ["are", "were", "be"], "answer": 1, "explainVi": "are lùi thành were." },
+        { "prompt": "\"Can I take photos here?\" → He asked if he could take photos ___.", "options": ["here", "there", "this"], "answer": 1, "explainVi": "here đổi thành there khi tường thuật." }
+      ],
+      "errorTag": "verb_tense",
+      "src": { "kind": "sgk", "page": 75 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Âm /sl/",
+      "tipVi": "Bắt đầu bằng tiếng xì /s/, rồi đưa đầu lưỡi chạm ngay sau răng trên để ra /l/. Đọc liền, không chèn âm \"ơ\" vào giữa (không đọc thành \"xơ-lai\").",
+      "words": ["sleepy", "slice", "slippery", "slogan", "slope"],
+      "sentence": "The slope was slippery after the rain.",
+      "quiz": [
+        { "prompt": "Which word begins with the sound /sl/?", "options": ["slice", "silence", "salad"], "answer": 0, "explainVi": "slice /slaɪs/ có /s/ và /l/ đi liền; silence và salad có nguyên âm xen giữa." }
+      ],
+      "src": { "kind": "sgk", "page": 74 }
+    },
+    {
+      "id": "p02",
+      "kind": "sound",
+      "focus": "Âm /sn/",
+      "tipVi": "Giữ tiếng xì /s/ rồi chuyển ngay sang /n/ (hơi đi qua mũi). Đọc liền một hơi, không đọc thành \"xơ-nô\".",
+      "words": ["snack", "snowy", "sneeze", "sneaker", "snake"],
+      "sentence": "We had a snack on the snowy peak.",
+      "quiz": [
+        { "prompt": "Which word begins with the sound /sn/?", "options": ["sunny", "snowy", "sandy"], "answer": 1, "explainVi": "snowy /ˈsnəʊi/ bắt đầu bằng /sn/; sunny và sandy có nguyên âm sau /s/." }
+      ],
+      "src": { "kind": "sgk", "page": 74 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "paradise, feature, access nhấn âm đầu; majestic, permission, sustainable nhấn âm thứ hai; biodiversity nhấn âm thứ tư (-ver-).",
+      "words": ["paradise", "feature", "access", "majestic", "permission", "sustainable", "biodiversity"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["majestic", "paradise", "sustainable"], "answer": 1, "explainVi": "paradise /ˈpærədaɪs/ nhấn âm đầu; majestic và sustainable nhấn âm thứ hai." },
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["permission", "feature", "ecosystem"], "answer": 0, "explainVi": "permission /pəˈmɪʃn/ nhấn âm thứ hai." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Lên giọng ở câu hỏi xin phép",
+      "tipVi": "Câu hỏi Yes/No xin phép (Can I...? May I...?) thường lên giọng ở cuối câu. Lên giọng nghe lịch sự và nhẹ nhàng hơn.",
+      "words": ["Can I come in?", "May I take a photo?"],
+      "sentence": "May we have a look around the cave?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Can I ...?", "vi": "Mình/Con có thể ... không?", "useVi": "Khi xin phép làm một việc, thường với người thân, bạn bè.", "example": "Can I borrow your map, Dad?", "src": { "kind": "sgk", "page": 76 } },
+    { "id": "e02", "en": "May we/I ...?", "vi": "Chúng tôi/Tôi có thể ... được không?", "useVi": "Khi xin phép một cách lịch sự hơn, với người lớn hoặc người lạ.", "example": "May we go inside the cave?", "src": { "kind": "sgk", "page": 76 } },
+    { "id": "e03", "en": "Sure.", "vi": "Được chứ.", "useVi": "Khi đồng ý cho người khác làm điều họ xin phép.", "example": "Sure. But please don't touch the rocks.", "src": { "kind": "sgk", "page": 76 } },
+    { "id": "e04", "en": "No, you can't.", "vi": "Không, con/bạn không được.", "useVi": "Khi không cho phép; nên nói thêm lý do để nghe nhẹ nhàng hơn.", "example": "No, you can't. It's too late to go out now.", "src": { "kind": "sgk", "page": 76 } },
+    { "id": "e05", "en": "Is it OK if I ...?", "vi": "Có được không nếu tôi ...?", "useVi": "Một cách khác để xin phép lịch sự.", "example": "Is it OK if I fly my drone here?", "src": { "kind": "team", "page": null } },
+    { "id": "e06", "en": "I'm afraid not, because ...", "vi": "Tôi e là không được, vì ...", "useVi": "Khi từ chối lịch sự và giải thích lý do.", "example": "I'm afraid not, because the birds are nesting now.", "src": { "kind": "team", "page": null } },
+    { "id": "e07", "en": "It is located in ...", "vi": "Nó nằm ở ...", "useVi": "Khi giới thiệu vị trí của một địa danh.", "example": "Phong Nha Cave is located in Quang Binh Province.", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "It's famous for ...", "vi": "Nơi đó nổi tiếng vì ...", "useVi": "Khi nói đặc điểm nổi bật của một nơi.", "example": "It's famous for its majestic limestone islands.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "I'd love to visit ... because ...", "vi": "Mình rất muốn đến ... vì ...", "useVi": "Khi nói về nơi mình mơ ước được đến và lý do.", "example": "I'd love to visit the Grand Canyon because it looks so huge.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "She asked me if ...", "vi": "Bạn ấy hỏi mình liệu ...", "useVi": "Khi kể lại câu hỏi Yes/No của người khác.", "example": "She asked me if I had ever seen the sea.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["She asked me", "if I had", "ever been", "to Ha Long Bay"], "vi": "Bạn ấy hỏi mình đã từng đến vịnh Hạ Long chưa.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["The guide asked us", "whether we wanted", "to explore", "the cave"], "vi": "Hướng dẫn viên hỏi chúng tôi có muốn khám phá hang động không.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["My friend wanted to know", "if the weather", "was good", "in Sa Pa"], "vi": "Bạn mình muốn biết thời tiết ở Sa Pa có đẹp không.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["He asked the ranger", "if he could", "camp", "near the lake"], "vi": "Anh ấy hỏi kiểm lâm liệu anh ấy có thể cắm trại gần hồ không.", "grammarId": "g02" },
+    { "id": "b05", "chunks": ["Phong Nha", "is located", "in Quang Binh", "and is famous", "for its caves"], "vi": "Phong Nha nằm ở Quảng Bình và nổi tiếng với các hang động.", "grammarId": null },
+    { "id": "b06", "chunks": ["Visitors are not permitted", "to feed", "the animals", "in the park"], "vi": "Du khách không được phép cho động vật trong công viên ăn.", "grammarId": null },
+    { "id": "b07", "chunks": ["Tourists should", "keep natural wonders", "clean", "for future generations"], "vi": "Du khách nên giữ các kỳ quan thiên nhiên sạch sẽ cho thế hệ sau.", "grammarId": null },
+    { "id": "b08", "chunks": ["May we", "have a look", "around", "the old temple?"], "vi": "Chúng tôi có thể xem quanh ngôi chùa cổ được không?", "grammarId": null }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I want to visit Ha Long Bay.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "next summer" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because of its majestic limestone islands" }
+      ],
+      "full": "I want to visit Ha Long Bay next summer because of its majestic limestone islands."
+    },
+    {
+      "id": "x02",
+      "base": "Tourists should not leave rubbish.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at natural wonders" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it harms the ecosystem" }
+      ],
+      "full": "Tourists should not leave rubbish at natural wonders because it harms the ecosystem."
+    },
+    {
+      "id": "x03",
+      "base": "The mountain is famous.",
+      "steps": [
+        { "askVi": "Ngọn núi nào, ở đâu?", "ask": "Which mountain?", "add": "in the north of the country" },
+        { "askVi": "Nổi tiếng vì điều gì?", "ask": "Famous for what?", "add": "for its snowy peak" }
+      ],
+      "full": "The mountain in the north of the country is famous for its snowy peak."
+    },
+    {
+      "id": "x04",
+      "base": "My friend asked me.",
+      "steps": [
+        { "askVi": "Bạn ấy hỏi gì?", "ask": "What did she ask?", "add": "if I liked travelling" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "yesterday" }
+      ],
+      "full": "Yesterday my friend asked me if I liked travelling."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Mô tả một kỳ quan thiên nhiên em biết",
+      "questions": [
+        "Can you describe a natural wonder in Viet Nam?",
+        "What is special about a famous natural place that you know?",
+        "Which natural wonder in our country do you know well, and what does it look like?"
+      ],
+      "keywords": ["located", "famous for", "majestic", "peak"],
+      "exampleAnswer": "Ha Long Bay is located in Quang Ninh. It is famous for its majestic limestone islands and clear green water.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Du khách làm gì để giữ gìn kỳ quan thiên nhiên",
+      "questions": [
+        "What should visitors do to keep natural wonders clean?",
+        "How can tourists help protect beautiful natural places?",
+        "What rules should tourists follow in a national park?"
+      ],
+      "keywords": ["rubbish", "permitted", "protect", "ecosystem"],
+      "exampleAnswer": "Visitors should take their rubbish home and stay on the paths. They shouldn't feed the animals or pick flowers.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Vì sao kỳ quan thiên nhiên quan trọng với một đất nước",
+      "questions": [
+        "Why are natural wonders important to a country?",
+        "How do natural wonders help the people who live near them?",
+        "What can a country get from having famous natural places?"
+      ],
+      "keywords": ["tourists", "biodiversity", "support", "proud"],
+      "exampleAnswer": "They bring tourists, so local people can earn money. They also protect biodiversity and make us proud of our country.",
+      "expectsReason": true
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Kể lại câu hỏi người khác đã hỏi em",
+      "questions": [
+        "What did your teacher ask you yesterday? Report the question.",
+        "Has a friend asked you anything about travelling recently? Report it.",
+        "Think of a question someone asked you this week. How would you report it?"
+      ],
+      "keywords": ["asked", "if", "whether", "wanted to know"],
+      "exampleAnswer": "My teacher asked me if I had finished my project. My friend wanted to know whether I was free on Sunday.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Có nên hạn chế du lịch ở những nơi thiên nhiên đặc biệt",
+      "questions": [
+        "Is sustainable tourism a good idea for natural wonders?",
+        "Why do some national parks close for a few months each year?",
+        "Should tourists pay a fee to help protect nature?"
+      ],
+      "keywords": ["sustainable", "ecosystem", "protect", "too many tourists"],
+      "exampleAnswer": "Yes, because too many tourists can damage the ecosystem. A small fee can help pay for rangers and cleaning.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "Tell me about a beautiful place in nature that you remember well.", "keywords": ["located", "famous for", "majestic"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should tourists be allowed to take stones or shells from beaches? Why or why not?", "keywords": ["permitted", "protect", "ecosystem"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend wants to climb over a fence to get a better photo of a waterfall. What do you say?", "keywords": ["dangerous", "permitted", "should"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "Describe a lake, river or mountain that you enjoyed seeing.", "keywords": ["located", "feature", "peak"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should people be allowed to fly drones over natural wonders? Why or why not?", "keywords": ["permission", "animals", "protect"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your cousin wants to feed the monkeys in a national park. What do you say to him?", "keywords": ["not permitted", "harm", "should"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Giới thiệu kỳ quan cho bạn nước ngoài",
+      "contextVi": "Emma, học sinh trao đổi từ Úc, muốn đi thăm một kỳ quan thiên nhiên ở Việt Nam trong kỳ nghỉ. Em giới thiệu cho bạn một nơi em thích.",
+      "aiRole": "Emma, an exchange student from Australia planning a holiday in Viet Nam",
+      "studentRoleVi": "Bạn cùng lớp người Việt, giới thiệu một nơi nên đến",
+      "goalVi": "Giới thiệu một kỳ quan thiên nhiên: nằm ở đâu, có gì đặc biệt, và vì sao Emma nên đến.",
+      "goal": "Recommend one natural wonder in Viet Nam to Emma: where it is, what is special about it, and why she should go.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Gợi ý một nơi cụ thể (You should visit...)", "words": [] },
+        { "kind": "reason", "vi": "Nêu ít nhất một lý do (because...)", "words": [] }
+      ],
+      "opener": "Hi! I have one week of holiday. Which natural place in Viet Nam do you think I should visit?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "That sounds lovely. Where exactly is it located?",
+        "What is special about it? Why do people love it?",
+        "Great, thanks! What should I bring with me?"
+      ],
+      "tipsVi": ["Dùng \"It is located in...\" và \"It's famous for...\"", "Thêm lý do bằng \"because...\""],
+      "keywords": ["located", "famous for", "majestic", "because"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Xin phép kiểm lâm",
+      "contextVi": "Lớp em đi tham quan một vườn quốc gia. Em muốn xin phép kiểm lâm cho nhóm cắm trại một đêm cạnh hồ.",
+      "aiRole": "Mr Duc, a park ranger at a national park",
+      "studentRoleVi": "Học sinh đại diện nhóm, xin phép cắm trại",
+      "goalVi": "Xin phép lịch sự, giải thích kế hoạch, và trả lời khi kiểm lâm lo ngại; có thể đề xuất cách khác.",
+      "goal": "Ask the ranger politely for permission to camp, explain your plan, and respond to his concern, maybe with another idea.",
+      "requirements": [
+        { "kind": "reason", "vi": "Giải thích vì sao nhóm muốn cắm trại", "words": [] },
+        { "kind": "suggestion", "vi": "Đưa ra một đề xuất hoặc cách khác", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["permission", "permitted", "ecosystem", "protect", "rubbish"] }
+      ],
+      "opener": "Hello there. Can I help you with something?",
+      "stance": "Camping next to the lake can harm the ecosystem, so we usually don't permit it.",
+      "turns": 5,
+      "fallback": [
+        "I see. Why do you want to camp there?",
+        "Hmm, camping next to the lake can harm the ecosystem, so we usually don't permit it.",
+        "That's a good idea. How will your group keep the area clean?",
+        "OK. You can use the campsite near the gate. Enjoy your stay."
+      ],
+      "tipsVi": ["Mở đầu bằng \"May we...?\" hoặc \"Is it OK if we...?\"", "Khi bị từ chối, hỏi lịch sự về cách khác."],
+      "keywords": ["May we", "permission", "camp", "rubbish", "protect"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Có nên xây cáp treo lên đỉnh núi?",
+      "contextVi": "Lớp em thảo luận về kế hoạch xây cáp treo lên đỉnh một ngọn núi đẹp. Bạn Minh rất ủng hộ, còn em có suy nghĩ khác.",
+      "aiRole": "Minh, a classmate who loves the cable car plan",
+      "studentRoleVi": "Bạn cùng lớp, nêu ý kiến của mình về cáp treo",
+      "goalVi": "Nêu ý kiến của em về cáp treo, đưa lý do và ví dụ, và lịch sự trả lời khi Minh nghĩ khác.",
+      "goal": "Give your opinion about a cable car to a mountain peak, with reasons and an example, and answer Minh's view politely.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do cho ý kiến của em", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["peak", "ecosystem", "sustainable", "majestic", "access"] }
+      ],
+      "opener": "Have you heard? They want to build a cable car to the peak. What do you think about it?",
+      "stance": "A cable car is great because more people, even old people, can reach the peak and enjoy the view.",
+      "turns": 5,
+      "fallback": [
+        "Interesting. Why do you think so?",
+        "But a cable car is great because more people, even old people, can reach the peak. Don't you agree?",
+        "Hmm, can you give me an example?",
+        "OK, you have a point. Let's share our ideas with the class."
+      ],
+      "tipsVi": ["Khi Minh có ý khác, bắt đầu bằng \"I see your point, but...\"", "Nghĩ đến cả lợi ích và tác hại."],
+      "keywords": ["peak", "ecosystem", "access", "I see your point", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Chọn điểm đến cho chuyến đi của lớp",
+      "contextVi": "Lớp em sắp có chuyến đi hai ngày. Em và Lan cần chọn một điểm đến thiên nhiên. Lan muốn đến nơi nổi tiếng nhất dù rất đông.",
+      "aiRole": "Lan, a classmate helping to plan the class trip",
+      "studentRoleVi": "Thành viên ban tổ chức chuyến đi",
+      "goalVi": "Đề xuất một điểm đến thiên nhiên, giải thích lý do, và trả lời khi Lan có ý kiến khác.",
+      "goal": "Suggest a natural place for the class trip, explain why, and respond to Lan's different opinion.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất một điểm đến", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["natural wonder", "located", "biodiversity", "sustainable", "paradise", "feature"] }
+      ],
+      "opener": "We have to choose a place for our class trip. Where do you think we should go?",
+      "stance": "Only the most famous places are worth visiting, even if they are very crowded.",
+      "turns": 5,
+      "fallback": [
+        "Why do you think that place is a good choice?",
+        "But I think only the most famous places are worth visiting, even if they are crowded. What do you think?",
+        "Hmm. What can we do there for two days?",
+        "OK, let's tell our teacher about your idea."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["located", "famous for", "crowded", "because", "natural wonder"]
+    }
+  ]
+}

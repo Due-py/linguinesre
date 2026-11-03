@@ -1,0 +1,363 @@
+{
+  "grade": 7,
+  "unit": 1,
+  "title": "Hobbies",
+  "titleVi": "Sở thích",
+  "edition": "Tiếng Anh 7 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 8–17; Glossary tr. 136",
+  "vocab": [
+    { "id": "v01", "en": "gardening", "vi": "làm vườn", "ipa": "/ˈɡɑːdnɪŋ/", "ipaFrom": "glossary", "pos": "v, n", "example": "My grandma and I do some gardening every Sunday.", "collocations": ["do some gardening", "love gardening"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v02", "en": "horse riding", "vi": "cưỡi ngựa", "ipa": "/ˈhɔːs raɪdɪŋ/", "ipaFrom": "glossary", "pos": "n", "example": "Horse riding is exciting, but you need a good teacher.", "collocations": ["go horse riding", "a horse riding club"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v03", "en": "jogging", "vi": "đi / chạy bộ thư giãn", "ipa": "/ˈdʒɒɡɪŋ/", "ipaFrom": "glossary", "pos": "n", "example": "My dad goes jogging in the park every morning.", "collocations": ["go jogging"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v04", "en": "yoga", "vi": "yoga", "ipa": "/ˈjəʊɡə/", "ipaFrom": "glossary", "pos": "n", "example": "My mum does yoga for thirty minutes a day.", "collocations": ["do yoga", "a yoga class"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v05", "en": "making models", "vi": "làm mô hình", "ipa": "/ˈmeɪkɪŋ ˈmɒdlz/", "ipaFrom": "glossary", "pos": "n phr", "example": "My brother loves making models of planes.", "collocations": ["enjoy making models"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v06", "en": "dollhouse", "vi": "nhà búp bê", "ipa": "/ˈdɒlhaʊs/", "ipaFrom": "glossary", "pos": "n", "example": "She built a small dollhouse from old boxes.", "collocations": ["build a dollhouse"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v07", "en": "cardboard", "vi": "bìa các tông", "ipa": "/ˈkɑːdbɔːd/", "ipaFrom": "glossary", "pos": "n", "example": "You can make a house from cardboard and glue.", "collocations": ["a cardboard box", "a piece of cardboard"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v08", "en": "glue", "vi": "keo dán / hồ", "ipa": "/ɡluː/", "ipaFrom": "glossary", "pos": "n", "example": "Put some glue on the paper and wait for it to dry.", "collocations": ["a bottle of glue"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v09", "en": "collect", "vi": "sưu tầm, thu thập", "ipa": "/kəˈlekt/", "ipaFrom": "dictionary", "pos": "v", "example": "My friend collects coins from different countries.", "collocations": ["collect coins", "collect dolls", "collect stamps"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 10 } },
+    { "id": "v10", "en": "popular", "vi": "được nhiều người ưa thích", "ipa": "/ˈpɒpjələ/", "ipaFrom": "glossary", "pos": "adj", "example": "Football is a popular hobby in my class.", "collocations": ["a popular hobby", "very popular"], "synonyms": [], "antonyms": ["unpopular"], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v11", "en": "unusual", "vi": "khác thường", "ipa": "/ʌnˈjuːʒuəl/", "ipaFrom": "glossary", "pos": "adj", "example": "Collecting old bus tickets is an unusual hobby.", "collocations": ["an unusual hobby", "rather unusual"], "synonyms": ["strange"], "antonyms": ["common", "usual"], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v12", "en": "patient", "vi": "kiên nhẫn", "ipa": "/ˈpeɪʃnt/", "ipaFrom": "glossary", "pos": "adj", "example": "You need to be patient when you build a model ship.", "collocations": ["be patient"], "synonyms": [], "antonyms": ["impatient"], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v13", "en": "creativity", "vi": "sự sáng tạo", "ipa": "/ˌkriːeɪˈtɪvəti/", "ipaFrom": "dictionary", "pos": "n", "example": "Drawing comics needs a lot of creativity.", "collocations": ["a bit of creativity", "use your creativity"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 8 } },
+    { "id": "v14", "en": "benefit", "vi": "lợi ích", "ipa": "/ˈbenɪfɪt/", "ipaFrom": "glossary", "pos": "n", "example": "One benefit of jogging is that it keeps you fit.", "collocations": ["the benefits of hobbies", "a big benefit"], "synonyms": ["advantage"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v15", "en": "stress", "vi": "sự căng thẳng", "ipa": "/stres/", "ipaFrom": "glossary", "pos": "n", "example": "Listening to music helps me forget my stress.", "collocations": ["reduce stress", "feel stress"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v16", "en": "responsibility", "vi": "sự chịu trách nhiệm", "ipa": "/rɪˌspɒnsəˈbɪləti/", "ipaFrom": "glossary", "pos": "n", "example": "Looking after my plants teaches me responsibility.", "collocations": ["learn responsibility", "a sense of responsibility"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v17", "en": "maturity", "vi": "sự trưởng thành", "ipa": "/məˈtʃʊərəti/", "ipaFrom": "glossary", "pos": "n", "example": "Taking care of a pet can help you grow in maturity.", "collocations": ["show maturity"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v18", "en": "valuable", "vi": "quý giá", "ipa": "/ˈvæljuəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "Some old coins in his collection are very valuable.", "collocations": ["very valuable", "a valuable lesson"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "The present simple",
+      "nameVi": "Thì hiện tại đơn",
+      "explainVi": "Dùng thì hiện tại đơn để nói về sự thật chung, việc làm thường xuyên (sở thích, thói quen) và thời gian biểu, lịch trình. Với he, she, it hoặc một người, động từ thêm -s/-es. Câu phủ định và câu hỏi dùng do/does + động từ nguyên mẫu.",
+      "formula": "I/You/We/They + V  ·  He/She/It + V-s/es  ·  don't/doesn't + V  ·  Do/Does + S + V?",
+      "examples": [
+        "My sister plays badminton every Saturday.",
+        "We don't go jogging when it rains.",
+        "Does your brother collect stamps?",
+        "Our art club starts at 4 p.m. on Fridays."
+      ],
+      "wrong": [
+        { "sentence": "My friend collect coins.", "fix": "My friend collects coins.", "whyVi": "Chủ ngữ \"my friend\" là số ít (he/she) nên động từ thêm -s." },
+        { "sentence": "Does she likes yoga?", "fix": "Does she like yoga?", "whyVi": "Sau does, động từ trở về dạng nguyên mẫu, không thêm -s." },
+        { "sentence": "He don't like horse riding.", "fix": "He doesn't like horse riding.", "whyVi": "Với he, she, it, câu phủ định dùng doesn't." }
+      ],
+      "drills": [
+        { "prompt": "My mum ___ yoga every morning.", "options": ["does", "do", "doing"], "answer": 0, "explainVi": "\"My mum\" là số ít nên dùng does." },
+        { "prompt": "___ your friends go jogging at the weekend?", "options": ["Do", "Does", "Are"], "answer": 0, "explainVi": "Chủ ngữ \"your friends\" số nhiều, câu hỏi dùng Do." },
+        { "prompt": "Mark ___ like making models. He thinks it's boring.", "options": ["doesn't", "don't", "isn't"], "answer": 0, "explainVi": "Mark là một người (he), phủ định dùng doesn't + like." },
+        { "prompt": "The swimming lesson ___ at 8 a.m. every Sunday.", "options": ["starts", "start", "starting"], "answer": 0, "explainVi": "Lịch trình dùng hiện tại đơn; \"the swimming lesson\" số ít nên là starts." }
+      ],
+      "errorTag": "third_person_s",
+      "src": { "kind": "sgk", "page": 11 }
+    },
+    {
+      "id": "g02",
+      "name": "Verbs of liking and disliking + V-ing",
+      "nameVi": "Động từ chỉ sự thích, không thích + V-ing",
+      "explainVi": "Các động từ like, love, enjoy (thích) và hate (ghét, không thích) thường đi với động từ thêm -ing để nói về sở thích. Nhớ thêm -s cho like/love/enjoy/hate khi chủ ngữ là he, she, it.",
+      "formula": "S + like / love / enjoy / hate + V-ing",
+      "examples": [
+        "I love gardening with my grandpa.",
+        "She hates getting up early on Sundays.",
+        "My brother enjoys making models."
+      ],
+      "wrong": [
+        { "sentence": "I enjoy collect coins.", "fix": "I enjoy collecting coins.", "whyVi": "Sau enjoy, động từ phải thêm -ing." },
+        { "sentence": "She love doing yoga.", "fix": "She loves doing yoga.", "whyVi": "Chủ ngữ she nên love phải thêm -s." }
+      ],
+      "drills": [
+        { "prompt": "My dad enjoys ___ in the garden.", "options": ["working", "work", "works"], "answer": 0, "explainVi": "enjoy + V-ing: enjoys working." },
+        { "prompt": "Which sentence is correct?", "options": ["I hate play computer games.", "I hate playing computer games.", "I hate plays computer games."], "answer": 1, "explainVi": "hate + V-ing: hate playing." },
+        { "prompt": "My sister ___ going camping at the weekend.", "options": ["likes", "like", "liking"], "answer": 0, "explainVi": "\"My sister\" là she nên dùng likes." }
+      ],
+      "errorTag": "verb_form",
+      "src": { "kind": "sgk", "page": 10 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Âm /ə/",
+      "tipVi": "/ə/ là âm \"ơ\" rất ngắn và nhẹ, miệng thả lỏng. Âm này thường nằm ở âm tiết KHÔNG nhấn, như chữ \"a\" trong amazing hay chữ \"o\" trong collect.",
+      "words": ["amazing", "yoga", "collect", "column"],
+      "sentence": "My hobby is collecting old coins.",
+      "quiz": [
+        { "prompt": "Which word has the sound /ə/ in its FIRST syllable?", "options": ["collect", "learn", "surf"], "answer": 0, "explainVi": "collect /kəˈlekt/: âm tiết đầu là /kə/. learn và surf có âm /ɜː/." }
+      ],
+      "src": { "kind": "sgk", "page": 11 }
+    },
+    {
+      "id": "p02",
+      "kind": "sound",
+      "focus": "Âm /ɜː/",
+      "tipVi": "/ɜː/ là âm \"ơ\" kéo dài, giữ miệng hơi mở và lưỡi ở giữa. Thường gặp ở chữ er, ir, ur, or như learn, thirteen, surf, work.",
+      "words": ["learn", "surf", "work", "thirteen"],
+      "sentence": "I learn to surf every Thursday.",
+      "quiz": [
+        { "prompt": "Which word has the sound /ɜː/?", "options": ["work", "yoga", "column"], "answer": 0, "explainVi": "work đọc là /wɜːk/. yoga và column chỉ có âm /ə/ ngắn." },
+        { "prompt": "Which word does NOT have the sound /ɜː/?", "options": ["surf", "thirteen", "amazing"], "answer": 2, "explainVi": "amazing /əˈmeɪzɪŋ/ có âm /ə/ ngắn, không có /ɜː/." }
+      ],
+      "src": { "kind": "sgk", "page": 11 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "Âm tiết có dấu ˈ trong phiên âm được đọc to và dài hơn. popular, patient, benefit, cardboard nhấn âm đầu; unusual, collect, maturity nhấn âm thứ hai.",
+      "words": ["popular", "patient", "benefit", "cardboard", "unusual", "collect", "maturity"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["popular", "unusual", "benefit"], "answer": 1, "explainVi": "unusual /ʌnˈjuːʒuəl/ nhấn âm thứ hai; popular và benefit nhấn âm đầu." },
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["collect", "patient", "maturity"], "answer": 1, "explainVi": "patient /ˈpeɪʃnt/ nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Lên giọng cuối câu hỏi Yes/No",
+      "tipVi": "Câu hỏi bắt đầu bằng Do/Does (trả lời Yes/No) thường lên giọng ở cuối câu: Do you like making models? ↗",
+      "words": ["Do you like it?", "Does she enjoy it?"],
+      "sentence": "Do you like making models?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Do you like ...?", "vi": "Bạn có thích ... không?", "useVi": "Khi hỏi bạn có thích một hoạt động nào đó không.", "example": "Do you like playing chess?", "src": { "kind": "sgk", "page": 13 } },
+    { "id": "e02", "en": "Yes, very much.", "vi": "Có, rất thích.", "useVi": "Khi trả lời rằng mình rất thích điều đó.", "example": "Yes, very much, especially on rainy days.", "src": { "kind": "sgk", "page": 13 } },
+    { "id": "e03", "en": "What about ...?", "vi": "Còn ... thì sao?", "useVi": "Khi chuyển sang hỏi về một hoạt động khác.", "example": "What about swimming? Do you like it?", "src": { "kind": "sgk", "page": 13 } },
+    { "id": "e04", "en": "No, I don't. I'm not interested in ...", "vi": "Không. Mình không hứng thú với ...", "useVi": "Khi lịch sự nói mình không thích điều gì.", "example": "No, I don't. I'm not interested in sport.", "src": { "kind": "sgk", "page": 13 } },
+    { "id": "e05", "en": "What do you do in your free time?", "vi": "Bạn làm gì lúc rảnh?", "useVi": "Khi muốn hỏi về sở thích của người khác.", "example": "What do you do in your free time, Lan?", "src": { "kind": "sgk", "page": 8 } },
+    { "id": "e06", "en": "My hobby is ...", "vi": "Sở thích của mình là ...", "useVi": "Khi giới thiệu sở thích của mình.", "example": "My hobby is drawing cartoons.", "src": { "kind": "sgk", "page": 8 } },
+    { "id": "e07", "en": "I'm really into ...", "vi": "Mình rất mê ...", "useVi": "Khi muốn nói mình rất thích một hoạt động.", "example": "I'm really into making models these days.", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "It helps me ...", "vi": "Nó giúp mình ...", "useVi": "Khi nói về lợi ích của một sở thích.", "example": "Gardening helps me relax after school.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "Why don't you try ...?", "vi": "Sao bạn không thử ...?", "useVi": "Khi gợi ý cho bạn một sở thích mới.", "example": "Why don't you try yoga? It's easy to start.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "How often do you ...?", "vi": "Bạn ... bao lâu một lần?", "useVi": "Khi hỏi ai đó làm việc gì thường xuyên đến mức nào.", "example": "How often do you go jogging?", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["My brother", "enjoys making models", "in his free time"], "vi": "Anh trai mình thích làm mô hình lúc rảnh.", "grammarId": "g02" },
+    { "id": "b02", "chunks": ["My mum", "does yoga", "every morning", "before work"], "vi": "Mẹ mình tập yoga mỗi sáng trước khi đi làm.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["I love gardening", "because it helps me", "relax after school"], "vi": "Mình thích làm vườn vì nó giúp mình thư giãn sau giờ học.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["Does your sister", "collect", "dolls or coins?"], "vi": "Chị của bạn sưu tầm búp bê hay tiền xu?", "grammarId": "g01" },
+    { "id": "b05", "chunks": ["You need", "some cardboard and glue", "to build", "a dollhouse"], "vi": "Bạn cần một ít bìa các tông và keo để làm nhà búp bê.", "grammarId": null },
+    { "id": "b06", "chunks": ["My best friend", "doesn't like", "horse riding", "because it's scary"], "vi": "Bạn thân mình không thích cưỡi ngựa vì nó đáng sợ.", "grammarId": "g01" },
+    { "id": "b07", "chunks": ["Making models", "teaches me", "to be patient"], "vi": "Làm mô hình dạy mình biết kiên nhẫn.", "grammarId": null },
+    { "id": "b08", "chunks": ["We hate", "getting up early", "on Sundays"], "vi": "Chúng mình ghét dậy sớm vào Chủ nhật.", "grammarId": "g02" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I go jogging.",
+      "steps": [
+        { "askVi": "Em chạy ở đâu?", "ask": "Where?", "add": "in the park" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every morning" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it keeps me fit" }
+      ],
+      "full": "I go jogging in the park every morning because it keeps me fit."
+    },
+    {
+      "id": "x02",
+      "base": "My sister collects stamps.",
+      "steps": [
+        { "askVi": "Tem từ đâu?", "ask": "What kind of stamps?", "add": "from different countries" },
+        { "askVi": "Vì sao chị thích?", "ask": "Why?", "add": "because she loves learning about the world" }
+      ],
+      "full": "My sister collects stamps from different countries because she loves learning about the world."
+    },
+    {
+      "id": "x03",
+      "base": "I make models.",
+      "steps": [
+        { "askVi": "Mô hình gì?", "ask": "What models?", "add": "of old ships" },
+        { "askVi": "Em dùng gì?", "ask": "What do you use?", "add": "with cardboard and glue" },
+        { "askVi": "Em làm với ai?", "ask": "Who with?", "add": "with my dad" }
+      ],
+      "full": "I make models of old ships with cardboard and glue with my dad."
+    },
+    {
+      "id": "x04",
+      "base": "Gardening is a good hobby.",
+      "steps": [
+        { "askVi": "Tốt cho ai?", "ask": "For whom?", "add": "for teenagers" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it teaches responsibility" }
+      ],
+      "full": "Gardening is a good hobby for teenagers because it teaches responsibility."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Sở thích của em và em làm nó như thế nào",
+      "questions": [
+        "What do you like doing in your free time?",
+        "Tell me about a hobby you enjoy.",
+        "How do you usually spend your free time?"
+      ],
+      "keywords": ["enjoy", "like", "free time", "every"],
+      "exampleAnswer": "I enjoy drawing cartoons. I draw for about an hour every evening after I finish my homework.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Sở thích của người thân trong gia đình",
+      "questions": [
+        "What hobbies do your family members have?",
+        "What does your mum or dad like doing at the weekend?",
+        "Does anyone in your family have an interesting hobby?"
+      ],
+      "keywords": ["likes", "enjoys", "gardening", "yoga"],
+      "exampleAnswer": "My dad loves gardening. He spends two hours in our garden every Sunday, and my mum does yoga.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Một sở thích khác thường",
+      "questions": [
+        "Do you know anyone with an unusual hobby?",
+        "What is the most unusual hobby you know?",
+        "Which hobby do you think is strange but interesting?"
+      ],
+      "keywords": ["unusual", "collect", "horse riding", "interesting"],
+      "exampleAnswer": "My cousin collects old keys. It's unusual, but each key has a story, so I think it's interesting.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Lợi ích của sở thích",
+      "questions": [
+        "What are the benefits of having a hobby?",
+        "How can a hobby be good for you?",
+        "Why is it good for teenagers to have hobbies?"
+      ],
+      "keywords": ["benefit", "stress", "patient", "creativity"],
+      "exampleAnswer": "Hobbies help us relax and forget stress. For example, making models teaches me to be patient.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Sở thích muốn thử trong tương lai",
+      "questions": [
+        "Which new hobby would you like to try?",
+        "Is there a hobby you want to learn next year?",
+        "What hobby would you like to start, and why?"
+      ],
+      "keywords": ["try", "learn", "because", "horse riding"],
+      "exampleAnswer": "I'd like to try horse riding because it looks exciting and I love animals.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What do you like doing at home on rainy weekends?", "keywords": ["like", "enjoy", "read", "draw"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should teenagers spend a lot of money on their hobbies? Why or why not?", "keywords": ["money", "expensive", "cheap", "because"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend wants to start collecting something but doesn't know what. What do you say?", "keywords": ["collect", "stamps", "coins", "why don't you"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What does your family like doing together in the summer?", "keywords": ["like", "enjoy", "go", "together"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should students keep doing their hobbies during exam time? Why or why not?", "keywords": ["relax", "stress", "time", "because"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your cousin plays computer games all day and feels bored. What do you say to him?", "keywords": ["try", "outdoor", "jogging", "why don't you"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Làm quen với bạn mới",
+      "contextVi": "Một bạn mới chuyển đến lớp em. Giờ ra chơi, bạn ấy hỏi về sở thích của em để làm quen.",
+      "aiRole": "Ann, a new student in your class",
+      "studentRoleVi": "Học sinh trong lớp, kể về sở thích của mình",
+      "goalVi": "Kể về sở thích của em: em làm gì, bao lâu một lần, và vì sao em thích nó.",
+      "goal": "Tell Ann about your hobby: what you do, how often you do it, and why you like it.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một động từ chỉ sự thích (like, love, enjoy)", "words": ["like", "love", "enjoy"] },
+        { "kind": "reason", "vi": "Nêu ít nhất một lý do (because...)", "words": [] }
+      ],
+      "opener": "Hi! I'm Ann. I'm new here. What do you like doing in your free time?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "That sounds fun! How often do you do it?",
+        "Why do you like it so much?",
+        "Cool. Maybe I can try it with you one day!"
+      ],
+      "tipsVi": ["Bắt đầu bằng \"I love...\" hoặc \"My hobby is...\"", "Nói tần suất: every day, twice a week, at the weekend."],
+      "keywords": ["love", "enjoy", "every", "because", "free time"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Bảo vệ sở thích làm mô hình",
+      "contextVi": "Em thích làm mô hình bằng bìa các tông. Một bạn cùng lớp nói sở thích đó vừa chậm vừa chán. Em giải thích vì sao em thích nó.",
+      "aiRole": "Duc, a classmate who prefers sports",
+      "studentRoleVi": "Bạn cùng lớp thích làm mô hình",
+      "goalVi": "Giải thích lợi ích của việc làm mô hình, đưa ví dụ và trả lời khi Duc chê.",
+      "goal": "Explain the benefits of making models, give an example, and answer Duc's opinion politely.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lợi ích của sở thích (because..., it helps me...)", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["patient", "creativity", "cardboard", "glue", "benefit"] }
+      ],
+      "opener": "You make models again? Why do you spend so much time on that?",
+      "stance": "Making models is slow and boring. Playing football is much more fun.",
+      "turns": 5,
+      "fallback": [
+        "Really? What do you like about it?",
+        "I think making models is slow and boring. Football is much more fun.",
+        "Hmm, OK. Can you show me an example of what you made?",
+        "Maybe I'll try making a small one with you."
+      ],
+      "tipsVi": ["Khi Duc chê, mở đầu bằng \"I see your point, but...\"", "Nói về lợi ích: patient, creativity, relax."],
+      "keywords": ["patient", "creativity", "relax", "because", "I see your point"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Xin bố mẹ cho học một sở thích mới",
+      "contextVi": "Em muốn tham gia lớp yoga cuối tuần. Bố em lo rằng em sẽ không còn đủ thời gian để học bài.",
+      "aiRole": "Your dad, who worries about your study time",
+      "studentRoleVi": "Con, muốn tham gia lớp yoga",
+      "goalVi": "Thuyết phục bố cho em học yoga: nêu lợi ích và cách em sắp xếp thời gian.",
+      "goal": "Persuade your dad to let you join a weekend yoga class: give benefits and explain how you will manage your time.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lợi ích của yoga", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất cách sắp xếp thời gian", "words": [] }
+      ],
+      "opener": "Your mum says you want to join a yoga class. Tell me about it.",
+      "stance": "Hobbies take too much time. You should spend your weekends studying.",
+      "turns": 5,
+      "fallback": [
+        "I see. Why do you want to do yoga?",
+        "But hobbies take too much time. You should study at the weekend.",
+        "Hmm. How will you find time for your homework?",
+        "OK, let's try it for one month."
+      ],
+      "tipsVi": ["Nói lễ phép: \"I think...\", \"Could I...?\"", "Đưa kế hoạch cụ thể: học bài lúc nào, đi yoga lúc nào."],
+      "keywords": ["yoga", "stress", "fit", "homework", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Mời bạn vào câu lạc bộ",
+      "contextVi": "Em là thành viên câu lạc bộ làm vườn của trường. Em mời một bạn cùng khối tham gia, nhưng bạn ấy chưa hứng thú.",
+      "aiRole": "Linh, a student who has never tried gardening",
+      "studentRoleVi": "Thành viên câu lạc bộ làm vườn",
+      "goalVi": "Giới thiệu câu lạc bộ, nêu lợi ích của làm vườn và trả lời khi Linh có ý kiến khác.",
+      "goal": "Invite Linh to the school gardening club, explain its benefits, and respond to her different opinion.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lợi ích có lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["gardening", "responsibility", "stress", "benefit", "patient"] }
+      ],
+      "opener": "Hi! I heard you're in the gardening club. What do you do there?",
+      "stance": "Gardening is only for old people. Teenagers should do something more exciting.",
+      "turns": 5,
+      "fallback": [
+        "Oh, I see. Why do you enjoy it?",
+        "But I think gardening is only for old people. Teenagers need something more exciting.",
+        "Hmm. What can I learn from it?",
+        "OK, I'll come and see the club next week."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["gardening", "responsibility", "relax", "because", "benefit"]
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "grade": 8,
+  "unit": 12,
+  "title": "Life on Other Planets",
+  "titleVi": "Cuộc sống trên các hành tinh khác",
+  "edition": "Tiếng Anh 8 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 124–133; Glossary tr. 139",
+  "vocab": [
+    { "id": "v01", "en": "alien", "vi": "người ngoài hành tinh", "ipa": "/ˈeɪliən/", "ipaFrom": "glossary", "pos": "n", "example": "In the film, a friendly alien lands in a small village.", "collocations": ["a friendly alien", "aliens from space"], "synonyms": [], "antonyms": ["human"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v02", "en": "UFO", "vi": "vật thể bay không xác định", "ipa": "/ˌjuː ef ˈəʊ/", "ipaFrom": "glossary", "pos": "n", "example": "My uncle says he saw a UFO over the mountains.", "collocations": ["see a UFO"], "synonyms": ["flying saucer"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v03", "en": "creature", "vi": "sinh vật, loài vật", "ipa": "/ˈkriːtʃə/", "ipaFrom": "glossary", "pos": "n", "example": "The creatures on that planet have three eyes and long arms.", "collocations": ["strange creatures", "living creatures"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v04", "en": "planet", "vi": "hành tinh", "ipa": "/ˈplænɪt/", "ipaFrom": "dictionary", "pos": "n", "example": "Earth is the only planet where we know there is life.", "collocations": ["another planet", "the eight planets"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v05", "en": "galaxy", "vi": "thiên hà", "ipa": "/ˈɡæləksi/", "ipaFrom": "glossary", "pos": "n", "example": "There are billions of stars in our galaxy.", "collocations": ["our galaxy", "a distant galaxy"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v06", "en": "solar system", "vi": "hệ mặt trời", "ipa": "/ˈsəʊlə ˌsɪstəm/", "ipaFrom": "dictionary", "pos": "n", "example": "Jupiter is the largest planet in our solar system.", "collocations": ["our solar system"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v07", "en": "gravity", "vi": "trọng lực, lực hút trái đất", "ipa": "/ˈɡrævəti/", "ipaFrom": "glossary", "pos": "n", "example": "Because of gravity, things fall to the ground.", "collocations": ["low gravity", "no gravity"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v08", "en": "habitable", "vi": "có thể ở được, phù hợp để ở", "ipa": "/ˈhæbɪtəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "A habitable planet needs water and air.", "collocations": ["a habitable planet"], "synonyms": [], "antonyms": ["uninhabitable"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v09", "en": "rocket", "vi": "tàu vũ trụ con thoi", "ipa": "/ˈrɒkɪt/", "ipaFrom": "glossary", "pos": "n", "example": "The rocket carried three astronauts into space.", "collocations": ["launch a rocket", "a space rocket"], "synonyms": ["spaceship"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v10", "en": "spaceship", "vi": "tàu vũ trụ", "ipa": "/ˈspeɪsʃɪp/", "ipaFrom": "dictionary", "pos": "n", "example": "The aliens repaired their spaceship and flew home.", "collocations": ["travel by spaceship"], "synonyms": ["spacecraft"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v11", "en": "telescope", "vi": "kính thiên văn", "ipa": "/ˈtelɪskəʊp/", "ipaFrom": "glossary", "pos": "n", "example": "Through a telescope, you can see the craters on the moon.", "collocations": ["look through a telescope"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v12", "en": "crater", "vi": "miệng núi lửa", "ipa": "/ˈkreɪtə/", "ipaFrom": "glossary", "pos": "n", "example": "The moon's surface is covered with craters.", "collocations": ["a huge crater"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v13", "en": "possibility", "vi": "khả năng, sự có thể", "ipa": "/ˌpɒsəˈbɪləti/", "ipaFrom": "glossary", "pos": "n", "example": "Scientists are studying the possibility of life on Mars.", "collocations": ["the possibility of life", "a real possibility"], "synonyms": ["chance"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v14", "en": "promising", "vi": "đầy hứa hẹn, nhiều triển vọng", "ipa": "/ˈprɒmɪsɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "Finding ice on Mars is a promising sign.", "collocations": ["a promising sign", "promising results"], "synonyms": ["hopeful"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v15", "en": "trace", "vi": "dấu vết, vết tích, dấu hiệu", "ipa": "/treɪs/", "ipaFrom": "glossary", "pos": "n", "example": "Scientists found traces of water on that planet.", "collocations": ["traces of water", "traces of life"], "synonyms": ["sign"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v16", "en": "commander", "vi": "người chỉ huy, người cầm đầu", "ipa": "/kəˈmɑːndə/", "ipaFrom": "glossary", "pos": "n", "example": "The commander told the astronauts to return to Earth.", "collocations": ["the commander of a spaceship"], "synonyms": ["leader"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v17", "en": "oppose", "vi": "chiến đấu, đánh lại ai", "ipa": "/əˈpəʊz/", "ipaFrom": "glossary", "pos": "v", "example": "Some people oppose spending money on space travel.", "collocations": ["oppose an idea", "strongly oppose"], "synonyms": ["fight against"], "antonyms": ["support"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v18", "en": "Mars", "vi": "sao Hỏa, Hỏa tinh", "ipa": "/mɑːz/", "ipaFrom": "glossary", "pos": "n", "example": "Mars is called the red planet.", "collocations": ["life on Mars", "travel to Mars"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v19", "en": "Venus", "vi": "sao Kim, Kim tinh", "ipa": "/ˈviːnəs/", "ipaFrom": "glossary", "pos": "n", "example": "Venus is the hottest planet, and it has no moon.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v20", "en": "Jupiter", "vi": "sao Mộc, Mộc tinh", "ipa": "/ˈdʒuːpɪtə/", "ipaFrom": "glossary", "pos": "n", "example": "Jupiter is much bigger than Earth.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v21", "en": "Mercury", "vi": "sao Thủy, Thủy tinh", "ipa": "/ˈmɜːkjəri/", "ipaFrom": "glossary", "pos": "n", "example": "Mercury is the closest planet to the sun.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Reported speech (questions): word order",
+      "nameVi": "Câu tường thuật dạng câu hỏi: trật tự từ",
+      "explainVi": "Khi kể lại câu hỏi của người khác, ta dùng asked, wondered hoặc wanted to know. Sau từ để hỏi (what, where, how many...), câu được viết theo trật tự câu trần thuật: chủ ngữ đứng trước động từ, không đảo trợ động từ, không có dấu hỏi.",
+      "formula": "S + asked (me) / wondered / wanted to know + từ để hỏi + S + V (lùi thì)",
+      "examples": [
+        "\"Where do you live?\" → She asked me where I lived.",
+        "\"How big is Jupiter?\" → My brother wanted to know how big Jupiter was.",
+        "\"What are you watching?\" → Dad asked me what I was watching."
+      ],
+      "wrong": [
+        { "sentence": "He asked me where did I live.", "fix": "He asked me where I lived.", "whyVi": "Trong câu hỏi tường thuật không dùng did để đảo; chủ ngữ I đứng trước động từ lived." },
+        { "sentence": "She wanted to know what was my favourite planet.", "fix": "She wanted to know what my favourite planet was.", "whyVi": "Chủ ngữ my favourite planet đứng trước động từ was." }
+      ],
+      "drills": [
+        { "prompt": "\"What is the weather like on Venus?\" → Lan asked what the weather ___ like on Venus.", "options": ["was", "is it", "was it"], "answer": 0, "explainVi": "Trật tự trần thuật và lùi thì: what the weather was like." },
+        { "prompt": "Which reported question is correct?", "options": ["He asked me how many planets there were.", "He asked me how many planets were there.", "He asked me how many planets were there?"], "answer": 0, "explainVi": "Chủ ngữ there đứng trước động từ were, không có dấu hỏi." },
+        { "prompt": "\"Where can I buy a telescope?\" → Minh wanted to know where ___ a telescope.", "options": ["he could buy", "could he buy", "can he buy"], "answer": 0, "explainVi": "Chủ ngữ he đứng trước could; can lùi thành could." }
+      ],
+      "errorTag": "word_order",
+      "src": { "kind": "sgk", "page": 127 }
+    },
+    {
+      "id": "g02",
+      "name": "Reported questions: tense, pronoun and time changes",
+      "nameVi": "Câu hỏi tường thuật: đổi thì, đại từ và từ chỉ thời gian",
+      "explainVi": "Giống câu tường thuật dạng trần thuật, khi kể lại câu hỏi ta cũng lùi thì (is → was, can → could, will → would), đổi đại từ (you → I/he/she) và đổi từ chỉ thời gian, nơi chốn (now → then, here → there).",
+      "formula": "is/are → was/were · can → could · will → would · you → I/he/she · now → then · here → there",
+      "examples": [
+        "\"What are you doing now?\" she asked me. → She asked me what I was doing then.",
+        "\"When will people live on Mars?\" Nam asked. → Nam asked when people would live on Mars."
+      ],
+      "wrong": [
+        { "sentence": "Mai asked me what I am reading.", "fix": "Mai asked me what I was reading.", "whyVi": "Sau asked, động từ lùi thì: am reading → was reading." },
+        { "sentence": "Lan asked me where she can see the stars clearly.", "fix": "Lan asked me where she could see the stars clearly.", "whyVi": "Trong câu tường thuật, can đổi thành could." }
+      ],
+      "drills": [
+        { "prompt": "\"Who will travel to Mars first?\" → Mary asked who ___ to Mars first.", "options": ["would travel", "will travel", "travels"], "answer": 0, "explainVi": "will lùi thành would." },
+        { "prompt": "\"Why are you here?\" the alien asked. → The alien asked why we were ___.", "options": ["there", "here", "this"], "answer": 0, "explainVi": "here đổi thành there." },
+        { "prompt": "\"What do you know about Saturn?\" → The teacher asked us what ___ about Saturn.", "options": ["we knew", "you know", "do we know"], "answer": 0, "explainVi": "you đổi thành we, do you know lùi thành we knew theo trật tự trần thuật." }
+      ],
+      "errorTag": "verb_tense",
+      "src": { "kind": "sgk", "page": 127 }
+    },
+    {
+      "id": "g03",
+      "name": "Reported yes/no questions with if",
+      "nameVi": "Tường thuật câu hỏi Yes/No với if",
+      "explainVi": "Câu hỏi Yes/No (không có từ để hỏi) khi tường thuật thì thêm if (có ... không) sau asked/wanted to know, rồi viết theo trật tự trần thuật và lùi thì.",
+      "formula": "S + asked (me) / wanted to know + if + S + V (lùi thì)",
+      "examples": [
+        "\"Do you believe in aliens?\" → She asked me if I believed in aliens.",
+        "\"Can people live on the moon?\" → Tom asked if people could live on the moon."
+      ],
+      "wrong": [
+        { "sentence": "He asked me do I like science fiction.", "fix": "He asked me if I liked science fiction.", "whyVi": "Câu hỏi Yes/No tường thuật cần if, không giữ do, và lùi thì: liked." }
+      ],
+      "drills": [
+        { "prompt": "\"Is there water on Mars?\" → My sister asked ___ there was water on Mars.", "options": ["if", "what", "that"], "answer": 0, "explainVi": "Câu hỏi Yes/No tường thuật dùng if." },
+        { "prompt": "\"Do you have a telescope?\" → Nam asked me if ___ a telescope.", "options": ["I had", "did I have", "do you have"], "answer": 0, "explainVi": "Trật tự trần thuật, lùi thì và đổi you thành I: I had." }
+      ],
+      "errorTag": "word_order",
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "intonation",
+      "focus": "Ngữ điệu khi liệt kê",
+      "tipVi": "Khi liệt kê, giọng hơi lên ở các mục đầu (↗) và xuống ở mục cuối cùng (↘) để người nghe biết danh sách đã hết: water ↗, air ↗, food ↗, and light ↘.",
+      "words": ["water", "air", "food", "and light"],
+      "sentence": "A habitable planet needs water, air, food, and light.",
+      "quiz": [
+        { "prompt": "When you make a list, where does your voice fall?", "options": ["On the last item", "On the first item", "On every item"], "answer": 0, "explainVi": "Giọng lên ở các mục trước và xuống ở mục cuối." },
+        { "prompt": "In \"I saw Venus, Mars, and Jupiter\", which word has a falling tone?", "options": ["Jupiter", "Venus", "Mars"], "answer": 0, "explainVi": "Jupiter là mục cuối danh sách nên giọng xuống." }
+      ],
+      "src": { "kind": "sgk", "page": 126 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "galaxy, telescope, creature, habitable, promising, alien nhấn âm đầu. commander, oppose nhấn âm thứ hai. possibility nhấn âm thứ ba.",
+      "words": ["galaxy", "telescope", "creature", "habitable", "commander", "oppose", "possibility"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["commander", "galaxy", "telescope"], "answer": 0, "explainVi": "commander /kəˈmɑːndə/ nhấn âm thứ hai." },
+        { "prompt": "Which word is stressed on the THIRD syllable?", "options": ["possibility", "habitable", "promising"], "answer": 0, "explainVi": "possibility /ˌpɒsəˈbɪləti/ nhấn âm thứ ba." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p03",
+      "kind": "intonation",
+      "focus": "Ngữ điệu khi chưa chắc chắn",
+      "tipVi": "Khi nói mình chưa chắc, nói chậm, giọng xuống nhẹ ở cuối và có thể kéo dài từ đầu câu: Well... I'm not sure about it.",
+      "words": ["I'm not sure about it.", "I doubt it."],
+      "sentence": "Well, I'm not sure about it. Maybe there is life on Mars.",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "I'm not sure about it.", "vi": "Mình không chắc về điều đó.", "useVi": "Khi chưa chắc chắn một điều là đúng hay sai.", "example": "A: Is there water on Mars? B: I'm not sure about it.", "src": { "kind": "sgk", "page": 129 } },
+    { "id": "e02", "en": "I doubt it.", "vi": "Mình nghi ngờ điều đó.", "useVi": "Khi nghĩ điều đó khó xảy ra.", "example": "A: Will people live on Venus? B: I doubt it. It's too hot.", "src": { "kind": "sgk", "page": 129 } },
+    { "id": "e03", "en": "What do you think about ...?", "vi": "Bạn nghĩ gì về ...?", "useVi": "Khi hỏi ý kiến người khác về một vấn đề.", "example": "What do you think about living on another planet?", "src": { "kind": "sgk", "page": 124 } },
+    { "id": "e04", "en": "Sounds thrilling!", "vi": "Nghe hồi hộp quá!", "useVi": "Khi thấy câu chuyện người khác kể rất hấp dẫn, hồi hộp.", "example": "A spaceship lands in our town? Sounds thrilling!", "src": { "kind": "sgk", "page": 124 } },
+    { "id": "e05", "en": "It's possible that ...", "vi": "Có thể là ...", "useVi": "Khi nói một điều có thể xảy ra nhưng chưa chắc.", "example": "It's possible that there is life in another galaxy.", "src": { "kind": "team", "page": null } },
+    { "id": "e06", "en": "I believe ... because ...", "vi": "Mình tin ... vì ...", "useVi": "Khi nêu điều mình tin và đưa lý do.", "example": "I believe aliens exist because the universe is so big.", "src": { "kind": "team", "page": null } },
+    { "id": "e07", "en": "He / She asked me ...", "vi": "Bạn ấy hỏi mình ...", "useVi": "Khi kể lại câu hỏi người khác đã hỏi mình.", "example": "She asked me if I wanted to be an astronaut.", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "To support life, a planet needs ...", "vi": "Để có sự sống, một hành tinh cần ...", "useVi": "Khi nói điều kiện cần cho sự sống trên hành tinh.", "example": "To support life, a planet needs water, air, and the right temperature.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "I would like to tell you about ...", "vi": "Mình muốn kể cho các bạn nghe về ...", "useVi": "Khi bắt đầu giới thiệu một chủ đề trước nhóm hay lớp.", "example": "I would like to tell you about Mars, the red planet.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "I see your point, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý của mình.", "example": "I see your point, but space research also helps people on Earth.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["My friend asked me", "what", "my favourite planet", "was"], "vi": "Bạn mình hỏi hành tinh mình thích nhất là hành tinh nào.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["The teacher asked us", "if", "we believed", "in aliens"], "vi": "Cô giáo hỏi chúng mình có tin vào người ngoài hành tinh không.", "grammarId": "g03" },
+    { "id": "b03", "chunks": ["A habitable planet", "needs", "water", "air", "and food"], "vi": "Một hành tinh ở được cần có nước, không khí và thức ăn.", "grammarId": null },
+    { "id": "b04", "chunks": ["Nam wanted to know", "when", "people would", "travel to Mars"], "vi": "Nam muốn biết khi nào con người sẽ du hành lên sao Hỏa.", "grammarId": "g02" },
+    { "id": "b05", "chunks": ["Scientists", "have found", "traces of water", "on Mars"], "vi": "Các nhà khoa học đã tìm thấy dấu vết của nước trên sao Hỏa.", "grammarId": null },
+    { "id": "b06", "chunks": ["She asked me", "what I was doing", "then"], "vi": "Bạn ấy hỏi lúc đó mình đang làm gì.", "grammarId": "g02" },
+    { "id": "b07", "chunks": ["We looked at", "the craters on the moon", "through", "a telescope"], "vi": "Chúng mình ngắm các miệng núi lửa trên mặt trăng qua kính thiên văn.", "grammarId": null },
+    { "id": "b08", "chunks": ["I'm not sure", "but", "it's possible", "that aliens exist"], "vi": "Mình không chắc, nhưng có thể người ngoài hành tinh có thật.", "grammarId": null }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I saw a film.",
+      "steps": [
+        { "askVi": "Phim gì?", "ask": "What kind?", "add": "science fiction" },
+        { "askVi": "Về cái gì?", "ask": "About what?", "add": "about friendly aliens" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last weekend" }
+      ],
+      "full": "I saw a science fiction film about friendly aliens last weekend."
+    },
+    {
+      "id": "x02",
+      "base": "People need oxygen.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "on another planet" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because they can't breathe without it" }
+      ],
+      "full": "People need oxygen on another planet because they can't breathe without it."
+    },
+    {
+      "id": "x03",
+      "base": "He asked me a question.",
+      "steps": [
+        { "askVi": "Ai hỏi?", "ask": "Who?", "add": "My little brother" },
+        { "askVi": "Hỏi gì?", "ask": "What did he ask?", "add": "if the moon had any water" }
+      ],
+      "full": "My little brother asked me if the moon had any water."
+    },
+    {
+      "id": "x04",
+      "base": "I want to visit Mars.",
+      "steps": [
+        { "askVi": "Bằng gì?", "ask": "How?", "add": "by rocket" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because I want to look for traces of life" }
+      ],
+      "full": "I want to visit Mars by rocket because I want to look for traces of life."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Điều kiện để một hành tinh có sự sống",
+      "questions": [
+        "What does a planet need to support human life?",
+        "What conditions are needed for people to live on a planet?",
+        "Why can't people live on most planets?"
+      ],
+      "keywords": ["water", "air", "temperature", "habitable"],
+      "exampleAnswer": "A planet needs water, air, food, and the right temperature to support human life.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Em có tin có sự sống ngoài Trái Đất không",
+      "questions": [
+        "Do you believe there is life on other planets?",
+        "Is Earth the only planet with living things?",
+        "Could there be creatures living in another galaxy?"
+      ],
+      "keywords": ["possibility", "galaxy", "I'm not sure", "because"],
+      "exampleAnswer": "I'm not sure, but I think it's possible because there are billions of planets in the galaxy.",
+      "expectsReason": true
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Tưởng tượng sinh vật ở hành tinh khác",
+      "questions": [
+        "What might creatures on another planet look like?",
+        "If you met an alien, what would it look like?",
+        "Describe an imaginary creature from a faraway planet."
+      ],
+      "keywords": ["creature", "eyes", "legs", "skin"],
+      "exampleAnswer": "It might have big green eyes, six legs and soft blue skin, and it could fly.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Kể lại câu hỏi người khác hỏi em",
+      "questions": [
+        "What did your teacher ask you in the last lesson?",
+        "What questions did your parents ask you yesterday?",
+        "What did your friend ask you this morning?"
+      ],
+      "keywords": ["asked me", "if", "what", "wanted to know"],
+      "exampleAnswer": "My teacher asked me what I knew about Mars, and she wanted to know if I had a telescope.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Hành tinh trong hệ mặt trời em muốn tìm hiểu",
+      "questions": [
+        "Which planet in the solar system would you like to learn more about?",
+        "What do you know about Jupiter or Venus?",
+        "Which planet would you like to see through a telescope?"
+      ],
+      "keywords": ["Jupiter", "Venus", "largest", "hottest"],
+      "exampleAnswer": "I'd like to learn more about Jupiter because it is the largest planet and it has many moons.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What is the most interesting thing you know about space?", "keywords": ["planet", "moon", "galaxy"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should people try to build homes on Mars? Why or why not?", "keywords": ["Mars", "habitable", "because"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend says aliens will visit Earth next year. What do you say to him?", "keywords": ["I doubt it", "not sure", "possibility"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What is the most surprising fact you have learnt about the planets?", "keywords": ["planet", "largest", "hottest"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should students learn about space at school? Why or why not?", "keywords": ["planets", "science", "because"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your classmate says scientists will find life on Venus soon. What do you say to her?", "keywords": ["I'm not sure", "hottest", "doubt"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Kể về một bộ phim khoa học viễn tưởng",
+      "contextVi": "Cuối tuần em xem một bộ phim khoa học viễn tưởng về người ngoài hành tinh. Một bạn hỏi em về bộ phim.",
+      "aiRole": "Thao, a classmate who loves science fiction",
+      "studentRoleVi": "Học sinh kể về bộ phim đã xem",
+      "goalVi": "Kể bộ phim nói về gì, mô tả sinh vật trong phim và nói vì sao em thích hay không thích.",
+      "goal": "Tell Thao about a science fiction film: what happens, what the creatures look like, and why you liked it or not.",
+      "requirements": [
+        { "kind": "example", "vi": "Mô tả một sinh vật hoặc một cảnh trong phim", "words": [] },
+        { "kind": "reason", "vi": "Nói vì sao em thích (hoặc không thích)", "words": [] }
+      ],
+      "opener": "Hi! I heard you watched a science fiction film at the weekend. What was it about?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Sounds thrilling! What did the aliens look like?",
+        "Interesting. Did you like the film? Why?",
+        "Great. Maybe I'll watch it this weekend!"
+      ],
+      "tipsVi": ["Dùng từ của bài: alien, creature, spaceship, planet.", "Nói lý do với \"because\"."],
+      "keywords": ["alien", "creature", "spaceship", "planet", "because"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Có nên chi tiền cho khám phá vũ trụ?",
+      "contextVi": "Trong buổi thảo luận của câu lạc bộ khoa học, em ủng hộ việc khám phá vũ trụ, còn một bạn nghĩ nên dùng tiền giải quyết vấn đề trên Trái Đất.",
+      "aiRole": "Quan, a science club member who thinks space travel is a waste of money",
+      "studentRoleVi": "Thành viên câu lạc bộ ủng hộ khám phá vũ trụ",
+      "goalVi": "Nêu lý do nên khám phá vũ trụ, đưa ví dụ và trả lời lịch sự khi Quân phản đối.",
+      "goal": "Explain why space exploration is useful, give an example, and answer Quan's objection politely.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do (because...)", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["planet", "rocket", "telescope", "possibility", "promising"] }
+      ],
+      "opener": "Some countries spend a lot of money on rockets. Do you think it's a good idea?",
+      "stance": "We have many problems on Earth, like floods and poverty. We should spend the money here, not in space.",
+      "turns": 5,
+      "fallback": [
+        "Why do you think it's important?",
+        "But we have many problems on Earth, like floods and poverty. Shouldn't we spend the money here?",
+        "Hmm. Can you give me an example of how space research helps us?",
+        "OK, that's a fair point. Let's share both ideas with the club."
+      ],
+      "tipsVi": ["Khi Quân phản đối, bắt đầu bằng \"I see your point, but...\"", "Ví dụ: vệ tinh giúp dự báo thời tiết, cảnh báo bão."],
+      "keywords": ["space", "because", "for example", "I see your point", "possibility"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Kể lại cuộc phỏng vấn nhà khoa học",
+      "contextVi": "Em vừa phỏng vấn một nhà khoa học về sao Hỏa cho báo tường. Cô giáo hỏi em đã hỏi những gì và nhà khoa học trả lời ra sao.",
+      "aiRole": "Ms Ha, the teacher in charge of the school wall newspaper",
+      "studentRoleVi": "Học sinh kể lại cuộc phỏng vấn",
+      "goalVi": "Kể lại ít nhất hai câu hỏi em đã hỏi bằng câu tường thuật, và trả lời khi cô có ý kiến khác.",
+      "goal": "Report at least two questions you asked a scientist about Mars using reported speech, and respond to the teacher's different view.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng câu hỏi tường thuật", "words": ["asked", "if", "wanted to know", "what", "when"] },
+        { "kind": "reason", "vi": "Giải thích vì sao em chọn những câu hỏi đó", "words": [] }
+      ],
+      "opener": "Hello! How was your interview with the scientist? What did you ask her?",
+      "stance": "I think your readers want to know about aliens, not about water and gravity on Mars.",
+      "turns": 5,
+      "fallback": [
+        "Interesting. What else did you ask her?",
+        "Hmm, but I think readers want to know about aliens, not water and gravity. What do you think?",
+        "Good point. What did the scientist say about living on Mars?",
+        "Great job. Please write it up for the wall newspaper."
+      ],
+      "tipsVi": ["Dùng \"I asked her if...\", \"I wanted to know what...\"", "Nhớ trật tự trần thuật: what the weather was like."],
+      "keywords": ["asked", "if", "wanted to know", "Mars", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Chọn hành tinh cho dự án nhóm",
+      "contextVi": "Nhóm em làm áp phích về một hành tinh trong hệ mặt trời. Em bàn với một bạn trong nhóm nên chọn hành tinh nào.",
+      "aiRole": "Yen, a group member in a science poster project",
+      "studentRoleVi": "Thành viên nhóm, đề xuất hành tinh",
+      "goalVi": "Đề xuất một hành tinh, nêu lý do và thông tin về nó, và trả lời khi Yến có ý kiến khác.",
+      "goal": "Suggest a planet for the group poster, give reasons and facts about it, and respond to Yen's different opinion.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất hành tinh", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["planet", "habitable", "gravity", "telescope", "possibility", "solar system"] }
+      ],
+      "opener": "We need to choose one planet for our poster. Which planet do you think we should choose?",
+      "stance": "I think Earth is the best choice. Everyone knows a lot about it, so it's easy to find information.",
+      "turns": 5,
+      "fallback": [
+        "Why that planet?",
+        "Hmm, I think Earth is better. Everyone knows a lot about it, so it's easy. What do you think?",
+        "OK. What facts can we put on the poster?",
+        "Good. Let's start drawing it this afternoon."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["planet", "because", "largest", "interesting", "solar system"]
+    }
+  ]
+}

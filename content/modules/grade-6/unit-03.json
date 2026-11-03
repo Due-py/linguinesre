@@ -1,0 +1,385 @@
+{
+  "grade": 6,
+  "unit": 3,
+  "title": "My Friends",
+  "titleVi": "Bạn bè của em",
+  "edition": "Tiếng Anh 6 Global Success, sách học sinh tập một (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 26–35; Glossary tr. 70",
+  "vocab": [
+    { "id": "v01", "en": "personality", "vi": "tính cách", "ipa": "/ˌpɜːsəˈnæləti/", "ipaFrom": "glossary", "pos": "n", "example": "My best friend has a great personality. Everyone likes her.", "collocations": ["a kind personality", "personality adjectives"], "synonyms": ["character"], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v02", "en": "appearance", "vi": "bề ngoài, ngoại hình", "ipa": "/əˈpɪərəns/", "ipaFrom": "glossary", "pos": "n", "example": "Nam's appearance is different now. He has short hair.", "collocations": ["describe someone's appearance"], "synonyms": ["look"], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v03", "en": "kind", "vi": "tốt bụng", "ipa": "/kaɪnd/", "ipaFrom": "glossary", "pos": "adj", "example": "Mai is kind. She always helps old people cross the road.", "collocations": ["kind to animals", "a kind friend"], "synonyms": ["nice"], "antonyms": ["unkind"], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v04", "en": "friendly", "vi": "thân thiện", "ipa": "/ˈfrendli/", "ipaFrom": "glossary", "pos": "adj", "example": "Our new classmate is very friendly and likes meeting new people.", "collocations": ["friendly to everyone"], "synonyms": [], "antonyms": ["unfriendly"], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v05", "en": "funny", "vi": "ngộ nghĩnh, khôi hài", "ipa": "/ˈfʌni/", "ipaFrom": "glossary", "pos": "adj", "example": "Duc is funny. He always makes us laugh.", "collocations": ["a funny story"], "synonyms": [], "antonyms": ["serious"], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v06", "en": "clever", "vi": "lanh lợi, thông minh", "ipa": "/ˈklevə/", "ipaFrom": "glossary", "pos": "adj", "example": "Lan is clever. She learns new words quickly and easily.", "collocations": ["clever at maths"], "synonyms": ["smart"], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v07", "en": "caring", "vi": "chu đáo, biết quan tâm", "ipa": "/ˈkeərɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "My sister is caring. She looks after me when I'm ill.", "collocations": ["a caring friend"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v08", "en": "creative", "vi": "sáng tạo", "ipa": "/kriˈeɪtɪv/", "ipaFrom": "glossary", "pos": "adj", "example": "Hoa is creative. She always has new ideas for our art projects.", "collocations": ["creative ideas"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v09", "en": "hard-working", "vi": "chăm chỉ", "ipa": "/ˌhɑːd ˈwɜːkɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "Minh is hard-working. He studies until late every evening.", "collocations": ["a hard-working student"], "synonyms": [], "antonyms": ["lazy"], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v10", "en": "active", "vi": "hăng hái, năng động", "ipa": "/ˈæktɪv/", "ipaFrom": "glossary", "pos": "adj", "example": "Phong is active. He plays football and swims every week.", "collocations": ["active in class"], "synonyms": [], "antonyms": ["lazy"], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v11", "en": "confident", "vi": "tự tin", "ipa": "/ˈkɒnfɪdənt/", "ipaFrom": "glossary", "pos": "adj", "example": "Vy is confident. She isn't afraid to speak in front of the class.", "collocations": ["feel confident"], "synonyms": [], "antonyms": ["shy"], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v12", "en": "shy", "vi": "xấu hổ", "ipa": "/ʃaɪ/", "ipaFrom": "glossary", "pos": "adj", "example": "I was shy on my first day, but now I have many friends.", "collocations": ["feel shy", "a shy student"], "synonyms": [], "antonyms": ["confident"], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v13", "en": "careful", "vi": "cẩn thận", "ipa": "/ˈkeəfl/", "ipaFrom": "glossary", "pos": "adj", "example": "Kim is careful. She checks her homework twice.", "collocations": ["be careful with"], "synonyms": [], "antonyms": ["careless"], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v14", "en": "loving", "vi": "giàu tình yêu thương", "ipa": "/ˈlʌvɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "My grandma is very loving. She hugs us every time we visit.", "collocations": ["a loving family"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v15", "en": "slim", "vi": "mảnh khảnh, thanh mảnh", "ipa": "/slɪm/", "ipaFrom": "glossary", "pos": "adj", "example": "My best friend is tall and slim.", "collocations": ["tall and slim"], "synonyms": ["thin"], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v16", "en": "cheek", "vi": "má", "ipa": "/tʃiːk/", "ipaFrom": "glossary", "pos": "n", "example": "The baby has round, pink cheeks.", "collocations": ["round cheeks", "pink cheeks"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v17", "en": "shoulder", "vi": "vai", "ipa": "/ˈʃəʊldə/", "ipaFrom": "glossary", "pos": "n", "example": "Her long hair falls over her shoulders.", "collocations": ["broad shoulders"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v18", "en": "curly", "vi": "xoăn", "ipa": "/ˈkɜːli/", "ipaFrom": "dictionary", "pos": "adj", "example": "Chau has short, curly hair.", "collocations": ["curly hair"], "synonyms": [], "antonyms": ["straight"], "src": { "kind": "sgk", "page": 27 } },
+    { "id": "v19", "en": "picnic", "vi": "buổi dã ngoại", "ipa": "/ˈpɪknɪk/", "ipaFrom": "dictionary", "pos": "n", "example": "We're having a picnic in the park this Sunday.", "collocations": ["have a picnic", "go for a picnic"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 29 } },
+    { "id": "v20", "en": "summer camp", "vi": "trại hè", "ipa": "/ˈsʌmə kæmp/", "ipaFrom": "dictionary", "pos": "n", "example": "At the summer camp, we play games and make new friends.", "collocations": ["go to a summer camp"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 32 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "The present continuous",
+      "nameVi": "Thì hiện tại tiếp diễn",
+      "explainVi": "Dùng thì hiện tại tiếp diễn cho việc đang xảy ra ngay lúc nói. Thường đi với now, at present, at the moment. Luôn cần am/is/are trước động từ thêm -ing. Câu hỏi đưa am/is/are lên đầu.",
+      "formula": "S + am/is/are (not) + V-ing  ·  Am/Is/Are + S + V-ing?",
+      "examples": [
+        "She's talking to her best friend now.",
+        "They aren't playing football at the moment.",
+        "Are you reading a comic?"
+      ],
+      "wrong": [
+        { "sentence": "She talking to Mai now.", "fix": "She is talking to Mai now.", "whyVi": "Thiếu is. Thì hiện tại tiếp diễn luôn cần am/is/are + V-ing." },
+        { "sentence": "They are play badminton.", "fix": "They are playing badminton.", "whyVi": "Sau are, động từ phải thêm -ing: playing." },
+        { "sentence": "Is your friends swimming?", "fix": "Are your friends swimming?", "whyVi": "your friends số nhiều nên dùng Are." }
+      ],
+      "drills": [
+        { "prompt": "Look! Nam ___ a picture of his dog.", "options": ["is drawing", "draws", "drawing"], "answer": 0, "explainVi": "Look! cho biết việc đang xảy ra: is drawing." },
+        { "prompt": "We ___ a picnic at the moment.", "options": ["are having", "is having", "have having"], "answer": 0, "explainVi": "Chủ ngữ we đi với are + V-ing: are having." },
+        { "prompt": "___ your sister making a cake now?", "options": ["Is", "Are", "Does"], "answer": 0, "explainVi": "your sister số ít, câu hỏi hiện tại tiếp diễn: Is ... making?" },
+        { "prompt": "Which sentence is correct?", "options": ["I'm not watching TV now.", "I don't watching TV now.", "I not am watching TV now."], "answer": 0, "explainVi": "Phủ định: am not + V-ing, viết tắt I'm not watching." }
+      ],
+      "errorTag": "verb_form",
+      "src": { "kind": "sgk", "page": 29 }
+    },
+    {
+      "id": "g02",
+      "name": "Present simple vs present continuous",
+      "nameVi": "Phân biệt hiện tại đơn và hiện tại tiếp diễn",
+      "explainVi": "Việc thường xảy ra hoặc cố định (every day, usually, often) dùng hiện tại đơn. Việc đang xảy ra lúc này (now, at the moment, Look!) dùng hiện tại tiếp diễn.",
+      "formula": "Thói quen: S + V(s/es) + every day/usually  ·  Đang xảy ra: S + am/is/are + V-ing + now",
+      "examples": [
+        "My friend usually walks to school, but today she is cycling.",
+        "I read comics every evening. Now I'm reading a book about animals."
+      ],
+      "wrong": [
+        { "sentence": "Every day she is going to school by bus.", "fix": "Every day she goes to school by bus.", "whyVi": "every day là thói quen nên dùng hiện tại đơn: goes." },
+        { "sentence": "Look! The boys play in the rain.", "fix": "Look! The boys are playing in the rain.", "whyVi": "Look! cho biết việc đang diễn ra: are playing." }
+      ],
+      "drills": [
+        { "prompt": "Mai ___ to school every day.", "options": ["walks", "is walking", "walking"], "answer": 0, "explainVi": "every day là thói quen: hiện tại đơn walks." },
+        { "prompt": "Be quiet! The baby ___.", "options": ["is sleeping", "sleeps", "sleep"], "answer": 0, "explainVi": "Việc đang xảy ra ngay lúc nói: is sleeping." },
+        { "prompt": "I usually play chess on Sundays, but today I ___ my grandma.", "options": ["am visiting", "visit", "visits"], "answer": 0, "explainVi": "today, việc đang diễn ra khác với thói quen: am visiting." }
+      ],
+      "errorTag": "verb_tense",
+      "src": { "kind": "sgk", "page": 30 }
+    },
+    {
+      "id": "g03",
+      "name": "Describing appearance with have / has and be",
+      "nameVi": "Tả ngoại hình với have / has và be",
+      "explainVi": "Tả tóc, mắt, má... dùng have/has: She has long hair. Tả chiều cao, dáng người dùng be: He is tall and slim. Với he, she hoặc tên một người, dùng has, không dùng have.",
+      "formula": "He/She + has + tính từ + bộ phận cơ thể  ·  He/She + is + tall/short/slim",
+      "examples": [
+        "She has long straight hair and big black eyes.",
+        "My best friend is short and he has round cheeks."
+      ],
+      "wrong": [
+        { "sentence": "My friend have short curly hair.", "fix": "My friend has short curly hair.", "whyVi": "Chủ ngữ số ít (my friend) dùng has." },
+        { "sentence": "He has tall and slim.", "fix": "He is tall and slim.", "whyVi": "Tả dáng người (tall, slim) dùng is, không dùng has." }
+      ],
+      "drills": [
+        { "prompt": "Lan ___ big eyes and a small nose.", "options": ["has", "have", "is"], "answer": 0, "explainVi": "Lan số ít, tả bộ phận cơ thể: has." },
+        { "prompt": "My brother ___ tall and slim.", "options": ["is", "has", "have"], "answer": 0, "explainVi": "Tả dáng người dùng be: is tall and slim." },
+        { "prompt": "Which sentence is correct?", "options": ["She has curly hair.", "She have curly hair.", "She is curly hair."], "answer": 0, "explainVi": "She + has + curly hair." }
+      ],
+      "errorTag": "third_person_s",
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Âm /b/",
+      "tipVi": "Mím hai môi rồi bật hơi nhẹ, cổ họng rung (âm hữu thanh). Đặt tay lên cổ sẽ thấy rung khi đọc big, bear.",
+      "words": ["big", "bear", "buy", "robe"],
+      "sentence": "My brother buys a big blue bag.",
+      "quiz": [
+        { "prompt": "Which word begins with the sound /b/?", "options": ["buy", "pie", "pear"], "answer": 0, "explainVi": "buy bắt đầu bằng /b/; pie và pear bắt đầu bằng /p/." }
+      ],
+      "src": { "kind": "sgk", "page": 29 }
+    },
+    {
+      "id": "p02",
+      "kind": "sound",
+      "focus": "Âm /p/",
+      "tipVi": "Mím hai môi rồi bật mạnh một luồng hơi, cổ họng KHÔNG rung. Để tờ giấy trước miệng, đọc pig, pear thì tờ giấy sẽ lay động.",
+      "words": ["pig", "pear", "pie", "rope"],
+      "sentence": "Please put the pears on the plate.",
+      "quiz": [
+        { "prompt": "Which word begins with the sound /p/?", "options": ["pear", "bear", "big"], "answer": 0, "explainVi": "pear /peə/ bắt đầu bằng /p/." },
+        { "prompt": "Which word ends with the sound /p/?", "options": ["rope", "robe", "bob"], "answer": 0, "explainVi": "rope /rəʊp/ kết thúc bằng /p/; robe kết thúc bằng /b/." }
+      ],
+      "src": { "kind": "sgk", "page": 29 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của tính từ chỉ tính cách",
+      "tipVi": "confident, careful, clever, friendly, active nhấn âm đầu; creative, appearance nhấn âm thứ hai; personality nhấn âm thứ ba: per-so-NA-li-ty.",
+      "words": ["confident", "careful", "clever", "creative", "appearance", "personality"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["creative", "clever", "friendly"], "answer": 0, "explainVi": "creative /kriˈeɪtɪv/ nhấn âm thứ hai." },
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["confident", "appearance", "creative"], "answer": 0, "explainVi": "confident /ˈkɒnfɪdənt/ nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Ngữ điệu câu hỏi về ngoại hình, tính cách",
+      "tipVi": "What does she look like? và What's she like? đều xuống giọng ở cuối. Nhấn vào LOOK trong câu hỏi về ngoại hình.",
+      "words": ["What does he look like?", "What's she like?"],
+      "sentence": "What does your best friend look like?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "What does ... look like?", "vi": "... trông như thế nào?", "useVi": "Khi hỏi về ngoại hình của ai đó.", "example": "What does your new classmate look like?", "src": { "kind": "sgk", "page": 31 } },
+    { "id": "e02", "en": "What's he / she like?", "vi": "Bạn ấy là người thế nào?", "useVi": "Khi hỏi về tính cách của ai đó.", "example": "What's your best friend like? Is she funny?", "src": { "kind": "sgk", "page": 31 } },
+    { "id": "e03", "en": "He / She has ... hair and ... eyes.", "vi": "Bạn ấy có tóc ... và mắt ...", "useVi": "Khi tả ngoại hình của một người.", "example": "He has short black hair and small brown eyes.", "src": { "kind": "sgk", "page": 31 } },
+    { "id": "e04", "en": "It's true that ... / It isn't true that ...", "vi": "Đúng là ... / Không đúng là ...", "useVi": "Khi nói nhận xét đúng hay không đúng với bản thân em.", "example": "It's true that I'm creative, but it isn't true that I'm shy.", "src": { "kind": "sgk", "page": 31 } },
+    { "id": "e05", "en": "He / She is very ... He / She likes ...", "vi": "Bạn ấy rất ... Bạn ấy thích ...", "useVi": "Khi tả tính cách và đưa ví dụ cho tính cách đó.", "example": "Nam is very kind. He likes helping his friends.", "src": { "kind": "team", "page": null } },
+    { "id": "e06", "en": "I like him / her because ...", "vi": "Mình quý bạn ấy vì ...", "useVi": "Khi nêu lý do em quý một người bạn.", "example": "I like her because she always listens to me.", "src": { "kind": "team", "page": null } },
+    { "id": "e07", "en": "What are you doing?", "vi": "Bạn đang làm gì vậy?", "useVi": "Khi hỏi bạn đang làm gì lúc này.", "example": "Hi, Mai! What are you doing? Are you busy?", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "Don't worry. I'm here for you.", "vi": "Đừng lo. Có mình đây.", "useVi": "Khi an ủi một người bạn đang buồn.", "example": "Don't worry. I'm here for you. Let's talk about it.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["My best friend", "is tall and slim", "and has", "short curly hair"], "vi": "Bạn thân của mình cao, mảnh khảnh và có mái tóc xoăn ngắn.", "grammarId": "g03" },
+    { "id": "b02", "chunks": ["Look!", "Phong and Nam", "are playing", "badminton"], "vi": "Nhìn kìa! Phong và Nam đang chơi cầu lông.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["She is", "very creative", "and always has", "new ideas"], "vi": "Bạn ấy rất sáng tạo và luôn có ý tưởng mới.", "grammarId": null },
+    { "id": "b04", "chunks": ["I'm not", "doing my homework", "at the moment"], "vi": "Lúc này mình không làm bài tập về nhà.", "grammarId": "g01" },
+    { "id": "b05", "chunks": ["Lan usually", "walks to school,", "but today", "she is cycling"], "vi": "Lan thường đi bộ đến trường, nhưng hôm nay bạn ấy đạp xe.", "grammarId": "g02" },
+    { "id": "b06", "chunks": ["Are your friends", "having a picnic", "in the park", "now?"], "vi": "Các bạn của em đang đi dã ngoại ở công viên à?", "grammarId": "g01" },
+    { "id": "b07", "chunks": ["I like Hoa", "because she is", "kind and caring"], "vi": "Mình quý Hoa vì bạn ấy tốt bụng và biết quan tâm.", "grammarId": null },
+    { "id": "b08", "chunks": ["Minh is", "hard-working.", "He studies", "every evening"], "vi": "Minh chăm chỉ. Bạn ấy học bài mỗi tối.", "grammarId": "g02" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "My friend is kind.",
+      "steps": [
+        { "askVi": "Bạn tên gì?", "ask": "Which friend?", "add": "Mai" },
+        { "askVi": "Kind thế nào? Cho ví dụ.", "ask": "How do you know?", "add": "she always helps me with maths" }
+      ],
+      "full": "My friend Mai is kind because she always helps me with maths."
+    },
+    {
+      "id": "x02",
+      "base": "He has hair.",
+      "steps": [
+        { "askVi": "Tóc dài hay ngắn?", "ask": "Long or short?", "add": "short" },
+        { "askVi": "Tóc thế nào nữa?", "ask": "What else?", "add": "curly" },
+        { "askVi": "Mắt thì sao?", "ask": "And his eyes?", "add": "and big brown eyes" }
+      ],
+      "full": "He has short curly hair and big brown eyes."
+    },
+    {
+      "id": "x03",
+      "base": "We are playing.",
+      "steps": [
+        { "askVi": "Chơi gì?", "ask": "What?", "add": "football" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in the schoolyard" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "now" }
+      ],
+      "full": "We are playing football in the schoolyard now."
+    },
+    {
+      "id": "x04",
+      "base": "She is reading.",
+      "steps": [
+        { "askVi": "Đọc gì?", "ask": "What?", "add": "a comic book" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in the library" }
+      ],
+      "full": "She is reading a comic book in the library."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Ngoại hình của một người bạn",
+      "questions": [
+        "What does your best friend look like?",
+        "Can you describe your friend's appearance?",
+        "How can I find your friend in a crowd? What does he or she look like?"
+      ],
+      "keywords": ["tall", "slim", "long hair", "has"],
+      "exampleAnswer": "She is short and slim. She has long black hair and round cheeks.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Tính cách của bạn và ví dụ",
+      "questions": [
+        "What is your friend's personality like? Give an example.",
+        "Which two words describe your friend best? Why?",
+        "Why do you think your friend is a good person?"
+      ],
+      "keywords": ["kind", "funny", "because", "for example"],
+      "exampleAnswer": "Duc is funny and kind. For example, he tells jokes and shares his lunch with me.",
+      "expectsReason": true
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Người trong gia đình đang làm gì lúc này",
+      "questions": [
+        "What are your family members doing right now?",
+        "What is your mum or dad probably doing at the moment?",
+        "Imagine your home now. What is everyone doing?"
+      ],
+      "keywords": ["is cooking", "is working", "is watching", "now"],
+      "exampleAnswer": "My dad is working in his office, and my little brother is watching cartoons at home.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Tính cách của bản thân em",
+      "questions": [
+        "What personality adjectives describe you?",
+        "How would your friends describe you?",
+        "What kind of person are you?"
+      ],
+      "keywords": ["active", "careful", "creative", "I am"],
+      "exampleAnswer": "I'm active and creative. I love sports, and I often make cards for my friends.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Điều làm nên một người bạn tốt",
+      "questions": [
+        "What makes someone a good friend? Why?",
+        "What kind of friend do you like to have? Why?",
+        "Why is it important for a friend to be caring?"
+      ],
+      "keywords": ["caring", "kind", "help", "because"],
+      "exampleAnswer": "A good friend is caring and honest because he or she helps you when you have problems.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "Think of a classmate you sit near. What does he or she look like?", "keywords": ["has", "hair", "eyes", "tall"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should students sit next to their best friends in class? Why or why not?", "keywords": ["should", "talk", "help", "because"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend calls you while you are busy. What do you say to him?", "keywords": ["I'm doing", "at the moment", "call back", "busy"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "Think of someone in your family. What does he or she look like?", "keywords": ["has", "hair", "slim", "short"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should friends always agree with each other? Why or why not?", "keywords": ["should", "different", "kind", "because"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your classmate wants to play a game, but you are studying. What do you say to her?", "keywords": ["I'm studying", "now", "later", "sorry"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Tả bạn thân cho bạn mới",
+      "contextVi": "Một bạn mới trong lớp muốn biết về bạn thân của em để làm quen. Em tả ngoại hình và tính cách của bạn thân.",
+      "aiRole": "Linda, a new student who wants to make friends",
+      "studentRoleVi": "Học sinh kể về bạn thân của mình",
+      "goalVi": "Tả ngoại hình và tính cách của bạn thân, đưa ít nhất một ví dụ cho tính cách đó.",
+      "goal": "Describe your best friend's appearance and personality, with at least one example.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một tính từ chỉ tính cách", "words": ["kind", "funny", "clever", "caring", "creative", "friendly"] },
+        { "kind": "example", "vi": "Đưa ví dụ cho tính cách (He likes..., She always...)", "words": [] }
+      ],
+      "opener": "Hi! I'm new here. Who is your best friend in this class?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Oh, nice. What does he or she look like?",
+        "And what's he or she like?",
+        "Great! What do you two often do together?"
+      ],
+      "tipsVi": ["Dùng What does... look like? và What's... like? nếu muốn hỏi lại.", "Tả tóc, mắt bằng has; tính cách bằng is."],
+      "keywords": ["has", "is", "kind", "funny", "for example"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Chọn bạn cho đội thi",
+      "contextVi": "Lớp em cần chọn một bạn vào đội thi tiếng Anh của trường. Em đề cử một bạn cùng lớp, nhưng bạn lớp trưởng có ý kiến khác.",
+      "aiRole": "Quang, the class monitor",
+      "studentRoleVi": "Học sinh đề cử một bạn cho đội thi",
+      "goalVi": "Đề cử một bạn, tả tính cách và giải thích vì sao bạn ấy phù hợp, trả lời khi Quang không đồng ý.",
+      "goal": "Recommend a classmate for the English contest team, describe his or her personality, and answer Quang's objection.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề cử một bạn (I think ... should join)", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do bạn ấy phù hợp", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một tính từ chỉ tính cách", "words": ["confident", "clever", "hard-working", "creative", "careful"] }
+      ],
+      "opener": "We need one more student for the English contest. Who do you think should join?",
+      "stance": "But she is very shy. I think a confident student is better for a contest.",
+      "turns": 5,
+      "fallback": [
+        "Hmm, why do you think so?",
+        "But that student is very shy. I think a confident student is better for a contest.",
+        "OK, that's a good point. Is he or she hard-working?",
+        "Alright, let's ask our teacher tomorrow."
+      ],
+      "tipsVi": ["Khi Quang phản đối, nói \"That's true, but...\"", "Đưa ví dụ: She always..., He learns..."],
+      "keywords": ["I think", "clever", "hard-working", "because", "for example"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Rủ bạn đi trại hè",
+      "contextVi": "Em muốn rủ bạn thân cùng đi trại hè tiếng Anh, nhưng bạn ấy ngại vì không quen ai ở đó.",
+      "aiRole": "Vy, your best friend who feels shy about meeting new people",
+      "studentRoleVi": "Bạn thân muốn rủ Vy đi trại hè",
+      "goalVi": "Rủ Vy đi trại hè, kể các hoạt động ở đó, và động viên khi Vy ngại.",
+      "goal": "Invite Vy to an English summer camp, say what activities there are, and encourage her when she feels worried.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra lời rủ", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do nên đi", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["summer camp", "friendly", "confident", "shy", "activity"] }
+      ],
+      "opener": "Hi! What are you doing this summer? I don't have any plans yet.",
+      "stance": "I'm too shy. I don't know anyone at the camp, so I won't have fun.",
+      "turns": 5,
+      "fallback": [
+        "A summer camp? What do people do there?",
+        "Hmm, I'm too shy. I don't know anyone there, so I won't have fun.",
+        "Maybe you're right. Will you stay with me on the first day?",
+        "OK! Let's ask our parents tonight."
+      ],
+      "tipsVi": ["Động viên bạn: \"Don't worry...\"", "Nói các bạn ở trại thân thiện, nhiều hoạt động vui."],
+      "keywords": ["summer camp", "friendly", "don't worry", "because", "together"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Tìm bạn ở công viên",
+      "contextVi": "Em hẹn gặp một người bạn ở công viên nhưng đến muộn. Bạn của bạn ấy gọi cho em để hỏi bạn ấy trông thế nào và em đang làm gì.",
+      "aiRole": "Ben, a friend of your friend who is waiting at the park",
+      "studentRoleVi": "Học sinh đến muộn, đang gọi điện",
+      "goalVi": "Tả ngoại hình người bạn, nói em đang làm gì lúc này, và trả lời khi Ben có ý kiến khác.",
+      "goal": "Describe what your friend looks like, say what you are doing now, and respond when Ben has a different idea.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng thì hiện tại tiếp diễn", "words": ["I'm coming", "I'm walking", "is wearing", "is waiting"] },
+        { "kind": "reason", "vi": "Giải thích vì sao em đến muộn", "words": [] },
+        { "kind": "suggestion", "vi": "Gợi ý nơi gặp nhau", "words": [] }
+      ],
+      "opener": "Hi, it's Ben. I'm at the park, but I can't find your friend. What does she look like? And where are you now?",
+      "stance": "This park is too crowded. Let's meet another day.",
+      "turns": 5,
+      "fallback": [
+        "OK. What is she wearing today?",
+        "Hmm, this park is too crowded. Let's meet another day.",
+        "Fine. Where should we wait for you?",
+        "Got it. See you soon!"
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["has", "is wearing", "I'm coming", "because", "let's meet"]
+    }
+  ]
+}

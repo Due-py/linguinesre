@@ -1,0 +1,344 @@
+{
+  "grade": 9,
+  "unit": 9,
+  "title": "World Englishes",
+  "titleVi": "Tiếng Anh trên thế giới",
+  "edition": "Tiếng Anh 9 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 92–101; Glossary tr. 138–139",
+  "vocab": [
+    { "id": "v01", "en": "bilingual", "vi": "sử dụng được hai ngôn ngữ", "ipa": "/baɪˈlɪŋɡwəl/", "ipaFrom": "glossary", "pos": "adj", "example": "My cousin is bilingual in English and Vietnamese.", "collocations": ["bilingual in", "a bilingual school"], "synonyms": [], "antonyms": ["monolingual"], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v02", "en": "borrowed word", "vi": "từ mượn", "ipa": "/ˈbɒrəʊ wɜːd/", "ipaFrom": "glossary", "pos": "n", "example": "\"Ga\" in \"nhà ga\" is a borrowed word from French.", "collocations": ["a borrowed word from English"], "synonyms": ["loanword"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v03", "en": "first language", "vi": "ngôn ngữ thứ nhất", "ipa": "/ˌfɜːst ˈlæŋɡwɪdʒ/", "ipaFrom": "glossary", "pos": "n", "example": "Vietnamese is my first language.", "collocations": [], "synonyms": ["mother tongue"], "antonyms": ["second language"], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v04", "en": "second language", "vi": "ngôn ngữ thứ hai", "ipa": "/ˌsekənd ˈlæŋɡwɪdʒ/", "ipaFrom": "glossary", "pos": "n", "example": "In Singapore, many people speak English as a second language.", "collocations": ["learn a second language"], "synonyms": [], "antonyms": ["first language"], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v05", "en": "official language", "vi": "ngôn ngữ chính thức", "ipa": "/ˌəfɪʃl ˈlæŋɡwɪdʒ/", "ipaFrom": "glossary", "pos": "n", "example": "English is an official language in India.", "collocations": ["an official language of"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v06", "en": "fluent", "vi": "trôi chảy; thành thạo", "ipa": "/ˈfluːənt/", "ipaFrom": "glossary", "pos": "adj", "example": "She practises every day, so she is fluent in English now.", "collocations": ["fluent in English", "fluent speaker"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v07", "en": "exchange student", "vi": "học sinh trao đổi", "ipa": "/ɪksˈtʃeɪndʒ stjuːdnt/", "ipaFrom": "glossary", "pos": "n", "example": "An exchange student from Canada joined our class this year.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v08", "en": "look up", "vi": "tra (từ điển)", "ipa": "/lʊk ʌp/", "ipaFrom": "glossary", "pos": "phr v", "example": "I look up new words in an English-English dictionary.", "collocations": ["look up a word", "look it up"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v09", "en": "go over", "vi": "ôn tập lại", "ipa": "/ɡəʊ ˈəʊvə/", "ipaFrom": "glossary", "pos": "phr v", "example": "Let's go over the grammar points before the test.", "collocations": ["go over the lesson", "go over new words"], "synonyms": ["revise", "review"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v10", "en": "pick up", "vi": "học (ngôn ngữ tự nhiên)", "ipa": "/pɪk ʌp/", "ipaFrom": "glossary", "pos": "phr v", "example": "He picked up some Japanese from watching cartoons.", "collocations": ["pick up a language", "pick up new words"], "synonyms": ["learn"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v11", "en": "translate", "vi": "dịch", "ipa": "/trænzˈleɪt/", "ipaFrom": "glossary", "pos": "v", "example": "Can you translate this sentence into Vietnamese?", "collocations": ["translate into", "translate from English"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v12", "en": "variety", "vi": "biến thể", "ipa": "/vəˈraɪəti/", "ipaFrom": "glossary", "pos": "n", "example": "Australian English is a variety of English.", "collocations": ["a variety of English"], "synonyms": ["type"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v13", "en": "vocabulary", "vi": "từ vựng", "ipa": "/vəˈkæbjələri/", "ipaFrom": "glossary", "pos": "n", "example": "Reading books helps me build my vocabulary.", "collocations": ["learn vocabulary", "build your vocabulary"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v14", "en": "immigrant", "vi": "người nhập cư", "ipa": "/ˈɪmɪɡrənt/", "ipaFrom": "glossary", "pos": "n", "example": "Many immigrants in the US speak English as a second language.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v15", "en": "copy", "vi": "chép lại", "ipa": "/ˈkɒpi/", "ipaFrom": "glossary", "pos": "v", "example": "I copy new words into a small notebook.", "collocations": ["copy words into a notebook"], "synonyms": ["write down"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v16", "en": "standard", "vi": "chuẩn mực", "ipa": "/ˈstændəd/", "ipaFrom": "glossary", "pos": "n", "example": "There is more than one standard of English in the world.", "collocations": ["a high standard"], "synonyms": ["norm"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v17", "en": "establish", "vi": "thành lập", "ipa": "/ɪˈstæblɪʃ/", "ipaFrom": "glossary", "pos": "v", "example": "Our school established an English club last year.", "collocations": ["establish a club"], "synonyms": ["set up", "found"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v18", "en": "consist", "vi": "bao gồm", "ipa": "/kənˈsɪst/", "ipaFrom": "glossary", "pos": "v", "example": "The model consists of three circles.", "collocations": ["consist of"], "synonyms": ["include"], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v19", "en": "Inner Circle", "vi": "vòng tròn bên trong", "ipa": "/ˌɪnə ˈsɜːkl/", "ipaFrom": "glossary", "pos": "n", "example": "The UK and the US are in the Inner Circle.", "collocations": ["Inner Circle countries"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v20", "en": "Outer Circle", "vi": "vòng tròn bên ngoài", "ipa": "/ˌaʊtə ˈsɜːkl/", "ipaFrom": "glossary", "pos": "n", "example": "India and Singapore are in the Outer Circle.", "collocations": ["Outer Circle countries"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v21", "en": "Expanding Circle", "vi": "vòng tròn mở rộng", "ipa": "/ɪkˈspændɪŋ sɜːkl/", "ipaFrom": "glossary", "pos": "n", "example": "Viet Nam is in the Expanding Circle.", "collocations": ["Expanding Circle countries"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Defining relative clauses",
+      "nameVi": "Mệnh đề quan hệ xác định",
+      "explainVi": "Mệnh đề quan hệ xác định cho biết thông tin cần thiết để hiểu ta đang nói về người nào, vật nào. Nó đứng ngay sau danh từ, bắt đầu bằng who (người), which (vật), whose (sở hữu), và KHÔNG có dấu phẩy. Bỏ mệnh đề này đi thì câu không rõ nghĩa.",
+      "formula": "danh từ + who / which / whose + ... (không dấu phẩy)",
+      "examples": [
+        "The teacher who taught me English is Ms Lan.",
+        "I use an app which helps me learn new words.",
+        "People who speak two languages are bilingual."
+      ],
+      "wrong": [
+        { "sentence": "I like films have English subtitles.", "fix": "I like films which have English subtitles.", "whyVi": "Đại từ quan hệ là chủ ngữ của mệnh đề thì không được bỏ: cần which." },
+        { "sentence": "Students who grades are high can join the contest.", "fix": "Students whose grades are high can join the contest.", "whyVi": "Điểm CỦA học sinh: dùng whose + danh từ." }
+      ],
+      "drills": [
+        { "prompt": "English is the language ___ is used in many countries.", "options": ["who", "which", "whose"], "answer": 1, "explainVi": "language là vật: dùng which." },
+        { "prompt": "People ___ speak English well can find jobs more easily.", "options": ["which", "whose", "who"], "answer": 2, "explainVi": "People là người: dùng who." },
+        { "prompt": "I have a friend ___ mother teaches French.", "options": ["whose", "who", "which"], "answer": 0, "explainVi": "Mẹ CỦA người bạn: whose + mother." },
+        { "prompt": "Which sentence is correct?", "options": ["The boy won the contest is my cousin.", "The boy who won the contest is my cousin.", "The boy, which won the contest, is my cousin."], "answer": 1, "explainVi": "Cần who làm chủ ngữ cho mệnh đề \"won the contest\"; boy là người nên không dùng which." }
+      ],
+      "errorTag": "missing_word",
+      "src": { "kind": "sgk", "page": 95 }
+    },
+    {
+      "id": "g02",
+      "name": "Omitting the relative pronoun (object)",
+      "nameVi": "Lược bỏ đại từ quan hệ khi làm tân ngữ",
+      "explainVi": "Nếu who/which là TÂN NGỮ của mệnh đề quan hệ (sau nó có chủ ngữ khác), ta có thể bỏ nó đi. Nếu who/which là CHỦ NGỮ (sau nó là động từ), không được bỏ. Không thêm it/him/her sau động từ trong mệnh đề quan hệ.",
+      "formula": "danh từ + (who/which) + S + V ...  ·  danh từ + who/which + V ... (không bỏ)",
+      "examples": [
+        "The book (which) you lent me is very useful.",
+        "The teacher (who) we admire speaks three languages.",
+        "The man who is talking to Lan is bilingual. (không bỏ who)"
+      ],
+      "wrong": [
+        { "sentence": "The words which I learnt them yesterday are difficult.", "fix": "The words (which) I learnt yesterday are difficult.", "whyVi": "which đã thay cho \"the words\", không thêm them." },
+        { "sentence": "The girl speaks Japanese is my sister.", "fix": "The girl who speaks Japanese is my sister.", "whyVi": "who là chủ ngữ (sau nó là động từ speaks) nên không được bỏ." }
+      ],
+      "drills": [
+        { "prompt": "In which sentence can you leave out \"which\"?", "options": ["The app which I use is free.", "The app which helps me is free.", "The app which has games is free."], "answer": 0, "explainVi": "Sau which có chủ ngữ I nên which là tân ngữ, bỏ được." },
+        { "prompt": "Which sentence is correct?", "options": ["The song I like it is in English.", "The song I like is in English.", "The song is I like in English."], "answer": 1, "explainVi": "Bỏ which (tân ngữ) được, nhưng không thêm it." },
+        { "prompt": "The teacher ___ we met yesterday is from Australia.", "options": ["who", "whose", "which"], "answer": 0, "explainVi": "teacher là người: who (có thể bỏ vì sau nó là chủ ngữ we)." }
+      ],
+      "errorTag": "pronoun",
+      "src": { "kind": "sgk", "page": 95 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "word_stress",
+      "focus": "Trọng âm từ có đuôi -ion",
+      "tipVi": "Từ có đuôi -ion nhấn vào âm tiết ngay TRƯỚC -ion: re-LA-tion, de-CI-sion, po-SI-tion, e-du-CA-tion, o-pe-RA-tion.",
+      "words": ["relation", "decision", "position", "education", "operation", "discussion", "attention", "intention"],
+      "sentence": "We had a discussion about English education.",
+      "quiz": [
+        { "prompt": "Which syllable is stressed in \"education\"?", "options": ["1st syllable: e", "2nd syllable: du", "3rd syllable: ca"], "answer": 2, "explainVi": "education /ˌedʒuˈkeɪʃn/: nhấn âm ngay trước -ion (ca)." },
+        { "prompt": "Which word is stressed on the THIRD syllable?", "options": ["position", "operation", "decision"], "answer": 1, "explainVi": "operation /ˌɒpəˈreɪʃn/ nhấn âm thứ ba; position và decision nhấn âm thứ hai." }
+      ],
+      "src": { "kind": "sgk", "page": 94 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Trọng âm từ có đuôi -ity",
+      "tipVi": "Từ có đuôi -ity cũng nhấn vào âm tiết ngay TRƯỚC -ity: CHAR-i-ty, QUAL-i-ty, CLAR-i-ty, a-BIL-i-ty, o-BE-si-ty.",
+      "words": ["charity", "quality", "clarity", "ability", "obesity", "community", "activity", "identity"],
+      "sentence": "Her ability to speak clearly helps the whole community.",
+      "quiz": [
+        { "prompt": "Which syllable is stressed in \"ability\"?", "options": ["1st syllable: a", "2nd syllable: bil", "3rd syllable: i"], "answer": 1, "explainVi": "ability /əˈbɪləti/: nhấn âm ngay trước -ity (bil)." },
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["obesity", "charity", "ability"], "answer": 1, "explainVi": "charity /ˈtʃærəti/ nhấn âm đầu; obesity và ability nhấn âm thứ hai." }
+      ],
+      "src": { "kind": "sgk", "page": 94 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "fluent, standard, immigrant nhấn âm đầu; bilingual, translate, vocabulary, variety nhấn âm thứ hai.",
+      "words": ["fluent", "standard", "immigrant", "bilingual", "translate", "vocabulary", "variety"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["fluent", "standard", "bilingual"], "answer": 2, "explainVi": "bilingual /baɪˈlɪŋɡwəl/ nhấn âm thứ hai." }
+      ],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Good luck with ...!", "vi": "Chúc may mắn với ...!", "useVi": "Khi chúc ai đó may mắn trước một việc quan trọng.", "example": "Good luck with your speaking test!", "src": { "kind": "sgk", "page": 96 } },
+    { "id": "e02", "en": "Thanks. I'll try my best.", "vi": "Cảm ơn. Mình sẽ cố gắng hết sức.", "useVi": "Khi đáp lại lời chúc may mắn.", "example": "Thanks. I'll try my best.", "src": { "kind": "sgk", "page": 96 } },
+    { "id": "e03", "en": "I wish you all the best of luck.", "vi": "Chúc bạn mọi điều may mắn nhất.", "useVi": "Lời chúc trang trọng hơn, khi ai đó bắt đầu việc lớn như chuyển nhà, đi du học.", "example": "You're studying in the UK? I wish you all the best of luck.", "src": { "kind": "sgk", "page": 96 } },
+    { "id": "e04", "en": "Thank you so much.", "vi": "Cảm ơn bạn rất nhiều.", "useVi": "Khi đáp lại lời chúc hoặc sự giúp đỡ.", "example": "Thank you so much. I'll miss you all.", "src": { "kind": "sgk", "page": 96 } },
+    { "id": "e05", "en": "How do you say ... in English?", "vi": "... nói bằng tiếng Anh thế nào?", "useVi": "Khi không biết từ tiếng Anh và muốn hỏi người khác.", "example": "How do you say \"bánh chưng\" in English?", "src": { "kind": "team", "page": null } },
+    { "id": "e06", "en": "Could you speak more slowly, please?", "vi": "Bạn nói chậm hơn được không?", "useVi": "Khi người kia nói quá nhanh, mình chưa nghe kịp.", "example": "Sorry, could you speak more slowly, please?", "src": { "kind": "team", "page": null } },
+    { "id": "e07", "en": "One thing that helps me is ...", "vi": "Một điều giúp mình là ...", "useVi": "Khi chia sẻ một cách học hiệu quả.", "example": "One thing that helps me is watching cartoons in English.", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "I find ... difficult because ...", "vi": "Mình thấy ... khó vì ...", "useVi": "Khi nói về kỹ năng hoặc phần học khó và lý do.", "example": "I find listening difficult because people speak fast.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "If you need someone who can ..., just ask me.", "vi": "Nếu bạn cần ai đó có thể ..., cứ hỏi mình.", "useVi": "Khi đề nghị giúp đỡ người mới.", "example": "If you need someone who can show you around, just ask me.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["The teacher", "who taught me", "my first English words", "is Mr Vinh"], "vi": "Thầy giáo dạy mình những từ tiếng Anh đầu tiên là thầy Vinh.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["I use an app", "which helps me", "learn", "new vocabulary"], "vi": "Mình dùng một ứng dụng giúp mình học từ vựng mới.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["People", "who speak two languages", "are", "bilingual"], "vi": "Những người nói được hai ngôn ngữ là người song ngữ.", "grammarId": "g01" },
+    { "id": "b04", "chunks": ["The dictionary", "you gave me", "is", "very useful"], "vi": "Cuốn từ điển bạn tặng mình rất hữu ích.", "grammarId": "g02" },
+    { "id": "b05", "chunks": ["I look up", "new words", "and copy them", "into my notebook"], "vi": "Mình tra từ mới và chép chúng vào sổ.", "grammarId": null },
+    { "id": "b06", "chunks": ["English is", "an official language", "in Singapore", "and India"], "vi": "Tiếng Anh là ngôn ngữ chính thức ở Singapore và Ấn Độ.", "grammarId": null },
+    { "id": "b07", "chunks": ["I'd like to visit", "a country", "where people", "speak English"], "vi": "Mình muốn đến thăm một đất nước nơi người ta nói tiếng Anh.", "grammarId": null },
+    { "id": "b08", "chunks": ["Let's go over", "the words", "we learnt", "last week"], "vi": "Chúng ta cùng ôn lại những từ đã học tuần trước nhé.", "grammarId": "g02" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I learn new words.",
+      "steps": [
+        { "askVi": "Bằng cách nào?", "ask": "How?", "add": "by watching English videos" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every evening" }
+      ],
+      "full": "I learn new words by watching English videos every evening."
+    },
+    {
+      "id": "x02",
+      "base": "English is important.",
+      "steps": [
+        { "askVi": "Quan trọng với ai?", "ask": "For whom?", "add": "for students like me" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because we can talk to people from many countries" }
+      ],
+      "full": "English is important for students like me because we can talk to people from many countries."
+    },
+    {
+      "id": "x03",
+      "base": "I want to become fluent.",
+      "steps": [
+        { "askVi": "Thành thạo ngôn ngữ gì?", "ask": "In what?", "add": "in English" },
+        { "askVi": "Để làm gì?", "ask": "Why?", "add": "so that I can study abroad" }
+      ],
+      "full": "I want to become fluent in English so that I can study abroad."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Cách em học từ vựng tiếng Anh",
+      "questions": [
+        "How do you remember the new English words you learn?",
+        "What is your favourite way to build your vocabulary?",
+        "What do you do so that you don't forget new words?"
+      ],
+      "keywords": ["look up", "copy", "go over", "notebook"],
+      "exampleAnswer": "I copy new words into a notebook with an example, and I go over them every weekend.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Vì sao tiếng Anh được dùng rộng rãi",
+      "questions": [
+        "Why is English spoken in so many countries?",
+        "Why do people from different countries often use English to talk to each other?",
+        "What makes English a global language?"
+      ],
+      "keywords": ["official language", "second language", "communicate", "Internet"],
+      "exampleAnswer": "Because it is an official language in many countries, and people who don't share a language can use it to communicate.",
+      "expectsReason": true
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Từ mượn trong tiếng Việt",
+      "questions": [
+        "Can you give some examples of borrowed words in Vietnamese?",
+        "Which English words do young Vietnamese people often use?",
+        "What foreign words do you hear in Vietnamese every day?"
+      ],
+      "keywords": ["borrowed word", "French", "English", "online"],
+      "exampleAnswer": "We use \"ga\" and \"cà phê\" from French, and young people say \"online\" and \"selfie\" from English.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Lời khuyên để nói tiếng Anh trôi chảy",
+      "questions": [
+        "What advice would you give someone who wants to speak English fluently?",
+        "How can a student become more confident when speaking English?",
+        "What should learners do every day to improve their speaking?"
+      ],
+      "keywords": ["fluent", "practise", "mistakes", "pick up"],
+      "exampleAnswer": "They should practise speaking every day and not be afraid of mistakes, because that is how we pick up a language.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Các biến thể tiếng Anh trên thế giới",
+      "questions": [
+        "Do you know any differences between British and American English?",
+        "Which varieties of English have you heard in films or videos?",
+        "Have you noticed that English sounds different in different countries?"
+      ],
+      "keywords": ["variety", "accent", "British", "American"],
+      "exampleAnswer": "Yes. British people say \"lift\" but Americans say \"elevator\". Australian English also has a different accent.",
+      "expectsReason": false
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "Tell me about the first time you used English outside the classroom.", "keywords": ["spoke", "tourist", "understand"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should young children start learning English in kindergarten? Why or why not?", "keywords": ["pick up", "first language", "bilingual"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend feels shy and never speaks in English lessons. What do you say to him?", "keywords": ["practise", "mistakes", "fluent"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "Describe a time when you had to use English to help someone or to get something.", "keywords": ["asked", "explained", "translate"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should schools teach a third language as well as English? Why or why not?", "keywords": ["second language", "useful", "time"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your cousin wants to stop learning English because she thinks it is too hard. What do you say to her?", "keywords": ["go over", "step by step", "useful"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Chào đón học sinh trao đổi",
+      "contextVi": "Jack, một học sinh trao đổi từ New York, vừa vào lớp em. Bạn ấy muốn biết học sinh Việt Nam học tiếng Anh thế nào.",
+      "aiRole": "Jack, an exchange student from New York",
+      "studentRoleVi": "Bạn cùng lớp người Việt, kể về việc học tiếng Anh",
+      "goalVi": "Kể cho Jack em học tiếng Anh thế nào, nêu một cách học em thích và lý do.",
+      "goal": "Tell Jack how you learn English, describe one way you like and say why.",
+      "requirements": [
+        { "kind": "example", "vi": "Đưa một ví dụ về cách em học", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do em thích cách đó", "words": [] }
+      ],
+      "opener": "Hi, I'm Jack. Everyone here speaks some English. How do you learn it?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Cool! Can you give me an example of what you do?",
+        "Why do you like learning that way?",
+        "Nice. Maybe you can help me learn some Vietnamese too!"
+      ],
+      "tipsVi": ["Dùng các cụm look up, go over, pick up.", "Thêm lý do với \"because...\""],
+      "keywords": ["look up", "go over", "pick up", "because"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Có cần nói giọng Anh hay Mỹ?",
+      "contextVi": "Bạn Linh trong câu lạc bộ tiếng Anh cho rằng phải nói giống hệt người Anh hoặc người Mỹ thì mới là nói tốt. Em có suy nghĩ riêng.",
+      "aiRole": "Linh, a member of the school English club",
+      "studentRoleVi": "Thành viên câu lạc bộ tiếng Anh",
+      "goalVi": "Nêu ý kiến của em về giọng nói, đưa lý do và ví dụ, và lịch sự trả lời khi Linh không đồng ý.",
+      "goal": "Give your opinion about accents in English, with a reason and an example, and politely answer Linh's view.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do cho ý kiến của em", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["variety", "fluent", "standard", "second language", "official language"] }
+      ],
+      "opener": "I think my English is bad because I don't sound like an American. What do you think?",
+      "stance": "If you don't have a British or American accent, people won't take your English seriously.",
+      "turns": 5,
+      "fallback": [
+        "Really? Why do you think that?",
+        "But if you don't have a British or American accent, people won't take your English seriously.",
+        "Hmm. Can you give me an example?",
+        "OK, that makes me feel better. Thanks!"
+      ],
+      "tipsVi": ["Nghĩ đến các nước như Singapore, Ấn Độ: họ nói tiếng Anh rất trôi chảy với giọng riêng.", "Mở đầu phản biện bằng \"I see your point, but...\""],
+      "keywords": ["variety", "fluent", "clear", "I see your point", "because"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Dịch cả bài bằng ứng dụng?",
+      "contextVi": "Bạn Nam định dùng ứng dụng dịch cả bài luận tiếng Anh thay vì tự viết. Em muốn khuyên bạn.",
+      "aiRole": "Nam, a classmate who loves translation apps",
+      "studentRoleVi": "Bạn cùng lớp, khuyên Nam cách học",
+      "goalVi": "Khuyên Nam một cách học tốt hơn, giải thích lý do và trả lời khi Nam phản đối.",
+      "goal": "Advise Nam on a better way to do his essay, explain why, and answer his objection.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra lời khuyên", "words": [] },
+        { "kind": "reason", "vi": "Giải thích lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["translate", "look up", "vocabulary", "go over", "fluent"] }
+      ],
+      "opener": "I'm going to write my essay in Vietnamese and translate it with an app. Smart, right?",
+      "stance": "Apps are so good now that we don't need to learn vocabulary any more.",
+      "turns": 5,
+      "fallback": [
+        "Why not? It's much faster.",
+        "Apps are so good now that we don't need to learn vocabulary any more.",
+        "Hmm. So what should I do instead?",
+        "OK, I'll try writing it myself first."
+      ],
+      "tipsVi": ["Gợi ý: chỉ dùng ứng dụng để tra từ, không dịch cả bài.", "Nêu điều Nam sẽ mất khi không tự viết."],
+      "keywords": ["translate", "look up", "vocabulary", "should", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Lập câu lạc bộ tiếng Anh",
+      "contextVi": "Trường em muốn thành lập một câu lạc bộ tiếng Anh. Thầy phụ trách hỏi ý kiến em về hoạt động của câu lạc bộ.",
+      "aiRole": "Mr Hung, the teacher in charge of the new English club",
+      "studentRoleVi": "Học sinh góp ý cho câu lạc bộ",
+      "goalVi": "Đề xuất hoạt động cho câu lạc bộ, nêu lý do, và trả lời khi thầy có ý kiến khác.",
+      "goal": "Suggest activities for the new English club, give reasons, and respond to the teacher's different opinion.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất ít nhất một hoạt động", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["fluent", "vocabulary", "pick up", "establish", "exchange student", "bilingual"] }
+      ],
+      "opener": "We're going to establish an English club. What activities do you think students would enjoy?",
+      "stance": "I think the club should focus on grammar exercises, because grammar is the most important part of English.",
+      "turns": 5,
+      "fallback": [
+        "Interesting. Why do you think students would like that?",
+        "Well, I think the club should focus on grammar exercises, because grammar is the most important part. What do you think?",
+        "Fair enough. How often should the club meet?",
+        "Thank you for your ideas. I'll share them with the other teachers."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["fluent", "vocabulary", "speaking", "because"]
+    }
+  ]
+}

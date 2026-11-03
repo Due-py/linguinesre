@@ -1,0 +1,367 @@
+{
+  "grade": 11,
+  "unit": 1,
+  "title": "A Long and Healthy Life",
+  "titleVi": "Cuộc sống khỏe mạnh và trường thọ",
+  "edition": "Tiếng Anh 11 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 8–17; Glossary tr. 124",
+  "vocab": [
+    { "id": "v01", "en": "balanced", "vi": "cân đối, cân bằng", "ipa": "/ˈbælənst/", "ipaFrom": "glossary", "pos": "adj", "example": "A balanced diet has rice, meat, vegetables and fruit.", "collocations": ["balanced diet", "balanced meal"], "synonyms": [], "antonyms": ["unbalanced"], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v02", "en": "fitness", "vi": "sự khoẻ khoắn", "ipa": "/ˈfɪtnəs/", "ipaFrom": "glossary", "pos": "n", "example": "Swimming twice a week has improved my fitness.", "collocations": ["health and fitness", "improve your fitness"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v03", "en": "work out", "vi": "tập thể dục", "ipa": "/ˌwɜːk ˈaʊt/", "ipaFrom": "glossary", "pos": "phr v", "example": "My brother works out in the park every morning.", "collocations": ["work out regularly", "work out at the gym"], "synonyms": ["exercise"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v04", "en": "cut down on", "vi": "cắt giảm", "ipa": "/ˌkʌt ˈdaʊn ɒn/", "ipaFrom": "glossary", "pos": "phr v", "example": "I have cut down on fizzy drinks since last month.", "collocations": ["cut down on sugar", "cut down on fast food"], "synonyms": ["reduce"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v05", "en": "give up", "vi": "từ bỏ", "ipa": "/ˌɡɪv ˈʌp/", "ipaFrom": "glossary", "pos": "phr v", "example": "My uncle gave up smoking five years ago.", "collocations": ["give up bad habits", "give up smoking"], "synonyms": ["stop", "quit"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v06", "en": "life expectancy", "vi": "tuổi thọ", "ipa": "/ˈlaɪf ɪkspektənsi/", "ipaFrom": "glossary", "pos": "n", "example": "Life expectancy in many countries is higher than in the past.", "collocations": ["high life expectancy", "increase life expectancy"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v07", "en": "nutrient", "vi": "chất dinh dưỡng", "ipa": "/ˈnjuːtriənt/", "ipaFrom": "glossary", "pos": "n", "example": "Green vegetables are full of nutrients.", "collocations": ["full of nutrients", "important nutrients"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v08", "en": "muscle", "vi": "cơ bắp", "ipa": "/ˈmʌsl/", "ipaFrom": "glossary", "pos": "n", "example": "Press-ups make your arm muscles stronger.", "collocations": ["muscle strength", "build muscles"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v09", "en": "strength", "vi": "sức mạnh", "ipa": "/streŋθ/", "ipaFrom": "glossary", "pos": "n", "example": "Climbing stairs every day builds strength in your legs.", "collocations": ["build your strength", "muscle strength"], "synonyms": ["power"], "antonyms": ["weakness"], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v10", "en": "regular", "vi": "đều đặn, thường xuyên", "ipa": "/ˈreɡjələ/", "ipaFrom": "glossary", "pos": "adj", "example": "Regular exercise helps me sleep better.", "collocations": ["regular exercise", "regular check-ups"], "synonyms": [], "antonyms": ["irregular"], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v11", "en": "properly", "vi": "một cách điều độ, hợp lí", "ipa": "/ˈprɒpəli/", "ipaFrom": "glossary", "pos": "adv", "example": "You should warm up properly before you go running.", "collocations": ["eat properly", "warm up properly"], "synonyms": ["correctly"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v12", "en": "ingredient", "vi": "thành phần, nguyên liệu", "ipa": "/ɪnˈɡriːdiənt/", "ipaFrom": "glossary", "pos": "n", "example": "Fresh ingredients make a meal tasty and healthy.", "collocations": ["fresh ingredients", "healthy ingredients"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v13", "en": "treatment", "vi": "cách điều trị", "ipa": "/ˈtriːtmənt/", "ipaFrom": "glossary", "pos": "n", "example": "My grandmother is getting treatment for her bad knee.", "collocations": ["receive treatment", "medical treatment"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v14", "en": "suffer", "vi": "chịu đựng", "ipa": "/ˈsʌfə/", "ipaFrom": "glossary", "pos": "v", "example": "Many students suffer from stress before exams.", "collocations": ["suffer from stress", "suffer from a disease"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v15", "en": "examine", "vi": "kiểm tra, khám (sức khoẻ)", "ipa": "/ɪɡˈzæmɪn/", "ipaFrom": "glossary", "pos": "v", "example": "The doctor examined my eyes and said they were fine.", "collocations": ["examine a patient", "examine carefully"], "synonyms": ["check"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v16", "en": "disease", "vi": "bệnh", "ipa": "/dɪˈziːz/", "ipaFrom": "glossary", "pos": "n", "example": "Eating too much sugar can lead to heart disease.", "collocations": ["heart disease", "prevent disease"], "synonyms": ["illness"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v17", "en": "illness", "vi": "sự ốm đau", "ipa": "/ˈɪlnəs/", "ipaFrom": "glossary", "pos": "n", "example": "She missed a week of school because of a serious illness.", "collocations": ["serious illness", "recover from an illness"], "synonyms": ["disease"], "antonyms": ["health"], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v18", "en": "energy", "vi": "năng lượng", "ipa": "/ˈenədʒi/", "ipaFrom": "glossary", "pos": "n", "example": "A good breakfast gives me energy for my morning lessons.", "collocations": ["full of energy", "give you energy"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v19", "en": "recipe", "vi": "công thức nấu ăn", "ipa": "/ˈresəpi/", "ipaFrom": "glossary", "pos": "n", "example": "My mum found a healthy recipe for vegetable soup.", "collocations": ["a healthy recipe", "follow a recipe"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v20", "en": "bacteria", "vi": "vi khuẩn", "ipa": "/bækˈtɪəriə/", "ipaFrom": "glossary", "pos": "n", "example": "Wash your hands before meals to remove bacteria.", "collocations": ["harmful bacteria", "kill bacteria"], "synonyms": ["germs"], "antonyms": [], "src": { "kind": "sgk", "page": 124 } },
+    { "id": "v21", "en": "press-up", "vi": "động tác chống đẩy", "ipa": "/ˈpres ʌp/", "ipaFrom": "glossary", "pos": "n", "example": "I do twenty press-ups every morning before school.", "collocations": ["do press-ups"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 124 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Past simple vs. Present perfect",
+      "nameVi": "Quá khứ đơn và hiện tại hoàn thành",
+      "explainVi": "Quá khứ đơn (V-ed / cột 2) nói về việc đã xảy ra và kết thúc trong quá khứ, thường có mốc thời gian: yesterday, last week, two years ago, when I was little. Hiện tại hoàn thành (have/has + V3) nói về việc bắt đầu trong quá khứ và vẫn còn tiếp diễn, hoặc vừa mới xong, hoặc là trải nghiệm không nói rõ lúc nào (Have you ever...?).",
+      "formula": "Quá khứ đơn: S + V-ed/V2 (+ mốc thời gian)  ·  Hiện tại hoàn thành: S + have/has + V3",
+      "examples": [
+        "I joined the school football team last year.",
+        "I have played football for three years.",
+        "Have you ever tried yoga? – Yes, I tried it last summer."
+      ],
+      "wrong": [
+        { "sentence": "I have started swimming last month.", "fix": "I started swimming last month.", "whyVi": "Có mốc thời gian đã qua (last month) thì dùng quá khứ đơn, không dùng hiện tại hoàn thành." },
+        { "sentence": "My grandfather lives in this village since 1960.", "fix": "My grandfather has lived in this village since 1960.", "whyVi": "Việc bắt đầu từ 1960 và vẫn còn đến nay, có since: dùng hiện tại hoàn thành." }
+      ],
+      "drills": [
+        { "prompt": "I ___ fast food yesterday, but I felt bad afterwards.", "options": ["ate", "have eaten", "eat"], "answer": 0, "explainVi": "Có mốc thời gian đã kết thúc (yesterday): dùng quá khứ đơn ate." },
+        { "prompt": "She ___ healthy food since she started high school.", "options": ["has eaten", "ate", "eats"], "answer": 0, "explainVi": "Có since và việc vẫn còn tiếp diễn: dùng hiện tại hoàn thành has eaten." },
+        { "prompt": "Which sentence is correct?", "options": ["Did you ever try a star jump?", "Have you ever tried a star jump?", "Have you ever try a star jump?"], "answer": 1, "explainVi": "Hỏi về trải nghiệm, không nói lúc nào: Have you ever + V3 (tried)." },
+        { "prompt": "We ___ to the doctor two days ago.", "options": ["went", "have gone", "have went"], "answer": 0, "explainVi": "two days ago là mốc thời gian đã qua: dùng quá khứ đơn went." }
+      ],
+      "errorTag": "verb_tense",
+      "src": { "kind": "sgk", "page": 10 }
+    },
+    {
+      "id": "g02",
+      "name": "Present perfect with for, since, so far, just, recently",
+      "nameVi": "Hiện tại hoàn thành với for, since, so far, just, recently",
+      "explainVi": "Hiện tại hoàn thành hay đi với: for + khoảng thời gian (for two years), since + mốc bắt đầu (since 2020, since I was ten), so far (cho đến nay), just và recently (vừa mới). Just đứng giữa have/has và V3.",
+      "formula": "S + have/has + V3 + for + khoảng thời gian / since + mốc  ·  S + have/has + just + V3",
+      "examples": [
+        "I have cut down on sweets for two months.",
+        "My dad has worked out every day since January.",
+        "We have just finished our morning exercise."
+      ],
+      "wrong": [
+        { "sentence": "I have done yoga since three years.", "fix": "I have done yoga for three years.", "whyVi": "three years là khoảng thời gian nên dùng for; since đi với mốc bắt đầu." },
+        { "sentence": "She has finished just her run.", "fix": "She has just finished her run.", "whyVi": "just đứng giữa has và động từ V3." }
+      ],
+      "drills": [
+        { "prompt": "I have gone to bed early ___ last Monday.", "options": ["since", "for", "ago"], "answer": 0, "explainVi": "last Monday là mốc bắt đầu: dùng since." },
+        { "prompt": "My mum has walked in the park every evening ___ ten years.", "options": ["for", "since", "just"], "answer": 0, "explainVi": "ten years là khoảng thời gian: dùng for." },
+        { "prompt": "Which sentence is correct?", "options": ["We have just cooked a healthy dinner.", "We just have cooked a healthy dinner.", "We have cooked just a healthy dinner yesterday."], "answer": 0, "explainVi": "just đứng giữa have và V3: have just cooked." }
+      ],
+      "errorTag": "preposition",
+      "src": { "kind": "sgk", "page": 10 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sentence_stress",
+      "focus": "Dạng mạnh và dạng yếu của trợ động từ",
+      "tipVi": "Trợ động từ ở đầu câu hỏi Yes/No không được nhấn, đọc dạng yếu với âm /ə/: Do you /də/, Can I /kən/, Was it /wəz/. Ở cuối câu trả lời ngắn thì nhấn và đọc dạng mạnh: Yes, I do /duː/; Yes, I can /kæn/.",
+      "words": ["do", "does", "can", "could", "were", "has", "have", "was"],
+      "sentence": "Can you swim? – Yes, I can.",
+      "quiz": [
+        { "prompt": "In the question \"Can you help me?\", how is \"can\" usually pronounced?", "options": ["/kən/ (weak form)", "/kæn/ (strong form)"], "answer": 0, "explainVi": "Trợ động từ ở đầu câu hỏi Yes/No không được nhấn nên đọc dạng yếu /kən/." },
+        { "prompt": "In the short answer \"Yes, she does.\", how is \"does\" pronounced?", "options": ["/dəz/ (weak form)", "/dʌz/ (strong form)"], "answer": 1, "explainVi": "Ở cuối câu trả lời ngắn, trợ động từ được nhấn và đọc dạng mạnh /dʌz/." }
+      ],
+      "src": { "kind": "sgk", "page": 9 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "Âm tiết có dấu ˈ được đọc to và dài hơn. nutrient, muscle, treatment, recipe nhấn âm đầu; ingredient, examine, bacteria nhấn âm thứ hai.",
+      "words": ["nutrient", "muscle", "treatment", "recipe", "ingredient", "examine", "bacteria"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["nutrient", "ingredient", "examine"], "answer": 0, "explainVi": "nutrient /ˈnjuːtriənt/ nhấn âm đầu; ingredient /ɪnˈɡriːdiənt/ và examine /ɪɡˈzæmɪn/ nhấn âm thứ hai." },
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["muscle", "bacteria", "recipe"], "answer": 1, "explainVi": "bacteria /bækˈtɪəriə/ nhấn âm thứ hai; muscle và recipe nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p03",
+      "kind": "intonation",
+      "focus": "Lên giọng khi đề nghị giúp đỡ bằng câu hỏi Yes/No",
+      "tipVi": "Câu hỏi Yes/No để đề nghị giúp đỡ thường lên giọng ở cuối câu, nghe thân thiện và lịch sự: Can I give you a hand? ↗",
+      "words": ["Can I give you a hand?", "Can I help you with that?"],
+      "sentence": "Is there anything else I can do for you?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Can I give you a hand?", "vi": "Mình giúp bạn một tay nhé?", "useVi": "Khi thấy ai đó đang gặp khó và muốn đề nghị giúp.", "example": "That bag looks heavy. Can I give you a hand?", "src": { "kind": "sgk", "page": 15 } },
+    { "id": "e02", "en": "Can I help you with ...?", "vi": "Mình giúp bạn việc ... nhé?", "useVi": "Khi đề nghị giúp một việc cụ thể.", "example": "Can I help you with your exercise routine?", "src": { "kind": "sgk", "page": 15 } },
+    { "id": "e03", "en": "Let me help you with ...", "vi": "Để mình giúp bạn ...", "useVi": "Khi chủ động giúp ngay, không cần hỏi trước.", "example": "Let me help you with the shopping list.", "src": { "kind": "sgk", "page": 15 } },
+    { "id": "e04", "en": "Is there anything (else) I can do for you?", "vi": "Mình có thể giúp gì (thêm) cho bạn không?", "useVi": "Khi đã giúp xong và hỏi người kia còn cần gì nữa không.", "example": "Here is your water. Is there anything else I can do for you?", "src": { "kind": "sgk", "page": 15 } },
+    { "id": "e05", "en": "That's very kind/nice of you.", "vi": "Bạn thật tốt bụng.", "useVi": "Khi nhận lời giúp đỡ và muốn cảm ơn.", "example": "You want to carry my bag? That's very kind of you.", "src": { "kind": "sgk", "page": 15 } },
+    { "id": "e06", "en": "Thanks for your help.", "vi": "Cảm ơn bạn đã giúp.", "useVi": "Khi cảm ơn sau khi được giúp.", "example": "The treadmill works now. Thanks for your help.", "src": { "kind": "sgk", "page": 15 } },
+    { "id": "e07", "en": "Thanks, but I think I'm fine.", "vi": "Cảm ơn, nhưng mình nghĩ mình ổn.", "useVi": "Khi lịch sự từ chối lời đề nghị giúp đỡ.", "example": "Thanks, but I think I'm fine. I can do it myself.", "src": { "kind": "sgk", "page": 15 } },
+    { "id": "e08", "en": "I have ... since/for ...", "vi": "Mình đã ... từ/được ...", "useVi": "Khi kể một thói quen đã bắt đầu và vẫn còn đến giờ.", "example": "I have walked to school every day since September.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "It's good for your health because ...", "vi": "Việc đó tốt cho sức khỏe vì ...", "useVi": "Khi giải thích vì sao một thói quen có lợi.", "example": "Cycling is good for your health because it builds strength.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "If you want to ..., you should ...", "vi": "Nếu bạn muốn ..., bạn nên ...", "useVi": "Khi khuyên ai đó cách đạt được mục tiêu sức khỏe.", "example": "If you want to sleep better, you should stop using your phone at night.", "src": { "kind": "team", "page": null } },
+    { "id": "e11", "en": "I see what you mean, but ...", "vi": "Mình hiểu ý bạn, nhưng ...", "useVi": "Khi người khác có ý kiến khác và mình muốn lịch sự giữ ý mình.", "example": "I see what you mean, but young people need exercise too.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["I have", "played badminton", "since I was", "ten years old"], "vi": "Mình đã chơi cầu lông từ năm mười tuổi.", "grammarId": "g02" },
+    { "id": "b02", "chunks": ["Last summer", "I gave up", "fizzy drinks", "for a whole month"], "vi": "Hè năm ngoái, mình đã bỏ nước ngọt có ga suốt một tháng.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["My grandfather", "has worked out", "in the park", "every morning", "for twenty years"], "vi": "Ông mình đã tập thể dục trong công viên mỗi sáng suốt hai mươi năm.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["Have you ever", "cooked", "a healthy recipe", "at home?"], "vi": "Bạn đã bao giờ nấu một món ăn lành mạnh ở nhà chưa?", "grammarId": "g01" },
+    { "id": "b05", "chunks": ["A balanced diet", "gives your body", "the nutrients", "it needs"], "vi": "Chế độ ăn cân đối cung cấp cho cơ thể các chất dinh dưỡng nó cần.", "grammarId": null },
+    { "id": "b06", "chunks": ["I have just", "cut down on", "sweets and snacks"], "vi": "Mình vừa mới cắt giảm đồ ngọt và đồ ăn vặt.", "grammarId": "g02" },
+    { "id": "b07", "chunks": ["Yesterday", "the doctor", "examined me", "very carefully"], "vi": "Hôm qua bác sĩ đã khám cho mình rất kỹ.", "grammarId": "g01" },
+    { "id": "b08", "chunks": ["Regular exercise", "makes your muscles", "stronger and healthier"], "vi": "Tập thể dục đều đặn làm cơ bắp của bạn khỏe và chắc hơn.", "grammarId": null }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I work out.",
+      "steps": [
+        { "askVi": "Em tập ở đâu?", "ask": "Where?", "add": "in the school gym" },
+        { "askVi": "Bao lâu một lần?", "ask": "How often?", "add": "three times a week" },
+        { "askVi": "Vì sao em tập?", "ask": "Why?", "add": "because I want to build my strength" }
+      ],
+      "full": "I work out in the school gym three times a week because I want to build my strength."
+    },
+    {
+      "id": "x02",
+      "base": "I have cut down on sugar.",
+      "steps": [
+        { "askVi": "Từ khi nào?", "ask": "Since when?", "add": "since last month" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it is bad for my teeth" }
+      ],
+      "full": "I have cut down on sugar since last month because it is bad for my teeth."
+    },
+    {
+      "id": "x03",
+      "base": "My grandmother is healthy.",
+      "steps": [
+        { "askVi": "Bà bao nhiêu tuổi?", "ask": "How old is she?", "add": "at the age of 85" },
+        { "askVi": "Vì sao bà khỏe?", "ask": "Why?", "add": "because she walks every day" }
+      ],
+      "full": "My grandmother is healthy at the age of 85 because she walks every day."
+    },
+    {
+      "id": "x04",
+      "base": "I eat vegetables.",
+      "steps": [
+        { "askVi": "Loại rau gì?", "ask": "What kind?", "add": "green" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "at every meal" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because they are full of nutrients" }
+      ],
+      "full": "I eat green vegetables at every meal because they are full of nutrients."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Bữa sáng của em",
+      "questions": [
+        "What do you usually have for breakfast?",
+        "What does a healthy breakfast look like for you?",
+        "What did you eat for breakfast this morning?"
+      ],
+      "keywords": ["balanced", "nutrients", "energy"],
+      "exampleAnswer": "I usually have rice, eggs and some fruit, so I have a lot of energy for my morning lessons.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Một thói quen chưa tốt em đã cắt giảm hoặc bỏ",
+      "questions": [
+        "What unhealthy habit have you cut down on recently?",
+        "Is there a bad habit you have tried to give up?",
+        "Which unhealthy food have you stopped eating?"
+      ],
+      "keywords": ["cut down on", "give up", "since"],
+      "exampleAnswer": "I have cut down on fizzy drinks since last summer, and now I drink more water.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Giấc ngủ của em",
+      "questions": [
+        "How many hours do you usually sleep on school nights?",
+        "Do you get enough sleep during the school week?",
+        "What time did you go to bed last night?"
+      ],
+      "keywords": ["regular", "energy", "properly"],
+      "exampleAnswer": "I usually sleep about seven hours, but last night I went to bed late because I had a test.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Bí quyết sống lâu",
+      "questions": [
+        "Why do some people live longer than others?",
+        "What helps elderly people stay healthy?",
+        "In your opinion, what is the secret of a long life?"
+      ],
+      "keywords": ["life expectancy", "balanced", "regular", "disease"],
+      "exampleAnswer": "Some people live longer because they eat a balanced diet, exercise regularly and don't worry too much.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Vì sao đồ ăn nhanh không tốt",
+      "questions": [
+        "Why is fast food bad for teenagers?",
+        "What happens if you eat too much fast food?",
+        "Why should students avoid junk food?"
+      ],
+      "keywords": ["illness", "disease", "nutrients", "energy"],
+      "exampleAnswer": "Fast food has a lot of fat and sugar but few nutrients, so it can cause illnesses like heart disease.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Tập luyện đúng cách",
+      "questions": [
+        "Why is it important to exercise properly?",
+        "What can happen if you don't warm up before playing sport?",
+        "Why should you learn the right way to do an exercise?"
+      ],
+      "keywords": ["properly", "muscles", "warm up"],
+      "exampleAnswer": "If you don't exercise properly, you can hurt your muscles, so you should always warm up first.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What sport or physical activity have you done this month?", "keywords": ["work out", "fitness", "have"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should students have a PE lesson every day? Why or why not?", "keywords": ["regular", "fitness", "energy"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend eats instant noodles every night while studying. What do you say?", "keywords": ["balanced", "nutrients", "should"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What healthy meal has your family cooked recently?", "keywords": ["recipe", "ingredient", "have"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should teenagers go to bed before 11 p.m. on school nights? Why or why not?", "keywords": ["regular", "energy", "properly"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your cousin sits at the computer all weekend and never exercises. What do you say?", "keywords": ["work out", "muscles", "should"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Giúp bạn lập lịch tập thể dục",
+      "contextVi": "Bạn cùng lớp của em muốn khỏe hơn nhưng không biết bắt đầu từ đâu. Bạn nhờ em gợi ý một lịch tập đơn giản.",
+      "aiRole": "Lan, a classmate who wants to get fitter",
+      "studentRoleVi": "Bạn cùng lớp, người gợi ý cách tập luyện",
+      "goalVi": "Gợi ý một hoạt động thể dục cho Lan, nói tập bao lâu một lần và nêu ít nhất một lý do.",
+      "goal": "Suggest an exercise routine for Lan: one activity, how often to do it, and at least one reason.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra gợi ý (you should..., why don't you...)", "words": [] },
+        { "kind": "reason", "vi": "Nêu ít nhất một lý do (because...)", "words": [] }
+      ],
+      "opener": "Hi! I really want to get fitter, but I don't know where to start. Can you help me?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "That sounds good. Why do you think it will help me?",
+        "How often should I do it, and for how long?",
+        "Great, thanks! What should I eat to have more energy?"
+      ],
+      "tipsVi": ["Bắt đầu bằng \"You should...\" hoặc \"Why don't you...?\"", "Nói tần suất: three times a week, every morning."],
+      "keywords": ["work out", "regular", "strength", "because", "should"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Thuyết phục bạn sống lành mạnh",
+      "contextVi": "Bạn cùng lớp của em ăn đồ chiên rán và uống nước ngọt mỗi ngày, lại ít vận động. Bạn nghĩ mình còn trẻ nên chưa cần lo về sức khỏe.",
+      "aiRole": "Minh, a classmate who loves fast food and hates exercise",
+      "studentRoleVi": "Bạn cùng lớp muốn thuyết phục Minh thay đổi thói quen",
+      "goalVi": "Thuyết phục Minh thay đổi một thói quen: nêu lý do, đưa ví dụ, và trả lời khi Minh phản đối.",
+      "goal": "Persuade Minh to change one unhealthy habit: give reasons, give an example, and answer his objection politely.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do nên thay đổi (because...)", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["balanced", "cut down on", "give up", "disease", "energy"] }
+      ],
+      "opener": "Want some fried chicken and a cola? I have them for lunch every day. They're delicious!",
+      "stance": "I'm young, so I don't need to worry about my health now. I can eat healthy food when I'm older.",
+      "turns": 5,
+      "fallback": [
+        "Really? Why do you think it's a problem?",
+        "But I'm young! I don't need to worry about my health now. I can change when I'm older.",
+        "Hmm, maybe. What is one easy thing I could change?",
+        "OK, I'll try that next week. Thanks for the advice."
+      ],
+      "tipsVi": ["Khi Minh phản đối, mở đầu bằng \"I see what you mean, but...\"", "Đưa ví dụ về việc dễ làm: thay nước ngọt bằng nước lọc."],
+      "keywords": ["cut down on", "balanced diet", "energy", "because", "I see what you mean"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Đề xuất thực đơn lành mạnh cho căng tin",
+      "contextVi": "Em đại diện lớp gặp cô quản lý căng tin để đề xuất thêm món ăn lành mạnh vào thực đơn của trường.",
+      "aiRole": "Ms Thu, the manager of the school canteen",
+      "studentRoleVi": "Học sinh đại diện lớp, đề xuất thực đơn lành mạnh",
+      "goalVi": "Đề xuất ít nhất một món lành mạnh, giải thích lý do và trả lời băn khoăn của cô.",
+      "goal": "Suggest adding healthy food to the canteen menu, explain why, and answer the manager's concern.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra đề xuất cụ thể", "words": [] },
+        { "kind": "reason", "vi": "Giải thích lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["nutrients", "balanced", "ingredient", "energy", "fitness"] }
+      ],
+      "opener": "Hello. Your teacher said you have an idea about our canteen menu. What would you like to suggest?",
+      "stance": "Students only buy fried food and sweet drinks. If we sell healthy food, nobody will buy it.",
+      "turns": 5,
+      "fallback": [
+        "I see. Why do you think students need this?",
+        "But students only buy fried food and sweet drinks. If we sell healthy food, nobody will buy it.",
+        "That's an interesting answer. How can we make healthy food more popular?",
+        "Thank you. I'll try it for one month and see what happens."
+      ],
+      "tipsVi": ["Nói lịch sự với người lớn: \"Could we...?\", \"I think it would be good to...\"", "Khi cô lo không ai mua, gợi ý cách làm món ăn ngon và rẻ."],
+      "keywords": ["balanced", "nutrients", "fresh ingredients", "because", "could we"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Khuyên bạn đừng bỏ bữa",
+      "contextVi": "Bạn thân của em muốn giảm cân thật nhanh nên định bỏ bữa sáng và bữa tối. Em nói chuyện với bạn về cách sống khỏe đúng cách.",
+      "aiRole": "Vy, a close friend who wants to lose weight quickly",
+      "studentRoleVi": "Bạn thân, người khuyên Vy",
+      "goalVi": "Khuyên Vy cách sống khỏe đúng cách, nêu lý do, và trả lời khi Vy giữ ý kiến của mình.",
+      "goal": "Advise Vy about a healthy way to get fit, give a reason, and respond to her different opinion.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra lời khuyên", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["balanced", "energy", "nutrients", "properly", "regular", "illness"] }
+      ],
+      "opener": "I've decided to stop eating breakfast and dinner. I want to lose weight fast before the summer. What do you think?",
+      "stance": "Skipping meals is the fastest way to get fit. Exercise takes too long.",
+      "turns": 5,
+      "fallback": [
+        "Why not? Lots of people do it.",
+        "But skipping meals is the fastest way. Exercise takes too long, I think.",
+        "Hmm. So what should I do instead?",
+        "OK, maybe you're right. I'll think about it."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["balanced diet", "energy", "nutrients", "because", "should"]
+    }
+  ]
+}

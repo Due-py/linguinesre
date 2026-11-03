@@ -1,0 +1,363 @@
+{
+  "grade": 6,
+  "unit": 1,
+  "title": "My New School",
+  "titleVi": "Trường mới của em",
+  "edition": "Tiếng Anh 6 Global Success, sách học sinh tập một (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 6–15; Glossary tr. 70",
+  "vocab": [
+    { "id": "v01", "en": "classmate", "vi": "bạn cùng lớp", "ipa": "/ˈklɑːsmeɪt/", "ipaFrom": "glossary", "pos": "n", "example": "My classmate Lan sits next to me in every lesson.", "collocations": ["new classmates", "help a classmate"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v02", "en": "favourite", "vi": "được yêu thích", "ipa": "/ˈfeɪvərɪt/", "ipaFrom": "glossary", "pos": "adj", "example": "English is my favourite subject this year.", "collocations": ["favourite subject", "favourite teacher"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v03", "en": "activity", "vi": "hoạt động", "ipa": "/ækˈtɪvəti/", "ipaFrom": "glossary", "pos": "n", "example": "Our school has many fun activities after class.", "collocations": ["school activities", "outdoor activities"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v04", "en": "art", "vi": "nghệ thuật", "ipa": "/ɑːt/", "ipaFrom": "glossary", "pos": "n", "example": "We draw and paint in our art lessons.", "collocations": ["art lesson", "art club"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v05", "en": "boarding school", "vi": "trường nội trú", "ipa": "/ˈbɔːdɪŋ skuːl/", "ipaFrom": "glossary", "pos": "n", "example": "Students at a boarding school live and study there.", "collocations": ["go to a boarding school"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v06", "en": "calculator", "vi": "máy tính", "ipa": "/ˈkælkjuleɪtə/", "ipaFrom": "glossary", "pos": "n", "example": "I use a calculator to check my maths homework.", "collocations": ["use a calculator", "borrow a calculator"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v07", "en": "compass", "vi": "com-pa", "ipa": "/ˈkʌmpəs/", "ipaFrom": "glossary", "pos": "n", "example": "I need a compass to draw a circle.", "collocations": ["a new compass", "draw with a compass"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v08", "en": "smart", "vi": "bảnh bao, gọn gàng", "ipa": "/smɑːt/", "ipaFrom": "glossary", "pos": "adj", "example": "We look smart in our new school uniforms.", "collocations": ["look smart"], "synonyms": ["neat"], "antonyms": ["untidy"], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v09", "en": "share", "vi": "chia sẻ", "ipa": "/ʃeə/", "ipaFrom": "glossary", "pos": "v", "example": "I often share my coloured pencils with my friend.", "collocations": ["share things", "share with classmates"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v10", "en": "help", "vi": "sự giúp đỡ, giúp đỡ", "ipa": "/help/", "ipaFrom": "glossary", "pos": "n, v", "example": "My friends always help me with my English.", "collocations": ["help with homework", "ask for help"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v11", "en": "international", "vi": "quốc tế", "ipa": "/ˌɪntəˈnæʃnəl/", "ipaFrom": "glossary", "pos": "adj", "example": "Students from many countries study at an international school.", "collocations": ["international school"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v12", "en": "interview", "vi": "cuộc phỏng vấn, phỏng vấn", "ipa": "/ˈɪntəvjuː/", "ipaFrom": "glossary", "pos": "n, v", "example": "Our teacher interviews new students for the school newsletter.", "collocations": ["interview a friend", "have an interview"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v13", "en": "knock", "vi": "gõ (cửa)", "ipa": "/nɒk/", "ipaFrom": "glossary", "pos": "v", "example": "Please knock on the door before you come in.", "collocations": ["knock on the door"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v14", "en": "remember", "vi": "nhớ, ghi nhớ", "ipa": "/rɪˈmembə/", "ipaFrom": "glossary", "pos": "v", "example": "I remember all my new classmates' names.", "collocations": ["remember names", "remember to bring"], "synonyms": [], "antonyms": ["forget"], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v15", "en": "swimming pool", "vi": "bể bơi", "ipa": "/ˈswɪmɪŋ puːl/", "ipaFrom": "glossary", "pos": "n", "example": "Our school has a small swimming pool.", "collocations": ["go to the swimming pool"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v16", "en": "homework", "vi": "bài tập về nhà", "ipa": "/ˈhəʊmwɜːk/", "ipaFrom": "dictionary", "pos": "n", "example": "I always do my homework before dinner.", "collocations": ["do homework", "maths homework"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 8 } },
+    { "id": "v17", "en": "science", "vi": "môn khoa học", "ipa": "/ˈsaɪəns/", "ipaFrom": "dictionary", "pos": "n", "example": "We study science on Tuesdays and Fridays.", "collocations": ["study science", "science lesson"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 8 } },
+    { "id": "v18", "en": "exercise", "vi": "bài tập thể dục, sự tập luyện", "ipa": "/ˈeksəsaɪz/", "ipaFrom": "dictionary", "pos": "n", "example": "We do exercise in the schoolyard every morning.", "collocations": ["do exercise", "morning exercise"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 8 } },
+    { "id": "v19", "en": "history", "vi": "môn lịch sử", "ipa": "/ˈhɪstri/", "ipaFrom": "dictionary", "pos": "n", "example": "I like history because I learn about the past.", "collocations": ["history lesson", "study history"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 8 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "The present simple",
+      "nameVi": "Thì hiện tại đơn",
+      "explainVi": "Dùng thì hiện tại đơn để nói về việc thường xảy ra, thói quen, hoặc điều cố định (lịch học, giờ vào lớp). Với he, she, it hoặc một người/vật số ít, động từ thêm -s/-es. Câu phủ định và câu hỏi dùng do/does; sau do/does/doesn't, động từ ở dạng nguyên mẫu.",
+      "formula": "I/you/we/they + V  ·  he/she/it + V-s/es  ·  S + don't/doesn't + V  ·  Do/Does + S + V?",
+      "examples": [
+        "We study English four times a week.",
+        "My brother rides his bike to school.",
+        "Does your school have a library?"
+      ],
+      "wrong": [
+        { "sentence": "She go to school at half past six.", "fix": "She goes to school at half past six.", "whyVi": "Chủ ngữ là she nên động từ thêm -es: goes." },
+        { "sentence": "He doesn't likes maths.", "fix": "He doesn't like maths.", "whyVi": "Sau doesn't, động từ ở dạng nguyên mẫu, không thêm -s." },
+        { "sentence": "Do she have lunch at school?", "fix": "Does she have lunch at school?", "whyVi": "Câu hỏi với she dùng Does, không dùng Do." }
+      ],
+      "drills": [
+        { "prompt": "My sister ___ to school by bike every day.", "options": ["rides", "ride", "riding"], "answer": 0, "explainVi": "Chủ ngữ my sister là số ít nên động từ thêm -s: rides." },
+        { "prompt": "___ your friends have lunch at school?", "options": ["Do", "Does", "Are"], "answer": 0, "explainVi": "your friends là số nhiều, câu hỏi hiện tại đơn dùng Do." },
+        { "prompt": "Lan ___ like football very much.", "options": ["doesn't", "don't", "isn't"], "answer": 0, "explainVi": "Lan là số ít, phủ định dùng doesn't + động từ nguyên mẫu." },
+        { "prompt": "Which sentence is correct?", "options": ["He study English on Mondays.", "He studies English on Mondays.", "He studying English on Mondays."], "answer": 1, "explainVi": "Chủ ngữ he: study đổi y thành i và thêm -es: studies." }
+      ],
+      "errorTag": "third_person_s",
+      "src": { "kind": "sgk", "page": 9 }
+    },
+    {
+      "id": "g02",
+      "name": "Adverbs of frequency",
+      "nameVi": "Trạng từ chỉ tần suất",
+      "explainVi": "Trạng từ chỉ tần suất cho biết việc xảy ra thường xuyên đến mức nào: always (luôn luôn), usually (thường), often (hay), sometimes (thỉnh thoảng), rarely (hiếm khi), never (không bao giờ). Thường dùng với thì hiện tại đơn và đứng TRƯỚC động từ chính. Với động từ be (am/is/are), trạng từ đứng SAU be.",
+      "formula": "S + always/usually/often/sometimes/rarely/never + V  ·  S + am/is/are + trạng từ",
+      "examples": [
+        "I usually walk to school with my brother.",
+        "We sometimes play chess at break time.",
+        "My teacher is never late."
+      ],
+      "wrong": [
+        { "sentence": "I go usually to school by bus.", "fix": "I usually go to school by bus.", "whyVi": "Trạng từ tần suất đứng trước động từ chính go." },
+        { "sentence": "She always is happy at school.", "fix": "She is always happy at school.", "whyVi": "Với động từ be, trạng từ tần suất đứng sau is." }
+      ],
+      "drills": [
+        { "prompt": "Nam goes swimming every day. He ___ goes swimming.", "options": ["always", "rarely", "never"], "answer": 0, "explainVi": "Việc làm mỗi ngày: always (luôn luôn)." },
+        { "prompt": "I don't like fish, so I ___ eat it.", "options": ["never", "always", "usually"], "answer": 0, "explainVi": "Không thích nên không bao giờ ăn: never." },
+        { "prompt": "Which question is correct?", "options": ["Do you often read in the library?", "Often do you read in the library?", "Do often you read in the library?"], "answer": 0, "explainVi": "Trong câu hỏi, trạng từ tần suất đứng sau chủ ngữ, trước động từ chính: Do you often read...?" },
+        { "prompt": "Which sentence is correct?", "options": ["My friends are usually kind to me.", "My friends usually are kind to me.", "Usually my friends kind are to me."], "answer": 0, "explainVi": "Với động từ be (are), trạng từ đứng sau be: are usually." }
+      ],
+      "errorTag": "word_order",
+      "src": { "kind": "sgk", "page": 10 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Âm /ɑː/",
+      "tipVi": "Mở miệng rộng, lưỡi hạ thấp, đọc âm \"a\" dài và sâu trong cổ họng. Chữ \"ar\" trong smart, art thường đọc là /ɑː/; không đọc rõ âm r như tiếng Mỹ.",
+      "words": ["smart", "art", "carton", "class"],
+      "sentence": "Our art class starts at nine.",
+      "quiz": [
+        { "prompt": "Which word has the sound /ɑː/?", "options": ["class", "lunch", "cat"], "answer": 0, "explainVi": "class đọc là /klɑːs/; lunch có /ʌ/, cat có /æ/." }
+      ],
+      "src": { "kind": "sgk", "page": 8 }
+    },
+    {
+      "id": "p02",
+      "kind": "sound",
+      "focus": "Âm /ʌ/",
+      "tipVi": "Âm /ʌ/ ngắn, giống \"ă\" trong tiếng Việt, miệng mở vừa. Chữ \"u\" trong study, subject và chữ \"o\" trong Monday, compass đều đọc là /ʌ/.",
+      "words": ["subject", "study", "Monday", "compass"],
+      "sentence": "My brother has a new compass on Monday.",
+      "quiz": [
+        { "prompt": "Which word has the sound /ʌ/?", "options": ["Monday", "morning", "map"], "answer": 0, "explainVi": "Monday đọc là /ˈmʌndeɪ/; morning có /ɔː/, map có /æ/." },
+        { "prompt": "Which word does NOT have the sound /ʌ/?", "options": ["study", "smart", "subject"], "answer": 1, "explainVi": "smart có âm /ɑː/: /smɑːt/." }
+      ],
+      "src": { "kind": "sgk", "page": 8 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "Âm tiết có dấu ˈ trong phiên âm được đọc to và dài hơn. classmate, favourite, calculator, homework nhấn âm đầu; activity, remember nhấn âm thứ hai.",
+      "words": ["classmate", "favourite", "calculator", "homework", "activity", "remember"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["activity", "classmate", "favourite"], "answer": 0, "explainVi": "activity /ækˈtɪvəti/ nhấn âm thứ hai; hai từ kia nhấn âm đầu." },
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["remember", "calculator", "activity"], "answer": 1, "explainVi": "calculator /ˈkælkjuleɪtə/ nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Lên giọng ở cuối câu hỏi Yes/No",
+      "tipVi": "Câu hỏi bắt đầu bằng Do/Does/Are thường lên giọng ở cuối câu. Câu hỏi có What/Where/When thường xuống giọng ở cuối.",
+      "words": ["Do you like art?", "Are you from around here?"],
+      "sentence": "Do you often walk to school with your friends?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "This is ..., my new friend.", "vi": "Đây là ..., bạn mới của mình.", "useVi": "Khi giới thiệu một người bạn với người khác.", "example": "Mai, this is Hung, my new friend.", "src": { "kind": "sgk", "page": 11 } },
+    { "id": "e02", "en": "Nice to meet you.", "vi": "Rất vui được gặp bạn.", "useVi": "Khi gặp ai đó lần đầu sau khi được giới thiệu.", "example": "Hi, Hung. Nice to meet you.", "src": { "kind": "sgk", "page": 11 } },
+    { "id": "e03", "en": "Nice to meet you, too.", "vi": "Mình cũng rất vui được gặp bạn.", "useVi": "Khi đáp lại người vừa nói \"Nice to meet you\".", "example": "Hi, Mai. Nice to meet you, too.", "src": { "kind": "sgk", "page": 11 } },
+    { "id": "e04", "en": "Are you from around here?", "vi": "Bạn sống ở gần đây à?", "useVi": "Khi muốn bắt chuyện với một bạn mới ở trường.", "example": "Are you from around here? I live near the school.", "src": { "kind": "sgk", "page": 11 } },
+    { "id": "e05", "en": "My favourite subject is ... because ...", "vi": "Môn học yêu thích của mình là ... vì ...", "useVi": "Khi nói về môn học mình thích và lý do.", "example": "My favourite subject is science because I love doing experiments.", "src": { "kind": "team", "page": null } },
+    { "id": "e06", "en": "I usually ... / I sometimes ...", "vi": "Mình thường ... / Thỉnh thoảng mình ...", "useVi": "Khi kể về thói quen ở trường hoặc ở nhà.", "example": "I usually play chess at break time, and I sometimes read in the library.", "src": { "kind": "team", "page": null } },
+    { "id": "e07", "en": "What about you?", "vi": "Còn bạn thì sao?", "useVi": "Khi đã trả lời xong và muốn hỏi lại người kia để cuộc nói chuyện tiếp tục.", "example": "I walk to school every day. What about you?", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "Why don't you join ...?", "vi": "Sao bạn không tham gia ...?", "useVi": "Khi rủ hoặc gợi ý bạn tham gia một câu lạc bộ, hoạt động.", "example": "Why don't you join the art club with me?", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["My best friend", "usually rides", "his bike", "to school"], "vi": "Bạn thân của mình thường đạp xe đến trường.", "grammarId": "g02" },
+    { "id": "b02", "chunks": ["We study", "English and maths", "on Mondays"], "vi": "Chúng mình học tiếng Anh và toán vào các ngày thứ Hai.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["I never forget", "my calculator", "in maths lessons"], "vi": "Mình không bao giờ quên máy tính trong giờ toán.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["Does your school", "have", "a swimming pool?"], "vi": "Trường bạn có bể bơi không?", "grammarId": "g01" },
+    { "id": "b05", "chunks": ["She doesn't", "have lunch", "at school", "on Fridays"], "vi": "Bạn ấy không ăn trưa ở trường vào các ngày thứ Sáu.", "grammarId": "g01" },
+    { "id": "b06", "chunks": ["I like art", "because I can", "draw and paint", "with my friends"], "vi": "Mình thích môn mĩ thuật vì mình được vẽ và tô màu cùng các bạn.", "grammarId": null },
+    { "id": "b07", "chunks": ["We sometimes", "do exercise", "in the schoolyard", "after class"], "vi": "Chúng mình thỉnh thoảng tập thể dục ở sân trường sau giờ học.", "grammarId": "g02" },
+    { "id": "b08", "chunks": ["My classmates", "often share", "their books", "with me"], "vi": "Các bạn cùng lớp hay cho mình dùng chung sách của họ.", "grammarId": "g02" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I go to school.",
+      "steps": [
+        { "askVi": "Em đi bằng gì?", "ask": "How?", "add": "by bike" },
+        { "askVi": "Đi cùng ai?", "ask": "Who with?", "add": "with my best friend" },
+        { "askVi": "Thường xuyên thế nào?", "ask": "How often?", "add": "every day" }
+      ],
+      "full": "I go to school by bike with my best friend every day."
+    },
+    {
+      "id": "x02",
+      "base": "I like science.",
+      "steps": [
+        { "askVi": "Em thích đến mức nào?", "ask": "How much?", "add": "very much" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because I love doing experiments" }
+      ],
+      "full": "I like science very much because I love doing experiments."
+    },
+    {
+      "id": "x03",
+      "base": "We play football.",
+      "steps": [
+        { "askVi": "Thường xuyên thế nào?", "ask": "How often?", "add": "often" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in the schoolyard" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "at break time" }
+      ],
+      "full": "We often play football in the schoolyard at break time."
+    },
+    {
+      "id": "x04",
+      "base": "I do my homework.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in my bedroom" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "before dinner" }
+      ],
+      "full": "I do my homework in my bedroom before dinner."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Môn học em thích nhất và lý do",
+      "questions": [
+        "Which lesson do you enjoy most at school? Why?",
+        "What subject do you look forward to every week, and why?",
+        "Which subject do you think is the most interesting? Why?"
+      ],
+      "keywords": ["favourite", "subject", "because", "interesting"],
+      "exampleAnswer": "I enjoy science most because we do fun experiments and learn how things work.",
+      "expectsReason": true
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Buổi sáng trước khi đến trường",
+      "questions": [
+        "What do you usually do before school?",
+        "What is your morning like on a school day?",
+        "How do you get ready for school every morning?"
+      ],
+      "keywords": ["usually", "get up", "have breakfast", "walk"],
+      "exampleAnswer": "I usually get up at six, have breakfast with my family and then walk to school.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Đồ dùng em mang đến trường",
+      "questions": [
+        "What do you usually bring to school?",
+        "What is in your school bag today?",
+        "Which school things do you use every day?"
+      ],
+      "keywords": ["calculator", "compass", "notebook", "pencil case"],
+      "exampleAnswer": "I bring my notebooks, a pencil case and a calculator. I need a compass on Wednesdays.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Những việc em làm cùng bạn cùng lớp",
+      "questions": [
+        "What do you and your classmates often do together?",
+        "How do you and your classmates help each other?",
+        "What activities do you share with your classmates?"
+      ],
+      "keywords": ["classmate", "share", "help", "together"],
+      "exampleAnswer": "We often study together in the library, and we help each other with our homework.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Điều em thích nhất ở trường mới",
+      "questions": [
+        "What do you like most about your new school? Why?",
+        "What is the best thing about your school, and why?",
+        "Why do you enjoy going to your new school?"
+      ],
+      "keywords": ["teachers", "friendly", "activity", "because"],
+      "exampleAnswer": "I like the teachers most because they are friendly and their lessons are interesting.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "How often do you go to the school library, and what do you do there?", "keywords": ["often", "library", "read", "usually"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should every school have a big library? Why or why not?", "keywords": ["should", "books", "because", "students"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend forgot his calculator before a maths test. What do you say to him?", "keywords": ["calculator", "share", "borrow", "help"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "How often do you play sports at school, and which sports do you play?", "keywords": ["often", "play", "football", "sometimes"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should every school have a swimming pool? Why or why not?", "keywords": ["swimming pool", "should", "because", "students"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "A new classmate doesn't know where the art room is. What do you say to her?", "keywords": ["art", "show", "come with me", "classmate"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Phỏng vấn cho bản tin trường",
+      "contextVi": "Cô giáo phụ trách bản tin trường đang phỏng vấn học sinh lớp 6 về trường mới. Em trả lời các câu hỏi về một ngày ở trường của em.",
+      "aiRole": "Miss Lan, a teacher who writes the school newsletter",
+      "studentRoleVi": "Học sinh lớp 6 được phỏng vấn",
+      "goalVi": "Kể về một ngày ở trường: môn học, hoạt động em thường làm, và nêu ít nhất một lý do em thích trường.",
+      "goal": "Tell the teacher about your school day: subjects, activities you usually do, and at least one reason you like your school.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ chỉ tần suất", "words": ["always", "usually", "often", "sometimes", "never"] },
+        { "kind": "reason", "vi": "Nêu ít nhất một lý do (because...)", "words": [] }
+      ],
+      "opener": "Hello! Thanks for talking to me. Can you tell me about a normal day at your new school?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "That sounds nice. What is your favourite subject, and why?",
+        "Interesting! What do you usually do at break time?",
+        "Great. Is there anything you want to change at your school?"
+      ],
+      "tipsVi": ["Dùng thì hiện tại đơn: I usually..., We often...", "Thêm lý do với \"because\"."],
+      "keywords": ["usually", "favourite subject", "break time", "because"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Rủ bạn tham gia câu lạc bộ",
+      "contextVi": "Trường em có nhiều câu lạc bộ sau giờ học. Em muốn rủ một bạn cùng lớp tham gia câu lạc bộ em thích, nhưng bạn ấy nghĩ câu lạc bộ mất thời gian.",
+      "aiRole": "Minh, a classmate who prefers to go home after school",
+      "studentRoleVi": "Bạn cùng lớp muốn rủ Minh tham gia câu lạc bộ",
+      "goalVi": "Giới thiệu câu lạc bộ, nêu lý do nên tham gia, và trả lời khi Minh không đồng ý.",
+      "goal": "Invite Minh to join a school club: say what the club does, give reasons, and answer his objection politely.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra lời rủ (Why don't you...?, Let's...)", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do nên tham gia", "words": [] },
+        { "kind": "example", "vi": "Đưa ví dụ về hoạt động của câu lạc bộ", "words": [] }
+      ],
+      "opener": "Hi! What are you doing after school today? I usually just go home.",
+      "stance": "After-school clubs take too much time. I'd rather go home and play games.",
+      "turns": 5,
+      "fallback": [
+        "A club? What do you do there?",
+        "Hmm, but clubs take too much time. I'd rather go home and play games.",
+        "OK, that sounds more fun than I thought. When does it meet?",
+        "Fine, I'll come with you next time."
+      ],
+      "tipsVi": ["Khi Minh phản đối, nói \"I understand, but...\"", "Kể một hoạt động cụ thể của câu lạc bộ."],
+      "keywords": ["club", "activity", "why don't you", "because", "every week"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "So sánh trường với anh họ",
+      "contextVi": "Anh họ của em học ở một trường nội trú. Hai người nói chuyện về trường của mình, và anh ấy cho rằng trường nội trú tốt hơn.",
+      "aiRole": "Khoa, your cousin who studies at a boarding school",
+      "studentRoleVi": "Học sinh kể về trường của mình",
+      "goalVi": "Kể về trường của em, nêu điều em thích, và giải thích ý mình khi anh họ nghĩ khác.",
+      "goal": "Describe your school, say what you like about it, and explain your view when your cousin disagrees.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do em thích trường mình", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["classmate", "activity", "favourite", "share", "boarding school"] }
+      ],
+      "opener": "Hey! How is your new school? Mine is a boarding school, and I really like it.",
+      "stance": "A boarding school is better because students study and live with their friends all day.",
+      "turns": 5,
+      "fallback": [
+        "Cool. What do you like about your school?",
+        "Well, I think a boarding school is better. We study and live with our friends all day.",
+        "That's true. Do you see your family every day?",
+        "OK, both schools have good things then."
+      ],
+      "tipsVi": ["Khi anh họ nghĩ khác, nói \"That's true, but...\"", "Nêu điều tốt của việc về nhà mỗi ngày."],
+      "keywords": ["classmates", "family", "activities", "because", "I like"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Đón bạn mới từ nước ngoài",
+      "contextVi": "Một bạn học sinh từ nước ngoài vừa chuyển đến lớp em. Em giới thiệu trường, giờ học và các hoạt động cho bạn.",
+      "aiRole": "Sam, a new student from Australia in your class",
+      "studentRoleVi": "Học sinh trong lớp, giúp bạn mới làm quen với trường",
+      "goalVi": "Giới thiệu trường và một ngày học, đưa lời khuyên, và trả lời khi Sam có ý kiến khác về đồng phục.",
+      "goal": "Help Sam learn about your school day, give one piece of advice, and respond when Sam has a different opinion about uniforms.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra một lời khuyên hoặc gợi ý", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["smart", "uniform", "usually", "activity", "classmate"] }
+      ],
+      "opener": "Hi, I'm Sam. Nice to meet you! It's my first day here. What do students usually do here every day?",
+      "stance": "I think school uniforms are boring. Why do students here wear them?",
+      "turns": 5,
+      "fallback": [
+        "Thanks! What should I bring tomorrow?",
+        "By the way, I think school uniforms are boring. Why do students here wear them?",
+        "Hmm, I see. What can I do at break time?",
+        "Great, thanks for your help!"
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["usually", "uniform", "smart", "break time", "because"]
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "grade": 9,
+  "unit": 12,
+  "title": "Career Choices",
+  "titleVi": "Lựa chọn nghề nghiệp",
+  "edition": "Tiếng Anh 9 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 124–133; Glossary tr. 139",
+  "vocab": [
+    { "id": "v01", "en": "career", "vi": "sự nghiệp", "ipa": "/kəˈrɪə/", "ipaFrom": "glossary", "pos": "n", "example": "She wants a career in medicine.", "collocations": ["a successful career", "career choice"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v02", "en": "vocational", "vi": "thuộc về nghề nghiệp, hướng nghiệp", "ipa": "/vəʊˈkeɪʃənl/", "ipaFrom": "glossary", "pos": "adj", "example": "My cousin went to a vocational school to become a mechanic.", "collocations": ["vocational school", "vocational training"], "synonyms": [], "antonyms": ["academic"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v03", "en": "orientation", "vi": "sự định hướng", "ipa": "/ˌɔːriənˈteɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "We had a career orientation session at school yesterday.", "collocations": ["career orientation"], "synonyms": ["guidance"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v04", "en": "demanding", "vi": "(yêu cầu) khắt khe, phức tạp", "ipa": "/dɪˈmɑːndɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "Being a doctor is a demanding job.", "collocations": ["a demanding job"], "synonyms": ["difficult"], "antonyms": ["easy"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v05", "en": "rewarding", "vi": "bổ ích, xứng đáng", "ipa": "/rɪˈwɔːdɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "Teaching children is a rewarding job.", "collocations": ["a rewarding job", "a rewarding experience"], "synonyms": ["satisfying"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v06", "en": "repetitive", "vi": "lặp đi lặp lại", "ipa": "/rɪˈpetətɪv/", "ipaFrom": "glossary", "pos": "adj", "example": "Some factory jobs are repetitive.", "collocations": ["repetitive tasks", "repetitive work"], "synonyms": [], "antonyms": ["varied"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v07", "en": "well-paid", "vi": "được trả lương cao", "ipa": "/ˌwel ˈpeɪd/", "ipaFrom": "glossary", "pos": "adj", "example": "Software engineers usually have well-paid jobs.", "collocations": ["a well-paid job"], "synonyms": [], "antonyms": ["badly paid"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v08", "en": "hands-on", "vi": "có tính thực tiễn, thực hành", "ipa": "/ˌhændz ˈɒn/", "ipaFrom": "glossary", "pos": "adj", "example": "Vocational courses give students hands-on training.", "collocations": ["hands-on training", "hands-on experience"], "synonyms": ["practical"], "antonyms": ["theoretical"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v09", "en": "knowledgeable", "vi": "am hiểu, thông thạo", "ipa": "/ˈnɒlɪdʒəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "A good tour guide is knowledgeable about history.", "collocations": ["knowledgeable about"], "synonyms": ["well-informed"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v10", "en": "decisive", "vi": "quyết đoán", "ipa": "/dɪˈsaɪsɪv/", "ipaFrom": "glossary", "pos": "adj", "example": "A team leader needs to be calm and decisive.", "collocations": [], "synonyms": ["firm"], "antonyms": ["hesitant"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v11", "en": "inquiring", "vi": "ham học hỏi, tìm tòi", "ipa": "/ɪnˈkwaɪərɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "Scientists need an inquiring mind.", "collocations": ["an inquiring mind"], "synonyms": ["curious"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v12", "en": "hand-eye coordination", "vi": "sự phối hợp tay và mắt", "ipa": "/hænd aɪ kəʊˌɔːdɪˈneɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "Surgeons need good hand-eye coordination.", "collocations": ["good hand-eye coordination"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v13", "en": "mechanic", "vi": "thợ sửa chữa", "ipa": "/məˈkænɪk/", "ipaFrom": "glossary", "pos": "n", "example": "The mechanic fixed my dad's motorbike.", "collocations": ["a car mechanic"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v14", "en": "software engineer", "vi": "kĩ sư phần mềm", "ipa": "/ˈsɒftweər endʒɪˈnɪə/", "ipaFrom": "glossary", "pos": "n", "example": "A software engineer designs computer programmes.", "collocations": [], "synonyms": ["programmer"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v15", "en": "surgeon", "vi": "bác sĩ phẫu thuật", "ipa": "/ˈsɜːdʒən/", "ipaFrom": "glossary", "pos": "n", "example": "The surgeon worked for six hours in the operating room.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v16", "en": "cashier", "vi": "thu ngân", "ipa": "/kæˈʃɪə/", "ipaFrom": "glossary", "pos": "n", "example": "The cashier at the supermarket was very friendly.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v17", "en": "assembly worker", "vi": "công nhân dây chuyền", "ipa": "/əˈsembli ˈwɜːkə/", "ipaFrom": "glossary", "pos": "n", "example": "An assembly worker does one task again and again.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v18", "en": "garment worker", "vi": "công nhân may", "ipa": "/ˈɡɑːmənt ˈwɜːkə/", "ipaFrom": "glossary", "pos": "n", "example": "My aunt is a garment worker in a big factory.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v19", "en": "sew", "vi": "khâu, may vá", "ipa": "/səʊ/", "ipaFrom": "glossary", "pos": "v", "example": "My grandma taught me to sew a button.", "collocations": ["sew clothes"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v20", "en": "fabric", "vi": "vải vóc", "ipa": "/ˈfæbrɪk/", "ipaFrom": "glossary", "pos": "n", "example": "A tailor must know a lot about fabric.", "collocations": ["soft fabric"], "synonyms": ["cloth"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Adverbial clauses of concession: although / though",
+      "nameVi": "Mệnh đề trạng ngữ chỉ sự nhượng bộ: although / though",
+      "explainVi": "Mệnh đề nhượng bộ nói về hai ý trái ngược nhau (mặc dù... nhưng vẫn...). Dùng although hoặc though, đặt ở đầu hoặc giữa câu. Tiếng Anh KHÔNG dùng cả although và but trong cùng một câu.",
+      "formula": "Although / Though + S + V, S + V  ·  S + V + although / though + S + V",
+      "examples": [
+        "Although the job is demanding, she loves it.",
+        "He still wants to be a mechanic though his parents disagree."
+      ],
+      "wrong": [
+        { "sentence": "Although nurses work long hours, but they enjoy helping people.", "fix": "Although nurses work long hours, they enjoy helping people.", "whyVi": "Đã có although thì không dùng thêm but." },
+        { "sentence": "Although she was tired. She finished the project.", "fix": "Although she was tired, she finished the project.", "whyVi": "Mệnh đề although không đứng một mình; nối bằng dấu phẩy." }
+      ],
+      "drills": [
+        { "prompt": "___ footballers are well-paid, their careers are often short.", "options": ["But", "Although", "So"], "answer": 1, "explainVi": "Hai ý trái ngược, mệnh đề phụ đứng đầu câu: Although." },
+        { "prompt": "She applied for the job ___ she had little experience.", "options": ["though", "so", "because"], "answer": 0, "explainVi": "Ít kinh nghiệm NHƯNG vẫn nộp đơn: though." },
+        { "prompt": "Which sentence is correct?", "options": ["Although the work is repetitive, but he likes it.", "Although the work is repetitive, he likes it.", "The work is repetitive although, he likes it."], "answer": 1, "explainVi": "Dùng although thì bỏ but." }
+      ],
+      "errorTag": "conjunction",
+      "src": { "kind": "sgk", "page": 127 }
+    },
+    {
+      "id": "g02",
+      "name": "Adverbial clauses of result: so ... that / such ... that",
+      "nameVi": "Mệnh đề trạng ngữ chỉ kết quả: so ... that / such ... that",
+      "explainVi": "Dùng để nói một điều QUÁ đến mức gây ra kết quả. so + tính từ/trạng từ + that; such + (a/an) + tính từ + danh từ + that. Có danh từ thì dùng such, chỉ có tính từ thì dùng so.",
+      "formula": "S + be + so + adj + that + S + V  ·  S + be + such (a/an) + adj + noun + that + S + V",
+      "examples": [
+        "The job was so demanding that he felt tired every evening.",
+        "She is such a skilful tailor that everyone wants her clothes."
+      ],
+      "wrong": [
+        { "sentence": "He is so a good mechanic that everyone trusts him.", "fix": "He is such a good mechanic that everyone trusts him.", "whyVi": "Có danh từ (a good mechanic) thì dùng such, không dùng so." },
+        { "sentence": "The work was such boring that she left.", "fix": "The work was so boring that she left.", "whyVi": "Chỉ có tính từ (boring) thì dùng so." }
+      ],
+      "drills": [
+        { "prompt": "The factory was ___ far from his home that he couldn't work there.", "options": ["such", "so", "very"], "answer": 1, "explainVi": "Chỉ có trạng từ far: so ... that." },
+        { "prompt": "It's ___ rewarding job that I want to do it all my life.", "options": ["so a", "such", "such a"], "answer": 2, "explainVi": "Có danh từ số ít job: such a + adj + noun." },
+        { "prompt": "They are ___ creative designers that everyone admires them.", "options": ["such", "so", "such a"], "answer": 0, "explainVi": "Danh từ số nhiều (designers): such, không có a." }
+      ],
+      "errorTag": "word_choice",
+      "src": { "kind": "sgk", "page": 127 }
+    },
+    {
+      "id": "g03",
+      "name": "Adverbial clauses of reason: because / since",
+      "nameVi": "Mệnh đề trạng ngữ chỉ lý do: because / since",
+      "explainVi": "Dùng because hoặc since để giải thích lý do. since thường đặt ở đầu câu; because đặt được ở đầu hoặc giữa câu. Đã dùng because thì không thêm so ở mệnh đề kia.",
+      "formula": "S + V + because + S + V  ·  Because / Since + S + V, S + V",
+      "examples": [
+        "I want to be a teacher because I love working with children.",
+        "Since I'm good at maths, I might become an engineer."
+      ],
+      "wrong": [
+        { "sentence": "Because he loves cars, so he wants to be a mechanic.", "fix": "Because he loves cars, he wants to be a mechanic.", "whyVi": "Đã có because thì không dùng so." },
+        { "sentence": "She didn't go to the job fair because of she was ill.", "fix": "She didn't go to the job fair because she was ill.", "whyVi": "Trước mệnh đề (S + V) dùng because, không dùng because of." }
+      ],
+      "drills": [
+        { "prompt": "___ Ms Nga is away, we'll put off the class meeting.", "options": ["Although", "Since", "So"], "answer": 1, "explainVi": "Nêu lý do ở đầu câu: Since." },
+        { "prompt": "I want to be a pilot ___ I love travelling.", "options": ["because", "although", "so"], "answer": 0, "explainVi": "Lý do: because." },
+        { "prompt": "Which sentence is correct?", "options": ["Because I enjoy drawing, so I want to be a designer.", "Since I enjoy drawing, I want to be a designer.", "Since I enjoy drawing, but I want to be a designer."], "answer": 1, "explainVi": "Since + lý do, mệnh đề chính không có so hay but." }
+      ],
+      "errorTag": "conjunction",
+      "src": { "kind": "sgk", "page": 127 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "intonation",
+      "focus": "Ngữ điệu câu kể dùng như câu hỏi",
+      "tipVi": "Khi lặp lại câu của người khác để tỏ ra ngạc nhiên hoặc để kiểm tra lại thông tin, ta giữ nguyên câu kể nhưng LÊN GIỌNG ở cuối câu: You want to be a doctor? ↗",
+      "words": ["You want to be a doctor?", "She invited me to a party?"],
+      "sentence": "You're going to a vocational school?",
+      "quiz": [],
+      "src": { "kind": "sgk", "page": 126 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Trọng âm tên nghề và tính từ về nghề nghiệp",
+      "tipVi": "surgeon, fabric, knowledgeable nhấn âm đầu; career, cashier, mechanic, demanding, rewarding, decisive, vocational nhấn âm thứ hai; orientation nhấn âm thứ tư (o-ri-en-TA-tion).",
+      "words": ["surgeon", "fabric", "career", "cashier", "mechanic", "demanding", "rewarding", "orientation"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["surgeon", "career", "mechanic"], "answer": 0, "explainVi": "surgeon /ˈsɜːdʒən/ nhấn âm đầu; career và mechanic nhấn âm thứ hai." },
+        { "prompt": "Which syllable is stressed in \"career\"?", "options": ["1st syllable: ca", "2nd syllable: reer"], "answer": 1, "explainVi": "career /kəˈrɪə/ nhấn âm thứ hai." }
+      ],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Hopefully, ...", "vi": "Hy vọng là ...", "useVi": "Khi bày tỏ hy vọng về điều sắp xảy ra.", "example": "Hopefully, I'll pass the entrance exam.", "src": { "kind": "sgk", "page": 128 } },
+    { "id": "e02", "en": "I hope so, too.", "vi": "Mình cũng hy vọng vậy.", "useVi": "Khi đáp lại và chia sẻ cùng hy vọng với người kia.", "example": "Hopefully, we'll win. – I hope so, too.", "src": { "kind": "sgk", "page": 128 } },
+    { "id": "e03", "en": "I hope ...", "vi": "Tôi hy vọng ...", "useVi": "Khi nói điều mình mong muốn.", "example": "I hope I'll get a place at the vocational college.", "src": { "kind": "sgk", "page": 128 } },
+    { "id": "e04", "en": "Thank you. Good luck.", "vi": "Cảm ơn. Chúc may mắn.", "useVi": "Khi đáp lại người vừa bày tỏ hy vọng, chúc họ thành công.", "example": "Here's my application. – Thank you. Good luck.", "src": { "kind": "sgk", "page": 128 } },
+    { "id": "e05", "en": "I'd like to be a ... because ...", "vi": "Mình muốn trở thành ... vì ...", "useVi": "Khi nói nghề mơ ước và lý do.", "example": "I'd like to be a vet because I love animals.", "src": { "kind": "team", "page": null } },
+    { "id": "e06", "en": "I'm good at ...", "vi": "Mình giỏi ...", "useVi": "Khi nói điểm mạnh của bản thân.", "example": "I'm good at maths and solving problems.", "src": { "kind": "team", "page": null } },
+    { "id": "e07", "en": "To become a ..., you need to be ...", "vi": "Để trở thành ..., bạn cần ...", "useVi": "Khi nói phẩm chất cần có cho một nghề.", "example": "To become a surgeon, you need to be calm and decisive.", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "Although ..., I still want to ...", "vi": "Mặc dù ..., mình vẫn muốn ...", "useVi": "Khi nói về khó khăn nhưng vẫn giữ mục tiêu.", "example": "Although it's demanding, I still want to be a nurse.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "What do you want to do in the future?", "vi": "Bạn muốn làm gì trong tương lai?", "useVi": "Khi hỏi về dự định nghề nghiệp của người khác.", "example": "What do you want to do in the future, Lan?", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["Although the job", "is demanding,", "she", "really loves it"], "vi": "Mặc dù công việc vất vả, cô ấy rất yêu nó.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["He wants to be", "a mechanic", "though his parents", "disagree"], "vi": "Anh ấy muốn làm thợ sửa chữa dù bố mẹ không đồng ý.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["The work was", "so repetitive", "that she", "felt bored"], "vi": "Công việc lặp đi lặp lại đến mức cô ấy thấy chán.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["She is", "such a skilful tailor", "that everyone", "loves her clothes"], "vi": "Cô ấy là thợ may khéo đến mức ai cũng thích quần áo cô may.", "grammarId": "g02" },
+    { "id": "b05", "chunks": ["Since I'm good", "at maths,", "I might become", "an engineer"], "vi": "Vì mình giỏi toán nên mình có thể trở thành kỹ sư.", "grammarId": "g03" },
+    { "id": "b06", "chunks": ["I'd like to be", "a teacher", "because I love", "working with children"], "vi": "Mình muốn làm giáo viên vì mình thích làm việc với trẻ em.", "grammarId": "g03" },
+    { "id": "b07", "chunks": ["To become a surgeon,", "you need", "good hand-eye coordination"], "vi": "Để trở thành bác sĩ phẫu thuật, bạn cần phối hợp tay mắt tốt.", "grammarId": null },
+    { "id": "b08", "chunks": ["Vocational schools", "give students", "hands-on training"], "vi": "Trường nghề cho học sinh được đào tạo thực hành.", "grammarId": null }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I want to be a nurse.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "in the future" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because I like helping sick people" }
+      ],
+      "full": "I want to be a nurse in the future because I like helping sick people."
+    },
+    {
+      "id": "x02",
+      "base": "My uncle is a mechanic.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in a big garage" },
+        { "askVi": "Công việc thế nào?", "ask": "What is his job like?", "add": "although the work is hard, he enjoys it" }
+      ],
+      "full": "My uncle is a mechanic in a big garage, and although the work is hard, he enjoys it."
+    },
+    {
+      "id": "x03",
+      "base": "I'm going to study.",
+      "steps": [
+        { "askVi": "Học ở đâu?", "ask": "Where?", "add": "at a vocational college" },
+        { "askVi": "Học gì?", "ask": "What?", "add": "to become a chef" }
+      ],
+      "full": "I'm going to study at a vocational college to become a chef."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Nghề em mơ ước",
+      "questions": [
+        "What is your dream job, and why?",
+        "Which career would you choose if you could choose any job?",
+        "What kind of work do you hope to do when you grow up?"
+      ],
+      "keywords": ["I'd like to be", "because", "rewarding", "career"],
+      "exampleAnswer": "I'd like to be a software engineer because I love computers, and it is a well-paid and interesting career.",
+      "expectsReason": true
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Phẩm chất cần có cho một nghề",
+      "questions": [
+        "What qualities does a good doctor need?",
+        "What skills do you need to become a good teacher?",
+        "What kind of person can be a good mechanic?"
+      ],
+      "keywords": ["decisive", "knowledgeable", "patient", "hand-eye coordination"],
+      "exampleAnswer": "A good doctor needs to be knowledgeable, calm and decisive. Surgeons also need good hand-eye coordination.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Học trường nghề hay học lên THPT",
+      "questions": [
+        "What are the advantages of going to a vocational school?",
+        "Why might a student choose hands-on training after Grade 9?",
+        "Is a vocational college a good choice for some students? Why?"
+      ],
+      "keywords": ["vocational", "hands-on", "since", "earn"],
+      "exampleAnswer": "Since vocational courses are short, students can start working earlier, and they get a lot of hands-on training.",
+      "expectsReason": true
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Một công việc em biết rõ",
+      "questions": [
+        "Tell me about the job of someone in your family.",
+        "What does a person you know do at work every day?",
+        "Can you describe a job you have watched people do?"
+      ],
+      "keywords": ["demanding", "repetitive", "although", "rewarding"],
+      "exampleAnswer": "My mother is a nurse. Although her job is demanding, she finds it rewarding because she helps people.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Điều gì làm nên một công việc tốt",
+      "questions": [
+        "What makes a job a good job?",
+        "Which is more important in a job: money or happiness?",
+        "What would make you happy at work in the future?"
+      ],
+      "keywords": ["well-paid", "rewarding", "although", "because"],
+      "exampleAnswer": "A good job is rewarding. Although money is important, I think enjoying your work matters more.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "Tell me about a skill or talent you have that could help you in a future job.", "keywords": ["good at", "since", "career"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should students choose their career before they finish Grade 9? Why or why not?", "keywords": ["orientation", "because", "although"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend wants to quit school to work in a shop because she wants money now. What do you say to her?", "keywords": ["although", "vocational", "future"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "Describe a school subject or hobby that might lead you to a job one day.", "keywords": ["good at", "because", "career"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should schools organise more visits to real workplaces for students? Why or why not?", "keywords": ["hands-on", "orientation", "since"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your cousin says he can't become a chef because he is not good at maths. What do you say to him?", "keywords": ["although", "vocational", "skills"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Gặp cô tư vấn hướng nghiệp",
+      "contextVi": "Sau buổi định hướng nghề nghiệp, cô tư vấn muốn nói chuyện với em về nghề em quan tâm.",
+      "aiRole": "Ms Hoa, a friendly school career counsellor",
+      "studentRoleVi": "Học sinh lớp 9, nói về nghề mình thích",
+      "goalVi": "Nói nghề em thích, lý do, và điểm mạnh của em phù hợp với nghề đó.",
+      "goal": "Tell the counsellor which job you like, why, and which of your strengths suit it.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do (because / since...)", "words": [] },
+        { "kind": "example", "vi": "Kể một điểm mạnh hoặc ví dụ về bản thân", "words": [] }
+      ],
+      "opener": "Hello! Did you enjoy the career orientation session? Which job are you interested in?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "That's interesting. Why do you like that job?",
+        "What are you good at that could help you in this job?",
+        "Great. I hope you'll achieve your dream. Good luck!"
+      ],
+      "tipsVi": ["Dùng \"I'd like to be...because...\" và \"I'm good at...\"", "Kể một ví dụ cụ thể về điểm mạnh."],
+      "keywords": ["I'd like to be", "because", "good at", "career"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Lương cao có phải là tất cả?",
+      "contextVi": "Bạn Hùng cho rằng chỉ nên chọn nghề lương cao nhất. Em muốn nêu suy nghĩ của mình về việc chọn nghề.",
+      "aiRole": "Hung, a classmate who only cares about salary",
+      "studentRoleVi": "Bạn cùng lớp, nêu cách chọn nghề của mình",
+      "goalVi": "Nêu điều em coi trọng khi chọn nghề, đưa lý do và ví dụ, và lịch sự trả lời khi Hùng nghĩ khác.",
+      "goal": "Say what matters to you when choosing a job, with a reason and an example, and politely answer Hung's view.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["well-paid", "rewarding", "demanding", "career", "although"] }
+      ],
+      "opener": "I'm going to choose the job with the highest salary. Nothing else matters, right?",
+      "stance": "Money is the most important thing, because with a lot of money you can be happy.",
+      "turns": 5,
+      "fallback": [
+        "Really? What's more important to you, then?",
+        "But money is the most important thing, because with a lot of money you can be happy.",
+        "Hmm. Can you give me an example?",
+        "OK, maybe I should think about what I enjoy too."
+      ],
+      "tipsVi": ["Dùng although để nói cả hai mặt: \"Although money is important, ...\"", "Ví dụ: người làm nghề lương cao nhưng mệt mỏi, không vui."],
+      "keywords": ["well-paid", "rewarding", "although", "because"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Thuyết phục bố mẹ về trường nghề",
+      "contextVi": "Em muốn học trường nghề để trở thành đầu bếp, nhưng bố em muốn em học lên THPT rồi vào đại học.",
+      "aiRole": "Dad, who wants you to go to university",
+      "studentRoleVi": "Con, giải thích lựa chọn của mình",
+      "goalVi": "Giải thích vì sao em muốn học trường nghề, nêu kế hoạch, và trả lời khi bố lo lắng.",
+      "goal": "Explain why you want to go to a vocational school, describe your plan, and answer your dad's worry.",
+      "requirements": [
+        { "kind": "reason", "vi": "Giải thích lý do", "words": [] },
+        { "kind": "suggestion", "vi": "Đưa ra kế hoạch hoặc cách giải quyết", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["vocational", "hands-on", "career", "since", "rewarding"] }
+      ],
+      "opener": "Your teacher said you're thinking about a vocational school. Can you tell me why?",
+      "stance": "People with a university degree always get better jobs, so you should go to university.",
+      "turns": 5,
+      "fallback": [
+        "I see. Why do you think that's right for you?",
+        "But people with a university degree always get better jobs. Shouldn't you go to university?",
+        "Hmm. What will you do after the course?",
+        "OK. Let's visit the school together and learn more."
+      ],
+      "tipsVi": ["Nói lịch sự với bố mẹ: \"I understand, but...\"", "Nêu lợi ích: học thực hành, đi làm sớm, vẫn có thể học tiếp sau này."],
+      "keywords": ["vocational", "hands-on", "I understand, but", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Phỏng vấn tương lai",
+      "contextVi": "Hãy tưởng tượng mười năm sau em đi phỏng vấn công việc mơ ước. Người phỏng vấn hỏi về em và lý do em chọn nghề.",
+      "aiRole": "Mr Long, an interviewer at a company",
+      "studentRoleVi": "Người đi phỏng vấn xin việc",
+      "goalVi": "Giới thiệu bản thân, nêu lý do chọn nghề và điểm mạnh, và trả lời khi người phỏng vấn nêu ý kiến khác.",
+      "goal": "Introduce yourself, explain why you chose this career and your strengths, and respond to the interviewer's doubt.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do chọn nghề", "words": [] },
+        { "kind": "example", "vi": "Đưa ví dụ về điểm mạnh hoặc kinh nghiệm", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["career", "decisive", "knowledgeable", "hands-on", "rewarding", "demanding"] }
+      ],
+      "opener": "Good morning. Please tell me a little about yourself and why you want this job.",
+      "stance": "This job is very demanding, and I think younger people often give up quickly.",
+      "turns": 5,
+      "fallback": [
+        "Thank you. What skills do you have for this job?",
+        "Well, this job is very demanding, and I think younger people often give up quickly. What do you say to that?",
+        "I see. Can you give me an example from your experience?",
+        "Thank you. We hope to contact you soon."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["career", "although", "because", "good at"]
+    }
+  ]
+}

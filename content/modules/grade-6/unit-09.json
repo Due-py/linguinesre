@@ -1,0 +1,354 @@
+{
+  "grade": 6,
+  "unit": 9,
+  "title": "Cities of the World",
+  "titleVi": "Các thành phố trên thế giới",
+  "edition": "Tiếng Anh 6 Global Success, sách học sinh tập hai (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 26–35; Glossary tr. 70–71",
+  "vocab": [
+    { "id": "v01", "en": "landmark", "vi": "địa điểm/công trình thu hút du khách", "ipa": "/ˈlændmɑːk/", "ipaFrom": "glossary", "pos": "n", "example": "The One Pillar Pagoda is a famous landmark of Ha Noi.", "collocations": ["a famous landmark", "city landmarks"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v02", "en": "tower", "vi": "tháp", "ipa": "/ˈtaʊə/", "ipaFrom": "glossary", "pos": "n", "example": "You can see the whole city from the top of the tower.", "collocations": ["a tall tower", "clock tower"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v03", "en": "palace", "vi": "cung điện", "ipa": "/ˈpæləs/", "ipaFrom": "glossary", "pos": "n", "example": "The king lived in a beautiful palace.", "collocations": ["an old palace", "visit a palace"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v04", "en": "Royal Palace", "vi": "Cung điện Hoàng gia", "ipa": "/ˈrɔɪəl ˈpæləs/", "ipaFrom": "glossary", "pos": "n", "example": "Many tourists visit the Royal Palace in Bangkok.", "collocations": ["visit the Royal Palace"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v05", "en": "crowded", "vi": "đông đúc", "ipa": "/ˈkraʊdɪd/", "ipaFrom": "glossary", "pos": "adj", "example": "The market is very crowded on Sunday mornings.", "collocations": ["a crowded street", "crowded with tourists"], "synonyms": ["busy"], "antonyms": ["quiet", "empty"], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v06", "en": "floating market", "vi": "chợ nổi", "ipa": "/ˈfləʊtɪŋ ˈmɑːkɪt/", "ipaFrom": "glossary", "pos": "n", "example": "People sell fruit from boats at the floating market.", "collocations": ["visit a floating market", "Cai Rang Floating Market"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v07", "en": "street food", "vi": "đồ ăn bán ở đường phố", "ipa": "/ˈstriːt fuːd/", "ipaFrom": "glossary", "pos": "n", "example": "Ha Noi is famous for its delicious street food.", "collocations": ["try street food", "cheap street food"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v08", "en": "stall", "vi": "gian hàng", "ipa": "/stɔːl/", "ipaFrom": "glossary", "pos": "n", "example": "We bought some postcards at a small stall.", "collocations": ["a food stall", "a market stall"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v09", "en": "postcard", "vi": "bưu thiếp", "ipa": "/ˈpəʊstkɑːd/", "ipaFrom": "glossary", "pos": "n", "example": "I sent my grandma a postcard from Da Lat.", "collocations": ["send a postcard", "a holiday postcard"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v10", "en": "city map", "vi": "bản đồ thành phố", "ipa": "/ˈsɪti mæp/", "ipaFrom": "glossary", "pos": "n", "example": "We used a city map to find the museum.", "collocations": ["read a city map", "a free city map"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v11", "en": "helpful", "vi": "sẵn sàng giúp đỡ", "ipa": "/ˈhelpfl/", "ipaFrom": "glossary", "pos": "adj", "example": "The people in my town are friendly and helpful.", "collocations": ["very helpful", "helpful people"], "synonyms": ["kind"], "antonyms": ["unhelpful"], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v12", "en": "river bank", "vi": "bờ sông", "ipa": "/ˈrɪvə bæŋk/", "ipaFrom": "glossary", "pos": "n", "example": "We had a picnic on the river bank.", "collocations": ["on the river bank", "walk along the river bank"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v13", "en": "rent", "vi": "thuê", "ipa": "/rent/", "ipaFrom": "glossary", "pos": "v", "example": "We rented bikes and rode around the old town.", "collocations": ["rent a bike", "rent a boat"], "synonyms": ["hire"], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v14", "en": "Times Square", "vi": "Quảng trường Thời đại", "ipa": "/ˌtaɪmz ˈskweə/", "ipaFrom": "glossary", "pos": "n", "example": "Times Square in New York is bright and crowded at night.", "collocations": ["in Times Square"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 71 } },
+    { "id": "v15", "en": "exciting", "vi": "thú vị, sôi động", "ipa": "/ɪkˈsaɪtɪŋ/", "ipaFrom": "dictionary", "pos": "adj", "example": "Ho Chi Minh City is an exciting place to visit.", "collocations": ["an exciting city", "really exciting"], "synonyms": ["interesting"], "antonyms": ["boring"], "src": { "kind": "sgk", "page": 28 } },
+    { "id": "v16", "en": "delicious", "vi": "ngon", "ipa": "/dɪˈlɪʃəs/", "ipaFrom": "dictionary", "pos": "adj", "example": "The noodles at this stall are delicious.", "collocations": ["delicious food", "taste delicious"], "synonyms": ["tasty"], "antonyms": [], "src": { "kind": "sgk", "page": 28 } },
+    { "id": "v17", "en": "tasty", "vi": "ngon, đậm đà", "ipa": "/ˈteɪsti/", "ipaFrom": "dictionary", "pos": "adj", "example": "My mum makes tasty spring rolls.", "collocations": ["tasty food", "a tasty snack"], "synonyms": ["delicious"], "antonyms": [], "src": { "kind": "sgk", "page": 28 } },
+    { "id": "v18", "en": "friendly", "vi": "thân thiện", "ipa": "/ˈfrendli/", "ipaFrom": "dictionary", "pos": "adj", "example": "The people in Hue are very friendly.", "collocations": ["friendly people", "a friendly smile"], "synonyms": ["kind"], "antonyms": ["unfriendly"], "src": { "kind": "sgk", "page": 28 } },
+    { "id": "v19", "en": "famous", "vi": "nổi tiếng", "ipa": "/ˈfeɪməs/", "ipaFrom": "dictionary", "pos": "adj", "example": "Paris is famous for the Eiffel Tower.", "collocations": ["famous for", "a famous city"], "synonyms": ["well-known"], "antonyms": ["unknown"], "src": { "kind": "sgk", "page": 28 } },
+    { "id": "v20", "en": "capital", "vi": "thủ đô", "ipa": "/ˈkæpɪtl/", "ipaFrom": "dictionary", "pos": "n", "example": "Ha Noi is the capital of Viet Nam.", "collocations": ["capital city", "the capital of"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 31 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Possessive adjectives",
+      "nameVi": "Tính từ sở hữu",
+      "explainVi": "Tính từ sở hữu cho biết vật thuộc về ai: my, your, his, her, its, our, their. Nó luôn đứng TRƯỚC một danh từ. Chú ý: its (của nó) khác it's (= it is).",
+      "formula": "my / your / his / her / its / our / their + danh từ",
+      "examples": [
+        "This is my city map.",
+        "Sydney is famous for its beaches.",
+        "Our town has a big market."
+      ],
+      "wrong": [
+        { "sentence": "Hue is famous for it's palace.", "fix": "Hue is famous for its palace.", "whyVi": "its (của nó) không có dấu nháy; it's là viết tắt của it is." },
+        { "sentence": "Lan loves his new postcard.", "fix": "Lan loves her new postcard.", "whyVi": "Lan là bạn nữ nên dùng her, không dùng his." },
+        { "sentence": "They took they photos at the tower.", "fix": "They took their photos at the tower.", "whyVi": "Trước danh từ phải dùng tính từ sở hữu their, không dùng đại từ they." }
+      ],
+      "drills": [
+        { "prompt": "Mr Nam lives in Hoi An. ___ house is near the river.", "options": ["His", "Her", "Its"], "answer": 0, "explainVi": "Mr Nam là nam nên dùng His." },
+        { "prompt": "Paris is a beautiful city. ___ streets are clean.", "options": ["It's", "Its", "Their"], "answer": 1, "explainVi": "Đường phố của thành phố (nó): Its + danh từ." },
+        { "prompt": "We love ___ school because it has a big garden.", "options": ["we", "ours", "our"], "answer": 2, "explainVi": "Trước danh từ school dùng tính từ sở hữu our." }
+      ],
+      "errorTag": "pronoun",
+      "src": { "kind": "sgk", "page": 29 }
+    },
+    {
+      "id": "g02",
+      "name": "Possessive pronouns",
+      "nameVi": "Đại từ sở hữu",
+      "explainVi": "Đại từ sở hữu dùng một mình, KHÔNG có danh từ theo sau: mine, yours, his, hers, ours, theirs. Nó thay cho \"tính từ sở hữu + danh từ\" để khỏi lặp lại danh từ. Ví dụ: my bag → mine.",
+      "formula": "mine / yours / his / hers / ours / theirs (đứng một mình)",
+      "examples": [
+        "This city map is mine, not yours.",
+        "Our town is small, but theirs is very big.",
+        "Is this blue bike yours? – No, it's hers."
+      ],
+      "wrong": [
+        { "sentence": "This postcard is my.", "fix": "This postcard is mine.", "whyVi": "Cuối câu không có danh từ theo sau nên dùng đại từ sở hữu mine." },
+        { "sentence": "That is mine bag.", "fix": "That is my bag.", "whyVi": "Có danh từ bag theo sau nên dùng tính từ sở hữu my." }
+      ],
+      "drills": [
+        { "prompt": "These are Mai's and Lan's maps. These maps are ___.", "options": ["their", "theirs", "them"], "answer": 1, "explainVi": "Không có danh từ theo sau, của hai bạn: theirs." },
+        { "prompt": "Our city is crowded. How about ___?", "options": ["yours", "your", "you"], "answer": 0, "explainVi": "Thay cho \"your city\", đứng một mình: yours." },
+        { "prompt": "Which sentence is correct?", "options": ["The red bag is her.", "The red bag is hers.", "The red bag is hers bag."], "answer": 1, "explainVi": "Đứng cuối câu, không có danh từ: hers." }
+      ],
+      "errorTag": "pronoun",
+      "src": { "kind": "sgk", "page": 29 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Âm /əʊ/",
+      "tipVi": "Bắt đầu bằng âm /ə/ (giống \"ơ\") rồi tròn môi trượt sang /ʊ/ (giống \"u\"). Đừng đọc thành \"ô\" ngắn: boat /bəʊt/.",
+      "words": ["boat", "postcard", "coast", "pagoda", "snow", "cold"],
+      "sentence": "We sent a postcard from the boat on the coast.",
+      "quiz": [
+        { "prompt": "Which word has the sound /əʊ/?", "options": ["town", "coast", "house"], "answer": 1, "explainVi": "coast /kəʊst/ có âm /əʊ/; town và house có âm /aʊ/." }
+      ],
+      "src": { "kind": "sgk", "page": 28 }
+    },
+    {
+      "id": "p02",
+      "kind": "sound",
+      "focus": "Âm /aʊ/",
+      "tipVi": "Mở miệng rộng như \"a\" rồi tròn môi trượt sang /ʊ/, giống \"ao\" trong tiếng Việt: town /taʊn/.",
+      "words": ["house", "town", "tower", "crowded", "around"],
+      "sentence": "Our town is crowded around the old tower.",
+      "quiz": [
+        { "prompt": "Which word has the sound /aʊ/?", "options": ["boat", "cold", "crowded"], "answer": 2, "explainVi": "crowded /ˈkraʊdɪd/ có âm /aʊ/; boat và cold có âm /əʊ/." },
+        { "prompt": "Which word does NOT have the sound /aʊ/?", "options": ["snow", "tower", "around"], "answer": 0, "explainVi": "snow /snəʊ/ có âm /əʊ/, không phải /aʊ/." }
+      ],
+      "src": { "kind": "sgk", "page": 28 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "Âm tiết có dấu ˈ đọc to và dài hơn. landmark, palace, postcard, crowded, helpful nhấn âm đầu; delicious, exciting nhấn âm thứ hai.",
+      "words": ["landmark", "palace", "postcard", "crowded", "delicious", "exciting"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["palace", "exciting", "landmark"], "answer": 1, "explainVi": "exciting /ɪkˈsaɪtɪŋ/ nhấn âm thứ hai; palace và landmark nhấn âm đầu." },
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["delicious", "postcard", "exciting"], "answer": 1, "explainVi": "postcard /ˈpəʊstkɑːd/ nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Ngữ điệu câu cảm thán với What",
+      "tipVi": "Câu cảm thán đọc với giọng vui, nhấn mạnh vào tính từ và xuống giọng ở cuối câu: What a BEAUtiful city!",
+      "words": ["What a nice view!", "What tall buildings!"],
+      "sentence": "What a beautiful river bank!",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "What a/an + adjective + noun!", "vi": "... thật là ...!", "useVi": "Khi muốn bày tỏ cảm xúc mạnh (khen, ngạc nhiên) về một vật hay một nơi.", "example": "What a clean beach!", "src": { "kind": "sgk", "page": 30 } },
+    { "id": "e02", "en": "What + adjective + plural noun!", "vi": "Những ... thật là ...!", "useVi": "Câu cảm thán với danh từ số nhiều: không dùng a/an.", "example": "What friendly people!", "src": { "kind": "sgk", "page": 30 } },
+    { "id": "e03", "en": "What's it like?", "vi": "Nơi đó như thế nào?", "useVi": "Khi hỏi người khác mô tả một thành phố hay một nơi.", "example": "You visited Da Nang? What's it like?", "src": { "kind": "sgk", "page": 26 } },
+    { "id": "e04", "en": "... is famous for its ...", "vi": "... nổi tiếng với ... của nó", "useVi": "Khi giới thiệu điều đặc biệt nhất của một thành phố.", "example": "Hoi An is famous for its old houses and lanterns.", "src": { "kind": "sgk", "page": 28 } },
+    { "id": "e05", "en": "I'd like to visit ... because ...", "vi": "Mình muốn đến thăm ... vì ...", "useVi": "Khi nói nơi mình muốn đến và lý do.", "example": "I'd like to visit Tokyo because I love Japanese food.", "src": { "kind": "team", "page": null } },
+    { "id": "e06", "en": "You should go to ...", "vi": "Bạn nên đến ...", "useVi": "Khi gợi ý cho ai đó một nơi nên đến.", "example": "You should go to the night market. The street food is great.", "src": { "kind": "team", "page": null } },
+    { "id": "e07", "en": "Wish you were here!", "vi": "Ước gì bạn ở đây!", "useVi": "Câu quen thuộc ở cuối bưu thiếp gửi cho bạn bè, người thân.", "example": "The beach is beautiful. Wish you were here!", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "Is this yours? – Yes, it's mine.", "vi": "Cái này của bạn à? – Ừ, của mình.", "useVi": "Khi hỏi và trả lời đồ vật thuộc về ai.", "example": "Is this city map yours? – No, it's hers.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "That's true, but ...", "vi": "Đúng vậy, nhưng ...", "useVi": "Khi đồng ý một phần rồi nêu ý khác của mình.", "example": "That's true, but the city has many beautiful parks too.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["Ha Noi", "is famous", "for its", "street food"], "vi": "Hà Nội nổi tiếng với đồ ăn đường phố.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["This city map", "is mine,", "and that one", "is yours"], "vi": "Bản đồ thành phố này là của mình, còn cái kia là của bạn.", "grammarId": "g02" },
+    { "id": "b03", "chunks": ["What a", "beautiful", "palace!"], "vi": "Cung điện đẹp quá!", "grammarId": null },
+    { "id": "b04", "chunks": ["We rented bikes", "and rode", "along the river bank"], "vi": "Chúng mình thuê xe đạp và đạp dọc bờ sông.", "grammarId": null },
+    { "id": "b05", "chunks": ["Our town is small,", "but its people", "are very", "friendly"], "vi": "Thị trấn của chúng mình nhỏ, nhưng người dân ở đó rất thân thiện.", "grammarId": "g01" },
+    { "id": "b06", "chunks": ["I'd like to visit", "Sydney", "because its beaches", "are clean"], "vi": "Mình muốn đến Sydney vì các bãi biển ở đó sạch.", "grammarId": "g01" },
+    { "id": "b07", "chunks": ["The market", "is crowded,", "but the food", "is delicious"], "vi": "Chợ đông đúc, nhưng đồ ăn rất ngon.", "grammarId": null },
+    { "id": "b08", "chunks": ["Their house", "is near the tower,", "and ours", "is near the lake"], "vi": "Nhà của họ ở gần tháp, còn nhà của chúng mình ở gần hồ.", "grammarId": "g02" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I visited Hue.",
+      "steps": [
+        { "askVi": "Với ai?", "ask": "Who with?", "add": "with my family" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last summer" },
+        { "askVi": "Em thấy nơi đó thế nào?", "ask": "What was it like?", "add": "and it was really beautiful" }
+      ],
+      "full": "I visited Hue with my family last summer, and it was really beautiful."
+    },
+    {
+      "id": "x02",
+      "base": "My town has a market.",
+      "steps": [
+        { "askVi": "Chợ thế nào?", "ask": "What kind of market?", "add": "busy" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "near the river" },
+        { "askVi": "Chợ nổi tiếng với gì?", "ask": "What is it famous for?", "add": "famous for its tasty street food" }
+      ],
+      "full": "My town has a busy market near the river, and it is famous for its tasty street food."
+    },
+    {
+      "id": "x03",
+      "base": "I want to visit Paris.",
+      "steps": [
+        { "askVi": "Muốn xem gì?", "ask": "To see what?", "add": "to see the Eiffel Tower" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it is a famous landmark" }
+      ],
+      "full": "I want to visit Paris to see the Eiffel Tower because it is a famous landmark."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Mô tả quê hương, nơi em sống",
+      "questions": [
+        "What is your hometown like?",
+        "Can you describe the place where you live?",
+        "What are the good things about your town?"
+      ],
+      "keywords": ["crowded", "friendly", "famous for", "market"],
+      "exampleAnswer": "My town is small and quiet. The people are friendly, and it is famous for its big market.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Các công trình nổi tiếng em biết",
+      "questions": [
+        "What is a famous landmark in Viet Nam?",
+        "Which famous building in the world do you know?",
+        "What do you know about Big Ben or the Eiffel Tower?"
+      ],
+      "keywords": ["landmark", "tower", "palace", "famous"],
+      "exampleAnswer": "The Eiffel Tower is a famous landmark in Paris. Millions of visitors climb it every year.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Món ăn nổi tiếng ở nơi em sống",
+      "questions": [
+        "What food is your town famous for?",
+        "Which dish should visitors try in your area?",
+        "What tasty food can people buy at the stalls in your town?"
+      ],
+      "keywords": ["delicious", "tasty", "stall", "famous for"],
+      "exampleAnswer": "My town is famous for its noodle soup. You can buy it at small stalls near the market.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Thành phố lớn hay thị trấn nhỏ",
+      "questions": [
+        "Which is better for children, a big city or a small town? Why?",
+        "Why do many people move to big cities?",
+        "What are the problems of living in a crowded city?"
+      ],
+      "keywords": ["crowded", "exciting", "quiet", "because"],
+      "exampleAnswer": "I think a small town is better for children because it is quiet and safe, but big cities are more exciting.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Thời tiết ở nơi em sống",
+      "questions": [
+        "What's the weather like in your town in summer?",
+        "Which season do you like best in your town?",
+        "Is your town sunny or rainy most of the year?"
+      ],
+      "keywords": ["sunny", "rainy", "hot", "cold"],
+      "exampleAnswer": "In summer it's hot and sunny, but in autumn it's cool. Autumn is my favourite season.",
+      "expectsReason": false
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "Where do you like to go at the weekend in your town, and what do you do there?", "keywords": ["park", "market", "with"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Is it a good idea to rent a bike when you visit a new city? Why or why not?", "keywords": ["rent", "cheap", "see"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend is going to Ho Chi Minh City for the first time. Which places do you tell him to visit?", "keywords": ["should", "landmark", "market"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "Where do you usually take visitors when they come to your town, and what do they see?", "keywords": ["landmark", "show", "famous"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Is it a good idea to try local food when you travel? Why or why not?", "keywords": ["delicious", "culture", "try"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your cousin is visiting Hue next month. Which places do you tell her to see?", "keywords": ["palace", "should", "river"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Xem ảnh kỳ nghỉ",
+      "contextVi": "Em vừa đi du lịch về và cho bạn cùng lớp xem ảnh. Bạn hỏi em về thành phố em đã đến.",
+      "aiRole": "Mai, a classmate who loves travelling",
+      "studentRoleVi": "Học sinh kể về thành phố mình vừa đến",
+      "goalVi": "Kể tên thành phố, mô tả nó và một địa điểm nổi tiếng ở đó; dùng ít nhất một câu cảm thán với What.",
+      "goal": "Show your holiday photos: name the city, describe it and one famous place there, and use one exclamation with What.",
+      "requirements": [
+        { "kind": "example", "vi": "Kể một địa điểm hoặc món ăn cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["landmark", "crowded", "famous for", "delicious", "exciting"] }
+      ],
+      "opener": "Wow, are these your holiday photos? Which city is this?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "What a nice place! What's it like?",
+        "Is there a famous landmark there?",
+        "Great photos! I'd like to go there one day."
+      ],
+      "tipsVi": ["Dùng \"It's famous for its...\"", "Thêm câu cảm thán: What a beautiful city!"],
+      "keywords": ["famous for", "landmark", "What a", "delicious"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Chọn nơi cho chuyến tham quan của lớp",
+      "contextVi": "Lớp em chuẩn bị đi tham quan một ngày. Em muốn đi một thành phố lớn, còn bạn lớp phó thích đi một thị trấn nhỏ.",
+      "aiRole": "Huy, the vice monitor of the class",
+      "studentRoleVi": "Học sinh đề xuất đi một thành phố",
+      "goalVi": "Đề xuất một thành phố, nêu lý do và ví dụ những gì cả lớp có thể làm, rồi trả lời khi Huy chê thành phố đông đúc.",
+      "goal": "Suggest a city for the class trip, give reasons and examples of things to do, and answer Huy's different opinion.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất một nơi", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "example", "vi": "Kể một việc cả lớp có thể làm ở đó", "words": [] }
+      ],
+      "opener": "Our class trip is next month. Where do you think we should go?",
+      "stance": "Big cities are too crowded and noisy. A small town is better for a class trip.",
+      "turns": 5,
+      "fallback": [
+        "Hmm, why do you want to go there?",
+        "But big cities are too crowded and noisy. A small town is better, I think.",
+        "OK, that's a good point. How can we get there?",
+        "Fine. Let's tell our teacher your idea tomorrow."
+      ],
+      "tipsVi": ["Khi Huy phản đối, dùng \"That's true, but...\"", "Nêu ví dụ: landmark, museum, street food."],
+      "keywords": ["landmark", "exciting", "because", "That's true, but"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Giới thiệu thành phố cho bạn qua thư",
+      "contextVi": "Em gọi video với một bạn qua thư (pen friend) ở nước ngoài. Bạn ấy định đến Việt Nam nhưng lo các thành phố ở đây quá đông.",
+      "aiRole": "Ben, a pen friend from England",
+      "studentRoleVi": "Học sinh giới thiệu một thành phố Việt Nam",
+      "goalVi": "Giới thiệu một thành phố Việt Nam, nêu điều nổi tiếng ở đó và thuyết phục Ben khi bạn ấy lo lắng.",
+      "goal": "Tell Ben about a Vietnamese city, say what it is famous for, and persuade him when he worries about crowds.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do Ben nên đến", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["famous for", "street food", "landmark", "friendly", "floating market"] }
+      ],
+      "opener": "Hi! My family wants to visit Viet Nam next year. Which city should we go to?",
+      "stance": "I heard Vietnamese cities are very crowded and noisy. Maybe it isn't good for tourists.",
+      "turns": 5,
+      "fallback": [
+        "Sounds nice! What is it famous for?",
+        "But I heard the cities are very crowded and noisy. Is that true?",
+        "Oh, I see. What food should I try there?",
+        "Thanks! I'll show this to my parents."
+      ],
+      "tipsVi": ["Dùng \"It's famous for its...\"", "Khi Ben lo lắng, đồng ý một phần rồi nêu điểm tốt."],
+      "keywords": ["famous for", "friendly", "street food", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Chọn nơi cho kỳ nghỉ của gia đình",
+      "contextVi": "Gia đình em đang lên kế hoạch cho kỳ nghỉ hè. Bố hỏi ý kiến em nên đi thành phố nào.",
+      "aiRole": "Dad, who is planning the family holiday",
+      "studentRoleVi": "Người con đề xuất nơi đi nghỉ",
+      "goalVi": "Đề xuất một thành phố, mô tả những gì gia đình có thể làm và nêu lý do; trả lời khi bố cho rằng nơi đó quá xa và tốn kém.",
+      "goal": "Suggest a city for the family holiday, describe what the family can do there with reasons, and answer Dad's worry about distance and cost.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất một nơi", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["landmark", "famous for", "rent", "street food", "crowded", "palace"] }
+      ],
+      "opener": "We have one week for a holiday this summer. Which city would you like to visit?",
+      "stance": "That city is too far and expensive. Why don't we stay near home this year?",
+      "turns": 5,
+      "fallback": [
+        "Hmm. What can we do there?",
+        "But that city is too far and expensive. Why don't we stay near home this year?",
+        "That's a fair point. Where can we stay there?",
+        "OK, let's talk to Mum about it tonight."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["famous for", "landmark", "because", "we can"]
+    }
+  ]
+}

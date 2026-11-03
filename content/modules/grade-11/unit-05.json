@@ -1,0 +1,365 @@
+{
+  "grade": 11,
+  "unit": 5,
+  "title": "Global Warming",
+  "titleVi": "Sự nóng lên toàn cầu",
+  "edition": "Tiếng Anh 11 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 52–61; Glossary tr. 127",
+  "vocab": [
+    { "id": "v01", "en": "global warming", "vi": "sự nóng lên toàn cầu", "ipa": "/ˌɡləʊbl ˈwɔːmɪŋ/", "ipaFrom": "glossary", "pos": "n", "example": "Global warming is making summers in Viet Nam hotter.", "collocations": ["fight global warming", "limit global warming"], "synonyms": ["climate change"], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v02", "en": "fossil fuel", "vi": "nhiên liệu hoá thạch", "ipa": "/ˈfɒsl fjuːəl/", "ipaFrom": "glossary", "pos": "n", "example": "Coal, oil and gas are fossil fuels.", "collocations": ["burn fossil fuels"], "synonyms": [], "antonyms": ["renewable energy"], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v03", "en": "emission", "vi": "sự phát thải", "ipa": "/ɪˈmɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "Cars and motorbikes produce a lot of emissions.", "collocations": ["carbon emissions", "reduce emissions"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v04", "en": "carbon dioxide", "vi": "khí cacbonic (CO2)", "ipa": "/ˌkɑːbən daɪˈɒksaɪd/", "ipaFrom": "glossary", "pos": "n", "example": "Trees take in carbon dioxide from the air.", "collocations": ["release carbon dioxide"], "synonyms": ["CO2"], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v05", "en": "deforestation", "vi": "sự phá rừng", "ipa": "/ˌdiːˌfɒrɪˈsteɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "Deforestation destroys the homes of many animals.", "collocations": ["stop deforestation"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v06", "en": "renewable", "vi": "tái tạo", "ipa": "/rɪˈnjuːəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "Wind and sunlight are renewable sources of energy.", "collocations": ["renewable energy", "renewable sources"], "synonyms": [], "antonyms": ["non-renewable"], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v07", "en": "sea level", "vi": "mực nước biển", "ipa": "/ˈsiː levl/", "ipaFrom": "glossary", "pos": "n", "example": "Rising sea levels are a danger to the Mekong Delta.", "collocations": ["rising sea levels"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v08", "en": "temperature", "vi": "nhiệt độ", "ipa": "/ˈtemprətʃə/", "ipaFrom": "glossary", "pos": "n", "example": "The temperature reached 40 degrees last week.", "collocations": ["global temperature", "rising temperatures"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v09", "en": "consequence", "vi": "hậu quả, kết quả", "ipa": "/ˈkɒnsɪkwəns/", "ipaFrom": "glossary", "pos": "n", "example": "Floods are one consequence of global warming.", "collocations": ["serious consequences"], "synonyms": ["result", "effect"], "antonyms": ["cause"], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v10", "en": "human activity", "vi": "hoạt động của con người", "ipa": "/ˈhjuːmən ækˈtɪvəti/", "ipaFrom": "glossary", "pos": "n", "example": "Most greenhouse gases come from human activities.", "collocations": ["human activities"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v11", "en": "impact", "vi": "tác động, ảnh hưởng", "ipa": "/ˈɪmpækt/", "ipaFrom": "glossary", "pos": "n", "example": "Plastic waste has a bad impact on the ocean.", "collocations": ["have an impact on", "environmental impact"], "synonyms": ["effect"], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v12", "en": "leaflet", "vi": "tờ rơi", "ipa": "/ˈliːflət/", "ipaFrom": "glossary", "pos": "n", "example": "We gave out leaflets about saving energy at the market.", "collocations": ["hand out leaflets", "design a leaflet"], "synonyms": ["flyer"], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v13", "en": "atmosphere", "vi": "khí quyển", "ipa": "/ˈætməsfɪə/", "ipaFrom": "glossary", "pos": "n", "example": "Greenhouse gases trap heat in the atmosphere.", "collocations": ["into the atmosphere"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v14", "en": "coal", "vi": "than đá", "ipa": "/kəʊl/", "ipaFrom": "glossary", "pos": "n", "example": "Some power stations still burn coal to make electricity.", "collocations": ["burn coal", "coal-burning stove"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v15", "en": "release", "vi": "thoát ra, phát thải", "ipa": "/rɪˈliːs/", "ipaFrom": "glossary", "pos": "v", "example": "Factories release smoke into the air.", "collocations": ["release gases", "release carbon dioxide"], "synonyms": ["give off"], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v16", "en": "waste", "vi": "rác, chất thải", "ipa": "/weɪst/", "ipaFrom": "glossary", "pos": "n", "example": "Burning waste in the open air is bad for our health.", "collocations": ["solid waste", "reduce waste"], "synonyms": ["rubbish"], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v17", "en": "methane", "vi": "khí mêtan (CH4)", "ipa": "/ˈmiːθeɪn/", "ipaFrom": "glossary", "pos": "n", "example": "Cows and rice fields produce methane.", "collocations": ["produce methane"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v18", "en": "pollutant", "vi": "chất gây ô nhiễm", "ipa": "/pəˈluːtənt/", "ipaFrom": "glossary", "pos": "n", "example": "Smoke from cars contains many pollutants.", "collocations": ["air pollutants", "harmful pollutants"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v19", "en": "heat-trapping", "vi": "giữ nhiệt", "ipa": "/hiːt ˈtræpɪŋ/", "ipaFrom": "glossary", "pos": "adj", "example": "Carbon dioxide is a heat-trapping gas.", "collocations": ["heat-trapping gases"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v20", "en": "cut down", "vi": "chặt, đốn (cây)", "ipa": "/ˌkʌt ˈdaʊn/", "ipaFrom": "glossary", "pos": "phr v", "example": "People cut down forests to make farmland.", "collocations": ["cut down trees", "cut down forests"], "synonyms": [], "antonyms": ["plant"], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v21", "en": "soot", "vi": "mồ / bồ hóng, muội", "ipa": "/sʊt/", "ipaFrom": "glossary", "pos": "n", "example": "Burning coal at home produces soot, which is bad for your lungs.", "collocations": ["black soot"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v22", "en": "farming", "vi": "nghề nông", "ipa": "/ˈfɑːmɪŋ/", "ipaFrom": "glossary", "pos": "n", "example": "Farming is the main job in my grandparents' village.", "collocations": ["the farming industry"], "synonyms": ["agriculture"], "antonyms": [], "src": { "kind": "sgk", "page": 127 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Present participle clauses",
+      "nameVi": "Mệnh đề phân từ hiện tại (V-ing)",
+      "explainVi": "Khi hai mệnh đề có cùng chủ ngữ và chủ ngữ tự làm hành động (nghĩa chủ động), có thể rút gọn một mệnh đề thành V-ing. Dùng để nêu lý do (Feeling tired, I went home = Because I felt tired...) hoặc hai việc xảy ra cùng lúc (Walking on the beach, they picked up litter).",
+      "formula": "V-ing + ..., S + V (cùng chủ ngữ, nghĩa chủ động)",
+      "examples": [
+        "Walking along the river, we saw a lot of plastic waste.",
+        "Feeling worried about the floods, my class made a leaflet.",
+        "Using public transport, you can reduce emissions."
+      ],
+      "wrong": [
+        { "sentence": "Saw the forest fire, the children called for help.", "fix": "Seeing the forest fire, the children called for help.", "whyVi": "Mệnh đề rút gọn chủ động phải dùng V-ing (Seeing), không dùng quá khứ (Saw)." },
+        { "sentence": "The students took part in a clean-up, were picking up rubbish.", "fix": "The students took part in a clean-up, picking up rubbish.", "whyVi": "Mệnh đề rút gọn bỏ cả chủ ngữ và trợ động từ, chỉ giữ V-ing." }
+      ],
+      "drills": [
+        { "prompt": "___ along the beach, we picked up a lot of plastic bottles.", "options": ["Walking", "Walked", "Was walking"], "answer": 0, "explainVi": "Chúng tôi tự đi (chủ động) và cùng lúc nhặt chai: dùng V-ing Walking." },
+        { "prompt": "___ the news about the floods, Mai decided to help.", "options": ["Hearing", "Heard", "Hears"], "answer": 0, "explainVi": "Mai tự nghe tin (chủ động), đó là lý do bạn quyết định giúp: Hearing." },
+        { "prompt": "Which sentence is correct?", "options": ["Was waiting for the bus, I read the news.", "Waiting for the bus, I read the news.", "Waited for the bus, I read the news."], "answer": 1, "explainVi": "Hai việc cùng lúc, cùng chủ ngữ I, nghĩa chủ động: Waiting for the bus, ..." }
+      ],
+      "errorTag": "verb_form",
+      "src": { "kind": "sgk", "page": 54 }
+    },
+    {
+      "id": "g02",
+      "name": "Past participle clauses",
+      "nameVi": "Mệnh đề phân từ quá khứ (V3/V-ed)",
+      "explainVi": "Mệnh đề rút gọn bằng V3/V-ed mang nghĩa bị động (chủ ngữ bị/được tác động). Dùng để nêu lý do (Worried about climate change, many young people joined the protests) hoặc nêu điều kiện (Burnt for energy, fossil fuels release CO2 = If they are burnt...).",
+      "formula": "V3/V-ed + ..., S + V (cùng chủ ngữ, nghĩa bị động)",
+      "examples": [
+        "Shocked by the forest fires, many people planted new trees.",
+        "Produced from sunlight and wind, renewable energy does not release carbon dioxide.",
+        "Left in the sun, plastic slowly breaks into small pieces."
+      ],
+      "wrong": [
+        { "sentence": "Burning for energy, coal releases a lot of carbon dioxide.", "fix": "Burnt for energy, coal releases a lot of carbon dioxide.", "whyVi": "Than đá BỊ đốt (nghĩa bị động) nên dùng phân từ quá khứ Burnt." },
+        { "sentence": "Worrying about the heat, the plants were watered by my mum.", "fix": "Worried about the heat, my mum watered the plants.", "whyVi": "Chủ ngữ của mệnh đề chính phải là người lo lắng (my mum), không phải the plants." }
+      ],
+      "drills": [
+        { "prompt": "___ by the news about the floods, she decided to help.", "options": ["Shocked", "Shocking", "Shock"], "answer": 0, "explainVi": "Cô ấy BỊ tin tức làm sốc (bị động): dùng Shocked." },
+        { "prompt": "___ in large amounts, methane traps a lot of heat.", "options": ["Released", "Releasing", "Release"], "answer": 0, "explainVi": "Khí mêtan BỊ thải ra (bị động): dùng Released." },
+        { "prompt": "___ about rising sea levels, the villagers built a stronger wall.", "options": ["Worried", "Worrying", "Worry"], "answer": 0, "explainVi": "Người dân cảm thấy lo (be worried about): dùng Worried." }
+      ],
+      "errorTag": "verb_form",
+      "src": { "kind": "sgk", "page": 54 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sentence_stress",
+      "focus": "Trọng âm câu và nhịp điệu",
+      "tipVi": "Từ mang nội dung (động từ chính, danh từ, tính từ, trạng từ) thường được nhấn; từ chức năng (liên từ, đại từ, giới từ, trợ động từ, mạo từ) đọc nhẹ, nhanh. Nhấn đúng từ giúp em nói tự nhiên, trôi chảy.",
+      "words": ["planet", "hotter", "causes", "floods", "burning", "coal", "health"],
+      "sentence": "Cutting down forests is bad for the planet.",
+      "quiz": [
+        { "prompt": "In \"The planet is getting hotter\", which word is NOT usually stressed?", "options": ["planet", "the", "hotter"], "answer": 1, "explainVi": "the là mạo từ (từ chức năng) nên không được nhấn; planet và hotter là từ nội dung." },
+        { "prompt": "Which kind of word is usually stressed in a sentence?", "options": ["nouns and main verbs", "articles", "prepositions"], "answer": 0, "explainVi": "Danh từ và động từ chính là từ nội dung nên thường được nhấn." }
+      ],
+      "src": { "kind": "sgk", "page": 53 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "temperature, atmosphere, consequence nhấn âm đầu; emission, renewable, pollutant nhấn âm thứ hai; deforestation nhấn vào \"-sta-\".",
+      "words": ["temperature", "atmosphere", "consequence", "emission", "renewable", "pollutant", "deforestation"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["emission", "atmosphere", "temperature"], "answer": 0, "explainVi": "emission /ɪˈmɪʃn/ nhấn âm thứ hai; atmosphere và temperature nhấn âm đầu." },
+        { "prompt": "Which part of \"deforestation\" has the main stress?", "options": ["de-", "-for-", "-sta-"], "answer": 2, "explainVi": "deforestation /ˌdiːˌfɒrɪˈsteɪʃn/ có trọng âm chính ở \"-sta-\"." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p03",
+      "kind": "intonation",
+      "focus": "Xuống giọng mạnh khi cảnh báo",
+      "tipVi": "Lời cảnh báo ngắn nói to, rõ, nhấn mạnh và xuống giọng ở cuối để người nghe chú ý ngay: Watch OUT! ↘ Mind your HEAD! ↘",
+      "words": ["Watch out!", "Mind your step!"],
+      "sentence": "Watch out! The stove is very hot.",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "I wouldn't ... if I were you.", "vi": "Nếu là bạn thì mình sẽ không ...", "useVi": "Khi cảnh báo nhẹ nhàng, khuyên ai đó đừng làm gì.", "example": "I wouldn't burn that plastic if I were you.", "src": { "kind": "sgk", "page": 59 } },
+    { "id": "e02", "en": "Watch out (for ...)!", "vi": "Cẩn thận (với ...)!", "useVi": "Khi cảnh báo nguy hiểm ngay trước mắt.", "example": "Watch out for the smoke! It's bad for your lungs.", "src": { "kind": "sgk", "page": 59 } },
+    { "id": "e03", "en": "I (must) warn you ...", "vi": "Mình (phải) cảnh báo bạn ...", "useVi": "Khi muốn báo trước một nguy cơ nghiêm túc.", "example": "I must warn you that burning coal produces soot.", "src": { "kind": "sgk", "page": 59 } },
+    { "id": "e04", "en": "Mind your ...", "vi": "Coi chừng ...", "useVi": "Khi nhắc ai cẩn thận với một bộ phận cơ thể hay đồ vật.", "example": "Mind your hands! The pan is hot.", "src": { "kind": "sgk", "page": 59 } },
+    { "id": "e05", "en": "Thanks for (the) warning.", "vi": "Cảm ơn đã nhắc.", "useVi": "Khi đáp lại lời cảnh báo.", "example": "Thanks for the warning. I'll move back a little.", "src": { "kind": "sgk", "page": 59 } },
+    { "id": "e06", "en": "I'll be (more) careful (next time). Thanks.", "vi": "Lần sau mình sẽ cẩn thận hơn. Cảm ơn.", "useVi": "Khi nhận lời cảnh báo và hứa cẩn thận.", "example": "You're right. I'll be more careful next time. Thanks.", "src": { "kind": "sgk", "page": 59 } },
+    { "id": "e07", "en": "Oh, really? I didn't know that. Thanks so much.", "vi": "Ồ, thật à? Mình không biết. Cảm ơn nhiều.", "useVi": "Khi lời cảnh báo cho mình biết điều mới.", "example": "Oh, really? I didn't know that. Thanks so much. I'll tell my dad.", "src": { "kind": "sgk", "page": 59 } },
+    { "id": "e08", "en": "One of the main causes of ... is ...", "vi": "Một trong những nguyên nhân chính của ... là ...", "useVi": "Khi trình bày nguyên nhân một cách rõ ràng.", "example": "One of the main causes of global warming is burning fossil fuels.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "As a result, ...", "vi": "Kết quả là, ...", "useVi": "Khi nói đến hậu quả của một việc.", "example": "The ice is melting. As a result, sea levels are rising.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "Let me give you an example.", "vi": "Để mình đưa ra một ví dụ.", "useVi": "Khi muốn làm ý mình rõ hơn trong thảo luận.", "example": "Let me give you an example. My family now uses LED bulbs.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["Burning fossil fuels", "releases", "a lot of carbon dioxide", "into the atmosphere"], "vi": "Việc đốt nhiên liệu hóa thạch thải rất nhiều khí CO2 vào khí quyển.", "grammarId": null },
+    { "id": "b02", "chunks": ["Cycling to school", "every day", "I help", "reduce emissions"], "vi": "Đạp xe đến trường mỗi ngày, mình góp phần giảm khí thải.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["Worried about", "rising temperatures", "many students", "joined the tree-planting day"], "vi": "Lo lắng về nhiệt độ tăng, nhiều học sinh đã tham gia ngày trồng cây.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["Cutting down forests", "makes", "global warming", "worse"], "vi": "Chặt phá rừng làm cho sự nóng lên toàn cầu tồi tệ hơn.", "grammarId": null },
+    { "id": "b05", "chunks": ["Produced from sunlight and wind", "renewable energy", "does not release", "carbon dioxide"], "vi": "Được tạo ra từ ánh nắng và gió, năng lượng tái tạo không thải khí CO2.", "grammarId": "g02" },
+    { "id": "b06", "chunks": ["If sea levels", "keep rising", "many coastal areas", "will be flooded"], "vi": "Nếu mực nước biển tiếp tục dâng, nhiều vùng ven biển sẽ bị ngập.", "grammarId": null },
+    { "id": "b07", "chunks": ["Feeling worried", "about the floods", "my class", "made a leaflet"], "vi": "Cảm thấy lo lắng về lũ lụt, lớp mình đã làm một tờ rơi.", "grammarId": "g01" },
+    { "id": "b08", "chunks": ["Farming", "also produces", "a lot of methane"], "vi": "Nông nghiệp cũng tạo ra nhiều khí mêtan.", "grammarId": null }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I save energy.",
+      "steps": [
+        { "askVi": "Bằng cách nào?", "ask": "How?", "add": "by turning off the air conditioner" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "when I leave my room" }
+      ],
+      "full": "I save energy by turning off the air conditioner when I leave my room."
+    },
+    {
+      "id": "x02",
+      "base": "The weather is hotter.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in my hometown" },
+        { "askVi": "So với khi nào?", "ask": "Compared with when?", "add": "than it was ten years ago" }
+      ],
+      "full": "The weather is hotter in my hometown than it was ten years ago."
+    },
+    {
+      "id": "x03",
+      "base": "We made a leaflet.",
+      "steps": [
+        { "askVi": "Về chủ đề gì?", "ask": "About what?", "add": "about global warming" },
+        { "askVi": "Cho ai?", "ask": "For whom?", "add": "for younger students" },
+        { "askVi": "Để làm gì?", "ask": "Why?", "add": "to explain how to save energy" }
+      ],
+      "full": "We made a leaflet about global warming for younger students to explain how to save energy."
+    },
+    {
+      "id": "x04",
+      "base": "Sea levels are rising.",
+      "steps": [
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because the ice is melting" },
+        { "askVi": "Hậu quả là gì?", "ask": "What is the result?", "add": "so many coastal areas may be flooded" }
+      ],
+      "full": "Sea levels are rising because the ice is melting, so many coastal areas may be flooded."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Mùa hè nơi em sống",
+      "questions": [
+        "What is summer like where you live?",
+        "How do people in your town deal with very hot days?",
+        "What do you do to stay cool during the hot season?"
+      ],
+      "keywords": ["temperature", "hot", "fan", "air conditioner"],
+      "exampleAnswer": "Summer here is very hot, often over 38 degrees, so I stay indoors at noon and use a fan.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Nguyên nhân của sự nóng lên toàn cầu",
+      "questions": [
+        "What are the main causes of global warming?",
+        "Which human activities make the Earth warmer?",
+        "Why is the Earth getting hotter?"
+      ],
+      "keywords": ["fossil fuel", "deforestation", "emission", "human activity"],
+      "exampleAnswer": "The main causes are burning fossil fuels and cutting down forests, because they increase carbon dioxide in the atmosphere.",
+      "expectsReason": true
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Hậu quả của sự nóng lên toàn cầu",
+      "questions": [
+        "What are some consequences of global warming?",
+        "How does global warming affect people's lives?",
+        "What could happen to coastal cities if sea levels keep rising?"
+      ],
+      "keywords": ["consequence", "sea level", "flood", "temperature"],
+      "exampleAnswer": "Sea levels will rise and there will be more floods, so many people may lose their homes.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Đi lại xanh hơn",
+      "questions": [
+        "How can people travel in a greener way?",
+        "What kind of transport is best for the environment?",
+        "How could your family use less petrol?"
+      ],
+      "keywords": ["emission", "cycle", "public transport", "electric"],
+      "exampleAnswer": "People can cycle, walk or take the bus instead of using their motorbikes for short trips.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Vì sao phá rừng là vấn đề",
+      "questions": [
+        "Why is deforestation a problem for the planet?",
+        "Why should we stop cutting down forests?",
+        "How do trees help reduce global warming?"
+      ],
+      "keywords": ["deforestation", "carbon dioxide", "cut down", "atmosphere"],
+      "exampleAnswer": "Trees take in carbon dioxide, so when we cut down forests, more heat-trapping gas stays in the atmosphere.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Tiết kiệm điện ở trường",
+      "questions": [
+        "How can your school use less electricity?",
+        "What can students do to save energy at school?",
+        "Which things at school waste the most energy?"
+      ],
+      "keywords": ["turn off", "lights", "fans", "save energy"],
+      "exampleAnswer": "Students can turn off the lights and fans when they leave the classroom and open the windows instead.",
+      "expectsReason": false
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What did you do last week that was good for the environment?", "keywords": ["save energy", "waste", "cycle"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should people pay more for electricity if they use too much? Why or why not?", "keywords": ["energy", "emission", "fossil fuel"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend wants to burn a pile of dry leaves and plastic bags in the garden. What do you say to him?", "keywords": ["I wouldn't", "pollutant", "smoke"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What is one thing your family has changed to use less energy?", "keywords": ["electricity", "turn off", "save"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should all new houses have solar panels on the roof? Why or why not?", "keywords": ["renewable", "carbon dioxide", "expensive"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your neighbour keeps his motorbike engine running while he waits outside the shop. What do you say?", "keywords": ["I must warn you", "emission", "petrol"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Chuẩn bị Hội chợ Xanh",
+      "contextVi": "Trường em tổ chức Hội chợ Xanh để nâng cao ý thức về sự nóng lên toàn cầu. Em là thành viên ban tổ chức và cần đề xuất một gian hàng hoặc hoạt động.",
+      "aiRole": "Phuong, a member of the school's Green Fair team",
+      "studentRoleVi": "Thành viên ban tổ chức Hội chợ Xanh",
+      "goalVi": "Đề xuất một hoạt động cho Hội chợ Xanh và nêu ít nhất một lý do.",
+      "goal": "Suggest one activity or stall for the school's Green Fair and give at least one reason.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra đề xuất", "words": [] },
+        { "kind": "reason", "vi": "Nêu ít nhất một lý do (because...)", "words": [] }
+      ],
+      "opener": "Hi! The Green Fair is in two weeks. What activity or stall do you think we should have?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Nice idea! Why do you think it's a good one?",
+        "What do we need to prepare for it?",
+        "Great. Who should we ask to help us?"
+      ],
+      "tipsVi": ["Bắt đầu bằng \"I think we should...\" hoặc \"Why don't we...?\"", "Có thể gợi ý: đổi đồ cũ, tờ rơi tiết kiệm điện, trò chơi về năng lượng tái tạo."],
+      "keywords": ["leaflet", "save energy", "renewable", "because", "we should"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Thuyết phục chú đổi xe máy cũ",
+      "contextVi": "Chú của em đi một chiếc xe máy rất cũ, xả nhiều khói đen. Em muốn thuyết phục chú bảo dưỡng xe hoặc đi phương tiện khác.",
+      "aiRole": "Uncle Binh, who loves his old motorbike",
+      "studentRoleVi": "Cháu, người thuyết phục chú",
+      "goalVi": "Thuyết phục chú thay đổi: nêu lý do, đưa ví dụ, và trả lời khi chú phản đối.",
+      "goal": "Persuade your uncle to repair his old motorbike or use cleaner transport: give reasons, an example, and answer his objection.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do (khí thải, sức khỏe...)", "words": [] },
+        { "kind": "suggestion", "vi": "Đưa ra một cách thay thế cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["emission", "pollutant", "fossil fuel", "global warming", "impact"] }
+      ],
+      "opener": "Look at my old motorbike! It's twenty years old and it still runs. Isn't it great?",
+      "stance": "My old motorbike still works well. Buying a new one is too expensive, and one motorbike doesn't make any difference.",
+      "turns": 5,
+      "fallback": [
+        "Hmm, what's wrong with it?",
+        "But it still works well! A new one is too expensive, and one motorbike doesn't make any difference.",
+        "Well, maybe. What do you think I should do, then?",
+        "OK, I'll take it to the repair shop this weekend. Happy now?"
+      ],
+      "tipsVi": ["Nói với người lớn lễ phép: \"I understand, but...\"", "Gợi ý phương án rẻ: bảo dưỡng xe, đi xe buýt cho chuyến xa."],
+      "keywords": ["emission", "pollutant", "health", "because", "I understand"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Điều hòa ở trại hè",
+      "contextVi": "Em ở chung phòng với một bạn trong trại hè. Bạn muốn bật điều hòa 18 độ cả ngày, kể cả khi không ai ở trong phòng.",
+      "aiRole": "Khanh, your roommate at a summer camp",
+      "studentRoleVi": "Bạn cùng phòng muốn tiết kiệm năng lượng",
+      "goalVi": "Thuyết phục Khanh dùng điều hòa hợp lý hơn, nêu lý do và trả lời khi Khanh phản đối.",
+      "goal": "Persuade Khanh to use the air conditioner more carefully, explain why, and answer his objection.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do nên tiết kiệm năng lượng", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất một cách dùng hợp lý", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["temperature", "fossil fuel", "emission", "global warming", "coal"] }
+      ],
+      "opener": "It's so hot! I'm going to set the air conditioner to 18 degrees and leave it on all day. OK?",
+      "stance": "Summers are so hot now that we need the air conditioner all day. Saving a little electricity won't change anything.",
+      "turns": 5,
+      "fallback": [
+        "Why not? It's really hot!",
+        "But summers are so hot now. Saving a little electricity won't change anything, will it?",
+        "Hmm, I didn't know that. So what temperature should we use?",
+        "OK, deal. And we'll turn it off when we go out."
+      ],
+      "tipsVi": ["Nói về nguồn điện từ than đá và khí thải.", "Đề xuất cụ thể: để 26 độ, tắt khi ra ngoài."],
+      "keywords": ["temperature", "save energy", "coal", "because", "I see your point"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Nói chuyện với bác nông dân đốt rơm",
+      "contextVi": "Sau mùa gặt, một bác nông dân trong làng định đốt rơm trên ruộng. Khói bay vào trường và nhà dân. Em nói chuyện lễ phép với bác.",
+      "aiRole": "Mr Dung, a local rice farmer",
+      "studentRoleVi": "Học sinh trong làng",
+      "goalVi": "Cảnh báo về tác hại của việc đốt rơm, đề xuất cách khác, và trả lời khi bác có ý kiến khác.",
+      "goal": "Warn the farmer about the harm of burning straw, suggest another way, and respond to his different opinion.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu tác hại", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất cách khác", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["pollutant", "release", "carbon dioxide", "impact", "soot", "farming"] }
+      ],
+      "opener": "Hello there. I'm going to burn the straw in my field this afternoon. Do you need something?",
+      "stance": "Burning straw is the quickest and cheapest way to clean the field. Everyone here does it.",
+      "turns": 5,
+      "fallback": [
+        "Oh? Why is that a problem?",
+        "But burning straw is the quickest and cheapest way. Everyone here does it.",
+        "Hmm. What else can I do with all this straw?",
+        "All right, young person. I'll think about your idea."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["smoke", "pollutant", "health", "because", "I must warn you"]
+    }
+  ]
+}

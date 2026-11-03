@@ -1,0 +1,387 @@
+{
+  "grade": 6,
+  "unit": 2,
+  "title": "My House",
+  "titleVi": "Ngôi nhà của em",
+  "edition": "Tiếng Anh 6 Global Success, sách học sinh tập một (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 16–25; Glossary tr. 70",
+  "vocab": [
+    { "id": "v01", "en": "flat", "vi": "căn hộ", "ipa": "/flæt/", "ipaFrom": "glossary", "pos": "n", "example": "My family lives in a small flat on the fifth floor.", "collocations": ["live in a flat", "a new flat"], "synonyms": ["apartment"], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v02", "en": "town house", "vi": "nhà phố", "ipa": "/ˈtaʊn haʊs/", "ipaFrom": "glossary", "pos": "n", "example": "My uncle has a tall town house in the city centre.", "collocations": ["live in a town house"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v03", "en": "country house", "vi": "nhà ở vùng quê", "ipa": "/ˌkʌntri ˈhaʊs/", "ipaFrom": "glossary", "pos": "n", "example": "My grandparents' country house has a big garden.", "collocations": ["a quiet country house"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v04", "en": "furniture", "vi": "đồ đạc trong nhà", "ipa": "/ˈfɜːnɪtʃə/", "ipaFrom": "glossary", "pos": "n", "example": "There isn't much furniture in my bedroom.", "collocations": ["new furniture", "a piece of furniture"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v05", "en": "wardrobe", "vi": "tủ đựng quần áo", "ipa": "/ˈwɔːdrəʊb/", "ipaFrom": "glossary", "pos": "n", "example": "I keep my school uniform in the wardrobe.", "collocations": ["a big wardrobe"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v06", "en": "chest of drawers", "vi": "tủ có ngăn kéo", "ipa": "/ˌtʃest əv ˈdrɔːz/", "ipaFrom": "glossary", "pos": "n", "example": "My socks are in the chest of drawers.", "collocations": ["a small chest of drawers"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v07", "en": "cupboard", "vi": "tủ đựng bát đĩa / quần áo", "ipa": "/ˈkʌbəd/", "ipaFrom": "glossary", "pos": "n", "example": "The bowls are in the cupboard in the kitchen.", "collocations": ["kitchen cupboard"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v08", "en": "shelf", "vi": "kệ, giá", "ipa": "/ʃelf/", "ipaFrom": "glossary", "pos": "n", "example": "There are a lot of books on the shelf above my desk.", "collocations": ["a book shelf", "on the shelf"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v09", "en": "cooker", "vi": "bếp", "ipa": "/ˈkʊkə/", "ipaFrom": "glossary", "pos": "n", "example": "My mum is making soup on the cooker.", "collocations": ["a gas cooker"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v10", "en": "sink", "vi": "bồn rửa bát", "ipa": "/sɪŋk/", "ipaFrom": "glossary", "pos": "n", "example": "I wash the dishes in the sink after dinner.", "collocations": ["kitchen sink"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v11", "en": "dishwasher", "vi": "máy rửa bát", "ipa": "/ˈdɪʃwɒʃə/", "ipaFrom": "glossary", "pos": "n", "example": "We don't have a dishwasher, so I help wash the bowls.", "collocations": ["use the dishwasher"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v12", "en": "hall", "vi": "sảnh", "ipa": "/hɔːl/", "ipaFrom": "glossary", "pos": "n", "example": "We leave our shoes in the hall.", "collocations": ["in the hall"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v13", "en": "department store", "vi": "cửa hàng bách hoá", "ipa": "/dɪˈpɑːtmənt stɔː/", "ipaFrom": "glossary", "pos": "n", "example": "We bought a new lamp at the department store.", "collocations": ["go to the department store"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v14", "en": "next to", "vi": "bên cạnh", "ipa": "/ˈnekst tə/", "ipaFrom": "glossary", "pos": "pre", "example": "My desk is next to the window.", "collocations": ["next to the bed", "next to the kitchen"], "synonyms": ["beside"], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v15", "en": "in front of", "vi": "ở đằng trước, phía trước", "ipa": "/ɪn frʌnt əv/", "ipaFrom": "glossary", "pos": "pre", "example": "There is a small garden in front of our house.", "collocations": ["in front of the TV", "in front of the house"], "synonyms": [], "antonyms": ["behind"], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v16", "en": "between", "vi": "ở giữa", "ipa": "/bɪˈtwiːn/", "ipaFrom": "glossary", "pos": "pre", "example": "The bathroom is between my bedroom and my sister's bedroom.", "collocations": ["between the two beds"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v17", "en": "behind", "vi": "ở phía sau", "ipa": "/bɪˈhaɪnd/", "ipaFrom": "dictionary", "pos": "pre", "example": "My cat is sleeping behind the sofa.", "collocations": ["behind the door", "behind the house"], "synonyms": [], "antonyms": ["in front of"], "src": { "kind": "sgk", "page": 19 } },
+    { "id": "v18", "en": "strange", "vi": "kì lạ", "ipa": "/streɪndʒ/", "ipaFrom": "glossary", "pos": "adj", "example": "That house looks strange. It is shaped like a shoe.", "collocations": ["a strange house"], "synonyms": ["crazy"], "antonyms": ["normal"], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v19", "en": "crazy", "vi": "kì lạ, lạ thường", "ipa": "/ˈkreɪzi/", "ipaFrom": "glossary", "pos": "adj", "example": "We saw a crazy house with a slide from the bedroom.", "collocations": ["a crazy idea"], "synonyms": ["strange"], "antonyms": [], "src": { "kind": "sgk", "page": 70 } },
+    { "id": "v20", "en": "kitchen", "vi": "nhà bếp", "ipa": "/ˈkɪtʃɪn/", "ipaFrom": "dictionary", "pos": "n", "example": "We have dinner together in the kitchen.", "collocations": ["in the kitchen"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 17 } },
+    { "id": "v21", "en": "living room", "vi": "phòng khách", "ipa": "/ˈlɪvɪŋ ruːm/", "ipaFrom": "dictionary", "pos": "n", "example": "My family watches TV in the living room.", "collocations": ["in the living room"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 17 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Possessive case",
+      "nameVi": "Sở hữu cách ('s)",
+      "explainVi": "Dùng 's sau tên riêng hoặc sau danh từ số ít để nói một vật thuộc về ai: Elena's room (phòng của Elena), my mum's book (sách của mẹ). Chú ý: tiếng Anh nói người sở hữu TRƯỚC, đồ vật SAU, ngược với tiếng Việt.",
+      "formula": "Tên riêng / danh từ số ít + 's + danh từ",
+      "examples": [
+        "This is Nam's bedroom.",
+        "My brother's desk is next to the window.",
+        "Where is your sister's bike?"
+      ],
+      "wrong": [
+        { "sentence": "This is the room of Mai.", "fix": "This is Mai's room.", "whyVi": "Với người, dùng 's: Mai's room nghe tự nhiên hơn." },
+        { "sentence": "My dad car is in the garage.", "fix": "My dad's car is in the garage.", "whyVi": "Thiếu 's sau dad để chỉ sở hữu." },
+        { "sentence": "This is lamp Lan's.", "fix": "This is Lan's lamp.", "whyVi": "Người sở hữu đứng trước, đồ vật đứng sau: Lan's lamp." }
+      ],
+      "drills": [
+        { "prompt": "The red bike belongs to Minh. It is ___ bike.", "options": ["Minh's", "Minh", "Minhs"], "answer": 0, "explainVi": "Thêm 's sau tên riêng để chỉ sở hữu: Minh's bike." },
+        { "prompt": "Which sentence is correct?", "options": ["This is my grandmother's house.", "This is my grandmother house.", "This is house my grandmother's."], "answer": 0, "explainVi": "Người sở hữu + 's + đồ vật: my grandmother's house." },
+        { "prompt": "My ___ room is very tidy. (sister)", "options": ["sister's", "sisters", "sister"], "answer": 0, "explainVi": "Chị/em gái số ít, chỉ sở hữu: sister's room." }
+      ],
+      "errorTag": "other",
+      "src": { "kind": "sgk", "page": 18 }
+    },
+    {
+      "id": "g02",
+      "name": "Prepositions of place",
+      "nameVi": "Giới từ chỉ nơi chốn",
+      "explainVi": "Giới từ chỉ nơi chốn cho biết người hoặc vật ở đâu: in (trong), on (trên, có tiếp xúc), under (dưới), behind (phía sau), next to (bên cạnh), in front of (phía trước), between (ở giữa hai thứ: between A and B).",
+      "formula": "S + be + in / on / under / behind / next to / in front of / between ... and ...",
+      "examples": [
+        "The books are on the table.",
+        "The cat is under the bed.",
+        "The lamp is between the sofa and the TV."
+      ],
+      "wrong": [
+        { "sentence": "The picture is in the wall.", "fix": "The picture is on the wall.", "whyVi": "Tranh treo trên tường dùng on." },
+        { "sentence": "My bag is next the desk.", "fix": "My bag is next to the desk.", "whyVi": "Phải nói đủ next to." },
+        { "sentence": "The sofa is between the lamp or the TV.", "fix": "The sofa is between the lamp and the TV.", "whyVi": "between đi với and: between A and B." }
+      ],
+      "drills": [
+        { "prompt": "My clothes are ___ the wardrobe.", "options": ["in", "on", "between"], "answer": 0, "explainVi": "Quần áo nằm bên trong tủ: in." },
+        { "prompt": "The dog is sleeping ___ the table. It's in the shade.", "options": ["under", "on", "between"], "answer": 0, "explainVi": "Con chó nằm dưới bàn: under." },
+        { "prompt": "The bathroom is ___ the kitchen and the bedroom.", "options": ["between", "next", "in front"], "answer": 0, "explainVi": "Ở giữa hai phòng: between ... and ..." },
+        { "prompt": "Which sentence is correct?", "options": ["There is a garden in front of my house.", "There is a garden in front my house.", "There is a garden front of my house."], "answer": 0, "explainVi": "Phải đủ ba từ: in front of." }
+      ],
+      "errorTag": "preposition",
+      "src": { "kind": "sgk", "page": 19 }
+    },
+    {
+      "id": "g03",
+      "name": "There is / There are",
+      "nameVi": "Có ... (There is / There are)",
+      "explainVi": "Dùng There is với danh từ số ít hoặc không đếm được, There are với danh từ số nhiều để nói trong nhà, trong phòng có gì. Câu hỏi: Is there...? / Are there...? Câu phủ định: There isn't... / There aren't any...",
+      "formula": "There is + a/an + danh từ số ít  ·  There are + danh từ số nhiều  ·  Is there...? / Are there...?",
+      "examples": [
+        "There is a big sofa in the living room.",
+        "There are three bedrooms in my house.",
+        "Are there any pictures in your room?"
+      ],
+      "wrong": [
+        { "sentence": "There is two lamps in my room.", "fix": "There are two lamps in my room.", "whyVi": "two lamps là số nhiều nên dùng There are." },
+        { "sentence": "In my house have four rooms.", "fix": "There are four rooms in my house.", "whyVi": "Nói \"có\" về đồ vật trong một nơi dùng There are, không dùng have như tiếng Việt." }
+      ],
+      "drills": [
+        { "prompt": "___ a fridge in your kitchen?", "options": ["Is there", "Are there", "There is"], "answer": 0, "explainVi": "a fridge số ít, câu hỏi: Is there...?" },
+        { "prompt": "There ___ two wardrobes in my parents' bedroom.", "options": ["are", "is", "be"], "answer": 0, "explainVi": "two wardrobes số nhiều: There are." },
+        { "prompt": "Which sentence is correct?", "options": ["There isn't a dishwasher in our flat.", "There aren't a dishwasher in our flat.", "There not is a dishwasher in our flat."], "answer": 0, "explainVi": "a dishwasher số ít, phủ định: There isn't." }
+      ],
+      "errorTag": "subject_verb",
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "ending",
+      "focus": "Âm cuối /s/",
+      "tipVi": "Khi danh từ kết thúc bằng âm vô thanh như /p/, /k/, /t/, đuôi -s đọc là /s/: lamps, sinks. Đọc nhẹ như tiếng gió \"xì\", không kéo dài thành \"sờ\".",
+      "words": ["lamps", "sinks", "flats", "toilets"],
+      "sentence": "There are two lamps and two sinks in our flat.",
+      "quiz": [
+        { "prompt": "Which word ends with the sound /s/?", "options": ["flats", "sofas", "beds"], "answer": 0, "explainVi": "flat kết thúc bằng /t/ nên flats đọc đuôi /s/; sofas và beds đọc đuôi /z/." }
+      ],
+      "src": { "kind": "sgk", "page": 18 }
+    },
+    {
+      "id": "p02",
+      "kind": "ending",
+      "focus": "Âm cuối /z/",
+      "tipVi": "Khi danh từ kết thúc bằng nguyên âm hoặc âm hữu thanh như /d/, /n/, /m/, đuôi -s đọc là /z/: rooms, sofas. Cổ họng rung khi đọc /z/.",
+      "words": ["cupboards", "sofas", "kitchens", "rooms"],
+      "sentence": "The kitchens and living rooms in these flats have new sofas.",
+      "quiz": [
+        { "prompt": "Which word ends with the sound /z/?", "options": ["rooms", "lamps", "books"], "answer": 0, "explainVi": "room kết thúc bằng /m/ (hữu thanh) nên rooms đọc đuôi /z/; lamps, books đọc /s/." },
+        { "prompt": "Which word does NOT end with /z/?", "options": ["cupboards", "toilets", "kitchens"], "answer": 1, "explainVi": "toilet kết thúc bằng /t/ (vô thanh) nên toilets đọc đuôi /s/." }
+      ],
+      "src": { "kind": "sgk", "page": 18 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "furniture, wardrobe, cupboard, dishwasher, kitchen nhấn âm đầu; between, behind, department nhấn âm thứ hai. Trong cupboard, chữ p không đọc: /ˈkʌbəd/.",
+      "words": ["furniture", "wardrobe", "cupboard", "dishwasher", "between", "behind", "department"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["between", "cooker", "wardrobe"], "answer": 0, "explainVi": "between /bɪˈtwiːn/ nhấn âm thứ hai; cooker, wardrobe nhấn âm đầu." },
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["furniture", "behind", "department"], "answer": 0, "explainVi": "furniture /ˈfɜːnɪtʃə/ nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Xuống giọng ở cuối câu hỏi Where",
+      "tipVi": "Câu hỏi bắt đầu bằng Where, What thường xuống giọng ở cuối. Nhấn vào từ chỉ đồ vật: Where are the BOOKS?",
+      "words": ["Where are the books?", "What's in your room?"],
+      "sentence": "Where do you keep your school bag?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "How about + V-ing ...?", "vi": "... thì sao? / Hay là ...?", "useVi": "Khi đưa ra gợi ý cho ai đó.", "example": "How about putting a plant next to the window?", "src": { "kind": "sgk", "page": 20 } },
+    { "id": "e02", "en": "Let's + V ...", "vi": "Chúng ta hãy ...", "useVi": "Khi rủ người khác cùng làm một việc.", "example": "Let's clean our room this afternoon.", "src": { "kind": "sgk", "page": 20 } },
+    { "id": "e03", "en": "Great idea!", "vi": "Ý hay đấy!", "useVi": "Khi đồng ý với gợi ý của người khác.", "example": "Great idea! I'll get the paint.", "src": { "kind": "sgk", "page": 20 } },
+    { "id": "e04", "en": "Where do you live?", "vi": "Bạn sống ở đâu?", "useVi": "Khi hỏi bạn sống ở đâu, sống trong kiểu nhà nào.", "example": "Where do you live? I live in a flat near the market.", "src": { "kind": "sgk", "page": 17 } },
+    { "id": "e05", "en": "There is / There are ... in my room.", "vi": "Trong phòng mình có ...", "useVi": "Khi tả đồ đạc trong phòng hoặc trong nhà.", "example": "There is a desk and there are two shelves in my room.", "src": { "kind": "team", "page": null } },
+    { "id": "e06", "en": "It's next to / between ...", "vi": "Nó ở bên cạnh / ở giữa ...", "useVi": "Khi chỉ vị trí của một căn phòng hoặc đồ vật.", "example": "The bathroom is next to my bedroom.", "src": { "kind": "team", "page": null } },
+    { "id": "e07", "en": "My favourite room is ... because ...", "vi": "Phòng mình thích nhất là ... vì ...", "useVi": "Khi nói về phòng mình thích và lý do.", "example": "My favourite room is the kitchen because we cook and eat together there.", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "Come in and look around.", "vi": "Vào đi và xem thử nhé.", "useVi": "Khi mời bạn vào nhà hoặc vào phòng mình.", "example": "Come in and look around. This is my bedroom.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["There are", "three bedrooms", "in my house"], "vi": "Nhà mình có ba phòng ngủ.", "grammarId": "g03" },
+    { "id": "b02", "chunks": ["My desk is", "next to", "the window"], "vi": "Bàn học của mình ở cạnh cửa sổ.", "grammarId": "g02" },
+    { "id": "b03", "chunks": ["This is", "my sister's room", "and that is", "my parents' room"], "vi": "Đây là phòng của chị mình và kia là phòng của bố mẹ mình.", "grammarId": "g01" },
+    { "id": "b04", "chunks": ["The bathroom is", "between", "the kitchen", "and the hall"], "vi": "Phòng tắm ở giữa nhà bếp và sảnh.", "grammarId": "g02" },
+    { "id": "b05", "chunks": ["Is there", "a dishwasher", "in your kitchen?"], "vi": "Trong bếp nhà bạn có máy rửa bát không?", "grammarId": "g03" },
+    { "id": "b06", "chunks": ["I keep my clothes", "in the wardrobe", "and my books", "on the shelf"], "vi": "Mình để quần áo trong tủ và sách trên giá.", "grammarId": "g02" },
+    { "id": "b07", "chunks": ["My grandparents live", "in a country house", "with a big garden"], "vi": "Ông bà mình sống trong một ngôi nhà ở quê có khu vườn lớn.", "grammarId": null },
+    { "id": "b08", "chunks": ["How about", "putting a lamp", "behind", "the sofa?"], "vi": "Hay là đặt một cái đèn phía sau ghế sofa?", "grammarId": "g02" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I live in a flat.",
+      "steps": [
+        { "askVi": "Căn hộ thế nào?", "ask": "What is it like?", "add": "small" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "near the city centre" },
+        { "askVi": "Sống cùng ai?", "ask": "Who with?", "add": "with my parents and my brother" }
+      ],
+      "full": "I live in a small flat near the city centre with my parents and my brother."
+    },
+    {
+      "id": "x02",
+      "base": "There is a desk in my room.",
+      "steps": [
+        { "askVi": "Bàn thế nào?", "ask": "What kind?", "add": "big wooden" },
+        { "askVi": "Ở vị trí nào?", "ask": "Where exactly?", "add": "next to the window" }
+      ],
+      "full": "There is a big wooden desk in my room next to the window."
+    },
+    {
+      "id": "x03",
+      "base": "I like the living room.",
+      "steps": [
+        { "askVi": "Thích đến mức nào?", "ask": "How much?", "add": "best" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because we watch TV together there" }
+      ],
+      "full": "I like the living room best because we watch TV together there."
+    },
+    {
+      "id": "x04",
+      "base": "My cat sleeps.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "under my bed" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every afternoon" }
+      ],
+      "full": "My cat sleeps under my bed every afternoon."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Kiểu nhà em đang sống",
+      "questions": [
+        "Do you live in a flat, a town house or a country house?",
+        "Can you describe the home you live in?",
+        "Tell me about your home."
+      ],
+      "keywords": ["flat", "town house", "bedrooms", "there are"],
+      "exampleAnswer": "I live in a town house. There are four floors, three bedrooms and a small kitchen.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Đồ đạc trong phòng em và vị trí của chúng",
+      "questions": [
+        "What furniture is there in your room?",
+        "Where is your bed in your bedroom?",
+        "Describe where things are in your room."
+      ],
+      "keywords": ["next to", "between", "wardrobe", "shelf"],
+      "exampleAnswer": "My bed is next to the window. There is a wardrobe behind the door and a shelf above my desk.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Căn bếp nhà em",
+      "questions": [
+        "What is there in your kitchen?",
+        "Who usually cooks in your kitchen?",
+        "What do you do in the kitchen at home?"
+      ],
+      "keywords": ["cooker", "sink", "cupboard", "fridge"],
+      "exampleAnswer": "There is a cooker, a sink and a fridge. My mum usually cooks, and I wash the bowls.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Phòng của người thân trong gia đình",
+      "questions": [
+        "What is your brother's or sister's room like?",
+        "What can you see in your parents' room?",
+        "Tell me about a family member's room in your house."
+      ],
+      "keywords": ["sister's", "parents'", "there is", "next to"],
+      "exampleAnswer": "My sister's room is small but tidy. There is a desk next to her bed and a lot of books.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Sống ở thành phố hay ở quê, nơi nào tốt hơn",
+      "questions": [
+        "Would you like to live in a country house? Why or why not?",
+        "Why do some people like living in a town house in the city?",
+        "Is it nice to live in a flat? Why?"
+      ],
+      "keywords": ["country house", "flat", "quiet", "because"],
+      "exampleAnswer": "Yes, I would. A country house is quiet and has a big garden, so I can play outside.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What is in your living room, and where are the things?", "keywords": ["sofa", "TV", "next to", "there is"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should children help clean the house every day? Why or why not?", "keywords": ["should", "help", "tidy", "because"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend can't find a quiet place to study at home. What do you suggest?", "keywords": ["how about", "desk", "quiet", "let's"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What is in your grandparents' house, and where are the rooms?", "keywords": ["kitchen", "between", "there are", "next to"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should every child have his or her own bedroom? Why or why not?", "keywords": ["should", "share", "bedroom", "because"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your cousin can't find his school bag because his room is messy. What do you suggest?", "keywords": ["how about", "shelf", "tidy", "let's"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Kể về ngôi nhà qua cuộc gọi video",
+      "contextVi": "Em gọi video cho một người bạn qua thư ở nước ngoài. Bạn ấy muốn biết ngôi nhà và phòng của em trông thế nào.",
+      "aiRole": "Emma, your pen friend from England",
+      "studentRoleVi": "Bạn qua thư người Việt Nam",
+      "goalVi": "Tả kiểu nhà, các phòng và đồ đạc trong phòng em, dùng giới từ chỉ vị trí.",
+      "goal": "Describe your house, its rooms and the furniture in your room, using prepositions of place.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng ít nhất một giới từ chỉ vị trí", "words": ["next to", "between", "in front of", "behind", "under"] },
+        { "kind": "example", "vi": "Kể ít nhất một đồ vật cụ thể trong phòng", "words": [] }
+      ],
+      "opener": "Hi! I'd love to see where you live. What kind of house do you live in?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Nice! How many rooms are there?",
+        "What is there in your bedroom?",
+        "It sounds lovely. Which room do you like best?"
+      ],
+      "tipsVi": ["Dùng There is / There are.", "Chỉ vị trí bằng next to, between, behind."],
+      "keywords": ["there is", "there are", "next to", "bedroom", "flat"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Trang trí lại phòng ngủ",
+      "contextVi": "Em và mẹ bàn cách trang trí lại phòng ngủ của em. Em muốn thêm vài thứ, nhưng mẹ nghĩ phòng đã đủ đồ.",
+      "aiRole": "Mum, who thinks the room already has enough things",
+      "studentRoleVi": "Con muốn trang trí lại phòng",
+      "goalVi": "Gợi ý ít nhất một thứ nên thêm hoặc thay đổi, nêu lý do và trả lời khi mẹ không đồng ý.",
+      "goal": "Suggest something to add or change in your bedroom, explain why, and answer Mum's concern politely.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đưa ra gợi ý (How about...? Let's...)", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["shelf", "lamp", "wardrobe", "furniture", "next to"] }
+      ],
+      "opener": "You said your room isn't nice. What would you like to change?",
+      "stance": "Your room already has a lot of furniture. New things cost money and make the room crowded.",
+      "turns": 5,
+      "fallback": [
+        "Hmm. Why do you need that?",
+        "But your room already has a lot of furniture. New things cost money and make it crowded.",
+        "That's a good point. Where would you put it?",
+        "OK. Let's go to the department store this weekend."
+      ],
+      "tipsVi": ["Khi mẹ lo, nói \"I understand, Mum, but...\"", "Gợi ý thứ nhỏ, rẻ: một bức tranh, một cái giá."],
+      "keywords": ["how about", "let's", "shelf", "because", "next to"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Căn hộ hay nhà ở quê",
+      "contextVi": "Gia đình em đang nói về việc chuyển nhà. Em nói chuyện với anh trai về nơi em muốn sống. Anh ấy thích căn hộ ở thành phố.",
+      "aiRole": "Tuan, your older brother who loves city flats",
+      "studentRoleVi": "Em trai/em gái muốn chọn nơi ở",
+      "goalVi": "Chọn kiểu nhà em muốn sống, nêu lý do, và trả lời khi anh trai nghĩ khác.",
+      "goal": "Say what kind of house you want to live in, give reasons, and respond when your brother disagrees.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu ít nhất hai lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["flat", "country house", "town house", "garden", "quiet"] }
+      ],
+      "opener": "Mum says we might move next year. What kind of house would you like to live in?",
+      "stance": "A flat in the city is better. It's near school and the department store.",
+      "turns": 5,
+      "fallback": [
+        "Really? Why do you like that kind of house?",
+        "I prefer a flat in the city. It's near school and the department store.",
+        "Hmm, that's true. What rooms do you want in the new house?",
+        "OK, let's tell Mum and Dad our ideas tonight."
+      ],
+      "tipsVi": ["Dùng because để nêu lý do.", "Khi anh nghĩ khác: \"That's true, but...\""],
+      "keywords": ["country house", "flat", "garden", "because", "quiet"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Chỉ chỗ cho bạn đến chơi nhà",
+      "contextVi": "Một bạn cùng lớp lần đầu đến nhà em học nhóm. Em dẫn bạn đi xem nhà và chỉ chỗ các phòng, đồ dùng bạn cần.",
+      "aiRole": "Ha, a classmate visiting your home for the first time",
+      "studentRoleVi": "Chủ nhà, giới thiệu ngôi nhà",
+      "goalVi": "Giới thiệu các phòng, chỉ vị trí đồ vật, gợi ý chỗ học nhóm và trả lời khi Ha có ý khác.",
+      "goal": "Show Ha your home, say where things are, suggest a place to study, and respond to Ha's different idea.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Gợi ý chỗ học nhóm", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một giới từ chỉ vị trí", "words": ["next to", "between", "behind", "in front of", "on"] }
+      ],
+      "opener": "Wow, your house is nice! Where can we do our group project?",
+      "stance": "Let's study in the living room in front of the TV. It's more fun.",
+      "turns": 5,
+      "fallback": [
+        "OK. Where is the bathroom, please?",
+        "Hmm, I think we should study in the living room in front of the TV. It's more fun.",
+        "Fair enough. Where can I put my bag?",
+        "Thanks! Let's start our project."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["next to", "between", "how about", "because", "room"]
+    }
+  ]
+}

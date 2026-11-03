@@ -7,6 +7,8 @@ import SessionList from "@/components/SessionList";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { listSessions } from "@/lib/sessions";
+import { studentModules } from "@/lib/module/server";
+import { ReportView } from "@/components/module/Panels";
 
 export const metadata: Metadata = { title: "Lịch sử luyện tập của học sinh" };
 export const dynamic = "force-dynamic";
@@ -29,7 +31,7 @@ export default async function TeacherStudentPage({
   const supabase = await createClient();
   const { data: student } = await supabase.from("profiles").select("id, display_name, grade, role").eq("id", id).maybeSingle();
   if (!student || student.role !== "student") notFound();
-  const sessions = await listSessions(id, 200);
+  const [sessions, modules] = await Promise.all([listSessions(id, 200), studentModules(id)]);
   const back = classId && UUID.test(classId) ? { href: `/teacher/classes/${classId}`, label: "Về lớp" } : { href: "/teacher", label: "Về danh sách lớp" };
   const name = student.display_name ?? "Học sinh";
 
@@ -47,6 +49,16 @@ export default async function TeacherStudentPage({
             {sessions.filter((s) => s.status === "completed").length} buổi hoàn thành.
           </p>
         </div>
+        {modules.map((p) => (
+          <section key={p.module.id} className="grid gap-4">
+            <h2 className="text-2xl font-extrabold tracking-tight">
+              Learning Module: Unit {p.module.unitNo} <span lang="en">{p.module.title}</span>
+            </h2>
+            <p className="text-muted">Đã xong {p.daysDone}/14 ngày.</p>
+            <ReportView r={p.report} />
+          </section>
+        ))}
+        <h2 className="text-2xl font-extrabold tracking-tight">Buổi luyện 5 câu</h2>
         {sessions.length === 0 ? (
           <p className="max-w-prose rounded-2xl bg-sunken px-5 py-4 text-muted">Học sinh này chưa có buổi luyện nào.</p>
         ) : (

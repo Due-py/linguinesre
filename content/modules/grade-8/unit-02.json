@@ -1,0 +1,362 @@
+{
+  "grade": 8,
+  "unit": 2,
+  "title": "Life in the Countryside",
+  "titleVi": "Cuộc sống ở nông thôn",
+  "edition": "Tiếng Anh 8 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 18–27; Glossary tr. 136",
+  "vocab": [
+    { "id": "v01", "en": "harvest", "vi": "vụ thu hoạch, vụ gặt, gặt hái, thu hoạch", "ipa": "/ˈhɑːvɪst/", "ipaFrom": "glossary", "pos": "n, v", "example": "At harvest time, the whole village is very busy.", "collocations": ["harvest time", "harvest rice", "a good harvest"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v02", "en": "paddy field", "vi": "ruộng lúa", "ipa": "/ˈpædi ˌfiːld/", "ipaFrom": "glossary", "pos": "n", "example": "The paddy fields turn yellow before the harvest.", "collocations": ["green paddy fields", "work in the paddy field"], "synonyms": ["rice field"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v03", "en": "combine harvester", "vi": "máy gặt đập liên hợp", "ipa": "/ˈkɒmbaɪn ˈhɑːvɪstə/", "ipaFrom": "glossary", "pos": "n", "example": "A combine harvester can cut and collect rice very quickly.", "collocations": ["use a combine harvester", "drive a combine harvester"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v04", "en": "herd", "vi": "chăn giữ vật nuôi", "ipa": "/hɜːd/", "ipaFrom": "glossary", "pos": "v", "example": "The children herd the buffaloes to the river every afternoon.", "collocations": ["herd the buffaloes", "herd the cattle"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v05", "en": "cattle", "vi": "gia súc", "ipa": "/ˈkætl/", "ipaFrom": "glossary", "pos": "n", "example": "My uncle keeps cattle on his farm.", "collocations": ["raise cattle", "herd cattle"], "synonyms": ["livestock"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v06", "en": "crop", "vi": "vụ, mùa", "ipa": "/krɒp/", "ipaFrom": "glossary", "pos": "n", "example": "Rice is the main crop in this village.", "collocations": ["grow crops", "harvest the crops"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v07", "en": "cultivate", "vi": "trồng trọt", "ipa": "/ˈkʌltɪveɪt/", "ipaFrom": "glossary", "pos": "v", "example": "Farmers here cultivate rice and vegetables.", "collocations": ["cultivate rice", "cultivate the land"], "synonyms": ["grow"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v08", "en": "load", "vi": "chất, chở", "ipa": "/ləʊd/", "ipaFrom": "glossary", "pos": "v", "example": "We helped the farmers load the rice onto a truck.", "collocations": ["load something onto a truck"], "synonyms": [], "antonyms": ["unload"], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v09", "en": "unload", "vi": "dỡ hàng", "ipa": "/ˌʌnˈləʊd/", "ipaFrom": "glossary", "pos": "v", "example": "They unloaded the bags of rice in front of the house.", "collocations": ["unload rice", "unload a truck"], "synonyms": [], "antonyms": ["load"], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v10", "en": "dry", "vi": "phơi khô, sấy khô", "ipa": "/draɪ/", "ipaFrom": "glossary", "pos": "v", "example": "People dry the rice in the sun after the harvest.", "collocations": ["dry rice", "dry in the sun"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v11", "en": "feed", "vi": "cho ăn", "ipa": "/fiːd/", "ipaFrom": "glossary", "pos": "v", "example": "My grandma feeds the chickens every morning.", "collocations": ["feed the pigs", "feed the chickens"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v12", "en": "milk", "vi": "vắt sữa", "ipa": "/mɪlk/", "ipaFrom": "glossary", "pos": "v", "example": "The farmer milks the cows twice a day.", "collocations": ["milk the cows"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v13", "en": "plough", "vi": "cày (thửa ruộng)", "ipa": "/plaʊ/", "ipaFrom": "glossary", "pos": "v", "example": "In the past, farmers used buffaloes to plough their fields.", "collocations": ["plough a field"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v14", "en": "catch", "vi": "đánh được, câu được (cá)", "ipa": "/kætʃ/", "ipaFrom": "glossary", "pos": "v", "example": "We caught three fish in the pond yesterday.", "collocations": ["catch fish"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v15", "en": "orchard", "vi": "vườn cây ăn quả", "ipa": "/ˈɔːtʃəd/", "ipaFrom": "glossary", "pos": "n", "example": "There are many longan trees in my grandpa's orchard.", "collocations": ["a fruit orchard", "pick fruit in the orchard"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v16", "en": "hospitable", "vi": "mến khách, hiếu khách", "ipa": "/ˈhɒspɪtəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "The villagers were very hospitable to us.", "collocations": ["hospitable to visitors", "hospitable people"], "synonyms": ["friendly", "welcoming"], "antonyms": ["unfriendly"], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v17", "en": "picturesque", "vi": "đẹp, hấp dẫn (phong cảnh)", "ipa": "/ˌpɪktʃəˈresk/", "ipaFrom": "glossary", "pos": "adj", "example": "My grandparents live in a picturesque village near a river.", "collocations": ["picturesque scenery", "a picturesque village"], "synonyms": ["beautiful"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v18", "en": "vast", "vi": "rộng lớn, mênh mông, bao la", "ipa": "/vɑːst/", "ipaFrom": "glossary", "pos": "adj", "example": "From the hill, we could see vast green fields.", "collocations": ["vast fields", "a vast area"], "synonyms": ["huge"], "antonyms": ["tiny"], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v19", "en": "well-trained", "vi": "lành nghề, có tay nghề", "ipa": "/ˌwel ˈtreɪnd/", "ipaFrom": "glossary", "pos": "adj", "example": "The farm needs some well-trained workers.", "collocations": ["well-trained workers"], "synonyms": ["skilled"], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v20", "en": "speciality", "vi": "đặc sản", "ipa": "/ˌspeʃiˈæləti/", "ipaFrom": "glossary", "pos": "n", "example": "Lychees are a speciality of Bac Giang.", "collocations": ["a local speciality"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 136 } },
+    { "id": "v21", "en": "fly a kite", "vi": "thả diều", "ipa": "/flaɪ ə kaɪt/", "ipaFrom": "dictionary", "pos": "phr", "example": "In the summer, village children fly kites in the fields.", "collocations": ["fly kites in the fields"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 18 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Comparative adverbs",
+      "nameVi": "So sánh hơn của trạng từ",
+      "explainVi": "Dùng để so sánh cách hai người hoặc hai vật làm một việc. Phần lớn trạng từ (thường có hai âm tiết trở lên, như slowly, carefully) thêm more phía trước. Trạng từ có dạng giống tính từ như fast, hard, soon, early, late thì thêm -er. Bất quy tắc: well → better, badly → worse.",
+      "formula": "S + V + more + adverb + than ...  ·  S + V + adverb-er + than ...  ·  well → better, badly → worse",
+      "examples": [
+        "My grandpa gets up earlier than me.",
+        "In the village, people drive more slowly than in the city.",
+        "Nam plays the flute better than his brother."
+      ],
+      "wrong": [
+        { "sentence": "He runs more faster than me.", "fix": "He runs faster than me.", "whyVi": "fast thêm -er thành faster; không dùng thêm more." },
+        { "sentence": "Please speak more clear.", "fix": "Please speak more clearly.", "whyVi": "Bổ nghĩa cho động từ speak phải dùng trạng từ clearly." }
+      ],
+      "drills": [
+        { "prompt": "My grandpa wakes up ___ than me.", "options": ["earlier", "more early", "more earlier"], "answer": 0, "explainVi": "early đổi y thành i rồi thêm -er: earlier." },
+        { "prompt": "Mai sings ___ than her sister.", "options": ["better", "more well", "weller"], "answer": 0, "explainVi": "well là trạng từ bất quy tắc: well → better." },
+        { "prompt": "The villagers drive ___ than people in big cities.", "options": ["more slowly", "slowlier", "more slow"], "answer": 0, "explainVi": "slowly có đuôi -ly nên thêm more: more slowly." },
+        { "prompt": "The farmers worked ___ than usual at harvest time.", "options": ["harder", "more hard", "more hardly"], "answer": 0, "explainVi": "hard có dạng giống tính từ nên thêm -er: harder." }
+      ],
+      "errorTag": "comparison",
+      "src": { "kind": "sgk", "page": 21 }
+    },
+    {
+      "id": "g02",
+      "name": "Comparative adjectives or comparative adverbs?",
+      "nameVi": "So sánh tính từ hay so sánh trạng từ?",
+      "explainVi": "Sau be (is, are, was...) dùng so sánh của tính từ để mô tả người, vật: Life here is quieter. Sau động từ thường dùng so sánh của trạng từ để nói người ta làm việc thế nào: People here live more slowly.",
+      "formula": "S + be + adj-er / more adj + than ...  ·  S + V + adv-er / more adv + than ...",
+      "examples": [
+        "Life in my village is more peaceful than life in the city.",
+        "People in my village live more peacefully than people in the city."
+      ],
+      "wrong": [
+        { "sentence": "The village is more peacefully than the city.", "fix": "The village is more peaceful than the city.", "whyVi": "Sau is dùng tính từ (peaceful), không dùng trạng từ." },
+        { "sentence": "Farmers work more careful than before.", "fix": "Farmers work more carefully than before.", "whyVi": "Bổ nghĩa cho động từ work phải dùng trạng từ carefully." }
+      ],
+      "drills": [
+        { "prompt": "Life in the village is ___ than life in the city.", "options": ["more peaceful", "more peacefully", "peacefullier"], "answer": 0, "explainVi": "Sau is dùng tính từ: more peaceful." },
+        { "prompt": "People in the countryside live ___ than people in big cities.", "options": ["more slowly", "more slow", "slowlier"], "answer": 0, "explainVi": "Bổ nghĩa cho động từ live phải dùng trạng từ: more slowly." },
+        { "prompt": "Which sentence is correct?", "options": ["The roads here are quieter than in town.", "The roads here are more quietly than in town.", "The roads here are quietlier than in town."], "answer": 0, "explainVi": "Sau are dùng tính từ: quieter." }
+      ],
+      "errorTag": "comparison",
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Âm /ə/",
+      "tipVi": "/ə/ là âm \"ơ\" rất ngắn và nhẹ, miệng thả lỏng. Âm này thường nằm ở âm tiết không nhấn: collect, hospitable, picturesque.",
+      "words": ["collect", "hospitable", "picturesque", "garden", "activity", "farmer"],
+      "sentence": "The farmers collect the rice in the garden.",
+      "quiz": [
+        { "prompt": "Which word has the sound /ə/ in its first syllable?", "options": ["collect", "pick", "busy"], "answer": 0, "explainVi": "collect /kəˈlekt/ có âm /ə/ ở âm tiết đầu; pick /pɪk/ và busy /ˈbɪzi/ có /ɪ/." }
+      ],
+      "src": { "kind": "sgk", "page": 20 }
+    },
+    {
+      "id": "p02",
+      "kind": "sound",
+      "focus": "Âm /ɪ/",
+      "tipVi": "/ɪ/ là âm \"i\" ngắn, đọc nhanh, miệng hơi mở, không kéo dài như /iː/. Chú ý: village đọc /ˈvɪlɪdʒ/, cottage đọc /ˈkɒtɪdʒ/, harvest đọc /ˈhɑːvɪst/.",
+      "words": ["pick", "village", "harvest", "busy", "cottage", "milk"],
+      "sentence": "The village is busy at harvest time.",
+      "quiz": [
+        { "prompt": "Which word has the sound /ɪ/?", "options": ["village", "vast", "garden"], "answer": 0, "explainVi": "village /ˈvɪlɪdʒ/ có /ɪ/; vast /vɑːst/ và garden /ˈɡɑːdn/ không có." },
+        { "prompt": "Which word does NOT have the sound /ɪ/?", "options": ["milk", "busy", "load"], "answer": 2, "explainVi": "load /ləʊd/ không có /ɪ/; milk /mɪlk/ và busy /ˈbɪzi/ có /ɪ/." }
+      ],
+      "src": { "kind": "sgk", "page": 20 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "orchard, cattle, harvest, cultivate nhấn âm đầu; unload nhấn âm thứ hai; picturesque nhấn âm cuối (-esque).",
+      "words": ["orchard", "harvest", "cultivate", "unload", "picturesque", "hospitable"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the LAST syllable?", "options": ["picturesque", "orchard", "cultivate"], "answer": 0, "explainVi": "picturesque /ˌpɪktʃəˈresk/ nhấn âm cuối; orchard và cultivate nhấn âm đầu." },
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["unload", "harvest", "cattle"], "answer": 0, "explainVi": "unload /ˌʌnˈləʊd/ nhấn âm thứ hai; harvest và cattle nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Ngữ điệu câu khen \"What a...!\"",
+      "tipVi": "Câu khen bắt đầu bằng What a... thường nhấn mạnh vào tính từ (beautiful, nice) và xuống giọng ở cuối câu. Nói với giọng vui, thật lòng.",
+      "words": ["What a nice garden!", "What a beautiful view!"],
+      "sentence": "What a picturesque village you live in!",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "What a beautiful ... you have!", "vi": "Bạn có ... đẹp quá!", "useVi": "Khi khen đồ vật của ai đó.", "example": "What a beautiful garden you have!", "src": { "kind": "sgk", "page": 22 } },
+    { "id": "e02", "en": "You really have a nice ...", "vi": "Bạn có ... đẹp thật đấy.", "useVi": "Khi khen một cách thân mật.", "example": "You really have a nice bicycle, Nam.", "src": { "kind": "sgk", "page": 22 } },
+    { "id": "e03", "en": "Thank you. ...", "vi": "Cảm ơn bạn. ...", "useVi": "Khi đáp lại lời khen, có thể kể thêm một chút về món đồ.", "example": "Thank you. My grandpa made it for me.", "src": { "kind": "sgk", "page": 22 } },
+    { "id": "e04", "en": "I'm glad you like it.", "vi": "Mình vui vì bạn thích nó.", "useVi": "Khi đáp lại lời khen một cách lịch sự.", "example": "I'm glad you like it. I chose the colour myself.", "src": { "kind": "sgk", "page": 22 } },
+    { "id": "e05", "en": "What I like most about ... is ...", "vi": "Điều mình thích nhất ở ... là ...", "useVi": "Khi nói điều mình thích nhất ở một nơi.", "example": "What I like most about my village is the fresh air.", "src": { "kind": "team", "page": null } },
+    { "id": "e06", "en": "Compared with the city, ...", "vi": "So với thành phố, ...", "useVi": "Khi so sánh nông thôn với thành phố.", "example": "Compared with the city, people here get up earlier.", "src": { "kind": "team", "page": null } },
+    { "id": "e07", "en": "On the other hand, ...", "vi": "Mặt khác, ...", "useVi": "Khi nêu một mặt ngược lại của vấn đề.", "example": "On the other hand, there aren't many shops in the village.", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "It was a great experience.", "vi": "Đó là một trải nghiệm tuyệt vời.", "useVi": "Khi kể lại một chuyến đi đáng nhớ.", "example": "I helped my uncle catch fish. It was a great experience.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["People in my village", "get up", "earlier", "than city people"], "vi": "Người ở làng mình dậy sớm hơn người thành phố.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["A combine harvester", "cuts rice", "much faster", "than people do"], "vi": "Máy gặt đập liên hợp cắt lúa nhanh hơn nhiều so với con người.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["Life in the village", "is", "more peaceful", "than life in town"], "vi": "Cuộc sống ở làng yên bình hơn cuộc sống ở thị trấn.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["The children", "herd the buffaloes", "to the river", "every afternoon"], "vi": "Bọn trẻ chăn trâu ra bờ sông mỗi buổi chiều.", "grammarId": null },
+    { "id": "b05", "chunks": ["We helped", "the farmers", "load the rice", "onto a truck"], "vi": "Chúng mình giúp nông dân chất lúa lên xe tải.", "grammarId": null },
+    { "id": "b06", "chunks": ["The villagers", "are very hospitable", "to visitors", "from the city"], "vi": "Dân làng rất hiếu khách với du khách từ thành phố.", "grammarId": null },
+    { "id": "b07", "chunks": ["My uncle", "works harder", "at harvest time", "than in other months"], "vi": "Chú mình làm việc vất vả hơn vào mùa gặt so với các tháng khác.", "grammarId": "g01" },
+    { "id": "b08", "chunks": ["What a picturesque", "village", "your grandparents", "live in!"], "vi": "Ông bà bạn sống ở một ngôi làng đẹp như tranh!", "grammarId": null }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I fed the pigs.",
+      "steps": [
+        { "askVi": "Em làm việc đó với ai?", "ask": "Who with?", "add": "with my grandma" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "early in the morning" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "on her farm in Thai Binh" }
+      ],
+      "full": "I fed the pigs with my grandma early in the morning on her farm in Thai Binh."
+    },
+    {
+      "id": "x02",
+      "base": "We flew kites.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in the paddy fields" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "after the harvest" },
+        { "askVi": "Em thấy thế nào?", "ask": "How did you feel?", "add": "and it was really exciting" }
+      ],
+      "full": "We flew kites in the paddy fields after the harvest, and it was really exciting."
+    },
+    {
+      "id": "x03",
+      "base": "My village is peaceful.",
+      "steps": [
+        { "askVi": "Làng có gì đẹp?", "ask": "What is nice there?", "add": "with vast green fields" },
+        { "askVi": "Người dân thế nào?", "ask": "What are the people like?", "add": "and very hospitable people" }
+      ],
+      "full": "My village is peaceful, with vast green fields and very hospitable people."
+    },
+    {
+      "id": "x04",
+      "base": "People dry the rice.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in front of their houses" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "so that they can keep it for a long time" }
+      ],
+      "full": "People dry the rice in front of their houses so that they can keep it for a long time."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Công việc hằng ngày của người nông dân",
+      "questions": [
+        "What jobs do farmers do every day?",
+        "What kind of work do people in a village usually do?",
+        "How do farmers spend a normal day?"
+      ],
+      "keywords": ["plough", "feed", "herd", "milk"],
+      "exampleAnswer": "Farmers get up early to feed their animals. Then they work in the paddy fields until the afternoon.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "So sánh cách sống ở làng và ở thành phố",
+      "questions": [
+        "How do people in villages live differently from people in cities?",
+        "Do people in the countryside go to bed earlier than city people? Why?",
+        "Why do villagers often get up earlier than people in town?"
+      ],
+      "keywords": ["earlier", "more slowly", "than", "because"],
+      "exampleAnswer": "Villagers usually get up earlier than city people because they have to feed their animals and work in the fields.",
+      "expectsReason": true
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Kể về một chuyến về làng",
+      "questions": [
+        "What did you do on your last trip to a village?",
+        "Tell me about a day you spent in the countryside.",
+        "What was the most interesting thing you did on a visit to a village?"
+      ],
+      "keywords": ["harvest", "fly kites", "catch fish", "orchard"],
+      "exampleAnswer": "Last summer I stayed at my aunt's house. I helped her pick lychees in the orchard and caught fish in the pond.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Khen đồ vật hoặc cảnh vật",
+      "questions": [
+        "How would you praise your friend's new kite?",
+        "What can you say to compliment a beautiful garden?",
+        "What do you say when you like your friend's new bike?"
+      ],
+      "keywords": ["What a", "You really have", "nice", "beautiful"],
+      "exampleAnswer": "I would say: What a beautiful kite you have! The colours are really nice.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Máy móc giúp nông dân thế nào",
+      "questions": [
+        "Why do many farmers now use combine harvesters?",
+        "How do machines make farm work easier during the harvest?",
+        "What are the good points of using machines on farms?"
+      ],
+      "keywords": ["combine harvester", "faster", "harvest", "save time"],
+      "exampleAnswer": "Machines help farmers harvest rice faster, so they save time and don't get so tired.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "Describe a farm job that you have seen or done.", "keywords": ["feed", "plough", "harvest"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should cities have more green spaces like the countryside? Why or why not?", "keywords": ["fresh air", "peaceful", "trees"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your aunt in the village cooks a special dish for you. What do you say to her?", "keywords": ["What a", "delicious", "thank you"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "Describe a traditional game that children play in a village.", "keywords": ["fly kites", "bamboo dancing", "fields"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should students spend a week on a farm during the summer? Why or why not?", "keywords": ["learn", "farmers", "hard-working"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "A farmer lets you ride on his combine harvester. What do you say to him?", "keywords": ["What a", "amazing", "thank you"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Kể về chuyến về quê",
+      "contextVi": "Em vừa về thăm làng của ông bà trong kỳ nghỉ hè. Một bạn cùng lớp hỏi em về chuyến đi.",
+      "aiRole": "Nick, a classmate who has never lived in the countryside",
+      "studentRoleVi": "Học sinh vừa về quê thăm ông bà",
+      "goalVi": "Kể về những việc em đã làm ở làng, nói điều em thích nhất và vì sao.",
+      "goal": "Tell Nick what you did in your grandparents' village, and say what you liked most and why.",
+      "requirements": [
+        { "kind": "example", "vi": "Kể ít nhất một việc cụ thể em đã làm", "words": [] },
+        { "kind": "reason", "vi": "Nói vì sao em thích (because...)", "words": [] }
+      ],
+      "opener": "Hi! I heard you spent your summer holiday in your grandparents' village. How was it?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Wow! What else did you do there?",
+        "What did you like most about the village, and why?",
+        "Sounds great. Would you like to go back next summer?"
+      ],
+      "tipsVi": ["Dùng thì quá khứ: I helped..., we flew...", "Nói điều em thích nhất: What I like most is..."],
+      "keywords": ["harvest", "fly kites", "herd", "because"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Nông thôn có chán không?",
+      "contextVi": "Bạn em nghĩ ở nông thôn chẳng có gì làm và tuổi teen sẽ thấy chán. Em có ý kiến khác.",
+      "aiRole": "Lan, a classmate who has always lived in a big city",
+      "studentRoleVi": "Bạn cùng lớp bảo vệ cuộc sống nông thôn",
+      "goalVi": "Giải thích vì sao nông thôn không chán: nêu lý do, ví dụ, và trả lời khi Lan phản đối.",
+      "goal": "Explain why the countryside is not boring: give reasons and examples, and answer Lan's objection politely.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "example", "vi": "Đưa ví dụ hoạt động thú vị ở nông thôn", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["picturesque", "hospitable", "orchard", "fly kites", "peaceful"] }
+      ],
+      "opener": "My parents want to send me to my aunt's village for a month. I think I'll be so bored there.",
+      "stance": "There is nothing to do in the countryside. There are no cinemas and no shopping centres.",
+      "turns": 5,
+      "fallback": [
+        "Really? What can teenagers do there?",
+        "But there is nothing to do there. There are no cinemas and no shopping centres.",
+        "Hmm, maybe you're right. What else should I try?",
+        "OK, I'll give it a chance. Thanks!"
+      ],
+      "tipsVi": ["Khi Lan phản đối, mở đầu bằng \"I see your point, but...\"", "So sánh: People there live more slowly, the air is fresher..."],
+      "keywords": ["I see your point", "picturesque", "fly kites", "because"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Chọn nơi nghỉ hè cho cả nhà",
+      "contextVi": "Gia đình em đang chọn nơi đi nghỉ hè. Mẹ muốn đến một khu nghỉ dưỡng ở biển, còn em muốn ở nhà dân trong một ngôi làng.",
+      "aiRole": "Your mother, who is planning the family's summer holiday",
+      "studentRoleVi": "Con trong gia đình, muốn nghỉ hè ở làng quê",
+      "goalVi": "Đề xuất nghỉ ở làng quê, nêu lý do và trả lời khi mẹ lo về tiện nghi.",
+      "goal": "Suggest a village homestay for the summer holiday, give reasons, and answer Mum's worry about comfort.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất nơi nghỉ", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] }
+      ],
+      "opener": "I'm looking at some beach resorts for our summer holiday. Where would you like to go this year?",
+      "stance": "A beach resort is more comfortable. Villages don't have good services.",
+      "turns": 5,
+      "fallback": [
+        "A village? Why do you want to go there?",
+        "But a beach resort is more comfortable. Villages don't have good services.",
+        "That's true. What can we do there every day?",
+        "OK, let's talk to your dad about it tonight."
+      ],
+      "tipsVi": ["Nói lịch sự: \"How about...?\", \"I think we could...\"", "Nêu điều chỉ làng quê mới có: cánh đồng, vườn cây, người dân hiếu khách."],
+      "keywords": ["How about", "village", "hospitable", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Giới thiệu làng quê Việt Nam",
+      "contextVi": "Một học sinh trao đổi từ Úc đến lớp em. Bạn ấy muốn biết cuộc sống ở một ngôi làng Việt Nam khác thành phố thế nào.",
+      "aiRole": "Mark, an exchange student from Australia",
+      "studentRoleVi": "Học sinh giới thiệu về làng quê Việt Nam",
+      "goalVi": "Mô tả cuộc sống ở làng, so sánh với thành phố, và trả lời khi Mark cho rằng thành phố tốt hơn.",
+      "goal": "Describe life in a Vietnamese village, compare it with city life, and respond when Mark says city life is better.",
+      "requirements": [
+        { "kind": "example", "vi": "Đưa ví dụ về công việc hoặc hoạt động ở làng", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do cho ý kiến của em", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["paddy field", "harvest", "cattle", "hospitable", "vast", "picturesque"] }
+      ],
+      "opener": "I've only seen Vietnamese villages in photos. What is life like in a village here?",
+      "stance": "City life sounds better to me because everything is more modern and convenient.",
+      "turns": 5,
+      "fallback": [
+        "Interesting! How is it different from life in the city?",
+        "I think city life is better because everything is more modern and convenient. What do you think?",
+        "Hmm, good point. What should I do if I visit a village?",
+        "Thanks! I really want to visit one now."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["paddy field", "harvest", "more slowly", "because"]
+    }
+  ]
+}

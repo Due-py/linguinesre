@@ -1,0 +1,385 @@
+{
+  "grade": 11,
+  "unit": 2,
+  "title": "The Generation Gap",
+  "titleVi": "Khoảng cách thế hệ",
+  "edition": "Tiếng Anh 11 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 18–27; Glossary tr. 125",
+  "vocab": [
+    { "id": "v01", "en": "generation gap", "vi": "khoảng cách giữa các thế hệ", "ipa": "/ˌdʒenəˈreɪʃn ɡæp/", "ipaFrom": "glossary", "pos": "n", "example": "There is a big generation gap between my grandfather and me.", "collocations": ["bridge the generation gap", "a wide generation gap"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v02", "en": "nuclear family", "vi": "gia đình hạt nhân, gia đình nhỏ gồm 1-2 thế hệ", "ipa": "/ˌnjuːkliə ˈfæməli/", "ipaFrom": "glossary", "pos": "n", "example": "I live in a nuclear family with my parents and my sister.", "collocations": ["live in a nuclear family"], "synonyms": [], "antonyms": ["extended family"], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v03", "en": "extended family", "vi": "gia đình đa thế hệ, đại gia đình", "ipa": "/ɪkˌstendɪd ˈfæməli/", "ipaFrom": "glossary", "pos": "n", "example": "In an extended family, grandparents often help look after the children.", "collocations": ["live with an extended family", "a large extended family"], "synonyms": [], "antonyms": ["nuclear family"], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v04", "en": "digital native", "vi": "người được sinh ra ở thời đại công nghệ và Internet", "ipa": "/ˌdɪdʒɪtl ˈneɪtɪv/", "ipaFrom": "glossary", "pos": "n", "example": "As a digital native, my sister can use any new app in minutes.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v05", "en": "screen time", "vi": "thời gian sử dụng thiết bị điện tử", "ipa": "/ˈskriːn taɪm/", "ipaFrom": "glossary", "pos": "n", "example": "My parents limit my screen time to two hours a day.", "collocations": ["limit screen time", "too much screen time"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v06", "en": "conflict", "vi": "sự xung đột, va chạm", "ipa": "/ˈkɒnflɪkt/", "ipaFrom": "glossary", "pos": "n", "example": "Small conflicts happen in every family.", "collocations": ["generational conflict", "family conflicts"], "synonyms": ["disagreement"], "antonyms": ["agreement"], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v07", "en": "argument", "vi": "tranh luận, tranh cãi", "ipa": "/ˈɑːɡjumənt/", "ipaFrom": "glossary", "pos": "n", "example": "I had an argument with my brother about the TV.", "collocations": ["have an argument", "daily arguments"], "synonyms": ["quarrel"], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v08", "en": "adapt", "vi": "thích nghi, thay đổi cho phù hợp", "ipa": "/əˈdæpt/", "ipaFrom": "glossary", "pos": "v", "example": "My grandparents have adapted to using smartphones.", "collocations": ["adapt to changes", "adapt to a new culture"], "synonyms": ["adjust"], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v09", "en": "value", "vi": "giá trị, coi trọng", "ipa": "/ˈvæljuː/", "ipaFrom": "glossary", "pos": "n, v", "example": "My family values honesty and hard work.", "collocations": ["cultural values", "traditional values"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v10", "en": "view", "vi": "quan điểm", "ipa": "/vjuː/", "ipaFrom": "glossary", "pos": "n", "example": "My father and I have different views about music.", "collocations": ["traditional view", "share your views"], "synonyms": ["opinion"], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v11", "en": "freedom", "vi": "sự tự do", "ipa": "/ˈfriːdəm/", "ipaFrom": "glossary", "pos": "n", "example": "Teenagers want more freedom to make their own choices.", "collocations": ["more freedom", "freedom to choose"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v12", "en": "influence", "vi": "gây ảnh hưởng", "ipa": "/ˈɪnfluəns/", "ipaFrom": "glossary", "pos": "v", "example": "Our friends influence the way we dress and talk.", "collocations": ["influence young people", "strongly influence"], "synonyms": ["affect"], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v13", "en": "characteristic", "vi": "đặc tính, đặc điểm", "ipa": "/ˌkærəktəˈrɪstɪk/", "ipaFrom": "glossary", "pos": "n", "example": "Each generation has its own characteristics.", "collocations": ["common characteristics"], "synonyms": ["feature"], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v14", "en": "curious", "vi": "tò mò, muốn tìm hiểu", "ipa": "/ˈkjʊəriəs/", "ipaFrom": "glossary", "pos": "adj", "example": "My grandma is curious about how video calls work.", "collocations": ["curious about"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v15", "en": "experience", "vi": "trải nghiệm", "ipa": "/ɪkˈspɪəriəns/", "ipaFrom": "glossary", "pos": "n, v", "example": "My grandfather often shares his life experiences with me.", "collocations": ["share experiences", "life experience"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v16", "en": "honesty", "vi": "tính trung thực, tính chân thật", "ipa": "/ˈɒnəsti/", "ipaFrom": "glossary", "pos": "n", "example": "My parents taught me that honesty is very important.", "collocations": [], "synonyms": ["truthfulness"], "antonyms": ["dishonesty"], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v17", "en": "limit", "vi": "giới hạn, hạn chế", "ipa": "/ˈlɪmɪt/", "ipaFrom": "glossary", "pos": "v", "example": "Some parents limit the time their children spend online.", "collocations": ["limit screen time"], "synonyms": ["control"], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v18", "en": "social media", "vi": "phương tiện truyền thông mạng xã hội", "ipa": "/ˌsəʊʃl ˈmiːdiə/", "ipaFrom": "glossary", "pos": "n", "example": "Young people share photos with their friends on social media.", "collocations": ["use social media", "on social media"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v19", "en": "individualism", "vi": "chủ nghĩa cá nhân", "ipa": "/ˌɪndɪˈvɪdʒuəlɪzəm/", "ipaFrom": "glossary", "pos": "n", "example": "Some older people think individualism makes families less close.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v20", "en": "traditional", "vi": "truyền thống", "ipa": "/trəˈdɪʃənl/", "ipaFrom": "dictionary", "pos": "adj", "example": "My grandmother has traditional views about family roles.", "collocations": ["traditional view", "traditional values"], "synonyms": [], "antonyms": ["modern"], "src": { "kind": "sgk", "page": 20 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Must and have to",
+      "nameVi": "Must và have to: diễn tả sự cần thiết",
+      "explainVi": "must và have to đều nói một việc cần phải làm ở hiện tại. Người nói tự thấy cần thì dùng must; người khác hoặc quy định bắt buộc thì dùng have to. Khi nói về quá khứ hoặc tương lai, dùng had to / will have to. Sau must và have to là động từ nguyên mẫu.",
+      "formula": "S + must + V  ·  S + have/has to + V  ·  S + had to / will have to + V",
+      "examples": [
+        "I must finish my project tonight. I want to do it well.",
+        "I have to wear a uniform at school. It's the rule.",
+        "My grandmother had to walk five kilometres to school."
+      ],
+      "wrong": [
+        { "sentence": "He have to help his mother every evening.", "fix": "He has to help his mother every evening.", "whyVi": "Chủ ngữ số ít (he) thì dùng has to." },
+        { "sentence": "Yesterday I must stay at home.", "fix": "Yesterday I had to stay at home.", "whyVi": "must không có dạng quá khứ; nói về quá khứ dùng had to." }
+      ],
+      "drills": [
+        { "prompt": "In the past, my grandmother ___ do all the housework.", "options": ["had to", "must", "has to"], "answer": 0, "explainVi": "Nói về quá khứ (In the past) dùng had to." },
+        { "prompt": "My sister ___ be home before 9 p.m. It's my parents' rule.", "options": ["has to", "have to", "must to"], "answer": 0, "explainVi": "Quy định do bố mẹ đặt ra và chủ ngữ số ít: has to." },
+        { "prompt": "Next year, we ___ get used to a new school.", "options": ["will have to", "must have", "had to"], "answer": 0, "explainVi": "Nói về tương lai (next year) dùng will have to." }
+      ],
+      "errorTag": "modal_verb",
+      "src": { "kind": "sgk", "page": 20 }
+    },
+    {
+      "id": "g02",
+      "name": "Mustn't and don't have to",
+      "nameVi": "Mustn't (không được phép) và don't have to (không cần)",
+      "explainVi": "mustn't nghĩa là KHÔNG ĐƯỢC làm (bị cấm). don't have to nghĩa là KHÔNG CẦN làm (làm cũng được, không làm cũng được). Hai cách này khác nghĩa hoàn toàn, rất dễ nhầm.",
+      "formula": "S + mustn't + V (bị cấm)  ·  S + don't/doesn't have to + V (không cần)",
+      "examples": [
+        "You mustn't use your phone during the exam.",
+        "We don't have to go to school on Sundays.",
+        "My brother doesn't have to cook. My mum does it."
+      ],
+      "wrong": [
+        { "sentence": "It's Sunday, so I mustn't get up early.", "fix": "It's Sunday, so I don't have to get up early.", "whyVi": "Ý là KHÔNG CẦN dậy sớm, không phải bị cấm, nên dùng don't have to." },
+        { "sentence": "She don't have to wash the dishes.", "fix": "She doesn't have to wash the dishes.", "whyVi": "Chủ ngữ she dùng doesn't have to." }
+      ],
+      "drills": [
+        { "prompt": "You ___ talk to strangers online about your address.", "options": ["mustn't", "don't have to", "doesn't have to"], "answer": 0, "explainVi": "Đây là việc KHÔNG ĐƯỢC làm vì nguy hiểm: mustn't." },
+        { "prompt": "Tomorrow is a holiday, so we ___ wear our uniforms.", "options": ["don't have to", "mustn't", "must"], "answer": 0, "explainVi": "Ngày nghỉ thì KHÔNG CẦN mặc đồng phục: don't have to." },
+        { "prompt": "Which sentence means \"it is not necessary\"?", "options": ["You mustn't bring food.", "You don't have to bring food.", "You must bring food."], "answer": 1, "explainVi": "don't have to = không cần; mustn't = không được phép." }
+      ],
+      "errorTag": "word_choice",
+      "src": { "kind": "sgk", "page": 20 }
+    },
+    {
+      "id": "g03",
+      "name": "Should / shouldn't for advice and opinions",
+      "nameVi": "Should / shouldn't để khuyên và nêu ý kiến",
+      "explainVi": "Dùng should (nên) và shouldn't (không nên) để khuyên, đề nghị, hoặc nêu ý kiến về điều đúng, sai. Sau should là động từ nguyên mẫu, không có to.",
+      "formula": "S + should / shouldn't + V (nguyên mẫu)",
+      "examples": [
+        "I think parents should listen to their children more.",
+        "Teenagers shouldn't spend all their free time online."
+      ],
+      "wrong": [
+        { "sentence": "You should to respect older people.", "fix": "You should respect older people.", "whyVi": "Sau should không có to." },
+        { "sentence": "Parents should limits screen time.", "fix": "Parents should limit screen time.", "whyVi": "Sau should, động từ luôn ở dạng nguyên mẫu." }
+      ],
+      "drills": [
+        { "prompt": "You ___ ask your parents before you colour your hair.", "options": ["should", "shouldn't", "should to"], "answer": 0, "explainVi": "Hỏi ý kiến bố mẹ là việc NÊN làm: should + ask." },
+        { "prompt": "Children ___ shout at their grandparents.", "options": ["shouldn't", "should", "don't should"], "answer": 0, "explainVi": "Quát ông bà là việc KHÔNG NÊN làm: shouldn't." },
+        { "prompt": "Which sentence is correct?", "options": ["Teenagers should helps with housework.", "Teenagers should help with housework.", "Teenagers should to help with housework."], "answer": 1, "explainVi": "should + động từ nguyên mẫu: should help." }
+      ],
+      "errorTag": "modal_verb",
+      "src": { "kind": "sgk", "page": 20 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "sound",
+      "focus": "Dạng rút gọn (contracted forms)",
+      "tipVi": "Khi nói tự nhiên, người bản xứ hay rút gọn: we will → we'll, you are → you're, can not → can't, do not → don't, that is → that's. Đọc liền thành một âm tiết, không tách ra.",
+      "words": ["we'll", "you're", "can't", "that's", "don't", "who'll", "I'll", "what's"],
+      "sentence": "We're late, so we'll take a taxi.",
+      "quiz": [
+        { "prompt": "What is the full form of \"who'll\"?", "options": ["who will", "who all", "who would"], "answer": 0, "explainVi": "who'll là dạng rút gọn của who will." },
+        { "prompt": "Which is the contracted form of \"do not\"?", "options": ["don't", "doesn't", "didn't"], "answer": 0, "explainVi": "do not rút gọn thành don't; doesn't = does not; didn't = did not." }
+      ],
+      "src": { "kind": "sgk", "page": 19 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "conflict (danh từ), influence, freedom, honesty nhấn âm đầu; adapt, experience nhấn âm thứ hai; characteristic nhấn âm thứ tư.",
+      "words": ["conflict", "influence", "freedom", "adapt", "experience", "characteristic"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["adapt", "conflict", "freedom"], "answer": 0, "explainVi": "adapt /əˈdæpt/ nhấn âm thứ hai; conflict /ˈkɒnflɪkt/ và freedom /ˈfriːdəm/ nhấn âm đầu." },
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["experience", "influence", "adapt"], "answer": 1, "explainVi": "influence /ˈɪnfluəns/ nhấn âm đầu; experience /ɪkˈspɪəriəns/ và adapt nhấn âm thứ hai." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p03",
+      "kind": "intonation",
+      "focus": "Lên giọng khi xin phép lịch sự",
+      "tipVi": "Câu xin phép dạng Yes/No (Can I...? Is it OK if...?) lên giọng ở cuối câu để nghe lịch sự, nhẹ nhàng hơn.",
+      "words": ["Can I go out tonight?", "Is it OK if I stay late?"],
+      "sentence": "Mum, is it OK if I go to the library after school?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "(Please) Can I ...?", "vi": "Con/Em có thể ... được không?", "useVi": "Khi xin phép một cách đơn giản.", "example": "Please can I use your laptop for my homework?", "src": { "kind": "sgk", "page": 25 } },
+    { "id": "e02", "en": "Do you mind if I (go) ...?", "vi": "Bố/mẹ có phiền không nếu con ...?", "useVi": "Khi xin phép lịch sự. Trả lời \"No\" nghĩa là đồng ý.", "example": "Do you mind if I go to the library after school?", "src": { "kind": "sgk", "page": 25 } },
+    { "id": "e03", "en": "Would you mind if I (went) ...?", "vi": "Có phiền không nếu con ...?", "useVi": "Khi xin phép rất lịch sự; động từ sau I chia quá khứ.", "example": "Would you mind if I stayed at Mai's house tonight?", "src": { "kind": "sgk", "page": 25 } },
+    { "id": "e04", "en": "Is it OK if I (go) ...?", "vi": "Con ... có được không?", "useVi": "Khi xin phép một cách thân mật.", "example": "Is it OK if I invite some friends home on Saturday?", "src": { "kind": "sgk", "page": 25 } },
+    { "id": "e05", "en": "Sure. / Of course you can.", "vi": "Được chứ. / Tất nhiên là được.", "useVi": "Khi đồng ý cho phép.", "example": "Of course you can. Just be home before dinner.", "src": { "kind": "sgk", "page": 25 } },
+    { "id": "e06", "en": "No problem. / Please feel free to ...", "vi": "Không sao. / Cứ tự nhiên ...", "useVi": "Khi vui vẻ cho phép.", "example": "No problem. Please feel free to use my computer.", "src": { "kind": "sgk", "page": 25 } },
+    { "id": "e07", "en": "I'm afraid not. / I'm afraid you can't.", "vi": "Bố/mẹ e là không được.", "useVi": "Khi từ chối cho phép một cách nhẹ nhàng.", "example": "I'm afraid not. You have an exam tomorrow.", "src": { "kind": "sgk", "page": 25 } },
+    { "id": "e08", "en": "I'm sorry, but that's not possible.", "vi": "Xin lỗi, nhưng việc đó không được.", "useVi": "Khi từ chối và muốn giữ lịch sự.", "example": "I'm sorry, but that's not possible. It's too late.", "src": { "kind": "sgk", "page": 25 } },
+    { "id": "e09", "en": "I understand your point, but ...", "vi": "Con/Em hiểu ý của bố mẹ/bạn, nhưng ...", "useVi": "Khi nêu ý kiến khác mà vẫn tôn trọng người lớn.", "example": "I understand your point, but I need the internet for my project.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "How about ... ?", "vi": "Hay là ... nhé?", "useVi": "Khi đưa ra cách dung hòa để hai bên cùng đồng ý.", "example": "How about one hour of games after I finish my homework?", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["At home", "I have to", "wash the dishes", "after dinner"], "vi": "Ở nhà, mình phải rửa bát sau bữa tối.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["You mustn't", "use your phone", "during family meals"], "vi": "Con không được dùng điện thoại trong bữa ăn gia đình.", "grammarId": "g02" },
+    { "id": "b03", "chunks": ["I don't have to", "get up early", "on Sundays"], "vi": "Mình không cần dậy sớm vào Chủ nhật.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["I think", "parents should", "listen to", "their children's views"], "vi": "Mình nghĩ bố mẹ nên lắng nghe quan điểm của con cái.", "grammarId": "g03" },
+    { "id": "b05", "chunks": ["My grandparents", "had to", "work very hard", "when they were young"], "vi": "Ông bà mình đã phải làm việc rất vất vả khi còn trẻ.", "grammarId": "g01" },
+    { "id": "b06", "chunks": ["Living in", "an extended family", "helps me learn", "traditional values"], "vi": "Sống trong đại gia đình giúp mình học được các giá trị truyền thống.", "grammarId": null },
+    { "id": "b07", "chunks": ["Teenagers shouldn't", "spend all their free time", "on social media"], "vi": "Tuổi teen không nên dành hết thời gian rảnh cho mạng xã hội.", "grammarId": "g03" },
+    { "id": "b08", "chunks": ["Digital natives", "can adapt", "to new technology", "very quickly"], "vi": "Những người lớn lên cùng công nghệ có thể thích nghi với công nghệ mới rất nhanh.", "grammarId": null }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I help my parents.",
+      "steps": [
+        { "askVi": "Giúp việc gì?", "ask": "With what?", "add": "with the housework" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "every evening" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because they work long hours" }
+      ],
+      "full": "I help my parents with the housework every evening because they work long hours."
+    },
+    {
+      "id": "x02",
+      "base": "My grandmother has traditional views.",
+      "steps": [
+        { "askVi": "Về chuyện gì?", "ask": "About what?", "add": "about family roles" },
+        { "askVi": "Nhưng bà đối xử với em thế nào?", "ask": "But how does she treat you?", "add": "but she respects my choices" }
+      ],
+      "full": "My grandmother has traditional views about family roles, but she respects my choices."
+    },
+    {
+      "id": "x03",
+      "base": "I sometimes argue.",
+      "steps": [
+        { "askVi": "Với ai?", "ask": "With whom?", "add": "with my older brother" },
+        { "askVi": "Về chuyện gì?", "ask": "About what?", "add": "about which TV channel to watch" }
+      ],
+      "full": "I sometimes argue with my older brother about which TV channel to watch."
+    },
+    {
+      "id": "x04",
+      "base": "My parents limit my screen time.",
+      "steps": [
+        { "askVi": "Giới hạn bao nhiêu?", "ask": "How much?", "add": "to two hours a day" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "on school days" }
+      ],
+      "full": "My parents limit my screen time to two hours a day on school days."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Gia đình em gồm những ai",
+      "questions": [
+        "Do you live in a nuclear family or an extended family?",
+        "Who lives in your house with you?",
+        "How many generations live in your home?"
+      ],
+      "keywords": ["nuclear family", "extended family", "grandparents"],
+      "exampleAnswer": "I live in an extended family. There are three generations: my grandparents, my parents, my brother and me.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Quy định ở trường",
+      "questions": [
+        "What rules do you have to follow at school?",
+        "What mustn't students do at your school?",
+        "Which school rule do you think is the most important?"
+      ],
+      "keywords": ["have to", "mustn't", "uniform"],
+      "exampleAnswer": "We have to wear uniforms on weekdays, and we mustn't use our phones in class.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Em khác bố mẹ ở điểm nào",
+      "questions": [
+        "How are your interests different from your parents' interests?",
+        "What do you like doing that your parents don't understand?",
+        "In what ways are you different from your parents?"
+      ],
+      "keywords": ["view", "music", "technology", "generation"],
+      "exampleAnswer": "My parents like old songs and reading newspapers, but I prefer K-pop and watching videos online.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Tuổi trẻ của bố mẹ, ông bà",
+      "questions": [
+        "What did your parents have to do when they were teenagers?",
+        "How was your parents' teenage life different from yours?",
+        "What jobs did your grandparents have to do as children?"
+      ],
+      "keywords": ["had to", "traditional", "freedom"],
+      "exampleAnswer": "My dad had to help on the farm after school, so he had less free time than I do.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Vì sao tuổi teen muốn tự do hơn",
+      "questions": [
+        "Why do teenagers want more freedom?",
+        "Why is it important for young people to make their own choices?",
+        "Why do teenagers want to decide things for themselves?"
+      ],
+      "keywords": ["freedom", "choices", "independent"],
+      "exampleAnswer": "Teenagers want more freedom because they need to learn how to make decisions and take responsibility.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Học hỏi từ người lớn tuổi",
+      "questions": [
+        "What can young people learn from their grandparents?",
+        "What valuable lessons have older people taught you?",
+        "Why should young people listen to the advice of older people?"
+      ],
+      "keywords": ["experience", "values", "honesty"],
+      "exampleAnswer": "Grandparents have a lot of life experience, so they can teach us about honesty and hard work.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What is one thing you and your parents enjoy doing together?", "keywords": ["together", "family", "weekend"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should teenagers be allowed to choose their own friends without their parents' advice? Why or why not?", "keywords": ["freedom", "influence", "should"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend had a big argument with her mother about her hairstyle. What do you say to her?", "keywords": ["argument", "view", "should"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What is one thing your whole family always does together at Tet?", "keywords": ["extended family", "traditional", "together"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should parents check their children's social media accounts? Why or why not?", "keywords": ["social media", "freedom", "limit"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your little brother refuses to eat dinner with the family because he wants to play games. What do you say?", "keywords": ["mustn't", "screen time", "should"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Xin phép bố đi sinh hoạt câu lạc bộ",
+      "contextVi": "Câu lạc bộ Khoa học của trường có buổi sinh hoạt chiều Chủ nhật. Em muốn xin phép bố để đi.",
+      "aiRole": "Dad, a caring but careful parent",
+      "studentRoleVi": "Con, người xin phép bố",
+      "goalVi": "Xin phép bố một cách lịch sự, nêu lý do và trả lời câu hỏi của bố.",
+      "goal": "Ask your dad politely for permission to go to a Science Club meeting on Sunday afternoon, and give a reason.",
+      "requirements": [
+        { "kind": "keyword", "vi": "Dùng một cách xin phép lịch sự", "words": ["Can I", "Is it OK if", "Do you mind if", "Would you mind if"] },
+        { "kind": "reason", "vi": "Nêu lý do (because...)", "words": [] }
+      ],
+      "opener": "Hi, you look like you want to ask me something. What is it?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Hmm, why do you want to go?",
+        "What time will it finish, and how will you get home?",
+        "OK, you can go. But you must finish your homework first."
+      ],
+      "tipsVi": ["Mở đầu bằng \"Dad, is it OK if I...?\" hoặc \"Do you mind if I...?\"", "Nói rõ giờ về và cách về nhà để bố yên tâm."],
+      "keywords": ["Is it OK if", "because", "have to", "club", "finish"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Nói chuyện với bà về điện thoại",
+      "contextVi": "Bà của em nghĩ giới trẻ bây giờ dùng điện thoại quá nhiều. Em muốn giải thích em dùng điện thoại vào việc gì và tìm cách để bà vui lòng.",
+      "aiRole": "Grandma, who thinks young people use their phones too much",
+      "studentRoleVi": "Cháu, người giải thích và đề xuất cách dung hòa",
+      "goalVi": "Giải thích em dùng điện thoại vào việc gì có ích, trả lời ý kiến của bà, và đề xuất một cách dung hòa.",
+      "goal": "Explain to Grandma how you use your phone usefully, respond to her opinion politely, and suggest a compromise.",
+      "requirements": [
+        { "kind": "reason", "vi": "Giải thích lý do em cần điện thoại", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất một cách dung hòa (How about...?)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["screen time", "digital native", "generation gap", "limit", "social media"] }
+      ],
+      "opener": "You're on your phone again! In my day, young people talked to each other at dinner. What are you doing on it all the time?",
+      "stance": "When I was young, we didn't have phones and we were happier. Young people today should put their phones away.",
+      "turns": 5,
+      "fallback": [
+        "Hmm. But why do you need it so much?",
+        "When I was young, we didn't have phones and we were happier. You should put it away.",
+        "Well, maybe some things are useful. So what do you suggest?",
+        "All right. Let's try that, and you can teach me to make video calls too."
+      ],
+      "tipsVi": ["Nói với ông bà thật lễ phép: \"I understand your point, but...\"", "Đưa ví dụ cụ thể: học tiếng Anh, làm bài tập nhóm."],
+      "keywords": ["screen time", "I understand your point", "How about", "because", "limit"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Sống cùng ông bà: tốt hay không?",
+      "contextVi": "Trong giờ ra chơi, bạn cùng lớp nói rằng sống trong đại gia đình rất bất tiện. Em có ý kiến khác và muốn chia sẻ.",
+      "aiRole": "Hai, a classmate who lives in a nuclear family",
+      "studentRoleVi": "Bạn cùng lớp nêu lợi ích của đại gia đình",
+      "goalVi": "Nêu ít nhất một lợi ích của việc sống cùng ông bà, đưa ví dụ, và trả lời khi Hai phản đối.",
+      "goal": "Explain at least one benefit of living in an extended family, give an example, and answer Hai's objection.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lợi ích và lý do", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ từ cuộc sống", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["extended family", "nuclear family", "values", "experience", "conflict"] }
+      ],
+      "opener": "I think living with grandparents must be really hard. Do you think it's a good idea?",
+      "stance": "Living in an extended family means you have no freedom. A nuclear family is always better.",
+      "turns": 5,
+      "fallback": [
+        "Really? What's good about it?",
+        "But in an extended family you have no freedom. I think a nuclear family is always better.",
+        "Hmm, I didn't think about that. Can you give me an example?",
+        "OK, I see your point. Maybe both kinds of family are good."
+      ],
+      "tipsVi": ["Dùng \"I see what you mean, but...\" khi Hai phản đối.", "Kể ví dụ: ông bà kể chuyện, dạy nấu ăn, chăm em nhỏ."],
+      "keywords": ["extended family", "experience", "values", "because", "for example"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Thảo luận về việc nhà",
+      "contextVi": "Cô chủ nhiệm tổ chức một buổi thảo luận về việc chia sẻ việc nhà trong gia đình. Cô hỏi ý kiến của em.",
+      "aiRole": "Ms Hoa, the homeroom teacher leading a class discussion",
+      "studentRoleVi": "Học sinh trong lớp, nêu ý kiến",
+      "goalVi": "Nêu ý kiến về việc ai nên làm việc nhà, giải thích lý do, và trả lời khi cô đưa ra ý kiến khác.",
+      "goal": "Give your opinion on who should do the housework at home, explain why, and respond to a different view.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do cho ý kiến", "words": [] },
+        { "kind": "example", "vi": "Đưa ví dụ từ gia đình em", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["should", "have to", "traditional", "view", "generation"] }
+      ],
+      "opener": "Today we are talking about housework. In your opinion, who should do the housework in a family?",
+      "stance": "Some people believe housework is mainly the mother's job, as it was in the past.",
+      "turns": 5,
+      "fallback": [
+        "Interesting. Why do you think so?",
+        "Some people believe housework is mainly the mother's job, as it was in the past. What do you think?",
+        "Can you give an example from your own family?",
+        "Thank you for sharing your view with the class."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["should", "share", "traditional view", "because", "have to"]
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "grade": 11,
+  "unit": 10,
+  "title": "The Ecosystem",
+  "titleVi": "Hệ sinh thái",
+  "edition": "Tiếng Anh 11 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 110–119; Glossary tr. 131",
+  "vocab": [
+    { "id": "v01", "en": "ecosystem", "vi": "hệ sinh thái", "ipa": "/ˈiːkəʊˌsɪstəm/", "ipaFrom": "glossary", "pos": "n", "example": "A mangrove forest is a very rich ecosystem.", "collocations": ["protect the ecosystem", "local ecosystem"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v02", "en": "biodiversity", "vi": "đa dạng sinh học", "ipa": "/ˌbaɪəʊdaɪˈvɜːsəti/", "ipaFrom": "glossary", "pos": "n", "example": "Cat Tien National Park has very high biodiversity.", "collocations": ["protect biodiversity", "lose biodiversity"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v03", "en": "conservation", "vi": "sự bảo tồn thiên nhiên", "ipa": "/ˌkɒnsəˈveɪʃn/", "ipaFrom": "glossary", "pos": "n", "example": "The park runs a conservation programme for rare monkeys.", "collocations": ["conservation efforts", "wildlife conservation"], "synonyms": ["protection"], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v04", "en": "species", "vi": "loài", "ipa": "/ˈspiːʃiːz/", "ipaFrom": "glossary", "pos": "n", "example": "Scientists found a new species of frog in the forest.", "collocations": ["plant species", "animal species", "rare species"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v05", "en": "endangered", "vi": "bị nguy hiểm", "ipa": "/ɪnˈdeɪndʒəd/", "ipaFrom": "glossary", "pos": "adj", "example": "The saola is an endangered animal in Viet Nam.", "collocations": ["endangered species", "endangered animals"], "synonyms": ["at risk"], "antonyms": ["safe"], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v06", "en": "habitat", "vi": "khu vực sống", "ipa": "/ˈhæbɪtæt/", "ipaFrom": "glossary", "pos": "n", "example": "Cutting down forests destroys the habitat of many birds.", "collocations": ["natural habitat", "lose their habitat"], "synonyms": ["home"], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v07", "en": "wildlife", "vi": "động vật hoang dã", "ipa": "/ˈwaɪldlaɪf/", "ipaFrom": "glossary", "pos": "n", "example": "We saw a lot of wildlife on our trip to the mountains.", "collocations": ["protect wildlife", "wildlife conservation"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v08", "en": "fauna", "vi": "động vật", "ipa": "/ˈfɔːnə/", "ipaFrom": "glossary", "pos": "n", "example": "The island has interesting flora and fauna.", "collocations": ["flora and fauna"], "synonyms": ["animals"], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v09", "en": "mammal", "vi": "động vật có vú", "ipa": "/ˈmæml/", "ipaFrom": "glossary", "pos": "n", "example": "Whales are mammals, not fish.", "collocations": ["sea mammals", "large mammals"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v10", "en": "pangolin", "vi": "con tê tê", "ipa": "/pæŋˈɡəʊlɪn/", "ipaFrom": "glossary", "pos": "n", "example": "Pangolins are hunted for their scales.", "collocations": ["protect pangolins"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v11", "en": "living things", "vi": "các sinh vật sống", "ipa": "/ˈlɪvɪŋ θɪŋz/", "ipaFrom": "glossary", "pos": "n", "example": "All living things need water to survive.", "collocations": ["living and non-living things"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v12", "en": "food chain", "vi": "chuỗi thức ăn", "ipa": "/ˈfuːd tʃeɪn/", "ipaFrom": "glossary", "pos": "n", "example": "Small fish are an important part of the food chain.", "collocations": ["the ocean food chain", "break the food chain"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v13", "en": "native", "vi": "tự nhiên", "ipa": "/ˈneɪtɪv/", "ipaFrom": "glossary", "pos": "adj", "example": "We should plant native trees in our schoolyard.", "collocations": ["native plants", "native to"], "synonyms": ["local"], "antonyms": ["foreign"], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v14", "en": "national park", "vi": "rừng quốc gia", "ipa": "/ˌnæʃnəl ˈpɑːk/", "ipaFrom": "glossary", "pos": "n", "example": "Cuc Phuong is the oldest national park in Viet Nam.", "collocations": ["visit a national park"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v15", "en": "tropical forest", "vi": "rừng nhiệt đới", "ipa": "/ˌtrɒpɪkl ˈfɒrɪst/", "ipaFrom": "glossary", "pos": "np", "example": "Tropical forests are home to millions of species.", "collocations": ["protect tropical forests"], "synonyms": ["rainforest"], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v16", "en": "coral reef", "vi": "rặng san hô", "ipa": "/ˌkɒrəl ˈriːf/", "ipaFrom": "glossary", "pos": "np", "example": "Coral reefs protect the coast from big waves.", "collocations": ["damage coral reefs", "a healthy coral reef"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v17", "en": "delta", "vi": "đồng bằng", "ipa": "/ˈdeltə/", "ipaFrom": "glossary", "pos": "n", "example": "The Mekong Delta has many rivers and rice fields.", "collocations": ["the Mekong Delta", "river delta"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v18", "en": "natural resources", "vi": "tài nguyên thiên nhiên", "ipa": "/ˌnætʃrəl rɪˈzɔːsɪz/", "ipaFrom": "glossary", "pos": "np", "example": "Water and forests are important natural resources.", "collocations": ["overuse natural resources", "save natural resources"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v19", "en": "destroy", "vi": "phá huỷ", "ipa": "/dɪˈstrɔɪ/", "ipaFrom": "glossary", "pos": "v", "example": "Forest fires can destroy the homes of many animals.", "collocations": ["destroy habitats", "destroy forests"], "synonyms": ["damage"], "antonyms": ["protect", "restore"], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v20", "en": "green", "vi": "(lối sống) xanh", "ipa": "/ɡriːn/", "ipaFrom": "glossary", "pos": "adj", "example": "My family tries to live a green life by recycling.", "collocations": ["green lifestyle", "go green"], "synonyms": ["eco-friendly"], "antonyms": [], "src": { "kind": "sgk", "page": 131 } },
+    { "id": "v21", "en": "climate change", "vi": "biến đổi khí hậu", "ipa": "/ˈklaɪmət tʃeɪndʒ/", "ipaFrom": "dictionary", "pos": "n", "example": "Climate change is making some animals lose their homes.", "collocations": ["fight climate change", "effects of climate change"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 110 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Compound nouns",
+      "nameVi": "Danh từ ghép",
+      "explainVi": "Danh từ ghép được tạo từ hai từ trở lên, từ đứng trước bổ nghĩa cho từ đứng sau. Các kiểu thường gặp: danh từ + danh từ (bus stop), tính từ + danh từ (wildlife), V-ing + danh từ (swimming pool), danh từ + V-ing (bird-watching), động từ + giới từ (break-out). Có từ viết liền (bedroom), viết rời (food chain) hoặc có gạch nối (film-maker).",
+      "formula": "danh từ + danh từ · tính từ + danh từ · V-ing + danh từ · danh từ + V-ing · động từ + giới từ",
+      "examples": [
+        "Cuc Phuong is a national park in northern Viet Nam.",
+        "Plastic waste can break the food chain in the ocean.",
+        "My dad enjoys bird-watching at the weekend."
+      ],
+      "wrong": [
+        { "sentence": "We visited a park national last summer.", "fix": "We visited a national park last summer.", "whyVi": "Trong danh từ ghép, từ bổ nghĩa đứng trước: national park." },
+        { "sentence": "Small fish are part of the chain food.", "fix": "Small fish are part of the food chain.", "whyVi": "Từ chính (chain) đứng sau, từ bổ nghĩa (food) đứng trước." }
+      ],
+      "drills": [
+        { "prompt": "Which is the correct compound noun?", "options": ["national park", "park national", "nation park"], "answer": 0, "explainVi": "Từ bổ nghĩa đứng trước từ chính: national park." },
+        { "prompt": "Animals that live in the wild are called ___.", "options": ["wildlife", "lifewild", "wild lifes"], "answer": 0, "explainVi": "wildlife là danh từ ghép viết liền: wild + life." },
+        { "prompt": "Which compound noun is made of \"-ing form + noun\"?", "options": ["swimming pool", "bird-watching", "coral reef"], "answer": 0, "explainVi": "swimming (V-ing) + pool (danh từ). bird-watching là danh từ + V-ing." }
+      ],
+      "errorTag": "word_order",
+      "src": { "kind": "sgk", "page": 112 }
+    },
+    {
+      "id": "g02",
+      "name": "Plural forms of compound nouns",
+      "nameVi": "Số nhiều của danh từ ghép",
+      "explainVi": "Muốn nói số nhiều, thường chỉ thêm -s vào từ CUỐI của danh từ ghép. Từ đứng trước giữ dạng số ít, kể cả khi mang nghĩa số nhiều: car park → car parks (không phải cars park). Có vài ngoại lệ như clothes shop, passers-by.",
+      "formula": "danh từ 1 (số ít) + danh từ 2 + -s",
+      "examples": [
+        "There are many national parks in Viet Nam.",
+        "Coral reefs are home to thousands of fish.",
+        "We need more park rangers to protect the forest."
+      ],
+      "wrong": [
+        { "sentence": "There are two cars parks near the zoo.", "fix": "There are two car parks near the zoo.", "whyVi": "Chỉ thêm -s vào từ cuối: car parks." },
+        { "sentence": "Many coral reef are in danger.", "fix": "Many coral reefs are in danger.", "whyVi": "Sau many cần danh từ số nhiều; thêm -s vào từ cuối: coral reefs." }
+      ],
+      "drills": [
+        { "prompt": "There are many ___ in Viet Nam.", "options": ["national parks", "nationals park", "nationals parks"], "answer": 0, "explainVi": "Thêm -s vào từ cuối: national parks." },
+        { "prompt": "We need more ___ to protect the forest.", "options": ["park rangers", "parks rangers", "parks ranger"], "answer": 0, "explainVi": "Từ đầu giữ số ít, thêm -s vào từ cuối: park rangers." },
+        { "prompt": "Which is correct?", "options": ["three bus stops", "three buses stop", "three buses stops"], "answer": 0, "explainVi": "Số nhiều của bus stop là bus stops." }
+      ],
+      "errorTag": "plural",
+      "src": { "kind": "sgk", "page": 112 }
+    },
+    {
+      "id": "g03",
+      "name": "Question tags",
+      "nameVi": "Câu hỏi đuôi",
+      "explainVi": "Câu hỏi đuôi gắn vào cuối câu kể để hỏi lại hoặc mong người nghe đồng ý. Câu kể khẳng định thì đuôi phủ định, câu kể phủ định thì đuôi khẳng định. Đuôi dùng trợ động từ của câu (is, are, do, did, should, will...) và đại từ chỉ chủ ngữ.",
+      "formula": "Câu khẳng định, trợ động từ + n't + đại từ?  ·  Câu phủ định, trợ động từ + đại từ?",
+      "examples": [
+        "Pangolins are endangered, aren't they?",
+        "You went to Cuc Phuong last week, didn't you?",
+        "We shouldn't feed wild animals, should we?"
+      ],
+      "wrong": [
+        { "sentence": "Coral reefs are beautiful, isn't it?", "fix": "Coral reefs are beautiful, aren't they?", "whyVi": "Chủ ngữ là coral reefs (số nhiều) nên đuôi là aren't they." },
+        { "sentence": "You visited the park, don't you?", "fix": "You visited the park, didn't you?", "whyVi": "Câu ở quá khứ (visited) nên đuôi dùng didn't." }
+      ],
+      "drills": [
+        { "prompt": "Pangolins are endangered, ___?", "options": ["aren't they", "don't they", "isn't it"], "answer": 0, "explainVi": "Câu dùng are, chủ ngữ số nhiều: aren't they." },
+        { "prompt": "You visited Cat Tien National Park, ___?", "options": ["didn't you", "weren't you", "don't you"], "answer": 0, "explainVi": "Câu ở quá khứ đơn với động từ thường: didn't you." },
+        { "prompt": "We shouldn't feed wild animals, ___?", "options": ["should we", "shouldn't we", "do we"], "answer": 0, "explainVi": "Câu phủ định với shouldn't nên đuôi khẳng định: should we." }
+      ],
+      "errorTag": "other",
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "intonation",
+      "focus": "Ngữ điệu xuống ở câu hỏi đuôi khi gần như chắc chắn",
+      "tipVi": "Hạ giọng ở câu hỏi đuôi khi em gần như chắc câu trả lời và chỉ muốn người nghe xác nhận, hoặc khi em muốn nhẹ nhàng thuyết phục, nêu quan điểm.",
+      "words": ["It's beautiful, isn't it?", "We should go, shouldn't we?"],
+      "sentence": "We need to protect our forests, don't we?",
+      "quiz": [
+        { "prompt": "You are almost sure the listener agrees. How should your voice go on the tag in \"It's a lovely forest, isn't it?\"", "options": ["It falls.", "It rises."], "answer": 0, "explainVi": "SGK: khi gần như chắc chắn và mong người nghe đồng ý, hạ giọng ở câu hỏi đuôi." }
+      ],
+      "src": { "kind": "sgk", "page": 111 }
+    },
+    {
+      "id": "p02",
+      "kind": "intonation",
+      "focus": "Ngữ điệu lên ở câu hỏi đuôi khi chưa chắc",
+      "tipVi": "Lên giọng ở câu hỏi đuôi khi em thật sự chưa chắc câu trả lời và muốn hỏi thông tin.",
+      "words": ["You've been there, haven't you?", "It's open today, isn't it?"],
+      "sentence": "The park opens at seven, doesn't it?",
+      "quiz": [
+        { "prompt": "You are NOT sure about the answer. Which intonation do you use on the question tag?", "options": ["Rising", "Falling"], "answer": 0, "explainVi": "SGK: khi chưa chắc câu trả lời, lên giọng ở câu hỏi đuôi." }
+      ],
+      "src": { "kind": "sgk", "page": 111 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "ecosystem, habitat, mammal, wildlife nhấn âm đầu. endangered, pangolin, destroy nhấn âm thứ hai. conservation nhấn âm thứ ba, biodiversity nhấn âm thứ tư.",
+      "words": ["ecosystem", "habitat", "mammal", "endangered", "pangolin", "conservation", "biodiversity"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["pangolin", "habitat", "mammal"], "answer": 0, "explainVi": "pangolin /pæŋˈɡəʊlɪn/ nhấn âm thứ hai." },
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["ecosystem", "endangered", "conservation"], "answer": 0, "explainVi": "ecosystem /ˈiːkəʊˌsɪstəm/ nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "I really love ...", "vi": "Mình rất thích ...", "useVi": "Khi nói về điều mình rất thích.", "example": "I really love walking in the forest in the morning.", "src": { "kind": "sgk", "page": 116 } },
+    { "id": "e02", "en": "I'm really into ...", "vi": "Mình rất mê ...", "useVi": "Khi nói về sở thích mình rất quan tâm.", "example": "I'm really into bird-watching.", "src": { "kind": "sgk", "page": 117 } },
+    { "id": "e03", "en": "I'm a big fan of ...", "vi": "Mình rất hâm mộ / thích ...", "useVi": "Khi nói mình rất thích một hoạt động hay một thứ gì đó.", "example": "I'm a big fan of nature documentaries.", "src": { "kind": "sgk", "page": 117 } },
+    { "id": "e04", "en": "I'm keen on ...", "vi": "Mình thích ...", "useVi": "Khi nói mình hứng thú với việc gì.", "example": "I'm keen on planting trees with my club.", "src": { "kind": "sgk", "page": 117 } },
+    { "id": "e05", "en": "I can't stand ...", "vi": "Mình không chịu nổi ...", "useVi": "Khi rất không thích điều gì.", "example": "I can't stand seeing rubbish in the river.", "src": { "kind": "sgk", "page": 116 } },
+    { "id": "e06", "en": "I'm not really into ...", "vi": "Mình không thích ... lắm.", "useVi": "Khi nói nhẹ nhàng rằng mình không thích điều gì.", "example": "I'm not really into camping. I hate mosquitoes.", "src": { "kind": "sgk", "page": 117 } },
+    { "id": "e07", "en": "... is not my favourite.", "vi": "... không phải thứ mình thích nhất.", "useVi": "Khi nói lịch sự là mình không thích lắm.", "example": "Fishing is not my favourite, but I like boat trips.", "src": { "kind": "sgk", "page": 117 } },
+    { "id": "e08", "en": "You shouldn't do that for several reasons.", "vi": "Bạn không nên làm thế vì một vài lý do.", "useVi": "Khi khuyên ai đó dừng một việc gây hại và chuẩn bị nêu lý do.", "example": "You shouldn't do that for several reasons. First, the flowers are rare.", "src": { "kind": "sgk", "page": 114 } },
+    { "id": "e09", "en": "From my point of view, ...", "vi": "Theo quan điểm của mình, ...", "useVi": "Khi nêu ý kiến riêng một cách trang trọng hơn.", "example": "From my point of view, we should spend more money on national parks.", "src": { "kind": "sgk", "page": 116 } },
+    { "id": "e10", "en": "One way to protect ... is to ...", "vi": "Một cách để bảo vệ ... là ...", "useVi": "Khi đề xuất một cách bảo vệ thiên nhiên.", "example": "One way to protect local wildlife is to plant native trees.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["Cuc Phuong", "is a national park", "with many", "rare species"], "vi": "Cúc Phương là một vườn quốc gia có nhiều loài quý hiếm.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["Coral reefs", "are home to", "thousands of", "sea animals"], "vi": "Các rặng san hô là nhà của hàng nghìn loài động vật biển.", "grammarId": "g02" },
+    { "id": "b03", "chunks": ["We should", "plant native trees", "to protect", "local biodiversity"], "vi": "Chúng ta nên trồng cây bản địa để bảo vệ đa dạng sinh học ở địa phương.", "grammarId": null },
+    { "id": "b04", "chunks": ["Pangolins", "are endangered,", "aren't they?"], "vi": "Tê tê đang bị đe dọa, phải không?", "grammarId": "g03" },
+    { "id": "b05", "chunks": ["Plastic waste", "can destroy", "the habitats", "of many sea animals"], "vi": "Rác thải nhựa có thể phá hủy môi trường sống của nhiều loài động vật biển.", "grammarId": "g01" },
+    { "id": "b06", "chunks": ["When one species disappears,", "the whole", "food chain", "can change"], "vi": "Khi một loài biến mất, cả chuỗi thức ăn có thể thay đổi.", "grammarId": "g01" },
+    { "id": "b07", "chunks": ["The government", "should build", "more nature reserves", "to protect wildlife"], "vi": "Chính phủ nên xây thêm các khu bảo tồn thiên nhiên để bảo vệ động vật hoang dã.", "grammarId": "g02" },
+    { "id": "b08", "chunks": ["We shouldn't", "feed wild animals,", "should we?"], "vi": "Chúng ta không nên cho thú hoang ăn, phải không?", "grammarId": "g03" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I visited a national park.",
+      "steps": [
+        { "askVi": "Đi cùng ai?", "ask": "Who with?", "add": "with my class" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "last summer" },
+        { "askVi": "Em thấy gì?", "ask": "What did you see?", "add": "and saw many colourful birds" }
+      ],
+      "full": "I visited a national park with my class last summer and saw many colourful birds."
+    },
+    {
+      "id": "x02",
+      "base": "We should protect coral reefs.",
+      "steps": [
+        { "askVi": "Bằng cách nào?", "ask": "How?", "add": "by not touching them" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because they are home to many fish" }
+      ],
+      "full": "We should protect coral reefs by not touching them because they are home to many fish."
+    },
+    {
+      "id": "x03",
+      "base": "Pangolins are endangered.",
+      "steps": [
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because people hunt them" },
+        { "askVi": "Săn để lấy gì?", "ask": "What for?", "add": "for their meat and scales" }
+      ],
+      "full": "Pangolins are endangered because people hunt them for their meat and scales."
+    },
+    {
+      "id": "x04",
+      "base": "I enjoy bird-watching.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in the park near my house" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "early in the morning" }
+      ],
+      "full": "I enjoy bird-watching in the park near my house early in the morning."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Hoạt động ngoài thiên nhiên em thích và không thích",
+      "questions": [
+        "What outdoor activities in nature do you enjoy?",
+        "Which activities do you like doing when you are in a forest or a park?",
+        "What do you love doing on a trip to the countryside?"
+      ],
+      "keywords": ["I'm really into", "bird-watching", "hiking", "I can't stand"],
+      "exampleAnswer": "I'm really into hiking and bird-watching, but I can't stand the mosquitoes in the forest.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Việc nhỏ em làm để bảo vệ hệ sinh thái nơi em sống",
+      "questions": [
+        "What can you do to protect the ecosystem in your area?",
+        "How can students help local plants and animals?",
+        "What small actions can protect nature near your home?"
+      ],
+      "keywords": ["plant native trees", "rubbish", "protect", "biodiversity"],
+      "exampleAnswer": "We can plant native trees, pick up rubbish by the lake and tell people not to catch small fish.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Vì sao môi trường sống của động vật bị phá hủy",
+      "questions": [
+        "Why are many habitats being destroyed?",
+        "What causes wild animals to lose their homes?",
+        "Why are forests and wetlands disappearing?"
+      ],
+      "keywords": ["destroy", "habitat", "cut down", "farms"],
+      "exampleAnswer": "People cut down forests to build farms, roads and houses. As a result, many animals lose their habitats.",
+      "expectsReason": true
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Dùng động vật hoang dã để phục vụ du khách",
+      "questions": [
+        "Is it right to use wild animals to entertain tourists?",
+        "Should tourists ride elephants or watch animal shows?",
+        "Why do some people think animal shows are cruel?"
+      ],
+      "keywords": ["animal cruelty", "wildlife", "natural habitat", "tourists"],
+      "exampleAnswer": "No. Animals in shows are often treated badly. They should live freely in their natural habitat, not entertain tourists.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Rừng giúp ích gì cho con người",
+      "questions": [
+        "How do forests help people?",
+        "What do people get from healthy forests?",
+        "Why do humans need forests to survive?"
+      ],
+      "keywords": ["natural resources", "clean air", "food", "flooding"],
+      "exampleAnswer": "Forests give us clean air, food and medicine, and they also help prevent floods after heavy rain.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "Have you ever planted a tree or looked after a plant? Tell me about it.", "keywords": ["plant", "water", "grow"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should people be allowed to keep wild animals as pets? Why or why not?", "keywords": ["wildlife", "habitat", "endangered"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend wants to take a small turtle home from the beach. What do you say?", "keywords": ["wild", "habitat", "shouldn't"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "Have you ever looked after a pet or a wild animal? Tell me about it.", "keywords": ["look after", "feed", "animal"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should plastic bags be banned near rivers and beaches? Why or why not?", "keywords": ["plastic", "sea animals", "ecosystem"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your cousin wants to catch butterflies in the park for her collection. What do you say?", "keywords": ["species", "ecosystem", "shouldn't"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Lên kế hoạch tiệc lớp thân thiện với môi trường",
+      "contextVi": "Lớp em sắp tổ chức một buổi tiệc cuối kì. Em và một bạn cùng lớp bàn xem nên làm gì và dùng gì để buổi tiệc thân thiện với môi trường.",
+      "aiRole": "Lan, a classmate who is helping to plan the class party",
+      "studentRoleVi": "Học sinh cùng lên kế hoạch tiệc",
+      "goalVi": "Nói em thích và không thích gì ở một buổi tiệc, và đề xuất ít nhất một ý tưởng thân thiện với môi trường.",
+      "goal": "Say what you like and dislike at a party, and suggest at least one eco-friendly idea for the class party.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất một ý tưởng thân thiện với môi trường", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một cụm nói về sở thích", "words": ["I'm really into", "I can't stand", "I'm keen on", "I'm not really into", "I really love"] }
+      ],
+      "opener": "Hi! Let's plan our end-of-term party. What kind of things do you like at a party?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Nice. Is there anything you don't like at parties?",
+        "I agree. How can we make our party more eco-friendly?",
+        "Great idea! Let's tell the class tomorrow."
+      ],
+      "tipsVi": ["Dùng \"I'm really into...\" và \"I can't stand...\".", "Gợi ý: cốc dùng nhiều lần, không dùng bóng bay nhựa, mang đồ ăn từ nhà."],
+      "keywords": ["I'm really into", "I can't stand", "plastic", "reusable", "green"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Bạn muốn cho khỉ ăn",
+      "contextVi": "Lớp em đang tham quan một vườn quốc gia. Một bạn cùng lớp mang theo bánh kẹo và muốn cho đàn khỉ ăn.",
+      "aiRole": "Duc, a classmate on the field trip who wants to feed the monkeys",
+      "studentRoleVi": "Bạn cùng lớp muốn ngăn Đức cho khỉ ăn",
+      "goalVi": "Khuyên Đức không cho khỉ ăn, nêu lý do, và trả lời khi Đức có ý kiến khác.",
+      "goal": "Tell Duc not to feed the monkeys, give reasons, and answer his different opinion politely.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu ít nhất một lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["wildlife", "habitat", "ecosystem", "food chain", "native", "species"] }
+      ],
+      "opener": "Look at those monkeys! I've got some biscuits. Let's feed them!",
+      "stance": "The monkeys look hungry. A few biscuits can't hurt them.",
+      "turns": 5,
+      "fallback": [
+        "Why not? They look so cute.",
+        "But the monkeys look hungry. A few biscuits can't hurt them.",
+        "Hmm, I didn't know that. So what should we do instead?",
+        "OK, I'll keep my biscuits. Let's just take photos."
+      ],
+      "tipsVi": ["Mở đầu bằng \"You shouldn't do that for several reasons.\"", "Nghĩ đến: thức ăn của người làm khỉ ốm, khỉ quen xin ăn."],
+      "keywords": ["You shouldn't", "wildlife", "natural food", "because", "instead"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Khôi phục vườn sinh thái của trường",
+      "contextVi": "Trường em có một khoản tiền nhỏ. Em muốn dùng nó để khôi phục khu ao và vườn cây của trường. Thầy phụ trách muốn mua máy tính mới.",
+      "aiRole": "Mr Nam, the teacher in charge of the school budget",
+      "studentRoleVi": "Học sinh đề xuất khôi phục khu ao và vườn cây",
+      "goalVi": "Đề xuất dùng tiền khôi phục khu ao và vườn cây, nêu lợi ích, và trả lời khi thầy có ý kiến khác.",
+      "goal": "Suggest spending the money on restoring the school pond and garden, explain the benefits, and answer the teacher's view.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất cụ thể", "words": [] },
+        { "kind": "reason", "vi": "Nêu lợi ích hoặc lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["ecosystem", "biodiversity", "native", "living things", "habitat"] }
+      ],
+      "opener": "Hello. I heard you have an idea about how to spend the school's extra money. What is it?",
+      "stance": "Computers are more useful for students than a pond with a few fish and plants.",
+      "turns": 5,
+      "fallback": [
+        "Interesting. Why do you think it's important?",
+        "But computers are more useful for students than a pond with a few fish and plants.",
+        "That's a good point. Who would look after the garden?",
+        "All right. Write a short plan, and I'll discuss it with the principal."
+      ],
+      "tipsVi": ["Nói lịch sự với thầy cô: \"I understand, but...\"", "Nghĩ đến lợi ích: học sinh học môn Sinh, có chỗ thư giãn, nhiều loài chim quay lại."],
+      "keywords": ["restore", "ecosystem", "biodiversity", "because", "students can"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Có nên cưỡi voi?",
+      "contextVi": "Em đi tham quan một vườn quốc gia cùng một bạn học sinh trao đổi nước ngoài. Bạn ấy rất muốn cưỡi voi ở đó.",
+      "aiRole": "Alex, an exchange student from Canada who wants to go on an elephant ride",
+      "studentRoleVi": "Học sinh Việt Nam đi cùng Alex",
+      "goalVi": "Nói em thích hay không thích việc cưỡi voi, nêu lý do, đề xuất hoạt động khác, và trả lời khi Alex có ý kiến khác.",
+      "goal": "Say how you feel about elephant rides with reasons, suggest another activity, and respond to Alex's different opinion.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "suggestion", "vi": "Đề xuất một hoạt động khác", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một cụm sở thích hoặc từ của bài", "words": ["I can't stand", "I'm not really into", "wildlife", "habitat", "endangered", "conservation"] }
+      ],
+      "opener": "There are so many activities in this park! Do you fancy going on an elephant ride with me?",
+      "stance": "Elephant rides are fun, and the elephants are used to it. It's a traditional activity here.",
+      "turns": 5,
+      "fallback": [
+        "Really? Why don't you like it?",
+        "But elephant rides are fun, and the elephants are used to it. It's a traditional activity here.",
+        "Hmm, I didn't think about that. What can we do instead?",
+        "That sounds great. Let's go!"
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["I'm not really into", "elephants", "because", "instead", "wildlife"]
+    }
+  ]
+}

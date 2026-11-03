@@ -35,6 +35,11 @@ export default function PrivacyPage() {
               thời gian suy nghĩ và thời gian nói do trình duyệt đo, mức gợi ý đã dùng, nhận xét của AI.
             </li>
             <li>
+              <strong>Lộ trình 14 ngày (Learning Module):</strong> bài học từng ngày, từng lượt làm (câu trắc nghiệm đã chọn, file ghi
+              âm, chữ ghi lời, thời gian bắt đầu nói, số đo độ trôi chảy và độ rõ, mức gợi ý), nhận xét của AI, lời AI đáp trong
+              roleplay, và các lỗi hay gặp được ghi lại để ôn riêng.
+            </li>
+            <li>
               <strong>Nếu bạn tham gia nghiên cứu:</strong> bài kiểm tra nói (file ghi âm, thời gian phản xạ), các buổi luyện
               chế độ A hoặc B (từng lượt nói, thời gian luyện), câu trả lời câu hỏi hằng tuần, và tên trình duyệt bạn dùng (để
               tìm lỗi ghi âm trên từng loại máy).
@@ -55,8 +60,9 @@ export default function PrivacyPage() {
               <strong>Deepgram</strong>: nhận file ghi âm để chuyển giọng nói thành chữ.
             </li>
             <li>
-              <strong>OpenAI</strong>: nhận câu hỏi và chữ ghi lời câu trả lời để viết nhận xét; nhận chữ câu hỏi để tạo giọng
-              đọc. Không gửi tên, email hay mã học sinh.
+              <strong>OpenAI</strong>: nhận câu hỏi và chữ ghi lời câu trả lời để viết nhận xét; nhận chữ ghi lời các lượt nói
+              trong roleplay để AI đóng vai trả lời; nhận chữ câu hỏi, từ vựng, câu mẫu để tạo giọng đọc. Không gửi tên, email
+              hay mã học sinh.
             </li>
           </ul>
           <p className="text-muted">Mỗi dịch vụ xử lý dữ liệu theo chính sách riêng của họ.</p>

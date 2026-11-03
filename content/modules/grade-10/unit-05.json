@@ -1,0 +1,391 @@
+{
+  "grade": 10,
+  "unit": 5,
+  "title": "Inventions",
+  "titleVi": "Các phát minh",
+  "edition": "Tiếng Anh 10 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 52–61; Glossary tr. 127",
+  "vocab": [
+    { "id": "v01", "en": "invention", "vi": "phát minh", "ipa": "/ɪnˈvenʃən/", "ipaFrom": "glossary", "pos": "n", "example": "The washing machine is a great invention for busy families.", "collocations": ["a useful invention", "a new invention"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v02", "en": "device", "vi": "thiết bị", "ipa": "/dɪˈvaɪs/", "ipaFrom": "glossary", "pos": "n", "example": "I use three devices every day: a phone, a laptop and an e-reader.", "collocations": ["electronic devices", "a modern device"], "synonyms": ["gadget"], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v03", "en": "smartphone", "vi": "điện thoại thông minh", "ipa": "/ˈsmɑːtfəʊn/", "ipaFrom": "glossary", "pos": "n", "example": "My grandmother has just learnt to use a smartphone.", "collocations": ["use a smartphone"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v04", "en": "app", "vi": "ứng dụng (trên điện thoại)", "ipa": "/æp/", "ipaFrom": "glossary", "pos": "n", "example": "This app helps me learn ten new English words a day.", "collocations": ["educational apps", "download an app"], "synonyms": ["application"], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v05", "en": "install", "vi": "cài (phần mềm, chương trình máy tính)", "ipa": "/ɪnˈstɔːl/", "ipaFrom": "glossary", "pos": "v", "example": "I have just installed a dictionary app on my phone.", "collocations": ["install an app", "install software"], "synonyms": ["set up"], "antonyms": ["uninstall"], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v06", "en": "laptop", "vi": "máy tính xách tay", "ipa": "/ˈlæpˌtɒp/", "ipaFrom": "glossary", "pos": "n", "example": "A laptop is light, so I can take it to the library.", "collocations": ["a light laptop", "use a laptop"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v07", "en": "charge", "vi": "sạc pin", "ipa": "/tʃɑːdʒ/", "ipaFrom": "glossary", "pos": "v", "example": "Don't forget to charge your phone before the trip.", "collocations": ["charge a phone", "charge the battery"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v08", "en": "e-reader", "vi": "thiết bị đọc sách điện tử", "ipa": "/ˈiː riːdə/", "ipaFrom": "glossary", "pos": "n", "example": "My e-reader can store hundreds of books.", "collocations": ["read on an e-reader"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v09", "en": "driverless", "vi": "không người lái", "ipa": "/ˈdraɪvələs/", "ipaFrom": "glossary", "pos": "adj", "example": "Driverless cars may be common in big cities one day.", "collocations": ["driverless cars"], "synonyms": ["self-driving"], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v10", "en": "AI (artificial intelligence)", "vi": "trí tuệ nhân tạo", "ipa": "/eɪ aɪ/", "ipaFrom": "glossary", "pos": "n", "example": "AI helps drivers find the best routes in busy cities.", "collocations": ["use AI", "AI apps"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v11", "en": "3D printing", "vi": "in ba chiều", "ipa": "/ˌθriː diːˈprɪntɪŋ/", "ipaFrom": "glossary", "pos": "n", "example": "With 3D printing, our science club made a small model of a bridge.", "collocations": ["3D printing technology"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v12", "en": "storage space", "vi": "dung lượng lưu trữ (máy tính)", "ipa": "/ˈstɔːrɪdʒ speɪs/", "ipaFrom": "glossary", "pos": "n", "example": "My phone has no storage space left because of all my photos.", "collocations": ["free up storage space", "enough storage space"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v13", "en": "store", "vi": "lưu trữ", "ipa": "/stɔː/", "ipaFrom": "glossary", "pos": "v", "example": "You can store your documents online.", "collocations": ["store information", "store photos"], "synonyms": ["save"], "antonyms": ["delete"], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v14", "en": "hardware", "vi": "phần cứng (máy tính)", "ipa": "/ˈhɑːdweə/", "ipaFrom": "glossary", "pos": "n", "example": "Check the hardware before you buy a computer.", "collocations": ["computer hardware"], "synonyms": [], "antonyms": ["software"], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v15", "en": "software", "vi": "phần mềm (máy tính)", "ipa": "/ˈsɒftweə/", "ipaFrom": "glossary", "pos": "n", "example": "This software helps students design posters.", "collocations": ["install software", "free software"], "synonyms": [], "antonyms": ["hardware"], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v16", "en": "experiment", "vi": "thí nghiệm", "ipa": "/ɪksˈperɪmənt/", "ipaFrom": "glossary", "pos": "n", "example": "We did an experiment with batteries in our physics class.", "collocations": ["do an experiment"], "synonyms": ["test"], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v17", "en": "laboratory", "vi": "phòng thí nghiệm", "ipa": "/ləˈbɒrətəri/", "ipaFrom": "glossary", "pos": "n", "example": "The scientists tested their invention in a laboratory.", "collocations": ["science laboratory"], "synonyms": ["lab"], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v18", "en": "communicate", "vi": "giao tiếp", "ipa": "/kəˈmjuːnɪkeɪt/", "ipaFrom": "glossary", "pos": "v", "example": "Video calls let us communicate with relatives far away.", "collocations": ["communicate with"], "synonyms": ["talk"], "antonyms": [], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v19", "en": "suitable", "vi": "phù hợp", "ipa": "/ˈsjuːtəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "This cheap, light laptop is suitable for students.", "collocations": ["suitable for"], "synonyms": ["right"], "antonyms": ["unsuitable"], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v20", "en": "valuable", "vi": "có giá trị", "ipa": "/ˈvæljʊəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "The Internet is a valuable tool for learning.", "collocations": ["a valuable invention", "valuable information"], "synonyms": ["useful"], "antonyms": ["worthless"], "src": { "kind": "sgk", "page": 127 } },
+    { "id": "v21", "en": "button", "vi": "nút bấm", "ipa": "/ˈbʌtn/", "ipaFrom": "glossary", "pos": "n", "example": "Press the green button to start the machine.", "collocations": ["press a button", "the power button"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 127 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Present perfect",
+      "nameVi": "Thì hiện tại hoàn thành",
+      "explainVi": "Dùng have/has + V3 để nói: (1) việc đã xảy ra trong quá khứ nhưng kết quả còn quan trọng bây giờ; (2) việc bắt đầu trong quá khứ và vẫn còn tiếp diễn, thường với for, since; (3) việc vừa mới xong, thường với just, recently. Khi có mốc thời gian quá khứ rõ ràng (yesterday, in 2010) thì dùng quá khứ đơn.",
+      "formula": "S + have/has + V3/V-ed (+ for / since / just / recently)",
+      "examples": [
+        "I have had this laptop for three years.",
+        "Smartphones have changed the way we study.",
+        "My dad has just installed a new app for me."
+      ],
+      "wrong": [
+        { "sentence": "I have bought this phone last year.", "fix": "I bought this phone last year.", "whyVi": "Có mốc thời gian quá khứ rõ ràng (last year) thì dùng quá khứ đơn." },
+        { "sentence": "She has use this app since 2022.", "fix": "She has used this app since 2022.", "whyVi": "Sau has phải là V3/V-ed: used." },
+        { "sentence": "They have lived here since two years.", "fix": "They have lived here for two years.", "whyVi": "Khoảng thời gian (two years) đi với for; since đi với mốc thời gian." }
+      ],
+      "drills": [
+        { "prompt": "Since people invented the computer, they ___ many more useful inventions.", "options": ["have created", "create", "are creating"], "answer": 0, "explainVi": "Từ quá khứ đến nay (since...): hiện tại hoàn thành have created." },
+        { "prompt": "I can't call you. I ___ my phone.", "options": ["have lost", "lose", "am losing"], "answer": 0, "explainVi": "Mất điện thoại trong quá khứ, kết quả là bây giờ không gọi được: have lost." },
+        { "prompt": "We have used this laptop ___ 2021.", "options": ["since", "for", "ago"], "answer": 0, "explainVi": "2021 là một mốc thời gian: since." },
+        { "prompt": "Which sentence is correct?", "options": ["He has just finished his project.", "He has just finish his project.", "He just has finishing his project."], "answer": 0, "explainVi": "has + just + V3: has just finished." }
+      ],
+      "errorTag": "verb_tense",
+      "src": { "kind": "sgk", "page": 54 }
+    },
+    {
+      "id": "g02",
+      "name": "Gerunds and to-infinitives",
+      "nameVi": "Danh động từ (V-ing) và động từ nguyên mẫu có to",
+      "explainVi": "Dùng V-ing sau avoid, enjoy, finish và khi làm chủ ngữ (Learning English is fun). Dùng to + V sau want, decide, allow, và sau It's + tính từ (It's fun to learn English). Một số động từ như like, love, hate đi được với cả V-ing và to V.",
+      "formula": "avoid/enjoy/finish + V-ing  ·  want/decide/allow + to V  ·  It's + adj + to V  ·  like/love/hate + V-ing / to V",
+      "examples": [
+        "I enjoy taking photos with my phone.",
+        "My parents don't allow me to use my phone after 10 p.m.",
+        "It's convenient to study with a laptop."
+      ],
+      "wrong": [
+        { "sentence": "I enjoy to play games on my laptop.", "fix": "I enjoy playing games on my laptop.", "whyVi": "Sau enjoy dùng V-ing." },
+        { "sentence": "My brother decided buying an e-reader.", "fix": "My brother decided to buy an e-reader.", "whyVi": "Sau decide dùng to + V." },
+        { "sentence": "It's useful learn with apps.", "fix": "It's useful to learn with apps.", "whyVi": "It's + tính từ + to V: cần có to." }
+      ],
+      "drills": [
+        { "prompt": "Many children enjoy ___ modern devices.", "options": ["using", "to use", "use"], "answer": 0, "explainVi": "enjoy + V-ing: using." },
+        { "prompt": "I decided ___ computer science at university.", "options": ["to study", "studying", "study"], "answer": 0, "explainVi": "decide + to V: to study." },
+        { "prompt": "___ language games on a smartphone is fun.", "options": ["Playing", "Play", "Played"], "answer": 0, "explainVi": "Động từ làm chủ ngữ dùng V-ing: Playing." },
+        { "prompt": "It is very convenient ___ with a smartphone.", "options": ["to study", "study", "studied"], "answer": 0, "explainVi": "It's + tính từ + to V: to study." }
+      ],
+      "errorTag": "verb_form",
+      "src": { "kind": "sgk", "page": 54 }
+    },
+    {
+      "id": "g03",
+      "name": "Talking about benefits: allow / help / be useful for",
+      "nameVi": "Nói về lợi ích: allow / help / be useful for",
+      "explainVi": "Để nói một phát minh có ích thế nào: ... allows us to + V; ... helps us + V; ... is used for + V-ing; ... is useful for + V-ing. Chú ý: sau giới từ for dùng V-ing; sau allow + người dùng to V.",
+      "formula": "S + allow(s)/enable(s) + O + to V  ·  S + help(s) + O + V  ·  S + is/are useful for + V-ing",
+      "examples": [
+        "Smartphones allow us to communicate with people far away.",
+        "AI helps drivers find the best routes.",
+        "Laptops are useful for doing homework at the library."
+      ],
+      "wrong": [
+        { "sentence": "Video calls allow us talk to our grandparents.", "fix": "Video calls allow us to talk to our grandparents.", "whyVi": "allow + người + to V: cần to." },
+        { "sentence": "E-readers are useful for read at night.", "fix": "E-readers are useful for reading at night.", "whyVi": "Sau giới từ for dùng V-ing: reading." }
+      ],
+      "drills": [
+        { "prompt": "Vacuum cleaners allow us ___ the house quickly.", "options": ["to clean", "clean", "cleaning"], "answer": 0, "explainVi": "allow us + to V: to clean." },
+        { "prompt": "Smartphones are useful for ___ new languages.", "options": ["learning", "learn", "to learning"], "answer": 0, "explainVi": "useful for + V-ing: learning." },
+        { "prompt": "This app helps me ___ my homework on time.", "options": ["finish", "finishing", "finished"], "answer": 0, "explainVi": "help + người + V (nguyên mẫu): finish." }
+      ],
+      "errorTag": "verb_form",
+      "src": { "kind": "sgk", "page": 58 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "word_stress",
+      "focus": "Danh từ ba âm tiết nhấn âm thứ hai (-●-)",
+      "tipVi": "Một số danh từ ba âm tiết nhấn âm giữa: inVENtion, comPUTer, adVANtage, traDItion. Âm tiết đầu và cuối đọc nhẹ, nhanh.",
+      "words": ["invention", "computer", "advantage", "tradition"],
+      "sentence": "The computer is a great invention with many advantages.",
+      "quiz": [
+        { "prompt": "Which noun is stressed on the SECOND syllable?", "options": ["computer", "family", "holiday"], "answer": 0, "explainVi": "computer /kəmˈpjuːtə/ nhấn âm thứ hai; family và holiday nhấn âm đầu." }
+      ],
+      "src": { "kind": "sgk", "page": 53 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Danh từ ba âm tiết nhấn âm đầu (●--)",
+      "tipVi": "Nhiều danh từ ba âm tiết nhấn âm đầu: HOliday, CENtury, FAmily, INternet, SYLlable. Riêng afternoon nhấn âm cuối.",
+      "words": ["holiday", "century", "family", "Internet", "syllable"],
+      "sentence": "My family uses the Internet every day.",
+      "quiz": [
+        { "prompt": "Which noun is stressed on the FIRST syllable?", "options": ["century", "tradition", "advantage"], "answer": 0, "explainVi": "century nhấn âm đầu (●--); tradition và advantage nhấn âm giữa." }
+      ],
+      "src": { "kind": "sgk", "page": 53 }
+    },
+    {
+      "id": "p03",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới trong bài",
+      "tipVi": "device, install, experiment, laboratory, communicate nhấn âm thứ hai; laptop, hardware, software, driverless, valuable nhấn âm đầu.",
+      "words": ["device", "install", "experiment", "laboratory", "laptop", "hardware", "driverless", "valuable"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["install", "laptop", "hardware"], "answer": 0, "explainVi": "install /ɪnˈstɔːl/ nhấn âm thứ hai; laptop và hardware nhấn âm đầu." },
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["valuable", "device", "experiment"], "answer": 0, "explainVi": "valuable /ˈvæljʊəbl/ nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p04",
+      "kind": "intonation",
+      "focus": "Ngữ điệu lời đề nghị lịch sự (Can you...?)",
+      "tipVi": "Câu hỏi Yes/No để nhờ vả như \"Can you recommend...?\" lên giọng ở cuối, nghe lịch sự hơn. Nhấn vào thứ mình cần: Can you tell me more about this LAPTOP?",
+      "words": ["Can you help me?", "Can you recommend one?"],
+      "sentence": "Can you please recommend a good laptop for students?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Can you please recommend ...?", "vi": "Bạn có thể giới thiệu giúp ... không?", "useVi": "Khi nhờ người khác gợi ý, giới thiệu một sản phẩm.", "example": "Can you please recommend a cheap and light laptop?", "src": { "kind": "sgk", "page": 58 } },
+    { "id": "e02", "en": "Can you let me know about ...?", "vi": "Bạn cho mình biết về ... được không?", "useVi": "Khi hỏi thêm thông tin một cách lịch sự.", "example": "Can you let me know about the battery of this phone?", "src": { "kind": "sgk", "page": 58 } },
+    { "id": "e03", "en": "Can you tell me (more) about ...?", "vi": "Bạn nói (thêm) cho mình về ... được không?", "useVi": "Khi muốn biết thêm chi tiết.", "example": "Can you tell me more about the storage space?", "src": { "kind": "sgk", "page": 59 } },
+    { "id": "e04", "en": "Please let me know (more) about ...", "vi": "Vui lòng cho mình biết (thêm) về ...", "useVi": "Khi đề nghị người khác cung cấp thông tin.", "example": "Please let me know more about this e-reader.", "src": { "kind": "sgk", "page": 59 } },
+    { "id": "e05", "en": "I would like to know about ...", "vi": "Mình muốn biết về ...", "useVi": "Khi nói rõ thông tin mình cần.", "example": "I would like to know about the price of this tablet.", "src": { "kind": "sgk", "page": 59 } },
+    { "id": "e06", "en": "Sure. / Certainly. / No problem.", "vi": "Được chứ. / Chắc chắn rồi. / Không vấn đề gì.", "useVi": "Khi đồng ý giúp ai đó.", "example": "Certainly. This laptop is very popular with students.", "src": { "kind": "sgk", "page": 59 } },
+    { "id": "e07", "en": "How can I help you?", "vi": "Tôi có thể giúp gì cho bạn?", "useVi": "Khi hỏi người khác cần giúp gì (người bán hàng hay dùng).", "example": "Good morning. How can I help you?", "src": { "kind": "sgk", "page": 59 } },
+    { "id": "e08", "en": "Feel free to ask me if you need further information.", "vi": "Cứ hỏi tôi nếu bạn cần thêm thông tin.", "useVi": "Khi mời người khác hỏi thêm.", "example": "You can take a look at it. Feel free to ask me if you need further information.", "src": { "kind": "sgk", "page": 59 } },
+    { "id": "e09", "en": "... is one of the benefits of ...", "vi": "... là một trong những lợi ích của ...", "useVi": "Khi nêu lợi ích của một phát minh.", "example": "Learning anywhere is one of the benefits of smartphones.", "src": { "kind": "sgk", "page": 58 } },
+    { "id": "e10", "en": "I can't imagine life without ...", "vi": "Mình không thể tưởng tượng cuộc sống thiếu ...", "useVi": "Khi nói một phát minh quan trọng với mình thế nào.", "example": "I can't imagine life without the washing machine.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["I have had", "this laptop", "for two years"], "vi": "Mình đã dùng chiếc máy tính xách tay này được hai năm.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["Smartphones", "have changed", "the way", "we study"], "vi": "Điện thoại thông minh đã thay đổi cách chúng ta học.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["I enjoy", "reading books", "on my e-reader"], "vi": "Mình thích đọc sách trên máy đọc sách điện tử.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["It's convenient", "to learn English", "with educational apps"], "vi": "Học tiếng Anh bằng các ứng dụng giáo dục rất tiện.", "grammarId": "g02" },
+    { "id": "b05", "chunks": ["Video calls", "allow us", "to communicate", "with people far away"], "vi": "Gọi video cho phép chúng ta giao tiếp với những người ở xa.", "grammarId": "g03" },
+    { "id": "b06", "chunks": ["My phone", "has no storage space", "because of", "my photos"], "vi": "Điện thoại của mình hết dung lượng vì ảnh của mình.", "grammarId": null },
+    { "id": "b07", "chunks": ["My dad", "has just installed", "a new app", "for me"], "vi": "Bố mình vừa cài một ứng dụng mới cho mình.", "grammarId": "g01" },
+    { "id": "b08", "chunks": ["Laptops", "are useful", "for doing homework"], "vi": "Máy tính xách tay rất có ích cho việc làm bài tập.", "grammarId": "g03" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I use an app.",
+      "steps": [
+        { "askVi": "Ứng dụng gì?", "ask": "What kind of app?", "add": "a dictionary" },
+        { "askVi": "Để làm gì?", "ask": "What for?", "add": "to check new words" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "when I read English stories" }
+      ],
+      "full": "I use a dictionary app to check new words when I read English stories."
+    },
+    {
+      "id": "x02",
+      "base": "I have used this laptop.",
+      "steps": [
+        { "askVi": "Được bao lâu?", "ask": "How long?", "add": "for three years" },
+        { "askVi": "Để làm gì?", "ask": "What for?", "add": "for my school projects" }
+      ],
+      "full": "I have used this laptop for three years for my school projects."
+    },
+    {
+      "id": "x03",
+      "base": "Smartphones help us.",
+      "steps": [
+        { "askVi": "Giúp làm gì?", "ask": "Help us do what?", "add": "communicate with friends" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "anywhere in the world" },
+        { "askVi": "Còn gì nữa?", "ask": "Anything else?", "add": "and learn new things every day" }
+      ],
+      "full": "Smartphones help us communicate with friends anywhere in the world and learn new things every day."
+    },
+    {
+      "id": "x04",
+      "base": "I want to invent a robot.",
+      "steps": [
+        { "askVi": "Robot làm gì?", "ask": "What does it do?", "add": "that can carry heavy schoolbags" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because many students have back pain" }
+      ],
+      "full": "I want to invent a robot that can carry heavy schoolbags because many students have back pain."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Thiết bị em dùng nhiều nhất và dùng để làm gì",
+      "questions": [
+        "Which device do you use most often, and what for?",
+        "What gadget do you use the most on a normal day?",
+        "Which piece of technology helps you most with your studies?"
+      ],
+      "keywords": ["device", "laptop", "smartphone", "useful for"],
+      "exampleAnswer": "I use my laptop most often. It's useful for doing projects and watching English videos.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Ứng dụng hoặc công nghệ mới em vừa dùng (hiện tại hoàn thành)",
+      "questions": [
+        "What new apps have you installed this month?",
+        "Which new app have you started using recently?",
+        "What is the newest thing you have learnt to do on your phone?"
+      ],
+      "keywords": ["have installed", "app", "recently", "just"],
+      "exampleAnswer": "I've just installed a maths app, and I've used it every evening this week.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Lợi ích của máy tính xách tay với học sinh",
+      "questions": [
+        "What are the main benefits of laptops for students?",
+        "How do laptops help students learn?",
+        "Why are laptops useful for studying?"
+      ],
+      "keywords": ["benefits", "allow", "store", "useful for"],
+      "exampleAnswer": "Laptops allow us to search for information quickly, and they can store all our school documents.",
+      "expectsReason": true
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Tác hại khi dùng thiết bị điện tử quá nhiều",
+      "questions": [
+        "What problems can smartphones cause for teenagers?",
+        "What are the disadvantages of using a smartphone too much?",
+        "How can spending too much time on devices be harmful?"
+      ],
+      "keywords": ["avoid", "eyes", "sleep", "too much"],
+      "exampleAnswer": "Using phones too much can hurt our eyes and our sleep, so I try to avoid using mine at night.",
+      "expectsReason": true
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Phát minh em mong có trong tương lai",
+      "questions": [
+        "What invention would you like to see in the future?",
+        "If you could invent a new device, what would it do?",
+        "What machine do you wish someone would invent?"
+      ],
+      "keywords": ["invention", "robot", "help", "because"],
+      "exampleAnswer": "I'd like a robot that cooks healthy meals because my parents are always busy.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "Tell me about a device in your home that your grandparents did not have when they were young.", "keywords": ["device", "useful", "have had"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should young children have their own tablets? Why or why not?", "keywords": ["should", "allow", "because"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend's phone is always full and has no storage space. What do you say to him?", "keywords": ["storage space", "delete", "store"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "Tell me about an invention that has changed the way your family cooks or cleans.", "keywords": ["invention", "has changed", "useful"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should schools use robots to help teachers in class? Why or why not?", "keywords": ["should", "AI", "because"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your grandmother loves reading, but small print in books makes her eyes tired. What do you say to her?", "keywords": ["e-reader", "suitable", "try"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Mua máy tính xách tay ở cửa hàng",
+      "contextVi": "Em đến một cửa hàng máy tính để chọn máy tính xách tay cho việc học. Em cần hỏi nhân viên bán hàng gợi ý và thông tin về máy.",
+      "aiRole": "a shop assistant at a computer store",
+      "studentRoleVi": "Học sinh muốn mua máy tính xách tay",
+      "goalVi": "Nhờ nhân viên gợi ý, nói rõ em cần máy thế nào và hỏi thêm ít nhất một thông tin.",
+      "goal": "Ask the shop assistant to recommend a laptop, explain what you need it for, and ask about at least one feature.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nói lý do em cần máy như vậy (because...)", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["laptop", "storage space", "suitable", "hardware", "software", "charge"] }
+      ],
+      "opener": "Good afternoon! How can I help you today?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Certainly. What will you mainly use it for?",
+        "I see. This one is light and cheap. Is there anything else you'd like to know?",
+        "Sure. Feel free to ask me if you need further information."
+      ],
+      "tipsVi": ["Dùng các cụm của bài: \"Can you please recommend...?\", \"Can you tell me more about...?\"", "Nêu nhu cầu: nhẹ, rẻ, pin lâu, nhiều dung lượng."],
+      "keywords": ["Can you recommend", "light", "storage space", "suitable for", "because"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Thuyết phục bố mua máy tính xách tay",
+      "contextVi": "Em muốn có một chiếc máy tính xách tay để học. Bố em cho rằng điện thoại thông minh làm được mọi việc nên không cần máy tính.",
+      "aiRole": "your father",
+      "studentRoleVi": "Con, muốn có máy tính xách tay để học",
+      "goalVi": "Giải thích lợi ích của máy tính xách tay, đưa ví dụ và trả lời khi bố có ý kiến khác.",
+      "goal": "Explain the benefits of a laptop for your studies, give examples, and answer your father's different opinion.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "example", "vi": "Đưa ví dụ việc chỉ làm tốt trên máy tính", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["laptop", "software", "store", "useful for", "allow"] }
+      ],
+      "opener": "Your mum says you want a laptop. Why do you need one?",
+      "stance": "A smartphone can do everything a laptop can, so you don't need a laptop.",
+      "turns": 5,
+      "fallback": [
+        "Hmm. What will you use it for?",
+        "But a smartphone can do everything a laptop can, so you don't need a laptop.",
+        "OK, I understand. How will you make sure you don't just play games on it?",
+        "Fine. Let's look at some laptops this weekend."
+      ],
+      "tipsVi": ["Phản biện lịch sự: \"I see your point, Dad, but...\"", "Dùng cấu trúc lợi ích: \"A laptop allows me to...\", \"It's useful for...\""],
+      "keywords": ["allows me to", "useful for", "big screen", "I see your point", "because"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Chọn phát minh cho hội chợ khoa học",
+      "contextVi": "Câu lạc bộ khoa học của trường chọn một phát minh để giới thiệu ở hội chợ. Một bạn cho rằng chỉ nên giới thiệu công nghệ mới như AI, các phát minh cũ thì nhàm chán.",
+      "aiRole": "Phong, a member of the school science club",
+      "studentRoleVi": "Thành viên câu lạc bộ khoa học",
+      "goalVi": "Đề xuất một phát minh, nêu lợi ích có ví dụ, và trả lời ý kiến khác của Phong.",
+      "goal": "Suggest an invention to present at the science fair, explain its benefits with an example, and respond to Phong's view.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất một phát minh", "words": [] },
+        { "kind": "reason", "vi": "Nêu lợi ích, lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["invention", "valuable", "experiment", "laboratory", "communicate"] }
+      ],
+      "opener": "We have to choose an invention for the science fair. Which one do you want to present?",
+      "stance": "Old inventions are boring. We should only present new technology like AI.",
+      "turns": 5,
+      "fallback": [
+        "Interesting choice. Why is it important?",
+        "Hmm, but old inventions are boring. We should only present new technology like AI.",
+        "OK, that's a good point. How can we make our presentation interesting?",
+        "Great. Let's start working on it tomorrow."
+      ],
+      "tipsVi": ["Dùng hiện tại hoàn thành để nói ảnh hưởng: \"It has changed...\"", "Phản biện: \"I'm not sure about that. ...\""],
+      "keywords": ["has changed", "valuable", "is one of the benefits", "but", "because"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Ý tưởng phát minh giải quyết vấn đề ở trường",
+      "contextVi": "Cô giáo dạy Khoa học hỏi lớp ý tưởng cho một phát minh nhỏ giúp giải quyết một vấn đề ở trường (ví dụ cặp sách nặng, lớp học nóng). Cô băn khoăn phát minh có thể quá đắt.",
+      "aiRole": "Ms Hanh, your science teacher",
+      "studentRoleVi": "Học sinh trình bày ý tưởng phát minh",
+      "goalVi": "Mô tả ý tưởng, nêu lợi ích có lý do và trả lời khi cô lo về chi phí.",
+      "goal": "Describe your invention idea for a school problem, explain its benefits with a reason, and respond to the teacher's worry about cost.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Mô tả ý tưởng phát minh", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do, lợi ích", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["invention", "device", "useful", "allow", "suitable", "button"] }
+      ],
+      "opener": "Our class needs an idea for a small invention to solve a problem at school. What's your idea?",
+      "stance": "New inventions are usually expensive, so schools can't use them.",
+      "turns": 5,
+      "fallback": [
+        "That's creative! How does it work?",
+        "But new inventions are usually expensive, so schools can't use them. What do you think?",
+        "Good answer. Who would use it most?",
+        "Thank you. Let's present it at the science fair."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["invention", "allows", "useful for", "cheap", "because"]
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "grade": 8,
+  "unit": 10,
+  "title": "Communication in the Future",
+  "titleVi": "Giao tiếp trong tương lai",
+  "edition": "Tiếng Anh 8 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 104–113; Glossary tr. 138–139",
+  "vocab": [
+    { "id": "v01", "en": "video conference", "vi": "cuộc họp trực tuyến", "ipa": "/ˈvɪdiəʊ ˌkɒnfərəns/", "ipaFrom": "glossary", "pos": "n", "example": "Our class had a video conference with a school in Japan.", "collocations": ["have a video conference", "join a video conference"], "synonyms": ["video call"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v02", "en": "voice message", "vi": "tin nhắn thoại", "ipa": "/ˈvɔɪs mesɪdʒ/", "ipaFrom": "glossary", "pos": "n", "example": "My grandma sends me voice messages because typing is hard for her.", "collocations": ["send a voice message", "leave a voice message"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v03", "en": "emoji", "vi": "biểu tượng cảm xúc", "ipa": "/ɪˈməʊdʒi/", "ipaFrom": "glossary", "pos": "n", "example": "I add a smiley emoji to show I'm joking.", "collocations": ["send an emoji", "use emojis"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v04", "en": "social network", "vi": "mạng xã hội", "ipa": "/ˌsəʊʃl ˈnetwɜːk/", "ipaFrom": "glossary", "pos": "n", "example": "Many teenagers meet their friends on social networks.", "collocations": ["use social networks", "post on a social network"], "synonyms": ["social media"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v05", "en": "text", "vi": "nhắn tin, văn bản", "ipa": "/tekst/", "ipaFrom": "glossary", "pos": "v, n", "example": "I'll text you when I get to the library.", "collocations": ["text a friend", "a text message"], "synonyms": ["message"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v06", "en": "smartphone", "vi": "điện thoại thông minh", "ipa": "/ˈsmɑːtfəʊn/", "ipaFrom": "glossary", "pos": "n", "example": "Smartphones will be much thinner in the future.", "collocations": ["use a smartphone", "a new smartphone"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v07", "en": "tablet", "vi": "máy tính bảng", "ipa": "/ˈtæblət/", "ipaFrom": "glossary", "pos": "n", "example": "My little sister reads e-books on her tablet.", "collocations": ["on a tablet"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v08", "en": "webcam", "vi": "thiết bị ghi / truyền hình ảnh", "ipa": "/ˈwebkæm/", "ipaFrom": "glossary", "pos": "n", "example": "Turn on your webcam so we can see you.", "collocations": ["turn on the webcam", "adjust the webcam"], "synonyms": ["camera"], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v09", "en": "Internet connection", "vi": "kết nối mạng", "ipa": "/ˈɪntənet kəˈnekʃn/", "ipaFrom": "glossary", "pos": "n", "example": "We need a fast Internet connection for online classes.", "collocations": ["a high-speed Internet connection", "a poor Internet connection"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v10", "en": "language barrier", "vi": "rào cản ngôn ngữ", "ipa": "/ˈlæŋɡwɪdʒ ˈbærɪə/", "ipaFrom": "glossary", "pos": "n", "example": "Learning English helps us overcome the language barrier.", "collocations": ["overcome the language barrier"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v11", "en": "translation machine", "vi": "máy dịch thuật", "ipa": "/trænzˈleɪʃn məˈʃiːn/", "ipaFrom": "glossary", "pos": "n", "example": "A translation machine can change English into Vietnamese in seconds.", "collocations": ["use a translation machine"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v12", "en": "telepathy", "vi": "hình thức giao tiếp bằng ý nghĩ, thần giao cách cảm", "ipa": "/təˈlepəθi/", "ipaFrom": "glossary", "pos": "n", "example": "With telepathy, people could share ideas without speaking.", "collocations": ["communicate by telepathy"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v13", "en": "holography", "vi": "hình thức giao tiếp bằng ảnh không gian ba chiều", "ipa": "/hɒˈlɒɡrəfi/", "ipaFrom": "glossary", "pos": "n", "example": "With holography, you can join a meeting as a 3D image.", "collocations": ["use holography"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v14", "en": "instantly", "vi": "ngay lập tức", "ipa": "/ˈɪnstəntli/", "ipaFrom": "glossary", "pos": "adv", "example": "My best friend always replies to my messages instantly.", "collocations": ["reply instantly"], "synonyms": ["immediately"], "antonyms": ["slowly"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v15", "en": "advanced", "vi": "tiên tiến", "ipa": "/ədˈvɑːnst/", "ipaFrom": "glossary", "pos": "adj", "example": "In the future, phones will be even more advanced.", "collocations": ["advanced technology"], "synonyms": ["modern"], "antonyms": ["old-fashioned"], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v16", "en": "account", "vi": "tài khoản (ngân hàng, mạng xã hội ...)", "ipa": "/əˈkaʊnt/", "ipaFrom": "glossary", "pos": "n", "example": "You need a parent's help to open a social network account.", "collocations": ["open an account", "an email account"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v17", "en": "charge", "vi": "nạp, sạc (pin)", "ipa": "/tʃɑːdʒ/", "ipaFrom": "glossary", "pos": "v", "example": "I charge my phone every night before I go to bed.", "collocations": ["charge the battery", "charge a phone"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v18", "en": "carrier pigeon", "vi": "bồ câu đưa thư", "ipa": "/ˈkærɪə pɪdʒɪn/", "ipaFrom": "glossary", "pos": "n", "example": "Long ago, people sent letters by carrier pigeon.", "collocations": ["send a message by carrier pigeon"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 138 } },
+    { "id": "v19", "en": "transmit", "vi": "truyền, chuyển giao", "ipa": "/trænzˈmɪt/", "ipaFrom": "glossary", "pos": "v", "example": "Phones transmit our voices over long distances.", "collocations": ["transmit information", "transmit a message"], "synonyms": ["send"], "antonyms": ["receive"], "src": { "kind": "sgk", "page": 139 } },
+    { "id": "v20", "en": "live", "vi": "(phát sóng, truyền hình) trực tiếp", "ipa": "/laɪv/", "ipaFrom": "glossary", "pos": "adj", "example": "We watched the football match live on TV.", "collocations": ["a live show", "watch live"], "synonyms": [], "antonyms": ["recorded"], "src": { "kind": "sgk", "page": 139 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Prepositions of place",
+      "nameVi": "Giới từ chỉ nơi chốn",
+      "explainVi": "Giới từ chỉ nơi chốn cho biết người hay vật ở đâu: at (tại một điểm: at the end of the street, at home), in (bên trong: in the box), on (trên bề mặt: on the table, on the pavement), under (bên dưới), in front of (phía trước), opposite (đối diện).",
+      "formula": "be / sit / stand ... + at / in / on / under / in front of / opposite + nơi chốn",
+      "examples": [
+        "My phone is on the desk, next to the tablet.",
+        "The bookshop is opposite the post office.",
+        "Please wait for me in front of the library."
+      ],
+      "wrong": [
+        { "sentence": "I left my tablet in the table.", "fix": "I left my tablet on the table.", "whyVi": "Đồ vật nằm trên bề mặt bàn dùng on, không dùng in." },
+        { "sentence": "The phone shop is in the end of my street.", "fix": "The phone shop is at the end of my street.", "whyVi": "Cụm cố định: at the end of (ở cuối)." }
+      ],
+      "drills": [
+        { "prompt": "I found my lost charger ___ the bed. It fell down there.", "options": ["under", "opposite", "on"], "answer": 0, "explainVi": "Rơi xuống gầm giường: under the bed." },
+        { "prompt": "Put your phone ___ the desk, next to the laptop.", "options": ["on", "in", "under"], "answer": 0, "explainVi": "Đặt trên mặt bàn: on the desk." },
+        { "prompt": "Don't walk in the street. Walk ___ the pavement.", "options": ["on", "at", "opposite"], "answer": 0, "explainVi": "Đi trên vỉa hè: on the pavement." }
+      ],
+      "errorTag": "preposition",
+      "src": { "kind": "sgk", "page": 107 }
+    },
+    {
+      "id": "g02",
+      "name": "Prepositions of time: in, for, by",
+      "nameVi": "Giới từ chỉ thời gian: in, for, by",
+      "explainVi": "in + một khoảng thời gian có thể mang nghĩa tương lai (trong vòng bao lâu nữa): in ten years. for + một khoảng thời gian cho biết việc kéo dài bao lâu: for three hours. by + một mốc thời gian nghĩa là \"không muộn hơn lúc đó\": by 6 p.m.",
+      "formula": "in + khoảng thời gian (tương lai)  ·  for + khoảng thời gian (kéo dài)  ·  by + mốc thời gian (không muộn hơn)",
+      "examples": [
+        "People will use holography in twenty years.",
+        "We talked on the video call for two hours.",
+        "Please send me your voice message by 9 p.m."
+      ],
+      "wrong": [
+        { "sentence": "We stayed at the exhibition by three hours.", "fix": "We stayed at the exhibition for three hours.", "whyVi": "Nói việc kéo dài bao lâu thì dùng for + khoảng thời gian." },
+        { "sentence": "Finish your homework for 8 p.m., please.", "fix": "Finish your homework by 8 p.m., please.", "whyVi": "Không muộn hơn một mốc giờ thì dùng by." }
+      ],
+      "drills": [
+        { "prompt": "I think all phones will be foldable ___ ten years.", "options": ["in", "for", "by"], "answer": 0, "explainVi": "Trong vòng mười năm nữa (nghĩa tương lai): in ten years." },
+        { "prompt": "Please charge the tablets ___ 7 a.m. The online class starts at 7:15.", "options": ["by", "for", "in"], "answer": 0, "explainVi": "Sạc xong không muộn hơn 7 giờ: by 7 a.m." },
+        { "prompt": "My brother played online games ___ four hours yesterday.", "options": ["for", "by", "on"], "answer": 0, "explainVi": "Chơi kéo dài bốn tiếng: for four hours." }
+      ],
+      "errorTag": "preposition",
+      "src": { "kind": "sgk", "page": 107 }
+    },
+    {
+      "id": "g03",
+      "name": "Possessive pronouns",
+      "nameVi": "Đại từ sở hữu",
+      "explainVi": "Đại từ sở hữu (mine, yours, his, hers, ours, theirs) thay cho \"tính từ sở hữu + danh từ\" để khỏi lặp lại danh từ: This is my phone → This phone is mine. Có thể dùng sau of: a friend of mine (một người bạn của mình).",
+      "formula": "mine / yours / his / hers / ours / theirs (không đi kèm danh từ)  ·  a / one + N + of + mine / yours ...",
+      "examples": [
+        "This tablet isn't mine. It's hers.",
+        "Mi is a friend of mine.",
+        "Our school is old, but theirs is very modern."
+      ],
+      "wrong": [
+        { "sentence": "Is this phone your?", "fix": "Is this phone yours?", "whyVi": "Đứng một mình không có danh từ phía sau thì dùng đại từ sở hữu yours." },
+        { "sentence": "Tuan is a classmate of her.", "fix": "Tuan is a classmate of hers.", "whyVi": "Sau of dùng đại từ sở hữu: a classmate of hers." }
+      ],
+      "drills": [
+        { "prompt": "Is Minh a cousin of ___? You look alike.", "options": ["yours", "your", "you"], "answer": 0, "explainVi": "Sau of dùng đại từ sở hữu: a cousin of yours." },
+        { "prompt": "That webcam belongs to Nam and Lan. It's ___.", "options": ["theirs", "their", "them"], "answer": 0, "explainVi": "Của họ, không có danh từ theo sau: theirs." },
+        { "prompt": "Which sentence is correct?", "options": ["This smartphone is mine.", "This smartphone is my.", "This is mine smartphone."], "answer": 0, "explainVi": "mine đứng một mình, không đi trước danh từ." }
+      ],
+      "errorTag": "pronoun",
+      "src": { "kind": "sgk", "page": 108 }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "word_stress",
+      "focus": "Trọng âm từ có đuôi -ese và -ee",
+      "tipVi": "Từ có đuôi -ese hoặc -ee thường nhấn vào âm tiết cuối: Vietnaˈmese, guaranˈtee. Đọc đuôi -ese, -ee to, rõ và dài hơn.",
+      "words": ["Chinese", "Japanese", "Vietnamese", "Taiwanese", "Bhutanese", "agree", "trainee", "awardee", "interviewee", "guarantee"],
+      "sentence": "The Japanese trainee agrees with me.",
+      "quiz": [
+        { "prompt": "Where is the stress in \"Japanese\"?", "options": ["the 1st syllable (ja)", "the 2nd syllable (pa)", "the 3rd syllable (nese)"], "answer": 2, "explainVi": "Japanese /ˌdʒæpəˈniːz/ nhấn âm cuối -nese." },
+        { "prompt": "Which word is stressed on the LAST syllable?", "options": ["trainee", "coffee", "committee"], "answer": 0, "explainVi": "trainee /treɪˈniː/ nhấn âm cuối; coffee và committee là ngoại lệ, không nhấn âm cuối." }
+      ],
+      "src": { "kind": "sgk", "page": 106 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "instantly, webcam, tablet nhấn âm đầu. emoji, telepathy, holography, advanced, transmit nhấn âm thứ hai.",
+      "words": ["instantly", "webcam", "tablet", "emoji", "telepathy", "holography", "transmit"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the FIRST syllable?", "options": ["instantly", "telepathy", "emoji"], "answer": 0, "explainVi": "instantly /ˈɪnstəntli/ nhấn âm đầu." },
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["holography", "webcam", "tablet"], "answer": 0, "explainVi": "holography /hɒˈlɒɡrəfi/ nhấn âm thứ hai." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p03",
+      "kind": "intonation",
+      "focus": "Ngữ điệu khi xin nhắc lại",
+      "tipVi": "Câu hỏi Yes/No như \"Can you repeat that, please?\" lên giọng ở cuối, nghe lịch sự hơn. \"Sorry for interrupting, but...\" nói nhẹ, ngừng ngắn sau but.",
+      "words": ["Can you repeat that, please?", "Sorry for interrupting, but ..."],
+      "sentence": "Hold on. Can you repeat that, please?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "Sorry for interrupting, but ...", "vi": "Xin lỗi vì ngắt lời, nhưng ...", "useVi": "Khi muốn chen vào lời người khác một cách lịch sự.", "example": "Sorry for interrupting, but I think we should meet earlier.", "src": { "kind": "sgk", "page": 108 } },
+    { "id": "e02", "en": "Hold on.", "vi": "Khoan đã.", "useVi": "Khi muốn người kia dừng lại một chút.", "example": "Hold on. Which button do I press first?", "src": { "kind": "sgk", "page": 108 } },
+    { "id": "e03", "en": "Can you repeat that, please?", "vi": "Bạn nhắc lại được không?", "useVi": "Khi chưa nghe rõ hoặc chưa hiểu và muốn người kia nói lại.", "example": "Sorry, the connection is bad. Can you repeat that, please?", "src": { "kind": "sgk", "page": 108 } },
+    { "id": "e04", "en": "It's a piece of cake.", "vi": "Dễ như ăn bánh.", "useVi": "Khi muốn nói một việc rất dễ.", "example": "Making a video call? It's a piece of cake.", "src": { "kind": "sgk", "page": 104 } },
+    { "id": "e05", "en": "You're kidding!", "vi": "Bạn đùa à!", "useVi": "Khi ngạc nhiên, khó tin điều người kia vừa nói.", "example": "You've never sent an emoji? You're kidding!", "src": { "kind": "sgk", "page": 104 } },
+    { "id": "e06", "en": "That's exactly how I feel.", "vi": "Mình cũng nghĩ y như vậy.", "useVi": "Khi hoàn toàn đồng ý với người kia.", "example": "Video calls are really convenient. That's exactly how I feel.", "src": { "kind": "sgk", "page": 104 } },
+    { "id": "e07", "en": "One advantage of ... is that ...", "vi": "Một ưu điểm của ... là ...", "useVi": "Khi nêu mặt tốt của một cách giao tiếp.", "example": "One advantage of voice messages is that you don't need to type.", "src": { "kind": "team", "page": null } },
+    { "id": "e08", "en": "One disadvantage is that ...", "vi": "Một nhược điểm là ...", "useVi": "Khi nêu mặt chưa tốt của một cách giao tiếp.", "example": "One disadvantage is that you need a good Internet connection.", "src": { "kind": "team", "page": null } },
+    { "id": "e09", "en": "In the future, people will probably ...", "vi": "Trong tương lai, có lẽ mọi người sẽ ...", "useVi": "Khi dự đoán điều có thể xảy ra.", "example": "In the future, people will probably talk by holography.", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "I prefer ... to ... because ...", "vi": "Mình thích ... hơn ... vì ...", "useVi": "Khi so sánh hai cách giao tiếp và nói lý do.", "example": "I prefer video calls to texts because I can see my friends.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["Let's meet", "in front of", "the school gate", "at 4 p.m."], "vi": "Chúng ta gặp nhau trước cổng trường lúc 4 giờ chiều nhé.", "grammarId": "g01" },
+    { "id": "b02", "chunks": ["I think", "people will use", "holography", "in twenty years"], "vi": "Mình nghĩ mọi người sẽ dùng giao tiếp ảnh ba chiều trong hai mươi năm nữa.", "grammarId": "g02" },
+    { "id": "b03", "chunks": ["This tablet", "isn't mine", "I think", "it's hers"], "vi": "Cái máy tính bảng này không phải của mình, mình nghĩ nó là của bạn ấy.", "grammarId": "g03" },
+    { "id": "b04", "chunks": ["Please send", "your voice message", "by nine o'clock", "tonight"], "vi": "Hãy gửi tin nhắn thoại của bạn trước chín giờ tối nay.", "grammarId": "g02" },
+    { "id": "b05", "chunks": ["We talked", "on a video call", "for two hours", "last night"], "vi": "Tối qua tụi mình nói chuyện qua video hai tiếng.", "grammarId": "g02" },
+    { "id": "b06", "chunks": ["My phone", "was", "under the sofa", "all morning"], "vi": "Điện thoại của mình nằm dưới ghế sô-pha cả buổi sáng.", "grammarId": "g01" },
+    { "id": "b07", "chunks": ["Translation machines", "can help us", "overcome", "the language barrier"], "vi": "Máy dịch có thể giúp chúng ta vượt qua rào cản ngôn ngữ.", "grammarId": null },
+    { "id": "b08", "chunks": ["Lan is", "a friend of mine", "from", "the technology club"], "vi": "Lan là một người bạn của mình ở câu lạc bộ công nghệ.", "grammarId": "g03" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I send messages.",
+      "steps": [
+        { "askVi": "Loại tin nhắn gì?", "ask": "What kind?", "add": "voice" },
+        { "askVi": "Gửi cho ai?", "ask": "To whom?", "add": "to my grandparents" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because they can't read small text" }
+      ],
+      "full": "I send voice messages to my grandparents because they can't read small text."
+    },
+    {
+      "id": "x02",
+      "base": "We had a video conference.",
+      "steps": [
+        { "askVi": "Với ai?", "ask": "With whom?", "add": "with a school in Japan" },
+        { "askVi": "Kéo dài bao lâu?", "ask": "How long?", "add": "for an hour" }
+      ],
+      "full": "We had a video conference with a school in Japan for an hour."
+    },
+    {
+      "id": "x03",
+      "base": "People will communicate by telepathy.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "in fifty years" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because it is very fast" }
+      ],
+      "full": "People will communicate by telepathy in fifty years because it is very fast."
+    },
+    {
+      "id": "x04",
+      "base": "Let's meet.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "at the café opposite the park" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "on Saturday afternoon" }
+      ],
+      "full": "Let's meet at the café opposite the park on Saturday afternoon."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Cách em liên lạc với người thân và bạn bè",
+      "questions": [
+        "How do you keep in touch with your relatives?",
+        "What do you use to talk to people who live far away?",
+        "How do you communicate with your grandparents?"
+      ],
+      "keywords": ["video call", "voice message", "text", "smartphone"],
+      "exampleAnswer": "I usually make video calls to my grandparents on my mum's smartphone, and I text my cousins.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Ưu và nhược điểm của mạng xã hội",
+      "questions": [
+        "What are the advantages and disadvantages of social networks?",
+        "Why do teenagers like social networks so much?",
+        "What problems can social networks cause?"
+      ],
+      "keywords": ["social network", "instantly", "however", "time"],
+      "exampleAnswer": "Social networks help us share news instantly. However, we may spend too much time on them.",
+      "expectsReason": true
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Dự đoán cách giao tiếp trong tương lai",
+      "questions": [
+        "How will people communicate in thirty years?",
+        "What new ways of communicating will we have in the future?",
+        "Will people still write letters in the future?"
+      ],
+      "keywords": ["holography", "telepathy", "will", "in ... years"],
+      "exampleAnswer": "In thirty years, people will probably use holography, so they can meet as 3D images.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Vượt qua rào cản ngôn ngữ",
+      "questions": [
+        "How can people from different countries understand each other?",
+        "What can help tourists talk to local people?",
+        "How can technology help us with the language barrier?"
+      ],
+      "keywords": ["translation machine", "language barrier", "English", "app"],
+      "exampleAnswer": "They can learn English or use a translation machine to overcome the language barrier.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Hẹn gặp: thời gian và địa điểm",
+      "questions": [
+        "Where and when do you usually meet your friends at weekends?",
+        "What is a good place to meet your classmates for group work?",
+        "Where do you and your friends often meet after school?"
+      ],
+      "keywords": ["in front of", "opposite", "at", "by"],
+      "exampleAnswer": "We usually meet at the café opposite our school at three on Saturday afternoon.",
+      "expectsReason": false
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What device do you use most to communicate, and what do you use it for?", "keywords": ["smartphone", "text", "video call"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should students have their own smartphones? Why or why not?", "keywords": ["smartphone", "contact", "because"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend is explaining the homework on a video call, but the sound is bad. What do you say?", "keywords": ["sorry", "repeat", "Internet connection"], "expectsReason": false },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What app do you use most to talk to people, and who do you talk to on it?", "keywords": ["app", "message", "friends"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should schools hold more lessons by video conference? Why or why not?", "keywords": ["video conference", "convenient", "because"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your classmate is telling the group a meeting place, but you have a better idea. What do you say?", "keywords": ["sorry for interrupting", "opposite", "better"], "expectsReason": false }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Hẹn gặp để làm bài nhóm",
+      "contextVi": "Em và một bạn cùng lớp cần gặp nhau để làm bài thuyết trình về công nghệ giao tiếp. Hai bạn thống nhất thời gian và địa điểm.",
+      "aiRole": "Ngoc, a classmate in your project group",
+      "studentRoleVi": "Bạn cùng nhóm, đề xuất thời gian và địa điểm",
+      "goalVi": "Đề xuất thời gian và nơi gặp, dùng đúng giới từ chỉ nơi chốn và thời gian, nêu lý do.",
+      "goal": "Arrange a time and a place to meet for a group project, using prepositions of place and time, with a reason.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất nơi gặp và giờ gặp", "words": [] },
+        { "kind": "keyword", "vi": "Dùng giới từ của bài", "words": ["at", "in front of", "opposite", "by", "on"] },
+        { "kind": "reason", "vi": "Nêu lý do chọn nơi đó", "words": [] }
+      ],
+      "opener": "Hi! We need to meet to finish our project. When and where can we meet?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "OK. Why do you want to meet there?",
+        "Good idea. What time should we meet?",
+        "Great. I'll bring my tablet. See you then!"
+      ],
+      "tipsVi": ["Nói rõ nơi: \"at the library\", \"in front of the school gate\", \"opposite the park\".", "Nói rõ giờ: \"at 3 p.m.\", \"on Saturday\"."],
+      "keywords": ["in front of", "opposite", "at", "on Saturday", "because"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Gọi video hay gặp trực tiếp?",
+      "contextVi": "Lớp em muốn họp mặt bạn cũ đã chuyển trường. Em đề xuất họp trực tuyến có hình, còn bạn muốn gặp trực tiếp.",
+      "aiRole": "Khoa, a classmate who prefers meeting face to face",
+      "studentRoleVi": "Bạn cùng lớp đề xuất họp trực tuyến",
+      "goalVi": "Thuyết phục Khoa họp bằng video: nêu ưu điểm, đưa ví dụ và đáp lại khi Khoa không đồng ý.",
+      "goal": "Persuade Khoa to have a video conference with old classmates: give advantages, an example, and answer his objection.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu ưu điểm của họp trực tuyến", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["video conference", "webcam", "Internet connection", "instantly", "advantage"] }
+      ],
+      "opener": "Let's plan a party with our old classmates. I think we should all meet at a café. What do you think?",
+      "stance": "Video calls are boring. You can't really talk to people when the connection is bad, and it's not the same as meeting.",
+      "turns": 5,
+      "fallback": [
+        "A video conference? Why is that better?",
+        "But video calls are boring, and the connection is often bad. It's not the same as meeting, right?",
+        "Hmm. Can you give me an example of how it works?",
+        "OK, let's try it. Who will send the link?"
+      ],
+      "tipsVi": ["Khi Khoa phản đối, bắt đầu bằng \"I see your point, but...\"", "Nêu lợi ích: bạn ở xa vẫn tham gia được, không tốn tiền đi lại."],
+      "keywords": ["video conference", "far away", "I see your point", "because", "advantage"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Máy dịch có thay thế việc học ngoại ngữ?",
+      "contextVi": "Trong giờ sinh hoạt câu lạc bộ tiếng Anh, thầy hỏi em có nghĩ máy dịch sẽ làm việc học ngoại ngữ trở nên không cần thiết không.",
+      "aiRole": "Mr Hai, the teacher in charge of the English club",
+      "studentRoleVi": "Thành viên câu lạc bộ tiếng Anh nêu ý kiến",
+      "goalVi": "Nêu ý kiến về máy dịch, đưa lý do và ví dụ, và trả lời khi thầy đưa ra ý kiến ngược lại.",
+      "goal": "Give your opinion on translation machines and learning languages, with a reason and an example, and answer the teacher's opposite view.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do cho ý kiến", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["translation machine", "language barrier", "advanced", "instantly"] }
+      ],
+      "opener": "Translation machines are getting better every year. Do you still think learning English is important?",
+      "stance": "In ten years, translation machines will be so advanced that nobody will need to learn a foreign language.",
+      "turns": 5,
+      "fallback": [
+        "Interesting. Why do you think so?",
+        "But in ten years, machines will be very advanced. Maybe nobody will need to learn languages. What do you think?",
+        "That's a good point. Can you give me an example?",
+        "Thank you. I'll share your idea with the club."
+      ],
+      "tipsVi": ["Nói lịch sự với thầy: \"I'm not sure I agree, because...\"", "Ví dụ: máy dịch sai khi nói nhanh, mất kết nối mạng."],
+      "keywords": ["translation machine", "language barrier", "because", "for example", "in ten years"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Giới thiệu ứng dụng nhắn tin cho bà",
+      "contextVi": "Bà em muốn liên lạc với chú đang làm việc ở nước ngoài. Em giới thiệu cho bà một cách giao tiếp hiện đại và giải thích cách dùng.",
+      "aiRole": "Grandma Lan, who usually only makes phone calls",
+      "studentRoleVi": "Cháu giới thiệu cách giao tiếp hiện đại cho bà",
+      "goalVi": "Giới thiệu một cách giao tiếp, nêu ưu điểm, hướng dẫn ngắn và trả lời khi bà có ý kiến khác.",
+      "goal": "Introduce a modern way of communicating to your grandma, give its advantages, explain briefly how to use it, and respond to her doubt.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Gợi ý một cách giao tiếp", "words": [] },
+        { "kind": "reason", "vi": "Nêu ưu điểm", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["voice message", "video call", "webcam", "smartphone", "Internet connection", "charge"] }
+      ],
+      "opener": "I miss your uncle so much. Phone calls to other countries are expensive. What can I do?",
+      "stance": "Smartphones are too difficult for old people. I'm afraid I will press the wrong buttons.",
+      "turns": 5,
+      "fallback": [
+        "Oh? What is good about that?",
+        "But smartphones are too difficult for me. I'm afraid I will press the wrong buttons.",
+        "Well, maybe. What do I do first?",
+        "Thank you, dear. Let's try calling your uncle tonight."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["video call", "voice message", "easy", "because", "first"]
+    }
+  ]
+}

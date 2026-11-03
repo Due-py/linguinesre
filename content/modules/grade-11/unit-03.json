@@ -1,0 +1,385 @@
+{
+  "grade": 11,
+  "unit": 3,
+  "title": "Cities of the Future",
+  "titleVi": "Thành phố tương lai",
+  "edition": "Tiếng Anh 11 Global Success, sách học sinh (NXB Giáo dục Việt Nam)",
+  "pages": "tr. 28–37; Glossary tr. 125–126",
+  "vocab": [
+    { "id": "v01", "en": "smart city", "vi": "thành phố thông minh", "ipa": "/ˈsmɑːt ˌsɪti/", "ipaFrom": "glossary", "pos": "np", "example": "In a smart city, sensors help control the traffic lights.", "collocations": ["live in a smart city", "build a smart city"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v02", "en": "liveable", "vi": "đáng sống", "ipa": "/ˈlɪvəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "Da Nang is a liveable city with clean beaches and parks.", "collocations": ["a liveable city", "more liveable"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v03", "en": "high-rise", "vi": "cao tầng, có nhiều tầng", "ipa": "/ˈhaɪ raɪz/", "ipaFrom": "glossary", "pos": "adj", "example": "My aunt lives on the twentieth floor of a high-rise building.", "collocations": ["high-rise buildings", "high-rise flats"], "synonyms": ["tall"], "antonyms": ["low-rise"], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v04", "en": "skyscraper", "vi": "toà nhà chọc trời", "ipa": "/ˈskaɪskreɪpə/", "ipaFrom": "glossary", "pos": "n", "example": "You can see the whole city from the top of the skyscraper.", "collocations": ["a modern skyscraper"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v05", "en": "sensor", "vi": "cảm biến", "ipa": "/ˈsensə/", "ipaFrom": "glossary", "pos": "n", "example": "The lights in our school have sensors, so they turn off automatically.", "collocations": ["motion sensor", "traffic sensors"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v06", "en": "infrastructure", "vi": "cơ sở hạ tầng", "ipa": "/ˈɪnfrəstrʌktʃə/", "ipaFrom": "glossary", "pos": "n", "example": "Good infrastructure, like roads and bridges, helps a city grow.", "collocations": ["modern infrastructure", "build infrastructure"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v07", "en": "pedestrian", "vi": "người đi bộ", "ipa": "/pəˈdestriən/", "ipaFrom": "glossary", "pos": "n", "example": "This street is only for pedestrians at the weekend.", "collocations": ["pedestrian street", "keep pedestrians safe"], "synonyms": ["walker"], "antonyms": ["driver"], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v08", "en": "cycle path", "vi": "làn đường dành cho xe đạp", "ipa": "/ˈsaɪkl pɑːθ/", "ipaFrom": "glossary", "pos": "n", "example": "A new cycle path goes along the river.", "collocations": ["build cycle paths"], "synonyms": ["bike lane"], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v09", "en": "roof garden", "vi": "vườn trên sân thượng", "ipa": "/ˈruːf ɡɑːdn/", "ipaFrom": "glossary", "pos": "n", "example": "We grow vegetables in the roof garden of our block of flats.", "collocations": ["grow vegetables in a roof garden"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v10", "en": "sustainable", "vi": "bền vững", "ipa": "/səˈsteɪnəbl/", "ipaFrom": "glossary", "pos": "adj", "example": "Solar power is a sustainable source of energy for cities.", "collocations": ["sustainable city", "sustainable development"], "synonyms": ["green"], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v11", "en": "sense of community", "vi": "ý thức cộng đồng", "ipa": "/ˈsens əv kəˈmjuːnəti/", "ipaFrom": "glossary", "pos": "np", "example": "Our street has a strong sense of community. Neighbours help each other.", "collocations": ["a strong sense of community"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v12", "en": "city dweller", "vi": "người dân thành phố", "ipa": "/ˈsɪti ˈdwelə/", "ipaFrom": "glossary", "pos": "np", "example": "Many city dwellers go to the countryside at the weekend.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v13", "en": "urban centre", "vi": "khu đô thị, trung tâm đô thị", "ipa": "/ˈɜːbən ˌsentə/", "ipaFrom": "glossary", "pos": "np", "example": "Young people often move to urban centres to find jobs.", "collocations": ["large urban centres"], "synonyms": [], "antonyms": ["countryside"], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v14", "en": "neighbourhood", "vi": "khu dân cư", "ipa": "/ˈneɪbəhʊd/", "ipaFrom": "glossary", "pos": "n", "example": "My neighbourhood is quiet and has a small park.", "collocations": ["a quiet neighbourhood", "in my neighbourhood"], "synonyms": ["area"], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v15", "en": "privacy", "vi": "sự riêng tư", "ipa": "/ˈprɪvəsi/", "ipaFrom": "glossary", "pos": "n", "example": "Some people worry that cameras on every street affect their privacy.", "collocations": ["protect privacy"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v16", "en": "efficiently", "vi": "có hiệu quả", "ipa": "/ɪˈfɪʃntli/", "ipaFrom": "glossary", "pos": "adv", "example": "With AI, buses in the city can run more efficiently.", "collocations": ["work efficiently", "operate efficiently"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v17", "en": "interact", "vi": "tương tác", "ipa": "/ˌɪntərˈækt/", "ipaFrom": "glossary", "pos": "v", "example": "In a smart home, you can interact with your devices by voice.", "collocations": ["interact with"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v18", "en": "operate", "vi": "vận hành", "ipa": "/ˈɒpəreɪt/", "ipaFrom": "glossary", "pos": "v", "example": "The new metro line operates from 5 a.m. to 10 p.m.", "collocations": ["operate efficiently"], "synonyms": ["run"], "antonyms": [], "src": { "kind": "sgk", "page": 126 } },
+    { "id": "v19", "en": "card reader", "vi": "thiết bị đọc thẻ", "ipa": "/ˈkɑːd riːdə/", "ipaFrom": "glossary", "pos": "n", "example": "You pay for the bus by touching your card on the card reader.", "collocations": [], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 125 } },
+    { "id": "v20", "en": "public transport", "vi": "phương tiện giao thông công cộng", "ipa": "/ˌpʌblɪk ˈtrænspɔːt/", "ipaFrom": "dictionary", "pos": "n", "example": "Using public transport helps reduce traffic jams.", "collocations": ["use public transport"], "synonyms": [], "antonyms": ["private vehicles"], "src": { "kind": "sgk", "page": 29 } }
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "name": "Stative verbs in the continuous form",
+      "nameVi": "Động từ trạng thái ở dạng tiếp diễn",
+      "explainVi": "Động từ trạng thái chỉ suy nghĩ (think, believe, understand), cảm xúc (love, hate, prefer), giác quan (see, look, smell) và sở hữu (have, own, belong) thường KHÔNG dùng ở thì tiếp diễn. Nhưng một số từ có thể dùng tiếp diễn khi chỉ hành động: I think (= tôi cho rằng) nhưng I'm thinking of (= tôi đang tính); I have a car (sở hữu) nhưng I'm having lunch (đang ăn).",
+      "formula": "think/have = trạng thái → hiện tại đơn  ·  be thinking of / be having (hành động) → hiện tại tiếp diễn",
+      "examples": [
+        "I think smart cities are a good idea.",
+        "We are thinking of moving to a bigger city.",
+        "My uncle has a flat in the city centre. He is having dinner there now."
+      ],
+      "wrong": [
+        { "sentence": "I am believing that cities will be greener.", "fix": "I believe that cities will be greener.", "whyVi": "believe chỉ suy nghĩ, ý kiến, không dùng ở dạng tiếp diễn." },
+        { "sentence": "This flat is belonging to my aunt.", "fix": "This flat belongs to my aunt.", "whyVi": "belong chỉ sự sở hữu, luôn dùng thì đơn." }
+      ],
+      "drills": [
+        { "prompt": "I ___ that living in the city is good for young people.", "options": ["think", "am thinking"], "answer": 0, "explainVi": "think ở đây là nêu ý kiến (trạng thái) nên dùng hiện tại đơn." },
+        { "prompt": "We ___ of moving to Da Nang next year.", "options": ["are thinking", "think"], "answer": 0, "explainVi": "be thinking of = đang tính, đang dự định làm gì: dạng tiếp diễn." },
+        { "prompt": "This skyscraper ___ to a big company.", "options": ["belongs", "is belonging"], "answer": 0, "explainVi": "belong chỉ sở hữu, không dùng tiếp diễn." },
+        { "prompt": "Look! The children ___ a great time in the new park.", "options": ["are having", "have"], "answer": 0, "explainVi": "have a great time là hành động đang xảy ra (Look!), nên dùng are having." }
+      ],
+      "errorTag": "verb_tense",
+      "src": { "kind": "sgk", "page": 30 }
+    },
+    {
+      "id": "g02",
+      "name": "Linking verbs",
+      "nameVi": "Động từ nối (linking verbs)",
+      "explainVi": "Động từ nối (be, seem, look, become, appear, sound, taste, smell) nối chủ ngữ với một tính từ hoặc danh từ miêu tả chủ ngữ. Sau động từ nối dùng TÍNH TỪ, không dùng trạng từ: looks beautiful (không phải beautifully).",
+      "formula": "S + be / seem / look / become / sound / taste / smell + tính từ (hoặc danh từ)",
+      "examples": [
+        "The new city centre looks very modern.",
+        "Life in a smart city sounds exciting.",
+        "Hai Phong has become a busy port city."
+      ],
+      "wrong": [
+        { "sentence": "The museum looks beautifully at night.", "fix": "The museum looks beautiful at night.", "whyVi": "Sau động từ nối look dùng tính từ beautiful, không dùng trạng từ." },
+        { "sentence": "The city life seems excitingly to me.", "fix": "City life seems exciting to me.", "whyVi": "Sau seem dùng tính từ exciting." }
+      ],
+      "drills": [
+        { "prompt": "The new park looks ___.", "options": ["beautiful", "beautifully", "beauty"], "answer": 0, "explainVi": "Sau look (động từ nối) dùng tính từ: beautiful." },
+        { "prompt": "Living in a high-rise building sounds ___ to me.", "options": ["exciting", "excitingly", "excitement"], "answer": 0, "explainVi": "Sau sound dùng tính từ: exciting." },
+        { "prompt": "The air near the factory smells ___.", "options": ["bad", "badly", "badness"], "answer": 0, "explainVi": "Sau smell (động từ nối) dùng tính từ: bad." }
+      ],
+      "errorTag": "word_choice",
+      "src": { "kind": "sgk", "page": 30 }
+    },
+    {
+      "id": "g03",
+      "name": "Will for predictions",
+      "nameVi": "Dùng will để dự đoán tương lai",
+      "explainVi": "Dùng will + động từ nguyên mẫu để nói điều em nghĩ sẽ xảy ra trong tương lai. Hay đi với I think, I'm sure, In the future, By 2050.",
+      "formula": "S + will / won't + V (nguyên mẫu)",
+      "examples": [
+        "In the future, cities will have more green spaces.",
+        "I'm sure people won't need cars in the city centre."
+      ],
+      "wrong": [
+        { "sentence": "In the future, robots will cleaning the streets.", "fix": "In the future, robots will clean the streets.", "whyVi": "Sau will dùng động từ nguyên mẫu, không thêm -ing." },
+        { "sentence": "I think cities will to be smarter.", "fix": "I think cities will be smarter.", "whyVi": "Sau will không có to." }
+      ],
+      "drills": [
+        { "prompt": "By 2050, most cars ___ electric.", "options": ["will be", "will are", "will being"], "answer": 0, "explainVi": "will + động từ nguyên mẫu: will be." },
+        { "prompt": "Which sentence is correct?", "options": ["Sensors will control the traffic lights.", "Sensors will controls the traffic lights.", "Sensors will to control the traffic lights."], "answer": 0, "explainVi": "Sau will luôn là động từ nguyên mẫu: will control." }
+      ],
+      "errorTag": "modal_verb",
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p01",
+      "kind": "ending",
+      "focus": "Nối phụ âm cuối với nguyên âm đầu",
+      "tipVi": "Khi nói tự nhiên, nếu một từ kết thúc bằng phụ âm và từ sau bắt đầu bằng nguyên âm, ta đọc nối liền: lives in → \"liv-zin\", a lot of → \"a lo-tof\". Không ngắt hơi giữa hai từ.",
+      "words": ["lives in", "cities of", "is in", "west of", "a lot of", "walk across"],
+      "sentence": "My aunt lives in an old area of the city.",
+      "quiz": [
+        { "prompt": "In which phrase do we link a final consonant to a vowel?", "options": ["lives in", "lives there", "big trees"], "answer": 0, "explainVi": "lives kết thúc bằng phụ âm /z/, in bắt đầu bằng nguyên âm /ɪ/, nên đọc nối." },
+        { "prompt": "Which pair of words can be linked (consonant + vowel)?", "options": ["city lights", "park entrance", "new bridge"], "answer": 1, "explainVi": "park kết thúc bằng phụ âm /k/, entrance bắt đầu bằng nguyên âm /e/." }
+      ],
+      "src": { "kind": "sgk", "page": 29 }
+    },
+    {
+      "id": "p02",
+      "kind": "word_stress",
+      "focus": "Trọng âm của các từ mới",
+      "tipVi": "infrastructure, skyscraper, liveable, privacy nhấn âm đầu; pedestrian, sustainable nhấn âm thứ hai; interact nhấn âm thứ ba.",
+      "words": ["infrastructure", "skyscraper", "privacy", "pedestrian", "sustainable", "interact"],
+      "sentence": null,
+      "quiz": [
+        { "prompt": "Which word is stressed on the SECOND syllable?", "options": ["pedestrian", "skyscraper", "infrastructure"], "answer": 0, "explainVi": "pedestrian /pəˈdestriən/ nhấn âm thứ hai; hai từ kia nhấn âm đầu." },
+        { "prompt": "Which word is stressed on the LAST syllable?", "options": ["interact", "operate", "privacy"], "answer": 0, "explainVi": "interact /ˌɪntərˈækt/ nhấn âm cuối; operate /ˈɒpəreɪt/ và privacy /ˈprɪvəsi/ nhấn âm đầu." }
+      ],
+      "src": { "kind": "team", "page": null }
+    },
+    {
+      "id": "p03",
+      "kind": "intonation",
+      "focus": "Xuống giọng ở câu hỏi Wh- để duy trì cuộc trò chuyện",
+      "tipVi": "Câu hỏi có What, Why, How thường xuống giọng ở cuối câu. Hỏi thêm một câu Wh- giúp cuộc trò chuyện tiếp tục: Why do you think so? ↘",
+      "words": ["Why do you think so?", "What else will change?"],
+      "sentence": "How will people travel in the future?",
+      "quiz": [],
+      "src": { "kind": "team", "page": null }
+    }
+  ],
+  "expressions": [
+    { "id": "e01", "en": "I'm sure about it.", "vi": "Mình chắc chắn về điều đó.", "useVi": "Khi tin chắc một điều sẽ đúng.", "example": "Cities will have more electric buses. I'm sure about it.", "src": { "kind": "sgk", "page": 35 } },
+    { "id": "e02", "en": "I'm absolutely sure about it.", "vi": "Mình hoàn toàn chắc chắn.", "useVi": "Khi rất tin chắc, mạnh hơn I'm sure.", "example": "People will use more public transport. I'm absolutely sure about it.", "src": { "kind": "sgk", "page": 35 } },
+    { "id": "e03", "en": "There can't be any doubt that ...", "vi": "Không thể nghi ngờ gì rằng ...", "useVi": "Khi khẳng định mạnh một dự đoán.", "example": "There can't be any doubt that cities will grow bigger.", "src": { "kind": "sgk", "page": 35 } },
+    { "id": "e04", "en": "I have no doubt about it.", "vi": "Mình không chút nghi ngờ.", "useVi": "Khi đồng ý và tin chắc điều người kia nói.", "example": "Smart homes will be common soon. I have no doubt about it.", "src": { "kind": "sgk", "page": 35 } },
+    { "id": "e05", "en": "I don't know for sure that ...", "vi": "Mình không biết chắc rằng ...", "useVi": "Khi chưa chắc một điều có xảy ra không.", "example": "I don't know for sure that we will have flying cars.", "src": { "kind": "sgk", "page": 35 } },
+    { "id": "e06", "en": "I'm not sure this is true.", "vi": "Mình không chắc điều này đúng.", "useVi": "Khi nghi ngờ điều người khác nói.", "example": "Robots will do all our jobs? I'm not sure this is true.", "src": { "kind": "sgk", "page": 35 } },
+    { "id": "e07", "en": "There's some doubt in my mind that ...", "vi": "Mình hơi nghi ngờ rằng ...", "useVi": "Khi lịch sự bày tỏ sự không chắc chắn.", "example": "There's some doubt in my mind that people will live on the ocean.", "src": { "kind": "sgk", "page": 35 } },
+    { "id": "e08", "en": "I'm not really sure about it.", "vi": "Mình không chắc lắm.", "useVi": "Khi trả lời một câu hỏi mà mình chưa chắc.", "example": "Driverless buses next year? I'm not really sure about it.", "src": { "kind": "sgk", "page": 35 } },
+    { "id": "e09", "en": "Why do you think so?", "vi": "Sao bạn nghĩ vậy?", "useVi": "Khi muốn người kia giải thích thêm để cuộc trò chuyện tiếp tục.", "example": "You think cities will be quieter? Why do you think so?", "src": { "kind": "team", "page": null } },
+    { "id": "e10", "en": "In the future, I think ... will ...", "vi": "Trong tương lai, mình nghĩ ... sẽ ...", "useVi": "Khi đưa ra dự đoán của mình.", "example": "In the future, I think every building will have solar panels.", "src": { "kind": "team", "page": null } }
+  ],
+  "build": [
+    { "id": "b01", "chunks": ["I think", "smart cities", "will be", "safer and cleaner"], "vi": "Mình nghĩ các thành phố thông minh sẽ an toàn và sạch hơn.", "grammarId": "g03" },
+    { "id": "b02", "chunks": ["We are thinking", "of moving", "to a new neighbourhood", "next year"], "vi": "Nhà mình đang tính chuyển đến một khu dân cư mới vào năm sau.", "grammarId": "g01" },
+    { "id": "b03", "chunks": ["The new park", "looks", "really beautiful", "at night"], "vi": "Công viên mới trông rất đẹp vào ban đêm.", "grammarId": "g02" },
+    { "id": "b04", "chunks": ["Roof gardens", "make", "high-rise buildings", "greener"], "vi": "Vườn trên sân thượng làm các tòa nhà cao tầng xanh hơn.", "grammarId": null },
+    { "id": "b05", "chunks": ["Life in", "a smart city", "sounds", "very exciting"], "vi": "Cuộc sống ở thành phố thông minh nghe rất thú vị.", "grammarId": "g02" },
+    { "id": "b06", "chunks": ["Sensors", "will help", "traffic lights", "work more efficiently"], "vi": "Cảm biến sẽ giúp đèn giao thông hoạt động hiệu quả hơn.", "grammarId": "g03" },
+    { "id": "b07", "chunks": ["Cycle paths", "keep cyclists", "and pedestrians", "safe"], "vi": "Làn đường xe đạp giữ an toàn cho người đi xe đạp và người đi bộ.", "grammarId": null },
+    { "id": "b08", "chunks": ["My city", "is becoming", "more crowded", "every year"], "vi": "Thành phố của mình ngày càng đông đúc hơn mỗi năm.", "grammarId": "g02" }
+  ],
+  "expand": [
+    {
+      "id": "x01",
+      "base": "I live in a neighbourhood.",
+      "steps": [
+        { "askVi": "Khu đó thế nào?", "ask": "What kind?", "add": "quiet" },
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "near the city centre" },
+        { "askVi": "Có gì đặc biệt?", "ask": "What is special about it?", "add": "with a lot of trees" }
+      ],
+      "full": "I live in a quiet neighbourhood near the city centre with a lot of trees."
+    },
+    {
+      "id": "x02",
+      "base": "Cities will have more parks.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "in the future" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because people need fresh air" }
+      ],
+      "full": "In the future, cities will have more parks because people need fresh air."
+    },
+    {
+      "id": "x03",
+      "base": "Traffic is a problem.",
+      "steps": [
+        { "askVi": "Ở đâu?", "ask": "Where?", "add": "in my city" },
+        { "askVi": "Khi nào?", "ask": "When?", "add": "during rush hour" },
+        { "askVi": "Vậy cần gì?", "ask": "So what do we need?", "add": "so we need more public transport" }
+      ],
+      "full": "Traffic is a problem in my city during rush hour, so we need more public transport."
+    },
+    {
+      "id": "x04",
+      "base": "I want to live in a smart city.",
+      "steps": [
+        { "askVi": "Khi nào?", "ask": "When?", "add": "one day" },
+        { "askVi": "Vì sao?", "ask": "Why?", "add": "because life there is convenient and safe" }
+      ],
+      "full": "One day I want to live in a smart city because life there is convenient and safe."
+    }
+  ],
+  "variations": [
+    {
+      "id": "w01",
+      "ideaVi": "Nơi em thích nhất ở thành phố, thị xã của em",
+      "questions": [
+        "What is your favourite place in your town or city?",
+        "Where do you like to go at the weekend in your area?",
+        "Which place in your area would you show a visitor first?"
+      ],
+      "keywords": ["park", "neighbourhood", "pedestrian street"],
+      "exampleAnswer": "My favourite place is the walking street by the lake because it is quiet and has lots of trees.",
+      "expectsReason": false
+    },
+    {
+      "id": "w02",
+      "ideaVi": "Các vấn đề của thành phố hiện nay",
+      "questions": [
+        "What are the biggest problems in your city today?",
+        "What problems do people in big cities face every day?",
+        "What makes life in the city difficult sometimes?"
+      ],
+      "keywords": ["traffic jams", "pollution", "crowded", "noise"],
+      "exampleAnswer": "The biggest problems are traffic jams and air pollution, especially during rush hour.",
+      "expectsReason": false
+    },
+    {
+      "id": "w03",
+      "ideaVi": "Thành phố tương lai sẽ ra sao",
+      "questions": [
+        "What will cities look like in thirty years?",
+        "How will cities be different in the future?",
+        "What changes do you expect to see in cities when you are older?"
+      ],
+      "keywords": ["will", "skyscraper", "sensor", "sustainable"],
+      "exampleAnswer": "Cities will have more skyscrapers with roof gardens, and sensors will control the traffic.",
+      "expectsReason": false
+    },
+    {
+      "id": "w04",
+      "ideaVi": "Công nghệ thông minh trong thành phố",
+      "questions": [
+        "How can smart technology make city life easier?",
+        "What smart technology would you like to see in your city?",
+        "How can sensors and AI help people in a city?"
+      ],
+      "keywords": ["sensor", "efficiently", "card reader", "smart city"],
+      "exampleAnswer": "Sensors can help buses and traffic lights work more efficiently, so people save time.",
+      "expectsReason": false
+    },
+    {
+      "id": "w05",
+      "ideaVi": "Vì sao thành phố cần nhiều không gian xanh",
+      "questions": [
+        "Why do cities need more green spaces?",
+        "Why are parks important for people living in cities?",
+        "What happens when a city has no trees or parks?"
+      ],
+      "keywords": ["fresh air", "liveable", "roof garden", "relax"],
+      "exampleAnswer": "Cities need green spaces because trees clean the air and people need places to relax.",
+      "expectsReason": true
+    },
+    {
+      "id": "w06",
+      "ideaVi": "Thành phố hay nông thôn",
+      "questions": [
+        "Would you rather live in a city or in the countryside? Why?",
+        "Which is better for teenagers: city life or country life?",
+        "What are the advantages of living in a city?"
+      ],
+      "keywords": ["urban centre", "convenient", "peaceful", "public transport"],
+      "exampleAnswer": "I'd rather live in a city because there are more schools, jobs and public transport.",
+      "expectsReason": true
+    }
+  ],
+  "independent": [
+    { "id": "i01", "set": "entry", "pair": 1, "text": "What do you like most about the street where you live?", "keywords": ["neighbourhood", "quiet", "sense of community"], "expectsReason": false },
+    { "id": "i02", "set": "entry", "pair": 2, "text": "Should cities stop people from driving cars in the city centre? Why or why not?", "keywords": ["pedestrian", "public transport", "pollution"], "expectsReason": true },
+    { "id": "i03", "set": "entry", "pair": 3, "text": "Your friend says smart cities are only for rich countries. What do you say?", "keywords": ["smart city", "sensor", "I'm not sure"], "expectsReason": true },
+    { "id": "i04", "set": "final", "pair": 1, "text": "What do you like least about the area around your school?", "keywords": ["traffic", "crowded", "noise"], "expectsReason": false },
+    { "id": "i05", "set": "final", "pair": 2, "text": "Should every new building in a city have a roof garden? Why or why not?", "keywords": ["roof garden", "high-rise", "sustainable"], "expectsReason": true },
+    { "id": "i06", "set": "final", "pair": 3, "text": "Your cousin says living in a high-rise building is boring. What do you say?", "keywords": ["high-rise", "view", "I'm sure"], "expectsReason": true }
+  ],
+  "roleplays": [
+    {
+      "id": "r01",
+      "level": "basic",
+      "titleVi": "Giới thiệu thành phố của em",
+      "contextVi": "Một học sinh trao đổi từ Úc vừa đến trường em. Bạn muốn biết về nơi em sống và những gì nên thay đổi ở đó.",
+      "aiRole": "Mia, an exchange student from Australia",
+      "studentRoleVi": "Học sinh giới thiệu thành phố, thị xã của mình",
+      "goalVi": "Miêu tả chung về thành phố, thị xã của em, kể một điểm em thích và một điều em muốn thay đổi.",
+      "goal": "Describe your town or city in general, say one thing you like and one thing you would change.",
+      "requirements": [
+        { "kind": "example", "vi": "Kể một địa điểm cụ thể em thích", "words": [] },
+        { "kind": "suggestion", "vi": "Nói một điều em muốn thay đổi", "words": [] }
+      ],
+      "opener": "Hi! I've just arrived here. What is your town like?",
+      "stance": null,
+      "turns": 4,
+      "fallback": [
+        "Sounds nice! What is your favourite place there?",
+        "Cool. Is there anything you don't like about it?",
+        "Interesting. How would you change it?"
+      ],
+      "tipsVi": ["Dùng động từ nối: \"It looks...\", \"It seems...\"", "Không cần nói địa chỉ nhà, chỉ nói chung về thành phố."],
+      "keywords": ["neighbourhood", "looks", "public transport", "liveable", "because"]
+    },
+    {
+      "id": "r02",
+      "level": "advanced",
+      "titleVi": "Công viên hay trung tâm thương mại?",
+      "contextVi": "Thành phố định xây một trung tâm thương mại lớn trên khu đất công viên gần trường. Lớp em đang thảo luận về kế hoạch này.",
+      "aiRole": "Khoa, a classmate who supports the shopping mall plan",
+      "studentRoleVi": "Bạn cùng lớp muốn giữ lại công viên",
+      "goalVi": "Giải thích vì sao nên giữ công viên, đưa ví dụ, và trả lời khi Khoa có ý kiến khác.",
+      "goal": "Explain why the park should stay, give an example, and answer Khoa's different opinion politely.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do giữ công viên", "words": [] },
+        { "kind": "example", "vi": "Đưa một ví dụ cụ thể", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["liveable", "sustainable", "sense of community", "city dweller", "green"] }
+      ],
+      "opener": "Have you heard? They want to build a big shopping mall where the park is. I think it's a great idea!",
+      "stance": "A shopping mall is more useful than an old park. People need jobs and shops more than trees.",
+      "turns": 5,
+      "fallback": [
+        "Really? Why don't you like the idea?",
+        "But a shopping mall is more useful than an old park. People need jobs and shops more than trees.",
+        "Hmm. Can you give me an example of why the park matters?",
+        "OK, you've made a good point. Maybe there's a better place for the mall."
+      ],
+      "tipsVi": ["Khi Khoa phản đối, dùng \"I see your point, but...\"", "Nghĩ tới người già, trẻ em và không khí sạch."],
+      "keywords": ["green space", "liveable", "fresh air", "because", "I see your point"]
+    },
+    {
+      "id": "r03",
+      "level": "advanced",
+      "titleVi": "Thành phố thông minh và sự riêng tư",
+      "contextVi": "Một chuyên gia quy hoạch thành phố đến nói chuyện với lớp em về kế hoạch lắp cảm biến và camera khắp thành phố. Em muốn hỏi và nêu ý kiến.",
+      "aiRole": "Ms Smith, a city planner visiting your school",
+      "studentRoleVi": "Học sinh tham gia buổi nói chuyện",
+      "goalVi": "Nêu ý kiến về cảm biến và camera trong thành phố, nêu lý do, và trả lời khi chuyên gia có ý kiến khác.",
+      "goal": "Give your opinion about sensors and cameras across the city, explain why, and respond to the planner's view.",
+      "requirements": [
+        { "kind": "reason", "vi": "Nêu lý do cho ý kiến", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["privacy", "sensor", "smart city", "efficiently", "safe"] }
+      ],
+      "opener": "Our plan is to put sensors and cameras on every street. What do you think about this idea?",
+      "stance": "Cameras and sensors everywhere will make the city safer, so privacy is not so important.",
+      "turns": 5,
+      "fallback": [
+        "I see. Can you tell me more about why you think that?",
+        "But cameras and sensors everywhere will make the city safer. Isn't safety more important than privacy?",
+        "That's a fair point. What rules should the city have, then?",
+        "Thank you. Your ideas are very useful for our plan."
+      ],
+      "tipsVi": ["Bày tỏ mức độ chắc chắn: \"I'm sure...\", \"I'm not sure this is true.\"", "Có thể đồng ý một phần và nêu điều kiện."],
+      "keywords": ["privacy", "safe", "sensor", "because", "I'm not sure"]
+    },
+    {
+      "id": "r04",
+      "level": "final",
+      "titleVi": "Thiết kế áp phích thành phố tương lai",
+      "contextVi": "Nhóm em làm áp phích về thành phố lý tưởng trong tương lai. Một bạn trong nhóm muốn thành phố có thật nhiều nhà chọc trời và đường lớn cho ô tô.",
+      "aiRole": "Linh, a group member in a poster project about the city of the future",
+      "studentRoleVi": "Thành viên nhóm dự án",
+      "goalVi": "Đề xuất ý tưởng cho thành phố tương lai, nêu lý do, và trả lời khi Linh có ý kiến khác.",
+      "goal": "Suggest ideas for your ideal future city, give reasons, and respond to Linh's different opinion.",
+      "requirements": [
+        { "kind": "suggestion", "vi": "Đề xuất ý tưởng", "words": [] },
+        { "kind": "reason", "vi": "Nêu lý do", "words": [] },
+        { "kind": "keyword", "vi": "Dùng ít nhất một từ của bài", "words": ["sustainable", "cycle path", "roof garden", "public transport", "liveable", "pedestrian"] }
+      ],
+      "opener": "OK, let's plan our poster. What should our ideal city of the future have?",
+      "stance": "The ideal city should have lots of skyscrapers and wide roads for cars. That's what a modern city looks like.",
+      "turns": 5,
+      "fallback": [
+        "Hmm, why do you think that's important?",
+        "But I think the ideal city should have lots of skyscrapers and wide roads for cars. That looks modern!",
+        "OK. What else should we put on the poster?",
+        "Good idea. Let's draw that in the middle of the poster."
+      ],
+      "tipsVi": ["Đây là bài kiểm tra: không có gợi ý, em nói bằng lời của mình."],
+      "keywords": ["sustainable", "public transport", "green", "because", "will"]
+    }
+  ]
+}
