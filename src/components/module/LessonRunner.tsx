@@ -1032,9 +1032,17 @@ function Speak({ st, ctx, onDone }: P<"speak">) {
     <>
       <div aria-live="polite" className="grid min-h-36 content-center gap-2 rounded-[2rem] bg-tint px-6 py-8 sm:px-8">
         {shown ? (
-          <p lang="en" className="text-balance text-[1.9rem] font-semibold leading-tight tracking-tight sm:text-4xl">
-            {st.text}
-          </p>
+          <>
+            <p lang="en" className="text-balance text-[1.9rem] font-semibold leading-tight tracking-tight sm:text-4xl">
+              {st.text}
+            </p>
+            {/* Nghe lại câu hỏi: chỉ sau khi đã trả lời, để tiếng máy đọc không lọt vào bản ghi. */}
+            {answered && (
+              <ListenButton url={questionAudio(ctx, st, false)} text={st.text}>
+                Nghe lại câu hỏi
+              </ListenButton>
+            )}
+          </>
         ) : (
           <p className="text-lg text-muted">
             {st.test ? "Câu hỏi mới, không có gợi ý. " : ""}Bấm nút để nghe câu hỏi. Máy bắt đầu nghe ngay khi đọc xong{st.targetMs ? `; mục tiêu là bắt đầu nói trong ${(st.targetMs / 1000).toString().replace(".", ",")} giây` : ""}.

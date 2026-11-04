@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { LoaderCircle, Volume2 } from "lucide-react";
-import { playAudio } from "./audio";
+import { playAudio, primeAudio } from "./audio";
 
 /** Nút nghe giọng đọc mẫu (giọng máy chủ, dự phòng bằng giọng trình duyệt). */
 export default function ListenButton({ url, text, children }: { url: string; text: string; children: React.ReactNode }) {
@@ -11,6 +11,7 @@ export default function ListenButton({ url, text, children }: { url: string; tex
     <button
       type="button"
       onClick={async () => {
+        primeAudio(); // mở khóa âm thanh ngay trong cú bấm
         setBusy(true);
         await playAudio(url, text);
         setBusy(false);

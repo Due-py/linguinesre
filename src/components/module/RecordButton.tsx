@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { LoaderCircle, Mic, MicOff, Square, Volume2 } from "lucide-react";
 import type { Recording } from "@/lib/speaking/useRecorder";
 import type { useRecorder } from "@/lib/speaking/useRecorder";
+import { primeAudio } from "./audio";
 
 type Rec = ReturnType<typeof useRecorder>;
 type State = "idle" | "prompt" | "listening" | "processing";
@@ -60,6 +61,8 @@ export default function RecordButton({
   }
 
   async function start() {
+    // Mở khóa âm thanh ngay trong cú bấm (trước mọi await), để câu hỏi đọc được kể cả sau khi chờ micro và chờ máy chủ.
+    if (before) primeAudio();
     if (!(await rec.ensureMic())) return;
     if (before) {
       setState("prompt");

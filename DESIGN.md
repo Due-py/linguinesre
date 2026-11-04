@@ -34,7 +34,7 @@ Lớp này đặt lại đúng token cũ (Stripe/Linear, Inter, tím xanh), đ�
 
 ## 3. Chữ
 
-**Google Sans** (Google Fonts, giấy phép mở, có dấu tiếng Việt), qua `next/font`. Độ đậm: tiêu đề 600, nhãn và nút 500, thân 400. Khoảng cách chữ tiêu đề −0.02em.
+**SF Pro Rounded** trên máy Apple (`ui-rounded`, phông có sẵn trong máy; giấy phép Apple không cho nhúng lên web), **Nunito** (Google Fonts, giấy phép mở, có dấu tiếng Việt, qua `next/font`) cho máy khác. Độ đậm: tiêu đề 600, nhãn và nút 500, thân 400. Khoảng cách chữ tiêu đề −0.02em.
 
 | Vai trò | Cỡ (điện thoại → máy tính) |
 |---|---|

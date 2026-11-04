@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /*
- * Hệ thiết kế của LINGUA-REFLEX: sáng, rộng rãi, chữ Google Sans lớn và tự tin, màu Google dùng có chủ đích
+ * Hệ thiết kế của LINGUA-REFLEX: sáng, rộng rãi, chữ tròn (SF Pro Rounded / Nunito) lớn và tự tin, màu Google dùng có chủ đích
  * (xanh dương: thao tác; xanh lá: tiến bộ, đúng; vàng: điểm nhấn, chú ý; đỏ: lỗi, cảnh báo). Quy tắc: DESIGN.md.
  * Trang nghiên cứu (bài kiểm tra, chế độ A/B, trang chờ) bọc trong .theme-classic để giữ nguyên giao diện cũ tới hết
  * nghiên cứu: .theme-classic đặt lại đúng các token cũ, và biến thể app: chỉ áp dụng bên ngoài .theme-classic.
@@ -45,7 +45,8 @@
   --on-forest: var(--ink);
   --on-forest-muted: #3c4043;
 
-  --font-app: var(--font-google-sans);
+  /* SF Pro Rounded: Safari trên Apple qua ui-rounded, hoặc máy đã cài phông; còn lại Nunito. */
+  --font-app: ui-rounded, "SF Pro Rounded", var(--font-nunito);
   --heading-tracking: -0.02em;
   --shadow-button: none;
   /* Độ nổi kiểu Material: rất nhẹ, chỉ cho phần nổi trên nền (thanh menu dính, thẻ khi rê chuột). */
@@ -136,7 +137,7 @@
   --font-sans: var(--font-app), system-ui, sans-serif;
 }
 
-/* Google Sans: tiêu đề 600 như trang sản phẩm của Google, nhãn và nút 500. Trang nghiên cứu đặt lại trong .theme-classic. */
+/* Chữ tròn: tiêu đề 600 như trang sản phẩm của Google, nhãn và nút 500. Trang nghiên cứu đặt lại trong .theme-classic. */
 @theme {
   --font-weight-bold: 600;
   --font-weight-extrabold: 600;

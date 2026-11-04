@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Ear, LoaderCircle, Volume2 } from "lucide-react";
-import { playAudio, speakText } from "./audio";
+import { playAudio, primeAudio, speakText } from "./audio";
 
 /**
  * "Từ máy nghe chưa rõ": thay cho chấm phát âm (không có dịch vụ chấm âm). Tô các từ Deepgram nghe chưa chắc trong câu
@@ -68,6 +68,7 @@ function WordButton({ word, url }: { word: string; url: string | null }) {
     <button
       type="button"
       onClick={async () => {
+        primeAudio(); // mở khóa âm thanh ngay trong cú bấm
         setBusy(true);
         // Từ có trong Kho từ vựng: giọng máy chủ; từ khác: giọng của trình duyệt.
         await (url ? playAudio(url, word) : speakText(word));
