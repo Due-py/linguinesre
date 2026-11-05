@@ -6,7 +6,7 @@ export const metadata: Metadata = { title: "Đăng ký" };
 
 export default function SignupPage() {
   return (
-    <AuthShell title="Tạo tài khoản" lead="Mất chưa đến một phút. Bạn sẽ chọn là học sinh hay giáo viên ở bước tiếp theo.">
+    <AuthShell title="Tạo tài khoản" lead="Chỉ cần họ tên, email hoặc tên tài khoản, và mật khẩu. Bước sau bạn chọn là học sinh hay giáo viên.">
       <SignupForm />
     </AuthShell>
   );

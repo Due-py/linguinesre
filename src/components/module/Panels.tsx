@@ -1,8 +1,9 @@
-import { BookCheck, CircleCheck, CircleDashed, CircleMinus, Flag, History, MessageSquareText, Ruler, UsersRound } from "lucide-react";
+import { BookCheck, CircleCheck, CircleDashed, CircleMinus, Flag, History, Ruler, UsersRound } from "lucide-react";
 import type { SpeechMeasures } from "@/lib/module/measure";
 import type { VerifiedAssessment } from "@/lib/module/assessCore";
 import type { Checkpoint, KnowledgeResult, ModuleReport, SpeakSummary } from "@/lib/module/report";
 import { ERROR_TAGS, type ErrorTag } from "@/lib/module/schema";
+import Linguine from "@/components/Linguine";
 
 /**
  * Khối hiển thị của module, dùng chung cho màn hình học (client) và trang tổng quan (server). Không dùng hook.
@@ -173,11 +174,11 @@ const NOT_ENOUGH = "Chưa đủ thông tin để nhận xét phần này.";
 export function AssessPanel({ a, mock }: { a: VerifiedAssessment; mock?: boolean }) {
   return (
     <section className="sheet-up grid gap-3 rounded-[2rem] bg-brand-soft px-5 py-5 sm:px-6">
-      <h3 className="flex items-center gap-2 text-lg font-semibold">
-        <MessageSquareText className="size-5 text-brand" aria-hidden />
-        AI nhận xét
+      <h3 className="flex items-center gap-3 text-lg font-semibold">
+        <Linguine pose="head" size={44} />
+        Linguine nhận xét
       </h3>
-      <p className="text-sm text-muted">AI đọc chữ ghi lời nên không chấm phát âm. Mỗi phần nhận xét riêng, không có điểm tổng.</p>
+      <p className="text-sm text-muted">Linguine là trợ lý AI, đọc chữ ghi lời nên có thể sai và không chấm phát âm. Mỗi phần nhận xét riêng, không có điểm tổng.</p>
       {mock && <p className="w-fit rounded-full bg-warn-soft px-3 py-1 text-sm font-bold text-warn">Dữ liệu mô phỏng, không phải nhận xét thật</p>}
       <dl className="grid divide-y divide-brand/15">
         <Row

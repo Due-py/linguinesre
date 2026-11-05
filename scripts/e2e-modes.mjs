@@ -35,8 +35,8 @@ async function login(ctx, code, pin) {
   const page = await ctx.newPage();
   page.setDefaultTimeout(30_000);
   await page.goto(`${BASE}/login`);
-  await page.getByLabel("Mã học sinh").fill(code);
-  await page.getByLabel("PIN").fill(pin);
+  await page.getByLabel("Email, tên tài khoản hoặc mã học sinh").fill(code);
+  await page.getByLabel("Mật khẩu hoặc PIN", { exact: true }).fill(pin);
   await page.getByRole("button", { name: "Đăng nhập" }).click();
   await page.waitForURL(`${BASE}/student`);
   return page;

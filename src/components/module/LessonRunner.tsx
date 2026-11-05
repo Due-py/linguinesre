@@ -17,6 +17,7 @@ import HeardWords from "./HeardWords";
 import { missedWords } from "@/lib/module/measure";
 import ListenButton from "./Listen";
 import CountUp from "@/components/CountUp";
+import Linguine from "@/components/Linguine";
 
 /** Một lượt đã lưu (để học tiếp đúng chỗ sau khi tải lại trang). */
 export type SavedRow = { step: number; turn: number; attemptNo: number; attemptId: string; answer: string | null; reply: string | null; correct: boolean | null };
@@ -1218,12 +1219,14 @@ function Roleplay({ st, ctx, onDone }: P<"roleplay">) {
           <ol className="grid gap-3" aria-live="polite">
             {bubbles.map((b, i) => (
               <li key={i} className={`sheet-up flex max-w-[88%] items-end gap-2 ${b.who === "ai" ? "justify-self-start" : "flex-row-reverse justify-self-end"}`}>
-                <span
-                  aria-hidden
-                  className={`grid size-9 shrink-0 place-items-center rounded-full text-sm font-medium ${b.who === "ai" ? "bg-gold text-ink" : "bg-brand text-on-brand"}`}
-                >
-                  {b.who === "ai" ? (r.aiRole.trim()[0] ?? "A").toUpperCase() : "Em"}
-                </span>
+                {/* Linguine đóng vai người nói chuyện với em (vai ghi trên bong bóng). */}
+                {b.who === "ai" ? (
+                  <Linguine pose="head" size={40} />
+                ) : (
+                  <span aria-hidden className="grid size-10 shrink-0 place-items-center rounded-full bg-brand text-sm font-medium text-on-brand">
+                    Em
+                  </span>
+                )}
                 <span className={`grid rounded-3xl px-4 py-3 ${b.who === "ai" ? "rounded-bl-md bg-sunken" : "rounded-br-md bg-brand-soft"}`}>
                   <span className="text-xs font-medium text-muted">{b.who === "ai" ? r.aiRole.split(",")[0] : "Em"}</span>
                   <span lang="en" className="text-lg">
@@ -1311,21 +1314,26 @@ function Tile({ i, label, children }: { i: number; label: string; children: Reac
   );
 }
 
-/** Hình xong bài: dấu tích xanh lá giữa bốn chấm màu Google, hiện lần lượt. Chỉ trang trí. */
+/** Hình xong bài: Linguine giữa ba chấm màu Ý, kèm dấu tích "xong". Chỉ trang trí. */
 function DoneArt() {
   const dots = [
-    { c: "var(--brand)", x: 14, y: 30 },
-    { c: "var(--danger-bright)", x: 104, y: 22 },
-    { c: "var(--gold)", x: 22, y: 92 },
-    { c: "var(--success-bright)", x: 108, y: 88 },
+    { c: "var(--brand)", x: 6, y: 22 },
+    { c: "var(--danger-bright)", x: 92, y: 14 },
+    { c: "var(--gold)", x: 10, y: 78 },
   ];
   return (
-    <svg viewBox="0 0 120 120" className="size-32" aria-hidden>
-      {dots.map((d, i) => (
-        <circle key={i} cx={d.x} cy={d.y} r="7" fill={d.c} className="pop-in" style={{ ["--i" as string]: i + 1, transformOrigin: `${d.x}px ${d.y}px` }} />
-      ))}
-      <circle cx="60" cy="60" r="38" fill="var(--success)" className="pop-in" />
-      <path d="M44 61l11 11 22-24" fill="none" stroke="#fff" strokeWidth="7" strokeLinecap="round" strokeLinejoin="round" className="pop-in" style={{ ["--i" as string]: 3 }} />
-    </svg>
+    <div className="relative grid h-44 w-40 place-items-center" aria-hidden>
+      <svg viewBox="0 0 100 100" className="absolute inset-0 size-full">
+        {dots.map((d, i) => (
+          <circle key={i} cx={d.x} cy={d.y} r="4" fill={d.c} className="pop-in" style={{ ["--i" as string]: i + 1, transformOrigin: `${d.x}px ${d.y}px` }} />
+        ))}
+      </svg>
+      <Linguine size={168} className="pop-in" />
+      <span className="pop-in absolute bottom-2 right-0 grid size-11 place-items-center rounded-full bg-success text-white shadow-float" style={{ ["--i" as string]: 4 }}>
+        <svg viewBox="0 0 24 24" className="size-6" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M5 12.5l4.5 4.5L19 7.5" />
+        </svg>
+      </span>
+    </div>
   );
 }

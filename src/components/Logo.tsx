@@ -1,12 +1,12 @@
 import Link from "next/link";
 
-// Năm vạch sóng âm bằng bốn màu Google (xanh dương, đỏ, vàng, xanh lá): dấu nhận diện của LINGUA-REFLEX.
+// Năm vạch sóng âm bằng màu của Linguine (xanh lá Ý, vàng, đỏ Ý): dấu nhận diện của LINGUA-REFLEX.
 const BARS = [
-  { x: 4, h: 8, c: "#1a73e8" },
-  { x: 10, h: 16, c: "#ea4335" },
-  { x: 16, h: 24, c: "#f9ab00" },
-  { x: 22, h: 14, c: "#34a853" },
-  { x: 28, h: 8, c: "#1a73e8" },
+  { x: 4, h: 8, c: "#1b7d43" },
+  { x: 10, h: 16, c: "#1b7d43" },
+  { x: 16, h: 24, c: "#f4b824" },
+  { x: 22, h: 14, c: "#d62327" },
+  { x: 28, h: 8, c: "#d62327" },
 ];
 
 /**

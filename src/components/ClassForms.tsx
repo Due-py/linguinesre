@@ -1,8 +1,8 @@
 "use client";
 
 import { useActionState } from "react";
-import { Archive, ArchiveRestore, UserMinus } from "lucide-react";
-import { createClass, removeMember, renameClass, setClassStatus } from "@/app/(teacher)/teacher/actions";
+import { Archive, ArchiveRestore, KeyRound, UserMinus } from "lucide-react";
+import { createClass, removeMember, renameClass, resetStudentPassword, setClassStatus } from "@/app/(teacher)/teacher/actions";
 import { Field, FormMessage, inputClass, SubmitButton } from "@/components/form";
 import type { FormState } from "@/lib/form";
 
@@ -89,6 +89,43 @@ export function RemoveMemberForm({ classId, studentId, name }: { classId: string
       </SubmitButton>
       {state?.error && (
         <span role="alert" className="mt-1 block text-sm font-semibold text-danger">
+          {state.error}
+        </span>
+      )}
+    </form>
+  );
+}
+
+/**
+ * Đặt mật khẩu tạm cho học sinh dùng tên tài khoản (không có email). Mật khẩu tạm hiện một lần ngay dưới nút để thầy cô
+ * đọc cho học sinh; học sinh đăng nhập rồi đổi ở trang Tài khoản.
+ */
+export function ResetPasswordForm({ classId, studentId, name }: { classId: string; studentId: string; name: string }) {
+  const [state, action] = useActionState<FormState, FormData>(resetStudentPassword, null);
+  return (
+    <form
+      action={action}
+      className="grid justify-items-end gap-2"
+      onSubmit={(e) => {
+        if (!window.confirm(`Đặt mật khẩu tạm cho ${name}? Mật khẩu cũ của bạn ấy sẽ không dùng được nữa.`)) e.preventDefault();
+      }}
+    >
+      <input type="hidden" name="classId" value={classId} />
+      <input type="hidden" name="studentId" value={studentId} />
+      <SubmitButton variant="quiet" pendingLabel="…" className="min-h-11 px-4 text-sm">
+        <KeyRound className="size-4" aria-hidden />
+        <span className="sr-only sm:not-sr-only">Đặt lại mật khẩu</span>
+        <span className="sr-only">{name}</span>
+      </SubmitButton>
+      {state?.notice && (
+        <p role="status" className="max-w-xs rounded-xl bg-brand-soft px-3 py-2 text-sm text-brand-strong">
+          <span className="font-semibold">{state.notice}</span>
+          <br />
+          Đọc cho {name}, bạn ấy đăng nhập rồi đổi mật khẩu ở trang Tài khoản.
+        </p>
+      )}
+      {state?.error && (
+        <span role="alert" className="block max-w-xs text-sm font-semibold text-danger">
           {state.error}
         </span>
       )}

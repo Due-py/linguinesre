@@ -7,17 +7,25 @@ Quy tắc thiết kế giao diện. Mọi trang và thành phần mới phải t
 Lấy tinh thần thiết kế sản phẩm của Google (tham khảo chromeos.google), không sao chép giao diện của Google. Mục tiêu:
 - Thân thiện nhưng không trẻ con; chuyên nghiệp nhưng không khô cứng.
 - Nhiều màu nhưng không rối; tối giản nhưng không trống trải.
-- Không linh vật, không hiệu ứng chỉ để trang trí.
+- Không hiệu ứng chỉ để trang trí.
 
 Đặc trưng:
 - Tiêu đề lớn, tự tin.
 - Khoảng trắng rộng, thẻ bo tròn lớn.
-- Màu Google dùng có chủ đích.
+- Màu của Linguine (xanh lá Ý, đỏ Ý, vàng, trắng) dùng có chủ đích.
 - Ảnh giao diện sản phẩm (minh họa) thay cho đoạn văn dài.
 
 Học sinh lớp 6–12 dùng chủ yếu trên điện thoại và nói vào micro.
 
 **Không** XP, tim, bảng xếp hạng, chuỗi ngày, điểm tổng. Dùng gợi ý không bị trừ gì.
+
+### Linguine (linh vật, từ 05/11)
+
+Linguine là chim cánh cụt đầu bếp Ý, gương mặt của trợ lý AI. Thành phần: `src/components/Linguine.tsx`, ảnh ở `public/linguine/` (`linguine.png` cả người, nền trong suốt; `linguine-face.png` khuôn mặt cho ảnh đại diện).
+- Ảnh đại diện (`pose="head"`) thay chữ "AI": khối "Linguine nhận xét", bạn nói chuyện trong roleplay.
+- Cả người (`pose="full"`): đầu trang chủ, màn hình xong bài. Lời chào ở trang tổng quan học sinh có ảnh đại diện.
+- Linguine vẫn là AI: chỗ Linguine nhận xét luôn ghi "Linguine là trợ lý AI… có thể sai". Linguine không chấm điểm, không khen chê bằng điểm.
+- Ảnh là trang trí: `alt=""`, chữ bên cạnh nói rõ ai đang nói. Không đặt Linguine trong trang nghiên cứu.
 
 ## 2. Trang nghiên cứu giữ giao diện cũ
 
@@ -53,16 +61,16 @@ Màu có nghĩa cố định, không rải mọi màu vào mọi thành phần.
 | Token | Giá trị | Dùng cho |
 |---|---|---|
 | `bg` / `surface` | `#FFFFFF` | Nền trang, thẻ |
-| `tint` | `#F8FAFD` | Dải nội dung, khung xem trước, ô số liệu |
+| `tint` | `#F7FBF8` | Dải nội dung, khung xem trước, ô số liệu |
 | `sunken` | `#F1F3F4` | Nền phụ trung tính, thanh tiến độ trống |
 | `ink` / `muted` | `#202124` / `#5F6368` | Chữ chính (16:1) / chữ phụ (6.0:1) |
 | `line` / `line-strong` | `#DADCE0` / `#80868B` | Viền thẻ / viền ô nhập và nút viền (3.7:1) |
-| `brand` | `#1A73E8` | **Xanh dương: thao tác.** Nút chính, liên kết, mục đang chọn. Chữ trắng 4.5:1 |
-| `brand-strong` / `brand-soft` / `brand-tonal` | `#185ABC` / `#E8F0FE` / `#D2E3FC` | Hover; nền nút phụ dạng tông màu; viên thuốc nhấn trong tiêu đề |
-| `success` (+`-strong`, `-soft`) | `#188038` | **Xanh lá: đúng, đạt, tiến độ.** Thanh tiến độ, "Em làm tốt", "Đạt" |
-| `gold` (+`-soft`) | `#F9AB00` | **Vàng: chú ý, điểm nhấn.** Vòng đếm ngược Speed Q&A, nhãn "Từ mới", "Nên luyện tiếp". Chữ trên nền vàng dùng `ink` |
-| `warn` / `warn-soft` | `#8A4A00` / `#FEF7E0` | "Chưa đạt", "chưa đúng" (vàng nhẹ, không đỏ: không phạt) |
-| `danger` / `danger-soft` / `danger-bright` | `#C5221F` / `#FCE8E6` / `#EA4335` | **Đỏ: lỗi, cảnh báo, đang ghi âm** |
+| `brand` | `#1B7D43` | **Xanh lá Ý (khăn của Linguine): thao tác.** Nút chính, liên kết, mục đang chọn. Chữ trắng 5.2:1 |
+| `brand-strong` / `brand-soft` / `brand-tonal` | `#146235` / `#E7F4EC` / `#C6E7D2` | Hover; nền nút phụ dạng tông màu; viên thuốc nhấn trong tiêu đề |
+| `success` (+`-strong`, `-soft`) | `#1967D2` | **Xanh dương: đúng, đạt, tiến độ** (khác màu nút chính). Thanh tiến độ, "Em làm tốt", "Đạt" |
+| `gold` (+`-soft`) | `#F4B824` | **Vàng (mỏ, chân Linguine): chú ý, điểm nhấn.** Vòng đếm ngược Speed Q&A, nhãn "Từ mới", "Nên luyện tiếp". Chữ trên nền vàng dùng `ink` |
+| `warn` / `warn-soft` | `#8A4A00` / `#FEF6DC` | "Chưa đạt", "chưa đúng" (vàng nhẹ, không đỏ: không phạt) |
+| `danger` / `danger-soft` / `danger-bright` | `#C5221F` / `#FCE8E6` / `#D62327` | **Đỏ: lỗi, cảnh báo, đang ghi âm** |
 
 Quy tắc:
 - Chữ thường phải đạt ≥ 4.5:1.
@@ -138,7 +146,7 @@ Luôn tôn trọng `prefers-reduced-motion`: tắt toàn cục ở cuối `globa
 
 ## 8. Không làm
 
-- Không linh vật, không emoji thay icon (dùng lucide). Không chép logo, hình hay giao diện của Google hoặc ứng dụng khác.
+- Linh vật duy nhất là Linguine (mục 1). Không emoji thay icon (dùng lucide). Không chép logo, hình hay giao diện của Google hoặc ứng dụng khác.
 - Không kính mờ tràn lan, không dải màu tím xanh kiểu "AI", không nền tối toàn trang.
 - Không XP, tim, bảng xếp hạng, chuỗi ngày, điểm tổng.
 - Không hiển thị số liệu giả để trang trông đầy đủ. Ảnh giao diện trên trang chủ luôn ghi "minh họa". Chưa có dữ liệu thì hiện trạng thái bắt đầu.

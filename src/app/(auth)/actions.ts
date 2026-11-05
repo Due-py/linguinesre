@@ -5,89 +5,82 @@ import { createClient } from "@/lib/supabase/server";
 import { isSupabaseConfigured, siteUrl } from "@/lib/supabase/env";
 import { fieldErrors, forgotSchema, loginSchema, resetSchema, signupSchema } from "@/lib/validation";
 import { formValues, NOT_CONFIGURED, type FormState } from "@/lib/form";
-import { codeEmail, normalizeCode, PIN_PATTERN } from "@/lib/research/code";
 
-/** Giá trị điền lại ô nhập khi có lỗi: chỉ giữ email, không bao giờ trả mật khẩu về trình duyệt. */
-const keepEmail = (raw: Record<string, string>) => ({ email: raw.email ?? "" });
+/** Giá trị điền lại ô nhập khi có lỗi: không bao giờ trả mật khẩu về trình duyệt. */
+const keep = (raw: Record<string, string>, ...names: string[]) => Object.fromEntries(names.map((n) => [n, raw[n] ?? ""]));
+const keepEmail = (raw: Record<string, string>) => keep(raw, "email");
 
+/**
+ * Đăng nhập một ô: email, tên tài khoản hoặc mã học sinh (+ PIN) đều vào cùng biểu mẫu; lib/identity.ts nhận ra loại.
+ * Cùng một thông báo cho "sai tên" và "sai mật khẩu" để không lộ tài khoản nào tồn tại.
+ */
 export async function signIn(_prev: FormState, formData: FormData): Promise<FormState> {
   const raw = formValues(formData);
+  const values = keep(raw, "identifier");
   const parsed = loginSchema.safeParse(raw);
-  if (!parsed.success) return { fields: fieldErrors(parsed.error), values: keepEmail(raw) };
-  if (!isSupabaseConfigured()) return { error: NOT_CONFIGURED, values: keepEmail(raw) };
+  if (!parsed.success) return { fields: fieldErrors(parsed.error), values };
+  if (!isSupabaseConfigured()) return { error: NOT_CONFIGURED, values };
 
+  const { kind, email, password } = parsed.data;
   const supabase = await createClient();
-  const { error } = await supabase.auth.signInWithPassword(parsed.data);
+  const { error } = await supabase.auth.signInWithPassword({ email, password });
   if (error) {
-    const unconfirmed = error.code === "email_not_confirmed";
     return {
-      // Cùng một thông báo cho "sai email" và "sai mật khẩu" để không lộ email nào đã đăng ký.
-      error: unconfirmed
-        ? "Email này chưa được xác nhận. Hãy mở thư xác nhận trong hộp thư của bạn."
-        : "Email hoặc mật khẩu chưa đúng. Hãy kiểm tra lại.",
-      values: keepEmail(raw),
+      error:
+        error.status === 429
+          ? "Nhập sai nhiều lần. Hãy đợi vài phút rồi thử lại."
+          : error.code === "email_not_confirmed"
+            ? "Email này chưa được xác nhận. Hãy mở thư xác nhận trong hộp thư của bạn."
+            : kind === "code"
+              ? "Mã học sinh hoặc PIN chưa đúng. Kiểm tra lại phiếu đăng nhập của bạn."
+              : "Tên đăng nhập hoặc mật khẩu chưa đúng. Hãy kiểm tra lại.",
+      values,
     };
   }
   redirect("/home");
 }
 
 /**
- * Học sinh tham gia nghiên cứu: mã HS + PIN 6 số (nhóm nghiên cứu phát phiếu). Không có đăng ký hay quên PIN trên web:
- * quên PIN thì báo nhóm nghiên cứu cấp lại (scripts/research-students.mjs --reset).
+ * Đăng ký: họ và tên thật + email hoặc tên tài khoản + mật khẩu. Họ tên lưu trong user_metadata.full_name, trang thiết lập
+ * tài khoản dùng nó làm tên hiển thị (không hỏi lại).
  */
-export async function signInWithCode(_prev: FormState, formData: FormData): Promise<FormState> {
-  const raw = formValues(formData);
-  const code = normalizeCode(raw.code ?? "");
-  const keep = { code: raw.code ?? "" };
-  const fields: Record<string, string> = {};
-  if (!code) fields.code = "Mã học sinh có dạng HS008 (2 chữ cái và 2–4 chữ số).";
-  if (!PIN_PATTERN.test(raw.pin ?? "")) fields.pin = "PIN gồm đúng 6 chữ số.";
-  if (Object.keys(fields).length) return { fields, values: keep };
-  if (!isSupabaseConfigured()) return { error: NOT_CONFIGURED, values: keep };
-
-  const supabase = await createClient();
-  const { error } = await supabase.auth.signInWithPassword({ email: codeEmail(code!), password: raw.pin });
-  if (error) {
-    return {
-      error:
-        error.status === 429
-          ? "Nhập sai nhiều lần. Hãy đợi vài phút rồi thử lại."
-          : "Mã học sinh hoặc PIN chưa đúng. Kiểm tra lại phiếu đăng nhập của bạn.",
-      values: keep,
-    };
-  }
-  redirect("/home");
-}
-
 export async function signUp(_prev: FormState, formData: FormData): Promise<FormState> {
   const raw = formValues(formData);
+  const values = keep(raw, "fullName", "identifier");
   const parsed = signupSchema.safeParse(raw);
-  if (!parsed.success) return { fields: fieldErrors(parsed.error), values: keepEmail(raw) };
-  if (!isSupabaseConfigured()) return { error: NOT_CONFIGURED, values: keepEmail(raw) };
+  if (!parsed.success) return { fields: fieldErrors(parsed.error), values };
+  if (!isSupabaseConfigured()) return { error: NOT_CONFIGURED, values };
 
+  const { kind, email, password, fullName } = parsed.data;
   const supabase = await createClient();
   const { data, error } = await supabase.auth.signUp({
-    email: parsed.data.email,
-    password: parsed.data.password,
-    options: { emailRedirectTo: `${siteUrl()}/auth/callback?next=/home` },
+    email,
+    password,
+    options: { data: { full_name: fullName }, emailRedirectTo: `${siteUrl()}/auth/callback?next=/home` },
   });
   if (error) {
-    const weak = error.code === "weak_password";
+    if (error.code === "user_already_exists")
+      return kind === "username"
+        ? { fields: { identifier: "Tên tài khoản này đã có người dùng. Hãy chọn tên khác, hoặc đăng nhập nếu đây là tài khoản của bạn." }, values }
+        : { error: "Email này đã có tài khoản. Hãy đăng nhập, hoặc bấm “Quên mật khẩu” nếu không nhớ mật khẩu.", values };
     return {
-      error: weak
-        ? "Mật khẩu quá dễ đoán. Hãy dùng mật khẩu dài hơn hoặc thêm chữ số."
-        : error.code === "over_email_send_rate_limit"
-          ? "Đã gửi quá nhiều email trong một thời gian ngắn. Hãy thử lại sau ít phút."
-          : "Chưa tạo được tài khoản. Hãy thử lại sau.",
-      values: keepEmail(raw),
+      error:
+        error.code === "weak_password"
+          ? "Mật khẩu quá dễ đoán. Hãy dùng mật khẩu dài hơn hoặc thêm chữ số."
+          : error.code === "over_email_send_rate_limit"
+            ? "Đã gửi quá nhiều email trong một thời gian ngắn. Hãy thử lại sau ít phút."
+            : "Chưa tạo được tài khoản. Hãy thử lại sau.",
+      values,
     };
   }
   // Có phiên ngay = Supabase đang tắt "Confirm email" → sang onboarding.
   if (data.session) redirect("/onboarding");
+  // Tên tài khoản không có hộp thư: nếu Supabase bật lại "Confirm email" thì không xác nhận được, báo rõ thay vì chờ thư.
+  if (kind === "username") return { error: "Chưa tạo được tài khoản bằng tên tài khoản lúc này. Hãy đăng ký bằng email.", values };
   // Email đã đăng ký: Supabase trả user không có identity để không lộ email tồn tại. Vẫn hướng dẫn như nhau.
   return {
-    notice: `Chúng tôi đã gửi thư xác nhận tới ${parsed.data.email}. Mở thư và bấm vào liên kết để tiếp tục.`,
-    values: keepEmail(raw),
+    notice: `Chúng tôi đã gửi thư xác nhận tới ${email}. Mở thư và bấm vào liên kết để tiếp tục.`,
+    values,
   };
 }
 

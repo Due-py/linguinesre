@@ -1,8 +1,8 @@
 "use client";
 
-import { useId, type ComponentProps, type ReactNode } from "react";
+import { useId, useState, type ComponentProps, type ReactNode } from "react";
 import { useFormStatus } from "react-dom";
-import { CircleAlert, CircleCheck, LoaderCircle } from "lucide-react";
+import { CircleAlert, CircleCheck, Eye, EyeOff, LoaderCircle } from "lucide-react";
 import type { FormState } from "@/lib/form";
 
 export const inputClass =
@@ -94,5 +94,56 @@ export function SubmitButton({
       {pending && <LoaderCircle className="size-5 animate-spin" aria-hidden />}
       {pending ? pendingLabel : children}
     </button>
+  );
+}
+
+/**
+ * Ô mật khẩu có nút con mắt để xem mình đã gõ gì (thay cho ô "nhập lại mật khẩu"). Nút là button thật, có nhãn đổi theo
+ * trạng thái và aria-pressed, cao 44px để dễ bấm trên điện thoại.
+ */
+export function PasswordField({ label, name, state, hint, ...props }: { label: string; name: string; state: FormState; hint?: string } & Omit<ComponentProps<"input">, "name" | "type">) {
+  const id = useId();
+  const [shown, setShown] = useState(false);
+  const error = state?.fields?.[name];
+  return (
+    <div className="grid gap-1.5">
+      <label htmlFor={id} className="text-sm font-bold">
+        {label}
+      </label>
+      <div className="relative">
+        <input
+          id={id}
+          name={name}
+          type={shown ? "text" : "password"}
+          aria-invalid={error ? true : undefined}
+          aria-describedby={error ? `${id}-err` : hint ? `${id}-hint` : undefined}
+          autoCapitalize="none"
+          autoCorrect="off"
+          spellCheck={false}
+          {...props}
+          className={`${inputClass} pr-14`}
+        />
+        <button
+          type="button"
+          onClick={() => setShown((v) => !v)}
+          aria-pressed={shown}
+          aria-controls={id}
+          aria-label={shown ? "Ẩn mật khẩu" : "Hiện mật khẩu"}
+          className="absolute inset-y-0 right-1 my-auto grid size-11 place-items-center rounded-full text-muted hover:bg-sunken hover:text-ink"
+        >
+          {shown ? <EyeOff className="size-5" aria-hidden /> : <Eye className="size-5" aria-hidden />}
+        </button>
+      </div>
+      {error ? (
+        <p id={`${id}-err`} className="flex items-start gap-1.5 text-sm font-semibold text-danger">
+          <CircleAlert className="mt-0.5 size-4 shrink-0" aria-hidden />
+          {error}
+        </p>
+      ) : hint ? (
+        <p id={`${id}-hint`} className="text-sm text-muted">
+          {hint}
+        </p>
+      ) : null}
+    </div>
   );
 }

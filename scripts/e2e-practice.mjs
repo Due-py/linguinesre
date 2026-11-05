@@ -92,8 +92,8 @@ async function main() {
 
 
   await page.goto(`${BASE}/login?as=email`);
-  await page.getByLabel("Email").fill(EMAIL);
-  await page.getByLabel("Mật khẩu").fill(PW);
+  await page.getByLabel("Email, tên tài khoản hoặc mã học sinh").fill(EMAIL);
+  await page.getByLabel("Mật khẩu hoặc PIN", { exact: true }).fill(PW);
   await page.getByRole("button", { name: "Đăng nhập" }).click();
   await page.waitForURL(`${BASE}/student`);
   t("đăng nhập xong vào trang học sinh", true);
@@ -141,7 +141,7 @@ async function main() {
     await page.getByRole("heading", { name: "Đo trực tiếp" }).waitFor();
     if (ai) {
       await page.getByRole("button", { name: "Xem nhận xét của AI" }).click();
-      await page.getByRole("heading", { name: "AI nhận xét" }).waitFor();
+      await page.getByRole("heading", { name: /^(AI|Linguine) nhận xét$/ }).waitFor();
     }
     if (shots) await shot("17-luyen-noi-da-luu-co-phan-hoi");
   }
@@ -159,7 +159,7 @@ async function main() {
   await page.getByRole("button", { name: "Nói lại câu này (còn 2 lần)" }).click();
   await answerOne({ started: true });
   t("nói lại câu 1 thành lần 2", await page.getByText("Đã lưu câu trả lời (lần 2).").isVisible());
-  t("chưa bấm thì chưa có AI nhận xét, chỉ có nút xem", (await page.getByRole("button", { name: "Xem nhận xét của AI" }).isVisible()) && (await page.getByRole("heading", { name: "AI nhận xét" }).count()) === 0);
+  t("chưa bấm thì chưa có AI nhận xét, chỉ có nút xem", (await page.getByRole("button", { name: "Xem nhận xét của AI" }).isVisible()) && (await page.getByRole("heading", { name: /^(AI|Linguine) nhận xét$/ }).count()) === 0);
   t("có so sánh lần 1 và lần 2 kể cả khi lần 2 chưa có AI nhận xét", await page.getByRole("heading", { name: "So sánh lần 1 và lần 2" }).isVisible());
   await shot("21-noi-lai-co-so-sanh");
   await page.getByRole("button", { name: "Câu tiếp theo" }).click();
@@ -211,8 +211,8 @@ async function main() {
   const tp = await tctx.newPage();
   tp.setDefaultTimeout(30_000);
   await tp.goto(`${BASE}/login?as=email`);
-  await tp.getByLabel("Email").fill(TEACHER);
-  await tp.getByLabel("Mật khẩu").fill(PW);
+  await tp.getByLabel("Email, tên tài khoản hoặc mã học sinh").fill(TEACHER);
+  await tp.getByLabel("Mật khẩu hoặc PIN", { exact: true }).fill(PW);
   await tp.getByRole("button", { name: "Đăng nhập" }).click();
   await tp.waitForURL(`${BASE}/teacher`);
   await tp.goto(`${BASE}/teacher/classes/${cls.id}`);
@@ -225,7 +225,7 @@ async function main() {
   t("giáo viên: mở được buổi luyện của học sinh", await tp.getByRole("heading", { name: "Bạn Thử: E2E Test Unit" }).isVisible());
   t("giáo viên: thấy mục tiêu gợi ý cho học sinh", await tp.getByText("Mục tiêu gợi ý cho học sinh").isVisible());
   await tp.locator("summary").first().click();
-  t("giáo viên: xem được chữ ghi lời và nhận xét", await tp.locator("details[open]").getByRole("heading", { name: "AI nhận xét" }).isVisible());
+  t("giáo viên: xem được chữ ghi lời và nhận xét", await tp.locator("details[open]").getByRole("heading", { name: /^(AI|Linguine) nhận xét$/ }).isVisible());
   t("giáo viên: không có nút gọi AI", (await tp.getByRole("button", { name: "Thử lấy nhận xét lại" }).count()) === 0);
   if (SHOTS) await tp.screenshot({ path: `${SHOTS}/25-giao-vien-xem-buoi.png`, fullPage: true });
   const sessionPath = new URL(tp.url()).pathname;

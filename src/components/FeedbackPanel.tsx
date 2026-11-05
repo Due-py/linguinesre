@@ -1,6 +1,7 @@
 import { useId } from "react";
 import { ArrowRight, CircleAlert, CircleCheck, CircleDashed, LoaderCircle, MessageSquareText, RotateCcw, Ruler } from "lucide-react";
 import type { FeedbackView } from "@/app/(student)/student/practice/actions";
+import Linguine from "@/components/Linguine";
 
 const secs = (ms: number | null) => (ms === null ? "chưa đo được" : `${(ms / 1000).toFixed(1).replace(".", ",")} giây`);
 const LEVEL: Record<string, string> = {
@@ -115,11 +116,18 @@ export function AiReview({ view, onRetry, level, askFirst = false }: { view: Fee
   return (
     <section aria-labelledby={id} className="grid gap-4 rounded-2xl bg-brand-soft px-5 py-5">
       <div className="grid gap-1">
-        <H id={id} className="flex items-center gap-2 text-xl font-extrabold">
-          <MessageSquareText className="size-5" aria-hidden />
-          AI nhận xét
+        {/* Ngoài trang nghiên cứu, AI mang gương mặt Linguine; trang nghiên cứu (.theme-classic) giữ nguyên chữ và biểu tượng cũ. */}
+        <H id={id} className="flex items-center gap-2 text-xl font-extrabold app:gap-3">
+          <MessageSquareText className="size-5 app:hidden" aria-hidden />
+          <span className="hidden app:inline-flex">
+            <Linguine pose="head" size={44} />
+          </span>
+          <span className="app:hidden">AI nhận xét</span>
+          <span className="hidden app:inline">Linguine nhận xét</span>
         </H>
-        <p className="text-sm text-muted">AI đọc chữ ghi lời rồi nhận xét, có thể chưa đúng. Phát âm chưa được đánh giá.</p>
+        <p className="text-sm text-muted">
+          <span className="hidden app:inline">Linguine là trợ lý AI: </span>AI đọc chữ ghi lời rồi nhận xét, có thể chưa đúng. Phát âm chưa được đánh giá.
+        </p>
         {view.mock && (
           <p className="w-fit rounded-full bg-warn-soft px-3 py-1 text-sm font-bold text-warn">Dữ liệu mô phỏng, không phải nhận xét thật</p>
         )}

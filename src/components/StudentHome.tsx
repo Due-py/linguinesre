@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowRight, CalendarDays, CircleAlert, CircleCheck, CircleDashed, Clock, Flag, Lock, Mic, Timer, Users } from "lucide-react";
 import SessionList from "@/components/SessionList";
+import Linguine from "@/components/Linguine";
 import { Chip, Eyebrow, Highlight, Progress, SectionHead, Stat } from "@/components/ui";
 import type { TodayTask } from "@/lib/practice";
 import type { ModuleToday } from "@/lib/module/server";
@@ -63,7 +64,10 @@ export default function StudentHome({ name, grade, classes, joinFailed, today, m
       {/* 1. Hôm nay học gì: lời chào + thẻ bài hôm nay với một nút chính. */}
       <section aria-labelledby="today" className="grid gap-8 lg:grid-cols-[1fr_minmax(0,28rem)] lg:items-center">
         <div className="rise-in grid gap-4">
-          <p className="text-lg text-muted">Chào {name},</p>
+          <p className="flex items-center gap-3 text-lg text-muted">
+            <Linguine pose="head" size={52} priority />
+            Chào {name},
+          </p>
           <h1 id="today" className="text-balance text-4xl font-semibold leading-[1.15] tracking-tight sm:text-5xl">
             {module && next ? (
               <>

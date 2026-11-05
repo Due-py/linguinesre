@@ -4,22 +4,37 @@ import { classSchema, fieldErrors, loginSchema, onboardingSchema, signupSchema }
 const errs = (r: { success: boolean; error?: import("zod").ZodError }) => (r.success ? {} : fieldErrors(r.error!));
 
 describe("đăng ký", () => {
-  it("chuẩn hóa email về chữ thường", () => {
-    const r = signupSchema.safeParse({ email: " Ten@Truong.VN ", password: "matkhau123", confirm: "matkhau123" });
-    expect(r.success && r.data.email).toBe("ten@truong.vn");
+  const ok = { fullName: "Nguyễn  Minh Anh ", password: "matkhau123" };
+  it("email: chuẩn hóa về chữ thường, gộp khoảng trắng trong họ tên", () => {
+    const r = signupSchema.safeParse({ ...ok, identifier: " Ten@Truong.VN " });
+    expect(r.success && r.data).toMatchObject({ kind: "email", email: "ten@truong.vn", fullName: "Nguyễn Minh Anh" });
   });
-  it("báo lỗi email sai dạng, mật khẩu ngắn, mật khẩu không khớp", () => {
-    expect(errs(signupSchema.safeParse({ email: "abc", password: "matkhau123", confirm: "matkhau123" })).email).toMatch(/Email/);
-    expect(errs(signupSchema.safeParse({ email: "a@b.vn", password: "123", confirm: "123" })).password).toMatch(/8 ký tự/);
-    expect(errs(signupSchema.safeParse({ email: "a@b.vn", password: "matkhau123", confirm: "khac" })).confirm).toMatch(/giống/);
+  it("tên tài khoản: lưu bằng email nội bộ .invalid", () => {
+    const r = signupSchema.safeParse({ ...ok, identifier: "MinhAnh_8a" });
+    expect(r.success && r.data).toMatchObject({ kind: "username", email: "minhanh_8a@taikhoan.lingua-reflex.invalid" });
+  });
+  it("báo lỗi: thiếu họ hoặc tên, email sai, tên tài khoản có dấu, giống mã học sinh, mật khẩu ngắn", () => {
+    expect(errs(signupSchema.safeParse({ ...ok, fullName: "Anh", identifier: "a@b.vn" })).fullName).toMatch(/họ và tên/);
+    expect(errs(signupSchema.safeParse({ ...ok, identifier: "abc@" })).identifier).toMatch(/Email/);
+    expect(errs(signupSchema.safeParse({ ...ok, identifier: "minh anh" })).identifier).toMatch(/không dấu/);
+    expect(errs(signupSchema.safeParse({ ...ok, identifier: "hồng" })).identifier).toMatch(/không dấu/);
+    expect(errs(signupSchema.safeParse({ ...ok, identifier: "hs008" })).identifier).toMatch(/mã học sinh/);
+    expect(errs(signupSchema.safeParse({ ...ok, identifier: "a@b.vn", password: "123" })).password).toMatch(/8 ký tự/);
   });
 });
 
 describe("đăng nhập", () => {
-  it("cần email và mật khẩu", () => {
-    const e = errs(loginSchema.safeParse({ email: "", password: "" }));
-    expect(e.email).toBeTruthy();
+  it("cần tên đăng nhập và mật khẩu", () => {
+    const e = errs(loginSchema.safeParse({ identifier: "", password: "" }));
+    expect(e.identifier).toBeTruthy();
     expect(e.password).toBeTruthy();
+  });
+  it("một ô nhận ra email, mã học sinh và tên tài khoản", () => {
+    const p = (identifier: string) => loginSchema.safeParse({ identifier, password: "x" });
+    expect(p("Co.Van@Truong.vn").data).toMatchObject({ kind: "email", email: "co.van@truong.vn" });
+    expect(p("hs 008").data).toMatchObject({ kind: "code", email: "hs008@hocsinh.lingua-reflex.invalid" });
+    expect(p("MinhAnh_8a").data).toMatchObject({ kind: "username", email: "minhanh_8a@taikhoan.lingua-reflex.invalid" });
+    expect(errs(p("minh anh")).identifier).toMatch(/Chưa đúng dạng/);
   });
 });
 

@@ -28,8 +28,8 @@ async function main() {
   const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
   page.setDefaultTimeout(30_000);
   await page.goto(`${BASE}/login`);
-  await page.getByLabel("Mã học sinh").fill(CODE);
-  await page.getByLabel("PIN").fill(p.pin);
+  await page.getByLabel("Email, tên tài khoản hoặc mã học sinh").fill(CODE);
+  await page.getByLabel("Mật khẩu hoặc PIN", { exact: true }).fill(p.pin);
   await page.getByRole("button", { name: "Đăng nhập" }).click();
   await page.waitForURL(`${BASE}/student`);
   await page.getByRole("link", { name: "Tài khoản" }).click();

@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 /*
- * Hệ thiết kế của LINGUA-REFLEX: sáng, rộng rãi, chữ tròn (SF Pro Rounded / Nunito) lớn và tự tin, màu Google dùng có chủ đích
- * (xanh dương: thao tác; xanh lá: tiến bộ, đúng; vàng: điểm nhấn, chú ý; đỏ: lỗi, cảnh báo). Quy tắc: DESIGN.md.
+ * Hệ thiết kế của LINGUA-REFLEX: sáng, rộng rãi, chữ tròn (SF Pro Rounded / Nunito) lớn và tự tin, màu của Linguine (chim cánh cụt
+ * đầu bếp Ý) dùng có chủ đích (xanh lá Ý: thao tác; xanh dương: tiến bộ, đúng; vàng: điểm nhấn, chú ý; đỏ: lỗi, cảnh báo). Quy tắc: DESIGN.md.
  * Trang nghiên cứu (bài kiểm tra, chế độ A/B, trang chờ) bọc trong .theme-classic để giữ nguyên giao diện cũ tới hết
  * nghiên cứu: .theme-classic đặt lại đúng các token cũ, và biến thể app: chỉ áp dụng bên ngoài .theme-classic.
  */
@@ -10,37 +10,37 @@
   --bg: #ffffff;
   --surface: #ffffff;
   --sunken: #f1f3f4; /* nền phụ trung tính: ô nhập, khối nhấn nhẹ */
-  --tint: #f8fafd; /* nền vùng rất nhạt, hơi xanh: dải nội dung, khung xem trước */
+  --tint: #f7fbf8; /* nền vùng rất nhạt, hơi xanh lá: dải nội dung, khung xem trước */
   --ink: #202124; /* chữ chính (16:1) */
   --muted: #5f6368; /* chữ phụ (6.0:1 trên trắng, 5.4:1 trên sunken) */
   --line: #dadce0;
   --line-strong: #80868b; /* viền ô nhập, nút viền (3.7:1 trên trắng, đủ cho thành phần không phải chữ) */
-  --brand: #1a73e8; /* xanh dương Google: nút chính, liên kết, mục đang chọn. Chữ trắng 4.5:1 */
-  --brand-strong: #185abc; /* hover; chữ trên brand-soft (5.7:1) */
-  --brand-soft: #e8f0fe;
-  --brand-tonal: #d2e3fc; /* viên thuốc nhấn trong tiêu đề, nền tab đang chọn */
+  --brand: #1b7d43; /* xanh lá Ý như khăn của Linguine: nút chính, liên kết, mục đang chọn. Chữ trắng 5.2:1 */
+  --brand-strong: #146235; /* hover; chữ trên brand-soft (6.6:1) */
+  --brand-soft: #e7f4ec;
+  --brand-tonal: #c6e7d2; /* viên thuốc nhấn trong tiêu đề, nền tab đang chọn */
   --on-brand: #ffffff;
-  --success: #188038; /* xanh lá: đúng, đạt, tiến độ (chữ 5.0:1 trên trắng) */
-  --success-strong: #137333;
-  --success-soft: #e6f4ea;
-  --success-bright: #34a853; /* chỉ để trang trí, thanh tiến độ */
-  --gold: #f9ab00; /* vàng: điểm nhấn, chú ý. Chữ trên nền vàng dùng ink */
-  --gold-soft: #fef7e0;
+  --success: #1967d2; /* xanh dương: đúng, đạt, tiến độ (khác màu nút chính). Chữ 5.4:1 trên trắng */
+  --success-strong: #185abc;
+  --success-soft: #e8f0fe;
+  --success-bright: #4285f4; /* chỉ để trang trí, thanh tiến độ */
+  --gold: #f4b824; /* vàng mỏ và chân Linguine: điểm nhấn, chú ý. Chữ trên nền vàng dùng ink */
+  --gold-soft: #fef6dc;
   --warn: #8a4a00; /* "chưa đạt", cảnh báo nhẹ (6.4:1 trên gold-soft) */
-  --warn-soft: #fef7e0;
+  --warn-soft: #fef6dc;
   --danger: #c5221f; /* lỗi, thao tác không hoàn tác được */
   --danger-soft: #fce8e6;
-  --danger-bright: #ea4335; /* đèn ghi âm, chấm đỏ */
+  --danger-bright: #d62327; /* đỏ Ý (khăn, mũ Linguine): đèn ghi âm, chấm đỏ */
 
-  /* Tên cũ giữ cho mã đang dùng: sky = xanh dương, berry = đỏ Google, forest = khối nhấn xanh dương nhạt. */
+  /* Tên cũ giữ cho mã đang dùng: sky = màu chính (xanh lá), berry = đỏ đậm, forest = khối nhấn màu chính nhạt. */
   --sky: var(--brand);
   --sky-strong: var(--brand-strong);
   --sky-soft: var(--brand-soft);
-  --sky-shadow: #174ea6;
+  --sky-shadow: #0f4f2a;
   --berry: #a50e0e;
   --berry-soft: #fce8e6;
-  --gold-shadow: #b06000;
-  --brand-bright: var(--success-bright);
+  --gold-shadow: #a86f00;
+  --brand-bright: #2e9e5b;
   --forest: var(--brand-soft);
   --on-forest: var(--ink);
   --on-forest-muted: #3c4043;
@@ -93,6 +93,25 @@
   font-family: var(--font-inter), system-ui, sans-serif;
   font-weight: 400;
   font-feature-settings: "cv11", "ss01";
+}
+
+/*
+ * Đổi sang màu Linguine (05/11): những token .theme-classic ở trên không đặt lại thì trang nghiên cứu vẫn lấy từ :root.
+ * Ghim chúng về đúng giá trị trước 05/11 để trang nghiên cứu không đổi màu. Tách khối riêng để không sửa khối ở trên.
+ */
+.theme-classic {
+  --tint: #f8fafd;
+  --brand-tonal: #d2e3fc;
+  --brand-bright: #34a853;
+  --success: #188038;
+  --success-strong: #137333;
+  --success-soft: #e6f4ea;
+  --success-bright: #34a853;
+  --gold: #f9ab00;
+  --gold-soft: #fef7e0;
+  --gold-shadow: #b06000;
+  --danger-bright: #ea4335;
+  --sky-shadow: #174ea6;
 }
 
 /* app:… chỉ có tác dụng ngoài trang nghiên cứu. Dùng cho thành phần dùng chung (nút, khung trang) để trang nghiên cứu không đổi. */

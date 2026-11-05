@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Clock3, TriangleAlert, Users } from "lucide-react";
 import AppShell, { TEACHER_NAV } from "@/components/AppShell";
-import { ClassStatusForm, RemoveMemberForm, RenameClassForm } from "@/components/ClassForms";
+import { ClassStatusForm, RemoveMemberForm, RenameClassForm, ResetPasswordForm } from "@/components/ClassForms";
 import CopyCode from "@/components/CopyCode";
 import { Chip, Eyebrow, Progress, SectionHead, Stat } from "@/components/ui";
 import { requireRole } from "@/lib/auth";
@@ -196,7 +196,10 @@ export default async function ClassPage({ params }: { params: Promise<{ id: stri
                             </span>
                           </div>
                         </div>
-                        <RemoveMemberForm classId={cls.id} studentId={r.id} name={r.name} />
+                        <div className="flex flex-wrap items-start justify-end gap-2">
+                          <ResetPasswordForm classId={cls.id} studentId={r.id} name={r.name} />
+                          <RemoveMemberForm classId={cls.id} studentId={r.id} name={r.name} />
+                        </div>
                       </div>
                       {mod ? (
                         <div className="grid gap-1.5">

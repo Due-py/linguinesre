@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 
 /**
  * Thành phần giao diện dùng chung (hệ thiết kế trong DESIGN.md). Không dùng hook, dùng được ở cả trang máy chủ và client.
- * Màu có nghĩa cố định: blue = thao tác/đang chọn, green = đúng/đạt/tiến độ, yellow = chú ý/điểm nhấn, red = lỗi/cảnh báo,
+ * Màu có nghĩa cố định (tên tone là tên cũ, xem DESIGN.md): blue = token brand (nay xanh lá Ý) thao tác/đang chọn, green = đúng/đạt/tiến độ, yellow = chú ý/điểm nhấn, red = lỗi/cảnh báo,
  * grey = trung tính. Không bao giờ chỉ dùng màu để báo trạng thái: luôn kèm chữ (và biểu tượng nếu là trạng thái).
  */
 export type Tone = "blue" | "green" | "yellow" | "red" | "grey";

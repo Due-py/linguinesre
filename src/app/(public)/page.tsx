@@ -4,6 +4,7 @@ import ButtonLink from "@/components/ButtonLink";
 import FeatureTabs, { type Feature } from "@/components/FeatureTabs";
 import Logo from "@/components/Logo";
 import { Chip, Eyebrow, Highlight } from "@/components/ui";
+import Linguine from "@/components/Linguine";
 
 /*
  * Trang chủ: kể một câu chuyện từ "biết từ vựng" tới "tự nói được". Mọi hình giao diện trên trang là MINH HỌA (ghi rõ),
@@ -118,7 +119,9 @@ export default function LandingPage() {
 
       <main id="main" className="flex-1">
         {/* Phần đầu: tiêu đề lớn ở giữa, rồi một khung lớn chứa màn hình bài học minh họa. */}
-        <section className="mx-auto grid w-full max-w-7xl justify-items-center gap-7 px-4 pb-10 pt-12 text-center sm:px-6 sm:pt-20">
+        <section className="mx-auto grid w-full max-w-7xl justify-items-center gap-7 px-4 pb-10 pt-10 text-center sm:px-6 sm:pt-14">
+          {/* Linguine: linh vật và gương mặt của trợ lý AI. */}
+          <Linguine size={168} priority className="rise-in" />
           <span className="rise-in">
             <Chip tone="blue" icon={<BookOpenText className="size-4" aria-hidden />}>
               Bám sách Global Success lớp 6–12 · bản thử nghiệm
@@ -142,7 +145,7 @@ export default function LandingPage() {
         </section>
 
         <section aria-label="Màn hình bài học (minh họa)" className="mx-auto w-full max-w-7xl px-4 pb-20 sm:px-6">
-          <div className="rise-in rise-in-3 relative overflow-hidden rounded-[2.5rem] bg-gradient-to-br from-brand-soft via-[#eaf3ff] to-success-soft px-4 pb-10 pt-10 sm:px-12 sm:pt-14">
+          <div className="rise-in rise-in-3 relative overflow-hidden rounded-[2.5rem] bg-gradient-to-br from-brand-soft via-tint to-success-soft px-4 pb-10 pt-10 sm:px-12 sm:pt-14">
             <HeroPreview />
           </div>
           <p className="mt-3 text-center text-sm text-muted">Hình minh họa giao diện, không phải kết quả của học sinh nào.</p>

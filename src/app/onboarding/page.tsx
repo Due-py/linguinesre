@@ -4,6 +4,8 @@ import Logo from "@/components/Logo";
 import OnboardingForm from "@/components/OnboardingForm";
 import { homePathFor, getProfile } from "@/lib/auth";
 import { signOut } from "@/app/(auth)/actions";
+import { createClient } from "@/lib/supabase/server";
+import { checkFullName } from "@/lib/identity";
 
 export const metadata: Metadata = { title: "Thiết lập tài khoản" };
 export const dynamic = "force-dynamic";
@@ -13,6 +15,10 @@ export default async function OnboardingPage() {
   if (!profile) redirect("/login");
   // Người dùng cũ không phải làm lại onboarding.
   if (profile.onboarded) redirect(homePathFor(profile.role));
+  const {
+    data: { user },
+  } = await (await createClient()).auth.getUser();
+  const name = checkFullName(String(user?.user_metadata?.full_name ?? ""));
 
   return (
     <div className="min-h-dvh bg-tint">
@@ -30,7 +36,7 @@ export default async function OnboardingPage() {
             <h1 className="text-balance text-4xl font-normal tracking-tight sm:text-[2.75rem] sm:leading-tight">Cho chúng tôi biết đôi điều về bạn</h1>
             <p className="text-lg text-muted">Chỉ vài câu hỏi ngắn. Chúng tôi không hỏi gì ngoài những thứ cần cho việc học.</p>
           </div>
-          <OnboardingForm />
+          <OnboardingForm fullName={name.ok ? name.name : null} />
         </div>
       </main>
     </div>

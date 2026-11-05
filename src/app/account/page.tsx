@@ -7,6 +7,8 @@ import JoinClassForm from "@/components/JoinClassForm";
 import { createClient } from "@/lib/supabase/server";
 import { getProfile, homePathFor } from "@/lib/auth";
 import { getParticipant } from "@/lib/research/server";
+import { usernameOf } from "@/lib/identity";
+import ButtonLink from "@/components/ButtonLink";
 
 export const metadata: Metadata = { title: "Tài khoản" };
 export const dynamic = "force-dynamic";
@@ -19,8 +21,13 @@ export default async function AccountPage() {
   const participant = profile.role === "student" ? await getParticipant(profile.id) : null;
   const home = homePathFor(profile.role);
   // RLS: học sinh chỉ thấy lớp mình đã vào.
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  const username = usernameOf(user?.email);
   const classes =
-    profile.role === "student" ? ((await (await createClient()).from("classes").select("id, name").eq("status", "active").order("created_at")).data ?? []) : [];
+    profile.role === "student" ? ((await supabase.from("classes").select("id, name").eq("status", "active").order("created_at")).data ?? []) : [];
 
   return (
     <AppShell name={participant?.code ?? profile.displayName ?? ""} roleLabel={profile.role === "teacher" ? "Giáo viên" : "Học sinh"} homeHref={home}>
@@ -28,7 +35,8 @@ export default async function AccountPage() {
         <section className="grid gap-3">
           <h1 className="text-4xl font-extrabold tracking-tight">Tài khoản</h1>
           <dl className="divide-y divide-line border-y border-line">
-            <Row label={participant ? "Mã học sinh" : "Tên hiển thị"} value={participant?.code ?? profile.displayName ?? ""} />
+            <Row label={participant ? "Mã học sinh" : "Họ và tên"} value={participant?.code ?? profile.displayName ?? ""} />
+            {!participant && <Row label={username ? "Tên tài khoản" : "Email"} value={username ?? user?.email ?? ""} />}
             <Row label="Vai trò" value={profile.role === "teacher" ? "Giáo viên" : "Học sinh"} />
             {profile.grade && <Row label="Khối lớp" value={`Lớp ${profile.grade}`} />}
           </dl>
@@ -40,6 +48,23 @@ export default async function AccountPage() {
             .
           </p>
         </section>
+
+        {/* Đổi mật khẩu: nhất là sau khi thầy cô đặt mật khẩu tạm cho tài khoản không có email. Mã học sinh dùng PIN của nhóm nghiên cứu. */}
+        {!participant && (
+          <section aria-labelledby="pw" className="grid gap-3">
+            <h2 id="pw" className="text-2xl font-extrabold tracking-tight">
+              Mật khẩu
+            </h2>
+            <p className="text-muted">
+              {username
+                ? "Tài khoản không có email nên không tự lấy lại mật khẩu được. Quên thì nhờ thầy cô của lớp đặt lại, rồi đổi ở đây."
+                : "Quên mật khẩu thì dùng “Quên mật khẩu?” ở trang đăng nhập để nhận liên kết qua email."}
+            </p>
+            <ButtonLink href="/reset-password" variant="secondary" className="w-fit">
+              Đổi mật khẩu
+            </ButtonLink>
+          </section>
+        )}
 
         {profile.role === "student" && (
           <section id="lop" aria-labelledby="class" className="grid scroll-mt-24 gap-4">

@@ -99,8 +99,8 @@ async function main() {
   const vis = (loc) => loc.first().isVisible().catch(() => false);
 
   await page.goto(`${BASE}/login?as=email`);
-  await page.getByLabel("Email").fill(EMAIL);
-  await page.getByLabel("Mật khẩu").fill(PW);
+  await page.getByLabel("Email, tên tài khoản hoặc mã học sinh").fill(EMAIL);
+  await page.getByLabel("Mật khẩu hoặc PIN", { exact: true }).fill(PW);
   await page.getByRole("button", { name: "Đăng nhập" }).click();
   await page.waitForURL(`${BASE}/student`);
   t("trang học sinh có khối lộ trình 14 ngày", await vis(page.getByText(/^Lộ trình 14 ngày · Unit \d+$/)));
@@ -150,7 +150,7 @@ async function main() {
       const ask = page.getByRole("button", { name: "Xem nhận xét của AI" });
       if (await vis(ask)) {
         await ask.click();
-        await page.getByRole("heading", { name: "AI nhận xét" }).first().waitFor();
+        await page.getByRole("heading", { name: /^(AI|Linguine) nhận xét$/ }).first().waitFor();
         continue;
       }
       const next = page.getByRole("button", { name: /^(Tiếp tục|Đã hiểu, tiếp tục)$/ });
@@ -208,8 +208,8 @@ async function main() {
   const tp = await tctx.newPage();
   tp.setDefaultTimeout(30_000);
   await tp.goto(`${BASE}/login?as=email`);
-  await tp.getByLabel("Email").fill(TEACHER);
-  await tp.getByLabel("Mật khẩu").fill(PW);
+  await tp.getByLabel("Email, tên tài khoản hoặc mã học sinh").fill(TEACHER);
+  await tp.getByLabel("Mật khẩu hoặc PIN", { exact: true }).fill(PW);
   await tp.getByRole("button", { name: "Đăng nhập" }).click();
   await tp.waitForURL(`${BASE}/teacher`);
   await tp.goto(`${BASE}/teacher/students/${userId}`);

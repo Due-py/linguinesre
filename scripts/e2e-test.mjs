@@ -54,8 +54,8 @@ async function main() {
   page.setDefaultTimeout(30_000);
 
   await page.goto(`${BASE}/login`);
-  await page.getByLabel("Mã học sinh").fill("zz 903");
-  await page.getByLabel("PIN").fill("000000" === p.pin ? "111111" : "000000");
+  await page.getByLabel("Email, tên tài khoản hoặc mã học sinh").fill("zz 903");
+  await page.getByLabel("Mật khẩu hoặc PIN", { exact: true }).fill("000000" === p.pin ? "111111" : "000000");
   await page.getByRole("button", { name: "Đăng nhập" }).click();
   // Chờ máy chủ trả lời: sau khi gửi, form tự xóa ô PIN, nên phải điền PIN đúng SAU khi thông báo hiện ra.
   const wrongPin = await page
@@ -63,7 +63,7 @@ async function main() {
     .waitFor({ timeout: 10_000 })
     .then(() => true, () => false);
   t("PIN sai thì báo lỗi, không vào được", wrongPin && page.url() === `${BASE}/login`);
-  await page.getByLabel("PIN").fill(p.pin);
+  await page.getByLabel("Mật khẩu hoặc PIN", { exact: true }).fill(p.pin);
   await page.getByRole("button", { name: "Đăng nhập" }).click();
   await page.waitForURL(`${BASE}/student`);
   t("đăng nhập bằng mã (gõ chữ thường, có dấu cách) + PIN", true);

@@ -2,12 +2,16 @@
 
 import Link from "next/link";
 import { useActionState } from "react";
-import { requestPasswordReset, signIn, signInWithCode, signUp, updatePassword } from "@/app/(auth)/actions";
-import { Field, FormMessage, SubmitButton } from "@/components/form";
+import { requestPasswordReset, signIn, signUp, updatePassword } from "@/app/(auth)/actions";
+import { Field, FormMessage, PasswordField, SubmitButton } from "@/components/form";
 import type { FormState } from "@/lib/form";
 
 const linkClass = "font-medium text-brand underline-offset-4 hover:underline";
 
+/**
+ * Một biểu mẫu đăng nhập cho mọi người: email, tên tài khoản, hoặc mã học sinh + PIN của nhóm nghiên cứu.
+ * Máy chủ tự nhận ra loại (lib/identity.ts), nên không còn hai tab.
+ */
 export function LoginForm({ linkInvalid }: { linkInvalid?: boolean }) {
   const [state, action] = useActionState<FormState, FormData>(signIn, null);
   return (
@@ -15,8 +19,16 @@ export function LoginForm({ linkInvalid }: { linkInvalid?: boolean }) {
       {linkInvalid && !state && (
         <FormMessage state={{ error: "Liên kết trong email đã hết hạn hoặc đã dùng rồi. Hãy đăng nhập hoặc yêu cầu liên kết mới." }} />
       )}
-      <Field label="Email" name="email" type="email" autoComplete="email" inputMode="email" state={state} />
-      <Field label="Mật khẩu" name="password" type="password" autoComplete="current-password" state={state} />
+      <Field
+        label="Email, tên tài khoản hoặc mã học sinh"
+        name="identifier"
+        autoComplete="username"
+        autoCapitalize="none"
+        autoCorrect="off"
+        spellCheck={false}
+        state={state}
+      />
+      <PasswordField label="Mật khẩu hoặc PIN" name="password" autoComplete="current-password" state={state} />
       <FormMessage state={state} />
       <SubmitButton pendingLabel="Đang đăng nhập…">Đăng nhập</SubmitButton>
       <p className="flex flex-wrap justify-between gap-x-4 gap-y-2 text-sm">
@@ -30,37 +42,7 @@ export function LoginForm({ linkInvalid }: { linkInvalid?: boolean }) {
           </Link>
         </span>
       </p>
-    </form>
-  );
-}
-
-/** Học sinh có phiếu đăng nhập (mã HS + PIN) của nhóm nghiên cứu. Tài khoản email dùng tab "Email" (LoginForm). */
-export function CodeLoginForm() {
-  const [state, action] = useActionState<FormState, FormData>(signInWithCode, null);
-  return (
-    <form action={action} className="grid gap-5" noValidate>
-      <Field
-        label="Mã học sinh"
-        name="code"
-        autoComplete="username"
-        autoCapitalize="characters"
-        spellCheck={false}
-        placeholder="HS008"
-        state={state}
-      />
-      <Field
-        label="PIN"
-        name="pin"
-        type="password"
-        inputMode="numeric"
-        autoComplete="current-password"
-        maxLength={6}
-        hint="6 chữ số in trên phiếu đăng nhập của bạn."
-        state={state}
-      />
-      <FormMessage state={state} />
-      <SubmitButton pendingLabel="Đang đăng nhập…">Đăng nhập</SubmitButton>
-      <p className="text-sm text-muted">Quên PIN? Báo nhóm nghiên cứu để được cấp lại.</p>
+      <p className="rounded-2xl bg-tint px-4 py-3 text-sm text-muted">Học sinh có phiếu đăng nhập: nhập mã học sinh (như HS008) và PIN 6 số trên phiếu.</p>
     </form>
   );
 }
@@ -83,16 +65,27 @@ export function SignupForm() {
   }
   return (
     <form action={action} className="grid gap-5" noValidate>
-      <Field label="Email" name="email" type="email" autoComplete="email" inputMode="email" state={state} />
       <Field
-        label="Mật khẩu"
-        name="password"
-        type="password"
-        autoComplete="new-password"
-        hint="Ít nhất 8 ký tự."
+        label="Họ và tên"
+        name="fullName"
+        autoComplete="name"
+        autoCapitalize="words"
+        maxLength={40}
+        hint="Tên thật, có dấu, ví dụ Nguyễn Minh Anh. Thầy cô trong lớp sẽ thấy tên này."
         state={state}
       />
-      <Field label="Nhập lại mật khẩu" name="confirm" type="password" autoComplete="new-password" state={state} />
+      <Field
+        label="Email hoặc tên tài khoản"
+        name="identifier"
+        autoComplete="username"
+        autoCapitalize="none"
+        autoCorrect="off"
+        spellCheck={false}
+        maxLength={80}
+        hint="Không có email? Tự đặt một tên tài khoản không dấu, ví dụ minhanh_8a. Quên mật khẩu thì nhờ thầy cô đặt lại."
+        state={state}
+      />
+      <PasswordField label="Mật khẩu" name="password" autoComplete="new-password" hint="Ít nhất 8 ký tự. Bấm hình con mắt để xem lại." state={state} />
       <FormMessage state={state} />
       <SubmitButton pendingLabel="Đang tạo tài khoản…">Tạo tài khoản</SubmitButton>
       <p className="text-sm text-muted">
@@ -125,7 +118,7 @@ export function ResetForm() {
   const [state, action] = useActionState<FormState, FormData>(updatePassword, null);
   return (
     <form action={action} className="grid gap-5" noValidate>
-      <Field label="Mật khẩu mới" name="password" type="password" autoComplete="new-password" hint="Ít nhất 8 ký tự." state={state} />
+      <PasswordField label="Mật khẩu mới" name="password" autoComplete="new-password" hint="Ít nhất 8 ký tự." state={state} />
       <Field label="Nhập lại mật khẩu mới" name="confirm" type="password" autoComplete="new-password" state={state} />
       <FormMessage state={state} />
       <SubmitButton pendingLabel="Đang lưu…">Đổi mật khẩu</SubmitButton>

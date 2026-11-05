@@ -13,7 +13,8 @@ const ROLES = [
   { value: "teacher" as const, icon: Presentation, title: "Giáo viên", text: "Tạo lớp, lấy mã lớp và theo dõi học sinh của lớp." },
 ];
 
-export default function OnboardingForm() {
+/** fullName: họ tên đã nhập lúc đăng ký (user_metadata). Có rồi thì không hỏi lại; tài khoản cũ chưa có thì hỏi "Họ và tên". */
+export default function OnboardingForm({ fullName }: { fullName?: string | null }) {
   const [state, action] = useActionState<FormState, FormData>(completeOnboarding, null);
   const [role, setRole] = useState<Role | "">((state?.values?.role as Role | undefined) ?? "");
 
@@ -56,18 +57,24 @@ export default function OnboardingForm() {
 
       {role && (
         <div className="grid gap-5">
-          <Field
-            label="Tên hiển thị"
-            name="displayName"
-            autoComplete="nickname"
-            maxLength={40}
-            hint={
-              role === "student"
-                ? "Thầy cô trong lớp sẽ thấy tên này. Bạn có thể dùng tên gọi hoặc biệt danh."
-                : "Học sinh trong lớp sẽ thấy tên này, ví dụ “Cô Vân”."
-            }
-            state={state}
-          />
+          {fullName ? (
+            <p className="text-lg">
+              Họ và tên: <strong className="font-semibold">{fullName}</strong>
+            </p>
+          ) : (
+            <Field
+              label="Họ và tên"
+              name="displayName"
+              autoComplete="name"
+              maxLength={40}
+              hint={
+                role === "student"
+                  ? "Tên thật, có dấu. Thầy cô trong lớp sẽ thấy tên này."
+                  : "Tên thật, có dấu. Học sinh trong lớp sẽ thấy tên này."
+              }
+              state={state}
+            />
+          )}
 
           {role === "student" && (
             <>

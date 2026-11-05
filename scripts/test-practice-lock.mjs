@@ -72,8 +72,8 @@ async function main() {
   const page = await browser.newPage();
   page.setDefaultTimeout(30_000);
   await page.goto(`${BASE}/login`);
-  await page.getByLabel("Mã học sinh").fill(CODE);
-  await page.getByLabel("PIN").fill(p.pin);
+  await page.getByLabel("Email, tên tài khoản hoặc mã học sinh").fill(CODE);
+  await page.getByLabel("Mật khẩu hoặc PIN", { exact: true }).fill(p.pin);
   await page.getByRole("button", { name: "Đăng nhập" }).click();
   await page.waitForURL(`${BASE}/student`);
   for (const path of ["/student/practice", `/student/practice/${unit.id}`, `/student/practice/session/${forced2.id}`, "/student/history", `/student/sessions/${forced2.id}`]) {
@@ -91,8 +91,8 @@ async function main() {
   await page.context().clearCookies();
 
   await page.goto(`${BASE}/login?as=email`);
-  await page.getByLabel("Email").fill(EMAIL);
-  await page.getByLabel("Mật khẩu").fill(PW);
+  await page.getByLabel("Email, tên tài khoản hoặc mã học sinh").fill(EMAIL);
+  await page.getByLabel("Mật khẩu hoặc PIN", { exact: true }).fill(PW);
   await page.getByRole("button", { name: "Đăng nhập" }).click();
   await page.waitForURL(`${BASE}/student`);
   await page.goto(`${BASE}/student/practice`);

@@ -7,6 +7,9 @@ import { isSupabaseConfigured } from "@/lib/supabase/env";
 import { makeJoinCode } from "@/lib/classes";
 import { classSchema, fieldErrors } from "@/lib/validation";
 import { formValues, NOT_CONFIGURED, type FormState } from "@/lib/form";
+import { createAdminClient } from "@/lib/supabase/admin";
+import { isUsernameEmail, tempPassword, usernameOf } from "@/lib/identity";
+import { isCodeEmail } from "@/lib/research/code";
 
 const UUID = /^[0-9a-f-]{36}$/;
 
@@ -87,4 +90,39 @@ export async function removeMember(_prev: FormState, formData: FormData): Promis
   if (error) return { error: "Chưa đưa được học sinh ra khỏi lớp." };
   revalidatePath(`/teacher/classes/${classId}`);
   return { notice: "Đã đưa học sinh ra khỏi lớp." };
+}
+
+/**
+ * Giáo viên đặt mật khẩu tạm cho học sinh trong lớp của mình. Chỉ cho tài khoản đăng ký bằng tên tài khoản (không có email
+ * để tự lấy lại); tài khoản email tự dùng "Quên mật khẩu", mã học sinh nghiên cứu do nhóm nghiên cứu cấp lại PIN.
+ * Quyền: giáo viên đã onboarding + lớp do chính họ tạo + học sinh đang trong lớp đó (đọc bằng client thường, RLS áp dụng),
+ * sau đó mới dùng khóa service_role để đổi mật khẩu. Mật khẩu tạm chỉ trả về một lần, không lưu ở đâu.
+ */
+export async function resetStudentPassword(_prev: FormState, formData: FormData): Promise<FormState> {
+  const raw = formValues(formData);
+  const classId = raw.classId ?? "";
+  const studentId = raw.studentId ?? "";
+  if (!UUID.test(classId) || !UUID.test(studentId)) return { error: "Dữ liệu không hợp lệ." };
+  const ctx = await teacherContext();
+  if (!ctx) return { error: "Chỉ giáo viên mới đặt lại được mật khẩu." };
+
+  const { data: cls } = await ctx.supabase.from("classes").select("id").eq("id", classId).eq("teacher_id", ctx.userId).maybeSingle();
+  if (!cls) return { error: "Bạn chỉ đặt lại được mật khẩu cho học sinh trong lớp của mình." };
+  const { data: member } = await ctx.supabase.from("class_members").select("student_id").eq("class_id", classId).eq("student_id", studentId).maybeSingle();
+  if (!member) return { error: "Học sinh này không còn trong lớp." };
+
+  const admin = createAdminClient();
+  const { data: target, error: getErr } = await admin.auth.admin.getUserById(studentId);
+  if (getErr || !target.user) return { error: "Chưa tìm thấy tài khoản của học sinh này." };
+  if (!isUsernameEmail(target.user.email)) {
+    return {
+      error: isCodeEmail(target.user.email)
+        ? "Bạn này đăng nhập bằng mã học sinh. Quên PIN thì báo nhóm nghiên cứu cấp lại."
+        : "Bạn này đăng ký bằng email: hãy bấm “Quên mật khẩu?” ở trang đăng nhập để nhận liên kết qua email.",
+    };
+  }
+  const password = tempPassword((n) => crypto.getRandomValues(new Uint8Array(n)));
+  const { error } = await admin.auth.admin.updateUserById(studentId, { password });
+  if (error) return { error: "Chưa đặt lại được mật khẩu. Hãy thử lại." };
+  return { notice: `Tên tài khoản: ${usernameOf(target.user.email)} · Mật khẩu tạm: ${password}` };
 }
