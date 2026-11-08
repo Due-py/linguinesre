@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Mã đã dịch sẵn của bên thứ ba (RNNoise WebAssembly worklet), chép từ node_modules.
+    "public/noise/rnnoise-worklet.js",
   ]),
 ]);
 

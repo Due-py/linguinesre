@@ -58,8 +58,10 @@ export function primeAudio() {
 export async function playAudio(url: string, text: string): Promise<"server" | "browser" | "none"> {
   shared?.pause();
   window.speechSynthesis?.cancel();
+  if (!url) return speakText(text); // không có giọng mẫu của máy chủ cho từ này
   try {
-    const res = await fetch(url);
+    // Mạng chậm hoặc máy chủ đang tạo giọng lâu: quá 8 giây thì đọc bằng giọng trình duyệt, không bắt em chờ.
+    const res = await fetch(url, typeof AbortSignal.timeout === "function" ? { signal: AbortSignal.timeout(8000) } : undefined);
     if (res.ok) {
       const src = URL.createObjectURL(await res.blob());
       shared ??= new Audio();

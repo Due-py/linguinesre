@@ -8,6 +8,8 @@ const LIMITS = {
   tts: { perMinute: 60, perDay: 600 },
   /** AI đóng vai trong Micro-Roleplay của Learning Module. */
   roleplay: { perMinute: 10, perDay: 80 },
+  /** Chấm phát âm chi tiết (Azure). Gói F0 miễn phí có giới hạn giờ âm thanh mỗi tháng. */
+  pron: { perMinute: 15, perDay: 150 },
 } as const;
 export type UsageKind = keyof typeof LIMITS;
 

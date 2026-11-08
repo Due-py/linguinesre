@@ -45,3 +45,6 @@ next-env.d.ts
 
 # tài liệu nặng chỉ để trên máy: SGK, video, đề cương cuộc thi
 /files/
+
+# Python
+__pycache__/

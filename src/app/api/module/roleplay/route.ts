@@ -22,6 +22,8 @@ const int = (v: string | null, min: number, max: number) => {
 /**
  * Một lượt nói của học sinh trong Micro-Roleplay, rồi lời đáp của bạn đóng vai (AI, hoặc câu dự phòng viết sẵn).
  * Lượt cuối: không đáp nữa, kiểm tra các yêu cầu của tình huống bằng quy tắc trên toàn bộ lời học sinh.
+ * redo=1: nói lại lượt vừa nói (chỉ lượt mới nhất, mỗi lượt thêm một lần, không áp dụng cho roleplay kiểm tra). Lần cũ vẫn
+ * được lưu; cuộc trò chuyện và việc kiểm tra yêu cầu dùng lần mới nhất của mỗi lượt.
  */
 export async function POST(request: NextRequest) {
   const supabase = await createClient();
@@ -34,6 +36,7 @@ export async function POST(request: NextRequest) {
   const p = request.nextUrl.searchParams;
   const step = int(p.get("step"), 0, 300);
   const turn = int(p.get("turn"), 1, 6);
+  const redo = p.get("redo") === "1";
   const lag = int(p.get("lag"), 0, 60_000) ?? 0;
   const onset = int(p.get("onset"), 0, 60_000);
   const mime = (request.headers.get("content-type") ?? "").split(";")[0].trim();
@@ -49,19 +52,28 @@ export async function POST(request: NextRequest) {
   if (!m || !r || turn > r.turns) return NextResponse.json({ error: "Không tìm thấy tình huống." }, { status: 404 });
 
   const admin = createAdminClient();
-  const { data: prev } = await admin
+  const { data: rows } = await admin
     .from("module_attempts")
-    .select("turn, answer, reply")
+    .select("turn, attempt_no, answer, reply")
     .eq("lesson_id", lesson.id)
     .eq("step", step)
-    .order("turn");
-  if ((prev ?? []).length !== turn - 1) return NextResponse.json({ error: "Lượt nói không đúng thứ tự. Hãy tải lại trang.", resync: true }, { status: 409 });
+    .order("turn")
+    .order("attempt_no");
+  // Lần mới nhất của mỗi lượt đã nói.
+  const latest = new Map<number, { turn: number; answer: string | null; reply: string | null }>();
+  for (const x of rows ?? []) latest.set(x.turn, x);
+  const doneTurns = latest.size;
+  if (redo ? st.test || doneTurns !== turn : doneTurns !== turn - 1)
+    return NextResponse.json({ error: redo ? "Chỉ nói lại được lượt vừa nói." : "Lượt nói không đúng thứ tự. Hãy tải lại trang.", resync: true }, { status: 409 });
+  const attemptNo = (rows ?? []).filter((x) => x.turn === turn).length + 1;
+  if (attemptNo > 2) return NextResponse.json({ error: "Mỗi lượt chỉ nói lại được một lần." }, { status: 409 });
+  const prev = [...latest.values()].filter((x) => x.turn < turn);
 
   const body = await request.arrayBuffer();
   if (body.byteLength < 500 || body.byteLength > 8_000_000) return NextResponse.json({ error: "Bản ghi không hợp lệ. Hãy nói lại." }, { status: 400 });
   if (!(await takeQuota(user.id, "transcribe"))) return NextResponse.json({ error: "Gửi quá nhanh. Đợi một chút rồi thử lại." }, { status: 429 });
 
-  const audioPath = `${user.id}/m-${lesson.id}/${step}-${turn}-1.${ext}`;
+  const audioPath = `${user.id}/m-${lesson.id}/${step}-${turn}-${attemptNo}.${ext}`;
   const { error: upErr } = await admin.storage.from("recordings").upload(audioPath, body, { contentType: mime, upsert: true });
   if (upErr) return NextResponse.json({ error: "Chưa lưu được bản ghi. Hãy thử lại." }, { status: 502 });
 
@@ -74,7 +86,7 @@ export async function POST(request: NextRequest) {
   }
 
   const history: Turn[] = [{ role: "ai", text: r.opener }];
-  for (const x of prev ?? []) {
+  for (const x of prev) {
     history.push({ role: "student", text: x.answer ?? "" });
     if (x.reply) history.push({ role: "ai", text: x.reply });
   }
@@ -94,7 +106,7 @@ export async function POST(request: NextRequest) {
       day: lesson.day,
       step,
       turn,
-      attempt_no: 1,
+      attempt_no: attemptNo,
       kind: "roleplay",
       item_ref: r.id,
       // Lượt cuối: đạt hết yêu cầu của tình huống hay chưa (để bài sau thêm roleplay khi cần).
@@ -110,5 +122,5 @@ export async function POST(request: NextRequest) {
     .select("id")
     .single();
   if (error || !row) return NextResponse.json({ error: "Chưa lưu được lượt nói. Hãy thử lại." }, { status: 502 });
-  return NextResponse.json({ ok: true, attemptId: row.id, transcript: asr.transcript, measures, reply: reply?.text ?? null, replySource: reply?.source ?? null, done: last, requirements });
+  return NextResponse.json({ ok: true, attemptId: row.id, attemptNo, transcript: asr.transcript, measures, reply: reply?.text ?? null, replySource: reply?.source ?? null, done: last, requirements });
 }

@@ -21,7 +21,7 @@ const PW = "Thu-e2e-xyz-123";
 const json = { "Content-Type": "application/json" };
 const svc = (x = {}) => serviceHeaders(env, x);
 const CONTENT = JSON.parse(readFileSync(join(ROOT, "content/modules/grade-8/unit-07.json"), "utf8"));
-const REAL_DAYS = [1, 3, 4, 5, 6, 10, 12, 13, 14];
+const REAL_DAYS = process.env.E2E_DAYS ? process.env.E2E_DAYS.split(",").map(Number) : [1, 3, 4, 5, 6, 10, 12, 13, 14];
 
 let fail = 0;
 const t = (n, ok, extra = "") => {
@@ -52,7 +52,7 @@ async function cleanup() {
 const signIn = async (email) =>
   (await (await fetch(`${U}/auth/v1/token?grant_type=password`, { method: "POST", headers: { apikey: ANON, ...json }, body: JSON.stringify({ email, password: PW }) })).json()).access_token;
 
-const RECORD = /^(Bấm để nói|Nói từ này|Nói từ đó|Đọc to câu này|Nói câu của em|Đọc to câu đã xếp|Đọc câu ngắn|Nói cả câu dài hơn|Nghe câu hỏi và trả lời|Nghe và trả lời câu mới|Bắt đầu: nghe bạn nói rồi trả lời|Lượt \d+\/\d+: bấm để nói)$/;
+const RECORD = /^(Bấm để nói|Nói từ này|Nói từ đó|Đọc to câu này|Nói câu của em|Đọc to câu đã xếp|Đọc câu ngắn|Nói cả câu dài hơn|Nghe câu hỏi và trả lời|Nghe và trả lời câu mới|Bắt đầu: nghe bạn nói rồi trả lời|Lượt \d+\/\d+: bấm để nói|Nói lại lượt \d+)$/;
 
 async function main() {
   await cleanup();
@@ -103,7 +103,9 @@ async function main() {
   await page.getByLabel("Mật khẩu hoặc PIN", { exact: true }).fill(PW);
   await page.getByRole("button", { name: "Đăng nhập" }).click();
   await page.waitForURL(`${BASE}/student`);
-  t("trang học sinh có khối lộ trình 14 ngày", await vis(page.getByText(/^Lộ trình 14 ngày · Unit \d+$/)));
+  // Chờ trang tải xong (đang tải thì chỉ có khung xám) rồi mới kiểm tra.
+  t("trang học sinh có khối lộ trình 14 ngày", await page.getByText(/^Lộ trình 14 ngày · Unit \d+$/).first().waitFor({ timeout: 30_000 }).then(() => true, () => false));
+  if (process.env.DEBUG_DIR) await page.screenshot({ path: `${process.env.DEBUG_DIR}/trang-hoc-sinh.png`, fullPage: true });
 
   await page.goto(`${BASE}/student/module/${mod.id}`);
   t("trang module có nhãn 'chưa được thầy cô duyệt'", await vis(page.getByText(/chưa được thầy cô duyệt/)));
@@ -115,6 +117,9 @@ async function main() {
   await shot("m02-kho-kien-thuc");
 
   const stepsSeen = new Set();
+  let roleplayRedo = false;
+  let noiseFilterOn = false;
+  let pronShot = false;
   async function runLesson(day) {
     await page.goto(`${BASE}/student/module/${mod.id}`);
     await page.getByRole("button", { name: new RegExp(`^(Bắt đầu ngày ${day}|Học tiếp bài đang dở)$`) }).click();
@@ -154,9 +159,17 @@ async function main() {
         continue;
       }
       const next = page.getByRole("button", { name: /^(Tiếp tục|Đã hiểu, tiếp tục)$/ });
-      if ((await vis(next)) && (await next.first().isEnabled())) {
+      // Nút có thể vừa biến mất (bước đổi): không chờ 30 giây, vòng sau kiểm tra lại.
+      if ((await vis(next)) && (await next.first().isEnabled({ timeout: 1000 }).catch(() => false))) {
         await next.first().click();
         await page.waitForTimeout(250);
+        continue;
+      }
+      // Roleplay: nói lại lượt vừa rồi một lần (lượt cũ được thay trong cuộc trò chuyện).
+      const redo = page.getByRole("button", { name: "Nói lại lượt vừa rồi" });
+      if (!roleplayRedo && (await vis(redo))) {
+        roleplayRedo = true;
+        await redo.click();
         continue;
       }
       const rec = page.getByRole("button", { name: RECORD });
@@ -164,9 +177,14 @@ async function main() {
         await rec.first().click();
         const stop = page.getByRole("button", { name: /^(Đang nghe, em nói khi sẵn sàng|Xong, gửi câu trả lời)$/ });
         await stop.waitFor({ timeout: 40_000 });
+        if (!noiseFilterOn) noiseFilterOn = await vis(page.getByText(/đang lọc tiếng ồn/));
         await page.waitForTimeout(1500);
         await stop.click();
         await page.getByText("Đang nghe lại bản ghi").waitFor({ state: "detached", timeout: 40_000 }).catch(() => {});
+        if (process.env.DEBUG_DIR && !pronShot && (await page.getByRole("heading", { name: "Phát âm từng từ" }).waitFor({ timeout: 8000 }).then(() => true, () => false))) {
+          pronShot = true;
+          await page.screenshot({ path: `${process.env.DEBUG_DIR}/phat-am.png`, fullPage: true });
+        }
         continue;
       }
       await page.waitForTimeout(400);
@@ -177,7 +195,14 @@ async function main() {
   const fakePlan = (day) => ({ day, phase: 0, titleVi: "đánh dấu xong bởi bài thử", minutes: 0, notesVi: [], steps: [] });
   for (let day = 1; day <= 14; day++) {
     if (REAL_DAYS.includes(day)) {
-      const ok = await runLesson(day).catch((e) => (console.error(`ngày ${day}:`, e.message), false));
+      const ok = await runLesson(day).catch(async (e) => {
+        console.error(`ngày ${day}:`, e.message);
+        if (process.env.DEBUG_DIR) {
+          await page.screenshot({ path: `${process.env.DEBUG_DIR}/loi-ngay-${day}.png`, fullPage: true });
+          console.error(((await page.locator("main").textContent()) ?? "").slice(0, 1500));
+        }
+        return false;
+      });
       t(`học xong ngày ${day} bằng trình duyệt`, ok);
       if (!ok) {
         await shot(`m-ket-ngay-${day}`);
@@ -195,13 +220,17 @@ async function main() {
   t("Error Memory có lỗi được ghi (từ AI mô phỏng)", await vis(page.getByText(ERROR_LABEL)));
   await shot("m03-module-xong");
 
-  const rows = await admin(`module_attempts?select=kind,turn,ai_status,error_tags,quiz_set,correct,audio_path&student_id=eq.${userId}`);
+  const rows = await admin(`module_attempts?select=kind,turn,attempt_no,measures,ai_status,error_tags,quiz_set,correct,audio_path&student_id=eq.${userId}`);
   t("bài đầu module có 8 câu kiến thức và cuối module có 8 câu", rows.filter((r) => r.quiz_set === "entry").length === 8 && rows.filter((r) => r.quiz_set === "final").length === 8);
   t("câu nói độc lập có AI nhận xét (mô phỏng)", rows.filter((r) => r.kind === "speak" && r.ai_status === "ok").length >= 6);
   t("lỗi bịa của AI bị bỏ, chỉ lưu nhãn lỗi thật", rows.filter((r) => r.ai_status === "ok").every((r) => r.error_tags.length === 1));
   t("mọi lượt nói có file ghi âm trong thư mục học sinh", rows.filter((r) => ["speak", "say", "learn_word", "roleplay"].includes(r.kind) && r.turn < 10).every((r) => r.audio_path?.startsWith(`${userId}/m-`)));
   const roleplay = rows.filter((r) => r.kind === "roleplay");
   t("roleplay lưu từng lượt nói", roleplay.length >= 5, `${roleplay.length}`);
+  t("roleplay: nói lại được lượt vừa rồi (lần 2 được lưu)", roleplayRedo && roleplay.some((r) => r.attempt_no === 2));
+  t("micro đi qua bộ lọc ồn RNNoise trong trình duyệt", noiseFilterOn);
+  const pron = rows.filter((r) => ["learn_word", "say"].includes(r.kind) && r.measures?.pron?.words?.length);
+  t("chấm phát âm từng âm tiết (mô phỏng) được lưu cho bước đọc theo", pron.length > 0 && pron.every((r) => r.measures.pron.mock === true && r.measures.pron.words.every((w) => Array.isArray(w.syllables))), String(pron.length));
 
   // Giáo viên: xem tiến độ module của học sinh trong lớp, duyệt module.
   const tctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });

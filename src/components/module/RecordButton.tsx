@@ -62,6 +62,7 @@ export default function RecordButton({
 
   async function start() {
     // Mở khóa âm thanh ngay trong cú bấm (trước mọi await), để câu hỏi đọc được kể cả sau khi chờ micro và chờ máy chủ.
+    rec.unlock(); // AudioContext của bộ lọc ồn phải được mở trong cú bấm (Safari trên iPhone)
     if (before) primeAudio();
     if (!(await rec.ensureMic())) return;
     if (before) {
@@ -101,6 +102,7 @@ export default function RecordButton({
           <p className="inline-flex items-center gap-2 text-sm font-medium tabular-nums text-muted" aria-hidden>
             <span className="size-2 rounded-full bg-danger-bright motion-safe:animate-pulse" />
             Đang ghi {Math.floor(elapsed / 60000)}:{String(Math.floor(elapsed / 1000) % 60).padStart(2, "0")}
+            {rec.filter === "rnnoise" ? " · đang lọc tiếng ồn" : ""}
           </p>
           {targetMs ? <p className="text-center text-sm font-medium text-muted">Mục tiêu: bắt đầu nói trong {(targetMs / 1000).toString().replace(".", ",")} giây</p> : null}
         </>

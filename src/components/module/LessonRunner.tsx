@@ -16,6 +16,7 @@ import RecordButton from "./RecordButton";
 import HeardWords from "./HeardWords";
 import { missedWords } from "@/lib/module/measure";
 import ListenButton from "./Listen";
+import PronPanel, { type PronState } from "./PronPanel";
 import CountUp from "@/components/CountUp";
 import Linguine from "@/components/Linguine";
 
@@ -50,6 +51,14 @@ async function sendTurn(ctx: Ctx, step: number, turn: number, r: Recording, lag:
   if (data.unclear) return { message: UNCLEAR };
   if (data.error) return { message: String(data.error) };
   return { ok: data as unknown as TurnResult };
+}
+
+/** Gửi bản WAV 16 kHz (đã lọc ồn) để chấm phát âm chi tiết. Máy không tạo được WAV thì báo "chưa chấm được". */
+async function scorePron(attemptId: string, wav: Blob | undefined): Promise<PronState> {
+  if (!wav) return { status: "error" };
+  const res = await fetch(`/api/module/pron?attempt=${attemptId}`, { method: "POST", headers: { "Content-Type": "audio/wav" }, body: wav });
+  const data = await res.json().catch(() => ({}));
+  return res.ok && typeof data.status === "string" ? (data as PronState) : { status: "error" };
 }
 
 // ---- Khung bài học ----------------------------------------------------------------------------------------------
@@ -297,6 +306,7 @@ function SpeakBox({
   initial = 0,
   onSaved,
   render,
+  pron = false,
 }: {
   st: PlannedStep;
   ctx: Ctx;
@@ -309,14 +319,24 @@ function SpeakBox({
   initial?: number;
   onSaved?: (r: TurnResult) => void;
   render: (r: TurnResult) => React.ReactNode;
+  /** Bước có câu mẫu cố định: chấm phát âm từng từ, âm tiết (Azure) sau khi lưu lượt nói. */
+  pron?: boolean;
 }) {
   const [count, setCount] = useState(initial);
   const [last, setLast] = useState<TurnResult | null>(null);
   const [msg, setMsg] = useState<string | null>(null);
+  const [pronState, setPronState] = useState<PronState | null>(null);
   return (
-    <div className="grid gap-4">
+    <div id={`noi-${st.n}-${turn}`} className="grid scroll-mt-24 gap-4">
       {msg && <Alert>{msg}</Alert>}
       {last && render(last)}
+      {pronState && <PronPanel key={last?.attemptId} state={pronState} audioFor={(w) => wordAudio(ctx)(w)} />}
+      {/* Hết lượt thì nói rõ vì sao không còn nút nói lại, thay vì để nút biến mất. */}
+      {count >= max && count > 0 && (
+        <p className="rounded-2xl bg-sunken px-4 py-3 text-sm text-muted">
+          {max === 1 ? "Câu kiểm tra chỉ trả lời một lần, để đo đúng khả năng nói của em lúc này." : `Em đã nói đủ ${max} lần ở phần này. Bấm Tiếp tục để học tiếp.`}
+        </p>
+      )}
       {count < max && (
         <RecordButton
           rec={ctx.rec}
@@ -330,6 +350,8 @@ function SpeakBox({
             setLast(res.ok);
             setCount(res.ok.attemptNo);
             onSaved?.(res.ok);
+            if (pron) setPronState({ status: "loading" });
+            if (pron) void scorePron(res.ok.attemptId, r.wav).then(setPronState, () => setPronState({ status: "error" }));
           }}
         />
       )}
@@ -414,6 +436,7 @@ function LearnWord({ st, ctx, onDone }: P<"learn_word">) {
         ctx={ctx}
         initial={initial}
         label="Nói từ này"
+        pron
         onSaved={() => setDone(true)}
         render={(r) => <Verdict ok={r.correct} yes={`Máy nghe ra “${v.en}”.`} no={`Máy nghe thành “${r.transcript}”. Nghe mẫu lại, đọc chậm và rõ từng âm rồi nói lại nhé.`} />}
       />
@@ -447,7 +470,6 @@ function RecallWord({ st, ctx, onDone }: P<"recall_word">) {
         st={st}
         ctx={ctx}
         initial={initial}
-        max={2}
         label="Nói từ đó"
         onSaved={(r) => {
           setResult(r);
@@ -642,6 +664,7 @@ function Say({ st, ctx, onDone }: P<"say">) {
         ctx={ctx}
         initial={initial}
         label="Đọc to câu này"
+        pron
         onSaved={() => setDone(true)}
         render={(r) => (
           <>
@@ -839,6 +862,7 @@ function Arrange({ st, ctx, onDone }: P<"arrange">) {
             turn={1}
             initial={spokenBefore}
             label="Đọc to câu đã xếp"
+            pron
             onSaved={() => setSpoken(true)}
             render={(r) => <Verdict ok={r.correct} yes="Máy nghe ra gần đủ câu." no={`Máy nghe thành “${r.transcript}”. Thử đọc lại rõ hơn.`} />}
           />
@@ -984,7 +1008,8 @@ function useAssess() {
       setState({ loading: false, a: null, mock: false, error: "Mất kết nối khi lấy nhận xét. Em vẫn đi tiếp được.", asked: true });
     }
   }
-  return { ...state, run };
+  const reset = () => setState({ loading: false, a: null, mock: false, error: null, asked: false });
+  return { ...state, run, reset };
 }
 
 function AssessArea({ s, onAsk }: { s: ReturnType<typeof useAssess>; onAsk?: () => void }) {
@@ -1026,8 +1051,9 @@ function Speak({ st, ctx, onDone }: P<"speak">) {
   // Speed Q&A: gợi ý chỉ mở sau lượt đầu, để lượt đầu đo đúng phản xạ.
   const hintsVisible = shown && !st.test && (!st.targetMs || answered);
   const canGo = answered && (!st.retry || retryDone);
-  // Phần nói lại hiện sau khi có nhận xét của AI (hoặc AI lỗi), hoặc ngay khi quay lại một câu đã trả lời trước đó.
-  const showRetry = !!st.retry && !retryDone ? (result ? !!(a1.a || a1.error) : initial > 0) : !!st.retry && retryResult !== null;
+  // Phần nói lại hiện sau khi có nhận xét của AI (hoặc AI lỗi), hoặc ngay khi quay lại một câu đã trả lời trước đó; đã làm rồi thì
+  // vẫn hiện để em nói lại câu tương tự (tối đa 3 lần như mọi bước luyện).
+  const showRetry = !!st.retry && (retryDone || (result ? !!(a1.a || a1.error) : initial > 0));
 
   return (
     <>
@@ -1059,7 +1085,13 @@ function Speak({ st, ctx, onDone }: P<"speak">) {
         </>
       )}
       {result && st.assess !== "none" && <AssessArea s={a1} onAsk={st.assess === "ask" ? () => void a1.run(result.attemptId) : undefined} />}
-      {!retryResult && !(initial > 0 && !result && st.retry) && (
+      {result && !retryResult && !st.test && result.attemptNo < 3 && (
+        <a href={`#noi-${st.n}-0`} className="inline-flex min-h-11 w-fit items-center gap-2 rounded-full bg-brand-soft px-5 font-medium text-brand-strong hover:bg-brand-tonal">
+          <RotateCcw className="size-4" aria-hidden />
+          Nói lại câu này (còn {3 - result.attemptNo} lần)
+        </a>
+      )}
+      {!retryResult && (
         <SpeakBox
           st={st}
           ctx={ctx}
@@ -1105,21 +1137,19 @@ function Speak({ st, ctx, onDone }: P<"speak">) {
               Lỗi ngữ pháp: lần đầu {a1.a.grammar.issues.length}, lần nói lại {a2.a.grammar.issues.length}.
             </p>
           )}
-          {!retryResult && (
-            <SpeakBox
-              st={st}
-              ctx={ctx}
-              turn={1}
-              max={1}
-              before={() => playAudio(questionAudio(ctx, st, true), st.retry!.text)}
-              label="Nghe và trả lời câu mới"
-              onSaved={(r) => {
-                setRetryResult(r);
-                void a2.run(r.attemptId);
-              }}
-              render={() => null}
-            />
-          )}
+          <SpeakBox
+            st={st}
+            ctx={ctx}
+            turn={1}
+            initial={savedTurns(ctx, st.n, 1)}
+            before={() => playAudio(questionAudio(ctx, st, true), st.retry!.text)}
+            label="Nghe và trả lời câu mới"
+            onSaved={(r) => {
+              setRetryResult(r);
+              void a2.run(r.attemptId);
+            }}
+            render={() => null}
+          />
         </section>
       )}
       <div className="flex flex-wrap items-center gap-4">
@@ -1132,15 +1162,20 @@ function Speak({ st, ctx, onDone }: P<"speak">) {
 
 // ---- Micro-Roleplay ---------------------------------------------------------------------------------------------------
 
-type Bubble = { who: "ai" | "me"; text: string; attemptId?: string };
+/** turn: lượt của em mà bong bóng thuộc về (lời em và lời đáp ngay sau), để thay khi em nói lại lượt đó. */
+type Bubble = { who: "ai" | "me"; text: string; attemptId?: string; turn?: number };
 
 function Roleplay({ st, ctx, onDone }: P<"roleplay">) {
   const r = ctx.content.roleplays.find((x) => x.id === st.ref)!;
-  const prev = ctx.rows.filter((x) => x.step === st.n && x.turn >= 1 && x.turn <= 6).sort((a, b) => a.turn - b.turn);
+  const mine = ctx.rows.filter((x) => x.step === st.n && x.turn >= 1 && x.turn <= 6);
+  // Mỗi lượt lấy lần nói mới nhất (em có thể đã nói lại lượt đó).
+  const latest = new Map<number, SavedRow>();
+  for (const x of [...mine].sort((a, b) => a.turn - b.turn || a.attemptNo - b.attemptNo)) latest.set(x.turn, x);
+  const prev = [...latest.values()];
   const initialBubbles: Bubble[] = [{ who: "ai", text: r.opener }];
   for (const p of prev) {
-    initialBubbles.push({ who: "me", text: p.answer ?? "" });
-    if (p.reply) initialBubbles.push({ who: "ai", text: p.reply, attemptId: p.attemptId });
+    initialBubbles.push({ who: "me", text: p.answer ?? "", turn: p.turn });
+    if (p.reply) initialBubbles.push({ who: "ai", text: p.reply, attemptId: p.attemptId, turn: p.turn });
   }
   const [bubbles, setBubbles] = useState<Bubble[]>(initialBubbles);
   const [turn, setTurn] = useState(prev.length + 1);
@@ -1150,9 +1185,42 @@ function Roleplay({ st, ctx, onDone }: P<"roleplay">) {
   const [lastId, setLastId] = useState<string | null>(prev.find((p) => p.turn === r.turns)?.attemptId ?? null);
   const assess = useAssess();
   const done = turn > r.turns;
+  // Nói lại: chỉ lượt vừa nói, mỗi lượt một lần, không áp dụng cho roleplay kiểm tra.
+  const [redone, setRedone] = useState<Set<number>>(() => new Set(mine.filter((x) => x.attemptNo > 1).map((x) => x.turn)));
+  const [redoing, setRedoing] = useState(false);
+  const lastTurn = turn - 1;
+  const canRedo = !st.test && lastTurn >= 1 && !redone.has(lastTurn);
 
+  const play = (b: Bubble) => playAudio(b.attemptId ? `/api/module/tts?a=${b.attemptId}` : moduleAudio(ctx.moduleId, `${r.id}.open`), b.text);
   const lastAi = [...bubbles].reverse().find((b) => b.who === "ai")!;
-  const playLast = () => playAudio(lastAi.attemptId ? `/api/module/tts?a=${lastAi.attemptId}` : moduleAudio(ctx.moduleId, `${r.id}.open`), lastAi.text);
+  // Lời bạn trò chuyện ngay trước lượt cần nói lại: phát lại để em trả lời lại.
+  const aiBefore = (t: number) => [...bubbles.filter((b) => b.turn === undefined || b.turn < t)].reverse().find((b) => b.who === "ai")!;
+
+  async function record(rc: Recording, lag: number, redoTurn: number | null) {
+    const t = redoTurn ?? turn;
+    const q = new URLSearchParams({ lesson: ctx.lessonId, step: String(st.n), turn: String(t), lag: String(Math.round(lag)), onset: rc.onsetMs === null ? "" : String(rc.onsetMs) });
+    if (redoTurn) q.set("redo", "1");
+    const data = await postAudio(`/api/module/roleplay?${q}`, rc);
+    if (data.unclear) return setMsg(UNCLEAR);
+    if (data.error) return setMsg(String(data.error));
+    setMsg(null);
+    const add: Bubble[] = [{ who: "me", text: String(data.transcript), turn: t }];
+    if (data.reply) add.push({ who: "ai", text: String(data.reply), attemptId: String(data.attemptId), turn: t });
+    if (redoTurn) {
+      setBubbles((xs) => [...xs.filter((b) => b.turn !== t), ...add]);
+      setRedone((xs) => new Set(xs).add(t));
+      setRedoing(false);
+    } else {
+      setBubbles((xs) => [...xs, ...add]);
+      setTurn((n) => n + 1);
+    }
+    if (data.done) {
+      setRequirements(data.requirements as boolean[]);
+      setLastId(String(data.attemptId));
+      assess.reset(); // nói lại lượt cuối: nhận xét cũ không còn đúng với câu mới
+      if (st.test) void assess.run(String(data.attemptId));
+    }
+  }
 
   return (
     <>
@@ -1239,33 +1307,43 @@ function Roleplay({ st, ctx, onDone }: P<"roleplay">) {
         </div>
       )}
       {msg && <Alert>{msg}</Alert>}
-      {!done && (
-        <RecordButton
-          rec={ctx.rec}
-          label={started ? `Lượt ${turn}/${r.turns}: bấm để nói` : "Bắt đầu: nghe bạn nói rồi trả lời"}
-          before={async () => {
-            setStarted(true);
-            await playLast();
-          }}
-          onRecorded={async (rc, lag) => {
-            const q = new URLSearchParams({ lesson: ctx.lessonId, step: String(st.n), turn: String(turn), lag: String(Math.round(lag)), onset: rc.onsetMs === null ? "" : String(rc.onsetMs) });
-            const data = await postAudio(`/api/module/roleplay?${q}`, rc);
-            if (data.unclear) return setMsg(UNCLEAR);
-            if (data.error) return setMsg(String(data.error));
-            setMsg(null);
-            const add: Bubble[] = [{ who: "me", text: String(data.transcript) }];
-            if (data.reply) add.push({ who: "ai", text: String(data.reply), attemptId: String(data.attemptId) });
-            setBubbles((xs) => [...xs, ...add]);
-            setTurn((t) => t + 1);
-            if (data.done) {
-              setRequirements(data.requirements as boolean[]);
-              setLastId(String(data.attemptId));
-              if (st.test) void assess.run(String(data.attemptId));
-            }
-          }}
-        />
+      {redoing ? (
+        <div className="grid gap-3 rounded-3xl border border-line px-5 py-5">
+          <p className="font-medium">Nói lại lượt {lastTurn}: nghe lại câu của bạn trò chuyện rồi trả lời lại. Câu mới sẽ thay câu cũ trong cuộc trò chuyện.</p>
+          <RecordButton rec={ctx.rec} label={`Nói lại lượt ${lastTurn}`} before={() => play(aiBefore(lastTurn))} onRecorded={(rc, lag) => record(rc, lag, lastTurn)} />
+          <button type="button" onClick={() => setRedoing(false)} className="min-h-11 w-fit text-sm font-semibold text-muted underline underline-offset-4 hover:text-ink">
+            Thôi, giữ câu cũ
+          </button>
+        </div>
+      ) : (
+        <>
+          {canRedo && (
+            <button
+              type="button"
+              onClick={() => {
+                setMsg(null);
+                setRedoing(true);
+              }}
+              className="press inline-flex min-h-11 w-fit items-center gap-2 rounded-full bg-brand-soft px-5 font-medium text-brand-strong hover:bg-brand-tonal"
+            >
+              <RotateCcw className="size-4" aria-hidden />
+              Nói lại lượt vừa rồi
+            </button>
+          )}
+          {!done && (
+            <RecordButton
+              rec={ctx.rec}
+              label={started ? `Lượt ${turn}/${r.turns}: bấm để nói` : "Bắt đầu: nghe bạn nói rồi trả lời"}
+              before={async () => {
+                setStarted(true);
+                await play(lastAi);
+              }}
+              onRecorded={(rc, lag) => record(rc, lag, null)}
+            />
+          )}
+        </>
       )}
-      {done && (
+      {done && !redoing && (
         <>
           <p role="status" className="rounded-3xl bg-success-soft px-5 py-3 font-medium text-success-strong">
             Kết thúc cuộc trò chuyện.{requirements ? ` Em đạt ${requirements.filter(Boolean).length}/${requirements.length} yêu cầu (máy kiểm tra bằng quy tắc).` : ""}

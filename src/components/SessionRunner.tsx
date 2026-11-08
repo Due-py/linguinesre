@@ -157,6 +157,7 @@ export default function SessionRunner({
     setResult(null);
     setDraft("");
     setHintLevel(0);
+    rec.unlock(); // mở âm thanh ngay trong cú bấm (bộ lọc ồn cần AudioContext đang chạy)
     // Xin micro trước khi đọc câu hỏi để hộp thoại xin quyền không làm sai thời gian suy nghĩ.
     if (!(await rec.ensureMic())) return;
     shownAtRef.current = new Date().toISOString();
