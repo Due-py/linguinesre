@@ -10,6 +10,7 @@ export type PronState =
   | { status: "ok"; result: PronResult; mock: boolean }
   | { status: "not_configured" }
   | { status: "no_speech" }
+  | { status: "off_target" }
   | { status: "waking" }
   | { status: "error" };
 
@@ -43,6 +44,8 @@ export default function PronPanel({ state, audioFor }: { state: PronState; audio
     );
   if (state.status === "not_configured") return <p className="text-sm text-muted">Chấm phát âm từng âm chưa được bật trên web này.</p>;
   if (state.status === "waking") return <p className="text-sm text-muted">Máy chấm phát âm miễn phí đang khởi động (mất khoảng 1–2 phút sau khi nghỉ). Lần nói sau sẽ có kết quả.</p>;
+  if (state.status === "off_target")
+    return <p className="text-sm text-muted">Máy nghe em nói câu khác với câu mẫu, nên chưa chấm phát âm. Nghe mẫu rồi đọc đúng câu mẫu nhé.</p>;
   if (state.status === "no_speech") return <p className="text-sm text-muted">Máy chấm phát âm chưa nghe ra lời. Nói to, rõ hơn một chút rồi thử lại.</p>;
   if (state.status === "error") return <p className="text-sm text-muted">Chưa chấm được phát âm lần này. Bài vẫn được lưu bình thường.</p>;
 
@@ -112,6 +115,20 @@ function WordDetail({ w, source, audio }: { w: PronWord; source: PronResult["sou
           Nghe mẫu
         </ListenButton>
       </div>
+      {w.asr && (
+        <p className="text-sm text-muted">
+          {w.asr === "clear"
+            ? "Máy chép lời nghe rõ từ này."
+            : w.asr === "unsure"
+              ? "Máy chép lời nghe được từ này nhưng chưa thật chắc."
+              : "Máy chép lời không nghe thấy từ này (có thể em đọc thành từ khác hoặc bỏ sót)."}
+          {w.unsure
+            ? " Máy chấm âm chưa đo chắc được từ này (thường khi câu đọc khác câu mẫu ở gần đó), nên không có chi tiết."
+            : w.asr === "clear" && w.level !== "good"
+              ? " Chi tiết bên dưới chỉ là phần âm có thể còn chưa chuẩn."
+              : ""}
+        </p>
+      )}
       {w.level === "missing" ? (
         <p>Máy không nghe thấy em nói từ này. Nghe mẫu rồi đọc lại cả câu nhé.</p>
       ) : (

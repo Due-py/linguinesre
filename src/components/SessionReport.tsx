@@ -55,15 +55,7 @@ export default function SessionReport({
           )}
           <span>Bắt đầu {dateFmt.format(new Date(report.startedAt))}</span>
         </p>
-        {!done && mode === "student" && (
-          <Link
-            href={`/student/practice/session/${report.id}`}
-            className="inline-flex min-h-12 w-fit items-center gap-2 rounded-full bg-brand px-6 font-bold text-on-brand shadow-button hover:bg-brand-strong"
-          >
-            Làm tiếp buổi này
-            <ArrowRight className="size-5" aria-hidden />
-          </Link>
-        )}
+        {/* Luyện tự do đã bỏ (09/11): buổi chưa xong chỉ còn xem lại, không làm tiếp. */}
       </div>
 
       {stats.answered > 0 && (

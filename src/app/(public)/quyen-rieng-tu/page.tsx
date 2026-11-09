@@ -6,7 +6,7 @@ export const metadata: Metadata = { title: "Quyền riêng tư" };
 
 /**
  * Quyền riêng tư (M7). Chỉ mô tả những gì web THẬT SỰ làm, khớp với mã: bảng dữ liệu (supabase/migrations), dịch vụ bên
- * ngoài (Deepgram: src/app/api/transcribe, src/lib/research/score.ts; OpenAI: src/lib/feedback, src/lib/speaking/tts.ts).
+ * ngoài (Deepgram: src/app/api/module/turn, src/lib/research/score.ts; OpenAI: src/lib/feedback, src/lib/speaking/tts.ts).
  * Đổi cách lưu hoặc gửi dữ liệu thì phải sửa trang này cùng lúc.
  */
 export default function PrivacyPage() {

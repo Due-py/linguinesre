@@ -31,7 +31,7 @@ async function student() {
 export async function startLesson(formData: FormData) {
   const moduleId = UUID.safeParse(formData.get("moduleId"));
   const day = z.coerce.number().int().min(1).max(14).safeParse(formData.get("day"));
-  if (!moduleId.success || !day.success) redirect("/student/practice");
+  if (!moduleId.success || !day.success) redirect("/student/phieu-luu");
   const me = await student();
   if (!me) redirect("/student");
   const id = await openLesson(me.userId, me.grade, moduleId.data, day.data);
@@ -207,11 +207,11 @@ export async function loadReport(lessonId: string): Promise<ModuleReport | null>
 /** Kết thúc bài: chỉ khi bước nào cũng đã làm (hoặc đã bỏ qua). */
 export async function completeLesson(formData: FormData) {
   const id = UUID.safeParse(formData.get("lessonId"));
-  if (!id.success) redirect("/student/practice");
+  if (!id.success) redirect("/student/phieu-luu");
   const me = await student();
   if (!me) redirect("/student");
   const lesson = await ownLesson(id.data, me.userId);
-  if (!lesson) redirect("/student/practice");
+  if (!lesson) redirect("/student/phieu-luu");
   if (lesson.status === "in_progress") {
     const admin = createAdminClient();
     const [{ data: rows }, m] = await Promise.all([admin.from("module_attempts").select("step, turn").eq("lesson_id", lesson.id), getModule(lesson.moduleId)]);

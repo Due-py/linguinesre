@@ -59,13 +59,13 @@ export default async function ModulePage({ params, searchParams }: { params: Pro
     .filter((x): x is { day: number; c: number } => x.c !== null);
 
   return (
-    <AppShell name={profile.displayName ?? ""} roleLabel="Học sinh" homeHref="/student" nav={STUDENT_NAV} current="/student/practice">
+    <AppShell name={profile.displayName ?? ""} roleLabel="Học sinh" homeHref="/student" nav={STUDENT_NAV} current="/student/phieu-luu">
       <div className="grid gap-12">
         {/* Đầu trang: tên Unit cỡ lớn, nguồn nội dung, và thẻ "ngày tiếp theo" với một nút chính. */}
         <section className="grid gap-8 lg:grid-cols-[1fr_minmax(0,26rem)] lg:items-end">
           <div className="grid gap-4">
-            <Link href="/student/practice" className="inline-flex min-h-11 w-fit items-center gap-2 text-sm font-medium text-muted hover:text-ink">
-              ← Tất cả Unit
+            <Link href={`/student/phieu-luu?m=${m.id}`} className="inline-flex min-h-11 w-fit items-center gap-2 text-sm font-medium text-muted hover:text-ink">
+              ← Bản đồ Hành trình
             </Link>
             <Eyebrow>Unit {m.unitNo} · Learning Module 14 ngày</Eyebrow>
             <h1 lang="en" className="text-balance text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl">
@@ -228,12 +228,6 @@ export default async function ModulePage({ params, searchParams }: { params: Pro
           )}
         </section>
 
-        <p className="text-muted">
-          Muốn luyện thêm ngoài lộ trình?{" "}
-          <Link href={`/student/practice/${m.unitId}`} className="font-bold text-brand-strong hover:underline">
-            Luyện nhanh 5 câu của Unit này
-          </Link>
-        </p>
       </div>
     </AppShell>
   );

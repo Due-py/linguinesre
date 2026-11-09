@@ -5,7 +5,7 @@ import { canPractice } from "@/lib/research/server";
 import { takeQuota } from "@/lib/usage";
 import { getModule, ownLesson, attemptCount } from "@/lib/module/server";
 import { transcribeModule } from "@/lib/module/asr";
-import { countWords, hasReasonWord, heardRatio, SAY_MIN_RATIO, speechMeasures, usesKeyword } from "@/lib/module/measure";
+import { countWords, hasReasonWord, heardRatio, matchReference, SAY_MIN_RATIO, speechMeasures, usesKeyword } from "@/lib/module/measure";
 import type { PlannedStep } from "@/lib/module/plan";
 
 export const dynamic = "force-dynamic";
@@ -108,6 +108,8 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "Máy chưa chép được lời lần này. Hãy nói lại nhé.", code: "asr_failed" }, { status: 502 });
   }
   const measures = speechMeasures(asr.words, asr.transcript, lag, onset);
+  // Bước có câu mẫu được chấm phát âm: lưu từ nào máy nghe thấy và đoạn thời gian em đọc câu mẫu.
+  if (st.t === "learn_word" || st.t === "say" || (st.t === "arrange" && turn === 1)) measures.ref = matchReference(asr.words, target);
   if (measures.unclear) {
     await admin.storage.from("recordings").remove([audioPath]);
     return NextResponse.json({ unclear: true, transcript: asr.transcript });

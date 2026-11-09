@@ -5,6 +5,9 @@ import { canPractice } from "@/lib/research/server";
 import { takeQuota } from "@/lib/usage";
 import { getModule, ownLesson } from "@/lib/module/server";
 import { assessPronunciation, pronConfigured } from "@/lib/speaking/pronService";
+import { offTarget, reconcile } from "@/lib/speaking/pron";
+import { cropWav } from "@/lib/speaking/wav";
+import type { RefHeard } from "@/lib/module/measure";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 30;
@@ -47,7 +50,15 @@ export async function POST(request: NextRequest) {
   if (body.byteLength < 2_000 || body.byteLength > MAX_BYTES) return NextResponse.json({ error: "Bản ghi quá ngắn hoặc quá dài để chấm phát âm." }, { status: 400 });
   if (!(await takeQuota(user.id, "pron"))) return NextResponse.json({ error: "Gửi quá nhanh. Đợi một chút rồi thử lại." }, { status: 429 });
 
-  const out = await assessPronunciation(body, reference);
+  // Chấm đúng ĐOẠN em đọc câu mẫu (theo mốc thời gian máy chép lời đã nghe), bỏ phần nói thêm, nói lặp, im lặng.
+  const ref = (attempt.measures as { ref?: RefHeard } | null)?.ref;
+  const off = offTarget(ref);
+  if (off) return NextResponse.json({ status: off });
+  const span = ref && ref.start !== null && ref.end !== null ? ref : ref?.all;
+  const audio = span && span.start !== null && span.end !== null ? cropWav(new Uint8Array(body), span.start, span.end) : new Uint8Array(body);
+  const raw = await assessPronunciation(audio.buffer.slice(audio.byteOffset, audio.byteOffset + audio.byteLength) as ArrayBuffer, reference);
+  // Kết quả khớp với những gì máy chép lời đã nghe (xem reconcile).
+  const out = raw.status === "ok" ? { ...raw, result: reconcile(raw.result, ref?.words) } : raw;
   if (out.status === "ok") {
     const measures = { ...((attempt.measures as Record<string, unknown> | null) ?? {}), pron: { ...out.result, mock: out.mock, reference } };
     await createAdminClient().from("module_attempts").update({ measures }).eq("id", attempt.id);

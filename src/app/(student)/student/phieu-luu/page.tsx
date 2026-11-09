@@ -186,9 +186,7 @@ export default async function AdventurePage({ searchParams }: { searchParams: Pr
               title={
                 rec.action.kind === "game"
                   ? GAME_INFO[rec.action.game].titleVi
-                  : rec.action.kind === "practice"
-                    ? "Luyện nhanh 5 câu của Unit"
-                    : rec.action.kind === "knowledge"
+                  : rec.action.kind === "knowledge"
                       ? "Ôn lại ở Kho kiến thức"
                       : "Làm tiếp nhiệm vụ trên bản đồ"
               }
@@ -196,9 +194,7 @@ export default async function AdventurePage({ searchParams }: { searchParams: Pr
               href={
                 rec.action.kind === "game"
                   ? `/student/phieu-luu/tro-choi/${rec.action.game}?m=${mod.id}`
-                  : rec.action.kind === "practice"
-                    ? `/student/practice/${mod.unitId}`
-                    : rec.action.kind === "knowledge"
+                  : rec.action.kind === "knowledge"
                       ? `/student/module/${mod.id}/kien-thuc`
                       : null
               }

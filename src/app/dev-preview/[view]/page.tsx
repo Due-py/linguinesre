@@ -39,8 +39,8 @@ const roadmap = [
   { id: "u3", unitNo: 3, title: "Teenagers", titleVi: "Tuổi mới lớn" },
 ];
 const recent = [
-  { id: "s2", studentId: "x", unitId: "u2", unitTitle: "Life in the Countryside", unitNo: 2, status: "in_progress" as const, answered: 2, total: 5, startedAt: "2026-10-27T08:00:00Z", completedAt: null },
-  { id: "s1", studentId: "x", unitId: "u1", unitTitle: "Leisure Time", unitNo: 1, status: "completed" as const, answered: 5, total: 5, startedAt: "2026-10-25T08:00:00Z", completedAt: "2026-10-25T08:14:00Z" },
+  { id: "l4", href: "#", title: "Ngày 4: Từ vựng thành câu, xếp câu", sub: "Unit 7 · Environmental Protection", at: "2026-11-09T08:14:00Z" },
+  { id: "l3", href: "#", title: "Ngày 3: Ngữ pháp, cụm câu hay và kiểm tra kiến thức", sub: "Unit 7 · Environmental Protection", at: "2026-11-07T08:14:00Z" },
 ];
 
 export default async function Preview({ params }: { params: Promise<{ view: string }> }) {
@@ -55,10 +55,9 @@ export default async function Preview({ params }: { params: Promise<{ view: stri
             name="Minh Anh"
             grade={8}
             classes={[]}
-            today={{ kind: "start", href: "#", unitTitle: "Leisure Time" }}
             roadmap={roadmap.map((u, i) => ({ ...u, state: i === 0 ? "next" : "todo" }))}
             recent={[]}
-            focus={{ completed: 0, goal: null }}
+            lessonsDone={0}
             reaction={[]}
           />
         </AppShell>
@@ -70,20 +69,11 @@ export default async function Preview({ params }: { params: Promise<{ view: stri
             name="Minh Anh"
             grade={8}
             classes={[{ id: "1", name: "8A1" }]}
-            today={{ kind: "continue", href: "#", unitTitle: "Life in the Countryside", answered: 2, total: 5 }}
             module={{ id: "preview", unitNo: 7, title: "Environmental Protection", titleVi: "Bảo vệ môi trường", nextDay: 5, started: true, inProgress: false, daysDone: 4 }}
             moduleErrors={[{ label: "Thiếu -s/-es sau chủ ngữ số ít (he, she, it)", count: 3 }, { label: "Dùng sai giới từ", count: 2 }]}
             roadmap={roadmap.map((u, i) => ({ ...u, state: i === 0 ? "done" : i === 1 ? "in_progress" : "todo", moduleId: "preview", daysDone: i === 0 ? 14 : i === 1 ? 4 : 0 }))}
             recent={recent}
-            focus={{
-              completed: 3,
-              goal: {
-                key: "reason",
-                title: "Thêm lý do cho câu trả lời",
-                detail: "Sau ý chính, nói tiếp một lý do với “because…” hoặc “so…”.",
-                basis: "4/6 câu hỏi cần lý do chưa có từ nối lý do.",
-              },
-            }}
+            lessonsDone={4}
             reaction={[
               { sessionId: "p1", completedAt: "2026-11-02T10:00:00Z", unitTitle: "Leisure Time", medianMs: 3400, measured: 5 },
               { sessionId: "p2", completedAt: "2026-11-04T10:00:00Z", unitTitle: "Leisure Time", medianMs: 2900, measured: 4 },
@@ -140,7 +130,7 @@ export default async function Preview({ params }: { params: Promise<{ view: stri
         });
         const r = moduleReport(m, [a(1, "i01", 6200, 5), a(1, "i02", 7400, 7), a(13, "i04", 3900, 14), a(13, "i05", 4100, 16)]);
         return (
-          <AppShell name="Minh Anh" roleLabel="Học sinh" homeHref="#" nav={STUDENT_NAV} current="/student/practice">
+          <AppShell name="Minh Anh" roleLabel="Học sinh" homeHref="#" nav={STUDENT_NAV} current="/student/phieu-luu">
             <ReportView r={r} />
           </AppShell>
         );
@@ -153,7 +143,7 @@ export default async function Preview({ params }: { params: Promise<{ view: stri
       // Dữ liệu mẫu (không phải lời học sinh thật): phản hồi sau một câu nói trong module.
       const t = "I think we should recycle plastic bottles because it reduce waste";
       return (
-        <AppShell name="Minh Anh" roleLabel="Học sinh" homeHref="#" nav={STUDENT_NAV} current="/student/practice">
+        <AppShell name="Minh Anh" roleLabel="Học sinh" homeHref="#" nav={STUDENT_NAV} current="/student/phieu-luu">
           <div className="mx-auto grid max-w-2xl gap-5">
             <MeasuredPanel
               m={{ words: 11, thinkMs: 2400, speakMs: 4200, wpm: 157, longPauses: 1, clarity: 0.82, unclear: false, lowWords: ["recycle", "reduce"] }}
@@ -172,7 +162,7 @@ export default async function Preview({ params }: { params: Promise<{ view: stri
     case "module-path":
       // Dữ liệu mẫu: đã xong ngày 1–4, ngày 5 tiếp theo.
       return (
-        <AppShell name="Minh Anh" roleLabel="Học sinh" homeHref="#" nav={STUDENT_NAV} current="/student/practice">
+        <AppShell name="Minh Anh" roleLabel="Học sinh" homeHref="#" nav={STUDENT_NAV} current="/student/phieu-luu">
           <ModulePath moduleId="preview" completed={[1, 2, 3, 4]} nextDay={5} open={false} />
         </AppShell>
       );

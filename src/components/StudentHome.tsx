@@ -1,14 +1,13 @@
 import Link from "next/link";
 import { ArrowRight, CalendarDays, CircleAlert, CircleCheck, CircleDashed, Clock, Flag, Lock, Mic, Timer, Users } from "lucide-react";
-import SessionList from "@/components/SessionList";
 import Linguine from "@/components/Linguine";
 import { Chip, Eyebrow, Highlight, Progress, SectionHead, Stat } from "@/components/ui";
-import type { TodayTask } from "@/lib/practice";
 import type { ModuleToday } from "@/lib/module/server";
 import { DAY_INFO, DAYS, phaseOf } from "@/lib/module/plan";
-import type { Focus, SessionRow } from "@/lib/sessions";
-import { FOCUS_MIN_SESSIONS } from "@/lib/summary";
 import { REACTION_MIN_SESSIONS, type ReactionPoint } from "@/lib/reaction";
+
+/** Một nhiệm vụ đã xong gần đây (bài học ngày của Hành trình). */
+export type RecentLesson = { id: string; href: string; title: string; sub: string; at: string };
 
 export type RoadmapUnit = {
   id: string;
@@ -16,7 +15,6 @@ export type RoadmapUnit = {
   title: string;
   titleVi: string;
   state: "done" | "in_progress" | "next" | "todo";
-  /** Unit có Learning Module 14 ngày thì đi vào module thay vì buổi luyện 5 câu. */
   moduleId?: string | null;
   /** Số ngày đã học xong của module (dữ liệu thật). */
   daysDone?: number;
@@ -27,12 +25,12 @@ export type StudentHomeProps = {
   grade: number | null;
   classes: { id: string; name: string }[];
   joinFailed?: boolean;
-  today: TodayTask;
   module?: ModuleToday | null;
   roadmap: RoadmapUnit[];
-  recent: SessionRow[];
-  focus: Focus;
-  /** Thời gian bắt đầu nói của các buổi đã hoàn thành (cũ trước), xem lib/reaction.ts. */
+  /** Nhiệm vụ đã xong gần đây (mới trước) và tổng số nhiệm vụ đã xong. */
+  recent: RecentLesson[];
+  lessonsDone: number;
+  /** Thời gian bắt đầu nói ở giữa của từng nhiệm vụ đã xong (cũ trước), xem lib/reaction.ts. */
   reaction: ReactionPoint[];
   /** Lỗi hay gặp nhất trong module đang học (Error Memory, từ nhận xét AI đã kiểm chứng và câu ngữ pháp sai). */
   moduleErrors?: { label: string; count: number }[];
@@ -47,7 +45,6 @@ const STATE: Record<RoadmapUnit["state"], { label: string; tone: "green" | "yell
   todo: { label: "Chưa học", tone: "grey", icon: <Lock className="size-4" aria-hidden /> },
 };
 
-const sessionHref = (s: SessionRow) => (s.status === "completed" ? `/student/sessions/${s.id}` : `/student/practice/session/${s.id}`);
 const secs = (ms: number) => `${(ms / 1000).toFixed(1).replace(".", ",")} giây`;
 const dayFmt = new Intl.DateTimeFormat("vi-VN", { day: "2-digit", month: "2-digit", timeZone: "Asia/Ho_Chi_Minh" });
 
@@ -55,11 +52,10 @@ const dayFmt = new Intl.DateTimeFormat("vi-VN", { day: "2-digit", month: "2-digi
  * Tổng quan của học sinh, trả lời ba câu hỏi: em đang ở đâu (module, tiến độ), hôm nay học gì (một nút rõ nhất),
  * em tiến bộ thế nào (số đo thật). Chỉ hiện dữ liệu thật; chưa có thì hiện trạng thái bắt đầu.
  */
-export default function StudentHome({ name, grade, classes, joinFailed, today, module, roadmap, recent, focus, reaction, moduleErrors = [], companion }: StudentHomeProps) {
+export default function StudentHome({ name, grade, classes, joinFailed, module, roadmap, recent, lessonsDone, reaction, moduleErrors = [], companion }: StudentHomeProps) {
   const next = module?.nextDay ?? null;
   const upcoming = next ? Array.from({ length: Math.min(3, DAYS - next) }, (_, k) => next + k + 1) : [];
   const last = reaction.at(-1);
-  const completedSessions = recent.filter((s) => s.status === "completed").length;
 
   return (
     <div className="grid gap-12">
@@ -79,10 +75,6 @@ export default function StudentHome({ name, grade, classes, joinFailed, today, m
               <>
                 Em đã học xong <Highlight tone="green">14 ngày</Highlight> của <span lang="en">{module.title}</span>
               </>
-            ) : today.kind !== "none" ? (
-              <>
-                Hôm nay luyện <Highlight>nói</Highlight> với <span lang="en">{today.unitTitle}</span>
-              </>
             ) : (
               <>Chưa có bài cho lớp của em</>
             )}
@@ -92,9 +84,7 @@ export default function StudentHome({ name, grade, classes, joinFailed, today, m
               ? DAY_INFO[next].goalVi
               : module
                 ? "Xem kết quả so sánh đầu và cuối module, rồi chọn Unit tiếp theo bên dưới."
-                : today.kind !== "none"
-                  ? "5 câu hỏi, khoảng 10–15 phút. Bí ý thì mở gợi ý từng bước, không bị trừ gì."
-                  : `Thầy cô chưa duyệt Unit nào cho lớp ${grade ?? ""}. Khi có, bài học sẽ hiện ở đây.`}
+                : `Thầy cô chưa duyệt Unit nào cho lớp ${grade ?? ""}. Khi có, bài học sẽ hiện ở đây.`}
           </p>
         </div>
 
@@ -137,23 +127,7 @@ export default function StudentHome({ name, grade, classes, joinFailed, today, m
               </Link>
             </div>
           </article>
-        ) : (
-          today.kind !== "none" && (
-            <article className="rise-in rise-in-2 grid gap-4 rounded-[2rem] bg-brand-soft p-6 sm:p-8">
-              <Eyebrow className="text-brand-strong">Luyện nhanh</Eyebrow>
-              <h2 className="text-2xl font-semibold tracking-tight" lang="en">
-                {today.unitTitle}
-              </h2>
-              {today.kind === "continue" && (
-                <Progress value={today.answered} max={today.total} label={`Đã trả lời ${today.answered} trên ${today.total} câu`} className="bg-surface" />
-              )}
-              <Link href={today.href} className="press inline-flex min-h-12 w-fit items-center gap-2 rounded-full bg-brand px-6 font-medium text-on-brand hover:shadow-card">
-                {today.kind === "continue" ? "Tiếp tục luyện tập" : "Bắt đầu luyện tập"}
-                <ArrowRight className="size-5" aria-hidden />
-              </Link>
-            </article>
-          )
-        )}
+        ) : null}
       </section>
 
       {joinFailed && (
@@ -179,15 +153,11 @@ export default function StudentHome({ name, grade, classes, joinFailed, today, m
         <div className="grid gap-3 sm:grid-cols-3">
           <Stat label="Ngày đã học trong module" value={module ? `${module.daysDone}/${DAYS}` : null} note={module ? <span lang="en">{module.title}</span> : "Chưa bắt đầu module nào"} />
           <Stat
-            label="Thời gian bắt đầu nói (buổi gần nhất)"
+            label="Thời gian bắt đầu nói (nhiệm vụ gần nhất)"
             value={last ? secs(last.medianMs) : null}
-            note={last ? "Ước lượng trên trình duyệt, số ở giữa của buổi" : `Có sau ${REACTION_MIN_SESSIONS} buổi luyện tự do`}
+            note={last ? "Số ở giữa các câu em tự trả lời trong nhiệm vụ đó" : "Có sau nhiệm vụ đầu tiên có câu tự trả lời"}
           />
-          <Stat
-            label="Buổi luyện tự do hoàn thành"
-            value={recent.length ? `${completedSessions}/${recent.length}` : null}
-            note={recent.length ? "Trong các buổi gần đây nhất" : "Chưa có buổi nào"}
-          />
+          <Stat label="Nhiệm vụ đã hoàn thành" value={lessonsDone ? String(lessonsDone) : null} note={lessonsDone ? "Trên mọi Unit của Hành trình" : "Chưa có nhiệm vụ nào"} />
         </div>
       </section>
 
@@ -229,41 +199,43 @@ export default function StudentHome({ name, grade, classes, joinFailed, today, m
               title="Hoạt động gần đây"
               action={
                 recent.length > 0 && (
-                  <Link href="/student/history" className="inline-flex min-h-11 items-center gap-1 font-medium text-brand hover:underline">
-                    Xem tất cả
+                  <Link href="/student/phieu-luu" className="inline-flex min-h-11 items-center gap-1 font-medium text-brand hover:underline">
+                    Xem bản đồ
                     <ArrowRight className="size-4" aria-hidden />
                   </Link>
                 )
               }
             />
             {recent.length === 0 ? (
-              <p className="max-w-prose rounded-3xl bg-tint px-5 py-4 text-muted">Chưa có buổi luyện tự do nào. Buổi đầu tiên của em sẽ hiện ở đây.</p>
+              <p className="max-w-prose rounded-3xl bg-tint px-5 py-4 text-muted">Chưa có nhiệm vụ nào xong. Nhiệm vụ đầu tiên của em sẽ hiện ở đây.</p>
             ) : (
-              <SessionList sessions={recent} hrefFor={sessionHref} />
+              <ul className="grid gap-2">
+                {recent.map((l, i) => (
+                  <li key={l.id} className="pop-in" style={{ ["--i" as string]: i }}>
+                    <Link href={l.href} className="flex items-center gap-4 rounded-2xl border border-line px-4 py-3 hover:bg-tint">
+                      <CircleCheck className="size-5 shrink-0 text-success" aria-hidden />
+                      <span className="grid min-w-0 flex-1">
+                        <span className="font-medium">{l.title}</span>
+                        <span className="text-sm text-muted">{l.sub}</span>
+                      </span>
+                      <span className="shrink-0 text-sm text-muted">{dayFmt.format(new Date(l.at))}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             )}
           </section>
         </div>
 
         <aside className="grid content-start gap-6">
-          {/* Nên luyện tiếp: từ số đo thật (luyện tự do) và lỗi hay gặp trong module. */}
+          {/* Nên luyện tiếp: lỗi hay gặp trong module (từ nhận xét AI đã kiểm chứng và câu ngữ pháp sai). */}
           <section aria-labelledby="focus" className="grid content-start gap-3 rounded-3xl border border-line p-6">
             <h2 id="focus" className="flex items-center gap-2 text-xl font-semibold">
               <Flag className="size-5 text-gold-shadow" aria-hidden />
               Nên luyện tiếp
             </h2>
-            {focus.goal ? (
-              <>
-                <p className="text-lg font-medium">{focus.goal.title}</p>
-                <p>{focus.goal.detail}</p>
-                <p className="text-sm text-muted">
-                  Từ {FOCUS_MIN_SESSIONS} buổi hoàn thành gần nhất, đo trực tiếp: {focus.goal.basis}
-                </p>
-              </>
-            ) : moduleErrors.length === 0 ? (
-              <p className="text-muted">
-                Sau {FOCUS_MIN_SESSIONS} buổi luyện tự do, hoặc khi AI ghi nhận lỗi trong module, mục này chỉ ra một điểm em nên tập trung. Em đã
-                hoàn thành {focus.completed}/{FOCUS_MIN_SESSIONS} buổi.
-              </p>
+            {moduleErrors.length === 0 ? (
+              <p className="text-muted">Khi AI ghi nhận lỗi trong các nhiệm vụ (lỗi phải trích đúng lời em nói), mục này chỉ ra điểm em nên tập trung.</p>
             ) : null}
             {moduleErrors.length > 0 && (
               <ul className="grid gap-2" aria-label="Lỗi hay gặp trong module đang học">
@@ -316,7 +288,7 @@ export default function StudentHome({ name, grade, classes, joinFailed, today, m
             {roadmap.map((u, i) => (
               <li key={u.id} className="pop-in" style={{ ["--i" as string]: i }}>
                 <Link
-                  href={u.moduleId ? `/student/module/${u.moduleId}` : `/student/practice/${u.id}`}
+                  href={u.moduleId ? `/student/phieu-luu?m=${u.moduleId}` : "/student/phieu-luu"}
                   className="option-card group grid h-full content-start gap-3 rounded-3xl p-5"
                 >
                   <span className="flex items-center justify-between gap-3">
@@ -357,8 +329,8 @@ function ReactionCard({ points }: { points: ReactionPoint[] }) {
       </h2>
       {points.length < REACTION_MIN_SESSIONS ? (
         <p className="text-muted">
-          Sau {REACTION_MIN_SESSIONS} buổi luyện tự do, mục này cho thấy em mất bao lâu để bắt đầu trả lời, qua từng buổi. Hiện có{" "}
-          {points.length}/{REACTION_MIN_SESSIONS} buổi có số đo.
+          Sau {REACTION_MIN_SESSIONS} nhiệm vụ có câu tự trả lời, mục này cho thấy em mất bao lâu để bắt đầu trả lời, qua từng nhiệm vụ. Hiện có{" "}
+          {points.length}/{REACTION_MIN_SESSIONS} nhiệm vụ có số đo.
         </p>
       ) : (
         <>
@@ -366,7 +338,7 @@ function ReactionCard({ points }: { points: ReactionPoint[] }) {
             Buổi đầu: <strong className="font-medium">{secs(points[0].medianMs)}</strong>. Buổi gần nhất:{" "}
             <strong className="font-medium">{secs(points[points.length - 1].medianMs)}</strong>.
           </p>
-          <ol className="grid gap-2" aria-label="Thời gian bắt đầu nói ở giữa của từng buổi, buổi cũ trước">
+          <ol className="grid gap-2" aria-label="Thời gian bắt đầu nói ở giữa của từng nhiệm vụ, nhiệm vụ cũ trước">
             {shown.map((p, i) => (
               <li key={p.sessionId} className="grid grid-cols-[3.25rem_1fr_4.5rem] items-center gap-2 text-sm">
                 <span className="tabular-nums text-muted">{dayFmt.format(new Date(p.completedAt))}</span>

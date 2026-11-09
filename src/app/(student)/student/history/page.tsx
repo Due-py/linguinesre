@@ -24,12 +24,12 @@ export default async function HistoryPage() {
         {sessions.length === 0 ? (
           <div className="grid max-w-prose gap-4 rounded-2xl bg-sunken px-6 py-6">
             <p className="text-muted">Bạn chưa có buổi luyện nào. Sau buổi đầu tiên, câu trả lời và nhận xét sẽ được lưu ở đây.</p>
-            <ButtonLink href="/student/practice">Chọn Unit để luyện</ButtonLink>
+            <ButtonLink href="/student/phieu-luu">Mở Hành trình</ButtonLink>
           </div>
         ) : (
           <SessionList
             sessions={sessions}
-            hrefFor={(s) => (s.status === "completed" ? `/student/sessions/${s.id}` : `/student/practice/session/${s.id}`)}
+            hrefFor={(s) => `/student/sessions/${s.id}`}
           />
         )}
       </div>

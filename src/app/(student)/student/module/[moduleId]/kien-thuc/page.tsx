@@ -21,7 +21,7 @@ export default async function KnowledgePage({ params }: { params: Promise<{ modu
   const { reviews } = await itemReviews(m.id);
   const approved = new Set(moduleItems(m.content).filter((x) => itemStatus(x, reviews.get(x.ref)) === "approved").map((x) => x.ref));
   return (
-    <AppShell name={profile.displayName ?? ""} roleLabel="Học sinh" homeHref="/student" nav={STUDENT_NAV} current="/student/practice">
+    <AppShell name={profile.displayName ?? ""} roleLabel="Học sinh" homeHref="/student" nav={STUDENT_NAV} current="/student/phieu-luu">
       <div className="grid gap-8">
         <div className="grid gap-2">
           <Link href={`/student/module/${m.id}`} className="inline-flex min-h-11 w-fit items-center text-sm font-bold text-muted hover:text-ink">

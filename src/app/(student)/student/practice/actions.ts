@@ -1,10 +1,11 @@
 "use server";
 
-import { redirect } from "next/navigation";
+// Luyện tự do 5 câu đã bỏ (09/11): mọi việc học đi qua Hành trình. File này chỉ còn phần nhận xét AI cho câu trả lời đã lưu
+// (trang tổng kết các buổi luyện cũ và kiểu dữ liệu FeedbackView mà chế độ nghiên cứu A/B dùng chung).
+
 import { z } from "zod";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
-import { pickQuestions, type Candidate } from "@/lib/speaking/select";
 import { computeMeasures, type Measures } from "@/lib/feedback/measures";
 import type { VerifiedFeedback } from "@/lib/feedback/core";
 import { generateFeedback, type FeedbackPayload } from "@/lib/feedback/generate";
@@ -24,115 +25,6 @@ async function studentContext() {
   if (!user) return null;
   const { data: me } = await supabase.from("profiles").select("role, grade, onboarded_at").eq("id", user.id).maybeSingle();
   return me?.role === "student" && me.onboarded_at ? { supabase, userId: user.id, grade: me.grade as number | null } : null;
-}
-
-/** Mở buổi luyện cho một Unit. Đang có buổi dở của Unit này thì đi tiếp buổi đó, không tạo buổi mới. */
-export async function startSession(formData: FormData) {
-  const unitId = UUID.safeParse(formData.get("unitId"));
-  if (!unitId.success) redirect("/student/practice");
-  const ctx = await studentContext();
-  if (!ctx) redirect("/login");
-  const { supabase, userId } = ctx;
-  if (!(await canPractice(userId))) redirect("/student");
-
-  const { data: open } = await supabase
-    .from("practice_sessions")
-    .select("id")
-    .eq("student_id", userId)
-    .eq("unit_id", unitId.data)
-    .eq("status", "in_progress")
-    .order("started_at", { ascending: false })
-    .limit(1)
-    .maybeSingle();
-  if (open) redirect(`/student/practice/session/${open.id}`);
-
-  // RLS: chỉ câu hỏi của Unit đã duyệt mới đọc được.
-  const { data: questions } = await supabase.from("questions").select("id, difficulty").eq("unit_id", unitId.data).eq("active", true);
-  if (!questions?.length) redirect("/student/practice");
-
-  const { data: past } = await supabase
-    .from("session_answers")
-    .select("question_id")
-    .eq("student_id", userId)
-    .in("question_id", questions.map((q) => q.id));
-  const times = new Map<string, number>();
-  for (const a of past ?? []) times.set(a.question_id, (times.get(a.question_id) ?? 0) + 1);
-
-  const chosen = pickQuestions(questions as Candidate[], times, Date.now() % 2 ** 31);
-  const { data: session, error } = await supabase
-    .from("practice_sessions")
-    .insert({ student_id: userId, unit_id: unitId.data, question_ids: chosen.map((q) => q.id) })
-    .select("id")
-    .single();
-  if (error || !session) redirect(`/student/practice/${unitId.data}?error=start`);
-  redirect(`/student/practice/session/${session.id}`);
-}
-
-const answerSchema = z.object({
-  sessionId: UUID,
-  questionId: UUID,
-  shownAt: z.iso.datetime(),
-  promptEndedAt: z.iso.datetime(),
-  thinkMs: z.number().int().min(0).max(120_000).nullable(),
-  speakMs: z.number().int().min(0).max(120_000).nullable(),
-  transcriptRaw: z.string().max(2000),
-  transcriptFinal: z.string().trim().min(1, "Câu trả lời đang trống.").max(2000),
-  transcriptConfidence: z.number().min(0).max(1).nullable(),
-  hintLevel: z.number().int().min(0).max(4),
-  audioPath: z.string().max(300).nullable(),
-});
-export type AnswerInput = z.infer<typeof answerSchema>;
-/** measures: "Đo trực tiếp" của câu vừa lưu (quy tắc, không AI), hiện ngay mà không tốn tiền. AI nhận xét chỉ khi học sinh bấm xem. */
-export type SaveAnswerResult = { ok: true; answerId: string; attemptNo: number; measures: Measures } | { ok: false; error: string };
-
-/** Lưu một câu trả lời (sau khi học sinh đã xem/sửa chữ ghi lời). Quyền ghi do RLS bảo đảm. */
-export async function saveAnswer(input: AnswerInput): Promise<SaveAnswerResult> {
-  const parsed = answerSchema.safeParse(input);
-  if (!parsed.success) return { ok: false, error: parsed.error.issues[0]?.message ?? "Dữ liệu không hợp lệ." };
-  const ctx = await studentContext();
-  if (!ctx) return { ok: false, error: "Bạn cần đăng nhập lại." };
-  if (!(await canPractice(ctx.userId))) return { ok: false, error: LOCKED };
-  const v = parsed.data;
-  if (v.audioPath && !v.audioPath.startsWith(`${ctx.userId}/${v.sessionId}/`)) return { ok: false, error: "Bản ghi không hợp lệ." };
-
-  const { count } = await ctx.supabase
-    .from("session_answers")
-    .select("id", { count: "exact", head: true })
-    .eq("session_id", v.sessionId)
-    .eq("question_id", v.questionId);
-  const attemptNo = (count ?? 0) + 1;
-  if (attemptNo > 3) return { ok: false, error: "Mỗi câu được trả lời tối đa 3 lần." };
-
-  const { data, error } = await ctx.supabase
-    .from("session_answers")
-    .insert({
-      session_id: v.sessionId,
-      student_id: ctx.userId,
-      question_id: v.questionId,
-      attempt_no: attemptNo,
-      shown_at: v.shownAt,
-      prompt_ended_at: v.promptEndedAt,
-      think_ms: v.thinkMs,
-      speak_ms: v.speakMs,
-      transcript_raw: v.transcriptRaw,
-      transcript_final: v.transcriptFinal,
-      transcript_edited: v.transcriptFinal !== v.transcriptRaw.trim(),
-      transcript_confidence: v.transcriptConfidence,
-      hint_level: v.hintLevel,
-      audio_path: v.audioPath,
-    })
-    .select("id")
-    .single();
-  if (error || !data) return { ok: false, error: "Chưa lưu được câu trả lời. Hãy thử lại." };
-  const { data: q } = await ctx.supabase.from("questions").select("keywords, expects_reason").eq("id", v.questionId).maybeSingle();
-  const measures = computeMeasures({
-    thinkMs: v.thinkMs,
-    speakMs: v.speakMs,
-    transcript: v.transcriptFinal,
-    keywords: q?.keywords ?? [],
-    expectsReason: q?.expects_reason ?? false,
-  });
-  return { ok: true, answerId: data.id, attemptNo, measures };
 }
 
 export type FeedbackView = {
@@ -198,25 +90,4 @@ export async function requestFeedback(answerId: string): Promise<FeedbackResult>
     );
   if (error) console.error("feedback save failed", { answerId: a.id, error: error.message });
   return view(r.ok ? r.payload : null);
-}
-
-/**
- * Kết thúc buổi rồi mở trang tổng kết. complete_session (0005) chỉ đánh dấu hoàn thành khi mọi câu đã có câu trả lời;
- * chưa đủ thì trang tổng kết tự báo "chưa xong" và mời làm tiếp.
- */
-export async function finishSession(formData: FormData) {
-  const id = UUID.safeParse(formData.get("sessionId"));
-  if (!id.success) redirect("/student");
-  const ctx = await studentContext();
-  if (!ctx) redirect("/login");
-  if (!(await canPractice(ctx.userId))) redirect("/student");
-  await ctx.supabase.rpc("complete_session", { sid: id.data });
-  redirect(`/student/sessions/${id.data}`);
-}
-
-/** Học sinh bấm "Nói lại" trước khi lưu: xóa bản ghi vừa gửi để không giữ file không cần thiết. */
-export async function discardRecording(path: string): Promise<void> {
-  const ctx = await studentContext();
-  if (!ctx || !/^[0-9a-f-]{36}\/[0-9a-f-]{36}\/[0-9a-f-]{36}\.(webm|m4a|ogg)$/.test(path) || !path.startsWith(`${ctx.userId}/`)) return;
-  await ctx.supabase.storage.from("recordings").remove([path]);
 }

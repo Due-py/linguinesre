@@ -17,7 +17,6 @@
     "module:approve": "node scripts/approve-module.mjs",
     "test:rls": "node scripts/test-rls.mjs",
     "test:sessions": "node scripts/test-sessions.mjs",
-    "test:e2e": "node scripts/e2e-practice.mjs",
     "smoke:ai": "node scripts/smoke-ai.mjs",
     "test:feedback": "node scripts/test-feedback.mjs",
     "voice:samples": "node scripts/voice-samples.mjs",

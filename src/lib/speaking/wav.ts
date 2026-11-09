@@ -56,3 +56,21 @@ export function encodeWav(samples: Float32Array, rate = WAV_RATE): Uint8Array {
   }
   return bytes;
 }
+
+/**
+ * Cắt một file WAV PCM 16 bit mono (do encodeWav tạo) lấy đoạn [start − margin, end + margin] giây. Đọc tần số từ header.
+ * File không đúng dạng, hoặc đoạn cắt quá ngắn (dưới 0,4 giây), thì trả lại nguyên file.
+ */
+export function cropWav(bytes: Uint8Array, start: number, end: number, margin = 0.35): Uint8Array {
+  if (bytes.length < 46 || String.fromCharCode(...bytes.slice(0, 4)) !== "RIFF" || String.fromCharCode(...bytes.slice(8, 12)) !== "WAVE") return bytes;
+  const v = new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
+  if (v.getUint16(22, true) !== 1 || v.getUint16(34, true) !== 16) return bytes;
+  const rate = v.getUint32(24, true);
+  const total = Math.floor((bytes.length - 44) / 2);
+  const a = Math.max(0, Math.floor((start - margin) * rate));
+  const b = Math.min(total, Math.ceil((end + margin) * rate));
+  if (!(b > a) || b - a < 0.4 * rate) return bytes;
+  const samples = new Float32Array(b - a);
+  for (let i = 0; i < samples.length; i++) samples[i] = v.getInt16(44 + (a + i) * 2, true) / 0x8000;
+  return encodeWav(samples, rate);
+}

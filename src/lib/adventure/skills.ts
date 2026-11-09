@@ -153,16 +153,16 @@ export function skillResults(attempts: SkillAttempt[]): SkillResult[] {
 export type Recommendation = {
   skill: SkillKey | null;
   reasonVi: string;
-  action: { kind: "game"; game: GameKey } | { kind: "practice" } | { kind: "knowledge" } | { kind: "quest" };
+  action: { kind: "game"; game: GameKey } | { kind: "knowledge" } | { kind: "quest" };
 };
 
 const FOR_SKILL: Record<SkillKey, Recommendation["action"][]> = {
   vocabulary: [{ kind: "game", game: "vocab_match" }, { kind: "knowledge" }],
   grammar: [{ kind: "game", game: "grammar_fix" }, { kind: "game", game: "sentence_builder" }],
-  completeness: [{ kind: "game", game: "sentence_builder" }, { kind: "practice" }],
-  speed: [{ kind: "game", game: "quick_think" }, { kind: "practice" }],
-  fluency: [{ kind: "practice" }, { kind: "game", game: "conversation_choice" }],
-  pronunciation: [{ kind: "knowledge" }, { kind: "practice" }],
+  completeness: [{ kind: "game", game: "sentence_builder" }, { kind: "quest" }],
+  speed: [{ kind: "game", game: "quick_think" }, { kind: "quest" }],
+  fluency: [{ kind: "game", game: "conversation_choice" }, { kind: "quest" }],
+  pronunciation: [{ kind: "knowledge" }, { kind: "quest" }],
 };
 const WHY: Record<SkillKey, string> = {
   vocabulary: "Em hay quên hoặc chưa dùng được từ của bài.",

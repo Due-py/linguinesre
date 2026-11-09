@@ -13,6 +13,10 @@ export type PronSyllable = { text: string; score: number };
 export type PronWord = {
   word: string;
   level: PronLevel;
+  /** Máy chép lời (Deepgram) với từ này: nghe rõ / nghe chưa chắc / không nghe thấy. Thiếu: chưa đối chiếu. */
+  asr?: "clear" | "unsure" | "not_heard";
+  /** Máy chấm không đo chắc được từ này (xem reconcile): không hiện điểm và chi tiết âm. */
+  unsure?: boolean;
   score: number | null; // null khi em bỏ sót từ
   syllables: PronSyllable[];
   phonemes: PronPhoneme[];
@@ -97,4 +101,55 @@ export function weakest(w: PronWord): { syllable: PronSyllable | null; phoneme: 
   const syllable = w.syllables.filter((x) => x.score < 80).sort((a, b) => a.score - b.score)[0] ?? null;
   const phoneme = w.phonemes.filter((p) => p.conf >= 0.2 && (p.heardAs !== null || (p.score ?? 100) < 80)).sort((a, b) => b.conf - a.conf)[0] ?? null;
   return { syllable, phoneme };
+}
+
+/** Máy chép lời nghe từ này "rõ" khi độ tin cậy từ mức này trở lên. */
+export const ASR_CLEAR = 0.85;
+/** Dưới mức này mà máy chép lời lại nghe rõ thì coi số đo của máy chấm ở từ đó là không đáng tin. */
+export const UNRELIABLE = 40;
+const norm = (w: string) => w.toLowerCase().replace(/[’‘]/g, "'").replace(/[^a-z']/g, "");
+
+/**
+ * Cho kết quả chấm phát âm KHỚP với những gì máy chép lời đã nghe (hai máy đo độc lập nên có lúc trái nhau):
+ *  - máy chép lời nghe RÕ từ này thì không xếp "cần luyện" hay "chưa nghe thấy", chỉ tới "gần đúng" (vẫn giữ chi tiết từng âm);
+ *  - máy chép lời KHÔNG nghe thấy từ này thì không xếp "tốt", chỉ tới "gần đúng" (hoặc "chưa nghe thấy" nếu máy chấm cũng thấy thiếu).
+ * heard: từng từ câu mẫu theo thứ tự, conf null là không nghe thấy (matchReference). Không có heard thì giữ nguyên.
+ */
+/**
+ * Em nói câu khác hẳn câu mẫu: không có từ nào của câu mẫu trong lời máy nghe, mà lời nói dài hơn nhiều. Khi đó không chấm
+ * (máy chấm sẽ ép câu mẫu vào lời khác và cho số vô nghĩa). Không nghe ra lời nào thì cũng không chấm.
+ */
+export function offTarget(ref: { words: { conf: number | null }[]; all: { count: number } } | null | undefined): "no_speech" | "off_target" | null {
+  if (!ref || !ref.all) return null;
+  if (ref.all.count === 0) return "no_speech";
+  const heard = ref.words.filter((w) => w.conf !== null).length;
+  if (heard === 0 && ref.all.count > ref.words.length * 2 + 2) return "off_target";
+  return null;
+}
+
+export function reconcile(result: PronResult, heard: { word: string; conf: number | null }[] | null | undefined): PronResult {
+  if (!heard || heard.length === 0) return result;
+  let k = 0;
+  const words = result.words.map((w): PronWord => {
+    const target = norm(w.word);
+    let idx = -1;
+    for (let j = k; j < heard.length; j++)
+      if (norm(heard[j].word) === target) {
+        idx = j;
+        break;
+      }
+    if (idx === -1) return w;
+    k = idx + 1;
+    const conf = heard[idx].conf;
+    // Máy chép lời không nghe thấy từ này (em nói từ khác, hoặc bỏ sót): không "tốt", không "gần đúng".
+    if (conf === null) return { ...w, asr: "not_heard", level: w.level === "missing" ? "missing" : "work" };
+    if (conf >= ASR_CLEAR) {
+      // Máy chép lời nghe rõ mà máy chấm cho rất thấp: thường do ghép âm bị lệch (em đọc khác câu mẫu ở từ bên cạnh).
+      // Số đo này không đáng tin: không hiện điểm và chi tiết âm, chỉ nói máy chưa đo chắc được.
+      if (w.score !== null && w.score < UNRELIABLE) return { ...w, asr: "clear", level: "close", score: null, syllables: [], phonemes: [], unsure: true };
+      return { ...w, asr: "clear", level: w.level === "work" || w.level === "missing" ? "close" : w.level };
+    }
+    return { ...w, asr: "unsure" };
+  });
+  return { ...result, words };
 }

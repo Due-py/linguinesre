@@ -270,6 +270,7 @@ async function main() {
     await p2.waitForURL(`${BASE}/student`);
     await p2.goto(`${BASE}/student/phieu-luu?m=${mod.id}`);
     const mobile = p2.locator(".md\\:hidden").filter({ has: p2.getByRole("button", { name: /^Ngày 1:/ }) });
+    await mobile.getByRole("button", { name: /^Ngày 1:/ }).waitFor({ timeout: 60_000 }).catch(() => {});
     t("điện thoại: bản đồ dọc hiện đủ nút", (await mobile.getByRole("button", { name: /^(Ngày \d+|Mini-game)/ }).count()) === 19);
     t("điện thoại: không tràn ngang trang", await p2.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1));
     await mobile.getByRole("button", { name: /^Ngày 2:/ }).click();
@@ -286,7 +287,7 @@ async function main() {
     await login(tp, TEACHER);
     await tp.waitForURL(`${BASE}/teacher`);
     await tp.goto(`${BASE}/teacher/classes/${cls.id}`);
-    t("giáo viên: có bảng kỹ năng nói của lớp", await tp.getByRole("heading", { name: "Kỹ năng nói của lớp" }).isVisible());
+    t("giáo viên: có bảng kỹ năng nói của lớp", await tp.getByRole("heading", { name: "Kỹ năng nói của lớp" }).waitFor({ timeout: 60_000 }).then(() => true, () => false));
     t("giáo viên: bảng có học sinh và số nhiệm vụ", await tp.getByRole("rowheader", { name: "Bạn Phiêu Lưu" }).isVisible());
     t("giáo viên: bảng kỹ năng không có cột EXP hay cấp", !/XP|Cấp/.test(await tp.locator("table").filter({ has: tp.getByRole("rowheader", { name: "Bạn Phiêu Lưu" }) }).locator("thead").innerText()));
     const csv = await tp.request.get(`${BASE}/teacher/classes/${cls.id}/export?kind=lessons`);

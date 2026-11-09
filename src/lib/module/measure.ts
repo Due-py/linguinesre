@@ -29,6 +29,8 @@ export type SpeechMeasures = {
    * Không phải lỗi phát âm: có thể do micro, tiếng ồn. Bản ghi cũ không có trường này.
    */
   lowWords?: string[];
+  /** Bước có câu mẫu (nói từ, đọc theo, đọc câu đã xếp): đối chiếu câu mẫu với lời máy nghe (để chấm phát âm đúng đoạn). */
+  ref?: RefHeard;
 };
 
 export const LONG_PAUSE_MS = 1500;
@@ -76,6 +78,51 @@ export function heardRatio(transcript: string, target: string): number {
 }
 
 export const SAY_MIN_RATIO = 0.8;
+
+/** Từng từ của câu mẫu: máy chép lời có nghe thấy không (độ tin cậy), và đoạn thời gian em nói câu mẫu trong bản ghi (giây). */
+export type RefHeard = {
+  start: number | null;
+  end: number | null;
+  words: { word: string; conf: number | null }[];
+  /** Toàn bộ lời máy nghe được (không tính "uh/um"): số từ và đoạn thời gian, để bỏ khoảng im lặng đầu, cuối. */
+  all: { count: number; start: number | null; end: number | null };
+};
+
+/**
+ * Đối chiếu câu mẫu với các từ máy chép lời nghe được, giữ đúng thứ tự (dãy con chung dài nhất theo gốc từ). Dùng để chấm
+ * phát âm đúng ĐOẠN em đọc câu mẫu (bỏ phần nói thêm, nói lặp, im lặng) và để kết quả chấm khớp với những gì máy đã nghe.
+ * Nếu em đọc câu mẫu nhiều lần, lấy lần cuối.
+ */
+export function matchReference(words: AsrWordC[], target: string): RefHeard {
+  const ref = tokens(target);
+  const asr = words.map((w) => ({ ...w, t: tokens(w.word).join("") })).filter((w) => w.t && !isFiller(w.t));
+  const n = ref.length;
+  const m = asr.length;
+  // dp[i][j]: số từ khớp nhiều nhất giữa ref[i..] và asr[j..]; khi bằng nhau ưu tiên khớp muộn hơn (lần đọc cuối).
+  const dp = Array.from({ length: n + 1 }, () => new Array<number>(m + 1).fill(0));
+  for (let i = n - 1; i >= 0; i--)
+    for (let j = m - 1; j >= 0; j--)
+      dp[i][j] = stem(ref[i]) === stem(asr[j].t) ? 1 + dp[i + 1][j + 1] : Math.max(dp[i + 1][j], dp[i][j + 1]);
+  const out: RefHeard["words"] = ref.map((w) => ({ word: w, conf: null }));
+  const hit: AsrWordC[] = [];
+  let i = 0;
+  let j = 0;
+  while (i < n && j < m) {
+    if (stem(ref[i]) === stem(asr[j].t) && dp[i][j] === 1 + dp[i + 1][j + 1] && dp[i][j + 1] < dp[i][j]) {
+      out[i].conf = Math.round(asr[j].confidence * 100) / 100;
+      hit.push(asr[j]);
+      i++;
+      j++;
+    } else if (dp[i][j + 1] >= dp[i + 1][j]) j++;
+    else i++;
+  }
+  return {
+    start: hit.length ? hit[0].start : null,
+    end: hit.length ? hit[hit.length - 1].end : null,
+    words: out,
+    all: { count: m, start: m ? asr[0].start : null, end: m ? asr[m - 1].end : null },
+  };
+}
 
 /** Những từ của câu mẫu máy KHÔNG nghe ra trong lời nói (giữ đúng chữ trong câu mẫu, không trùng). Dùng cho nói theo. */
 export function missedWords(transcript: string, target: string): string[] {

@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
 import AppShell, { STUDENT_NAV } from "@/components/AppShell";
-import StudentHome, { type RoadmapUnit } from "@/components/StudentHome";
+import StudentHome, { type RecentLesson, type RoadmapUnit } from "@/components/StudentHome";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
-import { listUnitsForGrade, todayTask } from "@/lib/practice";
+import { listUnitsForGrade } from "@/lib/practice";
 import { listModules, moduleAttempts, moduleProgress, moduleToday, toHistory } from "@/lib/module/server";
 import { errorCounts } from "@/lib/module/plan";
 import { ERROR_TAGS } from "@/lib/module/schema";
-import { improvementFocus, listSessions, reactionSessions } from "@/lib/sessions";
 import { reactionTrend } from "@/lib/reaction";
 import ResearchHome from "@/components/ResearchHome";
 import ModeHome from "@/components/ModeHome";
@@ -53,15 +52,11 @@ export default async function StudentPage({ searchParams }: { searchParams: Prom
     }
   }
 
-  // RLS: học sinh chỉ thấy lớp mình đã vào và buổi luyện của mình.
+  // RLS: học sinh chỉ thấy lớp mình đã vào và việc học của mình. Mọi việc học đi qua Hành trình (luyện tự do đã bỏ 09/11).
   const supabase = await createClient();
-  const [{ data: classes }, today, units, sessions, focus, reactionData, modules, module, progress] = await Promise.all([
+  const [{ data: classes }, units, modules, module, progress] = await Promise.all([
     supabase.from("classes").select("id, name").eq("status", "active").order("created_at"),
-    profile.grade ? todayTask(profile.id, profile.grade) : Promise.resolve({ kind: "none" as const }),
     profile.grade ? listUnitsForGrade(profile.grade) : Promise.resolve([]),
-    listSessions(profile.id, 50),
-    improvementFocus(profile.id),
-    reactionSessions(profile.id),
     profile.grade ? listModules(profile.grade) : Promise.resolve([]),
     profile.grade ? moduleToday(profile.id, profile.grade) : Promise.resolve(null),
     moduleProgress(profile.id),
@@ -81,26 +76,34 @@ export default async function StudentPage({ searchParams }: { searchParams: Prom
   const doneToday = adv.lessons.some((l) => l.completed_at && vnDay(new Date(l.completed_at)) === todayVn);
   const hour = Number(new Intl.DateTimeFormat("en-GB", { hour: "numeric", hourCycle: "h23", timeZone: "Asia/Ho_Chi_Minh" }).format(now));
 
-  // Lộ trình: Unit có module thì theo tiến độ module (14 ngày xong = đã xong, đã học ít nhất một ngày = đang học, module của
-  // "hôm nay" = tiếp theo); Unit chỉ có luyện tự do thì theo buổi luyện như trước.
-  const nextHref = today.kind === "start" ? today.href : null;
+  // Lộ trình: theo tiến độ module (14 ngày xong = đã xong, đã học ít nhất một ngày = đang học, module của "hôm nay" = tiếp theo).
   const roadmap: RoadmapUnit[] = units.map((u) => {
     const moduleId = moduleOf.get(u.id) ?? null;
     const p = moduleId ? progress.get(moduleId) : undefined;
-    if (moduleId) {
-      const state: RoadmapUnit["state"] = (p?.daysDone ?? 0) >= 14 ? "done" : p ? "in_progress" : module?.id === moduleId ? "next" : "todo";
-      return { id: u.id, unitNo: u.unitNo, title: u.title, titleVi: u.titleVi, state, moduleId, daysDone: p?.daysDone ?? 0 };
-    }
-    const mine = sessions.filter((s) => s.unitId === u.id);
-    const state: RoadmapUnit["state"] = mine.some((s) => s.status === "completed")
-      ? "done"
-      : mine.some((s) => s.status === "in_progress")
-        ? "in_progress"
-        : nextHref === `/student/practice/${u.id}`
-          ? "next"
-          : "todo";
-    return { id: u.id, unitNo: u.unitNo, title: u.title, titleVi: u.titleVi, state, moduleId: null };
+    const state: RoadmapUnit["state"] = !moduleId ? "todo" : (p?.daysDone ?? 0) >= 14 ? "done" : p ? "in_progress" : module?.id === moduleId ? "next" : "todo";
+    return { id: u.id, unitNo: u.unitNo, title: u.title, titleVi: u.titleVi, state, moduleId, daysDone: p?.daysDone ?? 0 };
   });
+
+  // Nhiệm vụ đã xong (mới trước) và thời gian bắt đầu nói ở giữa của từng nhiệm vụ: lượt đầu các câu em tự trả lời.
+  const unitOf = new Map(modules.map((m) => [m.id, m]));
+  const done = adv.lessons.filter((l) => l.status === "completed" && l.completed_at).sort((a, b) => b.completed_at!.localeCompare(a.completed_at!));
+  const recent: RecentLesson[] = done.slice(0, 4).map((l) => ({
+    id: l.id,
+    href: `/student/phieu-luu?m=${l.module_id}`,
+    title: `Ngày ${l.day}: ${DAY_INFO[l.day].titleVi}`,
+    sub: `Unit ${unitOf.get(l.module_id)?.unitNo ?? ""} · ${unitOf.get(l.module_id)?.title ?? ""}`,
+    at: l.completed_at!,
+  }));
+  const reaction = reactionTrend(
+    done.map((l) => ({
+      id: l.id,
+      completedAt: l.completed_at!,
+      unitTitle: `Ngày ${l.day} · Unit ${unitOf.get(l.module_id)?.unitNo ?? ""}`,
+      answers: adv.attempts
+        .filter((a) => a.lessonId === l.id && (a.kind === "speak" || a.kind === "roleplay") && a.turn === 0 && a.attemptNo === 1 && a.measures?.unclear !== true)
+        .map((a) => ({ questionId: `${a.step}`, attemptNo: 1, thinkMs: a.thinkMs })),
+    })),
+  );
 
   return (
     <AppShell name={profile.displayName ?? ""} roleLabel="Học sinh" homeHref="/student" nav={STUDENT_NAV} current="/student">
@@ -109,12 +112,11 @@ export default async function StudentPage({ searchParams }: { searchParams: Prom
         grade={profile.grade}
         classes={classes ?? []}
         joinFailed={join === "failed"}
-        today={today}
         module={module}
         roadmap={roadmap}
-        recent={sessions.slice(0, 3)}
-        focus={focus}
-        reaction={reactionTrend(reactionData)}
+        recent={recent}
+        lessonsDone={done.length}
+        reaction={reaction}
         moduleErrors={moduleErrors}
         companion={
           <CompanionCard

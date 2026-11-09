@@ -76,16 +76,12 @@ async function main() {
   await page.getByLabel("Mật khẩu hoặc PIN", { exact: true }).fill(p.pin);
   await page.getByRole("button", { name: "Đăng nhập" }).click();
   await page.waitForURL(`${BASE}/student`);
-  for (const path of ["/student/practice", `/student/practice/${unit.id}`, `/student/practice/session/${forced2.id}`, "/student/history", `/student/sessions/${forced2.id}`]) {
+  // Luyện tự do đã bỏ (09/11): đường dẫn cũ chuyển về Hành trình, mà Hành trình cũng khóa với người tham gia.
+  for (const path of ["/student/practice", `/student/practice/${unit.id}`, `/student/practice/session/${forced2.id}`, "/student/phieu-luu", "/student/history", `/student/sessions/${forced2.id}`]) {
     await page.goto(`${BASE}${path}`);
     const back = await page.waitForURL(`${BASE}/student`, { timeout: 15_000 }).then(() => true, () => false);
     t(`web: người tham gia mở ${path.replace(/[0-9a-f-]{36}/, "…")} thì về trang chính`, back);
   }
-  const tr = await page.request.post(`${BASE}/api/transcribe?session=${forced2.id}&question=${questionIds[0]}`, {
-    headers: { "Content-Type": "audio/webm" },
-    data: Buffer.alloc(800),
-  });
-  t("web: người tham gia không gọi được chép lời của luyện tự do", tr.status() === 403, `HTTP ${tr.status()}`);
   const tts = await page.request.get(`${BASE}/api/tts/${questionIds[0]}`);
   t("web: người tham gia không gọi được giọng đọc của luyện tự do", tts.status() === 403, `HTTP ${tts.status()}`);
   await page.context().clearCookies();
@@ -96,8 +92,8 @@ async function main() {
   await page.getByRole("button", { name: "Đăng nhập" }).click();
   await page.waitForURL(`${BASE}/student`);
   await page.goto(`${BASE}/student/practice`);
-  await page.waitForLoadState("networkidle");
-  t("web: học sinh thường vẫn mở được trang luyện tự do", page.url() === `${BASE}/student/practice`);
+  await page.waitForURL(/\/student\/phieu-luu/, { timeout: 30_000 }).catch(() => {});
+  t("web: học sinh thường mở đường dẫn luyện tự do cũ thì sang Hành trình", page.url().startsWith(`${BASE}/student/phieu-luu`), page.url());
   const tts2 = await page.request.get(`${BASE}/api/tts/${questionIds[0]}`);
   t("web: học sinh thường không bị chặn giọng đọc", tts2.status() !== 403, `HTTP ${tts2.status()}`);
   await browser.close();
