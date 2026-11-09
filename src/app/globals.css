@@ -546,6 +546,37 @@ h3 {
   animation: adv-ray 0.9s cubic-bezier(0.2, 0, 0, 1) 0.15s both;
 }
 
+/* ---- Linguine (linh vật): bong bóng bay lên, đổi tư thế thì nảy nhẹ một lần. */
+@keyframes mascot-bubble {
+  from {
+    transform: translateY(0) scale(0.6);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-420%) scale(1);
+    opacity: 0;
+  }
+}
+.mascot-bubble {
+  animation: mascot-bubble 4.5s ease-in infinite;
+}
+@keyframes mascot-pop {
+  from {
+    transform: translateY(6px) scale(0.96);
+    opacity: 0.4;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+.mascot-pop {
+  animation: mascot-pop 0.35s cubic-bezier(0.2, 0, 0, 1) both;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

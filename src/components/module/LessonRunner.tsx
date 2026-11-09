@@ -11,6 +11,7 @@ import { DAY_INFO, type PlannedStep, type StepHint } from "@/lib/module/plan";
 import { ERROR_TAGS, type ErrorTag, type ModuleContent } from "@/lib/module/schema";
 import { useRecorder, type Recording } from "@/lib/speaking/useRecorder";
 import { moduleAudio, playAudio, postAudio } from "./audio";
+import Mascot from "@/components/penguin/Mascot";
 import { AssessPanel, MeasuredPanel, ReportView, SourceBadge } from "./Panels";
 import RecordButton from "./RecordButton";
 import HeardWords from "./HeardWords";
@@ -1406,7 +1407,8 @@ function DoneArt() {
           <circle key={i} cx={d.x} cy={d.y} r="4" fill={d.c} className="pop-in" style={{ ["--i" as string]: i + 1, transformOrigin: `${d.x}px ${d.y}px` }} />
         ))}
       </svg>
-      <Linguine size={168} className="pop-in" />
+      {/* Xong bài học: Linguine ăn mừng. */}
+      <Mascot state="celebrating" size={168} className="pop-in" />
       <span className="pop-in absolute bottom-2 right-0 grid size-11 place-items-center rounded-full bg-success text-white shadow-float" style={{ ["--i" as string]: 4 }}>
         <svg viewBox="0 0 24 24" className="size-6" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
           <path d="M5 12.5l4.5 4.5L19 7.5" />

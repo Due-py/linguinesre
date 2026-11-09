@@ -22,23 +22,55 @@ export const lessonSource = (lessonId: string) => `lesson:${lessonId}`;
 export const gameSource = (moduleId: string, game: GameKey) => `game:${moduleId}:${game}`;
 export const dailySource = (vnDate: string) => `daily:${vnDate}`;
 
-export type CompletedLesson = { id: string; moduleId: string; day: number; completedAt: string };
-export type FinishedRound = { moduleId: string; game: GameKey; finishedAt: string; answered: number; total: number };
+/** share: phần bước đã thật sự làm (không bỏ qua), 0–1. Thiếu thì coi là 1 (bài cũ). */
+export type CompletedLesson = { id: string; moduleId: string; day: number; completedAt: string; share?: number };
+/** correct: số câu đúng (null: dữ liệu cũ chưa có). */
+export type FinishedRound = { moduleId: string; game: GameKey; finishedAt: string; answered: number; total: number; correct?: number | null };
+
+/** Bài bỏ qua nhiều bước không nhận đủ EXP: nhân theo phần đã làm, thấp nhất 30% (đã đi hết bài). Gợi ý không bị tính. */
+export const MIN_SHARE = 0.3;
+export const lessonXp = (l: CompletedLesson) => Math.max(1, Math.round(questXp(l.day) * Math.max(MIN_SHARE, Math.min(1, l.share ?? 1))));
+/** Mini-game chỉ thưởng khi đúng ít nhất một nửa (bấm bừa không có thưởng); chưa đạt thì chơi lại vẫn nhận được. */
+export const GAME_PASS = 0.5;
+export const roundPassed = (r: FinishedRound) => r.answered >= r.total && (r.correct === undefined || r.correct === null || r.correct / r.total >= GAME_PASS);
 
 /**
  * Các phần thưởng mà dữ liệu thật cho phép. Tính lại được bất cứ lúc nào (idempotent): máy chủ chỉ chèn khóa chưa có.
  * Mini-game: chỉ lượt đầu tiên trả lời hết câu của mỗi trò trong mỗi Unit; chơi lại vẫn luyện được nhưng không thêm XP.
  */
 export function earnedEvents(lessons: CompletedLesson[], rounds: FinishedRound[]): XpEvent[] {
-  const out: XpEvent[] = lessons.map((l) => ({ source: lessonSource(l.id), kind: "quest", xp: questXp(l.day), at: l.completedAt }));
+  const out: XpEvent[] = lessons.map((l) => ({ source: lessonSource(l.id), kind: "quest", xp: lessonXp(l), at: l.completedAt }));
   const seen = new Set<string>();
   for (const r of [...rounds].sort((a, b) => a.finishedAt.localeCompare(b.finishedAt))) {
-    if (r.answered < r.total) continue;
+    if (!roundPassed(r)) continue;
     const s = gameSource(r.moduleId, r.game);
     if (seen.has(s)) continue;
     seen.add(s);
     out.push({ source: s, kind: "game", xp: XP.game, at: r.finishedAt });
   }
+  return out;
+}
+
+// ---- Lingua Coins (LC): tiền ảo riêng, chỉ mua đồ trang trí -----------------------------------------------------------
+
+/** LC nhận theo cùng việc học thật như EXP (cùng khóa nguồn), thêm khi lên cấp và khi có thành tích. Không bao giờ mua EXP. */
+export const COINS = { quest: 10, challenge: 15, game: 5, daily: 5, level: 20, achievement: 10 } as const;
+export type CoinGrant = { source: string; delta: number; reason: string; at: string };
+
+export function earnedCoins(events: XpEvent[], totalXp: number, achievements: { key: AchievementKey; at: string }[]): CoinGrant[] {
+  const out: CoinGrant[] = [];
+  for (const e of events) {
+    if (e.kind === "quest") {
+      const full = e.xp >= XP.challenge ? COINS.challenge : COINS.quest;
+      // Cùng tỷ lệ với EXP của bài (bài bỏ qua nhiều bước nhận ít hơn).
+      const base = e.xp >= XP.challenge ? XP.challenge : XP.quest;
+      out.push({ source: e.source, delta: Math.max(1, Math.round(full * Math.min(1, e.xp / base))), reason: "Hoàn thành một nhiệm vụ", at: e.at });
+    } else if (e.kind === "game") out.push({ source: e.source, delta: COINS.game, reason: "Lần đầu chơi đạt một mini-game", at: e.at });
+    else out.push({ source: e.source, delta: COINS.daily, reason: "Thử thách trong ngày", at: e.at });
+  }
+  const level = levelOf(totalXp).level;
+  for (let l = 2; l <= level; l++) out.push({ source: `level:${l}`, delta: COINS.level, reason: `Lên cấp ${l}`, at: new Date(0).toISOString() });
+  for (const a of achievements) out.push({ source: `ach:${a.key}`, delta: COINS.achievement, reason: `Thành tích: ${ACHIEVEMENTS[a.key].titleVi}`, at: a.at });
   return out;
 }
 

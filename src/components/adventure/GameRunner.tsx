@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { ArrowRight, Check, CircleAlert, RotateCcw, Sparkles, Timer, X } from "lucide-react";
-import Linguine from "@/components/Linguine";
+import Mascot from "@/components/penguin/Mascot";
 import ListenButton from "@/components/module/Listen";
 import { answerItem, startRound, type AnswerView } from "@/app/(student)/student/phieu-luu/actions";
 import type { GameItem, GameReveal } from "@/lib/adventure/minigames";
@@ -11,7 +11,7 @@ import { QUICK_THINK_MS } from "@/lib/adventure/minigames";
 import type { GameKey } from "@/lib/adventure/world";
 
 type Done = { i: number; a: string | string[] | null; reveal: GameReveal };
-type Result = { correct: number; total: number; xp: number; firstTime: boolean };
+type Result = { correct: number; total: number; xp: number; coins: number; firstTime: boolean; passed: boolean; rewards: boolean };
 
 /**
  * Một lượt mini-game: máy chủ chọn câu và chấm từng câu (trình duyệt không biết đáp án trước). Ngắn, 1–3 phút.
@@ -54,7 +54,7 @@ export default function GameRunner({ moduleId, game, title, how }: { moduleId: s
       }
       setError(null);
       setDone((d) => [...d, { i: index, a, reveal: r.reveal }]);
-      if (r.finished) setResult({ correct: r.correct, total: r.total, xp: r.xp, firstTime: r.firstTime });
+      if (r.finished) setResult({ correct: r.correct, total: r.total, xp: r.xp, coins: r.coins, firstTime: r.firstTime, passed: r.passed, rewards: r.rewards });
       return r;
     },
     [busy, roundId],
@@ -80,17 +80,19 @@ export default function GameRunner({ moduleId, game, title, how }: { moduleId: s
   if (phase === "done" && result)
     return (
       <div className="grid justify-items-center gap-5 rounded-[2rem] bg-tint px-6 py-8 text-center">
-        <Linguine pose="full" size={130} className="adv-burst" />
+        <Mascot state={result.passed ? "celebrating" : "encouraging"} size={130} className="adv-burst" />
         <h2 className="text-3xl font-semibold tracking-tight">Xong lượt chơi!</h2>
         <p className="text-xl">
           Đúng <span className="font-semibold tabular-nums">{result.correct}/{result.total}</span> câu
         </p>
-        {result.firstTime ? (
-          <p className="inline-flex items-center gap-2 rounded-full bg-gold-soft px-4 py-2 text-lg font-semibold text-warn">
-            <Sparkles className="size-5" aria-hidden />+{result.xp} XP (lần đầu chơi xong trò này ở Unit này)
+        {!result.rewards ? null : !result.passed ? (
+          <p className="max-w-prose text-muted">Đúng từ một nửa số câu trở lên thì được thưởng. Xem lại lời giải rồi chơi lượt mới nhé, không vội.</p>
+        ) : result.firstTime ? (
+          <p className="inline-flex flex-wrap items-center justify-center gap-2 rounded-full bg-gold-soft px-4 py-2 text-lg font-semibold text-warn">
+            <Sparkles className="size-5" aria-hidden />+{result.xp} EXP{result.coins ? ` · +${result.coins} LC` : ""} (lần đầu chơi đạt trò này ở Unit này)
           </p>
         ) : (
-          <p className="max-w-prose text-muted">Em đã nhận XP của trò này ở Unit này rồi. Chơi lại để ôn thêm, không có thêm XP.</p>
+          <p className="max-w-prose text-muted">Em đã nhận thưởng của trò này ở Unit này rồi. Chơi lại để ôn thêm, không có thêm EXP.</p>
         )}
         <div className="flex flex-wrap justify-center gap-3">
           <button type="button" onClick={begin} className="press inline-flex min-h-12 items-center gap-2 rounded-full bg-brand-soft px-6 font-semibold text-brand-strong hover:bg-brand-tonal">

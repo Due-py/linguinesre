@@ -10,7 +10,7 @@ const ATTEMPT_COLS = "student_id, module_id, day, kind, turn, attempt_no, area, 
 
 /**
  * Giáo viên xem kỹ năng nói của cả lớp (TIẾN TRÌNH HỌC, tính từ số đo thật như trang Kỹ năng của học sinh), ai cần hỗ trợ và vì sao,
- * mức tham gia (nhiệm vụ, mini-game). Không hiện XP hay cấp phiêu lưu: đó là phần trò chơi, không phải năng lực.
+ * mức tham gia (nhiệm vụ, mini-game). Không hiện EXP hay cấp phiêu lưu: đó là phần trò chơi, không phải năng lực.
  * RLS: chỉ học sinh trong lớp của giáo viên này.
  */
 export default async function ClassSkills({ classId, students }: { classId: string; students: { id: string; name: string }[] }) {
@@ -49,7 +49,7 @@ export default async function ClassSkills({ classId, students }: { classId: stri
             Kỹ năng nói của lớp
           </h2>
           <p className="max-w-prose text-muted">
-            Tính từ số đo thật qua nhiều bài (cần đủ dữ liệu ở ít nhất 2 bài). Không dùng XP hay cấp phiêu lưu: hoàn thành nhiệm vụ không làm kỹ năng tăng.
+            Tính từ số đo thật qua nhiều bài (cần đủ dữ liệu ở ít nhất 2 bài). Không dùng EXP hay cấp phiêu lưu: hoàn thành nhiệm vụ không làm kỹ năng tăng.
           </p>
         </div>
         <div className="flex flex-wrap gap-2">

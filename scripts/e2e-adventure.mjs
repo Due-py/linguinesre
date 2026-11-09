@@ -82,6 +82,8 @@ async function main() {
   const day2 = lessons.find((l) => l.day === 2).id;
 
   const has0013 = (await fetch(`${U}/rest/v1/xp_events?select=id&limit=1`, { headers: svc() })).ok;
+  const has0014 = (await fetch(`${U}/rest/v1/shop_items?select=key&limit=1`, { headers: svc() })).ok;
+  console.log(has0014 ? "Đã có bảng của 0014_shop.sql." : "CHƯA chạy 0014_shop.sql: phần Lingua Coins và cửa hàng sẽ được báo bỏ qua.");
   console.log(has0013 ? "Đã có bảng của 0013_adventure.sql." : "CHƯA chạy 0013_adventure.sql: phần XP và mini-game sẽ được báo bỏ qua.");
 
   // RLS: học sinh không tự cộng XP, không tự tạo lượt chơi.
@@ -109,7 +111,7 @@ async function main() {
     await page.goto(`${BASE}/student/phieu-luu?m=${mod.id}&xong=${day2}`);
     const done = page.getByRole("dialog", { name: "Hoàn thành nhiệm vụ!" });
     t("màn hình hoàn thành nhiệm vụ hiện khi vừa xong bài", await done.waitFor({ timeout: 30_000 }).then(() => true, () => false));
-    if (has0013) t("màn hình hoàn thành có XP vừa nhận", await done.getByText("+100 XP").isVisible().catch(() => false));
+    if (has0013) t("màn hình hoàn thành có EXP vừa nhận", await done.getByText(/^\+100 EXP/).isVisible().catch(() => false));
     t("màn hình hoàn thành ghi rõ cấp phiêu lưu không phải trình độ", !has0013 || (await done.getByText("không phải trình độ tiếng Anh").isVisible()));
     if (SHOTS) await page.screenshot({ path: `${SHOTS}/hoan-thanh.png` });
     await done.getByRole("button", { name: "Về bản đồ" }).click();
@@ -133,7 +135,7 @@ async function main() {
 
     await node(/^Ngày 3 · Thử thách/).click();
     const sheet = page.getByRole("dialog");
-    t("bảng chi tiết nhiệm vụ: câu chuyện, mục tiêu, thời gian, độ khó, XP, kỹ năng", (await sheet.getByText("Mục tiêu:").isVisible()) && (await sheet.getByText("150 XP").isVisible()) && (await sheet.getByText("Kỹ năng được luyện").isVisible()));
+    t("bảng chi tiết nhiệm vụ: câu chuyện, mục tiêu, thời gian, độ khó, XP, kỹ năng", (await sheet.getByText("Mục tiêu:").isVisible()) && (await sheet.getByText("Tới 150 EXP").isVisible()) && (await sheet.getByText("Kỹ năng được luyện").isVisible()));
     t("nhiệm vụ thử thách nói rõ không gợi ý, XP không theo kết quả", await sheet.getByText(/không gợi ý, không đồng hồ trò chơi/).isVisible());
     if (SHOTS) await page.screenshot({ path: `${SHOTS}/chi-tiet-nhiem-vu.png` });
     await sheet.getByRole("button", { name: "Đóng" }).click();
@@ -160,18 +162,22 @@ async function main() {
         await page.getByRole("button", { name: /^Bắt đầu: Ghép từ|^Chơi lượt mới$/ }).click();
         await page.getByRole("list", { name: "Từ tiếng Anh" }).waitFor();
         for (let k = 0; k < 6; k++) {
-          await page.getByRole("list", { name: "Từ tiếng Anh" }).getByRole("button").and(page.locator(":enabled")).first().click();
-          await page.getByRole("list", { name: "Nghĩa tiếng Việt" }).getByRole("button").and(page.locator(":enabled")).first().click();
+          // Chọn đúng nghĩa theo nội dung bài (mini-game chỉ thưởng khi đúng từ một nửa).
+          const word = page.getByRole("list", { name: "Từ tiếng Anh" }).getByRole("button").and(page.locator(":enabled")).first();
+          const en = (await word.innerText()).trim();
+          await word.click();
+          const vi = CONTENT.vocab.find((v) => v.en === en)?.vi;
+          await page.getByRole("list", { name: "Nghĩa tiếng Việt" }).getByRole("button", { name: vi, exact: true }).click();
           await page.getByRole("status").first().waitFor();
         }
         await page.getByRole("button", { name: /Xem kết quả/ }).click();
         await page.getByRole("heading", { name: "Xong lượt chơi!" }).waitFor();
       };
       await play();
-      t("mini-game: chơi xong, lần đầu nhận 40 XP", await page.getByText(/\+40 XP/).isVisible());
+      t("mini-game: chơi đạt, lần đầu nhận 40 EXP", await page.getByText(/\+40 EXP/).isVisible());
       if (SHOTS) await page.screenshot({ path: `${SHOTS}/mini-game.png`, fullPage: true });
       await play();
-      t("mini-game: chơi lại không thêm XP", await page.getByText(/không có thêm XP/).isVisible());
+      t("mini-game: chơi lại không thêm EXP", await page.getByText(/không có thêm EXP/).isVisible());
       const xp = await admin(`xp_events?select=source,xp&student_id=eq.${userId}`);
       t("XP ghi đúng một lần cho mỗi nguồn", xp.filter((e) => e.source.startsWith("game:")).length === 1 && xp.filter((e) => e.source.startsWith("lesson:")).length === 2, xp.map((e) => e.source).join(", "));
       const rounds = await admin(`game_rounds?select=answers,total,finished_at&student_id=eq.${userId}`);
@@ -180,7 +186,7 @@ async function main() {
       t("mini-game chưa mở thì không chơi được", await page.getByText(/mở sau khi em xong nhiệm vụ ngày 6/).isVisible());
 
       await page.goto(`${BASE}/student/phieu-luu/ho-so`);
-      t("hồ sơ phiêu lưu: cấp 2 sau 240 XP", await page.getByRole("heading", { name: /^Cấp 2:/ }).isVisible());
+      t("hồ sơ phiêu lưu: cấp 2 sau 240 EXP", await page.getByRole("heading", { name: /^Cấp 2:/ }).waitFor({ timeout: 30_000 }).then(() => true, () => false));
       t("hồ sơ: thành tích 'Chuyến đi đầu tiên'", await page.getByText("Chuyến đi đầu tiên").first().isVisible());
       await page.getByRole("button", { name: /^Cờ đỏ Ý/ }).click();
       await page.getByRole("button", { name: /^Cờ đỏ Ý/, pressed: true }).waitFor();
@@ -188,6 +194,56 @@ async function main() {
       t("đổi đồ trang trí đã mở khóa", prof[0]?.cosmetics?.flag === "red");
       t("đồ chưa mở khóa không bấm được", await page.getByRole("button", { name: /^Mùa đông/ }).isDisabled());
       if (SHOTS) await page.screenshot({ path: `${SHOTS}/ho-so.png`, fullPage: true });
+
+      // ---- Lingua Coins và Cửa hàng Penguin ----
+      if (has0014) {
+        const coins = await admin(`coin_transactions?select=source,delta&student_id=eq.${userId}`);
+        const bal = coins.reduce((n, c) => n + c.delta, 0);
+        // 2 nhiệm vụ (10+10), mini-game đạt (5), lên cấp 2 (20), thành tích (mỗi cái 10).
+        t("nhận Lingua Coins từ việc học thật, không trùng", bal >= 45 && new Set(coins.map((c) => c.source)).size === coins.length, `${bal} LC: ${coins.map((c) => c.source).join(", ")}`);
+        await page.goto(`${BASE}/student/cua-hang`);
+        await page.getByRole("heading", { name: "Phông nền" }).waitFor();
+        t("cửa hàng: món quá đắt không mua được", await page.getByRole("listitem").filter({ hasText: "Linguine học giả" }).getByRole("button", { name: "Mua" }).isDisabled());
+        await page.getByRole("listitem").filter({ hasText: "Đồng cỏ" }).getByRole("button", { name: "Mua" }).click();
+        const confirm = page.getByRole("dialog", { name: /Mua Đồng cỏ\?/ });
+        t("cửa hàng: hỏi xác nhận trước khi mua, ghi rõ số dư sau khi mua", await confirm.getByText(`${bal - 40} LC`).isVisible());
+        await confirm.getByRole("button", { name: "Mua" }).click();
+        await page.getByText(/Đã mua Đồng cỏ/).waitFor();
+        const after = (await admin(`coin_transactions?select=delta&student_id=eq.${userId}`)).reduce((n, c) => n + c.delta, 0);
+        t("mua xong: trừ đúng giá, có trong đồ đã có", after === bal - 40 && (await admin(`owned_items?select=item_key&student_id=eq.${userId}`)).some((o) => o.item_key === "bg_meadow"), `${after} LC`);
+        // Mua trùng và mua khi thiếu tiền: chặn ở CSDL (gọi thẳng hàm như máy chủ).
+        const rpc = (item) => fetch(`${U}/rest/v1/rpc/buy_item`, { method: "POST", headers: svc(json), body: JSON.stringify({ p_student: userId, p_item: item }) }).then((r) => r.json());
+        t("mua trùng bị chặn", (await rpc("bg_meadow")) === "owned");
+        t("thiếu tiền bị chặn, số dư không âm", (await rpc("skin_scholar")) === "insufficient");
+        const both = await Promise.all([rpc("acc_book"), rpc("acc_book")]);
+        const left = (await admin(`coin_transactions?select=delta&student_id=eq.${userId}`)).reduce((n, c) => n + c.delta, 0);
+        t("bấm mua hai lần cùng lúc chỉ trừ tiền một lần", both.filter((x) => x === "ok").length === 1 && left === after - 40 && left >= 0, `${both.join(",")} → ${left} LC`);
+        const stu = await fetch(`${U}/rest/v1/rpc/buy_item`, { method: "POST", headers: asStudent, body: JSON.stringify({ p_student: userId, p_item: "bg_night" }) });
+        t("học sinh không tự gọi hàm mua được (chỉ máy chủ)", !stu.ok, String(stu.status));
+        const cheat = await fetch(`${U}/rest/v1/coin_transactions`, { method: "POST", headers: asStudent, body: JSON.stringify({ student_id: userId, delta: 9999, source: "cheat", reason: "x" }) });
+        t("RLS: học sinh không tự cộng Lingua Coins", !cheat.ok, String(cheat.status));
+        // Dùng, tải lại vẫn giữ, bỏ dùng.
+        await page.reload();
+        await page.getByRole("listitem").filter({ hasText: "Đồng cỏ" }).getByRole("button", { name: "Dùng" }).click();
+        await page.getByText(/Linguine đang dùng Đồng cỏ/).waitFor();
+        await page.reload();
+        t("trang bị được lưu, tải lại trang vẫn còn", await page.getByRole("listitem").filter({ hasText: "Đồng cỏ" }).getByText("Đang dùng").waitFor({ timeout: 30_000 }).then(() => true, () => false));
+        if (SHOTS) await page.screenshot({ path: `${SHOTS}/cua-hang.png`, fullPage: true });
+        await page.getByRole("listitem").filter({ hasText: "Đồng cỏ" }).getByRole("button", { name: "Bỏ dùng" }).click();
+        await page.getByText(/Đã bỏ Đồng cỏ/).waitFor();
+        const prof2 = await admin(`adventure_profiles?select=cosmetics&student_id=eq.${userId}`);
+        t("bỏ dùng được", !prof2[0]?.cosmetics?.m_background && prof2[0]?.cosmetics?.flag === "red");
+        await page.goto(`${BASE}/student/phieu-luu/ho-so`);
+        t("hồ sơ: lịch sử Lingua Coins có cả nhận và tiêu", (await page.getByText("Mua Đồng cỏ").isVisible()) && (await page.getByText(/Lên cấp 2/).isVisible()));
+        // Giáo viên không đọc được ví của học sinh (RLS chỉ cho chính học sinh).
+        const tc = await (await fetch(`${U}/rest/v1/coin_transactions?select=id&student_id=eq.${userId}`, { headers: asTeacher })).json();
+        t("RLS: giáo viên không xem được ví của học sinh", Array.isArray(tc) && tc.length === 0);
+      } else skip("Lingua Coins, cửa hàng", "chưa chạy 0014_shop.sql");
+
+      await page.goto(`${BASE}/student`);
+      const companion = page.getByRole("region", { name: "Linguine và tiến trình phiêu lưu" });
+      t("trang tổng quan: khối Linguine có cấp và EXP", await companion.getByText(/EXP$/).first().waitFor({ timeout: 30_000 }).then(() => true, () => false));
+      if (SHOTS) await page.screenshot({ path: `${SHOTS}/tong-quan.png`, fullPage: true });
     } else {
       skip("mini-game, XP, hồ sơ phiêu lưu", "chưa chạy 0013_adventure.sql");
       await page.goto(`${BASE}/student/phieu-luu/ho-so`);
@@ -195,8 +251,10 @@ async function main() {
     }
 
     await page.goto(`${BASE}/student/ky-nang`);
+    await page.getByRole("heading", { level: 1, name: /Kỹ năng/ }).waitFor({ timeout: 30_000 }).catch(() => {});
+    if (SHOTS) await page.screenshot({ path: `${SHOTS}/ky-nang.png`, fullPage: true });
     t("trang Kỹ năng: 6 kỹ năng, chưa đủ dữ liệu thì nói rõ", (await page.getByRole("heading", { level: 2 }).count()) === 6 && (await page.getByText("Chưa đủ dữ liệu").count()) === 6);
-    t("trang Kỹ năng nói rõ XP không làm kỹ năng tăng", await page.getByText(/XP không làm kỹ năng tăng/).isVisible());
+    t("trang Kỹ năng nói rõ EXP không làm kỹ năng tăng", await page.getByText(/EXP không làm kỹ năng tăng/).isVisible());
     await ctx.close();
 
     // ---- Điện thoại: bản đồ dọc ----
@@ -213,7 +271,7 @@ async function main() {
     t("điện thoại: bản đồ dọc hiện đủ nút", (await mobile.getByRole("button", { name: /^(Ngày \d+|Mini-game)/ }).count()) === 19);
     t("điện thoại: không tràn ngang trang", await p2.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1));
     await mobile.getByRole("button", { name: /^Ngày 2:/ }).click();
-    t("điện thoại: mở được bảng chi tiết", await p2.getByRole("dialog").getByText("Đã nhận 100 XP").isVisible());
+    t("điện thoại: mở được bảng chi tiết", await p2.getByRole("dialog").getByText(has0013 ? "Đã nhận EXP" : "Mục tiêu:").isVisible());
     await p2.getByRole("dialog").getByRole("button", { name: "Đóng" }).click();
     if (SHOTS) await p2.screenshot({ path: `${SHOTS}/ban-do-dien-thoai.png`, fullPage: true });
     t("điện thoại: không có lỗi trong trình duyệt", phoneErrors.length === 0, phoneErrors.slice(0, 2).join(" | ").slice(0, 600));
@@ -228,7 +286,7 @@ async function main() {
     await tp.goto(`${BASE}/teacher/classes/${cls.id}`);
     t("giáo viên: có bảng kỹ năng nói của lớp", await tp.getByRole("heading", { name: "Kỹ năng nói của lớp" }).isVisible());
     t("giáo viên: bảng có học sinh và số nhiệm vụ", await tp.getByRole("rowheader", { name: "Bạn Phiêu Lưu" }).isVisible());
-    t("giáo viên: bảng kỹ năng không có cột XP hay cấp", !/XP|Cấp/.test(await tp.locator("table").filter({ has: tp.getByRole("rowheader", { name: "Bạn Phiêu Lưu" }) }).locator("thead").innerText()));
+    t("giáo viên: bảng kỹ năng không có cột EXP hay cấp", !/XP|Cấp/.test(await tp.locator("table").filter({ has: tp.getByRole("rowheader", { name: "Bạn Phiêu Lưu" }) }).locator("thead").innerText()));
     const csv = await tp.request.get(`${BASE}/teacher/classes/${cls.id}/export?kind=lessons`);
     const body = await csv.text();
     t("giáo viên: xuất CSV từng bài (có thời gian luyện, gợi ý, thay đổi thích ứng)", csv.headers()["content-type"]?.includes("text/csv") && body.includes("active_minutes_est") && body.includes("adaptive_notes") && body.includes("Ghi chú thích ứng thử"));

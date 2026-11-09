@@ -9,6 +9,8 @@ import { SKILLS, type GameKey, type SkillKey } from "./world";
 
 export type SkillAttempt = {
   moduleId: string;
+  lessonId?: string;
+  step?: number;
   day: number;
   kind: string;
   turn: number;

@@ -7,7 +7,8 @@ import { createAdminClient } from "@/lib/supabase/admin";
 import { canPractice } from "@/lib/research/server";
 import { getModule } from "@/lib/module/server";
 import { buildItems, checkItem, type GameItem, type GameReveal } from "@/lib/adventure/minigames";
-import { ACHIEVEMENTS, COSMETICS, gameSource, levelOf, unlocked, XP, type AchievementKey, type CosmeticSlot } from "@/lib/adventure/game";
+import { ACHIEVEMENTS, COINS, COSMETICS, GAME_PASS, gameSource, levelOf, unlocked, XP, type AchievementKey, type CosmeticSlot } from "@/lib/adventure/game";
+import { gamificationEnabled } from "@/lib/adventure/server";
 import { GAME_AFTER, GAMES, type GameKey } from "@/lib/adventure/world";
 
 /**
@@ -78,7 +79,7 @@ export async function startRound(input: { moduleId: string; game: string }): Pro
 }
 
 export type AnswerView =
-  | { ok: true; reveal: GameReveal; finished: boolean; correct: number; total: number; xp: number; firstTime: boolean }
+  | { ok: true; reveal: GameReveal; finished: boolean; correct: number; total: number; xp: number; coins: number; firstTime: boolean; passed: boolean; rewards: boolean }
   | { ok: false; error: string };
 
 /** Chấm một câu (mỗi câu một lần). Câu cuối: kết thúc lượt, ghi XP nếu là lần đầu xong trò này ở Unit này. */
@@ -117,17 +118,30 @@ export async function answerItem(input: { roundId: string; index: number; answer
   if (!saved || saved.length === 0) return { ok: false, error: "Lượt chơi này đã xong. Tải lại trang nhé." };
 
   let xp = 0;
+  let coins = 0;
   let firstTime = false;
-  if (finished) {
+  // Chỉ thưởng khi đúng ít nhất một nửa (bấm bừa không có thưởng) và phần trò chơi đang bật.
+  const passed = finished && correct / r.total >= GAME_PASS;
+  const rewards = await gamificationEnabled();
+  if (passed && rewards) {
+    const source = gameSource(r.module_id, r.game as GameKey);
     const { data: ins } = await admin
       .from("xp_events")
-      .upsert({ student_id: me.userId, source: gameSource(r.module_id, r.game as GameKey), kind: "game", xp: XP.game }, { onConflict: "student_id,source", ignoreDuplicates: true })
+      .upsert({ student_id: me.userId, source, kind: "game", xp: XP.game }, { onConflict: "student_id,source", ignoreDuplicates: true })
       .select("id");
     firstTime = !!ins && ins.length > 0;
     xp = firstTime ? XP.game : 0;
-    revalidatePath("/student/phieu-luu");
+    if (firstTime) {
+      // LC cùng khóa nguồn với EXP. Chưa chạy 0014 thì bỏ qua (lỗi không chặn trò chơi).
+      const { data: c } = await admin
+        .from("coin_transactions")
+        .upsert({ student_id: me.userId, source, delta: COINS.game, reason: "Lần đầu chơi đạt một mini-game" }, { onConflict: "student_id,source", ignoreDuplicates: true })
+        .select("id");
+      coins = c && c.length > 0 ? COINS.game : 0;
+    }
   }
-  return { ok: true, reveal, finished, correct, total: r.total, xp, firstTime };
+  if (finished) revalidatePath("/student/phieu-luu");
+  return { ok: true, reveal, finished, correct, total: r.total, xp, coins, firstTime, passed, rewards };
 }
 
 /** Đổi đồ trang trí: chỉ món đã mở khóa (máy chủ tự tính lại cấp và thành tích, không tin trình duyệt). */

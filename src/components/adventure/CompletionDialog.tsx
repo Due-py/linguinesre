@@ -2,14 +2,17 @@
 
 import { useEffect, useRef } from "react";
 import { Award, Check, Sparkles } from "lucide-react";
-import Linguine from "@/components/Linguine";
+import Mascot from "@/components/penguin/Mascot";
 
 export type CompletionData = {
   day: number;
   titleVi: string;
   regionVi: string;
-  /** XP của nhiệm vụ này (null khi chưa chạy 0013, chưa có hệ thống XP). */
+  /** EXP của nhiệm vụ này (null khi chưa chạy 0013, chưa có hệ thống EXP). */
   xp: number | null;
+  /** LC vừa nhận trong lần này (null: chưa chạy 0014). */
+  coins: number | null;
+  leveledUp: boolean;
   dailyXp: number | null;
   newAchievements: string[];
   level: { level: number; title: string; into: number; need: number } | null;
@@ -19,7 +22,7 @@ export type CompletionData = {
   next: string | null;
 };
 
-/** Màn hình hoàn thành nhiệm vụ: một hiệu ứng ngắn, XP vừa nhận, kết quả thật của bài, kỹ năng đã luyện, nhiệm vụ tiếp theo. */
+/** Màn hình hoàn thành nhiệm vụ: một hiệu ứng ngắn, EXP vừa nhận, kết quả thật của bài, kỹ năng đã luyện, nhiệm vụ tiếp theo. */
 export default function CompletionDialog({ data }: { data: CompletionData }) {
   const ref = useRef<HTMLDialogElement>(null);
   useEffect(() => {
@@ -49,7 +52,7 @@ export default function CompletionDialog({ data }: { data: CompletionData }) {
               style={{ ["--a" as string]: `${i * 36}deg`, background: ["#1b7d43", "#f4b824", "#d62327"][i % 3] }}
             />
           ))}
-          <Linguine pose="full" size={150} className="adv-burst relative" />
+          <Mascot state={data.leveledUp ? "levelup" : "celebrating"} size={150} className="adv-burst relative" />
           <span className="adv-burst absolute bottom-2 right-3 grid size-11 place-items-center rounded-full bg-brand text-on-brand shadow-[0_4px_0_var(--brand-strong)]">
             <Check className="size-6" strokeWidth={3} />
           </span>
@@ -67,9 +70,10 @@ export default function CompletionDialog({ data }: { data: CompletionData }) {
         {data.xp !== null && (
           <div className="grid gap-3 rounded-3xl bg-gold-soft px-5 py-4">
             <p className="flex items-center justify-center gap-2 text-2xl font-semibold">
-              <Sparkles className="size-6 text-[#a86f00]" aria-hidden />+{data.xp + (data.dailyXp ?? 0)} XP
+              <Sparkles className="size-6 text-[#a86f00]" aria-hidden />+{data.xp + (data.dailyXp ?? 0)} EXP{data.coins ? ` · +${data.coins} LC` : ""}
             </p>
-            {data.dailyXp !== null && <p className="text-sm text-warn">Gồm {data.dailyXp} XP của thử thách hôm nay.</p>}
+            {data.dailyXp !== null && <p className="text-sm text-warn">Gồm {data.dailyXp} EXP của thử thách hôm nay.</p>}
+            {data.leveledUp && data.level && <p className="font-semibold text-warn">Em vừa lên cấp {data.level.level}!</p>}
             {data.level && (
               <div className="grid gap-1 text-left">
                 <p className="flex justify-between text-sm font-medium">
@@ -77,7 +81,7 @@ export default function CompletionDialog({ data }: { data: CompletionData }) {
                     Cấp phiêu lưu {data.level.level}: {data.level.title}
                   </span>
                   <span className="tabular-nums text-muted">
-                    {data.level.into}/{data.level.need} XP
+                    {data.level.into}/{data.level.need} EXP
                   </span>
                 </p>
                 <div role="progressbar" aria-label="Tiến tới cấp phiêu lưu tiếp theo" aria-valuemin={0} aria-valuemax={data.level.need} aria-valuenow={data.level.into} className="h-2.5 overflow-hidden rounded-full bg-surface">

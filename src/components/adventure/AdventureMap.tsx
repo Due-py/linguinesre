@@ -9,10 +9,8 @@ import {
   Clock,
   Flag,
   Gauge,
-  Link2,
   Lock,
   MessageCircle,
-  MessageSquareQuote,
   MessagesSquare,
   Mic,
   Mountain,
@@ -20,14 +18,13 @@ import {
   Repeat,
   Shuffle,
   Signpost,
-  SpellCheck,
   Sprout,
-  Timer,
   X,
   Zap,
   type LucideIcon,
 } from "lucide-react";
 import Linguine from "@/components/Linguine";
+import { GAME_ICON } from "./icons";
 import { SubmitButton } from "@/components/form";
 import { startLesson } from "@/app/(student)/student/module/actions";
 import { buildLayout, progressFraction, type MapLayout, type PlacedNode } from "@/lib/adventure/layout";
@@ -51,7 +48,7 @@ const QUEST_ICON: Record<QuestIcon, LucideIcon> = {
   mic: Mic,
   mountain: Mountain,
 };
-export const GAME_ICON: Record<GameKey, LucideIcon> = { vocab_match: Link2, sentence_builder: Blocks, grammar_fix: SpellCheck, quick_think: Timer, conversation_choice: MessageSquareQuote };
+
 const FLAG_COLOR: Record<string, string> = { green: "#1b7d43", red: "#d62327", gold: "#f4b824", blue: "#1967d2" };
 const STATE_VI: Record<NodeState, string> = { done: "Đã xong", current: "Nhiệm vụ hiện tại", available: "Đã mở", locked: "Chưa mở" };
 
@@ -281,11 +278,11 @@ function QuestSheet({ node, onClose, states, moduleId, inProgress, gameXpTaken }
             <Fact label="Phần thưởng">
               {node.kind === "quest"
                 ? state === "done"
-                  ? `Đã nhận ${questXp(node.day)} XP`
-                  : `${questXp(node.day)} XP`
+                  ? "Đã nhận EXP"
+                  : `Tới ${questXp(node.day)} EXP`
                 : gameXpTaken.includes(node.game)
-                  ? "Đã nhận XP lần đầu"
-                  : `${XP.game} XP lần đầu`}
+                  ? "Đã nhận EXP lần đầu"
+                  : `${XP.game} EXP khi đạt`}
             </Fact>
           </dl>
           <div className="grid gap-2">
@@ -300,7 +297,7 @@ function QuestSheet({ node, onClose, states, moduleId, inProgress, gameXpTaken }
           </div>
           {node.kind === "quest" && node.challenge && (
             <p className="rounded-2xl bg-sunken px-4 py-3 text-sm text-muted">
-              Nhiệm vụ thử thách có phần kiểm tra: không gợi ý, không đồng hồ trò chơi. XP chỉ tính khi làm xong, không phụ thuộc kết quả.
+              Nhiệm vụ thử thách có phần kiểm tra: không gợi ý, không đồng hồ trò chơi. EXP tính khi làm xong bài, không phụ thuộc điểm đúng sai.
             </p>
           )}
           <SheetAction node={node} state={state} moduleId={moduleId} inProgress={inProgress} />

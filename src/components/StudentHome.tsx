@@ -36,6 +36,8 @@ export type StudentHomeProps = {
   reaction: ReactionPoint[];
   /** Lỗi hay gặp nhất trong module đang học (Error Memory, từ nhận xét AI đã kiểm chứng và câu ngữ pháp sai). */
   moduleErrors?: { label: string; count: number }[];
+  /** Linguine và tiến trình phiêu lưu (khối nhỏ, đặt sau thẻ bài hôm nay). */
+  companion?: React.ReactNode;
 };
 
 const STATE: Record<RoadmapUnit["state"], { label: string; tone: "green" | "yellow" | "blue" | "grey"; icon: React.ReactNode }> = {
@@ -53,7 +55,7 @@ const dayFmt = new Intl.DateTimeFormat("vi-VN", { day: "2-digit", month: "2-digi
  * Tổng quan của học sinh, trả lời ba câu hỏi: em đang ở đâu (module, tiến độ), hôm nay học gì (một nút rõ nhất),
  * em tiến bộ thế nào (số đo thật). Chỉ hiện dữ liệu thật; chưa có thì hiện trạng thái bắt đầu.
  */
-export default function StudentHome({ name, grade, classes, joinFailed, today, module, roadmap, recent, focus, reaction, moduleErrors = [] }: StudentHomeProps) {
+export default function StudentHome({ name, grade, classes, joinFailed, today, module, roadmap, recent, focus, reaction, moduleErrors = [], companion }: StudentHomeProps) {
   const next = module?.nextDay ?? null;
   const upcoming = next ? Array.from({ length: Math.min(3, DAYS - next) }, (_, k) => next + k + 1) : [];
   const last = reaction.at(-1);
@@ -166,6 +168,8 @@ export default function StudentHome({ name, grade, classes, joinFailed, today, m
           </span>
         </p>
       )}
+
+      {companion}
 
       {/* 2. Em tiến bộ thế nào: số đo thật, mỗi ô ghi cách đo. */}
       <section aria-labelledby="stats" className="grid gap-4">

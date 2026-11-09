@@ -12,6 +12,10 @@ import { reactionTrend } from "@/lib/reaction";
 import ResearchHome from "@/components/ResearchHome";
 import ModeHome from "@/components/ModeHome";
 import { getParticipant, testState } from "@/lib/research/server";
+import CompanionCard from "@/components/penguin/CompanionCard";
+import { adventureState } from "@/lib/adventure/server";
+import { DAY_INFO } from "@/lib/module/plan";
+import { vnDay } from "@/lib/research/modes";
 import { hasCheckin, listModeSessions, modeAccess, researchSettings, today as vnToday } from "@/lib/research/modeServer";
 
 export const metadata: Metadata = { title: "Tổng quan" };
@@ -70,6 +74,12 @@ export default async function StudentPage({ searchParams }: { searchParams: Prom
         .map(([tag, count]) => ({ label: ERROR_TAGS[tag], count }))
     : [];
   const moduleOf = new Map(modules.map((m) => [m.unitId, m.id]));
+  // Linguine và tiến trình phiêu lưu (phần trò chơi, tách khỏi số đo học). Đồng bộ phần thưởng từ dữ liệu thật.
+  const adv = await adventureState(profile.id, profile.grade, module?.id ?? null);
+  const now = new Date();
+  const todayVn = vnDay(now);
+  const doneToday = adv.lessons.some((l) => l.completed_at && vnDay(new Date(l.completed_at)) === todayVn);
+  const hour = Number(new Intl.DateTimeFormat("en-GB", { hour: "numeric", hourCycle: "h23", timeZone: "Asia/Ho_Chi_Minh" }).format(now));
 
   // Lộ trình: Unit có module thì theo tiến độ module (14 ngày xong = đã xong, đã học ít nhất một ngày = đang học, module của
   // "hôm nay" = tiếp theo); Unit chỉ có luyện tự do thì theo buổi luyện như trước.
@@ -106,6 +116,15 @@ export default async function StudentPage({ searchParams }: { searchParams: Prom
         focus={focus}
         reaction={reactionTrend(reactionData)}
         moduleErrors={moduleErrors}
+        companion={
+          <CompanionCard
+            s={adv}
+            name={profile.displayName ?? ""}
+            nextVi={module?.nextDay ? `ngày ${module.nextDay}: ${DAY_INFO[module.nextDay].titleVi.toLowerCase()}` : null}
+            doneToday={doneToday}
+            hour={hour}
+          />
+        }
       />
     </AppShell>
   );

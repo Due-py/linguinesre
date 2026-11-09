@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import AppShell, { STUDENT_NAV } from "@/components/AppShell";
 import GameRunner from "@/components/adventure/GameRunner";
-import { GAME_ICON } from "@/components/adventure/AdventureMap";
+import { GAME_ICON } from "@/components/adventure/icons";
 import { requireRole } from "@/lib/auth";
 import { requirePracticeAccess } from "@/lib/research/server";
 import { getModule, moduleLessons } from "@/lib/module/server";

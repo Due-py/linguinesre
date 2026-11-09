@@ -5,6 +5,8 @@ import { LoaderCircle, Mic, MicOff, Square, Volume2 } from "lucide-react";
 import type { Recording } from "@/lib/speaking/useRecorder";
 import type { useRecorder } from "@/lib/speaking/useRecorder";
 import { primeAudio } from "./audio";
+import Mascot from "@/components/penguin/Mascot";
+import type { MascotState } from "@/lib/adventure/shop";
 
 type Rec = ReturnType<typeof useRecorder>;
 type State = "idle" | "prompt" | "listening" | "processing";
@@ -75,8 +77,14 @@ export default function RecordButton({
     setState(ok ? "listening" : "idle");
   }
 
+  // Linguine phản ứng theo đúng việc đang diễn ra: đọc câu hỏi → nói, em đang nói → lắng nghe, đang xử lý → suy nghĩ, lỗi micro → bối rối.
+  const micProblem = ["denied", "nomic", "unsupported", "error"].includes(rec.status);
+  const pose: MascotState = micProblem ? "confused" : state === "prompt" ? "speaking" : state === "listening" ? "listening" : state === "processing" ? "thinking" : "idle";
   return (
-    <div className="grid justify-items-center gap-4 py-2">
+    <div className="relative grid justify-items-center gap-4 py-2">
+      <span key={pose} className="mascot-pop pointer-events-none absolute left-0 top-1 hidden sm:block">
+        <Mascot state={pose} size={96} />
+      </span>
       {state === "idle" && (
         <Round onClick={() => void start()} disabled={disabled || rec.status === "requesting"} label={label} icon={before ? <Volume2 className="size-9" aria-hidden /> : <Mic className="size-9" aria-hidden />} />
       )}

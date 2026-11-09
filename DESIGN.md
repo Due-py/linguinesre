@@ -168,3 +168,13 @@ Ba hệ thống luôn tách riêng:
 3. **Nghiên cứu**: bài kiểm tra nghiên cứu và chế độ A/B không có gì của trò chơi. Bước kiểm tra trong module không gợi ý, không đồng hồ trò chơi; XP chỉ tính khi xong bài, không theo kết quả.
 
 Chuyển động riêng của bản đồ (`adv-*` trong `globals.css`): cối xay quay, thuyền nhấp nhô, mây và chim trôi chậm, vòng sáng ở nhiệm vụ hiện tại, đường đã đi tự vẽ ra; tắt khi giảm chuyển động.
+
+## 10. Linguine đồng hành, Lingua Coins, Cửa hàng Penguin (từ 09/11)
+
+- **12 tư thế** ở `public/penguin/states/` (idle, waving, happy, celebrating, thinking, listening, speaking, encouraging, confused, sleeping, studying, levelup), vẽ bằng OpenAI `gpt-image-1.5` lấy ảnh Linguine gốc làm mẫu, nền trong suốt, cao 480px. Thành phần `src/components/penguin/Mascot.tsx`.
+- Linguine phản ứng theo **sự kiện thật**: chờ nói (idle), máy đọc câu hỏi (speaking), em đang nói (listening), đang xử lý (thinking), lỗi micro (confused), xong bài (celebrating), vừa lên cấp (levelup), trang tổng quan (waving, hoặc happy nếu hôm nay đã học). Không ngẫu nhiên, không thông báo liên tục, không trách khi nghỉ.
+- **EXP** (bảng xp_events): chỉ tăng, không tiêu, không mua. Bài bỏ qua nhiều bước nhận ít hơn (thấp nhất 30%); mini-game thưởng khi đúng từ một nửa.
+- **Lingua Coins (LC)**: tiền ảo riêng (bảng coin_transactions), nhận theo cùng việc học thật, chỉ mua đồ trang trí. Mua qua hàm `buy_item` trong CSDL (khóa theo học sinh, không âm, không trùng), luôn hỏi xác nhận.
+- **Cửa hàng** (`/student/cua-hang`): trang phục (chỉ đổi tư thế đứng yên và vẫy tay), phụ kiện, phông nền (SVG tự vẽ), hiệu ứng. Không hộp quà ngẫu nhiên, không giới hạn thời gian.
+- Trang tổng quan: khối Linguine nhỏ hơn thẻ bài hôm nay. Trang nghiên cứu không có Linguine.
+- Công tắc `research_settings.gamification_enabled = false` tắt EXP, LC và cửa hàng (bài học vẫn chạy).

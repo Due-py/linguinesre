@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Award, CalendarCheck, CircleAlert, Compass, Sparkles } from "lucide-react";
 import AppShell, { STUDENT_NAV } from "@/components/AppShell";
-import AdventureMap, { GAME_ICON } from "@/components/adventure/AdventureMap";
+import AdventureMap from "@/components/adventure/AdventureMap";
+import { GAME_ICON } from "@/components/adventure/icons";
 import CompletionDialog, { type CompletionData } from "@/components/adventure/CompletionDialog";
 import type { Season, Trail } from "@/components/adventure/Scenery";
 import { Highlight } from "@/components/ui";
@@ -21,7 +22,7 @@ const secs = (ms: number) => `${(ms / 1000).toFixed(1).replace(".", ",")} giây`
 
 /**
  * Bản đồ phiêu lưu: lối vào chính của việc học. Mỗi Unit là một vùng đất, mỗi nhiệm vụ là một bài học thật của Learning Module.
- * Trạng thái nút, XP và gợi ý đều tính từ dữ liệu thật; không có tiến độ viết sẵn.
+ * Trạng thái nút, EXP và gợi ý đều tính từ dữ liệu thật; không có tiến độ viết sẵn.
  */
 export default async function AdventurePage({ searchParams }: { searchParams: Promise<{ m?: string; xong?: string }> }) {
   const profile = await requireRole("student");
@@ -86,6 +87,8 @@ export default async function AdventurePage({ searchParams }: { searchParams: Pr
       titleVi: quest?.titleVi ?? "",
       regionVi: regionOf(quest?.phase ?? 1).nameVi,
       xp: s.available ? (ev?.xp ?? 0) : null,
+      coins: s.shopAvailable ? s.newCoins.reduce((n, c) => n + c.delta, 0) : null,
+      leveledUp: s.leveledUp,
       dailyXp: daily ? daily.xp : null,
       newAchievements: s.newAchievements.map((k) => ACHIEVEMENTS[k].titleVi),
       level: s.available ? { level: s.level.level, title: levelTitle(s.level.level), into: s.level.into, need: s.level.need } : null,
@@ -149,7 +152,7 @@ export default async function AdventurePage({ searchParams }: { searchParams: Pr
               </div>
               <p className="flex justify-between text-sm text-muted">
                 <span className="tabular-nums">
-                  {s.xp} XP · còn {s.level.need - s.level.into} XP lên cấp {s.level.level + 1}
+                  {s.xp} EXP · còn {s.level.need - s.level.into} EXP lên cấp {s.level.level + 1}
                 </span>
                 <ArrowRight className="size-4" aria-hidden />
               </p>
@@ -157,7 +160,7 @@ export default async function AdventurePage({ searchParams }: { searchParams: Pr
           ) : (
             <p className="flex items-start gap-2 text-sm text-warn">
               <CircleAlert className="mt-0.5 size-4 shrink-0" aria-hidden />
-              XP và thành tích chưa bật (cần chạy file 0013_adventure.sql). Bản đồ và bài học vẫn dùng bình thường.
+              {s.enabled ? "EXP và thành tích chưa bật (cần chạy file 0013_adventure.sql)." : "Phần trò chơi đang tạm tắt (trong thời gian nghiên cứu)."} Bản đồ và bài học vẫn dùng bình thường.
             </p>
           )}
         </Link>
@@ -168,7 +171,7 @@ export default async function AdventurePage({ searchParams }: { searchParams: Pr
           {s.daily && (
             <Suggestion
               icon={<CalendarCheck className="size-5" aria-hidden />}
-              eyebrow={dailyDone ? "Thử thách hôm nay · đã xong" : `Thử thách hôm nay · +${s.daily.xp} XP`}
+              eyebrow={dailyDone ? "Thử thách hôm nay · đã xong" : `Thử thách hôm nay · +${s.daily.xp} EXP`}
               title={s.daily.action.kind === "game" ? GAME_INFO[s.daily.action.game].titleVi : "Hoàn thành một nhiệm vụ"}
               body={s.daily.reasonVi + (dailyDone ? "" : " Nghỉ hôm nay cũng không mất gì.")}
               href={s.daily.action.kind === "game" ? `/student/phieu-luu/tro-choi/${s.daily.action.game}?m=${mod.id}` : null}

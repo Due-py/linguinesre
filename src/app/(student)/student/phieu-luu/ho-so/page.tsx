@@ -6,7 +6,8 @@ import { Highlight } from "@/components/ui";
 import { requireRole } from "@/lib/auth";
 import { requirePracticeAccess } from "@/lib/research/server";
 import { adventureState } from "@/lib/adventure/server";
-import { ACHIEVEMENTS, COSMETICS, levelTitle, unlocked, XP, type AchievementKey, type CosmeticSlot } from "@/lib/adventure/game";
+import { ACHIEVEMENTS, COINS, COSMETICS, levelTitle, unlocked, XP, type AchievementKey, type CosmeticSlot } from "@/lib/adventure/game";
+import Mascot from "@/components/penguin/Mascot";
 import { setCosmetic } from "../actions";
 
 export const metadata: Metadata = { title: "Hồ sơ phiêu lưu" };
@@ -16,7 +17,7 @@ const SLOT_VI: Record<CosmeticSlot, string> = { flag: "Cờ trên nhiệm vụ �
 const fmt = (iso: string) => new Date(iso).toLocaleDateString("vi-VN", { timeZone: "Asia/Ho_Chi_Minh", day: "numeric", month: "numeric", year: "numeric" });
 
 /**
- * Hồ sơ phiêu lưu (TIẾN TRÌNH TRÒ CHƠI): cấp, XP lấy từ đâu, thành tích, đồ trang trí. Ghi rõ đây không phải trình độ tiếng Anh;
+ * Hồ sơ phiêu lưu (TIẾN TRÌNH TRÒ CHƠI): cấp, EXP lấy từ đâu, thành tích, đồ trang trí. Ghi rõ đây không phải trình độ tiếng Anh;
  * kỹ năng nói thật nằm ở trang Kỹ năng.
  */
 export default async function AdventureProfile() {
@@ -50,7 +51,7 @@ export default async function AdventureProfile() {
         {!s.available ? (
           <p className="flex max-w-prose items-start gap-2 rounded-2xl bg-warn-soft px-4 py-3 font-medium text-warn">
             <CircleAlert className="mt-0.5 size-5 shrink-0" aria-hidden />
-            XP và thành tích chưa bật: cần chạy file supabase/migrations/0013_adventure.sql trong Supabase.
+            EXP và thành tích chưa bật: cần chạy file supabase/migrations/0013_adventure.sql trong Supabase.
           </p>
         ) : (
           <>
@@ -62,13 +63,13 @@ export default async function AdventureProfile() {
                 <span className="grow-x block h-full rounded-full bg-gold" style={{ width: `${Math.max(s.level.into > 0 ? 3 : 0, Math.round((s.level.into / s.level.need) * 100))}%` }} />
               </div>
               <p className="tabular-nums text-warn">
-                Tổng {s.xp} XP · còn {s.level.need - s.level.into} XP lên cấp {s.level.level + 1}
+                Tổng {s.xp} EXP · còn {s.level.need - s.level.into} EXP lên cấp {s.level.level + 1}
               </p>
               <ul className="grid gap-1 text-sm text-muted sm:grid-cols-2">
-                <li>Xong một nhiệm vụ: {XP.quest} XP (nhiệm vụ thử thách {XP.challenge} XP).</li>
-                <li>Lần đầu chơi xong một mini-game ở mỗi Unit: {XP.game} XP.</li>
-                <li>Thử thách trong ngày: {XP.daily} XP, mỗi ngày một lần.</li>
-                <li>Không bao giờ bị trừ XP. Nghỉ học không mất gì. Dùng gợi ý không ảnh hưởng XP.</li>
+                <li>Xong một nhiệm vụ: tới {XP.quest} EXP (thử thách {XP.challenge} EXP). Bỏ qua nhiều phần thì nhận ít hơn.</li>
+                <li>Lần đầu chơi đạt một mini-game (đúng từ một nửa) ở mỗi Unit: {XP.game} EXP.</li>
+                <li>Thử thách trong ngày: {XP.daily} EXP, mỗi ngày một lần.</li>
+                <li>EXP không bao giờ bị trừ hay tiêu. Nghỉ học không mất gì. Dùng gợi ý không ảnh hưởng EXP.</li>
               </ul>
             </section>
 
@@ -133,12 +134,56 @@ export default async function AdventureProfile() {
               ))}
             </section>
 
+            <section aria-labelledby="coins" className="grid gap-4">
+              <div className="flex flex-wrap items-end justify-between gap-3">
+                <h2 id="coins" className="text-3xl font-semibold tracking-tight">
+                  Lingua Coins
+                </h2>
+                {s.shopAvailable && (
+                  <Link href="/student/cua-hang" className="press inline-flex min-h-11 items-center gap-2 rounded-full bg-gold px-5 font-semibold text-ink hover:bg-[#e8ab14]">
+                    Cửa hàng Penguin
+                  </Link>
+                )}
+              </div>
+              {!s.shopAvailable ? (
+                <p className="max-w-prose text-muted">Lingua Coins chưa bật: cần chạy file supabase/migrations/0014_shop.sql trong Supabase.</p>
+              ) : (
+                <div className="grid gap-4 md:grid-cols-[auto_1fr] md:items-start">
+                  <div className="grid justify-items-center gap-2 rounded-3xl bg-tint p-4">
+                    <Mascot state="idle" look={s.look} size={140} framed />
+                    <p className="text-2xl font-semibold tabular-nums">{s.coinBalance} LC</p>
+                  </div>
+                  <div className="grid gap-2">
+                    <p className="text-sm text-muted">
+                      Nhận LC khi xong nhiệm vụ ({COINS.quest}–{COINS.challenge} LC), chơi đạt mini-game ({COINS.game} LC), thử thách trong ngày ({COINS.daily} LC), lên cấp ({COINS.level} LC), có thành tích ({COINS.achievement} LC). LC chỉ mua đồ trang trí.
+                    </p>
+                    {s.coins.length === 0 ? (
+                      <p className="text-muted">Chưa có giao dịch nào.</p>
+                    ) : (
+                      <ul className="max-w-2xl divide-y divide-line border-y border-line">
+                        {[...s.coins].sort((a, b) => b.at.localeCompare(a.at)).slice(0, 40).map((c) => (
+                          <li key={c.source} className="flex justify-between gap-3 py-2.5">
+                            <span>
+                              {c.reason} <span className="text-sm text-muted">· {fmt(c.at)}</span>
+                            </span>
+                            <span className={`shrink-0 font-semibold tabular-nums ${c.delta < 0 ? "text-danger" : ""}`}>
+                              {c.delta > 0 ? `+${c.delta}` : c.delta} LC
+                            </span>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                </div>
+              )}
+            </section>
+
             <section aria-labelledby="log" className="grid gap-3">
               <h2 id="log" className="text-3xl font-semibold tracking-tight">
-                XP đến từ đâu
+                EXP đến từ đâu
               </h2>
               {events.length === 0 ? (
-                <p className="text-muted">Chưa có XP. Hoàn thành nhiệm vụ đầu tiên trên bản đồ để bắt đầu.</p>
+                <p className="text-muted">Chưa có EXP. Hoàn thành nhiệm vụ đầu tiên trên bản đồ để bắt đầu.</p>
               ) : (
                 <ul className="max-w-2xl divide-y divide-line border-y border-line">
                   {events.slice(0, 40).map((e) => (

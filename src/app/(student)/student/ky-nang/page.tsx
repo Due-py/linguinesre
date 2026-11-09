@@ -17,7 +17,7 @@ const STEPS: Band[] = ["emerging", "developing", "secure"];
 const TONE: Record<Band, string> = { none: "bg-sunken text-muted", emerging: "bg-warn-soft text-warn", developing: "bg-success-soft text-success-strong", secure: "bg-brand-soft text-brand-strong" };
 
 /**
- * TIẾN TRÌNH HỌC: sáu kỹ năng nói tính từ số đo thật của nhiều lượt làm. Trang này không đọc XP hay thành tích:
+ * TIẾN TRÌNH HỌC: sáu kỹ năng nói tính từ số đo thật của nhiều lượt làm. Trang này không đọc EXP hay thành tích:
  * làm xong nhiệm vụ không làm kỹ năng tăng. Không có phần trăm "trình độ", chỉ mức theo quy tắc ghi rõ và bằng chứng.
  */
 export default async function SkillsPage() {
@@ -34,7 +34,7 @@ export default async function SkillsPage() {
             Kỹ năng <Highlight>nói</Highlight>
           </h1>
           <p className="max-w-prose text-lg text-muted">
-            Tính từ số đo thật khi em nói và làm bài, qua nhiều bài khác nhau. Cấp phiêu lưu và XP không làm kỹ năng tăng: chỉ khi em nói tốt hơn thì mức ở đây mới đổi.
+            Tính từ số đo thật khi em nói và làm bài, qua nhiều bài khác nhau. Cấp phiêu lưu và EXP không làm kỹ năng tăng: chỉ khi em nói tốt hơn thì mức ở đây mới đổi.
           </p>
         </div>
 
