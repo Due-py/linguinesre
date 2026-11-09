@@ -215,9 +215,11 @@ async function main() {
         const rpc = (item) => fetch(`${U}/rest/v1/rpc/buy_item`, { method: "POST", headers: svc(json), body: JSON.stringify({ p_student: userId, p_item: item }) }).then((r) => r.json());
         t("mua trùng bị chặn", (await rpc("bg_meadow")) === "owned");
         t("thiếu tiền bị chặn, số dư không âm", (await rpc("skin_scholar")) === "insufficient");
+        // Tài khoản thử: cộng 50 LC để đủ mua một món 40 LC, rồi bấm mua hai lần cùng lúc.
+        await admin("coin_transactions", { method: "POST", body: { student_id: userId, delta: 50, source: "e2e:topup", reason: "Kiểm thử" } });
         const both = await Promise.all([rpc("acc_book"), rpc("acc_book")]);
         const left = (await admin(`coin_transactions?select=delta&student_id=eq.${userId}`)).reduce((n, c) => n + c.delta, 0);
-        t("bấm mua hai lần cùng lúc chỉ trừ tiền một lần", both.filter((x) => x === "ok").length === 1 && left === after - 40 && left >= 0, `${both.join(",")} → ${left} LC`);
+        t("bấm mua hai lần cùng lúc chỉ trừ tiền một lần", both.filter((x) => x === "ok").length === 1 && both.includes("owned") && left === after + 50 - 40 && left >= 0, `${both.join(",")} → ${left} LC`);
         const stu = await fetch(`${U}/rest/v1/rpc/buy_item`, { method: "POST", headers: asStudent, body: JSON.stringify({ p_student: userId, p_item: "bg_night" }) });
         t("học sinh không tự gọi hàm mua được (chỉ máy chủ)", !stu.ok, String(stu.status));
         const cheat = await fetch(`${U}/rest/v1/coin_transactions`, { method: "POST", headers: asStudent, body: JSON.stringify({ student_id: userId, delta: 9999, source: "cheat", reason: "x" }) });
