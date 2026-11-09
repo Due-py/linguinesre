@@ -128,6 +128,7 @@ VARIANTS: dict[str, set[str]] = {
     "i": {"iː", "ɪ"},
     "iː": {"i"},
     "ɔː": {"ɑː", "ɔ", "ɑ", "ɒ"},
+    "ɔ": {"ɑː", "ɑ", "ɔː", "ɒ"},
     "ɑː": {"ɔː", "ɑ"},
     "ɚ": {"ə", "ɜː"},
     "ɜː": {"ɚ"},
@@ -154,13 +155,32 @@ class PhoneScore:
     heard: str | None  # None: nghe đúng; "": không nghe thấy; khác: nghe giống âm này
 
 
+# Từ chức năng hay đọc lướt (dạng yếu): nguyên âm của chúng đọc thành /ə/ cũng đúng ("a" là /ə/, "can" là /kən/).
+FUNCTION_WORDS = {
+    "a", "an", "the", "to", "of", "and", "for", "at", "from", "can", "could", "was", "were", "are", "do", "does", "you",
+    "your", "some", "but", "as", "than", "that", "or", "has", "have", "had", "will", "would", "should", "must", "am", "is",
+    "be", "been", "there", "them", "him", "her", "his", "us", "our", "on", "in", "into",
+}
+WEAK_VOWELS = {"ə", "ɐ", "ɪ", "ᵻ", "ʌ"}
+
+
 def phone_score(
-    probs: np.ndarray, frames: np.ndarray, token: int, blank: int, id_to_phone: dict[int, str], phone_to_id: dict[str, int]
+    probs: np.ndarray,
+    frames: np.ndarray,
+    token: int,
+    blank: int,
+    id_to_phone: dict[int, str],
+    phone_to_id: dict[str, int],
+    weak: bool = False,
 ) -> PhoneScore:
     """Điểm một âm từ các khung được căn cho nó. Lấy khung mà âm mong đợi (hoặc biến thể chấp nhận) nổi rõ nhất:
     - phần lời nói ở khung đó (1 − khoảng trống) cho biết có âm hay không;
     - trong phần lời nói, tỉ lệ thuộc về đúng âm mong đợi cho biết đúng hay bị nghe thành âm khác."""
-    ok = [token] + [phone_to_id[v] for v in VARIANTS.get(id_to_phone.get(token, ""), ()) if v in phone_to_id]
+    expected = id_to_phone.get(token, "")
+    allowed = set(VARIANTS.get(expected, ()))
+    if weak and is_vowel(expected):
+        allowed |= WEAK_VOWELS
+    ok = [token] + [phone_to_id[v] for v in allowed if v in phone_to_id and phone_to_id[v] != token]
     sub = probs[frames]
     good = sub[:, ok].sum(axis=1)
     f = int(np.argmax(good))
@@ -181,6 +201,24 @@ def phone_score(
     return PhoneScore(p=id_to_phone.get(token, "?"), score=score, heard=heard)
 
 
+# Bộ âm tiếng Anh (Mỹ) mà espeak-ng dùng. Mô hình nghe được âm của gần 100 ngôn ngữ (cả âm có thanh điệu như "ei5" của
+# tiếng Trung); giọng trẻ em hay giọng Việt dễ bị xếp vào các âm đó. Chỉ so trong bộ âm tiếng Anh để "nghe giống" luôn là
+# một âm tiếng Anh và điểm không bị kéo xuống vì một âm của ngôn ngữ khác.
+EN_PHONES = (
+    "p b t d k ɡ f v θ ð s z ʃ ʒ h tʃ dʒ m n ŋ l ɹ w j ɾ ʔ "
+    "ɪ ɛ æ ʌ ʊ ɑː ɔː iː uː ə ɚ ɜː eɪ aɪ ɔɪ oʊ aʊ ɪɹ ɛɹ ʊɹ ɑːɹ ɔːɹ oːɹ aɪɚ aɪə ᵻ ɐ i ɑ ɔ ʊə iə əl n̩ l̩"
+).split()
+
+
+def english_only(log_probs: np.ndarray, phone_to_id: dict[str, int], blank: int) -> np.ndarray:
+    """Chuẩn hóa lại xác suất chỉ trên khoảng trống và các âm tiếng Anh (bỏ âm của ngôn ngữ khác)."""
+    keep = [blank] + [phone_to_id[p] for p in EN_PHONES if p in phone_to_id]
+    masked = np.full_like(log_probs, -np.inf)
+    masked[:, keep] = log_probs[:, keep]
+    m = masked.max(axis=1, keepdims=True)
+    return masked - (m + np.log(np.exp(masked - m).sum(axis=1, keepdims=True)))
+
+
 def score_utterance(
     log_probs: np.ndarray,
     words: list[str],
@@ -190,6 +228,7 @@ def score_utterance(
 ) -> dict:
     """Ghép tất cả: căn chỉnh, điểm từng âm, âm tiết, từ. `word_phones[i]` là các âm mong đợi của `words[i]`."""
     id_to_phone = {i: p for p, i in phone_to_id.items()}
+    log_probs = english_only(log_probs, phone_to_id, blank)
     probs = np.exp(log_probs)
     # Hầu như toàn khoảng trống: máy không nghe ra lời.
     if float(np.max(1.0 - probs[:, blank], initial=0.0)) < 0.3:
@@ -215,7 +254,8 @@ def score_utterance(
     for k, token in enumerate(flat):
         frames = np.nonzero(path == 2 * k + 1)[0]
         wi, _ = owner[k]
-        scores[wi].append(phone_score(probs, frames, token, blank, id_to_phone, phone_to_id))
+        weak = words[wi].lower().strip("'") in FUNCTION_WORDS
+        scores[wi].append(phone_score(probs, frames, token, blank, id_to_phone, phone_to_id, weak))
 
     out = []
     for wi, word in enumerate(words):

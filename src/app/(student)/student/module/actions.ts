@@ -218,5 +218,6 @@ export async function completeLesson(formData: FormData) {
     if (!m || firstOpenStep(lesson.plan.steps, rows ?? [], m.content) !== null) redirect(`/student/module/${lesson.moduleId}/bai/${lesson.id}`);
     await admin.from("module_lessons").update({ status: "completed", completed_at: new Date().toISOString() }).eq("id", lesson.id).eq("status", "in_progress");
   }
-  redirect(`/student/module/${lesson.moduleId}?xong=${lesson.day}`);
+  // Về bản đồ phiêu lưu: màn hình hoàn thành nhiệm vụ (XP, kết quả thật của bài, nhiệm vụ tiếp theo).
+  redirect(`/student/phieu-luu?m=${lesson.moduleId}&xong=${lesson.id}`);
 }

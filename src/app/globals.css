@@ -412,6 +412,140 @@ h3 {
   animation: ring-countdown var(--dur, 5s) linear forwards;
 }
 
+/* ---- Bản đồ phiêu lưu: chuyển động nhẹ, chậm, cho thế giới "sống" (cối xay quay, thuyền nhấp nhô, mây trôi). */
+@keyframes adv-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.adv-spin {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: adv-spin 9s linear infinite;
+}
+@keyframes adv-bob {
+  50% {
+    transform: translateY(-3px) rotate(-2deg);
+  }
+}
+.adv-bob {
+  transform-box: fill-box;
+  transform-origin: center bottom;
+  animation: adv-bob 3.2s ease-in-out infinite;
+}
+@keyframes adv-sway {
+  50% {
+    transform: translateX(3px);
+  }
+}
+.adv-sway {
+  animation: adv-sway 5s ease-in-out infinite;
+}
+@keyframes adv-drift {
+  50% {
+    transform: translateX(26px);
+  }
+}
+.adv-drift {
+  animation: adv-drift 28s ease-in-out infinite;
+}
+@keyframes adv-fly {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(40px, -10px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.adv-fly {
+  animation: adv-fly 14s ease-in-out infinite;
+}
+@keyframes adv-wave {
+  50% {
+    transform: translateX(6px);
+    opacity: 0.6;
+  }
+}
+.adv-wave {
+  animation: adv-wave 4s ease-in-out infinite;
+}
+@keyframes adv-glow {
+  50% {
+    opacity: 0.55;
+  }
+}
+.adv-glow {
+  animation: adv-glow 2.4s ease-in-out infinite;
+}
+/* Vòng sáng quanh nhiệm vụ hiện tại. */
+@keyframes adv-pulse {
+  from {
+    transform: scale(1);
+    opacity: 0.55;
+  }
+  to {
+    transform: scale(1.55);
+    opacity: 0;
+  }
+}
+.adv-pulse {
+  animation: adv-pulse 1.8s cubic-bezier(0.2, 0, 0, 1) infinite;
+}
+/* Linguine đứng ở nhiệm vụ hiện tại, nhún nhẹ. */
+@keyframes adv-float {
+  50% {
+    transform: translateY(-5px);
+  }
+}
+.adv-float {
+  animation: adv-float 2.6s ease-in-out infinite;
+}
+/* Phần đường đã đi tự vẽ ra khi mở bản đồ. */
+@keyframes adv-trace {
+  from {
+    stroke-dashoffset: var(--len, 0);
+  }
+}
+.adv-trace {
+  animation: adv-trace 1.4s cubic-bezier(0.2, 0, 0, 1) both;
+}
+/* Màn hình hoàn thành: dấu tích bật lên, các vệt sáng tỏa ra một lần. */
+@keyframes adv-burst {
+  from {
+    transform: scale(0.3);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.adv-burst {
+  animation: adv-burst 0.6s cubic-bezier(0.2, 0, 0, 1) both;
+}
+@keyframes adv-ray {
+  from {
+    transform: rotate(var(--a)) translateY(0) scaleY(0.2);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  to {
+    transform: rotate(var(--a)) translateY(-70px) scaleY(1);
+    opacity: 0;
+  }
+}
+.adv-ray {
+  animation: adv-ray 0.9s cubic-bezier(0.2, 0, 0, 1) 0.15s both;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

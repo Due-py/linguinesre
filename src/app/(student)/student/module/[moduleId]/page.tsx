@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { BookOpenText, CircleAlert, CircleCheck, Clock, ShieldCheck, TriangleAlert } from "lucide-react";
+import { BookOpenText, CircleAlert, CircleCheck, Clock, Map as MapIcon, ShieldCheck, TriangleAlert } from "lucide-react";
 import AppShell, { STUDENT_NAV } from "@/components/AppShell";
 import { SubmitButton } from "@/components/form";
 import { ReportView, secs } from "@/components/module/Panels";
@@ -82,6 +82,13 @@ export default async function ModulePage({ params, searchParams }: { params: Pro
                   Nội dung do nhóm soạn từ SGK và đã qua kiểm tra tự động, chưa được thầy cô duyệt.
                 </Chip>
               )}
+              <Link
+                href={`/student/phieu-luu?m=${m.id}`}
+                className="press inline-flex min-h-11 items-center gap-2 rounded-full bg-gold-soft px-4 font-medium text-warn hover:bg-[#fdefc4]"
+              >
+                <MapIcon className="size-5" aria-hidden />
+                Bản đồ phiêu lưu
+              </Link>
               <Link
                 href={`/student/module/${m.id}/kien-thuc`}
                 className="press inline-flex min-h-11 items-center gap-2 rounded-full bg-brand-soft px-4 font-medium text-brand-strong hover:bg-brand-tonal"

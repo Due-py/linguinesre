@@ -3,6 +3,7 @@ import { createClient } from "@/lib/supabase/server";
 import { isSupabaseConfigured } from "@/lib/supabase/env";
 import { mockAi, takeQuota } from "@/lib/usage";
 import { canPractice } from "@/lib/research/server";
+import { deepgram } from "@/lib/module/asr";
 
 export const dynamic = "force-dynamic";
 
@@ -54,7 +55,10 @@ export async function POST(request: NextRequest) {
   // Lưu file ghi âm vào thư mục của học sinh (RLS cho phép đúng thư mục này).
   const audioPath = `${user.id}/${sessionId}/${crypto.randomUUID()}.${ext}`;
   const { error: upErr } = await supabase.storage.from("recordings").upload(audioPath, body, { contentType: mime });
-  if (upErr) return NextResponse.json({ error: "Chưa lưu được bản ghi. Hãy thử lại." }, { status: 502 });
+  if (upErr) {
+    console.error("lưu bản ghi lỗi", { path: audioPath, mime, bytes: body.byteLength, error: upErr.message });
+    return NextResponse.json({ error: "Chưa lưu được bản ghi. Hãy thử lại." }, { status: 502 });
+  }
 
   if (mockAi()) {
     return NextResponse.json({
@@ -68,8 +72,9 @@ export async function POST(request: NextRequest) {
   const key = process.env.DEEPGRAM_API_KEY;
   if (!key) return NextResponse.json({ audioPath, error: "Máy chủ chưa cấu hình dịch vụ chép lời." }, { status: 503 });
 
-  const res = await fetch(DG_URL, { method: "POST", headers: { Authorization: `Token ${key}`, "Content-Type": mime }, body });
-  if (!res.ok) return NextResponse.json({ audioPath, error: "Dịch vụ chép lời đang lỗi. Hãy thử lại." }, { status: 502 });
+  const res = await deepgram(key, body, mime, DG_URL);
+  // code: trình duyệt tự gửi lại bản ghi thô (chưa lọc ồn) một lần trước khi mời nói lại.
+  if (!res) return NextResponse.json({ audioPath, error: "Máy chưa chép được lời lần này. Hãy nói lại nhé.", code: "asr_failed" }, { status: 502 });
   const dg = await res.json();
   const alt = dg.results?.channels?.[0]?.alternatives?.[0];
   return NextResponse.json({

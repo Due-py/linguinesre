@@ -6,7 +6,8 @@ import { concat, downsample, encodeWav } from "@/lib/speaking/wav";
 
 export type MicStatus = "idle" | "requesting" | "ready" | "recording" | "denied" | "nomic" | "unsupported" | "error";
 /** wav: bản WAV 16 kHz đã lọc ồn (cho chấm phát âm), chỉ có khi máy chạy được bộ thu mẫu và bản ghi ≤ 30 giây. */
-export type Recording = { blob: Blob; mime: string; onsetMs: number | null; durationMs: number; endedAt: number; startedAt: number; wav?: Blob };
+/** raw: bản ghi thô từ micro (chưa lọc RNNoise), chỉ có khi đang lọc ồn; dùng để gửi lại nếu bản đã lọc bị từ chối. */
+export type Recording = { blob: Blob; mime: string; onsetMs: number | null; durationMs: number; endedAt: number; startedAt: number; wav?: Blob; raw?: Blob };
 /** rnnoise: lọc ồn RNNoise đang chạy; browser: chỉ bộ lọc có sẵn của trình duyệt (máy không chạy được RNNoise). */
 export type NoiseFilter = "rnnoise" | "browser";
 
@@ -26,6 +27,11 @@ function pickMime(): string | null {
 }
 
 const canWorklet = () => typeof AudioWorkletNode !== "undefined" && typeof WebAssembly !== "undefined";
+/**
+ * RNNoise chỉ dùng khi trình duyệt ghi được WebM (Chrome, Edge, Firefox, Android). Safari (iPhone, iPad, Mac) ghi MP4 từ luồng
+ * Web Audio không ổn định (file hỏng, dịch vụ chép lời từ chối) nên dùng bộ lọc có sẵn của máy.
+ */
+const canRnnoise = () => canWorklet() && (pickMime() ?? "").startsWith("audio/webm");
 
 /** Tạo AudioContext 48 kHz cho RNNoise; trình duyệt không cho chọn tần số thì dùng mặc định. */
 function makeContext(): AudioContext {
@@ -59,6 +65,8 @@ export function useRecorder() {
   const pcmRef = useRef<Float32Array[]>([]);
   const recRef = useRef<MediaRecorder | null>(null);
   const chunksRef = useRef<Blob[]>([]);
+  const rawRecRef = useRef<MediaRecorder | null>(null);
+  const rawChunksRef = useRef<Blob[]>([]);
   const levelsRef = useRef<number[]>([]);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const startedAtRef = useRef(0);
@@ -81,7 +89,7 @@ export function useRecorder() {
       return false;
     }
     setStatus("requesting");
-    const tryRnnoise = canWorklet();
+    const tryRnnoise = canRnnoise();
     let stream: MediaStream;
     try {
       stream = await navigator.mediaDevices.getUserMedia({
@@ -173,6 +181,19 @@ export function useRecorder() {
       rec.ondataavailable = (ev) => ev.data.size > 0 && chunksRef.current.push(ev.data);
       rec.start(250);
       recRef.current = rec;
+      // Đang ghi qua bộ lọc: ghi thêm bản thô song song để gửi lại nếu bản đã lọc bị dịch vụ chép lời từ chối.
+      rawChunksRef.current = [];
+      rawRecRef.current = null;
+      if (stream !== streamRef.current) {
+        try {
+          const raw = new MediaRecorder(streamRef.current!, { mimeType: mime });
+          raw.ondataavailable = (ev) => ev.data.size > 0 && rawChunksRef.current.push(ev.data);
+          raw.start(250);
+          rawRecRef.current = raw;
+        } catch {
+          rawRecRef.current = null;
+        }
+      }
       startedAtRef.current = Date.now();
       autoStopRef.current = onAutoStop;
       setSpeaking(false);
@@ -203,10 +224,20 @@ export function useRecorder() {
     const rec = recRef.current;
     if (!rec || rec.state === "inactive") return null;
     const endedAt = Date.now();
-    const blob = await new Promise<Blob>((resolve) => {
-      rec.onstop = () => resolve(new Blob(chunksRef.current, { type: rec.mimeType }));
-      rec.stop();
-    });
+    const rawRec = rawRecRef.current;
+    rawRecRef.current = null;
+    const [blob, raw] = await Promise.all([
+      new Promise<Blob>((resolve) => {
+        rec.onstop = () => resolve(new Blob(chunksRef.current, { type: rec.mimeType }));
+        rec.stop();
+      }),
+      rawRec && rawRec.state !== "inactive"
+        ? new Promise<Blob | undefined>((resolve) => {
+            rawRec.onstop = () => resolve(rawChunksRef.current.length ? new Blob(rawChunksRef.current, { type: rawRec.mimeType }) : undefined);
+            rawRec.stop();
+          })
+        : Promise.resolve(undefined),
+    ]);
     tapRef.current?.port.postMessage({ on: false });
     recRef.current = null;
     setStatus("ready");
@@ -227,6 +258,7 @@ export function useRecorder() {
       startedAt: startedAtRef.current,
       endedAt,
       wav,
+      raw,
     };
   }, []);
 

@@ -17,7 +17,7 @@ Lấy tinh thần thiết kế sản phẩm của Google (tham khảo chromeos.g
 
 Học sinh lớp 6–12 dùng chủ yếu trên điện thoại và nói vào micro.
 
-**Không** XP, tim, bảng xếp hạng, chuỗi ngày, điểm tổng. Dùng gợi ý không bị trừ gì.
+**Không** tim, bảng xếp hạng, chuỗi ngày, điểm tổng. Dùng gợi ý không bị trừ gì. XP và cấp phiêu lưu chỉ có ở bản đồ phiêu lưu (mục 9), theo các giới hạn ở đó.
 
 ### Linguine (linh vật, từ 05/11)
 
@@ -148,6 +148,23 @@ Luôn tôn trọng `prefers-reduced-motion`: tắt toàn cục ở cuối `globa
 
 - Linh vật duy nhất là Linguine (mục 1). Không emoji thay icon (dùng lucide). Không chép logo, hình hay giao diện của Google hoặc ứng dụng khác.
 - Không kính mờ tràn lan, không dải màu tím xanh kiểu "AI", không nền tối toàn trang.
-- Không XP, tim, bảng xếp hạng, chuỗi ngày, điểm tổng.
+- Không tim, bảng xếp hạng, chuỗi ngày, điểm tổng. Không trừ XP. Không hiện XP hay cấp như năng lực tiếng Anh.
 - Không hiển thị số liệu giả để trang trông đầy đủ. Ảnh giao diện trên trang chủ luôn ghi "minh họa". Chưa có dữ liệu thì hiện trạng thái bắt đầu.
 - Không tạo trang, nút hoặc mục menu không làm gì.
+
+## 9. Bản đồ phiêu lưu (từ 08/11)
+
+Lối vào chính của việc học (`/student/phieu-luu`). Mỗi Unit là một vùng đất, 5 khu vực là 5 giai đoạn của Learning Module (Thung lũng Khởi Hành, Rừng Câu Chữ, Đồi Gió Phản Xạ, Bến Cảng Trò Chuyện, Đỉnh Thử Thách), mỗi nhiệm vụ là đúng một bài học ngày có thật. Không có hoạt động giả.
+
+- **Hình vẽ**: SVG tự vẽ trong `src/components/adventure/Scenery.tsx`, hình phẳng bo tròn, cùng một nét cho mọi vùng; nền kem, đồng cỏ xanh, mái nhà đỏ Ý, điểm vàng của Linguine. Không chép tranh của sản phẩm khác. Không ảnh nền tĩnh: đường, nút, nhãn, trang trí là thành phần đặt theo bố cục tính toán (`src/lib/adventure/layout.ts`, có test không chồng lên nhau).
+- **Bố cục**: máy tính trải ngang, cuộn ngang trong khung, tự đưa nhiệm vụ hiện tại vào giữa; điện thoại là đường dọc, co theo bề rộng.
+- **Nút**: nhiệm vụ tròn, mini-game vuông bo (tùy chọn, nằm trên lối rẽ). Trạng thái luôn có chữ và biểu tượng: đã xong (xanh lá, dấu tích, cờ), hiện tại (viền vàng, vòng sáng, Linguine đứng cạnh), đã mở (vàng nhạt), chưa mở (xám, ổ khóa).
+- **Chi tiết nhiệm vụ** (`<dialog>`): câu chuyện, mục tiêu, kỹ năng, thời gian, độ khó, XP; nút bắt đầu mở bài học thật.
+- **Hoàn thành**: một hiệu ứng ngắn, XP vừa nhận, kết quả đo trực tiếp của bài, kỹ năng đã luyện, nhiệm vụ tiếp theo.
+
+Ba hệ thống luôn tách riêng:
+1. **Trò chơi** (XP, cấp, thành tích, đồ trang trí): XP chỉ cho việc học có ý nghĩa đã xong (một bài, lần đầu xong một mini-game ở mỗi Unit, thử thách trong ngày), mỗi nguồn một khóa unique nên không nhận trùng, chơi lại không thêm XP. Không trừ XP, không chuỗi ngày, không bảng xếp hạng. Thành tích chỉ mở đồ trang trí. Luôn ghi "Cấp phiêu lưu không phải trình độ tiếng Anh".
+2. **Học** (trang Kỹ năng): 6 kỹ năng tính từ số đo thật qua ít nhất 2 bài; không đọc XP; không phần trăm "trình độ", chỉ mức theo quy tắc ghi rõ kèm bằng chứng.
+3. **Nghiên cứu**: bài kiểm tra nghiên cứu và chế độ A/B không có gì của trò chơi. Bước kiểm tra trong module không gợi ý, không đồng hồ trò chơi; XP chỉ tính khi xong bài, không theo kết quả.
+
+Chuyển động riêng của bản đồ (`adv-*` trong `globals.css`): cối xay quay, thuyền nhấp nhô, mây và chim trôi chậm, vòng sáng ở nhiệm vụ hiện tại, đường đã đi tự vẽ ra; tắt khi giảm chuyển động.

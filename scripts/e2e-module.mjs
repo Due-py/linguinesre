@@ -129,7 +129,7 @@ async function main() {
       const done = page.getByRole("button", { name: "Hoàn thành bài hôm nay" });
       if (await vis(done)) {
         await done.click();
-        await page.waitForURL(/\?xong=/);
+        await page.waitForURL(/[?&]xong=/);
         return true;
       }
       const chip = (await page.locator("main section p.rounded-full").first().textContent().catch(() => "")) ?? "";

@@ -51,6 +51,7 @@ async function main() {
   });
   const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, permissions: ["microphone"] });
   const page = await ctx.newPage();
+  globalThis.__page = page; // để chụp màn hình khi lỗi (DEBUG_DIR)
   page.setDefaultTimeout(30_000);
 
   await page.goto(`${BASE}/login`);
@@ -124,6 +125,7 @@ try {
   await main();
 } catch (e) {
   console.error("LỖI khi chạy:", e.message);
+  if (process.env.DEBUG_DIR && globalThis.__page) await globalThis.__page.screenshot({ path: `${process.env.DEBUG_DIR}/e2e-test-loi.png`, fullPage: true }).catch(() => {});
   fail++;
 } finally {
   await deleteParticipant(CODE);

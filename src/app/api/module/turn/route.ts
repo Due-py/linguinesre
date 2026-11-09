@@ -96,12 +96,16 @@ export async function POST(request: NextRequest) {
   const admin = createAdminClient();
   const audioPath = `${user.id}/m-${lesson.id}/${step}-${turn}-${attemptNo}.${ext}`;
   const { error: upErr } = await admin.storage.from("recordings").upload(audioPath, body, { contentType: mime, upsert: true });
-  if (upErr) return NextResponse.json({ error: "Chưa lưu được bản ghi. Hãy thử lại." }, { status: 502 });
+  if (upErr) {
+    console.error("lưu bản ghi lỗi", { path: audioPath, mime, bytes: body.byteLength, error: upErr.message });
+    return NextResponse.json({ error: "Chưa lưu được bản ghi. Hãy thử lại." }, { status: 502 });
+  }
 
   const asr = await transcribeModule(body, mime, target);
   if (!asr) {
     await admin.storage.from("recordings").remove([audioPath]);
-    return NextResponse.json({ error: "Dịch vụ chép lời đang lỗi. Hãy nói lại." }, { status: 502 });
+    // code: trình duyệt tự gửi lại bản ghi thô (chưa lọc ồn) một lần trước khi mời nói lại.
+    return NextResponse.json({ error: "Máy chưa chép được lời lần này. Hãy nói lại nhé.", code: "asr_failed" }, { status: 502 });
   }
   const measures = speechMeasures(asr.words, asr.transcript, lag, onset);
   if (measures.unclear) {

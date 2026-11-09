@@ -109,6 +109,7 @@ async function main() {
   await page.getByRole("button", { name: "Bật micro" }).click();
   const started = Date.now();
   const doneA = await runModeA(page);
+  if (!doneA && process.env.DEBUG_DIR) await page.screenshot({ path: `${process.env.DEBUG_DIR}/e2e-modes-A.png`, fullPage: true }).catch(() => {});
   t("đi hết buổi chế độ A (L0 → L3)", doneA, `${Math.round((Date.now() - started) / 1000)} giây`);
 
   const { data: sa } = await admin.from("mode_sessions").select("id, mode, session_no, unit_no, status, active_ms, plan").eq("student_id", pa.id).single();

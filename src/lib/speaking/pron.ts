@@ -77,12 +77,13 @@ export function parseOpen(json: unknown): PronResult | null {
       const heard = typeof p.heard === "string" ? p.heard : null;
       return { p: String(p.p ?? ""), score: sc, heardAs: heard, conf: Math.max(0, (100 - sc) / 100) };
     });
-    // Điểm từ là trung bình nên một âm sai rõ ("pollution" đọc thành "solution") bị che: có âm nghe thành âm khác
-    // hoặc mất hẳn với điểm dưới OPEN_CLEAR_WRONG thì cả từ là "cần luyện".
+    // Điểm từ là trung bình nên một âm sai rõ ("pollution" đọc thành "solution") bị che: có âm nghe thành âm khác hoặc mất
+    // hẳn với điểm dưới OPEN_CLEAR_WRONG thì từ không được "tốt": điểm từ còn cao (từ 60) là "gần đúng", thấp hơn là "cần luyện".
     const clearlyWrong = phonemes.some((p) => p.heardAs !== null && (p.score ?? 100) < OPEN_CLEAR_WRONG);
+    const base = azureLevel(s);
     return {
       word: String(w.word ?? ""),
-      level: missing ? "missing" : clearlyWrong ? "work" : azureLevel(s),
+      level: missing ? "missing" : clearlyWrong && base === "good" ? "close" : base,
       score: s,
       syllables: arr(w.syllables).map((x) => ({ text: String(x.text ?? ""), score: round(num(x.score)) ?? 0 })),
       phonemes,

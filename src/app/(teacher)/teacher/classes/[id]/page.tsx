@@ -5,6 +5,7 @@ import { ArrowLeft, Clock3, TriangleAlert, Users } from "lucide-react";
 import AppShell, { TEACHER_NAV } from "@/components/AppShell";
 import { ClassStatusForm, RemoveMemberForm, RenameClassForm, ResetPasswordForm } from "@/components/ClassForms";
 import CopyCode from "@/components/CopyCode";
+import ClassSkills from "@/components/adventure/ClassSkills";
 import { Chip, Eyebrow, Progress, SectionHead, Stat } from "@/components/ui";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
@@ -313,6 +314,8 @@ export default async function ClassPage({ params }: { params: Promise<{ id: stri
             <p className="text-sm text-muted">Chỉ tính buổi luyện tự do đã hoàn thành. Thời gian bắt đầu nói do trình duyệt của học sinh ước lượng (số ở giữa của các câu trong buổi).</p>
           </section>
         )}
+
+        <ClassSkills classId={cls.id} students={rows.map((r) => ({ id: r.id, name: r.name }))} />
 
         <section aria-labelledby="settings" className="grid gap-6">
           <SectionHead id="settings" title="Cài đặt lớp" />

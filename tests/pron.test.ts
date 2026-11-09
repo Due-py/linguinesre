@@ -99,10 +99,14 @@ describe("chấm phát âm: máy chấm mã nguồn mở", () => {
     expect(r.source).toBe("open");
     expect(r.words.map((w) => [w.word, w.level, w.score])).toEqual([
       ["air", "good", 91],
-      ["pollution", "work", 64], // điểm trung bình 64 nhưng /ʃ/ nghe thành /s/ rõ ràng
-      ["makes", "work", 72], // /s/ cuối mất hẳn
+      ["pollution", "close", 64],
+      ["makes", "close", 72],
       ["it", "missing", null],
     ]);
+  });
+  it("điểm từ cao nhưng có một âm nghe thành âm khác rõ: gần đúng, không phải tốt (cũng không đỏ)", () => {
+    const one = (score: number) => parseOpen({ status: "ok", words: [{ word: "woman", score, syllables: [], phones: [{ p: "ʊ", score: 32, heard: "ʌ" }] }] })!.words[0].level;
+    expect([one(85), one(70), one(50)]).toEqual(["close", "close", "work"]);
   });
   it("âm chỉ hơi yếu (không nghe thành âm khác) thì không kéo cả từ xuống", () => {
     const w = parseOpen({ status: "ok", words: [{ word: "hard", score: 89, syllables: [], phones: [{ p: "ɑːɹ", score: 30, heard: null }] }] })!.words[0];

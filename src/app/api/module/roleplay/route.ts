@@ -82,7 +82,7 @@ export async function POST(request: NextRequest) {
   const measures = asr ? speechMeasures(asr.words, asr.transcript, lag, onset) : null;
   if (!asr || !measures || measures.unclear) {
     await admin.storage.from("recordings").remove([audioPath]);
-    return asr ? NextResponse.json({ unclear: true }) : NextResponse.json({ error: "Dịch vụ chép lời đang lỗi. Hãy nói lại." }, { status: 502 });
+    return asr ? NextResponse.json({ unclear: true }) : NextResponse.json({ error: "Máy chưa chép được lời lần này. Hãy nói lại nhé.", code: "asr_failed" }, { status: 502 });
   }
 
   const history: Turn[] = [{ role: "ai", text: r.opener }];

@@ -192,6 +192,20 @@ export function recentThinkMs(history: HistoryAttempt[], n = 8): number | null {
   return median(xs);
 }
 
+/**
+ * Em đã sẵn sàng cho câu khó (độ khó 3) chưa, theo các lượt tự trả lời câu hỏi gần đây (lượt đầu, không phải bài đầu module):
+ * cần ít nhất 4 câu, bắt đầu nói (trung vị) trong 6 giây và đa số câu không phải mở tới gợi ý mức 3 trở lên.
+ * Chưa đủ 4 câu thì coi là chưa biết: KHÔNG đưa câu khó (để học sinh không bị "nhảy" từ câu dễ sang câu dài, khó).
+ */
+export const READY_RULE = { minAnswers: 4, thinkMs: 6000, heavyHint: 3, heavyShare: 0.5 } as const;
+export function speakingReady(history: HistoryAttempt[]): { ready: boolean; known: boolean } {
+  const xs = history.filter((h) => h.t === "speak" && h.attemptNo === 1 && h.day > 1).sort((a, b) => b.at.localeCompare(a.at)).slice(0, 8);
+  if (xs.length < READY_RULE.minAnswers) return { ready: false, known: false };
+  const think = median(xs.map((h) => h.thinkMs).filter((n): n is number => n !== null));
+  const heavy = xs.filter((h) => h.hintLevel >= READY_RULE.heavyHint).length / xs.length;
+  return { ready: think !== null && think <= READY_RULE.thinkMs && heavy < READY_RULE.heavyShare, known: true };
+}
+
 // ---- Speed Q&A: mục tiêu riêng từng học sinh ----------------------------------------------------------------------
 
 export const SPEED_DEFAULT_MS = 5000;
@@ -538,14 +552,20 @@ export function buildLesson(input: PlanInput): Lesson {
       steps.push(...reviewBlock(input, 3, notes));
       const c = quizScore(history, "check1");
       const strong = c !== null && c.correct / c.total >= 0.8;
-      if (strong) notes.push(`Bài kiểm tra ngày 3 em đúng ${c!.correct}/${c!.total} câu, nên hôm nay có nhiều câu khó hơn.`);
-      for (const q of freshQuestions(input, used, strong ? [1, 2, 2, 3, 3] : [1, 1, 2, 2, 3])) steps.push(speakUnit(q, { hints: 4, assess: "ask" }));
+      // Câu khó (độ khó 3) chỉ khi số đo nói cho thấy em đã sẵn sàng; không thì tăng dần nhẹ, dừng ở độ khó 2.
+      const ready = speakingReady(history).ready;
+      const levels = strong && ready ? [1, 2, 2, 3, 3] : ready ? [1, 1, 2, 2, 3] : [1, 1, 2, 2, 2];
+      if (strong && ready) notes.push(`Bài kiểm tra ngày 3 em đúng ${c!.correct}/${c!.total} câu và em trả lời khá nhanh, nên hôm nay có nhiều câu khó hơn.`);
+      else if (!ready) notes.push("Hôm nay các câu hỏi tăng độ khó từ từ, chưa có câu khó nhất: luyện chắc câu vừa sức trước.");
+      for (const q of freshQuestions(input, used, levels)) steps.push(speakUnit(q, { hints: 4, assess: "ask" }));
       break;
     }
     case 7: {
       steps.push(...reviewBlock(input, 6, notes));
       quiz("check2");
-      for (const q of freshQuestions(input, used, [1, 2, 3])) steps.push(speakUnit(q, { hints: 0, assess: "auto", test: true }));
+      const ready7 = speakingReady(history).ready;
+      if (!ready7) notes.push("Ba câu kiểm tra ở mức em đã luyện (chưa có câu khó nhất).");
+      for (const q of freshQuestions(input, used, ready7 ? [1, 2, 3] : [1, 2, 2])) steps.push(speakUnit(q, { hints: 0, assess: "auto", test: true }));
       steps.push({ t: "report", ref: "check2" });
       break;
     }
@@ -624,7 +644,7 @@ export function buildLesson(input: PlanInput): Lesson {
     case 13: {
       for (const q of m.independent.filter((x) => x.set === "final").sort((a, b) => a.pair - b.pair))
         steps.push({ t: "speak", ref: q.id, text: q.text, source: "independent", qid: null, hints: [], keywords: q.keywords, expectsReason: q.expectsReason, targetMs: null, assess: "auto", retry: null, test: true });
-      for (const q of freshQuestions(input, used, [2, 3])) steps.push(speakUnit(q, { hints: 0, assess: "auto", test: true }));
+      for (const q of freshQuestions(input, used, speakingReady(history).ready ? [2, 3] : [2, 2])) steps.push(speakUnit(q, { hints: 0, assess: "auto", test: true }));
       const again = delayedQuestions(input, 2);
       for (const q of again) steps.push(speakUnit(q, { hints: 0, assess: "auto", test: true }));
       notes.push("Hôm nay không có gợi ý: câu hỏi mới, em tự nói bằng lời của mình.");

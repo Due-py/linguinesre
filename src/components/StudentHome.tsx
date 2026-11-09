@@ -121,13 +121,19 @@ export default function StudentHome({ name, grade, classes, joinFailed, today, m
               </p>
               <Progress value={module.daysDone} max={DAYS} label={`Đã học ${module.daysDone} trên ${DAYS} ngày`} className="bg-surface" />
             </div>
-            <Link
-              href={`/student/module/${module.id}`}
-              className="press inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-brand px-6 font-medium text-on-brand hover:shadow-card sm:w-fit"
-            >
-              {module.inProgress ? "Học tiếp" : next === null ? "Xem kết quả" : module.started ? "Vào bài hôm nay" : "Bắt đầu lộ trình"}
-              <ArrowRight className="size-5" aria-hidden />
-            </Link>
+            <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
+              {/* Lối vào chính là bản đồ phiêu lưu; danh sách 14 ngày và kết quả Unit vẫn ở trang module. */}
+              <Link
+                href={`/student/phieu-luu?m=${module.id}`}
+                className="press inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-brand px-6 font-medium text-on-brand hover:shadow-card sm:w-fit"
+              >
+                {module.inProgress ? "Học tiếp trên bản đồ" : next === null ? "Xem bản đồ đã chinh phục" : module.started ? "Mở bản đồ phiêu lưu" : "Bắt đầu cuộc phiêu lưu"}
+                <ArrowRight className="size-5" aria-hidden />
+              </Link>
+              <Link href={`/student/module/${module.id}`} className="inline-flex min-h-11 items-center font-medium text-brand-strong hover:underline">
+                {next === null ? "Xem kết quả Unit" : "Xem lộ trình dạng danh sách"}
+              </Link>
+            </div>
           </article>
         ) : (
           today.kind !== "none" && (

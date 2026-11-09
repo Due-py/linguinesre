@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
-import { ClipboardCheck, History, House, LogOut, Mic, UserRound, Users, type LucideIcon } from "lucide-react";
+import { ClipboardCheck, History, House, LogOut, Map as MapIcon, Mic, Sprout, UserRound, Users, type LucideIcon } from "lucide-react";
 import Logo from "@/components/Logo";
 import { signOut } from "@/app/(auth)/actions";
 
@@ -9,7 +9,9 @@ export type NavItem = { href: string; label: string };
 /** Biểu tượng của từng mục menu (thanh dưới cùng trên điện thoại). */
 const ICON: Record<string, LucideIcon> = {
   "/student": House,
+  "/student/phieu-luu": MapIcon,
   "/student/practice": Mic,
+  "/student/ky-nang": Sprout,
   "/student/history": History,
   "/teacher": Users,
   "/teacher/modules": ClipboardCheck,
@@ -18,7 +20,9 @@ const ICON: Record<string, LucideIcon> = {
 /** Menu học sinh: chỉ gồm trang đã có thật. */
 export const STUDENT_NAV: NavItem[] = [
   { href: "/student", label: "Tổng quan" },
+  { href: "/student/phieu-luu", label: "Phiêu lưu" },
   { href: "/student/practice", label: "Luyện nói" },
+  { href: "/student/ky-nang", label: "Kỹ năng" },
   { href: "/student/history", label: "Lịch sử" },
 ];
 

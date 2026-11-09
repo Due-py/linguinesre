@@ -128,12 +128,14 @@ export default function SessionRunner({
     }
     setPhase("processing");
     try {
-      const res = await fetch(`/api/transcribe?session=${sessionId}&question=${q.id}`, {
-        method: "POST",
-        headers: { "Content-Type": r.mime },
-        body: r.blob,
-      });
-      const data = await res.json();
+      const send = (body: Blob) => fetch(`/api/transcribe?session=${sessionId}&question=${q.id}`, { method: "POST", headers: { "Content-Type": r.mime }, body });
+      let res = await send(r.blob);
+      let data = await res.json();
+      // Bản đã lọc ồn bị dịch vụ chép lời từ chối: gửi lại bản ghi thô một lần.
+      if (!res.ok && data?.code === "asr_failed" && r.raw) {
+        res = await send(r.raw);
+        data = await res.json();
+      }
       if (!res.ok || typeof data.transcript !== "string") {
         setResult({ audioPath: data.audioPath ?? null, transcript: "", confidence: null, mock: false });
         setError(data.error ?? "Chưa chép lời được. Hãy nói lại.");

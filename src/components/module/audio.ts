@@ -100,12 +100,19 @@ export async function speakText(text: string): Promise<"browser" | "none"> {
 
 export { moduleAudio } from "./audioUrl";
 
-/** Gửi một bản ghi lên máy chủ. Lỗi mạng trả về { error } để giao diện mời nói lại. */
+/**
+ * Gửi một bản ghi lên máy chủ. Máy chủ không chép được bản đã lọc ồn (code "asr_failed") thì tự gửi lại bản ghi thô một lần,
+ * để học sinh không phải nói lại vì lỗi của bộ lọc. Lỗi mạng trả về { error } để giao diện mời nói lại.
+ */
 export async function postAudio(url: string, r: Recording): Promise<Record<string, unknown>> {
+  const send = async (blob: Blob) => {
+    const res = await fetch(url, { method: "POST", headers: { "Content-Type": r.mime }, body: blob });
+    return { ok: res.ok, data: (await res.json().catch(() => ({}))) as Record<string, unknown> };
+  };
   try {
-    const res = await fetch(url, { method: "POST", headers: { "Content-Type": r.mime }, body: r.blob });
-    const data = await res.json().catch(() => ({}));
-    return res.ok ? data : { error: data.error ?? "Chưa gửi được bản ghi. Hãy nói lại." };
+    let out = await send(r.blob);
+    if (!out.ok && out.data.code === "asr_failed" && r.raw) out = await send(r.raw);
+    return out.ok ? out.data : { error: (out.data.error as string | undefined) ?? "Chưa gửi được bản ghi. Hãy nói lại." };
   } catch {
     return { error: "Mất kết nối khi gửi bản ghi. Kiểm tra mạng rồi nói lại." };
   }

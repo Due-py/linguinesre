@@ -33,6 +33,7 @@
     "test:e2e-account": "node scripts/e2e-account.mjs",
     "test:practice-lock": "node scripts/test-practice-lock.mjs",
     "test:e2e-module": "node scripts/e2e-module.mjs",
+    "test:e2e-adventure": "node scripts/e2e-adventure.mjs",
     "noise:copy": "node -e \"const f=require('fs'),d='node_modules/@sapphi-red/web-noise-suppressor/dist/';f.copyFileSync(d+'rnnoise/workletProcessor.js','public/noise/rnnoise-worklet.js');f.copyFileSync(d+'rnnoise.wasm','public/noise/rnnoise.wasm');f.copyFileSync(d+'rnnoise_simd.wasm','public/noise/rnnoise_simd.wasm')\""
   },
   "dependencies": {
