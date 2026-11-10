@@ -95,7 +95,9 @@ export async function POST(request: NextRequest) {
   const last = turn >= r.turns;
   const reply = last ? null : await roleplayReply(r, m.grade, m.content, history, await takeQuota(user.id, "roleplay"));
   const studentTurns = history.filter((x) => x.role === "student").map((x) => x.text);
-  const requirements = last ? r.requirements.map((q) => requirementMet(q, studentTurns)) : null;
+  // Câu bạn nói chuyện ngay trước mỗi lượt của em (để không tính lượt chỉ nhắc lại câu đó).
+  const aiBefore = history.flatMap((x, i) => (x.role === "student" ? [history[i - 1]?.role === "ai" ? history[i - 1].text : null] : []));
+  const requirements = last ? r.requirements.map((q) => requirementMet(q, studentTurns, aiBefore)) : null;
 
   const { data: row, error } = await admin
     .from("module_attempts")

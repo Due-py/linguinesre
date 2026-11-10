@@ -62,10 +62,13 @@ function Metric({ label, value, note, ok = null }: { label: string; value: React
  */
 export function measuredSummary(
   m: SpeechMeasures,
-  o: { keywords?: string[]; keywordsUsed?: string[]; reason?: "yes" | "no" | "not_required"; inTarget?: boolean | null },
+  o: { keywords?: string[]; keywordsUsed?: string[]; reason?: "yes" | "no" | "not_required"; inTarget?: boolean | null; copied?: "question" | "hint" | null },
 ): { good: string[]; next: string | null } {
   const good: string[] = [];
   const todo: string[] = [];
+  // Đọc lại câu hỏi / câu ví dụ: không khen gì, chỉ nhắc nói bằng lời của em.
+  if (o.copied === "hint") return { good: [], next: "Em đang đọc câu ví dụ. Giờ thử nói lại bằng lời của em: đổi người, việc, lý do thành chuyện của em." };
+  if (o.copied === "question") return { good: [], next: "Em đang nhắc lại câu hỏi. Hãy trả lời câu hỏi đó: nói ý của em và một lý do." };
   if (o.inTarget === true) good.push("Bắt đầu nói kịp mục tiêu thời gian.");
   if (o.inTarget === false) todo.push("Bắt đầu nói sớm hơn: nghe xong câu hỏi là mở lời ngay, ý chưa hoàn chỉnh cũng được.");
   if (o.reason === "yes") good.push("Có nêu lý do cho câu trả lời.");
@@ -74,7 +77,7 @@ export function measuredSummary(
   const used = o.keywordsUsed?.length ?? 0;
   if (kw > 0 && used >= Math.ceil(kw / 2)) good.push(`Dùng được ${used} từ của bài.`);
   if (kw > 0 && used === 0) todo.push("Thử dùng ít nhất một từ của bài trong câu trả lời.");
-  if (m.words >= 12) good.push("Câu trả lời đủ dài, có nhiều ý.");
+  if (m.words >= 12) good.push("Câu trả lời đủ dài.");
   if (m.words > 0 && m.words < 6) todo.push("Nói thành câu đầy đủ hơn: thêm chủ ngữ, động từ và một chi tiết.");
   if (m.longPauses >= 2) todo.push("Bớt ngừng dài giữa câu: nghĩ trước ý chính, rồi nói liền một mạch.");
   return { good: good.slice(0, 2), next: todo[0] ?? null };
@@ -87,6 +90,7 @@ export function MeasuredPanel({
   reason,
   targetMs,
   inTarget,
+  copied = null,
 }: {
   m: SpeechMeasures;
   keywords?: string[];
@@ -94,8 +98,9 @@ export function MeasuredPanel({
   reason?: "yes" | "no" | "not_required";
   targetMs?: number | null;
   inTarget?: boolean | null;
+  copied?: "question" | "hint" | null;
 }) {
-  const sum = measuredSummary(m, { keywords, keywordsUsed, reason, inTarget });
+  const sum = measuredSummary(m, { keywords, keywordsUsed, reason, inTarget, copied });
   return (
     <section className="sheet-up grid gap-4 rounded-[2rem] border border-line px-5 py-5 sm:px-6">
       <div className="grid gap-1">

@@ -7,6 +7,7 @@
  */
 import { countWords, hasReasonWord, stem, usesKeyword } from "../feedback/measures";
 import { isFiller } from "../research/latency";
+import { givesExample, givesReason, givesSuggestion, isEcho } from "./copyCheck";
 
 export type AsrWordC = { word: string; start: number; end: number; confidence: number };
 
@@ -130,23 +131,28 @@ export function missedWords(transcript: string, target: string): string[] {
   return [...new Set(tokens(target).filter((w) => !said.has(stem(w))))];
 }
 
-const SUGGESTION = /\b(should|let's|let us|why don't we|how about|i suggest|we could|we can|could we)\b/i;
-const EXAMPLE = /\b(for example|for instance|such as|like when)\b/i;
 
 export type Requirement = { kind: "reason" | "example" | "suggestion" | "keyword"; vi: string; words: string[] };
 
-/** Kiểm tra yêu cầu của tình huống roleplay trên toàn bộ lời học sinh (quy tắc, không AI). */
-export function requirementMet(r: Requirement, studentTurns: string[]): boolean {
-  const all = studentTurns.join(" ").replace(/’/g, "'");
+/**
+ * Kiểm tra yêu cầu của tình huống roleplay trên lời học sinh (quy tắc, không AI). Lượt nào em chỉ nhắc lại câu bạn nói chuyện
+ * vừa nói thì không tính; lý do / ví dụ / gợi ý phải là một vế câu thật, không chỉ một từ nối.
+ * turns: lời em; aiBefore[i]: câu bạn nói chuyện ngay trước lượt i (để nhận ra nhắc lại).
+ */
+export function requirementMet(r: Requirement, turns: string[], aiBefore: (string | null)[] = []): boolean {
+  // Chỉ những lượt em tự nói (không nhắc lại câu bạn nói chuyện vừa nói).
+  const own = turns.map((t, i) => ({ t, ai: aiBefore[i] ?? null })).filter((x) => !isEcho(x.t, x.ai));
+  const all = own.map((x) => x.t).join(". ");
   switch (r.kind) {
     case "reason":
-      return hasReasonWord(all);
+      return givesReason(all);
     case "example":
-      return EXAMPLE.test(all);
+      return givesExample(all);
     case "suggestion":
-      return SUGGESTION.test(all);
+      return givesSuggestion(all);
     case "keyword":
-      return r.words.some((w) => usesKeyword(all, w));
+      // Từ khóa có sẵn trong câu bạn vừa nói thì em phải tự dùng thêm, không tính khi chỉ lặp lại.
+      return own.some((x) => r.words.some((w) => usesKeyword(x.t, w) && !usesKeyword(x.ai ?? "", w)));
   }
 }
 

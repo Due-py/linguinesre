@@ -12,6 +12,7 @@ import { ERROR_TAGS, type ErrorTag, type ModuleContent } from "@/lib/module/sche
 import { useRecorder, type Recording } from "@/lib/speaking/useRecorder";
 import { moduleAudio, playAudio, postAudio } from "./audio";
 import Mascot from "@/components/penguin/Mascot";
+import { parsePhrase, partLabel } from "@/lib/module/useWord";
 import { AssessPanel, MeasuredPanel, ReportView, SourceBadge } from "./Panels";
 import RecordButton from "./RecordButton";
 import HeardWords from "./HeardWords";
@@ -38,7 +39,18 @@ type TurnResult = {
   transcript: string;
   measures: SpeechMeasures;
   correct: boolean | null;
-  check: { keywordsUsed?: string[]; reason?: "yes" | "no" | "not_required"; heard?: number; used?: boolean; parts?: boolean[] };
+  check: {
+    keywordsUsed?: string[];
+    reason?: "yes" | "no" | "not_required";
+    heard?: number;
+    used?: boolean;
+    parts?: boolean[];
+    placeholderLeft?: boolean;
+    tooShort?: boolean;
+    copiedExample?: boolean;
+    echoQuestion?: boolean;
+    copiedHint?: boolean;
+  };
   inTarget: boolean | null;
   targetMs: number | null;
   mock?: boolean;
@@ -449,9 +461,20 @@ function LearnWord({ st, ctx, onDone }: P<"learn_word">) {
   );
 }
 
-function blank(sentence: string, phrase: string) {
-  const re = new RegExp(phrase.split(/\s+/).map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\w*").join("\\s+"), "i");
-  return re.test(sentence) ? sentence.replace(re, "_____") : sentence;
+/** Câu đọc lại câu hỏi / câu ví dụ (máy chủ đánh dấu): không khen, không tự gọi AI nhận xét. */
+const copiedOf = (r: TurnResult): "question" | "hint" | null => (r.check.copiedHint ? "hint" : r.check.echoQuestion ? "question" : null);
+
+/**
+ * Che từ cần nhớ trong câu ví dụ, kể cả dạng đổi đuôi (restore → restoring, hire → hired) và mọi lần xuất hiện.
+ * Không che được thì trả về null (khi đó không hiện câu ví dụ, để không lộ đáp án).
+ */
+function blank(sentence: string, phrase: string): string | null {
+  const parts = phrase.toLowerCase().match(/[a-z']+/g) ?? [];
+  if (parts.length === 0) return null;
+  const root = (w: string) => w.replace(/(ies|es|s|ing|ed|d)$/, "").replace(/e$/, "").replace(/([^aeiou])\1$/, "$1").replace(/([^aeiou])y$/, "$1(?:y|i)");
+  const re = new RegExp(`\\b${parts.map((p) => `${root(p).replace(/'/g, "'")}[a-z']*`).join("[\\s-]+")}\\b`, "gi");
+  const out = sentence.replace(re, "_____");
+  return out === sentence ? null : out;
 }
 
 function RecallWord({ st, ctx, onDone }: P<"recall_word">) {
@@ -463,9 +486,12 @@ function RecallWord({ st, ctx, onDone }: P<"recall_word">) {
       <div className="grid gap-3 rounded-2xl bg-surface px-6 py-6 shadow-card">
         <p className="text-muted">Nói từ tiếng Anh có nghĩa:</p>
         <p className="text-3xl font-semibold tracking-tight">{v.vi}</p>
-        <p lang="en" className="text-lg">
-          {blank(v.example, v.en)}
-        </p>
+        {/* Câu ví dụ có che từ cần nhớ; che không được thì không hiện để không lộ đáp án. */}
+        {blank(v.example, v.en) && (
+          <p lang="en" className="text-lg">
+            {blank(v.example, v.en)}
+          </p>
+        )}
       </div>
       <SpeakBox
         st={st}
@@ -737,18 +763,35 @@ function Quiz({ st, ctx, onDone }: P<"quiz">) {
 
 function UseWord({ st, ctx, onDone }: P<"use_word">) {
   const v = ctx.content.vocab.find((x) => x.id === st.ref)!;
+  const parts = parsePhrase(st.phrase);
+  const gaps = parts.map(partLabel).filter((l) => l.gap);
   const initial = savedTurns(ctx, st.n, 0);
   const [done, setDone] = useState(initial > 0);
   const [showEx, setShowEx] = useState(false);
   return (
     <>
-      <div className="grid gap-2 rounded-2xl bg-surface px-6 py-6 shadow-card">
-        <p className="text-muted">Nói một câu hoàn chỉnh có dùng cụm:</p>
-        <p lang="en" className="text-3xl font-semibold tracking-tight">
-          {st.phrase}
+      <div className="grid gap-3 rounded-2xl bg-surface px-6 py-6 shadow-card">
+        <p className="text-muted">Tự đặt một câu của em, có dùng cụm:</p>
+        <p lang="en" className="flex flex-wrap items-baseline gap-x-2 gap-y-1 text-3xl font-semibold tracking-tight">
+          {parts.map((p, i) => {
+            const l = partLabel(p);
+            return l.gap ? (
+              <span key={i} lang="vi" className="rounded-xl bg-gold-soft px-2.5 py-0.5 text-xl font-medium text-warn" title={`Trong cụm gốc: ${l.raw}`}>
+                {l.text}
+              </span>
+            ) : (
+              <span key={i}>{l.text}</span>
+            );
+          })}
         </p>
         <p className="text-muted">
           {v.en}: {v.vi}
+        </p>
+        <p className="text-sm text-muted">
+          {gaps.length > 0
+            ? "Ô vàng là chỗ em tự điền: thay bằng người, việc cụ thể của em (ví dụ my brother, my best friend, recycle bottles…). "
+            : ""}
+          Nói thành câu có ai làm gì, đừng đọc lại nguyên cụm.
         </p>
       </div>
       {showEx ? (
@@ -771,8 +814,18 @@ function UseWord({ st, ctx, onDone }: P<"use_word">) {
         render={(r) => (
           <Verdict
             ok={r.correct}
-            yes={`Câu của em có dùng “${st.phrase}”: “${r.transcript}”.`}
-            no={r.check.used ? `Câu còn ngắn: “${r.transcript}”. Thử nói thành câu đủ chủ ngữ và động từ.` : `Máy chưa nghe thấy “${st.phrase}” trong câu: “${r.transcript}”.`}
+            yes={`Hay lắm! Câu của em: “${r.transcript}”, có dùng đúng cụm “${st.phrase}”.`}
+            no={
+              r.check.placeholderLeft
+                ? `Em đang đọc nguyên cụm từ: “${r.transcript}”. Hãy thay ${gaps.filter((g) => g.raw !== "…").map((g) => `“${g.raw}”`).join(", ") || "chỗ trống"} bằng người hoặc việc cụ thể của em, rồi nói thành câu.`
+                : r.check.copiedExample
+                  ? `Câu này giống hệt câu ví dụ. Thử đổi người hoặc việc trong câu thành chuyện của em nhé.`
+                  : r.check.used && r.check.tooShort
+                    ? `Câu còn ngắn: “${r.transcript}”. Thêm ai làm gì (chủ ngữ, động từ) để thành một câu đủ ý.`
+                    : r.check.used
+                      ? `Câu của em: “${r.transcript}”. Thử nói lại thành câu đủ ý hơn.`
+                      : `Máy chưa nghe thấy cụm “${st.phrase}” trong câu: “${r.transcript}”. Nhớ dùng đủ các từ của cụm (chỗ trống thì thay bằng người, việc của em).`
+            }
           />
         )}
       />
@@ -1081,7 +1134,7 @@ function Speak({ st, ctx, onDone }: P<"speak">) {
       {rescue && <p className="sheet-up rounded-3xl bg-gold-soft px-5 py-3 font-medium text-warn">{rescue}</p>}
       {result && (
         <>
-          <MeasuredPanel m={result.measures} keywords={st.keywords} keywordsUsed={result.check.keywordsUsed} reason={result.check.reason} targetMs={result.targetMs} inTarget={result.inTarget} />
+          <MeasuredPanel m={result.measures} keywords={st.keywords} keywordsUsed={result.check.keywordsUsed} reason={result.check.reason} targetMs={result.targetMs} inTarget={result.inTarget} copied={copiedOf(result)} />
           <HeardWords transcript={result.transcript} lowWords={result.measures.lowWords} audioFor={wordAudio(ctx)} />
         </>
       )}
@@ -1108,7 +1161,7 @@ function Speak({ st, ctx, onDone }: P<"speak">) {
           onSaved={(r) => {
             setResult(r);
             setRescue(null);
-            if (st.assess === "auto") void a1.run(r.attemptId);
+            if (st.assess === "auto" && !copiedOf(r)) void a1.run(r.attemptId);
             // Adaptive Rescue Cascade: câu quá ngắn hoặc thiếu lý do thì tự mở thêm một mức gợi ý và mời nói lại.
             const weak = r.measures.words < 4 || r.check.reason === "no";
             const nextHint = st.hints.find((h) => h.level > hintLevel);
@@ -1130,7 +1183,7 @@ function Speak({ st, ctx, onDone }: P<"speak">) {
           <p lang="en" className="text-2xl font-semibold leading-snug">
             {st.retry.text}
           </p>
-          {retryResult && <MeasuredPanel m={retryResult.measures} keywords={st.keywords} keywordsUsed={retryResult.check.keywordsUsed} reason={retryResult.check.reason} />}
+          {retryResult && <MeasuredPanel m={retryResult.measures} keywords={st.keywords} keywordsUsed={retryResult.check.keywordsUsed} reason={retryResult.check.reason} copied={copiedOf(retryResult)} />}
           {retryResult && <HeardWords transcript={retryResult.transcript} lowWords={retryResult.measures.lowWords} audioFor={wordAudio(ctx)} />}
           {retryResult && <AssessArea s={a2} />}
           {retryResult && a1.a && a2.a && a1.a.grammar.status === "assessed" && a2.a.grammar.status === "assessed" && (

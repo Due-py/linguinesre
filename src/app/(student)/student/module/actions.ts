@@ -155,12 +155,14 @@ export async function requestAssess(attemptId: string): Promise<AssessView> {
   // RLS: chỉ đọc được lượt của chính mình.
   const { data: a } = await me.supabase
     .from("module_attempts")
-    .select("id, lesson_id, step, turn, kind, item_ref, answer, ai, ai_status")
+    .select("id, lesson_id, step, turn, kind, item_ref, answer, ai, ai_status, check_result")
     .eq("id", id.data)
     .eq("student_id", me.userId)
     .maybeSingle();
   if (!a || (a.kind !== "speak" && a.kind !== "roleplay") || !a.answer) return { ok: false, error: "Không tìm thấy lượt nói này." };
   if (a.ai_status === "ok" && a.ai) return { ok: true, assessment: a.ai as VerifiedAssessment, mock: mockAi() };
+  const cr = (a as { check_result?: { echoQuestion?: boolean; copiedHint?: boolean } | null }).check_result;
+  if (cr?.copiedHint || cr?.echoQuestion) return { ok: false, error: "Câu này là đọc lại câu hỏi hoặc câu ví dụ, nên Linguine không nhận xét. Em nói lại bằng lời của em nhé." };
 
   const lesson = await ownLesson(a.lesson_id, me.userId);
   const st = lesson?.plan.steps.find((s) => s.n === a.step);

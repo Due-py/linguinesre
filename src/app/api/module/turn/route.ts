@@ -5,7 +5,9 @@ import { canPractice } from "@/lib/research/server";
 import { takeQuota } from "@/lib/usage";
 import { getModule, ownLesson, attemptCount } from "@/lib/module/server";
 import { transcribeModule } from "@/lib/module/asr";
-import { countWords, hasReasonWord, heardRatio, matchReference, SAY_MIN_RATIO, speechMeasures, usesKeyword } from "@/lib/module/measure";
+import { heardRatio, matchReference, SAY_MIN_RATIO, speechMeasures, usesKeyword } from "@/lib/module/measure";
+import { givesReason, isEcho } from "@/lib/module/copyCheck";
+import { checkUseWord, fillPhrase } from "@/lib/module/useWord";
 import type { PlannedStep } from "@/lib/module/plan";
 
 export const dynamic = "force-dynamic";
@@ -64,7 +66,8 @@ export async function POST(request: NextRequest) {
       target = st.text;
       break;
     case "use_word":
-      target = `${st.phrase.charAt(0).toUpperCase()}${st.phrase.slice(1)} is important for all of us.`;
+      // Câu mẫu (chỉ để thử tự động, MOCK_AI): chỗ trống thay bằng người, việc cụ thể như một học sinh thật.
+      target = `I think we should ${fillPhrase(st.phrase)} every week.`;
       break;
     case "arrange":
       if (turn !== 1) return NextResponse.json({ error: "Xếp câu xong rồi mới nói." }, { status: 400 });
@@ -131,10 +134,14 @@ export async function POST(request: NextRequest) {
       check = { heard: Math.round(ratio * 100) / 100 };
       break;
     }
-    case "use_word":
-      correct = usesKeyword(t, st.phrase) && countWords(t) >= 4;
-      check = { used: usesKeyword(t, st.phrase) };
+    case "use_word": {
+      // Em tự đặt câu có dùng cụm từ (chỗ trống thay bằng người, việc cụ thể), không phải đọc lại cụm từ hay câu ví dụ.
+      const v = m.content.vocab.find((x) => x.id === st.ref);
+      const r = checkUseWord(t, st.phrase, v?.example ?? null);
+      correct = r.ok;
+      check = { used: r.used, placeholderLeft: r.placeholderLeft, tooShort: r.tooShort, copiedExample: r.copiedExample };
       break;
+    }
     case "expand": {
       const x = m.content.expand.find((e) => e.id === st.ref)!;
       const parts = turn === 0 ? [x.base] : x.steps.slice(0, turn).map((s) => s.add);
@@ -144,13 +151,23 @@ export async function POST(request: NextRequest) {
       break;
     }
     case "speak": {
-      const reason = !st.expectsReason ? "not_required" : hasReasonWord(t) ? "yes" : "no";
-      check = { keywordsUsed: st.keywords.filter((k) => usesKeyword(t, k)), reason, test: st.test };
+      const question = turn === 1 && st.retry ? st.retry.text : st.text;
+      const example = st.hints.find((h) => h.level === 4)?.body ?? null;
+      // Đọc lại câu hỏi, hoặc mở gợi ý mức 4 rồi đọc nguyên câu ví dụ: không phải câu trả lời của em.
+      const echoQuestion = isEcho(t, question);
+      const copiedHint = hint >= 4 && !!example && heardRatio(t, example) >= 0.8;
+      const copied = echoQuestion || copiedHint;
+      const reason = !st.expectsReason ? "not_required" : !copied && givesReason(t) ? "yes" : "no";
+      // Từ khóa có sẵn trong câu hỏi thì không tính là em tự dùng.
+      const keywordsUsed = copied ? [] : st.keywords.filter((k) => usesKeyword(t, k) && !usesKeyword(question, k));
+      check = { keywordsUsed, reason, test: st.test, ...(echoQuestion ? { echoQuestion: true } : {}), ...(copiedHint ? { copiedHint: true } : {}) };
       break;
     }
   }
   const target_ms = st.t === "speak" && turn === 0 ? st.targetMs : null;
-  const inTarget = target_ms === null ? null : measures.thinkMs === null ? null : measures.thinkMs <= target_ms;
+  // "Kịp mục tiêu" chỉ khi em thật sự trả lời: ít nhất 4 từ và không phải đọc lại câu hỏi / câu ví dụ.
+  const realAnswer = measures.words >= 4 && !check.echoQuestion && !check.copiedHint;
+  const inTarget = target_ms === null || !realAnswer ? null : measures.thinkMs === null ? null : measures.thinkMs <= target_ms;
 
   const { data: row, error } = await admin
     .from("module_attempts")
