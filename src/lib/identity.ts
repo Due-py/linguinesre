@@ -3,7 +3,7 @@ import { codeEmail, normalizeCode } from "@/lib/research/code";
 /**
  * Ba loại tên đăng nhập, gõ chung vào một ô:
  *  - email thật (có "@");
- *  - mã học sinh nghiên cứu (HS008, PIN 6 số): giữ nguyên như phiếu của nhóm nghiên cứu;
+ *  - mã học sinh nghiên cứu (FBG20124, PIN 6 số): giữ nguyên như phiếu của nhóm nghiên cứu;
  *  - tên tài khoản (không cần email): lưu trong Supabase dưới dạng email nội bộ <tên>@taikhoan.lingua-reflex.invalid.
  *    Đuôi .invalid là tên miền dành riêng, không bao giờ gửi thư được, nên không ai nhận nhầm thư.
  *    Quên mật khẩu thì giáo viên của lớp đặt lại (không có email để gửi liên kết).
@@ -26,7 +26,7 @@ export function checkUsername(input: string): { ok: true; username: string } | {
   if (u.length < 3 || u.length > 20) return { ok: false, message: "Tên tài khoản dài từ 3 đến 20 ký tự." };
   if (!/^[a-z]/.test(u)) return { ok: false, message: "Tên tài khoản phải bắt đầu bằng một chữ cái." };
   if (/[._]$/.test(u) || /[._]{2}/.test(u)) return { ok: false, message: "Không để dấu chấm hoặc gạch dưới ở cuối hay đứng liền nhau." };
-  if (normalizeCode(u)) return { ok: false, message: "Tên này giống mã học sinh (như HS008). Hãy thêm vài chữ cái." };
+  if (normalizeCode(u)) return { ok: false, message: "Tên này giống mã học sinh (như FBG20124). Hãy thêm vài chữ cái." };
   return { ok: true, username: u };
 }
 

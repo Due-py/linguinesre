@@ -42,7 +42,7 @@ export function LoginForm({ linkInvalid }: { linkInvalid?: boolean }) {
           </Link>
         </span>
       </p>
-      <p className="rounded-2xl bg-tint px-4 py-3 text-sm text-muted">Học sinh có phiếu đăng nhập: nhập mã học sinh (như HS008) và PIN 6 số trên phiếu.</p>
+      <p className="rounded-2xl bg-tint px-4 py-3 text-sm text-muted">Học sinh có phiếu đăng nhập: nhập mã học sinh (như FBG20124) và PIN 6 số trên phiếu.</p>
     </form>
   );
 }

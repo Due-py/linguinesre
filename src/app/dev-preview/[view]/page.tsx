@@ -20,6 +20,9 @@ import { ReportView } from "@/components/module/Panels";
 import { moduleSchema } from "@/lib/module/schema";
 import { buildLesson } from "@/lib/module/plan";
 import { moduleReport } from "@/lib/module/report";
+import ResearchDashboard, { TABS, type TabId } from "@/components/research/ResearchDashboard";
+import { buildDashboard } from "@/lib/research/analysis";
+import { researchSample } from "./researchSample";
 
 /**
  * CHỈ DÙNG KHI PHÁT TRIỂN: xem giao diện các trang cần đăng nhập bằng dữ liệu mẫu, khi chưa nối Supabase.
@@ -43,9 +46,10 @@ const recent = [
   { id: "l3", href: "#", title: "Ngày 3: Ngữ pháp, cụm câu hay và kiểm tra kiến thức", sub: "Unit 7 · Environmental Protection", at: "2026-11-07T08:14:00Z" },
 ];
 
-export default async function Preview({ params }: { params: Promise<{ view: string }> }) {
+export default async function Preview({ params, searchParams }: { params: Promise<{ view: string }>; searchParams: Promise<Record<string, string | undefined>> }) {
   if (process.env.NODE_ENV === "production") notFound();
   const { view } = await params;
+  const sp = await searchParams;
 
   switch (view) {
     case "student-new":
@@ -193,6 +197,18 @@ export default async function Preview({ params }: { params: Promise<{ view: stri
           </AppShell>
         </div>
       );
+    case "research-key":
+    case "research-blind": {
+      // Dữ liệu MẪU để xem bố cục; tab chọn bằng ?tab=… như trang thật.
+      const showArms = view === "research-key";
+      const tab: TabId = TABS.some((t) => t.id === sp.tab) ? (sp.tab as TabId) : "tong-quan";
+      const d = buildDashboard(researchSample(), { showArms });
+      return (
+        <AppShell name="Xem trước" roleLabel="Nhóm nghiên cứu" homeHref="#" nav={[{ href: "/research", label: "Nghiên cứu" }]} current="/research">
+          <ResearchDashboard d={d} tab={tab} filters={{ arm: null, from: null, to: null }} level={showArms ? "key" : "blind"} unblinded={false} sheets={{ configured: true, state: { F1: "not_created", F2: "ok", F3: "not_created", F5: "not_created", F6: "ok", F7: "not_created" }, errors: [] }} />
+        </AppShell>
+      );
+    }
     case "test-runner":
       return (
         <div className="theme-classic">

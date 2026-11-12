@@ -28,7 +28,7 @@ export default function PrivacyPage() {
           <ul className="grid list-disc gap-2 pl-5">
             <li>
               <strong>Tài khoản:</strong> email hoặc tên tài khoản (giáo viên và học sinh tự đăng ký, kèm họ và tên thật để thầy cô
-              nhận ra) hoặc mã học sinh như HS008 (học sinh tham gia nghiên cứu, không lưu họ tên), khối lớp, mục tiêu luyện tập nếu bạn chọn.
+              nhận ra) hoặc mã học sinh như FBG20124 (học sinh tham gia nghiên cứu, không lưu họ tên), khối lớp, mục tiêu luyện tập nếu bạn chọn.
             </li>
             <li>
               <strong>Bài luyện:</strong> file ghi âm câu trả lời, chữ ghi lời (máy chuyển giọng nói thành chữ, bạn có thể sửa),

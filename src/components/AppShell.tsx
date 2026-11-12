@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
-import { ClipboardCheck, History, House, LogOut, Map as MapIcon, Sprout, UserRound, Users, type LucideIcon } from "lucide-react";
+import { ClipboardCheck, FlaskConical, History, House, LogOut, Map as MapIcon, Sprout, UserRound, Users, type LucideIcon } from "lucide-react";
 import Logo from "@/components/Logo";
 import { signOut } from "@/app/(auth)/actions";
 
@@ -14,6 +14,7 @@ const ICON: Record<string, LucideIcon> = {
   "/student/history": History,
   "/teacher": Users,
   "/teacher/modules": ClipboardCheck,
+  "/research": FlaskConical,
 };
 
 /** Menu học sinh: chỉ gồm trang đã có thật. */

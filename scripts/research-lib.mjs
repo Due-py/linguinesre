@@ -40,7 +40,7 @@ export const stamp = () => new Date().toISOString().slice(0, 16).replace(/[:T]/g
  */
 export async function createParticipant({ code, grade, formOrder, pilot = false }) {
   const c = normalizeCode(code);
-  if (!c) throw new Error(`Mã "${code}" không đúng dạng (VD: HS008)`);
+  if (!c) throw new Error(`Mã "${code}" không đúng dạng (VD: FBG20124)`);
   if (!["AB", "BA"].includes(formOrder)) throw new Error(`${c}: thứ tự đề phải là AB hoặc BA`);
   const pin = newPin();
   const { data: created, error } = await admin.auth.admin.createUser({ email: codeEmail(c), password: pin, email_confirm: true });

@@ -2,11 +2,11 @@
 //
 // Chạy: npm run research:students -- files/research/hoc-sinh.csv
 //   File CSV gồm cột: code,grade,form_order[,pilot]
-//     code        mã học sinh, VD HS008 (KHÔNG ghi họ tên)
+//     code        mã học sinh, VD FBG20124 (KHÔNG ghi họ tên)
 //     grade       khối lớp, VD 8
 //     form_order  AB hoặc BA, theo kết quả bốc thăm thứ tự đề (mục 3.5, tối 01/11)
 //     pilot       1 nếu là học sinh thử đề (làm cả hai đề liền nhau, không đưa vào phân tích); bỏ trống = 0
-// Cấp lại PIN cho một bạn quên: npm run research:students -- --reset HS008
+// Cấp lại PIN cho một bạn quên: npm run research:students -- --reset FBG20124
 //
 // Phiếu PIN ghi vào files/research/ (thư mục không đưa lên GitHub). PIN không in ra màn hình.
 import { admin, createParticipant, newPin, readCsv, stamp, writeCsv } from "./research-lib.mjs";
@@ -16,7 +16,7 @@ const args = process.argv.slice(2);
 
 if (args[0] === "--reset") {
   const code = normalizeCode(args[1] ?? "");
-  if (!code) throw new Error("Cần mã học sinh, VD: --reset HS008");
+  if (!code) throw new Error("Cần mã học sinh, VD: --reset FBG20124");
   const { data } = await admin.from("research_participants").select("student_id").eq("code", code).maybeSingle();
   if (!data) throw new Error(`Không có học sinh ${code}`);
   const pin = newPin();

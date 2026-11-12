@@ -23,7 +23,7 @@ export const loginSchema = z
   .transform((v, ctx) => {
     const id = parseLoginId(v.identifier);
     if (!id) {
-      ctx.addIssue({ code: "custom", path: ["identifier"], message: "Chưa đúng dạng. Nhập email (có @), tên tài khoản hoặc mã học sinh như HS008." });
+      ctx.addIssue({ code: "custom", path: ["identifier"], message: "Chưa đúng dạng. Nhập email (có @), tên tài khoản hoặc mã học sinh như FBG20124." });
       return z.NEVER;
     }
     return { ...id, password: v.password };

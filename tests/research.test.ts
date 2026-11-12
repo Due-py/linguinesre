@@ -43,6 +43,9 @@ describe("thời gian phản xạ (mục 1.4)", () => {
 describe("mã học sinh", () => {
   it("chuẩn hóa cách gõ khác nhau", () => {
     expect(normalizeCode("hs 008")).toBe("HS008");
+    expect(normalizeCode("fbg 20124")).toBe("FBG20124");
+    expect(normalizeCode("Fbg-20124")).toBe("FBG20124");
+    expect(normalizeCode("minh2010")).toBeNull();
     expect(normalizeCode("Hs-0120")).toBe("HS0120");
     expect(normalizeCode("HS8")).toBeNull();
     expect(normalizeCode("H5008")).toBeNull();
