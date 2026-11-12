@@ -36,7 +36,7 @@
     { "id": "v28", "en": "species", "vi": "loài", "ipa": "/ˈspiːʃiːz/", "ipaFrom": "dictionary", "pos": "n", "example": "The forest is home to more than a hundred species of birds.", "collocations": ["animal species", "plant species"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 50 } },
     { "id": "v29", "en": "excursion", "vi": "chuyến tham quan ngắn", "ipa": "/ɪkˈskɜːʃn/", "ipaFrom": "dictionary", "pos": "n", "example": "Our class went on an excursion to a science museum.", "collocations": ["go on an excursion", "take an excursion"], "synonyms": ["trip"], "antonyms": [], "src": { "kind": "sgk", "page": 52 } },
     { "id": "v30", "en": "embarrassed", "vi": "xấu hổ, ngượng", "ipa": "/ɪmˈbærəst/", "ipaFrom": "dictionary", "pos": "adj", "example": "I felt embarrassed when I called my teacher \"Mum\" in class.", "collocations": ["feel embarrassed"], "synonyms": ["ashamed"], "antonyms": ["proud"], "src": { "kind": "sgk", "page": 52 } },
-    { "id": "v31", "en": "tent", "vi": "lều", "ipa": "/tent/", "ipaFrom": "dictionary", "pos": "n", "example": "It took us an hour to put up the tent in the wind.", "collocations": ["put up a tent", "sleep in a tent"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 52 } }
+    { "id": "v31", "en": "tent", "vi": "lều", "ipa": "/tent/", "ipaFrom": "dictionary", "pos": "n", "example": "It took us an hour to put up the tent in the wind.", "collocations": ["sleep in a tent", "a small tent"], "synonyms": [], "antonyms": [], "src": { "kind": "sgk", "page": 52 } }
   ],
   "grammar": [
     {

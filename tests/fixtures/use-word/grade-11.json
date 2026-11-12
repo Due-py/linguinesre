@@ -1,0 +1,3653 @@
+[
+  {
+    "unit": "unit-01",
+    "phrase": "balanced diet",
+    "good": [
+      "My mom always cooks a balanced and healthy diet for us.",
+      "I try to keep my diet balanced every day.",
+      "A balanced diet helps students study better."
+    ],
+    "bad": [
+      "balanced diet"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "improve your fitness",
+    "good": [
+      "I go swimming twice a week to improve my physical fitness.",
+      "My fitness has improved a lot since I started running.",
+      "Playing badminton every morning improves Lan's fitness a lot."
+    ],
+    "bad": [
+      "improve your fitness"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "work out regularly",
+    "good": [
+      "My brother works out at the gym regularly.",
+      "I have worked out regularly since last summer.",
+      "My best friend and I work out regularly after school."
+    ],
+    "bad": [
+      "work out regularly"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "cut down on sugar",
+    "good": [
+      "My dad cut down a lot on sugar this year.",
+      "I'm cutting down on sugar in my milk tea.",
+      "The doctor told my grandma to cut down on sugar."
+    ],
+    "bad": [
+      "cut down on sugar"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "give up bad habits",
+    "good": [
+      "My uncle finally gave up his bad habits last year.",
+      "I want to give up some bad habits like staying up late.",
+      "Bad habits are hard to give up, but I will try."
+    ],
+    "bad": [
+      "give up bad habits"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "high life expectancy",
+    "good": [
+      "Japan has a very high life expectancy.",
+      "Life expectancy in Vietnam is quite high now.",
+      "People who eat healthy food often have a high life expectancy."
+    ],
+    "bad": [
+      "high life expectancy"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "full of nutrients",
+    "good": [
+      "Green vegetables are full of important nutrients.",
+      "This soup is full of vitamins and nutrients.",
+      "My mom says eggs are full of nutrients for kids."
+    ],
+    "bad": [
+      "full of nutrients"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "muscle strength",
+    "good": [
+      "Swimming gives my sister more muscle strength.",
+      "Push-ups improve the strength of your muscles.",
+      "My grandpa is losing muscle strength because he is old."
+    ],
+    "bad": [
+      "muscle strength"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "build your strength",
+    "good": [
+      "I lift weights to build my strength.",
+      "My dad built up his strength by running every morning.",
+      "My brother is building his strength for the football match."
+    ],
+    "bad": [
+      "build your strength"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "regular exercise",
+    "good": [
+      "Regular outdoor exercise keeps me healthy.",
+      "I do exercise regularly to stay healthy.",
+      "My doctor says I need more regular exercise."
+    ],
+    "bad": [
+      "regular exercise"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "eat properly",
+    "good": [
+      "My sister never eats breakfast properly.",
+      "I haven't been eating properly since the exams started.",
+      "My grandma tells me to eat properly every day."
+    ],
+    "bad": [
+      "eat properly"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "fresh ingredients",
+    "good": [
+      "My mom only buys fresh local ingredients at the market.",
+      "The ingredients in this salad are very fresh.",
+      "Good chefs always use fresh ingredients."
+    ],
+    "bad": [
+      "fresh ingredients"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "receive treatment",
+    "good": [
+      "My uncle received good treatment at the hospital.",
+      "She is receiving treatment for her back pain.",
+      "Patients with serious diseases should receive treatment early."
+    ],
+    "bad": [
+      "receive treatment"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "suffer from stress",
+    "good": [
+      "Many students suffer a lot from stress before exams.",
+      "My mom suffered from stress when she lost her job.",
+      "My older sister often suffers from stress at work."
+    ],
+    "bad": [
+      "suffer from stress"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "examine a patient",
+    "good": [
+      "The doctor examined the old patient very carefully.",
+      "Patients are examined by doctors every morning.",
+      "My aunt is a doctor and she examines patients every day."
+    ],
+    "bad": [
+      "examine a patient"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "heart disease",
+    "good": [
+      "Smoking increases the risk of heart disease.",
+      "Too much fast food can lead to heart diseases.",
+      "My grandpa has had heart disease for many years."
+    ],
+    "bad": [
+      "heart disease"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "serious illness",
+    "good": [
+      "My aunt had a serious lung illness last year.",
+      "His illness was serious, so he stayed in hospital.",
+      "My grandma recovered from a serious illness."
+    ],
+    "bad": [
+      "serious illness"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "full of energy",
+    "good": [
+      "Our teacher is full of positive energy every morning.",
+      "The kids at the party were full of energy.",
+      "I eat breakfast so I'm full of energy for school."
+    ],
+    "bad": [
+      "full of energy"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "a healthy recipe",
+    "good": [
+      "My mom found a quick and healthy recipe online.",
+      "This recipe is very healthy and easy to cook.",
+      "I want to learn some healthy recipes for my family."
+    ],
+    "bad": [
+      "a healthy recipe"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "harmful bacteria",
+    "good": [
+      "Raw meat can have harmful kinds of bacteria.",
+      "Some bacteria are harmful to our bodies.",
+      "Washing your hands kills harmful bacteria."
+    ],
+    "bad": [
+      "harmful bacteria"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "do press-ups",
+    "good": [
+      "I do twenty press-ups every morning.",
+      "My brother did press-ups before the football match.",
+      "Our PE teacher makes us do press-ups in class."
+    ],
+    "bad": [
+      "do press-ups"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "take antibiotics",
+    "good": [
+      "My doctor told me to take these antibiotics for five days.",
+      "I took antibiotics when I had a bad cough.",
+      "You should not take antibiotics without asking a doctor."
+    ],
+    "bad": [
+      "take antibiotics"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "the diameter of a circle",
+    "good": [
+      "In maths today we learned how to measure the diameter of a big circle.",
+      "A circle's diameter is twice as long as its radius.",
+      "Can you find the diameter of this circle for me?"
+    ],
+    "bad": [
+      "the diameter of a circle"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "get food poisoning",
+    "good": [
+      "My cousin got bad food poisoning from street food.",
+      "I have gotten food poisoning twice this year.",
+      "Be careful with old seafood or you can get food poisoning."
+    ],
+    "bad": [
+      "get food poisoning"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "spread germs",
+    "good": [
+      "Dirty hands can spread a lot of germs.",
+      "Germs are spread quickly in crowded classrooms.",
+      "Sneezing without covering your mouth spreads germs."
+    ],
+    "bad": [
+      "spread germs"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "prevent infection",
+    "good": [
+      "Washing the cut helps prevent an infection.",
+      "Infection can be prevented by keeping your hands clean.",
+      "The nurse cleaned my wound to prevent infection."
+    ],
+    "bad": [
+      "prevent infection"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "living organisms",
+    "good": [
+      "Bacteria are very small living organisms.",
+      "All living organisms need water to survive.",
+      "There are many tiny living organisms in the soil."
+    ],
+    "bad": [
+      "living organisms"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "the spread of disease",
+    "good": [
+      "Masks can slow the spread of the disease.",
+      "Disease spreads fast in crowded places.",
+      "Clean water helps stop the spread of diseases."
+    ],
+    "bad": [
+      "the spread of disease"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "do star jumps",
+    "good": [
+      "We do ten star jumps to warm up.",
+      "I did star jumps in the morning with my brother.",
+      "Our PE teacher made us do star jumps in the rain."
+    ],
+    "bad": [
+      "do star jumps"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "treat tuberculosis",
+    "good": [
+      "Doctors can treat tuberculosis with strong medicine.",
+      "Tuberculosis is treated in special hospitals.",
+      "My grandpa was treated for tuberculosis many years ago."
+    ],
+    "bad": [
+      "treat tuberculosis"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "catch a virus",
+    "good": [
+      "My sister caught a bad virus at school.",
+      "Many kids catch viruses in the rainy season.",
+      "I think I have caught a virus from my friend."
+    ],
+    "bad": [
+      "catch a virus"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "bridge the generation gap",
+    "good": [
+      "Talking more can bridge the big generation gap in families.",
+      "The generation gap can be bridged by listening to each other.",
+      "My grandparents and I bridged the generation gap by cooking together."
+    ],
+    "bad": [
+      "bridge the generation gap"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "live in a nuclear family",
+    "good": [
+      "I live in a small nuclear family with my parents.",
+      "My cousin has lived in a nuclear family since he was born.",
+      "Many young couples now live in nuclear families."
+    ],
+    "bad": [
+      "live in a nuclear family"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "live with an extended family",
+    "good": [
+      "My best friend lives with her big extended family.",
+      "We lived with an extended family when I was small.",
+      "I live with my extended family in the countryside."
+    ],
+    "bad": [
+      "live with an extended family"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "limit screen time",
+    "good": [
+      "My parents limit my screen time on weekdays.",
+      "Screen time should be limited for young kids.",
+      "I try to limit my phone screen time to two hours."
+    ],
+    "bad": [
+      "limit screen time"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "set a limit on something",
+    "good": [
+      "My parents set a strict limit on my gaming time.",
+      "Our teacher has set limits on phone use in class.",
+      "I set a limit on social media to one hour a day."
+    ],
+    "bad": [
+      "set a limit on something"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "generational conflict",
+    "good": [
+      "There is often generational conflict about clothes in my family.",
+      "Generational conflicts happen when parents don't listen.",
+      "Social media can cause generational conflict at home."
+    ],
+    "bad": [
+      "generational conflict"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "have an argument",
+    "good": [
+      "I had a big argument with my brother yesterday.",
+      "My parents sometimes have arguments about money.",
+      "We never have an argument about food."
+    ],
+    "bad": [
+      "have an argument"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "adapt to changes",
+    "good": [
+      "Old people find it hard to adapt to big changes.",
+      "My grandpa adapted to the changes in technology quickly.",
+      "We must adapt to changes in our new school."
+    ],
+    "bad": [
+      "adapt to changes"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "cultural values",
+    "good": [
+      "Young people should respect cultural and family values.",
+      "Every country has its own cultural values.",
+      "Tet shows the cultural values of Vietnam."
+    ],
+    "bad": [
+      "cultural values"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "traditional view",
+    "good": [
+      "My grandma has a very traditional view of marriage.",
+      "My dad's views are quite traditional.",
+      "Some people still hold a traditional view about women's jobs."
+    ],
+    "bad": [
+      "traditional view"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "traditional way of life",
+    "good": [
+      "My grandparents still follow a very traditional way of life.",
+      "Their way of life is still quite traditional in the village.",
+      "Many people in Ha Giang keep their traditional way of life."
+    ],
+    "bad": [
+      "traditional way of life"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "give someone more freedom",
+    "good": [
+      "My parents give me more freedom now that I am sixteen.",
+      "I wish my parents would give my sister and me a bit more freedom.",
+      "Teenagers are given more freedom when they show responsibility."
+    ],
+    "bad": [
+      "give someone more freedom"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "influence young people",
+    "good": [
+      "Social media can influence many young people.",
+      "Young people are easily influenced by famous singers.",
+      "Good teachers influence young people in positive ways."
+    ],
+    "bad": [
+      "influence young people"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "common characteristics",
+    "good": [
+      "My brother and I have many common physical characteristics.",
+      "These characteristics are common in teenagers.",
+      "What are the common characteristics of good leaders?"
+    ],
+    "bad": [
+      "common characteristics"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "curious about something",
+    "good": [
+      "My little brother is very curious about how planes fly.",
+      "Young children are naturally curious about everything around them.",
+      "I have always been curious about Japanese culture and food."
+    ],
+    "bad": [
+      "curious about something"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "share experiences",
+    "good": [
+      "I like to share my experiences with my classmates.",
+      "My grandpa shared his war experiences with us.",
+      "We shared experiences from our summer trips."
+    ],
+    "bad": [
+      "share experiences"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "limit screen time",
+    "good": [
+      "Our teacher told us to limit our screen time.",
+      "My mom limited my brother's screen time last week.",
+      "Limiting screen time helps me sleep better."
+    ],
+    "bad": [
+      "limit screen time"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "use social media",
+    "good": [
+      "I use a lot of social media at night.",
+      "Social media is used by most teenagers today.",
+      "My mom uses social media to sell clothes."
+    ],
+    "bad": [
+      "use social media"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "traditional view",
+    "good": [
+      "Many old people have traditional views on education.",
+      "My parents' view about jobs is traditional.",
+      "I don't agree with the traditional view that boys shouldn't cook."
+    ],
+    "bad": [
+      "traditional view"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "hire staff",
+    "good": [
+      "My uncle is hiring new staff for his shop.",
+      "The new cafe hired more staff for Tet.",
+      "The hotel needs to hire staff before summer."
+    ],
+    "bad": [
+      "hire staff"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "strong beliefs",
+    "good": [
+      "My grandmother has strong religious beliefs.",
+      "Her beliefs about family are very strong.",
+      "People with strong beliefs don't change their minds easily."
+    ],
+    "bad": [
+      "strong beliefs"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "good behaviour",
+    "good": [
+      "Our class got a prize for good classroom behaviour.",
+      "His behaviour was really good at the party.",
+      "Parents should reward children for good behavior."
+    ],
+    "bad": [
+      "good behaviour"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "traditional gender roles",
+    "good": [
+      "My family doesn't follow traditional gender roles at home.",
+      "In the past, gender roles were very traditional.",
+      "Some people still believe in traditional gender roles."
+    ],
+    "bad": [
+      "traditional gender roles"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "follow in someone's footsteps",
+    "good": [
+      "My brother wants to follow in our father's footsteps and become a doctor.",
+      "I followed in my father's footsteps and became a teacher.",
+      "My cousin will follow in her mother's footsteps."
+    ],
+    "bad": [
+      "follow in someone's footsteps"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "respect your elders",
+    "good": [
+      "We should always respect our elders.",
+      "Elders are respected a lot in Vietnamese culture.",
+      "Children in Vietnam learn to respect their elders."
+    ],
+    "bad": [
+      "respect your elders"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "experiment with new ideas",
+    "good": [
+      "Young people like to experiment with lots of new ideas.",
+      "Our club experimented with some new ideas for the school fair.",
+      "Teenagers often want to try new ideas and experiment with them."
+    ],
+    "bad": [
+      "experiment with new ideas"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "develop critical thinking",
+    "good": [
+      "Debates help us develop our critical thinking.",
+      "My critical thinking has developed a lot this year.",
+      "Reading news can develop critical thinking skills."
+    ],
+    "bad": [
+      "develop critical thinking"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "good teamwork",
+    "good": [
+      "Our team won because of really good teamwork.",
+      "The teamwork in our class is very good.",
+      "Football needs good teamwork and practice."
+    ],
+    "bad": [
+      "good teamwork"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "complain about something",
+    "good": [
+      "My sister always complains about having too much homework.",
+      "I sometimes complained to my mom about the noise.",
+      "Grandpa often complains about the loud music next door."
+    ],
+    "bad": [
+      "complain about something"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "ask for permission",
+    "good": [
+      "I always ask my parents for permission before going out.",
+      "My sister asked for permission to use the car.",
+      "You must ask the teacher for permission to leave."
+    ],
+    "bad": [
+      "ask for permission"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "live in a smart city",
+    "good": [
+      "I want to live in a big smart city in the future.",
+      "My cousin lives in a smart city in Korea.",
+      "Living in a smart city is very convenient."
+    ],
+    "bad": [
+      "live in a smart city"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "a liveable city",
+    "good": [
+      "Da Nang is a clean and liveable city.",
+      "Our city is becoming more liveable every year.",
+      "Hue is a very livable city."
+    ],
+    "bad": [
+      "a liveable city"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "high-rise buildings",
+    "good": [
+      "Ho Chi Minh City has lots of new high-rise buildings.",
+      "My aunt lives in a high-rise building.",
+      "This building is a high-rise with forty floors."
+    ],
+    "bad": [
+      "high-rise buildings"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "a modern skyscraper",
+    "good": [
+      "My dad works in a modern glass skyscraper.",
+      "That skyscraper looks really modern.",
+      "Landmark 81 is a very modern skyscraper."
+    ],
+    "bad": [
+      "a modern skyscraper"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "motion sensor",
+    "good": [
+      "The lights in my school have motion sensors.",
+      "The camera uses a sensor to detect motion.",
+      "Our door has a motion sensor that opens it automatically."
+    ],
+    "bad": [
+      "motion sensor"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "modern infrastructure",
+    "good": [
+      "Big cities need modern transport infrastructure.",
+      "The infrastructure in Singapore is very modern.",
+      "Vietnam is building more modern infrastructure."
+    ],
+    "bad": [
+      "modern infrastructure"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "pedestrian street",
+    "good": [
+      "There is a new pedestrian shopping street in my town.",
+      "We walked along the pedestrian street on Saturday night.",
+      "Nguyen Hue is a famous pedestrian street."
+    ],
+    "bad": [
+      "pedestrian street"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "build cycle paths",
+    "good": [
+      "The city should build more cycle paths.",
+      "New cycle paths were built near my school.",
+      "My town is building safe cycle paths for students."
+    ],
+    "bad": [
+      "build cycle paths"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "grow vegetables in a roof garden",
+    "good": [
+      "My grandma grows fresh vegetables in a small roof garden.",
+      "We grew some vegetables in our roof garden last summer.",
+      "Vegetables grown in a roof garden are clean and safe."
+    ],
+    "bad": [
+      "grow vegetables in a roof garden"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "sustainable city",
+    "good": [
+      "Singapore is a green and sustainable city.",
+      "We want our city to be more sustainable.",
+      "Sustainable cities use clean energy."
+    ],
+    "bad": [
+      "sustainable city"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "a strong sense of community",
+    "good": [
+      "My village has a really strong sense of community.",
+      "The sense of community in my street is very strong.",
+      "Festivals help build a strong sense of community."
+    ],
+    "bad": [
+      "a strong sense of community"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "large urban centres",
+    "good": [
+      "Many young people move to large modern urban centres for work.",
+      "Hanoi and Ho Chi Minh City are large urban centres.",
+      "Most jobs are in large urban centers."
+    ],
+    "bad": [
+      "large urban centres"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "a quiet neighbourhood",
+    "good": [
+      "We live in a very quiet neighbourhood.",
+      "Our neighbourhood is quiet at night.",
+      "My grandparents moved to a quiet neighborhood."
+    ],
+    "bad": [
+      "a quiet neighbourhood"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "protect privacy",
+    "good": [
+      "We should protect our privacy online.",
+      "My privacy is protected by a strong password.",
+      "Apps must protect users' privacy."
+    ],
+    "bad": [
+      "protect privacy"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "work efficiently",
+    "good": [
+      "My dad works very efficiently at his office.",
+      "I work more efficiently in the morning.",
+      "Robots can work efficiently all day."
+    ],
+    "bad": [
+      "work efficiently"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "interact with someone",
+    "good": [
+      "Smart cities help people interact with their neighbours online.",
+      "I enjoy interacting with people from other countries.",
+      "Robots can now interact well with elderly people."
+    ],
+    "bad": [
+      "interact with someone"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "operate a machine",
+    "good": [
+      "My uncle knows how to operate this huge machine safely.",
+      "Only trained workers are allowed to operate the machines.",
+      "This machine is operated by a computer in the city centre."
+    ],
+    "bad": [
+      "operate a machine"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "use public transport",
+    "good": [
+      "More people should use the city's public transport.",
+      "My mom has used public transport for many years.",
+      "I use public transport to go to school."
+    ],
+    "bad": [
+      "use public transport"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "read an article",
+    "good": [
+      "I read an interesting article about smart cities.",
+      "Yesterday I read a long article on my phone.",
+      "My dad reads articles about technology every morning."
+    ],
+    "bad": [
+      "read an article"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "reduce your carbon footprint",
+    "good": [
+      "I cycle to school to reduce my carbon footprint.",
+      "My family reduced our carbon footprint by using less electricity.",
+      "We can reduce our carbon footprint by eating less meat."
+    ],
+    "bad": [
+      "reduce your carbon footprint"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "stuck in a traffic jam",
+    "good": [
+      "I got stuck in a long traffic jam this morning.",
+      "My dad often gets stuck in traffic jams after work.",
+      "We were stuck in a traffic jam for an hour."
+    ],
+    "bad": [
+      "stuck in a traffic jam"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "air pollution",
+    "good": [
+      "Big cities suffer from air and noise pollution.",
+      "Air pollution in Hanoi is very bad in winter.",
+      "Cars cause a lot of air pollution."
+    ],
+    "bad": [
+      "air pollution"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "greenhouse gas emissions",
+    "good": [
+      "Factories produce a lot of greenhouse gas emissions.",
+      "Emissions of greenhouse gases are rising every year.",
+      "We must cut greenhouse gas emissions from cars."
+    ],
+    "bad": [
+      "greenhouse gas emissions"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "eco-friendly transport",
+    "good": [
+      "My town needs more eco-friendly public transport.",
+      "Bicycles are a cheap and eco-friendly kind of transport.",
+      "I choose eco-friendly transport like buses."
+    ],
+    "bad": [
+      "eco-friendly transport"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "a growing population",
+    "good": [
+      "Hanoi has a fast growing population.",
+      "The population of my city is growing quickly.",
+      "Big cities have problems because of a growing population."
+    ],
+    "bad": [
+      "a growing population"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "during rush hour",
+    "good": [
+      "I hate driving during the morning rush hour.",
+      "During rush hours, buses are always full.",
+      "The roads are very crowded during rush hour."
+    ],
+    "bad": [
+      "during rush hour"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "driverless car",
+    "good": [
+      "I want to ride in a driverless car one day.",
+      "Driverless cars will be common in the future.",
+      "The car is driverless, so nobody needs to drive it."
+    ],
+    "bad": [
+      "driverless car"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "improve the quality of life",
+    "good": [
+      "Parks improve the quality of city life.",
+      "Clean air has improved our quality of life.",
+      "Smart cities can improve the quality of life for everyone."
+    ],
+    "bad": [
+      "improve the quality of life"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "the ASEAN community",
+    "good": [
+      "Vietnam is an active member of the ASEAN community.",
+      "The ASEAN economic community helps trade between countries.",
+      "I am proud to be part of the ASEAN community."
+    ],
+    "bad": [
+      "the ASEAN community"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "a cultural exchange programme",
+    "good": [
+      "My sister took part in a short cultural exchange programme.",
+      "I joined a cultural exchange programme in Thailand.",
+      "Our school has a cultural exchange program with Japan."
+    ],
+    "bad": [
+      "a cultural exchange programme"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "develop leadership skills",
+    "good": [
+      "Joining clubs helps me develop my leadership skills.",
+      "My leadership skills developed a lot after the camp.",
+      "Team captains can develop strong leadership skills."
+    ],
+    "bad": [
+      "develop leadership skills"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "take part in a programme",
+    "good": [
+      "I took part in a summer programme in Singapore.",
+      "My brother is taking part in a volunteer programme.",
+      "Many students want to take part in this programme."
+    ],
+    "bad": [
+      "take part in a programme"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "volunteer work",
+    "good": [
+      "My mom does a lot of volunteer work at the hospital.",
+      "I do volunteer work at the animal shelter.",
+      "Volunteer work teaches us to help others."
+    ],
+    "bad": [
+      "volunteer work"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "represent somebody",
+    "good": [
+      "She represented her country in the singing contest.",
+      "I hope to represent my country at the Olympics one day.",
+      "Our football team represented Vietnam at the SEA Games."
+    ],
+    "bad": [
+      "represent somebody"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "promote friendship",
+    "good": [
+      "The camp aims to promote the friendship between our schools.",
+      "The festival promoted friendship among ASEAN students.",
+      "Sports can promote friendship between countries."
+    ],
+    "bad": [
+      "promote friendship"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "write a proposal",
+    "good": [
+      "I need to write a short proposal for the project.",
+      "The proposal was written by our class leader.",
+      "Our group wrote a proposal for a school garden."
+    ],
+    "bad": [
+      "write a proposal"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "youth programme",
+    "good": [
+      "My sister works for a youth exchange programme.",
+      "I joined a youth programme in my city.",
+      "This programme is for youth from fifteen to eighteen."
+    ],
+    "bad": [
+      "youth programme"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "an eye-opening experience",
+    "good": [
+      "Visiting Laos was a really eye-opening experience for me.",
+      "The experience was eye-opening for all of us.",
+      "Working at the market was an eye-opening experience."
+    ],
+    "bad": [
+      "an eye-opening experience"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "countries in the region",
+    "good": [
+      "Vietnam works closely with other countries in the region.",
+      "Many countries in the ASEAN region share similar cultures.",
+      "The region has ten member countries working together."
+    ],
+    "bad": [
+      "countries in the region"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "make a contribution to",
+    "good": [
+      "Everyone can make a small contribution to the community.",
+      "My grandpa made a big contribution to our village.",
+      "Volunteers make a contribution to society."
+    ],
+    "bad": [
+      "make a contribution to",
+      "I want to make a contribution to"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "give a compliment",
+    "good": [
+      "My friend gave me a nice compliment on my dress.",
+      "I like giving compliments to my classmates.",
+      "Compliments should be given honestly."
+    ],
+    "bad": [
+      "give a compliment"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "current issues",
+    "good": [
+      "We often discuss current social issues in class.",
+      "My dad likes talking about current issues.",
+      "Climate change is one of the most important current issues."
+    ],
+    "bad": [
+      "current issues"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "discuss an issue",
+    "good": [
+      "Our class discussed an important issue about plastic waste.",
+      "This issue was discussed at the youth meeting yesterday.",
+      "Let's discuss the issue of bullying with our teacher."
+    ],
+    "bad": [
+      "discuss an issue"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "current issues",
+    "good": [
+      "Students should know about current world issues.",
+      "These issues are current and very important.",
+      "Our teacher asked us to read about current issues."
+    ],
+    "bad": [
+      "current issues"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "apply for a job",
+    "good": [
+      "I will apply for a part-time job this summer.",
+      "My sister applied for a job at a bank.",
+      "He is applying for a job in Japan."
+    ],
+    "bad": [
+      "apply for a job"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "qualify for something",
+    "good": [
+      "My sister qualified for a scholarship to study in Singapore.",
+      "Only students with good grades can qualify for the exchange programme.",
+      "I hope to qualify for the national English contest this year."
+    ],
+    "bad": [
+      "qualify for something"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "support each other",
+    "good": [
+      "My friends and I always support each other.",
+      "We supported each other during the exam.",
+      "Classmates should support each other in hard times."
+    ],
+    "bad": [
+      "support each other"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "economic development",
+    "good": [
+      "Education is key to economic and social development.",
+      "Vietnam's economic development has been fast.",
+      "Good roads are important for economic development."
+    ],
+    "bad": [
+      "economic development"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "hold a celebration",
+    "good": [
+      "Our school held a big celebration for Teachers' Day.",
+      "A celebration was held in the village last night.",
+      "We will hold a small celebration for my grandma's birthday."
+    ],
+    "bad": [
+      "hold a celebration"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "honour someone",
+    "good": [
+      "The school honoured the best students yesterday.",
+      "We honour our teachers on November twentieth.",
+      "The festival honors national heroes."
+    ],
+    "bad": [
+      "honour someone",
+      "We should honour someone today."
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "live-stream something",
+    "good": [
+      "They will live-stream the event on YouTube.",
+      "The music event was live-streamed online.",
+      "My cousin live-streamed the school concert on Facebook."
+    ],
+    "bad": [
+      "live-stream something"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "world politics",
+    "good": [
+      "My dad is interested in world politics.",
+      "I don't understand much about world politics.",
+      "My uncle reads about world politics every day."
+    ],
+    "bad": [
+      "world politics"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "propose an idea",
+    "good": [
+      "Lan proposed an interesting idea for our project.",
+      "Every student can propose ideas at the meeting.",
+      "I proposed a new idea to my group."
+    ],
+    "bad": [
+      "propose an idea"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "good relations",
+    "good": [
+      "Our two schools have very good relations.",
+      "Relations between the two countries are good now.",
+      "Vietnam has good relations with many countries."
+    ],
+    "bad": [
+      "good relations"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "a student representative",
+    "good": [
+      "We voted for a new student representative.",
+      "Our school sent two student representatives to the meeting.",
+      "I was chosen as a student representative for our class."
+    ],
+    "bad": [
+      "a student representative"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "strengthen relations",
+    "good": [
+      "Sports can strengthen good relations between countries.",
+      "Relations were strengthened after the meeting.",
+      "The visit strengthened relations between Vietnam and Japan."
+    ],
+    "bad": [
+      "strengthen relations"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "the main theme",
+    "good": [
+      "The main theme of the festival is friendship.",
+      "Friendship is the main theme of this book.",
+      "What is the main theme of the story?"
+    ],
+    "bad": [
+      "the main theme"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "an unforgettable experience",
+    "good": [
+      "Camping with my class was a truly unforgettable experience.",
+      "That experience was unforgettable for me.",
+      "The trip to Sa Pa was an unforgettable experience."
+    ],
+    "bad": [
+      "an unforgettable experience"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "participate in something",
+    "good": [
+      "Many students participated in the ASEAN youth programme last year.",
+      "I would love to participate actively in volunteer work.",
+      "Everyone is welcome to participate in our school's charity event."
+    ],
+    "bad": [
+      "participate in something"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "fight global warming",
+    "good": [
+      "Planting trees helps fight against global warming.",
+      "Many countries are fighting global warming.",
+      "We must work together to fight global warming."
+    ],
+    "bad": [
+      "fight global warming"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "burn fossil fuels",
+    "good": [
+      "Factories burn a lot of fossil fuels every day.",
+      "Fossil fuels are burned in power plants.",
+      "Burning fossil fuels makes the air dirty."
+    ],
+    "bad": [
+      "burn fossil fuels"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "carbon emissions",
+    "good": [
+      "My city wants to cut its carbon emissions.",
+      "Cars produce a lot of carbon emissions.",
+      "We need to reduce carbon emissions from factories."
+    ],
+    "bad": [
+      "carbon emissions"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "release carbon dioxide",
+    "good": [
+      "Cars release a lot of carbon dioxide.",
+      "Carbon dioxide is released when we burn coal.",
+      "Burning wood releases carbon dioxide into the air."
+    ],
+    "bad": [
+      "release carbon dioxide"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "stop deforestation",
+    "good": [
+      "The government is trying to stop illegal deforestation.",
+      "Deforestation should be stopped now.",
+      "We must stop deforestation in the Amazon."
+    ],
+    "bad": [
+      "stop deforestation"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "renewable energy",
+    "good": [
+      "My town uses more renewable sources of energy.",
+      "Wind energy is renewable and clean.",
+      "Solar power is a kind of renewable energy."
+    ],
+    "bad": [
+      "renewable energy"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "rising sea levels",
+    "good": [
+      "Rising sea levels are a big danger to the Mekong Delta.",
+      "Sea levels are rising because of global warming.",
+      "Sea levels have risen a lot in the last century."
+    ],
+    "bad": [
+      "rising sea levels"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "global temperature",
+    "good": [
+      "The global average temperature is going up.",
+      "Global temperatures rose last year.",
+      "Scientists measure the global temperature every year."
+    ],
+    "bad": [
+      "global temperature"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "serious consequences",
+    "good": [
+      "Global warming has very serious consequences.",
+      "The consequences of pollution are serious.",
+      "Cutting down forests can lead to serious consequences."
+    ],
+    "bad": [
+      "serious consequences"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "caused by human activity",
+    "good": [
+      "Global warming is mainly caused by human activity.",
+      "Human activity has caused serious damage to the forests.",
+      "Much of the pollution is caused by human activities like burning coal."
+    ],
+    "bad": [
+      "caused by human activity"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "have an impact on",
+    "good": [
+      "Plastic has a big impact on sea animals.",
+      "Climate change has had an impact on farmers.",
+      "Social media has an impact on young people."
+    ],
+    "bad": [
+      "have an impact on",
+      "Pollution has an impact on"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "hand out leaflets",
+    "good": [
+      "Volunteers are handing out green leaflets at the market.",
+      "We handed out leaflets about recycling.",
+      "Our club will hand leaflets out on Sunday."
+    ],
+    "bad": [
+      "hand out leaflets"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "pollute the atmosphere",
+    "good": [
+      "Factories pollute the atmosphere with smoke every day.",
+      "The atmosphere is badly polluted by cars and factories.",
+      "Burning coal pollutes our atmosphere and harms our health."
+    ],
+    "bad": [
+      "pollute the atmosphere"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "burn coal",
+    "good": [
+      "Power plants burn coal to make electricity.",
+      "Many houses burned coal for cooking in the past.",
+      "Burning coal pollutes the air."
+    ],
+    "bad": [
+      "burn coal"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "release gases",
+    "good": [
+      "Factories release harmful gases into the air.",
+      "Toxic gases were released from the fire.",
+      "Cows release gases like methane."
+    ],
+    "bad": [
+      "release gases"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "solid waste",
+    "good": [
+      "Our city produces tons of solid waste every day.",
+      "Solid waste should be sorted before recycling.",
+      "Plastic bottles are a kind of solid waste."
+    ],
+    "bad": [
+      "solid waste"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "produce methane",
+    "good": [
+      "Cows produce a lot of methane.",
+      "Methane is produced by rubbish in landfills.",
+      "Rice fields also produce methane gas."
+    ],
+    "bad": [
+      "produce methane"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "air pollutants",
+    "good": [
+      "Cars release many air pollutants.",
+      "Factories are a big source of air pollutants.",
+      "Smoke and dust are common air pollutants."
+    ],
+    "bad": [
+      "air pollutants"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "heat-trapping gases",
+    "good": [
+      "Carbon dioxide is one of the heat-trapping gases.",
+      "Heat-trapping gases make the Earth warmer.",
+      "Factories release heat-trapping gases every day."
+    ],
+    "bad": [
+      "heat-trapping gases"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "cut down trees",
+    "good": [
+      "People cut down many trees to build houses.",
+      "Thousands of trees were cut down last year.",
+      "We should stop cutting trees down."
+    ],
+    "bad": [
+      "cut down trees"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "black soot",
+    "good": [
+      "Old buses release black soot into the air.",
+      "The kitchen wall was covered in black soot.",
+      "Black soot from fires makes the sky dark."
+    ],
+    "bad": [
+      "black soot"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "the farming industry",
+    "good": [
+      "The farming industry needs a lot of water.",
+      "My uncle works in the farming industry.",
+      "Climate change hurts the farming industry in Vietnam."
+    ],
+    "bad": [
+      "the farming industry"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "keep a balance",
+    "good": [
+      "We need to keep a good balance between work and rest.",
+      "Nature keeps a balance between animals and plants.",
+      "It's hard to keep the balance between study and fun."
+    ],
+    "bad": [
+      "keep a balance"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "protect the environment",
+    "good": [
+      "We protect our environment by recycling.",
+      "The environment must be protected for our children.",
+      "Everyone should protect the environment."
+    ],
+    "bad": [
+      "protect the environment"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "create farmland",
+    "good": [
+      "People burn forests to create farmland.",
+      "Farmers created new farmland near the river.",
+      "More farmland is created by cutting down forests."
+    ],
+    "bad": [
+      "create farmland"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "rich soil",
+    "good": [
+      "The Mekong Delta has very rich soil.",
+      "This soil is rich, so rice grows well.",
+      "Farmers love the rich soil near the river."
+    ],
+    "bad": [
+      "rich soil"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "cause the greenhouse effect",
+    "good": [
+      "Gases like carbon dioxide cause the greenhouse effect.",
+      "The greenhouse effect is caused by heat-trapping gases.",
+      "Burning coal causes the greenhouse effect."
+    ],
+    "bad": [
+      "cause the greenhouse effect"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "reduce greenhouse gases",
+    "good": [
+      "We must reduce greenhouse gases to slow global warming.",
+      "Greenhouse gases can be reduced if we use clean energy.",
+      "Planting more trees helps reduce harmful greenhouse gases."
+    ],
+    "bad": [
+      "reduce greenhouse gases"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "serious floods",
+    "good": [
+      "Central Vietnam often has very serious floods.",
+      "The flood was so serious that we left our house.",
+      "My hometown had serious floods last year."
+    ],
+    "bad": [
+      "serious floods"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "melting polar ice caps",
+    "good": [
+      "Melting polar ice caps make sea levels rise.",
+      "The polar ice caps are melting fast.",
+      "Global warming is melting the polar ice caps."
+    ],
+    "bad": [
+      "melting polar ice caps"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "fight climate change",
+    "good": [
+      "Every country must fight against climate change.",
+      "Young people are fighting climate change.",
+      "We can fight climate change by planting trees."
+    ],
+    "bad": [
+      "fight climate change"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "landfill site",
+    "good": [
+      "Our rubbish goes to a landfill site.",
+      "The landfill site near my town smells bad.",
+      "The city is building a new landfill site."
+    ],
+    "bad": [
+      "landfill site"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "cultural heritage",
+    "good": [
+      "We must protect Vietnam's cultural heritage.",
+      "Hoi An is part of our cultural heritage.",
+      "Ao dai is an important part of our cultural heritage."
+    ],
+    "bad": [
+      "cultural heritage"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "preserve heritage",
+    "good": [
+      "We should preserve our heritage for the future.",
+      "Heritage must be preserved by everyone.",
+      "The old town has preserved its heritage well."
+    ],
+    "bad": [
+      "preserve heritage"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "restore a building",
+    "good": [
+      "The workers are restoring the old church building.",
+      "This building was restored last year.",
+      "They restored an old building in my town."
+    ],
+    "bad": [
+      "restore a building"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "ancient town",
+    "good": [
+      "We visited an ancient town in China.",
+      "The town is very ancient and quiet.",
+      "Hoi An is a beautiful ancient town."
+    ],
+    "bad": [
+      "ancient town"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "historic building",
+    "good": [
+      "The Opera House is a historic building in Hanoi.",
+      "Many historic buildings were damaged by the war.",
+      "This building is historic, so you can't change it."
+    ],
+    "bad": [
+      "historic building"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "historical sites",
+    "good": [
+      "Hanoi has lots of interesting historical sites.",
+      "This site is historical and very old.",
+      "We visited many historical sites in Hue."
+    ],
+    "bad": [
+      "historical sites"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "ancient monument",
+    "good": [
+      "Tourists love visiting ancient stone monuments.",
+      "This monument is very ancient.",
+      "The My Son temples are ancient monuments."
+    ],
+    "bad": [
+      "ancient monument"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "imperial citadel",
+    "good": [
+      "The Imperial Citadel of Hue is very famous.",
+      "We visited the old imperial citadel in Hanoi.",
+      "I took photos at the imperial citadel."
+    ],
+    "bad": [
+      "imperial citadel"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "imperial city",
+    "good": [
+      "We visited the Imperial City in Hue last summer.",
+      "Hue's imperial city has many beautiful old gates.",
+      "The old imperial palace stood in the center of the city."
+    ],
+    "bad": [
+      "imperial city"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "imperial citadel",
+    "good": [
+      "My class went to the Thang Long Imperial Citadel.",
+      "The imperial citadel was built a long time ago.",
+      "Hue's imperial citadel is a World Heritage Site."
+    ],
+    "bad": [
+      "imperial citadel"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "temple complex",
+    "good": [
+      "We spent the whole day exploring the ancient temple complex.",
+      "This complex has more than ten old temples.",
+      "Angkor Wat is a huge temple complex in Cambodia."
+    ],
+    "bad": [
+      "temple complex"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "folk song",
+    "good": [
+      "My grandma sings a folk song every evening.",
+      "Quan ho folk songs come from Bac Ninh.",
+      "I learned an old Vietnamese folk song at school."
+    ],
+    "bad": [
+      "folk song"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "traditional performing arts",
+    "good": [
+      "My sister studies traditional Vietnamese performing arts.",
+      "Water puppetry is a traditional performing art.",
+      "We should protect traditional performing arts like cheo."
+    ],
+    "bad": [
+      "traditional performing arts"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "festive atmosphere",
+    "good": [
+      "I love the happy festive atmosphere at the market.",
+      "The atmosphere was very festive at the party.",
+      "The streets have a festive atmosphere during Tet."
+    ],
+    "bad": [
+      "festive atmosphere"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "old temples",
+    "good": [
+      "Ninh Binh has many old Buddhist temples.",
+      "The temples here are very old.",
+      "We visited some old temples in Hue."
+    ],
+    "bad": [
+      "old temples"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "beautiful landscape",
+    "good": [
+      "Ha Giang has a beautiful mountain landscape.",
+      "The landscape in Sa Pa is very beautiful.",
+      "I took photos of the beautiful landscape."
+    ],
+    "bad": [
+      "beautiful landscape"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "limestone mountains",
+    "good": [
+      "Ha Long Bay has many limestone mountains.",
+      "These mountains are made of limestone.",
+      "We climbed one of the limestone mountains in Ninh Binh."
+    ],
+    "bad": [
+      "limestone mountains"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "appreciate the value of",
+    "good": [
+      "I appreciate the value of my grandparents' stories.",
+      "I didn't appreciate the value of money until I worked.",
+      "Young people should appreciate the value of old traditions."
+    ],
+    "bad": [
+      "appreciate the value of",
+      "We should appreciate the value of"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "a crowdfunding campaign",
+    "good": [
+      "My cousin joined an online crowdfunding campaign.",
+      "The crowdfunding campaign raised a lot of money.",
+      "Our class started a crowdfunding campaign to fix the temple."
+    ],
+    "bad": [
+      "a crowdfunding campaign"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "trending topic",
+    "good": [
+      "Heritage is a hot trending topic now.",
+      "Climate change became a trending topic last week.",
+      "This song is a trending topic on TikTok."
+    ],
+    "bad": [
+      "trending topic"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "promote cultural heritage",
+    "good": [
+      "Social media can promote our cultural heritage.",
+      "Cultural heritage is promoted through tourism.",
+      "The festival promoted the cultural heritage of Hue."
+    ],
+    "bad": [
+      "promote cultural heritage"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "pay a fine",
+    "good": [
+      "My uncle paid a big fine for speeding.",
+      "You will pay fines if you litter here.",
+      "Tourists who write on walls must pay a fine."
+    ],
+    "bad": [
+      "pay a fine"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "in a poor state",
+    "good": [
+      "The old temple is in a very poor state.",
+      "The museum was in a poor state before it was restored.",
+      "Many old houses are in a poor state now."
+    ],
+    "bad": [
+      "in a poor state"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "a green valley",
+    "good": [
+      "We camped in a beautiful green valley.",
+      "The valley is very green after the rain.",
+      "The village is in a green valley near the river."
+    ],
+    "bad": [
+      "a green valley"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "traditional architecture",
+    "good": [
+      "Hoi An is famous for its traditional Chinese architecture.",
+      "The architecture of this village is very traditional.",
+      "I love the traditional architecture of old houses in Hue."
+    ],
+    "bad": [
+      "traditional architecture"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "go on a field trip",
+    "good": [
+      "We will go on a school field trip next week.",
+      "Our class went on a field trip to the museum.",
+      "I'm going on a field trip to Ha Long Bay."
+    ],
+    "bad": [
+      "go on a field trip"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "scenic beauty",
+    "good": [
+      "Ha Long Bay has great scenic beauty.",
+      "Many tourists come for the scenic beauty of Da Lat.",
+      "Sa Pa is famous for its scenic beauty."
+    ],
+    "bad": [
+      "scenic beauty"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "visit a floating market",
+    "good": [
+      "My family is visiting a famous floating market this summer.",
+      "We visited a floating market in Can Tho.",
+      "I want to visit the Cai Rang floating market."
+    ],
+    "bad": [
+      "visit a floating market"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "be recognised as",
+    "good": [
+      "Hoi An was recognised as a World Heritage Site.",
+      "Ha Long Bay is recognised as a natural wonder.",
+      "Hue was recognized as a heritage site in nineteen ninety three."
+    ],
+    "bad": [
+      "be recognised as",
+      "It was recognised as"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "explore a cave",
+    "good": [
+      "We explored a huge cave in Phong Nha.",
+      "The cave was explored by British scientists.",
+      "I want to explore Son Doong cave one day."
+    ],
+    "bad": [
+      "explore a cave"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "mass tourism",
+    "good": [
+      "Too much mass tourism makes beaches dirty.",
+      "Hoi An suffers from mass tourism in summer.",
+      "Mass tourism can damage old towns."
+    ],
+    "bad": [
+      "mass tourism"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "options for school-leavers",
+    "good": [
+      "There are many options for school-leavers who want to work.",
+      "School-leavers have more options than they did in the past.",
+      "Vocational training is one of the best options for school-leavers."
+    ],
+    "bad": [
+      "options for school-leavers"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "pursue higher education",
+    "good": [
+      "My brother pursued his higher education in Hanoi.",
+      "My sister is pursuing higher education abroad.",
+      "I want to pursue higher education in Australia."
+    ],
+    "bad": [
+      "pursue higher education"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "academic subjects",
+    "good": [
+      "Some students are not good at academic school subjects.",
+      "I prefer practical skills to academic subjects.",
+      "Maths and physics are academic subjects."
+    ],
+    "bad": [
+      "academic subjects"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "go to a vocational school",
+    "good": [
+      "I might go to a good vocational school after grade twelve.",
+      "My cousin went to a vocational school to become a chef.",
+      "Going to a vocational school is a smart choice."
+    ],
+    "bad": [
+      "go to a vocational school"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "do an apprenticeship",
+    "good": [
+      "She did a two-year apprenticeship as a hairdresser.",
+      "My brother is doing an apprenticeship at a garage.",
+      "I want to do an apprenticeship after school."
+    ],
+    "bad": [
+      "do an apprenticeship"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "work as an apprentice",
+    "good": [
+      "I worked as an apprentice electrician last summer.",
+      "He has worked as an apprentice for two years.",
+      "My cousin works as an apprentice in a bakery."
+    ],
+    "bad": [
+      "work as an apprentice"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "learn a trade",
+    "good": [
+      "My uncle learned a useful trade when he was young.",
+      "Many students learn a trade at vocational school.",
+      "I want to learn a trade like cooking or plumbing."
+    ],
+    "bad": [
+      "learn a trade"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "car mechanic",
+    "good": [
+      "My dad is a car mechanic.",
+      "I want to become a car mechanic in the future.",
+      "The car mechanic fixed our car quickly."
+    ],
+    "bad": [
+      "car mechanic"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "professional course",
+    "good": [
+      "My sister took a professional cooking course.",
+      "This course is professional and expensive.",
+      "I want to join a professional course in design."
+    ],
+    "bad": [
+      "professional course"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "get a qualification",
+    "good": [
+      "My mom got her teaching qualification last year.",
+      "I'm getting a qualification in English.",
+      "You need to get a qualification to become a nurse."
+    ],
+    "bad": [
+      "get a qualification"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "get a bachelor's degree",
+    "good": [
+      "I hope to get my bachelor's degree in four years.",
+      "My sister got a bachelor's degree in economics.",
+      "He is getting a bachelors degree in IT."
+    ],
+    "bad": [
+      "get a bachelor's degree"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "do a master's degree",
+    "good": [
+      "I want to do my master's degree abroad.",
+      "He did a master's degree in business.",
+      "My aunt is doing a master's degree in England."
+    ],
+    "bad": [
+      "do a master's degree"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "have a doctorate",
+    "good": [
+      "Our teacher had a doctorate from a university in France.",
+      "My uncle has a doctorate in chemistry.",
+      "You need to have a doctorate to teach at this university."
+    ],
+    "bad": [
+      "have a doctorate"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "pass the entrance exam",
+    "good": [
+      "I hope to pass the university entrance exam.",
+      "My brother passed the entrance exam last year.",
+      "Only half of the students passed the entrance exam."
+    ],
+    "bad": [
+      "pass the entrance exam"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "plans after graduation",
+    "good": [
+      "What are your plans after graduation from high school?",
+      "After graduation, I plan to study engineering in Da Nang.",
+      "My cousin has big plans for life after graduation."
+    ],
+    "bad": [
+      "plans after graduation"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "educational institution",
+    "good": [
+      "This educational institution has many good teachers.",
+      "There are many educational institutions in Hanoi.",
+      "Our school is a famous educational institution."
+    ],
+    "bad": [
+      "educational institution"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "formal education",
+    "good": [
+      "Some people succeed without formal school education.",
+      "My grandpa didn't have much formal education.",
+      "Formal education is important for good jobs."
+    ],
+    "bad": [
+      "formal education"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "school brochure",
+    "good": [
+      "The new school brochure has nice photos.",
+      "My mom picked up a brochure from the school.",
+      "I read the school brochure carefully."
+    ],
+    "bad": [
+      "school brochure"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "manage to do something",
+    "good": [
+      "I managed to finish my homework on time.",
+      "My brother managed to pass the exam.",
+      "Did you manage to fix the bike?"
+    ],
+    "bad": [
+      "manage to do something",
+      "I manage to do something every day."
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "regret doing something",
+    "good": [
+      "I regret not studying harder last year.",
+      "She regretted saying bad things to her friend.",
+      "My dad regrets selling his old car."
+    ],
+    "bad": [
+      "regret doing something",
+      "I regret doing something."
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "attend an education fair",
+    "good": [
+      "I will attend a big education fair next month.",
+      "We attended an education fair at the city hall.",
+      "Many students attend the education fair every year."
+    ],
+    "bad": [
+      "attend an education fair"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "gain hands-on experience",
+    "good": [
+      "I gained a lot of hands-on experience at the workshop.",
+      "Interns gain hands-on experience at the company.",
+      "You can gain more hands-on experience by volunteering."
+    ],
+    "bad": [
+      "gain hands-on experience"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "earn a wage",
+    "good": [
+      "My brother earns a good wage as a mechanic.",
+      "I earned my first wage last summer.",
+      "Apprentices earn a small wage while they learn."
+    ],
+    "bad": [
+      "earn a wage"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "a high salary",
+    "good": [
+      "My cousin got a job with a very high salary.",
+      "The salary of a pilot is very high.",
+      "Doctors often have a high salary."
+    ],
+    "bad": [
+      "a high salary"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "enter the job market",
+    "good": [
+      "Many graduates enter the job market each year.",
+      "My sister entered the job market after university.",
+      "It's hard to enter the job market without experience."
+    ],
+    "bad": [
+      "enter the job market"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "career options",
+    "good": [
+      "I talked to my parents about my career options.",
+      "There are many career options in IT.",
+      "Vocational training gives you more career options."
+    ],
+    "bad": [
+      "career options"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "a part-time job",
+    "good": [
+      "I have a part-time job at a coffee shop.",
+      "Many students do part-time jobs to earn money.",
+      "My brother had a part-time job last summer."
+    ],
+    "bad": [
+      "a part-time job"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "develop practical skills",
+    "good": [
+      "I want to develop more practical skills like cooking.",
+      "My practical skills developed a lot at the workshop.",
+      "Apprenticeships help you develop practical skills."
+    ],
+    "bad": [
+      "develop practical skills"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "the duration of the course",
+    "good": [
+      "The duration of the course is six months.",
+      "The course duration is two years.",
+      "What is the duration of this English course?"
+    ],
+    "bad": [
+      "the duration of the course"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "become independent",
+    "good": [
+      "I want to become more independent.",
+      "My sister became independent after she got a job.",
+      "Teenagers are becoming independent earlier."
+    ],
+    "bad": [
+      "become independent"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "teen independence",
+    "good": [
+      "My parents support teen independence.",
+      "Many parents worry about teen independence.",
+      "Teen independence is important for growing up."
+    ],
+    "bad": [
+      "teen independence"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "have the confidence to",
+    "good": [
+      "I don't have the confidence to speak in public.",
+      "My sister had the confidence to sing on stage.",
+      "You need to have the confidence to try new things."
+    ],
+    "bad": [
+      "have the confidence to",
+      "I have the confidence to"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "take responsibility for",
+    "good": [
+      "Leaders must take full responsibility for their team.",
+      "My brother took responsibility for cleaning the kitchen.",
+      "I take responsibility for my own mistakes."
+    ],
+    "bad": [
+      "take responsibility for",
+      "You must take responsibility for"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "be responsible for",
+    "good": [
+      "My mom is responsible for the family budget.",
+      "Who was responsible for the broken window?",
+      "I am responsible for feeding our cat."
+    ],
+    "bad": [
+      "be responsible for",
+      "I am responsible for"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "earn someone's trust",
+    "good": [
+      "I earned my mom's trust by doing chores.",
+      "I worked hard to earn my parents' trust.",
+      "She earned her teacher's trust by being honest."
+    ],
+    "bad": [
+      "earn someone's trust",
+      "I want to earn someone's trust."
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "highly self-motivated",
+    "good": [
+      "My sister is a highly self-motivated student.",
+      "Good learners are highly self-motivated.",
+      "I want to be highly self-motivated like my brother."
+    ],
+    "bad": [
+      "highly self-motivated"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "self-study course",
+    "good": [
+      "I signed up for a free self-study course online.",
+      "This self-study course helps me learn English.",
+      "My cousin finished a self-study course in coding."
+    ],
+    "bad": [
+      "self-study course"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "basic life skills",
+    "good": [
+      "My parents taught me some basic life skills.",
+      "Cooking is one of the most basic skills in life.",
+      "Teenagers should learn basic life skills like cooking."
+    ],
+    "bad": [
+      "basic life skills"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "improve time-management skills",
+    "good": [
+      "I need to improve my time-management skills.",
+      "My time-management skills improved after I used a planner.",
+      "Planning helps students improve their time management skills."
+    ],
+    "bad": [
+      "improve time-management skills"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "develop money-management skills",
+    "good": [
+      "Teens should develop good money-management skills.",
+      "My money-management skills developed when I got pocket money.",
+      "Saving money helps me develop my money management skills."
+    ],
+    "bad": [
+      "develop money-management skills"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "good decision-making skills",
+    "good": [
+      "My dad has very good decision-making skills.",
+      "Her decision-making skills are really good.",
+      "Leaders need good decision-making skills."
+    ],
+    "bad": [
+      "good decision-making skills"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "set a learning goal",
+    "good": [
+      "My teacher helped me set a clear learning goal.",
+      "We set learning goals at the start of the year.",
+      "I set a new learning goal every month."
+    ],
+    "bad": [
+      "set a learning goal"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "achieve a goal",
+    "good": [
+      "My sister achieved her goal of getting a scholarship.",
+      "I worked hard to achieve my goal.",
+      "You can achieve any goal if you try."
+    ],
+    "bad": [
+      "achieve a goal"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "manage your time",
+    "good": [
+      "My brother manages his time very well.",
+      "I use a planner to manage my time.",
+      "Students must learn to manage their time."
+    ],
+    "bad": [
+      "manage your time"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "deal with problems",
+    "good": [
+      "My mom helps me deal with my problems.",
+      "I dealt with the problem by myself.",
+      "He is good at dealing with problems at work."
+    ],
+    "bad": [
+      "deal with problems"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "get around by bus",
+    "good": [
+      "I get around the city by bus.",
+      "My grandma got around by bus when she was young.",
+      "It's cheap to get around Hanoi by bus."
+    ],
+    "bad": [
+      "get around by bus"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "come up with an idea",
+    "good": [
+      "Lan came up with a great idea for our project.",
+      "Our group is coming up with some ideas for the fair.",
+      "I need to come up with a new idea."
+    ],
+    "bad": [
+      "come up with an idea"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "carry out a plan",
+    "good": [
+      "Our class will carry out a plan to clean the park.",
+      "We carried out our plan perfectly.",
+      "The plan was carried out by the students."
+    ],
+    "bad": [
+      "carry out a plan"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "make use of your time",
+    "good": [
+      "I try to make good use of my time.",
+      "We made use of our time on the bus to study.",
+      "My sister makes use of her free time to learn English."
+    ],
+    "bad": [
+      "make use of your time"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "get into the habit of planning",
+    "good": [
+      "I got into the habit of planning my week.",
+      "My sister is getting into the habit of planning her study time.",
+      "You should get into the habit of planning every morning."
+    ],
+    "bad": [
+      "get into the habit of planning"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "combine A with B",
+    "good": [
+      "I combine studying with doing sports.",
+      "My mom combines rice with vegetables in my lunch.",
+      "It's hard to combine school with a part-time job."
+    ],
+    "bad": [
+      "combine A with B",
+      "I combine A with B every day."
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "feel confident",
+    "good": [
+      "My sister felt very confident before her exam.",
+      "I feel more confident when I speak English.",
+      "Practice makes me feel confident."
+    ],
+    "bad": [
+      "feel confident"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "a fast learner",
+    "good": [
+      "My little sister is a really fast learner.",
+      "As a fast learner, Minh picked up coding quickly.",
+      "Our new classmate is the fastest learner in our group."
+    ],
+    "bad": [
+      "a fast learner"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "measure the rice",
+    "good": [
+      "My mom measured the rice with a small cup.",
+      "I measure the rice before cooking it.",
+      "First, measure the rice and wash it."
+    ],
+    "bad": [
+      "measure the rice"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "remove a stain",
+    "good": [
+      "I used soap to remove a coffee stain from my shirt.",
+      "My mom removed the stain with lemon juice.",
+      "This stain is hard to remove."
+    ],
+    "bad": [
+      "remove a stain"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "use a rice cooker",
+    "good": [
+      "My brother used the rice cooker to make soup.",
+      "Using a rice cooker is very easy.",
+      "I can use a rice cooker by myself."
+    ],
+    "bad": [
+      "use a rice cooker"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "do the laundry",
+    "good": [
+      "My dad did the laundry yesterday.",
+      "Who does the laundry in your family?",
+      "I do the laundry every Sunday."
+    ],
+    "bad": [
+      "do the laundry"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "household chores",
+    "good": [
+      "I help my parents with household chores.",
+      "My brother hates doing household chores.",
+      "Boys and girls should share the household chores."
+    ],
+    "bad": [
+      "household chores"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "convince someone to do something",
+    "good": [
+      "I convinced my dad to buy a new laptop.",
+      "My friend convinced me to join the English club.",
+      "It's hard to convince my mom to let me go out."
+    ],
+    "bad": [
+      "convince someone to do something",
+      "I want to convince someone to do something."
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "give in to peer pressure",
+    "good": [
+      "I didn't give in to the peer pressure from my friends.",
+      "My cousin gave in to peer pressure and started smoking.",
+      "Many teens give in to peer pressure at school."
+    ],
+    "bad": [
+      "give in to peer pressure"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "bully someone at school",
+    "good": [
+      "Nobody should bully younger students at school.",
+      "My friend was bullied at school, so he told the teacher.",
+      "Some older boys bullied my cousin at his school."
+    ],
+    "bad": [
+      "bully someone at school"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "stop cyberbullying",
+    "good": [
+      "Our class made a video to stop cyberbullying.",
+      "Cyberbullying should be stopped now.",
+      "We must stop cyberbullying on social media."
+    ],
+    "bad": [
+      "stop cyberbullying"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "stop body shaming",
+    "good": [
+      "We should stop body shaming our friends.",
+      "Body shaming must be stopped in schools.",
+      "Let's stop body shaming people online."
+    ],
+    "bad": [
+      "stop body shaming"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "make fun of someone's appearance",
+    "good": [
+      "Some boys made fun of her appearance.",
+      "It's rude to make fun of my friend's appearance.",
+      "Don't make fun of people's appearance."
+    ],
+    "bad": [
+      "make fun of someone's appearance",
+      "Don't make fun of someone's appearance."
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "victim of bullying",
+    "good": [
+      "She became a victim of online bullying.",
+      "Victims of bullying need help from adults.",
+      "My friend was a victim of bullying last year."
+    ],
+    "bad": [
+      "victim of bullying"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "stand up to bullies",
+    "good": [
+      "My brother stood up to the bullies in his class.",
+      "I'm not afraid to stand up to a bully.",
+      "You should stand up to bullies."
+    ],
+    "bad": [
+      "stand up to bullies"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "feel like the odd one out",
+    "good": [
+      "I felt like the odd one out in my new class.",
+      "My sister feels like the odd one out because she is shy.",
+      "Sometimes I feel like the odd one out at parties."
+    ],
+    "bad": [
+      "feel like the odd one out"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "offensive comments",
+    "good": [
+      "He made some offensive comments about my friend.",
+      "Her comments were very offensive.",
+      "People post offensive comments online."
+    ],
+    "bad": [
+      "offensive comments"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "verbal bullying",
+    "good": [
+      "My friend suffered from verbal bullying at school.",
+      "Name-calling is a kind of verbal bullying.",
+      "Verbal bullying can hurt as much as hitting."
+    ],
+    "bad": [
+      "verbal bullying"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "violent behaviour",
+    "good": [
+      "His behaviour became violent when he got angry.",
+      "Violent behaviour is not allowed at school.",
+      "Some games may lead to violent behavior."
+    ],
+    "bad": [
+      "violent behaviour"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "feel ashamed",
+    "good": [
+      "He feels very ashamed of his bad grades.",
+      "I felt ashamed after I lied to my mom.",
+      "Don't feel ashamed of your mistakes."
+    ],
+    "bad": [
+      "feel ashamed"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "suffer from anxiety",
+    "good": [
+      "She suffers a lot from anxiety.",
+      "My friend has suffered from anxiety for a year.",
+      "Many students suffer from anxiety before exams."
+    ],
+    "bad": [
+      "suffer from anxiety"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "suffer from depression",
+    "good": [
+      "My cousin suffered from depression after high school.",
+      "Some victims of bullying suffer from depression.",
+      "People who suffer from depression need support."
+    ],
+    "bad": [
+      "suffer from depression"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "lose self-confidence",
+    "good": [
+      "I lost my self-confidence after the bad test.",
+      "Bullied kids often lose their self-confidence.",
+      "Don't lose self-confidence because of one mistake."
+    ],
+    "bad": [
+      "lose self-confidence"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "raise awareness of",
+    "good": [
+      "We made posters to raise awareness of bullying.",
+      "The campaign raised awareness of climate change.",
+      "Our club is raising awareness of mental health."
+    ],
+    "bad": [
+      "raise awareness of",
+      "We want to raise awareness of"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "awareness campaign",
+    "good": [
+      "Our school started an awareness campaign about bullying.",
+      "The awareness campaign was very successful.",
+      "I helped with an online awareness campaign."
+    ],
+    "bad": [
+      "awareness campaign"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "live in poverty",
+    "good": [
+      "Many families in rural areas live in poverty.",
+      "My grandparents lived in poverty when they were young.",
+      "No child should live in poverty."
+    ],
+    "bad": [
+      "live in poverty"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "reduce crime",
+    "good": [
+      "More jobs can reduce the crime rate.",
+      "The police reduced crime in our city.",
+      "Street lights can help reduce crime."
+    ],
+    "bad": [
+      "reduce crime"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "the problem of overpopulation",
+    "good": [
+      "India faces the problem of overpopulation.",
+      "Overpopulation is a big problem in some countries.",
+      "The problem of overpopulation is serious in big cities."
+    ],
+    "bad": [
+      "the problem of overpopulation"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "struggle with something",
+    "good": [
+      "Many teenagers struggle with stress before exams.",
+      "I struggled a lot with maths in grade ten.",
+      "My friend is struggling with his new school life."
+    ],
+    "bad": [
+      "struggle with something"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "admit a mistake",
+    "good": [
+      "He admitted his mistake to the teacher.",
+      "I admitted that I made a mistake.",
+      "It's hard to admit a mistake."
+    ],
+    "bad": [
+      "admit a mistake"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "drink alcohol",
+    "good": [
+      "He drank too much alcohol at the party.",
+      "My uncle stopped drinking alcohol last year.",
+      "Teenagers should not drink alcohol."
+    ],
+    "bad": [
+      "drink alcohol"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "hang out with friends",
+    "good": [
+      "I hang out with my friends on weekends.",
+      "We hung out with our friends at the mall.",
+      "I like hanging out with friends after school."
+    ],
+    "bad": [
+      "hang out with friends"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "tell a lie",
+    "good": [
+      "I told a small lie to my mom.",
+      "My brother often tells lies.",
+      "Never tell a lie to your friends."
+    ],
+    "bad": [
+      "tell a lie"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "obey the rules",
+    "good": [
+      "Students must obey the school rules.",
+      "The rules were not obeyed by some students.",
+      "I always obey the rules in class."
+    ],
+    "bad": [
+      "obey the rules"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "physical bullying",
+    "good": [
+      "Physical and verbal bullying are both serious.",
+      "Physical bullying includes hitting and pushing.",
+      "Our school has zero tolerance for physical bullying."
+    ],
+    "bad": [
+      "physical bullying"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "skip classes",
+    "good": [
+      "My friend skipped two classes yesterday.",
+      "Some students skip classes to play games.",
+      "I never skip my classes."
+    ],
+    "bad": [
+      "skip classes"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "below the poverty line",
+    "good": [
+      "Many families live below the poverty line.",
+      "My grandparents lived below the poverty line years ago.",
+      "Some people in my province are below the poverty line."
+    ],
+    "bad": [
+      "below the poverty line"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "a pressing social issue",
+    "good": [
+      "Pollution is a really pressing social issue in Hanoi.",
+      "Many pressing social issues need our attention.",
+      "Bullying is a pressing social issue."
+    ],
+    "bad": [
+      "a pressing social issue"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "protect the ecosystem",
+    "good": [
+      "We must protect the ocean ecosystem.",
+      "The ecosystem in the forest must be protected.",
+      "Everyone should help protect the ecosystem."
+    ],
+    "bad": [
+      "protect the ecosystem"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "protect biodiversity",
+    "good": [
+      "We need to protect the biodiversity of Vietnam.",
+      "Biodiversity should be protected for the future.",
+      "National parks help protect biodiversity."
+    ],
+    "bad": [
+      "protect biodiversity"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "conservation efforts",
+    "good": [
+      "Our school supports local conservation efforts.",
+      "Conservation efforts have saved many animals.",
+      "The government made big efforts in conservation."
+    ],
+    "bad": [
+      "conservation efforts"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "plant species",
+    "good": [
+      "Some plant species are disappearing.",
+      "This forest has over a thousand species of plants.",
+      "There are many plant species in the rainforest."
+    ],
+    "bad": [
+      "plant species"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "endangered species",
+    "good": [
+      "We must protect endangered animal species.",
+      "Many species are endangered because of hunting.",
+      "Tigers are an endangered species."
+    ],
+    "bad": [
+      "endangered species"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "natural habitat",
+    "good": [
+      "Pandas are losing their natural habitats.",
+      "The forest is the natural habitat of many birds.",
+      "Animals should live in their natural habitat."
+    ],
+    "bad": [
+      "natural habitat"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "protect wildlife",
+    "good": [
+      "Rangers protect the wildlife in the national park.",
+      "Wildlife must be protected from hunters.",
+      "We should protect wildlife in our country."
+    ],
+    "bad": [
+      "protect wildlife"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "flora and fauna",
+    "good": [
+      "The flora and the fauna of Vietnam are very diverse.",
+      "Cuc Phuong has rich flora and fauna.",
+      "I want to study the flora and fauna of the Mekong."
+    ],
+    "bad": [
+      "flora and fauna"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "local flora",
+    "good": [
+      "Our science club studied the local flora around the lake.",
+      "The flora in this local area is very rich.",
+      "Visitors must not damage the local flora and wildlife."
+    ],
+    "bad": [
+      "local flora"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "sea mammals",
+    "good": [
+      "Plastic kills many sea mammals each year.",
+      "Many mammals live in the sea.",
+      "Whales and dolphins are sea mammals."
+    ],
+    "bad": [
+      "sea mammals"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "protect pangolins",
+    "good": [
+      "This centre protects rare pangolins.",
+      "Pangolins are protected in Vietnam.",
+      "We must protect pangolins from hunters."
+    ],
+    "bad": [
+      "protect pangolins"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "living and non-living things",
+    "good": [
+      "An ecosystem has both living and non-living things.",
+      "Water is a non-living thing, but fish are living things.",
+      "Plants are living things, but rocks are non-living things."
+    ],
+    "bad": [
+      "living and non-living things"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "the ocean food chain",
+    "good": [
+      "Plastic harms the ocean food chain.",
+      "Sharks are at the top of the food chain in the ocean.",
+      "Small fish are part of the ocean food chain."
+    ],
+    "bad": [
+      "the ocean food chain"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "native plants",
+    "good": [
+      "Native forest plants are good for birds.",
+      "These plants are native to Vietnam.",
+      "We should grow native plants in our garden."
+    ],
+    "bad": [
+      "native plants"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "visit a national park",
+    "good": [
+      "I want to visit a big national park in Africa.",
+      "We visited Cuc Phuong National Park last year.",
+      "My class is visiting a national park next month."
+    ],
+    "bad": [
+      "visit a national park"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "protect tropical forests",
+    "good": [
+      "We need to protect tropical rain forests.",
+      "Tropical forests must be protected.",
+      "Many groups protect the tropical forests of Brazil."
+    ],
+    "bad": [
+      "protect tropical forests"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "damage coral reefs",
+    "good": [
+      "Plastic waste can damage many coral reefs.",
+      "Coral reefs are damaged by fishing boats.",
+      "Rising temperatures damaged coral reefs in Australia."
+    ],
+    "bad": [
+      "damage coral reefs"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "visit the Mekong Delta",
+    "good": [
+      "My family visited the beautiful Mekong Delta last summer.",
+      "Many tourists visit the Mekong Delta to see floating markets.",
+      "The Mekong Delta is visited by thousands of tourists every year."
+    ],
+    "bad": [
+      "visit the Mekong Delta"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "overuse natural resources",
+    "good": [
+      "We are overusing our natural resources.",
+      "Natural resources were overused in the past.",
+      "People overuse natural resources like water."
+    ],
+    "bad": [
+      "overuse natural resources"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "destroy habitats",
+    "good": [
+      "Cutting forests destroys animals' habitats.",
+      "Habitats are destroyed when we build roads.",
+      "Fires destroyed the habitats of many birds."
+    ],
+    "bad": [
+      "destroy habitats"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "green lifestyle",
+    "good": [
+      "My family tries to live a green lifestyle.",
+      "A green and healthy lifestyle is good for everyone.",
+      "I started a green lifestyle by using cloth bags."
+    ],
+    "bad": [
+      "green lifestyle"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "adapt to climate change",
+    "good": [
+      "Farmers in the Mekong Delta must adapt to climate change.",
+      "Cities are adapting quickly to climate change by planting trees.",
+      "Climate change is something we all have to adapt to."
+    ],
+    "bad": [
+      "adapt to climate change"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "flora and fauna",
+    "good": [
+      "Climate change harms flora and fauna.",
+      "We saw many kinds of fauna and flora in the forest.",
+      "The island is famous for its flora and fauna."
+    ],
+    "bad": [
+      "flora and fauna"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "threaten the survival of something",
+    "good": [
+      "Plastic waste threatens the survival of many sea animals.",
+      "Hunting has threatened the survival of pangolins in Vietnam.",
+      "The survival of tigers is seriously threatened by hunting."
+    ],
+    "bad": [
+      "threaten the survival of something"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "the overuse of plastic",
+    "good": [
+      "The overuse of plastic bags harms the ocean.",
+      "We should reduce the overuse of plastic in daily life.",
+      "Plastic is overused in many supermarkets."
+    ],
+    "bad": [
+      "the overuse of plastic"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "provide raw materials",
+    "good": [
+      "Mines provide many raw materials for factories.",
+      "Raw materials are provided by farms and forests.",
+      "Forests provide raw materials like wood."
+    ],
+    "bad": [
+      "provide raw materials"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "rare plants",
+    "good": [
+      "This forest is home to many rare and beautiful plants.",
+      "Some of these plants are very rare in Vietnam.",
+      "My grandfather grows a rare plant in his garden."
+    ],
+    "bad": [
+      "rare plants"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "protect mangrove forests",
+    "good": [
+      "Volunteers are protecting the mangrove forests near the sea.",
+      "Mangrove forests are protected by the government.",
+      "We must protect mangrove forests in Ca Mau."
+    ],
+    "bad": [
+      "protect mangrove forests"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "freshwater wetlands",
+    "good": [
+      "The Mekong Delta has large freshwater wetlands.",
+      "Freshwater wetlands are home to many birds.",
+      "Many fish live in these freshwater wetlands."
+    ],
+    "bad": [
+      "freshwater wetlands"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "the effects of mass tourism",
+    "good": [
+      "We studied the negative effects of mass tourism.",
+      "Mass tourism has bad effects on nature.",
+      "The effects of mass tourism on Ha Long Bay are bad."
+    ],
+    "bad": [
+      "the effects of mass tourism"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "illegal hunting",
+    "good": [
+      "We must stop illegal hunting in national parks.",
+      "Hunting tigers is illegal in Vietnam.",
+      "Illegal hunting kills many rare animals."
+    ],
+    "bad": [
+      "illegal hunting"
+    ]
+  }
+]

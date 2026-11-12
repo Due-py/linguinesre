@@ -791,7 +791,7 @@ function UseWord({ st, ctx, onDone }: P<"use_word">) {
           {gaps.length > 0
             ? "Ô vàng là chỗ em tự điền: thay bằng người, việc cụ thể của em (ví dụ my brother, my best friend, recycle bottles…). "
             : ""}
-          Nói thành câu có ai làm gì, đừng đọc lại nguyên cụm.
+          Nói một câu của em có dùng cụm này. Được đổi dạng từ và thêm từ (improves, improved, improve my…), miễn là có đủ các từ chính của cụm.
         </p>
       </div>
       {showEx ? (
@@ -824,7 +824,7 @@ function UseWord({ st, ctx, onDone }: P<"use_word">) {
                     ? `Câu còn ngắn: “${r.transcript}”. Thêm ai làm gì (chủ ngữ, động từ) để thành một câu đủ ý.`
                     : r.check.used
                       ? `Câu của em: “${r.transcript}”. Thử nói lại thành câu đủ ý hơn.`
-                      : `Máy chưa nghe thấy cụm “${st.phrase}” trong câu: “${r.transcript}”. Nhớ dùng đủ các từ của cụm (chỗ trống thì thay bằng người, việc của em).`
+                      : `Máy chưa nghe thấy cụm “${st.phrase}” trong câu: “${r.transcript}”. Câu cần có đủ các từ chính của cụm (đổi dạng từ, thêm từ hay đổi thứ tự đều được; chỗ trống thì thay bằng người, việc của em).`
             }
           />
         )}

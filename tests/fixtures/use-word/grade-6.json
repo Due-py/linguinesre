@@ -1,0 +1,4448 @@
+[
+  {
+    "unit": "unit-01",
+    "phrase": "new classmates",
+    "good": [
+      "I have three new classmates this year.",
+      "My new classmates are very friendly and kind.",
+      "I met many new and funny classmates at school today."
+    ],
+    "bad": [
+      "new classmates"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "favourite subject",
+    "good": [
+      "Maths is my favourite school subject.",
+      "My favourite subject is English because it is fun.",
+      "What is your favourite subject at school?"
+    ],
+    "bad": [
+      "favourite subject"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "school activities",
+    "good": [
+      "I like school activities like singing and dancing.",
+      "There are many fun school activities every week.",
+      "We join a lot of outdoor school activities in May."
+    ],
+    "bad": [
+      "school activities"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "art lesson",
+    "good": [
+      "We draw flowers in our art lesson.",
+      "I have an art lesson on Monday morning.",
+      "Our first art lessons were really fun."
+    ],
+    "bad": [
+      "art lesson"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "go to a boarding school",
+    "good": [
+      "My cousin goes to a boarding school in Hanoi.",
+      "I want to go to a big boarding school next year.",
+      "My brother went to a boarding school when he was eleven."
+    ],
+    "bad": [
+      "go to a boarding school"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "use a calculator",
+    "good": [
+      "We can use a calculator in maths class.",
+      "My brother uses a small calculator for his homework.",
+      "I used my new calculator in the test."
+    ],
+    "bad": [
+      "use a calculator"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "a new compass",
+    "good": [
+      "I need a new compass for maths.",
+      "My dad bought me a new blue compass.",
+      "This compass is new, so it works well."
+    ],
+    "bad": [
+      "a new compass"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "look smart",
+    "good": [
+      "You look very smart in your uniform.",
+      "My dad always looks smart at work.",
+      "Lan looked really smart at the school party."
+    ],
+    "bad": [
+      "look smart"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "share things",
+    "good": [
+      "Good friends share things with each other.",
+      "I often share my things with my little brother.",
+      "My sister and I shared things when we were young."
+    ],
+    "bad": [
+      "share things"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "help with homework",
+    "good": [
+      "My sister helps me with my homework.",
+      "Can you help me with my maths homework?",
+      "I helped my friend with his English homework yesterday."
+    ],
+    "bad": [
+      "help with homework"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "international school",
+    "good": [
+      "My cousin studies at an international school.",
+      "There is a big international school near my house.",
+      "Many students from other countries go to international schools."
+    ],
+    "bad": [
+      "international school"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "interview a friend",
+    "good": [
+      "I will interview a friend about her hobbies.",
+      "We interviewed our best friend for the school project.",
+      "Today I have to interview my new friend Nam."
+    ],
+    "bad": [
+      "interview a friend"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "knock on the door",
+    "good": [
+      "Please knock on the door before you come in.",
+      "My sister knocked on my bedroom door this morning.",
+      "My dad knocks loudly on the door every morning."
+    ],
+    "bad": [
+      "knock on the door"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "remember names",
+    "good": [
+      "I can't remember the names of my new teachers.",
+      "My mum remembers all my friends' names.",
+      "It is hard for me to remember new names."
+    ],
+    "bad": [
+      "remember names"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "go to the swimming pool",
+    "good": [
+      "I go to the swimming pool every Sunday.",
+      "We went to the big swimming pool with our dad.",
+      "My friends often go to the school swimming pool."
+    ],
+    "bad": [
+      "go to the swimming pool"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "do homework",
+    "good": [
+      "I do my homework after dinner.",
+      "My brother did his maths homework last night.",
+      "I usually do my English homework in my room."
+    ],
+    "bad": [
+      "do homework"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "study science",
+    "good": [
+      "I study science on Tuesdays and Fridays.",
+      "My sister studies science at a big school.",
+      "We studied science in the new lab today."
+    ],
+    "bad": [
+      "study science"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "do exercise",
+    "good": [
+      "My grandpa does exercise every morning.",
+      "I do some exercise before school.",
+      "We did a lot of exercise in PE class."
+    ],
+    "bad": [
+      "do exercise"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "history lesson",
+    "good": [
+      "We learn about old kings in our history lesson.",
+      "I have a history lesson on Thursday.",
+      "My history lessons are really interesting."
+    ],
+    "bad": [
+      "history lesson"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "school uniform",
+    "good": [
+      "I wear my school uniform every day.",
+      "Our school uniform is blue and white.",
+      "My new uniform for school is too big."
+    ],
+    "bad": [
+      "school uniform"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "school subject",
+    "good": [
+      "English is my favourite school subject.",
+      "We have nine school subjects this year.",
+      "What school subjects do you like?"
+    ],
+    "bad": [
+      "school subject"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "use a pencil sharpener",
+    "good": [
+      "I use a pencil sharpener in my art lesson.",
+      "My friend used my new pencil sharpener today.",
+      "Can I use your pencil sharpener, please?"
+    ],
+    "bad": [
+      "use a pencil sharpener"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "a small rubber",
+    "good": [
+      "I have a small pink rubber in my pencil case.",
+      "Can I borrow a small rubber, please?",
+      "My rubber is very small but it works well."
+    ],
+    "bad": [
+      "a small rubber"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "a new pencil case",
+    "good": [
+      "My mum bought me a new pencil case.",
+      "I have a new blue pencil case for school.",
+      "My pencil case is new and very pretty."
+    ],
+    "bad": [
+      "a new pencil case"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "a heavy school bag",
+    "good": [
+      "I carry a heavy school bag every day.",
+      "My school bag is very heavy today.",
+      "Nam has a really heavy and big school bag."
+    ],
+    "bad": [
+      "a heavy school bag"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "have school lunch",
+    "good": [
+      "We have school lunch at eleven thirty.",
+      "I had a delicious school lunch today.",
+      "My brother has his school lunch with his friends."
+    ],
+    "bad": [
+      "have school lunch"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "English lesson",
+    "good": [
+      "I like my English lesson very much.",
+      "We had an interesting English lesson today.",
+      "Our English lessons are on Monday and Friday."
+    ],
+    "bad": [
+      "English lesson"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "study music",
+    "good": [
+      "I study music at school on Wednesday.",
+      "My sister studies music and art.",
+      "We studied music with a new teacher this year."
+    ],
+    "bad": [
+      "study music"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "a large classroom",
+    "good": [
+      "Our school has a large classroom for art.",
+      "We study in a very large and bright classroom.",
+      "My classroom is large and clean."
+    ],
+    "bad": [
+      "a large classroom"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "play football",
+    "good": [
+      "I play football with my friends after school.",
+      "My brother played football in the park yesterday.",
+      "We often play football in the school yard."
+    ],
+    "bad": [
+      "play football"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "school timetable",
+    "good": [
+      "I check my school timetable every night.",
+      "Our new school timetable has many lessons.",
+      "My timetable at school is on the wall."
+    ],
+    "bad": [
+      "school timetable"
+    ]
+  },
+  {
+    "unit": "unit-01",
+    "phrase": "school library",
+    "good": [
+      "I read books in the school library.",
+      "Our school library is big and quiet.",
+      "We borrowed some books from the new school library."
+    ],
+    "bad": [
+      "school library"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "live in a flat",
+    "good": [
+      "My family lives in a flat in Hanoi.",
+      "I live in a small flat near my school.",
+      "My aunt lived in a big flat in the city."
+    ],
+    "bad": [
+      "live in a flat"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "live in a town house",
+    "good": [
+      "My family lives in a town house in the city.",
+      "I live in a tall town house with my grandparents.",
+      "We lived in an old town house last year."
+    ],
+    "bad": [
+      "live in a town house"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "a quiet country house",
+    "good": [
+      "My grandma has a quiet country house.",
+      "We stay in a quiet little country house in summer.",
+      "Her country house is very quiet and green."
+    ],
+    "bad": [
+      "a quiet country house"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "new furniture",
+    "good": [
+      "We bought some new furniture for our living room.",
+      "My parents want new furniture for the kitchen.",
+      "All the furniture in my room is new."
+    ],
+    "bad": [
+      "new furniture"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "a big wardrobe",
+    "good": [
+      "There is a big wardrobe in my bedroom.",
+      "My mum bought a big brown wardrobe.",
+      "Our wardrobe is very big and old."
+    ],
+    "bad": [
+      "a big wardrobe"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "a small chest of drawers",
+    "good": [
+      "I keep my socks in a small chest of drawers.",
+      "There is a small white chest of drawers in my room.",
+      "My chest of drawers is small but useful."
+    ],
+    "bad": [
+      "a small chest of drawers"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "kitchen cupboard",
+    "good": [
+      "The bowls are in the kitchen cupboard.",
+      "We have a big kitchen cupboard.",
+      "My mum keeps the rice in the cupboard in the kitchen."
+    ],
+    "bad": [
+      "kitchen cupboard"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "a book shelf",
+    "good": [
+      "There is a book shelf next to my bed.",
+      "I put my comics on a small book shelf.",
+      "My dad made a new book shelf for me."
+    ],
+    "bad": [
+      "a book shelf"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "a gas cooker",
+    "good": [
+      "My mum cooks dinner on a gas cooker.",
+      "We have a new gas cooker in our kitchen.",
+      "Our cooker uses gas, not electricity."
+    ],
+    "bad": [
+      "a gas cooker"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "kitchen sink",
+    "good": [
+      "The dirty plates are in the kitchen sink.",
+      "I wash the dishes in the kitchen sink.",
+      "Our kitchen has a big new sink."
+    ],
+    "bad": [
+      "kitchen sink"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "use the dishwasher",
+    "good": [
+      "My family uses the dishwasher after dinner.",
+      "We used the new dishwasher last night.",
+      "Do you use the dishwasher at home?"
+    ],
+    "bad": [
+      "use the dishwasher"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "hang your coat in the hall",
+    "good": [
+      "I always hang my coat in the hall.",
+      "Please hang your wet coat in the small hall.",
+      "My dad hangs his coat in the hall after work."
+    ],
+    "bad": [
+      "hang your coat in the hall"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "go to the department store",
+    "good": [
+      "We go to the department store on Sundays.",
+      "My mum went to the big department store yesterday.",
+      "I want to go to the new department store with my friends."
+    ],
+    "bad": [
+      "go to the department store"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "next to the bed",
+    "good": [
+      "There is a lamp next to the bed.",
+      "My cat sleeps next to my bed.",
+      "I put my books next to the bed every night."
+    ],
+    "bad": [
+      "next to the bed"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "in front of the TV",
+    "good": [
+      "My dog sleeps in front of the TV.",
+      "We sit in front of the big TV after dinner.",
+      "There is a small table in front of our TV."
+    ],
+    "bad": [
+      "in front of the TV"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "between something",
+    "good": [
+      "There is a small lamp between the two beds.",
+      "My cat sleeps between the two small beds.",
+      "We put a table between the two beds in our room.",
+      "My desk is between the bed and the window.",
+      "The cat sleeps between my mom and my dad."
+    ],
+    "bad": [
+      "between something",
+      "My desk is between something."
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "behind the door",
+    "good": [
+      "My bag is behind the door.",
+      "I hid behind my bedroom door.",
+      "There is a big clock behind the door."
+    ],
+    "bad": [
+      "behind the door"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "a strange house",
+    "good": [
+      "We saw a strange house near the forest.",
+      "There is a very strange old house in my village.",
+      "That house looks strange and dark."
+    ],
+    "bad": [
+      "a strange house"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "a crazy idea",
+    "good": [
+      "My brother has a crazy idea for the weekend.",
+      "That is a really crazy idea, Nam!",
+      "His idea was crazy but it worked."
+    ],
+    "bad": [
+      "a crazy idea"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "cook dinner in the kitchen",
+    "good": [
+      "My mum cooks dinner in the kitchen every evening.",
+      "We are cooking a big dinner in the kitchen now.",
+      "Dad and I cooked dinner together in the kitchen."
+    ],
+    "bad": [
+      "cook dinner in the kitchen"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "watch TV in the living room",
+    "good": [
+      "We watch TV in the living room after dinner.",
+      "My grandpa is watching TV in the big living room.",
+      "Nam and his sister watched TV in the living room."
+    ],
+    "bad": [
+      "watch TV in the living room"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "tidy my bedroom",
+    "good": [
+      "I tidy my bedroom every Saturday morning.",
+      "My mum asked me to tidy my small bedroom.",
+      "Lan is tidying her bedroom before her friends come."
+    ],
+    "bad": [
+      "tidy my bedroom"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "clean the bathroom",
+    "good": [
+      "I help my mum clean the bathroom on Sundays.",
+      "My dad cleaned the bathroom yesterday.",
+      "We clean our small bathroom every week."
+    ],
+    "bad": [
+      "clean the bathroom"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "desk lamp",
+    "good": [
+      "I need a desk lamp to read at night.",
+      "My new desk lamp is blue.",
+      "There is a small lamp on my desk."
+    ],
+    "bad": [
+      "desk lamp"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "use the toilet",
+    "good": [
+      "Can I use the toilet, please?",
+      "My little brother used the toilet at school.",
+      "You can use our toilet upstairs."
+    ],
+    "bad": [
+      "use the toilet"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "a picture on the wall",
+    "good": [
+      "There is a picture of my family on the wall.",
+      "I put a big picture on the wall of my room.",
+      "We have a beautiful picture of the sea on the wall."
+    ],
+    "bad": [
+      "a picture on the wall"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "sit on the sofa",
+    "good": [
+      "I sit on the sofa and watch TV.",
+      "My grandpa sat on the big sofa after lunch.",
+      "We like sitting on our new sofa."
+    ],
+    "bad": [
+      "sit on the sofa"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "put food in the fridge",
+    "good": [
+      "We put the food in the fridge after dinner.",
+      "My mum puts fresh food in the big fridge.",
+      "Please put the leftover food in the fridge."
+    ],
+    "bad": [
+      "put food in the fridge"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "have a shower",
+    "good": [
+      "I have a shower every evening.",
+      "My brother had a quick shower after football.",
+      "I usually have a cold shower in summer."
+    ],
+    "bad": [
+      "have a shower"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "a big garden",
+    "good": [
+      "My grandma has a big garden with many flowers.",
+      "There is a really big garden behind our house.",
+      "Their garden is big and green."
+    ],
+    "bad": [
+      "a big garden"
+    ]
+  },
+  {
+    "unit": "unit-02",
+    "phrase": "play in the attic",
+    "good": [
+      "My brother and I play in the attic on rainy days.",
+      "We played games in the old attic last summer.",
+      "The children are playing happily in the attic."
+    ],
+    "bad": [
+      "play in the attic"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "a kind personality",
+    "good": [
+      "My teacher has a kind personality.",
+      "Lan has a very kind and warm personality.",
+      "Her personality is kind and friendly."
+    ],
+    "bad": [
+      "a kind personality"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "describe someone's appearance",
+    "good": [
+      "Can you describe your mother's appearance?",
+      "I described my best friend's appearance in my essay.",
+      "Please describe his appearance to the police."
+    ],
+    "bad": [
+      "describe someone's appearance",
+      "Please describe someone's appearance to me."
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "kind to animals",
+    "good": [
+      "My sister is very kind to animals.",
+      "We should be kind to all animals.",
+      "Nam is kind to stray animals in our street."
+    ],
+    "bad": [
+      "kind to animals"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "friendly to everyone",
+    "good": [
+      "My teacher is friendly to everyone.",
+      "Lan is always very friendly to everyone in class.",
+      "He was friendly to everyone at the party."
+    ],
+    "bad": [
+      "friendly to everyone"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "a funny story",
+    "good": [
+      "My grandpa tells me a funny story every night.",
+      "I read a really funny story about a cat.",
+      "Grandpa always tells funny stories."
+    ],
+    "bad": [
+      "a funny story"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "clever at maths",
+    "good": [
+      "My brother is very clever at maths.",
+      "Lan is really clever at maths and science.",
+      "I am not clever at maths but I try hard."
+    ],
+    "bad": [
+      "clever at maths"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "a caring friend",
+    "good": [
+      "Mai is a caring friend.",
+      "I have a very caring and kind friend.",
+      "My best friend is caring and helpful."
+    ],
+    "bad": [
+      "a caring friend"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "creative ideas",
+    "good": [
+      "My friend has many creative ideas.",
+      "We need some new creative ideas for the project.",
+      "Her ideas are always creative and fun."
+    ],
+    "bad": [
+      "creative ideas"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "a hard-working student",
+    "good": [
+      "Lan is a hard-working student.",
+      "Nam is a very hard-working and kind student.",
+      "Our class has many hardworking students."
+    ],
+    "bad": [
+      "a hard-working student"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "active in class",
+    "good": [
+      "Mai is very active in class.",
+      "I want to be more active in my English class.",
+      "He is active and happy in every class."
+    ],
+    "bad": [
+      "active in class"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "feel confident",
+    "good": [
+      "I feel confident when I speak English.",
+      "My sister felt very confident in the test.",
+      "I don't feel really confident on stage."
+    ],
+    "bad": [
+      "feel confident"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "feel shy",
+    "good": [
+      "I feel shy when I meet new people.",
+      "My little brother felt very shy at the party.",
+      "Do you feel shy in front of the class?"
+    ],
+    "bad": [
+      "feel shy"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "be careful with your homework",
+    "good": [
+      "Kim is careful with her homework every day.",
+      "You should be very careful with your maths homework.",
+      "My brother is always careful with his English homework."
+    ],
+    "bad": [
+      "be careful with your homework"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "a loving family",
+    "good": [
+      "I have a loving family.",
+      "Mai lives in a big and loving family.",
+      "My family is loving and kind."
+    ],
+    "bad": [
+      "a loving family"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "grow tall",
+    "good": [
+      "My little brother is growing tall very fast.",
+      "Children grow tall when they eat well and sleep early.",
+      "My cousin Nam grows tall like his father."
+    ],
+    "bad": [
+      "grow tall"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "round cheeks",
+    "good": [
+      "My baby sister has round cheeks.",
+      "Lan has round red cheeks.",
+      "His cheeks are round and pink."
+    ],
+    "bad": [
+      "round cheeks"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "broad shoulders",
+    "good": [
+      "My dad has broad shoulders.",
+      "The swimmer has very broad and strong shoulders.",
+      "His shoulders are broad because he swims a lot."
+    ],
+    "bad": [
+      "broad shoulders"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "curly hair",
+    "good": [
+      "My friend Mai has curly hair.",
+      "My sister has long curly black hair.",
+      "Her hair is curly and short."
+    ],
+    "bad": [
+      "curly hair"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "have a picnic",
+    "good": [
+      "We have a picnic in the park on Sundays.",
+      "My family had a big picnic by the lake.",
+      "Let's have a picnic this weekend."
+    ],
+    "bad": [
+      "have a picnic"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "go to a summer camp",
+    "good": [
+      "I want to go to a summer camp this year.",
+      "My brother went to a summer camp in Da Lat.",
+      "We go to a big summer camp every July."
+    ],
+    "bad": [
+      "go to a summer camp"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "wear glasses",
+    "good": [
+      "My dad wears glasses at work.",
+      "I wear my new glasses when I read.",
+      "My grandma wore big glasses."
+    ],
+    "bad": [
+      "wear glasses"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "blonde hair",
+    "good": [
+      "My English teacher has blonde hair.",
+      "The girl in the film has long blonde hair.",
+      "Her hair is blonde and curly."
+    ],
+    "bad": [
+      "blonde hair"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "long hair",
+    "good": [
+      "My sister has long hair.",
+      "Lan has very long black hair.",
+      "Her hair is long and beautiful."
+    ],
+    "bad": [
+      "long hair"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "big eyes",
+    "good": [
+      "My cat has big eyes.",
+      "Mai has big round eyes.",
+      "His eyes are big and black."
+    ],
+    "bad": [
+      "big eyes"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "a small nose",
+    "good": [
+      "My baby brother has a small nose.",
+      "She has a very small and cute nose.",
+      "His nose is small and round."
+    ],
+    "bad": [
+      "a small nose"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "a big mouth",
+    "good": [
+      "The frog has a big mouth.",
+      "The clown has a very big red mouth.",
+      "My dog's mouth is big."
+    ],
+    "bad": [
+      "a big mouth"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "long arms",
+    "good": [
+      "My brother has long arms.",
+      "The monkey has very long arms.",
+      "His arms are long and strong."
+    ],
+    "bad": [
+      "long arms"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "long legs",
+    "good": [
+      "My sister has long legs.",
+      "The basketball player has very long legs.",
+      "His legs are long so he runs fast."
+    ],
+    "bad": [
+      "long legs"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "go to school on foot",
+    "good": [
+      "I go to school on foot every morning.",
+      "My friend Nam goes to school on foot with me.",
+      "We went to our new school on foot yesterday."
+    ],
+    "bad": [
+      "go to school on foot"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "play with my best friend",
+    "good": [
+      "I play with my best friend after school.",
+      "Lan often plays badminton with her best friend.",
+      "On Sunday I played games with my best friend Nam."
+    ],
+    "bad": [
+      "play with my best friend"
+    ]
+  },
+  {
+    "unit": "unit-03",
+    "phrase": "tall and slim",
+    "good": [
+      "My brother is tall and slim.",
+      "My mum is tall and quite slim.",
+      "The model was tall and slim."
+    ],
+    "bad": [
+      "tall and slim"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "a quiet neighbourhood",
+    "good": [
+      "I live in a quiet neighbourhood.",
+      "My grandma lives in a very quiet neighbourhood.",
+      "Our neighbourhood is quiet and clean."
+    ],
+    "bad": [
+      "a quiet neighbourhood"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "visit an art gallery",
+    "good": [
+      "We visit an art gallery every summer.",
+      "My class visited a big art gallery in Hanoi.",
+      "I want to visit the new art gallery."
+    ],
+    "bad": [
+      "visit an art gallery"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "an old cathedral",
+    "good": [
+      "There is an old cathedral in my city.",
+      "We visited a very old cathedral in Ho Chi Minh City.",
+      "The cathedral is old and beautiful."
+    ],
+    "bad": [
+      "an old cathedral"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "go to the railway station",
+    "good": [
+      "We go to the railway station by taxi.",
+      "My dad went to the railway station early.",
+      "How can I go to the old railway station?"
+    ],
+    "bad": [
+      "go to the railway station"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "a big square",
+    "good": [
+      "There is a big square in the city centre.",
+      "We played in a very big square.",
+      "The square is big and full of people."
+    ],
+    "bad": [
+      "a big square"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "live in the suburbs",
+    "good": [
+      "My uncle lives in the suburbs.",
+      "We live in the quiet suburbs of Hanoi.",
+      "My family lived in the suburbs last year."
+    ],
+    "bad": [
+      "live in the suburbs"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "a repair workshop",
+    "good": [
+      "My dad works in a repair workshop.",
+      "There is a small bike repair workshop near my house.",
+      "We took the bike to a workshop for repair."
+    ],
+    "bad": [
+      "a repair workshop"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "a busy street",
+    "good": [
+      "I live on a busy street.",
+      "My school is on a very busy street.",
+      "The street is busy in the morning."
+    ],
+    "bad": [
+      "a busy street"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "a narrow street",
+    "good": [
+      "My grandma's house is on a narrow street.",
+      "We walked down a very narrow old street.",
+      "The street is narrow and quiet."
+    ],
+    "bad": [
+      "a narrow street"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "be famous for its food",
+    "good": [
+      "My neighbourhood is famous for its delicious food.",
+      "Hoi An is very famous for its street food.",
+      "This old market is famous for its cheap food."
+    ],
+    "bad": [
+      "be famous for its food"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "outdoor activities",
+    "good": [
+      "I like outdoor activities like camping.",
+      "We do many fun outdoor activities at school.",
+      "My favourite activity is an outdoor one."
+    ],
+    "bad": [
+      "outdoor activities"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "cross the road",
+    "good": [
+      "Be careful when you cross the road.",
+      "My grandma crossed the busy road slowly.",
+      "We cross the road at the traffic lights."
+    ],
+    "bad": [
+      "cross the road"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "take the first turning",
+    "good": [
+      "Take the first turning on the left.",
+      "You take the first turning after the bank.",
+      "We took the first turning on the right."
+    ],
+    "bad": [
+      "take the first turning"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "dislike the noise",
+    "good": [
+      "I dislike the noise in the city.",
+      "My grandma dislikes the noise from the street.",
+      "We disliked the loud noise at night."
+    ],
+    "bad": [
+      "dislike the noise"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "a noisy street",
+    "good": [
+      "I live on a noisy street.",
+      "My school is on a very noisy street.",
+      "The street is noisy at night."
+    ],
+    "bad": [
+      "a noisy street"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "a peaceful village",
+    "good": [
+      "My grandparents live in a peaceful village.",
+      "I love the small peaceful village.",
+      "The village is peaceful and green."
+    ],
+    "bad": [
+      "a peaceful village"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "crowded streets",
+    "good": [
+      "Hanoi has many crowded streets.",
+      "I don't like the very crowded streets at Tet.",
+      "The streets are crowded in the evening."
+    ],
+    "bad": [
+      "crowded streets"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "convenient for shopping",
+    "good": [
+      "My neighbourhood is convenient for shopping.",
+      "Living in the city is very convenient for shopping.",
+      "Our new flat is convenient for my mum's shopping."
+    ],
+    "bad": [
+      "convenient for shopping"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "sandy beaches",
+    "good": [
+      "Nha Trang has beautiful sandy beaches.",
+      "We played on the long sandy beach.",
+      "The beaches here are sandy and clean."
+    ],
+    "bad": [
+      "sandy beaches"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "a faraway place",
+    "good": [
+      "I want to travel to a faraway place.",
+      "My uncle works in a very faraway place.",
+      "That place is faraway and quiet."
+    ],
+    "bad": [
+      "a faraway place"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "an old temple",
+    "good": [
+      "There is an old temple in my village.",
+      "We visited a very old temple in Hue.",
+      "The temple is old and beautiful."
+    ],
+    "bad": [
+      "an old temple"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "wait at the bus stop",
+    "good": [
+      "I wait at the bus stop every morning.",
+      "We waited at the bus stop for twenty minutes.",
+      "My sister is waiting at the old bus stop."
+    ],
+    "bad": [
+      "wait at the bus stop"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "go to the cinema",
+    "good": [
+      "We go to the cinema on Saturday.",
+      "I went to the cinema with my friends.",
+      "Let's go to the new cinema tonight."
+    ],
+    "bad": [
+      "go to the cinema"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "walk in the park",
+    "good": [
+      "I walk in the park with my dog every morning.",
+      "My grandparents are walking in the green park now.",
+      "We walked in the big park after dinner."
+    ],
+    "bad": [
+      "walk in the park"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "go to the bank",
+    "good": [
+      "My mum goes to the bank on Monday.",
+      "My dad went to the bank this morning.",
+      "I need to go to the bank with my mum."
+    ],
+    "bad": [
+      "go to the bank"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "a quiet street",
+    "good": [
+      "I live on a quiet street.",
+      "My grandma lives on a very quiet street.",
+      "The street is quiet at night."
+    ],
+    "bad": [
+      "a quiet street"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "a modern building",
+    "good": [
+      "There is a modern building near my school.",
+      "My dad works in a very modern building.",
+      "The building is tall and modern."
+    ],
+    "bad": [
+      "a modern building"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "a lively place",
+    "good": [
+      "Hanoi is a lively place.",
+      "The market is a really lively place at Tet.",
+      "This place is very lively at night."
+    ],
+    "bad": [
+      "a lively place"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "expensive shops",
+    "good": [
+      "There are many expensive shops in the city.",
+      "I don't go to very expensive shops.",
+      "The shops here are expensive."
+    ],
+    "bad": [
+      "expensive shops"
+    ]
+  },
+  {
+    "unit": "unit-04",
+    "phrase": "cheap food",
+    "good": [
+      "The market has cheap food.",
+      "We eat cheap and tasty food near school.",
+      "The food here is cheap and good."
+    ],
+    "bad": [
+      "cheap food"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "visit a natural wonder",
+    "good": [
+      "I want to visit a natural wonder in Viet Nam.",
+      "We visited a famous natural wonder last summer.",
+      "My family will visit a beautiful natural wonder."
+    ],
+    "bad": [
+      "visit a natural wonder"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "a beautiful landscape",
+    "good": [
+      "Sa Pa has a beautiful landscape.",
+      "We saw a very beautiful green landscape.",
+      "The landscape here is beautiful."
+    ],
+    "bad": [
+      "a beautiful landscape"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "an amazing view",
+    "good": [
+      "We had an amazing view from the mountain.",
+      "There is a really amazing view from my window.",
+      "The view from the tower is amazing."
+    ],
+    "bad": [
+      "an amazing view"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "a high waterfall",
+    "good": [
+      "We saw a high waterfall in the forest.",
+      "Ban Gioc is a very high and big waterfall.",
+      "The waterfall is high and beautiful."
+    ],
+    "bad": [
+      "a high waterfall"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "a small island",
+    "good": [
+      "My uncle lives on a small island.",
+      "We visited a very small green island.",
+      "The island is small but beautiful."
+    ],
+    "bad": [
+      "a small island"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "a hot desert",
+    "good": [
+      "The Sahara is a hot desert.",
+      "Camels live in a very hot and dry desert.",
+      "The desert is hot in the day."
+    ],
+    "bad": [
+      "a hot desert"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "rock columns",
+    "good": [
+      "There are many tall rock columns in the cave.",
+      "We saw some huge rock columns by the sea.",
+      "The columns of rock are very old."
+    ],
+    "bad": [
+      "rock columns"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "a high mountain range",
+    "good": [
+      "There is a high mountain range in the north.",
+      "We saw a very high mountain range from the plane.",
+      "The mountain range is high and cold."
+    ],
+    "bad": [
+      "a high mountain range"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "man-made lake",
+    "good": [
+      "There is a man-made lake in our park.",
+      "We had a picnic by a man-made lake.",
+      "We swam in a big manmade lake."
+    ],
+    "bad": [
+      "man-made lake"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "travel by boat",
+    "good": [
+      "We travelled by boat to the small island.",
+      "Tourists can travel around Ha Long Bay by boat.",
+      "My family will travel to Cat Ba Island by boat."
+    ],
+    "bad": [
+      "travel by boat"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "pack a backpack",
+    "good": [
+      "I pack a backpack for the school trip.",
+      "My mum packed my backpack last night.",
+      "I need to pack my big backpack now."
+    ],
+    "bad": [
+      "pack a backpack"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "use a compass",
+    "good": [
+      "We use a compass in the forest.",
+      "My dad used a compass to find the way.",
+      "You should use a small compass when you go hiking."
+    ],
+    "bad": [
+      "use a compass"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "put on suncream",
+    "good": [
+      "I put on suncream at the beach.",
+      "My mum put some suncream on my face.",
+      "Don't forget to put on your suncream."
+    ],
+    "bad": [
+      "put on suncream"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "put a plaster on a cut",
+    "good": [
+      "My mum put a plaster on the cut on my finger.",
+      "You should put a small plaster on that cut.",
+      "The teacher puts a plaster on Nam's cut knee."
+    ],
+    "bad": [
+      "put a plaster on a cut"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "litter in the park",
+    "good": [
+      "Visitors must not litter in the national park.",
+      "Please don't litter in the beautiful park.",
+      "Some people littered in the park last weekend."
+    ],
+    "bad": [
+      "litter in the park"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "join in the fun",
+    "good": [
+      "Come and join in the fun!",
+      "My little brother joined in the fun at the party.",
+      "Everyone can join in all the fun."
+    ],
+    "bad": [
+      "join in the fun"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "explore a cave",
+    "good": [
+      "We want to explore a cave in Ha Long Bay.",
+      "My class explored a big dark cave.",
+      "I'd love to explore Son Doong cave one day."
+    ],
+    "bad": [
+      "explore a cave"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "walk in the forest",
+    "good": [
+      "We walked in the forest for two hours.",
+      "I like walking in the green forest with my dad.",
+      "My class will walk in the big forest tomorrow."
+    ],
+    "bad": [
+      "walk in the forest"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "beautiful scenery",
+    "good": [
+      "Sa Pa has beautiful scenery.",
+      "We enjoyed the very beautiful mountain scenery.",
+      "The scenery here is so beautiful."
+    ],
+    "bad": [
+      "beautiful scenery"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "a warm sleeping bag",
+    "good": [
+      "I need a warm sleeping bag for camping.",
+      "My dad bought a very warm sleeping bag.",
+      "My sleeping bag is warm and soft."
+    ],
+    "bad": [
+      "a warm sleeping bag"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "climb Mount Fansipan",
+    "good": [
+      "I want to climb Mount Fansipan one day.",
+      "My uncle climbed Mount Fansipan last year.",
+      "We will climb the famous Mount Fansipan."
+    ],
+    "bad": [
+      "climb Mount Fansipan"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "walk along the river",
+    "good": [
+      "We walk along the river every evening.",
+      "My family walked along the long river after lunch.",
+      "Tourists are walking along the beautiful river now."
+    ],
+    "bad": [
+      "walk along the river"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "play on the beach",
+    "good": [
+      "The children play on the beach all day.",
+      "We played volleyball on the sandy beach.",
+      "My little sister is playing on the beach with her friends."
+    ],
+    "bad": [
+      "play on the beach"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "a pair of scissors",
+    "good": [
+      "I need a pair of scissors for art class.",
+      "Can I borrow a small pair of scissors?",
+      "My mum bought two pairs of scissors."
+    ],
+    "bad": [
+      "a pair of scissors"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "a wonderful view",
+    "good": [
+      "We had a wonderful view from the hotel.",
+      "There is a really wonderful view from the hill.",
+      "The view is wonderful at sunset."
+    ],
+    "bad": [
+      "a wonderful view"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "visit a national park",
+    "good": [
+      "We visit a national park every summer.",
+      "My class visited Cuc Phuong National Park.",
+      "I want to visit a big national park."
+    ],
+    "bad": [
+      "visit a national park"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "geography club",
+    "good": [
+      "I joined the geography club this year.",
+      "Our school geography club meets on Friday.",
+      "The club for geography has ten members."
+    ],
+    "bad": [
+      "geography club"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "go camping",
+    "good": [
+      "We go camping in the forest.",
+      "My family went camping last weekend.",
+      "I want to go camping with my friends."
+    ],
+    "bad": [
+      "go camping"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "Ha Long Bay",
+    "good": [
+      "I want to visit Ha Long Bay.",
+      "We went to beautiful Ha Long Bay by bus.",
+      "Ha Long Bay has many islands."
+    ],
+    "bad": [
+      "Ha Long Bay"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "a deep lake",
+    "good": [
+      "There is a deep lake near my village.",
+      "We saw a very deep and blue lake.",
+      "The lake is deep, so don't swim there."
+    ],
+    "bad": [
+      "a deep lake"
+    ]
+  },
+  {
+    "unit": "unit-05",
+    "phrase": "bring a torch",
+    "good": [
+      "You should bring a torch when you go camping.",
+      "I brought a small torch to the cave.",
+      "Don't forget to bring your torch."
+    ],
+    "bad": [
+      "bring a torch"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "celebrate Tet",
+    "good": [
+      "We celebrate Tet with our family.",
+      "My family celebrated Tet in our village.",
+      "How do you celebrate Tet in your house?"
+    ],
+    "bad": [
+      "celebrate Tet"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "decorate the house",
+    "good": [
+      "We decorate the house before Tet.",
+      "My mum decorated our house with flowers.",
+      "I help my sister decorate the whole house."
+    ],
+    "bad": [
+      "decorate the house"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "have a family gathering",
+    "good": [
+      "We have a family gathering at Tet.",
+      "My family had a big family gathering last night.",
+      "We always have a happy family gathering on New Year's Day."
+    ],
+    "bad": [
+      "have a family gathering"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "visit grandparents",
+    "good": [
+      "We always visit our grandparents on the first day of Tet.",
+      "I visited my grandparents in the countryside last spring.",
+      "Lan and her brother visit their grandparents every weekend."
+    ],
+    "bad": [
+      "visit grandparents"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "give lucky money",
+    "good": [
+      "My grandparents give lucky money to the children.",
+      "My aunt gave me some lucky money.",
+      "My parents give us red lucky money at Tet."
+    ],
+    "bad": [
+      "give lucky money"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "make a wish",
+    "good": [
+      "I make a wish on New Year's Eve.",
+      "My sister made a big wish at Tet.",
+      "Close your eyes and make a wish."
+    ],
+    "bad": [
+      "make a wish"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "watch fireworks",
+    "good": [
+      "We watch fireworks on New Year's Eve.",
+      "My family watched the beautiful fireworks last night.",
+      "I love watching fireworks with my friends."
+    ],
+    "bad": [
+      "watch fireworks"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "behave well",
+    "good": [
+      "Children should behave well at Tet.",
+      "My little brother behaved very well today.",
+      "You must behave well at school."
+    ],
+    "bad": [
+      "behave well"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "good luck",
+    "good": [
+      "I wish you good luck in the new year.",
+      "Good luck in your test tomorrow!",
+      "Red is a colour of good luck."
+    ],
+    "bad": [
+      "good luck"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "welcome the New Year",
+    "good": [
+      "We welcome the New Year with our family.",
+      "People welcomed the New Year with fireworks.",
+      "We stay up late to welcome the new year."
+    ],
+    "bad": [
+      "welcome the New Year"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "cheer loudly",
+    "good": [
+      "The fans cheer loudly at the match.",
+      "We cheered very loudly for our team.",
+      "The children cheered loudly at midnight."
+    ],
+    "bad": [
+      "cheer loudly"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "have fun",
+    "good": [
+      "We have fun at Tet.",
+      "I had a lot of fun at the party.",
+      "Let's have fun at the beach."
+    ],
+    "bad": [
+      "have fun"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "go to the temple",
+    "good": [
+      "We go to the temple at Tet.",
+      "My grandma went to the old temple yesterday.",
+      "I go to the temple with my parents."
+    ],
+    "bad": [
+      "go to the temple"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "throw water",
+    "good": [
+      "People throw water at each other in Songkran.",
+      "The children threw water at us.",
+      "We throw cold water during the festival."
+    ],
+    "bad": [
+      "throw water"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "buy peach flowers",
+    "good": [
+      "We buy peach flowers before Tet.",
+      "My dad bought some pink peach flowers.",
+      "My mum buys beautiful peach flowers every year."
+    ],
+    "bad": [
+      "buy peach flowers"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "cook special food",
+    "good": [
+      "My mum cooks special food at Tet.",
+      "We cooked some special food for the party.",
+      "My grandma cooks a lot of special food."
+    ],
+    "bad": [
+      "cook special food"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "stay up on New Year's Eve",
+    "good": [
+      "We stay up late on New Year's Eve.",
+      "My family stayed up to watch fireworks on New Year's Eve.",
+      "Children can stay up until midnight on New Year's Eve."
+    ],
+    "bad": [
+      "stay up on New Year's Eve"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "help with housework",
+    "good": [
+      "I help my mum with housework.",
+      "My brother helped with the housework at Tet.",
+      "We help our parents with the housework every day."
+    ],
+    "bad": [
+      "help with housework"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "the clock strikes",
+    "good": [
+      "When the clock strikes twelve, we watch fireworks.",
+      "The clock struck twelve and everyone cheered.",
+      "The old clock strikes twelve at midnight."
+    ],
+    "bad": [
+      "the clock strikes"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "eat mochi rice cakes",
+    "good": [
+      "Japanese people eat mochi rice cakes at New Year.",
+      "We ate some mochi rice cakes in Japan.",
+      "I like to eat sweet mochi rice cakes."
+    ],
+    "bad": [
+      "eat mochi rice cakes"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "do the shopping",
+    "good": [
+      "My mum does the shopping on Sundays.",
+      "I did the shopping with my dad yesterday.",
+      "We do the shopping before Tet."
+    ],
+    "bad": [
+      "do the shopping"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "spring flowers",
+    "good": [
+      "I love the beautiful spring flowers in my garden.",
+      "There are many spring flowers at the market.",
+      "My mum buys spring flowers before Tet."
+    ],
+    "bad": [
+      "spring flowers"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "clean the house",
+    "good": [
+      "We clean the house before Tet.",
+      "My sister cleaned the whole house yesterday.",
+      "I help my mum clean our house."
+    ],
+    "bad": [
+      "clean the house"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "break a glass",
+    "good": [
+      "Don't break a glass at Tet.",
+      "My little brother broke a glass this morning.",
+      "I broke my mum's glass by accident."
+    ],
+    "bad": [
+      "break a glass"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "fly a kite",
+    "good": [
+      "I fly a kite in the park.",
+      "My brother and I flew a big kite yesterday.",
+      "My dad flies a kite with me on Sundays."
+    ],
+    "bad": [
+      "fly a kite"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "go to the flower market",
+    "good": [
+      "We go to the big flower market before Tet.",
+      "My mum went to the busy flower market yesterday morning.",
+      "Nam and his sister are going to the flower market today."
+    ],
+    "bad": [
+      "go to the flower market"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "celebrate the New Year",
+    "good": [
+      "We celebrate the New Year with fireworks.",
+      "My family celebrated the New Year at home.",
+      "How do people celebrate the new year in Japan?"
+    ],
+    "bad": [
+      "celebrate the New Year"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "visit relatives",
+    "good": [
+      "At Tet, we visit relatives.",
+      "We visited our relatives in Da Nang.",
+      "I visit my relatives every summer."
+    ],
+    "bad": [
+      "visit relatives"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "go to the pagoda",
+    "good": [
+      "We go to the pagoda at Tet.",
+      "My grandma went to the old pagoda this morning.",
+      "I go to the pagoda with my mum."
+    ],
+    "bad": [
+      "go to the pagoda"
+    ]
+  },
+  {
+    "unit": "unit-06",
+    "phrase": "choose the first footer",
+    "good": [
+      "My family chooses the first footer very carefully.",
+      "We chose a kind man as the first footer this year.",
+      "People choose a lucky first footer for Tet."
+    ],
+    "bad": [
+      "choose the first footer"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "TV programme",
+    "good": [
+      "My favourite TV programme is about animals.",
+      "I watch a funny TV programme every night.",
+      "This programme on TV is very good."
+    ],
+    "bad": [
+      "TV programme"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "TV channel",
+    "good": [
+      "VTV3 is my favourite TV channel.",
+      "My dad watches a sports TV channel.",
+      "This channel on TV has many cartoons."
+    ],
+    "bad": [
+      "TV channel"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "watch cartoons",
+    "good": [
+      "I watch cartoons every Sunday.",
+      "My little brother watched funny cartoons all day.",
+      "We like watching cartoons after school."
+    ],
+    "bad": [
+      "watch cartoons"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "a TV comedy",
+    "good": [
+      "I watched a TV comedy last night.",
+      "My family likes a funny TV comedy.",
+      "This comedy on TV is very funny."
+    ],
+    "bad": [
+      "a TV comedy"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "music talent show",
+    "good": [
+      "My sister was in a music talent show.",
+      "I watch a music talent show on Saturday.",
+      "My friend won the school music talent show."
+    ],
+    "bad": [
+      "music talent show"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "a famous animated film",
+    "good": [
+      "Frozen is a famous animated film.",
+      "We watched a very famous animated film at school.",
+      "This animated film is famous all over the world."
+    ],
+    "bad": [
+      "a famous animated film"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "main character",
+    "good": [
+      "The main character is a little girl.",
+      "Tom is the main character in the film.",
+      "I like the main characters in this cartoon."
+    ],
+    "bad": [
+      "main character"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "TV viewers",
+    "good": [
+      "Many TV viewers like this programme.",
+      "The show has millions of TV viewers.",
+      "TV viewers love the funny host."
+    ],
+    "bad": [
+      "TV viewers"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "educational programme",
+    "good": [
+      "I watch an educational programme about animals.",
+      "My parents like educational TV programmes.",
+      "This programme is very educational."
+    ],
+    "bad": [
+      "educational programme"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "educate children",
+    "good": [
+      "Good TV shows can educate children.",
+      "This programme educates young children about animals.",
+      "Teachers educate children every day."
+    ],
+    "bad": [
+      "educate children"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "a funny character",
+    "good": [
+      "Mr Bean is a funny character.",
+      "I like the very funny character in the film.",
+      "This character is funny and clever."
+    ],
+    "bad": [
+      "a funny character"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "a clever character",
+    "good": [
+      "Jerry is a clever character.",
+      "The fox is a really clever character in the story.",
+      "The main character is clever and brave."
+    ],
+    "bad": [
+      "a clever character"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "cute characters",
+    "good": [
+      "The cartoon has many cute characters.",
+      "I like the cute little characters in Pokemon.",
+      "The characters are so cute."
+    ],
+    "bad": [
+      "cute characters"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "live programme",
+    "good": [
+      "I watched a live programme about the match.",
+      "This is a live TV programme.",
+      "The programme is live on VTV1."
+    ],
+    "bad": [
+      "live programme"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "a short clip",
+    "good": [
+      "I watched a short clip about cats.",
+      "My friend sent me a very short clip.",
+      "The clip is short but funny."
+    ],
+    "bad": [
+      "a short clip"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "compete in a show",
+    "good": [
+      "Many children compete in a talent show.",
+      "My sister competed in a singing show.",
+      "I want to compete in a big TV show."
+    ],
+    "bad": [
+      "compete in a show"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "read the TV guide",
+    "good": [
+      "I read the TV guide to find a good film.",
+      "My dad read the TV guide this morning.",
+      "Let's read the new TV guide."
+    ],
+    "bad": [
+      "read the TV guide"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "a popular programme",
+    "good": [
+      "This is a popular programme for children.",
+      "The game show is a very popular programme.",
+      "The programme is popular with teenagers."
+    ],
+    "bad": [
+      "a popular programme"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "a boring film",
+    "good": [
+      "I watched a boring film yesterday.",
+      "It was a really boring film.",
+      "The film was long and boring."
+    ],
+    "bad": [
+      "a boring film"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "watch a game show",
+    "good": [
+      "We watch a game show every Saturday.",
+      "My family watched a funny game show last night.",
+      "I like watching game shows with my dad."
+    ],
+    "bad": [
+      "watch a game show"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "a clever dolphin",
+    "good": [
+      "I saw a clever dolphin at the zoo.",
+      "The film is about a very clever dolphin.",
+      "The dolphin is clever and friendly."
+    ],
+    "bad": [
+      "a clever dolphin"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "watch a film",
+    "good": [
+      "I watch a film every weekend.",
+      "We watched a funny film at the cinema.",
+      "Let's watch a new film tonight."
+    ],
+    "bad": [
+      "watch a film"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "an interesting programme",
+    "good": [
+      "I watched an interesting programme about space.",
+      "This is a very interesting programme.",
+      "The programme is interesting and useful."
+    ],
+    "bad": [
+      "an interesting programme"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "a wonderful film",
+    "good": [
+      "I saw a wonderful film last night.",
+      "It was a really wonderful film.",
+      "The film was wonderful and funny."
+    ],
+    "bad": [
+      "a wonderful film"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "watch sports programmes",
+    "good": [
+      "My dad watches sports programmes every night.",
+      "I watched many sports programmes last week.",
+      "We like watching sports programmes together."
+    ],
+    "bad": [
+      "watch sports programmes"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "a young performer",
+    "good": [
+      "She is a young performer in the show.",
+      "The very young performer sang well.",
+      "The performer is young but very good."
+    ],
+    "bad": [
+      "a young performer"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "laugh a lot",
+    "good": [
+      "We laugh a lot when we watch cartoons.",
+      "My sister laughed a lot at the film.",
+      "I always laugh a lot with my friends."
+    ],
+    "bad": [
+      "laugh a lot"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "watch the weather forecast",
+    "good": [
+      "My dad watches the weather forecast every evening.",
+      "We watched the weather forecast before the trip.",
+      "I watch the TV weather forecast in the morning."
+    ],
+    "bad": [
+      "watch the weather forecast"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "watch the news",
+    "good": [
+      "My grandpa watches the news every night.",
+      "We watched the news at seven o'clock.",
+      "My parents watch the evening news."
+    ],
+    "bad": [
+      "watch the news"
+    ]
+  },
+  {
+    "unit": "unit-07",
+    "phrase": "use the remote control",
+    "good": [
+      "I use the remote control to change channels.",
+      "My brother used the remote control all day.",
+      "Can I use the TV remote control?"
+    ],
+    "bad": [
+      "use the remote control"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "a sporty person",
+    "good": [
+      "My dad is a sporty person.",
+      "My sister is a very sporty person.",
+      "My dad and my uncle are sporty people."
+    ],
+    "bad": [
+      "a sporty person"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "keep fit",
+    "good": [
+      "I swim to keep fit.",
+      "My mum keeps fit by doing yoga.",
+      "My grandpa kept fit by walking every day."
+    ],
+    "bad": [
+      "keep fit"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "go to the gym",
+    "good": [
+      "My dad goes to the gym every day.",
+      "My sister went to the gym yesterday.",
+      "I want to go to the new gym."
+    ],
+    "bad": [
+      "go to the gym"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "do karate",
+    "good": [
+      "I do karate after school.",
+      "My brother does karate on Saturday.",
+      "My sister did karate last year."
+    ],
+    "bad": [
+      "do karate"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "do aerobics",
+    "good": [
+      "My mum does aerobics in the morning.",
+      "We did aerobics in the park.",
+      "I do some aerobics every day."
+    ],
+    "bad": [
+      "do aerobics"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "tennis racket",
+    "good": [
+      "I have a new tennis racket.",
+      "My dad bought me a blue tennis racket.",
+      "This racket for tennis is very light."
+    ],
+    "bad": [
+      "tennis racket"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "swimming goggles",
+    "good": [
+      "I need new swimming goggles.",
+      "My swimming goggles are blue.",
+      "Don't forget your swimming goggles."
+    ],
+    "bad": [
+      "swimming goggles"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "sports equipment",
+    "good": [
+      "Our school has a lot of sports equipment.",
+      "We need new sports equipment for the club.",
+      "This equipment for sports is expensive."
+    ],
+    "bad": [
+      "sports equipment"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "sports competition",
+    "good": [
+      "I joined a sports competition at school.",
+      "Our school has a big sports competition every year.",
+      "My brother won a sports competition."
+    ],
+    "bad": [
+      "sports competition"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "football tournament",
+    "good": [
+      "Our school has a football tournament in May.",
+      "My team won the football tournament.",
+      "We watched the big football tournament on TV."
+    ],
+    "bad": [
+      "football tournament"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "score a goal",
+    "good": [
+      "I want to score a goal in the match.",
+      "My brother scored a great goal yesterday.",
+      "Messi scores a goal in every match."
+    ],
+    "bad": [
+      "score a goal"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "take place every year",
+    "good": [
+      "The festival takes place every year.",
+      "The sports day took place every year in May.",
+      "This football tournament takes place every year."
+    ],
+    "bad": [
+      "take place every year"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "run a marathon",
+    "good": [
+      "My uncle runs a marathon every year.",
+      "My dad ran a marathon last month.",
+      "I want to run a marathon one day."
+    ],
+    "bad": [
+      "run a marathon"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "last for",
+    "good": [
+      "The match lasts for two hours.",
+      "The film lasted for two hours.",
+      "The party lasted for two hours."
+    ],
+    "bad": [
+      "last for"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "say congratulations to the winner",
+    "good": [
+      "We say congratulations to the winner of the race.",
+      "Everyone said congratulations to the happy winner.",
+      "I said congratulations to Nam, the winner of the chess game."
+    ],
+    "bad": [
+      "say congratulations to the winner"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "a fantastic goal",
+    "good": [
+      "Messi scored a fantastic goal.",
+      "It was a really fantastic goal.",
+      "His second goal was fantastic."
+    ],
+    "bad": [
+      "a fantastic goal"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "sports career",
+    "good": [
+      "He had a long sports career.",
+      "Her sports career started when she was ten.",
+      "His career in sports is very famous."
+    ],
+    "bad": [
+      "sports career"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "world champion",
+    "good": [
+      "Messi is a world champion.",
+      "She became the world champion last year.",
+      "He wants to be a champion of the world."
+    ],
+    "bad": [
+      "world champion"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "play chess",
+    "good": [
+      "I play chess with my grandpa.",
+      "My brother played chess with me yesterday.",
+      "We often play chess after school."
+    ],
+    "bad": [
+      "play chess"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "play table tennis",
+    "good": [
+      "I play table tennis with my dad.",
+      "My brother played table tennis at school.",
+      "We play table tennis every Sunday."
+    ],
+    "bad": [
+      "play table tennis"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "shoot the ball",
+    "good": [
+      "You must shoot the ball into the goal.",
+      "He shot the ball into the net.",
+      "My brother shoots the ball very well."
+    ],
+    "bad": [
+      "shoot the ball"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "go cycling",
+    "good": [
+      "We go cycling in the park.",
+      "My dad and I went cycling on Sunday.",
+      "I want to go cycling with my friends."
+    ],
+    "bad": [
+      "go cycling"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "go swimming",
+    "good": [
+      "I go swimming every weekend.",
+      "My sister went swimming in the sea.",
+      "Let's go swimming this afternoon."
+    ],
+    "bad": [
+      "go swimming"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "play volleyball",
+    "good": [
+      "We play volleyball on the beach.",
+      "My sister played volleyball at school.",
+      "I like playing volleyball with my friends."
+    ],
+    "bad": [
+      "play volleyball"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "play badminton",
+    "good": [
+      "I play badminton with my mum.",
+      "My dad played badminton yesterday.",
+      "We often play badminton after dinner."
+    ],
+    "bad": [
+      "play badminton"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "a pair of sports shoes",
+    "good": [
+      "I need a pair of sports shoes.",
+      "My mum bought me a new pair of sports shoes.",
+      "I have two pairs of sports shoes."
+    ],
+    "bad": [
+      "a pair of sports shoes"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "kick the ball",
+    "good": [
+      "Kick the ball to me, please.",
+      "He kicked the ball very hard.",
+      "My little brother kicks the ball in the garden."
+    ],
+    "bad": [
+      "kick the ball"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "win a prize",
+    "good": [
+      "I hope I win a prize in the singing contest.",
+      "My sister won a big prize at school last year.",
+      "Our team wins a prize in the football tournament every year."
+    ],
+    "bad": [
+      "win a prize"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "take part in a contest",
+    "good": [
+      "I want to take part in a singing contest.",
+      "My sister took part in an English contest.",
+      "Many students take part in the school contest."
+    ],
+    "bad": [
+      "take part in a contest"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "win a match",
+    "good": [
+      "Our team won a big match last week.",
+      "I hope we win the match tomorrow.",
+      "They won every match this year."
+    ],
+    "bad": [
+      "win a match"
+    ]
+  },
+  {
+    "unit": "unit-08",
+    "phrase": "football team",
+    "good": [
+      "I play for the school football team.",
+      "My brother is in a big football team.",
+      "Our team for football is very good."
+    ],
+    "bad": [
+      "football team"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "a famous landmark",
+    "good": [
+      "The Eiffel Tower is a famous landmark.",
+      "We visited a very famous landmark in Paris.",
+      "This landmark is famous all over the world."
+    ],
+    "bad": [
+      "a famous landmark"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "a tall tower",
+    "good": [
+      "There is a tall tower in the city centre.",
+      "We went up a very tall old tower.",
+      "The tower is tall and beautiful."
+    ],
+    "bad": [
+      "a tall tower"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "an old palace",
+    "good": [
+      "We visited an old palace in Hue.",
+      "There is a very old palace near the river.",
+      "The palace is old but beautiful."
+    ],
+    "bad": [
+      "an old palace"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "visit the Royal Palace",
+    "good": [
+      "We want to visit the Royal Palace in Bangkok.",
+      "My family visited the Royal Palace last summer.",
+      "Tourists visit the beautiful Royal Palace every day."
+    ],
+    "bad": [
+      "visit the Royal Palace"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "a crowded street",
+    "good": [
+      "I don't like walking on a crowded street.",
+      "We walked down a very crowded street.",
+      "The street is crowded at night."
+    ],
+    "bad": [
+      "a crowded street"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "visit a floating market",
+    "good": [
+      "We visit a floating market in Can Tho.",
+      "My family visited a big floating market last year.",
+      "I want to visit the Cai Rang floating market."
+    ],
+    "bad": [
+      "visit a floating market"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "try street food",
+    "good": [
+      "I want to try street food in Bangkok.",
+      "We tried some delicious street food in Hanoi.",
+      "My dad likes trying street food."
+    ],
+    "bad": [
+      "try street food"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "a food stall",
+    "good": [
+      "My aunt has a food stall at the market.",
+      "We ate noodles at a small food stall.",
+      "The stall sells food and drinks."
+    ],
+    "bad": [
+      "a food stall"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "send a postcard",
+    "good": [
+      "I will send a postcard to my friend.",
+      "My sister sent me a postcard from Paris.",
+      "I sent my grandma a postcard last week."
+    ],
+    "bad": [
+      "send a postcard"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "read a city map",
+    "good": [
+      "I can read a city map.",
+      "My dad read the city map on the trip.",
+      "We need to read this city map."
+    ],
+    "bad": [
+      "read a city map"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "helpful to tourists",
+    "good": [
+      "The people in Hoi An are very helpful to tourists.",
+      "The guide was really helpful to the tourists.",
+      "Local people are always helpful to foreign tourists."
+    ],
+    "bad": [
+      "helpful to tourists"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "walk along the river bank",
+    "good": [
+      "We walked along the river bank in the evening.",
+      "Tourists like walking along the quiet river bank.",
+      "My family walks along the river bank after dinner."
+    ],
+    "bad": [
+      "walk along the river bank"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "rent a bike",
+    "good": [
+      "We can rent a bike in Hoi An.",
+      "My dad rented a bike for me.",
+      "Let's rent two bikes this afternoon."
+    ],
+    "bad": [
+      "rent a bike"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "walk around Times Square",
+    "good": [
+      "We walked around Times Square at night.",
+      "Many tourists walk around Times Square every day.",
+      "I want to walk around Times Square in New York."
+    ],
+    "bad": [
+      "walk around Times Square"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "an exciting city",
+    "good": [
+      "Bangkok is an exciting city.",
+      "New York is a very exciting city.",
+      "The city is exciting at night."
+    ],
+    "bad": [
+      "an exciting city"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "delicious food",
+    "good": [
+      "Hanoi has a lot of delicious food.",
+      "My mum cooks very delicious food.",
+      "The food here is delicious."
+    ],
+    "bad": [
+      "delicious food"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "tasty food",
+    "good": [
+      "We ate tasty food at the market.",
+      "My grandma cooks really tasty food.",
+      "The food is tasty and cheap."
+    ],
+    "bad": [
+      "tasty food"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "friendly people",
+    "good": [
+      "There are friendly people in Hue.",
+      "The people in my village are very friendly.",
+      "I met many friendly people on my trip."
+    ],
+    "bad": [
+      "friendly people"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "be famous for its beaches",
+    "good": [
+      "Nha Trang is famous for its beautiful beaches.",
+      "This city is very famous for its clean beaches.",
+      "Da Nang is famous for its long sandy beaches."
+    ],
+    "bad": [
+      "be famous for its beaches"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "capital city",
+    "good": [
+      "Hanoi is the capital city of Viet Nam.",
+      "London is a big capital city.",
+      "Tokyo is the capital city of Japan."
+    ],
+    "bad": [
+      "capital city"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "wear a helmet",
+    "good": [
+      "You must wear a helmet on a motorbike.",
+      "My dad always wears his helmet.",
+      "I wore a new helmet on my bike."
+    ],
+    "bad": [
+      "wear a helmet"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "collect shells",
+    "good": [
+      "I collect shells on the beach.",
+      "My sister collected many shells yesterday.",
+      "We like collecting pretty shells."
+    ],
+    "bad": [
+      "collect shells"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "a rainy day",
+    "good": [
+      "I stay at home on a rainy day.",
+      "It was a cold and rainy day.",
+      "The day was rainy and windy."
+    ],
+    "bad": [
+      "a rainy day"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "a sunny day",
+    "good": [
+      "We went to the beach on a sunny day.",
+      "Today is a hot and sunny day.",
+      "The day was sunny and warm."
+    ],
+    "bad": [
+      "a sunny day"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "a tall building",
+    "good": [
+      "There is a tall building near my school.",
+      "My dad works in a very tall building.",
+      "The building is tall and modern."
+    ],
+    "bad": [
+      "a tall building"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "a town on the coast",
+    "good": [
+      "Hoi An is a small town on the coast.",
+      "We stayed in a beautiful town on the coast.",
+      "My aunt lives in a quiet town on the coast."
+    ],
+    "bad": [
+      "a town on the coast"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "visit a pagoda",
+    "good": [
+      "We visit a pagoda at Tet.",
+      "My family visited an old pagoda in Hanoi.",
+      "I want to visit the One Pillar pagoda."
+    ],
+    "bad": [
+      "visit a pagoda"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "a clean beach",
+    "good": [
+      "My Khe is a clean beach.",
+      "We swam at a very clean beach.",
+      "The beach is clean and quiet."
+    ],
+    "bad": [
+      "a clean beach"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "good weather",
+    "good": [
+      "We have good weather today.",
+      "There was very good weather on our trip.",
+      "The weather is good for a picnic."
+    ],
+    "bad": [
+      "good weather"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "summer holiday",
+    "good": [
+      "I go to the beach on my summer holiday.",
+      "My summer holiday was great.",
+      "We had a long holiday in summer."
+    ],
+    "bad": [
+      "summer holiday"
+    ]
+  },
+  {
+    "unit": "unit-09",
+    "phrase": "a big city",
+    "good": [
+      "I live in a big city.",
+      "Ho Chi Minh City is a very big city.",
+      "The city is big and busy."
+    ],
+    "bad": [
+      "a big city"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "home appliance",
+    "good": [
+      "A fridge is a useful home appliance.",
+      "My mum bought a new home appliance.",
+      "We have many home appliances in our house."
+    ],
+    "bad": [
+      "home appliance"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "live in a hi-tech house",
+    "good": [
+      "In the future, we might live in a hi-tech house.",
+      "My family wants to live in a big hi-tech house.",
+      "Robots will help people living in hi-tech houses."
+    ],
+    "bad": [
+      "live in a hi-tech house"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "use solar energy",
+    "good": [
+      "Many houses use solar energy.",
+      "My school uses solar energy for the lights.",
+      "We used solar energy to cook our food."
+    ],
+    "bad": [
+      "use solar energy"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "use the washing machine",
+    "good": [
+      "My mum uses the washing machine every day.",
+      "I used the washing machine yesterday.",
+      "Can I use your washing machine?"
+    ],
+    "bad": [
+      "use the washing machine"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "load the dishwasher",
+    "good": [
+      "I load the dishwasher after dinner.",
+      "My brother loaded the dishwasher last night.",
+      "Please load the new dishwasher."
+    ],
+    "bad": [
+      "load the dishwasher"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "cook on an electric cooker",
+    "good": [
+      "My mum cooks on an electric cooker every day.",
+      "We cooked noodles on the new electric cooker.",
+      "It is easy to cook soup on an electric cooker."
+    ],
+    "bad": [
+      "cook on an electric cooker"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "wireless TV",
+    "good": [
+      "My future house will have a wireless TV.",
+      "We have a big wireless TV in the living room.",
+      "The TV is wireless and very thin."
+    ],
+    "bad": [
+      "wireless TV"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "do the housework",
+    "good": [
+      "I help my mum do the housework.",
+      "My dad did the housework on Sunday.",
+      "A robot will do all the housework."
+    ],
+    "bad": [
+      "do the housework"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "look after children",
+    "good": [
+      "My grandma looks after children in my family.",
+      "Robots will look after young children.",
+      "My aunt looked after the children yesterday."
+    ],
+    "bad": [
+      "look after children"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "a good location",
+    "good": [
+      "My house is in a good location.",
+      "The hotel has a very good location.",
+      "The location of my school is good."
+    ],
+    "bad": [
+      "a good location"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "live under the ocean",
+    "good": [
+      "I want to live in a house under the ocean.",
+      "Some people may live deep under the ocean in the future.",
+      "Fish and whales live under the big ocean."
+    ],
+    "bad": [
+      "live under the ocean"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "live in space",
+    "good": [
+      "In the future, people may live in space.",
+      "I want to live in space like an astronaut.",
+      "Some scientists lived in space for a year."
+    ],
+    "bad": [
+      "live in space"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "a small cottage",
+    "good": [
+      "My grandparents live in a small cottage.",
+      "We stayed in a very small cottage.",
+      "The cottage is small but warm."
+    ],
+    "bad": [
+      "a small cottage"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "look like a UFO",
+    "good": [
+      "My future house will look like a UFO.",
+      "That building looks like a big UFO.",
+      "The cloud looked like a UFO."
+    ],
+    "bad": [
+      "look like a UFO"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "type of house",
+    "good": [
+      "What type of house do you live in?",
+      "I like this type of house.",
+      "There are many types of house in my town."
+    ],
+    "bad": [
+      "type of house"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "dry clothes",
+    "good": [
+      "This machine can dry clothes.",
+      "My mum dries clothes in the sun.",
+      "We dried our wet clothes by the fire."
+    ],
+    "bad": [
+      "dry clothes"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "a super smart robot",
+    "good": [
+      "My future house will have a super smart robot.",
+      "I want a super smart robot to do my homework.",
+      "Our school has a super smart robot in the library."
+    ],
+    "bad": [
+      "a super smart robot"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "a smart fridge",
+    "good": [
+      "My dream house has a smart fridge in the kitchen.",
+      "A smart fridge can tell us what food to buy.",
+      "We will buy a big smart fridge next year."
+    ],
+    "bad": [
+      "a smart fridge"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "a big smart TV",
+    "good": [
+      "We have a big smart TV.",
+      "My house will have a very big smart TV.",
+      "Our smart TV is big and new."
+    ],
+    "bad": [
+      "a big smart TV"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "live in the countryside",
+    "good": [
+      "My grandparents live in the countryside.",
+      "I would like to live in the quiet countryside.",
+      "We lived in the countryside when I was small."
+    ],
+    "bad": [
+      "live in the countryside"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "travel by helicopter",
+    "good": [
+      "In the future, we can travel by helicopter to school.",
+      "My uncle travelled by helicopter to the island.",
+      "People will travel to work by small helicopter."
+    ],
+    "bad": [
+      "travel by helicopter"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "play outside",
+    "good": [
+      "I play outside after school.",
+      "My brother played outside all day.",
+      "Children should play outside more."
+    ],
+    "bad": [
+      "play outside"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "a home robot",
+    "good": [
+      "I want a home robot.",
+      "My future house will have a smart home robot.",
+      "The robot at my home can cook."
+    ],
+    "bad": [
+      "a home robot"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "live in the mountains",
+    "good": [
+      "My grandparents live in the mountains in a small house.",
+      "Some people live high in the mountains.",
+      "My aunt lived in the mountains for ten years."
+    ],
+    "bad": [
+      "live in the mountains"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "a house by the sea",
+    "good": [
+      "I want to live in a house by the sea.",
+      "My uncle has a big house by the sea.",
+      "There is a small white house by the blue sea."
+    ],
+    "bad": [
+      "a house by the sea"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "fly in the sky",
+    "good": [
+      "Birds fly high in the sky.",
+      "My house of the future can fly in the sky.",
+      "We saw a plane flying in the blue sky."
+    ],
+    "bad": [
+      "fly in the sky"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "live on the Moon",
+    "good": [
+      "In the future, people might live on the Moon.",
+      "I would like to live on the Moon one day.",
+      "Do you think astronauts will live on the Moon?"
+    ],
+    "bad": [
+      "live on the Moon"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "use a computer",
+    "good": [
+      "I use a computer to do my homework.",
+      "My dad used a computer at work.",
+      "Can I use your computer, please?"
+    ],
+    "bad": [
+      "use a computer"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "turn on the electric fan",
+    "good": [
+      "Please turn on the electric fan.",
+      "My mum turned on the electric fan.",
+      "I turn the electric fan on in summer."
+    ],
+    "bad": [
+      "turn on the electric fan"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "set the smart clock",
+    "good": [
+      "I set the smart clock to wake me up.",
+      "My dad set the smart clock last night.",
+      "Can you set my smart clock for six?"
+    ],
+    "bad": [
+      "set the smart clock"
+    ]
+  },
+  {
+    "unit": "unit-10",
+    "phrase": "a small village",
+    "good": [
+      "My grandma lives in a small village.",
+      "I was born in a very small village.",
+      "The village is small and quiet."
+    ],
+    "bad": [
+      "a small village"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "reduce rubbish",
+    "good": [
+      "We should reduce rubbish at school.",
+      "My family reduces rubbish by using cloth bags.",
+      "We reduced our rubbish a lot this year."
+    ],
+    "bad": [
+      "reduce rubbish"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "reuse bottles",
+    "good": [
+      "I reuse bottles for water.",
+      "My mum reuses plastic bottles.",
+      "We reused old bottles as flower pots."
+    ],
+    "bad": [
+      "reuse bottles"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "a piece of paper",
+    "good": [
+      "Please give me a piece of paper to draw on.",
+      "I wrote my name on a small piece of paper.",
+      "Mai folded a piece of old paper into a boat."
+    ],
+    "bad": [
+      "a piece of paper"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "reusable bag",
+    "good": [
+      "I take a reusable bag to the market.",
+      "My mum has a big reusable bag.",
+      "This cloth bag is reusable."
+    ],
+    "bad": [
+      "reusable bag"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "pick up litter",
+    "good": [
+      "We pick up litter in the park every Sunday.",
+      "My class picked up all the litter on the beach.",
+      "Students are picking up litter around the school yard."
+    ],
+    "bad": [
+      "pick up litter"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "put it in the recycling bin",
+    "good": [
+      "After you drink, put it in the recycling bin.",
+      "I put it in the blue recycling bin.",
+      "Don't throw the bottle away, put it in the recycling bin."
+    ],
+    "bad": [
+      "put it in the recycling bin"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "ways to go green",
+    "good": [
+      "There are many ways to go green.",
+      "Let's find easy ways to go green at school.",
+      "Cycling is one of the best ways to go green."
+    ],
+    "bad": [
+      "ways to go green"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "help the environment",
+    "good": [
+      "We can help the environment by planting trees.",
+      "My class helped the environment last week.",
+      "Recycling paper helps our environment."
+    ],
+    "bad": [
+      "help the environment"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "pick up rubbish",
+    "good": [
+      "My dad and I pick up rubbish on the beach.",
+      "We picked up a lot of rubbish yesterday.",
+      "Please pick up the rubbish in the classroom."
+    ],
+    "bad": [
+      "pick up rubbish"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "walk instead of going by car",
+    "good": [
+      "I walk to school instead of going by car.",
+      "We walked to the market instead of going there by car.",
+      "My dad walks to work instead of going by car every day."
+    ],
+    "bad": [
+      "walk instead of going by car"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "a food container",
+    "good": [
+      "I take my lunch in a food container.",
+      "My mum bought a new glass food container.",
+      "This container for food is reusable."
+    ],
+    "bad": [
+      "a food container"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "exchange books",
+    "good": [
+      "We exchange books at school.",
+      "I exchanged old books with my friend.",
+      "Let's exchange our comic books."
+    ],
+    "bad": [
+      "exchange books"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "give to charity",
+    "good": [
+      "We give old clothes to charity.",
+      "My mum gave some toys to charity.",
+      "I want to give my old books to a charity."
+    ],
+    "bad": [
+      "give to charity"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "people in need",
+    "good": [
+      "We give food to people in need.",
+      "We should help poor people in need.",
+      "My school helps people who are in need."
+    ],
+    "bad": [
+      "people in need"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "do a survey about recycling",
+    "good": [
+      "Our class did a survey about recycling.",
+      "We are doing a survey about recycling at school.",
+      "Mai will do a short survey about recycling at home."
+    ],
+    "bad": [
+      "do a survey about recycling"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "a green fair",
+    "good": [
+      "Our school has a green fair in May.",
+      "We went to a big green fair.",
+      "The fair is green and fun."
+    ],
+    "bad": [
+      "a green fair"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "green tips",
+    "good": [
+      "I read some green tips online.",
+      "My teacher gave us many useful green tips.",
+      "Here are some easy green tips for students."
+    ],
+    "bad": [
+      "green tips"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "wrap food",
+    "good": [
+      "We wrap food in banana leaves.",
+      "My mum wrapped the food in paper.",
+      "Don't wrap your food in plastic."
+    ],
+    "bad": [
+      "wrap food"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "use fewer plastic bags",
+    "good": [
+      "We should use fewer plastic bags.",
+      "My family uses fewer plastic bags now.",
+      "I used fewer plastic bags this month."
+    ],
+    "bad": [
+      "use fewer plastic bags"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "reduce noise",
+    "good": [
+      "We should reduce noise in the classroom.",
+      "Trees can reduce noise from the street.",
+      "My school reduced the noise at lunchtime."
+    ],
+    "bad": [
+      "reduce noise"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "club president",
+    "good": [
+      "Lan is our club president.",
+      "My sister is the green club president.",
+      "He became president of the club."
+    ],
+    "bad": [
+      "club president"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "an empty plastic bottle",
+    "good": [
+      "I made a pencil case from an empty plastic bottle.",
+      "There is an empty plastic bottle on the table.",
+      "My brother put an empty plastic bottle in the recycling bin."
+    ],
+    "bad": [
+      "an empty plastic bottle"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "a glass jar",
+    "good": [
+      "I keep my pens in a glass jar.",
+      "My mum put sugar in a small glass jar.",
+      "This jar is made of glass."
+    ],
+    "bad": [
+      "a glass jar"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "recycle paper",
+    "good": [
+      "My class recycles old paper.",
+      "We recycled a lot of paper this month.",
+      "Please recycle your old paper."
+    ],
+    "bad": [
+      "recycle paper"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "old clothes",
+    "good": [
+      "I give my old clothes to charity.",
+      "My mum gave away our old clothes.",
+      "These clothes are old but clean."
+    ],
+    "bad": [
+      "old clothes"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "a reusable shopping bag",
+    "good": [
+      "I always take a reusable shopping bag.",
+      "My mum has a big reusable shopping bag.",
+      "This shopping bag is reusable."
+    ],
+    "bad": [
+      "a reusable shopping bag"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "fresh air",
+    "good": [
+      "I love the fresh air in the countryside.",
+      "Trees give us fresh air.",
+      "The air here is fresh and clean."
+    ],
+    "bad": [
+      "fresh air"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "plant trees",
+    "good": [
+      "We plant trees in the school garden.",
+      "My class planted many trees last week.",
+      "We should plant more trees."
+    ],
+    "bad": [
+      "plant trees"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "cycle to school",
+    "good": [
+      "I cycle to school every day.",
+      "My brother cycled to school yesterday.",
+      "We cycle to our school together."
+    ],
+    "bad": [
+      "cycle to school"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "a green club",
+    "good": [
+      "I joined a green club at school.",
+      "Our school has a very active green club.",
+      "The club is green and helps the environment."
+    ],
+    "bad": [
+      "a green club"
+    ]
+  },
+  {
+    "unit": "unit-11",
+    "phrase": "save electricity",
+    "good": [
+      "We should save electricity at home.",
+      "My family saves electricity by turning off lights.",
+      "We saved a lot of electricity this month."
+    ],
+    "bad": [
+      "save electricity"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "home robot",
+    "good": [
+      "I want a home robot in the future.",
+      "My home robot can cook.",
+      "The robot in my home is very useful."
+    ],
+    "bad": [
+      "home robot"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "help do the dishes",
+    "good": [
+      "My robot can help do the dishes.",
+      "I help my mum do the dishes every evening.",
+      "My brother helped do the dishes yesterday."
+    ],
+    "bad": [
+      "help do the dishes"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "do the washing every week",
+    "good": [
+      "My mum does the washing every week.",
+      "I do the washing every week on Sunday.",
+      "My robot did the washing every week."
+    ],
+    "bad": [
+      "do the washing every week"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "iron clothes",
+    "good": [
+      "My robot can iron clothes.",
+      "My mum irons my clothes every Sunday.",
+      "I ironed my school clothes yesterday."
+    ],
+    "bad": [
+      "iron clothes"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "put away toys",
+    "good": [
+      "I put away my toys after playing.",
+      "My little brother put away his toys.",
+      "Please put your toys away."
+    ],
+    "bad": [
+      "put away toys"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "a washing machine",
+    "good": [
+      "We have a new washing machine at home.",
+      "My mum uses a big washing machine every Sunday.",
+      "The robot can turn on a washing machine for us."
+    ],
+    "bad": [
+      "a washing machine"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "water plants",
+    "good": [
+      "I water plants in the garden.",
+      "My grandma waters the plants every morning.",
+      "I watered the plants yesterday."
+    ],
+    "bad": [
+      "water plants"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "work as a guard",
+    "good": [
+      "My robot can work as a guard.",
+      "My uncle works as a guard at a bank.",
+      "He worked as a guard for ten years."
+    ],
+    "bad": [
+      "work as a guard"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "pick fruit",
+    "good": [
+      "We pick fruit in my grandma's garden.",
+      "My robot can pick fruit from trees.",
+      "We picked some fruit in the farm yesterday."
+    ],
+    "bad": [
+      "pick fruit"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "useful for housework",
+    "good": [
+      "Robots are very useful for housework.",
+      "This new machine is useful for housework.",
+      "A home robot will be really useful for housework."
+    ],
+    "bad": [
+      "useful for housework"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "understand English",
+    "good": [
+      "My robot can understand English very well.",
+      "I understood the English song on the radio.",
+      "Do you understand English when people speak fast?"
+    ],
+    "bad": [
+      "understand English"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "work on the space station",
+    "good": [
+      "Robots can work on the space station.",
+      "Some astronauts are working on the space station now.",
+      "My robot will work on a space station in the future."
+    ],
+    "bad": [
+      "work on the space station"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "a broken machine",
+    "good": [
+      "My dad fixed a broken machine.",
+      "There is an old broken machine in the garage.",
+      "The machine in the kitchen is broken."
+    ],
+    "bad": [
+      "a broken machine"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "another planet",
+    "good": [
+      "I want to live on another planet.",
+      "People will travel to another planet.",
+      "My robot came from another planet."
+    ],
+    "bad": [
+      "another planet"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "measure the height of the robot",
+    "good": [
+      "We measured the height of the robot in class.",
+      "Can you measure the height of this robot?",
+      "Nam is measuring the height of his new robot."
+    ],
+    "bad": [
+      "measure the height of the robot"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "check the weight of the robot",
+    "good": [
+      "Please check the weight of the robot first.",
+      "We checked the weight of the small robot.",
+      "Mai is checking the weight of her new robot."
+    ],
+    "bad": [
+      "check the weight of the robot"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "a low price",
+    "good": [
+      "I bought this robot at a low price.",
+      "The shop sells books at a very low price.",
+      "The price of this robot is low."
+    ],
+    "bad": [
+      "a low price"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "at the age of",
+    "good": [
+      "I started learning English at the age of twelve.",
+      "My sister could cook at the age of twelve.",
+      "At the age of twelve, Nam made his first robot.",
+      "My sister learned to swim at the age of ten."
+    ],
+    "bad": [
+      "at the age of",
+      "It is at the age of."
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "understand our feelings",
+    "good": [
+      "My best friend can understand our feelings.",
+      "Robots will understand our feelings in the future.",
+      "My teacher understood our feelings."
+    ],
+    "bad": [
+      "understand our feelings"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "a smart robot",
+    "good": [
+      "I want a smart robot.",
+      "This is a very smart robot.",
+      "My robot is smart and fast."
+    ],
+    "bad": [
+      "a smart robot"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "a good choice",
+    "good": [
+      "This robot is a good choice.",
+      "You made a very good choice.",
+      "I think your choice is good."
+    ],
+    "bad": [
+      "a good choice"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "repair a machine",
+    "good": [
+      "My robot can repair a machine.",
+      "My dad repaired an old machine.",
+      "He repairs broken machines every day."
+    ],
+    "bad": [
+      "repair a machine"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "heavy things",
+    "good": [
+      "Robots can lift heavy things.",
+      "My dad carries heavy things for my mum.",
+      "Don't carry very heavy things."
+    ],
+    "bad": [
+      "heavy things"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "strong enough to lift a car",
+    "good": [
+      "This robot is strong enough to lift a car.",
+      "My robot is not strong enough to lift a big car.",
+      "Is your robot strong enough to lift a small car?"
+    ],
+    "bad": [
+      "strong enough to lift a car"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "a fast robot",
+    "good": [
+      "I want a fast robot.",
+      "This is a very fast robot.",
+      "My robot is fast and smart."
+    ],
+    "bad": [
+      "a fast robot"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "make meals for the family",
+    "good": [
+      "My mum makes meals for the family.",
+      "My robot will make meals for my family.",
+      "My dad made meals for the family yesterday."
+    ],
+    "bad": [
+      "make meals for the family"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "do household chores",
+    "good": [
+      "My robot can do household chores.",
+      "I do household chores every day.",
+      "My brother did the household chores yesterday."
+    ],
+    "bad": [
+      "do household chores"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "speak a language",
+    "good": [
+      "My robot can speak a language.",
+      "I want to speak a new language.",
+      "My cousin speaks a foreign language."
+    ],
+    "bad": [
+      "speak a language"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "think like humans",
+    "good": [
+      "Robots in the future may think like humans.",
+      "Some smart robots can think just like humans.",
+      "I don't think robots will ever think like humans."
+    ],
+    "bad": [
+      "think like humans"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "in a good mood",
+    "good": [
+      "I am in a good mood today.",
+      "My mum was in a very good mood.",
+      "My robot can put me in a good mood."
+    ],
+    "bad": [
+      "in a good mood"
+    ]
+  },
+  {
+    "unit": "unit-12",
+    "phrase": "helpful around the house",
+    "good": [
+      "My robot is very helpful around the house.",
+      "Home robots will be helpful around the house.",
+      "My little brother is quite helpful around the house."
+    ],
+    "bad": [
+      "helpful around the house"
+    ]
+  }
+]
