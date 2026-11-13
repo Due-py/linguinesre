@@ -9,20 +9,36 @@ import type { AsrWordC } from "./measure";
  */
 const DG_URL = "https://api.deepgram.com/v1/listen?model=nova-3&language=en&punctuate=true&smart_format=false&filler_words=true";
 
+/** Mô hình dự phòng cho lần thử cuối, khi nova-3 đang quá tải hoặc lỗi tạm thời. Cùng các tham số còn lại. */
+const fallbackUrl = (url: string) => url.replace("model=nova-3", "model=nova-2");
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
 /**
- * Gọi Deepgram, thử lại MỘT lần khi lỗi tạm thời (mạng, 429, 5xx). Lỗi do file (400: file hỏng hoặc định dạng lạ) thì không
- * thử lại: trình duyệt sẽ gửi lại bản ghi thô. Mọi lỗi được ghi vào nhật ký máy chủ (Vercel) kèm mã và lời báo của Deepgram.
+ * Gọi Deepgram, thử tối đa 3 lần khi lỗi tạm thời (mạng, quá giờ, 408, 429, 5xx), chờ 0,5 rồi 1,5 giây giữa các lần; lần
+ * cuối dùng mô hình dự phòng nova-2. Lỗi do file (400: file hỏng hoặc định dạng lạ) thì không thử lại: trình duyệt sẽ gửi lại
+ * bản ghi thô. Mọi lỗi được ghi vào nhật ký máy chủ (Vercel) kèm mã và lời báo của Deepgram. Tổng thời gian tối đa ~38 giây,
+ * dưới giới hạn 60 giây của đường gửi bài.
  */
 export async function deepgram(key: string, audio: ArrayBuffer, mime: string, url = DG_URL): Promise<Response | null> {
-  for (let attempt = 1; attempt <= 2; attempt++) {
+  const plan = [
+    { url, wait: 0, timeout: 12_000 },
+    { url, wait: 500, timeout: 12_000 },
+    { url: fallbackUrl(url), wait: 1500, timeout: 12_000 },
+  ];
+  for (let i = 0; i < plan.length; i++) {
+    const { url: u, wait, timeout } = plan[i];
+    if (wait) await sleep(wait);
     try {
-      const res = await fetch(url, { method: "POST", headers: { Authorization: `Token ${key}`, "Content-Type": mime }, body: audio, signal: AbortSignal.timeout(20_000) });
-      if (res.ok) return res;
+      const res = await fetch(u, { method: "POST", headers: { Authorization: `Token ${key}`, "Content-Type": mime }, body: audio, signal: AbortSignal.timeout(timeout) });
+      if (res.ok) {
+        if (i > 0) console.warn("deepgram thành công sau khi thử lại", { attempt: i + 1, fallback: u !== url });
+        return res;
+      }
       const detail = (await res.text().catch(() => "")).slice(0, 300);
-      console.error("deepgram lỗi", { status: res.status, mime, bytes: audio.byteLength, attempt, detail });
-      if (res.status !== 429 && res.status < 500) return null;
+      console.error("deepgram lỗi", { status: res.status, mime, bytes: audio.byteLength, attempt: i + 1, detail });
+      if (res.status !== 408 && res.status !== 429 && res.status < 500) return null;
     } catch (e) {
-      console.error("deepgram lỗi mạng", { mime, bytes: audio.byteLength, attempt, error: String(e) });
+      console.error("deepgram lỗi mạng", { mime, bytes: audio.byteLength, attempt: i + 1, error: String(e) });
     }
   }
   return null;

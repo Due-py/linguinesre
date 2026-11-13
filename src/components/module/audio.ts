@@ -112,6 +112,12 @@ export async function postAudio(url: string, r: Recording): Promise<Record<strin
   try {
     let out = await send(r.blob);
     if (!out.ok && out.data.code === "asr_failed" && r.raw) out = await send(r.raw);
+    // Lỗi chép lời thường chỉ thoáng qua (dịch vụ bận, mạng chập chờn). Máy chủ báo asr_failed nghĩa là CHƯA lưu gì,
+    // nên gửi lại thêm một lần sau 1 giây là an toàn, trước khi bắt học sinh nói lại.
+    if (!out.ok && out.data.code === "asr_failed") {
+      await new Promise((ok) => setTimeout(ok, 1000));
+      out = await send(r.raw ?? r.blob);
+    }
     return out.ok ? out.data : { error: (out.data.error as string | undefined) ?? "Chưa gửi được bản ghi. Hãy nói lại." };
   } catch {
     return { error: "Mất kết nối khi gửi bản ghi. Kiểm tra mạng rồi nói lại." };

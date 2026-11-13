@@ -23,6 +23,8 @@ import { moduleReport } from "@/lib/module/report";
 import ResearchDashboard, { TABS, type TabId } from "@/components/research/ResearchDashboard";
 import { buildDashboard } from "@/lib/research/analysis";
 import { researchSample } from "./researchSample";
+import MockTestRunner from "@/components/MockTestRunner";
+import { checkMockAnswer, mockTestFor } from "@/lib/mockTest";
 
 /**
  * CHỈ DÙNG KHI PHÁT TRIỂN: xem giao diện các trang cần đăng nhập bằng dữ liệu mẫu, khi chưa nối Supabase.
@@ -206,6 +208,16 @@ export default async function Preview({ params, searchParams }: { params: Promis
       return (
         <AppShell name="Xem trước" roleLabel="Nhóm nghiên cứu" homeHref="#" nav={[{ href: "/research", label: "Nghiên cứu" }]} current="/research">
           <ResearchDashboard d={d} tab={tab} filters={{ arm: null, from: null, to: null }} level={showArms ? "key" : "blind"} unblinded={false} sheets={{ configured: true, state: { F1: "not_created", F2: "ok", F3: "not_created", F5: "not_created", F6: "ok", F7: "not_created" }, errors: [] }} />
+        </AppShell>
+      );
+    }
+    case "mock-test": {
+      const t = mockTestFor(8)!;
+      const q = t.questions[0];
+      const said = "I usually go cycling with my friends";
+      return (
+        <AppShell name="Minh Anh" roleLabel="Học sinh" homeHref="#" nav={STUDENT_NAV} current="/student">
+          <MockTestRunner questions={t.questions} initial={{ [q.id]: { transcript: said, checks: checkMockAnswer(said, q) } }} />
         </AppShell>
       );
     }

@@ -14,6 +14,8 @@ import { getParticipant, testState } from "@/lib/research/server";
 import CompanionCard from "@/components/penguin/CompanionCard";
 import { adventureState } from "@/lib/adventure/server";
 import { DAY_INFO } from "@/lib/module/plan";
+import Link from "next/link";
+import { Mic } from "lucide-react";
 import { vnDay } from "@/lib/research/modes";
 import { hasCheckin, listModeSessions, modeAccess, researchSettings, today as vnToday } from "@/lib/research/modeServer";
 
@@ -105,8 +107,25 @@ export default async function StudentPage({ searchParams }: { searchParams: Prom
     })),
   );
 
+  // Bài thi thử nói (giao một lần bằng npm run mocktest:send): thẻ nhắc khi em chưa nộp. RLS: chỉ đọc lời mời của chính em.
+  const { data: mock } = await supabase.from("mock_test_invites").select("completed_at").eq("student_id", profile.id).maybeSingle();
+
   return (
     <AppShell name={profile.displayName ?? ""} roleLabel="Học sinh" homeHref="/student" nav={STUDENT_NAV} current="/student">
+      {mock && !mock.completed_at && (
+        <Link
+          href="/student/thi-thu"
+          className="press mb-8 flex items-center gap-4 rounded-3xl bg-gold-soft px-5 py-4 hover:shadow-card"
+        >
+          <span aria-hidden className="grid size-12 shrink-0 place-items-center rounded-full bg-gold text-ink">
+            <Mic className="size-6" />
+          </span>
+          <span className="grid gap-0.5">
+            <span className="text-lg font-semibold">Bài thi thử nói đang chờ em</span>
+            <span className="text-sm text-muted">10 câu hỏi về các Unit đầu năm, không tính giờ, không có điểm tổng. Bấm để làm bài.</span>
+          </span>
+        </Link>
+      )}
       <StudentHome
         name={profile.displayName ?? ""}
         grade={profile.grade}

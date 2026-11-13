@@ -24,8 +24,8 @@ export default async function KnowledgePage({ params }: { params: Promise<{ modu
     <AppShell name={profile.displayName ?? ""} roleLabel="Học sinh" homeHref="/student" nav={STUDENT_NAV} current="/student/phieu-luu">
       <div className="grid gap-8">
         <div className="grid gap-2">
-          <Link href={`/student/module/${m.id}`} className="inline-flex min-h-11 w-fit items-center text-sm font-bold text-muted hover:text-ink">
-            ← Về module
+          <Link href={`/student/phieu-luu?m=${m.id}`} className="inline-flex min-h-11 w-fit items-center text-sm font-bold text-muted hover:text-ink">
+            ← Về bản đồ
           </Link>
           <h1 className="text-4xl font-extrabold tracking-tight">Kho kiến thức</h1>
           <p className="max-w-prose text-muted">

@@ -3,7 +3,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { BookOpenText, CircleAlert, CircleCheck, Clock, Map as MapIcon, ShieldCheck, TriangleAlert } from "lucide-react";
 import AppShell, { STUDENT_NAV } from "@/components/AppShell";
-import { SubmitButton } from "@/components/form";
 import { ReportView, secs } from "@/components/module/Panels";
 import ModulePath, { phaseOf } from "@/components/module/ModulePath";
 import { Chip, Eyebrow, Progress } from "@/components/ui";
@@ -14,7 +13,6 @@ import { DAY_INFO, errorCounts, median, nextOpenDay } from "@/lib/module/plan";
 import { moduleReport } from "@/lib/module/report";
 import { ERROR_TAGS } from "@/lib/module/schema";
 import { vnDay } from "@/lib/research/modes";
-import { startLesson } from "../actions";
 
 export const metadata: Metadata = { title: "Learning Module" };
 export const dynamic = "force-dynamic";
@@ -119,13 +117,13 @@ export default async function ModulePage({ params, searchParams }: { params: Pro
                 </p>
                 <Progress value={completed.length} max={14} label={`Đã học ${completed.length} trên 14 ngày`} className="bg-surface" />
                 {doneToday && !open && <p className="text-sm text-muted">Hôm nay em đã học một bài. Học tiếp được, nhưng nghỉ đến mai thì nhớ lâu hơn.</p>}
-                <form action={startLesson}>
-                  <input type="hidden" name="moduleId" value={m.id} />
-                  <input type="hidden" name="day" value={nextDay} />
-                  <SubmitButton pendingLabel="Đang chuẩn bị bài…" className="w-full sm:w-auto">
-                    {open ? "Học tiếp bài đang dở" : `Bắt đầu ngày ${nextDay}`}
-                  </SubmitButton>
-                </form>
+                {/* Học tiếp luôn ở bản đồ Hành trình; trang này chỉ để xem lộ trình và kết quả. */}
+                <Link
+                  href={`/student/phieu-luu?m=${m.id}`}
+                  className="press inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-brand px-6 font-medium text-on-brand hover:shadow-card sm:w-fit"
+                >
+                  {open ? "Học tiếp trên bản đồ" : "Tiếp tục trên bản đồ"}
+                </Link>
               </>
             )}
           </article>

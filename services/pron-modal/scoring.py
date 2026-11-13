@@ -210,13 +210,44 @@ EN_PHONES = (
 ).split()
 
 
+# Biến thể của cùng một âm tiếng Anh trong bộ âm của mô hình: bật hơi (kʰ, kh), kéo dài (kː), mềm hóa (kʲ), răng (t̪)...
+# Âm /k/ của người Việt thường KHÔNG bật hơi nên mô hình hay xếp vào "k" của ngôn ngữ khác (c, q, kʲ...). Trước đây các
+# biến thể này bị bỏ hẳn, phần còn lại có thể nghiêng về /t/ nên "k" bị báo là "nghe thành t". Nay gộp chúng vào âm gốc.
+EXTRA_FOLD = {"c": "k", "cʰ": "k", "cː": "k", "q": "k", "qː": "k", "g": "ɡ", "tS": "tʃ", "dZ": "dʒ"}
+_MODIFIERS = "ʰʲːˑ̪̥̬̃.[^ʷ"
+
+
+def fold_target(p: str) -> str | None:
+    """Âm tiếng Anh gốc của một ký hiệu trong bộ âm của mô hình (None nếu không thuộc âm tiếng Anh nào)."""
+    if p in EN_PHONES:
+        return p
+    if p in EXTRA_FOLD:
+        return EXTRA_FOLD[p]
+    base = "".join(ch for ch in p if ch not in _MODIFIERS)
+    if base in EN_PHONES:
+        return base
+    if len(base) >= 2 and base.endswith("h") and base[:-1] in {"p", "t", "k", "tʃ", "ts"}:  # kh, th, ph: cách ghi bật hơi
+        b = base[:-1]
+        return b if b in EN_PHONES else None
+    return EXTRA_FOLD.get(base)
+
+
 def english_only(log_probs: np.ndarray, phone_to_id: dict[str, int], blank: int) -> np.ndarray:
-    """Chuẩn hóa lại xác suất chỉ trên khoảng trống và các âm tiếng Anh (bỏ âm của ngôn ngữ khác)."""
-    keep = [blank] + [phone_to_id[p] for p in EN_PHONES if p in phone_to_id]
-    masked = np.full_like(log_probs, -np.inf)
-    masked[:, keep] = log_probs[:, keep]
-    m = masked.max(axis=1, keepdims=True)
-    return masked - (m + np.log(np.exp(masked - m).sum(axis=1, keepdims=True)))
+    """Chỉ giữ khoảng trống và các âm tiếng Anh. Biến thể của một âm tiếng Anh (kʰ, kh, c, q, tʰ, t̪, kː...) được CỘNG vào
+    âm gốc thay vì bị bỏ; âm của ngôn ngữ khác không thuộc âm tiếng Anh nào thì bỏ. Rồi chuẩn hóa lại."""
+    probs = np.exp(log_probs - log_probs.max(axis=1, keepdims=True))
+    out = np.zeros_like(probs)
+    out[:, blank] = probs[:, blank]
+    for p, i in phone_to_id.items():
+        if i == blank:
+            continue
+        target = fold_target(p)
+        if target is None or target not in phone_to_id:
+            continue
+        out[:, phone_to_id[target]] += probs[:, i]
+    out /= out.sum(axis=1, keepdims=True)
+    with np.errstate(divide="ignore"):
+        return np.log(out)
 
 
 def score_utterance(

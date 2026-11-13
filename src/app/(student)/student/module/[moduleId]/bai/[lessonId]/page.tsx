@@ -17,7 +17,7 @@ export default async function LessonPage({ params }: { params: Promise<{ moduleI
   const { moduleId, lessonId } = await params;
   const lesson = await ownLesson(lessonId, profile.id);
   if (!lesson || lesson.moduleId !== moduleId) notFound();
-  if (lesson.status === "completed") redirect(`/student/module/${moduleId}`);
+  if (lesson.status === "completed") redirect(`/student/phieu-luu?m=${moduleId}`);
   const m = await getModule(moduleId);
   if (!m) notFound();
 

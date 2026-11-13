@@ -123,7 +123,7 @@ export default function StudentHome({ name, grade, classes, joinFailed, module, 
                 <ArrowRight className="size-5" aria-hidden />
               </Link>
               <Link href={`/student/module/${module.id}`} className="inline-flex min-h-11 items-center font-medium text-brand-strong hover:underline">
-                {next === null ? "Xem kết quả Unit" : "Xem lộ trình dạng danh sách"}
+                Xem kết quả Unit
               </Link>
             </div>
           </article>
@@ -170,8 +170,8 @@ export default function StudentHome({ name, grade, classes, joinFailed, module, 
                 id="upcoming"
                 title="Sắp tới"
                 action={
-                  <Link href={`/student/module/${module.id}`} className="inline-flex min-h-11 items-center gap-1 font-medium text-brand hover:underline">
-                    Xem cả lộ trình
+                  <Link href={`/student/phieu-luu?m=${module.id}`} className="inline-flex min-h-11 items-center gap-1 font-medium text-brand hover:underline">
+                    Xem trên bản đồ
                     <ArrowRight className="size-4" aria-hidden />
                   </Link>
                 }

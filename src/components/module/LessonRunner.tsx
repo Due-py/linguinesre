@@ -118,7 +118,7 @@ export default function LessonRunner({
       {/* Kiểu màn hình bài học Duolingo: nút đóng, thanh tiến độ dày có vệt sáng, số bước. */}
       <header className="grid grid-cols-[auto_1fr_auto] items-center gap-3">
         <Link
-          href={`/student/module/${moduleId}`}
+          href={`/student/phieu-luu?m=${moduleId}`}
           aria-label="Thoát"
           className="grid size-11 place-items-center rounded-full text-muted transition-colors hover:bg-sunken hover:text-ink"
         >

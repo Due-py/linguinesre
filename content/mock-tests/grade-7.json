@@ -1,0 +1,78 @@
+{
+  "grade": 7,
+  "title": "Bài thi thử nói lớp 7",
+  "topics": "Hobbies · Healthy Living · Community Service",
+  "note": "Bài thi thử một lần, KHÁC dạng bài kiểm tra nghiên cứu: không tiếng bíp, không giới hạn thời gian, học sinh tự bấm khi sẵn sàng. Nhóm soạn theo Unit 1–3, chưa thầy cô duyệt. Không trùng đề A/B (test tự động kiểm tra).",
+  "questions": [
+    {
+      "id": "q01",
+      "kind": "personal",
+      "unit": 1,
+      "text": "Tell me about a hobby you enjoy in your free time.",
+      "expectsReason": false
+    },
+    {
+      "id": "q02",
+      "kind": "personal",
+      "unit": 2,
+      "text": "How often do you do exercise?",
+      "expectsReason": false
+    },
+    {
+      "id": "q03",
+      "kind": "personal",
+      "unit": 2,
+      "text": "What do you usually eat for breakfast?",
+      "expectsReason": false
+    },
+    {
+      "id": "q04",
+      "kind": "personal",
+      "unit": 3,
+      "text": "Have you ever done any volunteer work?",
+      "expectsReason": false
+    },
+    {
+      "id": "q05",
+      "kind": "reason",
+      "unit": 1,
+      "text": "Why do you enjoy your hobby?",
+      "expectsReason": true
+    },
+    {
+      "id": "q06",
+      "kind": "reason",
+      "unit": 2,
+      "text": "Do you think teenagers should eat more vegetables? Why?",
+      "expectsReason": true
+    },
+    {
+      "id": "q07",
+      "kind": "reason",
+      "unit": 2,
+      "text": "What is the best way to stay healthy? Why?",
+      "expectsReason": true
+    },
+    {
+      "id": "q08",
+      "kind": "reason",
+      "unit": 3,
+      "text": "Which community activity would you like to join? Why?",
+      "expectsReason": true
+    },
+    {
+      "id": "q09",
+      "kind": "situation",
+      "unit": 2,
+      "text": "Your friend often stays up late playing games. What advice can you give him?",
+      "expectsReason": false
+    },
+    {
+      "id": "q10",
+      "kind": "situation",
+      "unit": 3,
+      "text": "Your class wants to help an old people's home. Suggest one activity.",
+      "expectsReason": false
+    }
+  ]
+}

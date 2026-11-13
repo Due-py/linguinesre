@@ -121,8 +121,20 @@ async function main() {
   let noiseFilterOn = false;
   let pronShot = false;
   async function runLesson(day) {
-    await page.goto(`${BASE}/student/module/${mod.id}`);
-    await page.getByRole("button", { name: new RegExp(`^(Bắt đầu ngày ${day}|Học tiếp bài đang dở)$`) }).click();
+    // Bắt đầu nhiệm vụ từ bản đồ Hành trình, như học sinh: bấm nhiệm vụ hiện tại rồi "Bắt đầu / Làm tiếp nhiệm vụ".
+    await page.goto(`${BASE}/student/phieu-luu?m=${mod.id}`);
+    const node = page.locator('button[aria-current="step"]:visible').first();
+    await node.scrollIntoViewIfNeeded();
+    const first = (e) => String(e.message).split(/\r?\n/)[0];
+    await node.click().catch((e) => {
+      throw new Error("không bấm được nhiệm vụ trên bản đồ: " + first(e));
+    });
+    await page
+      .getByRole("button", { name: /^(Bắt đầu nhiệm vụ|Làm tiếp nhiệm vụ)$/ })
+      .click()
+      .catch((e) => {
+        throw new Error("không thấy nút bắt đầu nhiệm vụ: " + first(e));
+      });
     await page.waitForURL(/\/bai\//);
     let shotTaken = 0;
     for (let i = 0; i < 400; i++) {
