@@ -1,4 +1,5 @@
-import { NextResponse, type NextRequest } from "next/server";
+import { after, NextResponse, type NextRequest } from "next/server";
+import { aiGradeAndSave } from "@/lib/mockAiGradeServer";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { takeQuota } from "@/lib/usage";
@@ -56,5 +57,7 @@ export async function POST(request: NextRequest) {
       { onConflict: "student_id,question_id" },
     );
   if (error) return NextResponse.json({ error: "Chưa lưu được câu trả lời. Hãy thử lại." }, { status: 502 });
+  // AI chấm gợi ý cho thầy cô sau khi đã trả kết quả cho học sinh (học sinh không phải chờ, không thấy điểm này).
+  after(() => aiGradeAndSave(user.id, q, asr.transcript));
   return NextResponse.json({ ok: true, transcript: asr.transcript, checks });
 }

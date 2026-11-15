@@ -15,6 +15,8 @@ import { ERROR_TAGS, type ErrorTag } from "@/lib/module/schema";
 
 export const metadata: Metadata = { title: "Chi tiết lớp" };
 export const dynamic = "force-dynamic";
+// Nút "AI chấm các câu còn thiếu" (bài thi thử) gọi AI nhiều lần trong một lượt.
+export const maxDuration = 60;
 
 type MemberRow = {
   student_id: string;

@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ArrowRight, Bot, CheckCircle2 } from "lucide-react";
+import { ArrowLeft, ArrowRight, Bot, CheckCircle2, Sparkles } from "lucide-react";
 import AppShell, { TEACHER_NAV } from "@/components/AppShell";
 import { Chip, Eyebrow } from "@/components/ui";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { mockTestFor, type MockChecks } from "@/lib/mockTest";
 import { qLabel, SCORE_GUIDE } from "@/lib/mockGrading";
+import { RULES, type RuleId } from "@/lib/mockAiGrade";
 import { saveMockReview, setMockScore } from "../actions";
 
 export const metadata: Metadata = { title: "Chấm bài thi thử" };
@@ -35,12 +36,15 @@ export default async function MockGradePage({ params }: { params: Promise<{ id: 
   const me = list.find((m) => m.id === studentId);
   if (!me) notFound();
 
-  const [{ data: invites }, { data: answers }, grades, review] = await Promise.all([
+  const [{ data: invites }, { data: answers }, grades, review, aiRows] = await Promise.all([
     supabase.from("mock_test_invites").select("student_id, grade, completed_at").in("student_id", list.map((m) => m.id)),
     supabase.from("mock_test_answers").select("question_id, transcript, checks, audio_path, updated_at").eq("student_id", studentId),
     supabase.from("mock_test_grades").select("question_id, score").eq("student_id", studentId),
     supabase.from("mock_test_reviews").select("note, done_at").eq("student_id", studentId).maybeSingle(),
+    supabase.from("mock_test_ai_grades").select("question_id, score, rule, judgement, model").eq("student_id", studentId),
   ]);
+  type AiRow = { question_id: string; score: number; rule: RuleId; judgement: { note_vi?: string; evidence?: string } | null; model: string };
+  const aiBy = new Map(((aiRows.error ? [] : aiRows.data) as AiRow[] | null ?? []).map((r) => [r.question_id, r]));
   const invited = (invites ?? []).filter((i) => list.some((m) => m.id === i.student_id));
   const mine = invited.find((i) => i.student_id === studentId);
   const order = list.filter((m) => invited.some((i) => i.student_id === m.id));
@@ -77,7 +81,8 @@ export default async function MockGradePage({ params }: { params: Promise<{ id: 
               <Chip tone={mine.completed_at ? "green" : "yellow"}>{mine.completed_at ? `Đã nộp ${dateFmt.format(new Date(mine.completed_at))}` : "Chưa nộp"}</Chip>
             )}
             <Chip tone="grey">Đã nói {byQ.size}/10 câu</Chip>
-            <Chip tone="grey">Đã chấm {score.size}/10 câu</Chip>
+            <Chip tone="grey">AI chấm {aiBy.size}/10 câu</Chip>
+            <Chip tone="grey">Thầy cô chấm {score.size}/10 câu</Chip>
             {done && (
               <Chip tone="green" icon={<CheckCircle2 className="size-4" aria-hidden />}>
                 Đã chấm xong
@@ -110,6 +115,7 @@ export default async function MockGradePage({ params }: { params: Promise<{ id: 
                 const c = (a?.checks ?? null) as MockChecks | null;
                 const cur = score.get(q.id);
                 const url = a?.audio_path ? urls.get(a.audio_path) : undefined;
+                const ai = aiBy.get(q.id);
                 return (
                   <li key={q.id} id={q.id} className="grid gap-4 rounded-3xl border border-line p-5 lg:grid-cols-[1fr_16rem]">
                     <div className="grid content-start gap-3">
@@ -144,12 +150,26 @@ export default async function MockGradePage({ params }: { params: Promise<{ id: 
                           )}
                         </>
                       )}
+                      {ai && (
+                        <div className="grid gap-1 rounded-2xl border border-dashed border-line-strong px-4 py-3 text-sm">
+                          <span className="inline-flex items-center gap-1.5 font-medium">
+                            <Sparkles className="size-4 text-brand" aria-hidden />
+                            AI chấm gợi ý: {ai.score} điểm · {ai.rule}: {RULES[ai.rule]?.vi}
+                          </span>
+                          {ai.judgement?.note_vi && <span>{ai.judgement.note_vi}</span>}
+                          {ai.judgement?.evidence && (
+                            <span className="text-muted">
+                              Trích lời em: “<span lang="en">{ai.judgement.evidence}</span>”
+                            </span>
+                          )}
+                        </div>
+                      )}
                     </div>
                     <form action={setMockScore} className="grid content-start gap-2">
                       <input type="hidden" name="classId" value={id} />
                       <input type="hidden" name="studentId" value={studentId} />
                       <input type="hidden" name="qid" value={q.id} />
-                      <span className="text-sm font-medium">Thầy cô chấm</span>
+                      <span className="text-sm font-medium">{cur !== undefined ? "Thầy cô đã chấm" : ai ? `Đang dùng điểm AI (${ai.score}), bấm để chấm lại` : "Thầy cô chấm"}</span>
                       <div className="grid grid-cols-3 gap-2" role="group" aria-label={`Điểm ${qLabel(q.id)}`}>
                         {[0, 1, 2].map((k) => (
                           <button
@@ -158,7 +178,7 @@ export default async function MockGradePage({ params }: { params: Promise<{ id: 
                             value={String(k)}
                             aria-pressed={cur === k}
                             title={SCORE_GUIDE[k as 0 | 1 | 2]}
-                            className={`min-h-12 rounded-2xl text-lg font-semibold tabular-nums ${cur === k ? SCORE_ON[k] : "border border-line hover:bg-tint"}`}
+                            className={`min-h-12 rounded-2xl text-lg font-semibold tabular-nums ${cur === k ? SCORE_ON[k] : cur === undefined && ai?.score === k ? "border-2 border-dashed border-line-strong" : "border border-line hover:bg-tint"}`}
                           >
                             {k}
                           </button>
@@ -166,7 +186,7 @@ export default async function MockGradePage({ params }: { params: Promise<{ id: 
                       </div>
                       {cur !== undefined && (
                         <button name="score" value="clear" className="min-h-11 w-fit text-sm text-muted underline hover:text-ink">
-                          Bỏ điểm câu này
+                          {ai ? "Bỏ điểm thầy cô, dùng lại điểm AI" : "Bỏ điểm câu này"}
                         </button>
                       )}
                     </form>
@@ -182,7 +202,7 @@ export default async function MockGradePage({ params }: { params: Promise<{ id: 
                 Nhận xét ngắn (không bắt buộc)
               </label>
               <textarea id="note" name="note" maxLength={500} rows={3} defaultValue={review.data?.note ?? ""} className="rounded-2xl border border-line p-3" placeholder="Ví dụ: Trả lời đủ ý, cần nêu lý do rõ hơn ở câu Why." />
-              <p className="text-sm text-muted">Đạt 2 điểm: {[...score.values()].filter((v) => v === 2).length}/10 câu. Trang web không cộng điểm tổng; file Excel tải về có cột tổng /20.</p>
+              <p className="text-sm text-muted">Đạt 2 điểm: {test.questions.filter((q) => (score.get(q.id) ?? aiBy.get(q.id)?.score) === 2).length}/10 câu (điểm thầy cô, câu chưa chấm lấy điểm AI). Trang web không cộng điểm tổng; file Excel tải về có cột tổng /20.</p>
               <div className="flex flex-wrap gap-2">
                 <button name="done" value="1" className="inline-flex min-h-11 items-center gap-2 rounded-full bg-brand px-5 font-medium text-on-brand hover:bg-brand-strong">
                   <CheckCircle2 className="size-4" aria-hidden />

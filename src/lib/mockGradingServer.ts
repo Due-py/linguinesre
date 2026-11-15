@@ -11,11 +11,12 @@ export async function loadClassMock(ids: string[]): Promise<{ missing: boolean; 
   const reviews = new Map<string, { note: string | null; done: boolean }>();
   if (!ids.length) return { missing: false, byStudent, reviews };
   const supabase = await createClient();
-  const [inv, ans, grades, rev] = await Promise.all([
+  const [inv, ans, grades, rev, ai] = await Promise.all([
     supabase.from("mock_test_invites").select("student_id, completed_at").in("student_id", ids),
     supabase.from("mock_test_answers").select("student_id, question_id").in("student_id", ids),
     supabase.from("mock_test_grades").select("student_id, question_id, score").in("student_id", ids),
     supabase.from("mock_test_reviews").select("student_id, note, done_at").in("student_id", ids),
+    supabase.from("mock_test_ai_grades").select("student_id, question_id, score").in("student_id", ids),
   ]);
   if (inv.error || ans.error || grades.error || rev.error) return { missing: true, byStudent, reviews };
   const invited = new Map((inv.data ?? []).map((r) => [r.student_id as string, r.completed_at as string | null]));
@@ -28,6 +29,8 @@ export async function loadClassMock(ids: string[]): Promise<{ missing: boolean; 
         completedAt: invited.get(id) ?? null,
         answeredQids: (ans.data ?? []).filter((a) => a.student_id === id).map((a) => a.question_id),
         grades: (grades.data ?? []).filter((g) => g.student_id === id),
+        // Chưa chạy 0019 thì chưa có điểm AI: vẫn chấm tay bình thường.
+        aiGrades: ai.error ? [] : (ai.data ?? []).filter((g) => g.student_id === id),
         reviewDone: reviews.get(id)?.done ?? false,
       }),
     );

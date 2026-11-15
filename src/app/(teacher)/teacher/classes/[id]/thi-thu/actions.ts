@@ -4,6 +4,8 @@ import { revalidatePath } from "next/cache";
 import { createClient } from "@/lib/supabase/server";
 import { isSupabaseConfigured } from "@/lib/supabase/env";
 import { MOCK_QIDS } from "@/lib/mockGrading";
+import { mockTestFor } from "@/lib/mockTest";
+import { aiGradeAndSave } from "@/lib/mockAiGradeServer";
 
 const UUID = /^[0-9a-f-]{36}$/;
 
@@ -55,4 +57,36 @@ export async function saveMockReview(formData: FormData) {
     .from("mock_test_reviews")
     .upsert({ student_id: studentId, note: note || null, done_at: done ? now : null, reviewed_by: ctx.userId, updated_at: now }, { onConflict: "student_id" });
   refresh(classId, studentId);
+}
+
+/**
+ * AI chấm các câu của lớp chưa có điểm AI (câu làm trước khi bật AI chấm, hoặc lần chấm trước bị lỗi), hay lời máy chép đã
+ * đổi vì em nói lại. Mỗi lần bấm tối đa 60 câu. Đọc bằng quyền giáo viên (RLS), ghi điểm AI bằng khóa quản trị ở máy chủ.
+ */
+export async function aiGradeMissing(formData: FormData) {
+  const classId = String(formData.get("classId") ?? "");
+  if (!UUID.test(classId)) return;
+  const ctx = await teacher();
+  if (!ctx) return;
+  const { data: cls } = await ctx.supabase.from("classes").select("id").eq("id", classId).maybeSingle();
+  if (!cls) return;
+  const { data: members } = await ctx.supabase.from("class_members").select("student_id").eq("class_id", classId);
+  const ids = (members ?? []).map((m) => m.student_id as string);
+  if (!ids.length) return;
+  const [{ data: answers }, { data: done }] = await Promise.all([
+    ctx.supabase.from("mock_test_answers").select("student_id, grade, question_id, transcript").in("student_id", ids),
+    ctx.supabase.from("mock_test_ai_grades").select("student_id, question_id, transcript").in("student_id", ids),
+  ]);
+  const have = new Map((done ?? []).map((d) => [`${d.student_id}:${d.question_id}`, d.transcript as string | null]));
+  const todo = (answers ?? [])
+    .filter((a) => typeof a.transcript === "string" && have.get(`${a.student_id}:${a.question_id}`) !== a.transcript)
+    .slice(0, 60);
+  for (let i = 0; i < todo.length; i += 6)
+    await Promise.all(
+      todo.slice(i, i + 6).map((a) => {
+        const q = mockTestFor(a.grade)?.questions.find((x) => x.id === a.question_id);
+        return q ? aiGradeAndSave(a.student_id, q, a.transcript as string) : null;
+      }),
+    );
+  revalidatePath(`/teacher/classes/${classId}`);
 }

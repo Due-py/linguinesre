@@ -1,5 +1,6 @@
 /**
  * Chấm bài thi thử nói ở trang giáo viên. File thuần (không gọi cơ sở dữ liệu) để kiểm thử được.
+ * Điểm từng câu = điểm thầy cô nếu đã chấm, không thì điểm AI gợi ý (xem mockAiGrade.ts).
  * Thang chấm mỗi câu: 2 = đúng ý, thành câu, câu "Why" có lý do · 1 = đúng ý nhưng ngắn / thiếu lý do · 0 = không trả lời,
  * không nghe rõ, lạc đề hoặc đọc lại câu hỏi. KHÔNG cộng điểm tổng (nguyên tắc sản phẩm): chỉ đếm số câu đạt 2.
  */
@@ -25,8 +26,13 @@ export type StudentMock = {
   answered: number;
   /** Các câu em đã nói (có bản ghi). */
   said: string[];
+  /** Điểm cuối từng câu: điểm thầy cô nếu có, không thì điểm AI. */
   scores: Record<string, number>;
+  /** Nguồn điểm từng câu. */
+  source: Record<string, "teacher" | "ai">;
   graded: number;
+  /** Số câu thầy cô đã tự chấm (đè điểm AI). */
+  byTeacher: number;
   full: number;
   submittedAt: string | null;
 };
@@ -36,12 +42,24 @@ export function studentMock(input: {
   completedAt: string | null;
   answeredQids: string[];
   grades: { question_id: string; score: number }[];
+  aiGrades?: { question_id: string; score: number }[];
   reviewDone: boolean;
 }): StudentMock {
   const said = MOCK_QIDS.filter((q) => input.answeredQids.includes(q));
   const answered = said.length;
   const scores: Record<string, number> = {};
-  for (const g of input.grades) if (MOCK_QIDS.includes(g.question_id)) scores[g.question_id] = g.score;
+  const source: Record<string, "teacher" | "ai"> = {};
+  for (const g of input.aiGrades ?? [])
+    if (MOCK_QIDS.includes(g.question_id)) {
+      scores[g.question_id] = g.score;
+      source[g.question_id] = "ai";
+    }
+  for (const g of input.grades)
+    if (MOCK_QIDS.includes(g.question_id)) {
+      scores[g.question_id] = g.score;
+      source[g.question_id] = "teacher";
+    }
+  const byTeacher = Object.values(source).filter((v) => v === "teacher").length;
   const graded = Object.keys(scores).length;
   const full = Object.values(scores).filter((s) => s === 2).length;
   const status: MockStatus = !input.invited
@@ -53,7 +71,7 @@ export function studentMock(input: {
         : answered > 0
           ? "in_progress"
           : "not_started";
-  return { status, answered, said, scores, graded, full, submittedAt: input.completedAt };
+  return { status, answered, said, scores, source, graded, byTeacher, full, submittedAt: input.completedAt };
 }
 
 /** Theo từng câu, cả lớp: bao nhiêu bạn được 2, 1, 0 (chỉ tính câu đã chấm). */

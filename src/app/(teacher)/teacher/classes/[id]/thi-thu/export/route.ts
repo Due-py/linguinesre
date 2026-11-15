@@ -12,7 +12,7 @@ const cell = (v: unknown) => {
 };
 
 /**
- * Bảng điểm thi thử nói của một lớp (CSV có BOM, mở thẳng bằng Excel). Cột Tổng /20 chỉ có trong file này để thầy cô dùng
+ * Bảng điểm thi thử nói (điểm thầy cô; câu thầy cô chưa chấm lấy điểm AI) của một lớp (CSV có BOM, mở thẳng bằng Excel). Cột Tổng /20 chỉ có trong file này để thầy cô dùng
  * riêng; trang web không cộng điểm tổng. RLS: chỉ học sinh trong lớp của giáo viên đang đăng nhập.
  */
 export async function GET(_req: Request, { params }: { params: Promise<{ id: string }> }) {
@@ -34,12 +34,12 @@ export async function GET(_req: Request, { params }: { params: Promise<{ id: str
   const { missing, byStudent, reviews } = await loadClassMock(list.map((m) => m.id));
   if (missing) return NextResponse.json({ error: "Cần chạy migration 0018 trước." }, { status: 409 });
 
-  const header = ["STT", "Họ tên", "Lớp", "Khối", "Trạng thái", "Câu đã nói (/10)", ...MOCK_QIDS.map(qLabel), "Số câu đã chấm", "Đạt 2 điểm (/10)", "Tổng (/20)", "Nhận xét"];
+  const header = ["STT", "Họ tên", "Lớp", "Khối", "Trạng thái", "Câu đã nói (/10)", ...MOCK_QIDS.map(qLabel), "Số câu có điểm", "Câu thầy cô chấm", "Câu AI chấm", "Đạt 2 điểm (/10)", "Tổng (/20)", "Nhận xét"];
   const rows = list.map((m, i) => {
     const s = byStudent.get(m.id)!;
     const sc = MOCK_QIDS.map((q) => s.scores[q]);
     const total = s.graded ? sc.reduce<number>((n, v) => n + (v ?? 0), 0) : null;
-    return [i + 1, m.name, cls.name, m.grade, STATUS_LABEL[s.status], s.answered, ...sc, s.graded, s.full, total, reviews.get(m.id)?.note ?? ""];
+    return [i + 1, m.name, cls.name, m.grade, STATUS_LABEL[s.status], s.answered, ...sc, s.graded, s.byTeacher, s.graded - s.byTeacher, s.full, total, reviews.get(m.id)?.note ?? ""];
   });
   const body = "﻿" + [header, ...rows].map((r) => r.map(cell).join(",")).join("\r\n") + "\r\n";
   const file = `${cls.name.replace(/[^\p{L}\p{N}]+/gu, "-")}-thi-thu-noi.csv`;
