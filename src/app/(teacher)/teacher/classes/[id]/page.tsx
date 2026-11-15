@@ -6,6 +6,7 @@ import AppShell, { TEACHER_NAV } from "@/components/AppShell";
 import { ClassStatusForm, RemoveMemberForm, RenameClassForm, ResetPasswordForm } from "@/components/ClassForms";
 import CopyCode from "@/components/CopyCode";
 import ClassSkills from "@/components/adventure/ClassSkills";
+import MockTestClass from "@/components/MockTestClass";
 import { Chip, Eyebrow, Progress, SectionHead, Stat } from "@/components/ui";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
@@ -25,9 +26,10 @@ const dateFmt = new Intl.DateTimeFormat("vi-VN", { day: "numeric", month: "numer
 const shortFmt = new Intl.DateTimeFormat("vi-VN", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit", timeZone: "Asia/Ho_Chi_Minh" });
 const secs = (ms: number) => `${(ms / 1000).toFixed(1).replace(".", ",")} giây`;
 
-export default async function ClassPage({ params }: { params: Promise<{ id: string }> }) {
+export default async function ClassPage({ params, searchParams }: { params: Promise<{ id: string }>; searchParams: Promise<{ thithu?: string }> }) {
   const profile = await requireRole("teacher");
   const { id } = await params;
+  const { thithu } = await searchParams;
   if (!/^[0-9a-f-]{36}$/.test(id)) notFound();
 
   // RLS: lớp của giáo viên khác không trả về dòng nào, nên trang báo "không tìm thấy".
@@ -284,6 +286,8 @@ export default async function ClassPage({ params }: { params: Promise<{ id: stri
             </section>
           </aside>
         </div>
+
+        <MockTestClass classId={cls.id} students={rows.map((r) => ({ id: r.id, name: r.name }))} onlyToGrade={thithu === "cho-cham"} />
 
         {rows.length > 0 && (
           <section aria-labelledby="units" className="grid gap-4">
